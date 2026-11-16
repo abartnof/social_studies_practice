@@ -932,7 +932,7 @@ export function DomainReceipt({
               fontFamily: 'inherit',
               fontSize: '0.96rem',
               fontWeight: 700,
-              color: 'var(--accent-crimson)',
+              color: '#FFFFFF',
               cursor: 'pointer',
             }}
           >
