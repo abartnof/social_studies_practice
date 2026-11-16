@@ -1,0 +1,2220 @@
+[
+  {
+    "id": "econ-ded-201",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1890",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 52.2053,
+      "lng": 0.1218,
+      "label": "Cambridge, United Kingdom"
+    },
+    "prompt": "Identify this British neoclassical economist.",
+    "clues": [
+      "This Cambridge professor helped unify classical cost theory and marginal utility.",
+      "He compared supply and demand to the two blades of a pair of scissors.",
+      "His 1890 textbook 'Principles of Economics' popularized the modern supply-demand graph."
+    ],
+    "options": [
+      { "id": "a", "text": "Alfred Marshall" },
+      { "id": "b", "text": "Adam Smith" },
+      { "id": "c", "text": "John Maynard Keynes" },
+      { "id": "d", "text": "David Ricardo" }
+    ],
+    "answer": "a",
+    "explanation": "Alfred Marshall's 1890 'Principles of Economics' established the standard supply-and-demand framework still taught today.",
+    "source_url": "https://www.britannica.com/money/Alfred-Marshall",
+    "trap_notes": {
+      "b": "Adam Smith wrote 'The Wealth of Nations' in 1776, over a century earlier.",
+      "c": "Keynes was Marshall's student who later founded macroeconomics in the 1930s.",
+      "d": "David Ricardo developed comparative advantage in 1817.",
+      "default": "Alfred Marshall popularized the supply-and-demand scissors model in 1890."
+    }
+  },
+  {
+    "id": "econ-ded-202",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1944",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "label": "Vienna, Austria"
+    },
+    "prompt": "Identify this Austrian-born Nobel economist.",
+    "clues": [
+      "This thinker argued that market prices coordinate knowledge dispersed across millions of people.",
+      "He warned that central economic planning threatens both efficiency and individual liberty.",
+      "He won the 1974 Nobel Prize and wrote the 1944 classic 'The Road to Serfdom'."
+    ],
+    "options": [
+      { "id": "a", "text": "Karl Marx" },
+      { "id": "b", "text": "Friedrich Hayek" },
+      { "id": "c", "text": "John Kenneth Galbraith" },
+      { "id": "d", "text": "Paul Samuelson" }
+    ],
+    "answer": "b",
+    "explanation": "Friedrich Hayek defended market price signals and warned against central planning in 'The Road to Serfdom' (1944).",
+    "source_url": "https://www.britannica.com/money/F-A-Hayek",
+    "trap_notes": {
+      "a": "Karl Marx advocated abolishing private capital in the 19th century.",
+      "c": "John Kenneth Galbraith favored active government regulation and public spending.",
+      "d": "Paul Samuelson was an American Keynesian synthesizer.",
+      "default": "Friedrich Hayek wrote 'The Road to Serfdom' and championed market price signals."
+    }
+  },
+  {
+    "id": "econ-ded-203",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "2009",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "label": "Bloomington, Indiana"
+    },
+    "prompt": "Identify this Nobel Prize-winning political economist.",
+    "clues": [
+      "This scholar studied how local communities manage shared forests, fisheries, and irrigation.",
+      "She challenged the claim that common resources must be privatized or run by central states.",
+      "In 2009, she became the first woman to win the Nobel Memorial Prize in Economics."
+    ],
+    "options": [
+      { "id": "a", "text": "Joan Robinson" },
+      { "id": "b", "text": "Janet Yellen" },
+      { "id": "c", "text": "Elinor Ostrom" },
+      { "id": "d", "text": "Esther Duflo" }
+    ],
+    "answer": "c",
+    "explanation": "Elinor Ostrom won the 2009 Nobel Prize for showing how self-governing communities sustainably manage common-pool resources.",
+    "source_url": "https://www.britannica.com/money/Elinor-Ostrom",
+    "trap_notes": {
+      "a": "Joan Robinson was a 20th-century Cambridge economist known for imperfect competition.",
+      "b": "Janet Yellen served as Federal Reserve Chair and Treasury Secretary.",
+      "d": "Esther Duflo won the Nobel Prize in 2019 for development experiments.",
+      "default": "Elinor Ostrom won the 2009 Nobel Prize for research on governing the commons."
+    }
+  },
+  {
+    "id": "econ-ded-204",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "2014-2025",
+    "skill_tag": "chronology",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this American economist and policymaker.",
+    "clues": [
+      "This labor economist previously taught at UC Berkeley and led the San Francisco Fed.",
+      "In 2014, she became the first woman to chair the Federal Reserve Board of Governors.",
+      "She later served as U.S. Secretary of the Treasury starting in 2021."
+    ],
+    "options": [
+      { "id": "a", "text": "Christine Lagarde" },
+      { "id": "b", "text": "Jerome Powell" },
+      { "id": "c", "text": "Paul Volcker" },
+      { "id": "d", "text": "Janet Yellen" }
+    ],
+    "answer": "d",
+    "explanation": "Janet Yellen chaired the Federal Reserve from 2014 to 2018 and later became U.S. Treasury Secretary in 2021.",
+    "source_url": "https://www.britannica.com/money/Janet-Yellen",
+    "trap_notes": {
+      "a": "Christine Lagarde led the IMF and the European Central Bank.",
+      "b": "Jerome Powell succeeded Janet Yellen as Federal Reserve Chair in 2018.",
+      "c": "Paul Volcker chaired the Federal Reserve from 1979 to 1987.",
+      "default": "Janet Yellen was the first woman to lead the Federal Reserve."
+    }
+  },
+  {
+    "id": "econ-ded-205",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1791",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York, New York"
+    },
+    "prompt": "Identify this early American economic architect.",
+    "clues": [
+      "This founder authored influential 1790s reports on public credit and manufacturing.",
+      "He pushed Congress to assume state Revolutionary War debts to build national credit.",
+      "As the first U.S. Treasury Secretary, he championed the First Bank of the United States."
+    ],
+    "options": [
+      { "id": "a", "text": "Alexander Hamilton" },
+      { "id": "b", "text": "Thomas Jefferson" },
+      { "id": "c", "text": "Andrew Jackson" },
+      { "id": "d", "text": "Henry Clay" }
+    ],
+    "answer": "a",
+    "explanation": "Alexander Hamilton designed early U.S. public finance, debt assumption, and the First Bank of the United States.",
+    "source_url": "https://www.britannica.com/biography/Alexander-Hamilton-United-States-statesman",
+    "trap_notes": {
+      "b": "Thomas Jefferson opposed the national bank and favored an agrarian economy.",
+      "c": "Andrew Jackson vetoed the recharter of the Second Bank of the United States.",
+      "d": "Henry Clay promoted the American System in the early 1800s.",
+      "default": "Alexander Hamilton was the first U.S. Treasury Secretary."
+    }
+  },
+  {
+    "id": "econ-ded-206",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "2006-2014",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this Federal Reserve Chair and Nobel laureate.",
+    "clues": [
+      "This scholar studied how bank failures deepened the Great Depression of the 1930s.",
+      "He led the Federal Reserve during the 2008 global financial crisis using emergency lending.",
+      "He won the 2022 Nobel Memorial Prize in Economics for research on banking crises."
+    ],
+    "options": [
+      { "id": "a", "text": "Alan Greenspan" },
+      { "id": "b", "text": "Ben Bernanke" },
+      { "id": "c", "text": "Arthur Burns" },
+      { "id": "d", "text": "Irving Fisher" }
+    ],
+    "answer": "b",
+    "explanation": "Ben Bernanke chaired the Fed from 2006 to 2014 and won the 2022 Nobel Prize for banking-crisis research.",
+    "source_url": "https://www.federalreservehistory.org/people/ben-s-bernanke",
+    "trap_notes": {
+      "a": "Alan Greenspan chaired the Federal Reserve from 1987 to 2006.",
+      "c": "Arthur Burns led the Federal Reserve during the 1970s stagflation.",
+      "d": "Irving Fisher was an early 20th-century Yale economist.",
+      "default": "Ben Bernanke led the Fed through 2008 and won the 2022 Nobel Prize."
+    }
+  },
+  {
+    "id": "econ-ded-207",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1944-present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.899,
+      "lng": -77.0424,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this international development institution.",
+    "clues": [
+      "This multilateral lender was created at the 1944 Bretton Woods Conference.",
+      "Its primary mission is financing long-term infrastructure and poverty reduction projects.",
+      "Headquartered in Washington, D.C., it works alongside the IMF to aid developing nations."
+    ],
+    "options": [
+      { "id": "a", "text": "World Trade Organization" },
+      { "id": "b", "text": "European Central Bank" },
+      { "id": "c", "text": "World Bank" },
+      { "id": "d", "text": "Federal Reserve Bank" }
+    ],
+    "answer": "c",
+    "explanation": "Founded in 1944, the World Bank provides long-term loans and grants for development and infrastructure in poorer nations.",
+    "source_url": "https://www.worldbank.org/en/about/history",
+    "trap_notes": {
+      "a": "The World Trade Organization sets global trade rules and settles disputes.",
+      "b": "The European Central Bank manages the euro currency in Frankfurt.",
+      "d": "The Federal Reserve is the central bank of the United States.",
+      "default": "The World Bank funds long-term development projects in developing countries."
+    }
+  },
+  {
+    "id": "econ-ded-208",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1935-present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this key U.S. monetary policymaking body.",
+    "clues": [
+      "This body meets eight times a year to review U.S. inflation and employment trends.",
+      "It includes seven Federal Reserve governors and five rotating regional bank presidents.",
+      "It votes on open-market operations and sets the target federal funds interest rate."
+    ],
+    "options": [
+      { "id": "a", "text": "House Ways and Means Committee" },
+      { "id": "b", "text": "Council of Economic Advisers" },
+      { "id": "c", "text": "Office of Management and Budget" },
+      { "id": "d", "text": "Federal Open Market Committee" }
+    ],
+    "answer": "d",
+    "explanation": "The Federal Open Market Committee (FOMC) is the Fed's 12-member policymaking arm that sets target interest rates.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+    "trap_notes": {
+      "a": "Ways and Means is the House of Representatives tax-writing committee.",
+      "b": "The Council of Economic Advisers advises the President, not Fed rate votes.",
+      "c": "OMB prepares the President's annual federal budget proposal.",
+      "default": "The FOMC sets the target federal funds rate eight times a year."
+    }
+  },
+  {
+    "id": "econ-ded-209",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "era": "2010-present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0315,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this U.S. consumer financial watchdog agency.",
+    "clues": [
+      "Congress created this independent agency in 2010 following the subprime mortgage crisis.",
+      "It writes rules and handles complaints for credit cards, auto loans, and student debt.",
+      "Its name is the Consumer Financial Protection Bureau."
+    ],
+    "options": [
+      { "id": "a", "text": "Consumer Financial Protection Bureau" },
+      { "id": "b", "text": "Internal Revenue Service" },
+      { "id": "c", "text": "Bureau of Labor Statistics" },
+      { "id": "d", "text": "Small Business Administration" }
+    ],
+    "answer": "a",
+    "explanation": "Created under the 2010 Dodd-Frank Act, the CFPB enforces federal consumer protection laws in financial markets.",
+    "source_url": "https://www.consumerfinance.gov/about-us/the-bureau/",
+    "trap_notes": {
+      "b": "The IRS collects federal taxes and enforces tax law.",
+      "c": "The BLS measures unemployment, wages, and the Consumer Price Index.",
+      "d": "The SBA supports small businesses with loans and counseling.",
+      "default": "The CFPB protects consumers in mortgage, credit card, and loan markets."
+    }
+  },
+  {
+    "id": "econ-ded-210",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "era": "1914",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this 1914 U.S. antitrust statute.",
+    "clues": [
+      "Congress passed this law in 1914 to strengthen the earlier Sherman Antitrust Act.",
+      "It barred price discrimination, interlocking directorates, and anti-competitive mergers.",
+      "It also explicitly exempted labor unions from being prosecuted as illegal monopolies."
+    ],
+    "options": [
+      { "id": "a", "text": "Smoot-Hawley Tariff Act" },
+      { "id": "b", "text": "Clayton Antitrust Act" },
+      { "id": "c", "text": "Glass-Steagall Act" },
+      { "id": "d", "text": "Taft-Hartley Act" }
+    ],
+    "answer": "b",
+    "explanation": "The 1914 Clayton Antitrust Act targeted specific anti-competitive practices and protected labor unions from antitrust suits.",
+    "source_url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/antitrust-laws",
+    "trap_notes": {
+      "a": "Smoot-Hawley raised U.S. import tariffs sharply in 1930.",
+      "c": "Glass-Steagall separated commercial and investment banking in 1933.",
+      "d": "The 1947 Taft-Hartley Act restricted certain labor union practices.",
+      "default": "The 1914 Clayton Antitrust Act strengthened U.S. competition law."
+    }
+  },
+  {
+    "id": "econ-ded-211",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "era": "1914-present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8933,
+      "lng": -77.0209,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this federal competition and consumer agency.",
+    "clues": [
+      "President Woodrow Wilson signed the 1914 law establishing this five-member commission.",
+      "It shares federal antitrust merger review duties with the U.S. Justice Department.",
+      "It also polices false advertising, telemarketing scams, and deceptive business claims."
+    ],
+    "options": [
+      { "id": "a", "text": "Securities and Exchange Commission" },
+      { "id": "b", "text": "Federal Deposit Insurance Corporation" },
+      { "id": "c", "text": "Federal Trade Commission" },
+      { "id": "d", "text": "Department of Agriculture" }
+    ],
+    "answer": "c",
+    "explanation": "Founded in 1914, the Federal Trade Commission (FTC) enforces antitrust rules and protects consumers from deceptive ads.",
+    "source_url": "https://www.ftc.gov/about-ftc",
+    "trap_notes": {
+      "a": "The SEC regulates stock markets, brokers, and corporate disclosures.",
+      "b": "The FDIC insures bank deposits and resolves failed banks.",
+      "d": "The USDA oversees farming, food safety, and nutrition programs.",
+      "default": "The FTC enforces antitrust and deceptive-advertising laws."
+    }
+  },
+  {
+    "id": "econ-ded-212",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "2010",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this 2010 U.S. financial reform law.",
+    "clues": [
+      "Congress enacted this sweeping law in response to the 2008 subprime mortgage crisis.",
+      "It imposed annual stress tests and higher capital rules on 'too big to fail' banks.",
+      "Named for two lawmakers, it also created the Consumer Financial Protection Bureau."
+    ],
+    "options": [
+      { "id": "a", "text": "Sherman Antitrust Act" },
+      { "id": "b", "text": "Sarbanes-Oxley Act" },
+      { "id": "c", "text": "Bretton Woods Agreement" },
+      { "id": "d", "text": "Dodd-Frank Act" }
+    ],
+    "answer": "d",
+    "explanation": "The 2010 Dodd-Frank Wall Street Reform and Consumer Protection Act tightened oversight of major financial institutions.",
+    "source_url": "https://www.britannica.com/money/Dodd-Frank-Act",
+    "trap_notes": {
+      "a": "The Sherman Antitrust Act of 1890 targeted industrial monopolies.",
+      "b": "Sarbanes-Oxley passed in 2002 after corporate accounting scandals.",
+      "c": "Bretton Woods was the 1944 international currency agreement.",
+      "default": "The 2010 Dodd-Frank Act reformed U.S. banking after the 2008 crisis."
+    }
+  },
+  {
+    "id": "econ-ded-213",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "2002",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "label": "Houston, Texas"
+    },
+    "prompt": "Identify this 2002 corporate accounting law.",
+    "clues": [
+      "Congress passed this law after major accounting frauds at Enron and WorldCom.",
+      "It requires chief executives to personally certify the accuracy of financial reports.",
+      "It also created a federal board to oversee audits of publicly traded companies."
+    ],
+    "options": [
+      { "id": "a", "text": "Sarbanes-Oxley Act" },
+      { "id": "b", "text": "Glass-Steagall Act" },
+      { "id": "c", "text": "Social Security Act" },
+      { "id": "d", "text": "Wagner Labor Act" }
+    ],
+    "answer": "a",
+    "explanation": "The 2002 Sarbanes-Oxley Act tightened corporate auditing and financial reporting rules after the Enron scandal.",
+    "source_url": "https://www.britannica.com/money/Sarbanes-Oxley-Act",
+    "trap_notes": {
+      "b": "Glass-Steagall was a 1933 banking separation law.",
+      "c": "Social Security established federal retirement insurance in 1935.",
+      "d": "The 1935 Wagner Act protected private-sector union organizing.",
+      "default": "Sarbanes-Oxley (2002) reformed corporate auditing after Enron."
+    }
+  },
+  {
+    "id": "econ-ded-214",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1994",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "label": "Mexico City, Mexico"
+    },
+    "prompt": "Identify this 1994 continental trade accord.",
+    "clues": [
+      "This trilateral agreement took effect in January 1994 across North America.",
+      "It phased out most tariffs among the United States, Canada, and Mexico.",
+      "In 2020, it was updated and replaced by the U.S.-Mexico-Canada Agreement."
+    ],
+    "options": [
+      { "id": "a", "text": "European Single Market" },
+      { "id": "b", "text": "North American Free Trade Agreement" },
+      { "id": "c", "text": "General Agreement on Tariffs" },
+      { "id": "d", "text": "Trans-Pacific Partnership" }
+    ],
+    "answer": "b",
+    "explanation": "NAFTA eliminated most trade barriers among the United States, Canada, and Mexico starting in 1994.",
+    "source_url": "https://www.britannica.com/event/North-American-Free-Trade-Agreement",
+    "trap_notes": {
+      "a": "The European Single Market governs trade within Europe.",
+      "c": "GATT was the global 1947 trade framework that preceded the WTO.",
+      "d": "The Trans-Pacific Partnership was a Pacific Rim pact the U.S. exited in 2017.",
+      "default": "NAFTA linked Canada, Mexico, and the United States in 1994."
+    }
+  },
+  {
+    "id": "econ-ded-215",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1993-present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "label": "Brussels, Belgium"
+    },
+    "prompt": "Identify this European economic integration zone.",
+    "clues": [
+      "Launched in 1993, this bloc removes customs checks and internal tariffs across members.",
+      "It guarantees the free movement of goods, services, capital, and workers across borders.",
+      "It operates across all 27 member states of the European Union."
+    ],
+    "options": [
+      { "id": "a", "text": "OPEC Cartel" },
+      { "id": "b", "text": "Mercosur Customs Union" },
+      { "id": "c", "text": "European Union Single Market" },
+      { "id": "d", "text": "North American Free Trade Area" }
+    ],
+    "answer": "c",
+    "explanation": "The European Union Single Market establishes free movement of goods, services, capital, and people across EU nations.",
+    "source_url": "https://single-market-economy.ec.europa.eu/single-market_en",
+    "trap_notes": {
+      "a": "OPEC is an oil-exporting cartel, not a European common market.",
+      "b": "Mercosur is a South American trade bloc.",
+      "d": "North America does not allow free cross-border labor mobility.",
+      "default": "The EU Single Market allows free flow of goods, services, capital, and labor."
+    }
+  },
+  {
+    "id": "econ-ded-216",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1999-present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 50.1109,
+      "lng": 8.6821,
+      "label": "Frankfurt, Germany"
+    },
+    "prompt": "Identify this European monetary union.",
+    "clues": [
+      "Created in 1999, this group of European nations shares one common currency.",
+      "Its member countries give up independent national interest rates and exchange rates.",
+      "Monetary policy for its 20 member states is run by the European Central Bank."
+    ],
+    "options": [
+      { "id": "a", "text": "Bretton Woods Bloc" },
+      { "id": "b", "text": "Sterling Area" },
+      { "id": "c", "text": "Schengen Passport Zone" },
+      { "id": "d", "text": "Eurozone" }
+    ],
+    "answer": "d",
+    "explanation": "The Eurozone consists of the EU member states that adopted the euro and share monetary policy under the European Central Bank.",
+    "source_url": "https://european-union.europa.eu/institutions-law-budget/euro/countries-using-euro_en",
+    "trap_notes": {
+      "a": "Bretton Woods was a global dollar-gold system that ended in 1971.",
+      "b": "The Sterling Area was a mid-20th-century British pound currency bloc.",
+      "c": "Schengen governs border-free travel, not a shared currency.",
+      "default": "The Eurozone is the group of EU nations using the euro."
+    }
+  },
+  {
+    "id": "econ-ded-217",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1948-1951",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "prompt": "Identify this post-World War II economic recovery program.",
+    "clues": [
+      "Between 1948 and 1951, the United States sent over $13 billion in aid across the Atlantic.",
+      "The grants funded food, machinery, and fuel to rebuild shattered Western European economies.",
+      "Officially the European Recovery Program, it is named for the U.S. Secretary of State."
+    ],
+    "options": [
+      { "id": "a", "text": "Marshall Plan" },
+      { "id": "b", "text": "Dawes Plan" },
+      { "id": "c", "text": "Lend-Lease Act" },
+      { "id": "d", "text": "New Deal" }
+    ],
+    "answer": "a",
+    "explanation": "Named for Secretary of State George Marshall, the Marshall Plan financed Western Europe's postwar industrial recovery.",
+    "source_url": "https://www.archives.gov/milestone-documents/marshall-plan",
+    "trap_notes": {
+      "b": "The Dawes Plan restructured German reparations in 1924 after World War I.",
+      "c": "Lend-Lease supplied military aid to Allies during World War II.",
+      "d": "The New Deal was FDR's domestic U.S. recovery program in the 1930s.",
+      "default": "The Marshall Plan rebuilt Western Europe from 1948 to 1951."
+    }
+  },
+  {
+    "id": "econ-ded-218",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1870-1971",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "Identify this historic monetary system.",
+    "clues": [
+      "Under this system, paper banknotes are redeemable on demand for a fixed weight of metal.",
+      "It kept exchange rates stable before World War I but limited central banks during recessions.",
+      "The United States ended domestic convertibility in 1933 and global convertibility in 1971."
+    ],
+    "options": [
+      { "id": "a", "text": "Fiat currency" },
+      { "id": "b", "text": "Gold standard" },
+      { "id": "c", "text": "Cryptocurrency" },
+      { "id": "d", "text": "Floating exchange" }
+    ],
+    "answer": "b",
+    "explanation": "A gold standard ties a nation's money supply and currency value directly to a fixed quantity of gold.",
+    "source_url": "https://www.britannica.com/money/gold-standard",
+    "trap_notes": {
+      "a": "Fiat currency has value by government decree without metal backing.",
+      "c": "Cryptocurrencies are digital assets created in the 21st century.",
+      "d": "Floating exchange rates move with currency markets without a gold peg.",
+      "default": "The gold standard backs paper money with a fixed amount of gold."
+    }
+  },
+  {
+    "id": "econ-ded-219",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1905",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 43.0731,
+      "lng": -89.4012,
+      "label": "Madison, Wisconsin"
+    },
+    "prompt": "Identify this economic graph of income distribution.",
+    "clues": [
+      "Developed in 1905, this graph plots cumulative population share against income share.",
+      "A 45-degree diagonal line on the chart represents complete income equality.",
+      "The area between that diagonal and this sagging curve is used to compute the Gini index."
+    ],
+    "options": [
+      { "id": "a", "text": "Phillips Curve" },
+      { "id": "b", "text": "Laffer Curve" },
+      { "id": "c", "text": "Lorenz Curve" },
+      { "id": "d", "text": "Engel Curve" }
+    ],
+    "answer": "c",
+    "explanation": "The Lorenz Curve graphs cumulative income distribution, and its gap from the 45-degree equality line yields the Gini coefficient.",
+    "source_url": "https://www.britannica.com/money/Lorenz-curve",
+    "trap_notes": {
+      "a": "The Phillips Curve plots inflation against unemployment.",
+      "b": "The Laffer Curve plots tax rates against government tax revenue.",
+      "d": "The Engel Curve shows how household spending on a good varies with income.",
+      "default": "The Lorenz Curve illustrates income inequality relative to a 45-degree line."
+    }
+  },
+  {
+    "id": "econ-ded-220",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Cambridge, Massachusetts"
+    },
+    "prompt": "Identify this foundational microeconomic graph.",
+    "clues": [
+      "This model assumes fixed resources and technology to show trade-offs between two goods.",
+      "Points inside the curve show idle resources, while points outside are unattainable today.",
+      "Its bowed-out shape reflects increasing opportunity cost as production shifts."
+    ],
+    "options": [
+      { "id": "a", "text": "Consumer Price Index" },
+      { "id": "b", "text": "Circular Flow Diagram" },
+      { "id": "c", "text": "Aggregate Demand Curve" },
+      { "id": "d", "text": "Production Possibilities Frontier" }
+    ],
+    "answer": "d",
+    "explanation": "The Production Possibilities Frontier (PPF) shows efficient, inefficient, and unattainable output combinations for two goods.",
+    "source_url": "https://www.econlib.org/library/Topics/College/productionpossibilities.html",
+    "trap_notes": {
+      "a": "The CPI is a monthly price index, not a two-good output curve.",
+      "b": "The circular flow shows money and resource flows between households and firms.",
+      "c": "Aggregate demand shows total national spending across price levels.",
+      "default": "The PPF maps maximum output combinations of two goods under scarcity."
+    }
+  },
+  {
+    "id": "econ-ded-221",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "era": "1974",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this supply-side tax curve.",
+    "clues": [
+      "Popularized in 1974, this graph links a nation's tax rate to total tax revenue collected.",
+      "At both 0% and 100% tax rates, the model predicts the government collects zero revenue.",
+      "It argues that cutting very high marginal tax rates can sometimes boost tax revenue."
+    ],
+    "options": [
+      { "id": "a", "text": "Laffer Curve" },
+      { "id": "b", "text": "Phillips Curve" },
+      { "id": "c", "text": "Kuznets Curve" },
+      { "id": "d", "text": "Demand Curve" }
+    ],
+    "answer": "a",
+    "explanation": "Named for economist Arthur Laffer, the Laffer Curve illustrates how tax revenue responds to changes in tax rates.",
+    "source_url": "https://www.britannica.com/money/Laffer-curve",
+    "trap_notes": {
+      "b": "The Phillips Curve relates inflation and unemployment.",
+      "c": "The Kuznets Curve relates economic development and inequality.",
+      "d": "A demand curve relates a good's price to quantity demanded.",
+      "default": "The Laffer Curve models the relationship between tax rates and tax revenue."
+    }
+  },
+  {
+    "id": "econ-ded-222",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1986-present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "Identify this lighthearted currency comparison tool.",
+    "clues": [
+      "Launched by The Economist magazine in 1986, it tests purchasing power parity.",
+      "It compares the local price of an identical fast-food item sold in dozens of countries.",
+      "If a burger costs far less in pesos than dollars, it suggests the peso is undervalued."
+    ],
+    "options": [
+      { "id": "a", "text": "Producer Price Index" },
+      { "id": "b", "text": "Big Mac Index" },
+      { "id": "c", "text": "Gini Coefficient" },
+      { "id": "d", "text": "GDP Deflator" }
+    ],
+    "answer": "b",
+    "explanation": "The Big Mac Index uses McDonald's burger prices worldwide to informally gauge whether currencies are overvalued or undervalued.",
+    "source_url": "https://www.economist.com/big-mac-index",
+    "trap_notes": {
+      "a": "The Producer Price Index tracks wholesale prices received by U.S. producers.",
+      "c": "The Gini Coefficient measures income inequality within a population.",
+      "d": "The GDP Deflator measures overall domestic price inflation across GDP.",
+      "default": "The Big Mac Index compares burger prices to test purchasing power parity."
+    }
+  },
+  {
+    "id": "econ-ded-223",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "era": "1896-present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York, New York"
+    },
+    "prompt": "Identify this historic U.S. stock market index.",
+    "clues": [
+      "First published in 1896 with 12 companies, it now tracks 30 major U.S. corporations.",
+      "Unlike most modern benchmarks, it is price-weighted rather than weighted by market size.",
+      "Its 30 blue-chip firms include Apple, Boeing, Coca-Cola, and Goldman Sachs."
+    ],
+    "options": [
+      { "id": "a", "text": "Nasdaq Composite" },
+      { "id": "b", "text": "Russell 2000" },
+      { "id": "c", "text": "Dow Jones Industrial Average" },
+      { "id": "d", "text": "Wilshire 5000" }
+    ],
+    "answer": "c",
+    "explanation": "The Dow Jones Industrial Average (DJIA) is a price-weighted index of 30 prominent U.S. blue-chip companies.",
+    "source_url": "https://www.britannica.com/money/Dow-Jones-Industrial-Average",
+    "trap_notes": {
+      "a": "The Nasdaq Composite tracks thousands of mostly tech-heavy Nasdaq stocks.",
+      "b": "The Russell 2000 tracks 2,000 small-cap U.S. companies.",
+      "d": "The Wilshire 5000 measures nearly the entire U.S. equity market.",
+      "default": "The Dow Jones Industrial Average tracks 30 large blue-chip U.S. stocks."
+    }
+  },
+  {
+    "id": "econ-ded-224",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "era": "1957-present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York, New York"
+    },
+    "prompt": "Identify this widely followed U.S. stock benchmark.",
+    "clues": [
+      "Introduced in 1957, this index is weighted by each company's total market value.",
+      "It tracks 500 of the largest publicly traded U.S. corporations across all sectors.",
+      "Many low-fee retirement index funds are built to mirror its exact holdings."
+    ],
+    "options": [
+      { "id": "a", "text": "Dow Jones Industrial Average" },
+      { "id": "b", "text": "Consumer Price Index" },
+      { "id": "c", "text": "Federal Funds Rate" },
+      { "id": "d", "text": "S&P 500" }
+    ],
+    "answer": "d",
+    "explanation": "The Standard & Poor's 500 (S&P 500) tracks 500 leading U.S. companies by market capitalization and serves as a core benchmark.",
+    "source_url": "https://www.britannica.com/money/SandP-500",
+    "trap_notes": {
+      "a": "The Dow tracks only 30 stocks and is weighted by share price.",
+      "b": "The CPI measures consumer inflation, not stock market performance.",
+      "c": "The federal funds rate is an overnight bank lending interest rate.",
+      "default": "The S&P 500 tracks 500 large U.S. public companies by market value."
+    }
+  },
+  {
+    "id": "econ-ded-225",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "era": "1989-present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 37.3382,
+      "lng": -121.8863,
+      "label": "San Jose, California"
+    },
+    "prompt": "Identify this consumer creditworthiness measure.",
+    "clues": [
+      "Created by Fair Isaac Corporation in 1989, this three-digit number runs from 300 to 850.",
+      "Payment history and credit utilization together make up about two-thirds of its formula.",
+      "U.S. mortgage and auto lenders check it to decide loan approval and interest rates."
+    ],
+    "options": [
+      { "id": "a", "text": "FICO Score" },
+      { "id": "b", "text": "Gini Index" },
+      { "id": "c", "text": "Annual Percentage Yield" },
+      { "id": "d", "text": "Debt-to-GDP Ratio" }
+    ],
+    "answer": "a",
+    "explanation": "The FICO Score summarizes a borrower's credit report into a 300–850 number that helps lenders assess default risk.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/",
+    "trap_notes": {
+      "b": "The Gini Index measures national income inequality.",
+      "c": "APY measures the annual compound return on a savings account.",
+      "d": "Debt-to-GDP compares national government debt to economic output.",
+      "default": "A FICO Score (300–850) gauges an individual's credit risk."
+    }
+  },
+  {
+    "id": "econ-ded-226",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "era": "1978-present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this U.S. workplace retirement account.",
+    "clues": [
+      "Named for a section of the 1978 Internal Revenue Code, it is offered through employers.",
+      "Workers contribute paycheck dollars before taxes, and many firms match part of the deposit.",
+      "Withdrawals taken before age 59 and a half usually face taxes plus a 10% penalty."
+    ],
+    "options": [
+      { "id": "a", "text": "Certificate of Deposit" },
+      { "id": "b", "text": "401(k) Plan" },
+      { "id": "c", "text": "Health Savings Account" },
+      { "id": "d", "text": "Money Market Fund" }
+    ],
+    "answer": "b",
+    "explanation": "A 401(k) plan is an employer-sponsored defined-contribution retirement account with tax-deferred growth and common employer matches.",
+    "source_url": "https://www.investor.gov/additional-resources/specialized-resources/retirement-plans/401k-plans",
+    "trap_notes": {
+      "a": "A CD is a bank time deposit, not a workplace retirement plan.",
+      "c": "An HSA is a tax-advantaged account specifically for medical expenses.",
+      "d": "A money market fund is a short-term mutual fund, not a retirement plan.",
+      "default": "A 401(k) is an employer-sponsored retirement plan with tax advantages."
+    }
+  },
+  {
+    "id": "econ-ded-227",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "era": "1997-present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8979,
+      "lng": -77.0329,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this inflation-indexed U.S. government bond.",
+    "clues": [
+      "First issued by the U.S. Treasury in 1997, these securities protect savers from rising prices.",
+      "Their principal value adjusts upward or downward with changes in the Consumer Price Index.",
+      "Their name is Treasury Inflation-Protected Securities."
+    ],
+    "options": [
+      { "id": "a", "text": "Junk Corporate Bonds" },
+      { "id": "b", "text": "Municipal Revenue Bonds" },
+      { "id": "c", "text": "Treasury Inflation-Protected Securities" },
+      { "id": "d", "text": "Subprime Mortgage Securities" }
+    ],
+    "answer": "c",
+    "explanation": "TIPS adjust their principal in line with the Consumer Price Index, shielding bondholders from unexpected inflation.",
+    "source_url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+    "trap_notes": {
+      "a": "Junk bonds are high-risk corporate debt without inflation indexing.",
+      "b": "Municipal bonds are issued by state or local governments, not the U.S. Treasury.",
+      "d": "Mortgage securities bundle home loans rather than index to CPI.",
+      "default": "TIPS are U.S. Treasury bonds indexed to the Consumer Price Index."
+    }
+  },
+  {
+    "id": "econ-ded-228",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "label": "Stockholm, Sweden"
+    },
+    "prompt": "Identify this market-based environmental policy.",
+    "clues": [
+      "Economists classify this policy as a Pigouvian fee aimed at correcting a negative externality.",
+      "It charges firms a fixed dollar amount for each ton of greenhouse gas they emit.",
+      "By raising fossil fuel prices, it gives businesses an incentive to shift to cleaner energy."
+    ],
+    "options": [
+      { "id": "a", "text": "Import Quota" },
+      { "id": "b", "text": "Price Ceiling" },
+      { "id": "c", "text": "Farm Subsidy" },
+      { "id": "d", "text": "Carbon Tax" }
+    ],
+    "answer": "d",
+    "explanation": "A carbon tax puts a direct price on greenhouse gas emissions so polluters internalize the external cost of climate damage.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/2019/12/the-case-for-carbon-taxation-and-putting-a-price-on-pollution-parry",
+    "trap_notes": {
+      "a": "An import quota limits foreign goods entering a country.",
+      "b": "A price ceiling caps prices below equilibrium, creating shortages.",
+      "c": "A farm subsidy pays growers rather than taxing emissions.",
+      "default": "A carbon tax charges per ton of emissions to internalize pollution costs."
+    }
+  },
+  {
+    "id": "econ-ded-229",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "era": "1938-present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this labor-market price control.",
+    "clues": [
+      "First set federally in the 1938 Fair Labor Standards Act, it acts as a binding price floor.",
+      "Employers are legally prohibited from paying hourly workers below this set rate.",
+      "Economists debate how raising it balances higher worker pay against possible job cuts."
+    ],
+    "options": [
+      { "id": "a", "text": "Minimum wage" },
+      { "id": "b", "text": "Rent ceiling" },
+      { "id": "c", "text": "Sales tax" },
+      { "id": "d", "text": "Import tariff" }
+    ],
+    "answer": "a",
+    "explanation": "A minimum wage is a legal price floor in the labor market setting the lowest hourly rate employers may pay.",
+    "source_url": "https://www.dol.gov/agencies/whd/minimum-wage/history",
+    "trap_notes": {
+      "b": "A rent ceiling caps apartment prices, acting as a price ceiling.",
+      "c": "A sales tax is a consumption tax added at retail checkout.",
+      "d": "An import tariff taxes foreign goods crossing a national border.",
+      "default": "The minimum wage is a legal price floor for hourly labor."
+    }
+  },
+  {
+    "id": "econ-ded-230",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "2008-2020",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this unconventional central bank policy.",
+    "clues": [
+      "Central banks turn to this tool when short-term policy rates are already near zero.",
+      "The Fed used it after 2008 and in 2020 to buy huge sums of long-term bonds and mortgages.",
+      "Its goal is to lower long-term borrowing costs and inject liquidity into financial markets."
+    ],
+    "options": [
+      { "id": "a", "text": "Contractionary fiscal policy" },
+      { "id": "b", "text": "Quantitative easing" },
+      { "id": "c", "text": "Protective tariff" },
+      { "id": "d", "text": "Balanced budget rule" }
+    ],
+    "answer": "b",
+    "explanation": "Quantitative easing (QE) expands the central bank's balance sheet through large-scale asset purchases to lower long-term rates.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2020/january/what-is-quantitative-easing",
+    "trap_notes": {
+      "a": "Contractionary fiscal policy cuts government spending or raises taxes.",
+      "c": "Protective tariffs are trade barriers set by lawmakers, not central banks.",
+      "d": "Balanced budget rules restrict government deficits rather than expand money.",
+      "default": "Quantitative easing buys long-term assets when short-term rates hit zero."
+    }
+  },
+  {
+    "id": "econ-dat-201",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "label": "Seattle, Washington"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Weekly Coffee Market Schedule",
+      "headers": ["Price per Cup", "Quantity Demanded", "Quantity Supplied"],
+      "rows": [
+        ["$3.00", "500", "200"],
+        ["$4.00", "350", "350"],
+        ["$5.00", "200", "500"]
+      ]
+    },
+    "prompt": "Based on the table, what is the equilibrium price of a cup of coffee?",
+    "options": [
+      { "id": "a", "text": "$3.00, where quantity demanded is 500" },
+      { "id": "b", "text": "$4.00, where quantity demanded equals supplied" },
+      { "id": "c", "text": "$5.00, where quantity supplied is 500" },
+      { "id": "d", "text": "$3.00, where a 300-cup surplus occurs" }
+    ],
+    "answer": "b",
+    "explanation": "Market equilibrium occurs at $4.00 because quantity demanded (350) exactly equals quantity supplied (350).",
+    "source_url": "https://www.econlib.org/library/Enc/Supply.html",
+    "trap_notes": {
+      "a": "At $3.00, demand (500) exceeds supply (200), creating a 300-cup shortage.",
+      "c": "At $5.00, supply (500) exceeds demand (200), creating a 300-cup surplus.",
+      "d": "$3.00 produces a 300-cup shortage, not a surplus.",
+      "default": "Equilibrium is the price where quantity demanded equals quantity supplied."
+    }
+  },
+  {
+    "id": "econ-dat-202",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "City Apartment Market",
+      "headers": ["Monthly Rent", "Units Demanded", "Units Supplied"],
+      "rows": [
+        ["$1,200", "9,000", "4,000"],
+        ["$1,600", "6,500", "6,500"],
+        ["$2,000", "4,000", "9,000"]
+      ]
+    },
+    "prompt": "If the city sets a binding rent ceiling of $1,200 per month, what is the market result?",
+    "options": [
+      { "id": "a", "text": "A housing shortage of 5,000 apartments" },
+      { "id": "b", "text": "A housing surplus of 5,000 apartments" },
+      { "id": "c", "text": "Market equilibrium at 6,500 apartments" },
+      { "id": "d", "text": "A housing shortage of 2,500 apartments" }
+    ],
+    "answer": "a",
+    "explanation": "At $1,200, renters demand 9,000 units while landlords supply only 4,000, leaving a shortage of 5,000 apartments.",
+    "source_url": "https://www.econlib.org/library/Enc/PriceControls.html",
+    "trap_notes": {
+      "b": "A surplus occurs when supply exceeds demand, such as at $2,000.",
+      "c": "Equilibrium is at $1,600, above the legal $1,200 ceiling.",
+      "d": "9,000 minus 4,000 equals 5,000, not 2,500.",
+      "default": "A binding ceiling below equilibrium creates a shortage (Qd minus Qs)."
+    }
+  },
+  {
+    "id": "econ-dat-203",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.6872,
+      "lng": -97.3301,
+      "label": "Wichita, Kansas"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Regional Wheat Market (Millions of Bushels)",
+      "headers": ["Price per Bushel", "Quantity Demanded", "Quantity Supplied"],
+      "rows": [
+        ["$4.00", "80", "40"],
+        ["$6.00", "60", "60"],
+        ["$8.00", "40", "80"]
+      ]
+    },
+    "prompt": "If the government enforces a binding price floor of $8.00 per bushel, what happens?",
+    "options": [
+      { "id": "a", "text": "A wheat shortage of 40 million bushels" },
+      { "id": "b", "text": "Market equilibrium at 60 million bushels" },
+      { "id": "c", "text": "A wheat surplus of 40 million bushels" },
+      { "id": "d", "text": "A wheat surplus of 20 million bushels" }
+    ],
+    "answer": "c",
+    "explanation": "At $8.00, farmers supply 80 million bushels while buyers want only 40 million, creating a 40-million-bushel surplus.",
+    "source_url": "https://www.econlib.org/library/Enc/PriceControls.html",
+    "trap_notes": {
+      "a": "A 40-million-bushel shortage occurs at $4.00, not $8.00.",
+      "b": "Equilibrium is $6.00, which is below the $8.00 price floor.",
+      "d": "80 million supplied minus 40 million demanded equals 40 million.",
+      "default": "A binding price floor above equilibrium creates a surplus (Qs minus Qd)."
+    }
+  },
+  {
+    "id": "econ-dat-204",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "label": "Detroit, Michigan"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Factory Production Possibilities",
+      "headers": ["Combo", "Laptops", "Bicycles"],
+      "rows": [
+        ["Point A", "0", "300"],
+        ["Point B", "50", "200"],
+        ["Point C", "100", "0"]
+      ]
+    },
+    "prompt": "Moving from Point A to Point B, what is the opportunity cost of producing 50 laptops?",
+    "options": [
+      { "id": "a", "text": "50 bicycles given up" },
+      { "id": "b", "text": "200 bicycles given up" },
+      { "id": "c", "text": "300 bicycles given up" },
+      { "id": "d", "text": "100 bicycles given up" }
+    ],
+    "answer": "d",
+    "explanation": "To increase laptop output from 0 to 50, bicycle output drops from 300 to 200—an opportunity cost of 100 bicycles.",
+    "source_url": "https://www.econlib.org/library/Enc/OpportunityCost.html",
+    "trap_notes": {
+      "a": "50 is the number of laptops gained, not bicycles sacrificed.",
+      "b": "200 is the number of bicycles still produced at Point B.",
+      "c": "300 bicycles are given up only when moving all the way to Point C.",
+      "default": "Opportunity cost is the decrease in bicycles (300 minus 200)."
+    }
+  },
+  {
+    "id": "econ-dat-205",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Labor Hours Required per Unit",
+      "headers": ["Country", "1 Bolt of Cloth", "1 Barrel of Wine"],
+      "rows": [
+        ["England", "10 hours", "20 hours"],
+        ["Portugal", "8 hours", "8 hours"],
+        ["Ratio (W/C)", "—", "—"]
+      ]
+    },
+    "prompt": "Using the table, which country has a comparative advantage in producing wine?",
+    "options": [
+      { "id": "a", "text": "Portugal, because 1 wine costs 1 cloth" },
+      { "id": "b", "text": "England, because 1 wine costs 2 cloth" },
+      { "id": "c", "text": "England, because it uses more labor hours" },
+      { "id": "d", "text": "Neither country, since both can make wine" }
+    ],
+    "answer": "a",
+    "explanation": "Portugal gives up 1 bolt of cloth per barrel of wine (8/8), whereas England gives up 2 bolts of cloth (20/10).",
+    "source_url": "https://www.econlib.org/library/Enc/ComparativeAdvantage.html",
+    "trap_notes": {
+      "b": "Giving up 2 bolts of cloth is a higher opportunity cost, not lower.",
+      "c": "Using more hours means lower productivity, not comparative advantage.",
+      "d": "Trade gains arise whenever opportunity costs differ between partners.",
+      "default": "Comparative advantage goes to the producer with the lower opportunity cost."
+    }
+  },
+  {
+    "id": "econ-dat-206",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Consumer Response to a 20% Price Increase",
+      "headers": ["Good", "Price Change", "Quantity Demanded Change"],
+      "rows": [
+        ["Insulin", "+20%", "-2%"],
+        ["Movie Tickets", "+20%", "-35%"],
+        ["Table Salt", "+20%", "-4%"]
+      ]
+    },
+    "prompt": "Which good in the table exhibits price-elastic demand?",
+    "options": [
+      { "id": "a", "text": "Insulin, with a 2% quantity drop" },
+      { "id": "b", "text": "Movie Tickets, with a 35% quantity drop" },
+      { "id": "c", "text": "Table Salt, with a 4% quantity drop" },
+      { "id": "d", "text": "Insulin and Table Salt together" }
+    ],
+    "answer": "b",
+    "explanation": "Movie tickets show a 35% quantity drop from a 20% price rise (elasticity 1.75 > 1), making demand price elastic.",
+    "source_url": "https://www.econlib.org/library/Enc/Elasticity.html",
+    "trap_notes": {
+      "a": "Insulin's 2% drop for a 20% price rise is highly inelastic (0.1).",
+      "c": "Table salt's 4% drop for a 20% price rise is inelastic (0.2).",
+      "d": "Both insulin and salt have quantity changes smaller than the 20% price change.",
+      "default": "Demand is elastic when percentage quantity change exceeds percentage price change."
+    }
+  },
+  {
+    "id": "econ-dat-207",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 44.9778,
+      "lng": -93.265,
+      "label": "Minneapolis, Minnesota"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Widget Firm Marginal Analysis",
+      "headers": ["Output (Units)", "Marginal Revenue", "Marginal Cost"],
+      "rows": [
+        ["3", "$25", "$15"],
+        ["4", "$25", "$25"],
+        ["5", "$25", "$34"]
+      ]
+    },
+    "prompt": "To maximize profit, how many widgets should this firm produce?",
+    "options": [
+      { "id": "a", "text": "3 units, where marginal cost is lowest" },
+      { "id": "b", "text": "5 units, where output is highest" },
+      { "id": "c", "text": "4 units, where marginal revenue equals marginal cost" },
+      { "id": "d", "text": "5 units, because revenue stays at $25" }
+    ],
+    "answer": "c",
+    "explanation": "A firm maximizes profit where marginal revenue equals marginal cost (4 units, $25 = $25); the 5th unit loses $9.",
+    "source_url": "https://www.britannica.com/money/profit-maximization",
+    "trap_notes": {
+      "a": "Stopping at 3 units misses $10 of extra profit on the 4th unit.",
+      "b": "The 5th unit costs $34 to make but brings in only $25.",
+      "d": "Producing when MC exceeds MR lowers total profit.",
+      "default": "Profit is maximized at the output where MR equals MC."
+    }
+  },
+  {
+    "id": "econ-dat-208",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "label": "Columbus, Ohio"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Short-Run Production Costs",
+      "headers": ["Output (Units)", "Fixed Cost", "Variable Cost"],
+      "rows": [
+        ["0", "$100", "$0"],
+        ["5", "$100", "$100"],
+        ["10", "$100", "$200"]
+      ]
+    },
+    "prompt": "At an output of 10 units, what is the firm's average total cost per unit?",
+    "options": [
+      { "id": "a", "text": "$10 per unit" },
+      { "id": "b", "text": "$20 per unit" },
+      { "id": "c", "text": "$40 per unit" },
+      { "id": "d", "text": "$30 per unit" }
+    ],
+    "answer": "d",
+    "explanation": "Total cost at 10 units is $100 fixed plus $200 variable ($300), so average total cost is $300 / 10 = $30 per unit.",
+    "source_url": "https://www.britannica.com/money/average-cost",
+    "trap_notes": {
+      "a": "$10 is average fixed cost ($100 / 10), excluding variable costs.",
+      "b": "$20 is average variable cost ($200 / 10), excluding fixed costs.",
+      "c": "$40 is the average total cost at 5 units ($200 / 5).",
+      "default": "Average total cost equals (Fixed Cost + Variable Cost) divided by output."
+    }
+  },
+  {
+    "id": "econ-dat-209",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "National Output & Price Index",
+      "headers": ["Year", "Nominal GDP ($B)", "GDP Deflator"],
+      "rows": [
+        ["Year 1 (Base)", "$1,000", "100"],
+        ["Year 2", "$1,200", "120"],
+        ["Year 3", "$1,320", "110"]
+      ]
+    },
+    "prompt": "Comparing Year 1 and Year 2, how did Real GDP change?",
+    "options": [
+      { "id": "a", "text": "Real GDP stayed flat at $1,000 billion" },
+      { "id": "b", "text": "Real GDP rose by $200 billion" },
+      { "id": "c", "text": "Real GDP fell to $800 billion" },
+      { "id": "d", "text": "Real GDP doubled to $2,000 billion" }
+    ],
+    "answer": "a",
+    "explanation": "Year 2 Real GDP is ($1,200 / 120) x 100 = $1,000 billion, meaning all of the nominal gain came from 20% inflation.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "trap_notes": {
+      "b": "Nominal GDP rose $200 billion, but prices rose 20% at the same time.",
+      "c": "Dividing $1,200 by 1.20 gives $1,000, not $800.",
+      "d": "Real GDP did not double; it remained unchanged from Year 1.",
+      "default": "Real GDP equals Nominal GDP divided by (GDP Deflator / 100)."
+    }
+  },
+  {
+    "id": "econ-dat-210",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Trade Flows ($ Billions)",
+      "headers": ["Year", "Exports", "Imports"],
+      "rows": [
+        ["2021", "$420", "$490"],
+        ["2022", "$510", "$480"],
+        ["2023", "$470", "$520"]
+      ]
+    },
+    "prompt": "In which year did this country record a merchandise trade surplus?",
+    "options": [
+      { "id": "a", "text": "2021, with a $70 billion surplus" },
+      { "id": "b", "text": "2022, with a $30 billion surplus" },
+      { "id": "c", "text": "2023, with a $50 billion surplus" },
+      { "id": "d", "text": "2021 and 2023 both had surpluses" }
+    ],
+    "answer": "b",
+    "explanation": "A trade surplus occurs when exports exceed imports; in 2022, $510B in exports minus $480B in imports equals +$30B.",
+    "source_url": "https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services",
+    "trap_notes": {
+      "a": "In 2021, imports ($490B) exceeded exports ($420B), causing a $70B deficit.",
+      "c": "In 2023, imports ($520B) exceeded exports ($470B), causing a $50B deficit.",
+      "d": "Both 2021 and 2023 had trade deficits, not surpluses.",
+      "default": "Net exports equal exports minus imports; positive values are trade surpluses."
+    }
+  },
+  {
+    "id": "econ-dat-211",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.898,
+      "lng": -77.007,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Consumer Price Index (CPI) Readings",
+      "headers": ["Year", "CPI Basket Cost", "CPI Index"],
+      "rows": [
+        ["2021", "$2,000", "100"],
+        ["2022", "$2,160", "108"],
+        ["2023", "$2,268", "113.4"]
+      ]
+    },
+    "prompt": "What was the annual inflation rate between 2021 and 2022?",
+    "options": [
+      { "id": "a", "text": "5% annual inflation" },
+      { "id": "b", "text": "13.4% annual inflation" },
+      { "id": "c", "text": "8% annual inflation" },
+      { "id": "d", "text": "16% annual inflation" }
+    ],
+    "answer": "c",
+    "explanation": "The CPI rose from 100 to 108, which is an 8% increase ((108 - 100) / 100 = 8%).",
+    "source_url": "https://www.bls.gov/cpi/",
+    "trap_notes": {
+      "a": "5% is the inflation rate from 2022 to 2023 ((113.4 - 108) / 108).",
+      "b": "13.4% is the cumulative inflation from 2021 to 2023.",
+      "d": "$160 is the dollar rise in the $2,000 basket, which equals 8%, not 16%.",
+      "default": "Inflation equals the percentage change in CPI between two periods."
+    }
+  },
+  {
+    "id": "econ-dat-212",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.898,
+      "lng": -77.007,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Town Labor Market Survey (Thousands)",
+      "headers": ["Category", "Count", "Share"],
+      "rows": [
+        ["Employed", "90", "—"],
+        ["Unemployed", "10", "—"],
+        ["Not in Labor Force", "50", "—"]
+      ]
+    },
+    "prompt": "Based on the survey, what is the town's official unemployment rate?",
+    "options": [
+      { "id": "a", "text": "6.7%, out of 150 total adults" },
+      { "id": "b", "text": "11.1%, dividing 10 by 90 employed" },
+      { "id": "c", "text": "20.0%, comparing 10 to 50" },
+      { "id": "d", "text": "10.0%, out of a 100 labor force" }
+    ],
+    "answer": "d",
+    "explanation": "The labor force equals employed plus unemployed (90 + 10 = 100), so the unemployment rate is 10 / 100 = 10.0%.",
+    "source_url": "https://www.bls.gov/cps/cps_htgm.htm",
+    "trap_notes": {
+      "a": "People not in the labor force are excluded from the denominator.",
+      "b": "The denominator is the total labor force (100), not employed workers (90).",
+      "c": "50 is the group outside the labor force, not the labor force itself.",
+      "default": "Unemployment rate equals Unemployed divided by (Employed + Unemployed)."
+    }
+  },
+  {
+    "id": "econ-dat-213",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "label": "Indianapolis, Indiana"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Pay Raises vs. 4% Inflation",
+      "headers": ["Worker", "Nominal Raise", "Inflation Rate"],
+      "rows": [
+        ["Maya", "+2%", "+4%"],
+        ["Liam", "+4%", "+4%"],
+        ["Nora", "+7%", "+4%"]
+      ]
+    },
+    "prompt": "Which worker experienced an increase in real purchasing power?",
+    "options": [
+      { "id": "a", "text": "Nora, with a +3% real wage gain" },
+      { "id": "b", "text": "Maya, with a +2% real wage gain" },
+      { "id": "c", "text": "Liam, with a +4% real wage gain" },
+      { "id": "d", "text": "All three workers gained purchasing power" }
+    ],
+    "answer": "a",
+    "explanation": "Only Nora's 7% nominal raise beat 4% inflation, giving her a +3% gain in real purchasing power.",
+    "source_url": "https://www.bls.gov/cpi/factsheets/common-misconceptions-about-cpi.htm",
+    "trap_notes": {
+      "b": "Maya's 2% raise lagged 4% inflation, cutting her real wage by 2%.",
+      "c": "Liam's 4% raise matched 4% inflation, leaving real wages flat (0%).",
+      "d": "Maya lost purchasing power and Liam stayed even.",
+      "default": "Real wage change equals nominal raise minus inflation."
+    }
+  },
+  {
+    "id": "econ-dat-214",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal Budget Summary ($ Billions)",
+      "headers": ["Fiscal Year", "Tax Revenue", "Government Outlays"],
+      "rows": [
+        ["Year 1", "$3,400", "$4,100"],
+        ["Year 2", "$3,900", "$3,750"],
+        ["Year 3", "$4,000", "$4,400"]
+      ]
+    },
+    "prompt": "In which fiscal year did the government run a budget surplus that reduced national debt?",
+    "options": [
+      { "id": "a", "text": "Year 1, by $700 billion" },
+      { "id": "b", "text": "Year 2, by $150 billion" },
+      { "id": "c", "text": "Year 3, by $400 billion" },
+      { "id": "d", "text": "Year 1 and Year 3 both ran surpluses" }
+    ],
+    "answer": "b",
+    "explanation": "In Year 2, tax revenue ($3,900B) exceeded outlays ($3,750B), creating a $150 billion budget surplus.",
+    "source_url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-deficit/",
+    "trap_notes": {
+      "a": "In Year 1, spending exceeded revenue by $700B, creating a deficit.",
+      "c": "In Year 3, spending exceeded revenue by $400B, creating a deficit.",
+      "d": "Both Year 1 and Year 3 ran budget deficits that added to debt.",
+      "default": "A budget surplus occurs when tax revenue exceeds government outlays."
+    }
+  },
+  {
+    "id": "econ-dat-215",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7081,
+      "lng": -74.0086,
+      "label": "New York, New York"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Commercial Bank Reserves (10% Required Ratio)",
+      "headers": ["Bank", "Customer Deposits", "Total Reserves"],
+      "rows": [
+        ["Oak Bank", "$1,000", "$100"],
+        ["Pine Bank", "$2,000", "$200"],
+        ["Cedar Bank", "$1,500", "$250"]
+      ]
+    },
+    "prompt": "With a 10% reserve requirement, which bank holds excess reserves available to lend?",
+    "options": [
+      { "id": "a", "text": "Oak Bank, with $100 in excess reserves" },
+      { "id": "b", "text": "Pine Bank, with $200 in excess reserves" },
+      { "id": "c", "text": "Cedar Bank, with $100 in excess reserves" },
+      { "id": "d", "text": "All three banks hold excess reserves" }
+    ],
+    "answer": "c",
+    "explanation": "Cedar Bank needs 10% of $1,500 ($150) in required reserves, so holding $250 leaves $100 in excess reserves to lend.",
+    "source_url": "https://www.stlouisfed.org/in-plain-english/how-the-fed-implements-monetary-policy",
+    "trap_notes": {
+      "a": "Oak Bank's $100 exactly meets its 10% requirement, leaving $0 excess.",
+      "b": "Pine Bank's $200 exactly meets its 10% requirement, leaving $0 excess.",
+      "d": "Oak Bank and Pine Bank have zero excess reserves.",
+      "default": "Excess reserves equal total reserves minus (deposits x reserve ratio)."
+    }
+  },
+  {
+    "id": "econ-dat-216",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Macroeconomic Conditions by Year",
+      "headers": ["Year", "Unemployment Rate", "Inflation Rate"],
+      "rows": [
+        ["1969", "3.5%", "5.5%"],
+        ["1975", "8.5%", "9.1%"],
+        ["1998", "4.5%", "1.6%"]
+      ]
+    },
+    "prompt": "Which year in the table illustrates stagflation?",
+    "options": [
+      { "id": "a", "text": "1969, with low unemployment and moderate inflation" },
+      { "id": "b", "text": "1998, with low unemployment and low inflation" },
+      { "id": "c", "text": "1969 and 1998, showing stable growth" },
+      { "id": "d", "text": "1975, with high unemployment and high inflation" }
+    ],
+    "answer": "d",
+    "explanation": "Stagflation pairs stagnant output and high unemployment (8.5%) with rapid inflation (9.1%), as seen in 1975.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-inflation",
+    "trap_notes": {
+      "a": "1969 had very low unemployment (3.5%), not economic stagnation.",
+      "b": "1998 combined low unemployment and low inflation—strong non-inflationary growth.",
+      "c": "Neither 1969 nor 1998 had high unemployment.",
+      "default": "Stagflation means simultaneous high unemployment and high inflation."
+    }
+  },
+  {
+    "id": "econ-dat-217",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 50.1109,
+      "lng": 8.6821,
+      "label": "Frankfurt, Germany"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Euro-to-Dollar Exchange Rate",
+      "headers": ["Month", "Dollars per 1 Euro", "Price of €100 Jacket in USD"],
+      "rows": [
+        ["January", "$1.05", "$105"],
+        ["April", "$1.15", "$115"],
+        ["July", "$1.25", "$125"]
+      ]
+    },
+    "prompt": "Between January and July, how did the currency shift affect U.S. shoppers buying European goods?",
+    "options": [
+      { "id": "a", "text": "European goods became costlier in dollars" },
+      { "id": "b", "text": "European goods became cheaper in dollars" },
+      { "id": "c", "text": "The euro depreciated against the U.S. dollar" },
+      { "id": "d", "text": "U.S. exports became costlier in Europe" }
+    ],
+    "answer": "a",
+    "explanation": "As the euro appreciated from $1.05 to $1.25, the €100 jacket rose from $105 to $125 for U.S. buyers.",
+    "source_url": "https://www.imf.org/en/About/Factsheets/Sheets/2023/exchange-rates",
+    "trap_notes": {
+      "b": "The dollar price of the €100 jacket rose from $105 to $125, not fell.",
+      "c": "The euro appreciated because 1 euro bought more dollars ($1.25 vs $1.05).",
+      "d": "A weaker dollar makes U.S. exports cheaper for European buyers.",
+      "default": "When a foreign currency appreciates, imports from that region cost more."
+    }
+  },
+  {
+    "id": "econ-dat-218",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 40.4406,
+      "lng": -79.9959,
+      "label": "Pittsburgh, Pennsylvania"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Domestic Steel Market Before and After Tariff",
+      "headers": ["Metric", "Free Trade", "With 25% Tariff"],
+      "rows": [
+        ["Domestic Price", "$600/ton", "$750/ton"],
+        ["Domestic Output", "40M tons", "55M tons"],
+        ["Imported Steel", "30M tons", "10M tons"]
+      ]
+    },
+    "prompt": "According to the table, what was the combined effect of the 25% steel tariff?",
+    "options": [
+      { "id": "a", "text": "Lower steel prices and higher imports" },
+      { "id": "b", "text": "Higher steel prices and higher domestic output" },
+      { "id": "c", "text": "Lower domestic output and zero imports" },
+      { "id": "d", "text": "Unchanged prices and higher total steel use" }
+    ],
+    "answer": "b",
+    "explanation": "The tariff raised domestic steel prices from $600 to $750 per ton, boosting domestic output from 40M to 55M tons.",
+    "source_url": "https://www.britannica.com/money/tariff",
+    "trap_notes": {
+      "a": "Prices rose to $750/ton and imports dropped to 10M tons.",
+      "c": "Domestic output rose to 55M tons and 10M tons were still imported.",
+      "d": "Total steel consumed fell from 70M tons (40+30) to 65M tons (55+10).",
+      "default": "Tariffs raise domestic prices, expand local output, and shrink imports."
+    }
+  },
+  {
+    "id": "econ-dat-219",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Income Distribution Indicators",
+      "headers": ["Country", "Gini Coefficient", "Top 10% Income Share"],
+      "rows": [
+        ["Country X", "0.26", "21%"],
+        ["Country Y", "0.41", "31%"],
+        ["Country Z", "0.54", "43%"]
+      ]
+    },
+    "prompt": "Which country in the table has the highest level of income inequality?",
+    "options": [
+      { "id": "a", "text": "Country X, with a Gini of 0.26" },
+      { "id": "b", "text": "Country Y, with a Gini of 0.41" },
+      { "id": "c", "text": "Country Z, with a Gini of 0.54" },
+      { "id": "d", "text": "Country X, with a 21% top share" }
+    ],
+    "answer": "c",
+    "explanation": "A higher Gini coefficient (closer to 1.0) and a larger top-10% income share indicate greater inequality, both highest in Country Z.",
+    "source_url": "https://www.britannica.com/money/Gini-coefficient",
+    "trap_notes": {
+      "a": "0.26 is the lowest Gini score, indicating the most equal distribution.",
+      "b": "Country Y sits in the middle between Country X and Country Z.",
+      "d": "A smaller top-10% share (21%) reflects lower inequality.",
+      "default": "Higher Gini coefficients (closer to 1) indicate greater income inequality."
+    }
+  },
+  {
+    "id": "econ-dat-220",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.2565,
+      "lng": -95.9345,
+      "label": "Omaha, Nebraska"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Growth of $1,000 at 6% Annual Interest",
+      "headers": ["Year", "Simple Interest", "Compound Interest"],
+      "rows": [
+        ["Year 1", "$1,060", "$1,060"],
+        ["Year 10", "$1,600", "$1,791"],
+        ["Year 20", "$2,200", "$3,207"]
+      ]
+    },
+    "prompt": "By Year 20, how much extra money does compound interest earn compared with simple interest?",
+    "options": [
+      { "id": "a", "text": "$191 extra" },
+      { "id": "b", "text": "$600 extra" },
+      { "id": "c", "text": "$1,200 extra" },
+      { "id": "d", "text": "$1,007 extra" }
+    ],
+    "answer": "d",
+    "explanation": "At Year 20, the compound account holds $3,207 versus $2,200 for simple interest—a $1,007 advantage from earning interest on interest.",
+    "source_url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+    "trap_notes": {
+      "a": "$191 is the compound advantage at Year 10 ($1,791 - $1,600).",
+      "b": "$600 is the total simple interest earned in the first 10 years.",
+      "c": "$1,200 is the total simple interest earned over 20 years.",
+      "default": "Subtract the Year 20 simple balance ($2,200) from the compound balance ($3,207)."
+    }
+  },
+  {
+    "id": "econ-dat-221",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.2271,
+      "lng": -80.8431,
+      "label": "Charlotte, North Carolina"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Paying Off a $3,000 Credit Card at 20% APR",
+      "headers": ["Monthly Payment", "Months to Pay Off", "Total Interest Paid"],
+      "rows": [
+        ["$75 (Minimum)", "66 months", "$1,920"],
+        ["$120", "33 months", "$930"],
+        ["$200", "18 months", "$500"]
+      ]
+    },
+    "prompt": "How much total interest is saved by paying $200 a month instead of the $75 minimum?",
+    "options": [
+      { "id": "a", "text": "$1,420 saved in interest" },
+      { "id": "b", "text": "$990 saved in interest" },
+      { "id": "c", "text": "$430 saved in interest" },
+      { "id": "d", "text": "$1,920 saved in interest" }
+    ],
+    "answer": "a",
+    "explanation": "Paying $200 monthly cuts total interest from $1,920 down to $500, saving $1,420 and 48 months of debt.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/how-does-my-credit-card-company-calculate-the-amount-of-interest-i-owe-en-51/",
+    "trap_notes": {
+      "b": "$990 is the interest saved by paying $120 instead of $75 ($1,920 - $930).",
+      "c": "$430 is the difference between the $120 plan and the $200 plan.",
+      "d": "$1,920 is the full interest under the $75 plan, not the savings.",
+      "default": "Subtract $500 interest from $1,920 interest to find the savings."
+    }
+  },
+  {
+    "id": "econ-dat-222",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Income and Tax Paid",
+      "headers": ["Household", "Annual Income", "Tax Paid"],
+      "rows": [
+        ["Household A", "$30,000", "$3,000"],
+        ["Household B", "$80,000", "$12,000"],
+        ["Household C", "$200,000", "$44,000"]
+      ]
+    },
+    "prompt": "What type of tax system does this table demonstrate?",
+    "options": [
+      { "id": "a", "text": "Regressive, because high earners pay lower rates" },
+      { "id": "b", "text": "Progressive, because the tax rate rises with income" },
+      { "id": "c", "text": "Proportional, because every household pays 10%" },
+      { "id": "d", "text": "Lump-sum, because everyone pays $3,000" }
+    ],
+    "answer": "b",
+    "explanation": "Effective tax rates rise with income from 10% ($3k/$30k) to 15% ($12k/$80k) to 22% ($44k/$200k), showing a progressive tax.",
+    "source_url": "https://www.britannica.com/money/progressive-tax",
+    "trap_notes": {
+      "a": "High earners pay 22%, which is higher than the 10% paid by Household A.",
+      "c": "Only Household A pays 10%; Households B and C pay 15% and 22%.",
+      "d": "The dollar amounts vary from $3,000 to $44,000.",
+      "default": "Progressive taxes charge a higher percentage rate as income increases."
+    }
+  },
+  {
+    "id": "econ-dat-223",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.7658,
+      "lng": -72.6734,
+      "label": "Hartford, Connecticut"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Health Insurance Options",
+      "headers": ["Plan", "Annual Premium", "Annual Deductible"],
+      "rows": [
+        ["Bronze", "$2,400", "$3,000"],
+        ["Silver", "$3,600", "$1,200"],
+        ["Gold", "$4,800", "$500"]
+      ]
+    },
+    "prompt": "If a patient has $4,000 in covered medical bills this year, which plan has the lowest combined cost (premium plus deductible)?",
+    "options": [
+      { "id": "a", "text": "Bronze, at $5,400 total cost" },
+      { "id": "b", "text": "Gold, at $5,300 total cost" },
+      { "id": "c", "text": "Silver, at $4,800 total cost" },
+      { "id": "d", "text": "Bronze, at $2,400 total cost" }
+    ],
+    "answer": "c",
+    "explanation": "Silver totals $4,800 ($3,600 premium + $1,200 deductible), beating Gold ($5,300) and Bronze ($5,400).",
+    "source_url": "https://www.healthcare.gov/choose-a-plan/your-total-costs/",
+    "trap_notes": {
+      "a": "Bronze costs $2,400 + $3,000 = $5,400, which is higher than Silver.",
+      "b": "Gold costs $4,800 + $500 = $5,300, which is $500 more than Silver.",
+      "d": "$2,400 omits the $3,000 deductible paid out of pocket.",
+      "default": "Add annual premium plus deductible to compare total yearly costs."
+    }
+  },
+  {
+    "id": "econ-dat-224",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.0684,
+      "lng": -75.4757,
+      "label": "Malvern, Pennsylvania"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Saving $200/Month at 7% Annual Return Until Age 65",
+      "headers": ["Starting Age", "Total Contributed", "Balance at Age 65"],
+      "rows": [
+        ["Age 25", "$96,000", "$525,000"],
+        ["Age 35", "$72,000", "$244,000"],
+        ["Age 45", "$48,000", "$104,000"]
+      ]
+    },
+    "prompt": "What key lesson about retirement saving does the table demonstrate?",
+    "options": [
+      { "id": "a", "text": "Starting at 35 earns more than starting at 25" },
+      { "id": "b", "text": "Contributions matter more than compounding years" },
+      { "id": "c", "text": "Waiting until 45 cuts the final balance in half" },
+      { "id": "d", "text": "Starting 10 years earlier more than doubles wealth" }
+    ],
+    "answer": "d",
+    "explanation": "Starting at age 25 instead of 35 adds only $24,000 in deposits but increases the age-65 balance from $244,000 to $525,000.",
+    "source_url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+    "trap_notes": {
+      "a": "Starting at 25 produces $525,000, more than double age 35's $244,000.",
+      "b": "Extra compounding years drive most of the $281,000 gap between age 25 and 35.",
+      "c": "Waiting from 25 to 45 cuts the final balance by about 80%, not half.",
+      "default": "Earlier investing gives compound growth many more years to multiply."
+    }
+  },
+  {
+    "id": "econ-dat-225",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.0684,
+      "lng": -75.4757,
+      "label": "Malvern, Pennsylvania"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Mutual Fund Fees and Net Returns",
+      "headers": ["Fund", "Gross Annual Return", "Annual Fee (Expense Ratio)"],
+      "rows": [
+        ["Index Fund A", "8.0%", "0.05%"],
+        ["Managed Fund B", "8.0%", "1.10%"],
+        ["Managed Fund C", "8.2%", "1.50%"]
+      ]
+    },
+    "prompt": "After subtracting annual fees, which fund delivers the highest net return to investors?",
+    "options": [
+      { "id": "a", "text": "Index Fund A, at 7.95% net return" },
+      { "id": "b", "text": "Managed Fund B, at 6.90% net return" },
+      { "id": "c", "text": "Managed Fund C, at 6.70% net return" },
+      { "id": "d", "text": "Managed Fund C, because 8.2% is highest" }
+    ],
+    "answer": "a",
+    "explanation": "Index Fund A nets 7.95% (8.0% - 0.05%), outperforming Fund B (6.90%) and Fund C (6.70%) because of its tiny fee.",
+    "source_url": "https://www.investor.gov/introduction-investing/getting-started/ask-questions/mutual-fund-and-etf-fees-and-expenses",
+    "trap_notes": {
+      "b": "Fund B's 1.10% fee leaves 6.90%, over a full point below Fund A.",
+      "c": "Fund C's 1.50% fee leaves only 6.70% net return.",
+      "d": "Gross return ignores the 1.50% annual fee deducted from Fund C.",
+      "default": "Net return equals gross return minus the fund's expense ratio."
+    }
+  },
+  {
+    "id": "econ-dat-226",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Top 3 Firms' Share of National Sales",
+      "headers": ["Industry", "Top 3 Market Share", "Number of Firms"],
+      "rows": [
+        ["Local Bakeries", "4%", "18,000"],
+        ["Wireless Carriers", "96%", "4"],
+        ["City Water Utility", "100%", "1"]
+      ]
+    },
+    "prompt": "Which industry in the table is an oligopoly?",
+    "options": [
+      { "id": "a", "text": "Local Bakeries, with 18,000 firms" },
+      { "id": "b", "text": "Wireless Carriers, dominated by a few firms" },
+      { "id": "c", "text": "City Water Utility, with a single provider" },
+      { "id": "d", "text": "Local Bakeries and City Water Utility" }
+    ],
+    "answer": "b",
+    "explanation": "An oligopoly is dominated by a small handful of large firms (such as 4 wireless carriers holding 96% of sales).",
+    "source_url": "https://www.britannica.com/money/oligopoly",
+    "trap_notes": {
+      "a": "18,000 small bakeries with 4% top-3 share reflect monopolistic competition.",
+      "c": "A single firm with 100% share is a pure monopoly, not an oligopoly.",
+      "d": "Neither 18,000 firms nor 1 firm fits an oligopoly.",
+      "default": "Oligopoly means a few dominant firms control most of the market."
+    }
+  },
+  {
+    "id": "econ-dat-227",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "label": "Cleveland, Ohio"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Chemical Plant Costs and Benefits ($/Ton)",
+      "headers": ["Output (Tons)", "Marginal Social Cost", "Marginal Social Benefit"],
+      "rows": [
+        ["100", "$40", "$60"],
+        ["200", "$50", "$50"],
+        ["300", "$65", "$40"]
+      ]
+    },
+    "prompt": "Including pollution costs, what is the socially optimal level of chemical output?",
+    "options": [
+      { "id": "a", "text": "100 tons, where social cost is lowest" },
+      { "id": "b", "text": "300 tons, where output is highest" },
+      { "id": "c", "text": "200 tons, where social cost equals benefit" },
+      { "id": "d", "text": "300 tons, because cost exceeds benefit" }
+    ],
+    "answer": "c",
+    "explanation": "Social welfare is maximized at 200 tons, where marginal social cost ($50) equals marginal social benefit ($50).",
+    "source_url": "https://www.econlib.org/library/Enc/Externalities.html",
+    "trap_notes": {
+      "a": "At 100 tons, social benefit ($60) still exceeds social cost ($40).",
+      "b": "At 300 tons, social cost ($65) exceeds social benefit ($40), harming society.",
+      "d": "Producing where social cost exceeds social benefit reduces net welfare.",
+      "default": "Socially optimal output occurs where marginal social cost equals benefit."
+    }
+  },
+  {
+    "id": "econ-dat-228",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8995,
+      "lng": -77.0443,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Balance of Payments Current Account ($B)",
+      "headers": ["Component", "Credits (+)", "Debits (-)"],
+      "rows": [
+        ["Goods Trade", "+$400", "-$520"],
+        ["Services Trade", "+$250", "-$180"],
+        ["Net Primary Income", "+$90", "-$60"]
+      ]
+    },
+    "prompt": "Based on the table, what is this country's overall current account balance?",
+    "options": [
+      { "id": "a", "text": "A surplus of $70 billion" },
+      { "id": "b", "text": "A deficit of $120 billion" },
+      { "id": "c", "text": "A surplus of $30 billion" },
+      { "id": "d", "text": "A deficit of $20 billion" }
+    ],
+    "answer": "d",
+    "explanation": "Goods (-$120B), services (+$70B), and primary income (+$30B) sum to -$20 billion, a current account deficit.",
+    "source_url": "https://www.imf.org/external/pubs/ft/fandd/basics/42-balance-of-payments.htm",
+    "trap_notes": {
+      "a": "+$70B is only the services trade surplus, omitting goods and income.",
+      "b": "-$120B is only the goods deficit, omitting services and income surpluses.",
+      "c": "+$30B is only the net primary income balance.",
+      "default": "Sum all three sub-balances: (-120) + (+70) + (+30) = -20."
+    }
+  },
+  {
+    "id": "econ-dat-229",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 37.3382,
+      "lng": -121.8863,
+      "label": "San Jose, California"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Labor Productivity at a Microship Plant",
+      "headers": ["Year", "Chips Produced", "Worker Hours"],
+      "rows": [
+        ["2021", "10,000", "500"],
+        ["2022", "15,000", "500"],
+        ["2023", "18,000", "600"]
+      ]
+    },
+    "prompt": "How did output per worker hour change between 2021 and 2022?",
+    "options": [
+      { "id": "a", "text": "Productivity rose from 20 to 30 chips per hour" },
+      { "id": "b", "text": "Productivity fell from 30 to 20 chips per hour" },
+      { "id": "c", "text": "Productivity stayed unchanged at 20 per hour" },
+      { "id": "d", "text": "Productivity rose from 25 to 35 chips per hour" }
+    ],
+    "answer": "a",
+    "explanation": "Output per hour rose from 10,000 / 500 = 20 chips in 2021 to 15,000 / 500 = 30 chips in 2022—a 50% productivity gain.",
+    "source_url": "https://www.bls.gov/productivity/",
+    "trap_notes": {
+      "b": "Output rose while hours stayed at 500, so productivity increased.",
+      "c": "Productivity was 30 per hour in both 2022 and 2023, not 2021.",
+      "d": "Dividing 10,000 by 500 equals 20, not 25.",
+      "default": "Labor productivity equals total output divided by total worker hours."
+    }
+  },
+  {
+    "id": "econ-dat-230",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York, New York"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Fixed-Income Returns vs. 4.5% Inflation",
+      "headers": ["Asset", "Nominal Annual Yield", "Inflation Rate"],
+      "rows": [
+        ["Savings Account", "1.5%", "4.5%"],
+        ["2-Year Certificate", "3.8%", "4.5%"],
+        ["Treasury Bond", "5.2%", "4.5%"]
+      ]
+    },
+    "prompt": "Which asset in the table earned a positive real interest rate?",
+    "options": [
+      { "id": "a", "text": "Savings Account, at +1.5% real return" },
+      { "id": "b", "text": "2-Year Certificate, at +0.7% real return" },
+      { "id": "c", "text": "Treasury Bond, at +0.7% real return" },
+      { "id": "d", "text": "All three earned positive real returns" }
+    ],
+    "answer": "c",
+    "explanation": "Real interest rate equals nominal yield minus inflation; only the Treasury Bond (5.2% - 4.5% = +0.7%) beat inflation.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2022/august/winners-and-losers-of-inflation",
+    "trap_notes": {
+      "a": "The savings account lost 3.0% in real terms (1.5% - 4.5%).",
+      "b": "The certificate lost 0.7% in real terms (3.8% - 4.5%).",
+      "d": "Only yields above the 4.5% inflation rate earn positive real returns.",
+      "default": "Real return equals nominal yield minus the inflation rate."
+    }
+  }
+]

@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "us-map-201",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Colonial Settlement",
+    "era": "1620",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.9584, "lng": -70.6673, "label": "Plymouth, Massachusetts" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 304, "y": 54, "label": "Plymouth" },
+        { "id": "p2", "x": 274, "y": 92, "label": "Jamestown" },
+        { "id": "p3", "x": 238, "y": 148, "label": "St. Augustine" },
+        { "id": "p4", "x": 290, "y": 42, "label": "Quebec City" }
+      ]
+    },
+    "prompt": "Select the pin where Pilgrims signed the Mayflower Compact and settled in 1620.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "English Pilgrims landed at Plymouth on Massachusetts Bay in 1620 and signed the Mayflower Compact for self-rule.",
+    "source_url": "https://www.loc.gov/exhibits/religion/rel01.html",
+    "trap_notes": {
+      "p2": "Jamestown was founded in Virginia in 1607, thirteen years before Plymouth.",
+      "p3": "St. Augustine was a Spanish settlement founded in Florida in 1565.",
+      "p4": "Quebec City was founded by French explorers along the St. Lawrence River in 1608.",
+      "default": "Plymouth sits on the coast of southeastern Massachusetts."
+    }
+  },
+  {
+    "id": "us-map-202",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Colonial Settlement",
+    "era": "1565",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.8947, "lng": -81.3145, "label": "St. Augustine, Florida" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 124, "y": 124, "label": "Santa Fe" },
+        { "id": "p2", "x": 238, "y": 148, "label": "St. Augustine" },
+        { "id": "p3", "x": 274, "y": 92, "label": "Jamestown" },
+        { "id": "p4", "x": 184, "y": 154, "label": "New Orleans" }
+      ]
+    },
+    "prompt": "Which pin marks the oldest continuously occupied European-founded city in the U.S.?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Spain founded St. Augustine on Florida's Atlantic coast in 1565 to guard treasure fleets.",
+    "source_url": "https://www.nps.gov/casa/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "Santa Fe was founded by Spain in 1610 in New Mexico, decades after St. Augustine.",
+      "p3": "Jamestown was founded by England in 1607, forty-two years after St. Augustine.",
+      "p4": "New Orleans was founded by France in 1718 at the mouth of the Mississippi.",
+      "default": "St. Augustine sits on the northeastern Atlantic coast of Florida."
+    }
+  },
+  {
+    "id": "us-map-203",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Colonial Settlement",
+    "era": "1680",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.687, "lng": -105.9378, "label": "Santa Fe, New Mexico" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 54, "y": 102, "label": "Sacramento" },
+        { "id": "p2", "x": 154, "y": 154, "label": "San Antonio" },
+        { "id": "p3", "x": 124, "y": 124, "label": "Santa Fe" },
+        { "id": "p4", "x": 238, "y": 148, "label": "St. Augustine" }
+      ]
+    },
+    "prompt": "Select the pin for the Spanish colonial capital where the 1680 Pueblo Revolt occurred.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Popé led Pueblo nations in 1680 to drive Spanish rulers out of Santa Fe in New Mexico for twelve years.",
+    "source_url": "https://www.nps.gov/petr/learn/historyculture/pueblo-revolt.htm",
+    "trap_notes": {
+      "p1": "Sacramento lies in California's Central Valley, far west of Pueblo lands.",
+      "p2": "San Antonio in Texas was founded in 1718, after the 1680 Pueblo Revolt.",
+      "p4": "St. Augustine is on Florida's Atlantic coast, not in the American Southwest.",
+      "default": "Santa Fe sits near the upper Rio Grande in northern New Mexico."
+    }
+  },
+  {
+    "id": "us-map-204",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "French and Indian War",
+    "era": "1759",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 46.8139, "lng": -71.208, "label": "Quebec City, Canada" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 238, "y": 84, "label": "Fort Duquesne" },
+        { "id": "p2", "x": 278, "y": 60, "label": "Albany" },
+        { "id": "p3", "x": 300, "y": 52, "label": "Boston" },
+        { "id": "p4", "x": 292, "y": 38, "label": "Quebec City" }
+      ]
+    },
+    "prompt": "Which pin marks the St. Lawrence fortress captured by Britain in 1759?",
+    "options": [],
+    "answer": "p4",
+    "explanation": "British forces defeated the French on the Plains of Abraham outside Quebec City in 1759, sealing Canada's fate.",
+    "source_url": "https://www.britannica.com/event/Battle-of-Quebec-1759",
+    "trap_notes": {
+      "p1": "Fort Duquesne stood at the forks of the Ohio River in western Pennsylvania.",
+      "p2": "Albany on the Hudson River hosted the 1754 Albany Plan of Union, not the 1759 siege.",
+      "p3": "Boston was a British port city in Massachusetts, not the capital of New France.",
+      "default": "Quebec City guards the St. Lawrence River northeast of New England."
+    }
+  },
+  {
+    "id": "us-map-205",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1775",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.4473, "lng": -71.2245, "label": "Lexington, Massachusetts" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 300, "y": 54, "label": "Lexington" },
+        { "id": "p2", "x": 278, "y": 78, "label": "Philadelphia" },
+        { "id": "p3", "x": 272, "y": 96, "label": "Yorktown" },
+        { "id": "p4", "x": 252, "y": 116, "label": "Charleston" }
+      ]
+    },
+    "prompt": "Select the pin where Minutemen and British troops clashed on April 19, 1775.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Revolutionary War began with skirmishes at Lexington and Concord near Boston in April 1775.",
+    "source_url": "https://www.nps.gov/mima/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p2": "Philadelphia hosted the Continental Congress, not the opening battle of 1775.",
+      "p3": "Yorktown in Virginia was the final major battle of the war in 1781.",
+      "p4": "Charleston in South Carolina fell to British troops later in 1780.",
+      "default": "Lexington lies just inland from Boston in eastern Massachusetts."
+    }
+  },
+  {
+    "id": "us-map-206",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1777–1778",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.1011, "lng": -75.4235, "label": "Valley Forge, Pennsylvania" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 278, "y": 60, "label": "Saratoga" },
+        { "id": "p2", "x": 274, "y": 78, "label": "Valley Forge" },
+        { "id": "p3", "x": 256, "y": 116, "label": "Cowpens" },
+        { "id": "p4", "x": 286, "y": 68, "label": "New York City" }
+      ]
+    },
+    "prompt": "Which pin marks the winter camp where Washington's army trained in 1777–1778?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Outside British-held Philadelphia, Continental troops endured harsh winter at Valley Forge and trained with Baron von Steuben.",
+    "source_url": "https://www.nps.gov/vafo/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "Saratoga in upstate New York was the site of an October 1777 American victory.",
+      "p3": "Cowpens in South Carolina was a 1781 Patriot victory in the Southern campaign.",
+      "p4": "New York City was occupied by British forces from 1776 until 1783.",
+      "default": "Valley Forge sits northwest of Philadelphia in southeastern Pennsylvania."
+    }
+  },
+  {
+    "id": "us-map-207",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1794",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.5442, "lng": -83.6974, "label": "Fallen Timbers, Ohio" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 186, "y": 98, "label": "St. Louis" },
+        { "id": "p2", "x": 238, "y": 84, "label": "Pittsburgh" },
+        { "id": "p3", "x": 226, "y": 78, "label": "Fallen Timbers" },
+        { "id": "p4", "x": 184, "y": 154, "label": "New Orleans" }
+      ]
+    },
+    "prompt": "Select the pin for the 1794 Ohio battle that led to the Treaty of Greenville.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "General Anthony Wayne's 1794 victory at Fallen Timbers forced Native nations to cede most of present-day Ohio.",
+    "source_url": "https://www.nps.gov/fati/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "St. Louis lay west of the Mississippi River in Spanish Louisiana in 1794.",
+      "p2": "Pittsburgh was the center of the 1794 Whiskey Rebellion, not Fallen Timbers.",
+      "p4": "New Orleans was a Spanish port at the mouth of the Mississippi in 1794.",
+      "default": "Fallen Timbers lies near the Maumee River and Lake Erie in northwest Ohio."
+    }
+  },
+  {
+    "id": "us-map-208",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "War of 1812",
+    "era": "1814",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 278, "y": 78, "label": "Philadelphia" },
+        { "id": "p2", "x": 286, "y": 68, "label": "New York City" },
+        { "id": "p3", "x": 300, "y": 52, "label": "Boston" },
+        { "id": "p4", "x": 270, "y": 88, "label": "Washington, D.C." }
+      ]
+    },
+    "prompt": "Which pin marks the U.S. capital burned by British troops in August 1814?",
+    "options": [],
+    "answer": "p4",
+    "explanation": "During the War of 1812, British forces marched into Washington, D.C., and burned the Capitol and White House.",
+    "source_url": "https://www.archives.gov/publications/prologue/2014/summer/1814.html",
+    "trap_notes": {
+      "p1": "Philadelphia served as the U.S. capital in the 1790s before the move in 1800.",
+      "p2": "New York City was the first capital under the Constitution, not in 1814.",
+      "p3": "Boston was never the U.S. national capital and was not burned in 1814.",
+      "default": "Washington, D.C., sits along the Potomac River near Chesapeake Bay."
+    }
+  },
+  {
+    "id": "us-map-209",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1836",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.426, "lng": -98.4861, "label": "San Antonio, Texas" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 154, "y": 154, "label": "San Antonio" },
+        { "id": "p2", "x": 124, "y": 124, "label": "Santa Fe" },
+        { "id": "p3", "x": 184, "y": 154, "label": "New Orleans" },
+        { "id": "p4", "x": 130, "y": 142, "label": "El Paso" }
+      ]
+    },
+    "prompt": "Select the pin for the Texas mission where the 1836 Battle of the Alamo took place.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Mexican forces besieged Texan defenders at the Alamo mission in San Antonio in February and March 1836.",
+    "source_url": "https://www.thealamo.org/remember/battle-and-revolution",
+    "trap_notes": {
+      "p2": "Santa Fe is in northern New Mexico, far from the Texas Revolution battles.",
+      "p3": "New Orleans is in Louisiana, where Andrew Jackson fought the British in 1815.",
+      "p4": "El Paso lies on the western tip of Texas along the Rio Grande.",
+      "default": "San Antonio sits in south-central Texas north of the Rio Grande."
+    }
+  },
+  {
+    "id": "us-map-210",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1847",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7608, "lng": -111.891, "label": "Salt Lake City, Utah" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 54, "y": 102, "label": "Sacramento" },
+        { "id": "p2", "x": 104, "y": 88, "label": "Salt Lake City" },
+        { "id": "p3", "x": 164, "y": 86, "label": "Omaha" },
+        { "id": "p4", "x": 48, "y": 58, "label": "Portland" }
+      ]
+    },
+    "prompt": "Which pin marks the Great Basin valley where Mormon pioneers settled in 1847?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Brigham Young led Latter-day Saints west along the Mormon Trail to the Great Salt Lake Valley in 1847.",
+    "source_url": "https://www.nps.gov/mopi/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "Sacramento in California was the center of the 1849 Gold Rush, not Mormon settlement.",
+      "p3": "Omaha was a Missouri River jumping-off point, not the final destination.",
+      "p4": "Portland sits at the end of the Oregon Trail in the Pacific Northwest.",
+      "default": "Salt Lake City lies in northern Utah in the Great Basin."
+    }
+  },
+  {
+    "id": "us-map-211",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1859",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.3254, "lng": -77.7389, "label": "Harpers Ferry, WV" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 162, "y": 104, "label": "Lawrence" },
+        { "id": "p2", "x": 252, "y": 116, "label": "Charleston" },
+        { "id": "p3", "x": 264, "y": 86, "label": "Harpers Ferry" },
+        { "id": "p4", "x": 274, "y": 94, "label": "Richmond" }
+      ]
+    },
+    "prompt": "Select the pin where John Brown raided a federal arsenal in October 1859.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Abolitionist John Brown seized the federal armory at Harpers Ferry, Virginia, hoping to spark a slave uprising.",
+    "source_url": "https://www.nps.gov/hafe/learn/historyculture/john-brown.htm",
+    "trap_notes": {
+      "p1": "Lawrence, Kansas, was attacked during Bleeding Kansas in 1856, not 1859.",
+      "p2": "Charleston, South Carolina, was where Fort Sumter was fired on in 1861.",
+      "p4": "Richmond became the Confederate capital in 1861, not the 1859 arsenal site.",
+      "default": "Harpers Ferry sits where the Shenandoah meets the Potomac in the Appalachians."
+    }
+  },
+  {
+    "id": "us-map-212",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1862",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.4732, "lng": -77.7444, "label": "Antietam, Maryland" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 266, "y": 84, "label": "Antietam" },
+        { "id": "p2", "x": 186, "y": 134, "label": "Vicksburg" },
+        { "id": "p3", "x": 232, "y": 126, "label": "Atlanta" },
+        { "id": "p4", "x": 184, "y": 154, "label": "New Orleans" }
+      ]
+    },
+    "prompt": "Which pin marks the 1862 Maryland battle that prompted the Emancipation Proclamation?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "After halting Lee's invasion at Antietam in September 1862, Lincoln issued the preliminary Emancipation Proclamation.",
+    "source_url": "https://www.nps.gov/anti/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p2": "Vicksburg on the Mississippi River fell to Grant in July 1863.",
+      "p3": "Atlanta was captured by Sherman's Union army in September 1864.",
+      "p4": "New Orleans was captured by Union naval forces in April 1862.",
+      "default": "Antietam Creek lies in western Maryland near the Potomac River."
+    }
+  },
+  {
+    "id": "us-map-213",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1865",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.3774, "lng": -78.7958, "label": "Appomattox, Virginia" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 268, "y": 80, "label": "Gettysburg" },
+        { "id": "p2", "x": 262, "y": 96, "label": "Appomattox" },
+        { "id": "p3", "x": 252, "y": 116, "label": "Charleston" },
+        { "id": "p4", "x": 232, "y": 126, "label": "Atlanta" }
+      ]
+    },
+    "prompt": "Select the pin where Robert E. Lee surrendered to Ulysses S. Grant in April 1865.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Lee surrendered the Army of Northern Virginia to Grant at Appomattox Court House on April 9, 1865.",
+    "source_url": "https://www.nps.gov/apco/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "Gettysburg in Pennsylvania was the July 1863 turning-point battle.",
+      "p3": "Charleston, South Carolina, was where the Civil War began in 1861.",
+      "p4": "Atlanta in Georgia was captured in 1864 before Sherman's March to the Sea.",
+      "default": "Appomattox lies in central Virginia southwest of Richmond."
+    }
+  },
+  {
+    "id": "us-map-214",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1890",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.1422, "lng": -102.3627, "label": "Wounded Knee, SD" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 148, "y": 72, "label": "Wounded Knee" },
+        { "id": "p2", "x": 156, "y": 124, "label": "Tahlequah" },
+        { "id": "p3", "x": 124, "y": 124, "label": "Santa Fe" },
+        { "id": "p4", "x": 54, "y": 102, "label": "Sacramento" }
+      ]
+    },
+    "prompt": "Which pin marks the 1890 South Dakota massacre that ended the Plains Indian Wars?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "U.S. cavalry killed over 250 Lakota men, women, and children at Wounded Knee Creek in South Dakota in 1890.",
+    "source_url": "https://www.britannica.com/event/Wounded-Knee-Massacre",
+    "trap_notes": {
+      "p2": "Tahlequah in Oklahoma was the Cherokee capital after the 1830s Trail of Tears.",
+      "p3": "Santa Fe in New Mexico was the site of the 1680 Pueblo Revolt.",
+      "p4": "Sacramento in California was the center of the 1849 Gold Rush.",
+      "default": "Wounded Knee lies in southwestern South Dakota on the Northern Plains."
+    }
+  },
+  {
+    "id": "us-map-215",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Gilded Age & Labor",
+    "era": "1886–1894",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 204, "y": 74, "label": "Chicago" },
+        { "id": "p2", "x": 286, "y": 68, "label": "New York City" },
+        { "id": "p3", "x": 186, "y": 98, "label": "St. Louis" },
+        { "id": "p4", "x": 300, "y": 52, "label": "Boston" }
+      ]
+    },
+    "prompt": "Select the pin for the Lake Michigan rail hub of the 1886 Haymarket Affair and 1894 Pullman Strike.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Chicago was the nation's railroad crossroads and the site of both the 1886 Haymarket bombing and 1894 Pullman Strike.",
+    "source_url": "https://www.loc.gov/item/today-in-history/may-04/",
+    "trap_notes": {
+      "p2": "New York City was the East Coast port of the 1911 Triangle Shirtwaist Fire.",
+      "p3": "St. Louis sits farther south along the Mississippi River, not on Lake Michigan.",
+      "p4": "Boston on the Atlantic coast saw the 1919 police strike, not the Pullman Strike.",
+      "default": "Chicago sits at the southwestern shore of Lake Michigan."
+    }
+  },
+  {
+    "id": "us-map-216",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Gilded Age & Labor",
+    "era": "1892",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.4059, "lng": -79.9117, "label": "Homestead, Pennsylvania" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 224, "y": 74, "label": "Detroit" },
+        { "id": "p2", "x": 238, "y": 84, "label": "Homestead" },
+        { "id": "p3", "x": 274, "y": 94, "label": "Richmond" },
+        { "id": "p4", "x": 204, "y": 74, "label": "Chicago" }
+      ]
+    },
+    "prompt": "Which pin marks the steel town near Pittsburgh where a violent 1892 lockout occurred?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "In 1892, Carnegie Steel workers clashed with Pinkerton guards at Homestead near Pittsburgh, breaking the steel union.",
+    "source_url": "https://www.britannica.com/event/Homestead-Strike",
+    "trap_notes": {
+      "p1": "Detroit on Lake Erie later became the center of U.S. auto manufacturing.",
+      "p3": "Richmond was the Confederate capital in Virginia, not a Pennsylvania steel town.",
+      "p4": "Chicago on Lake Michigan was the site of the 1894 Pullman railroad strike.",
+      "default": "Homestead sits along the Monongahela River near Pittsburgh in western Pennsylvania."
+    }
+  },
+  {
+    "id": "us-map-217",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Early 20th Century",
+    "era": "1903",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 36.0646, "lng": -75.7057, "label": "Kitty Hawk, NC" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 234, "y": 80, "label": "Dayton" },
+        { "id": "p2", "x": 244, "y": 176, "label": "Cape Canaveral" },
+        { "id": "p3", "x": 268, "y": 102, "label": "Kitty Hawk" },
+        { "id": "p4", "x": 298, "y": 54, "label": "Plymouth" }
+      ]
+    },
+    "prompt": "Select the pin on North Carolina's Outer Banks where the Wright brothers flew in 1903.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Orville and Wilbur Wright achieved the first powered airplane flight at Kitty Hawk, North Carolina, in December 1903.",
+    "source_url": "https://www.nps.gov/wrbr/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "Dayton, Ohio, was the Wright brothers' hometown, not where they made their 1903 flight.",
+      "p2": "Cape Canaveral in Florida was the 1960s launch site for Apollo Moon missions.",
+      "p4": "Plymouth in Massachusetts was the 1620 Pilgrim landing site.",
+      "default": "Kitty Hawk sits on the Atlantic barrier islands of North Carolina."
+    }
+  },
+  {
+    "id": "us-map-218",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Industrialization & 1920s",
+    "era": "1913",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 224, "y": 74, "label": "Detroit" },
+        { "id": "p2", "x": 238, "y": 84, "label": "Pittsburgh" },
+        { "id": "p3", "x": 278, "y": 78, "label": "Philadelphia" },
+        { "id": "p4", "x": 184, "y": 154, "label": "New Orleans" }
+      ]
+    },
+    "prompt": "Which pin marks the Great Lakes city where Henry Ford launched the moving assembly line?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Henry Ford's Highland Park plant near Detroit introduced the moving assembly line in 1913, slashing Model T costs.",
+    "source_url": "https://www.loc.gov/item/today-in-history/december-01/",
+    "trap_notes": {
+      "p2": "Pittsburgh in western Pennsylvania was America's steel capital, not auto capital.",
+      "p3": "Philadelphia was a colonial and publishing center on the East Coast.",
+      "p4": "New Orleans was a Gulf Coast port, not a Great Lakes manufacturing hub.",
+      "default": "Detroit sits between Lake Huron and Lake Erie in southeastern Michigan."
+    }
+  },
+  {
+    "id": "us-map-219",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "1920s Culture",
+    "era": "1920–1929",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.8116, "lng": -73.9465, "label": "Harlem, New York City" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 204, "y": 74, "label": "Chicago" },
+        { "id": "p2", "x": 286, "y": 68, "label": "Harlem" },
+        { "id": "p3", "x": 184, "y": 154, "label": "New Orleans" },
+        { "id": "p4", "x": 232, "y": 126, "label": "Atlanta" }
+      ]
+    },
+    "prompt": "Select the pin for the New York neighborhood at the center of a 1920s Black cultural flowering.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Harlem in upper Manhattan became the cultural capital of the 1920s Harlem Renaissance in music, art, and writing.",
+    "source_url": "https://www.loc.gov/classroom-materials/harlem-renaissance/",
+    "trap_notes": {
+      "p1": "Chicago was a major Great Migration destination, but Harlem was in New York City.",
+      "p3": "New Orleans was the birthplace of jazz, farther south on the Gulf Coast.",
+      "p4": "Atlanta was a major southern city, not the Manhattan center of the 1920s movement.",
+      "default": "Harlem is located in northern Manhattan in New York City."
+    }
+  },
+  {
+    "id": "us-map-220",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "1920s Culture",
+    "era": "1925",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.4937, "lng": -85.0125, "label": "Dayton, Tennessee" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 226, "y": 116, "label": "Dayton" },
+        { "id": "p2", "x": 162, "y": 104, "label": "Topeka" },
+        { "id": "p3", "x": 202, "y": 122, "label": "Little Rock" },
+        { "id": "p4", "x": 286, "y": 68, "label": "New York City" }
+      ]
+    },
+    "prompt": "Which pin marks the Tennessee town where the 1925 Scopes evolution trial took place?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "In 1925, teacher John Scopes was tried in Dayton, Tennessee, pitting William Jennings Bryan against Clarence Darrow.",
+    "source_url": "https://www.mtsu.edu/first-amendment/article/1064/scopes-monkey-trial",
+    "trap_notes": {
+      "p2": "Topeka, Kansas, was the home of the 1954 Brown v. Board school desegregation case.",
+      "p3": "Little Rock, Arkansas, saw the 1957 Central High integration crisis.",
+      "p4": "New York City was the home of the ACLU, which backed Scopes, not the trial site.",
+      "default": "Dayton sits in eastern Tennessee near the Appalachian ridge."
+    }
+  },
+  {
+    "id": "us-map-221",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1931–1936",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 36.0161, "lng": -114.7377, "label": "Hoover Dam, NV/AZ" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 222, "y": 120, "label": "Muscle Shoals" },
+        { "id": "p2", "x": 78, "y": 112, "label": "Hoover Dam" },
+        { "id": "p3", "x": 48, "y": 54, "label": "Grand Coulee" },
+        { "id": "p4", "x": 156, "y": 124, "label": "Dust Bowl" }
+      ]
+    },
+    "prompt": "Select the pin for the giant 1930s dam built on the Colorado River between Nevada and Arizona.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Completed in 1936, Hoover Dam tamed Colorado River floods and supplied water and electricity to the Southwest.",
+    "source_url": "https://www.usbr.gov/lc/hooverdam/history/index.html",
+    "trap_notes": {
+      "p1": "Muscle Shoals in Alabama was part of the Tennessee Valley Authority in the South.",
+      "p3": "Grand Coulee Dam was built on the Columbia River in Washington State.",
+      "p4": "The Dust Bowl struck the Southern Great Plains, east of the Rockies.",
+      "default": "Hoover Dam sits in Black Canyon on the Nevada-Arizona border."
+    }
+  },
+  {
+    "id": "us-map-222",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1943–1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.88, "lng": -106.3031, "label": "Los Alamos, New Mexico" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 124, "y": 128, "label": "Los Alamos" },
+        { "id": "p2", "x": 228, "y": 116, "label": "Oak Ridge" },
+        { "id": "p3", "x": 204, "y": 74, "label": "Chicago" },
+        { "id": "p4", "x": 50, "y": 52, "label": "Hanford" }
+      ]
+    },
+    "prompt": "Which pin marks the secret New Mexico lab where the atomic bomb was designed?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "J. Robert Oppenheimer led scientists at Los Alamos, New Mexico, to design and assemble the first atomic bombs.",
+    "source_url": "https://www.nps.gov/mapr/learn/historyculture/los-alamos.htm",
+    "trap_notes": {
+      "p2": "Oak Ridge, Tennessee, enriched uranium but was not the New Mexico design lab.",
+      "p3": "Chicago hosted the first nuclear reactor in 1942, not the desert bomb assembly site.",
+      "p4": "Hanford in Washington State produced plutonium along the Columbia River.",
+      "default": "Los Alamos sits on a mesa in northern New Mexico."
+    }
+  },
+  {
+    "id": "us-map-223",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II & Postwar",
+    "era": "1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, CA" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 46, "y": 104, "label": "San Francisco" },
+        { "id": "p2", "x": 286, "y": 68, "label": "New York City" },
+        { "id": "p3", "x": 270, "y": 88, "label": "Washington, D.C." },
+        { "id": "p4", "x": 298, "y": 54, "label": "Bretton Woods" }
+      ]
+    },
+    "prompt": "Select the pin where 50 nations signed the United Nations Charter in June 1945.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Delegates met in San Francisco from April to June 1945 to draft and sign the founding United Nations Charter.",
+    "source_url": "https://www.archives.gov/milestone-documents/united-nations-charter",
+    "trap_notes": {
+      "p2": "New York City later became UN headquarters, but the charter was signed on the West Coast.",
+      "p3": "Washington, D.C., hosted the 1944 Dumbarton Oaks talks, not the 1945 signing.",
+      "p4": "Bretton Woods, New Hampshire, hosted the 1944 Allied monetary conference.",
+      "default": "San Francisco sits on California's Pacific coast."
+    }
+  },
+  {
+    "id": "us-map-224",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1954",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.0473, "lng": -95.6752, "label": "Topeka, Kansas" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 202, "y": 122, "label": "Little Rock" },
+        { "id": "p2", "x": 218, "y": 136, "label": "Montgomery" },
+        { "id": "p3", "x": 162, "y": 104, "label": "Topeka" },
+        { "id": "p4", "x": 274, "y": 94, "label": "Richmond" }
+      ]
+    },
+    "prompt": "Which pin marks the Kansas city at the center of Brown v. Board of Education (1954)?",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Oliver Brown sued the Topeka school board in Kansas, leading the Supreme Court to outlaw school segregation in 1954.",
+    "source_url": "https://www.nps.gov/brvb/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "Little Rock, Arkansas, saw the 1957 Central High integration standoff after Brown.",
+      "p2": "Montgomery, Alabama, was the site of the 1955–1956 bus boycott.",
+      "p4": "Richmond, Virginia, was part of the consolidated cases, not Brown's home city.",
+      "default": "Topeka lies in northeastern Kansas on the Great Plains."
+    }
+  },
+  {
+    "id": "us-map-225",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1960",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 36.0726, "lng": -79.792, "label": "Greensboro, NC" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 258, "y": 102, "label": "Greensboro" },
+        { "id": "p2", "x": 218, "y": 136, "label": "Montgomery" },
+        { "id": "p3", "x": 186, "y": 118, "label": "Memphis" },
+        { "id": "p4", "x": 232, "y": 126, "label": "Atlanta" }
+      ]
+    },
+    "prompt": "Select the pin where four Black college students began the 1960 lunch counter sit-ins.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "On February 1, 1960, four North Carolina A&T students sat at a Woolworth counter in Greensboro, sparking nationwide sit-ins.",
+    "source_url": "https://www.loc.gov/exhibits/civil-rights-act/multimedia/greensboro-sit-in.html",
+    "trap_notes": {
+      "p2": "Montgomery, Alabama, hosted the 1955–1956 bus boycott.",
+      "p3": "Memphis, Tennessee, was where Dr. Martin Luther King Jr. was assassinated in 1968.",
+      "p4": "Atlanta, Georgia, was the headquarters of SCLC and SNCC, not the first 1960 sit-in.",
+      "default": "Greensboro sits in north-central North Carolina."
+    }
+  },
+  {
+    "id": "us-map-226",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1965",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.4074, "lng": -87.0211, "label": "Selma, Alabama" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 202, "y": 122, "label": "Little Rock" },
+        { "id": "p2", "x": 212, "y": 138, "label": "Selma" },
+        { "id": "p3", "x": 162, "y": 104, "label": "Topeka" },
+        { "id": "p4", "x": 258, "y": 102, "label": "Greensboro" }
+      ]
+    },
+    "prompt": "Which pin marks the Alabama city where a 1965 voting rights march faced Bloody Sunday?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Televised violence on the Edmund Pettus Bridge in Selma, Alabama, spurred passage of the 1965 Voting Rights Act.",
+    "source_url": "https://www.nps.gov/semo/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "Little Rock, Arkansas, was the 1957 school desegregation crisis.",
+      "p3": "Topeka, Kansas, was the 1954 Brown v. Board school case.",
+      "p4": "Greensboro, North Carolina, was the 1960 lunch counter sit-in.",
+      "default": "Selma sits in central Alabama along the Alabama River."
+    }
+  },
+  {
+    "id": "us-map-227",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil Rights & Labor",
+    "era": "1965–1970",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.7688, "lng": -119.2471, "label": "Delano, California" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 154, "y": 154, "label": "San Antonio" },
+        { "id": "p2", "x": 96, "y": 130, "label": "Phoenix" },
+        { "id": "p3", "x": 56, "y": 114, "label": "Delano" },
+        { "id": "p4", "x": 132, "y": 102, "label": "Denver" }
+      ]
+    },
+    "prompt": "Select the pin in California's Central Valley where Cesar Chavez led the 1965 grape strike.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Cesar Chavez and Dolores Huerta led Filipino and Mexican farmworkers in the Delano grape strike and boycott.",
+    "source_url": "https://www.nps.gov/cech/learn/historyculture/index.htm",
+    "trap_notes": {
+      "p1": "San Antonio is in south-central Texas, not California's Central Valley.",
+      "p2": "Phoenix is in Arizona, birthplace of Cesar Chavez's family roots, not the grape strike.",
+      "p4": "Denver is in Colorado, where Corky Gonzales led the Crusade for Justice.",
+      "default": "Delano lies in California's San Joaquin Valley."
+    }
+  },
+  {
+    "id": "us-map-228",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1979",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.1539, "lng": -76.7253, "label": "Three Mile Island, PA" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 78, "y": 112, "label": "Hoover Dam" },
+        { "id": "p2", "x": 124, "y": 128, "label": "Los Alamos" },
+        { "id": "p3", "x": 272, "y": 78, "label": "Three Mile Island" },
+        { "id": "p4", "x": 244, "y": 74, "label": "Love Canal" }
+      ]
+    },
+    "prompt": "Which pin marks the Pennsylvania nuclear power plant that suffered a 1979 partial meltdown?",
+    "options": [],
+    "answer": "p3",
+    "explanation": "The 1979 Three Mile Island accident near Harrisburg, Pennsylvania, slowed new nuclear plant construction in the U.S.",
+    "source_url": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/3mile-isle.html",
+    "trap_notes": {
+      "p1": "Hoover Dam is a hydroelectric dam on the Colorado River in the Southwest.",
+      "p2": "Los Alamos in New Mexico was the WWII atomic weapons research lab.",
+      "p4": "Love Canal near Niagara Falls, New York, was a 1978 toxic chemical waste crisis.",
+      "default": "Three Mile Island sits on the Susquehanna River in south-central Pennsylvania."
+    }
+  },
+  {
+    "id": "us-map-229",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1801–1805",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.8872, "lng": 13.1913, "label": "Tripoli, Libya" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 182, "y": 90, "label": "Tripoli" },
+        { "id": "p2", "x": 82, "y": 102, "label": "Havana" },
+        { "id": "p3", "x": 158, "y": 54, "label": "London" },
+        { "id": "p4", "x": 310, "y": 112, "label": "Manila" }
+      ]
+    },
+    "prompt": "Select the pin for the North African port targeted by the U.S. Navy in the First Barbary War.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "President Jefferson sent U.S. warships to blockade Tripoli from 1801 to 1805 rather than pay pirate tributes.",
+    "source_url": "https://history.state.gov/milestones/1801-1829/barbary-wars",
+    "trap_notes": {
+      "p2": "Havana in Cuba was the site of the 1898 USS Maine explosion.",
+      "p3": "London was Britain's capital, fought in the War of 1812 rather than 1801.",
+      "p4": "Manila in the Philippines saw a U.S. naval victory in 1898.",
+      "default": "Tripoli sits on the Mediterranean coast of North Africa."
+    }
+  },
+  {
+    "id": "us-map-230",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "War of 1812",
+    "era": "1814",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.0543, "lng": 3.7174, "label": "Ghent, Belgium" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 168, "y": 60, "label": "Ghent" },
+        { "id": "p2", "x": 182, "y": 90, "label": "Tripoli" },
+        { "id": "p3", "x": 86, "y": 82, "label": "Washington, D.C." },
+        { "id": "p4", "x": 214, "y": 44, "label": "Moscow" }
+      ]
+    },
+    "prompt": "Which pin marks the Belgian city where the treaty ending the War of 1812 was signed?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "U.S. and British diplomats signed the Treaty of Ghent in December 1814, restoring prewar borders.",
+    "source_url": "https://www.archives.gov/milestone-documents/treaty-of-ghent",
+    "trap_notes": {
+      "p2": "Tripoli in North Africa was the center of the Barbary Wars, not the War of 1812 treaty.",
+      "p3": "Washington, D.C., was burned by British troops in 1814, not where peace was signed.",
+      "p4": "Moscow was invaded by Napoleon in 1812, not the War of 1812 peace site.",
+      "default": "Ghent lies in Belgium across the English Channel from Britain."
+    }
+  },
+  {
+    "id": "us-map-231",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Antebellum Diplomacy",
+    "era": "1853",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo Bay, Japan" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 298, "y": 66, "label": "Beijing" },
+        { "id": "p2", "x": 326, "y": 64, "label": "Tokyo Bay" },
+        { "id": "p3", "x": 310, "y": 112, "label": "Manila" },
+        { "id": "p4", "x": 260, "y": 104, "label": "Mumbai" }
+      ]
+    },
+    "prompt": "Select the pin where Commodore Matthew Perry's ships pressured Japan to open trade in 1853.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Commodore Perry steamed into Edo (Tokyo) Bay in 1853, leading to the 1854 Treaty of Kanagawa.",
+    "source_url": "https://history.state.gov/milestones/1830-1860/opening-to-japan",
+    "trap_notes": {
+      "p1": "Beijing is China's capital, where the 1899 Open Door Policy focused.",
+      "p3": "Manila is in the Philippines, which came under U.S. control in 1898.",
+      "p4": "Mumbai is on India's west coast, part of British India in 1853.",
+      "default": "Tokyo Bay lies on the Pacific coast of Japan's main island."
+    }
+  },
+  {
+    "id": "us-map-232",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "U.S. Imperialism",
+    "era": "1898",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 14.5995, "lng": 120.9842, "label": "Manila Bay, Philippines" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 82, "y": 102, "label": "Havana" },
+        { "id": "p2", "x": 78, "y": 112, "label": "Panama" },
+        { "id": "p3", "x": 310, "y": 112, "label": "Manila Bay" },
+        { "id": "p4", "x": 326, "y": 64, "label": "Tokyo Bay" }
+      ]
+    },
+    "prompt": "Which pin marks the Pacific harbor where Admiral Dewey destroyed Spain's fleet in 1898?",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Commodore George Dewey sank Spain's Pacific fleet in Manila Bay on May 1, 1898, leading to U.S. rule in the Philippines.",
+    "source_url": "https://history.state.gov/milestones/1866-1898/spanish-american-war",
+    "trap_notes": {
+      "p1": "Havana in Cuba was in the Caribbean theater, not the Pacific harbor of Dewey's victory.",
+      "p2": "Panama in Central America was where the U.S. later built the Panama Canal.",
+      "p4": "Tokyo Bay in Japan was where Perry arrived in 1853, not an 1898 battle.",
+      "default": "Manila Bay lies on the western coast of Luzon in the Philippines."
+    }
+  },
+  {
+    "id": "us-map-233",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "U.S. Imperialism",
+    "era": "1899–1900",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 298, "y": 66, "label": "Beijing" },
+        { "id": "p2", "x": 326, "y": 64, "label": "Tokyo" },
+        { "id": "p3", "x": 294, "y": 108, "label": "Saigon" },
+        { "id": "p4", "x": 260, "y": 104, "label": "Delhi" }
+      ]
+    },
+    "prompt": "Select the pin for the capital where U.S. troops joined an 1900 force during the Boxer Rebellion.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "To protect U.S. trade under the Open Door Policy, U.S. troops helped lift the 1900 Boxer siege of foreign legations in Beijing.",
+    "source_url": "https://history.state.gov/milestones/1899-1913/hay-and-china",
+    "trap_notes": {
+      "p2": "Tokyo was the capital of Japan, which joined the 1900 coalition in China.",
+      "p3": "Saigon was in French Indochina, later the capital of South Vietnam.",
+      "p4": "Delhi was in British-ruled India, not the site of the 1900 Boxer Rebellion.",
+      "default": "Beijing sits in northern China near the Bohai Sea."
+    }
+  },
+  {
+    "id": "us-map-234",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War I",
+    "era": "1919",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 180, "y": 56, "label": "Berlin" },
+        { "id": "p2", "x": 166, "y": 64, "label": "Versailles" },
+        { "id": "p3", "x": 218, "y": 72, "label": "Yalta" },
+        { "id": "p4", "x": 182, "y": 72, "label": "Rome" }
+      ]
+    },
+    "prompt": "Which pin marks the French palace where Woodrow Wilson negotiated the 1919 peace treaty?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "President Wilson attended the 1919 Paris Peace Conference at Versailles, where the League of Nations was drafted.",
+    "source_url": "https://history.state.gov/milestones/1914-1920/paris-peace",
+    "trap_notes": {
+      "p1": "Berlin was Germany's capital and was excluded from the 1919 Versailles talks.",
+      "p3": "Yalta on the Black Sea hosted a 1945 World War II summit, not 1919.",
+      "p4": "Rome was Italy's capital, not the site of the 1919 peace treaty.",
+      "default": "Versailles lies just outside Paris in northern France."
+    }
+  },
+  {
+    "id": "us-map-235",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1943",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.5731, "lng": -7.5898, "label": "Casablanca, Morocco" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 158, "y": 54, "label": "London" },
+        { "id": "p2", "x": 160, "y": 92, "label": "Casablanca" },
+        { "id": "p3", "x": 236, "y": 86, "label": "Tehran" },
+        { "id": "p4", "x": 218, "y": 72, "label": "Yalta" }
+      ]
+    },
+    "prompt": "Select the pin where Roosevelt and Churchill demanded Axis unconditional surrender in 1943.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "At the January 1943 Casablanca Conference in Morocco, FDR and Churchill pledged to accept only unconditional Axis surrender.",
+    "source_url": "https://history.state.gov/milestones/1937-1945/casablanca",
+    "trap_notes": {
+      "p1": "London was Britain's capital, not the North African summit site.",
+      "p3": "Tehran in Iran hosted the first Big Three summit with Stalin in late 1943.",
+      "p4": "Yalta hosted the February 1945 summit on postwar Europe.",
+      "default": "Casablanca sits on Morocco's Atlantic coast in northwestern Africa."
+    }
+  },
+  {
+    "id": "us-map-236",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 44.4952, "lng": 34.1663, "label": "Yalta, Crimea" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 166, "y": 64, "label": "Versailles" },
+        { "id": "p2", "x": 218, "y": 72, "label": "Yalta" },
+        { "id": "p3", "x": 160, "y": 92, "label": "Casablanca" },
+        { "id": "p4", "x": 86, "y": 82, "label": "Washington, D.C." }
+      ]
+    },
+    "prompt": "Which pin marks the Black Sea resort where FDR, Churchill, and Stalin planned postwar Europe?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "At Yalta in February 1945, the Big Three agreed on dividing Germany and forming the United Nations.",
+    "source_url": "https://history.state.gov/milestones/1937-1945/yalta-conf",
+    "trap_notes": {
+      "p1": "Versailles near Paris hosted the 1919 World War I peace conference.",
+      "p3": "Casablanca in Morocco hosted a 1943 meeting without Joseph Stalin.",
+      "p4": "Washington, D.C., was the U.S. capital, not the 1945 Black Sea summit.",
+      "default": "Yalta sits on the Crimean coast along the Black Sea."
+    }
+  },
+  {
+    "id": "us-map-237",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 34.3853, "lng": 132.4553, "label": "Hiroshima, Japan" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 322, "y": 68, "label": "Hiroshima" },
+        { "id": "p2", "x": 298, "y": 66, "label": "Beijing" },
+        { "id": "p3", "x": 310, "y": 112, "label": "Manila" },
+        { "id": "p4", "x": 294, "y": 108, "label": "Saigon" }
+      ]
+    },
+    "prompt": "Select the pin for the Japanese city struck by the first atomic bomb on August 6, 1945.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The U.S. dropped the first atomic bomb on Hiroshima on August 6, 1945, followed by Nagasaki three days later.",
+    "source_url": "https://www.trumanlibrary.gov/education/presidential-inquiries/decision-drop-atomic-bomb",
+    "trap_notes": {
+      "p2": "Beijing is in China, which was an Allied nation during World War II.",
+      "p3": "Manila in the Philippines was liberated from Japanese occupation earlier in 1945.",
+      "p4": "Saigon is in southern Vietnam, not in Japan.",
+      "default": "Hiroshima sits on the southwestern coast of Japan's main island."
+    }
+  },
+  {
+    "id": "us-map-238",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II & Justice",
+    "era": "1945–1946",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 49.4521, "lng": 11.0767, "label": "Nuremberg, Germany" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 180, "y": 62, "label": "Nuremberg" },
+        { "id": "p2", "x": 166, "y": 64, "label": "Versailles" },
+        { "id": "p3", "x": 214, "y": 44, "label": "Moscow" },
+        { "id": "p4", "x": 194, "y": 78, "label": "Athens" }
+      ]
+    },
+    "prompt": "Which pin marks the German city where Allied tribunals prosecuted Nazi leaders in 1945–1946?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Nuremberg Trials established that leaders could be held personally accountable for war crimes and crimes against humanity.",
+    "source_url": "https://www.archives.gov/research/holocaust/nuremberg",
+    "trap_notes": {
+      "p2": "Versailles in France hosted the 1919 World War I peace treaty.",
+      "p3": "Moscow was the Soviet capital, not the site of the Allied tribunal.",
+      "p4": "Athens is Greece's capital, supported by the 1947 Truman Doctrine.",
+      "default": "Nuremberg lies in southern Germany in Bavaria."
+    }
+  },
+  {
+    "id": "us-map-239",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1950",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.4563, "lng": 126.7052, "label": "Incheon, South Korea" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 314, "y": 68, "label": "Incheon" },
+        { "id": "p2", "x": 294, "y": 108, "label": "Saigon" },
+        { "id": "p3", "x": 310, "y": 112, "label": "Manila" },
+        { "id": "p4", "x": 326, "y": 64, "label": "Tokyo" }
+      ]
+    },
+    "prompt": "Select the pin where General MacArthur launched a 1950 amphibious landing in the Korean War.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "MacArthur's September 1950 landing at Incheon near Seoul cut off North Korean supply lines and turned the tide.",
+    "source_url": "https://www.trumanlibrary.gov/education/presidential-inquiries/korean-war",
+    "trap_notes": {
+      "p2": "Saigon was in Vietnam, where U.S. combat troops intervened in the 1960s.",
+      "p3": "Manila in the Philippines was MacArthur's WWII base, not the 1950 Korean landing.",
+      "p4": "Tokyo was the occupation headquarters in Japan, not on the Korean Peninsula.",
+      "default": "Incheon sits on the western coast of the Korean Peninsula near Seoul."
+    }
+  },
+  {
+    "id": "us-map-240",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War & Vietnam",
+    "era": "1975",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 10.8231, "lng": 106.6297, "label": "Saigon, Vietnam" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 314, "y": 68, "label": "Seoul" },
+        { "id": "p2", "x": 294, "y": 108, "label": "Saigon" },
+        { "id": "p3", "x": 298, "y": 66, "label": "Beijing" },
+        { "id": "p4", "x": 310, "y": 112, "label": "Manila" }
+      ]
+    },
+    "prompt": "Which pin marks the South Vietnamese capital whose 1975 fall ended the Vietnam War?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "North Vietnamese forces captured Saigon in April 1975 as U.S. helicopters evacuated final personnel from the embassy.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/ending-vietnam",
+    "trap_notes": {
+      "p1": "Seoul is the capital of South Korea, not South Vietnam.",
+      "p3": "Beijing is the capital of China, north of Vietnam.",
+      "p4": "Manila is the capital of the island nation of the Philippines.",
+      "default": "Saigon sits near the Mekong Delta in southern Vietnam."
+    }
+  },
+  {
+    "id": "us-map-241",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War & Middle East",
+    "era": "1979–1981",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6892, "lng": 51.389, "label": "Tehran, Iran" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 208, "y": 96, "label": "Cairo" },
+        { "id": "p2", "x": 236, "y": 86, "label": "Tehran" },
+        { "id": "p3", "x": 294, "y": 108, "label": "Saigon" },
+        { "id": "p4", "x": 182, "y": 90, "label": "Tripoli" }
+      ]
+    },
+    "prompt": "Select the pin where 52 Americans were held hostage for 444 days starting in 1979.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Iranian students seized the U.S. Embassy in Tehran in November 1979, dominating President Carter's final year.",
+    "source_url": "https://history.state.gov/departmenthistory/short-history/iraniancrisis",
+    "trap_notes": {
+      "p1": "Cairo is Egypt's capital, whose president signed the 1978 Camp David Accords.",
+      "p3": "Saigon in Vietnam fell in 1975, four years before the Iran Hostage Crisis.",
+      "p4": "Tripoli is Libya's capital on the Mediterranean, not Iran's capital.",
+      "default": "Tehran lies in northern Iran south of the Caspian Sea."
+    }
+  },
+  {
+    "id": "us-map-242",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Late Cold War",
+    "era": "1986",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 64.1466, "lng": -21.9426, "label": "Reykjavik, Iceland" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 144, "y": 40, "label": "Reykjavik" },
+        { "id": "p2", "x": 180, "y": 56, "label": "Berlin" },
+        { "id": "p3", "x": 214, "y": 44, "label": "Moscow" },
+        { "id": "p4", "x": 168, "y": 60, "label": "Geneva" }
+      ]
+    },
+    "prompt": "Which pin marks the North Atlantic capital where Reagan and Gorbachev met in 1986?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "In October 1986 at Reykjavik, Iceland, Reagan and Gorbachev came close to sweeping nuclear arms cuts.",
+    "source_url": "https://www.reaganlibrary.gov/archives/speech/reykjavik-summit",
+    "trap_notes": {
+      "p2": "Berlin was the divided German city where Reagan spoke in 1987.",
+      "p3": "Moscow was the Soviet capital, visited by Reagan later in 1988.",
+      "p4": "Geneva in Switzerland hosted their first 1985 summit, not the island summit.",
+      "default": "Reykjavik sits in Iceland between North America and Europe."
+    }
+  },
+  {
+    "id": "us-map-243",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Post-Cold War",
+    "era": "1991",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.3759, "lng": 47.9774, "label": "Kuwait City, Kuwait" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 230, "y": 96, "label": "Kuwait City" },
+        { "id": "p2", "x": 252, "y": 88, "label": "Kabul" },
+        { "id": "p3", "x": 208, "y": 96, "label": "Cairo" },
+        { "id": "p4", "x": 294, "y": 108, "label": "Saigon" }
+      ]
+    },
+    "prompt": "Select the pin for the Persian Gulf capital liberated by a U.S.-led coalition in 1991.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "In Operation Desert Storm, a U.S.-led coalition drove Iraqi forces out of Kuwait in early 1991.",
+    "source_url": "https://history.state.gov/milestones/1989-1992/gulf-war",
+    "trap_notes": {
+      "p2": "Kabul is Afghanistan's capital, targeted after 9/11 in 2001.",
+      "p3": "Cairo is Egypt's capital along the Nile River, west of the Persian Gulf.",
+      "p4": "Saigon is in Southeast Asia, not on the Persian Gulf.",
+      "default": "Kuwait City sits at the head of the Persian Gulf."
+    }
+  },
+  {
+    "id": "us-map-244",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "2001",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.5553, "lng": 69.2075, "label": "Kabul, Afghanistan" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 230, "y": 96, "label": "Kuwait City" },
+        { "id": "p2", "x": 252, "y": 88, "label": "Kabul" },
+        { "id": "p3", "x": 228, "y": 88, "label": "Baghdad" },
+        { "id": "p4", "x": 314, "y": 68, "label": "Seoul" }
+      ]
+    },
+    "prompt": "Which pin marks the capital where U.S. forces toppled the Taliban in late 2001?",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Following the September 11 attacks, the U.S. invaded Afghanistan in October 2001 and ousted the Taliban from Kabul.",
+    "source_url": "https://www.britannica.com/event/Afghanistan-War",
+    "trap_notes": {
+      "p1": "Kuwait City was liberated in the 1991 Persian Gulf War.",
+      "p3": "Baghdad in Iraq was invaded in 2003, two years after Afghanistan.",
+      "p4": "Seoul is South Korea's capital in East Asia.",
+      "default": "Kabul lies in landlocked Afghanistan east of Iran and north of Pakistan."
+    }
+  },
+  {
+    "id": "us-map-245",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War & Middle East",
+    "era": "1956",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Suez Canal, Egypt" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 78, "y": 112, "label": "Panama Canal" },
+        { "id": "p2", "x": 208, "y": 96, "label": "Suez Canal" },
+        { "id": "p3", "x": 182, "y": 90, "label": "Tripoli" },
+        { "id": "p4", "x": 230, "y": 96, "label": "Kuwait City" }
+      ]
+    },
+    "prompt": "Select the pin for the waterway where Eisenhower pressured Britain and France to withdraw in 1956.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "During the 1956 Suez Crisis, President Eisenhower opposed the British-French-Israeli invasion of Egypt's Suez Canal.",
+    "source_url": "https://history.state.gov/milestones/1953-1960/suez",
+    "trap_notes": {
+      "p1": "The Panama Canal connects the Atlantic and Pacific in Central America.",
+      "p3": "Tripoli is in Libya, west of Egypt and the Suez Canal.",
+      "p4": "Kuwait City lies on the Persian Gulf, site of the 1991 Gulf War.",
+      "default": "The Suez Canal links the Mediterranean and Red Seas across Egypt."
+    }
+  },
+  {
+    "id": "us-mc-261",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1636",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.824, "lng": -71.4128, "label": "Providence, Rhode Island" },
+    "prompt": "Why did Roger Williams found Rhode Island after being banished from Massachusetts?",
+    "options": [
+      { "id": "a", "text": "To create a colony separating church and state" },
+      { "id": "b", "text": "To build a royal port for the British Navy" },
+      { "id": "c", "text": "To enforce strict Puritan laws on all settlers" },
+      { "id": "d", "text": "To establish large tobacco plantations near Boston" }
+    ],
+    "answer": "a",
+    "explanation": "Roger Williams founded Providence in 1636 as a haven for religious freedom and separation of church and state.",
+    "source_url": "https://www.nps.gov/rowi/learn/historyculture/rogerwilliams.htm",
+    "trap_notes": {
+      "b": "Rhode Island was a haven for dissenters, not a royal naval base.",
+      "c": "Puritan leaders banished Williams precisely because he opposed their religious laws.",
+      "d": "Tobacco plantations grew in the Chesapeake, not rocky New England.",
+      "default": "Roger Williams championed religious liberty and fair land deals with Native nations."
+    }
+  },
+  {
+    "id": "us-mc-262",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Road to Revolution",
+    "era": "1763",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "Why did Britain end its policy of salutary neglect toward the colonies after 1763?",
+    "options": [
+      { "id": "a", "text": "Spain seized New York Harbor during peace talks" },
+      { "id": "b", "text": "Colonial assemblies asked Parliament for higher taxes" },
+      { "id": "c", "text": "Britain needed revenue to pay French and Indian War debts" },
+      { "id": "d", "text": "Parliament wanted to grant immediate independence" }
+    ],
+    "answer": "c",
+    "explanation": "Victory in the Seven Years' War left Britain deeply in debt, leading Parliament to tax and police the colonies.",
+    "source_url": "https://history.state.gov/milestones/1750-1775/parliamentary-taxation",
+    "trap_notes": {
+      "a": "Britain gained Florida from Spain in 1763; Spain did not seize New York.",
+      "b": "Colonial assemblies resisted new parliamentary taxes rather than requesting them.",
+      "d": "Britain tightened imperial control after 1763 instead of granting independence.",
+      "default": "War debts after 1763 pushed Britain to tax the colonies directly."
+    }
+  },
+  {
+    "id": "us-mc-263",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1785",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9612, "lng": -82.9988, "label": "Ohio Country" },
+    "prompt": "How did the Land Ordinance of 1785 support public education in western territories?",
+    "options": [
+      { "id": "a", "text": "It required every state to fund private colleges" },
+      { "id": "b", "text": "It reserved one section per township for public schools" },
+      { "id": "c", "text": "It taxed imported books to pay frontier teachers" },
+      { "id": "d", "text": "It banned religious groups from opening academies" }
+    ],
+    "answer": "b",
+    "explanation": "The Land Ordinance of 1785 divided western land into 36-section townships and set aside Section 16 to fund public schools.",
+    "source_url": "https://www.loc.gov/item/today-in-history/may-20/",
+    "trap_notes": {
+      "a": "The 1785 law funded local public schools, not private colleges.",
+      "c": "Revenue came from land sales in Section 16, not book tariffs.",
+      "d": "The ordinance did not ban religious schools; it created public land grants.",
+      "default": "Section 16 of each surveyed township funded public education."
+    }
+  },
+  {
+    "id": "us-mc-264",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1794",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "prompt": "What did President Washington prove by sending troops to end the 1794 Whiskey Rebellion?",
+    "options": [
+      { "id": "a", "text": "State militias could ignore federal court rulings" },
+      { "id": "b", "text": "Frontier farmers were exempt from excise taxes" },
+      { "id": "c", "text": "The new federal government could enforce its laws" },
+      { "id": "d", "text": "Congress lacked power to regulate western trade" }
+    ],
+    "answer": "c",
+    "explanation": "Unlike the weak Articles during Shays' Rebellion, Washington's response showed the Constitution could enforce federal taxes.",
+    "source_url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/whiskey-rebellion",
+    "trap_notes": {
+      "a": "Washington federalized state militias to uphold federal authority, not ignore it.",
+      "b": "The federal government upheld and collected the whiskey excise tax.",
+      "d": "The Constitution gave Congress clear taxing and enforcement powers.",
+      "default": "Ending the Whiskey Rebellion proved the new federal government could enforce its laws."
+    }
+  },
+  {
+    "id": "us-mc-265",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1807",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "What was the unintended domestic result of President Jefferson's 1807 Embargo Act?",
+    "options": [
+      { "id": "a", "text": "Britain immediately ended naval impressment" },
+      { "id": "b", "text": "U.S. shipping collapsed and hurt American ports" },
+      { "id": "c", "text": "France returned Louisiana to Spanish control" },
+      { "id": "d", "text": "Southern cotton planters doubled overseas exports" }
+    ],
+    "answer": "b",
+    "explanation": "Halting all foreign trade failed to coerce Britain or France and instead devastated New England shipping and U.S. ports.",
+    "source_url": "https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/embargo-1807/",
+    "trap_notes": {
+      "a": "Britain continued impressing sailors until after the War of 1812.",
+      "c": "The Louisiana Purchase had already occurred in 1803.",
+      "d": "The embargo cut off overseas exports, hurting both merchants and planters.",
+      "default": "The 1807 Embargo Act hurt American merchants far more than Britain or France."
+    }
+  },
+  {
+    "id": "us-mc-266",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Market Revolution",
+    "era": "1820–1840",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.6334, "lng": -71.3162, "label": "Lowell, Massachusetts" },
+    "prompt": "How did the Lowell textile mill system change women's work in the early 1800s?",
+    "options": [
+      { "id": "a", "text": "Young farm women earned wages in factory dormitories" },
+      { "id": "b", "text": "Women gained equal voting rights in factory towns" },
+      { "id": "c", "text": "Married women replaced men as railroad engineers" },
+      { "id": "d", "text": "Federal laws guaranteed eight-hour textile shifts" }
+    ],
+    "answer": "a",
+    "explanation": "Lowell mills recruited young New England women to live in supervised boardinghouses and earn cash wages operating looms.",
+    "source_url": "https://www.nps.gov/lowe/learn/historyculture/the-mill-girls-of-lowell.htm",
+    "trap_notes": {
+      "b": "Women did not gain nationwide voting rights until the 19th Amendment in 1920.",
+      "c": "Lowell employed young unmarried women in textile mills, not on railroads.",
+      "d": "Mill workers faced 12-to-14-hour days; federal wage-hour laws came in the 1930s.",
+      "default": "The Lowell system brought young rural women into wage-paying textile factories."
+    }
+  },
+  {
+    "id": "us-mc-267",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Antebellum Reform",
+    "era": "1820–1850",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.0481, "lng": -76.1474, "label": "Upstate New York" },
+    "prompt": "How did the Second Great Awakening fuel antebellum reform movements?",
+    "options": [
+      { "id": "a", "text": "It taught that individuals could improve society by fighting sin" },
+      { "id": "b", "text": "It urged believers to withdraw from politics and charity" },
+      { "id": "c", "text": "It defended slavery as a permanent colonial institution" },
+      { "id": "d", "text": "It opposed public schools in favor of factory labor" }
+    ],
+    "answer": "a",
+    "explanation": "Revival preachers taught that moral action could perfect society, inspiring abolition, temperance, and education reform.",
+    "source_url": "https://www.loc.gov/exhibits/religion/rel07.html",
+    "trap_notes": {
+      "b": "The revivals spurred active social engagement, not political withdrawal.",
+      "c": "Northern revivalists became key leaders in the abolitionist movement.",
+      "d": "Reformers like Horace Mann championed public schools during this era.",
+      "default": "Second Great Awakening revivals inspired citizens to reform social evils."
+    }
+  },
+  {
+    "id": "us-mc-268",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1848",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 19.4839, "lng": -99.118, "label": "Guadalupe Hidalgo, Mexico" },
+    "prompt": "Why did the 1848 Treaty of Guadalupe Hidalgo sharpen the U.S. debate over slavery?",
+    "options": [
+      { "id": "a", "text": "Mexico required the U.S. to adopt gradual emancipation" },
+      { "id": "b", "text": "New southwestern territories reopened the fight over slavery's spread" },
+      { "id": "c", "text": "Texas immediately seceded from the Union after the treaty" },
+      { "id": "d", "text": "California entered the Union as a slaveholding state" }
+    ],
+    "answer": "b",
+    "explanation": "Adding California and the Mexican Cession forced Congress to clash over whether slavery could expand into new western lands.",
+    "source_url": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+    "trap_notes": {
+      "a": "Mexico had abolished slavery earlier, but the treaty did not require U.S. emancipation.",
+      "c": "Texas joined the Union in 1845 and did not secede until 1861.",
+      "d": "California entered the Union as a free state in the Compromise of 1850.",
+      "default": "Vast new territories from Mexico reignited sectional conflict over slavery."
+    }
+  },
+  {
+    "id": "us-mc-269",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865–1872",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "What was the most lasting achievement of the Freedmen's Bureau during Reconstruction?",
+    "options": [
+      { "id": "a", "text": "Giving every freed family forty acres of federal land" },
+      { "id": "b", "text": "Building thousands of schools for Black children and adults" },
+      { "id": "c", "text": "Ratifying the 19th Amendment for women's suffrage" },
+      { "id": "d", "text": "Replacing southern governors with military judges" }
+    ],
+    "answer": "b",
+    "explanation": "The Freedmen's Bureau provided food and legal aid and helped establish over 4,000 schools and several Black colleges.",
+    "source_url": "https://www.archives.gov/research/african-americans/freedmens-bureau",
+    "trap_notes": {
+      "a": "Most confiscated land was returned to former owners under President Andrew Johnson.",
+      "c": "The 19th Amendment was ratified in 1920, long after Reconstruction.",
+      "d": "Military districts were set up by the 1867 Reconstruction Acts, not the Bureau.",
+      "default": "The Freedmen's Bureau made its deepest mark by expanding public education."
+    }
+  },
+  {
+    "id": "us-mc-270",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1877",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "What did the Compromise of 1877 exchange to settle the disputed 1876 presidential election?",
+    "options": [
+      { "id": "a", "text": "Hayes won the presidency in return for removing federal troops" },
+      { "id": "b", "text": "Tilden became president in return for keeping troops in Texas" },
+      { "id": "c", "text": "Congress repealed the 14th Amendment in southern states" },
+      { "id": "d", "text": "Southern states agreed to ban poll taxes and literacy tests" }
+    ],
+    "answer": "a",
+    "explanation": "Southern Democrats accepted Republican Rutherford B. Hayes as president in exchange for withdrawing federal troops, ending Reconstruction.",
+    "source_url": "https://www.britannica.com/event/Compromise-of-1877",
+    "trap_notes": {
+      "b": "Samuel Tilden won the popular vote, but Hayes received the disputed electoral votes.",
+      "c": "The 14th Amendment remained part of the Constitution, though weakly enforced.",
+      "d": "Southern states soon expanded poll taxes and literacy tests after troops left.",
+      "default": "The Compromise of 1877 ended Reconstruction by withdrawing federal troops."
+    }
+  },
+  {
+    "id": "us-mc-271",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1887",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 44.0805, "lng": -103.231, "label": "Great Plains" },
+    "prompt": "How did the 1887 Dawes Act affect Indigenous nations across the United States?",
+    "options": [
+      { "id": "a", "text": "It restored communal tribal control over western railroads" },
+      { "id": "b", "text": "It broke up tribal lands into private plots, shrinking Native land" },
+      { "id": "c", "text": "It granted immediate U.S. citizenship to all Plains nations" },
+      { "id": "d", "text": "It ended federal boarding schools for Native children" }
+    ],
+    "answer": "b",
+    "explanation": "The Dawes Act divided communal reservations into individual family plots and sold surplus land, costing tribes two-thirds of their land.",
+    "source_url": "https://www.archives.gov/milestone-documents/dawes-act",
+    "trap_notes": {
+      "a": "The Dawes Act aimed to end communal landholding, not restore it.",
+      "c": "Universal citizenship for Native Americans came later with the 1924 Indian Citizenship Act.",
+      "d": "Federal boarding schools expanded alongside the Dawes Act's assimilation policy.",
+      "default": "The 1887 Dawes Act forced land allotment and caused massive tribal land loss."
+    }
+  },
+  {
+    "id": "us-mc-272",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1892",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha, Nebraska" },
+    "prompt": "Why did the Populist Party's 1892 Omaha Platform demand unlimited silver coinage?",
+    "options": [
+      { "id": "a", "text": "To expand the money supply and ease farmers' debts" },
+      { "id": "b", "text": "To raise interest rates for eastern commercial banks" },
+      { "id": "c", "text": "To lower crop prices for urban factory workers" },
+      { "id": "d", "text": "To replace paper dollars with British gold coins" }
+    ],
+    "answer": "a",
+    "explanation": "Indebted farmers wanted free silver to create mild inflation, raise crop prices, and make loans easier to repay.",
+    "source_url": "https://www.loc.gov/item/today-in-history/july-04/",
+    "trap_notes": {
+      "b": "Eastern banks favored the tight gold standard, not silver inflation.",
+      "c": "Farmers wanted crop prices to rise, not fall.",
+      "d": "Populists opposed gold-only currency and backed silver plus paper money.",
+      "default": "Free silver aimed to increase money circulation and help indebted farmers."
+    }
+  },
+  {
+    "id": "us-mc-273",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1913",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8921, "lng": -77.0458, "label": "Washington, D.C." },
+    "prompt": "Why did Congress create the Federal Reserve System in 1913?",
+    "options": [
+      { "id": "a", "text": "To set federal minimum wages for factory workers" },
+      { "id": "b", "text": "To stabilize banking and manage the national money supply" },
+      { "id": "c", "text": "To collect protective tariffs on imported farm goods" },
+      { "id": "d", "text": "To insure home mortgages for suburban veterans" }
+    ],
+    "answer": "b",
+    "explanation": "After the Panic of 1907, the Federal Reserve Act created a central bank to regulate credit and prevent banking panics.",
+    "source_url": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed",
+    "trap_notes": {
+      "a": "A federal minimum wage was established later by the 1938 Fair Labor Standards Act.",
+      "c": "Tariffs were handled by Congress and customs agencies, not the Federal Reserve.",
+      "d": "Veteran home loans came later through the 1944 GI Bill.",
+      "default": "The 1913 Federal Reserve Act created a central banking system to stabilize credit."
+    }
+  },
+  {
+    "id": "us-mc-274",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1919–1920",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "What triggered the 1919–1920 Palmer Raids during the First Red Scare?",
+    "options": [
+      { "id": "a", "text": "Soviet nuclear tests in Eastern Europe" },
+      { "id": "b", "text": "Postwar labor strikes, anarchist bombings, and fear of Bolshevism" },
+      { "id": "c", "text": "Japanese attacks on American merchant ships" },
+      { "id": "d", "text": "Stock market speculation on Wall Street" }
+    ],
+    "answer": "b",
+    "explanation": "Following the 1917 Russian Revolution, 1919 strikes and bombings led Attorney General Palmer to raid and deport suspected radicals.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/the-red-scare.html",
+    "trap_notes": {
+      "a": "Soviet nuclear tests occurred in 1949 during the Second Red Scare.",
+      "c": "Japanese attacks took place in 1941, not 1919.",
+      "d": "The Wall Street crash happened in October 1929.",
+      "default": "Fear of communist revolution and 1919 bombings fueled the First Red Scare."
+    }
+  },
+  {
+    "id": "us-mc-275",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1933",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "How did the 1933 Glass-Steagall Act restore public trust in American banks?",
+    "options": [
+      { "id": "a", "text": "It created federal deposit insurance and separated commercial banking" },
+      { "id": "b", "text": "It outlawed all personal checking accounts nationwide" },
+      { "id": "c", "text": "It required citizens to exchange dollars for silver coins" },
+      { "id": "d", "text": "It transferred all private bank branches to state governors" }
+    ],
+    "answer": "a",
+    "explanation": "Glass-Steagall created the FDIC to insure savings and barred commercial banks from risky investment banking.",
+    "source_url": "https://www.federalreservehistory.org/essays/glass-steagall-act",
+    "trap_notes": {
+      "b": "The law protected ordinary checking and savings accounts rather than banning them.",
+      "c": "FDR actually took the U.S. off the domestic gold standard in 1933.",
+      "d": "Banks remained privately owned under federal regulation and insurance.",
+      "default": "Glass-Steagall created the FDIC and separated commercial from investment banking."
+    }
+  }
+]

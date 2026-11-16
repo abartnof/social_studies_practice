@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "econ-map-101",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "era": "1944",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 44.2581, "lng": -71.4408, "label": "Bretton Woods, New Hampshire" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 302, "y": 46, "label": "Bretton Woods" },
+        { "id": "b", "x": 272, "y": 84, "label": "Washington" },
+        { "id": "c", "x": 206, "y": 72, "label": "Chicago" },
+        { "id": "d", "x": 186, "y": 152, "label": "New Orleans" }
+      ]
+    },
+    "prompt": "Select the New Hampshire site of the 1944 conference that created the IMF and World Bank.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Delegates met in Bretton Woods, New Hampshire, in 1944 to design the postwar monetary system.",
+    "fun_fact": "The Mount Washington Hotel hosted 730 delegates from 44 Allied nations for three weeks.",
+    "source_url": "https://www.federalreservehistory.org/essays/bretton-woods-created",
+    "trap_notes": {
+      "b": "Washington, D.C. became the permanent headquarters, not the 1944 conference site.",
+      "c": "Chicago is a major commodities and futures hub, not the Bretton Woods site.",
+      "d": "New Orleans is a major Gulf Coast port, unrelated to the 1944 monetary talks.",
+      "default": "The 1944 monetary conference took place in Bretton Woods, New Hampshire."
+    }
+  },
+  {
+    "id": "econ-map-102",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Trade Corridors",
+    "era": "1914–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 9.08, "lng": -79.68, "label": "Panama Canal" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 216, "y": 98, "label": "Suez Canal" },
+        { "id": "b", "x": 82, "y": 114, "label": "Panama Canal" },
+        { "id": "c", "x": 288, "y": 128, "label": "Malacca Strait" },
+        { "id": "d", "x": 244, "y": 102, "label": "Strait of Hormuz" }
+      ]
+    },
+    "prompt": "Select the waterway that links the Atlantic and Pacific oceans through Central America.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Panama Canal cuts across the Isthmus of Panama, saving ships the long voyage around South America.",
+    "fun_fact": "About 14,000 vessels transit the Panama Canal each year using freshwater locks.",
+    "source_url": "https://www.britannica.com/topic/Panama-Canal",
+    "trap_notes": {
+      "a": "The Suez Canal links the Mediterranean Sea and the Red Sea in Egypt.",
+      "c": "The Strait of Malacca connects the Indian Ocean and the South China Sea.",
+      "d": "The Strait of Hormuz connects the Persian Gulf to the Arabian Sea.",
+      "default": "Panama Canal connects the Atlantic and Pacific oceans in Central America."
+    }
+  },
+  {
+    "id": "econ-map-103",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Monetary Institutions",
+    "era": "1998–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 50.1109, "lng": 8.6821, "label": "Frankfurt, Germany" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 158, "y": 54, "label": "London" },
+        { "id": "b", "x": 100, "y": 62, "label": "New York" },
+        { "id": "c", "x": 180, "y": 56, "label": "Frankfurt" },
+        { "id": "d", "x": 326, "y": 64, "label": "Tokyo" }
+      ]
+    },
+    "prompt": "Select the German financial city that houses the European Central Bank.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Frankfurt hosts the European Central Bank, which manages monetary policy for the eurozone.",
+    "fun_fact": "The ECB oversees the euro, used by 20 European Union member countries.",
+    "source_url": "https://www.ecb.europa.eu/ecb/html/index.en.html",
+    "trap_notes": {
+      "a": "London houses the Bank of England, outside the eurozone.",
+      "b": "New York houses the Federal Reserve Bank of New York, not the ECB.",
+      "d": "Tokyo houses the Bank of Japan, not the European Central Bank.",
+      "default": "The European Central Bank is headquartered in Frankfurt, Germany."
+    }
+  },
+  {
+    "id": "econ-map-104",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Global Trade Governance",
+    "era": "1995–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 96, "y": 68, "label": "Washington" },
+        { "id": "b", "x": 158, "y": 54, "label": "London" },
+        { "id": "c", "x": 260, "y": 108, "label": "Mumbai" },
+        { "id": "d", "x": 174, "y": 66, "label": "Geneva" }
+      ]
+    },
+    "prompt": "Select the Swiss city where the World Trade Organization is headquartered.",
+    "options": [],
+    "answer": "d",
+    "explanation": "The WTO is based in Geneva, Switzerland, where it administers trade rules and settles disputes.",
+    "fun_fact": "The WTO replaced the 1947 GATT framework on January 1, 1995.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm",
+    "trap_notes": {
+      "a": "Washington, D.C. hosts the IMF and World Bank, not the WTO.",
+      "b": "London is a global banking center, not the WTO headquarters.",
+      "c": "Mumbai is India's financial capital, not the WTO headquarters.",
+      "default": "Geneva, Switzerland is the home of the World Trade Organization."
+    }
+  },
+  {
+    "id": "econ-map-105",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Energy Chokepoints",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 26.5667, "lng": 56.25, "label": "Strait of Hormuz" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 106, "y": 42, "label": "Strait of Hormuz" },
+        { "id": "b", "x": 58, "y": 86, "label": "Bab el-Mandeb" },
+        { "id": "c", "x": 294, "y": 134, "label": "Malacca Strait" },
+        { "id": "d", "x": 194, "y": 140, "label": "Colombo" }
+      ]
+    },
+    "prompt": "Select the narrow chokepoint connecting the Persian Gulf to global oil shipping lanes.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Roughly one-fifth of global petroleum liquids pass through the Strait of Hormuz.",
+    "fun_fact": "At its narrowest point, the Strait of Hormuz is only about 21 miles wide.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "b": "Bab el-Mandeb links the Red Sea to the Gulf of Aden, west of the Persian Gulf.",
+      "c": "The Strait of Malacca lies between the Malay Peninsula and Sumatra.",
+      "d": "Colombo is a deep-water port in Sri Lanka, not a Persian Gulf chokepoint.",
+      "default": "The Strait of Hormuz is the sole sea outlet for Persian Gulf oil exports."
+    }
+  },
+  {
+    "id": "econ-map-106",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Mediterranean Trade",
+    "era": "1869–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Suez Canal" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 28, "y": 112, "label": "Gibraltar" },
+        { "id": "b", "x": 238, "y": 62, "label": "Bosporus" },
+        { "id": "c", "x": 266, "y": 152, "label": "Suez Canal" },
+        { "id": "d", "x": 124, "y": 64, "label": "Venice" }
+      ]
+    },
+    "prompt": "Select the Egyptian canal that lets Europe-to-Asia ships bypass the Cape of Good Hope.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Opened in 1869, the Suez Canal links the Mediterranean and Red seas across Egypt.",
+    "fun_fact": "About 12 percent of global seaborne trade passes through the Suez Canal.",
+    "source_url": "https://www.britannica.com/topic/Suez-Canal",
+    "trap_notes": {
+      "a": "The Strait of Gibraltar connects the Mediterranean Sea to the Atlantic Ocean.",
+      "b": "The Bosporus connects the Black Sea to the Sea of Marmara.",
+      "d": "Venice is an Adriatic port city in northern Italy, not a Red Sea canal.",
+      "default": "The Suez Canal crosses Egypt to join the Mediterranean and Red seas."
+    }
+  },
+  {
+    "id": "econ-map-107",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Asian Trade Hubs",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 1.3521, "lng": 103.8198, "label": "Singapore" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 164, "y": 88, "label": "Mumbai" },
+        { "id": "b", "x": 294, "y": 134, "label": "Singapore" },
+        { "id": "c", "x": 102, "y": 52, "label": "Dubai" },
+        { "id": "d", "x": 44, "y": 156, "label": "Mombasa" }
+      ]
+    },
+    "prompt": "Select the city-state at the tip of the Malay Peninsula that serves as a top transshipment hub.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Singapore sits on the Strait of Malacca, handling massive container transshipment between Asia and Europe.",
+    "fun_fact": "Singapore's port is connected to over 600 ports in more than 120 countries.",
+    "source_url": "https://www.britannica.com/place/Singapore",
+    "trap_notes": {
+      "a": "Mumbai is on India's western coast, far northwest of the Malay Peninsula.",
+      "c": "Dubai is a Middle Eastern trade hub on the Persian Gulf.",
+      "d": "Mombasa is a major East African port on the Kenyan coast.",
+      "default": "Singapore sits at the southern entrance to the Strait of Malacca."
+    }
+  },
+  {
+    "id": "econ-map-108",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "U.S. Financial Markets",
+    "era": "1792–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "New York City" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 288, "y": 62, "label": "New York" },
+        { "id": "b", "x": 206, "y": 72, "label": "Chicago" },
+        { "id": "c", "x": 52, "y": 92, "label": "San Francisco" },
+        { "id": "d", "x": 166, "y": 162, "label": "Houston" }
+      ]
+    },
+    "prompt": "Select the East Coast city that houses the New York Stock Exchange and the largest Fed bank.",
+    "options": [],
+    "answer": "a",
+    "explanation": "New York City is home to Wall Street and the Federal Reserve Bank of New York.",
+    "fun_fact": "The New York Fed conducts the Federal Reserve's open market operations.",
+    "source_url": "https://www.newyorkfed.org/aboutthefed/whatwedo",
+    "trap_notes": {
+      "b": "Chicago is known for futures and options exchanges, not the NYSE.",
+      "c": "San Francisco is a West Coast tech and venture capital center.",
+      "d": "Houston is a Gulf Coast energy and petrochemical center.",
+      "default": "Wall Street and the New York Fed are located in New York City."
+    }
+  },
+  {
+    "id": "econ-map-109",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Industrial Corridors",
+    "era": "20th Century",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 254, "y": 78, "label": "Pittsburgh" },
+        { "id": "b", "x": 232, "y": 68, "label": "Detroit" },
+        { "id": "c", "x": 186, "y": 152, "label": "New Orleans" },
+        { "id": "d", "x": 46, "y": 52, "label": "Seattle" }
+      ]
+    },
+    "prompt": "Select the Great Lakes city that became the center of U.S. automobile manufacturing.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Detroit's Great Lakes shipping access and nearby steel hubs made it the heart of U.S. auto production.",
+    "fun_fact": "Henry Ford's 1913 moving assembly line cut Model T build time from 12 hours to 93 minutes.",
+    "source_url": "https://www.britannica.com/place/Detroit",
+    "trap_notes": {
+      "a": "Pittsburgh was the historic U.S. steel capital, southeast of the auto belt.",
+      "c": "New Orleans is a Mississippi River export port, not an auto center.",
+      "d": "Seattle is a Pacific Northwest aerospace and port city.",
+      "default": "Detroit sits on the Great Lakes waterway between Lake Huron and Lake Erie."
+    }
+  },
+  {
+    "id": "econ-map-110",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "East Asian Manufacturing",
+    "era": "1978–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 22.5431, "lng": 114.0579, "label": "Pearl River Delta" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 166, "y": 68, "label": "Beijing" },
+        { "id": "b", "x": 184, "y": 130, "label": "Shanghai" },
+        { "id": "c", "x": 154, "y": 184, "label": "Shenzhen" },
+        { "id": "d", "x": 296, "y": 84, "label": "Tokyo" }
+      ]
+    },
+    "prompt": "Select China's first Special Economic Zone, located across the border from Hong Kong.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Designated in 1980, Shenzhen turned from a fishing town into a global electronics hub.",
+    "fun_fact": "Shenzhen's GDP grew from under $30 million in 1979 to over $450 billion today.",
+    "source_url": "https://www.britannica.com/place/Shenzhen",
+    "trap_notes": {
+      "a": "Beijing is China's political capital in the north, not the southern SEZ.",
+      "b": "Shanghai is at the mouth of the Yangtze River in eastern China.",
+      "d": "Tokyo is Japan's capital on Honshu, not a Chinese Special Economic Zone.",
+      "default": "Shenzhen sits on the Pearl River Delta in southern China near Hong Kong."
+    }
+  },
+  {
+    "id": "econ-map-111",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Semiconductor Supply Chains",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 25.033, "lng": 121.5654, "label": "Taiwan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 216, "y": 86, "label": "Seoul" },
+        { "id": "b", "x": 196, "y": 170, "label": "Taipei" },
+        { "id": "c", "x": 278, "y": 98, "label": "Osaka" },
+        { "id": "d", "x": 148, "y": 134, "label": "Wuhan" }
+      ]
+    },
+    "prompt": "Select the island hub that produces a majority of the world's most advanced microchips.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Taiwan leads global contract chipmaking, producing over 60% of the world's semiconductors.",
+    "fun_fact": "TSMC, founded in 1987 in Hsinchu near Taipei, pioneered the pure-play foundry model.",
+    "source_url": "https://www.britannica.com/place/Taiwan/Economy",
+    "trap_notes": {
+      "a": "Seoul is South Korea's capital, a major memory chip hub but not the island foundry leader.",
+      "c": "Osaka is an industrial port in western Japan, not Taiwan.",
+      "d": "Wuhan is an inland Chinese manufacturing city along the Yangtze.",
+      "default": "Taiwan (Taipei) is the island off China's southeast coast leading chip fabrication."
+    }
+  },
+  {
+    "id": "econ-map-112",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "European Trade Ports",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.9244, "lng": 4.4777, "label": "Rotterdam, Netherlands" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 172, "y": 54, "label": "Rotterdam" },
+        { "id": "b", "x": 206, "y": 168, "label": "Johannesburg" },
+        { "id": "c", "x": 118, "y": 162, "label": "Santos" },
+        { "id": "d", "x": 324, "y": 176, "label": "Sydney" }
+      ]
+    },
+    "prompt": "Select Europe's busiest seaport, located at the Rhine-Meuse-Scheldt delta on the North Sea.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Rotterdam links North Sea container shipping to inland European barges along the Rhine.",
+    "fun_fact": "Rotterdam was the world's busiest port from 1962 until Shanghai surpassed it in 2004.",
+    "source_url": "https://www.portofrotterdam.com/en/about-port-authority",
+    "trap_notes": {
+      "b": "Johannesburg is an inland South African mining and financial city.",
+      "c": "Santos is South America's busiest container port, in Brazil.",
+      "d": "Sydney is a major Australian port in the South Pacific.",
+      "default": "Rotterdam sits on the North Sea coast of the Netherlands."
+    }
+  },
+  {
+    "id": "econ-map-113",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Natural Resources",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -23.65, "lng": -70.4, "label": "Atacama Copper Belt" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 92, "y": 168, "label": "Atacama Belt" },
+        { "id": "b", "x": 184, "y": 122, "label": "Niger Delta" },
+        { "id": "c", "x": 292, "y": 164, "label": "Pilbara" },
+        { "id": "d", "x": 76, "y": 86, "label": "Gulf Coast" }
+      ]
+    },
+    "prompt": "Select the Andean region of northern Chile that supplies the largest share of world copper.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Chile's Atacama Desert holds massive copper deposits and significant lithium brine reserves.",
+    "fun_fact": "Escondida in northern Chile is the highest-producing copper mine on Earth.",
+    "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
+    "trap_notes": {
+      "b": "The Niger Delta in West Africa is a major crude oil region, not copper.",
+      "c": "Western Australia's Pilbara is famous for iron ore exports.",
+      "d": "The U.S. Gulf Coast is known for oil refining and petrochemicals.",
+      "default": "Northern Chile's Atacama region is the world's top copper producer."
+    }
+  },
+  {
+    "id": "econ-map-114",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Cross-Border Manufacturing",
+    "era": "1994–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 25.6866, "lng": -100.3161, "label": "Monterrey, Mexico" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 188, "y": 46, "label": "Duluth" },
+        { "id": "b", "x": 142, "y": 168, "label": "Monterrey" },
+        { "id": "c", "x": 244, "y": 172, "label": "Miami" },
+        { "id": "d", "x": 52, "y": 92, "label": "Silicon Valley" }
+      ]
+    },
+    "prompt": "Select the northern Mexican industrial hub tied to U.S. supply chains under USMCA.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Monterrey is a major manufacturing center exporting autos and appliances north to the U.S.",
+    "fun_fact": "Mexico became the largest trading partner of the United States in 2023.",
+    "source_url": "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+    "trap_notes": {
+      "a": "Duluth is a Lake Superior iron-ore shipping port in Minnesota.",
+      "c": "Miami is a Florida trade gateway to the Caribbean and South America.",
+      "d": "Silicon Valley is a California software and venture capital cluster.",
+      "default": "Monterrey sits in northeastern Mexico near the Rio Grande corridor."
+    }
+  },
+  {
+    "id": "econ-map-115",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Maritime Trade History",
+    "era": "1400–1600",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 45.4408, "lng": 12.3155, "label": "Venice, Italy" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 56, "y": 84, "label": "Barcelona" },
+        { "id": "b", "x": 124, "y": 64, "label": "Venice" },
+        { "id": "c", "x": 188, "y": 98, "label": "Athens" },
+        { "id": "d", "x": 244, "y": 150, "label": "Alexandria" }
+      ]
+    },
+    "prompt": "Select the Adriatic city-state that dominated Mediterranean spice and silk banking in 1400.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Venice controlled Adriatic shipping lanes and financed eastern spice trade with silver ducats.",
+    "fun_fact": "Venice's Arsenal used standardized parts to assemble galleys at industrial speed.",
+    "source_url": "https://www.britannica.com/place/Venice/History",
+    "trap_notes": {
+      "a": "Barcelona was an Iberian port of Aragon, west of the Adriatic Sea.",
+      "c": "Athens was under Ottoman control by the mid-1400s, not the spice banking leader.",
+      "d": "Alexandria was the Mamluk Egyptian port where Venetians bought spices.",
+      "default": "Venice sits at the head of the Adriatic Sea in northeastern Italy."
+    }
+  },
+  {
+    "id": "econ-map-116",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Agricultural Exports",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, Louisiana" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 186, "y": 152, "label": "New Orleans" },
+        { "id": "b", "x": 288, "y": 62, "label": "New York" },
+        { "id": "c", "x": 64, "y": 118, "label": "Los Angeles" },
+        { "id": "d", "x": 236, "y": 120, "label": "Atlanta" }
+      ]
+    },
+    "prompt": "Select the Mississippi River port that handles the largest share of U.S. grain exports.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Barges carry Midwest corn and soybeans down the Mississippi to New Orleans for ocean export.",
+    "fun_fact": "Over half of all U.S. grain exports leave through Lower Mississippi River ports.",
+    "source_url": "https://www.ams.usda.gov/services/transportation-analysis/agricultural-refrigerated-truck-quarterly",
+    "trap_notes": {
+      "b": "New York is an East Coast financial and container port, not the grain barge outlet.",
+      "c": "Los Angeles is a Pacific Coast container port handling Asian imports.",
+      "d": "Atlanta is an inland rail and air hub, not a river-to-ocean grain port.",
+      "default": "New Orleans sits at the mouth of the Mississippi River on the Gulf Coast."
+    }
+  },
+  {
+    "id": "econ-map-117",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "East Asian Ports",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 31.2304, "lng": 121.4737, "label": "Shanghai, China" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 184, "y": 130, "label": "Shanghai" },
+        { "id": "b", "x": 226, "y": 106, "label": "Busan" },
+        { "id": "c", "x": 296, "y": 84, "label": "Tokyo" },
+        { "id": "d", "x": 108, "y": 138, "label": "Chongqing" }
+      ]
+    },
+    "prompt": "Select the Yangtze River delta metropolis that operates the world's busiest container port.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Shanghai sits at the mouth of the Yangtze River and leads global container shipping volume.",
+    "fun_fact": "Shanghai's Yangshan deep-water port is linked to the mainland by a 20-mile bridge.",
+    "source_url": "https://www.britannica.com/place/Shanghai",
+    "trap_notes": {
+      "b": "Busan is South Korea's largest port, across the Yellow Sea from China.",
+      "c": "Tokyo is Japan's capital on Tokyo Bay, not on the Yangtze delta.",
+      "d": "Chongqing is an inland river city in western China, far upstream.",
+      "default": "Shanghai sits where the Yangtze River meets the East China Sea."
+    }
+  },
+  {
+    "id": "econ-map-118",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Black Sea Grain Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Bosporus Strait" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 238, "y": 62, "label": "Bosporus Strait" },
+        { "id": "b", "x": 28, "y": 112, "label": "Strait of Gibraltar" },
+        { "id": "c", "x": 116, "y": 124, "label": "Tunis" },
+        { "id": "d", "x": 286, "y": 126, "label": "Beirut" }
+      ]
+    },
+    "prompt": "Select the Turkish strait that Black Sea grain and oil tankers must cross to reach global markets.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Bosporus links the Black Sea to the Mediterranean, making it vital for Ukrainian and Russian grain.",
+    "fun_fact": "Over 40,000 commercial vessels pass through the Turkish Straits each year.",
+    "source_url": "https://www.britannica.com/place/Bosporus",
+    "trap_notes": {
+      "b": "The Strait of Gibraltar is at the western end of the Mediterranean.",
+      "c": "Tunis sits on the central Mediterranean coast of North Africa.",
+      "d": "Beirut is an eastern Mediterranean port in Lebanon, south of the Black Sea.",
+      "default": "The Bosporus connects the Black Sea to the Aegean and Mediterranean."
+    }
+  },
+  {
+    "id": "econ-map-119",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Indian Ocean Commerce",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.076, "lng": 72.8777, "label": "Mumbai, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 164, "y": 88, "label": "Mumbai" },
+        { "id": "b", "x": 228, "y": 66, "label": "Kolkata" },
+        { "id": "c", "x": 148, "y": 56, "label": "Karachi" },
+        { "id": "d", "x": 314, "y": 174, "label": "Jakarta" }
+      ]
+    },
+    "prompt": "Select India's commercial and financial capital on the Arabian Sea coast.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Mumbai houses the Bombay Stock Exchange, the Reserve Bank of India, and major ports.",
+    "fun_fact": "Founded in 1875, the Bombay Stock Exchange is the oldest stock exchange in Asia.",
+    "source_url": "https://www.britannica.com/place/Mumbai",
+    "trap_notes": {
+      "b": "Kolkata is on the Bay of Bengal in eastern India, not the Arabian Sea.",
+      "c": "Karachi is Pakistan's largest port at the Indus delta, northwest of Mumbai.",
+      "d": "Jakarta is Indonesia's capital on the island of Java.",
+      "default": "Mumbai sits on India's western coast facing the Arabian Sea."
+    }
+  },
+  {
+    "id": "econ-map-120",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Technology Clusters",
+    "era": "1970–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.3875, "lng": -122.0575, "label": "Silicon Valley" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 288, "y": 62, "label": "New York" },
+        { "id": "b", "x": 188, "y": 46, "label": "Duluth" },
+        { "id": "c", "x": 52, "y": 92, "label": "Silicon Valley" },
+        { "id": "d", "x": 166, "y": 162, "label": "Houston" }
+      ]
+    },
+    "prompt": "Select the California agglomeration hub known for venture capital and software firms.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Silicon Valley grew near Stanford University into the world's leading tech and venture capital cluster.",
+    "fun_fact": "The nickname 'Silicon Valley' was coined in 1971 to describe local semiconductor makers.",
+    "source_url": "https://www.britannica.com/place/Silicon-Valley-region-California",
+    "trap_notes": {
+      "a": "New York is the East Coast banking center, not the California tech cluster.",
+      "b": "Duluth is a Minnesota iron-ore port on Lake Superior.",
+      "d": "Houston is a Texas energy and aerospace hub on the Gulf Coast.",
+      "default": "Silicon Valley is located in northern California south of San Francisco."
+    }
+  },
+  {
+    "id": "econ-map-121",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Precious Metals & Mining",
+    "era": "1886–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -26.2041, "lng": 28.0473, "label": "Johannesburg" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 206, "y": 168, "label": "Johannesburg" },
+        { "id": "b", "x": 92, "y": 168, "label": "Atacama" },
+        { "id": "c", "x": 292, "y": 164, "label": "Pilbara" },
+        { "id": "d", "x": 184, "y": 122, "label": "Niger Delta" }
+      ]
+    },
+    "prompt": "Select the South African city founded on the Witwatersrand gold rush that anchors regional finance.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Johannesburg grew rapidly after the 1886 Witwatersrand gold discovery and hosts Africa's largest stock exchange.",
+    "fun_fact": "The Witwatersrand Basin has produced roughly 40% of all gold ever mined.",
+    "source_url": "https://www.britannica.com/place/Johannesburg-South-Africa",
+    "trap_notes": {
+      "b": "The Atacama region in Chile is famous for copper and lithium, not South African gold.",
+      "c": "Pilbara in Western Australia is a major iron ore mining region.",
+      "d": "The Niger Delta in West Africa is known for crude oil production.",
+      "default": "Johannesburg is in southern Africa's interior plateau."
+    }
+  },
+  {
+    "id": "econ-map-122",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Middle East Finance",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 25.2048, "lng": 55.2708, "label": "Dubai, UAE" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 102, "y": 52, "label": "Dubai" },
+        { "id": "b", "x": 176, "y": 114, "label": "Bengaluru" },
+        { "id": "c", "x": 32, "y": 194, "label": "Durban" },
+        { "id": "d", "x": 266, "y": 74, "label": "Yangon" }
+      ]
+    },
+    "prompt": "Select the Persian Gulf emirate that diversified from oil into aviation, banking, and free-zone trade.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Dubai built Jebel Ali Port and international financial free zones to diversify beyond petroleum.",
+    "fun_fact": "Oil now accounts for less than 5% of Dubai's gross domestic product.",
+    "source_url": "https://www.britannica.com/place/Dubai-United-Arab-Emirates",
+    "trap_notes": {
+      "b": "Bengaluru is India's inland software and IT outsourcing capital.",
+      "c": "Durban is a major container port on South Africa's Indian Ocean coast.",
+      "d": "Yangon is Myanmar's largest commercial city on the Andaman Sea.",
+      "default": "Dubai sits on the southern shore of the Persian Gulf."
+    }
+  },
+  {
+    "id": "econ-map-123",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "East Asian Trade",
+    "era": "1960–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.1796, "lng": 129.0756, "label": "Busan, South Korea" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 226, "y": 106, "label": "Busan" },
+        { "id": "b", "x": 166, "y": 68, "label": "Beijing" },
+        { "id": "c", "x": 304, "y": 36, "label": "Sapporo" },
+        { "id": "d", "x": 152, "y": 186, "label": "Hong Kong" }
+      ]
+    },
+    "prompt": "Select South Korea's largest container port on the southeastern tip of the Korean Peninsula.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Busan handles most of South Korea's maritime exports, including cars, ships, and electronics.",
+    "fun_fact": "Busan is consistently ranked among the top ten busiest container ports in the world.",
+    "source_url": "https://www.britannica.com/place/Busan",
+    "trap_notes": {
+      "b": "Beijing is an inland Chinese capital, not a Korean seaport.",
+      "c": "Sapporo is on Japan's northern island of Hokkaido.",
+      "d": "Hong Kong is a southern Chinese port city on the South China Sea.",
+      "default": "Busan lies on the southeastern coast of the Korean Peninsula."
+    }
+  },
+  {
+    "id": "econ-map-124",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Industrial Heritage",
+    "era": "1880–1970",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 254, "y": 78, "label": "Pittsburgh" },
+        { "id": "b", "x": 142, "y": 168, "label": "Monterrey" },
+        { "id": "c", "x": 64, "y": 118, "label": "Los Angeles" },
+        { "id": "d", "x": 244, "y": 172, "label": "Miami" }
+      ]
+    },
+    "prompt": "Select the Appalachian river city where coal and iron ore fueled America's steel industry.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Pittsburgh's river confluence and nearby Appalachian coal made it the hub of U.S. steelmaking.",
+    "fun_fact": "By 1900, Pittsburgh produced nearly one-third of all steel manufactured in the United States.",
+    "source_url": "https://www.britannica.com/place/Pittsburgh",
+    "trap_notes": {
+      "b": "Monterrey is a northern Mexican industrial hub, not an Appalachian river city.",
+      "c": "Los Angeles is a Pacific Coast port and entertainment hub.",
+      "d": "Miami is a South Florida trade and tourism gateway.",
+      "default": "Pittsburgh sits in western Pennsylvania where three rivers meet."
+    }
+  },
+  {
+    "id": "econ-map-125",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Mediterranean Finance",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.4642, "lng": 9.19, "label": "Milan, Italy" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 108, "y": 60, "label": "Milan" },
+        { "id": "b", "x": 188, "y": 98, "label": "Athens" },
+        { "id": "c", "x": 254, "y": 166, "label": "Cairo" },
+        { "id": "d", "x": 64, "y": 124, "label": "Algiers" }
+      ]
+    },
+    "prompt": "Select the northern Italian city in the Po Valley that hosts Italy's main stock exchange.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Milan anchors Italy's industrial Po Valley and is home to the Borsa Italiana stock exchange.",
+    "fun_fact": "Lombardy, the region around Milan, generates roughly one-fifth of Italy's total GDP.",
+    "source_url": "https://www.britannica.com/place/Milan-Italy",
+    "trap_notes": {
+      "b": "Athens is Greece's capital on the Aegean side of the Mediterranean.",
+      "c": "Cairo is Egypt's capital along the Nile River.",
+      "d": "Algiers is Algeria's capital on the North African coast.",
+      "default": "Milan lies in northern Italy's Po Valley north of Genoa."
+    }
+  },
+  {
+    "id": "econ-map-126",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Software & Services",
+    "era": "1990–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 12.9716, "lng": 77.5946, "label": "Bengaluru, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 176, "y": 114, "label": "Bengaluru" },
+        { "id": "b", "x": 76, "y": 44, "label": "Riyadh" },
+        { "id": "c", "x": 44, "y": 156, "label": "Mombasa" },
+        { "id": "d", "x": 294, "y": 134, "label": "Singapore" }
+      ]
+    },
+    "prompt": "Select the southern Indian tech hub known for global software exports and IT services.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Bengaluru became India's leading software export cluster thanks to engineering universities and tech parks.",
+    "fun_fact": "India's IT and business services exports exceed $190 billion annually.",
+    "source_url": "https://www.britannica.com/place/Bengaluru",
+    "trap_notes": {
+      "b": "Riyadh is Saudi Arabia's capital in the Arabian Desert.",
+      "c": "Mombasa is Kenya's main seaport on the East African coast.",
+      "d": "Singapore is a maritime city-state on the Strait of Malacca.",
+      "default": "Bengaluru sits on the Deccan Plateau in southern India."
+    }
+  },
+  {
+    "id": "econ-map-127",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Global Financial Centers",
+    "era": "1980–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 326, "y": 64, "label": "Tokyo" },
+        { "id": "b", "x": 158, "y": 54, "label": "London" },
+        { "id": "c", "x": 100, "y": 62, "label": "New York" },
+        { "id": "d", "x": 206, "y": 168, "label": "Johannesburg" }
+      ]
+    },
+    "prompt": "Select the East Asian capital whose stock exchange and central bank anchor yen-denominated markets.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Tokyo hosts the Bank of Japan and the Tokyo Stock Exchange, Asia's largest equity market by value.",
+    "fun_fact": "The yen is the third most traded currency in global foreign exchange markets.",
+    "source_url": "https://www.britannica.com/place/Tokyo",
+    "trap_notes": {
+      "b": "London is the center of European currency and pound sterling trading.",
+      "c": "New York anchors U.S. dollar capital markets, not yen markets.",
+      "d": "Johannesburg is Africa's largest financial center, using the rand.",
+      "default": "Tokyo is Japan's capital and primary financial hub."
+    }
+  },
+  {
+    "id": "econ-map-128",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Energy & Refining",
+    "era": "1901–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.7604, "lng": -95.3698, "label": "Houston, Texas" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 166, "y": 162, "label": "Houston" },
+        { "id": "b", "x": 302, "y": 50, "label": "Boston" },
+        { "id": "c", "x": 232, "y": 68, "label": "Detroit" },
+        { "id": "d", "x": 46, "y": 52, "label": "Seattle" }
+      ]
+    },
+    "prompt": "Select the Gulf Coast city that serves as the U.S. hub for oil refining and petrochemicals.",
+    "options": [],
+    "answer": "a",
+    "explanation": "After the 1901 Spindletop oil strike, Houston grew into America's energy and refining capital.",
+    "fun_fact": "The Houston Ship Channel connects dozens of petrochemical plants to Gulf shipping lanes.",
+    "source_url": "https://www.britannica.com/place/Houston",
+    "trap_notes": {
+      "b": "Boston is a New England biotech, finance, and higher-education center.",
+      "c": "Detroit is a Great Lakes hub known for automobile manufacturing.",
+      "d": "Seattle is a Pacific Northwest software and aircraft hub.",
+      "default": "Houston sits near the Texas Gulf Coast."
+    }
+  },
+  {
+    "id": "econ-map-129",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Mediterranean Shipping",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.942, "lng": 23.646, "label": "Piraeus, Greece" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 188, "y": 98, "label": "Piraeus" },
+        { "id": "b", "x": 80, "y": 74, "label": "Marseille" },
+        { "id": "c", "x": 142, "y": 146, "label": "Tripoli" },
+        { "id": "d", "x": 286, "y": 126, "label": "Beirut" }
+      ]
+    },
+    "prompt": "Select the Aegean port serving Athens that anchors one of the world's largest merchant fleets.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Piraeus is Greece's main seaport and a major eastern Mediterranean container transshipment hub.",
+    "fun_fact": "Greek-owned shipping companies control roughly one-fifth of global merchant tonnage.",
+    "source_url": "https://www.britannica.com/place/Piraeus",
+    "trap_notes": {
+      "b": "Marseille is France's largest Mediterranean port, far to the northwest.",
+      "c": "Tripoli is Libya's capital and port on the North African coast.",
+      "d": "Beirut is Lebanon's main port on the eastern Levantine coast.",
+      "default": "Piraeus sits on the Aegean Sea just southwest of Athens."
+    }
+  },
+  {
+    "id": "econ-map-130",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Raw Material Exports",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -22.3, "lng": 118.6, "label": "Pilbara, Australia" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 292, "y": 164, "label": "Pilbara" },
+        { "id": "b", "x": 92, "y": 168, "label": "Atacama" },
+        { "id": "c", "x": 206, "y": 168, "label": "Johannesburg" },
+        { "id": "d", "x": 158, "y": 54, "label": "London" }
+      ]
+    },
+    "prompt": "Select the Western Australian mining region that exports massive volumes of iron ore to Asia.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Australia's Pilbara region supplies iron ore shipped to steel mills across China, Japan, and South Korea.",
+    "fun_fact": "Australia accounts for more than half of the world's seaborne iron ore exports.",
+    "source_url": "https://www.britannica.com/place/Pilbara",
+    "trap_notes": {
+      "b": "The Atacama region in Chile is famous for copper and lithium, not iron ore.",
+      "c": "Johannesburg in South Africa is historically tied to gold and platinum.",
+      "d": "London is a European financial center, not an iron-ore mining belt.",
+      "default": "The Pilbara is located in northwestern Australia."
+    }
+  },
+  {
+    "id": "econ-cmp-101",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "compareSpec": {
+      "leftLabel": "Expansionary Fiscal",
+      "rightLabel": "Contractionary Fiscal",
+      "items": [
+        { "id": "a", "text": "Cut federal income tax rates", "bucket": "left" },
+        { "id": "b", "text": "Raise corporate tax rates", "bucket": "right" },
+        { "id": "c", "text": "Increase highway construction spending", "bucket": "left" },
+        { "id": "d", "text": "Reduce federal agency budgets", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each government budget action as expansionary or contractionary fiscal policy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Expansionary fiscal policy cuts taxes or boosts spending; contractionary policy does the reverse.",
+    "fun_fact": "Fiscal policy is set by Congress and the President, unlike Federal Reserve monetary policy.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy",
+    "trap_notes": {
+      "default": "Tax cuts and higher spending stimulate demand; tax hikes and spending cuts cool it."
+    }
+  },
+  {
+    "id": "econ-cmp-102",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8921, "lng": -77.0459, "label": "Federal Reserve Board" },
+    "compareSpec": {
+      "leftLabel": "Expansionary Monetary",
+      "rightLabel": "Contractionary Monetary",
+      "items": [
+        { "id": "a", "text": "Buy Treasury bonds on open market", "bucket": "left" },
+        { "id": "b", "text": "Raise the federal funds target rate", "bucket": "right" },
+        { "id": "c", "text": "Lower the discount rate for banks", "bucket": "left" },
+        { "id": "d", "text": "Sell Treasury securities to banks", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Federal Reserve tool as expansionary or contractionary monetary policy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Buying bonds and lowering rates expand bank reserves; selling bonds and raising rates tighten credit.",
+    "fun_fact": "The Federal Open Market Committee meets eight times a year to set interest rate policy.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+    "trap_notes": {
+      "default": "Buying bonds injects cash and lowers rates; selling bonds drains cash and raises rates."
+    }
+  },
+  {
+    "id": "econ-cmp-103",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Market Structures",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago Board of Trade" },
+    "compareSpec": {
+      "leftLabel": "Perfect Competition",
+      "rightLabel": "Monopoly",
+      "items": [
+        { "id": "a", "text": "Firms act as price takers", "bucket": "left" },
+        { "id": "b", "text": "Single seller controls market output", "bucket": "right" },
+        { "id": "c", "text": "Identical products and free entry", "bucket": "left" },
+        { "id": "d", "text": "High barriers block new rivals", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each market feature under perfect competition or monopoly.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Perfect competition features many price-taking firms; a monopoly is one firm behind high barriers.",
+    "fun_fact": "Agricultural commodities like Grade A wheat come close to perfect competition.",
+    "source_url": "https://www.britannica.com/money/market-structure",
+    "trap_notes": {
+      "default": "Price takers with free entry = perfect competition; single seller with barriers = monopoly."
+    }
+  },
+  {
+    "id": "econ-cmp-104",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Trade Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "compareSpec": {
+      "leftLabel": "Import Tariff",
+      "rightLabel": "Production Subsidy",
+      "items": [
+        { "id": "a", "text": "Tax collected on foreign goods at border", "bucket": "left" },
+        { "id": "b", "text": "Government payment to domestic makers", "bucket": "right" },
+        { "id": "c", "text": "Raises domestic price paid by buyers", "bucket": "left" },
+        { "id": "d", "text": "Funded directly from public budget", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trade policy characteristic as an import tariff or a production subsidy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Tariffs tax imports and raise consumer prices; subsidies pay domestic producers from tax revenue.",
+    "fun_fact": "Tariffs provided over 90% of U.S. federal revenue before the 1913 income tax.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Trade",
+    "trap_notes": {
+      "default": "Tariffs tax imports at the border; subsidies pay local firms out of the budget."
+    }
+  },
+  {
+    "id": "econ-cmp-105",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Supply & Demand",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Shifts Demand Curve",
+      "rightLabel": "Shifts Supply Curve",
+      "items": [
+        { "id": "a", "text": "Rise in average household income", "bucket": "left" },
+        { "id": "b", "text": "Higher cost of factory raw materials", "bucket": "right" },
+        { "id": "c", "text": "Change in consumer tastes or trends", "bucket": "left" },
+        { "id": "d", "text": "New robotic assembly technology", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each market event by whether it shifts the demand curve or the supply curve.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Income and tastes shift buyer demand; input costs and technology shift producer supply.",
+    "fun_fact": "A change in the good's own price moves along a curve rather than shifting it.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium",
+    "trap_notes": {
+      "default": "Buyer factors (income, tastes) shift demand; seller factors (costs, tech) shift supply."
+    }
+  },
+  {
+    "id": "econ-cmp-106",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "National Income Accounting",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Bureau of Economic Analysis" },
+    "compareSpec": {
+      "leftLabel": "Included in U.S. GDP",
+      "rightLabel": "Excluded from U.S. GDP",
+      "items": [
+        { "id": "a", "text": "Newly built factory in Ohio", "bucket": "left" },
+        { "id": "b", "text": "Purchase of a 10-year-old used car", "bucket": "right" },
+        { "id": "c", "text": "Haircut bought at a local salon", "bucket": "left" },
+        { "id": "d", "text": "Unpaid childcare at home", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each item by whether it is counted in U.S. Gross Domestic Product.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "GDP counts final goods and services produced this year, excluding used sales and unpaid work.",
+    "fun_fact": "Simon Kuznets helped create modern U.S. national income accounts in the 1930s.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-about-gdp",
+    "trap_notes": {
+      "default": "GDP counts new market production; used goods and unpaid household work are excluded."
+    }
+  },
+  {
+    "id": "econ-cmp-107",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Economic Foundations",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "compareSpec": {
+      "leftLabel": "Microeconomics",
+      "rightLabel": "Macroeconomics",
+      "items": [
+        { "id": "a", "text": "Pricing strategy of one coffee chain", "bucket": "left" },
+        { "id": "b", "text": "National consumer price inflation", "bucket": "right" },
+        { "id": "c", "text": "Household choice between two goods", "bucket": "left" },
+        { "id": "d", "text": "Country's annual GDP growth rate", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each topic under microeconomics or macroeconomics.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Microeconomics studies individual markets and firms; macroeconomics studies the economy as a whole.",
+    "fun_fact": "The terms microeconomics and macroeconomics entered wide use in the 1930s.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Micro-and-Macro",
+    "trap_notes": {
+      "default": "Individual firms and households = micro; national inflation and GDP = macro."
+    }
+  },
+  {
+    "id": "econ-cmp-108",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Taxation",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "U.S. Treasury" },
+    "compareSpec": {
+      "leftLabel": "Progressive Tax",
+      "rightLabel": "Regressive Tax",
+      "items": [
+        { "id": "a", "text": "Federal income tax with rising brackets", "bucket": "left" },
+        { "id": "b", "text": "Flat state sales tax on groceries", "bucket": "right" },
+        { "id": "c", "text": "Higher earners pay higher share", "bucket": "left" },
+        { "id": "d", "text": "Lower earners pay higher share", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each tax feature as progressive or regressive.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Progressive taxes take a larger share from higher incomes; regressive taxes take more from lower incomes.",
+    "fun_fact": "The 16th Amendment (1913) authorized a permanent progressive federal income tax.",
+    "source_url": "https://apps.irs.gov/app/understandingTaxes/teacher/whys_thm03_les02.jsp",
+    "trap_notes": {
+      "default": "Progressive = rate rises with income; regressive = lower earners bear a larger share."
+    }
+  },
+  {
+    "id": "econ-cmp-109",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Labor Markets",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Bureau of Labor Statistics" },
+    "compareSpec": {
+      "leftLabel": "Structural Unemployment",
+      "rightLabel": "Cyclical Unemployment",
+      "items": [
+        { "id": "a", "text": "Skills replaced by automation", "bucket": "left" },
+        { "id": "b", "text": "Layoffs caused by a national recession", "bucket": "right" },
+        { "id": "c", "text": "Mismatch between jobs and training", "bucket": "left" },
+        { "id": "d", "text": "Rises when total spending drops", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each description under structural unemployment or cyclical unemployment.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Structural unemployment stems from skill mismatches; cyclical unemployment stems from recessions.",
+    "fun_fact": "Economists call structural plus frictional unemployment the 'natural rate' of unemployment.",
+    "source_url": "https://www.bls.gov/cps/definitions.htm",
+    "trap_notes": {
+      "default": "Skill mismatch or tech change = structural; economic downturns = cyclical."
+    }
+  },
+  {
+    "id": "econ-cmp-110",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Labor Markets",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Bureau of Labor Statistics" },
+    "compareSpec": {
+      "leftLabel": "Frictional Unemployment",
+      "rightLabel": "Seasonal Unemployment",
+      "items": [
+        { "id": "a", "text": "College graduate searching for first job", "bucket": "left" },
+        { "id": "b", "text": "Ski instructor laid off every April", "bucket": "right" },
+        { "id": "c", "text": "Worker moving between two open jobs", "bucket": "left" },
+        { "id": "d", "text": "Holiday retail clerk hired for December", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each example as frictional unemployment or seasonal unemployment.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Frictional unemployment reflects normal job search; seasonal unemployment follows calendar weather or holidays.",
+    "fun_fact": "Monthly BLS unemployment reports are 'seasonally adjusted' to smooth out holiday hiring.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-11-unemployment",
+    "trap_notes": {
+      "default": "Job-search transitions = frictional; predictable calendar swings = seasonal."
+    }
+  },
+  {
+    "id": "econ-cmp-111",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Inflation",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8921, "lng": -77.0459, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Demand-Pull Inflation",
+      "rightLabel": "Cost-Push Inflation",
+      "items": [
+        { "id": "a", "text": "Too much spending chases limited goods", "bucket": "left" },
+        { "id": "b", "text": "Sudden spike in global crude oil prices", "bucket": "right" },
+        { "id": "c", "text": "Booming consumer confidence lifts prices", "bucket": "left" },
+        { "id": "d", "text": "Sharp rise in factory shipping costs", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each cause of rising prices as demand-pull or cost-push inflation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Demand-pull inflation comes from excess aggregate demand; cost-push comes from higher production costs.",
+    "fun_fact": "The 1973 OPEC oil shock was a classic trigger of cost-push inflation and stagflation.",
+    "source_url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2022/06/what-is-driving-inflation/",
+    "trap_notes": {
+      "default": "Excess total spending = demand-pull; rising input or energy costs = cost-push."
+    }
+  },
+  {
+    "id": "econ-cmp-112",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Public Good",
+      "rightLabel": "Private Good",
+      "items": [
+        { "id": "a", "text": "Coastal lighthouse beam for ships", "bucket": "left" },
+        { "id": "b", "text": "Slice of pizza bought at a counter", "bucket": "right" },
+        { "id": "c", "text": "Non-rival and non-excludable use", "bucket": "left" },
+        { "id": "d", "text": "Rival and excludable consumption", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trait or example under public goods or private goods.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Public goods are non-rival and non-excludable; private goods are rival and can be denied to non-payers.",
+    "fun_fact": "Because non-payers cannot be blocked from public goods, private firms often underproduce them.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Public-Goods",
+    "trap_notes": {
+      "default": "Non-rival and non-excludable = public good; rival and excludable = private good."
+    }
+  },
+  {
+    "id": "econ-cmp-113",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Externalities",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "compareSpec": {
+      "leftLabel": "Negative Externality",
+      "rightLabel": "Positive Externality",
+      "items": [
+        { "id": "a", "text": "Factory smoke harms nearby residents", "bucket": "left" },
+        { "id": "b", "text": "Beekeeper hives pollinate neighbor crops", "bucket": "right" },
+        { "id": "c", "text": "Unpriced third-party spillover cost", "bucket": "left" },
+        { "id": "d", "text": "Unpriced third-party spillover benefit", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each spillover effect as a negative externality or a positive externality.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Negative externalities impose uncompensated costs on bystanders; positive externalities create unpaid benefits.",
+    "fun_fact": "Economist Arthur Pigou proposed taxing negative externalities to align private and social costs.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities",
+    "trap_notes": {
+      "default": "Unpaid harm to bystanders = negative; unpaid benefit to bystanders = positive."
+    }
+  },
+  {
+    "id": "econ-cmp-114",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Exchange Rates",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 44.2581, "lng": -71.4408, "label": "Bretton Woods" },
+    "compareSpec": {
+      "leftLabel": "Fixed Exchange Rate",
+      "rightLabel": "Floating Exchange Rate",
+      "items": [
+        { "id": "a", "text": "Central bank pegs currency to dollar", "bucket": "left" },
+        { "id": "b", "text": "Supply and demand set currency price", "bucket": "right" },
+        { "id": "c", "text": "Requires foreign reserves to defend peg", "bucket": "left" },
+        { "id": "d", "text": "Value fluctuates daily in FX markets", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each currency feature under fixed exchange rates or floating exchange rates.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Fixed rates peg a currency using central bank reserves; floating rates move freely with market demand.",
+    "fun_fact": "Most major currencies shifted from fixed to floating exchange rates in the early 1970s.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Exchange-Rates",
+    "trap_notes": {
+      "default": "Government peg backed by reserves = fixed; market-determined daily price = floating."
+    }
+  },
+  {
+    "id": "econ-cmp-115",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Balance of Payments",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Current Account",
+      "rightLabel": "Financial Account",
+      "items": [
+        { "id": "a", "text": "Exports and imports of goods", "bucket": "left" },
+        { "id": "b", "text": "Foreign purchase of U.S. Treasury bonds", "bucket": "right" },
+        { "id": "c", "text": "Tourism services and remittances", "bucket": "left" },
+        { "id": "d", "text": "Cross-border factory acquisition", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each international transaction into the current account or the financial account.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The current account tracks goods, services, and transfers; the financial account tracks asset ownership.",
+    "fun_fact": "In balance-of-payments accounting, a current account deficit is offset by a financial account surplus.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Balance-of-Payments",
+    "trap_notes": {
+      "default": "Goods, services, and transfers = current account; stocks, bonds, and factories = financial."
+    }
+  },
+  {
+    "id": "econ-cmp-116",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Personal Finance & Capital",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "Wall Street, New York" },
+    "compareSpec": {
+      "leftLabel": "Corporate Stocks",
+      "rightLabel": "Corporate Bonds",
+      "items": [
+        { "id": "a", "text": "Represent partial ownership in a firm", "bucket": "left" },
+        { "id": "b", "text": "Represent a loan made to a firm", "bucket": "right" },
+        { "id": "c", "text": "Pay optional dividends from profits", "bucket": "left" },
+        { "id": "d", "text": "Pay scheduled interest until maturity", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each financial feature under corporate stocks or corporate bonds.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Stocks grant equity ownership and potential dividends; bonds are debt contracts paying interest.",
+    "fun_fact": "In bankruptcy, bondholders have a legal claim on assets before stockholders.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "trap_notes": {
+      "default": "Equity ownership and dividends = stocks; debt loan and fixed interest = bonds."
+    }
+  },
+  {
+    "id": "econ-cmp-117",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Banking System",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.8921, "lng": -77.0459, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Commercial Bank",
+      "rightLabel": "Central Bank",
+      "items": [
+        { "id": "a", "text": "Accepts household checking deposits", "bucket": "left" },
+        { "id": "b", "text": "Acts as lender of last resort", "bucket": "right" },
+        { "id": "c", "text": "Issues auto and mortgage loans", "bucket": "left" },
+        { "id": "d", "text": "Issues national legal-tender currency", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each banking function under a commercial bank or a central bank.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Commercial banks serve households and businesses; central banks manage currency and system stability.",
+    "fun_fact": "The Federal Reserve is often called 'the bankers' bank' because it holds commercial bank reserves.",
+    "source_url": "https://www.federalreserve.gov/aboutthefed/pf.htm",
+    "trap_notes": {
+      "default": "Retail deposits and mortgages = commercial bank; currency and crisis lending = central bank."
+    }
+  },
+  {
+    "id": "econ-cmp-118",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Money Supply",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.8921, "lng": -77.0459, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "M1 Money Supply",
+      "rightLabel": "Non-M1 Assets",
+      "items": [
+        { "id": "a", "text": "Physical paper bills and coins", "bucket": "left" },
+        { "id": "b", "text": "Small certificates of deposit", "bucket": "right" },
+        { "id": "c", "text": "Balances in checking accounts", "bucket": "left" },
+        { "id": "d", "text": "Retail money market fund shares", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each monetary asset into M1 or non-M1 near-money assets.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "M1 includes the most liquid payment assets like cash and checking; CDs and money funds are less liquid.",
+    "fun_fact": "Credit cards are not counted in M1 or M2 because they are short-term loans, not money.",
+    "source_url": "https://www.federalreserve.gov/releases/h6/current/default.htm",
+    "trap_notes": {
+      "default": "Cash and checking deposits = M1; time deposits like CDs = non-M1."
+    }
+  },
+  {
+    "id": "econ-cmp-119",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Production Costs",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "compareSpec": {
+      "leftLabel": "Fixed Cost",
+      "rightLabel": "Variable Cost",
+      "items": [
+        { "id": "a", "text": "Monthly factory building lease", "bucket": "left" },
+        { "id": "b", "text": "Hourly wages for assembly workers", "bucket": "right" },
+        { "id": "c", "text": "Annual property insurance premium", "bucket": "left" },
+        { "id": "d", "text": "Raw steel used per unit produced", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each short-run business expense as a fixed cost or a variable cost.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Fixed costs stay constant regardless of output; variable costs rise as more units are produced.",
+    "fun_fact": "In the long run, all costs become variable because a firm can resize or close factories.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/firm-economic-profit",
+    "trap_notes": {
+      "default": "Unchanged when output is zero = fixed cost; rises with each unit made = variable cost."
+    }
+  },
+  {
+    "id": "econ-cmp-120",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Price Controls",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Binding Price Ceiling",
+      "rightLabel": "Binding Price Floor",
+      "items": [
+        { "id": "a", "text": "Legal maximum price below equilibrium", "bucket": "left" },
+        { "id": "b", "text": "Legal minimum price above equilibrium", "bucket": "right" },
+        { "id": "c", "text": "Creates persistent market shortage", "bucket": "left" },
+        { "id": "d", "text": "Creates persistent market surplus", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each effect under a binding price ceiling or a binding price floor.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A binding ceiling caps price below equilibrium causing shortages; a binding floor holds it above causing surpluses.",
+    "fun_fact": "Rent control is an example of a price ceiling, while minimum wage is a price floor.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/consumer-producer-surplus/deadweight-loss-tutorial/a/price-ceilings-and-price-floors-cnx",
+    "trap_notes": {
+      "default": "Cap below equilibrium = ceiling/shortage; minimum above equilibrium = floor/surplus."
+    }
+  },
+  {
+    "id": "econ-cmp-121",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Elasticity",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "compareSpec": {
+      "leftLabel": "Elastic Demand",
+      "rightLabel": "Inelastic Demand",
+      "items": [
+        { "id": "a", "text": "Many close substitutes available", "bucket": "left" },
+        { "id": "b", "text": "Life-saving insulin medication", "bucket": "right" },
+        { "id": "c", "text": "Quantity drops sharply when price rises", "bucket": "left" },
+        { "id": "d", "text": "Quantity barely changes when price rises", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each market trait under elastic demand or inelastic demand.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Elastic demand responds strongly to price changes; inelastic demand barely budges for necessities.",
+    "fun_fact": "When demand is inelastic, raising prices actually increases a seller's total revenue.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/elasticity-tutorial",
+    "trap_notes": {
+      "default": "Price-sensitive with substitutes = elastic; essential with few substitutes = inelastic."
+    }
+  },
+  {
+    "id": "econ-cmp-122",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Consumer Behavior",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 34.0522, "lng": -118.2437, "label": "Los Angeles, California" },
+    "compareSpec": {
+      "leftLabel": "Normal Good",
+      "rightLabel": "Inferior Good",
+      "items": [
+        { "id": "a", "text": "Demand rises as household income grows", "bucket": "left" },
+        { "id": "b", "text": "Demand falls as household income grows", "bucket": "right" },
+        { "id": "c", "text": "Fresh restaurant dining and vacations", "bucket": "left" },
+        { "id": "d", "text": "Generic instant noodles and bus passes", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trait or example as a normal good or an inferior good.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Consumers buy more normal goods when income rises, but switch away from inferior goods.",
+    "fun_fact": "Inferior goods often see rising sales during economic recessions.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium/demand-curve-tutorial/a/normal-and-inferior-goods",
+    "trap_notes": {
+      "default": "Higher income boosts normal goods and reduces demand for inferior goods."
+    }
+  },
+  {
+    "id": "econ-cmp-123",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Related Goods",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle, Washington" },
+    "compareSpec": {
+      "leftLabel": "Substitute Goods",
+      "rightLabel": "Complementary Goods",
+      "items": [
+        { "id": "a", "text": "Butter and margarine", "bucket": "left" },
+        { "id": "b", "text": "Printers and ink cartridges", "bucket": "right" },
+        { "id": "c", "text": "Price hike for A raises demand for B", "bucket": "left" },
+        { "id": "d", "text": "Price hike for A lowers demand for B", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each pair or price effect as substitute goods or complementary goods.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Substitutes replace each other; complements are used together so a price hike hurts both.",
+    "fun_fact": "Cross-price elasticity is positive for substitutes and negative for complements.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium/demand-curve-tutorial/a/other-factors-that-affect-demand",
+    "trap_notes": {
+      "default": "Used in place of each other = substitutes; used together = complements."
+    }
+  },
+  {
+    "id": "econ-cmp-124",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "International Trade Theory",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "compareSpec": {
+      "leftLabel": "Comparative Advantage",
+      "rightLabel": "Absolute Advantage",
+      "items": [
+        { "id": "a", "text": "Lowest opportunity cost per unit", "bucket": "left" },
+        { "id": "b", "text": "Most output per worker hour", "bucket": "right" },
+        { "id": "c", "text": "Formulated by David Ricardo in 1817", "bucket": "left" },
+        { "id": "d", "text": "Highlighted by Adam Smith in 1776", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trade concept under comparative advantage or absolute advantage.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Comparative advantage measures lower opportunity cost; absolute advantage measures raw productivity.",
+    "fun_fact": "Even if one country is more efficient at everything, both nations gain from comparative advantage trade.",
+    "source_url": "https://www.britannica.com/money/comparative-advantage",
+    "trap_notes": {
+      "default": "Lower opportunity cost = comparative advantage; higher output per input = absolute."
+    }
+  },
+  {
+    "id": "econ-cmp-125",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Factors of Production",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.3875, "lng": -122.0575, "label": "Silicon Valley" },
+    "compareSpec": {
+      "leftLabel": "Human Capital",
+      "rightLabel": "Physical Capital",
+      "items": [
+        { "id": "a", "text": "Job training and engineering degrees", "bucket": "left" },
+        { "id": "b", "text": "Delivery trucks and factory lathes", "bucket": "right" },
+        { "id": "c", "text": "Worker health and coding skills", "bucket": "left" },
+        { "id": "d", "text": "Warehouse buildings and server racks", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each productive resource as human capital or physical capital.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Human capital is the knowledge and skills workers carry; physical capital is human-made tools and buildings.",
+    "fun_fact": "Economist Gary Becker won the 1992 Nobel Prize for pioneering human capital theory.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/2020/09/what-is-human-capital-basics",
+    "trap_notes": {
+      "default": "Skills, health, and education = human capital; machines and buildings = physical capital."
+    }
+  },
+  {
+    "id": "econ-cmp-126",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Economic Systems",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "compareSpec": {
+      "leftLabel": "Market Economy",
+      "rightLabel": "Command Economy",
+      "items": [
+        { "id": "a", "text": "Prices coordinate buyer and seller plans", "bucket": "left" },
+        { "id": "b", "text": "Central planners set output quotas", "bucket": "right" },
+        { "id": "c", "text": "Private firms own factories and land", "bucket": "left" },
+        { "id": "d", "text": "State ministries allocate resources", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each economic trait under a market economy or a command economy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Market economies rely on private ownership and prices; command economies rely on state planning.",
+    "fun_fact": "Most modern nations operate mixed economies combining market prices with public regulation.",
+    "source_url": "https://www.britannica.com/topic/economic-system",
+    "trap_notes": {
+      "default": "Private ownership and price signals = market; state quotas and planners = command."
+    }
+  },
+  {
+    "id": "econ-cmp-127",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Macroeconomic Measurement",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Nominal GDP",
+      "rightLabel": "Real GDP",
+      "items": [
+        { "id": "a", "text": "Valued at current-year market prices", "bucket": "left" },
+        { "id": "b", "text": "Valued at constant base-year prices", "bucket": "right" },
+        { "id": "c", "text": "Includes price-level inflation effects", "bucket": "left" },
+        { "id": "d", "text": "Isolates true physical output growth", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each measurement feature under nominal GDP or real GDP.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Nominal GDP uses current prices; real GDP uses base-year prices to remove inflation.",
+    "fun_fact": "Dividing nominal GDP by real GDP and multiplying by 100 yields the GDP deflator.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2019/march/what-is-real-gdp",
+    "trap_notes": {
+      "default": "Current prices = nominal GDP; inflation-adjusted base-year prices = real GDP."
+    }
+  },
+  {
+    "id": "econ-cmp-128",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Market Structures",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Oligopoly",
+      "rightLabel": "Monopolistic Competition",
+      "items": [
+        { "id": "a", "text": "Few large firms dominate industry", "bucket": "left" },
+        { "id": "b", "text": "Many small firms sell branded variants", "bucket": "right" },
+        { "id": "c", "text": "High entry barriers like aircraft making", "bucket": "left" },
+        { "id": "d", "text": "Low entry barriers like local cafes", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each market trait under oligopoly or monopolistic competition.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Oligopolies have a few giant rivals behind high barriers; monopolistic competition has many small brands.",
+    "fun_fact": "Oligopoly firms often watch each other closely, a strategic behavior studied in game theory.",
+    "source_url": "https://www.britannica.com/money/oligopoly",
+    "trap_notes": {
+      "default": "Few dominant firms with high barriers = oligopoly; many small differentiated firms = monopolistic competition."
+    }
+  },
+  {
+    "id": "econ-cmp-129",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "compareSpec": {
+      "leftLabel": "Automatic Stabilizer",
+      "rightLabel": "Discretionary Fiscal",
+      "items": [
+        { "id": "a", "text": "Unemployment insurance claims in downturn", "bucket": "left" },
+        { "id": "b", "text": "New stimulus bill passed by Congress", "bucket": "right" },
+        { "id": "c", "text": "Triggers without new legislative vote", "bucket": "left" },
+        { "id": "d", "text": "Requires fresh congressional approval", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each fiscal mechanism as an automatic stabilizer or discretionary fiscal policy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Automatic stabilizers adjust with the cycle by existing law; discretionary policy requires new legislation.",
+    "fun_fact": "Progressive income tax brackets also act as automatic stabilizers during booms and busts.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy",
+    "trap_notes": {
+      "default": "Built-in rules = automatic stabilizer; new congressional bills = discretionary policy."
+    }
+  },
+  {
+    "id": "econ-cmp-130",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Trade Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "compareSpec": {
+      "leftLabel": "Free Trade Policy",
+      "rightLabel": "Protectionism",
+      "items": [
+        { "id": "a", "text": "Eliminates customs duties on imports", "bucket": "left" },
+        { "id": "b", "text": "Caps foreign steel with import quotas", "bucket": "right" },
+        { "id": "c", "text": "Specializes via comparative advantage", "bucket": "left" },
+        { "id": "d", "text": "Shields domestic firms from rivals", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each policy action under free trade or protectionism.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Free trade lowers border barriers to expand specialization; protectionism restricts imports to shield local firms.",
+    "fun_fact": "WTO rules generally favor replacing opaque import quotas with transparent tariffs.",
+    "source_url": "https://www.britannica.com/money/protectionism",
+    "trap_notes": {
+      "default": "Removing border barriers = free trade; quotas and tariffs shielding local firms = protectionism."
+    }
+  }
+]

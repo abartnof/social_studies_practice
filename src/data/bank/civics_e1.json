@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "civics-map-201",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Federal Seat of Government",
+    "era": "1790–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 270,
+          "y": 86,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "b",
+          "x": 288,
+          "y": 66,
+          "label": "New York City"
+        },
+        {
+          "id": "c",
+          "x": 304,
+          "y": 50,
+          "label": "Boston"
+        },
+        {
+          "id": "d",
+          "x": 234,
+          "y": 122,
+          "label": "Atlanta"
+        }
+      ]
+    },
+    "prompt": "Select the federal district created along the Potomac River by the Residence Act of 1790.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Residence Act of 1790 established Washington, D.C. on the Potomac River as the permanent U.S. capital.",
+    "fun_fact": "Maryland and Virginia donated land for the district, though Virginia's portion was returned in 1846.",
+    "source_url": "https://guides.loc.gov/residence-act",
+    "trap_notes": {
+      "b": "New York City served as the first capital under the Constitution, not the permanent Potomac site.",
+      "c": "Boston was a major Revolutionary port, never the permanent federal capital.",
+      "d": "Atlanta became Georgia's capital in 1868, long after the 1790 Residence Act.",
+      "default": "Washington, D.C. was chosen as a neutral federal district between northern and southern states."
+    }
+  },
+  {
+    "id": "civics-map-202",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 288,
+          "y": 66,
+          "label": "New York City"
+        },
+        {
+          "id": "b",
+          "x": 278,
+          "y": 76,
+          "label": "Philadelphia"
+        },
+        {
+          "id": "c",
+          "x": 268,
+          "y": 96,
+          "label": "Richmond"
+        },
+        {
+          "id": "d",
+          "x": 250,
+          "y": 122,
+          "label": "Charleston"
+        }
+      ]
+    },
+    "prompt": "Select the Pennsylvania city where delegates drafted the U.S. Constitution in 1787.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Fifty-five delegates met at the Pennsylvania State House in Philadelphia during the summer of 1787.",
+    "fun_fact": "The same hall had hosted the signing of the Declaration of Independence eleven years earlier.",
+    "source_url": "https://www.archives.gov/founding-docs/constitution",
+    "trap_notes": {
+      "a": "New York City hosted the first Congress in 1789, not the 1787 Constitutional Convention.",
+      "c": "Richmond hosted Virginia's ratifying convention in 1788, not the national drafting.",
+      "d": "Charleston was a key southern port whose delegates traveled north to Philadelphia.",
+      "default": "The Constitutional Convention met in Philadelphia from May to September 1787."
+    }
+  },
+  {
+    "id": "civics-map-203",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Early Republic",
+    "era": "1789",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 278,
+          "y": 76,
+          "label": "Philadelphia"
+        },
+        {
+          "id": "b",
+          "x": 270,
+          "y": 86,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "c",
+          "x": 288,
+          "y": 66,
+          "label": "New York City"
+        },
+        {
+          "id": "d",
+          "x": 304,
+          "y": 50,
+          "label": "Boston"
+        }
+      ]
+    },
+    "prompt": "Select the city where George Washington took the first presidential oath of office in 1789.",
+    "options": [],
+    "answer": "c",
+    "explanation": "George Washington was inaugurated at Federal Hall in New York City on April 30, 1789.",
+    "fun_fact": "Congress also proposed the twelve amendments that became the Bill of Rights in New York City.",
+    "source_url": "https://www.archives.gov/exhibits/american_originals/inaugtxt.html",
+    "trap_notes": {
+      "a": "Philadelphia served as the temporary capital from 1790 to 1800, after Washington's first oath.",
+      "b": "Washington, D.C. did not become the seat of government until 1800.",
+      "d": "Boston was never the seat of the federal government under the Constitution.",
+      "default": "New York City was the first national capital under the U.S. Constitution."
+    }
+  },
+  {
+    "id": "civics-map-204",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Civil Rights & Suffrage",
+    "era": "1848",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 42.9106,
+      "lng": -76.7966,
+      "label": "Seneca Falls, New York"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 262,
+          "y": 62,
+          "label": "Seneca Falls"
+        },
+        {
+          "id": "b",
+          "x": 206,
+          "y": 74,
+          "label": "Chicago"
+        },
+        {
+          "id": "c",
+          "x": 184,
+          "y": 104,
+          "label": "St. Louis"
+        },
+        {
+          "id": "d",
+          "x": 218,
+          "y": 130,
+          "label": "Montgomery"
+        }
+      ]
+    },
+    "prompt": "Select the New York town that hosted the 1848 Women's Rights Convention.",
+    "options": [],
+    "answer": "a",
+    "explanation": "In July 1848, organizers in Seneca Falls, New York, issued the Declaration of Sentiments.",
+    "fun_fact": "Frederick Douglass attended the convention and spoke in favor of women's suffrage.",
+    "source_url": "https://www.loc.gov/exhibitions/women-fight-for-the-vote/about-this-exhibition/seneca-falls-and-building-a-movement-1776-1890/",
+    "trap_notes": {
+      "b": "Chicago hosted major 19th-century political conventions, not the 1848 suffrage meeting.",
+      "c": "St. Louis was the site of the Dred Scott trial, not the 1848 women's rights convention.",
+      "d": "Montgomery is famous for the 1955 bus boycott, more than a century later.",
+      "default": "Seneca Falls in upstate New York launched the organized U.S. women's rights movement."
+    }
+  },
+  {
+    "id": "civics-map-205",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Civil Rights Movement",
+    "era": "1955–1956",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 32.3792,
+      "lng": -86.3077,
+      "label": "Montgomery, Alabama"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 182,
+          "y": 122,
+          "label": "Little Rock"
+        },
+        {
+          "id": "b",
+          "x": 218,
+          "y": 130,
+          "label": "Montgomery"
+        },
+        {
+          "id": "c",
+          "x": 160,
+          "y": 102,
+          "label": "Topeka"
+        },
+        {
+          "id": "d",
+          "x": 188,
+          "y": 152,
+          "label": "New Orleans"
+        }
+      ]
+    },
+    "prompt": "Select the Alabama capital where a 381-day bus boycott challenged transit segregation in 1955.",
+    "options": [],
+    "answer": "b",
+    "explanation": "After Rosa Parks's arrest, Black residents in Montgomery boycotted city buses until the Supreme Court ended bus segregation.",
+    "fun_fact": "The boycott lasted from December 1955 to December 1956 and elevated Martin Luther King Jr. nationally.",
+    "source_url": "https://www.archives.gov/education/lessons/rosa-parks",
+    "trap_notes": {
+      "a": "Little Rock was the site of the 1957 high school integration crisis, not the 1955 bus boycott.",
+      "c": "Topeka was the origin of Brown v. Board of Education in 1954.",
+      "d": "New Orleans was the site of Plessy v. Ferguson in 1896.",
+      "default": "The 1955–1956 bus boycott took place in Montgomery, Alabama."
+    }
+  },
+  {
+    "id": "civics-map-206",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Voting Rights",
+    "era": "1965",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 32.4074,
+      "lng": -87.0211,
+      "label": "Selma, Alabama"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 234,
+          "y": 122,
+          "label": "Atlanta"
+        },
+        {
+          "id": "b",
+          "x": 196,
+          "y": 118,
+          "label": "Memphis"
+        },
+        {
+          "id": "c",
+          "x": 212,
+          "y": 132,
+          "label": "Selma"
+        },
+        {
+          "id": "d",
+          "x": 250,
+          "y": 122,
+          "label": "Charleston"
+        }
+      ]
+    },
+    "prompt": "Select the Alabama city where 1965 voting rights marches across the Edmund Pettus Bridge spurred federal reform.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The 1965 Selma-to-Montgomery marches highlighted disenfranchisement and helped pass the Voting Rights Act of 1965.",
+    "fun_fact": "President Lyndon B. Johnson signed the Voting Rights Act into law five months after Bloody Sunday.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "a": "Atlanta was the headquarters of the SCLC, not the starting point of the Edmund Pettus Bridge march.",
+      "b": "Memphis was the site of the 1968 sanitation workers' strike.",
+      "d": "Charleston is on the South Carolina coast, not in central Alabama.",
+      "default": "The 1965 voting rights marches began in Selma, Alabama."
+    }
+  },
+  {
+    "id": "civics-map-207",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Landmarks",
+    "era": "1954",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.0473,
+      "lng": -95.6752,
+      "label": "Topeka, Kansas"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 160,
+          "y": 102,
+          "label": "Topeka"
+        },
+        {
+          "id": "b",
+          "x": 124,
+          "y": 100,
+          "label": "Denver"
+        },
+        {
+          "id": "c",
+          "x": 206,
+          "y": 74,
+          "label": "Chicago"
+        },
+        {
+          "id": "d",
+          "x": 154,
+          "y": 152,
+          "label": "Austin"
+        }
+      ]
+    },
+    "prompt": "Select the Kansas capital where Oliver Brown sued the local school board, leading to the 1954 desegregation ruling.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Brown v. Board of Education originated in Topeka, Kansas, and overturned separate-but-equal public schools.",
+    "fun_fact": "The Supreme Court combined cases from Kansas, South Carolina, Virginia, Delaware, and D.C.",
+    "source_url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+    "trap_notes": {
+      "b": "Denver faced busing litigation in Keyes (1973), nearly two decades after Brown.",
+      "c": "Chicago was not the origin of the 1954 Brown v. Board of Education lawsuit.",
+      "d": "Austin was central to Sweatt v. Painter (1950), a higher-education precursor.",
+      "default": "Brown v. Board of Education began with a lawsuit against the school board of Topeka, Kansas."
+    }
+  },
+  {
+    "id": "civics-map-208",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Federalism & Enforcement",
+    "era": "1957",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 34.7465,
+      "lng": -92.2896,
+      "label": "Little Rock, Arkansas"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 160,
+          "y": 102,
+          "label": "Topeka"
+        },
+        {
+          "id": "b",
+          "x": 182,
+          "y": 122,
+          "label": "Little Rock"
+        },
+        {
+          "id": "c",
+          "x": 216,
+          "y": 112,
+          "label": "Nashville"
+        },
+        {
+          "id": "d",
+          "x": 158,
+          "y": 136,
+          "label": "Dallas"
+        }
+      ]
+    },
+    "prompt": "Select the Arkansas capital where federal troops escorted nine Black students into Central High School in 1957.",
+    "options": [],
+    "answer": "b",
+    "explanation": "President Eisenhower sent the 101st Airborne to Little Rock to enforce federal court desegregation orders.",
+    "fun_fact": "In Cooper v. Aaron (1958), the Supreme Court affirmed that states must obey federal constitutional rulings.",
+    "source_url": "https://www.archives.gov/education/lessons/little-rock",
+    "trap_notes": {
+      "a": "Topeka was the origin of Brown v. Board of Education, not the 1957 troop deployment.",
+      "c": "Nashville integrated early grades under a gradual plan without federal troops.",
+      "d": "Dallas is in Texas, not the site of Central High School's 1957 crisis.",
+      "default": "The Little Rock Nine integrated Central High School in Little Rock, Arkansas."
+    }
+  },
+  {
+    "id": "civics-map-209",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "First Amendment",
+    "era": "1969",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.5868,
+      "lng": -93.625,
+      "label": "Des Moines, Iowa"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 182,
+          "y": 58,
+          "label": "Minneapolis"
+        },
+        {
+          "id": "b",
+          "x": 196,
+          "y": 66,
+          "label": "Madison"
+        },
+        {
+          "id": "c",
+          "x": 176,
+          "y": 82,
+          "label": "Des Moines"
+        },
+        {
+          "id": "d",
+          "x": 224,
+          "y": 70,
+          "label": "Detroit"
+        }
+      ]
+    },
+    "prompt": "Select the Iowa capital where students wore black armbands to protest the Vietnam War in a landmark 1969 speech case.",
+    "options": [],
+    "answer": "c",
+    "explanation": "In Tinker v. Des Moines (1969), the Supreme Court ruled that students keep First Amendment rights at school.",
+    "fun_fact": "The Court famously wrote that students do not shed constitutional rights at the schoolhouse gate.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-tinker-v-des-moines",
+    "trap_notes": {
+      "a": "Minneapolis is in Minnesota, north of the Iowa school district involved in Tinker.",
+      "b": "Madison is Wisconsin's capital, not the site of the 1965 armband protest.",
+      "d": "Detroit was the focus of Milliken v. Bradley (1974), a desegregation case.",
+      "default": "The Tinker armband protest took place in public schools in Des Moines, Iowa."
+    }
+  },
+  {
+    "id": "civics-map-210",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Fourth Amendment",
+    "era": "1961",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "label": "Cleveland, Ohio"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 206,
+          "y": 74,
+          "label": "Chicago"
+        },
+        {
+          "id": "b",
+          "x": 224,
+          "y": 70,
+          "label": "Detroit"
+        },
+        {
+          "id": "c",
+          "x": 248,
+          "y": 58,
+          "label": "Toronto"
+        },
+        {
+          "id": "d",
+          "x": 236,
+          "y": 78,
+          "label": "Cleveland"
+        }
+      ]
+    },
+    "prompt": "Select the Lake Erie city where a 1957 warrantless home search led to Mapp v. Ohio (1961).",
+    "options": [],
+    "answer": "d",
+    "explanation": "Dollree Mapp's arrest in Cleveland led the Supreme Court to apply the exclusionary rule to state courts.",
+    "fun_fact": "Mapp v. Ohio barred illegally seized evidence from being used in state criminal trials.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks/mapp-v-ohio-podcast",
+    "trap_notes": {
+      "a": "Chicago is on Lake Michigan in Illinois, not Lake Erie in Ohio.",
+      "b": "Detroit is in Michigan, northwest of Ohio.",
+      "c": "Toronto is in Canada, outside U.S. Fourth Amendment jurisdiction.",
+      "default": "Mapp v. Ohio began with a police search at Dollree Mapp's home in Cleveland, Ohio."
+    }
+  },
+  {
+    "id": "civics-map-211",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Sixth Amendment",
+    "era": "1963",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 30.1588,
+      "lng": -85.6602,
+      "label": "Panama City, Florida"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 230,
+          "y": 148,
+          "label": "Panama City"
+        },
+        {
+          "id": "b",
+          "x": 244,
+          "y": 168,
+          "label": "Miami"
+        },
+        {
+          "id": "c",
+          "x": 250,
+          "y": 122,
+          "label": "Charleston"
+        },
+        {
+          "id": "d",
+          "x": 188,
+          "y": 152,
+          "label": "New Orleans"
+        }
+      ]
+    },
+    "prompt": "Select the Florida Panhandle city where Clarence Earl Gideon's arrest led to the right to appointed counsel.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Arrested in Panama City, Florida, Gideon petitioned the Supreme Court, winning the right to free legal counsel in felony cases.",
+    "fun_fact": "Gideon wrote his Supreme Court petition in pencil from Florida State Prison.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-gideon-v-wainwright",
+    "trap_notes": {
+      "b": "Miami is in southern Florida, far from the Panhandle town where Gideon was tried.",
+      "c": "Charleston is in South Carolina, not Florida.",
+      "d": "New Orleans is in Louisiana, west of Florida.",
+      "default": "Gideon v. Wainwright began with a poolroom burglary charge in Panama City, Florida."
+    }
+  },
+  {
+    "id": "civics-map-212",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Fifth Amendment",
+    "era": "1966",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 33.4484,
+      "lng": -112.074,
+      "label": "Phoenix, Arizona"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 66,
+          "y": 124,
+          "label": "Los Angeles"
+        },
+        {
+          "id": "b",
+          "x": 96,
+          "y": 128,
+          "label": "Phoenix"
+        },
+        {
+          "id": "c",
+          "x": 124,
+          "y": 100,
+          "label": "Denver"
+        },
+        {
+          "id": "d",
+          "x": 98,
+          "y": 92,
+          "label": "Salt Lake City"
+        }
+      ]
+    },
+    "prompt": "Select the Arizona city where police interrogation without warnings led to Miranda v. Arizona (1966).",
+    "options": [],
+    "answer": "b",
+    "explanation": "Ernesto Miranda's interrogation in Phoenix led the Supreme Court to require police to inform suspects of their rights.",
+    "fun_fact": "Miranda warnings cover the right to remain silent and the right to an attorney.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-miranda-v-arizona",
+    "trap_notes": {
+      "a": "Los Angeles is on the California coast, not in Arizona.",
+      "c": "Denver is in Colorado, northeast of Arizona.",
+      "d": "Salt Lake City is in Utah, north of Arizona.",
+      "default": "Miranda v. Arizona originated in Phoenix, Arizona."
+    }
+  },
+  {
+    "id": "civics-map-213",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Symbolic Speech",
+    "era": "1989",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 32.7767,
+      "lng": -96.797,
+      "label": "Dallas, Texas"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 166,
+          "y": 156,
+          "label": "Houston"
+        },
+        {
+          "id": "b",
+          "x": 188,
+          "y": 152,
+          "label": "New Orleans"
+        },
+        {
+          "id": "c",
+          "x": 158,
+          "y": 136,
+          "label": "Dallas"
+        },
+        {
+          "id": "d",
+          "x": 116,
+          "y": 122,
+          "label": "Santa Fe"
+        }
+      ]
+    },
+    "prompt": "Select the Texas city where a 1984 protest outside a party convention led to Texas v. Johnson (1989).",
+    "options": [],
+    "answer": "c",
+    "explanation": "Gregory Lee Johnson burned a U.S. flag in Dallas, and the Supreme Court ruled flag burning is protected symbolic speech.",
+    "fun_fact": "The 5–4 decision struck down flag-desecration laws in 48 states.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-texas-v-johnson",
+    "trap_notes": {
+      "a": "Houston is on the Texas Gulf Coast, not the site of the 1984 convention protest.",
+      "b": "New Orleans is in Louisiana, east of Texas.",
+      "d": "Santa Fe is New Mexico's capital, west of Texas.",
+      "default": "The protest in Texas v. Johnson occurred outside Dallas City Hall in 1984."
+    }
+  },
+  {
+    "id": "civics-map-214",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Equal Protection",
+    "era": "1896",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 29.9511,
+      "lng": -90.0715,
+      "label": "New Orleans, Louisiana"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 218,
+          "y": 130,
+          "label": "Montgomery"
+        },
+        {
+          "id": "b",
+          "x": 244,
+          "y": 168,
+          "label": "Miami"
+        },
+        {
+          "id": "c",
+          "x": 166,
+          "y": 156,
+          "label": "Houston"
+        },
+        {
+          "id": "d",
+          "x": 188,
+          "y": 152,
+          "label": "New Orleans"
+        }
+      ]
+    },
+    "prompt": "Select the Louisiana port city where Homer Plessy challenged railcar segregation in Plessy v. Ferguson (1896).",
+    "options": [],
+    "answer": "d",
+    "explanation": "Plessy boarded a train in New Orleans to test Louisiana's Separate Car Act, resulting in the separate-but-equal doctrine.",
+    "fun_fact": "Justice John Marshall Harlan wrote the lone dissent, arguing the Constitution is color-blind.",
+    "source_url": "https://www.archives.gov/milestone-documents/plessy-v-ferguson",
+    "trap_notes": {
+      "a": "Montgomery is in Alabama, site of the 1955 bus boycott nearly 60 years later.",
+      "b": "Miami is in southern Florida, not Louisiana.",
+      "c": "Houston is in Texas, west of the Louisiana railcar test case.",
+      "default": "Homer Plessy was arrested in New Orleans, Louisiana, in 1892."
+    }
+  },
+  {
+    "id": "civics-map-215",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Due Process & Equal Protection",
+    "era": "1967",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 37.5407,
+      "lng": -77.436,
+      "label": "Richmond, Virginia"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 268,
+          "y": 96,
+          "label": "Richmond"
+        },
+        {
+          "id": "b",
+          "x": 304,
+          "y": 50,
+          "label": "Boston"
+        },
+        {
+          "id": "c",
+          "x": 250,
+          "y": 122,
+          "label": "Charleston"
+        },
+        {
+          "id": "d",
+          "x": 216,
+          "y": 112,
+          "label": "Nashville"
+        }
+      ]
+    },
+    "prompt": "Select the state capital where Mildred and Richard Loving's marriage ban was upheld before the Supreme Court struck it down in 1967.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Virginia's high court in Richmond upheld the ban before the U.S. Supreme Court unanimously overturned it in Loving v. Virginia.",
+    "fun_fact": "Loving v. Virginia invalidated anti-miscegenation laws in sixteen states.",
+    "source_url": "https://www.oyez.org/cases/1966/395",
+    "trap_notes": {
+      "b": "Boston is in Massachusetts, which had repealed its ban in 1843.",
+      "c": "Charleston is in South Carolina, south of Virginia.",
+      "d": "Nashville is Tennessee's capital, inland from Virginia.",
+      "default": "Loving v. Virginia challenged state law enforced through Virginia's courts in Richmond."
+    }
+  },
+  {
+    "id": "civics-map-216",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Colonial Self-Government",
+    "era": "1619",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 37.2104,
+      "lng": -76.7775,
+      "label": "Jamestown, Virginia"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 306,
+          "y": 52,
+          "label": "Plymouth"
+        },
+        {
+          "id": "b",
+          "x": 270,
+          "y": 96,
+          "label": "Jamestown"
+        },
+        {
+          "id": "c",
+          "x": 288,
+          "y": 66,
+          "label": "New York City"
+        },
+        {
+          "id": "d",
+          "x": 242,
+          "y": 146,
+          "label": "St. Augustine"
+        }
+      ]
+    },
+    "prompt": "Select the Virginia settlement where the House of Burgesses met in 1619 as the first representative assembly in British North America.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Virginia House of Burgesses first convened in Jamestown in 1619, establishing elected colonial lawmaking.",
+    "fun_fact": "Twenty-two burgesses met in the Jamestown church during a sweltering July session.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/colonial-charters.html",
+    "trap_notes": {
+      "a": "Plymouth was settled in 1620 in Massachusetts, one year after the House of Burgesses met.",
+      "c": "New York City was then Dutch New Amsterdam, not a British representative assembly.",
+      "d": "St. Augustine was a Spanish colonial fort in Florida.",
+      "default": "Jamestown, Virginia, hosted British North America's first elected legislature in 1619."
+    }
+  },
+  {
+    "id": "civics-map-217",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Colonial Self-Government",
+    "era": "1620",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.9584,
+      "lng": -70.6673,
+      "label": "Plymouth, Massachusetts"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 270,
+          "y": 96,
+          "label": "Jamestown"
+        },
+        {
+          "id": "b",
+          "x": 278,
+          "y": 76,
+          "label": "Philadelphia"
+        },
+        {
+          "id": "c",
+          "x": 306,
+          "y": 52,
+          "label": "Plymouth"
+        },
+        {
+          "id": "d",
+          "x": 250,
+          "y": 122,
+          "label": "Charleston"
+        }
+      ]
+    },
+    "prompt": "Select the Massachusetts Bay settlement founded by signers of the 1620 Mayflower Compact.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Pilgrims signed the Mayflower Compact in 1620 to govern their new settlement at Plymouth by majority consent.",
+    "fun_fact": "The Mayflower Compact was drafted aboard ship off Cape Cod before landing.",
+    "source_url": "https://www.archives.gov/milestone-documents/mayflower-compact",
+    "trap_notes": {
+      "a": "Jamestown was founded in Virginia in 1607 under a royal company charter.",
+      "b": "Philadelphia was founded by William Penn in 1682.",
+      "d": "Charleston was founded in South Carolina in 1670.",
+      "default": "The Mayflower Compact established self-government for Plymouth Colony in Massachusetts."
+    }
+  },
+  {
+    "id": "civics-map-218",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Road to the Constitution",
+    "era": "1786",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9784,
+      "lng": -76.4922,
+      "label": "Annapolis, Maryland"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 304,
+          "y": 50,
+          "label": "Boston"
+        },
+        {
+          "id": "b",
+          "x": 206,
+          "y": 74,
+          "label": "Chicago"
+        },
+        {
+          "id": "c",
+          "x": 184,
+          "y": 104,
+          "label": "St. Louis"
+        },
+        {
+          "id": "d",
+          "x": 272,
+          "y": 84,
+          "label": "Annapolis"
+        }
+      ]
+    },
+    "prompt": "Select the Maryland capital where delegates in 1786 called for a broader convention to revise the Articles of Confederation.",
+    "options": [],
+    "answer": "d",
+    "explanation": "The 1786 Annapolis Convention drew only five states, prompting Alexander Hamilton's call for the 1787 Philadelphia Convention.",
+    "fun_fact": "Twelve delegates met at Mann's Tavern in Annapolis to discuss interstate trade barriers.",
+    "source_url": "https://guides.loc.gov/articles-of-confederation",
+    "trap_notes": {
+      "a": "Boston was not the site of the 1786 interstate trade meeting.",
+      "b": "Chicago was not yet a major city in 1786.",
+      "c": "St. Louis was under Spanish control in 1786.",
+      "default": "The 1786 Annapolis Convention in Maryland paved the way for the 1787 Constitutional Convention."
+    }
+  },
+  {
+    "id": "civics-map-219",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Articles of Confederation",
+    "era": "1786–1787",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 42.1015,
+      "lng": -72.5898,
+      "label": "Springfield, Massachusetts"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 298,
+          "y": 52,
+          "label": "Springfield"
+        },
+        {
+          "id": "b",
+          "x": 268,
+          "y": 96,
+          "label": "Richmond"
+        },
+        {
+          "id": "c",
+          "x": 234,
+          "y": 122,
+          "label": "Atlanta"
+        },
+        {
+          "id": "d",
+          "x": 188,
+          "y": 152,
+          "label": "New Orleans"
+        }
+      ]
+    },
+    "prompt": "Select the western Massachusetts town where Shays' Rebellion targeted a federal arsenal in 1787.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Daniel Shays led indebted farmers against the Springfield arsenal in 1787, exposing the Articles' weak national defense.",
+    "fun_fact": "Massachusetts raised a privately funded state militia because Congress lacked troops or tax money.",
+    "source_url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/shays-rebellion",
+    "trap_notes": {
+      "b": "Richmond is in Virginia, far south of the Massachusetts tax uprising.",
+      "c": "Atlanta was founded in the 1830s, decades after Shays' Rebellion.",
+      "d": "New Orleans was under Spanish rule in 1787.",
+      "default": "Shays' Rebellion climaxed at the arsenal in Springfield, Massachusetts."
+    }
+  },
+  {
+    "id": "civics-map-220",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Constitutional History",
+    "era": "1847–1857",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.627,
+      "lng": -90.1994,
+      "label": "St. Louis, Missouri"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 288,
+          "y": 66,
+          "label": "New York City"
+        },
+        {
+          "id": "b",
+          "x": 184,
+          "y": 104,
+          "label": "St. Louis"
+        },
+        {
+          "id": "c",
+          "x": 56,
+          "y": 98,
+          "label": "San Francisco"
+        },
+        {
+          "id": "d",
+          "x": 244,
+          "y": 168,
+          "label": "Miami"
+        }
+      ]
+    },
+    "prompt": "Select the Mississippi River city where Dred Scott first sued for his freedom in 1846.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Dred Scott filed suit in the Old Courthouse in St. Louis, Missouri, before the Supreme Court's 1857 ruling.",
+    "fun_fact": "The Fourteenth Amendment later overturned Dred Scott by guaranteeing birthright citizenship.",
+    "source_url": "https://www.archives.gov/milestone-documents/dred-scott-v-sandford",
+    "trap_notes": {
+      "a": "New York City is on the Atlantic coast, not on the Mississippi River.",
+      "c": "San Francisco is on the Pacific coast in California, a free state.",
+      "d": "Miami is in southern Florida, far from Missouri.",
+      "default": "Dred Scott's freedom suit began in St. Louis, Missouri."
+    }
+  },
+  {
+    "id": "civics-map-221",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Institutions",
+    "era": "1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "label": "San Francisco, California"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 270,
+          "y": 86,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "b",
+          "x": 206,
+          "y": 74,
+          "label": "Chicago"
+        },
+        {
+          "id": "c",
+          "x": 52,
+          "y": 104,
+          "label": "San Francisco"
+        },
+        {
+          "id": "d",
+          "x": 188,
+          "y": 152,
+          "label": "New Orleans"
+        }
+      ]
+    },
+    "prompt": "Select the California city where 50 nations signed the United Nations Charter in June 1945.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Delegates from 50 countries drafted and signed the UN Charter at the San Francisco Conference in 1945.",
+    "fun_fact": "Poland signed later as an original member, bringing the founding total to 51 nations.",
+    "source_url": "https://www.un.org/en/about-us/history-of-the-un/san-francisco-conference",
+    "trap_notes": {
+      "a": "Dumbarton Oaks in Washington hosted earlier 1944 planning talks, not the 1945 signing.",
+      "b": "Chicago hosted a 1944 civil aviation conference, not the UN Charter signing.",
+      "d": "New Orleans is on the Gulf Coast, not the California coast.",
+      "default": "The United Nations Charter was signed in San Francisco in June 1945."
+    }
+  },
+  {
+    "id": "civics-map-222",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "State & Local Government",
+    "era": "1911–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "label": "Sacramento, California"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 124,
+          "y": 100,
+          "label": "Denver"
+        },
+        {
+          "id": "b",
+          "x": 56,
+          "y": 48,
+          "label": "Seattle"
+        },
+        {
+          "id": "c",
+          "x": 96,
+          "y": 128,
+          "label": "Phoenix"
+        },
+        {
+          "id": "d",
+          "x": 56,
+          "y": 98,
+          "label": "Sacramento"
+        }
+      ]
+    },
+    "prompt": "Select the California state capital where Progressive reformers adopted the initiative, referendum, and recall in 1911.",
+    "options": [],
+    "answer": "d",
+    "explanation": "In 1911, California's legislature in Sacramento and voters approved direct-democracy tools to curb railroad influence.",
+    "fun_fact": "California voters have used ballot propositions extensively to amend state laws and budgets.",
+    "source_url": "https://www.sos.ca.gov/elections/ballot-measures/history-initiative-and-referendum-california",
+    "trap_notes": {
+      "a": "Denver is Colorado's capital in the Rocky Mountains.",
+      "b": "Seattle is in Washington State, north of California.",
+      "c": "Phoenix is Arizona's capital, southeast of California.",
+      "default": "Sacramento is California's capital, where 1911 Progressive reforms expanded direct democracy."
+    }
+  },
+  {
+    "id": "civics-map-223",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Voting Rights",
+    "era": "1869",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.14,
+      "lng": -104.8202,
+      "label": "Cheyenne, Wyoming"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 124,
+          "y": 84,
+          "label": "Cheyenne"
+        },
+        {
+          "id": "b",
+          "x": 262,
+          "y": 62,
+          "label": "Seneca Falls"
+        },
+        {
+          "id": "c",
+          "x": 154,
+          "y": 152,
+          "label": "Austin"
+        },
+        {
+          "id": "d",
+          "x": 270,
+          "y": 86,
+          "label": "Washington, D.C."
+        }
+      ]
+    },
+    "prompt": "Select the territorial capital where Wyoming became the first U.S. jurisdiction to grant women equal voting rights in 1869.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Wyoming Territory's legislature in Cheyenne passed women's suffrage in 1869 and kept it upon statehood in 1890.",
+    "fun_fact": "Wyoming is nicknamed the Equality State for pioneering women's suffrage and jury service.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/wyoming-suffrage",
+    "trap_notes": {
+      "b": "Seneca Falls hosted the 1848 convention, but New York did not pass state suffrage until 1917.",
+      "c": "Austin is Texas's capital, which granted primary voting in 1918.",
+      "d": "Washington, D.C. passed the 19th Amendment in Congress in 1919.",
+      "default": "Wyoming Territory enacted women's suffrage in Cheyenne in 1869."
+    }
+  },
+  {
+    "id": "civics-map-224",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1867–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 45.4215,
+      "lng": -75.6972,
+      "label": "Ottawa, Canada"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 270,
+          "y": 86,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "b",
+          "x": 262,
+          "y": 46,
+          "label": "Ottawa"
+        },
+        {
+          "id": "c",
+          "x": 142,
+          "y": 194,
+          "label": "Mexico City"
+        },
+        {
+          "id": "d",
+          "x": 206,
+          "y": 74,
+          "label": "Chicago"
+        }
+      ]
+    },
+    "prompt": "Select the capital of Canada's federal parliamentary democracy.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Ottawa, Ontario, houses Canada's Parliament, where the prime minister leads the elected House of Commons.",
+    "fun_fact": "Queen Victoria chose Ottawa as Canada's capital in 1857, away from the U.S. border.",
+    "source_url": "https://www.canada.ca/en/canadian-heritage/services/crown-canada/about.html",
+    "trap_notes": {
+      "a": "Washington, D.C. is the capital of the United States, a presidential republic.",
+      "c": "Mexico City is the capital of Mexico, a presidential federal republic.",
+      "d": "Chicago is a major U.S. city on Lake Michigan, not a national capital.",
+      "default": "Ottawa is the federal capital of Canada."
+    }
+  },
+  {
+    "id": "civics-map-225",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1917–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "label": "Mexico City, Mexico"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "a",
+          "x": 262,
+          "y": 46,
+          "label": "Ottawa"
+        },
+        {
+          "id": "b",
+          "x": 154,
+          "y": 152,
+          "label": "Austin"
+        },
+        {
+          "id": "c",
+          "x": 142,
+          "y": 194,
+          "label": "Mexico City"
+        },
+        {
+          "id": "d",
+          "x": 124,
+          "y": 100,
+          "label": "Denver"
+        }
+      ]
+    },
+    "prompt": "Select the capital of Mexico's federal presidential republic.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Mexico City is the seat of Mexico's federal government, organized under the 1917 Constitution into 32 federal entities.",
+    "fun_fact": "Mexico's 1917 Constitution was among the first in the world to include social and labor rights.",
+    "source_url": "https://www.britannica.com/place/Mexico-City",
+    "trap_notes": {
+      "a": "Ottawa is Canada's capital, north of the Great Lakes.",
+      "b": "Austin is the state capital of Texas, north of the Rio Grande.",
+      "d": "Denver is Colorado's state capital in the United States.",
+      "default": "Mexico City is the federal capital of Mexico."
+    }
+  },
+  {
+    "id": "civics-map-226",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Foundations of Democracy",
+    "era": "5th Century BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "label": "Athens, Greece"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 200,
+          "y": 82,
+          "label": "Athens"
+        },
+        {
+          "id": "b",
+          "x": 184,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "c",
+          "x": 160,
+          "y": 58,
+          "label": "London"
+        },
+        {
+          "id": "d",
+          "x": 100,
+          "y": 72,
+          "label": "Philadelphia"
+        }
+      ]
+    },
+    "prompt": "Select the ancient Mediterranean city-state where male citizens practiced direct democracy in the Assembly.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Classical Athens allowed eligible male citizens to debate and vote directly on laws in the Ekklesia.",
+    "fun_fact": "Athenians also used lottery selection, called sortition, to staff many public offices and juries.",
+    "source_url": "https://www.britannica.com/topic/democracy/Classical-Greece",
+    "trap_notes": {
+      "b": "Rome developed a representative republic with elected magistrates and a Senate.",
+      "c": "London is the seat of Britain's modern parliamentary monarchy.",
+      "d": "Philadelphia hosted the drafting of the U.S. Constitution in 1787.",
+      "default": "Direct democracy in the ancient world is most closely associated with Athens, Greece."
+    }
+  },
+  {
+    "id": "civics-map-227",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Foundations of Democracy",
+    "era": "509–27 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "label": "Rome, Italy"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 200,
+          "y": 82,
+          "label": "Athens"
+        },
+        {
+          "id": "b",
+          "x": 184,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "c",
+          "x": 172,
+          "y": 62,
+          "label": "Paris"
+        },
+        {
+          "id": "d",
+          "x": 212,
+          "y": 92,
+          "label": "Cairo"
+        }
+      ]
+    },
+    "prompt": "Select the Italian city whose ancient republic inspired U.S. checks and balances and the Twelve Tables.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Roman Republic combined consuls, a Senate, and popular assemblies, influencing the U.S. Founders.",
+    "fun_fact": "The Twelve Tables (449 BCE) posted Roman laws publicly so citizens knew their legal rights.",
+    "source_url": "https://www.britannica.com/place/Roman-Republic",
+    "trap_notes": {
+      "a": "Athens practiced direct democracy rather than a republic with a Senate and consuls.",
+      "c": "Paris became the center of the French Republic in 1792.",
+      "d": "Cairo is Egypt's modern capital on the Nile Delta.",
+      "default": "Rome's ancient republic modeled mixed government and written public law."
+    }
+  },
+  {
+    "id": "civics-map-228",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Constitutional Heritage",
+    "era": "1689–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 172,
+          "y": 62,
+          "label": "Paris"
+        },
+        {
+          "id": "b",
+          "x": 184,
+          "y": 56,
+          "label": "Berlin"
+        },
+        {
+          "id": "c",
+          "x": 160,
+          "y": 58,
+          "label": "London"
+        },
+        {
+          "id": "d",
+          "x": 216,
+          "y": 48,
+          "label": "Moscow"
+        }
+      ]
+    },
+    "prompt": "Select the capital where Parliament enacted the English Bill of Rights in 1689, limiting royal power.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Meeting in Westminster, London, Parliament passed the 1689 Bill of Rights guaranteeing free parliamentary speech and regular elections.",
+    "fun_fact": "Many protections in the U.S. Bill of Rights echo clauses from the 1689 English Bill of Rights.",
+    "source_url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/collections1/collections-glorious-revolution/billofrights/",
+    "trap_notes": {
+      "a": "Paris was the seat of the French absolute monarchy in 1689.",
+      "b": "Berlin is Germany's capital, unified in 1871.",
+      "d": "Moscow was part of Tsarist Russia in 1689.",
+      "default": "The English Bill of Rights was enacted by Parliament in London in 1689."
+    }
+  },
+  {
+    "id": "civics-map-229",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Human Rights Documents",
+    "era": "1789",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 160,
+          "y": 58,
+          "label": "London"
+        },
+        {
+          "id": "b",
+          "x": 184,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "c",
+          "x": 164,
+          "y": 72,
+          "label": "Madrid"
+        },
+        {
+          "id": "d",
+          "x": 172,
+          "y": 62,
+          "label": "Paris"
+        }
+      ]
+    },
+    "prompt": "Select the European capital where the National Assembly adopted the Declaration of the Rights of Man in 1789.",
+    "options": [],
+    "answer": "d",
+    "explanation": "During the French Revolution in 1789, lawmakers in Paris proclaimed universal natural rights and popular sovereignty.",
+    "fun_fact": "Thomas Jefferson, then U.S. minister to France, advised Marquis de Lafayette on early drafts.",
+    "source_url": "https://www.britannica.com/topic/Declaration-of-the-Rights-of-Man-and-of-the-Citizen",
+    "trap_notes": {
+      "a": "London is the British capital, where Parliament passed its Bill of Rights a century earlier.",
+      "b": "Rome was governed by the Papal States in 1789.",
+      "c": "Madrid was the capital of the Spanish monarchy in 1789.",
+      "default": "The 1789 Declaration of the Rights of Man was adopted in Paris, France."
+    }
+  },
+  {
+    "id": "civics-map-230",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1863–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 178,
+          "y": 66,
+          "label": "Geneva"
+        },
+        {
+          "id": "b",
+          "x": 216,
+          "y": 48,
+          "label": "Moscow"
+        },
+        {
+          "id": "c",
+          "x": 296,
+          "y": 68,
+          "label": "Beijing"
+        },
+        {
+          "id": "d",
+          "x": 98,
+          "y": 76,
+          "label": "Washington, D.C."
+        }
+      ]
+    },
+    "prompt": "Select the Swiss city that hosts the World Trade Organization, WHO, and the International Red Cross.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Neutral Switzerland's Geneva serves as a major hub for UN agencies, humanitarian law, and global trade.",
+    "fun_fact": "The 1864 Geneva Convention set the first international rules for humane treatment in war.",
+    "source_url": "https://www.ungeneva.org/en/about",
+    "trap_notes": {
+      "b": "Moscow is Russia's capital, not a neutral hub for UN humanitarian agencies.",
+      "c": "Beijing is China's capital, not the WTO or WHO headquarters.",
+      "d": "Washington, D.C. hosts the IMF and World Bank, not the WHO or Red Cross HQ.",
+      "default": "Geneva, Switzerland, is home to the WTO, WHO, and International Red Cross."
+    }
+  },
+  {
+    "id": "civics-map-231",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law",
+    "era": "1945–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 52.0705,
+      "lng": 4.3007,
+      "label": "The Hague, Netherlands"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 172,
+          "y": 62,
+          "label": "Paris"
+        },
+        {
+          "id": "b",
+          "x": 174,
+          "y": 54,
+          "label": "The Hague"
+        },
+        {
+          "id": "c",
+          "x": 184,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "d",
+          "x": 200,
+          "y": 82,
+          "label": "Athens"
+        }
+      ]
+    },
+    "prompt": "Select the Dutch city where the International Court of Justice sits in the Peace Palace.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Hague in the Netherlands is the seat of the UN's International Court of Justice and International Criminal Court.",
+    "fun_fact": "The ICJ is the only principal UN organ located outside New York City.",
+    "source_url": "https://www.icj-cij.org/court",
+    "trap_notes": {
+      "a": "Paris hosts UNESCO, not the International Court of Justice.",
+      "c": "Rome hosts the UN Food and Agriculture Organization, not the ICJ.",
+      "d": "Athens is Greece's capital, not the seat of the UN's world court.",
+      "default": "The International Court of Justice sits in The Hague, Netherlands."
+    }
+  },
+  {
+    "id": "civics-map-232",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Supranational Governance",
+    "era": "1958–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "label": "Brussels, Belgium"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 164,
+          "y": 72,
+          "label": "Madrid"
+        },
+        {
+          "id": "b",
+          "x": 186,
+          "y": 42,
+          "label": "Stockholm"
+        },
+        {
+          "id": "c",
+          "x": 174,
+          "y": 58,
+          "label": "Brussels"
+        },
+        {
+          "id": "d",
+          "x": 194,
+          "y": 56,
+          "label": "Warsaw"
+        }
+      ]
+    },
+    "prompt": "Select the Belgian capital that serves as the main administrative seat of the European Union and NATO.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Brussels hosts the European Commission, Council of the European Union, and NATO headquarters.",
+    "fun_fact": "Twenty-seven European nations coordinate trade, environmental, and monetary rules through EU institutions.",
+    "source_url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies_en",
+    "trap_notes": {
+      "a": "Madrid is Spain's capital, not the administrative center of the EU or NATO.",
+      "b": "Stockholm is Sweden's capital on the Baltic Sea.",
+      "d": "Warsaw is Poland's capital in Central Europe.",
+      "default": "Brussels, Belgium, is the administrative hub for both the European Union and NATO."
+    }
+  },
+  {
+    "id": "civics-map-233",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1952–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.7489,
+      "lng": -73.968,
+      "label": "New York, New York"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 56,
+          "y": 76,
+          "label": "San Francisco"
+        },
+        {
+          "id": "b",
+          "x": 160,
+          "y": 58,
+          "label": "London"
+        },
+        {
+          "id": "c",
+          "x": 178,
+          "y": 66,
+          "label": "Geneva"
+        },
+        {
+          "id": "d",
+          "x": 100,
+          "y": 72,
+          "label": "New York City"
+        }
+      ]
+    },
+    "prompt": "Select the city that houses the permanent headquarters of the United Nations General Assembly and Security Council.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Since 1952, the UN General Assembly and Security Council have met at UN Headquarters in New York City.",
+    "fun_fact": "The 18-acre UN complex in Manhattan is treated as international territory by agreement with the United States.",
+    "source_url": "https://www.un.org/en/about-us",
+    "trap_notes": {
+      "a": "San Francisco hosted the 1945 signing conference, not the permanent UN headquarters.",
+      "b": "London hosted the first General Assembly session in 1946 before the move to New York.",
+      "c": "Geneva hosts the UN's European office, not the Security Council chamber.",
+      "default": "Permanent United Nations headquarters is located in New York City."
+    }
+  },
+  {
+    "id": "civics-map-234",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1957–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "label": "Vienna, Austria"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 188,
+          "y": 62,
+          "label": "Vienna"
+        },
+        {
+          "id": "b",
+          "x": 160,
+          "y": 58,
+          "label": "London"
+        },
+        {
+          "id": "c",
+          "x": 324,
+          "y": 66,
+          "label": "Tokyo"
+        },
+        {
+          "id": "d",
+          "x": 254,
+          "y": 92,
+          "label": "New Delhi"
+        }
+      ]
+    },
+    "prompt": "Select the Austrian capital that hosts the International Atomic Energy Agency and the 1961 diplomatic convention.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Vienna is one of four major UN duty stations and hosts the IAEA, which monitors nuclear nonproliferation.",
+    "fun_fact": "The 1961 Vienna Convention on Diplomatic Relations codified diplomatic immunity worldwide.",
+    "source_url": "https://www.iaea.org/about/overview",
+    "trap_notes": {
+      "b": "London hosts the International Maritime Organization, not the IAEA.",
+      "c": "Tokyo is Japan's capital in East Asia.",
+      "d": "New Delhi is India's capital in South Asia.",
+      "default": "Vienna, Austria, is the headquarters of the International Atomic Energy Agency."
+    }
+  },
+  {
+    "id": "civics-map-235",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Human Rights Courts",
+    "era": "1959–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 48.5734,
+      "lng": 7.7521,
+      "label": "Strasbourg, France"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 216,
+          "y": 48,
+          "label": "Moscow"
+        },
+        {
+          "id": "b",
+          "x": 176,
+          "y": 62,
+          "label": "Strasbourg"
+        },
+        {
+          "id": "c",
+          "x": 208,
+          "y": 76,
+          "label": "Istanbul"
+        },
+        {
+          "id": "d",
+          "x": 164,
+          "y": 72,
+          "label": "Madrid"
+        }
+      ]
+    },
+    "prompt": "Select the French Rhine city that hosts the European Court of Human Rights and the Council of Europe.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Strasbourg, France, is home to the European Court of Human Rights, which hears cases from 46 Council of Europe states.",
+    "fun_fact": "Individuals can petition the Strasbourg court directly after exhausting national courts.",
+    "source_url": "https://www.echr.coe.int/the-court",
+    "trap_notes": {
+      "a": "Moscow is in Russia, which ceased to be a party to the European Convention in 2022.",
+      "c": "Istanbul is a major Turkish city on the Bosporus, not the court's seat.",
+      "d": "Madrid is Spain's capital on the Iberian Peninsula.",
+      "default": "The European Court of Human Rights sits in Strasbourg, France."
+    }
+  },
+  {
+    "id": "civics-map-236",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1950–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "label": "New Delhi, India"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 296,
+          "y": 68,
+          "label": "Beijing"
+        },
+        {
+          "id": "b",
+          "x": 290,
+          "y": 132,
+          "label": "Jakarta"
+        },
+        {
+          "id": "c",
+          "x": 254,
+          "y": 92,
+          "label": "New Delhi"
+        },
+        {
+          "id": "d",
+          "x": 238,
+          "y": 82,
+          "label": "Tehran"
+        }
+      ]
+    },
+    "prompt": "Select the capital of the world's most populous constitutional parliamentary democracy.",
+    "options": [],
+    "answer": "c",
+    "explanation": "New Delhi is the seat of India's federal parliament, where over 900 million citizens are eligible to vote.",
+    "fun_fact": "India's 1950 Constitution, led by B.R. Ambedkar, granted universal adult suffrage from independence.",
+    "source_url": "https://www.britannica.com/place/India/Government-and-society",
+    "trap_notes": {
+      "a": "Beijing is the capital of China, a single-party authoritarian state.",
+      "b": "Jakarta is the capital of Indonesia, a presidential republic.",
+      "d": "Tehran is the capital of Iran, an Islamic republic.",
+      "default": "New Delhi is the federal capital of India, the world's largest parliamentary democracy."
+    }
+  },
+  {
+    "id": "civics-map-237",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Constitutions",
+    "era": "1947–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "label": "Tokyo, Japan"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 310,
+          "y": 70,
+          "label": "Seoul"
+        },
+        {
+          "id": "b",
+          "x": 296,
+          "y": 68,
+          "label": "Beijing"
+        },
+        {
+          "id": "c",
+          "x": 308,
+          "y": 106,
+          "label": "Manila"
+        },
+        {
+          "id": "d",
+          "x": 324,
+          "y": 66,
+          "label": "Tokyo"
+        }
+      ]
+    },
+    "prompt": "Select the capital where the National Diet governs under a 1947 constitution renouncing war in Article 9.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Japan's 1947 Constitution, based in Tokyo, established a parliamentary democracy with a symbolic emperor and Article 9.",
+    "fun_fact": "Under the 1947 Constitution, sovereignty rests with the Japanese people rather than the monarch.",
+    "source_url": "https://www.britannica.com/topic/Constitution-of-Japan",
+    "trap_notes": {
+      "a": "Seoul is the capital of South Korea, a presidential republic.",
+      "b": "Beijing is the capital of China, governed by the Chinese Communist Party.",
+      "c": "Manila is the capital of the Philippines, a presidential republic.",
+      "default": "Japan's National Diet and 1947 Constitution are centered in Tokyo."
+    }
+  },
+  {
+    "id": "civics-map-238",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Constitutional Transitions",
+    "era": "1994–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -25.7479,
+      "lng": 28.2293,
+      "label": "Pretoria, South Africa"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 204,
+          "y": 168,
+          "label": "Pretoria"
+        },
+        {
+          "id": "b",
+          "x": 220,
+          "y": 126,
+          "label": "Nairobi"
+        },
+        {
+          "id": "c",
+          "x": 212,
+          "y": 92,
+          "label": "Cairo"
+        },
+        {
+          "id": "d",
+          "x": 168,
+          "y": 114,
+          "label": "Accra"
+        }
+      ]
+    },
+    "prompt": "Select the South African executive capital where Nelson Mandela was inaugurated in 1994 after apartheid ended.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Mandela took the oath at the Union Buildings in Pretoria in 1994, ushering in South Africa's multiracial democracy.",
+    "fun_fact": "South Africa splits its capitals: Pretoria is executive, Cape Town is legislative, and Bloemfontein is judicial.",
+    "source_url": "https://www.britannica.com/place/Pretoria",
+    "trap_notes": {
+      "b": "Nairobi is Kenya's capital in East Africa.",
+      "c": "Cairo is Egypt's capital in North Africa.",
+      "d": "Accra is Ghana's capital in West Africa.",
+      "default": "Pretoria is South Africa's executive capital."
+    }
+  },
+  {
+    "id": "civics-map-239",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Federalism",
+    "era": "1913–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -35.2809,
+      "lng": 149.13,
+      "label": "Canberra, Australia"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 290,
+          "y": 174,
+          "label": "Perth"
+        },
+        {
+          "id": "b",
+          "x": 324,
+          "y": 176,
+          "label": "Canberra"
+        },
+        {
+          "id": "c",
+          "x": 284,
+          "y": 122,
+          "label": "Singapore"
+        },
+        {
+          "id": "d",
+          "x": 290,
+          "y": 132,
+          "label": "Jakarta"
+        }
+      ]
+    },
+    "prompt": "Select the planned inland capital of Australia's federal parliamentary system.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Canberra was chosen in 1908 as a compromise between Sydney and Melbourne to serve as Australia's federal capital.",
+    "fun_fact": "Australia's Constitution blends British parliamentary cabinets with U.S.-style federalism and an elected Senate.",
+    "source_url": "https://www.britannica.com/place/Canberra",
+    "trap_notes": {
+      "a": "Perth is the state capital of Western Australia on the Indian Ocean.",
+      "c": "Singapore is a Southeast Asian city-state at the tip of the Malay Peninsula.",
+      "d": "Jakarta is Indonesia's capital on Java.",
+      "default": "Canberra is the planned federal capital of Australia."
+    }
+  },
+  {
+    "id": "civics-map-240",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Federalism",
+    "era": "1960–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -15.7975,
+      "lng": -47.8919,
+      "label": "Brasilia, Brazil"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 106,
+          "y": 184,
+          "label": "Buenos Aires"
+        },
+        {
+          "id": "b",
+          "x": 86,
+          "y": 148,
+          "label": "Lima"
+        },
+        {
+          "id": "c",
+          "x": 118,
+          "y": 156,
+          "label": "Brasilia"
+        },
+        {
+          "id": "d",
+          "x": 94,
+          "y": 126,
+          "label": "Bogota"
+        }
+      ]
+    },
+    "prompt": "Select the planned inland capital of Brazil's federal presidential republic.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Inaugurated in 1960, Brasilia replaced Rio de Janeiro as the seat of Brazil's federal congress and presidency.",
+    "fun_fact": "Brazil's 1988 Constitution restored democratic elections and strengthened judicial review.",
+    "source_url": "https://www.britannica.com/place/Brasilia",
+    "trap_notes": {
+      "a": "Buenos Aires is the capital of Argentina on the Rio de la Plata.",
+      "b": "Lima is the coastal capital of Peru.",
+      "d": "Bogota is the Andean capital of Colombia.",
+      "default": "Brasilia is the planned federal capital of Brazil."
+    }
+  },
+  {
+    "id": "civics-map-241",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Direct Democracy",
+    "era": "1848–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 46.948,
+      "lng": 7.4474,
+      "label": "Bern, Switzerland"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 160,
+          "y": 58,
+          "label": "London"
+        },
+        {
+          "id": "b",
+          "x": 184,
+          "y": 56,
+          "label": "Berlin"
+        },
+        {
+          "id": "c",
+          "x": 200,
+          "y": 82,
+          "label": "Athens"
+        },
+        {
+          "id": "d",
+          "x": 178,
+          "y": 64,
+          "label": "Bern"
+        }
+      ]
+    },
+    "prompt": "Select the Swiss federal city where citizens regularly vote in national referendums alongside a seven-member executive council.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Bern is Switzerland's de facto federal capital, famous for combining canton federalism with frequent national referendums.",
+    "fun_fact": "Swiss citizens can force a national vote on any federal law by gathering 50,000 signatures.",
+    "source_url": "https://www.britannica.com/place/Bern",
+    "trap_notes": {
+      "a": "London is the UK capital, which uses parliamentary sovereignty rather than routine citizen initiatives.",
+      "b": "Berlin is Germany's federal capital, which relies primarily on representative parliamentarism.",
+      "c": "Athens is Greece's capital, known for ancient rather than modern Swiss direct democracy.",
+      "default": "Bern is the federal seat of Switzerland's semi-direct democracy."
+    }
+  },
+  {
+    "id": "civics-map-242",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Accountability Institutions",
+    "era": "1809–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "label": "Stockholm, Sweden"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 186,
+          "y": 42,
+          "label": "Stockholm"
+        },
+        {
+          "id": "b",
+          "x": 164,
+          "y": 72,
+          "label": "Madrid"
+        },
+        {
+          "id": "c",
+          "x": 212,
+          "y": 92,
+          "label": "Cairo"
+        },
+        {
+          "id": "d",
+          "x": 254,
+          "y": 92,
+          "label": "New Delhi"
+        }
+      ]
+    },
+    "prompt": "Select the Scandinavian capital where the world's first modern parliamentary ombudsman office was created in 1809.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Sweden's 1809 Constitution in Stockholm created an independent ombudsman to investigate citizen complaints against officials.",
+    "fun_fact": "The Swedish word 'ombudsman' means representative and has been adopted into many legal systems.",
+    "source_url": "https://www.jo.se/en/about-jo/history/",
+    "trap_notes": {
+      "b": "Madrid is Spain's capital in southwestern Europe.",
+      "c": "Cairo is Egypt's capital in North Africa.",
+      "d": "New Delhi is India's capital in South Asia.",
+      "default": "Sweden created the modern parliamentary ombudsman in Stockholm in 1809."
+    }
+  },
+  {
+    "id": "civics-map-243",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Voting Rights",
+    "era": "1893",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -41.2865,
+      "lng": 174.7762,
+      "label": "Wellington, New Zealand"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 290,
+          "y": 174,
+          "label": "Perth"
+        },
+        {
+          "id": "b",
+          "x": 332,
+          "y": 192,
+          "label": "Wellington"
+        },
+        {
+          "id": "c",
+          "x": 324,
+          "y": 66,
+          "label": "Tokyo"
+        },
+        {
+          "id": "d",
+          "x": 284,
+          "y": 122,
+          "label": "Singapore"
+        }
+      ]
+    },
+    "prompt": "Select the capital of the first self-governing nation to grant all women the right to vote in national elections in 1893.",
+    "options": [],
+    "answer": "b",
+    "explanation": "In 1893, New Zealand's Parliament in Wellington passed the Electoral Act granting women national voting rights.",
+    "fun_fact": "Kate Sheppard led a massive petition signed by nearly a quarter of adult women in New Zealand.",
+    "source_url": "https://nzhistory.govt.nz/politics/womens-suffrage",
+    "trap_notes": {
+      "a": "Perth is in Western Australia, where women gained the vote later in 1899.",
+      "c": "Tokyo is Japan's capital, where women gained suffrage in 1945.",
+      "d": "Singapore became an independent republic in 1965.",
+      "default": "New Zealand granted women national voting rights in Wellington in 1893."
+    }
+  },
+  {
+    "id": "civics-map-244",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Regimes",
+    "era": "1949–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "label": "Beijing, China"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 324,
+          "y": 66,
+          "label": "Tokyo"
+        },
+        {
+          "id": "b",
+          "x": 254,
+          "y": 92,
+          "label": "New Delhi"
+        },
+        {
+          "id": "c",
+          "x": 296,
+          "y": 68,
+          "label": "Beijing"
+        },
+        {
+          "id": "d",
+          "x": 278,
+          "y": 104,
+          "label": "Bangkok"
+        }
+      ]
+    },
+    "prompt": "Select the capital where the National People's Congress meets in a unitary single-party state.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Beijing is the political capital of the People's Republic of China, governed by the Chinese Communist Party.",
+    "fun_fact": "The National People's Congress is constitutionally the highest organ of state power in China.",
+    "source_url": "https://www.britannica.com/place/Beijing",
+    "trap_notes": {
+      "a": "Tokyo is Japan's capital, a multiparty parliamentary democracy.",
+      "b": "New Delhi is India's capital, a federal multiparty democracy.",
+      "d": "Bangkok is Thailand's capital in mainland Southeast Asia.",
+      "default": "Beijing is the capital of China's unitary single-party system."
+    }
+  },
+  {
+    "id": "civics-map-245",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1972–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -1.2921,
+      "lng": 36.8219,
+      "label": "Nairobi, Kenya"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 212,
+          "y": 92,
+          "label": "Cairo"
+        },
+        {
+          "id": "b",
+          "x": 204,
+          "y": 168,
+          "label": "Pretoria"
+        },
+        {
+          "id": "c",
+          "x": 168,
+          "y": 114,
+          "label": "Accra"
+        },
+        {
+          "id": "d",
+          "x": 220,
+          "y": 126,
+          "label": "Nairobi"
+        }
+      ]
+    },
+    "prompt": "Select the East African capital that hosts the United Nations Environment Programme headquarters.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Founded in 1972, UNEP is headquartered in Nairobi, Kenya, making Nairobi a key UN global center.",
+    "fun_fact": "Nairobi is the only city in the Global South to host a main United Nations headquarters.",
+    "source_url": "https://www.unep.org/about-un-environment",
+    "trap_notes": {
+      "a": "Cairo is Egypt's capital in North Africa, not UNEP's global headquarters.",
+      "b": "Pretoria is South Africa's executive capital in southern Africa.",
+      "c": "Accra is Ghana's capital on the Gulf of Guinea.",
+      "default": "The UN Environment Programme is headquartered in Nairobi, Kenya."
+    }
+  },
+  {
+    "id": "civics-mc-261",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Legislative Process",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "What is the primary role of a congressional conference committee?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To draft the annual federal budget before House hearings"
+      },
+      {
+        "id": "b",
+        "text": "To reconcile different House and Senate versions of a bill"
+      },
+      {
+        "id": "c",
+        "text": "To question judicial nominees prior to a Senate floor vote"
+      },
+      {
+        "id": "d",
+        "text": "To investigate executive agencies accused of misusing funds"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A conference committee brings House and Senate members together to produce one identical bill for final passage.",
+    "fun_fact": "Both chambers must pass the exact same bill text before it can go to the president.",
+    "source_url": "https://www.congress.gov/help/learn-about-the-legislative-process/resolving-differences",
+    "trap_notes": {
+      "a": "Budget resolutions are handled by the Budget Committees, not conference committees.",
+      "c": "The Senate Judiciary Committee questions federal judicial nominees.",
+      "d": "Standing oversight committees investigate agency spending, not conference committees.",
+      "default": "Conference committees resolve differences between House and Senate versions of a bill."
+    }
+  },
+  {
+    "id": "civics-mc-262",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Legislative Process",
+    "era": "1910–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Why do members of the U.S. House of Representatives file a discharge petition?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To force a bill out of a committee onto the House floor"
+      },
+      {
+        "id": "b",
+        "text": "To remove a House member accused of ethics violations"
+      },
+      {
+        "id": "c",
+        "text": "To override a presidential veto without a Senate vote"
+      },
+      {
+        "id": "d",
+        "text": "To delay a floor debate through unlimited speaking time"
+      }
+    ],
+    "answer": "a",
+    "explanation": "If 218 House members sign a discharge petition, a bill stalled in committee moves directly to the floor.",
+    "fun_fact": "Discharge petitions rarely succeed because majority-party members seldom sign against committee chairs.",
+    "source_url": "https://history.house.gov/Institution/Origins-Development/Discharge-Petitions/",
+    "trap_notes": {
+      "b": "Expulsion requires a two-thirds vote of the House, not a discharge petition.",
+      "c": "Overriding a veto requires a two-thirds vote in both the House and the Senate.",
+      "d": "Unlimited debate belongs to the Senate filibuster, not House discharge petitions.",
+      "default": "A discharge petition lets a House majority pull a stalled bill out of committee."
+    }
+  },
+  {
+    "id": "civics-mc-263",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Legislative Process",
+    "era": "1917–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "How many U.S. senators are normally required under Rule XXII to invoke cloture and end a filibuster?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fifty-one senators, representing a simple chamber majority"
+      },
+      {
+        "id": "b",
+        "text": "Fifty-five senators, representing a three-fifths quorum"
+      },
+      {
+        "id": "c",
+        "text": "Sixty senators, representing three-fifths of the full Senate"
+      },
+      {
+        "id": "d",
+        "text": "Sixty-seven senators, representing a two-thirds supermajority"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Since 1975, invoking cloture on most legislation requires 60 votes, or three-fifths of the 100-member Senate.",
+    "fun_fact": "The Senate later lowered cloture to a simple majority for executive and judicial nominations.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm",
+    "trap_notes": {
+      "a": "A simple majority passes most bills once debate ends, but cannot end a legislative filibuster.",
+      "b": "Fifty-five is not the Senate's cloture threshold under Rule XXII.",
+      "d": "Two-thirds (67) is needed for veto overrides, treaty ratification, and rules changes.",
+      "default": "Cloture on ordinary Senate legislation requires 60 votes."
+    }
+  },
+  {
+    "id": "civics-mc-264",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Executive Branch",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "prompt": "Which body exercises the constitutional power of advice and consent over presidential Cabinet nominees?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The House of Representatives by a two-thirds vote"
+      },
+      {
+        "id": "b",
+        "text": "The Supreme Court through a formal judicial review"
+      },
+      {
+        "id": "c",
+        "text": "The Electoral College by a state-by-state ballot"
+      },
+      {
+        "id": "d",
+        "text": "The U.S. Senate by a simple majority vote"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Article II, Section 2 requires Senate confirmation, decided by simple majority, for Cabinet secretaries and federal judges.",
+    "fun_fact": "Only nine Cabinet nominees in U.S. history have been formally rejected by a Senate floor vote.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/nominations.htm",
+    "trap_notes": {
+      "a": "The House of Representatives has no constitutional role in confirming executive nominees.",
+      "b": "The Supreme Court does not screen or confirm presidential appointments.",
+      "c": "The Electoral College dissolves after casting votes for president and vice president.",
+      "default": "The U.S. Senate confirms Cabinet nominees under its advice-and-consent power."
+    }
+  },
+  {
+    "id": "civics-mc-265",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Federal Bureaucracy",
+    "era": "1887–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How do independent regulatory commissions like the SEC or FTC differ from Cabinet departments?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Their leaders serve fixed terms and are insulated from at-will firing"
+      },
+      {
+        "id": "b",
+        "text": "Their budgets are funded solely by private corporate donations"
+      },
+      {
+        "id": "c",
+        "text": "Their members are elected directly by voters in national primaries"
+      },
+      {
+        "id": "d",
+        "text": "Their rules take effect without any congressional oversight"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Congress designed independent commissions with staggered terms and bipartisan boards to limit direct presidential control.",
+    "fun_fact": "In Humphrey's Executor (1935), the Supreme Court upheld limits on firing FTC commissioners without cause.",
+    "source_url": "https://www.archives.gov/federal-register/codification/executive-order/12291.html",
+    "trap_notes": {
+      "b": "Independent agencies are funded through congressional appropriations, not private donations.",
+      "c": "Commissioners are appointed by the president and confirmed by the Senate, not elected.",
+      "d": "Congress oversees independent agencies through hearings, budgets, and statutory authority.",
+      "default": "Independent regulatory commissions have fixed, staggered terms to protect nonpartisan rulemaking."
+    }
+  },
+  {
+    "id": "civics-mc-266",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Constitutional Amendments",
+    "era": "1967",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "prompt": "What procedure did the Twenty-fifth Amendment add to the U.S. Constitution in 1967?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Limiting presidents to two full four-year terms in office"
+      },
+      {
+        "id": "b",
+        "text": "Handling presidential disability and filling a vacant vice presidency"
+      },
+      {
+        "id": "c",
+        "text": "Moving presidential inaugurations from March to January"
+      },
+      {
+        "id": "d",
+        "text": "Granting District of Columbia residents electoral votes"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 25th Amendment lets the president nominate a new vice president and sets rules for temporary power transfers.",
+    "fun_fact": "Gerald Ford became the first vice president appointed under the 25th Amendment in 1973.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxv",
+    "trap_notes": {
+      "a": "The two-term presidential limit was established by the 22nd Amendment in 1951.",
+      "c": "Moving Inauguration Day to January 20 was enacted by the 20th Amendment in 1933.",
+      "d": "D.C. electoral votes were granted by the 23rd Amendment in 1961.",
+      "default": "The 25th Amendment addresses presidential disability and vice presidential vacancies."
+    }
+  },
+  {
+    "id": "civics-mc-267",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch",
+    "era": "1925–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "What does the U.S. Supreme Court's 'Rule of Four' determine?",
+    "options": [
+      {
+        "id": "a",
+        "text": "How many justices must agree to overturn a federal law"
+      },
+      {
+        "id": "b",
+        "text": "How many appellate circuits must split before a trial"
+      },
+      {
+        "id": "c",
+        "text": "Whether the Court grants a writ of certiorari to hear a case"
+      },
+      {
+        "id": "d",
+        "text": "Whether a lower court judge is removed for misconduct"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Under the Rule of Four, at least four of the nine justices must vote to grant certiorari and hear an appeal.",
+    "fun_fact": "Of roughly 7,000 petitions filed each year, the Supreme Court typically hears about 60 to 80 cases.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/supreme-1",
+    "trap_notes": {
+      "a": "Deciding a case on the merits requires a majority of participating justices, usually five.",
+      "b": "Circuit splits often attract review, but the Rule of Four is a vote among justices.",
+      "d": "Federal judges can only be removed through House impeachment and Senate conviction.",
+      "default": "The Rule of Four sets the threshold for the Supreme Court to accept a case for review."
+    }
+  },
+  {
+    "id": "civics-mc-268",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Why do outside groups file amicus curiae briefs with appellate courts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To appeal a criminal conviction on behalf of a defendant"
+      },
+      {
+        "id": "b",
+        "text": "To summon new witnesses during an appellate hearing"
+      },
+      {
+        "id": "c",
+        "text": "To challenge the Senate's confirmation of a sitting judge"
+      },
+      {
+        "id": "d",
+        "text": "To offer expertise or broader policy arguments as non-parties"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Amicus curiae ('friend of the court') briefs let interested non-parties share legal, historical, or policy perspectives.",
+    "fun_fact": "Major Supreme Court cases can attract more than one hundred amicus briefs from states, scholars, and groups.",
+    "source_url": "https://www.law.cornell.edu/wex/amicus_curiae",
+    "trap_notes": {
+      "a": "Only a party's own legal counsel files the formal appeal of a conviction.",
+      "b": "Appellate courts review the trial record and do not call new trial witnesses.",
+      "c": "Judicial confirmations are Senate proceedings, not appellate court filings.",
+      "default": "Amicus briefs allow non-parties to present relevant arguments to an appellate court."
+    }
+  },
+  {
+    "id": "civics-mc-269",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "What does the legal doctrine of stare decisis instruct judges to do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow established precedent from earlier court decisions"
+      },
+      {
+        "id": "b",
+        "text": "Refer constitutional questions back to state legislatures"
+      },
+      {
+        "id": "c",
+        "text": "Reject executive orders issued without Senate approval"
+      },
+      {
+        "id": "d",
+        "text": "Require unanimous jury verdicts in all civil lawsuits"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Stare decisis ('let the decision stand') promotes legal stability by following prior judicial rulings in similar cases.",
+    "fun_fact": "The Supreme Court may still overturn precedent when a prior ruling proves unworkable or deeply flawed.",
+    "source_url": "https://www.law.cornell.edu/wex/stare_decisis",
+    "trap_notes": {
+      "b": "Stare decisis guides judicial consistency, not legislative referrals.",
+      "c": "Executive orders do not require Senate approval, though courts can review their legality.",
+      "d": "Civil jury rules are set by statute and constitution, not stare decisis.",
+      "default": "Stare decisis means courts generally adhere to settled judicial precedent."
+    }
+  },
+  {
+    "id": "civics-mc-270",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Civil Liberties",
+    "era": "1971",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "What did New York Times Co. v. United States (1971) establish about prior restraint on the press?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Presidents may block any newspaper story citing classified files"
+      },
+      {
+        "id": "b",
+        "text": "Government faces a heavy presumption against blocking publication"
+      },
+      {
+        "id": "c",
+        "text": "Journalists must reveal confidential sources in federal courts"
+      },
+      {
+        "id": "d",
+        "text": "State governors may license newspapers during wartime"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In the Pentagon Papers case, the Supreme Court ruled the government failed to justify halting publication in advance.",
+    "fun_fact": "The Court issued its decision just four days after oral arguments.",
+    "source_url": "https://www.oyez.org/cases/1970/1873",
+    "trap_notes": {
+      "a": "The Court rejected the Nixon administration's request to halt the Pentagon Papers.",
+      "c": "Reporter privilege was addressed separately in Branzburg v. Hayes (1972).",
+      "d": "Licensing the press is a classic form of prior restraint barred by the First Amendment.",
+      "default": "Prior restraint carries a heavy constitutional presumption against validity."
+    }
+  },
+  {
+    "id": "civics-mc-271",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Civil Liberties",
+    "era": "1962",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.7061,
+      "lng": -73.6187,
+      "label": "New Hyde Park, New York"
+    },
+    "prompt": "What did the Supreme Court rule in Engel v. Vitale (1962) regarding public schools?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Students may not wear religious symbols inside public classrooms"
+      },
+      {
+        "id": "b",
+        "text": "State legislatures may fund private religious school tuition"
+      },
+      {
+        "id": "c",
+        "text": "State officials may not compose official prayers for school recitation"
+      },
+      {
+        "id": "d",
+        "text": "School districts must teach comparative religion in high school"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Even when voluntary, a state-written prayer in public schools violates the First Amendment's Establishment Clause.",
+    "fun_fact": "Students remain free to pray privately on their own in public schools.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-engel-v-vitale",
+    "trap_notes": {
+      "a": "Students' private religious expression is protected, unlike state-sponsored prayer.",
+      "b": "Engel v. Vitale concerned school prayer, not tuition vouchers.",
+      "d": "The Court did not mandate a comparative religion curriculum in Engel.",
+      "default": "Engel v. Vitale barred official, state-composed prayer in public schools."
+    }
+  },
+  {
+    "id": "civics-mc-272",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Civil Liberties",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Which three protections are guaranteed by the Eighth Amendment to the U.S. Constitution?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grand jury indictment, double jeopardy ban, and just compensation"
+      },
+      {
+        "id": "b",
+        "text": "Speedy trial, impartial jury, and assistance of legal counsel"
+      },
+      {
+        "id": "c",
+        "text": "Freedom of speech, peaceful assembly, and right to petition"
+      },
+      {
+        "id": "d",
+        "text": "No excessive bail, no excessive fines, and no cruel punishment"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Eighth Amendment bars excessive bail, excessive fines, and cruel and unusual punishments.",
+    "fun_fact": "In Timbs v. Indiana (2019), the Court incorporated the Excessive Fines Clause against the states.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-viii",
+    "trap_notes": {
+      "a": "Grand juries, double jeopardy, and eminent domain belong to the Fifth Amendment.",
+      "b": "Speedy trial, impartial jury, and right to counsel belong to the Sixth Amendment.",
+      "c": "Speech, assembly, and petition belong to the First Amendment.",
+      "default": "The Eighth Amendment protects against excessive bail, excessive fines, and cruel punishment."
+    }
+  },
+  {
+    "id": "civics-mc-273",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Civil Rights Legislation",
+    "era": "1964",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Which sweeping change did the Civil Rights Act of 1964 enact nationwide?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It outlawed discrimination in public accommodations and employment"
+      },
+      {
+        "id": "b",
+        "text": "It abolished the Electoral College in presidential elections"
+      },
+      {
+        "id": "c",
+        "text": "It lowered the national voting age from twenty-one to eighteen"
+      },
+      {
+        "id": "d",
+        "text": "It ended poll taxes by amending the U.S. Constitution"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Civil Rights Act of 1964 barred discrimination based on race, color, religion, sex, or national origin in jobs and public venues.",
+    "fun_fact": "Congress relied on the Interstate Commerce Clause to uphold Title II in Heart of Atlanta Motel (1964).",
+    "source_url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "trap_notes": {
+      "b": "The Electoral College remains in place under the Constitution.",
+      "c": "The 26th Amendment lowered the voting age to 18 in 1971.",
+      "d": "The 24th Amendment, ratified in January 1964, banned federal poll taxes separately.",
+      "default": "The Civil Rights Act of 1964 prohibited segregation in public places and job discrimination."
+    }
+  },
+  {
+    "id": "civics-mc-274",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Voting Rights",
+    "era": "1965",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "prompt": "How did the Voting Rights Act of 1965 enforce the Fifteenth Amendment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By requiring every state to adopt automatic mail-in ballots"
+      },
+      {
+        "id": "b",
+        "text": "By banning literacy tests and adding federal election oversight"
+      },
+      {
+        "id": "c",
+        "text": "By granting women the right to vote in all federal elections"
+      },
+      {
+        "id": "d",
+        "text": "By replacing state voter rolls with a single national ID card"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 1965 law outlawed discriminatory literacy tests and sent federal examiners to register disenfranchised voters.",
+    "fun_fact": "Black voter registration in Mississippi jumped from under 7 percent in 1964 to nearly 60 percent by 1967.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "a": "Mail-in voting rules are set primarily by state legislatures, not the 1965 Act.",
+      "c": "Women's suffrage was secured by the 19th Amendment in 1920.",
+      "d": "Voter registration remained administered at the state and county levels.",
+      "default": "The Voting Rights Act of 1965 eliminated literacy tests and authorized federal oversight."
+    }
+  },
+  {
+    "id": "civics-mc-275",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1900–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How does a closed primary differ from an open primary in U.S. elections?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A closed primary selects winners without counting mail-in ballots"
+      },
+      {
+        "id": "b",
+        "text": "A closed primary restricts candidates to incumbent officeholders"
+      },
+      {
+        "id": "c",
+        "text": "A closed primary limits voting to registered party members"
+      },
+      {
+        "id": "d",
+        "text": "A closed primary bars independent voters from general elections"
+      }
+    ],
+    "answer": "c",
+    "explanation": "In a closed primary, only voters registered with a political party may vote in that party's nominating election.",
+    "fun_fact": "Open primaries allow any registered voter to choose one party's primary ballot on election day.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/state-primary-election-types",
+    "trap_notes": {
+      "a": "Mail-in and absentee ballots are counted in both closed and open primaries.",
+      "b": "Challengers and incumbents can both run in closed primaries.",
+      "d": "Independent voters can vote in general elections regardless of primary rules.",
+      "default": "Closed primaries restrict participation to voters registered with that party."
+    }
+  }
+]

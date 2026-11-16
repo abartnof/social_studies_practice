@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "geo-map-201",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Oceanography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 11.35, "lng": 142.2, "label": "Mariana Trench, Western Pacific" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 328, "y": 98, "label": "Mariana Trench" },
+        { "id": "b", "x": 146, "y": 96, "label": "Mid-Atlantic Ridge" },
+        { "id": "c", "x": 82, "y": 144, "label": "Peru-Chile Trench" },
+        { "id": "d", "x": 274, "y": 142, "label": "Java Trench" }
+      ]
+    },
+    "prompt": "Select the pin marking the Mariana Trench, Earth's deepest oceanic subduction zone.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Mariana Trench lies in the western Pacific east of the Philippines, where the Pacific Plate subducts.",
+    "source_url": "https://oceanexplorer.noaa.gov/facts/mariana-trench.html",
+    "trap_notes": {
+      "b": "The Mid-Atlantic Ridge is a divergent spreading center in the central Atlantic.",
+      "c": "The Peru-Chile Trench runs along South America's western coast.",
+      "d": "The Java Trench lies south of Indonesia in the eastern Indian Ocean.",
+      "default": "Earth's deepest trench sits in the western Pacific east of the Philippines."
+    }
+  },
+  {
+    "id": "geo-map-202",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Landforms",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 60.0, "lng": 60.0, "label": "Ural Mountains, Eurasia" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 190, "y": 64, "label": "Alps" },
+        { "id": "b", "x": 224, "y": 44, "label": "Ural Mountains" },
+        { "id": "c", "x": 262, "y": 82, "label": "Himalayas" },
+        { "id": "d", "x": 192, "y": 40, "label": "Scandinavian Range" }
+      ]
+    },
+    "prompt": "Select the pin marking the Ural Mountains, the traditional boundary between Europe and Asia.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The north-south Ural Mountains run across western Russia, separating Europe from Asia.",
+    "source_url": "https://www.britannica.com/place/Ural-Mountains",
+    "trap_notes": {
+      "a": "The Alps curve across south-central Europe north of Italy.",
+      "c": "The Himalayas rise along the northern border of South Asia.",
+      "d": "The Scandinavian Range runs along the Norway-Sweden peninsula.",
+      "default": "The Ural Mountains run north to south across western Russia."
+    }
+  },
+  {
+    "id": "geo-map-203",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Biomes & Climate",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 22.0, "label": "Congo Basin, Central Africa" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 106, "y": 134, "label": "Amazon Basin" },
+        { "id": "b", "x": 184, "y": 98, "label": "Sahara" },
+        { "id": "c", "x": 192, "y": 126, "label": "Congo Basin" },
+        { "id": "d", "x": 198, "y": 166, "label": "Kalahari Basin" }
+      ]
+    },
+    "prompt": "Select the pin marking the Congo Basin, the world's second-largest tropical rainforest.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Congo Basin straddles the Equator in central Africa, drained by the Congo River.",
+    "source_url": "https://www.worldwildlife.org/places/congo-basin",
+    "trap_notes": {
+      "a": "The Amazon Basin lies across northern South America.",
+      "b": "The Sahara is a vast hot desert across northern Africa.",
+      "d": "The Kalahari Basin is an arid plateau in southern Africa.",
+      "default": "The Congo Basin sits along the Equator in central Africa."
+    }
+  },
+  {
+    "id": "geo-map-204",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Tectonics",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 0.0, "lng": 36.0, "label": "East African Rift" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 168, "y": 84, "label": "Atlas Mountains" },
+        { "id": "b", "x": 164, "y": 114, "label": "Sahel Belt" },
+        { "id": "c", "x": 198, "y": 166, "label": "Drakensberg" },
+        { "id": "d", "x": 216, "y": 134, "label": "East African Rift" }
+      ]
+    },
+    "prompt": "Select the pin marking the East African Rift, where continental crust is pulling apart.",
+    "options": [],
+    "answer": "d",
+    "explanation": "The East African Rift stretches from the Horn of Africa southward past the Great Lakes.",
+    "source_url": "https://education.nationalgeographic.org/resource/rift-valley/",
+    "trap_notes": {
+      "a": "The Atlas Mountains lie in northwestern Africa along the Mediterranean.",
+      "b": "The Sahel is a semi-arid transition zone south of the Sahara.",
+      "c": "The Drakensberg escarpment lies in southeastern South Africa.",
+      "default": "The East African Rift runs through eastern Africa near the Great Lakes."
+    }
+  },
+  {
+    "id": "geo-map-205",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Oceanography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -58.0, "lng": -65.0, "label": "Drake Passage" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 96, "y": 196, "label": "Drake Passage" },
+        { "id": "b", "x": 84, "y": 114, "label": "Panama Canal" },
+        { "id": "c", "x": 32, "y": 48, "label": "Bering Strait" },
+        { "id": "d", "x": 200, "y": 184, "label": "Cape of Good Hope" }
+      ]
+    },
+    "prompt": "Select the pin marking the Drake Passage, the turbulent strait south of South America.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Drake Passage connects the Atlantic and Pacific oceans between Cape Horn and Antarctica.",
+    "source_url": "https://www.britannica.com/place/Drake-Passage",
+    "trap_notes": {
+      "b": "The Panama Canal cuts across Central America near the Equator.",
+      "c": "The Bering Strait separates Alaska and Siberia in the far north.",
+      "d": "The Cape of Good Hope marks the southern tip of Africa.",
+      "default": "The Drake Passage lies off the southern tip of South America."
+    }
+  },
+  {
+    "id": "geo-map-206",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Biomes & Climate",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -25.0, "lng": 134.0, "label": "Australian Outback" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 102, "y": 176, "label": "Pampas" },
+        { "id": "b", "x": 308, "y": 168, "label": "Australian Outback" },
+        { "id": "c", "x": 274, "y": 54, "label": "Siberian Taiga" },
+        { "id": "d", "x": 184, "y": 98, "label": "Sahara" }
+      ]
+    },
+    "prompt": "Select the pin marking the Australian Outback, the vast arid interior of Australia.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Most of central and western Australia consists of arid deserts and semi-arid scrubland.",
+    "source_url": "https://education.nationalgeographic.org/resource/australia-physical-geography/",
+    "trap_notes": {
+      "a": "The Pampas are fertile temperate grasslands in Argentina.",
+      "c": "The Siberian Taiga is a cold boreal forest across northern Asia.",
+      "d": "The Sahara spans northern Africa.",
+      "default": "The Australian Outback covers the dry interior of Australia."
+    }
+  },
+  {
+    "id": "geo-map-207",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Maritime Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 65.7, "lng": -169.0, "label": "Bering Strait" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 130, "y": 24, "label": "Greenland" },
+        { "id": "b", "x": 158, "y": 54, "label": "English Channel" },
+        { "id": "c", "x": 26, "y": 46, "label": "Bering Strait" },
+        { "id": "d", "x": 288, "y": 132, "label": "Strait of Malacca" }
+      ]
+    },
+    "prompt": "Select the pin marking the Bering Strait, the narrow waterway between Alaska and Siberia.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Bering Strait links the Pacific and Arctic oceans between Asia and North America.",
+    "source_url": "https://www.britannica.com/place/Bering-Strait",
+    "trap_notes": {
+      "a": "Greenland is the large Arctic island northeast of North America.",
+      "b": "The English Channel separates Great Britain from France.",
+      "d": "The Strait of Malacca lies in Southeast Asia between Sumatra and Malaya.",
+      "default": "The Bering Strait separates northwestern North America from northeastern Asia."
+    }
+  },
+  {
+    "id": "geo-map-208",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Cryosphere & Polar",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 72.0, "lng": -40.0, "label": "Greenland Ice Sheet" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 96, "y": 194, "label": "Patagonian Ice Field" },
+        { "id": "b", "x": 262, "y": 82, "label": "Tibetan Plateau" },
+        { "id": "c", "x": 192, "y": 40, "label": "Scandinavian Glaciers" },
+        { "id": "d", "x": 130, "y": 24, "label": "Greenland Ice Sheet" }
+      ]
+    },
+    "prompt": "Select the pin marking the Greenland Ice Sheet, the largest ice mass in the Northern Hemisphere.",
+    "options": [],
+    "answer": "d",
+    "explanation": "The Greenland Ice Sheet covers most of Greenland in the North Atlantic Arctic region.",
+    "source_url": "https://nsidc.org/learn/parts-cryosphere/ice-sheets",
+    "trap_notes": {
+      "a": "The Patagonian Ice Field lies in the southern Andes of South America.",
+      "b": "The Tibetan Plateau is a high-elevation region in central Asia.",
+      "c": "Scandinavia holds smaller mountain glaciers in northern Europe.",
+      "default": "The Greenland Ice Sheet covers the large Arctic island northeast of Canada."
+    }
+  },
+  {
+    "id": "geo-map-209",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Biomes & Climate",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -35.0, "lng": -62.0, "label": "Pampas, Argentina" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 104, "y": 174, "label": "Pampas" },
+        { "id": "b", "x": 76, "y": 68, "label": "Great Plains" },
+        { "id": "c", "x": 264, "y": 58, "label": "Eurasian Steppe" },
+        { "id": "d", "x": 164, "y": 114, "label": "Sahel" }
+      ]
+    },
+    "prompt": "Select the pin marking the Pampas, the fertile temperate grasslands of southeastern South America.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Pampas stretch across eastern Argentina and Uruguay, supporting major grain and cattle farming.",
+    "source_url": "https://www.britannica.com/place/the-Pampas",
+    "trap_notes": {
+      "b": "The Great Plains lie in the interior of North America.",
+      "c": "The Eurasian Steppe spans from Eastern Europe across central Asia.",
+      "d": "The Sahel is the semi-arid belt south of the Sahara in Africa.",
+      "default": "The Pampas are located in southeastern South America."
+    }
+  },
+  {
+    "id": "geo-map-210",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.98, "lng": 23.73, "label": "Aegean Sea" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 156, "y": 78, "label": "Adriatic Sea" },
+        { "id": "b", "x": 212, "y": 94, "label": "Aegean Sea" },
+        { "id": "c", "x": 282, "y": 40, "label": "Black Sea" },
+        { "id": "d", "x": 276, "y": 176, "label": "Red Sea" }
+      ]
+    },
+    "prompt": "Select the pin marking the Aegean Sea, dotted with islands between Greece and Anatolia.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Aegean Sea is an arm of the Mediterranean lying between mainland Greece and Turkey.",
+    "source_url": "https://www.britannica.com/place/Aegean-Sea",
+    "trap_notes": {
+      "a": "The Adriatic Sea lies between Italy and the Balkan Peninsula.",
+      "c": "The Black Sea lies north of Anatolia, connected through the Bosporus.",
+      "d": "The Red Sea lies southeast of the Sinai Peninsula.",
+      "default": "The Aegean Sea sits between the Greek peninsula and western Anatolia."
+    }
+  },
+  {
+    "id": "geo-map-211",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.5, "lng": 14.0, "label": "Sicily" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 216, "y": 127, "label": "Crete" },
+        { "id": "b", "x": 274, "y": 118, "label": "Cyprus" },
+        { "id": "c", "x": 144, "y": 128, "label": "Sicily" },
+        { "id": "d", "x": 254, "y": 156, "label": "Nile Delta" }
+      ]
+    },
+    "prompt": "Select the pin marking Sicily, the large triangular island off the toe of Italy.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Sicily sits in the central Mediterranean, separated from mainland Italy by the Strait of Messina.",
+    "source_url": "https://www.britannica.com/place/Sicily",
+    "trap_notes": {
+      "a": "Crete is the long island south of the Aegean Sea.",
+      "b": "Cyprus lies in the far eastern Mediterranean south of Anatolia.",
+      "d": "The Nile Delta is a triangular river mouth on Egypt's coast.",
+      "default": "Sicily lies immediately southwest of the Italian peninsula."
+    }
+  },
+  {
+    "id": "geo-map-212",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.1, "lng": 33.4, "label": "Cyprus" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 144, "y": 128, "label": "Sicily" },
+        { "id": "b", "x": 216, "y": 127, "label": "Crete" },
+        { "id": "c", "x": 286, "y": 134, "label": "Levant Coast" },
+        { "id": "d", "x": 274, "y": 118, "label": "Cyprus" }
+      ]
+    },
+    "prompt": "Select the pin marking Cyprus, the eastern Mediterranean island south of Anatolia.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Cyprus sits in the northeastern Mediterranean corner near Anatolia and the Levant.",
+    "source_url": "https://www.britannica.com/place/Cyprus",
+    "trap_notes": {
+      "a": "Sicily lies in the central Mediterranean off southern Italy.",
+      "b": "Crete lies farther west at the southern edge of the Aegean Sea.",
+      "c": "The Levant Coast is the mainland shore of the eastern Mediterranean.",
+      "default": "Cyprus is the easternmost large island in the Mediterranean."
+    }
+  },
+  {
+    "id": "geo-map-213",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.0, "lng": -5.0, "label": "Atlas Mountains" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 46, "y": 128, "label": "Atlas Mountains" },
+        { "id": "b", "x": 60, "y": 72, "label": "Pyrenees" },
+        { "id": "c", "x": 124, "y": 66, "label": "Italian Alps" },
+        { "id": "d", "x": 284, "y": 88, "label": "Anatolian Plateau" }
+      ]
+    },
+    "prompt": "Select the pin marking the Atlas Mountains, which rise across northwestern Africa.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Atlas Mountains run across Morocco, Algeria, and Tunisia, blocking moisture from the Sahara.",
+    "source_url": "https://www.britannica.com/place/Atlas-Mountains",
+    "trap_notes": {
+      "b": "The Pyrenees form the border between Spain and France.",
+      "c": "The Alps arc across northern Italy in southern Europe.",
+      "d": "The Anatolian Plateau covers central Turkey in western Asia.",
+      "default": "The Atlas Mountains extend along northwestern Africa."
+    }
+  },
+  {
+    "id": "geo-map-214",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 43.0, "lng": 15.0, "label": "Adriatic Sea" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 212, "y": 94, "label": "Aegean Sea" },
+        { "id": "b", "x": 156, "y": 78, "label": "Adriatic Sea" },
+        { "id": "c", "x": 282, "y": 40, "label": "Black Sea" },
+        { "id": "d", "x": 94, "y": 98, "label": "Tyrrhenian Sea" }
+      ]
+    },
+    "prompt": "Select the pin marking the Adriatic Sea, the narrow arm between Italy and the Balkans.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Adriatic Sea separates the Italian peninsula on the west from the Balkan coast on the east.",
+    "source_url": "https://www.britannica.com/place/Adriatic-Sea",
+    "trap_notes": {
+      "a": "The Aegean Sea lies east of mainland Greece.",
+      "c": "The Black Sea is an inland sea north of Anatolia.",
+      "d": "The Tyrrhenian Sea lies west of Italy rather than east of it.",
+      "default": "The Adriatic Sea is the long narrow gulf east of the Italian peninsula."
+    }
+  },
+  {
+    "id": "geo-map-215",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.2, "lng": 24.9, "label": "Crete" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 144, "y": 128, "label": "Sicily" },
+        { "id": "b", "x": 274, "y": 118, "label": "Cyprus" },
+        { "id": "c", "x": 216, "y": 127, "label": "Crete" },
+        { "id": "d", "x": 194, "y": 98, "label": "Peloponnese" }
+      ]
+    },
+    "prompt": "Select the pin marking Crete, the long island bordering the southern Aegean Sea.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Crete forms the southern rim of the Aegean Sea and was the center of ancient Minoan trade.",
+    "source_url": "https://www.britannica.com/place/Crete",
+    "trap_notes": {
+      "a": "Sicily lies farther west off the tip of Italy.",
+      "b": "Cyprus sits in the far eastern Mediterranean south of Turkey.",
+      "d": "The Peloponnese is the southern peninsula of mainland Greece.",
+      "default": "Crete is the elongated island at the southern edge of the Aegean Sea."
+    }
+  },
+  {
+    "id": "geo-map-216",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.0, "lng": 44.0, "label": "Mesopotamia" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 252, "y": 182, "label": "Upper Nile Valley" },
+        { "id": "b", "x": 284, "y": 88, "label": "Anatolia" },
+        { "id": "c", "x": 284, "y": 136, "label": "Levant" },
+        { "id": "d", "x": 332, "y": 128, "label": "Mesopotamia" }
+      ]
+    },
+    "prompt": "Select the pin marking Mesopotamia, the fertile river valley of the Tigris and Euphrates.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Mesopotamia lies east of the Levant, watered by the Tigris and Euphrates rivers.",
+    "source_url": "https://www.britannica.com/place/Mesopotamia-historical-region-Asia",
+    "trap_notes": {
+      "a": "The Upper Nile Valley runs north through Egypt.",
+      "b": "Anatolia is the high peninsula of modern Turkey.",
+      "c": "The Levant hugs the eastern shore of the Mediterranean Sea.",
+      "default": "Mesopotamia lies along the Tigris and Euphrates east of the Levant."
+    }
+  },
+  {
+    "id": "geo-map-217",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.4, "lng": -3.7, "label": "Iberian Peninsula" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 34, "y": 88, "label": "Iberian Peninsula" },
+        { "id": "b", "x": 140, "y": 92, "label": "Italian Peninsula" },
+        { "id": "c", "x": 194, "y": 86, "label": "Balkan Peninsula" },
+        { "id": "d", "x": 284, "y": 88, "label": "Anatolian Peninsula" }
+      ]
+    },
+    "prompt": "Select the pin marking the Iberian Peninsula, the westernmost peninsula of southern Europe.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Iberian Peninsula sits at the western end of the Mediterranean north of the Strait of Gibraltar.",
+    "source_url": "https://www.britannica.com/place/Iberian-Peninsula",
+    "trap_notes": {
+      "b": "The Italian Peninsula extends into the central Mediterranean.",
+      "c": "The Balkan Peninsula lies in southeastern Europe.",
+      "d": "The Anatolian Peninsula forms western Asia south of the Black Sea.",
+      "default": "The Iberian Peninsula lies in far southwestern Europe north of Gibraltar."
+    }
+  },
+  {
+    "id": "geo-map-218",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Mediterranean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 43.3, "lng": 34.0, "label": "Black Sea" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 156, "y": 78, "label": "Adriatic Sea" },
+        { "id": "b", "x": 282, "y": 40, "label": "Black Sea" },
+        { "id": "c", "x": 212, "y": 94, "label": "Aegean Sea" },
+        { "id": "d", "x": 276, "y": 176, "label": "Red Sea" }
+      ]
+    },
+    "prompt": "Select the pin marking the Black Sea, linked to the Mediterranean by the Bosporus.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Black Sea is an enclosed basin north of Anatolia connected to the Aegean via the Bosporus.",
+    "source_url": "https://www.britannica.com/place/Black-Sea",
+    "trap_notes": {
+      "a": "The Adriatic Sea opens directly into the central Mediterranean.",
+      "c": "The Aegean Sea lies south of the Bosporus between Greece and Turkey.",
+      "d": "The Red Sea connects to the Mediterranean through the Suez Canal.",
+      "default": "The Black Sea lies north of Anatolia in the northeastern corner of the map."
+    }
+  },
+  {
+    "id": "geo-map-219",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 47.0, "lng": -70.0, "label": "St. Lawrence River" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 286, "y": 48, "label": "St. Lawrence River" },
+        { "id": "b", "x": 214, "y": 96, "label": "Ohio River" },
+        { "id": "c", "x": 150, "y": 80, "label": "Missouri River" },
+        { "id": "d", "x": 142, "y": 154, "label": "Rio Grande" }
+      ]
+    },
+    "prompt": "Select the pin marking the St. Lawrence River, which drains the Great Lakes to the Atlantic.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The St. Lawrence River flows northeast from Lake Ontario into the Gulf of St. Lawrence.",
+    "source_url": "https://www.britannica.com/place/Saint-Lawrence-River",
+    "trap_notes": {
+      "b": "The Ohio River flows southwest to join the Mississippi River.",
+      "c": "The Missouri River drains the northern Great Plains into the Mississippi.",
+      "d": "The Rio Grande flows southeast to the Gulf of Mexico.",
+      "default": "The St. Lawrence River flows northeast from the Great Lakes to the Atlantic."
+    }
+  },
+  {
+    "id": "geo-map-220",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.0, "lng": -86.0, "label": "Ohio River" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 150, "y": 80, "label": "Missouri River" },
+        { "id": "b", "x": 214, "y": 96, "label": "Ohio River" },
+        { "id": "c", "x": 142, "y": 154, "label": "Rio Grande" },
+        { "id": "d", "x": 184, "y": 156, "label": "Mississippi Delta" }
+      ]
+    },
+    "prompt": "Select the pin marking the Ohio River, the major eastern tributary of the Mississippi.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Ohio River flows westward from the Appalachians to meet the Mississippi River.",
+    "source_url": "https://www.britannica.com/place/Ohio-River",
+    "trap_notes": {
+      "a": "The Missouri River enters the Mississippi from the northwest.",
+      "c": "The Rio Grande drains the Southwest into the Gulf of Mexico.",
+      "d": "The Mississippi Delta sits at the river's mouth on the Gulf Coast.",
+      "default": "The Ohio River flows southwest from the Appalachians into the Mississippi."
+    }
+  },
+  {
+    "id": "geo-map-221",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.0, "lng": -105.0, "label": "Missouri River" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 214, "y": 96, "label": "Ohio River" },
+        { "id": "b", "x": 286, "y": 48, "label": "St. Lawrence River" },
+        { "id": "c", "x": 150, "y": 80, "label": "Missouri River" },
+        { "id": "d", "x": 142, "y": 154, "label": "Rio Grande" }
+      ]
+    },
+    "prompt": "Select the pin marking the Missouri River, which flows across the northern Great Plains.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Missouri River rises in the northern Rockies and flows southeast to the Mississippi.",
+    "source_url": "https://www.britannica.com/place/Missouri-River",
+    "trap_notes": {
+      "a": "The Ohio River drains the region west of the Appalachians.",
+      "b": "The St. Lawrence River drains the Great Lakes northeastward.",
+      "d": "The Rio Grande forms the Texas-Mexico border in the south.",
+      "default": "The Missouri River crosses the northern Plains to join the Mississippi."
+    }
+  },
+  {
+    "id": "geo-map-222",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 43.8, "lng": -87.0, "label": "Lake Michigan" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 200, "y": 46, "label": "Lake Superior" },
+        { "id": "b", "x": 224, "y": 62, "label": "Lake Huron" },
+        { "id": "c", "x": 252, "y": 67, "label": "Lake Ontario" },
+        { "id": "d", "x": 208, "y": 66, "label": "Lake Michigan" }
+      ]
+    },
+    "prompt": "Select the pin marking Lake Michigan, the only Great Lake located entirely in the United States.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Lake Michigan stretches north to south west of Lake Huron and is wholly within the U.S.",
+    "source_url": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+    "trap_notes": {
+      "a": "Lake Superior is the northernmost Great Lake, shared with Canada.",
+      "b": "Lake Huron lies east of Lake Michigan along the Canadian border.",
+      "c": "Lake Ontario is the easternmost Great Lake, feeding the St. Lawrence.",
+      "default": "Lake Michigan is the north-south lake west of Lake Huron."
+    }
+  },
+  {
+    "id": "geo-map-223",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 27.5, "lng": -81.5, "label": "Florida Peninsula" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 240, "y": 166, "label": "Florida Peninsula" },
+        { "id": "b", "x": 166, "y": 196, "label": "Yucatan Peninsula" },
+        { "id": "c", "x": 100, "y": 152, "label": "Baja California" },
+        { "id": "d", "x": 264, "y": 98, "label": "Chesapeake Bay" }
+      ]
+    },
+    "prompt": "Select the pin marking the Florida Peninsula, separating the Atlantic from the Gulf of Mexico.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Florida Peninsula juts southward from southeastern North America into subtropical waters.",
+    "source_url": "https://www.britannica.com/place/Florida",
+    "trap_notes": {
+      "b": "The Yucatan Peninsula projects northward from southern Mexico.",
+      "c": "Baja California is the narrow peninsula on Mexico's Pacific coast.",
+      "d": "Chesapeake Bay is a major estuary on the mid-Atlantic coast.",
+      "default": "The Florida Peninsula extends southward into the eastern Gulf of Mexico."
+    }
+  },
+  {
+    "id": "geo-map-224",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 25.0, "lng": -90.0, "label": "Gulf of Mexico" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 264, "y": 98, "label": "Chesapeake Bay" },
+        { "id": "b", "x": 204, "y": 174, "label": "Gulf of Mexico" },
+        { "id": "c", "x": 200, "y": 46, "label": "Lake Superior" },
+        { "id": "d", "x": 298, "y": 64, "label": "Gulf of Maine" }
+      ]
+    },
+    "prompt": "Select the pin marking the Gulf of Mexico, the warm marginal sea south of North America.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Gulf of Mexico is bordered by the U.S. Gulf Coast on the north and Mexico on the west.",
+    "source_url": "https://www.britannica.com/place/Gulf-of-Mexico",
+    "trap_notes": {
+      "a": "Chesapeake Bay is an Atlantic estuary farther north.",
+      "c": "Lake Superior is a freshwater Great Lake in the northern interior.",
+      "d": "The Gulf of Maine lies off the northeastern Atlantic coast.",
+      "default": "The Gulf of Mexico lies between the U.S. Gulf Coast and Mexico."
+    }
+  },
+  {
+    "id": "geo-map-225",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5, "lng": -120.8, "label": "Central Valley, California" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 144, "y": 108, "label": "Great Plains" },
+        { "id": "b", "x": 264, "y": 98, "label": "Piedmont" },
+        { "id": "c", "x": 56, "y": 98, "label": "Central Valley" },
+        { "id": "d", "x": 136, "y": 184, "label": "Mexican Plateau" }
+      ]
+    },
+    "prompt": "Select the pin marking California's Central Valley, a fertile basin along the Pacific coast.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Central Valley sits between the Coast Ranges and Sierra Nevada in western North America.",
+    "source_url": "https://www.usgs.gov/centers/california-water-science-center/science/central-valley",
+    "trap_notes": {
+      "a": "The Great Plains lie east of the Rocky Mountains in the interior.",
+      "b": "The Piedmont lies east of the Appalachian Mountains.",
+      "d": "The Mexican Plateau covers central Mexico south of the Rio Grande.",
+      "default": "California's Central Valley lies near the western Pacific coastline."
+    }
+  },
+  {
+    "id": "geo-map-226",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.0, "lng": -116.0, "label": "Great Basin" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 144, "y": 108, "label": "Great Plains" },
+        { "id": "b", "x": 184, "y": 156, "label": "Mississippi Delta" },
+        { "id": "c", "x": 240, "y": 166, "label": "Everglades" },
+        { "id": "d", "x": 78, "y": 92, "label": "Great Basin" }
+      ]
+    },
+    "prompt": "Select the pin marking the Great Basin, an arid region of internal drainage west of the Rockies.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Rivers in the Great Basin never reach the ocean, instead evaporating in desert salt flats.",
+    "source_url": "https://www.nps.gov/grba/learn/nature/index.htm",
+    "trap_notes": {
+      "a": "The Great Plains drain eastward toward the Mississippi-Missouri system.",
+      "b": "The Mississippi Delta drains into the Gulf of Mexico.",
+      "c": "The Everglades are a subtropical wetland in southern Florida.",
+      "default": "The Great Basin lies between the Sierra Nevada and the Rocky Mountains."
+    }
+  },
+  {
+    "id": "geo-map-227",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "North American Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 20.5, "lng": -89.0, "label": "Yucatan Peninsula" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 166, "y": 196, "label": "Yucatan Peninsula" },
+        { "id": "b", "x": 240, "y": 166, "label": "Florida Peninsula" },
+        { "id": "c", "x": 100, "y": 152, "label": "Baja California" },
+        { "id": "d", "x": 184, "y": 156, "label": "Mississippi Delta" }
+      ]
+    },
+    "prompt": "Select the pin marking the Yucatan Peninsula, the limestone platform jutting into the Gulf.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Yucatan Peninsula extends northward from southern Mexico toward the Gulf of Mexico.",
+    "source_url": "https://www.britannica.com/place/Yucatan-Peninsula",
+    "trap_notes": {
+      "b": "The Florida Peninsula juts southward from the southeastern United States.",
+      "c": "Baja California borders the Pacific Ocean in northwestern Mexico.",
+      "d": "The Mississippi Delta lies on the northern Gulf Coast.",
+      "default": "The Yucatan Peninsula projects northward from southeastern Mexico."
+    }
+  },
+  {
+    "id": "geo-map-228",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 36.0, "lng": 116.5, "label": "North China Plain" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 96, "y": 44, "label": "Gobi Desert" },
+        { "id": "b", "x": 154, "y": 88, "label": "North China Plain" },
+        { "id": "c", "x": 82, "y": 138, "label": "Sichuan Basin" },
+        { "id": "d", "x": 46, "y": 156, "label": "Tibetan Plateau" }
+      ]
+    },
+    "prompt": "Select the pin marking the North China Plain, the densely farmed alluvial lowland of the Yellow River.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Built by Yellow River silt, the North China Plain lies east of the Loess Plateau along the coast.",
+    "source_url": "https://www.britannica.com/place/North-China-Plain",
+    "trap_notes": {
+      "a": "The Gobi Desert is a cold arid region farther north in Mongolia.",
+      "c": "The Sichuan Basin is a mountain-ringed valley in southwestern China.",
+      "d": "The Tibetan Plateau is a high-elevation plateau in western China.",
+      "default": "The North China Plain lies along the lower Yellow River in eastern China."
+    }
+  },
+  {
+    "id": "geo-map-229",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.5, "lng": 105.0, "label": "Gobi Desert" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 154, "y": 88, "label": "North China Plain" },
+        { "id": "b", "x": 142, "y": 188, "label": "Pearl River Delta" },
+        { "id": "c", "x": 96, "y": 44, "label": "Gobi Desert" },
+        { "id": "d", "x": 204, "y": 42, "label": "Manchurian Plain" }
+      ]
+    },
+    "prompt": "Select the pin marking the Gobi Desert, the rain-shadow desert spanning Mongolia and northern China.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Gobi Desert lies far inland in northern China and Mongolia, blocked from ocean moisture.",
+    "source_url": "https://www.britannica.com/place/Gobi",
+    "trap_notes": {
+      "a": "The North China Plain is a fertile alluvial lowland near the Yellow Sea.",
+      "b": "The Pearl River Delta sits on the humid southern coast.",
+      "d": "The Manchurian Plain lies farther east in northeastern China.",
+      "default": "The Gobi Desert occupies the arid interior north of the Yellow River."
+    }
+  },
+  {
+    "id": "geo-map-230",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.7, "lng": 139.7, "label": "Honshu, Japan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 304, "y": 36, "label": "Hokkaido" },
+        { "id": "b", "x": 252, "y": 124, "label": "Kyushu" },
+        { "id": "c", "x": 195, "y": 172, "label": "Taiwan" },
+        { "id": "d", "x": 292, "y": 84, "label": "Honshu" }
+      ]
+    },
+    "prompt": "Select the pin marking Honshu, the largest and most populous island of the Japanese archipelago.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Honshu is Japan's central main island, home to Tokyo, Osaka, and Mount Fuji.",
+    "source_url": "https://www.britannica.com/place/Honshu",
+    "trap_notes": {
+      "a": "Hokkaido is the northernmost main island of Japan.",
+      "b": "Kyushu is the southernmost of Japan's four main islands.",
+      "c": "Taiwan lies much farther south off China's southeastern coast.",
+      "default": "Honshu is the large central island of the Japanese archipelago."
+    }
+  },
+  {
+    "id": "geo-map-231",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 43.2, "lng": 142.8, "label": "Hokkaido, Japan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 304, "y": 36, "label": "Hokkaido" },
+        { "id": "b", "x": 292, "y": 84, "label": "Honshu" },
+        { "id": "c", "x": 252, "y": 124, "label": "Kyushu" },
+        { "id": "d", "x": 222, "y": 94, "label": "Korean Peninsula" }
+      ]
+    },
+    "prompt": "Select the pin marking Hokkaido, the northernmost main island of Japan.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Hokkaido sits at the northern end of the Japanese archipelago, known for snowy winters.",
+    "source_url": "https://www.britannica.com/place/Hokkaido",
+    "trap_notes": {
+      "b": "Honshu is the larger central island south of Hokkaido.",
+      "c": "Kyushu lies at the southwestern end of Japan.",
+      "d": "The Korean Peninsula is attached to the Asian mainland.",
+      "default": "Hokkaido is the northernmost island in the Japanese chain."
+    }
+  },
+  {
+    "id": "geo-map-232",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.5, "lng": 105.0, "label": "Sichuan Basin" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 154, "y": 88, "label": "North China Plain" },
+        { "id": "b", "x": 82, "y": 138, "label": "Sichuan Basin" },
+        { "id": "c", "x": 142, "y": 188, "label": "Pearl River Delta" },
+        { "id": "d", "x": 204, "y": 42, "label": "Manchurian Plain" }
+      ]
+    },
+    "prompt": "Select the pin marking the Sichuan Basin, a fertile mountain-ringed valley along the upper Yangtze.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Sichuan Basin sits along the upper Yangtze River east of the Tibetan Plateau.",
+    "source_url": "https://www.britannica.com/place/Sichuan-Basin",
+    "trap_notes": {
+      "a": "The North China Plain lies on the lower Yellow River near the coast.",
+      "c": "The Pearl River Delta opens onto the South China Sea.",
+      "d": "The Manchurian Plain lies in northeastern China.",
+      "default": "The Sichuan Basin lies in southwestern China along the upper Yangtze."
+    }
+  },
+  {
+    "id": "geo-map-233",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 36.0, "lng": 123.0, "label": "Yellow Sea" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 262, "y": 74, "label": "Sea of Japan" },
+        { "id": "b", "x": 218, "y": 148, "label": "East China Sea" },
+        { "id": "c", "x": 196, "y": 104, "label": "Yellow Sea" },
+        { "id": "d", "x": 182, "y": 192, "label": "South China Sea" }
+      ]
+    },
+    "prompt": "Select the pin marking the Yellow Sea, the shallow sea between mainland China and the Korean Peninsula.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Yellow Sea sits west of the Korean Peninsula and receives silt from northern Chinese rivers.",
+    "source_url": "https://www.britannica.com/place/Yellow-Sea",
+    "trap_notes": {
+      "a": "The Sea of Japan lies east of the Korean Peninsula.",
+      "b": "The East China Sea lies farther south between China, Taiwan, and Kyushu.",
+      "d": "The South China Sea lies south of Taiwan.",
+      "default": "The Yellow Sea is tucked between eastern China and the Korean Peninsula."
+    }
+  },
+  {
+    "id": "geo-map-234",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 22.8, "lng": 113.5, "label": "Pearl River Delta" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 176, "y": 86, "label": "Shandong Peninsula" },
+        { "id": "b", "x": 186, "y": 132, "label": "Yangtze Delta" },
+        { "id": "c", "x": 195, "y": 172, "label": "Taiwan" },
+        { "id": "d", "x": 142, "y": 188, "label": "Pearl River Delta" }
+      ]
+    },
+    "prompt": "Select the pin marking the Pearl River Delta, a major southern Chinese manufacturing hub.",
+    "options": [],
+    "answer": "d",
+    "explanation": "The Pearl River Delta opens onto the South China Sea on China's southern coast.",
+    "source_url": "https://www.britannica.com/place/Pearl-River-Delta",
+    "trap_notes": {
+      "a": "The Shandong Peninsula juts into the Yellow Sea in northern China.",
+      "b": "The Yangtze Delta lies farther north on the East China Sea.",
+      "c": "Taiwan is an offshore island east of southeastern China.",
+      "default": "The Pearl River Delta sits on China's southern coast facing the South China Sea."
+    }
+  },
+  {
+    "id": "geo-map-235",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 28.0, "lng": 124.0, "label": "East China Sea" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 218, "y": 148, "label": "East China Sea" },
+        { "id": "b", "x": 196, "y": 104, "label": "Yellow Sea" },
+        { "id": "c", "x": 262, "y": 74, "label": "Sea of Japan" },
+        { "id": "d", "x": 182, "y": 192, "label": "South China Sea" }
+      ]
+    },
+    "prompt": "Select the pin marking the East China Sea, stretching from the Yangtze mouth toward Kyushu and Taiwan.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The East China Sea lies south of the Yellow Sea and north of Taiwan, receiving the Yangtze River.",
+    "source_url": "https://www.britannica.com/place/East-China-Sea",
+    "trap_notes": {
+      "b": "The Yellow Sea lies farther north between China and Korea.",
+      "c": "The Sea of Japan lies northeast between Korea and Japan.",
+      "d": "The South China Sea lies south of Taiwan.",
+      "default": "The East China Sea lies between the Yangtze mouth, Taiwan, and Kyushu."
+    }
+  },
+  {
+    "id": "geo-map-236",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "East Asian Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.0, "lng": 120.5, "label": "Shandong Peninsula" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 222, "y": 94, "label": "Korean Peninsula" },
+        { "id": "b", "x": 176, "y": 86, "label": "Shandong Peninsula" },
+        { "id": "c", "x": 195, "y": 172, "label": "Taiwan" },
+        { "id": "d", "x": 252, "y": 124, "label": "Kyushu" }
+      ]
+    },
+    "prompt": "Select the pin marking the Shandong Peninsula, which juts eastward into the Yellow Sea.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Shandong Peninsula extends eastward from the North China Plain into the Yellow Sea.",
+    "source_url": "https://www.britannica.com/place/Shandong-Peninsula",
+    "trap_notes": {
+      "a": "The Korean Peninsula lies across the Yellow Sea to the east.",
+      "c": "Taiwan is an island off southeastern China.",
+      "d": "Kyushu is the southwestern island of Japan.",
+      "default": "The Shandong Peninsula juts east from northern China into the Yellow Sea."
+    }
+  },
+  {
+    "id": "geo-map-237",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 7.8, "lng": 80.7, "label": "Sri Lanka" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 65, "y": 178, "label": "Madagascar" },
+        { "id": "b", "x": 278, "y": 148, "label": "Sumatra" },
+        { "id": "c", "x": 194, "y": 138, "label": "Sri Lanka" },
+        { "id": "d", "x": 316, "y": 174, "label": "Java" }
+      ]
+    },
+    "prompt": "Select the pin marking Sri Lanka, the teardrop-shaped island off southern India.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Sri Lanka sits just southeast of India's southern tip, between the Arabian Sea and Bay of Bengal.",
+    "source_url": "https://www.britannica.com/place/Sri-Lanka",
+    "trap_notes": {
+      "a": "Madagascar lies off the southeastern coast of Africa.",
+      "b": "Sumatra is the large Indonesian island across the Strait of Malacca.",
+      "d": "Java lies southeast of Sumatra in Indonesia.",
+      "default": "Sri Lanka lies directly off the southern tip of the Indian subcontinent."
+    }
+  },
+  {
+    "id": "geo-map-238",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 15.0, "lng": 88.0, "label": "Bay of Bengal" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 138, "y": 92, "label": "Arabian Sea" },
+        { "id": "b", "x": 108, "y": 36, "label": "Persian Gulf" },
+        { "id": "c", "x": 44, "y": 52, "label": "Red Sea" },
+        { "id": "d", "x": 226, "y": 104, "label": "Bay of Bengal" }
+      ]
+    },
+    "prompt": "Select the pin marking the Bay of Bengal, the northeastern arm of the Indian Ocean.",
+    "options": [],
+    "answer": "d",
+    "explanation": "The Bay of Bengal lies east of India and receives freshwater from the Ganges-Brahmaputra Delta.",
+    "source_url": "https://www.britannica.com/place/Bay-of-Bengal",
+    "trap_notes": {
+      "a": "The Arabian Sea lies west of India toward the Arabian Peninsula.",
+      "b": "The Persian Gulf lies northwest of the Arabian Sea.",
+      "c": "The Red Sea separates northeastern Africa from Arabia.",
+      "default": "The Bay of Bengal sits east of the Indian subcontinent."
+    }
+  },
+  {
+    "id": "geo-map-239",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 15.0, "lng": 64.0, "label": "Arabian Sea" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 138, "y": 92, "label": "Arabian Sea" },
+        { "id": "b", "x": 226, "y": 104, "label": "Bay of Bengal" },
+        { "id": "c", "x": 44, "y": 52, "label": "Red Sea" },
+        { "id": "d", "x": 52, "y": 178, "label": "Mozambique Channel" }
+      ]
+    },
+    "prompt": "Select the pin marking the Arabian Sea, the northwestern Indian Ocean basin between Arabia and India.",
+    "options": [],
+    "answer": "a",
+    "explanation": "The Arabian Sea lies between the Arabian Peninsula and western India, carrying monsoon winds.",
+    "source_url": "https://www.britannica.com/place/Arabian-Sea",
+    "trap_notes": {
+      "b": "The Bay of Bengal lies on the eastern side of India.",
+      "c": "The Red Sea is the narrow rift sea west of Arabia.",
+      "d": "The Mozambique Channel separates Madagascar from East Africa.",
+      "default": "The Arabian Sea lies between the Arabian Peninsula and western India."
+    }
+  },
+  {
+    "id": "geo-map-240",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 17.5, "lng": 77.5, "label": "Deccan Plateau" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 76, "y": 44, "label": "Arabian Desert" },
+        { "id": "b", "x": 184, "y": 90, "label": "Deccan Plateau" },
+        { "id": "c", "x": 32, "y": 92, "label": "Ethiopian Highlands" },
+        { "id": "d", "x": 162, "y": 50, "label": "Thar Desert" }
+      ]
+    },
+    "prompt": "Select the pin marking the Deccan Plateau, the elevated interior tableland of peninsular India.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Deccan Plateau occupies most of southern and central India between the Western and Eastern Ghats.",
+    "source_url": "https://www.britannica.com/place/Deccan",
+    "trap_notes": {
+      "a": "The Arabian Desert covers most of the Arabian Peninsula.",
+      "c": "The Ethiopian Highlands rise in northeastern Africa.",
+      "d": "The Thar Desert lies in northwestern India near the Indus Valley.",
+      "default": "The Deccan Plateau forms the interior of peninsular India."
+    }
+  },
+  {
+    "id": "geo-map-241",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 8.0, "lng": 48.0, "label": "Horn of Africa" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 282, "y": 104, "label": "Malay Peninsula" },
+        { "id": "b", "x": 65, "y": 178, "label": "Madagascar" },
+        { "id": "c", "x": 68, "y": 108, "label": "Horn of Africa" },
+        { "id": "d", "x": 76, "y": 44, "label": "Arabian Peninsula" }
+      ]
+    },
+    "prompt": "Select the pin marking the Horn of Africa, the easternmost peninsula of the African continent.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Horn of Africa juts eastward into the Arabian Sea south of the Gulf of Aden.",
+    "source_url": "https://www.britannica.com/place/Horn-of-Africa",
+    "trap_notes": {
+      "a": "The Malay Peninsula lies in Southeast Asia.",
+      "b": "Madagascar is an island off southeastern Africa.",
+      "d": "The Arabian Peninsula lies across the Red Sea in southwestern Asia.",
+      "default": "The Horn of Africa projects eastward south of the Arabian Peninsula."
+    }
+  },
+  {
+    "id": "geo-map-242",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 26.5, "lng": 52.0, "label": "Persian Gulf" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 44, "y": 52, "label": "Red Sea" },
+        { "id": "b", "x": 226, "y": 104, "label": "Bay of Bengal" },
+        { "id": "c", "x": 282, "y": 134, "label": "Strait of Malacca" },
+        { "id": "d", "x": 108, "y": 36, "label": "Persian Gulf" }
+      ]
+    },
+    "prompt": "Select the pin marking the Persian Gulf, the oil-rich shallow sea northeast of Arabia.",
+    "options": [],
+    "answer": "d",
+    "explanation": "The Persian Gulf sits between the Arabian Peninsula and Iran, opening via the Strait of Hormuz.",
+    "source_url": "https://www.britannica.com/place/Persian-Gulf",
+    "trap_notes": {
+      "a": "The Red Sea lies along the western side of the Arabian Peninsula.",
+      "b": "The Bay of Bengal lies east of India.",
+      "c": "The Strait of Malacca lies between Sumatra and the Malay Peninsula.",
+      "default": "The Persian Gulf is the inland gulf on the northeastern edge of Arabia."
+    }
+  },
+  {
+    "id": "geo-map-243",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -0.5, "lng": 101.5, "label": "Sumatra" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 278, "y": 148, "label": "Sumatra" },
+        { "id": "b", "x": 194, "y": 138, "label": "Sri Lanka" },
+        { "id": "c", "x": 65, "y": 178, "label": "Madagascar" },
+        { "id": "d", "x": 316, "y": 174, "label": "Java" }
+      ]
+    },
+    "prompt": "Select the pin marking Sumatra, the long Indonesian island bordering the Strait of Malacca.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Sumatra runs northwest-to-southeast opposite the Malay Peninsula across the Strait of Malacca.",
+    "source_url": "https://www.britannica.com/place/Sumatra",
+    "trap_notes": {
+      "b": "Sri Lanka lies off the southern tip of India.",
+      "c": "Madagascar lies off southeastern Africa.",
+      "d": "Java is the smaller island southeast of Sumatra.",
+      "default": "Sumatra lies immediately southwest of the Malay Peninsula."
+    }
+  },
+  {
+    "id": "geo-map-244",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 20.0, "lng": 38.0, "label": "Red Sea" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 108, "y": 36, "label": "Persian Gulf" },
+        { "id": "b", "x": 44, "y": 52, "label": "Red Sea" },
+        { "id": "c", "x": 52, "y": 178, "label": "Mozambique Channel" },
+        { "id": "d", "x": 138, "y": 92, "label": "Arabian Sea" }
+      ]
+    },
+    "prompt": "Select the pin marking the Red Sea, the narrow rift basin between Africa and Arabia.",
+    "options": [],
+    "answer": "b",
+    "explanation": "The Red Sea runs northwest-to-southeast between northeastern Africa and the Arabian Peninsula.",
+    "source_url": "https://www.britannica.com/place/Red-Sea",
+    "trap_notes": {
+      "a": "The Persian Gulf lies on the northeastern side of Arabia.",
+      "c": "The Mozambique Channel lies between Madagascar and southern Africa.",
+      "d": "The Arabian Sea is the wide open sea south of Arabia and west of India.",
+      "default": "The Red Sea is the narrow corridor between Africa and the Arabian Peninsula."
+    }
+  },
+  {
+    "id": "geo-map-245",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Indian Ocean Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 28.0, "lng": 86.0, "label": "Himalayas" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 32, "y": 92, "label": "Ethiopian Highlands" },
+        { "id": "b", "x": 184, "y": 90, "label": "Deccan Plateau" },
+        { "id": "c", "x": 204, "y": 28, "label": "Himalayas" },
+        { "id": "d", "x": 168, "y": 94, "label": "Western Ghats" }
+      ]
+    },
+    "prompt": "Select the pin marking the Himalayas, the towering mountain arc north of the Indian subcontinent.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The Himalayas rise along India's northern edge, feeding the Indus and Ganges river systems.",
+    "source_url": "https://www.britannica.com/place/Himalayas",
+    "trap_notes": {
+      "a": "The Ethiopian Highlands sit in northeastern Africa.",
+      "b": "The Deccan Plateau occupies central and southern peninsular India.",
+      "d": "The Western Ghats run along India's western Arabian Sea coast.",
+      "default": "The Himalayas form the high northern barrier above the Ganges and Indus plains."
+    }
+  },
+  {
+    "id": "geo-mc-261",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Physical Systems",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.0, "lng": -90.0, "label": "New Orleans, Louisiana" },
+    "prompt": "How does a river delta form where a major river empties into a calm sea or ocean?",
+    "options": [
+      { "id": "a", "text": "Slowing water drops suspended silt and sand at the river mouth" },
+      { "id": "b", "text": "Rising tides carve deep underwater canyons into coastal bedrock" },
+      { "id": "c", "text": "Ocean currents push coral reefs inland to block river channels" },
+      { "id": "d", "text": "Glacial ice sheets dump unsorted boulders across coastal plains" }
+    ],
+    "answer": "a",
+    "explanation": "When a river meets standing sea water, its speed drops and carried sediment settles into a fan-shaped delta.",
+    "source_url": "https://education.nationalgeographic.org/resource/delta/",
+    "trap_notes": {
+      "b": "Tidal erosion scours estuaries rather than building sediment deltas.",
+      "c": "Coral reefs grow offshore in warm clear water, away from muddy river mouths.",
+      "d": "Glaciers deposit moraines, whereas deltas are built by river sediment.",
+      "default": "Deltas form by deposition when slowing river water drops its sediment load."
+    }
+  },
+  {
+    "id": "geo-mc-262",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climatology",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 20.0, "lng": 25.0, "label": "Sahara, North Africa" },
+    "prompt": "Why do many of the world's largest hot deserts cluster near 30 degrees north and south latitude?",
+    "options": [
+      { "id": "a", "text": "Cold ocean currents freeze coastal moisture before it reaches land" },
+      { "id": "b", "text": "Dry sinking air in subtropical high-pressure belts suppresses rain" },
+      { "id": "c", "text": "Strong polar winds blow all cloud cover toward the Equator" },
+      { "id": "d", "text": "High mountain walls encircle every continent at those latitudes" }
+    ],
+    "answer": "b",
+    "explanation": "Hadley cell circulation causes dry air to descend near 30 degrees latitude, warming and inhibiting clouds.",
+    "source_url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+    "trap_notes": {
+      "a": "Cold currents cause coastal fog deserts, not the continent-wide subtropical belts.",
+      "c": "Polar winds stay in high latitudes and do not sweep the subtropics.",
+      "d": "Subtropical deserts occur even on flat shields like Australia and the Sahara.",
+      "default": "Descending air in subtropical high-pressure zones creates dry, cloudless skies."
+    }
+  },
+  {
+    "id": "geo-mc-263",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Oceanography",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -12.0, "lng": -77.0, "label": "Humboldt Current, Peru" },
+    "prompt": "Why do cold ocean currents along western coasts often support rich commercial fisheries?",
+    "options": [
+      { "id": "a", "text": "Warm surface water traps tropical fish near shallow coral lagoons" },
+      { "id": "b", "text": "Freshwater river floods wash forest nutrients out to the open sea" },
+      { "id": "c", "text": "Coastal upwelling lifts deep nutrient-rich water to sunlit layers" },
+      { "id": "d", "text": "Sea ice melting in summer adds salt that speeds up fish growth" }
+    ],
+    "answer": "c",
+    "explanation": "Winds pushing surface water offshore trigger upwelling of cold, nutrient-dense water that feeds plankton.",
+    "source_url": "https://oceanservice.noaa.gov/facts/upwelling.html",
+    "trap_notes": {
+      "a": "Warm tropical waters tend to be nutrient-poor compared to upwelling zones.",
+      "b": "Major upwelling fisheries like Peru's coast sit beside arid deserts with few rivers.",
+      "d": "Melting sea ice lowers salinity and occurs near the poles, not subtropical coasts.",
+      "default": "Upwelling brings deep nutrients into sunlit surface waters, fueling the food web."
+    }
+  },
+  {
+    "id": "geo-mc-264",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Physical Systems",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 61.0, "lng": -145.0, "label": "Valdez Glacier, Alaska" },
+    "prompt": "How can a geographer tell a valley carved by a glacier apart from one carved by a river?",
+    "options": [
+      { "id": "a", "text": "Glacial valleys have steep sides and flat floors shaped like a U" },
+      { "id": "b", "text": "Glacial valleys wind in tight S-shaped meanders across flat plains" },
+      { "id": "c", "text": "Glacial valleys cut straight downward into narrow V-shaped gorges" },
+      { "id": "d", "text": "Glacial valleys contain layered sandstone arches built by wind" }
+    ],
+    "answer": "a",
+    "explanation": "Moving ice scours both the floor and lower walls of a valley, widening a river's V-shape into a U-shape.",
+    "source_url": "https://www.nps.gov/articles/glacier-landforms.htm",
+    "trap_notes": {
+      "b": "Meanders are curves formed by slow-moving rivers on flat floodplains.",
+      "c": "Narrow V-shaped valleys are carved by fast-flowing mountain streams.",
+      "d": "Sandstone arches are shaped by wind and water erosion in arid regions.",
+      "default": "Glaciers pluck and abrade valley walls, creating broad U-shaped troughs."
+    }
+  },
+  {
+    "id": "geo-mc-265",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Human-Environment Interaction",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 37.0, "lng": -101.0, "label": "Ogallala Aquifer, Great Plains" },
+    "prompt": "What happens to a semi-arid aquifer like the Ogallala when irrigation pumping exceeds natural recharge?",
+    "options": [
+      { "id": "a", "text": "Water tables drop steadily and wells must be drilled much deeper" },
+      { "id": "b", "text": "Underground rock expands upward and creates new surface lakes" },
+      { "id": "c", "text": "Local rainfall doubles each year to refill the empty pore space" },
+      { "id": "d", "text": "River deltas along the coast grow faster from extra groundwater" }
+    ],
+    "answer": "a",
+    "explanation": "Overdrafting groundwater lowers the water table faster than rain can percolate down, raising pumping costs.",
+    "source_url": "https://www.usgs.gov/mission-areas/water-resources/science/groundwater-decline-and-depletion",
+    "trap_notes": {
+      "b": "Overpumping can cause land subsidence, the sinking of overlying ground.",
+      "c": "Groundwater depletion does not increase local precipitation.",
+      "d": "Depleting inland aquifers reduces baseflow to streams rather than growing deltas.",
+      "default": "Pumping faster than recharge causes the water table to decline over time."
+    }
+  },
+  {
+    "id": "geo-mc-266",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.7, "lng": -104.9, "label": "Denver, Colorado" },
+    "prompt": "In Walter Christaller's central place theory, why are small towns more numerous than major cities?",
+    "options": [
+      { "id": "a", "text": "Small towns offer frequent everyday goods with a short travel range" },
+      { "id": "b", "text": "National laws forbid major cities from growing near farm regions" },
+      { "id": "c", "text": "Small towns require specialized hospitals and universities to survive" },
+      { "id": "d", "text": "Major cities only form on islands where land cannot expand outward" }
+    ],
+    "answer": "a",
+    "explanation": "Low-order goods like groceries have small thresholds and ranges, so many small centers serve nearby buyers.",
+    "source_url": "https://www.britannica.com/topic/central-place-theory",
+    "trap_notes": {
+      "b": "Urban hierarchies emerge from market thresholds and travel costs, not bans.",
+      "c": "Specialized services like universities are high-order functions found in larger cities.",
+      "d": "Major cities arise at transport hubs on continents as well as islands.",
+      "default": "Everyday goods have low population thresholds, supporting many small settlements."
+    }
+  },
+  {
+    "id": "geo-mc-267",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -29.3, "lng": 27.5, "label": "Lesotho, Southern Africa" },
+    "prompt": "In political geography, what defines an enclave state such as Lesotho or San Marino?",
+    "options": [
+      { "id": "a", "text": "A country surrounded on all sides by the territory of a single state" },
+      { "id": "b", "text": "A country split into several islands across a wide ocean basin" },
+      { "id": "c", "text": "A country stretched into a long narrow strip along a mountain range" },
+      { "id": "d", "text": "A country governed jointly by two neighboring empires under a treaty" }
+    ],
+    "answer": "a",
+    "explanation": "An enclave or perforated state is entirely encircled by one neighboring country, like Lesotho in South Africa.",
+    "source_url": "https://www.britannica.com/topic/enclave-geography",
+    "trap_notes": {
+      "b": "An island chain country like Indonesia is a fragmented state.",
+      "c": "A long narrow country like Chile is an elongated state.",
+      "d": "Jointly governed territory is a condominium, not an enclave.",
+      "default": "An enclave state lies completely inside the borders of another single country."
+    }
+  },
+  {
+    "id": "geo-mc-268",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 25.0, "lng": 45.0, "label": "Sykes-Picot Borders, Middle East" },
+    "prompt": "What is a superimposed boundary in political geography?",
+    "options": [
+      { "id": "a", "text": "A border drawn by outside powers ignoring existing cultural groups" },
+      { "id": "b", "text": "A border that follows a natural mountain crest or winding river" },
+      { "id": "c", "text": "A border agreed upon before large human settlement took place" },
+      { "id": "d", "text": "A border that vanished after two neighboring nations merged" }
+    ],
+    "answer": "a",
+    "explanation": "Superimposed boundaries are imposed by external forces, often splitting ethnic or linguistic communities.",
+    "source_url": "https://www.britannica.com/topic/political-geography",
+    "trap_notes": {
+      "b": "A border along a river or ridge is a physical or natural boundary.",
+      "c": "A border drawn before settlement is an antecedent boundary.",
+      "d": "A former border that no longer functions politically is a relic boundary.",
+      "default": "Superimposed borders are laid down by outside powers over existing societies."
+    }
+  },
+  {
+    "id": "geo-mc-269",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Population Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.0, "lng": 31.2, "label": "Nile Valley, Egypt" },
+    "prompt": "Why does physiological population density give a clearer view of food pressure than arithmetic density?",
+    "options": [
+      { "id": "a", "text": "It divides total people by arable farmland rather than all land area" },
+      { "id": "b", "text": "It counts only urban residents living inside coastal port cities" },
+      { "id": "c", "text": "It measures annual grain imports instead of domestic crop yields" },
+      { "id": "d", "text": "It tracks average household income across rural farm provinces" }
+    ],
+    "answer": "a",
+    "explanation": "Physiological density compares population to farmable land, revealing pressure in countries with vast deserts.",
+    "source_url": "https://www.census.gov/topics/population.html",
+    "trap_notes": {
+      "b": "Physiological density includes the entire national population, not just cities.",
+      "c": "It is a land-to-people ratio, not a trade measurement.",
+      "d": "Income is an economic metric rather than a population density ratio.",
+      "default": "Physiological density measures people per unit of arable land."
+    }
+  },
+  {
+    "id": "geo-mc-270",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.4, "lng": -112.0, "label": "Phoenix, Arizona" },
+    "prompt": "What primarily causes the urban heat island effect in large metropolitan areas?",
+    "options": [
+      { "id": "a", "text": "Dark pavement and rooftops absorb sunlight and release stored heat" },
+      { "id": "b", "text": "City parks and street trees block cool night breezes from entering" },
+      { "id": "c", "text": "Underground subway tunnels pull cold air out of the atmosphere" },
+      { "id": "d", "text": "Tall glass skyscrapers reflect all solar energy back into space" }
+    ],
+    "answer": "a",
+    "explanation": "Asphalt, concrete, and dense buildings store daytime solar heat and limit cooling evaporation.",
+    "source_url": "https://www.epa.gov/heatislands",
+    "trap_notes": {
+      "b": "Trees and green spaces actually cool cities through shade and evapotranspiration.",
+      "c": "Subway tunnels do not draw atmospheric heat downward to cool the air.",
+      "d": "If all solar energy were reflected, cities would be cooler rather than warmer.",
+      "default": "Heat-absorbing pavement and reduced vegetation make cities warmer than rural areas."
+    }
+  },
+  {
+    "id": "geo-mc-271",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.9, "lng": -122.4, "label": "San Francisco, California" },
+    "prompt": "What does the term sequent occupance describe in cultural geography?",
+    "options": [
+      { "id": "a", "text": "Successive groups leaving distinct cultural layers on a landscape" },
+      { "id": "b", "text": "A single nomadic tribe moving seasonally between mountain pastures" },
+      { "id": "c", "text": "Governments zoning city blocks strictly for one industrial use" },
+      { "id": "d", "text": "Plant species colonizing bare rock after a volcanic eruption" }
+    ],
+    "answer": "a",
+    "explanation": "Sequent occupance examines how each generation or culture modifies and adds to a place's built landscape.",
+    "source_url": "https://www.britannica.com/science/cultural-geography",
+    "trap_notes": {
+      "b": "Seasonal movement of livestock between elevations is transhumance.",
+      "c": "Municipal zoning is an urban planning tool rather than historical layering.",
+      "d": "Plants colonizing bare rock is ecological succession, not cultural geography.",
+      "default": "Sequent occupance traces layered imprints left by successive cultures in one place."
+    }
+  },
+  {
+    "id": "geo-mc-272",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 16.9, "lng": 121.1, "label": "Ifugao Rice Terraces, Philippines" },
+    "prompt": "Why have farmers across the Andes and Southeast Asia carved stepped terraces into steep slopes?",
+    "options": [
+      { "id": "a", "text": "Flat steps slow rainwater runoff and hold fertile soil in place" },
+      { "id": "b", "text": "Stepped walls trap winter snow to freeze insects underground" },
+      { "id": "c", "text": "Terraces allow large combine harvesters to drive straight uphill" },
+      { "id": "d", "text": "Cut stone ledges block sunlight so crops stay cool all summer" }
+    ],
+    "answer": "a",
+    "explanation": "Terracing creates level planting beds that curb erosion and retain irrigation water on steep hillsides.",
+    "source_url": "https://www.fao.org/giahs/giahsaroundtheworld/designated-sites/asia-and-the-pacific/ifugao-rice-terraces/en/",
+    "trap_notes": {
+      "b": "Terraces are widely used in tropical Southeast Asia where snow does not fall.",
+      "c": "Narrow hillside terraces are usually worked by hand or small tools, not combines.",
+      "d": "Crops need sunlight; terraces maximize usable flat land rather than shade.",
+      "default": "Terraces create level ground on slopes to retain water and prevent soil erosion."
+    }
+  },
+  {
+    "id": "geo-mc-273",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Hazards & Disasters",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.3, "lng": 142.4, "label": "Tohoku Coast, Japan" },
+    "prompt": "What underwater event most commonly triggers a destructive ocean-wide tsunami?",
+    "options": [
+      { "id": "a", "text": "Vertical seafloor displacement from a large subduction earthquake" },
+      { "id": "b", "text": "Strong surface trade winds pushing waves across deep ocean basins" },
+      { "id": "c", "text": "Spring high tides aligning with the full moon over coral reefs" },
+      { "id": "d", "text": "Warm ocean currents colliding with cold polar water at the surface" }
+    ],
+    "answer": "a",
+    "explanation": "When a megathrust fault snaps upward or downward, it displaces the entire water column above it.",
+    "source_url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/tsunamis",
+    "trap_notes": {
+      "b": "Surface winds create ordinary wind waves and storm surges, not tsunamis.",
+      "c": "Tides are predictable gravitational cycles, not sudden seismic waves.",
+      "d": "Colliding ocean currents affect weather and fog, not seismic sea waves.",
+      "default": "Sudden vertical movement of the seafloor during an earthquake displaces water."
+    }
+  },
+  {
+    "id": "geo-mc-274",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 22.5, "lng": 114.1, "label": "Shenzhen, China" },
+    "prompt": "Why do developing nations establish Special Economic Zones near ports and borders?",
+    "options": [
+      { "id": "a", "text": "To attract foreign factories using lower taxes and relaxed rules" },
+      { "id": "b", "text": "To ban all imported machinery and isolate local craft guilds" },
+      { "id": "c", "text": "To protect pristine wilderness from any road or rail building" },
+      { "id": "d", "text": "To replace coastal shipping with high-altitude air cargo hubs" }
+    ],
+    "answer": "a",
+    "explanation": "Special Economic Zones offer tax breaks, duty-free imports, and port access to draw export manufacturing.",
+    "source_url": "https://www.worldbank.org/en/topic/trade",
+    "trap_notes": {
+      "b": "SEZs encourage foreign investment and imported equipment rather than isolation.",
+      "c": "SEZs are industrial and trade hubs, not wilderness preserves.",
+      "d": "SEZs rely heavily on maritime ports for bulk container shipping.",
+      "default": "SEZs use tax incentives and infrastructure to draw export-oriented investment."
+    }
+  },
+  {
+    "id": "geo-mc-275",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Physical Systems",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.9, "lng": -87.6, "label": "Great Lakes, North America" },
+    "prompt": "Why do cities like Chicago and Toronto experience cooler springs and milder autumns than inland plains?",
+    "options": [
+      { "id": "a", "text": "Large bodies of water warm up and cool down more slowly than land" },
+      { "id": "b", "text": "Tall downtown buildings block all seasonal winds from the west" },
+      { "id": "c", "text": "Lakebed rocks release geothermal steam whenever winter ends" },
+      { "id": "d", "text": "Freshwater lakes reflect more winter sunlight than white snowpack" }
+    ],
+    "answer": "a",
+    "explanation": "Water has a high specific heat capacity, moderating nearby air temperatures compared to continental interiors.",
+    "source_url": "https://www.weather.gov/safety/winter-lake-effect",
+    "trap_notes": {
+      "b": "Urban skylines do not block regional seasonal air masses.",
+      "c": "Temperature moderation comes from solar heat storage in water, not geothermal steam.",
+      "d": "Fresh snow reflects much more sunlight than dark liquid water.",
+      "default": "Water heats and cools slowly, buffering nearby coastal and lakeside climates."
+    }
+  }
+]

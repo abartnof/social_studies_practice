@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "geo-ord-101",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Order the first four stages of the Demographic Transition Model from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Birth rates fall as families urbanize and educate children" },
+      { "id": "b", "text": "High birth and death rates keep population small and steady" },
+      { "id": "c", "text": "Low birth and death rates stabilize a large population" },
+      { "id": "d", "text": "Sanitation cuts death rates while birth rates remain high" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Stage 1 has high birth and death rates; Stage 2 drops deaths; Stage 3 drops births; Stage 4 stabilizes both low.",
+    "source_url": "https://www.prb.org/resources/glossary/",
+    "trap_notes": {
+      "default": "Follow the sequence: high/high, falling deaths, falling births, then low/low stability."
+    }
+  },
+  {
+    "id": "geo-ord-102",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Order John Borchert's four epochs of U.S. urban growth from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Auto-Air-Amenity suburbs spreading along highways" },
+      { "id": "b", "text": "Sail-Wagon ports along rivers and Atlantic harbors" },
+      { "id": "c", "text": "Steel-Rail industrial hubs linked by national rail" },
+      { "id": "d", "text": "Iron Horse steamboats and early regional railroads" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Borchert traced U.S. cities from Sail-Wagon (1790-1830) to Iron Horse, Steel-Rail, and Auto-Air-Amenity.",
+    "source_url": "https://www.britannica.com/topic/urbanization",
+    "trap_notes": {
+      "default": "Transport shaped cities in order: sail/wagon, early steam, steel rail, then cars and planes."
+    }
+  },
+  {
+    "id": "geo-ord-103",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.3152, "lng": 44.3661, "label": "Fertile Crescent, Iraq" },
+    "prompt": "Order these major milestones in world agriculture from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Green Revolution high-yield seeds and synthetic fertilizers" },
+      { "id": "b", "text": "Neolithic domestication of wheat, rice, and livestock" },
+      { "id": "c", "text": "GPS-guided precision tractors and satellite crop mapping" },
+      { "id": "d", "text": "British mechanized plows and four-field crop rotation" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Farming began with Neolithic domestication, mechanized in the 1700s, surged in the 1960s Green Revolution, then went digital.",
+    "source_url": "https://education.nationalgeographic.org/resource/development-agriculture/",
+    "trap_notes": {
+      "default": "Agriculture progressed from Neolithic roots to Industrial plows, Green Revolution, and GPS."
+    }
+  },
+  {
+    "id": "geo-ord-104",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.325, "lng": 45.6361, "label": "Uruk, Mesopotamia" },
+    "prompt": "Order these stages of human settlement from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Industrial factory cities powered by coal and rail" },
+      { "id": "b", "text": "Early walled cities in fertile river valleys" },
+      { "id": "c", "text": "Global megacities exceeding ten million residents" },
+      { "id": "d", "text": "Small Neolithic farming villages beside seasonal streams" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Small Neolithic villages grew into river-valley cities, later expanding into industrial cities and modern megacities.",
+    "source_url": "https://education.nationalgeographic.org/resource/urbanization/",
+    "trap_notes": {
+      "default": "Settlements scaled up from Neolithic villages to river cities, factory hubs, and megacities."
+    }
+  },
+  {
+    "id": "geo-ord-105",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 15.0, "label": "Equatorial Africa" },
+    "prompt": "Order these major biomes from the equator northward toward the Arctic Circle.",
+    "options": [
+      { "id": "a", "text": "Subtropical hot desert near 25 degrees north" },
+      { "id": "b", "text": "Treeless polar tundra along the Arctic coast" },
+      { "id": "c", "text": "Equatorial tropical rainforest with year-round rain" },
+      { "id": "d", "text": "Mid-latitude temperate broadleaf forest" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Moving north from the equator passes through tropical rainforest, subtropical desert, temperate forest, and tundra.",
+    "source_url": "https://earthobservatory.nasa.gov/biome",
+    "trap_notes": {
+      "default": "Start at the wet equator and move north through dry subtropics, temperate woods, and tundra."
+    }
+  },
+  {
+    "id": "geo-ord-106",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.0, "lng": -105.0, "label": "Boulder, Colorado" },
+    "prompt": "Order Earth's atmospheric layers from the ground upward into space.",
+    "options": [
+      { "id": "a", "text": "Mesosphere where most meteors burn up" },
+      { "id": "b", "text": "Troposphere where daily weather and clouds form" },
+      { "id": "c", "text": "Thermosphere where auroras glow at high altitude" },
+      { "id": "d", "text": "Stratosphere containing the protective ozone layer" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Ascending from Earth's surface passes through the troposphere, stratosphere, mesosphere, and thermosphere.",
+    "source_url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
+    "trap_notes": {
+      "default": "Weather sits lowest in the troposphere, followed by stratosphere, mesosphere, thermosphere."
+    }
+  },
+  {
+    "id": "geo-ord-107",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.15, "lng": -89.25, "label": "Mississippi Delta, Louisiana" },
+    "prompt": "Order a river's journey from its mountain source to the ocean.",
+    "options": [
+      { "id": "a", "text": "Wide meandering curves across a flat floodplain" },
+      { "id": "b", "text": "Fan-shaped delta depositing fine silt at the sea" },
+      { "id": "c", "text": "Steep V-shaped mountain valley with fast rapids" },
+      { "id": "d", "text": "Gentle foothills channel carrying gravel bars" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Rivers begin in steep mountain headwaters, cross gravel foothills, meander over floodplains, and build deltas at the sea.",
+    "source_url": "https://education.nationalgeographic.org/resource/river/",
+    "trap_notes": {
+      "default": "Follow water downhill: steep headwaters, foothills, wide meanders, then coastal delta."
+    }
+  },
+  {
+    "id": "geo-ord-108",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.0308, "lng": -93.6319, "label": "Ames, Iowa" },
+    "prompt": "Order typical soil horizons from the forest surface straight down to solid rock.",
+    "options": [
+      { "id": "a", "text": "Clay-rich mineral subsoil accumulating leached minerals" },
+      { "id": "b", "text": "Dark organic litter of decaying leaves on top" },
+      { "id": "c", "text": "Unweathered solid bedrock beneath the soil profile" },
+      { "id": "d", "text": "Nutrient-rich topsoil where most plant roots grow" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Soil profiles run from surface organic litter (O) to topsoil (A), mineral subsoil (B), and solid bedrock (R).",
+    "source_url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-horizons",
+    "trap_notes": {
+      "default": "Digging down passes leaf litter first, then topsoil, clay subsoil, and solid bedrock."
+    }
+  },
+  {
+    "id": "geo-ord-109",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 54.0924, "lng": 12.0991, "label": "Rostock, Germany" },
+    "prompt": "Order Von Thunen's four agricultural rings from the central market city outward.",
+    "options": [
+      { "id": "a", "text": "Extensive livestock ranching on distant cheap land" },
+      { "id": "b", "text": "Forestry lots supplying heavy timber and firewood" },
+      { "id": "c", "text": "Intensive dairy farms and fresh vegetable gardens" },
+      { "id": "d", "text": "Broad commercial grain fields of wheat and rye" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Von Thunen placed perishable dairy closest, then heavy timber, then field grains, and finally extensive ranching.",
+    "source_url": "https://www.britannica.com/biography/Johann-Heinrich-von-Thunen",
+    "trap_notes": {
+      "default": "Move outward from the city: dairy/produce, heavy timber, grain fields, then ranching."
+    }
+  },
+  {
+    "id": "geo-ord-110",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "prompt": "Order these four major Western Hemisphere cities from south to north.",
+    "options": [
+      { "id": "a", "text": "Quito, Ecuador near the equator" },
+      { "id": "b", "text": "Toronto, Canada on Lake Ontario" },
+      { "id": "c", "text": "Buenos Aires, Argentina on the Rio de la Plata" },
+      { "id": "d", "text": "Mexico City, Mexico in the central highlands" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "From south to north: Buenos Aires (34S), Quito (0), Mexico City (19N), and Toronto (43N).",
+    "source_url": "https://www.britannica.com/place/Americas",
+    "trap_notes": {
+      "default": "Check latitudes from south to north: 34S, 0, 19N, and 43N."
+    }
+  },
+  {
+    "id": "geo-ord-111",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.7392, "lng": -104.9903, "label": "Denver, Colorado" },
+    "prompt": "Order these U.S. physical regions from west to east.",
+    "options": [
+      { "id": "a", "text": "The Great Plains grassland east of the Rockies" },
+      { "id": "b", "text": "The Pacific Coast Ranges along California and Oregon" },
+      { "id": "c", "text": "The Appalachian Mountains in the eastern states" },
+      { "id": "d", "text": "The Rocky Mountains forming the Continental Divide" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Traveling west to east across the United States crosses the Coast Ranges, Rockies, Great Plains, and Appalachians.",
+    "source_url": "https://www.usgs.gov/educational-resources/physiographic-divisions-conterminous-us",
+    "trap_notes": {
+      "default": "Cross the U.S. from Pacific to Atlantic: Coast Ranges, Rockies, Great Plains, Appalachians."
+    }
+  },
+  {
+    "id": "geo-ord-112",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 14.0, "lng": 2.0, "label": "Sahel Belt, Africa" },
+    "prompt": "Order these African climate belts from north to south toward the equator.",
+    "options": [
+      { "id": "a", "text": "The semi-arid Sahel grassland transition zone" },
+      { "id": "b", "text": "The Congo Basin tropical rainforest" },
+      { "id": "c", "text": "The Mediterranean coast of Morocco and Tunisia" },
+      { "id": "d", "text": "The hyper-arid Sahara Desert of North Africa" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Moving south from the Mediterranean coast crosses the Sahara, the semi-arid Sahel, and into the Congo rainforest.",
+    "source_url": "https://education.nationalgeographic.org/resource/africa-physical-geography/",
+    "trap_notes": {
+      "default": "Go south from the Mediterranean Sea: Sahara Desert, Sahel belt, then Congo rainforest."
+    }
+  },
+  {
+    "id": "geo-ord-113",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 54.0, "lng": 3.0, "label": "North Sea" },
+    "prompt": "Order these European coastal waters from south to north.",
+    "options": [
+      { "id": "a", "text": "The English Channel between France and Britain" },
+      { "id": "b", "text": "The Norwegian Sea off western Scandinavia" },
+      { "id": "c", "text": "The Mediterranean Sea south of Italy and Spain" },
+      { "id": "d", "text": "The North Sea east of Great Britain" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Sailing north from southern Europe passes the Mediterranean, English Channel, North Sea, and Norwegian Sea.",
+    "source_url": "https://www.britannica.com/place/Europe",
+    "trap_notes": {
+      "default": "Sail north along Europe's coast: Mediterranean, English Channel, North Sea, Norwegian Sea."
+    }
+  },
+  {
+    "id": "geo-ord-114",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these cartography and mapping technologies from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Multi-layer digital GIS powered by satellite imagery" },
+      { "id": "b", "text": "Ancient clay tablets and hand-drawn parchment maps" },
+      { "id": "c", "text": "Aerial airplane photographs stitched into topo maps" },
+      { "id": "d", "text": "Magnetic compass portolan charts for sea voyages" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Mapping evolved from ancient parchment charts to Renaissance sea portolans, 20th-century aerial photos, and satellite GIS.",
+    "source_url": "https://education.nationalgeographic.org/resource/map/",
+    "trap_notes": {
+      "default": "Follow mapping tools: parchment, compass sea charts, airplane photos, then satellite GIS."
+    }
+  },
+  {
+    "id": "geo-ord-115",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Cambridge, Massachusetts" },
+    "prompt": "Order these stages of W. W. Rostow's economic development model from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Takeoff into rapid factory industrialization" },
+      { "id": "b", "text": "High mass consumption of consumer goods and services" },
+      { "id": "c", "text": "Traditional society focused on subsistence farming" },
+      { "id": "d", "text": "Preconditions for takeoff building roads and banks" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Rostow's model moves from traditional farming to infrastructure preconditions, industrial takeoff, and mass consumption.",
+    "source_url": "https://www.britannica.com/money/Walt-Whitman-Rostow",
+    "trap_notes": {
+      "default": "Rostow progresses: traditional farming, preconditions, industrial takeoff, mass consumption."
+    }
+  },
+  {
+    "id": "geo-ord-116",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order these phases of North American urban growth from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Postwar interstate highways fueling suburban sprawl" },
+      { "id": "b", "text": "Compact walking cities clustered near harbor piers" },
+      { "id": "c", "text": "Outer edge cities of office parks at beltway junctions" },
+      { "id": "d", "text": "Electric streetcar lines extending early neighborhoods" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Cities expanded from compact walking ports to streetcar lines, postwar highway suburbs, and outer edge cities.",
+    "source_url": "https://www.britannica.com/topic/suburb",
+    "trap_notes": {
+      "default": "Cities grew outward with faster transit: walking, streetcars, highways, then edge cities."
+    }
+  },
+  {
+    "id": "geo-ord-117",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 1.3521, "lng": 103.8198, "label": "Singapore" },
+    "prompt": "Order these global long-distance trade systems from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Intermodal shipping containers on mega-freighters" },
+      { "id": "b", "text": "Overland Silk Road caravans linking China and Rome" },
+      { "id": "c", "text": "Steamships crossing the newly opened Suez Canal" },
+      { "id": "d", "text": "Oceanic sailing galleons carrying silver and spices" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Global trade shifted from Silk Road caravans to Age of Sail galleons, 19th-century steamships, and modern containers.",
+    "source_url": "https://education.nationalgeographic.org/resource/silk-road/",
+    "trap_notes": {
+      "default": "Trade evolved from Silk Road camels to sailing ships, steam canals, and containers."
+    }
+  },
+  {
+    "id": "geo-ord-118",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.4993, "lng": -81.6944, "label": "Lake Erie" },
+    "prompt": "Order the natural aging of a freshwater lake as sediment and nutrients accumulate over centuries.",
+    "options": [
+      { "id": "a", "text": "Shallow eutrophic lake choked with thick algae blooms" },
+      { "id": "b", "text": "Clear, deep, nutrient-poor lake with high oxygen" },
+      { "id": "c", "text": "Sediment-filled wetland bog supporting marsh plants" },
+      { "id": "d", "text": "Moderately fertile lake with growing aquatic weeds" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Lakes age from clear oligotrophic water to mesotrophic, algae-rich eutrophic water, and finally a filled marsh.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/eutrophication",
+    "trap_notes": {
+      "default": "Lakes fill in gradually: clear deep water, moderate plants, algae-choked, then marshland."
+    }
+  },
+  {
+    "id": "geo-ord-119",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -0.2298, "lng": -78.5249, "label": "Equatorial Andes, Ecuador" },
+    "prompt": "Order these elevation climate zones up an equatorial Andean mountain from base to peak.",
+    "options": [
+      { "id": "a", "text": "Cold alpine grassland above the natural tree line" },
+      { "id": "b", "text": "Hot tropical lowland forest growing bananas and cacao" },
+      { "id": "c", "text": "Permanent snowfields and glaciers near the summit" },
+      { "id": "d", "text": "Mild mid-elevation slopes growing coffee and corn" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Climbing the Andes moves from hot tierra caliente to mild tierra templada, cold alpine paramo, and permanent snow.",
+    "source_url": "https://education.nationalgeographic.org/resource/altitude/",
+    "trap_notes": {
+      "default": "Temperature drops with elevation: tropical base, mild coffee slopes, alpine grass, snow."
+    }
+  },
+  {
+    "id": "geo-ord-120",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 30.5928, "lng": 114.3055, "label": "Yangtze River, China" },
+    "prompt": "Order these four major Asian river basins from west to east.",
+    "options": [
+      { "id": "a", "text": "The Mekong River draining through Cambodia and Vietnam" },
+      { "id": "b", "text": "The Indus River flowing through Pakistan" },
+      { "id": "c", "text": "The Yangtze River reaching the sea near Shanghai" },
+      { "id": "d", "text": "The Ganges River crossing northern India" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Moving west to east across Asia crosses the Indus (Pakistan), Ganges (India), Mekong (Southeast Asia), and Yangtze (China).",
+    "source_url": "https://www.britannica.com/place/Asia",
+    "trap_notes": {
+      "default": "Sweep west to east across southern Asia: Indus, Ganges, Mekong, then Yangtze."
+    }
+  },
+  {
+    "id": "geo-ord-121",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 65.7833, "lng": -168.9833, "label": "Beringia" },
+    "prompt": "Order the major geographic path of early Homo sapiens migrating from Africa into the Americas.",
+    "options": [
+      { "id": "a", "text": "Crossing the Beringia land bridge into Alaska" },
+      { "id": "b", "text": "Originating in East Africa before dispersing northward" },
+      { "id": "c", "text": "Spreading eastward across Asia toward the Pacific rim" },
+      { "id": "d", "text": "Expanding out of Africa into Southwest Asia" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Early humans dispersed from East Africa into Southwest Asia, across Eurasia, and over Beringia into the Americas.",
+    "source_url": "https://education.nationalgeographic.org/resource/global-human-journey/",
+    "trap_notes": {
+      "default": "Follow the human route: East Africa, Southwest Asia, East Asia, then Beringia to America."
+    }
+  },
+  {
+    "id": "geo-ord-122",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.6309, "lng": -2.4867, "label": "Coalbrookdale, England" },
+    "prompt": "Order the primary energy sources that powered global industrialization from earliest to newest.",
+    "options": [
+      { "id": "a", "text": "Coal fueling steam engines and iron smelters" },
+      { "id": "b", "text": "Utility-scale solar arrays and wind turbines" },
+      { "id": "c", "text": "Firewood and charcoal for local hearths and forges" },
+      { "id": "d", "text": "Petroleum and natural gas powering cars and grids" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Societies transitioned from wood and charcoal to coal, then petroleum and natural gas, and now wind and solar.",
+    "source_url": "https://www.eia.gov/energyexplained/us-energy-facts/",
+    "trap_notes": {
+      "default": "Energy eras progressed from biomass wood to coal, oil and gas, and modern renewables."
+    }
+  },
+  {
+    "id": "geo-ord-123",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.2226, "lng": -110.9747, "label": "Sonoran Desert, Arizona" },
+    "prompt": "Order these North American climate regions from south to north.",
+    "options": [
+      { "id": "a", "text": "The arid Sonoran Desert of northern Mexico and Arizona" },
+      { "id": "b", "text": "The Arctic tundra of northern Alaska and Nunavut" },
+      { "id": "c", "text": "The tropical rainforests of southern Mexico's Yucatan" },
+      { "id": "d", "text": "The humid continental prairies of the U.S. Midwest" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Moving north across North America passes tropical Yucatan, the Sonoran Desert, the Midwest, and Arctic tundra.",
+    "source_url": "https://education.nationalgeographic.org/resource/north-america-physical-geography/",
+    "trap_notes": {
+      "default": "Go south to north: tropical Yucatan, Sonoran Desert, Midwest prairies, Arctic tundra."
+    }
+  },
+  {
+    "id": "geo-ord-124",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 25.7617, "lng": -80.1918, "label": "Miami, Florida" },
+    "prompt": "Order the official intensification stages of an Atlantic tropical cyclone from weakest to strongest.",
+    "options": [
+      { "id": "a", "text": "Tropical storm with sustained winds of 39 to 73 mph" },
+      { "id": "b", "text": "Hurricane with sustained winds of 74 mph or higher" },
+      { "id": "c", "text": "Tropical disturbance of unorganized ocean thunderstorms" },
+      { "id": "d", "text": "Tropical depression with a closed low-pressure center" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Warm ocean water strengthens a disturbance into a tropical depression, then a named tropical storm, then a hurricane.",
+    "source_url": "https://www.nhc.noaa.gov/climo/",
+    "trap_notes": {
+      "default": "Storms intensify in order: disturbance, depression, named tropical storm, hurricane."
+    }
+  },
+  {
+    "id": "geo-ord-125",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -16.5, "lng": -151.75, "label": "Bora Bora, French Polynesia" },
+    "prompt": "Order Charles Darwin's stages of coral atoll formation in the tropical Pacific.",
+    "options": [
+      { "id": "a", "text": "Volcanic peak sinks below sea level leaving a coral ring" },
+      { "id": "b", "text": "Fringing reef grows directly along a new volcanic island" },
+      { "id": "c", "text": "Barrier reef separates from the sinking cone by a lagoon" },
+      { "id": "d", "text": "Underwater volcano erupts and rises above the ocean" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "A volcano forms an island, grows a fringing reef, sinks into a barrier reef with a lagoon, and leaves a coral atoll.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_corals/coral04_reefs.html",
+    "trap_notes": {
+      "default": "Atolls form as a volcanic island builds a fringing reef, barrier reef, and sinking ring."
+    }
+  },
+  {
+    "id": "geo-ord-126",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Suez Canal, Egypt" },
+    "prompt": "Order these historic artificial waterways by when they were opened, from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "The Suez Canal linking the Mediterranean and Red Seas" },
+      { "id": "b", "text": "The Erie Canal linking Lake Erie to the Hudson River" },
+      { "id": "c", "text": "The Panama Canal linking the Atlantic and Pacific Oceans" },
+      { "id": "d", "text": "China's Grand Canal linking the Yangtze and Yellow Rivers" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "China's Grand Canal dates to ancient times, the Erie Canal opened in 1825, Suez in 1869, and Panama in 1914.",
+    "source_url": "https://www.britannica.com/technology/canal-waterway",
+    "trap_notes": {
+      "default": "Order by completion: ancient Grand Canal, 1825 Erie, 1869 Suez, 1914 Panama."
+    }
+  },
+  {
+    "id": "geo-ord-127",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -3.4653, "lng": -62.2159, "label": "Amazon Basin, Brazil" },
+    "prompt": "Order these South American physical features from east to west.",
+    "options": [
+      { "id": "a", "text": "The Amazon River lowlands of central South America" },
+      { "id": "b", "text": "The Atlantic Ocean coastline of northeastern Brazil" },
+      { "id": "c", "text": "The high Andes Mountains along the Pacific edge" },
+      { "id": "d", "text": "The Brazilian Highlands plateau inland from the coast" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Moving east to west crosses the Atlantic coast, Brazilian Highlands, Amazon lowlands, and finally the Andes.",
+    "source_url": "https://education.nationalgeographic.org/resource/south-america-physical-geography/",
+    "trap_notes": {
+      "default": "Move east to west: Atlantic coast, Brazilian Highlands, Amazon Basin, Andes."
+    }
+  },
+  {
+    "id": "geo-ord-128",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7282, "lng": -73.95, "label": "Brooklyn, New York" },
+    "prompt": "Order the typical stages of urban gentrification in a central city neighborhood.",
+    "options": [
+      { "id": "a", "text": "High rents and property taxes displace longtime residents" },
+      { "id": "b", "text": "Factory closures leave older brick housing low-cost" },
+      { "id": "c", "text": "Boutique shops and renovated condos raise neighborhood value" },
+      { "id": "d", "text": "Artists and young renters move in seeking cheap space" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Deindustrialization lowers rents, drawing early artists, then commercial reinvestment drives up rents and displaces locals.",
+    "source_url": "https://education.nationalgeographic.org/resource/gentrification/",
+    "trap_notes": {
+      "default": "Gentrification moves from cheap disinvestment to pioneer renters, renovation, and displacement."
+    }
+  },
+  {
+    "id": "geo-ord-129",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "chronological",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -23.7, "lng": 133.88, "label": "Alice Springs, Australia" },
+    "prompt": "Order these Australian climate zones from north to south.",
+    "options": [
+      { "id": "a", "text": "The vast central Outback desert around Alice Springs" },
+      { "id": "b", "text": "The temperate southern coast around Melbourne" },
+      { "id": "c", "text": "The tropical monsoon coast around Darwin" },
+      { "id": "d", "text": "The semi-arid savanna belt south of Darwin" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Moving south from Darwin crosses tropical monsoon coast, semi-arid savanna, central Outback desert, and temperate Melbourne.",
+    "source_url": "https://education.nationalgeographic.org/resource/oceania-physical-geography/",
+    "trap_notes": {
+      "default": "Australia cools moving south away from the equator: tropical Darwin to temperate Melbourne."
+    }
+  },
+  {
+    "id": "geo-ord-130",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7489, "lng": -73.968, "label": "United Nations, New York" },
+    "prompt": "Order these world human population milestones from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "World population reaches five billion in 1987" },
+      { "id": "b", "text": "World population reaches one billion around 1804" },
+      { "id": "c", "text": "World population reaches eight billion in 2022" },
+      { "id": "d", "text": "World population reaches two billion in 1927" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Global population accelerated from 1 billion (1804) to 2 billion (1927), 5 billion (1987), and 8 billion (2022).",
+    "source_url": "https://www.prb.org/articles/how-many-people-have-ever-lived-on-earth/",
+    "trap_notes": {
+      "default": "Follow world population growth: 1 billion, 2 billion, 5 billion, then 8 billion."
+    }
+  },
+  {
+    "id": "geo-cau-101",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.0, "lng": -120.5, "label": "Cascade Range, Washington" },
+    "prompt": "Order the causal chain that creates a rain shadow desert on the leeward side of mountains.",
+    "options": [
+      { "id": "a", "text": "Dry air sinks, warms up, and creates an arid basin" },
+      { "id": "b", "text": "Moist ocean winds strike a coastal mountain range" },
+      { "id": "c", "text": "Rising air cools and drops heavy rain on windward slopes" },
+      { "id": "d", "text": "Air passes over the mountain crest depleted of moisture" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Moist air rises and drops rain on the windward slope, crosses dry, and sinks as warm air on the leeward side.",
+    "source_url": "https://education.nationalgeographic.org/resource/rain-shadow/",
+    "trap_notes": {
+      "default": "Winds hit mountains, rise and rain out upwind, cross dry, then sink and warm downwind."
+    }
+  },
+  {
+    "id": "geo-cau-102",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -13.1631, "lng": -72.545, "label": "Andes Mountains, Peru" },
+    "prompt": "Order the causal chain of volcanic mountain building at an ocean-continent subduction zone.",
+    "options": [
+      { "id": "a", "text": "Buoyant magma rises to erupt as coastal volcanoes" },
+      { "id": "b", "text": "Dense oceanic plate sinks beneath lighter continental crust" },
+      { "id": "c", "text": "Water from sinking crust lowers melting points in the mantle" },
+      { "id": "d", "text": "Molten rock pools in underground magma chambers" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Subducting ocean crust releases water into the hot mantle, generating magma that rises to feed volcanic chains.",
+    "source_url": "https://www.usgs.gov/faqs/what-subduction-zone",
+    "trap_notes": {
+      "default": "Subduction sinks crust, water triggers melting, magma pools, and volcanoes erupt."
+    }
+  },
+  {
+    "id": "geo-cau-103",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.7378, "lng": -119.7871, "label": "San Joaquin Valley, California" },
+    "prompt": "Order the causal chain showing how heavy irrigation in dry climates causes soil salinization.",
+    "options": [
+      { "id": "a", "text": "Concentrated surface salts poison crop roots and cut yields" },
+      { "id": "b", "text": "Dry desert air rapidly evaporates water from the topsoil" },
+      { "id": "c", "text": "River water carrying dissolved minerals floods arid fields" },
+      { "id": "d", "text": "Salt crystals remain behind in the upper soil layer" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Irrigation water brings dissolved salts; intense evaporation leaves salts behind until crops can no longer grow.",
+    "source_url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/soil-salinity",
+    "trap_notes": {
+      "default": "Irrigation adds mineral water, heat evaporates it, salt crusts remain, and crops fail."
+    }
+  },
+  {
+    "id": "geo-cau-104",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 6.5244, "lng": 3.3792, "label": "Lagos, Nigeria" },
+    "prompt": "Order the causal chain behind rapid growth of informal settlements in developing megacities.",
+    "options": [
+      { "id": "a", "text": "Newcomers build unpermitted housing on steep or flood-prone land" },
+      { "id": "b", "text": "Farm mechanization and rural poverty push families toward cities" },
+      { "id": "c", "text": "Rapid population influx overwhelms formal affordable housing" },
+      { "id": "d", "text": "Informal neighborhoods lack piped water, sewers, and clinics" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Rural push factors drive migrants to cities faster than housing is built, creating informal settlements without utilities.",
+    "source_url": "https://education.nationalgeographic.org/resource/urbanization/",
+    "trap_notes": {
+      "default": "Rural push drives city influx, formal housing falls short, and unserviced slums expand."
+    }
+  },
+  {
+    "id": "geo-cau-105",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.8103, "lng": 90.4125, "label": "Dhaka, Bangladesh" },
+    "prompt": "Order the causal chain linking upstream hillside deforestation to downstream river flooding.",
+    "options": [
+      { "id": "a", "text": "River channels silt up and overflow onto downstream towns" },
+      { "id": "b", "text": "Clear-cutting strips tree roots that once anchored hillside soil" },
+      { "id": "c", "text": "Heavy rain washes loose mud rapidly into mountain streams" },
+      { "id": "d", "text": "Bare slopes absorb far less rainwater during storms" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Removing trees reduces soil absorption, speeding muddy runoff that fills riverbeds and triggers downstream floods.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/floods-and-deforestation",
+    "trap_notes": {
+      "default": "Tree loss cuts soil absorption, speeds muddy runoff, clogs channels, and floods towns."
+    }
+  },
+  {
+    "id": "geo-cau-106",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 19.076, "lng": 72.8777, "label": "Mumbai, India" },
+    "prompt": "Order the causal chain that produces South Asia's wet summer monsoon.",
+    "options": [
+      { "id": "a", "text": "Humid Indian Ocean winds rush inland toward low pressure" },
+      { "id": "b", "text": "Summer sunlight heats the Asian continent faster than the sea" },
+      { "id": "c", "text": "Warm air rises over India, creating a deep low-pressure zone" },
+      { "id": "d", "text": "Moist air rises over plateaus and drops heavy monsoon rain" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Fast land heating creates low pressure, pulling humid ocean winds onto the continent where they rise and rain.",
+    "source_url": "https://education.nationalgeographic.org/resource/monsoon/",
+    "trap_notes": {
+      "default": "Land heats up, air rises to form low pressure, ocean winds rush in, and rain falls."
+    }
+  },
+  {
+    "id": "geo-cau-107",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -1.2921, "lng": 36.8219, "label": "Nairobi, Kenya" },
+    "prompt": "Order the causal chain behind rapid population growth in Stage 2 of the Demographic Transition.",
+    "options": [
+      { "id": "a", "text": "Clean water, vaccines, and clinics lower infant death rates" },
+      { "id": "b", "text": "Births far outnumber deaths, creating a steep population boom" },
+      { "id": "c", "text": "Traditional farm families still average five or more children" },
+      { "id": "d", "text": "Life expectancy rises sharply across all younger age groups" }
+    ],
+    "answer": ["a", "d", "c", "b"],
+    "explanation": "Public health cuts infant deaths and raises life expectancy before family sizes shrink, causing rapid natural increase.",
+    "source_url": "https://www.prb.org/resources/glossary/",
+    "trap_notes": {
+      "default": "Clean water and medicine cut deaths first, while high birth habits keep population booming."
+    }
+  },
+  {
+    "id": "geo-cau-108",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -18.2871, "lng": 147.6992, "label": "Great Barrier Reef" },
+    "prompt": "Order the causal chain of coral reef bleaching during marine heatwaves.",
+    "options": [
+      { "id": "a", "text": "Corals turn stark white and risk starving if heat persists" },
+      { "id": "b", "text": "Ocean surface temperatures stay abnormally warm for weeks" },
+      { "id": "c", "text": "Heat stress causes coral polyps to expel symbiotic algae" },
+      { "id": "d", "text": "Corals lose both their bright color and main food source" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Prolonged warm water stresses corals into expelling their symbiotic algae, stripping their color and food supply.",
+    "source_url": "https://oceanservice.noaa.gov/facts/coral_bleach.html",
+    "trap_notes": {
+      "default": "Warm water stresses polyps, they expel algae, lose color and food, and turn white."
+    }
+  },
+  {
+    "id": "geo-cau-109",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.3526, "lng": -90.8779, "label": "Mississippi Floodplain" },
+    "prompt": "Order the causal chain that creates an oxbow lake on a flat river valley.",
+    "options": [
+      { "id": "a", "text": "Silt plugs both ends of the old bend, leaving a curved lake" },
+      { "id": "b", "text": "Fast outer-bank current erodes a river bend into a tight loop" },
+      { "id": "c", "text": "River water takes the shorter, steeper path across the neck" },
+      { "id": "d", "text": "A flood slices straight through the narrow neck of the loop" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Outer-bank erosion narrows a meander neck until a flood cuts through it, and silt seals off the abandoned loop.",
+    "source_url": "https://education.nationalgeographic.org/resource/oxbow-lake/",
+    "trap_notes": {
+      "default": "Erosion narrows the loop, floods cut across, flow takes the shortcut, silt seals the lake."
+    }
+  },
+  {
+    "id": "geo-cau-110",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.4484, "lng": -112.074, "label": "Phoenix, Arizona" },
+    "prompt": "Order the causal chain that produces an urban heat island in large cities.",
+    "options": [
+      { "id": "a", "text": "Dark asphalt roads and concrete roofs replace shade trees" },
+      { "id": "b", "text": "Downtown temperatures stay warmer than nearby rural farms" },
+      { "id": "c", "text": "Paved surfaces absorb intense sunlight all afternoon" },
+      { "id": "d", "text": "Stored heat radiates slowly back into city air after sunset" }
+    ],
+    "answer": ["a", "c", "d", "b"],
+    "explanation": "Replacing vegetation with dark pavement absorbs daytime heat and releases it at night, warming cities above rural areas.",
+    "source_url": "https://www.epa.gov/heatislands/learn-about-heat-islands",
+    "trap_notes": {
+      "default": "Pavement replaces trees, absorbs sun, radiates heat at night, and warms the city."
+    }
+  },
+  {
+    "id": "geo-cau-111",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.6777, "lng": -121.6555, "label": "Salinas Valley, California" },
+    "prompt": "Order the causal chain of saltwater intrusion into a coastal freshwater aquifer.",
+    "options": [
+      { "id": "a", "text": "Salty seawater flows inland into the depleted rock pores" },
+      { "id": "b", "text": "Coastal cities and farms pump groundwater faster than rain refills it" },
+      { "id": "c", "text": "Water wells turn brackish and unusable for drinking or crops" },
+      { "id": "d", "text": "Underground freshwater pressure drops below nearby sea level" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Overpumping lowers coastal water tables, allowing denser ocean saltwater to creep inland and contaminate wells.",
+    "source_url": "https://www.usgs.gov/mission-areas/water-resources/science/saltwater-intrusion",
+    "trap_notes": {
+      "default": "Overpumping drops freshwater pressure, seawater moves inland, and wells turn salty."
+    }
+  },
+  {
+    "id": "geo-cau-112",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 13.5116, "lng": 2.1254, "label": "Niamey, Niger" },
+    "prompt": "Order the causal chain driving desertification along the semi-arid Sahel belt.",
+    "options": [
+      { "id": "a", "text": "Wind and sun strip topsoil, turning pasture into barren sand" },
+      { "id": "b", "text": "Overgrazing and firewood cutting remove protective grass cover" },
+      { "id": "c", "text": "Bare ground reflects heat and holds less moisture for rain" },
+      { "id": "d", "text": "Multi-year drought stresses fragile semi-arid vegetation" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Drought paired with overgrazing strips grass cover, letting wind erode topsoil and leaving dry land less able to recover.",
+    "source_url": "https://education.nationalgeographic.org/resource/desertification/",
+    "trap_notes": {
+      "default": "Drought and overgrazing strip plants, topsoil erodes, and dry bare ground spreads."
+    }
+  },
+  {
+    "id": "geo-cau-113",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.9244, "lng": 4.4777, "label": "Port of Rotterdam, Netherlands" },
+    "prompt": "Order the causal chain explaining how shipping containers reshaped global port cities.",
+    "options": [
+      { "id": "a", "text": "Deep-water mega-ports boom while shallow historic piers close" },
+      { "id": "b", "text": "Standard steel containers replace slow, hand-loaded cargo crates" },
+      { "id": "c", "text": "Giant gantry cranes cut ship unloading time from days to hours" },
+      { "id": "d", "text": "Ocean freight costs plunge, spurring overseas factory trade" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Standardized containers enabled crane automation, slashing shipping costs and concentrating trade in deep-water ports.",
+    "source_url": "https://www.britannica.com/technology/containerization",
+    "trap_notes": {
+      "default": "Containers enabled fast cranes, cut freight costs, and shifted trade to deep mega-ports."
+    }
+  },
+  {
+    "id": "geo-cau-114",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 78.2232, "lng": 15.6267, "label": "Svalbard, Arctic Ocean" },
+    "prompt": "Order the causal chain of the Arctic ice-albedo warming feedback loop.",
+    "options": [
+      { "id": "a", "text": "Dark open ocean water absorbs far more solar heat than white ice" },
+      { "id": "b", "text": "Warmer regional water melts even more surrounding sea ice" },
+      { "id": "c", "text": "Rising Arctic air temperatures shrink reflective summer sea ice" },
+      { "id": "d", "text": "Exposed ocean surface warms faster during long polar summers" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Shrinking white sea ice exposes dark ocean water that absorbs more sunlight, warming the water and melting more ice.",
+    "source_url": "https://earthobservatory.nasa.gov/images/150444/arctic-sea-ice-continues-its-decline",
+    "trap_notes": {
+      "default": "Melting ice exposes dark water, which absorbs heat, warms up, and melts more ice."
+    }
+  },
+  {
+    "id": "geo-cau-115",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 31.2001, "lng": 29.9187, "label": "Nile Delta, Egypt" },
+    "prompt": "Order the causal chain linking large upstream dams to coastal river delta erosion.",
+    "options": [
+      { "id": "a", "text": "Ocean waves wash away shrinking delta farmland faster than it builds" },
+      { "id": "b", "text": "A huge hydroelectric dam blocks river flow to store water" },
+      { "id": "c", "text": "Downstream river water reaches the sea starved of fresh mud" },
+      { "id": "d", "text": "Heavy silt settles behind the dam inside the reservoir" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Dams trap river sediment in reservoirs, depriving downstream deltas of fresh silt so ocean waves erode the coast.",
+    "source_url": "https://earthobservatory.nasa.gov/images/8349/shrinking-nile-delta",
+    "trap_notes": {
+      "default": "Dams trap silt, sediment-starved water reaches the coast, and waves erode the delta."
+    }
+  },
+  {
+    "id": "geo-cau-116",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.901, "lng": 75.8573, "label": "Punjab, India" },
+    "prompt": "Order the causal chain linking the Green Revolution to rapid urbanization in Asia.",
+    "options": [
+      { "id": "a", "text": "Displaced rural laborers migrate to growing cities for factory jobs" },
+      { "id": "b", "text": "High-yield seeds, pumps, and tractors raise farm productivity" },
+      { "id": "c", "text": "Fewer farmworkers are needed to harvest larger grain crops" },
+      { "id": "d", "text": "Wealthier farms buy out small plots to operate at larger scale" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Green Revolution technology raised yields and favored larger mechanized farms, reducing rural labor demand and fueling city migration.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "default": "New farm tech raised output, consolidated land, cut rural jobs, and sent workers to cities."
+    }
+  },
+  {
+    "id": "geo-cau-117",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.749, "lng": -84.388, "label": "Atlanta, Georgia" },
+    "prompt": "Order the causal chain of postwar suburban sprawl in U.S. metropolitan areas.",
+    "options": [
+      { "id": "a", "text": "Low-density subdivisions spread miles beyond streetcar lines" },
+      { "id": "b", "text": "Federal highway funding and cheap mortgages spur car ownership" },
+      { "id": "c", "text": "Longer solo car commutes create heavy daily highway gridlock" },
+      { "id": "d", "text": "Retail malls and offices follow residents out to highway exits" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Highways and mortgages fueled car-based suburbs, pulling jobs and malls outward and creating long congested commutes.",
+    "source_url": "https://www.britannica.com/topic/urban-sprawl",
+    "trap_notes": {
+      "default": "Highways enabled distant suburbs, businesses followed, and car commutes clogged roads."
+    }
+  },
+  {
+    "id": "geo-cau-118",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 28.5383, "lng": -81.3792, "label": "Central Florida Karst" },
+    "prompt": "Order the causal chain that forms a sudden limestone karst sinkhole.",
+    "options": [
+      { "id": "a", "text": "Overlying soil collapses suddenly into the hollow cavern" },
+      { "id": "b", "text": "Rainwater picks up carbon dioxide to become mildly acidic" },
+      { "id": "c", "text": "Acidic groundwater slowly dissolves underground limestone" },
+      { "id": "d", "text": "A wide underground cavity grows until its roof weakens" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Mildly acidic groundwater dissolves limestone into a hidden cavity until the roof fails and surface soil collapses.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/sinkholes",
+    "trap_notes": {
+      "default": "Acidic water dissolves limestone, widens a cave, weakens the roof, and collapses the ground."
+    }
+  },
+  {
+    "id": "geo-cau-119",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -12.0464, "lng": -77.0428, "label": "Lima, Peru" },
+    "prompt": "Order the causal chain linking an El Nino event to collapsing anchovy catches off Peru.",
+    "options": [
+      { "id": "a", "text": "Warm surface water caps and blocks cold nutrient upwelling" },
+      { "id": "b", "text": "Pacific trade winds weaken and let warm water slosh east" },
+      { "id": "c", "text": "Plankton declines sharply, starving coastal anchovy schools" },
+      { "id": "d", "text": "Peruvian fishing fleets face severe catch shortages" }
+    ],
+    "answer": ["b", "a", "c", "d"],
+    "explanation": "Weakened trade winds shift warm water toward Peru, blocking cold nutrient upwelling, starving plankton, and hurting fisheries.",
+    "source_url": "https://oceanservice.noaa.gov/facts/ninonina.html",
+    "trap_notes": {
+      "default": "Trade winds weaken, warm water blocks upwelling, plankton drops, and fish catches fall."
+    }
+  },
+  {
+    "id": "geo-cau-120",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -22.9576, "lng": 14.5053, "label": "Namib Desert, Namibia" },
+    "prompt": "Order the causal chain showing why cold ocean currents create coastal fog deserts like the Namib.",
+    "options": [
+      { "id": "a", "text": "Cold air cannot rise high enough to form deep rain clouds" },
+      { "id": "b", "text": "A frigid polar ocean current flows along a subtropical coast" },
+      { "id": "c", "text": "Onshore breezes chill near the surface into low coastal fog" },
+      { "id": "d", "text": "Coastline receives thick mist but almost zero measurable rain" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Cold offshore currents chill passing air, creating low fog and stable air that resists rising to form rain clouds.",
+    "source_url": "https://www.britannica.com/place/Namib",
+    "trap_notes": {
+      "default": "Cold current chills coastal air into fog, stops upward storm clouds, and leaves a desert."
+    }
+  },
+  {
+    "id": "geo-cau-121",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 14.5995, "lng": 120.9842, "label": "Manila, Philippines" },
+    "prompt": "Order the causal chain of international brain drain from a developing nation.",
+    "options": [
+      { "id": "a", "text": "Home hospitals and tech firms face shortages of skilled staff" },
+      { "id": "b", "text": "Public universities train doctors, nurses, and engineers" },
+      { "id": "c", "text": "Graduates emigrate abroad seeking higher salaries and labs" },
+      { "id": "d", "text": "Limited local wages and openings fail to retain top talent" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "When local pay lags behind university training, skilled graduates emigrate abroad, leaving shortages at home.",
+    "source_url": "https://www.britannica.com/topic/brain-drain",
+    "trap_notes": {
+      "default": "Schools train talent, low local pay pushes them out, graduates emigrate, shortages follow."
+    }
+  },
+  {
+    "id": "geo-cau-122",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.2682, "lng": 140.8694, "label": "Sendai, Japan" },
+    "prompt": "Order the causal chain of a destructive tsunami triggered at a subduction zone.",
+    "options": [
+      { "id": "a", "text": "Waves slow down and tower into walls of water near shallow coasts" },
+      { "id": "b", "text": "Locked tectonic plates snap upward during an undersea quake" },
+      { "id": "c", "text": "Fast ripples race across deep ocean at jet-plane speeds" },
+      { "id": "d", "text": "Sudden seafloor uplift displaces a massive column of ocean water" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Seafloor uplift displaces ocean water, sending fast deep-water waves that shoal into tall walls near shore.",
+    "source_url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/tsunamis",
+    "trap_notes": {
+      "default": "Quake lifts seafloor, water is displaced, waves race across deep ocean, then tower at shore."
+    }
+  },
+  {
+    "id": "geo-cau-123",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 29.0, "lng": -90.0, "label": "Gulf of Mexico Dead Zone" },
+    "prompt": "Order the causal chain creating a seasonal hypoxic dead zone in the Gulf of Mexico.",
+    "options": [
+      { "id": "a", "text": "Bacteria decomposing dead algae strip oxygen from bottom water" },
+      { "id": "b", "text": "Mississippi River carries farm fertilizer runoff into the Gulf" },
+      { "id": "c", "text": "Fish and shrimp flee or suffocate in oxygen-starved waters" },
+      { "id": "d", "text": "Excess nitrogen sparks massive surface algae blooms" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Farm fertilizer runoff fuels algae blooms; when algae die and rot, bacteria consume bottom oxygen and drive away marine life.",
+    "source_url": "https://oceanservice.noaa.gov/facts/deadzone.html",
+    "trap_notes": {
+      "default": "Fertilizer runs off, algae blooms, decay strips oxygen, and marine life flees or dies."
+    }
+  },
+  {
+    "id": "geo-cau-124",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 64.8378, "lng": -147.7164, "label": "Fairbanks, Alaska" },
+    "prompt": "Order the causal chain showing how Arctic warming damages roads and pipelines on permafrost.",
+    "options": [
+      { "id": "a", "text": "Paved roads buckle and building foundations tilt or crack" },
+      { "id": "b", "text": "Subarctic summer temperatures climb higher across the tundra" },
+      { "id": "c", "text": "Ice-rich permafrost beneath the surface thaws into soft mud" },
+      { "id": "d", "text": "Ground sinks unevenly as melted ice drains from the soil" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Warmer summers thaw ice-rich permafrost into unstable mud, causing uneven sinking that buckles roads and buildings.",
+    "source_url": "https://www.usgs.gov/faqs/what-permafrost",
+    "trap_notes": {
+      "default": "Warming thaws frozen ground, soil sinks unevenly, and roads and buildings buckle."
+    }
+  },
+  {
+    "id": "geo-cau-125",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 12.5833, "lng": 43.3333, "label": "Bab el-Mandeb Strait" },
+    "prompt": "Order the causal chain showing how closing a maritime chokepoint like the Red Sea raises global prices.",
+    "options": [
+      { "id": "a", "text": "Higher fuel and insurance costs raise consumer prices worldwide" },
+      { "id": "b", "text": "Regional conflict threatens cargo ships in a narrow sea lane" },
+      { "id": "c", "text": "Voyages between Asia and Europe stretch by two weeks" },
+      { "id": "d", "text": "Shipping lines reroute tankers around southern Africa" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Threats in a narrow strait force ships onto longer routes around Africa, raising fuel costs and consumer prices.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "default": "Chokepoint conflict forces longer Africa detours, delays ships, and raises retail prices."
+    }
+  },
+  {
+    "id": "geo-cau-126",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -16.5, "lng": -68.15, "label": "La Paz, Bolivia" },
+    "prompt": "Order the causal chain linking Andean glacier retreat to dry-season city water shortages.",
+    "options": [
+      { "id": "a", "text": "Cities and farms face severe water shortages in dry months" },
+      { "id": "b", "text": "Rising mountain temperatures shrink high-altitude ice fields" },
+      { "id": "c", "text": "Meltwater feeding highland streams dwindles late in the year" },
+      { "id": "d", "text": "Glaciers store less winter snow to release during dry summers" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Warming shrinks mountain glaciers, cutting stored ice and reducing dry-season meltwater for downstream cities.",
+    "source_url": "https://earthobservatory.nasa.gov/world-of-change/Glaciers",
+    "trap_notes": {
+      "default": "Warming shrinks glaciers, reduces stored ice, cuts dry-season stream flow, and causes shortages."
+    }
+  },
+  {
+    "id": "geo-cau-127",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 5.6037, "lng": -0.187, "label": "Accra, Ghana" },
+    "prompt": "Order the causal chain linking colonial cash-crop monoculture to modern export vulnerability.",
+    "options": [
+      { "id": "a", "text": "Global price drops for that single crop slash national income" },
+      { "id": "b", "text": "Colonial powers convert diverse farms to one export crop" },
+      { "id": "c", "text": "Independent nations inherit railways geared to one port crop" },
+      { "id": "d", "text": "Countries remain reliant on exporting raw cocoa or coffee" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Colonial plantations built single-crop export infrastructure, leaving post-colonial economies exposed to global price swings.",
+    "source_url": "https://www.britannica.com/topic/plantation-agriculture",
+    "trap_notes": {
+      "default": "Colonial monoculture shaped port rails, locked in single-crop exports, and left price risk."
+    }
+  },
+  {
+    "id": "geo-cau-128",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 64.1466, "lng": -21.9426, "label": "Reykjavik, Iceland" },
+    "prompt": "Order the causal chain that lets Iceland generate abundant geothermal electricity.",
+    "options": [
+      { "id": "a", "text": "Pressurized steam spins turbines and heats Reykjavik homes" },
+      { "id": "b", "text": "Divergent plates pull apart along the Mid-Atlantic Ridge" },
+      { "id": "c", "text": "Shallow magma heats underground rainwater to boiling point" },
+      { "id": "d", "text": "Geothermal wells tap superheated steam from fractured rock" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Rifting along the Mid-Atlantic Ridge places hot magma near the surface, heating groundwater tapped for steam power.",
+    "source_url": "https://www.eia.gov/energyexplained/geothermal/",
+    "trap_notes": {
+      "default": "Rifting brings magma near surface, heats groundwater, wells tap steam, turbines spin."
+    }
+  },
+  {
+    "id": "geo-cau-129",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Order the causal chain of demographic aging in a Stage 5 country such as Japan.",
+    "options": [
+      { "id": "a", "text": "Shrinking workforce strains tax revenues for elder pensions" },
+      { "id": "b", "text": "Decades of very low birth rates shrink each new generation" },
+      { "id": "c", "text": "High life expectancy swells the share of citizens over age 65" },
+      { "id": "d", "text": "Fewer young adults enter jobs as older workers retire" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Sustained low birth rates and long lifespans create a top-heavy age structure, shrinking the workforce and straining pensions.",
+    "source_url": "https://www.prb.org/resources/glossary/",
+    "trap_notes": {
+      "default": "Low births plus long lives create more retirees, fewer workers, and pension strain."
+    }
+  },
+  {
+    "id": "geo-cau-130",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, California" },
+    "prompt": "Order the causal chain linking tech agglomeration to rising housing costs in booming cities.",
+    "options": [
+      { "id": "a", "text": "Bidding wars push rents up and force service workers to commute far" },
+      { "id": "b", "text": "High-paying software firms cluster in one metro hub" },
+      { "id": "c", "text": "Housing supply grows slowly due to zoning and land limits" },
+      { "id": "d", "text": "Thousands of well-paid engineers relocate into the region" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Clustered firms attract high-paid workers; when housing supply lags behind demand, rents surge and push lower-income workers out.",
+    "source_url": "https://www.britannica.com/money/agglomeration-economy",
+    "trap_notes": {
+      "default": "Firms cluster, high-paid workers arrive, slow housing supply sparks bidding, rents surge."
+    }
+  }
+]

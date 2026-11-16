@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "world-map-101",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early River Civilizations",
+    "era": "3500–1500 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.5364, "lng": 44.4208, "label": "Babylon, Mesopotamia" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 332, "y": 136, "label": "Babylon" },
+        { "id": "b", "x": 254, "y": 166, "label": "Memphis" },
+        { "id": "c", "x": 218, "y": 126, "label": "Knossos" },
+        { "id": "d", "x": 274, "y": 76, "label": "Hattusa" }
+      ]
+    },
+    "prompt": "Which pin marks the Mesopotamian city where Hammurabi issued his law code?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Babylon sat on the Euphrates River in southern Mesopotamia, where Hammurabi ruled around 1750 BCE.",
+    "source_url": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia",
+    "fun_fact": "Hammurabi's Code was carved onto a seven-foot black basalt stele now kept at the Louvre.",
+    "trap_notes": {
+      "b": "Memphis was an ancient capital of Egypt along the Nile River, not Mesopotamia.",
+      "c": "Knossos was the main Minoan palace center on the island of Crete.",
+      "d": "Hattusa was the capital of the Hittite Empire in central Anatolia.",
+      "default": "Babylon lay between the Tigris and Euphrates rivers in Mesopotamia."
+    }
+  },
+  {
+    "id": "world-map-102",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Indus Valley Civilization",
+    "era": "2600–1900 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 27.3242, "lng": 68.1357, "label": "Mohenjo-daro, Pakistan" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 152, "y": 44, "label": "Mohenjo-daro" },
+        { "id": "b", "x": 214, "y": 46, "label": "Pataliputra" },
+        { "id": "c", "x": 116, "y": 36, "label": "Hormuz" },
+        { "id": "d", "x": 194, "y": 138, "label": "Anuradhapura" }
+      ]
+    },
+    "prompt": "Select the Bronze Age Indus Valley city famous for its Great Bath and grid streets.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Mohenjo-daro rose along the lower Indus River with brick drains, grid streets, and the Great Bath.",
+    "source_url": "https://www.britannica.com/place/Mohenjo-daro",
+    "fun_fact": "Mohenjo-daro's baked-brick sewer lines connected private bathrooms to covered street drains.",
+    "trap_notes": {
+      "b": "Pataliputra was the later Mauryan capital on the Ganges River in eastern India.",
+      "c": "Hormuz guarded the strait at the mouth of the Persian Gulf, west of the Indus.",
+      "d": "Anuradhapura was an ancient Sinhalese capital on the island of Sri Lanka.",
+      "default": "Mohenjo-daro sat on the Indus River in present-day Pakistan."
+    }
+  },
+  {
+    "id": "world-map-103",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Phoenician Trade Network",
+    "era": "1200–500 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 36.8529, "lng": 10.3233, "label": "Carthage, Tunisia" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 118, "y": 124, "label": "Carthage" },
+        { "id": "b", "x": 286, "y": 134, "label": "Tyre" },
+        { "id": "c", "x": 196, "y": 98, "label": "Athens" },
+        { "id": "d", "x": 248, "y": 152, "label": "Alexandria" }
+      ]
+    },
+    "prompt": "Which pin marks the North African Phoenician colony that later rivaled Rome?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Phoenician traders from Tyre founded Carthage in modern Tunisia, controlling western sea lanes.",
+    "source_url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia",
+    "fun_fact": "Carthage's circular naval harbor could shelter over 200 warships behind a hidden wall.",
+    "trap_notes": {
+      "b": "Tyre was the Phoenician mother city on the Levant coast, not the western colony.",
+      "c": "Athens was a leading Greek city-state on the Aegean Sea.",
+      "d": "Alexandria was founded by Alexander the Great in Egypt in 331 BCE.",
+      "default": "Carthage sat in North Africa across the narrow sea from Sicily."
+    }
+  },
+  {
+    "id": "world-map-104",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Classical Greece",
+    "era": "500–323 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 196, "y": 98, "label": "Athens" },
+        { "id": "b", "x": 132, "y": 84, "label": "Rome" },
+        { "id": "c", "x": 238, "y": 62, "label": "Byzantium" },
+        { "id": "d", "x": 284, "y": 150, "label": "Jerusalem" }
+      ]
+    },
+    "prompt": "Which pin marks the Greek polis that led the Delian League and built the Parthenon?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Athens sat in Attica beside the Aegean Sea, using Delian League tribute to fund the Parthenon.",
+    "source_url": "https://www.britannica.com/place/Athens",
+    "fun_fact": "The Parthenon served as a treasury for the Delian League as well as a temple to Athena.",
+    "trap_notes": {
+      "b": "Rome lay on the Italian peninsula, west of Greece across the Adriatic Sea.",
+      "c": "Byzantium sat on the Bosphorus Strait linking the Aegean and Black seas.",
+      "d": "Jerusalem was an inland highland city in the Levant.",
+      "default": "Athens was located on the Greek mainland facing the Aegean Sea."
+    }
+  },
+  {
+    "id": "world-map-105",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Mauryan Empire",
+    "era": "322–185 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.5941, "lng": 85.1376, "label": "Patna, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 214, "y": 46, "label": "Pataliputra" },
+        { "id": "b", "x": 162, "y": 24, "label": "Harappa" },
+        { "id": "c", "x": 176, "y": 118, "label": "Calicut" },
+        { "id": "d", "x": 288, "y": 128, "label": "Malacca" }
+      ]
+    },
+    "prompt": "Which pin marks the Ganges River capital from which Ashoka ruled the Mauryan Empire?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Pataliputra sat at the junction of the Ganges and Son rivers and served as the Mauryan capital.",
+    "source_url": "https://www.britannica.com/place/Pataliputra",
+    "fun_fact": "Greek ambassador Megasthenes described Pataliputra as surrounded by a wooden wall with 570 towers.",
+    "trap_notes": {
+      "b": "Harappa was a Bronze Age Indus city in Punjab, predating the Mauryan Empire.",
+      "c": "Calicut was a medieval spice port on India's southwestern Malabar Coast.",
+      "d": "Malacca was a 15th-century trading sultanate on the Malay Peninsula.",
+      "default": "Ashoka ruled from Pataliputra on the fertile Ganges plain in northeastern India."
+    }
+  },
+  {
+    "id": "world-map-106",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Han Dynasty & Silk Road",
+    "era": "202 BCE–220 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Xi'an, China" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 112, "y": 106, "label": "Chang'an" },
+        { "id": "b", "x": 174, "y": 66, "label": "Beijing" },
+        { "id": "c", "x": 146, "y": 190, "label": "Guangzhou" },
+        { "id": "d", "x": 282, "y": 102, "label": "Kyoto" }
+      ]
+    },
+    "prompt": "Which pin marks the Han and Tang capital that served as the eastern terminus of the Silk Road?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Chang'an in the Wei River valley was the imperial capital of the Han and Tang dynasties.",
+    "source_url": "https://www.britannica.com/place/Xian-China",
+    "fun_fact": "At its Tang-era height, Chang'an held over one million residents inside walled city wards.",
+    "trap_notes": {
+      "b": "Beijing became China's primary imperial capital later under the Yuan, Ming, and Qing.",
+      "c": "Guangzhou was a southern maritime port on the Pearl River Delta.",
+      "d": "Kyoto was Japan's imperial capital founded in 794 CE.",
+      "default": "Chang'an lay inland in central China near the Yellow River bend."
+    }
+  },
+  {
+    "id": "world-map-107",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Byzantine Empire",
+    "era": "330–1453 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 238, "y": 62, "label": "Constantinople" },
+        { "id": "b", "x": 134, "y": 68, "label": "Venice" },
+        { "id": "c", "x": 248, "y": 152, "label": "Alexandria" },
+        { "id": "d", "x": 34, "y": 98, "label": "Cordoba" }
+      ]
+    },
+    "prompt": "Select the imperial capital guarding the Bosphorus Strait between Europe and Asia.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Constantinople controlled the narrow Bosphorus Strait linking the Black Sea and Mediterranean.",
+    "source_url": "https://www.britannica.com/place/Constantinople",
+    "fun_fact": "A heavy iron chain could be stretched across the Golden Horn to block enemy fleets.",
+    "trap_notes": {
+      "b": "Venice sat at the northern head of the Adriatic Sea in northeastern Italy.",
+      "c": "Alexandria sat on Egypt's Nile Delta along the southeastern Mediterranean.",
+      "d": "Cordoba lay inland on the Iberian Peninsula in southern Spain.",
+      "default": "Constantinople stood at the strait connecting the Black Sea to the Aegean."
+    }
+  },
+  {
+    "id": "world-map-108",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Kingdom of Aksum",
+    "era": "100–940 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 14.1211, "lng": 38.7234, "label": "Axum, Ethiopia" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 54, "y": 104, "label": "Aksum" },
+        { "id": "b", "x": 50, "y": 158, "label": "Kilwa" },
+        { "id": "c", "x": 112, "y": 54, "label": "Muscat" },
+        { "id": "d", "x": 176, "y": 118, "label": "Calicut" }
+      ]
+    },
+    "prompt": "Which pin marks the Christian African kingdom that linked Red Sea and Indian Ocean trade?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Aksum in the Ethiopian highlands traded ivory and gold through Red Sea ports with Rome and India.",
+    "source_url": "https://www.britannica.com/place/Aksum-ancient-kingdom-Africa",
+    "fun_fact": "Aksum minted its own gold, silver, and bronze coins bearing Greek and Ge'ez inscriptions.",
+    "trap_notes": {
+      "b": "Kilwa was a later Swahili Coast island city-state in southern Tanzania.",
+      "c": "Muscat sat on the eastern corner of the Arabian Peninsula facing the Gulf of Oman.",
+      "d": "Calicut was a trading port on India's southwestern coast.",
+      "default": "Aksum lay in the Horn of Africa near the southern Red Sea."
+    }
+  },
+  {
+    "id": "world-map-109",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Islamic Golden Age",
+    "era": "750–1258 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.3152, "lng": 44.3661, "label": "Baghdad, Iraq" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 228, "y": 88, "label": "Baghdad" },
+        { "id": "b", "x": 164, "y": 74, "label": "Cordoba" },
+        { "id": "c", "x": 254, "y": 72, "label": "Samarkand" },
+        { "id": "d", "x": 170, "y": 106, "label": "Timbuktu" }
+      ]
+    },
+    "prompt": "Which pin marks the Abbasid capital where the House of Wisdom translated classical texts?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Baghdad on the Tigris River became the Abbasid Caliphate's capital and scholarly hub in 762 CE.",
+    "source_url": "https://www.britannica.com/place/Baghdad",
+    "fun_fact": "Caliph al-Mansur laid out Baghdad as a circular city with four gates pointing outward.",
+    "trap_notes": {
+      "b": "Cordoba was the Umayyad scholarly center on the Iberian Peninsula.",
+      "c": "Samarkand was a Silk Road oasis city in Central Asia.",
+      "d": "Timbuktu was a trans-Saharan scholarship center in West Africa.",
+      "default": "Abbasid Baghdad sat in Mesopotamia between the Mediterranean and Central Asia."
+    }
+  },
+  {
+    "id": "world-map-110",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Heian & Edo Japan",
+    "era": "794–1868 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.0116, "lng": 135.7681, "label": "Kyoto, Japan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 282, "y": 102, "label": "Kyoto" },
+        { "id": "b", "x": 250, "y": 124, "label": "Nagasaki" },
+        { "id": "c", "x": 216, "y": 86, "label": "Hanyang" },
+        { "id": "d", "x": 172, "y": 130, "label": "Nanjing" }
+      ]
+    },
+    "prompt": "Which pin marks Japan's imperial capital for over a millennium starting in 794 CE?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Heian-kyo, modern Kyoto, served as Japan's imperial capital from 794 until 1868.",
+    "source_url": "https://www.britannica.com/place/Kyoto-Japan",
+    "fun_fact": "Kyoto's street grid was modeled on Tang China's capital of Chang'an.",
+    "trap_notes": {
+      "b": "Nagasaki on Kyushu was the port where Dutch traders were confined on Dejima.",
+      "c": "Hanyang, modern Seoul, was the capital of Joseon Korea.",
+      "d": "Nanjing was a Ming Chinese capital along the lower Yangtze River.",
+      "default": "Kyoto sits in central Honshu, Japan's largest main island."
+    }
+  },
+  {
+    "id": "world-map-111",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Trans-Saharan Trade",
+    "era": "1200–1600 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 170, "y": 106, "label": "Timbuktu" },
+        { "id": "b", "x": 212, "y": 94, "label": "Cairo" },
+        { "id": "c", "x": 212, "y": 154, "label": "Great Zimbabwe" },
+        { "id": "d", "x": 224, "y": 112, "label": "Lalibela" }
+      ]
+    },
+    "prompt": "Select the Mali Empire trading city near the Niger River bend famous for its manuscripts.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Timbuktu linked West African gold and salt caravans and hosted Sankore University's scholars.",
+    "source_url": "https://www.britannica.com/place/Timbuktu-Mali",
+    "fun_fact": "Hundreds of thousands of medieval Arabic and local-language manuscripts survive in Timbuktu.",
+    "trap_notes": {
+      "b": "Cairo sat on the Nile Delta in northeastern Africa, not West Africa.",
+      "c": "Great Zimbabwe lay in southern Africa between the Zambezi and Limpopo rivers.",
+      "d": "Lalibela was a medieval Christian rock-church center in highland Ethiopia.",
+      "default": "Timbuktu sat on the southern edge of the Sahara in West Africa."
+    }
+  },
+  {
+    "id": "world-map-112",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Swahili Coast City-States",
+    "era": "1000–1500 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -8.9606, "lng": 39.5125, "label": "Kilwa Kisiwani, Tanzania" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 50, "y": 158, "label": "Kilwa" },
+        { "id": "b", "x": 68, "y": 84, "label": "Aden" },
+        { "id": "c", "x": 158, "y": 72, "label": "Surat" },
+        { "id": "d", "x": 312, "y": 174, "label": "Majapahit" }
+      ]
+    },
+    "prompt": "Which pin marks the Swahili Coast island port praised by Ibn Battuta for its gold trade?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Kilwa Kisiwani off Tanzania's coast taxed inland Zimbabwe gold entering Indian Ocean trade.",
+    "source_url": "https://www.britannica.com/place/Kilwa-Kisiwani",
+    "fun_fact": "Kilwa's Husuni Kubwa palace featured coral-stone domes and an octagonal bathing pool.",
+    "trap_notes": {
+      "b": "Aden guarded the southwestern tip of the Arabian Peninsula at the Red Sea mouth.",
+      "c": "Surat was a major Mughal port in western India's Gujarat region.",
+      "d": "Majapahit was a maritime Hindu-Buddhist empire centered on the island of Java.",
+      "default": "Kilwa sat on the East African Swahili Coast facing the Indian Ocean."
+    }
+  },
+  {
+    "id": "world-map-113",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Silk Road Oasis Cities",
+    "era": "200 BCE–1500 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.6542, "lng": 66.9597, "label": "Samarkand, Uzbekistan" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 254, "y": 72, "label": "Samarkand" },
+        { "id": "b", "x": 204, "y": 78, "label": "Constantinople" },
+        { "id": "c", "x": 294, "y": 82, "label": "Chang'an" },
+        { "id": "d", "x": 266, "y": 92, "label": "Delhi" }
+      ]
+    },
+    "prompt": "Which pin marks the Central Asian Silk Road oasis that later became Timur's capital?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Samarkand in Transoxiana sat at the crossroads of caravan routes linking China, Persia, and India.",
+    "source_url": "https://www.britannica.com/place/Samarkand-Uzbekistan",
+    "fun_fact": "Samarkand's Registan square is framed by three turquoise-tiled madrasas.",
+    "trap_notes": {
+      "b": "Constantinople sat far to the west on the Bosphorus Strait.",
+      "c": "Chang'an was the eastern Silk Road terminus inside China.",
+      "d": "Delhi lay south of the Himalayas on the North Indian plain.",
+      "default": "Samarkand lay in Central Asia between Persia and western China."
+    }
+  },
+  {
+    "id": "world-map-114",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Southeast Asian Maritime Trade",
+    "era": "1400–1511 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 2.1896, "lng": 102.2501, "label": "Malacca, Malaysia" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 288, "y": 128, "label": "Malacca" },
+        { "id": "b", "x": 198, "y": 106, "label": "Coromandel" },
+        { "id": "c", "x": 116, "y": 36, "label": "Hormuz" },
+        { "id": "d", "x": 46, "y": 48, "label": "Mecca" }
+      ]
+    },
+    "prompt": "Select the port controlling the narrow strait between the Indian Ocean and South China Sea.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Malacca sat on the Strait of Malacca, where monsoon winds forced ships to wait and trade.",
+    "source_url": "https://www.britannica.com/place/Melaka-Malaysia",
+    "fun_fact": "Over 80 languages were reportedly spoken in Malacca's markets before Portugal seized it in 1511.",
+    "trap_notes": {
+      "b": "The Coromandel Coast lay along southeastern India, west of the Bay of Bengal.",
+      "c": "Hormuz controlled the entrance to the Persian Gulf, not Southeast Asia.",
+      "d": "Mecca sat inland near the Red Sea on the Arabian Peninsula.",
+      "default": "Malacca guarded the narrow waterway between the Malay Peninsula and Sumatra."
+    }
+  },
+  {
+    "id": "world-map-115",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Mesoamerican Civilizations",
+    "era": "1325–1521 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 68, "y": 100, "label": "Tenochtitlan" },
+        { "id": "b", "x": 86, "y": 146, "label": "Cusco" },
+        { "id": "c", "x": 92, "y": 74, "label": "Cahokia" },
+        { "id": "d", "x": 120, "y": 144, "label": "Bahia" }
+      ]
+    },
+    "prompt": "Which pin marks the Aztec island capital built on Lake Texcoco in central Mexico?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Tenochtitlan sat in the Valley of Mexico, linked to the mainland by causeways and chinampas.",
+    "source_url": "https://www.britannica.com/place/Tenochtitlan",
+    "fun_fact": "Aztec engineers built a ten-mile dike across Lake Texcoco to hold back salty floodwaters.",
+    "trap_notes": {
+      "b": "Cusco was the Inca capital high in the Peruvian Andes of South America.",
+      "c": "Cahokia was a Mississippian mound city near the confluence of the Missouri and Mississippi.",
+      "d": "Bahia was a colonial Portuguese sugar port on Brazil's Atlantic coast.",
+      "default": "Tenochtitlan lay in central Mexico, north of the Isthmus of Panama."
+    }
+  },
+  {
+    "id": "world-map-116",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Andean Civilizations",
+    "era": "1438–1533 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -13.5319, "lng": -71.9675, "label": "Cusco, Peru" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 86, "y": 146, "label": "Cusco" },
+        { "id": "b", "x": 68, "y": 100, "label": "Tenochtitlan" },
+        { "id": "c", "x": 120, "y": 144, "label": "Salvador" },
+        { "id": "d", "x": 92, "y": 106, "label": "Havana" }
+      ]
+    },
+    "prompt": "Select the Andean highland capital connected by stone roads and relay runners.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Cusco in southern Peru served as the administrative heart of the Inca Empire.",
+    "source_url": "https://www.britannica.com/place/Cuzco",
+    "fun_fact": "Inca stone masons shaped interlocking blocks in Cusco without mortar.",
+    "trap_notes": {
+      "b": "Tenochtitlan was the Aztec capital in central Mexico.",
+      "c": "Salvador sat on Brazil's Atlantic coast, thousands of miles east of the Andes.",
+      "d": "Havana was a Spanish port on the Caribbean island of Cuba.",
+      "default": "Cusco lay in the Andes Mountains along western South America."
+    }
+  },
+  {
+    "id": "world-map-117",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Southern African Kingdoms",
+    "era": "1100–1450 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -20.2675, "lng": 30.9333, "label": "Great Zimbabwe, Zimbabwe" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 212, "y": 154, "label": "Great Zimbabwe" },
+        { "id": "b", "x": 170, "y": 106, "label": "Timbuktu" },
+        { "id": "c", "x": 224, "y": 112, "label": "Aksum" },
+        { "id": "d", "x": 164, "y": 74, "label": "Lisbon" }
+      ]
+    },
+    "prompt": "Which pin marks the dry-stone walled capital that supplied gold to the Swahili Coast?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Great Zimbabwe sat on a plateau in southern Africa, exporting gold and ivory toward coastal ports.",
+    "source_url": "https://www.britannica.com/place/Great-Zimbabwe",
+    "fun_fact": "Great Zimbabwe's Great Enclosure walls rise over 30 feet without a single drop of mortar.",
+    "trap_notes": {
+      "b": "Timbuktu lay far to the northwest in Mali along the Sahara's edge.",
+      "c": "Aksum was an earlier kingdom in the Ethiopian highlands near the Red Sea.",
+      "d": "Lisbon was Portugal's Atlantic capital in southwestern Europe.",
+      "default": "Great Zimbabwe lay inland in southeastern Africa."
+    }
+  },
+  {
+    "id": "world-map-118",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Italian Renaissance",
+    "era": "1350–1550 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.4408, "lng": 12.3155, "label": "Venice, Italy" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 134, "y": 68, "label": "Venice" },
+        { "id": "b", "x": 146, "y": 128, "label": "Syracuse" },
+        { "id": "c", "x": 238, "y": 62, "label": "Constantinople" },
+        { "id": "d", "x": 248, "y": 152, "label": "Alexandria" }
+      ]
+    },
+    "prompt": "Which pin marks the Adriatic maritime republic that financed Mediterranean spice fleets?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Venice sat at the northern tip of the Adriatic Sea, dominating eastern Mediterranean spice trade.",
+    "source_url": "https://www.britannica.com/place/Venice",
+    "fun_fact": "Venice's state Arsenal could assemble and outfit a full war galley in a single day.",
+    "trap_notes": {
+      "b": "Syracuse was an ancient Greek port on the island of Sicily.",
+      "c": "Constantinople lay farther east on the Bosphorus Strait.",
+      "d": "Alexandria sat on Egypt's coast, where Venetian merchants bought Asian spices.",
+      "default": "Venice sat at the head of the Adriatic Sea in northeastern Italy."
+    }
+  },
+  {
+    "id": "world-map-119",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Ming Maritime Expeditions",
+    "era": "1405–1433 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 172, "y": 130, "label": "Nanjing" },
+        { "id": "b", "x": 48, "y": 86, "label": "Dunhuang" },
+        { "id": "c", "x": 226, "y": 104, "label": "Gyeongju" },
+        { "id": "d", "x": 300, "y": 88, "label": "Edo" }
+      ]
+    },
+    "prompt": "Select the lower Yangtze capital whose shipyards built Zheng He's treasure fleets.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Nanjing served as the early Ming capital and housed the massive Longjiang treasure shipyards.",
+    "source_url": "https://www.britannica.com/place/Nanjing-China",
+    "fun_fact": "Dry docks excavated in Nanjing show basins large enough for multi-masted ocean junks.",
+    "trap_notes": {
+      "b": "Dunhuang was a desert Silk Road oasis in far northwestern China.",
+      "c": "Gyeongju was the ancient Silla capital in southeastern Korea.",
+      "d": "Edo, modern Tokyo, was the Tokugawa shogunate's capital in Japan.",
+      "default": "Nanjing lay on the lower Yangtze River near China's eastern coast."
+    }
+  },
+  {
+    "id": "world-map-120",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early Modern Maritime Empires",
+    "era": "1498–1600 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 11.2588, "lng": 75.7804, "label": "Kozhikode, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 176, "y": 118, "label": "Calicut" },
+        { "id": "b", "x": 186, "y": 30, "label": "Delhi" },
+        { "id": "c", "x": 68, "y": 116, "label": "Mogadishu" },
+        { "id": "d", "x": 270, "y": 134, "label": "Aceh" }
+      ]
+    },
+    "prompt": "Which pin marks the Malabar Coast pepper port where Vasco da Gama landed in 1498?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Vasco da Gama reached Calicut on India's southwestern Malabar Coast after rounding Africa.",
+    "source_url": "https://www.britannica.com/place/Kozhikode",
+    "fun_fact": "Calicut gave its name to calico, the printed cotton cloth exported around the world.",
+    "trap_notes": {
+      "b": "Delhi was an inland northern capital far from the ocean.",
+      "c": "Mogadishu was a Somali port on the East African coast.",
+      "d": "Aceh lay at the northern tip of Sumatra in Southeast Asia.",
+      "default": "Calicut sat on the southwestern coast of the Indian peninsula."
+    }
+  },
+  {
+    "id": "world-map-121",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Global Silver Trade",
+    "era": "1545–1700 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -19.5723, "lng": -65.755, "label": "Potosi, Bolivia" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 98, "y": 158, "label": "Potosi" },
+        { "id": "b", "x": 92, "y": 106, "label": "Havana" },
+        { "id": "c", "x": 164, "y": 74, "label": "Seville" },
+        { "id": "d", "x": 306, "y": 132, "label": "Manila" }
+      ]
+    },
+    "prompt": "Which pin marks the Andean mountain city whose silver mines fueled global trade?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Potosi in Upper Peru produced vast quantities of silver shipped across the Atlantic and Pacific.",
+    "source_url": "https://www.britannica.com/place/Potosi-Bolivia",
+    "fun_fact": "At over 13,000 feet above sea level, Potosi briefly grew larger than London or Madrid.",
+    "trap_notes": {
+      "b": "Havana was the Caribbean port where Spanish treasure fleets assembled for Europe.",
+      "c": "Seville in Spain received American silver but had no silver mountain.",
+      "d": "Manila in the Philippines exchanged American silver for Chinese silk and porcelain.",
+      "default": "Potosi lay high in the central Andes of South America."
+    }
+  },
+  {
+    "id": "world-map-122",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Tokugawa Seclusion",
+    "era": "1603–1853 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.7503, "lng": 129.8779, "label": "Nagasaki, Japan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 250, "y": 124, "label": "Nagasaki" },
+        { "id": "b", "x": 300, "y": 88, "label": "Edo" },
+        { "id": "c", "x": 182, "y": 142, "label": "Hangzhou" },
+        { "id": "d", "x": 195, "y": 172, "label": "Taipei" }
+      ]
+    },
+    "prompt": "Which pin marks the Japanese port where Dutch merchants traded from Dejima island?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Under Tokugawa sakoku rules, Dutch and Chinese traders were restricted to Nagasaki on Kyushu.",
+    "source_url": "https://www.britannica.com/place/Nagasaki-Japan",
+    "fun_fact": "Japanese scholars studied European medicine and astronomy through Dutch books brought to Dejima.",
+    "trap_notes": {
+      "b": "Edo was the shogun's political capital on eastern Honshu, closed to foreign ships.",
+      "c": "Hangzhou was a Chinese canal city near the mouth of the Yangtze.",
+      "d": "Taipei sits on the island of Taiwan, south of Japan.",
+      "default": "Nagasaki lies on Japan's southernmost main island of Kyushu."
+    }
+  },
+  {
+    "id": "world-map-123",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Mughal Empire",
+    "era": "1526–1707 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "Delhi, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 186, "y": 30, "label": "Delhi" },
+        { "id": "b", "x": 164, "y": 94, "label": "Goa" },
+        { "id": "c", "x": 194, "y": 138, "label": "Colombo" },
+        { "id": "d", "x": 68, "y": 84, "label": "Aden" }
+      ]
+    },
+    "prompt": "Select the northern Indian capital where Shah Jahan built the Red Fort.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Shah Jahan moved the Mughal court to Delhi in 1648, constructing Shahjahanabad and the Red Fort.",
+    "source_url": "https://www.britannica.com/place/Delhi",
+    "fun_fact": "The Red Fort's sandstone walls stretch for more than a mile along the Yamuna River.",
+    "trap_notes": {
+      "b": "Goa was a Portuguese coastal enclave on western India's Konkan coast.",
+      "c": "Colombo was a port on the island of Sri Lanka.",
+      "d": "Aden was a Red Sea port on the southern tip of Arabia.",
+      "default": "Mughal Delhi sat inland on the northern Indian plain."
+    }
+  },
+  {
+    "id": "world-map-124",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "European Colonial Voyages",
+    "era": "1768–1800 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -33.8688, "lng": 151.2093, "label": "Sydney, Australia" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 326, "y": 176, "label": "Botany Bay" },
+        { "id": "b", "x": 198, "y": 180, "label": "Cape Town" },
+        { "id": "c", "x": 292, "y": 132, "label": "Malacca" },
+        { "id": "d", "x": 324, "y": 66, "label": "Nagasaki" }
+      ]
+    },
+    "prompt": "Which pin marks the Australian site where Britain established a penal colony in 1788?",
+    "options": [],
+    "answer": "a",
+    "explanation": "After losing American penal sites, Britain sent the First Fleet to Botany Bay and Sydney Cove in 1788.",
+    "source_url": "https://www.britannica.com/place/Botany-Bay",
+    "fun_fact": "Botanist Joseph Banks named Botany Bay for the hundreds of unfamiliar plant species collected there.",
+    "trap_notes": {
+      "b": "Cape Town sat at the southern tip of Africa, founded earlier by the Dutch East India Company.",
+      "c": "Malacca was a Southeast Asian strait port, not in Australia.",
+      "d": "Nagasaki was a Japanese port on the island of Kyushu.",
+      "default": "Botany Bay lay on the southeastern coast of Australia."
+    }
+  },
+  {
+    "id": "world-map-125",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Opium Wars & Treaty Ports",
+    "era": "1839–1860 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.1291, "lng": 113.2644, "label": "Guangzhou, China" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 146, "y": 190, "label": "Guangzhou" },
+        { "id": "b", "x": 174, "y": 66, "label": "Beijing" },
+        { "id": "c", "x": 86, "y": 134, "label": "Chengdu" },
+        { "id": "d", "x": 212, "y": 76, "label": "Pyongyang" }
+      ]
+    },
+    "prompt": "Select the southern Chinese port where Qing officials confined foreign trade under the Canton System.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Before 1842, Qing rulers restricted European merchants to Guangzhou on the Pearl River Delta.",
+    "source_url": "https://www.britannica.com/place/Guangzhou",
+    "fun_fact": "Commissioner Lin Zexu destroyed over 20,000 chests of opium near Guangzhou in 1839.",
+    "trap_notes": {
+      "b": "Beijing was the northern imperial capital, closed to Western maritime traders.",
+      "c": "Chengdu sat deep inland in the Sichuan Basin.",
+      "d": "Pyongyang was a northern city on the Korean Peninsula.",
+      "default": "Guangzhou sat on China's southern coast near the Pearl River mouth."
+    }
+  },
+  {
+    "id": "world-map-126",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "British Raj & 1857",
+    "era": "1857–1947 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 18.9388, "lng": 72.8354, "label": "Mumbai, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 158, "y": 72, "label": "Bombay" },
+        { "id": "b", "x": 228, "y": 66, "label": "Calcutta" },
+        { "id": "c", "x": 198, "y": 106, "label": "Madras" },
+        { "id": "d", "x": 288, "y": 128, "label": "Singapore" }
+      ]
+    },
+    "prompt": "Which pin marks the western Indian port that grew into a major cotton-mill hub under British rule?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Bombay on India's Arabian Sea coast boomed after the 1860s as a cotton export and textile hub.",
+    "source_url": "https://www.britannica.com/place/Mumbai",
+    "fun_fact": "The Suez Canal opening in 1869 cut the sea voyage from Bombay to London nearly in half.",
+    "trap_notes": {
+      "b": "Calcutta sat on the Hooghly River at the eastern head of the Bay of Bengal.",
+      "c": "Madras lay on India's southeastern coast facing the Bay of Bengal.",
+      "d": "Singapore sat at the southern tip of the Malay Peninsula.",
+      "default": "Bombay sat on India's western coast facing the Arabian Sea."
+    }
+  },
+  {
+    "id": "world-map-127",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "19th-Century Global Chokepoints",
+    "era": "1869–1914 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Suez Canal, Egypt" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 266, "y": 156, "label": "Suez Canal" },
+        { "id": "b", "x": 24, "y": 108, "label": "Gibraltar" },
+        { "id": "c", "x": 238, "y": 62, "label": "Bosphorus" },
+        { "id": "d", "x": 146, "y": 128, "label": "Messina" }
+      ]
+    },
+    "prompt": "Which pin marks the 1869 canal that connected the Mediterranean Sea to the Red Sea?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Opened in 1869, the Suez Canal crossed Egypt's Sinai isthmus to link Europe and Asia by sea.",
+    "source_url": "https://www.britannica.com/topic/Suez-Canal",
+    "fun_fact": "Britain bought Egypt's 44 percent share in the Suez Canal Company in 1875.",
+    "trap_notes": {
+      "b": "Gibraltar guarded the western entrance to the Mediterranean at the Atlantic.",
+      "c": "The Bosphorus linked the Mediterranean system to the Black Sea, not the Red Sea.",
+      "d": "The Strait of Messina separated Sicily from mainland Italy.",
+      "default": "The Suez Canal cut across northeastern Egypt toward the Red Sea."
+    }
+  },
+  {
+    "id": "world-map-128",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "World War I",
+    "era": "1914–1918 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.2, "lng": 26.3, "label": "Gallipoli, Turkey" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 228, "y": 72, "label": "Gallipoli" },
+        { "id": "b", "x": 118, "y": 124, "label": "Tunis" },
+        { "id": "c", "x": 284, "y": 150, "label": "Jerusalem" },
+        { "id": "d", "x": 34, "y": 98, "label": "Seville" }
+      ]
+    },
+    "prompt": "Select the Dardanelles peninsula where Allied and Ottoman forces fought a costly 1915 campaign.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Allied troops landed at Gallipoli in 1915 to force the Dardanelles strait toward Constantinople.",
+    "source_url": "https://www.britannica.com/event/Gallipoli-Campaign",
+    "fun_fact": "ANZAC Day in Australia and New Zealand commemorates the April 25, 1915 Gallipoli landings.",
+    "trap_notes": {
+      "b": "Tunis was a North African port where Allied forces fought in World War II, not 1915.",
+      "c": "British forces captured Jerusalem from the Ottomans later in December 1917.",
+      "d": "Seville was in neutral Spain during World War I.",
+      "default": "Gallipoli guarded the Dardanelles entrance leading toward Constantinople."
+    }
+  },
+  {
+    "id": "world-map-129",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Cold War in East Asia",
+    "era": "1950–1953 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.9557, "lng": 126.6788, "label": "38th Parallel, Korea" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 216, "y": 86, "label": "Seoul" },
+        { "id": "b", "x": 174, "y": 66, "label": "Beijing" },
+        { "id": "c", "x": 282, "y": 102, "label": "Osaka" },
+        { "id": "d", "x": 195, "y": 172, "label": "Taipei" }
+      ]
+    },
+    "prompt": "Which pin marks the Korean capital just south of the 38th parallel division line?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Seoul lay just south of the 38th parallel and changed hands four times during the Korean War.",
+    "source_url": "https://www.britannica.com/event/Korean-War",
+    "fun_fact": "The 1953 armistice established a 2.5-mile-wide Demilitarized Zone near the 38th parallel.",
+    "trap_notes": {
+      "b": "Beijing was the capital of the People's Republic of China.",
+      "c": "Osaka was a major industrial city on Japan's main island of Honshu.",
+      "d": "Taipei on Taiwan became the Nationalist seat in 1949.",
+      "default": "Seoul sits near the center of the Korean Peninsula."
+    }
+  },
+  {
+    "id": "world-map-130",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Cold War Crises",
+    "era": "1945–1991 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 184, "y": 54, "label": "Berlin" },
+        { "id": "b", "x": 92, "y": 106, "label": "Havana" },
+        { "id": "c", "x": 214, "y": 50, "label": "Moscow" },
+        { "id": "d", "x": 302, "y": 72, "label": "Beijing" }
+      ]
+    },
+    "prompt": "Which pin marks the divided European city supplied by a 1948–1949 Allied airlift?",
+    "options": [],
+    "answer": "a",
+    "explanation": "West Berlin lay inside Soviet-occupied East Germany, prompting the 1948–1949 Berlin Airlift.",
+    "source_url": "https://www.britannica.com/event/Berlin-blockade",
+    "fun_fact": "At the airlift's peak, Allied cargo planes landed in West Berlin roughly every minute.",
+    "trap_notes": {
+      "b": "Havana was the capital of Cuba, site of the 1962 missile crisis.",
+      "c": "Moscow was the capital of the Soviet Union.",
+      "d": "Beijing was the capital of Communist China from 1949 onward.",
+      "default": "Berlin lay in central Europe, west of Moscow and east of London."
+    }
+  },
+  {
+    "id": "world-cmp-101",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Mesopotamia & Egypt",
+    "era": "3500–1500 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo, Egypt" },
+    "compareSpec": {
+      "leftLabel": "Mesopotamia",
+      "rightLabel": "Ancient Egypt",
+      "items": [
+        { "id": "i1", "text": "Cuneiform pressed on clay tablets", "bucket": "left" },
+        { "id": "i2", "text": "Stepped mud-brick ziggurat temples", "bucket": "left" },
+        { "id": "i3", "text": "Hieroglyphs carved on stone and papyrus", "bucket": "right" },
+        { "id": "i4", "text": "Predictable annual Nile River floods", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Bronze Age feature into Mesopotamia or Ancient Egypt:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mesopotamia used clay cuneiform and ziggurats, while Egypt used papyrus hieroglyphs and steady Nile floods.",
+    "source_url": "https://www.britannica.com/topic/cuneiform",
+    "fun_fact": "Papyrus reeds grew abundantly along the Nile, while Mesopotamia relied on river clay.",
+    "trap_notes": {
+      "default": "Clay tablets and ziggurats belong to Mesopotamia; papyrus and Nile floods belong to Egypt."
+    }
+  },
+  {
+    "id": "world-cmp-102",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Classical Greece",
+    "era": "500–400 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.0755, "lng": 22.4303, "label": "Sparta, Greece" },
+    "compareSpec": {
+      "leftLabel": "Classical Athens",
+      "rightLabel": "Classical Sparta",
+      "items": [
+        { "id": "i1", "text": "Direct male-citizen assembly voting", "bucket": "left" },
+        { "id": "i2", "text": "Trireme navy funding Delian League", "bucket": "left" },
+        { "id": "i3", "text": "Dual kingship and council of elders", "bucket": "right" },
+        { "id": "i4", "text": "Agoge barracks training for boys", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each civic institution to Classical Athens or Classical Sparta:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Athens built a naval democracy, whereas Sparta maintained dual kings and lifelong military training.",
+    "source_url": "https://www.britannica.com/place/Sparta",
+    "fun_fact": "Spartan citizens relied on enslaved helots to farm so men could train full-time.",
+    "trap_notes": {
+      "default": "Athens centered on naval power and citizen assembly; Sparta centered on barracks and dual kings."
+    }
+  },
+  {
+    "id": "world-cmp-103",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Roman Governance",
+    "era": "509 BCE–476 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "compareSpec": {
+      "leftLabel": "Roman Republic",
+      "rightLabel": "Roman Empire",
+      "items": [
+        { "id": "i1", "text": "Two annually elected consuls", "bucket": "left" },
+        { "id": "i2", "text": "Twelve Tables posted in the Forum", "bucket": "left" },
+        { "id": "i3", "text": "Augustus holds lifelong princeps power", "bucket": "right" },
+        { "id": "i4", "text": "Hadrian's Wall marks northern frontier", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each milestone under the Roman Republic or the Roman Empire:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Consuls and the Twelve Tables defined the Republic; Augustus and Hadrian's Wall belong to the Empire.",
+    "source_url": "https://www.britannica.com/place/ancient-Rome",
+    "fun_fact": "Roman consuls could veto each other's decisions and served only one-year terms.",
+    "trap_notes": {
+      "default": "The Republic relied on elected annual consuls before Augustus began imperial rule in 27 BCE."
+    }
+  },
+  {
+    "id": "world-cmp-104",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Chinese Philosophical Traditions",
+    "era": "551–200 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 35.597, "lng": 116.991, "label": "Qufu, China" },
+    "compareSpec": {
+      "leftLabel": "Confucianism",
+      "rightLabel": "Legalism",
+      "items": [
+        { "id": "i1", "text": "Filial piety and five relationships", "bucket": "left" },
+        { "id": "i2", "text": "Moral example from educated officials", "bucket": "left" },
+        { "id": "i3", "text": "Strict rewards and harsh punishments", "bucket": "right" },
+        { "id": "i4", "text": "Qin state centralization under Han Feizi", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each political idea into Confucianism or Legalism:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Confucianism stressed moral duty and hierarchy, while Legalism enforced strict state laws and penalties.",
+    "source_url": "https://www.britannica.com/topic/Legalism",
+    "fun_fact": "The Han Dynasty blended Legalist administrative tools with official Confucian scholarship.",
+    "trap_notes": {
+      "default": "Confucianism emphasizes moral example and filial duty; Legalism relies on strict laws."
+    }
+  },
+  {
+    "id": "world-cmp-105",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "South Asian Religions",
+    "era": "1500–400 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 24.6961, "lng": 84.9913, "label": "Bodh Gaya, India" },
+    "compareSpec": {
+      "leftLabel": "Early Hinduism",
+      "rightLabel": "Early Buddhism",
+      "items": [
+        { "id": "i1", "text": "Vedic hymns and Brahmin rituals", "bucket": "left" },
+        { "id": "i2", "text": "Varna social duties and dharma", "bucket": "left" },
+        { "id": "i3", "text": "Four Noble Truths on suffering", "bucket": "right" },
+        { "id": "i4", "text": "Eightfold Path rejecting caste birth", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each belief or practice into Early Hinduism or Early Buddhism:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Early Hinduism centered on Vedic rituals and varna duties; Buddhism taught the Four Noble Truths.",
+    "source_url": "https://www.britannica.com/topic/Buddhism",
+    "fun_fact": "Both traditions shared concepts of karma and rebirth while differing on caste and the Vedas.",
+    "trap_notes": {
+      "default": "Vedas and Brahmin rites belong to Hinduism; the Four Noble Truths belong to Buddhism."
+    }
+  },
+  {
+    "id": "world-cmp-106",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Medieval Christianity",
+    "era": "500–1453 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.0086, "lng": 28.9802, "label": "Hagia Sophia, Istanbul" },
+    "compareSpec": {
+      "leftLabel": "Roman Catholicism",
+      "rightLabel": "Eastern Orthodoxy",
+      "items": [
+        { "id": "i1", "text": "Papal authority based in Rome", "bucket": "left" },
+        { "id": "i2", "text": "Latin liturgy across Western Europe", "bucket": "left" },
+        { "id": "i3", "text": "Greek and Slavic liturgical languages", "bucket": "right" },
+        { "id": "i4", "text": "Patriarch of Constantinople leadership", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each medieval church feature into Roman Catholicism or Eastern Orthodoxy:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Western Catholicism used Latin under the Pope; Eastern Orthodoxy used Greek or Slavic under patriarchs.",
+    "source_url": "https://www.britannica.com/topic/East-West-Schism-1054",
+    "fun_fact": "The 1054 Great Schism formally split the Roman and Constantinopolitan churches.",
+    "trap_notes": {
+      "default": "Papal authority and Latin belong to Rome; patriarchs and Greek/Slavic belong to Constantinople."
+    }
+  },
+  {
+    "id": "world-cmp-107",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Islamic Caliphates",
+    "era": "661–1258 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.5138, "lng": 36.2765, "label": "Damascus, Syria" },
+    "compareSpec": {
+      "leftLabel": "Umayyad Caliphate",
+      "rightLabel": "Abbasid Caliphate",
+      "items": [
+        { "id": "i1", "text": "Capital established at Damascus", "bucket": "left" },
+        { "id": "i2", "text": "Rapid expansion into Iberian Peninsula", "bucket": "left" },
+        { "id": "i3", "text": "Capital moved to Baghdad in 762 CE", "bucket": "right" },
+        { "id": "i4", "text": "House of Wisdom translation movement", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each feature under the Umayyad Caliphate or the Abbasid Caliphate:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Umayyads ruled from Damascus during early conquests; the Abbasids built Baghdad's scholarly golden age.",
+    "source_url": "https://www.britannica.com/topic/Abbasid-caliphate",
+    "fun_fact": "An Umayyad prince escaped the 750 CE revolution and founded an independent emirate in Cordoba.",
+    "trap_notes": {
+      "default": "Damascus and Iberian expansion were Umayyad; Baghdad and the House of Wisdom were Abbasid."
+    }
+  },
+  {
+    "id": "world-cmp-108",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Feudalism in Europe & Japan",
+    "era": "1100–1600 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.3192, "lng": 139.5467, "label": "Kamakura, Japan" },
+    "compareSpec": {
+      "leftLabel": "European Feudalism",
+      "rightLabel": "Japanese Feudalism",
+      "items": [
+        { "id": "i1", "text": "Knights follow chivalry and serve barons", "bucket": "left" },
+        { "id": "i2", "text": "Catholic Church owns vast manors", "bucket": "left" },
+        { "id": "i3", "text": "Samurai follow bushido under daimyo", "bucket": "right" },
+        { "id": "i4", "text": "Shogun holds real military authority", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each feudal institution into European Feudalism or Japanese Feudalism:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Medieval Europe centered on knights, barons, and Church estates; Japan centered on samurai, daimyo, and the shogun.",
+    "source_url": "https://www.britannica.com/topic/samurai",
+    "fun_fact": "Japan's emperor remained a symbolic figurehead while shoguns governed from Kamakura or Edo.",
+    "trap_notes": {
+      "default": "Knights and chivalry belong to Europe; samurai, daimyo, and shoguns belong to Japan."
+    }
+  },
+  {
+    "id": "world-cmp-109",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Tang & Song Dynasties",
+    "era": "618–1279 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.2741, "lng": 120.1551, "label": "Hangzhou, China" },
+    "compareSpec": {
+      "leftLabel": "Tang Dynasty",
+      "rightLabel": "Song Dynasty",
+      "items": [
+        { "id": "i1", "text": "Capital at cosmopolitan Chang'an", "bucket": "left" },
+        { "id": "i2", "text": "Equal-field system and Silk Road peak", "bucket": "left" },
+        { "id": "i3", "text": "Paper money and magnetic compass use", "bucket": "right" },
+        { "id": "i4", "text": "Champa rice doubles southern yields", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each achievement to the Tang Dynasty or the Song Dynasty:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Tang expanded overland along the Silk Road from Chang'an; the Song pioneered paper money and Champa rice.",
+    "source_url": "https://www.britannica.com/topic/Song-dynasty",
+    "fun_fact": "Song China's iron output in 1078 exceeded that of Britain at the start of the Industrial Revolution.",
+    "trap_notes": {
+      "default": "Chang'an and overland Silk Road power mark the Tang; paper money and Champa rice mark the Song."
+    }
+  },
+  {
+    "id": "world-cmp-110",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Aztec & Inca Empires",
+    "era": "1325–1533 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -13.1631, "lng": -72.545, "label": "Machu Picchu, Peru" },
+    "compareSpec": {
+      "leftLabel": "Aztec Empire",
+      "rightLabel": "Inca Empire",
+      "items": [
+        { "id": "i1", "text": "Chinampa lake-bed gardens", "bucket": "left" },
+        { "id": "i2", "text": "Tribute paid by conquered city-states", "bucket": "left" },
+        { "id": "i3", "text": "Quipu knotted-cord record keeping", "bucket": "right" },
+        { "id": "i4", "text": "Mit'a rotational labor service", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each administrative or farming practice into the Aztec Empire or Inca Empire:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Aztecs farmed Lake Texcoco chinampas and collected tribute; the Incas used quipus and mit'a labor.",
+    "source_url": "https://www.britannica.com/topic/Inca",
+    "fun_fact": "Andean farmers carved terraced hillsides to grow potatoes and maize at high altitudes.",
+    "trap_notes": {
+      "default": "Chinampas and city-state tribute were Aztec; quipus and mit'a labor were Inca."
+    }
+  },
+  {
+    "id": "world-cmp-111",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Trans-Saharan & Indian Ocean Trade",
+    "era": "1000–1500 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 21.4858, "lng": 39.1925, "label": "Jeddah, Saudi Arabia" },
+    "compareSpec": {
+      "leftLabel": "Trans-Saharan Trade",
+      "rightLabel": "Indian Ocean Trade",
+      "items": [
+        { "id": "i1", "text": "Camel caravans with saddles", "bucket": "left" },
+        { "id": "i2", "text": "Gold exchanged for Saharan salt", "bucket": "left" },
+        { "id": "i3", "text": "Lateen-sailed dhows riding monsoons", "bucket": "right" },
+        { "id": "i4", "text": "Porcelain and spices shipped by sea", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trade feature into Trans-Saharan Trade or Indian Ocean Trade:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Trans-Saharan routes carried gold and salt by camel; Indian Ocean dhows rode seasonal monsoons.",
+    "source_url": "https://www.britannica.com/topic/dhow",
+    "fun_fact": "Seasonal monsoon winds reversed direction twice a year, creating predictable round-trip voyages.",
+    "trap_notes": {
+      "default": "Camels and salt-for-gold belong to the Sahara; dhows and monsoons belong to the Indian Ocean."
+    }
+  },
+  {
+    "id": "world-cmp-112",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Renaissance & Reformation",
+    "era": "1350–1600 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.7696, "lng": 11.2558, "label": "Florence, Italy" },
+    "compareSpec": {
+      "leftLabel": "Italian Renaissance",
+      "rightLabel": "Protestant Reformation",
+      "items": [
+        { "id": "i1", "text": "Medici patronage of Florence artists", "bucket": "left" },
+        { "id": "i2", "text": "Linear perspective and civic humanism", "bucket": "left" },
+        { "id": "i3", "text": "Luther's Ninety-Five Theses on indulgences", "bucket": "right" },
+        { "id": "i4", "text": "Calvin's doctrine of predestination", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each movement element under the Italian Renaissance or Protestant Reformation:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Renaissance revived classical art and humanism in Italy; the Reformation challenged papal theology.",
+    "source_url": "https://www.britannica.com/event/Reformation",
+    "fun_fact": "Gutenberg's movable-type press helped Protestant pamphlets spread across Germany within weeks.",
+    "trap_notes": {
+      "default": "Medici art and perspective mark the Renaissance; Luther and Calvin mark the Reformation."
+    }
+  },
+  {
+    "id": "world-cmp-113",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Columbian Exchange",
+    "era": "1492–1700 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.3891, "lng": -5.9845, "label": "Seville, Spain" },
+    "compareSpec": {
+      "leftLabel": "Native to the Americas",
+      "rightLabel": "Native to Afro-Eurasia",
+      "items": [
+        { "id": "i1", "text": "Potatoes, maize, and cacao", "bucket": "left" },
+        { "id": "i2", "text": "Tomatoes and tobacco", "bucket": "left" },
+        { "id": "i3", "text": "Horses, cattle, and pigs", "bucket": "right" },
+        { "id": "i4", "text": "Wheat, sugarcane, and smallpox", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Columbian Exchange item by its region of origin:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Potatoes, maize, tomatoes, and cacao originated in the Americas; horses, wheat, and smallpox came from Afro-Eurasia.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "fun_fact": "Andean potatoes and Mesoamerican maize helped fuel rapid population growth across Europe and China.",
+    "trap_notes": {
+      "default": "Maize, potatoes, and tomatoes came from the Americas; horses, wheat, and smallpox came from the Old World."
+    }
+  },
+  {
+    "id": "world-cmp-114",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1450–1750 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.6546, "lng": 51.668, "label": "Isfahan, Iran" },
+    "compareSpec": {
+      "leftLabel": "Ottoman Empire",
+      "rightLabel": "Safavid Empire",
+      "items": [
+        { "id": "i1", "text": "Sunni sultans ruling from Istanbul", "bucket": "left" },
+        { "id": "i2", "text": "Janissary corps via devshirme system", "bucket": "left" },
+        { "id": "i3", "text": "Twelver Shi'a Islam as state faith", "bucket": "right" },
+        { "id": "i4", "text": "Shah Abbas's silk capital at Isfahan", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trait into the Ottoman Empire or the Safavid Empire:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Sunni Ottomans fielded Janissaries from Istanbul; the Shi'a Safavids ruled Persia from Isfahan.",
+    "source_url": "https://www.britannica.com/topic/Safavid-dynasty",
+    "fun_fact": "Ottoman-Safavid rivalry sharpened the political boundary between Sunni and Shi'a realms.",
+    "trap_notes": {
+      "default": "Janissaries and Istanbul were Ottoman; Twelver Shi'ism and Isfahan were Safavid."
+    }
+  },
+  {
+    "id": "world-cmp-115",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Early Modern European Monarchies",
+    "era": "1600–1715 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "compareSpec": {
+      "leftLabel": "French Absolutism",
+      "rightLabel": "English Constitutionalism",
+      "items": [
+        { "id": "i1", "text": "Louis XIV rules without Estates-General", "bucket": "left" },
+        { "id": "i2", "text": "Nobles housed at Palace of Versailles", "bucket": "left" },
+        { "id": "i3", "text": "1689 Bill of Rights limits crown", "bucket": "right" },
+        { "id": "i4", "text": "Parliament controls royal taxation", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 17th-century political feature into French Absolutism or English Constitutionalism:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Louis XIV centralized royal power at Versailles, while England's 1689 Bill of Rights elevated Parliament.",
+    "source_url": "https://www.britannica.com/event/Glorious-Revolution",
+    "fun_fact": "The Estates-General did not meet in France from 1614 until 1789.",
+    "trap_notes": {
+      "default": "Versailles and unchecked royal rule mark France; Parliament and the 1689 Bill of Rights mark England."
+    }
+  },
+  {
+    "id": "world-cmp-116",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Scientific Revolution & Enlightenment",
+    "era": "1543–1789 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "compareSpec": {
+      "leftLabel": "Scientific Revolution",
+      "rightLabel": "Enlightenment",
+      "items": [
+        { "id": "i1", "text": "Galileo's telescope observations", "bucket": "left" },
+        { "id": "i2", "text": "Newton's laws of universal gravitation", "bucket": "left" },
+        { "id": "i3", "text": "Locke's natural rights and consent", "bucket": "right" },
+        { "id": "i4", "text": "Montesquieu's separation of powers", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each thinker's contribution into the Scientific Revolution or the Enlightenment:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Galileo and Newton uncovered physical laws; Locke and Montesquieu applied reason to government.",
+    "source_url": "https://www.britannica.com/event/Enlightenment-European-history",
+    "fun_fact": "Enlightenment thinkers often gathered in Paris salons to debate political reform.",
+    "trap_notes": {
+      "default": "Astronomy and physics mark the Scientific Revolution; political rights and institutions mark the Enlightenment."
+    }
+  },
+  {
+    "id": "world-cmp-117",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Atlantic Revolutions",
+    "era": "1789–1804 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 18.5944, "lng": -72.3074, "label": "Port-au-Prince, Haiti" },
+    "compareSpec": {
+      "leftLabel": "French Revolution",
+      "rightLabel": "Haitian Revolution",
+      "items": [
+        { "id": "i1", "text": "Storming of the Bastille in 1789", "bucket": "left" },
+        { "id": "i2", "text": "Reign of Terror under Robespierre", "bucket": "left" },
+        { "id": "i3", "text": "Toussaint Louverture leads enslaved army", "bucket": "right" },
+        { "id": "i4", "text": "First Black-led independent republic", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each event to the French Revolution or the Haitian Revolution:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "France overthrew its monarchy in Europe; enslaved people in Saint-Domingue won independence as Haiti in 1804.",
+    "source_url": "https://www.britannica.com/topic/Haitian-Revolution",
+    "fun_fact": "Haiti's 1804 independence also convinced Napoleon to sell Louisiana to the United States.",
+    "trap_notes": {
+      "default": "The Bastille and Robespierre belong to France; Louverture and abolitionist independence belong to Haiti."
+    }
+  },
+  {
+    "id": "world-cmp-118",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Industrial Revolution Phases",
+    "era": "1760–1914 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, United Kingdom" },
+    "compareSpec": {
+      "leftLabel": "First Industrial Revolution",
+      "rightLabel": "Second Industrial Revolution",
+      "items": [
+        { "id": "i1", "text": "Coal-fired steam engines and textiles", "bucket": "left" },
+        { "id": "i2", "text": "Spinning jenny and iron railroads", "bucket": "left" },
+        { "id": "i3", "text": "Bessemer steel and electric power grids", "bucket": "right" },
+        { "id": "i4", "text": "Internal combustion and chemical dyes", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each innovation into the First or Second Industrial Revolution:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The First Industrial Revolution ran on coal, steam, and textiles; the Second ran on steel, electricity, and oil.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "fun_fact": "Britain led the first phase, while Germany and the United States surged in the second.",
+    "trap_notes": {
+      "default": "Steam, iron, and textiles came first; steel, electricity, and combustion engines came in the late 1800s."
+    }
+  },
+  {
+    "id": "world-cmp-119",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Industrial Economic Thinkers",
+    "era": "1776–1867 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 55.9533, "lng": -3.1883, "label": "Edinburgh, Scotland" },
+    "compareSpec": {
+      "leftLabel": "Adam Smith",
+      "rightLabel": "Karl Marx",
+      "items": [
+        { "id": "i1", "text": "Laissez-faire markets and division of labor", "bucket": "left" },
+        { "id": "i2", "text": "Invisible hand guides self-interest", "bucket": "left" },
+        { "id": "i3", "text": "Class struggle between workers and owners", "bucket": "right" },
+        { "id": "i4", "text": "Collective ownership of factories", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each economic argument under Adam Smith or Karl Marx:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Adam Smith championed free markets in The Wealth of Nations; Karl Marx predicted proletarian revolution.",
+    "source_url": "https://www.britannica.com/biography/Adam-Smith",
+    "fun_fact": "Smith's Wealth of Nations appeared in 1776, the same year as the Declaration of Independence.",
+    "trap_notes": {
+      "default": "Free markets and the invisible hand are Smith's; class struggle and collective ownership are Marx's."
+    }
+  },
+  {
+    "id": "world-cmp-120",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "19th-Century East Asian Reform",
+    "era": "1860–1900 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "compareSpec": {
+      "leftLabel": "Meiji Restoration",
+      "rightLabel": "Qing Self-Strengthening",
+      "items": [
+        { "id": "i1", "text": "Abolished samurai stipends and domains", "bucket": "left" },
+        { "id": "i2", "text": "State-led rail, textile, and zaibatsu growth", "bucket": "left" },
+        { "id": "i3", "text": "Adopted Western guns inside Confucian order", "bucket": "right" },
+        { "id": "i4", "text": "Provincial arsenals kept imperial rule intact", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each 19th-century reform under Meiji Japan or Qing China:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Meiji Japan overhauled its feudal state to industrialize rapidly; Qing reformers added arsenals without systemic change.",
+    "source_url": "https://www.britannica.com/event/Meiji-Restoration",
+    "fun_fact": "Meiji officials sent the Iwakura Mission to study Western factories, schools, and constitutions.",
+    "trap_notes": {
+      "default": "Meiji abolished samurai domains; Qing Self-Strengthening kept the traditional Confucian order."
+    }
+  },
+  {
+    "id": "world-cmp-121",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "New Imperialism",
+    "era": "1870–1914 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "compareSpec": {
+      "leftLabel": "Scramble for Africa",
+      "rightLabel": "Spheres of Influence in China",
+      "items": [
+        { "id": "i1", "text": "Berlin Conference sets partition rules", "bucket": "left" },
+        { "id": "i2", "text": "Direct European colonial borders drawn", "bucket": "left" },
+        { "id": "i3", "text": "Foreign powers hold rail and port leases", "bucket": "right" },
+        { "id": "i4", "text": "Qing Empire stays formally sovereign", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each imperialist pattern into Africa or Qing China:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Europeans partitioned Africa into direct colonies, while foreign powers carved economic spheres inside Qing China.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "fun_fact": "No African leaders were invited to the 1884–1885 Berlin Conference.",
+    "trap_notes": {
+      "default": "Direct territorial partition happened in Africa; economic port leases left China formally intact."
+    }
+  },
+  {
+    "id": "world-cmp-122",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "World War I Alliances",
+    "era": "1914–1918 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "compareSpec": {
+      "leftLabel": "Triple Entente / Allies",
+      "rightLabel": "Central Powers",
+      "items": [
+        { "id": "i1", "text": "Great Britain and France", "bucket": "left" },
+        { "id": "i2", "text": "Russian Empire until 1917", "bucket": "left" },
+        { "id": "i3", "text": "Germany and Austria-Hungary", "bucket": "right" },
+        { "id": "i4", "text": "Ottoman Empire and Bulgaria", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each World War I belligerent into the Allies or Central Powers:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Britain, France, and Russia formed the Triple Entente against Germany, Austria-Hungary, and the Ottomans.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "fun_fact": "Italy had been allied with Germany and Austria-Hungary before 1914 but joined the Allies in 1915.",
+    "trap_notes": {
+      "default": "Britain, France, and Russia fought on the Allied side; Germany, Austria-Hungary, and the Ottomans were Central Powers."
+    }
+  },
+  {
+    "id": "world-cmp-123",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Russian Revolution",
+    "era": "1917–1921 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 59.9311, "lng": 30.3609, "label": "St. Petersburg, Russia" },
+    "compareSpec": {
+      "leftLabel": "February 1917 Revolution",
+      "rightLabel": "October 1917 Revolution",
+      "items": [
+        { "id": "i1", "text": "Tsar Nicholas II abdicates throne", "bucket": "left" },
+        { "id": "i2", "text": "Provisional Government stays in WWI", "bucket": "left" },
+        { "id": "i3", "text": "Bolsheviks seize Petrograd power", "bucket": "right" },
+        { "id": "i4", "text": "Lenin signs Treaty of Brest-Litovsk", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each 1917 event to Russia's February or October Revolution:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "February ended tsarist rule under a Provisional Government; October brought Lenin's Bolsheviks to power.",
+    "source_url": "https://www.britannica.com/event/Russian-Revolution",
+    "fun_fact": "Russia used the Julian calendar in 1917, so the October takeover fell on November 7 on Western calendars.",
+    "trap_notes": {
+      "default": "The tsar's abdication occurred in February; the Bolshevik seizure of power occurred in October."
+    }
+  },
+  {
+    "id": "world-cmp-124",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Interwar Totalitarianism",
+    "era": "1922–1939 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "compareSpec": {
+      "leftLabel": "Stalinist USSR",
+      "rightLabel": "Fascist Italy & Nazi Germany",
+      "items": [
+        { "id": "i1", "text": "Collectivized farms and Five-Year Plans", "bucket": "left" },
+        { "id": "i2", "text": "State ownership of all heavy industry", "bucket": "left" },
+        { "id": "i3", "text": "Private corporations aligned with state", "bucket": "right" },
+        { "id": "i4", "text": "Ultranationalist anti-communist ideology", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each interwar regime feature into Stalinist USSR or European Fascism:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Stalin abolished private industry and collectivized farms; fascist states kept private firms under nationalist control.",
+    "source_url": "https://www.britannica.com/topic/fascism",
+    "fun_fact": "Despite fierce ideological hostility, Hitler and Stalin signed a 1939 nonaggression pact before invading Poland.",
+    "trap_notes": {
+      "default": "Collectivization and state ownership mark the USSR; ultranationalism and private business alignment mark fascism."
+    }
+  },
+  {
+    "id": "world-cmp-125",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "World War II Turning Points",
+    "era": "1942–1944 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.708, "lng": 44.5133, "label": "Volgograd, Russia" },
+    "compareSpec": {
+      "leftLabel": "European Theater",
+      "rightLabel": "Pacific Theater",
+      "items": [
+        { "id": "i1", "text": "Soviet victory at Stalingrad", "bucket": "left" },
+        { "id": "i2", "text": "Allied D-Day landings in Normandy", "bucket": "left" },
+        { "id": "i3", "text": "Carrier Battle of Midway", "bucket": "right" },
+        { "id": "i4", "text": "Island-hopping across Guadalcanal", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each World War II turning point into the European or Pacific Theater:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Stalingrad and Normandy reversed Axis gains in Europe; Midway and Guadalcanal shifted momentum in the Pacific.",
+    "source_url": "https://www.britannica.com/event/World-War-II",
+    "fun_fact": "At Midway in June 1942, U.S. codebreakers helped sink four Japanese aircraft carriers in one day.",
+    "trap_notes": {
+      "default": "Stalingrad and Normandy were in Europe; Midway and Guadalcanal were in the Pacific."
+    }
+  },
+  {
+    "id": "world-cmp-126",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Decolonization in South Asia & Africa",
+    "era": "1947–1963 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "compareSpec": {
+      "leftLabel": "Indian Independence (1947)",
+      "rightLabel": "Ghana Independence (1957)",
+      "items": [
+        { "id": "i1", "text": "Gandhi's satyagraha mass boycotts", "bucket": "left" },
+        { "id": "i2", "text": "Partition into India and Pakistan", "bucket": "left" },
+        { "id": "i3", "text": "Kwame Nkrumah leads Gold Coast", "bucket": "right" },
+        { "id": "i4", "text": "First sub-Saharan colony freed in 1957", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each decolonization milestone to India (1947) or Ghana (1957):",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "India's 1947 independence involved Gandhi's boycotts and Partition; Nkrumah led Ghana to freedom in 1957.",
+    "source_url": "https://www.britannica.com/biography/Kwame-Nkrumah",
+    "fun_fact": "Ghana's 1957 independence inspired dozens of African liberation movements over the next decade.",
+    "trap_notes": {
+      "default": "Gandhi and Partition belong to 1947 India; Nkrumah and the Gold Coast belong to 1957 Ghana."
+    }
+  },
+  {
+    "id": "world-cmp-127",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Cold War Alliances",
+    "era": "1949–1991 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "compareSpec": {
+      "leftLabel": "NATO",
+      "rightLabel": "Warsaw Pact",
+      "items": [
+        { "id": "i1", "text": "Founded in 1949 by Western allies", "bucket": "left" },
+        { "id": "i2", "text": "Included United States, Britain, France", "bucket": "left" },
+        { "id": "i3", "text": "Formed in 1955 under Soviet command", "bucket": "right" },
+        { "id": "i4", "text": "Included Poland, Hungary, East Germany", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Cold War feature into NATO or the Warsaw Pact:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "NATO united Western democracies in 1949; the Soviet Union formed the Warsaw Pact with Eastern bloc states in 1955.",
+    "source_url": "https://www.britannica.com/topic/Warsaw-Pact",
+    "fun_fact": "The Warsaw Pact dissolved in July 1991, months before the Soviet Union itself broke up.",
+    "trap_notes": {
+      "default": "Western allies founded NATO in 1949; Eastern bloc states joined the Soviet-led Warsaw Pact in 1955."
+    }
+  },
+  {
+    "id": "world-cmp-128",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Communist China",
+    "era": "1949–1990 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "compareSpec": {
+      "leftLabel": "Mao Zedong Era",
+      "rightLabel": "Deng Xiaoping Era",
+      "items": [
+        { "id": "i1", "text": "Great Leap Forward rural communes", "bucket": "left" },
+        { "id": "i2", "text": "Cultural Revolution Red Guards", "bucket": "left" },
+        { "id": "i3", "text": "Special Economic Zones draw foreign firms", "bucket": "right" },
+        { "id": "i4", "text": "Four Modernizations allow private farms", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Chinese policy into the Mao Zedong Era or Deng Xiaoping Era:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mao pursued rural communes and ideological campaigns; Deng opened Special Economic Zones and market reforms.",
+    "source_url": "https://www.britannica.com/biography/Deng-Xiaoping",
+    "fun_fact": "Shenzhen grew from a fishing town near Hong Kong into a megacity after becoming a Special Economic Zone in 1980.",
+    "trap_notes": {
+      "default": "Communes and Red Guards mark Mao's rule; Special Economic Zones mark Deng's reforms."
+    }
+  },
+  {
+    "id": "world-cmp-129",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Cold War Proxy Conflicts",
+    "era": "1950–1975 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 10.8231, "lng": 106.6297, "label": "Ho Chi Minh City, Vietnam" },
+    "compareSpec": {
+      "leftLabel": "Korean War",
+      "rightLabel": "Vietnam War",
+      "items": [
+        { "id": "i1", "text": "UN coalition fights under MacArthur", "bucket": "left" },
+        { "id": "i2", "text": "1953 armistice keeps 38th parallel split", "bucket": "left" },
+        { "id": "i3", "text": "Ho Chi Minh leads Viet Minh and North", "bucket": "right" },
+        { "id": "i4", "text": "Saigon falls in 1975 unifying country", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Cold War conflict detail into the Korean War or the Vietnam War:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Korean War ended in a 1953 armistice dividing North and South; the Vietnam War ended in 1975 unification.",
+    "source_url": "https://www.britannica.com/event/Vietnam-War",
+    "fun_fact": "The Korean War never ended with a formal peace treaty, only the 1953 armistice.",
+    "trap_notes": {
+      "default": "UN forces and the 38th parallel mark Korea; Ho Chi Minh and 1975 Saigon mark Vietnam."
+    }
+  },
+  {
+    "id": "world-cmp-130",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Post-Cold War Globalization",
+    "era": "1991–2010 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "compareSpec": {
+      "leftLabel": "European Union (EU)",
+      "rightLabel": "World Trade Organization (WTO)",
+      "items": [
+        { "id": "i1", "text": "Single market and euro currency zone", "bucket": "left" },
+        { "id": "i2", "text": "Maastricht Treaty deepened integration", "bucket": "left" },
+        { "id": "i3", "text": "Global tariff and trade dispute arbiter", "bucket": "right" },
+        { "id": "i4", "text": "Replaced GATT in 1995 across 100+ nations", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each global institution feature into the European Union or the WTO:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The EU built a regional single market and euro; the WTO replaced GATT in 1995 to oversee global trade rules.",
+    "source_url": "https://www.britannica.com/topic/World-Trade-Organization",
+    "fun_fact": "China joined the WTO in 2001, accelerating its rise as the world's largest goods exporter.",
+    "trap_notes": {
+      "default": "The euro and Maastricht belong to the EU; GATT and global trade disputes belong to the WTO."
+    }
+  }
+]

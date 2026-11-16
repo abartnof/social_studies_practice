@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "us-cau-201",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Colonial Economy",
+    "era": "1612–1680",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.2104, "lng": -76.7777, "label": "Chesapeake Region" },
+    "prompt": "Order this cause-and-effect chain in colonial Virginia from first to last.",
+    "options": [
+      { "id": "a", "text": "Planters turn to enslaved African labor for plantations" },
+      { "id": "b", "text": "John Rolfe introduces sweet tobacco in Virginia" },
+      { "id": "c", "text": "Rising tobacco demand creates a severe labor shortage" },
+      { "id": "d", "text": "Landowners first rely on English indentured servants" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Tobacco farming created a labor shortage, first met by indentured servants and later by enslaved African labor.",
+    "source_url": "https://www.nps.gov/jame/learn/historyculture/tobacco-the-early-history-of-a-new-world-crop.htm",
+    "trap_notes": {
+      "default": "Tobacco profits came first, creating labor demand that shifted from indentured servants to enslaved labor."
+    }
+  },
+  {
+    "id": "us-cau-202",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Road to Revolution",
+    "era": "1754–1765",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Britain & Colonies" },
+    "prompt": "Order this cause-and-effect chain after the French and Indian War.",
+    "options": [
+      { "id": "a", "text": "Colonists protest taxation without representation" },
+      { "id": "b", "text": "Britain builds massive war debt defending North America" },
+      { "id": "c", "text": "Parliament passes direct colonial taxes like the Stamp Act" },
+      { "id": "d", "text": "British leaders seek new revenue from the colonies" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Britain's war debt led officials to seek colonial revenue through the Stamp Act, sparking colonial protests.",
+    "source_url": "https://history.state.gov/milestones/1750-1775/parliamentary-taxation",
+    "trap_notes": {
+      "default": "War debt caused Britain to pass new taxes, which then triggered colonial protests."
+    }
+  },
+  {
+    "id": "us-cau-203",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Road to Revolution",
+    "era": "1773–1774",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston & Philadelphia" },
+    "prompt": "Order this cause-and-effect chain from the Tea Act to colonial unity.",
+    "options": [
+      { "id": "a", "text": "Colonies form the First Continental Congress to coordinate" },
+      { "id": "b", "text": "Parliament passes the Tea Act aiding the East India Co." },
+      { "id": "c", "text": "Parliament punishes Boston with the Coercive Acts" },
+      { "id": "d", "text": "Patriots dump British tea into Boston Harbor" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Tea Act sparked the Boston Tea Party, which led Britain to pass the Coercive Acts and united the colonies.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/american-revolution-1763-1783/",
+    "trap_notes": {
+      "default": "Britain passed the Coercive Acts to punish the Tea Party, which drove colonies to hold a Congress."
+    }
+  },
+  {
+    "id": "us-cau-204",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1777–1778",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 43.0000, "lng": -73.6300, "label": "Saratoga & Paris" },
+    "prompt": "Order this cause-and-effect chain that brought France into the Revolutionary War.",
+    "options": [
+      { "id": "a", "text": "France signs a formal military alliance with the U.S." },
+      { "id": "b", "text": "Continental forces surround and defeat Burgoyne at Saratoga" },
+      { "id": "c", "text": "French leaders gain confidence that Americans can win" },
+      { "id": "d", "text": "French ships and troops help trap Britain at Yorktown" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Victory at Saratoga convinced France the U.S. could win, leading to an alliance that helped win at Yorktown.",
+    "source_url": "https://history.state.gov/milestones/1776-1783/french-alliance",
+    "trap_notes": {
+      "default": "Saratoga came first and persuaded France to sign the 1778 alliance that aided victory at Yorktown."
+    }
+  },
+  {
+    "id": "us-cau-205",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Constitutional Founding",
+    "era": "1786–1788",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.1015, "lng": -72.5898, "label": "Massachusetts & Philadelphia" },
+    "prompt": "Order this cause-and-effect chain from Shays' Rebellion to the Constitution.",
+    "options": [
+      { "id": "a", "text": "Delegates draft a stronger federal Constitution in 1787" },
+      { "id": "b", "text": "Indebted farmers close courts during Shays' Rebellion" },
+      { "id": "c", "text": "State leaders call for a convention to fix the Articles" },
+      { "id": "d", "text": "Congress lacks funds or troops to stop the uprising" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Shays' Rebellion showed Congress could not keep order, prompting leaders to meet and draft the Constitution.",
+    "source_url": "https://constitutioncenter.org/the-constitution/historic-document-library",
+    "trap_notes": {
+      "default": "The rebellion exposed Congress's weakness first, which led leaders to call the 1787 convention."
+    }
+  },
+  {
+    "id": "us-cau-206",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Constitutional Ratification",
+    "era": "1787–1791",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Ratifying States" },
+    "prompt": "Order this cause-and-effect chain that produced the Bill of Rights.",
+    "options": [
+      { "id": "a", "text": "Federalists promise to add amendments protecting rights" },
+      { "id": "b", "text": "The Constitution omits a list of individual liberties" },
+      { "id": "c", "text": "States ratify the first ten amendments in 1791" },
+      { "id": "d", "text": "Anti-Federalists warn the new government could abuse power" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Lack of a rights list alarmed Anti-Federalists, so Federalists promised amendments that became the Bill of Rights.",
+    "source_url": "https://www.archives.gov/founding-docs/bill-of-rights",
+    "trap_notes": {
+      "default": "Anti-Federalist criticism over missing rights led Federalists to promise the Bill of Rights."
+    }
+  },
+  {
+    "id": "us-cau-207",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1791–1794",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Western Pennsylvania" },
+    "prompt": "Order this cause-and-effect chain during the Whiskey Rebellion.",
+    "options": [
+      { "id": "a", "text": "Washington leads militia west to enforce federal law" },
+      { "id": "b", "text": "Congress passes an excise tax on whiskey to pay debt" },
+      { "id": "c", "text": "The government proves it can uphold federal authority" },
+      { "id": "d", "text": "Western grain farmers attack tax collectors in protest" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Hamilton's whiskey tax angered frontier farmers, leading Washington to send troops and prove federal authority.",
+    "source_url": "https://millercenter.org/president/washington",
+    "trap_notes": {
+      "default": "The tax sparked farmer resistance, which led Washington to show the new Constitution could enforce laws."
+    }
+  },
+  {
+    "id": "us-cau-208",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Jeffersonian Era",
+    "era": "1801–1803",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans & Mississippi" },
+    "prompt": "Order this cause-and-effect chain behind the Louisiana Purchase.",
+    "options": [
+      { "id": "a", "text": "Napoleon offers to sell the entire Louisiana Territory" },
+      { "id": "b", "text": "Spain transfers New Orleans and Louisiana to France" },
+      { "id": "c", "text": "Jefferson sends envoys to buy New Orleans for trade" },
+      { "id": "d", "text": "U.S. farmers fear losing Mississippi River port access" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "France's takeover of New Orleans worried U.S. farmers, so Jefferson sought to buy the port and Napoleon offered all of Louisiana.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "trap_notes": {
+      "default": "French control threatened river trade first; Jefferson tried to buy New Orleans, and France sold the whole territory."
+    }
+  },
+  {
+    "id": "us-cau-209",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Market Revolution",
+    "era": "1793–1830",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.0809, "lng": -81.0912, "label": "American South" },
+    "prompt": "Order this cause-and-effect chain following the invention of the cotton gin.",
+    "options": [
+      { "id": "a", "text": "Southern planters expand cotton farms across the Deep South" },
+      { "id": "b", "text": "Eli Whitney invents a machine to clean cotton seeds fast" },
+      { "id": "c", "text": "Demand for enslaved workers rises sharply in new states" },
+      { "id": "d", "text": "Short-staple cotton becomes highly profitable to grow" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The cotton gin made short-staple cotton profitable, driving planters westward and sharply increasing enslaved labor.",
+    "source_url": "https://www.archives.gov/education/lessons/cotton-gin-patent",
+    "trap_notes": {
+      "default": "The cotton gin made cotton profitable first, which then drove westward plantation expansion and slavery."
+    }
+  },
+  {
+    "id": "us-cau-210",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Transportation Revolution",
+    "era": "1817–1840",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.6526, "lng": -73.7562, "label": "Erie Canal Corridor" },
+    "prompt": "Order this cause-and-effect chain for the opening of the Erie Canal.",
+    "options": [
+      { "id": "a", "text": "New York City grows into the nation's top trade port" },
+      { "id": "b", "text": "New York builds a canal linking Lake Erie to the Hudson" },
+      { "id": "c", "text": "Shipping costs between the Midwest and coast drop steeply" },
+      { "id": "d", "text": "Midwestern grain and goods flow eastward by barge" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "The Erie Canal slashed shipping costs, drawing Midwestern goods east and making New York City the top U.S. port.",
+    "source_url": "https://www.britannica.com/topic/Erie-Canal",
+    "trap_notes": {
+      "default": "Building the canal cut shipping costs first, which redirected Midwestern trade through New York City."
+    }
+  },
+  {
+    "id": "us-cau-211",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Jacksonian Era",
+    "era": "1824–1828",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order this cause-and-effect chain that expanded voting in the 1820s.",
+    "options": [
+      { "id": "a", "text": "Andrew Jackson wins broad support from common voters" },
+      { "id": "b", "text": "Many states drop property requirements for white men" },
+      { "id": "c", "text": "Parties use rallies and parades to reach larger crowds" },
+      { "id": "d", "text": "Millions of working-class men gain the right to vote" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Ending property rules enfranchised working-class white men, prompting mass campaigning that helped elect Jackson.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/national-expansion-and-reform-1815-1880/",
+    "trap_notes": {
+      "default": "States changed voting laws first, expanding the electorate before parties staged mass campaigns for Jackson."
+    }
+  },
+  {
+    "id": "us-cau-212",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Jacksonian Economy",
+    "era": "1832–1837",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order this cause-and-effect chain from the Bank War to the Panic of 1837.",
+    "options": [
+      { "id": "a", "text": "Banks collapse and the nation enters the Panic of 1837" },
+      { "id": "b", "text": "Jackson vetoes the Second Bank's charter and pulls funds" },
+      { "id": "c", "text": "Jackson issues the Specie Circular requiring gold or silver" },
+      { "id": "d", "text": "State pet banks lend recklessly and fuel land speculation" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Killing the national bank shifted funds to state banks, fueling speculation that crashed after the Specie Circular.",
+    "source_url": "https://millercenter.org/president/jackson",
+    "trap_notes": {
+      "default": "Vetoing the Bank came first, then state bank lending, then the Specie Circular, and finally the 1837 Panic."
+    }
+  },
+  {
+    "id": "us-cau-213",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Mexican-American War",
+    "era": "1845–1850",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 31.7619, "lng": -106.4850, "label": "Southwest & Washington" },
+    "prompt": "Order this cause-and-effect chain from Texas annexation to sectional crisis.",
+    "options": [
+      { "id": "a", "text": "The U.S. gains vast western lands in 1848" },
+      { "id": "b", "text": "The United States annexes Texas despite border disputes" },
+      { "id": "c", "text": "Congress clashes fiercely over slavery in new territories" },
+      { "id": "d", "text": "Fighting erupts between U.S. and Mexican troops" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Annexing Texas sparked war with Mexico, which added western lands and reignited the fight over expanding slavery.",
+    "source_url": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+    "trap_notes": {
+      "default": "Texas annexation led to the Mexican War, whose territorial gains triggered the 1850 slavery crisis."
+    }
+  },
+  {
+    "id": "us-cau-214",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Sectional Crisis",
+    "era": "1854–1856",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9717, "lng": -95.2353, "label": "Kansas Territory" },
+    "prompt": "Order this cause-and-effect chain that produced Bleeding Kansas.",
+    "options": [
+      { "id": "a", "text": "Pro- and anti-slavery settlers rush into Kansas to vote" },
+      { "id": "b", "text": "Rival governments and armed violence erupt in Kansas" },
+      { "id": "c", "text": "Congress passes the Kansas-Nebraska Act" },
+      { "id": "d", "text": "Popular sovereignty replaces the Missouri Compromise line" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "The Kansas-Nebraska Act let settlers vote on slavery, drawing rival groups into Kansas and sparking bloodshed.",
+    "source_url": "https://www.archives.gov/milestone-documents/kansas-nebraska-act",
+    "trap_notes": {
+      "default": "Passing the act introduced popular sovereignty, which drew rival settlers and caused Bleeding Kansas."
+    }
+  },
+  {
+    "id": "us-cau-215",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Outbreak of Civil War",
+    "era": "1860–1861",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.7524, "lng": -79.8747, "label": "South Carolina" },
+    "prompt": "Order this cause-and-effect chain leading to the start of the Civil War.",
+    "options": [
+      { "id": "a", "text": "Seven Southern states secede and form the Confederacy" },
+      { "id": "b", "text": "Abraham Lincoln wins the 1860 election on free-soil pledges" },
+      { "id": "c", "text": "President Lincoln calls for 75,000 volunteers to preserve Union" },
+      { "id": "d", "text": "Confederate artillery fires on Union-held Fort Sumter" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Lincoln's 1860 victory prompted Southern secession, followed by the attack on Fort Sumter and Lincoln's call for troops.",
+    "source_url": "https://www.nps.gov/fosu/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Lincoln's election triggered secession first; Fort Sumter's bombardment led to Lincoln's troop call."
+    }
+  },
+  {
+    "id": "us-cau-216",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Civil War Diplomacy",
+    "era": "1862–1863",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.4737, "lng": -77.7447, "label": "Antietam & Washington" },
+    "prompt": "Order this cause-and-effect chain around the Emancipation Proclamation.",
+    "options": [
+      { "id": "a", "text": "European powers stay out of the war against the Union" },
+      { "id": "b", "text": "Lincoln waits for a Union battlefield success to act" },
+      { "id": "c", "text": "Lincoln issues the Emancipation Proclamation freeing rebel slaves" },
+      { "id": "d", "text": "Union forces halt Lee's advance at the Battle of Antietam" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Lincoln waited for a Union victory at Antietam before issuing the Proclamation, which discouraged European aid to the South.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation",
+    "trap_notes": {
+      "default": "Antietam gave Lincoln the victory he needed to announce emancipation, which kept Europe neutral."
+    }
+  },
+  {
+    "id": "us-cau-217",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865–1868",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington & South" },
+    "prompt": "Order this cause-and-effect chain that produced the Fourteenth Amendment.",
+    "options": [
+      { "id": "a", "text": "Congress writes the Fourteenth Amendment into the Constitution" },
+      { "id": "b", "text": "Southern states pass Black Codes restricting freedpeople" },
+      { "id": "c", "text": "Congress passes the Civil Rights Act of 1866 over a veto" },
+      { "id": "d", "text": "Republicans fear courts or future laws could undo the Act" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Black Codes led Congress to pass the 1866 Civil Rights Act, and then protect those rights permanently in the 14th Amendment.",
+    "source_url": "https://www.archives.gov/milestone-documents/14th-amendment",
+    "trap_notes": {
+      "default": "Black Codes came first, sparking the 1866 Act, which Congress then locked in via the 14th Amendment."
+    }
+  },
+  {
+    "id": "us-cau-218",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Post-Reconstruction South",
+    "era": "1865–1890",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.2988, "lng": -90.1848, "label": "American South" },
+    "prompt": "Order this cause-and-effect chain behind the rise of sharecropping.",
+    "options": [
+      { "id": "a", "text": "Many sharecroppers stay trapped in endless cycles of debt" },
+      { "id": "b", "text": "Freedpeople lack land and cash after emancipation" },
+      { "id": "c", "text": "Landowners rent small plots in return for a share of crops" },
+      { "id": "d", "text": "Tenants borrow supplies on credit at high interest rates" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Lacking land or money, freedpeople rented plots as sharecroppers, borrowed on credit, and often fell into debt.",
+    "source_url": "https://www.britannica.com/topic/sharecropping",
+    "trap_notes": {
+      "default": "Lack of land led to sharecropping contracts, which required credit and trapped families in debt."
+    }
+  },
+  {
+    "id": "us-cau-219",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1869–1890",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.1400, "lng": -104.8202, "label": "Great Plains" },
+    "prompt": "Order this cause-and-effect chain affecting Plains Native Nations.",
+    "options": [
+      { "id": "a", "text": "Plains nations lose their main food source and face defeat" },
+      { "id": "b", "text": "Transcontinental railroads cross the Great Plains" },
+      { "id": "c", "text": "Commercial hunters slaughter millions of bison" },
+      { "id": "d", "text": "Rail lines bring settlers, soldiers, and hide buyers west" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Railroads brought settlers and hunters onto the Plains, wiping out bison herds and devastating Plains nations.",
+    "source_url": "https://www.nps.gov/articles/bison-bellows-12-3-15.htm",
+    "trap_notes": {
+      "default": "Railroads came first, bringing hunters who destroyed the bison herds that Plains nations relied on."
+    }
+  },
+  {
+    "id": "us-cau-220",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Gilded Age Industrialization",
+    "era": "1870–1900",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh & Cleveland" },
+    "prompt": "Order this cause-and-effect chain in the rise of the U.S. steel industry.",
+    "options": [
+      { "id": "a", "text": "Cities build skyscrapers, bridges, and thousands of rail miles" },
+      { "id": "b", "text": "The Bessemer process makes strong steel cheap to produce" },
+      { "id": "c", "text": "Steel prices drop steeply compared to brittle iron" },
+      { "id": "d", "text": "Andrew Carnegie builds huge integrated steel mills" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Bessemer process enabled huge mills like Carnegie's to cut steel prices, fueling railroads and skyscrapers.",
+    "source_url": "https://www.britannica.com/technology/Bessemer-process",
+    "trap_notes": {
+      "default": "The Bessemer invention and large mills lowered steel prices, which then enabled skyscrapers and railroads."
+    }
+  },
+  {
+    "id": "us-cau-221",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Gilded Age Urbanization",
+    "era": "1880–1910",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.0060, "label": "New York & Chicago" },
+    "prompt": "Order this cause-and-effect chain in the rise of urban political machines.",
+    "options": [
+      { "id": "a", "text": "Machine bosses win loyal votes in city elections" },
+      { "id": "b", "text": "Millions of immigrants arrive in crowded industrial cities" },
+      { "id": "c", "text": "Political bosses offer newcomers jobs, coal, and legal help" },
+      { "id": "d", "text": "City governments lack strong public social services" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Rapid immigration strained cities with few public services, letting bosses trade basic help for loyal votes.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/",
+    "trap_notes": {
+      "default": "Rapid urban growth without city services gave bosses the chance to trade aid for votes."
+    }
+  },
+  {
+    "id": "us-cau-222",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Populist Movement",
+    "era": "1875–1896",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Midwest & Great Plains" },
+    "prompt": "Order this cause-and-effect chain behind the Populist call for free silver.",
+    "options": [
+      { "id": "a", "text": "Farmers demand unlimited silver coins to raise prices" },
+      { "id": "b", "text": "Railroad rates rise while crop prices fall steadily" },
+      { "id": "c", "text": "Farmers borrow heavily and struggle to repay debts" },
+      { "id": "d", "text": "Deflation makes each owed dollar harder to earn" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Falling crop prices pushed farmers into debt, and deflation worsened their loans, sparking demands for free silver.",
+    "source_url": "https://www.britannica.com/event/Populist-movement",
+    "trap_notes": {
+      "default": "Falling farm prices and debt came first, worsened by deflation, which led farmers to demand silver."
+    }
+  },
+  {
+    "id": "us-cau-223",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Spanish-American War",
+    "era": "1895–1898",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana & Washington" },
+    "prompt": "Order this cause-and-effect chain leading to the Spanish-American War.",
+    "options": [
+      { "id": "a", "text": "Congress declares war on Spain to free Cuba" },
+      { "id": "b", "text": "Cubans rebel against harsh Spanish colonial rule" },
+      { "id": "c", "text": "The USS Maine explodes in Havana Harbor" },
+      { "id": "d", "text": "Yellow journalism newspapers inflame U.S. public anger" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Cuban rebellion and yellow journalism stirred U.S. sympathy, and the Maine explosion pushed Congress to declare war.",
+    "source_url": "https://history.state.gov/milestones/1866-1898/spanish-american-war",
+    "trap_notes": {
+      "default": "Cuban revolt and sensational press came before the Maine explosion and the 1898 war declaration."
+    }
+  },
+  {
+    "id": "us-cau-224",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1905–1906",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago & Washington" },
+    "prompt": "Order this cause-and-effect chain behind federal food safety laws.",
+    "options": [
+      { "id": "a", "text": "Congress passes the Meat Inspection and Pure Food Acts" },
+      { "id": "b", "text": "Upton Sinclair investigates Chicago meatpacking plants" },
+      { "id": "c", "text": "Readers are horrified by descriptions of filthy meat" },
+      { "id": "d", "text": "Sinclair publishes his muckraking novel The Jungle" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Sinclair's investigation led to The Jungle, whose shocking details horrified readers and spurred 1906 food safety laws.",
+    "source_url": "https://www.archives.gov/legislative/features/food-and-drug-act",
+    "trap_notes": {
+      "default": "Muckraker investigation and publishing came first, creating public outrage that forced Congress to act."
+    }
+  },
+  {
+    "id": "us-cau-225",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Progressive Labor Reform",
+    "era": "1911–1914",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7300, "lng": -73.9950, "label": "New York City" },
+    "prompt": "Order this cause-and-effect chain from the Triangle Shirtwaist Fire.",
+    "options": [
+      { "id": "a", "text": "New York passes strict factory fire and safety codes" },
+      { "id": "b", "text": "Factory owners lock exit doors at a garment workshop" },
+      { "id": "c", "text": "Public outrage grows over unsafe sweatshop conditions" },
+      { "id": "d", "text": "A fast-moving fire kills 146 mostly young women workers" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Locked exits trapped 146 workers in a deadly fire, sparking public outrage that led to strict New York safety laws.",
+    "source_url": "https://www.osha.gov/aboutosha/40-years/trianglefactoryfire",
+    "trap_notes": {
+      "default": "Locked doors caused the deadly 1911 fire, which then drove public pressure for workplace safety codes."
+    }
+  },
+  {
+    "id": "us-cau-226",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War I Entry",
+    "era": "1915–1917",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Atlantic & Washington" },
+    "prompt": "Order this cause-and-effect chain that brought the U.S. into World War I.",
+    "options": [
+      { "id": "a", "text": "Germany resumes unrestricted submarine attacks on ships" },
+      { "id": "b", "text": "President Wilson asks Congress to declare war on Germany" },
+      { "id": "c", "text": "Germany sends the Zimmermann note urging Mexico to attack" },
+      { "id": "d", "text": "British agents intercept the note and share it with U.S." }
+    ],
+    "answer": ["a", "c", "d", "b"],
+    "explanation": "Germany's U-boat campaign and the intercepted Zimmermann Telegram convinced Wilson and Congress to enter WWI in 1917.",
+    "source_url": "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+    "trap_notes": {
+      "default": "Germany resumed U-boat warfare and sent the telegram before Britain shared it and Wilson sought war."
+    }
+  },
+  {
+    "id": "us-cau-227",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Great Migration",
+    "era": "1914–1925",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "South to Northern Cities" },
+    "prompt": "Order this cause-and-effect chain behind the Great Migration.",
+    "options": [
+      { "id": "a", "text": "Hundreds of thousands of Black Southerners move north" },
+      { "id": "b", "text": "WWI cuts European immigration and sends men to war" },
+      { "id": "c", "text": "Northern factories recruit Southern workers for open jobs" },
+      { "id": "d", "text": "Black cultural life flourishes in Chicago and Harlem" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "WWI created factory labor shortages in the North, drawing Black Southerners north and fueling urban cultural centers.",
+    "source_url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+    "trap_notes": {
+      "default": "WWI labor shortages came first, prompting factory recruitment, mass migration, and the Harlem Renaissance."
+    }
+  },
+  {
+    "id": "us-cau-228",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "1920s Prohibition",
+    "era": "1919–1933",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago & New York" },
+    "prompt": "Order this cause-and-effect chain during the Prohibition era.",
+    "options": [
+      { "id": "a", "text": "Criminal gangs profit by smuggling illegal liquor" },
+      { "id": "b", "text": "The Eighteenth Amendment bans alcohol sales nationwide" },
+      { "id": "c", "text": "States ratify the Twenty-First Amendment to repeal it" },
+      { "id": "d", "text": "Gang violence and enforcement costs turn voters against ban" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Prohibition created a black market run by gangs, whose violence turned public opinion toward repeal in 1933.",
+    "source_url": "https://www.archives.gov/milestone-documents/18th-amendment",
+    "trap_notes": {
+      "default": "The ban came first, creating bootlegging gangs whose violence led to repeal."
+    }
+  },
+  {
+    "id": "us-cau-229",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Great Depression",
+    "era": "1929–1932",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7074, "lng": -74.0113, "label": "United States" },
+    "prompt": "Order this cause-and-effect chain during the 1929–1932 banking crisis.",
+    "options": [
+      { "id": "a", "text": "Thousands of banks fail and wipe out family savings" },
+      { "id": "b", "text": "Stock prices crash and investors default on bank loans" },
+      { "id": "c", "text": "Consumer spending plunges and unemployment climbs to 25%" },
+      { "id": "d", "text": "Panicked depositors rush to pull their cash out of banks" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Loan defaults after the crash sparked bank runs, causing thousands of bank failures and massive unemployment.",
+    "source_url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31",
+    "trap_notes": {
+      "default": "The stock crash triggered bank runs and bank failures, which then shrank spending and jobs."
+    }
+  },
+  {
+    "id": "us-cau-230",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Dust Bowl",
+    "era": "1930–1938",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.7000, "lng": -101.5000, "label": "Southern Great Plains" },
+    "prompt": "Order this cause-and-effect chain behind the Dust Bowl migration.",
+    "options": [
+      { "id": "a", "text": "Severe multi-year drought dries out exposed topsoil" },
+      { "id": "b", "text": "Farmers plow up deep-rooted prairie grass for wheat" },
+      { "id": "c", "text": "Ruined farm families pack up and migrate to California" },
+      { "id": "d", "text": "High winds whip loose soil into blinding black blizzards" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Plowing prairie grass exposed soil to drought and wind, creating dust storms that drove farm families to California.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl/",
+    "trap_notes": {
+      "default": "Over-plowing and drought came before the dust storms, which forced families westward."
+    }
+  },
+  {
+    "id": "us-cau-231",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "New Deal Banking",
+    "era": "1933",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "Order this cause-and-effect chain that stabilized U.S. banks in 1933.",
+    "options": [
+      { "id": "a", "text": "Depositors return cash to banks and halt bank runs" },
+      { "id": "b", "text": "FDR declares a national bank holiday to stop panics" },
+      { "id": "c", "text": "Congress creates the FDIC to insure customer deposits" },
+      { "id": "d", "text": "Federal inspectors check banks and reopen sound ones" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "FDR's bank holiday paused runs while inspectors checked banks, and FDIC insurance restored public trust.",
+    "source_url": "https://www.federalreservehistory.org/essays/bank-holiday-of-1933",
+    "trap_notes": {
+      "default": "The bank holiday and inspections came first in March 1933, followed by FDIC insurance and returning deposits."
+    }
+  },
+  {
+    "id": "us-cau-232",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War II Home Front",
+    "era": "1941–1945",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "U.S. Industrial Cities" },
+    "prompt": "Order this cause-and-effect chain on the World War II home front.",
+    "options": [
+      { "id": "a", "text": "Millions of women take factory jobs as Rosie the Riveter" },
+      { "id": "b", "text": "Millions of American men enter military service overseas" },
+      { "id": "c", "text": "U.S. factories shift rapidly to build tanks and planes" },
+      { "id": "d", "text": "Allied forces receive unmatched weapons and supplies" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "As men went to war and factories retooled for defense, millions of women stepped into war plants to supply the Allies.",
+    "source_url": "https://www.nationalww2museum.org/war/articles/gender-home-front",
+    "trap_notes": {
+      "default": "Drafting men and converting factories created job openings that women filled to supply the Allies."
+    }
+  },
+  {
+    "id": "us-cau-233",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War II Civil Liberties",
+    "era": "1941–1988",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "U.S. West Coast" },
+    "prompt": "Order this cause-and-effect chain regarding Japanese American internment.",
+    "options": [
+      { "id": "a", "text": "FDR signs Executive Order 9066 authorizing exclusion zones" },
+      { "id": "b", "text": "Japan attacks Pearl Harbor, fueling West Coast war fears" },
+      { "id": "c", "text": "Congress later apologizes and pays survivors reparations" },
+      { "id": "d", "text": "Over 110,000 Japanese Americans are forced into camps" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Wartime fear after Pearl Harbor led to Executive Order 9066 and mass internment, followed decades later by an apology.",
+    "source_url": "https://www.archives.gov/education/lessons/japanese-relocation",
+    "trap_notes": {
+      "default": "Pearl Harbor fears led to Order 9066 and camp confinement; Congress apologized in 1988."
+    }
+  },
+  {
+    "id": "us-cau-234",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Postwar Economy",
+    "era": "1944–1958",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7259, "lng": -73.5143, "label": "American Suburbs" },
+    "prompt": "Order this cause-and-effect chain behind postwar suburban growth.",
+    "options": [
+      { "id": "a", "text": "Builders mass-produce affordable suburbs like Levittown" },
+      { "id": "b", "text": "Congress passes the GI Bill with low-cost home loans" },
+      { "id": "c", "text": "Millions of veterans return home and start families" },
+      { "id": "d", "text": "Auto sales and highway commuting surge nationwide" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Returning veterans used GI Bill loans to buy mass-produced suburban homes, boosting car sales and commuting.",
+    "source_url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+    "trap_notes": {
+      "default": "Returning veterans and GI Bill mortgages fueled suburban homebuilding, which then increased car commuting."
+    }
+  },
+  {
+    "id": "us-cau-235",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Cold War Europe",
+    "era": "1947–1952",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Western Europe" },
+    "prompt": "Order this cause-and-effect chain behind the Marshall Plan.",
+    "options": [
+      { "id": "a", "text": "Western European economies recover and resist communism" },
+      { "id": "b", "text": "World War II leaves European cities and factories in ruins" },
+      { "id": "c", "text": "The U.S. sends billions in Marshall Plan recovery aid" },
+      { "id": "d", "text": "U.S. leaders fear poverty will boost communist parties" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Postwar devastation made U.S. leaders fear communist gains, so Marshall Plan aid rebuilt Western Europe.",
+    "source_url": "https://www.archives.gov/milestone-documents/marshall-plan",
+    "trap_notes": {
+      "default": "WWII destruction and fear of communism came first, prompting Marshall Plan aid and economic recovery."
+    }
+  },
+  {
+    "id": "us-cau-236",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Cold War & Education",
+    "era": "1957–1960",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order this cause-and-effect chain sparked by the launch of Sputnik.",
+    "options": [
+      { "id": "a", "text": "Congress passes the National Defense Education Act" },
+      { "id": "b", "text": "The Soviet Union launches the first artificial satellite" },
+      { "id": "c", "text": "Schools expand math, science, and foreign language classes" },
+      { "id": "d", "text": "Americans worry the U.S. is falling behind in science" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Sputnik's launch alarmed Americans, leading Congress to fund math and science education through the NDEA.",
+    "source_url": "https://history.house.gov/Historical-Highlights/1951-2000/The-National-Defense-Education-Act-of-1958/",
+    "trap_notes": {
+      "default": "Sputnik came first, sparking public alarm and federal funding for science classes."
+    }
+  },
+  {
+    "id": "us-cau-237",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1955–1956",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.3668, "lng": -86.3000, "label": "Montgomery, Alabama" },
+    "prompt": "Order this cause-and-effect chain in the Montgomery Bus Boycott.",
+    "options": [
+      { "id": "a", "text": "Supreme Court rules bus segregation unconstitutional" },
+      { "id": "b", "text": "Rosa Parks refuses to give up her bus seat and is arrested" },
+      { "id": "c", "text": "Black residents boycott city buses for over a year" },
+      { "id": "d", "text": "Local activists form an organization led by Martin Luther King" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Rosa Parks's arrest led activists under MLK to organize a yearlong boycott, ending in a Supreme Court victory.",
+    "source_url": "https://www.nps.gov/places/rosa-parks-arrest-site.htm",
+    "trap_notes": {
+      "default": "Parks's arrest sparked the boycott organization, which sustained pressure until the 1956 Court ruling."
+    }
+  },
+  {
+    "id": "us-cau-238",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Civil Rights Legislation",
+    "era": "1965",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.4074, "lng": -87.0211, "label": "Selma, Alabama" },
+    "prompt": "Order this cause-and-effect chain leading to the Voting Rights Act of 1965.",
+    "options": [
+      { "id": "a", "text": "Television broadcasts Bloody Sunday attacks nationwide" },
+      { "id": "b", "text": "Marchers begin a voting-rights walk from Selma to Montgomery" },
+      { "id": "c", "text": "Congress passes the Voting Rights Act banning literacy tests" },
+      { "id": "d", "text": "Public outrage pushes President Johnson to demand a law" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Televised police attacks on Selma marchers shocked the nation, spurring LBJ and Congress to pass the Voting Rights Act.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "default": "The Selma march and Bloody Sunday TV footage came first, building pressure for the 1965 law."
+    }
+  },
+  {
+    "id": "us-cau-239",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Vietnam War",
+    "era": "1964–1973",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "Order this cause-and-effect chain behind the War Powers Resolution.",
+    "options": [
+      { "id": "a", "text": "Congress passes the War Powers Resolution limiting troop use" },
+      { "id": "b", "text": "Presidents escalate the Vietnam War without formal war vote" },
+      { "id": "c", "text": "Lawmakers seek to reclaim constitutional war-making power" },
+      { "id": "d", "text": "Secret bombing of Cambodia angers members of Congress" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Unchecked Vietnam escalation and secret Cambodia bombings led Congress to pass the 1973 War Powers Resolution.",
+    "source_url": "https://www.loc.gov/item/today-in-history/november-07/",
+    "trap_notes": {
+      "default": "Presidential escalation and secret bombings pushed Congress to pass the 1973 War Powers limit."
+    }
+  },
+  {
+    "id": "us-cau-240",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "1960s Youth & Politics",
+    "era": "1965–1971",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order this cause-and-effect chain that produced the Twenty-Sixth Amendment.",
+    "options": [
+      { "id": "a", "text": "States ratify the Twenty-Sixth Amendment lowering vote age" },
+      { "id": "b", "text": "Eighteen-year-olds are drafted to fight in Vietnam" },
+      { "id": "c", "text": "Congress proposes a constitutional amendment in 1971" },
+      { "id": "d", "text": "Youth activists rally around the slogan old enough to fight" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Drafting 18-year-olds for Vietnam sparked protests that led Congress and the states to lower the voting age to 18.",
+    "source_url": "https://www.archives.gov/milestone-documents/26th-amendment",
+    "trap_notes": {
+      "default": "Drafting 18-year-olds came first, sparking protests that led to the 1971 amendment."
+    }
+  },
+  {
+    "id": "us-cau-241",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "1970s Economy",
+    "era": "1973–1975",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States & Middle East" },
+    "prompt": "Order this cause-and-effect chain during the 1973 oil shock.",
+    "options": [
+      { "id": "a", "text": "Arab OPEC nations halt oil shipments to the United States" },
+      { "id": "b", "text": "The U.S. resupplies Israel during the 1973 Yom Kippur War" },
+      { "id": "c", "text": "Drivers face gas lines while inflation and joblessness rise" },
+      { "id": "d", "text": "Crude oil prices quadruple across global markets" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "U.S. support for Israel prompted an OPEC oil embargo, quadrupling oil prices and worsening U.S. stagflation.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/oil-embargo",
+    "trap_notes": {
+      "default": "U.S. wartime aid to Israel triggered the embargo, which spiked oil prices and caused gas lines."
+    }
+  },
+  {
+    "id": "us-cau-242",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Watergate Crisis",
+    "era": "1972–1974",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8995, "lng": -77.0554, "label": "Washington, D.C." },
+    "prompt": "Order this cause-and-effect chain in the Watergate scandal.",
+    "options": [
+      { "id": "a", "text": "Supreme Court orders Nixon to hand over Oval Office tapes" },
+      { "id": "b", "text": "Burglars break into Democratic offices at Watergate" },
+      { "id": "c", "text": "Nixon resigns before facing a likely impeachment vote" },
+      { "id": "d", "text": "White House aides try to cover up ties to the break-in" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Watergate break-in and cover-up led to the Supreme Court tape ruling, forcing Nixon to resign in 1974.",
+    "source_url": "https://www.archives.gov/milestone-documents/president-richard-nixons-resignation-letter",
+    "trap_notes": {
+      "default": "The break-in and cover-up came before the tape ruling, which exposed Nixon and led to his resignation."
+    }
+  },
+  {
+    "id": "us-cau-243",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Cold War Endgame",
+    "era": "1983–1991",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow & Washington" },
+    "prompt": "Order this cause-and-effect chain at the end of the Cold War.",
+    "options": [
+      { "id": "a", "text": "Gorbachev launches glasnost and perestroika reforms" },
+      { "id": "b", "text": "Heavy military spending strains the stagnant Soviet economy" },
+      { "id": "c", "text": "The Soviet Union dissolves into independent republics" },
+      { "id": "d", "text": "Eastern European nations break free from Soviet control" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Economic strain pushed Gorbachev to reform, which loosened Soviet control over Eastern Europe and ended the USSR.",
+    "source_url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+    "trap_notes": {
+      "default": "Soviet economic strain led to Gorbachev's reforms, then Eastern Europe's breakaway, and finally the USSR's end."
+    }
+  },
+  {
+    "id": "us-cau-244",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Post-9/11 America",
+    "era": "2001–2002",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7115, "lng": -74.0134, "label": "New York & Washington" },
+    "prompt": "Order this cause-and-effect chain following the September 11 attacks.",
+    "options": [
+      { "id": "a", "text": "Congress passes the USA PATRIOT Act expanding surveillance" },
+      { "id": "b", "text": "Al-Qaeda hijackers strike the World Trade Center and Pentagon" },
+      { "id": "c", "text": "Congress creates the Department of Homeland Security" },
+      { "id": "d", "text": "U.S. leaders seek stronger intelligence sharing and defense" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The 9/11 attacks prompted leaders to boost domestic security through the 2001 PATRIOT Act and the 2002 Homeland Security Dept.",
+    "source_url": "https://www.dhs.gov/creation-department-homeland-security",
+    "trap_notes": {
+      "default": "The 9/11 attacks came first, followed by the 2001 PATRIOT Act and the 2002 Homeland Security Act."
+    }
+  },
+  {
+    "id": "us-cau-245",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "2008 Financial Crisis",
+    "era": "2006–2009",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7074, "lng": -74.0113, "label": "United States" },
+    "prompt": "Order this cause-and-effect chain behind the 2008 Great Recession.",
+    "options": [
+      { "id": "a", "text": "Major investment banks suffer huge losses and freeze credit" },
+      { "id": "b", "text": "Homeowners default on risky subprime mortgage loans" },
+      { "id": "c", "text": "Congress passes bank bailouts and economic stimulus" },
+      { "id": "d", "text": "Mortgage-backed securities lose value across global markets" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Subprime mortgage defaults sank mortgage securities, freezing bank credit and prompting federal bailouts and stimulus.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+    "trap_notes": {
+      "default": "Mortgage defaults damaged securities and banks first, which then forced federal bailouts and stimulus."
+    }
+  },
+  {
+    "id": "us-cmp-216",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Colonial Trade & Empire",
+    "era": "1651–1763",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "British Atlantic" },
+    "compareSpec": {
+      "leftLabel": "Mercantilism",
+      "rightLabel": "Salutary Neglect",
+      "items": [
+        { "id": "i1", "text": "Navigation Acts restricted colonial trade", "bucket": "left" },
+        { "id": "i2", "text": "Colonies existed to enrich Britain", "bucket": "left" },
+        { "id": "i3", "text": "Britain loosely enforced trade rules", "bucket": "right" },
+        { "id": "i4", "text": "Let colonial assemblies grow stronger", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each British imperial practice into Mercantilism or Salutary Neglect.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mercantilism used rules like the Navigation Acts to enrich Britain, while salutary neglect left colonies largely self-governed.",
+    "source_url": "https://www.britannica.com/topic/salutary-neglect",
+    "trap_notes": {
+      "default": "Strict trade laws belong to mercantilism; loose enforcement and local self-rule belong to salutary neglect."
+    }
+  },
+  {
+    "id": "us-cmp-217",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Early Foreign Policy",
+    "era": "1793–1812",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington & Europe" },
+    "compareSpec": {
+      "leftLabel": "Jay's Treaty (1794)",
+      "rightLabel": "Pinckney's Treaty (1795)",
+      "items": [
+        { "id": "i1", "text": "Negotiated with Great Britain", "bucket": "left" },
+        { "id": "i2", "text": "Got British troops out of Northwest forts", "bucket": "left" },
+        { "id": "i3", "text": "Negotiated with Spain", "bucket": "right" },
+        { "id": "i4", "text": "Secured U.S. use of New Orleans port", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1790s diplomatic outcome into Jay's Treaty (1794) or Pinckney's Treaty (1795).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Jay's Treaty settled fort disputes with Britain, while Pinckney's Treaty opened the Mississippi and New Orleans with Spain.",
+    "source_url": "https://history.state.gov/milestones/1784-1800/pickney-treaty",
+    "trap_notes": {
+      "default": "Jay dealt with Britain over Northwest forts; Pinckney dealt with Spain over New Orleans."
+    }
+  },
+  {
+    "id": "us-cmp-218",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Early Political Parties",
+    "era": "1828–1854",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "compareSpec": {
+      "leftLabel": "Know-Nothing Party",
+      "rightLabel": "Free-Soil Party",
+      "items": [
+        { "id": "i1", "text": "Opposed Catholic and Irish immigration", "bucket": "left" },
+        { "id": "i2", "text": "Sought longer waits for citizenship", "bucket": "left" },
+        { "id": "i3", "text": "Opposed slavery in western territories", "bucket": "right" },
+        { "id": "i4", "text": "Backed free homesteads for white farmers", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1850s third-party stance into Know-Nothing Party or Free-Soil Party.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Know-Nothing Party pushed nativist limits on immigrants, while the Free-Soil Party opposed expanding slavery west.",
+    "source_url": "https://www.britannica.com/topic/Know-Nothing-party",
+    "trap_notes": {
+      "default": "Match anti-immigrant nativism to the Know-Nothings and anti-slavery expansion to the Free-Soil Party."
+    }
+  },
+  {
+    "id": "us-cmp-219",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Civil War Turning Points",
+    "era": "1863",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 36.0000, "lng": -84.0000, "label": "Gettysburg & Vicksburg" },
+    "compareSpec": {
+      "leftLabel": "Battle of Gettysburg",
+      "rightLabel": "Siege of Vicksburg",
+      "items": [
+        { "id": "i1", "text": "Fought in southern Pennsylvania", "bucket": "left" },
+        { "id": "i2", "text": "Ended Lee's second invasion of the North", "bucket": "left" },
+        { "id": "i3", "text": "Fought on the Mississippi River", "bucket": "right" },
+        { "id": "i4", "text": "Split the Confederacy in two", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each July 1863 Civil War detail into Battle of Gettysburg or Siege of Vicksburg.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Gettysburg halted Lee's invasion in Pennsylvania, while Vicksburg gave the Union full control of the Mississippi River.",
+    "source_url": "https://www.nps.gov/vick/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Gettysburg was in Pennsylvania against Lee; Vicksburg was on the Mississippi River."
+    }
+  },
+  {
+    "id": "us-cmp-220",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Westward Laws",
+    "era": "1862",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.8136, "lng": -96.7026, "label": "Great Plains & Midwest" },
+    "compareSpec": {
+      "leftLabel": "Homestead Act (1862)",
+      "rightLabel": "Morrill Land-Grant Act (1862)",
+      "items": [
+        { "id": "i1", "text": "Gave 160 acres to settlers who farmed", "bucket": "left" },
+        { "id": "i2", "text": "Required five years of living on land", "bucket": "left" },
+        { "id": "i3", "text": "Funded state agricultural colleges", "bucket": "right" },
+        { "id": "i4", "text": "Expanded practical engineering degrees", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1862 federal land law feature into Homestead Act (1862) or Morrill Land-Grant Act (1862).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Homestead Act gave 160-acre plots to families, while the Morrill Act used federal land sales to fund state colleges.",
+    "source_url": "https://www.archives.gov/milestone-documents/morrill-act",
+    "trap_notes": {
+      "default": "Homestead gave farms directly to settlers; Morrill funded public agricultural and mechanical colleges."
+    }
+  },
+  {
+    "id": "us-cmp-221",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Gilded Age Reformers",
+    "era": "1880–1910",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago & New York" },
+    "compareSpec": {
+      "leftLabel": "Social Gospel",
+      "rightLabel": "Social Darwinism",
+      "items": [
+        { "id": "i1", "text": "Urged Christians to help the urban poor", "bucket": "left" },
+        { "id": "i2", "text": "Inspired settlement houses like Hull House", "bucket": "left" },
+        { "id": "i3", "text": "Applied survival of the fittest to wealth", "bucket": "right" },
+        { "id": "i4", "text": "Opposed government aid for workers", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Gilded Age belief into Social Gospel or Social Darwinism.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Social Gospel called on churches to fight poverty, while Social Darwinism argued wealth showed natural fitness.",
+    "source_url": "https://www.britannica.com/topic/Social-Gospel",
+    "trap_notes": {
+      "default": "Social Gospel supported charity and reform; Social Darwinism opposed aid and praised laissez-faire."
+    }
+  },
+  {
+    "id": "us-cmp-222",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Progressive Democracy",
+    "era": "1900–1917",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "U.S. States" },
+    "compareSpec": {
+      "leftLabel": "Initiative & Referendum",
+      "rightLabel": "Recall",
+      "items": [
+        { "id": "i1", "text": "Let voters propose laws by petition", "bucket": "left" },
+        { "id": "i2", "text": "Put state laws directly on the ballot", "bucket": "left" },
+        { "id": "i3", "text": "Allowed voters to remove an official", "bucket": "right" },
+        { "id": "i4", "text": "Ended a politician's term early by vote", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Progressive voting reform into Initiative & Referendum or Recall.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Initiative and referendum let citizens vote directly on laws, while recall let voters remove elected officials early.",
+    "source_url": "https://www.britannica.com/topic/initiative-and-referendum",
+    "trap_notes": {
+      "default": "Initiative and referendum deal with laws on the ballot; recall deals with removing an official."
+    }
+  },
+  {
+    "id": "us-cmp-223",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "WWI Home Front",
+    "era": "1917–1919",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "War Industries Board",
+      "rightLabel": "Committee on Public Information",
+      "items": [
+        { "id": "i1", "text": "Directed factory output and raw materials", "bucket": "left" },
+        { "id": "i2", "text": "Led by financier Bernard Baruch", "bucket": "left" },
+        { "id": "i3", "text": "Created pro-war posters and speeches", "bucket": "right" },
+        { "id": "i4", "text": "Led by journalist George Creel", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each WWI federal agency into War Industries Board or Committee on Public Information.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The War Industries Board managed war production, while the Committee on Public Information ran wartime propaganda.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/united-states-participation-in-world-war-i/",
+    "trap_notes": {
+      "default": "Baruch's board managed factories and materials; Creel's committee managed posters, films, and speeches."
+    }
+  },
+  {
+    "id": "us-cmp-224",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "New Deal Labor & Welfare",
+    "era": "1935",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Wagner Act (1935)",
+      "rightLabel": "Social Security Act (1935)",
+      "items": [
+        { "id": "i1", "text": "Protected workers' right to join unions", "bucket": "left" },
+        { "id": "i2", "text": "Created the National Labor Relations Board", "bucket": "left" },
+        { "id": "i3", "text": "Paid monthly pensions to retired workers", "bucket": "right" },
+        { "id": "i4", "text": "Funded unemployment insurance with taxes", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1935 New Deal law into Wagner Act (1935) or Social Security Act (1935).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Wagner Act protected labor unions and collective bargaining, while Social Security created retirement pensions and aid.",
+    "source_url": "https://www.archives.gov/milestone-documents/national-labor-relations-act",
+    "trap_notes": {
+      "default": "Union rights and the NLRB belong to the Wagner Act; pensions and jobless aid belong to Social Security."
+    }
+  },
+  {
+    "id": "us-cmp-225",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "WWII Conferences",
+    "era": "1945",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 44.4952, "lng": 34.1663, "label": "Yalta & Potsdam" },
+    "compareSpec": {
+      "leftLabel": "Yalta Conference (Feb 1945)",
+      "rightLabel": "Potsdam Conference (July 1945)",
+      "items": [
+        { "id": "i1", "text": "Attended by FDR, Churchill, and Stalin", "bucket": "left" },
+        { "id": "i2", "text": "Planned the United Nations and German zones", "bucket": "left" },
+        { "id": "i3", "text": "Harry Truman represented the United States", "bucket": "right" },
+        { "id": "i4", "text": "Issued ultimatum for Japan to surrender", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1945 summit detail into Yalta Conference (Feb 1945) or Potsdam Conference (July 1945).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "FDR met Stalin and Churchill at Yalta in February 1945; Truman attended Potsdam in July after Germany's surrender.",
+    "source_url": "https://history.state.gov/milestones/1937-1945/potsdam-conf",
+    "trap_notes": {
+      "default": "FDR was at Yalta before he died; Truman attended Potsdam after Germany surrendered."
+    }
+  },
+  {
+    "id": "us-cmp-226",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1950s Cold War Alliances",
+    "era": "1949–1955",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Europe" },
+    "compareSpec": {
+      "leftLabel": "NATO (1949)",
+      "rightLabel": "Warsaw Pact (1955)",
+      "items": [
+        { "id": "i1", "text": "Led by the United States and Western allies", "bucket": "left" },
+        { "id": "i2", "text": "Formed first to deter Soviet aggression", "bucket": "left" },
+        { "id": "i3", "text": "Led by the Soviet Union in Eastern Europe", "bucket": "right" },
+        { "id": "i4", "text": "Formed after West Germany joined NATO", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Cold War military alliance trait into NATO (1949) or Warsaw Pact (1955).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "NATO united the U.S. and Western Europe in 1949; the USSR formed the Warsaw Pact in 1955 in response.",
+    "source_url": "https://history.state.gov/milestones/1945-1952/nato",
+    "trap_notes": {
+      "default": "NATO was the Western alliance led by the U.S.; the Warsaw Pact was the Soviet-led Eastern bloc."
+    }
+  },
+  {
+    "id": "us-cmp-227",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1960s Presidential Agendas",
+    "era": "1961–1968",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "JFK's New Frontier",
+      "rightLabel": "LBJ's Great Society",
+      "items": [
+        { "id": "i1", "text": "Launched the Peace Corps abroad", "bucket": "left" },
+        { "id": "i2", "text": "Set the goal to land on the Moon", "bucket": "left" },
+        { "id": "i3", "text": "Created Medicare and Medicaid health aid", "bucket": "right" },
+        { "id": "i4", "text": "Launched Head Start and War on Poverty", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1960s federal initiative into JFK's New Frontier or LBJ's Great Society.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Kennedy's New Frontier launched the Peace Corps and Moon race, while Johnson's Great Society passed Medicare and War on Poverty.",
+    "source_url": "https://millercenter.org/president/lbjohnson",
+    "trap_notes": {
+      "default": "Peace Corps and the Moon race were JFK's New Frontier; Medicare and Head Start were LBJ's Great Society."
+    }
+  },
+  {
+    "id": "us-cmp-228",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1960s–1970s Environmentalism",
+    "era": "1962–1973",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "compareSpec": {
+      "leftLabel": "Clean Air Act (1970)",
+      "rightLabel": "Endangered Species Act (1973)",
+      "items": [
+        { "id": "i1", "text": "Set federal limits on smog and tailpipes", "bucket": "left" },
+        { "id": "i2", "text": "Regulated factory smokestack emissions", "bucket": "left" },
+        { "id": "i3", "text": "Protected habitats of threatened wildlife", "bucket": "right" },
+        { "id": "i4", "text": "Banned hunting or harming listed animals", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1970s environmental law into Clean Air Act (1970) or Endangered Species Act (1973).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Clean Air Act curbed air pollution from cars and factories, while the Endangered Species Act protected threatened wildlife.",
+    "source_url": "https://www.epa.gov/laws-regulations/summary-clean-air-act",
+    "trap_notes": {
+      "default": "Match emissions and smog to the Clean Air Act, and wildlife habitats to the Endangered Species Act."
+    }
+  },
+  {
+    "id": "us-cmp-229",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Watergate & Ford Era",
+    "era": "1972–1976",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Richard Nixon",
+      "rightLabel": "Gerald Ford",
+      "items": [
+        { "id": "i1", "text": "Opened diplomatic talks in Beijing", "bucket": "left" },
+        { "id": "i2", "text": "Resigned during the Watergate scandal", "bucket": "left" },
+        { "id": "i3", "text": "Became president without winning election", "bucket": "right" },
+        { "id": "i4", "text": "Issued a full pardon for his predecessor", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1970s presidential milestone into Richard Nixon or Gerald Ford.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Nixon opened relations with China and resigned over Watergate; Ford took office unelected and pardoned Nixon.",
+    "source_url": "https://millercenter.org/president/ford",
+    "trap_notes": {
+      "default": "China and Watergate resignation belong to Nixon; pardoning Nixon belongs to Gerald Ford."
+    }
+  },
+  {
+    "id": "us-cmp-230",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1990s–2000s Elections & Laws",
+    "era": "1994–2008",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "compareSpec": {
+      "leftLabel": "George W. Bush",
+      "rightLabel": "Barack Obama",
+      "items": [
+        { "id": "i1", "text": "Signed the No Child Left Behind law", "bucket": "left" },
+        { "id": "i2", "text": "Ordered the 2003 invasion of Iraq", "bucket": "left" },
+        { "id": "i3", "text": "Signed the Affordable Care Act in 2010", "bucket": "right" },
+        { "id": "i4", "text": "First African American U.S. president", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 21st-century milestone into George W. Bush or Barack Obama.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "George W. Bush signed No Child Left Behind and launched the Iraq War; Obama signed the Affordable Care Act.",
+    "source_url": "https://millercenter.org/president/obama",
+    "trap_notes": {
+      "default": "No Child Left Behind and the 2003 Iraq War were Bush policies; the Affordable Care Act was Obama's."
+    }
+  }
+]

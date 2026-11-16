@@ -1,0 +1,2622 @@
+[
+  {
+    "id": "civics-mc-101",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1781–1789",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Which weakness of the Articles of Confederation made paying Revolutionary War debts hardest?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress lacked the power to levy direct taxes on citizens"
+      },
+      {
+        "id": "b",
+        "text": "The president vetoed all revenue bills passed by Congress"
+      },
+      {
+        "id": "c",
+        "text": "The Supreme Court struck down state tariffs on foreign imports"
+      },
+      {
+        "id": "d",
+        "text": "State governors refused to appoint senators to the upper chamber"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under the Articles of Confederation, Congress could request money from states but could not tax citizens directly.",
+    "source_url": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "trap_notes": {
+      "b": "The Articles of Confederation had no national president or executive veto.",
+      "c": "The Articles of Confederation did not establish a national Supreme Court.",
+      "d": "The Articles created a unicameral Congress with no upper Senate chamber.",
+      "default": "Under the Articles, Congress could only ask states for funds, not levy taxes."
+    }
+  },
+  {
+    "id": "civics-mc-102",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "How did the Great Compromise resolve representation at the 1787 Constitutional Convention?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It paired a population-based House with an equal-state Senate"
+      },
+      {
+        "id": "b",
+        "text": "It gave every state three votes in a single national legislature"
+      },
+      {
+        "id": "c",
+        "text": "It let state governors appoint all members of both chambers"
+      },
+      {
+        "id": "d",
+        "text": "It awarded seats based solely on each state's tax payments"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Great Compromise combined the Virginia and New Jersey plans into a two-house Congress.",
+    "source_url": "https://www.senate.gov/about/origins-foundations/idea-of-the-senate/1787ConnecticutCompromise.htm",
+    "trap_notes": {
+      "b": "The Constitution created a bicameral Congress, not a single-chamber legislature.",
+      "c": "House members were directly elected by voters, not appointed by governors.",
+      "d": "Representation in the House used population, not tax revenue paid.",
+      "default": "The Great Compromise created a population-based House and an equal-vote Senate."
+    }
+  },
+  {
+    "id": "civics-mc-103",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–1788",
+    "skill_tag": "primary_source",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "In Federalist No. 10, how did James Madison argue a large republic controls factions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diverse competing interests prevent any single group from dominating"
+      },
+      {
+        "id": "b",
+        "text": "A strong monarch bans political parties from forming"
+      },
+      {
+        "id": "c",
+        "text": "Direct town-hall voting ensures unanimous agreement on laws"
+      },
+      {
+        "id": "d",
+        "text": "Equal wealth distribution removes all economic disagreements"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Madison argued that an extended republic multiplies factions so no majority can easily tyrannize minorities.",
+    "source_url": "https://guides.loc.gov/federalist-papers/text-1-10",
+    "trap_notes": {
+      "b": "Madison supported a constitutional republic, not a monarchy banning parties.",
+      "c": "Madison warned that pure direct democracy fails to check majority factions.",
+      "d": "Madison viewed unequal property as natural and sought to manage, not erase, it.",
+      "default": "A large republic includes many competing groups, making majority tyranny harder."
+    }
+  },
+  {
+    "id": "civics-mc-104",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–1788",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "Which constitutional principle does Madison defend in Federalist No. 51 with 'Ambition must be made to counteract ambition'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Checks and balances across separated branches of government"
+      },
+      {
+        "id": "b",
+        "text": "Judicial supremacy over all state and federal elections"
+      },
+      {
+        "id": "c",
+        "text": "Unrestricted executive authority during foreign military crises"
+      },
+      {
+        "id": "d",
+        "text": "Term limits for members of the House and Senate"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Federalist No. 51 explains that giving each branch powers to check the others prevents tyranny.",
+    "source_url": "https://guides.loc.gov/federalist-papers/text-51-60",
+    "trap_notes": {
+      "b": "Federalist No. 51 focuses on mutual checks among all three branches, not judicial rule.",
+      "c": "Madison argued for limiting executive power through legislative checks.",
+      "d": "The Constitution did not set congressional term limits in Federalist No. 51.",
+      "default": "Madison meant each branch uses its own powers to guard against overreach by others."
+    }
+  },
+  {
+    "id": "civics-mc-105",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What does the Supremacy Clause in Article VI of the U.S. Constitution establish?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Federal laws and treaties outrank conflicting state laws"
+      },
+      {
+        "id": "b",
+        "text": "The president outranks Congress when foreign treaties expire"
+      },
+      {
+        "id": "c",
+        "text": "State courts outrank federal courts in criminal appeals"
+      },
+      {
+        "id": "d",
+        "text": "The House outranks the Senate on all budget bills"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article VI makes the Constitution, federal laws, and treaties the supreme law of the land.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-vi",
+    "trap_notes": {
+      "b": "The Supremacy Clause governs federal-state conflicts, not president-Congress rank.",
+      "c": "Federal courts can review state court rulings that involve federal law.",
+      "d": "Both chambers must pass identical bills; neither outranks the other overall.",
+      "default": "When valid federal law conflicts with state law, federal law prevails."
+    }
+  },
+  {
+    "id": "civics-mc-106",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How is an amendment to the U.S. Constitution most commonly proposed and ratified?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proposed by two-thirds of Congress and ratified by three-fourths of states"
+      },
+      {
+        "id": "b",
+        "text": "Proposed by the president and ratified by a majority of voters"
+      },
+      {
+        "id": "c",
+        "text": "Proposed by the Supreme Court and ratified by half of the states"
+      },
+      {
+        "id": "d",
+        "text": "Proposed by state governors and ratified by a simple Senate majority"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under Article V, 26 of 27 amendments passed two-thirds of both houses and three-fourths of state legislatures.",
+    "source_url": "https://www.archives.gov/federal-register/constitution",
+    "trap_notes": {
+      "b": "The president has no formal role in proposing or vetoing constitutional amendments.",
+      "c": "The Supreme Court interprets the Constitution; it does not propose amendments.",
+      "d": "Governors cannot propose amendments, and ratification requires three-fourths of states.",
+      "default": "Article V requires a two-thirds congressional vote and three-fourths state approval."
+    }
+  },
+  {
+    "id": "civics-mc-107",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Why is Article I, Section 8, Clause 18 called the Elastic Clause?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It lets Congress pass laws needed to carry out enumerated powers"
+      },
+      {
+        "id": "b",
+        "text": "It lets states stretch their borders into federal territories"
+      },
+      {
+        "id": "c",
+        "text": "It lets the president extend congressional terms during wartime"
+      },
+      {
+        "id": "d",
+        "text": "It lets judges rewrite statutes without legislative approval"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Necessary and Proper Clause gives Congress implied powers to execute its listed duties.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/754",
+    "trap_notes": {
+      "b": "Congress, not individual states, controls federal territories and state admissions.",
+      "c": "The president has no power to alter congressional term lengths.",
+      "d": "Courts interpret laws rather than rewriting legislation.",
+      "default": "The Elastic Clause grants implied powers tied to Congress's enumerated duties."
+    }
+  },
+  {
+    "id": "civics-mc-108",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What does the Full Faith and Credit Clause require U.S. states to do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Respect the public acts, records, and court rulings of other states"
+      },
+      {
+        "id": "b",
+        "text": "Adopt identical criminal sentencing laws across all fifty states"
+      },
+      {
+        "id": "c",
+        "text": "Transfer state tax surpluses to the federal treasury each year"
+      },
+      {
+        "id": "d",
+        "text": "Accept paper currency printed by neighboring state governments"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article IV requires states to honor legal records like driver's licenses, marriages, and court judgments from other states.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-iv",
+    "trap_notes": {
+      "b": "States retain their own criminal codes and sentencing rules.",
+      "c": "States manage their own budgets and do not surrender surpluses to Washington.",
+      "d": "Article I forbids states from coining or printing their own money.",
+      "default": "Full Faith and Credit ensures legal records and judgments carry across state lines."
+    }
+  },
+  {
+    "id": "civics-mc-109",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which power belongs exclusively to the U.S. House of Representatives?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Originating all bills that raise federal revenue"
+      },
+      {
+        "id": "b",
+        "text": "Confirming presidential nominees to the Supreme Court"
+      },
+      {
+        "id": "c",
+        "text": "Ratifying international treaties by a two-thirds vote"
+      },
+      {
+        "id": "d",
+        "text": "Conducting the trial after a president is impeached"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article I, Section 7 states that all bills for raising revenue must originate in the House.",
+    "source_url": "https://www.house.gov/the-house-explained/the-legislative-process",
+    "trap_notes": {
+      "b": "Confirming federal judges is an exclusive power of the Senate.",
+      "c": "Ratifying treaties by a two-thirds vote belongs solely to the Senate.",
+      "d": "The House votes to impeach, while the Senate holds the trial.",
+      "default": "Only the House can originate revenue bills and bring articles of impeachment."
+    }
+  },
+  {
+    "id": "civics-mc-110",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What vote threshold is required in Congress to override a presidential veto?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two-thirds of the members present in both chambers"
+      },
+      {
+        "id": "b",
+        "text": "A simple majority in both the House and Senate"
+      },
+      {
+        "id": "c",
+        "text": "Three-fourths of the Senate with House concurrence"
+      },
+      {
+        "id": "d",
+        "text": "Unanimous consent of the House Ways and Means Committee"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Overriding a presidential veto requires a two-thirds vote in both the House and the Senate.",
+    "source_url": "https://www.congress.gov/help/learn-about-the-legislative-process",
+    "trap_notes": {
+      "b": "A simple majority passes a bill initially, not after a presidential veto.",
+      "c": "Three-fourths applies to state ratification of constitutional amendments.",
+      "d": "Committee consent cannot override a presidential veto.",
+      "default": "Both chambers must vote by a two-thirds majority to override a veto."
+    }
+  },
+  {
+    "id": "civics-mc-111",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "When does a presidential pocket veto occur?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The president leaves a bill unsigned and Congress adjourns within ten days"
+      },
+      {
+        "id": "b",
+        "text": "The president signs a bill while adding a written signing statement"
+      },
+      {
+        "id": "c",
+        "text": "The president strikes out specific spending lines in a budget bill"
+      },
+      {
+        "id": "d",
+        "text": "The president returns a bill to Congress with formal written objections"
+      }
+    ],
+    "answer": "a",
+    "explanation": "If Congress adjourns within ten days (excluding Sundays) and the president does not sign, the bill dies.",
+    "source_url": "https://www.senate.gov/reference/glossary_term/pocket_veto.htm",
+    "trap_notes": {
+      "b": "Signing statements comment on signed laws; they are not pocket vetoes.",
+      "c": "Line-item vetoes were ruled unconstitutional in Clinton v. City of New York.",
+      "d": "Returning a bill with objections is a regular veto that Congress can override.",
+      "default": "A pocket veto happens when adjournment prevents the president from returning a bill."
+    }
+  },
+  {
+    "id": "civics-mc-112",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1973–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What did the War Powers Resolution of 1973 require of the president?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Notify Congress within 48 hours and end unauthorized deployments after 60 days"
+      },
+      {
+        "id": "b",
+        "text": "Obtain Supreme Court approval before deploying troops overseas"
+      },
+      {
+        "id": "c",
+        "text": "Wait for a two-thirds Senate vote before ordering any airstrike"
+      },
+      {
+        "id": "d",
+        "text": "Transfer command of the armed forces to the Speaker of the House"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Passed over Nixon's veto, the law requires 48-hour notice and limits undeclared deployments to 60 days.",
+    "source_url": "https://www.loc.gov/law/help/war-powers.php",
+    "trap_notes": {
+      "b": "The judicial branch does not pre-approve military deployments.",
+      "c": "Declarations of war require a majority vote of both houses, not two-thirds of the Senate.",
+      "d": "The president remains Commander in Chief under Article II.",
+      "default": "The War Powers Resolution sets a 48-hour notice rule and a 60-day deployment limit."
+    }
+  },
+  {
+    "id": "civics-mc-113",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Why does Article III grant federal judges tenure during good behavior?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To shield judicial rulings from political pressure by voters or Congress"
+      },
+      {
+        "id": "b",
+        "text": "To ensure every federal judge eventually joins the Supreme Court"
+      },
+      {
+        "id": "c",
+        "text": "To allow judges to write new tax laws without congressional input"
+      },
+      {
+        "id": "d",
+        "text": "To prevent states from establishing their own trial court systems"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Life tenure during good behavior protects judicial independence so judges rule on law rather than politics.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-iii",
+    "trap_notes": {
+      "b": "Most federal district and appellate judges serve their entire careers on those courts.",
+      "c": "Judges interpret law; only Congress holds legislative taxing power.",
+      "d": "States run their own independent court systems alongside federal courts.",
+      "default": "Judicial independence lets judges decide cases without fear of political removal."
+    }
+  },
+  {
+    "id": "civics-mc-114",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Who presides over a U.S. Senate impeachment trial when the president is on trial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Chief Justice of the United States"
+      },
+      {
+        "id": "b",
+        "text": "The Vice President of the United States"
+      },
+      {
+        "id": "c",
+        "text": "The Speaker of the House of Representatives"
+      },
+      {
+        "id": "d",
+        "text": "The Majority Leader of the U.S. Senate"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article I, Section 3 specifies that the Chief Justice presides when the president is tried, avoiding a conflict of interest.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "trap_notes": {
+      "b": "The Vice President would succeed a removed president, creating a conflict of interest.",
+      "c": "The Speaker leads the House, which brings charges rather than holding the trial.",
+      "d": "The Majority Leader manages Senate floor business, not a presidential trial.",
+      "default": "The Constitution assigns the Chief Justice to preside over presidential impeachment trials."
+    }
+  },
+  {
+    "id": "civics-mc-115",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What is an executive order issued by a U.S. president?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A directive managing federal agencies that has the force of law"
+      },
+      {
+        "id": "b",
+        "text": "A permanent constitutional amendment approved by the Cabinet"
+      },
+      {
+        "id": "c",
+        "text": "A binding treaty with a foreign nation requiring no Senate vote"
+      },
+      {
+        "id": "d",
+        "text": "A judicial ruling that overturns prior Supreme Court precedent"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Executive orders direct executive branch agencies and remain subject to judicial review and congressional legislation.",
+    "source_url": "https://www.archives.gov/federal-register/executive-orders",
+    "trap_notes": {
+      "b": "Only Article V amendments change the Constitution, and later presidents can revoke orders.",
+      "c": "Treaties require a two-thirds Senate vote; executive agreements are distinct from orders.",
+      "d": "Presidents cannot overturn Supreme Court rulings by executive order.",
+      "default": "Executive orders direct federal agencies within existing constitutional or statutory authority."
+    }
+  },
+  {
+    "id": "civics-mc-116",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1998",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Why did the Supreme Court strike down the federal Line Item Veto Act in 1998?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It let the president alter laws without passing new bills through Congress"
+      },
+      {
+        "id": "b",
+        "text": "It allowed state governors to cancel federal highway grants"
+      },
+      {
+        "id": "c",
+        "text": "It violated the First Amendment rights of federal taxpayers"
+      },
+      {
+        "id": "d",
+        "text": "It stripped the Senate of its power to confirm Cabinet officials"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In Clinton v. City of New York, the Court ruled the president must sign or veto a bill as a whole.",
+    "source_url": "https://www.oyez.org/cases/1997/97-1374",
+    "trap_notes": {
+      "b": "The Act applied to the U.S. president, not state governors.",
+      "c": "The ruling turned on Article I Presentment Clause rules, not the First Amendment.",
+      "d": "The Line Item Veto Act concerned spending and tax provisions, not confirmations.",
+      "default": "Article I requires the president to accept or reject an entire bill."
+    }
+  },
+  {
+    "id": "civics-mc-117",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which power is a concurrent power shared by both federal and state governments?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Levying income taxes and maintaining court systems"
+      },
+      {
+        "id": "b",
+        "text": "Declaring war and coining national currency"
+      },
+      {
+        "id": "c",
+        "text": "Negotiating defense treaties with foreign countries"
+      },
+      {
+        "id": "d",
+        "text": "Issuing driver's licenses and regulating local zoning"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Both levels of government can tax citizens, borrow money, and operate court systems.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-x",
+    "trap_notes": {
+      "b": "Declaring war and coining money are exclusive federal powers.",
+      "c": "Foreign treaties are an exclusive power of the federal government.",
+      "d": "Driver's licenses and local zoning are reserved state powers.",
+      "default": "Concurrent powers like taxation and courts are exercised by both states and Washington."
+    }
+  },
+  {
+    "id": "civics-mc-118",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1960s–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How does a federal block grant differ from a categorical grant?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Block grants give states broad discretion within a general policy area"
+      },
+      {
+        "id": "b",
+        "text": "Block grants must be repaid to the U.S. Treasury with interest"
+      },
+      {
+        "id": "c",
+        "text": "Block grants bypass state legislatures and go straight to households"
+      },
+      {
+        "id": "d",
+        "text": "Block grants fund only military bases rather than civilian programs"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Block grants let states decide how to spend funds in broad areas like health, whereas categorical grants have strict rules.",
+    "source_url": "https://www.britannica.com/topic/grant-in-aid",
+    "trap_notes": {
+      "b": "Grants-in-aid are federal funds, not loans that states must repay with interest.",
+      "c": "Block grants are awarded to state and local governments, not individual households.",
+      "d": "Block grants support domestic areas such as community development and welfare.",
+      "default": "Block grants offer states flexibility; categorical grants target narrow purposes."
+    }
+  },
+  {
+    "id": "civics-mc-119",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What does the Tenth Amendment state about powers not given to the federal government?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are reserved to the states or to the people"
+      },
+      {
+        "id": "b",
+        "text": "They belong to the president during national emergencies"
+      },
+      {
+        "id": "c",
+        "text": "They are divided equally between the Senate and the courts"
+      },
+      {
+        "id": "d",
+        "text": "They expire unless Congress renews them every ten years"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Tenth Amendment affirms federalism by reserving undelegated powers to the states or the people.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-x",
+    "trap_notes": {
+      "b": "The Tenth Amendment limits federal power; it does not expand presidential power.",
+      "c": "It reserves powers to states and the people, not to federal branches.",
+      "d": "Constitutional powers do not carry a ten-year expiration clause.",
+      "default": "Powers not delegated to the United States belong to the states or the people."
+    }
+  },
+  {
+    "id": "civics-mc-120",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1900s–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "label": "Sacramento, California"
+    },
+    "prompt": "In state politics, how does a ballot initiative differ from a referendum?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Citizens gather signatures to propose a law in an initiative"
+      },
+      {
+        "id": "b",
+        "text": "Governors use an initiative to veto local city council ordinances"
+      },
+      {
+        "id": "c",
+        "text": "Federal courts use an initiative to strike down state constitutions"
+      },
+      {
+        "id": "d",
+        "text": "State senators use an initiative to bypass public elections"
+      }
+    ],
+    "answer": "a",
+    "explanation": "An initiative lets citizens place proposed laws on the ballot by petition, while a referendum asks voters to approve a legislative act.",
+    "source_url": "https://www.britannica.com/topic/initiative",
+    "trap_notes": {
+      "b": "Initiatives are citizen-driven ballot measures, not gubernatorial vetoes.",
+      "c": "Courts issue rulings; they do not sponsor ballot initiatives.",
+      "d": "Initiatives put measures directly before voters rather than bypassing elections.",
+      "default": "Citizens start initiatives by petition; legislatures usually refer referendums to voters."
+    }
+  },
+  {
+    "id": "civics-mc-121",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What does the Establishment Clause of the First Amendment prohibit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Government creation or endorsement of an official religion"
+      },
+      {
+        "id": "b",
+        "text": "Private citizens building houses of worship in residential zones"
+      },
+      {
+        "id": "c",
+        "text": "Religious charities operating schools with private donations"
+      },
+      {
+        "id": "d",
+        "text": "Elected officials mentioning personal faith in public speeches"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Establishment Clause bars federal and state governments from establishing or favoring a religion.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-i",
+    "trap_notes": {
+      "b": "Private worship and church building are protected by the Free Exercise Clause.",
+      "c": "Private religious schools are legally protected under the First Amendment.",
+      "d": "Elected officials keep their personal free speech and religious expression rights.",
+      "default": "The Establishment Clause prevents government from establishing an official religion."
+    }
+  },
+  {
+    "id": "civics-mc-122",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which protection is guaranteed by the Fifth Amendment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Protection against double jeopardy and self-incrimination"
+      },
+      {
+        "id": "b",
+        "text": "The right to a jury trial in federal civil lawsuits"
+      },
+      {
+        "id": "c",
+        "text": "Protection against quartering soldiers in private homes"
+      },
+      {
+        "id": "d",
+        "text": "The right to keep and bear arms in a state militia"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Fifth Amendment bars trying a person twice for the same offense and forcing self-incrimination.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-v",
+    "trap_notes": {
+      "b": "Civil jury trials are protected by the Seventh Amendment.",
+      "c": "Quartering soldiers is prohibited by the Third Amendment.",
+      "d": "The right to keep and bear arms is in the Second Amendment.",
+      "default": "The Fifth Amendment covers double jeopardy, self-incrimination, due process, and takings."
+    }
+  },
+  {
+    "id": "civics-mc-123",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1868–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How did the Fourteenth Amendment change the reach of the Bill of Rights?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its Due Process Clause led courts to apply rights to the states"
+      },
+      {
+        "id": "b",
+        "text": "It repealed the Tenth Amendment and abolished state legislatures"
+      },
+      {
+        "id": "c",
+        "text": "It limited First Amendment protections solely to federal elections"
+      },
+      {
+        "id": "d",
+        "text": "It gave Congress power to appoint all state supreme court judges"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Through selective incorporation under the 14th Amendment, most Bill of Rights protections now bind state governments.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xiv",
+    "trap_notes": {
+      "b": "The Tenth Amendment remains in force and state legislatures still exist.",
+      "c": "Incorporation expanded, rather than shrank, First Amendment protections.",
+      "d": "States still choose their own judges by election or state appointment.",
+      "default": "Selective incorporation uses the 14th Amendment to apply the Bill of Rights to states."
+    }
+  },
+  {
+    "id": "civics-mc-124",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What does the Fourth Amendment generally require before police search a private home?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A judicial warrant supported by probable cause"
+      },
+      {
+        "id": "b",
+        "text": "Written permission from the state attorney general"
+      },
+      {
+        "id": "c",
+        "text": "A unanimous vote by a twelve-person grand jury"
+      },
+      {
+        "id": "d",
+        "text": "Prior notification published in a local newspaper"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Fourth Amendment protects against unreasonable searches and requires warrants backed by probable cause.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-iv",
+    "trap_notes": {
+      "b": "Warrants are issued by neutral judges or magistrates, not attorneys general.",
+      "c": "Grand juries issue criminal indictments, not search warrants.",
+      "d": "Search warrants are not announced in newspapers beforehand.",
+      "default": "Neutral judges issue search warrants only when probable cause is shown."
+    }
+  },
+  {
+    "id": "civics-mc-125",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1964–1971",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which group gained constitutional protection of voting rights under the Twenty-sixth Amendment in 1971?",
+    "options": [
+      {
+        "id": "a",
+        "text": "U.S. citizens eighteen years of age and older"
+      },
+      {
+        "id": "b",
+        "text": "Women across all states and federal territories"
+      },
+      {
+        "id": "c",
+        "text": "Citizens unable to pay state poll taxes"
+      },
+      {
+        "id": "d",
+        "text": "Residents of D.C. in presidential elections"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Ratified in 1971 during the Vietnam War, the Twenty-sixth Amendment lowered the voting age from 21 to 18.",
+    "source_url": "https://www.archives.gov/milestone-documents/26th-amendment",
+    "trap_notes": {
+      "b": "Women's suffrage was guaranteed by the Nineteenth Amendment in 1920.",
+      "c": "Poll taxes in federal elections were banned by the Twenty-fourth Amendment in 1964.",
+      "d": "D.C. electoral votes were granted by the Twenty-third Amendment in 1961.",
+      "default": "The Twenty-sixth Amendment (1971) set the national voting age at 18."
+    }
+  },
+  {
+    "id": "civics-mc-126",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which trial right is protected by the Sixth Amendment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A speedy, public trial and the assistance of counsel"
+      },
+      {
+        "id": "b",
+        "text": "Freedom from excessive bail and cruel punishments"
+      },
+      {
+        "id": "c",
+        "text": "Compensation when government takes private property"
+      },
+      {
+        "id": "d",
+        "text": "Protection against unreasonable searches of personal papers"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Sixth Amendment guarantees criminal defendants a speedy public jury trial, confrontation of witnesses, and counsel.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-vi",
+    "trap_notes": {
+      "b": "Excessive bail and cruel punishments are barred by the Eighth Amendment.",
+      "c": "Just compensation for property takings is in the Fifth Amendment.",
+      "d": "Unreasonable searches are barred by the Fourth Amendment.",
+      "default": "The Sixth Amendment protects criminal trial rights including an attorney and impartial jury."
+    }
+  },
+  {
+    "id": "civics-mc-127",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1964",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What barrier to voting did the Twenty-fourth Amendment outlaw in federal elections?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Poll taxes charged as a condition for voting"
+      },
+      {
+        "id": "b",
+        "text": "Residency requirements longer than thirty days"
+      },
+      {
+        "id": "c",
+        "text": "Property ownership rules for state senate races"
+      },
+      {
+        "id": "d",
+        "text": "Paper ballots printed without party labels"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Ratified in 1964, the Twenty-fourth Amendment banned poll taxes in federal elections.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxiv",
+    "trap_notes": {
+      "b": "Durational residency rules were limited later by Congress and Supreme Court rulings.",
+      "c": "Property qualifications had largely ended in the 1800s.",
+      "d": "Ballot format is regulated by state election laws, not the 24th Amendment.",
+      "default": "The Twenty-fourth Amendment eliminated poll taxes in federal elections."
+    }
+  },
+  {
+    "id": "civics-mc-128",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1919–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Under modern First Amendment law, when may government restrict speech based on incitement?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When it is directed to and likely to produce imminent lawless action"
+      },
+      {
+        "id": "b",
+        "text": "Whenever a majority of local voters finds the message offensive"
+      },
+      {
+        "id": "c",
+        "text": "Whenever a speaker criticizes federal military policy during peacetime"
+      },
+      {
+        "id": "d",
+        "text": "When a newspaper publishes leaked government documents about past wars"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under Brandenburg v. Ohio (1969), speech loses protection only if it incites imminent lawless action.",
+    "source_url": "https://www.oyez.org/cases/1968/492",
+    "trap_notes": {
+      "b": "Offensive or unpopular ideas remain protected by the First Amendment.",
+      "c": "Criticism of government policy is core political speech.",
+      "d": "New York Times Co. v. United States protected publishing the Pentagon Papers.",
+      "default": "The Brandenburg standard requires intent and likelihood of imminent lawless action."
+    }
+  },
+  {
+    "id": "civics-mc-129",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1803",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What core constitutional power did the Supreme Court establish in Marbury v. Madison (1803)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Judicial review of federal laws against the Constitution"
+      },
+      {
+        "id": "b",
+        "text": "Federal power to charter a national bank"
+      },
+      {
+        "id": "c",
+        "text": "Executive privilege over presidential tape recordings"
+      },
+      {
+        "id": "d",
+        "text": "Congressional authority to regulate interstate steamboats"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Chief Justice John Marshall ruled that courts must strike down federal statutes that conflict with the Constitution.",
+    "source_url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+    "trap_notes": {
+      "b": "Implied power to charter a national bank came from McCulloch v. Maryland (1819).",
+      "c": "Limits on executive privilege were set in United States v. Nixon (1974).",
+      "d": "Interstate commerce over waterways was decided in Gibbons v. Ogden (1824).",
+      "default": "Marbury v. Madison established judicial review as a core check on Congress."
+    }
+  },
+  {
+    "id": "civics-mc-130",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1819",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "label": "Baltimore, Maryland"
+    },
+    "prompt": "What did the Supreme Court decide in McCulloch v. Maryland (1819)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress had implied power to charter a bank and states could not tax it"
+      },
+      {
+        "id": "b",
+        "text": "States could nullify federal tariffs passed without their consent"
+      },
+      {
+        "id": "c",
+        "text": "The Bill of Rights barred states from regulating private banks"
+      },
+      {
+        "id": "d",
+        "text": "Only the president could appoint directors of state-chartered banks"
+      }
+    ],
+    "answer": "a",
+    "explanation": "McCulloch upheld implied powers under the Necessary and Proper Clause and barred state taxation of federal institutions.",
+    "source_url": "https://www.archives.gov/milestone-documents/mcculloch-v-maryland",
+    "trap_notes": {
+      "b": "The Court rejected state efforts to override federal authority.",
+      "c": "In 1819, the Bill of Rights applied only to the federal government.",
+      "d": "The case concerned the Second Bank of the United States, not state bank directors.",
+      "default": "McCulloch affirmed both implied federal powers and federal supremacy over state taxes."
+    }
+  },
+  {
+    "id": "civics-mc-131",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1963",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 30.1588,
+      "lng": -85.6602,
+      "label": "Panama City, Florida"
+    },
+    "prompt": "How did Gideon v. Wainwright (1963) expand the rights of criminal defendants?",
+    "options": [
+      {
+        "id": "a",
+        "text": "States must provide free legal counsel to indigent felony defendants"
+      },
+      {
+        "id": "b",
+        "text": "Police must read suspects their rights before custodial questioning"
+      },
+      {
+        "id": "c",
+        "text": "Courts must exclude evidence seized without a valid search warrant"
+      },
+      {
+        "id": "d",
+        "text": "Juveniles must receive formal hearings before school suspensions"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Gideon incorporated the Sixth Amendment right to counsel, requiring states to appoint lawyers for poor felony defendants.",
+    "source_url": "https://www.oyez.org/cases/1962/155",
+    "trap_notes": {
+      "b": "Custodial interrogation warnings came from Miranda v. Arizona (1966).",
+      "c": "The exclusionary rule for states came from Mapp v. Ohio (1961).",
+      "d": "Student due process hearings came from Goss v. Lopez (1975).",
+      "default": "Gideon v. Wainwright guaranteed court-appointed lawyers in state felony trials."
+    }
+  },
+  {
+    "id": "civics-mc-132",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1969",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 41.5868,
+      "lng": -93.625,
+      "label": "Des Moines, Iowa"
+    },
+    "prompt": "What principle did the Supreme Court affirm in Tinker v. Des Moines (1969)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Students retain symbolic free speech unless it materially disrupts school"
+      },
+      {
+        "id": "b",
+        "text": "School officials may censor any student newspaper article they dislike"
+      },
+      {
+        "id": "c",
+        "text": "Public schools may lead daily mandatory prayer in classrooms"
+      },
+      {
+        "id": "d",
+        "text": "Students have full Fourth Amendment immunity from locker searches"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Wearing black armbands to protest the Vietnam War was protected symbolic speech that caused no substantial disruption.",
+    "source_url": "https://www.oyez.org/cases/1968/21",
+    "trap_notes": {
+      "b": "School-sponsored newspaper censorship was addressed in Hazelwood v. Kuhlmeier (1988).",
+      "c": "Mandatory school prayer was struck down in Engel v. Vitale (1962).",
+      "d": "Student searches were addressed under a reasonableness standard in New Jersey v. T.L.O. (1985).",
+      "default": "Tinker protected non-disruptive student symbolic speech in public schools."
+    }
+  },
+  {
+    "id": "civics-mc-133",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1954",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.0473,
+      "lng": -95.6752,
+      "label": "Topeka, Kansas"
+    },
+    "prompt": "Which prior ruling did Brown v. Board of Education (1954) overturn in public education?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Plessy v. Ferguson's 'separate but equal' doctrine"
+      },
+      {
+        "id": "b",
+        "text": "Dred Scott v. Sandford's ban on Black citizenship"
+      },
+      {
+        "id": "c",
+        "text": "Lochner v. New York's limit on maximum work hours"
+      },
+      {
+        "id": "d",
+        "text": "Korematsu v. United States's wartime internment ruling"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Brown held that segregated public schools are inherently unequal, violating the 14th Amendment's Equal Protection Clause.",
+    "source_url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+    "trap_notes": {
+      "b": "Dred Scott (1857) had already been overturned by the 13th and 14th Amendments.",
+      "c": "Lochner (1905) concerned economic substantive due process, not school segregation.",
+      "d": "Korematsu (1944) involved Japanese American internment during World War II.",
+      "default": "Brown rejected Plessy's 'separate but equal' rule in public schools."
+    }
+  },
+  {
+    "id": "civics-mc-134",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1961",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "label": "Cleveland, Ohio"
+    },
+    "prompt": "What rule did Mapp v. Ohio (1961) apply to state criminal courts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Evidence obtained through unconstitutional searches cannot be used at trial"
+      },
+      {
+        "id": "b",
+        "text": "Suspects must be granted bail within twenty-four hours of arrest"
+      },
+      {
+        "id": "c",
+        "text": "Defendants may appeal misdemeanor convictions directly to the Supreme Court"
+      },
+      {
+        "id": "d",
+        "text": "Police officers must record all witness interviews on audio tape"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Mapp v. Ohio incorporated the Fourth Amendment exclusionary rule against the states.",
+    "source_url": "https://www.oyez.org/cases/1960/236",
+    "trap_notes": {
+      "b": "The Eighth Amendment bars excessive bail but sets no 24-hour release rule.",
+      "c": "State appeals go through state appellate courts first.",
+      "d": "The ruling barred illegally seized physical evidence, not interview recording rules.",
+      "default": "Mapp v. Ohio extended the exclusionary rule to state courts."
+    }
+  },
+  {
+    "id": "civics-mc-135",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How is each state's total number of Electoral College votes determined?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its number of House members plus its two U.S. senators"
+      },
+      {
+        "id": "b",
+        "text": "Its total number of registered voters in the prior census"
+      },
+      {
+        "id": "c",
+        "text": "Its geographic area divided by county population density"
+      },
+      {
+        "id": "d",
+        "text": "An equal flat allocation of ten electors per state"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Each state gets electors equal to its congressional delegation, plus three for D.C., totaling 538.",
+    "source_url": "https://www.archives.gov/electoral-college/allocation",
+    "trap_notes": {
+      "b": "Apportionment uses total population from the census, not voter registration.",
+      "c": "Geographic land area does not determine Electoral College votes.",
+      "d": "States have different numbers of electors based on House seats.",
+      "default": "Electoral votes equal House seats plus two Senate seats per state."
+    }
+  },
+  {
+    "id": "civics-mc-136",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1812–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, Massachusetts"
+    },
+    "prompt": "What is partisan gerrymandering in U.S. legislative elections?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Drawing district lines to give one political party an electoral advantage"
+      },
+      {
+        "id": "b",
+        "text": "Requiring voters to show photo identification at polling places"
+      },
+      {
+        "id": "c",
+        "text": "Counting mail-in ballots before in-person election day votes"
+      },
+      {
+        "id": "d",
+        "text": "Splitting a state's electoral votes proportionally by popular vote"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Partisan gerrymandering manipulates district boundaries by packing or cracking voters to favor one party.",
+    "source_url": "https://www.britannica.com/topic/gerrymandering",
+    "trap_notes": {
+      "b": "Voter ID laws govern ballot access, not district boundary drawing.",
+      "c": "Ballot counting order is an administrative election rule, not gerrymandering.",
+      "d": "Proportional electoral vote allocation is an Electoral College method.",
+      "default": "Gerrymandering redraws legislative districts to favor a party or group."
+    }
+  },
+  {
+    "id": "civics-mc-137",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "2010–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How do Super PACs differ from traditional Political Action Committees in federal elections?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Super PACs may spend unlimited sums independently but cannot donate to candidates"
+      },
+      {
+        "id": "b",
+        "text": "Super PACs receive matching public funds from the U.S. Treasury"
+      },
+      {
+        "id": "c",
+        "text": "Super PACs are limited to five thousand dollars in total annual spending"
+      },
+      {
+        "id": "d",
+        "text": "Super PACs may coordinate campaign ads directly with party nominees"
+      }
+    ],
+    "answer": "a",
+    "explanation": "After Citizens United and SpeechNOW (2010), Super PACs raise and spend unlimited independent funds without coordinating.",
+    "source_url": "https://www.fec.gov/help-candidates-and-committees/taking-receipts-pac/who-can-and-cant-contribute-nonconnected-pac/",
+    "trap_notes": {
+      "b": "Super PACs are privately funded and receive no federal matching funds.",
+      "c": "Traditional PACs face contribution caps; Super PACs have no spending cap.",
+      "d": "Super PACs are legally barred from coordinating directly with candidates.",
+      "default": "Super PACs spend unlimited independent money but cannot give directly to candidates."
+    }
+  },
+  {
+    "id": "civics-mc-138",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "How is the prime minister chosen in a typical parliamentary democracy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "From the leader of the majority party or coalition in parliament"
+      },
+      {
+        "id": "b",
+        "text": "By a separate nationwide popular vote every four years"
+      },
+      {
+        "id": "c",
+        "text": "By lifetime appointment from the country's supreme court"
+      },
+      {
+        "id": "d",
+        "text": "By a rotating vote among regional provincial governors"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In parliamentary systems, executive and legislative power fuse because the prime minister comes from the legislative majority.",
+    "source_url": "https://www.britannica.com/topic/parliamentary-system",
+    "trap_notes": {
+      "b": "Separate national executive elections characterize presidential systems.",
+      "c": "Courts do not appoint prime ministers in parliamentary democracies.",
+      "d": "Parliamentary prime ministers depend on legislative confidence, not governors.",
+      "default": "Prime ministers lead the governing majority in parliament and serve with its confidence."
+    }
+  },
+  {
+    "id": "civics-mc-139",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "prompt": "What defines a unitary system of government compared with a federal system?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Central government holds supreme authority and delegates local powers"
+      },
+      {
+        "id": "b",
+        "text": "Regional provinces retain veto power over all national tax laws"
+      },
+      {
+        "id": "c",
+        "text": "A single legislative chamber replaces both courts and ministries"
+      },
+      {
+        "id": "d",
+        "text": "Written constitutions are banned in favor of royal decrees"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In unitary states like France or Japan, subnational units exercise only the powers the central government grants them.",
+    "source_url": "https://www.britannica.com/topic/unitary-system",
+    "trap_notes": {
+      "b": "Provincial veto power belongs to confederations, not unitary states.",
+      "c": "Unitary states still maintain courts and executive ministries.",
+      "d": "Many unitary democracies, such as France and Japan, have written constitutions.",
+      "default": "Unitary systems concentrate constitutional authority in the national government."
+    }
+  },
+  {
+    "id": "civics-mc-140",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1945–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.7489,
+      "lng": -73.968,
+      "label": "New York, New York"
+    },
+    "prompt": "Which United Nations body can issue legally binding resolutions to maintain international peace?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The UN Security Council"
+      },
+      {
+        "id": "b",
+        "text": "The UN General Assembly"
+      },
+      {
+        "id": "c",
+        "text": "The UN Economic and Social Council"
+      },
+      {
+        "id": "d",
+        "text": "The UN Trusteeship Council"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under Chapter VII of the UN Charter, the 15-member Security Council can adopt binding sanctions or peace measures.",
+    "source_url": "https://www.un.org/securitycouncil/content/what-security-council",
+    "trap_notes": {
+      "b": "General Assembly resolutions are recommendations, not legally binding.",
+      "c": "ECOSOC coordinates economic and social work without security enforcement power.",
+      "d": "The Trusteeship Council suspended operations in 1994.",
+      "default": "Only the UN Security Council holds binding authority over peace and sanctions."
+    }
+  },
+  {
+    "id": "civics-ded-101",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Identify this 1787 constitutional agreement.",
+    "clues": [
+      "Delegates at the Philadelphia Convention debated how enslaved people counted for House seats.",
+      "Southern states wanted them counted in full for representation, while Northern states objected.",
+      "The final formula counted three out of every five enslaved persons for seats and direct taxes."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "The Three-Fifths Compromise"
+      },
+      {
+        "id": "b",
+        "text": "The Great Compromise"
+      },
+      {
+        "id": "c",
+        "text": "The Missouri Compromise"
+      },
+      {
+        "id": "d",
+        "text": "The Northwest Ordinance"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Three-Fifths Compromise boosted Southern representation in the House and Electoral College until the 14th Amendment.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/757",
+    "trap_notes": {
+      "b": "The Great Compromise settled small-state versus large-state representation in Congress.",
+      "c": "The Missouri Compromise (1820) regulated slavery in western territories.",
+      "d": "The Northwest Ordinance (1787) barred slavery in the Northwest Territory.",
+      "default": "It counted three-fifths of the enslaved population for apportionment and direct taxes."
+    }
+  },
+  {
+    "id": "civics-ded-102",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–1789",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this founding political group.",
+    "clues": [
+      "These leaders opposed ratifying the new U.S. Constitution as written in 1787.",
+      "They feared a strong central government and president would crush state and local liberty.",
+      "Patrick Henry and George Mason demanded a Bill of Rights before supporting ratification."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "The Anti-Federalists"
+      },
+      {
+        "id": "b",
+        "text": "The Federalist Party"
+      },
+      {
+        "id": "c",
+        "text": "The Know-Nothing Party"
+      },
+      {
+        "id": "d",
+        "text": "The Whig Coalition"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Anti-Federalists' critique of the unamended Constitution led directly to the adoption of the Bill of Rights in 1791.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/convention-and-ratification.html",
+    "trap_notes": {
+      "b": "Federalists supported ratifying the 1787 Constitution and a stronger national government.",
+      "c": "The Know-Nothing Party was an 1850s nativist political movement.",
+      "d": "The Whig Party formed in the 1830s to oppose Andrew Jackson.",
+      "default": "Anti-Federalists opposed ratification until a Bill of Rights was promised."
+    }
+  },
+  {
+    "id": "civics-ded-103",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this constitutional clause.",
+    "clues": [
+      "Located in Article I, Section 8, it grants Congress broad power over the national economy.",
+      "The Supreme Court used it in Gibbons v. Ogden to strike down a state steamboat monopoly.",
+      "Congress later relied on it to pass the Civil Rights Act of 1964 against public segregation."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "The Commerce Clause"
+      },
+      {
+        "id": "b",
+        "text": "The Privileges Clause"
+      },
+      {
+        "id": "c",
+        "text": "The Take Care Clause"
+      },
+      {
+        "id": "d",
+        "text": "The Emoluments Clause"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Commerce Clause empowers Congress to regulate interstate and foreign trade, shaping federal economic and civil rights laws.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/752",
+    "trap_notes": {
+      "b": "Privileges and Immunities bars states from discriminating against out-of-state citizens.",
+      "c": "The Take Care Clause in Article II directs the president to enforce federal laws.",
+      "d": "The Emoluments Clause bars officials from accepting foreign gifts or titles.",
+      "default": "The Commerce Clause covers trade among the states and with foreign nations."
+    }
+  },
+  {
+    "id": "civics-ded-104",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Identify this constitutional principle.",
+    "clues": [
+      "It holds that government authority comes from the consent of the governed, not a monarch.",
+      "The Preamble expresses this idea immediately in its opening three words: 'We the People.'",
+      "Voters exercise it by electing representatives and amending state and national charters."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Popular sovereignty"
+      },
+      {
+        "id": "b",
+        "text": "Executive privilege"
+      },
+      {
+        "id": "c",
+        "text": "Judicial restraint"
+      },
+      {
+        "id": "d",
+        "text": "Parliamentary supremacy"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Popular sovereignty means ultimate political authority rests with the people.",
+    "source_url": "https://constitutioncenter.org/the-constitution/preamble",
+    "trap_notes": {
+      "b": "Executive privilege shields certain confidential presidential communications.",
+      "c": "Judicial restraint encourages judges to defer to elected lawmakers.",
+      "d": "Parliamentary supremacy places supreme power in a legislature, as in Britain.",
+      "default": "Popular sovereignty roots government legitimacy in the consent of the people."
+    }
+  },
+  {
+    "id": "civics-ded-105",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this congressional procedure.",
+    "clues": [
+      "It occurs in the U.S. Senate because its rules allow extended debate on most bills.",
+      "A senator or group can delay a floor vote by holding the floor or withholding consent.",
+      "Under Senate Rule XXII, ending this tactic usually requires a 60-vote cloture motion."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A Senate filibuster"
+      },
+      {
+        "id": "b",
+        "text": "A discharge petition"
+      },
+      {
+        "id": "c",
+        "text": "A presidential pocket veto"
+      },
+      {
+        "id": "d",
+        "text": "A continuing resolution"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A Senate filibuster uses unlimited debate to block or delay a vote unless 60 senators invoke cloture.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm",
+    "trap_notes": {
+      "b": "A discharge petition forces a bill out of a House committee to the floor.",
+      "c": "A pocket veto is a presidential action at the end of a congressional session.",
+      "d": "A continuing resolution temporarily funds federal agencies.",
+      "default": "Only the Senate allows filibusters, which require 60 votes for cloture."
+    }
+  },
+  {
+    "id": "civics-ded-106",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this legislative body.",
+    "clues": [
+      "It is convened only when the House and Senate pass different versions of the same bill.",
+      "Members from both chambers meet temporarily to negotiate a single compromise text.",
+      "Once it agrees on a report, both the House and Senate must pass it without amendment."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A conference committee"
+      },
+      {
+        "id": "b",
+        "text": "A select intelligence committee"
+      },
+      {
+        "id": "c",
+        "text": "The House Rules Committee"
+      },
+      {
+        "id": "d",
+        "text": "The Electoral Commission"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A conference committee resolves differences between House and Senate bills so identical text goes to the president.",
+    "source_url": "https://www.congress.gov/help/learn-about-the-legislative-process",
+    "trap_notes": {
+      "b": "Select committees investigate specific issues or oversee intelligence agencies.",
+      "c": "The House Rules Committee sets debate terms only for the House floor.",
+      "d": "The Electoral Commission was a one-time 1877 body for the 1876 election.",
+      "default": "Conference committees reconcile differing House and Senate versions of a bill."
+    }
+  },
+  {
+    "id": "civics-ded-107",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1967–Present",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this constitutional amendment.",
+    "clues": [
+      "Ratified in 1967, it clarified presidential succession and disability procedures.",
+      "It allows the president to nominate a new vice president when that office falls vacant.",
+      "Gerald Ford and Nelson Rockefeller became vice president under its Section 2 process."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "The Twenty-fifth Amendment"
+      },
+      {
+        "id": "b",
+        "text": "The Twentieth Amendment"
+      },
+      {
+        "id": "c",
+        "text": "The Twenty-second Amendment"
+      },
+      {
+        "id": "d",
+        "text": "The Twelfth Amendment"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 25th Amendment handles presidential disability and fills vice-presidential vacancies with congressional approval.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxv",
+    "trap_notes": {
+      "b": "The 20th Amendment (1933) moved Inauguration Day from March 4 to January 20.",
+      "c": "The 22nd Amendment (1951) limited presidents to two elected terms.",
+      "d": "The 12th Amendment (1804) separated Electoral College votes for president and VP.",
+      "default": "The 25th Amendment governs presidential disability and VP vacancies."
+    }
+  },
+  {
+    "id": "civics-ded-108",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this congressional check on the executive branch.",
+    "clues": [
+      "It is a formal accusation of treason, bribery, or other high crimes and misdemeanors.",
+      "A simple majority vote in the House of Representatives brings the formal charges.",
+      "Andrew Johnson, Bill Clinton, and Donald Trump faced this process, though none were removed."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "House impeachment"
+      },
+      {
+        "id": "b",
+        "text": "Legislative censure"
+      },
+      {
+        "id": "c",
+        "text": "State recall vote"
+      },
+      {
+        "id": "d",
+        "text": "Writ of mandamus"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The House impeaches by majority vote, and a two-thirds Senate vote is required for conviction and removal.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "trap_notes": {
+      "b": "Censure is a formal reprimand that does not trigger a removal trial.",
+      "c": "Recall elections exist in some states, not for federal officials.",
+      "d": "A writ of mandamus is a court order compelling an official to perform a duty.",
+      "default": "Impeachment is the House's formal charge, followed by a Senate trial."
+    }
+  },
+  {
+    "id": "civics-ded-109",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1932–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this model of U.S. federalism.",
+    "clues": [
+      "It emerged during the Great Depression and New Deal as Washington expanded domestic aid.",
+      "Scholars compare it to a 'marble cake' because federal and state roles overlap.",
+      "Highway funding, Medicaid, and education grants all rely on shared federal-state administration."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Cooperative federalism"
+      },
+      {
+        "id": "b",
+        "text": "Dual-sphere federalism"
+      },
+      {
+        "id": "c",
+        "text": "Confederal unionism"
+      },
+      {
+        "id": "d",
+        "text": "Unitary centralism"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cooperative federalism ('marble cake') blends national and state authority through shared grants and programs.",
+    "source_url": "https://www.britannica.com/topic/cooperative-federalism",
+    "trap_notes": {
+      "b": "Dual federalism ('layer cake') kept federal and state spheres strictly separate.",
+      "c": "Confederalism gives supreme power to member states over a weak center.",
+      "d": "Unitary centralism concentrates all constitutional power in a national government.",
+      "default": "Cooperative federalism blends national and state duties like a marble cake."
+    }
+  },
+  {
+    "id": "civics-ded-110",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1980s–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this federalism policy issue.",
+    "clues": [
+      "State and local officials frequently criticize it as an unfair federal burden.",
+      "Congress imposes a legal requirement on states without providing money to pay for it.",
+      "Congress passed a 1995 reform act requiring cost estimates for bills that impose these rules."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Unfunded mandates"
+      },
+      {
+        "id": "b",
+        "text": "Block aid grants"
+      },
+      {
+        "id": "c",
+        "text": "Revenue sharing"
+      },
+      {
+        "id": "d",
+        "text": "Interstate compacts"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Unfunded mandates require states or cities to follow federal rules without supplying matching federal funds.",
+    "source_url": "https://www.cbo.gov/topics/unfunded-mandates",
+    "trap_notes": {
+      "b": "Block grants provide federal money to states with broad spending flexibility.",
+      "c": "Revenue sharing distributed federal tax dollars to states without narrow strings.",
+      "d": "Interstate compacts are voluntary agreements between states approved by Congress.",
+      "default": "Unfunded mandates impose federal duties on states without federal funding."
+    }
+  },
+  {
+    "id": "civics-ded-111",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this constitutional protection.",
+    "clues": [
+      "It is found in the Fifth Amendment alongside due process and grand jury rights.",
+      "It allows government to take private land for public use such as highways or schools.",
+      "In return, the government must pay the owner 'just compensation' at fair market value."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Eminent domain"
+      },
+      {
+        "id": "b",
+        "text": "Double jeopardy"
+      },
+      {
+        "id": "c",
+        "text": "Habeas corpus"
+      },
+      {
+        "id": "d",
+        "text": "Ex post facto law"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Takings Clause recognizes eminent domain for public use while requiring just compensation.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-v",
+    "trap_notes": {
+      "b": "Double jeopardy bars trying someone twice for the same crime.",
+      "c": "Habeas corpus requires jailers to justify holding a prisoner before a judge.",
+      "d": "Ex post facto laws retroactively punish past actions and are banned in Article I.",
+      "default": "Eminent domain lets government acquire private property for public use with fair payment."
+    }
+  },
+  {
+    "id": "civics-ded-112",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1870–1965",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this Reconstruction-era amendment.",
+    "clues": [
+      "Ratified in 1870, it was the third and final Reconstruction Amendment.",
+      "It barred federal and state governments from denying the vote based on race or color.",
+      "Its promise was undermined by Jim Crow laws until the Voting Rights Act of 1965."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "The Fifteenth Amendment"
+      },
+      {
+        "id": "b",
+        "text": "The Thirteenth Amendment"
+      },
+      {
+        "id": "c",
+        "text": "The Nineteenth Amendment"
+      },
+      {
+        "id": "d",
+        "text": "The Seventeenth Amendment"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 15th Amendment (1870) prohibited racial discrimination in voting, though enforcement lagged for nearly a century.",
+    "source_url": "https://www.archives.gov/milestone-documents/15th-amendment",
+    "trap_notes": {
+      "b": "The 13th Amendment (1865) abolished slavery nationwide.",
+      "c": "The 19th Amendment (1920) prohibited denying the vote based on sex.",
+      "d": "The 17th Amendment (1913) established direct popular election of U.S. senators.",
+      "default": "The 15th Amendment barred racial voting discrimination in 1870."
+    }
+  },
+  {
+    "id": "civics-ded-113",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this constitutional writ.",
+    "clues": [
+      "Article I, Section 9 forbids suspending it except in cases of rebellion or invasion.",
+      "Its Latin name translates to 'you shall have the body.'",
+      "It lets a prisoner petition a court to test whether their detention is lawful."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Writ of habeas corpus"
+      },
+      {
+        "id": "b",
+        "text": "Bill of attainder"
+      },
+      {
+        "id": "c",
+        "text": "Writ of certiorari"
+      },
+      {
+        "id": "d",
+        "text": "Subpoena duces tecum"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Habeas corpus protects against unlawful imprisonment by forcing officials to justify detention in court.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/763",
+    "trap_notes": {
+      "b": "A bill of attainder is a banned legislative act punishing a person without trial.",
+      "c": "A writ of certiorari is an order by a higher court to review a lower court case.",
+      "d": "A subpoena orders a witness or documents to appear in court.",
+      "default": "Habeas corpus lets detainees challenge unlawful imprisonment before a judge."
+    }
+  },
+  {
+    "id": "civics-ded-114",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1920",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 36.1627,
+      "lng": -86.7816,
+      "label": "Nashville, Tennessee"
+    },
+    "prompt": "Identify this voting rights amendment.",
+    "clues": [
+      "Leaders like Susan B. Anthony and Alice Paul campaigned for decades to win it.",
+      "Tennessee provided the decisive 36th state ratification in August 1920.",
+      "It barred federal and state governments from denying the vote on account of sex."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "The Nineteenth Amendment"
+      },
+      {
+        "id": "b",
+        "text": "The Eighteenth Amendment"
+      },
+      {
+        "id": "c",
+        "text": "The Sixteenth Amendment"
+      },
+      {
+        "id": "d",
+        "text": "The Twenty-first Amendment"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Ratified in 1920, the 19th Amendment secured women's suffrage nationwide.",
+    "source_url": "https://www.archives.gov/milestone-documents/19th-amendment",
+    "trap_notes": {
+      "b": "The 18th Amendment (1919) enacted national Prohibition of alcohol.",
+      "c": "The 16th Amendment (1913) authorized the federal income tax.",
+      "d": "The 21st Amendment (1933) repealed national Prohibition.",
+      "default": "The 19th Amendment (1920) guaranteed women's right to vote."
+    }
+  },
+  {
+    "id": "civics-ded-115",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1966",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 33.4484,
+      "lng": -112.074,
+      "label": "Phoenix, Arizona"
+    },
+    "prompt": "Identify this landmark Supreme Court case.",
+    "clues": [
+      "The 1966 ruling grew out of a Phoenix police interrogation without a lawyer present.",
+      "The Court held that custodial questioning creates pressure against the Fifth Amendment.",
+      "Police must now warn suspects of their right to remain silent and to have an attorney."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Miranda v. Arizona"
+      },
+      {
+        "id": "b",
+        "text": "Gideon v. Wainwright"
+      },
+      {
+        "id": "c",
+        "text": "Mapp v. State of Ohio"
+      },
+      {
+        "id": "d",
+        "text": "Terry v. State of Ohio"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Miranda v. Arizona (1966) created the required warnings before custodial police interrogation.",
+    "source_url": "https://www.oyez.org/cases/1965/759",
+    "trap_notes": {
+      "b": "Gideon (1963) guaranteed appointed lawyers at felony trials, not police warnings.",
+      "c": "Mapp (1961) barred illegally seized physical evidence in state trials.",
+      "d": "Terry (1968) allowed brief police stop-and-frisk based on reasonable suspicion.",
+      "default": "Miranda v. Arizona requires police to advise suspects of their rights before questioning."
+    }
+  },
+  {
+    "id": "civics-ded-116",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1962",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "Identify this landmark First Amendment case.",
+    "clues": [
+      "The dispute began over a short, non-denominational prayer written by New York officials.",
+      "Public school students were asked to recite it aloud at the start of each day.",
+      "In 1962, the Supreme Court ruled state-composed school prayer violates the Establishment Clause."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Engel v. Vitale"
+      },
+      {
+        "id": "b",
+        "text": "Wisconsin v. Yoder"
+      },
+      {
+        "id": "c",
+        "text": "Tinker v. Des Moines"
+      },
+      {
+        "id": "d",
+        "text": "Schenck v. U.S."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Engel v. Vitale (1962) struck down official school-sponsored prayer even when students could opt out.",
+    "source_url": "https://www.oyez.org/cases/1961/468",
+    "trap_notes": {
+      "b": "Wisconsin v. Yoder (1972) exempted Amish families from compulsory high school.",
+      "c": "Tinker (1969) protected students' silent antiwar armband protest.",
+      "d": "Schenck (1919) upheld limits on anti-draft leaflets during World War I.",
+      "default": "Engel v. Vitale banned government-written prayers in public schools."
+    }
+  },
+  {
+    "id": "civics-ded-117",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1974",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this landmark separation-of-powers case.",
+    "clues": [
+      "A special prosecutor subpoenaed Oval Office audio recordings during the Watergate scandal.",
+      "The president claimed absolute executive privilege to withhold the tapes from court.",
+      "In 1974, a unanimous Supreme Court ruled that no president is above criminal subpoenas."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "United States v. Nixon"
+      },
+      {
+        "id": "b",
+        "text": "Youngstown Co. v. Sawyer"
+      },
+      {
+        "id": "c",
+        "text": "New York Times v. U.S."
+      },
+      {
+        "id": "d",
+        "text": "Marbury v. Madison"
+      }
+    ],
+    "answer": "a",
+    "explanation": "United States v. Nixon (1974) forced the release of the Watergate tapes, affirming the rule of law.",
+    "source_url": "https://www.oyez.org/cases/1974/73-1766",
+    "trap_notes": {
+      "b": "Youngstown (1952) barred President Truman from seizing steel mills during the Korean War.",
+      "c": "New York Times Co. v. United States (1971) blocked prior restraint on the Pentagon Papers.",
+      "d": "Marbury v. Madison (1803) established judicial review of federal statutes.",
+      "default": "United States v. Nixon limited executive privilege in criminal trials."
+    }
+  },
+  {
+    "id": "civics-ded-118",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1960s–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Identify this political science concept.",
+    "clues": [
+      "It describes a three-way policy alliance in Washington that shapes federal rules.",
+      "The three corners are congressional committees, executive agencies, and interest groups.",
+      "Members trade campaign support, favorable budgets, and friendly regulations."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "An iron triangle"
+      },
+      {
+        "id": "b",
+        "text": "A divided government"
+      },
+      {
+        "id": "c",
+        "text": "A party realignment"
+      },
+      {
+        "id": "d",
+        "text": "A closed party primary"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Iron triangles connect congressional subcommittees, bureaucratic agencies, and interest groups in mutually beneficial policymaking.",
+    "source_url": "https://www.britannica.com/topic/iron-triangle",
+    "trap_notes": {
+      "b": "Divided government occurs when different parties control the presidency and Congress.",
+      "c": "Party realignment marks a lasting shift in voter coalitions between parties.",
+      "d": "Winner-take-all primaries award all state delegates to the top candidate.",
+      "default": "An iron triangle links congressional committees, agencies, and interest groups."
+    }
+  },
+  {
+    "id": "civics-ded-119",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "label": "Berlin, Germany"
+    },
+    "prompt": "Identify this electoral system.",
+    "clues": [
+      "It is widely used in European parliaments rather than U.S. congressional races.",
+      "Voters cast ballots for party lists in multi-member districts.",
+      "A party winning 20 percent of the vote receives roughly 20 percent of legislative seats."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "Proportional representation"
+      },
+      {
+        "id": "b",
+        "text": "Single-member plurality"
+      },
+      {
+        "id": "c",
+        "text": "The Electoral College"
+      },
+      {
+        "id": "d",
+        "text": "Open-primary runoff"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Proportional representation awards seats in line with vote shares, encouraging multi-party coalitions.",
+    "source_url": "https://www.britannica.com/topic/proportional-representation",
+    "trap_notes": {
+      "b": "Single-member plurality awards each district seat solely to the top finisher.",
+      "c": "The Electoral College is used only for U.S. presidential elections.",
+      "d": "Runoff primaries select a single party nominee before a general election.",
+      "default": "Proportional representation matches legislative seat shares to party vote shares."
+    }
+  },
+  {
+    "id": "civics-ded-120",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1949–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "label": "Brussels, Belgium"
+    },
+    "prompt": "Identify this international organization.",
+    "clues": [
+      "Twelve Western nations founded this collective defense alliance in April 1949.",
+      "Its headquarters is in Brussels, Belgium, and it now includes over thirty members.",
+      "Article 5 of its treaty declares that an armed attack on one member is an attack on all."
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "North Atlantic Treaty Alliance"
+      },
+      {
+        "id": "b",
+        "text": "The World Trade Organization"
+      },
+      {
+        "id": "c",
+        "text": "The European Union bloc"
+      },
+      {
+        "id": "d",
+        "text": "The International Monetary Fund"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The North Atlantic Treaty Organization (NATO) is a military alliance built on Article 5 collective defense.",
+    "source_url": "https://www.nato.int/cps/en/natohq/topics_110496.htm",
+    "trap_notes": {
+      "b": "The WTO regulates international trade rules and settles tariff disputes.",
+      "c": "The European Union is a political and economic union, not a military alliance.",
+      "d": "The IMF stabilizes exchange rates and lends to countries facing balance-of-payments crises.",
+      "default": "NATO is a collective defense alliance anchored by Article 5."
+    }
+  }
+]

@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "world-dat-101",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Neolithic & Early Urbanization",
+    "era": "3500–2000 BCE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.9628, "lng": 46.1031, "label": "Ur, Mesopotamia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Estimated Population of Early Cities (c. 2500 BCE)",
+      "headers": ["City", "River Basin", "Est. Population"],
+      "rows": [
+        ["Uruk", "Euphrates", "50,000"],
+        ["Memphis", "Nile", "30,000"],
+        ["Mohenjo-daro", "Indus", "40,000"]
+      ]
+    },
+    "prompt": "Which conclusion is best supported by the table of Bronze Age cities?",
+    "options": [
+      { "id": "a", "text": "Early large cities clustered along fertile river valleys" },
+      { "id": "b", "text": "Memphis held more residents than Uruk and Mohenjo-daro combined" },
+      { "id": "c", "text": "Mohenjo-daro developed along the Euphrates River delta" },
+      { "id": "d", "text": "Urban populations shrank rapidly after irrigation began" }
+    ],
+    "answer": "a",
+    "explanation": "All three Bronze Age cities—Uruk, Memphis, and Mohenjo-daro—grew along major river valleys.",
+    "source_url": "https://www.britannica.com/place/Uruk",
+    "fun_fact": "Uruk's mud-brick city wall stretched nearly six miles around its temples and neighborhoods.",
+    "trap_notes": {
+      "b": "Memphis had 30,000 residents, far fewer than Uruk's 50,000 alone.",
+      "c": "The table places Mohenjo-daro in the Indus basin, not the Euphrates.",
+      "d": "The table shows large urban centers sustained by river agriculture, not shrinking cities.",
+      "default": "Check the River Basin column: every city listed relied on a major river system."
+    }
+  },
+  {
+    "id": "world-dat-102",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Roman Imperial Economy",
+    "era": "1–200 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Roman Silver Denarius Purity Over Time",
+      "headers": ["Emperor", "Years", "Silver Content"],
+      "rows": [
+        ["Augustus", "27 BCE–14 CE", "95%"],
+        ["Nero", "54–68 CE", "90%"],
+        ["Marcus Aurelius", "161–180 CE", "75%"]
+      ]
+    },
+    "prompt": "What fiscal trend does the Roman denarius silver table illustrate?",
+    "options": [
+      { "id": "a", "text": "Emperors minted purer coins as borders expanded" },
+      { "id": "b", "text": "The state debased silver coins to stretch war and state budgets" },
+      { "id": "c", "text": "Roman merchants abandoned silver coins for barter by 68 CE" },
+      { "id": "d", "text": "Nero raised silver purity above Augustus's standard" }
+    ],
+    "answer": "b",
+    "explanation": "Silver content dropped from 95% to 75%, showing emperors stretched revenues by debasing coinage.",
+    "source_url": "https://www.britannica.com/topic/denarius",
+    "fun_fact": "By the late third century CE, the denarius contained less than 5 percent silver.",
+    "trap_notes": {
+      "a": "The percentages fall from 95% to 75%, showing declining rather than rising purity.",
+      "c": "Coins remained in circulation; the table measures coin purity, not a return to barter.",
+      "d": "Nero's 90% purity was lower than Augustus's 95%.",
+      "default": "Notice the steady drop in silver percentage from Augustus to Marcus Aurelius."
+    }
+  },
+  {
+    "id": "world-dat-103",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Han & Roman Empires",
+    "era": "1–200 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 34.6197, "lng": 112.454, "label": "Luoyang, China" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Han China & Roman Empire Estimates (c. 150 CE)",
+      "headers": ["Empire", "Est. Population", "Road Network"],
+      "rows": [
+        ["Han Empire", "60 million", "35,000 km"],
+        ["Roman Empire", "55 million", "80,000 km"],
+        ["Combined Share", "~45% of world", "115,000 km"]
+      ]
+    },
+    "prompt": "Which statement accurately compares the Han and Roman empires in the table?",
+    "options": [
+      { "id": "a", "text": "Han China had a larger population, while Rome built more roads" },
+      { "id": "b", "text": "Rome held more than twice Han China's total population" },
+      { "id": "c", "text": "Han China built more than twice as many roads as Rome" },
+      { "id": "d", "text": "Together the two empires ruled under ten percent of humanity" }
+    ],
+    "answer": "a",
+    "explanation": "Han China's 60 million exceeded Rome's 55 million, whereas Rome's 80,000 km of roads topped Han China's.",
+    "source_url": "https://www.britannica.com/topic/Han-dynasty",
+    "fun_fact": "Both empires built courier relay stations along their roads to speed imperial dispatches.",
+    "trap_notes": {
+      "b": "Han China's estimated population of 60 million was slightly larger than Rome's 55 million.",
+      "c": "Rome's 80,000 km road network was more than double Han China's 35,000 km.",
+      "d": "The table lists their combined share at roughly 45 percent of world population.",
+      "default": "Compare both columns carefully: Han leads in population, while Rome leads in road length."
+    }
+  },
+  {
+    "id": "world-dat-104",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Song Dynasty Innovation",
+    "era": "960–1279 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.7972, "lng": 114.3076, "label": "Kaifeng, China" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Northern Song Iron Production",
+      "headers": ["Year", "Annual Output", "Primary Fuel"],
+      "rows": [
+        ["806 CE", "13,500 tons", "Charcoal"],
+        ["998 CE", "32,500 tons", "Charcoal / Coal"],
+        ["1078 CE", "125,000 tons", "Coal / Coke"]
+      ]
+    },
+    "prompt": "What technological shift accompanied Song China's surge in iron production?",
+    "options": [
+      { "id": "a", "text": "Iron output fell sharply as wood supplies grew" },
+      { "id": "b", "text": "Switching from charcoal to coal and coke supported much higher output" },
+      { "id": "c", "text": "Charcoal remained the sole fuel for furnaces in 1078 CE" },
+      { "id": "d", "text": "Iron production stayed flat between 998 CE and 1078 CE" }
+    ],
+    "answer": "b",
+    "explanation": "Moving from charcoal to coal and coke coincided with a jump to 125,000 tons by 1078 CE.",
+    "source_url": "https://www.britannica.com/topic/Song-dynasty",
+    "fun_fact": "Song ironworkers used water-powered bellows to blast air into high-temperature furnaces.",
+    "trap_notes": {
+      "a": "Output rose nearly tenfold from 13,500 tons to 125,000 tons.",
+      "c": "By 1078 CE, the table shows coal and coke as the primary fuel.",
+      "d": "Output nearly quadrupled between 998 CE and 1078 CE.",
+      "default": "Look at both the tonnage jump and the change in the Primary Fuel column."
+    }
+  },
+  {
+    "id": "world-dat-105",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "The Black Death",
+    "era": "1347–1400 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, England" },
+    "stimulus": {
+      "kind": "table",
+      "title": "English Population & Real Farm Wages (1300–1450)",
+      "headers": ["Period", "Est. Population", "Real Wage Index"],
+      "rows": [
+        ["1300–1347", "5.0 million", "100"],
+        ["1350–1399", "2.7 million", "145"],
+        ["1400–1450", "2.5 million", "175"]
+      ]
+    },
+    "prompt": "How did the Black Death's population drop affect English farm wages?",
+    "options": [
+      { "id": "a", "text": "Labor shortages pushed real wages higher for surviving workers" },
+      { "id": "b", "text": "Falling population caused real wages to drop below 1300 levels" },
+      { "id": "c", "text": "English population doubled immediately after 1350" },
+      { "id": "d", "text": "Wages stayed frozen at 100 despite demographic loss" }
+    ],
+    "answer": "a",
+    "explanation": "As population fell from 5.0 to 2.5 million, scarce workers commanded a 75% higher real wage index.",
+    "source_url": "https://www.britannica.com/event/Black-Death",
+    "fun_fact": "English landlords passed the 1351 Statute of Labourers to cap wages, sparking peasant unrest.",
+    "trap_notes": {
+      "b": "The Real Wage Index rose from 100 to 175, rather than falling.",
+      "c": "Population was nearly cut in half, dropping from 5.0 million to 2.7 million.",
+      "d": "The wage index climbed steadily in each period after 1347.",
+      "default": "Compare the falling population column against the rising real wage index."
+    }
+  },
+  {
+    "id": "world-dat-106",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Ming Maritime Expeditions",
+    "era": "1405–1433 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "stimulus": {
+      "kind": "table",
+      "title": "15th-Century Ocean Voyages Compared",
+      "headers": ["Expedition", "Year", "Fleet Size"],
+      "rows": [
+        ["Zheng He (1st)", "1405", "317 ships"],
+        ["Columbus (1st)", "1492", "3 ships"],
+        ["Da Gama (1st)", "1497", "4 ships"]
+      ]
+    },
+    "prompt": "What does the voyage comparison table reveal about early Ming maritime capacity?",
+    "options": [
+      { "id": "a", "text": "Columbus sailed earlier with a much larger fleet" },
+      { "id": "b", "text": "Zheng He led far larger fleets before European voyages" },
+      { "id": "c", "text": "Da Gama commanded more ships than Zheng He's fleet" },
+      { "id": "d", "text": "Ming fleets sailed only in the 1490s alongside Spain" }
+    ],
+    "answer": "b",
+    "explanation": "Zheng He's 1405 fleet of 317 ships sailed nearly 90 years before Columbus and da Gama's small squadrons.",
+    "source_url": "https://www.britannica.com/biography/Zheng-He",
+    "fun_fact": "Zheng He's seven voyages reached Hormuz, Aden, and East African ports like Malindi.",
+    "trap_notes": {
+      "a": "Zheng He sailed in 1405 with 317 ships; Columbus sailed in 1492 with 3 ships.",
+      "c": "Da Gama commanded 4 ships, far fewer than Zheng He's 317.",
+      "d": "Zheng He's voyages took place in the early 1400s, ending in 1433.",
+      "default": "Check both the Year and Fleet Size columns to compare Ming and European expeditions."
+    }
+  },
+  {
+    "id": "world-dat-107",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Columbian Exchange & Demographics",
+    "era": "1492–1650 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Central Mexico" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Estimated Indigenous Population of Central Mexico",
+      "headers": ["Year", "Est. Population", "Percent of 1518"],
+      "rows": [
+        ["1518", "25.2 million", "100%"],
+        ["1548", "6.3 million", "25%"],
+        ["1605", "1.1 million", "4%"]
+      ]
+    },
+    "prompt": "Which historical development explains the catastrophic drop shown in the table?",
+    "options": [
+      { "id": "a", "text": "Rapid industrialization drew villagers to distant cities" },
+      { "id": "b", "text": "Voluntary migration to Europe emptied Central Mexico" },
+      { "id": "c", "text": "Old World diseases, conquest, and forced labor devastated communities" },
+      { "id": "d", "text": "Population recovered to half its 1518 total by 1605" }
+    ],
+    "answer": "c",
+    "explanation": "Smallpox, measles, warfare, and forced labor reduced Central Mexico's Indigenous population by over 90%.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "fun_fact": "Because Indigenous Americans lacked prior immunity, virgin-soil epidemics struck repeatedly.",
+    "trap_notes": {
+      "a": "Industrialization did not occur in 16th-century Mexico.",
+      "b": "Indigenous populations declined in place from disease and conquest, not European emigration.",
+      "d": "By 1605, the table shows population had fallen to just 4 percent of the 1518 level.",
+      "default": "A 96% drop between 1518 and 1605 reflects epidemic disease and colonial conquest."
+    }
+  },
+  {
+    "id": "world-dat-108",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Transatlantic Slave Trade",
+    "era": "1500–1866 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -12.9714, "lng": -38.5014, "label": "Salvador da Bahia, Brazil" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Transatlantic Slave Trade Arrivals by Region",
+      "headers": ["Destination", "Est. Arrivals", "Main Plantation Crop"],
+      "rows": [
+        ["Brazil", "4.8 million", "Sugar & Coffee"],
+        ["Caribbean", "4.0 million", "Sugar"],
+        ["British N. America", "0.4 million", "Tobacco & Cotton"]
+      ]
+    },
+    "prompt": "What does the table show about the geographic distribution of the transatlantic slave trade?",
+    "options": [
+      { "id": "a", "text": "British North America received the majority of enslaved Africans" },
+      { "id": "b", "text": "Brazil and the Caribbean absorbed most enslaved people, largely for sugar" },
+      { "id": "c", "text": "Tobacco plantations in Brazil drove the largest share of arrivals" },
+      { "id": "d", "text": "Fewer than one million enslaved Africans crossed the Atlantic" }
+    ],
+    "answer": "b",
+    "explanation": "Brazil (4.8M) and the Caribbean (4.0M) received the vast majority of enslaved Africans, mainly for sugar.",
+    "source_url": "https://www.britannica.com/topic/transatlantic-slave-trade",
+    "fun_fact": "Brazil was the last country in the Western Hemisphere to abolish slavery, doing so in 1888.",
+    "trap_notes": {
+      "a": "British North America received about 0.4 million, a small share compared to Brazil and the Caribbean.",
+      "c": "The table lists sugar and coffee for Brazil, and tobacco and cotton for North America.",
+      "d": "The three regions alone total over 9 million arrivals.",
+      "default": "Compare the Est. Arrivals column: Brazil and the Caribbean far outnumber North America."
+    }
+  },
+  {
+    "id": "world-dat-109",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Global Silver Trade",
+    "era": "1545–1750 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 14.5995, "lng": 120.9842, "label": "Manila, Philippines" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Estimated Global Silver Output (1500–1800)",
+      "headers": ["Region", "Share of World Output", "Key Mining Center"],
+      "rows": [
+        ["Spanish Americas", "~70%", "Potosi & Zacatecas"],
+        ["Japan", "~15%", "Iwami Ginzan"],
+        ["Europe & Others", "~15%", "Central Europe"]
+      ]
+    },
+    "prompt": "Which conclusion follows from the global silver production table?",
+    "options": [
+      { "id": "a", "text": "European mines produced more silver than the Americas" },
+      { "id": "b", "text": "Japan mined more silver than Potosi and Zacatecas" },
+      { "id": "c", "text": "Spanish American mines supplied most of the world's silver" },
+      { "id": "d", "text": "China produced over half of global silver output" }
+    ],
+    "answer": "c",
+    "explanation": "Spanish American mines at Potosi and Zacatecas supplied roughly 70% of world silver output.",
+    "source_url": "https://www.britannica.com/place/Potosi-Bolivia",
+    "fun_fact": "Ming and Qing China required taxes in silver, pulling American and Japanese silver to East Asia.",
+    "trap_notes": {
+      "a": "Europe and other regions accounted for roughly 15%, compared to 70% in Spanish America.",
+      "b": "Japan produced about 15%, far below Spanish America's 70%.",
+      "d": "China was a major buyer of silver, not a top producer in the table.",
+      "default": "Spanish America's ~70% share dominated early modern silver production."
+    }
+  },
+  {
+    "id": "world-dat-110",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Printing & Literacy in Europe",
+    "era": "1450–1600 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 49.9929, "lng": 8.2473, "label": "Mainz, Germany" },
+    "stimulus": {
+      "kind": "table",
+      "title": "European Book Production After Gutenberg",
+      "headers": ["Half-Century", "Est. Copies Printed", "Primary Format"],
+      "rows": [
+        ["1451–1500", "12.5 million", "Movable-type press"],
+        ["1501–1550", "80.0 million", "Movable-type press"],
+        ["1551–1600", "137.0 million", "Movable-type press"]
+      ]
+    },
+    "prompt": "How did Gutenberg's movable-type press affect European book output?",
+    "options": [
+      { "id": "a", "text": "Book output multiplied over tenfold between 1451 and 1600" },
+      { "id": "b", "text": "Printed book volume declined after 1500 as paper grew scarce" },
+      { "id": "c", "text": "Scribes hand-copied most of the 137 million books in 1551–1600" },
+      { "id": "d", "text": "Printing spread only within Mainz before 1600" }
+    ],
+    "answer": "a",
+    "explanation": "Output surged from 12.5 million copies in 1451–1500 to 137 million in 1551–1600 via movable type.",
+    "source_url": "https://www.britannica.com/biography/Johannes-Gutenberg",
+    "fun_fact": "Cheap printed pamphlets let Renaissance scholars and Reformation preachers reach wide audiences.",
+    "trap_notes": {
+      "b": "Output rose sharply in every half-century listed.",
+      "c": "The table identifies the movable-type press as the primary format.",
+      "d": "Producing 137 million copies reflected presses operating across Europe.",
+      "default": "Compare 12.5 million in 1451–1500 to 137 million a century later."
+    }
+  },
+  {
+    "id": "world-dat-111",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "British Industrialization",
+    "era": "1760–1850 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, England" },
+    "stimulus": {
+      "kind": "table",
+      "title": "British Raw Cotton Imports",
+      "headers": ["Year", "Imports (million lbs)", "Key Textile Hub"],
+      "rows": [
+        ["1760", "2.5", "Lancashire"],
+        ["1800", "56.0", "Manchester"],
+        ["1840", "592.0", "Manchester"]
+      ]
+    },
+    "prompt": "What does the surge in British cotton imports from 1760 to 1840 demonstrate?",
+    "options": [
+      { "id": "a", "text": "Britain grew enough domestic cotton to end foreign imports" },
+      { "id": "b", "text": "Mechanized mills drove a massive expansion in global cotton demand" },
+      { "id": "c", "text": "Cotton imports peaked in 1760 before steam power arrived" },
+      { "id": "d", "text": "Manchester's textile factories closed down by 1840" }
+    ],
+    "answer": "b",
+    "explanation": "Imports jumped from 2.5 to 592 million pounds as steam-powered Lancashire mills scaled up production.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "fun_fact": "Much of Manchester's raw cotton after 1800 came from enslaved-labor plantations in the U.S. South.",
+    "trap_notes": {
+      "a": "Britain's cool climate cannot grow cotton; all raw cotton was imported.",
+      "c": "Imports were smallest in 1760 and over 200 times larger by 1840.",
+      "d": "The huge 1840 import figure reflects booming factory demand in Manchester.",
+      "default": "Look at the jump from 2.5 million lbs in 1760 to 592 million lbs in 1840."
+    }
+  },
+  {
+    "id": "world-dat-112",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Railroads & Steam",
+    "era": "1840–1900 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "stimulus": {
+      "kind": "table",
+      "title": "European Rail Track Length (km)",
+      "headers": ["Country", "1850", "1890"],
+      "rows": [
+        ["Great Britain", "9,797", "27,827"],
+        ["Germany", "5,856", "42,869"],
+        ["Russia", "501", "30,596"]
+      ]
+    },
+    "prompt": "Which trend appears in the European railroad expansion table?",
+    "options": [
+      { "id": "a", "text": "Britain still held the longest rail network in 1890" },
+      { "id": "b", "text": "Russia built no railroads until after 1890" },
+      { "id": "c", "text": "Germany overtook Britain in total rail track by 1890" },
+      { "id": "d", "text": "Rail construction slowed across all three countries after 1850" }
+    ],
+    "answer": "c",
+    "explanation": "Germany expanded from 5,856 km in 1850 to 42,869 km in 1890, surpassing Great Britain's 27,827 km.",
+    "source_url": "https://www.britannica.com/technology/railroad",
+    "fun_fact": "Railroads helped Prussia mobilize troops rapidly during the wars of German unification.",
+    "trap_notes": {
+      "a": "In 1890, both Germany (42,869 km) and Russia (30,596 km) exceeded Britain's track length.",
+      "b": "Russia had 501 km in 1850 and expanded to 30,596 km by 1890.",
+      "d": "All three countries multiplied their track length between 1850 and 1890.",
+      "default": "Compare the 1890 column across all three countries."
+    }
+  },
+  {
+    "id": "world-dat-113",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Global Share of Manufacturing",
+    "era": "1750–1900 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 22.5726, "lng": 88.3639, "label": "Kolkata, India" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Share of World Manufacturing Output",
+      "headers": ["Region", "1750", "1900"],
+      "rows": [
+        ["China", "32.8%", "6.2%"],
+        ["India", "24.5%", "1.7%"],
+        ["Europe", "23.2%", "62.0%"]
+      ]
+    },
+    "prompt": "What global economic shift from 1750 to 1900 is shown in the table?",
+    "options": [
+      { "id": "a", "text": "China and India remained the top manufacturers in 1900" },
+      { "id": "b", "text": "Europe industrialized while Asia's manufacturing share dropped sharply" },
+      { "id": "c", "text": "Europe produced over 60% of world goods in 1750" },
+      { "id": "d", "text": "India's manufacturing share doubled between 1750 and 1900" }
+    ],
+    "answer": "b",
+    "explanation": "Europe's share rose from 23.2% to 62.0% via industrialization, while China and India fell sharply.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "fun_fact": "Cheap British machine-woven cloth undercut handloom weavers across colonial India.",
+    "trap_notes": {
+      "a": "By 1900, China (6.2%) and India (1.7%) trailed far behind Europe (62.0%).",
+      "c": "Europe's 1750 share was 23.2%, smaller than China's 32.8%.",
+      "d": "India's share fell from 24.5% to 1.7%.",
+      "default": "Compare 1750 and 1900: Asia led in 1750, but Europe dominated by 1900."
+    }
+  },
+  {
+    "id": "world-dat-114",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Irish Potato Famine",
+    "era": "1845–1860 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 53.3498, "lng": -6.2603, "label": "Dublin, Ireland" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Population of Ireland (1841–1861)",
+      "headers": ["Census Year", "Population", "Change from 1841"],
+      "rows": [
+        ["1841", "8.18 million", "Baseline"],
+        ["1851", "6.55 million", "-20%"],
+        ["1861", "5.80 million", "-29%"]
+      ]
+    },
+    "prompt": "Which pair of factors caused the demographic drop shown in Ireland's census data?",
+    "options": [
+      { "id": "a", "text": "Potato blight famine deaths and mass overseas emigration" },
+      { "id": "b", "text": "Industrialization and a sharp rise in urban birth rates" },
+      { "id": "c", "text": "World War I mobilization and border redrawing" },
+      { "id": "d", "text": "Rapid population recovery between 1851 and 1861" }
+    ],
+    "answer": "a",
+    "explanation": "The 1845–1852 Great Famine killed roughly one million people and drove over a million to emigrate.",
+    "source_url": "https://www.britannica.com/event/Great-Famine-Irish-history",
+    "fun_fact": "Ireland's population has still not returned to its pre-famine 1841 peak of over eight million.",
+    "trap_notes": {
+      "b": "Higher birth rates would increase population, not reduce it by 29 percent.",
+      "c": "World War I began in 1914, decades after the 1841–1861 censuses.",
+      "d": "Population kept falling from 6.55 million in 1851 to 5.80 million in 1861.",
+      "default": "A 20% drop by 1851 reflects the Irish Potato Famine and mass emigration."
+    }
+  },
+  {
+    "id": "world-dat-115",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Meiji Industrialization",
+    "era": "1868–1912 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Meiji Japan Economic Indicators",
+      "headers": ["Indicator", "1875", "1905"],
+      "rows": [
+        ["Rail Track (km)", "61", "7,690"],
+        ["Coal Output (tons)", "600,000", "11,600,000"],
+        ["Raw Silk Exports", "Small", "World Leader"]
+      ]
+    },
+    "prompt": "What does the table indicate about Japan during the Meiji era?",
+    "options": [
+      { "id": "a", "text": "Japan rejected railroads to preserve samurai domains" },
+      { "id": "b", "text": "Japan rapidly built modern transport, energy, and export industries" },
+      { "id": "c", "text": "Coal mining declined as Japan stayed purely agricultural" },
+      { "id": "d", "text": "Silk exports ended once coal production grew" }
+    ],
+    "answer": "b",
+    "explanation": "Meiji reforms expanded rail from 61 to 7,690 km and coal nearly twentyfold while leading silk exports.",
+    "source_url": "https://www.britannica.com/event/Meiji-Restoration",
+    "fun_fact": "Foreign currency earned from silk exports helped Meiji Japan buy industrial machinery abroad.",
+    "trap_notes": {
+      "a": "Meiji Japan abolished samurai domains and expanded rail to 7,690 km by 1905.",
+      "c": "Coal output jumped from 600,000 to 11.6 million tons.",
+      "d": "Japan became the world's leading raw silk exporter by 1905.",
+      "default": "Every indicator in the table shows rapid industrial and export growth."
+    }
+  },
+  {
+    "id": "world-dat-116",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Scramble for Africa",
+    "era": "1870–1914 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 9.032, "lng": 38.7469, "label": "Addis Ababa, Ethiopia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "European Control of Africa",
+      "headers": ["Year", "Share Under European Rule", "Independent States"],
+      "rows": [
+        ["1870", "~10%", "Most of continent"],
+        ["1900", "~85%", "Ethiopia & Liberia"],
+        ["1914", "~90%", "Ethiopia & Liberia"]
+      ]
+    },
+    "prompt": "Which statement is supported by the Scramble for Africa table?",
+    "options": [
+      { "id": "a", "text": "Europeans already ruled most of Africa in 1870" },
+      { "id": "b", "text": "Europe partitioned nearly all of Africa by 1914" },
+      { "id": "c", "text": "African states regained full independence by 1914" },
+      { "id": "d", "text": "Only coastal ports fell under European control" }
+    ],
+    "answer": "b",
+    "explanation": "European control surged from roughly 10% in 1870 to 90% in 1914, leaving only Ethiopia and Liberia free.",
+    "source_url": "https://www.britannica.com/event/Scramble-for-Africa",
+    "fun_fact": "Ethiopia defeated Italy at the 1896 Battle of Adwa to preserve its independence.",
+    "trap_notes": {
+      "a": "In 1870, Europeans controlled only about 10 percent of Africa.",
+      "c": "Decolonization occurred after World War II, not before 1914.",
+      "d": "Control rose to 90% of the continent, far beyond coastal ports.",
+      "default": "Compare 1870 (~10%) to 1914 (~90%) under European rule."
+    }
+  },
+  {
+    "id": "world-dat-117",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "World War I Mobilization",
+    "era": "1914–1918 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "stimulus": {
+      "kind": "table",
+      "title": "World War I Military Mobilization & Deaths",
+      "headers": ["Country", "Mobilized", "Military Deaths"],
+      "rows": [
+        ["Russia", "12.0 million", "~1.8 million"],
+        ["Germany", "11.0 million", "~2.0 million"],
+        ["France", "8.4 million", "~1.4 million"]
+      ]
+    },
+    "prompt": "What does the table reveal about the scale of World War I?",
+    "options": [
+      { "id": "a", "text": "Industrial warfare caused millions of military deaths across major powers" },
+      { "id": "b", "text": "France mobilized more soldiers than Russia and Germany" },
+      { "id": "c", "text": "Russia suffered higher military deaths than Germany" },
+      { "id": "d", "text": "Total military deaths across the three powers stayed under one million" }
+    ],
+    "answer": "a",
+    "explanation": "Each of the three powers mobilized over 8 million troops and lost well over a million soldiers.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "fun_fact": "Machine guns, heavy artillery, and poison gas made World War I's Western Front deeply lethal.",
+    "trap_notes": {
+      "b": "France mobilized 8.4 million, fewer than Russia (12M) and Germany (11M).",
+      "c": "Germany's ~2.0 million military deaths exceeded Russia's ~1.8 million.",
+      "d": "Combined military deaths for these three nations alone exceeded 5 million.",
+      "default": "All three nations mobilized millions of troops and suffered over a million deaths each."
+    }
+  },
+  {
+    "id": "world-dat-118",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Weimar Hyperinflation",
+    "era": "1919–1924 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Price of a Loaf of Bread in Berlin",
+      "headers": ["Date", "Cost in Marks", "Economic Context"],
+      "rows": [
+        ["1918", "0.63", "End of World War I"],
+        ["Jan 1923", "250", "Ruhr occupation begins"],
+        ["Nov 1923", "200 billion", "Peak hyperinflation"]
+      ]
+    },
+    "prompt": "How did Weimar Germany's 1923 hyperinflation affect everyday life?",
+    "options": [
+      { "id": "a", "text": "Rapid money-printing made the mark nearly worthless, wiping out savings" },
+      { "id": "b", "text": "Bread prices fell steadily after the Ruhr occupation began" },
+      { "id": "c", "text": "The German mark gained purchasing power against food in 1923" },
+      { "id": "d", "text": "Prices returned to 1918 levels by November 1923" }
+    ],
+    "answer": "a",
+    "explanation": "Printing paper marks to pay striking Ruhr workers drove bread from 250 marks to 200 billion marks.",
+    "source_url": "https://www.britannica.com/place/Weimar-Republic",
+    "fun_fact": "Workers were sometimes paid twice a day so they could buy food before prices rose again.",
+    "trap_notes": {
+      "b": "Bread jumped from 250 marks in January to 200 billion marks in November 1923.",
+      "c": "Needing 200 billion marks for one loaf shows a collapse in purchasing power.",
+      "d": "November 1923 marked the peak of hyperinflation, not a return to 1918 prices.",
+      "default": "A loaf jumping from 0.63 to 200 billion marks shows extreme currency collapse."
+    }
+  },
+  {
+    "id": "world-dat-119",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Soviet Five-Year Plans",
+    "era": "1928–1940 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 53.4117, "lng": 58.9844, "label": "Magnitogorsk, Russia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Soviet Industrial Output (1928–1937)",
+      "headers": ["Product", "1928", "1937"],
+      "rows": [
+        ["Coal (million tons)", "35.5", "128.0"],
+        ["Steel (million tons)", "4.3", "17.7"],
+        ["Electricity (billion kWh)", "5.0", "36.2"]
+      ]
+    },
+    "prompt": "What priority of Stalin's Five-Year Plans is reflected in the table?",
+    "options": [
+      { "id": "a", "text": "Shifting resources away from heavy industry toward consumer goods" },
+      { "id": "b", "text": "Rapid state-directed growth in coal, steel, and electric power" },
+      { "id": "c", "text": "Closing state factories to restore small private farms" },
+      { "id": "d", "text": "Reducing electricity output to conserve coal" }
+    ],
+    "answer": "b",
+    "explanation": "Stalin's first two Five-Year Plans multiplied heavy industrial output in coal, steel, and electricity.",
+    "source_url": "https://www.britannica.com/event/Five-Year-Plans",
+    "fun_fact": "While heavy industry surged, collectivization and grain seizures caused devastating famine in 1932–1933.",
+    "trap_notes": {
+      "a": "The table measures heavy industry—coal, steel, and electricity—not consumer goods.",
+      "c": "Stalin abolished private farms through forced collectivization.",
+      "d": "Electricity output rose more than sevenfold between 1928 and 1937.",
+      "default": "Coal, steel, and electricity all tripled or quadrupled under the Five-Year Plans."
+    }
+  },
+  {
+    "id": "world-dat-120",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Great Depression Trade Collapse",
+    "era": "1929–1933 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, United States" },
+    "stimulus": {
+      "kind": "table",
+      "title": "World Merchandise Trade Value (1929–1933)",
+      "headers": ["Year", "World Imports Index", "Trade Policy Trend"],
+      "rows": [
+        ["1929", "100", "Pre-crash peak"],
+        ["1931", "60", "Tariff hikes spread"],
+        ["1933", "35", "Competitive devaluations"]
+      ]
+    },
+    "prompt": "What happened to global trade during the first four years of the Great Depression?",
+    "options": [
+      { "id": "a", "text": "World trade value fell by roughly two-thirds amid rising tariffs" },
+      { "id": "b", "text": "Tariff cuts kept world imports steady at 100" },
+      { "id": "c", "text": "Global imports rose sharply between 1931 and 1933" },
+      { "id": "d", "text": "Currency devaluations doubled world trade by 1933" }
+    ],
+    "answer": "a",
+    "explanation": "Retaliatory tariffs and collapsing demand cut the world imports index from 100 in 1929 to 35 in 1933.",
+    "source_url": "https://www.britannica.com/event/Great-Depression",
+    "fun_fact": "Economist Charles Kindleberger famously graphed this downward spiral as the 'contraction spiral' of trade.",
+    "trap_notes": {
+      "b": "Countries raised tariffs rather than cutting them, and imports fell from 100 to 35.",
+      "c": "The index fell from 60 in 1931 to 35 in 1933.",
+      "d": "World trade shrank by 65 percent rather than doubling.",
+      "default": "Follow the index from 100 in 1929 down to 35 in 1933."
+    }
+  },
+  {
+    "id": "world-dat-121",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "World War II Production",
+    "era": "1939–1945 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, United States" },
+    "stimulus": {
+      "kind": "table",
+      "title": "WWII Aircraft Production (1941–1944)",
+      "headers": ["Power", "1941", "1944"],
+      "rows": [
+        ["United States", "26,277", "96,318"],
+        ["Soviet Union", "15,735", "40,300"],
+        ["Germany", "11,776", "39,807"]
+      ]
+    },
+    "prompt": "How did industrial output shape the Allied victory shown in the table?",
+    "options": [
+      { "id": "a", "text": "Germany outproduced the United States and Soviet Union combined" },
+      { "id": "b", "text": "Allied aircraft production far outstripped German output by 1944" },
+      { "id": "c", "text": "Soviet aircraft production fell after 1941" },
+      { "id": "d", "text": "U.S. factories built fewer planes in 1944 than in 1941" }
+    ],
+    "answer": "b",
+    "explanation": "In 1944, the U.S. (96,318) and USSR (40,300) together built over three times as many planes as Germany.",
+    "source_url": "https://www.britannica.com/event/World-War-II",
+    "fun_fact": "The Soviet Union dismantled entire factories ahead of the 1941 German invasion and rebuilt them east of the Urals.",
+    "trap_notes": {
+      "a": "Germany built 39,807 planes in 1944, less than half of U.S. output alone.",
+      "c": "Soviet output more than doubled from 15,735 in 1941 to 40,300 in 1944.",
+      "d": "U.S. output more than tripled between 1941 and 1944.",
+      "default": "Add the 1944 Allied figures (96,318 + 40,300) and compare with Germany's 39,807."
+    }
+  },
+  {
+    "id": "world-dat-122",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Partition of India",
+    "era": "1947–1951 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 31.5204, "lng": 74.3587, "label": "Lahore, Pakistan" },
+    "stimulus": {
+      "kind": "table",
+      "title": "1947 Partition of British India",
+      "headers": ["Impact Metric", "Estimated Scale", "Primary Regions"],
+      "rows": [
+        ["Displaced People", "~14–15 million", "Punjab & Bengal"],
+        ["Estimated Deaths", "~1–2 million", "Punjab borderlands"],
+        ["New Independent States", "2 (India, Pakistan)", "South Asia"]
+      ]
+    },
+    "prompt": "What does the table show about the immediate human cost of the 1947 Partition?",
+    "options": [
+      { "id": "a", "text": "Borderlines divided Punjab and Bengal with minimal movement" },
+      { "id": "b", "text": "Partition triggered one of history's largest mass migrations and deadly violence" },
+      { "id": "c", "text": "British India stayed united as a single federation after 1947" },
+      { "id": "d", "text": "Refugee movements were limited to southern coastal ports" }
+    ],
+    "answer": "b",
+    "explanation": "Drawing borders across Punjab and Bengal displaced 14–15 million people and killed 1–2 million.",
+    "source_url": "https://www.britannica.com/event/Partition-of-India",
+    "fun_fact": "British lawyer Cyril Radcliffe drew the Partition boundary lines in just five weeks without ever visiting India.",
+    "trap_notes": {
+      "a": "Roughly 14 to 15 million people were displaced across the new borders.",
+      "c": "British India split into two independent states, India and Pakistan.",
+      "d": "The table identifies Punjab and Bengal as the primary regions affected.",
+      "default": "Look at the displaced population (14–15 million) and death toll (1–2 million)."
+    }
+  },
+  {
+    "id": "world-dat-123",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Postwar European Recovery",
+    "era": "1947–1952 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Major Marshall Plan Recipients (1948–1951)",
+      "headers": ["Country", "U.S. Aid ($B)", "Industrial Output Change"],
+      "rows": [
+        ["United Kingdom", "$3.3B", "+30% above 1938"],
+        ["France", "$2.7B", "+40% above 1938"],
+        ["West Germany", "$1.4B", "+35% above 1938"]
+      ]
+    },
+    "prompt": "What outcome followed Marshall Plan aid in Western Europe?",
+    "options": [
+      { "id": "a", "text": "Western European industrial output surpassed prewar 1938 levels" },
+      { "id": "b", "text": "West Germany received more Marshall Plan aid than Britain" },
+      { "id": "c", "text": "French industry remained below 1938 output in 1951" },
+      { "id": "d", "text": "Marshall Plan funds went exclusively to Eastern Europe" }
+    ],
+    "answer": "a",
+    "explanation": "All three major recipients boosted industrial output 30% to 40% above prewar 1938 levels by 1951.",
+    "source_url": "https://www.britannica.com/event/Marshall-Plan",
+    "fun_fact": "The Soviet Union refused Marshall Plan aid and barred Eastern European satellites from participating.",
+    "trap_notes": {
+      "b": "Britain received $3.3B, more than double West Germany's $1.4B.",
+      "c": "France's industrial output rose 40% above its 1938 level.",
+      "d": "All three recipients listed were in Western Europe.",
+      "default": "Check the Industrial Output Change column: every recipient exceeded 1938 levels."
+    }
+  },
+  {
+    "id": "world-dat-124",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "African Decolonization",
+    "era": "1950–1980 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 5.6037, "lng": -0.187, "label": "Accra, Ghana" },
+    "stimulus": {
+      "kind": "table",
+      "title": "African Nations Gaining Independence by Decade",
+      "headers": ["Decade", "New Independent States", "Notable Example"],
+      "rows": [
+        ["1950s", "6", "Ghana (1957)"],
+        ["1960s", "32", "Nigeria (1960)"],
+        ["1970s", "9", "Angola (1975)"]
+      ]
+    },
+    "prompt": "Which decade marked the peak wave of African decolonization in the table?",
+    "options": [
+      { "id": "a", "text": "The 1950s, when 32 African states won independence" },
+      { "id": "b", "text": "The 1960s, when 32 African nations became independent" },
+      { "id": "c", "text": "The 1970s, when Ghana became the first free colony" },
+      { "id": "d", "text": "The 1980s, when Nigeria gained independence" }
+    ],
+    "answer": "b",
+    "explanation": "Thirty-two African nations achieved independence in the 1960s, including 17 in 1960 alone.",
+    "source_url": "https://www.britannica.com/place/Africa/The-march-to-independence",
+    "fun_fact": "1960 is often called the 'Year of Africa' because 17 African nations gained independence that year.",
+    "trap_notes": {
+      "a": "Only 6 nations gained independence in the 1950s; 32 did so in the 1960s.",
+      "c": "Ghana gained independence in 1957, during the 1950s.",
+      "d": "Nigeria gained independence in 1960, as shown in the 1960s row.",
+      "default": "Compare the middle column: 32 states in the 1960s far exceeds 6 or 9."
+    }
+  },
+  {
+    "id": "world-dat-125",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Green Revolution",
+    "era": "1960–1985 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.901, "lng": 75.8573, "label": "Punjab, India" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Indian Wheat Production (1960–1980)",
+      "headers": ["Year", "Output (million tons)", "Key Input"],
+      "rows": [
+        ["1960", "10.3", "Traditional seeds"],
+        ["1970", "20.1", "High-yield dwarf wheat"],
+        ["1980", "31.8", "Irrigation & fertilizer"]
+      ]
+    },
+    "prompt": "What impact of the Green Revolution does the Indian wheat table show?",
+    "options": [
+      { "id": "a", "text": "Wheat output tripled using high-yield inputs" },
+      { "id": "b", "text": "Dwarf wheat varieties cut harvests in half" },
+      { "id": "c", "text": "Traditional seeds outproduced dwarf wheat" },
+      { "id": "d", "text": "Indian wheat production stalled after 1970" }
+    ],
+    "answer": "a",
+    "explanation": "High-yield seeds, irrigation, and chemical fertilizers helped triple India's wheat harvest by 1980.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "fun_fact": "Agronomist Norman Borlaug won the 1970 Nobel Peace Prize for developing disease-resistant dwarf wheat.",
+    "trap_notes": {
+      "b": "Output doubled by 1970 and tripled by 1980.",
+      "c": "Output was lowest (10.3 million tons) when traditional seeds were used.",
+      "d": "Production rose from 20.1 million tons in 1970 to 31.8 million tons in 1980.",
+      "default": "Wheat output grew from 10.3 to 31.8 million tons with Green Revolution inputs."
+    }
+  },
+  {
+    "id": "world-dat-126",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "East Asian Economic Miracles",
+    "era": "1960–1995 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5665, "lng": 126.978, "label": "Seoul, South Korea" },
+    "stimulus": {
+      "kind": "table",
+      "title": "South Korea Real GDP per Capita (1960–1990)",
+      "headers": ["Year", "GDP per Capita (USD)", "Lead Export Sector"],
+      "rows": [
+        ["1960", "$158", "Raw materials & wigs"],
+        ["1975", "$607", "Textiles & ships"],
+        ["1990", "$6,610", "Electronics & autos"]
+      ]
+    },
+    "prompt": "Which development strategy does South Korea's table illustrate?",
+    "options": [
+      { "id": "a", "text": "Export-led industrialization climbing from textiles to electronics" },
+      { "id": "b", "text": "Closing ports to foreign trade to focus on subsistence farming" },
+      { "id": "c", "text": "Falling income per person between 1975 and 1990" },
+      { "id": "d", "text": "Relying solely on raw material exports through 1990" }
+    ],
+    "answer": "a",
+    "explanation": "South Korea shifted from raw materials to textiles, ships, and electronics, multiplying GDP per capita.",
+    "source_url": "https://www.britannica.com/place/South-Korea/Economy",
+    "fun_fact": "South Korea became one of the 'Four Asian Tigers' alongside Taiwan, Hong Kong, and Singapore.",
+    "trap_notes": {
+      "b": "South Korea's growth relied on export-oriented manufacturing, not autarky.",
+      "c": "GDP per capita jumped more than tenfold between 1975 and 1990.",
+      "d": "By 1990, electronics and autos led exports.",
+      "default": "Notice both the steep GDP rise and the shift toward higher-tech exports."
+    }
+  },
+  {
+    "id": "world-dat-127",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "China's Post-1978 Reforms",
+    "era": "1978–2005 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 22.5431, "lng": 114.0579, "label": "Shenzhen, China" },
+    "stimulus": {
+      "kind": "table",
+      "title": "China Urbanization & Poverty Rate (1980–2005)",
+      "headers": ["Year", "Urban Share", "Extreme Poverty Rate"],
+      "rows": [
+        ["1981", "20%", "88%"],
+        ["1993", "28%", "57%"],
+        ["2005", "43%", "19%"]
+      ]
+    },
+    "prompt": "What social trend accompanied China's market reforms from 1981 to 2005?",
+    "options": [
+      { "id": "a", "text": "Urbanization more than doubled while extreme poverty fell sharply" },
+      { "id": "b", "text": "Extreme poverty rose above 80% as cities expanded" },
+      { "id": "c", "text": "China's rural population share grew between 1981 and 2005" },
+      { "id": "d", "text": "Poverty rates stayed unchanged despite factory growth" }
+    ],
+    "answer": "a",
+    "explanation": "China's urban share rose from 20% to 43% as extreme poverty plunged from 88% to 19%.",
+    "source_url": "https://www.britannica.com/place/China/Economy",
+    "fun_fact": "Hundreds of millions of rural workers migrated to coastal factory cities during this boom.",
+    "trap_notes": {
+      "b": "Extreme poverty dropped from 88% in 1981 to 19% in 2005.",
+      "c": "Since the urban share rose from 20% to 43%, the rural share declined.",
+      "d": "Poverty fell by nearly 70 percentage points over 24 years.",
+      "default": "Compare the rising Urban Share column with the falling Extreme Poverty Rate column."
+    }
+  },
+  {
+    "id": "world-dat-128",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "1970s Oil Shocks",
+    "era": "1970–1982 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Average Crude Oil Price per Barrel",
+      "headers": ["Year", "Nominal Price", "Geopolitical Event"],
+      "rows": [
+        ["1972", "$2.48", "Pre-embargo baseline"],
+        ["1974", "$11.58", "OAPEC oil embargo"],
+        ["1980", "$36.83", "Iranian Revolution"]
+      ]
+    },
+    "prompt": "What does the oil price table show about the 1970s energy crises?",
+    "options": [
+      { "id": "a", "text": "Middle East geopolitical shocks drove oil prices up more than tenfold" },
+      { "id": "b", "text": "Oil prices dropped below $3 per barrel after the 1973 embargo" },
+      { "id": "c", "text": "The Iranian Revolution cut crude prices in half in 1980" },
+      { "id": "d", "text": "OPEC lost all influence over world oil prices after 1972" }
+    ],
+    "answer": "a",
+    "explanation": "Oil jumped from $2.48 in 1972 to $11.58 after the 1973–1974 embargo and $36.83 during Iran's revolution.",
+    "source_url": "https://www.britannica.com/topic/OPEC",
+    "fun_fact": "The 1973 embargo prompted Western nations to create the Strategic Petroleum Reserve and fuel-economy standards.",
+    "trap_notes": {
+      "b": "Oil rose from $2.48 to $11.58 after the embargo.",
+      "c": "Prices more than tripled between 1974 ($11.58) and 1980 ($36.83).",
+      "d": "The 1973–1974 embargo demonstrated OPEC members' leverage over global energy.",
+      "default": "Track the barrel price from $2.48 in 1972 to $36.83 in 1980."
+    }
+  },
+  {
+    "id": "world-dat-129",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Cold War Nuclear Arms",
+    "era": "1960–2000 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Estimated Nuclear Warhead Stockpiles",
+      "headers": ["Year", "United States", "USSR / Russia"],
+      "rows": [
+        ["1965", "31,139", "6,129"],
+        ["1985", "23,368", "39,197"],
+        ["2000", "10,577", "12,000"]
+      ]
+    },
+    "prompt": "Which trend is shown in the Cold War nuclear stockpile table?",
+    "options": [
+      { "id": "a", "text": "Superpowers built huge arsenals before treaty cuts" },
+      { "id": "b", "text": "The USSR held more warheads than the U.S. in 1965" },
+      { "id": "c", "text": "Both arsenals grew larger between 1985 and 2000" },
+      { "id": "d", "text": "Nuclear disarmament was finished by the year 2000" }
+    ],
+    "answer": "a",
+    "explanation": "Stockpiles peaked in the tens of thousands during the Cold War, then fell sharply by 2000 under START treaties.",
+    "source_url": "https://www.britannica.com/event/Strategic-Arms-Reduction-Talks",
+    "fun_fact": "The 1987 INF Treaty was the first pact to eliminate an entire class of nuclear missiles.",
+    "trap_notes": {
+      "b": "In 1965, the U.S. held 31,139 warheads compared to the USSR's 6,129.",
+      "c": "Both countries cut their arsenals by more than half between 1985 and 2000.",
+      "d": "Over 22,000 warheads remained combined in 2000.",
+      "default": "Notice the buildup to 1985 followed by steep reductions by 2000."
+    }
+  },
+  {
+    "id": "world-dat-130",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Global Health",
+    "era": "1950–2000 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Global Life Expectancy at Birth",
+      "headers": ["Year", "Global Average", "Public Health Milestone"],
+      "rows": [
+        ["1950", "46.5 years", "Antibiotics & DDT spread"],
+        ["1975", "59.4 years", "Smallpox near eradication"],
+        ["2000", "66.5 years", "Expanded childhood vaccines"]
+      ]
+    },
+    "prompt": "What does the table show about global human health in the late 20th century?",
+    "options": [
+      { "id": "a", "text": "Public health gains added 20 years to life expectancy" },
+      { "id": "b", "text": "Global life expectancy fell after smallpox ended" },
+      { "id": "c", "text": "Average life expectancy stayed under 50 in 2000" },
+      { "id": "d", "text": "Antibiotics had no measurable effect after 1950" }
+    ],
+    "answer": "a",
+    "explanation": "Global average life expectancy climbed from 46.5 years in 1950 to 66.5 years in 2000.",
+    "source_url": "https://www.britannica.com/science/smallpox",
+    "fun_fact": "The World Health Organization declared smallpox eradicated in 1980—the first human disease wiped out.",
+    "trap_notes": {
+      "b": "Life expectancy rose from 59.4 years in 1975 to 66.5 years in 2000.",
+      "c": "By 2000, the global average reached 66.5 years.",
+      "d": "The largest jump—nearly 13 years—occurred between 1950 and 1975.",
+      "default": "Compare 46.5 years in 1950 with 66.5 years in 2000."
+    }
+  },
+  {
+    "id": "world-syn-101",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Indian Ocean Monsoon Network",
+    "era": "500–1500 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 11.2588, "lng": 75.7804, "label": "Calicut, India" },
+    "secondary_geo": { "lat": -8.9606, "lng": 39.5125, "label": "Kilwa, Tanzania" },
+    "prompt": "How did Indian Ocean monsoon winds shape cultural exchange between East Africa and India?",
+    "options": [
+      { "id": "a", "text": "Predictable wind reversals kept sailors in ports for months, fostering diasporas" },
+      { "id": "b", "text": "Year-round hurricanes blocked all direct sea voyages across the Arabian Sea" },
+      { "id": "c", "text": "Monsoons blew only southward, forcing merchants to walk back overland" },
+      { "id": "d", "text": "Frozen winter harbors closed East African ports for half of each year" }
+    ],
+    "answer": "a",
+    "explanation": "Seasonal monsoon reversals gave sailors predictable round trips and months in port to marry and trade.",
+    "source_url": "https://www.britannica.com/place/Indian-Ocean",
+    "fun_fact": "Swahili language and coastal Islam grew out of centuries of Indian Ocean maritime contact.",
+    "trap_notes": {
+      "b": "Dhows sailed reliably across the Arabian Sea for centuries using monsoon schedules.",
+      "c": "Monsoons reverse direction seasonally, blowing southwest in summer and northeast in winter.",
+      "d": "East African tropical ports never freeze.",
+      "default": "Seasonal wind reversals created predictable round-trip voyages and long port layovers."
+    }
+  },
+  {
+    "id": "world-syn-102",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Silk Road & Paper Money",
+    "era": "1000–1350 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 30.2741, "lng": 120.1551, "label": "Hangzhou, China" },
+    "secondary_geo": { "lat": 39.6542, "lng": 66.9597, "label": "Samarkand, Uzbekistan" },
+    "prompt": "Why did Song and Yuan paper money and credit bills expand long-distance Eurasian trade?",
+    "options": [
+      { "id": "a", "text": "They lowered transaction costs by replacing heavy metal coin shipments" },
+      { "id": "b", "text": "They banned silver and silk from crossing Mongol borders" },
+      { "id": "c", "text": "They eliminated all caravan taxes along Silk Road oases" },
+      { "id": "d", "text": "They forced European banks to adopt Chinese characters" }
+    ],
+    "answer": "a",
+    "explanation": "Paper notes and flying-cash credit bills let merchants settle large trades without hauling heavy coins.",
+    "source_url": "https://www.britannica.com/topic/paper-money",
+    "fun_fact": "Marco Polo marveled that Kublai Khan's mulberry-bark notes worked as currency across the empire.",
+    "trap_notes": {
+      "b": "Silver and silk remained prized trade goods across Eurasia.",
+      "c": "States still collected customs duties at oasis gates and ports.",
+      "d": "European merchants used their own bills of exchange and Latin scripts.",
+      "default": "Paper credit reduced the weight, risk, and cost of moving metal coins."
+    }
+  },
+  {
+    "id": "world-syn-103",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Athenian Democracy & Modern Republics",
+    "era": "500 BCE–1787 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "secondary_geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, United States" },
+    "prompt": "How does classical Athenian democracy differ from modern representative republics?",
+    "options": [
+      { "id": "a", "text": "Athenian citizens voted directly on laws, whereas modern republics elect lawmakers" },
+      { "id": "b", "text": "Athens granted full voting rights to women and enslaved residents" },
+      { "id": "c", "text": "Modern republics select officials by random lottery like Athens's council" },
+      { "id": "d", "text": "Athenian assemblies met only once every four years to pick a king" }
+    ],
+    "answer": "a",
+    "explanation": "Athens practiced direct democracy by male citizens in the Assembly, whereas modern republics use elected representatives.",
+    "source_url": "https://www.britannica.com/topic/democracy",
+    "fun_fact": "Athens also used sortition—random lottery—to choose most magistrates and jurors.",
+    "trap_notes": {
+      "b": "Women, foreigners, and enslaved people were excluded from Athenian citizenship.",
+      "c": "Modern republics rely on elections rather than random lottery for legislatures.",
+      "d": "The Athenian Assembly met dozens of times a year and had no king.",
+      "default": "Direct citizen voting in Athens contrasts with elected legislatures today."
+    }
+  },
+  {
+    "id": "world-syn-104",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo", "Econ"],
+    "subdomain": "Andean Vertical Archipelago",
+    "era": "1438–1533 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -13.5319, "lng": -71.9675, "label": "Cusco, Peru" },
+    "secondary_geo": { "lat": -16.5, "lng": -68.15, "label": "Lake Titicaca, Bolivia" },
+    "prompt": "How did the Inca state overcome steep Andean mountain climates to supply its population?",
+    "options": [
+      { "id": "a", "text": "It linked different altitude zones by stone roads and state storehouses" },
+      { "id": "b", "text": "It imported wheat by ocean galleons from Europe" },
+      { "id": "c", "text": "It abandoned highland farms to settle only Amazonian lowlands" },
+      { "id": "d", "text": "It relied on camel caravans crossing the Atacama Desert" }
+    ],
+    "answer": "a",
+    "explanation": "Inca ayllus farmed terraced altitude zones and moved potatoes, maize, and wool via state roads and qullqa storehouses.",
+    "source_url": "https://www.britannica.com/topic/Inca",
+    "fun_fact": "Freeze-dried potatoes called chuno could be stored in Inca warehouses for years against famine.",
+    "trap_notes": {
+      "b": "The Inca Empire had no pre-1532 contact with European wheat or galleons.",
+      "c": "Highland valleys around Cusco and Lake Titicaca remained the Inca demographic core.",
+      "d": "Llamas and alpacas, not camels, carried goods in the Andes.",
+      "default": "Connecting multiple elevation zones let the Incas exchange crops across climates."
+    }
+  },
+  {
+    "id": "world-syn-105",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Global Silver & Price Revolution",
+    "era": "1545–1650 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -19.5723, "lng": -65.755, "label": "Potosi, Bolivia" },
+    "secondary_geo": { "lat": 37.3891, "lng": -5.9845, "label": "Seville, Spain" },
+    "prompt": "How did massive American silver imports affect Europe's 16th-century economy?",
+    "options": [
+      { "id": "a", "text": "Expanding the money supply without matching goods caused sustained inflation" },
+      { "id": "b", "text": "Silver abundance pushed grain and bread prices steadily downward" },
+      { "id": "c", "text": "Spain used silver to avoid all European wars and debts" },
+      { "id": "d", "text": "Silver imports ended European demand for Asian spices and silk" }
+    ],
+    "answer": "a",
+    "explanation": "Floods of silver coin outpaced agricultural and craft output, driving Europe's 'Price Revolution.'",
+    "source_url": "https://www.britannica.com/place/Potosi-Bolivia",
+    "fun_fact": "Despite Potosi's wealth, Spain defaulted on royal debts multiple times due to costly European wars.",
+    "trap_notes": {
+      "b": "More money chasing limited goods pushed prices upward, not downward.",
+      "c": "Spain spent silver heavily on wars in the Netherlands, France, and the Mediterranean.",
+      "d": "Europeans used American silver to buy even more Asian silk, tea, and spices.",
+      "default": "Rapidly growing money supply relative to goods produces inflation."
+    }
+  },
+  {
+    "id": "world-syn-106",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics", "US"],
+    "subdomain": "Enlightenment Constitutionalism",
+    "era": "1689–1791 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "secondary_geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, United States" },
+    "prompt": "Which Enlightenment principle links Locke's Two Treatises, the U.S. Declaration, and France's 1789 Declaration?",
+    "options": [
+      { "id": "a", "text": "Legitimate government rests on consent and protects natural rights" },
+      { "id": "b", "text": "Hereditary monarchs hold divine authority above written law" },
+      { "id": "c", "text": "Mercantilist guilds should control all colonial trade" },
+      { "id": "d", "text": "Established state churches must approve every elected official" }
+    ],
+    "answer": "a",
+    "explanation": "All three texts argue that citizens possess natural rights and form governments by consent.",
+    "source_url": "https://www.britannica.com/topic/natural-rights",
+    "fun_fact": "Thomas Jefferson and the Marquis de Lafayette consulted directly while drafting France's 1789 Declaration.",
+    "trap_notes": {
+      "b": "Enlightenment thinkers challenged divine-right absolutism.",
+      "c": "Mercantilist guild monopolies were criticized by Enlightenment economists.",
+      "d": "Enlightenment declarations moved toward religious toleration and secular rights.",
+      "default": "Locke, Jefferson, and French revolutionaries all grounded rule in natural rights and consent."
+    }
+  },
+  {
+    "id": "world-syn-107",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Britain's Early Industrialization",
+    "era": "1760–1830 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, England" },
+    "secondary_geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, England" },
+    "prompt": "Which geographic advantage helped Great Britain industrialize first?",
+    "options": [
+      { "id": "a", "text": "Accessible coal and iron deposits near navigable rivers and ports" },
+      { "id": "b", "text": "Vast domestic cotton fields along the Thames Valley" },
+      { "id": "c", "text": "Landlocked borders that blocked foreign maritime competition" },
+      { "id": "d", "text": "Tropical monsoon winds powering year-round hydro dams" }
+    ],
+    "answer": "a",
+    "explanation": "Britain's shallow coal seams, iron ore, and short river-to-port distances lowered factory fuel and shipping costs.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "fun_fact": "Canals cut the cost of hauling coal to Manchester factories in half before railroads arrived.",
+    "trap_notes": {
+      "b": "Britain imported all of its raw cotton from the Americas, Egypt, and India.",
+      "c": "Britain is an island nation with deep-water ports, not landlocked.",
+      "d": "Monsoon winds belong to the Indian Ocean, not northern Europe.",
+      "default": "Cheap coal, iron, and coastal waterways gave Britain a decisive early edge."
+    }
+  },
+  {
+    "id": "world-syn-108",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Haitian & Louisiana Purchase",
+    "era": "1791–1804 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 18.5944, "lng": -72.3074, "label": "Port-au-Prince, Haiti" },
+    "secondary_geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, United States" },
+    "prompt": "How did the Haitian Revolution directly reshape United States territorial expansion?",
+    "options": [
+      { "id": "a", "text": "Haitian victory led Napoleon to sell Louisiana" },
+      { "id": "b", "text": "Haiti annexed Florida and ceded it to Spain in 1804" },
+      { "id": "c", "text": "French troops used Haiti as a base to retake Quebec" },
+      { "id": "d", "text": "The United States ended all cotton farming in 1804" }
+    ],
+    "answer": "a",
+    "explanation": "Losing Saint-Domingue ruined Napoleon's Caribbean empire plan, prompting the 1803 Louisiana Purchase.",
+    "source_url": "https://www.britannica.com/topic/Haitian-Revolution",
+    "fun_fact": "Louisiana had been meant to supply food to Saint-Domingue's sugar plantations.",
+    "trap_notes": {
+      "b": "Spain held Florida until ceding it to the United States in 1819.",
+      "c": "France lost its army to Haitian forces and yellow fever, abandoning North American plans.",
+      "d": "U.S. cotton production expanded rapidly after 1803.",
+      "default": "Without sugar-rich Saint-Domingue, Napoleon had little use for French Louisiana."
+    }
+  },
+  {
+    "id": "world-syn-109",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Opium Wars & Trade Imbalances",
+    "era": "1790–1842 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 23.1291, "lng": 113.2644, "label": "Guangzhou, China" },
+    "secondary_geo": { "lat": 22.5726, "lng": 88.3639, "label": "Kolkata, India" },
+    "prompt": "Why did British merchants export Indian opium to Qing China in the early 1800s?",
+    "options": [
+      { "id": "a", "text": "To offset Britain's silver deficit from buying Chinese tea" },
+      { "id": "b", "text": "To obey Qing laws banning silver imports into Guangzhou" },
+      { "id": "c", "text": "To replace British wool factories with Chinese opium mills" },
+      { "id": "d", "text": "To help Qing emperors fund repairs on the Grand Canal" }
+    ],
+    "answer": "a",
+    "explanation": "High British demand for tea drained silver to China until Indian opium sales reversed the silver flow.",
+    "source_url": "https://www.britannica.com/topic/Opium-Wars",
+    "fun_fact": "When Commissioner Lin Zexu banned opium in 1839, Britain launched the First Opium War.",
+    "trap_notes": {
+      "b": "Qing emperors welcomed silver and repeatedly outlawed opium imports.",
+      "c": "Opium was an agricultural drug grown in India, not a factory product.",
+      "d": "Opium smuggling drained silver out of Qing China, hurting imperial finances.",
+      "default": "Britain used Indian opium to pay for Chinese tea without shipping silver."
+    }
+  },
+  {
+    "id": "world-syn-110",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics"],
+    "subdomain": "1848 Revolutions & Nationalism",
+    "era": "1848–1871 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "secondary_geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "Why did liberal nationalism threaten the multiethnic Austrian Empire in 1848?",
+    "options": [
+      { "id": "a", "text": "Popular sovereignty and national self-rule challenged dynastic imperial rule" },
+      { "id": "b", "text": "Nationalists demanded that Austria annex France and Spain" },
+      { "id": "c", "text": "Liberals sought to restore feudal serfdom across Central Europe" },
+      { "id": "d", "text": "Hungarian and Czech leaders wanted one German-speaking republic" }
+    ],
+    "answer": "a",
+    "explanation": "Constitutions and national self-determination threatened to break apart the Habsburg multiethnic empire.",
+    "source_url": "https://www.britannica.com/event/Revolutions-of-1848",
+    "fun_fact": "Although the 1848 revolutions were crushed, Austria finally abolished serfdom that year.",
+    "trap_notes": {
+      "b": "Nationalists wanted self-rule for their own peoples, not Habsburg expansion.",
+      "c": "Liberals pushed to end feudal dues and gain written constitutions.",
+      "d": "Czechs, Hungarians, and Italians sought autonomy from Vienna, not Germanization.",
+      "default": "A multiethnic empire cannot easily survive demands for ethnic nation-states."
+    }
+  },
+  {
+    "id": "world-syn-111",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo", "Econ"],
+    "subdomain": "Suez Canal & Global Shipping",
+    "era": "1869–1914 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Suez Canal, Egypt" },
+    "secondary_geo": { "lat": 18.9388, "lng": 72.8354, "label": "Mumbai, India" },
+    "prompt": "How did the 1869 Suez Canal transform trade and imperial strategy?",
+    "options": [
+      { "id": "a", "text": "It bypassed southern Africa, making Egypt a vital chokepoint for Britain's route to India" },
+      { "id": "b", "text": "It connected the Atlantic and Pacific oceans across Central America" },
+      { "id": "c", "text": "It ended steamship use by favoring wooden sailing clippers" },
+      { "id": "d", "text": "It isolated Mediterranean ports from Indian Ocean commerce" }
+    ],
+    "answer": "a",
+    "explanation": "Cutting the sea route to India by thousands of miles made control of Egypt central to British strategy.",
+    "source_url": "https://www.britannica.com/topic/Suez-Canal",
+    "fun_fact": "Sailing ships struggled with Red Sea winds, so the Suez Canal accelerated the shift to steamships.",
+    "trap_notes": {
+      "b": "That was the Panama Canal, opened in 1914.",
+      "c": "The Suez Canal favored coal-fired steamships over sailing vessels.",
+      "d": "The canal directly linked the Mediterranean to the Red Sea and Indian Ocean.",
+      "default": "Shortening the London-to-Bombay voyage made Egypt a key imperial chokepoint."
+    }
+  },
+  {
+    "id": "world-syn-112",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Global Cotton & U.S. Civil War",
+    "era": "1861–1875 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo, Egypt" },
+    "secondary_geo": { "lat": 32.7765, "lng": -79.9311, "label": "Charleston, United States" },
+    "prompt": "How did the U.S. Civil War Union blockade reshape agriculture in Egypt and India?",
+    "options": [
+      { "id": "a", "text": "Cutting Southern cotton exports sparked a cotton boom in Egypt and India" },
+      { "id": "b", "text": "European textile mills switched from cotton to Andean wool" },
+      { "id": "c", "text": "Egypt banned cotton farming to focus on wheat exports to Alabama" },
+      { "id": "d", "text": "British mills stopped importing cotton until 1890" }
+    ],
+    "answer": "a",
+    "explanation": "When the Union blockaded Confederate ports, British mills turned to Egypt and western India for raw cotton.",
+    "source_url": "https://www.britannica.com/event/American-Civil-War",
+    "fun_fact": "Egypt's cotton boom funded rail and canal projects before post-1865 price drops worsened its debt.",
+    "trap_notes": {
+      "b": "Lancashire mills stayed focused on cotton, seeking new suppliers abroad.",
+      "c": "Egyptian landlords expanded cotton acreage rapidly during the 1861–1865 boom.",
+      "d": "British mills sought alternative cotton supplies immediately during the 'Cotton Famine.'",
+      "default": "Lost Confederate cotton drove European buyers to expand production in Egypt and India."
+    }
+  },
+  {
+    "id": "world-syn-113",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Berlin Conference & Colonial Borders",
+    "era": "1884–1960 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "secondary_geo": { "lat": -4.3276, "lng": 15.3136, "label": "Kinshasa, DR Congo" },
+    "prompt": "How did the 1884–1885 Berlin Conference borders affect postcolonial African states?",
+    "options": [
+      { "id": "a", "text": "Arbitrary lines split ethnic groups and grouped rivals inside single states" },
+      { "id": "b", "text": "African kingdoms drew borders along precolonial language boundaries" },
+      { "id": "c", "text": "The conference guaranteed immediate self-rule for every colony" },
+      { "id": "d", "text": "European powers banned all resource extraction across Central Africa" }
+    ],
+    "answer": "a",
+    "explanation": "Colonial boundaries ignored African linguistic and political communities, creating lasting governance challenges.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "fun_fact": "Over 40 percent of modern African national borders follow straight geometric lines or rivers.",
+    "trap_notes": {
+      "b": "No African leaders attended the Berlin Conference.",
+      "c": "The conference set rules for European occupation, not independence.",
+      "d": "European powers raced to extract rubber, ivory, and minerals.",
+      "default": "Geometric colonial borders often cut across existing African communities."
+    }
+  },
+  {
+    "id": "world-syn-114",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["US"],
+    "subdomain": "Treaty of Versailles & League of Nations",
+    "era": "1919–1939 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why did the League of Nations struggle to deter aggression in the 1930s?",
+    "options": [
+      { "id": "a", "text": "It lacked a standing army, and major powers like the U.S. stayed outside it" },
+      { "id": "b", "text": "The United States commanded League troops in every European crisis" },
+      { "id": "c", "text": "The League outlawed all diplomatic treaties between democracies" },
+      { "id": "d", "text": "Germany and Japan held permanent vetoes from 1919 onward" }
+    ],
+    "answer": "a",
+    "explanation": "Without U.S. membership or enforcement forces, the League could not stop Japan, Italy, or Germany.",
+    "source_url": "https://www.britannica.com/topic/League-of-Nations",
+    "fun_fact": "Although President Woodrow Wilson proposed the League, the U.S. Senate rejected the Treaty of Versailles.",
+    "trap_notes": {
+      "b": "The United States never joined the League of Nations.",
+      "c": "The League aimed to encourage open diplomacy, not ban treaties.",
+      "d": "Germany joined only in 1926 and quit in 1933, the same year Japan withdrew.",
+      "default": "Missing major powers and lacking military enforcement weakened the League."
+    }
+  },
+  {
+    "id": "world-syn-115",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Bretton Woods Institutions",
+    "era": "1944–1971 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 44.2581, "lng": -71.4414, "label": "Bretton Woods, United States" },
+    "secondary_geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "What global problem were the 1944 Bretton Woods institutions designed to prevent?",
+    "options": [
+      { "id": "a", "text": "1930s-style currency devaluations and trade wars" },
+      { "id": "b", "text": "The rapid spread of railroads across Western Europe" },
+      { "id": "c", "text": "United Nations peacekeeping in decolonizing states" },
+      { "id": "d", "text": "Gold mining across South Africa and Australia" }
+    ],
+    "answer": "a",
+    "explanation": "The IMF and World Bank stabilized exchange rates and reconstruction loans to avoid 1930s-style economic collapse.",
+    "source_url": "https://www.britannica.com/event/Bretton-Woods-Conference",
+    "fun_fact": "Bretton Woods pegged major currencies to the U.S. dollar, which was convertible to gold at $35 per ounce.",
+    "trap_notes": {
+      "b": "Railroads had been built a century earlier and were not the target.",
+      "c": "UN peacekeeping was separate from the IMF and World Bank's monetary role.",
+      "d": "The system anchored currencies to gold rather than banning gold mining.",
+      "default": "Allied planners wanted stable currencies and open trade after the 1930s Depression."
+    }
+  },
+  {
+    "id": "world-syn-116",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Universal Declaration of Human Rights",
+    "era": "1945–1948 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "secondary_geo": { "lat": 40.7489, "lng": -73.968, "label": "New York, United States" },
+    "prompt": "How did the 1948 Universal Declaration of Human Rights break new legal ground?",
+    "options": [
+      { "id": "a", "text": "It set global standards for how states treat citizens" },
+      { "id": "b", "text": "It built a single world parliament above national courts" },
+      { "id": "c", "text": "It limited human rights protections to European kings" },
+      { "id": "d", "text": "It abolished all sovereign national borders in 1948" }
+    ],
+    "answer": "a",
+    "explanation": "Following WWII and the Holocaust, the UN declaration affirmed universal rights beyond state sovereignty.",
+    "source_url": "https://www.britannica.com/topic/Universal-Declaration-of-Human-Rights",
+    "fun_fact": "Eleanor Roosevelt chaired the UN drafting committee alongside delegates from Lebanon, China, and Chile.",
+    "trap_notes": {
+      "b": "The UN General Assembly adopted it as a declaration, not a world parliament.",
+      "c": "Its 30 articles applied to all people globally regardless of region or status.",
+      "d": "National borders and sovereign states remained intact.",
+      "default": "After WWII atrocities, the UN set international human rights norms for all nations."
+    }
+  },
+  {
+    "id": "world-syn-117",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo"],
+    "subdomain": "1956 Suez Crisis",
+    "era": "1956 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Suez Canal, Egypt" },
+    "secondary_geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "What did the 1956 Suez Crisis reveal about global power after World War II?",
+    "options": [
+      { "id": "a", "text": "Britain and France needed U.S. backing to act abroad" },
+      { "id": "b", "text": "Egypt lost sovereignty over the Nile River to France" },
+      { "id": "c", "text": "The Soviet Union joined Britain to occupy Cairo" },
+      { "id": "d", "text": "European empires regained control of Middle East oil" }
+    ],
+    "answer": "a",
+    "explanation": "U.S. financial pressure forced Britain and France to withdraw, confirming Nasser's standing and superpower dominance.",
+    "source_url": "https://www.britannica.com/event/Suez-Crisis",
+    "fun_fact": "The UN deployed its first armed peacekeeping force, UNEF, to monitor the Sinai withdrawal.",
+    "trap_notes": {
+      "b": "Egypt kept control of the Suez Canal after British, French, and Israeli troops withdrew.",
+      "c": "The USSR threatened Britain and France and backed Egypt.",
+      "d": "The crisis accelerated the decline of British and French influence in the Middle East.",
+      "default": "Washington's pressure forced London and Paris to retreat from Egypt."
+    }
+  },
+  {
+    "id": "world-syn-118",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["US"],
+    "subdomain": "Cuban Missile Crisis",
+    "era": "1962 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What diplomatic mechanism helped the U.S. and USSR resolve the 1962 Cuban Missile Crisis?",
+    "options": [
+      { "id": "a", "text": "A U.S. non-invasion pledge paired with Turkish missile removal" },
+      { "id": "b", "text": "A full-scale NATO amphibious invasion of Havana" },
+      { "id": "c", "text": "Partitioning Cuba into eastern and western occupation zones" },
+      { "id": "d", "text": "Transferring Soviet missiles from Cuba to West Berlin" }
+    ],
+    "answer": "a",
+    "explanation": "Khrushchev withdrew missiles from Cuba in return for a U.S. non-invasion pledge and U.S. Jupiter missile removal from Turkey.",
+    "source_url": "https://www.britannica.com/event/Cuban-missile-crisis",
+    "fun_fact": "After the crisis, Washington and Moscow installed a direct 'hotline' teletype link to prevent miscalculation.",
+    "trap_notes": {
+      "b": "President Kennedy chose a naval quarantine rather than an invasion.",
+      "c": "Cuba remained under Fidel Castro's government without partition.",
+      "d": "The missiles were shipped back to the Soviet Union, not West Berlin.",
+      "default": "Quiet concessions on both Cuba and Turkey ended the nuclear standoff."
+    }
+  },
+  {
+    "id": "world-syn-119",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo", "Econ"],
+    "subdomain": "Green Revolution & Global Food",
+    "era": "1960–1985 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "secondary_geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "prompt": "What environmental and economic trade-off accompanied the Green Revolution?",
+    "options": [
+      { "id": "a", "text": "Higher grain yields required heavy irrigation and chemical fertilizers" },
+      { "id": "b", "text": "New hybrid seeds eliminated all need for water or farm credit" },
+      { "id": "c", "text": "Crop yields fell sharply in both Mexico and South Asia" },
+      { "id": "d", "text": "Smallholder farmers stopped using machinery and fertilizers" }
+    ],
+    "answer": "a",
+    "explanation": "Dwarf wheat and rice prevented famines, but depended on costly fertilizers, pesticides, and groundwater.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "fun_fact": "High-yield varieties often favored wealthier farmers who could afford tube wells and fertilizer.",
+    "trap_notes": {
+      "b": "High-yield crops actually needed more water and fertilizer than traditional varieties.",
+      "c": "Grain harvests rose dramatically in Mexico, India, and Southeast Asia.",
+      "d": "Green Revolution farming increased use of synthetic fertilizers and pumps.",
+      "default": "Famine prevention came alongside heavy water and chemical demands."
+    }
+  },
+  {
+    "id": "world-syn-120",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Apartheid & Global Sanctions",
+    "era": "1948–1994 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -26.2041, "lng": 28.0473, "label": "Johannesburg, South Africa" },
+    "secondary_geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "How did domestic resistance and international pressure combine to end South African apartheid?",
+    "options": [
+      { "id": "a", "text": "Mass strikes, ANC organizing, and global divestment forced negotiations" },
+      { "id": "b", "text": "United Nations troops invaded Pretoria in 1960" },
+      { "id": "c", "text": "Apartheid ended voluntarily before Nelson Mandela was imprisoned" },
+      { "id": "d", "text": "Neighboring colonies annexed South Africa in 1990" }
+    ],
+    "answer": "a",
+    "explanation": "Township protests, labor strikes, and international economic sanctions led to Mandela's release and 1994 elections.",
+    "source_url": "https://www.britannica.com/topic/apartheid",
+    "fun_fact": "Nelson Mandela spent 27 years in prison before becoming South Africa's first Black president in 1994.",
+    "trap_notes": {
+      "b": "No UN military invasion occurred; pressure came through sanctions and boycotts.",
+      "c": "Apartheid lasted until the early 1990s, long after Mandela's 1962 arrest.",
+      "d": "South Africa transitioned internally to multiracial democracy in 1994.",
+      "default": "Internal resistance plus global economic sanctions brought the regime to negotiate."
+    }
+  },
+  {
+    "id": "world-syn-121",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Econ"],
+    "subdomain": "European Integration",
+    "era": "1957–2002 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "secondary_geo": { "lat": 50.1109, "lng": 8.6821, "label": "Frankfurt, Germany" },
+    "prompt": "What core goal drove France and West Germany to link their coal and steel industries in 1951?",
+    "options": [
+      { "id": "a", "text": "Shared markets to make another war unthinkable" },
+      { "id": "b", "text": "Closing European borders to transatlantic trade" },
+      { "id": "c", "text": "Joining the Soviet-led Warsaw Pact trade bloc" },
+      { "id": "d", "text": "Replacing modern factories with craft guilds" }
+    ],
+    "answer": "a",
+    "explanation": "Pooling coal and steel—the raw materials of war—laid the foundation for the European Union.",
+    "source_url": "https://www.britannica.com/topic/European-Union",
+    "fun_fact": "The 1951 European Coal and Steel Community grew into the 1957 Common Market and 1993 European Union.",
+    "trap_notes": {
+      "b": "Western Europe remained closely tied to transatlantic trade.",
+      "c": "France and West Germany were Western allies, not Warsaw Pact members.",
+      "d": "The pact aimed to modernize heavy industry, not return to guilds.",
+      "default": "Economic interdependence in coal and steel was designed to lock in peace."
+    }
+  },
+  {
+    "id": "world-syn-122",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Collapse of the Soviet Union",
+    "era": "1985–1991 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "secondary_geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "How did Mikhail Gorbachev's glasnost and perestroika accelerate the Soviet Union's dissolution?",
+    "options": [
+      { "id": "a", "text": "Openness unleashed nationalist movements while economic reforms disrupted central planning" },
+      { "id": "b", "text": "Censorship tightened so strictly that Eastern Europe kept Communist rule" },
+      { "id": "c", "text": "Soviet troops crushed every 1989 protest in Poland and East Germany" },
+      { "id": "d", "text": "Perestroika instantly turned the USSR into the world's largest exporter" }
+    ],
+    "answer": "a",
+    "explanation": "Political openness exposed past abuses and fueled republic independence, while partial reforms deepened shortages.",
+    "source_url": "https://www.britannica.com/event/perestroika-Soviet-government-policy",
+    "fun_fact": "Gorbachev refused to send Soviet tanks to prop up Eastern European regimes in 1989.",
+    "trap_notes": {
+      "b": "Glasnost relaxed censorship, and Communist governments fell across Eastern Europe in 1989.",
+      "c": "Unlike 1956 or 1968, Moscow did not use force to stop the 1989 revolutions.",
+      "d": "The Soviet economy suffered severe shortages and output drops in 1989–1991.",
+      "default": "Political openness plus disrupted central planning weakened Moscow's hold."
+    }
+  },
+  {
+    "id": "world-syn-123",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Aral Sea & Soviet Planning",
+    "era": "1960–2000 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.0, "lng": 60.0, "label": "Aral Sea, Central Asia" },
+    "secondary_geo": { "lat": 41.2995, "lng": 69.2401, "label": "Tashkent, Uzbekistan" },
+    "prompt": "What caused the dramatic shrinking of Central Asia's Aral Sea after 1960?",
+    "options": [
+      { "id": "a", "text": "Soviet planners diverted its feeder rivers to irrigate vast cotton fields" },
+      { "id": "b", "text": "Melting Himalayan glaciers flooded the basin and broke its dams" },
+      { "id": "c", "text": "Nuclear testing drained the sea into the Indian Ocean" },
+      { "id": "d", "text": "Tectonic earthquakes lifted the seabed above sea level" }
+    ],
+    "answer": "a",
+    "explanation": "Diverting the Amu Darya and Syr Darya rivers for Uzbek cotton starved the Aral Sea of inflow.",
+    "source_url": "https://www.britannica.com/place/Aral-Sea",
+    "fun_fact": "Fishing boats were left stranded miles from water on salt-crusted desert flats.",
+    "trap_notes": {
+      "b": "Excessive water diversion, not flooding, shrank the Aral Sea.",
+      "c": "The Aral Sea is an endorheic basin with no outlet to the Indian Ocean.",
+      "d": "Human irrigation canals, not earthquakes, caused the sea to dry up.",
+      "default": "Diverting two major rivers for cotton irrigation dried up the Aral Sea."
+    }
+  },
+  {
+    "id": "world-syn-124",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Econ", "Geo"],
+    "subdomain": "Containerization & Global Supply Chains",
+    "era": "1956–2010 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 1.3521, "lng": 103.8198, "label": "Singapore" },
+    "secondary_geo": { "lat": 51.9244, "lng": 4.4777, "label": "Rotterdam, Netherlands" },
+    "prompt": "How did standardized shipping containers transform late-20th-century manufacturing?",
+    "options": [
+      { "id": "a", "text": "Slashing port loading costs let firms split production across global supply chains" },
+      { "id": "b", "text": "Containers forced factories to stay next to coal mines inside Europe" },
+      { "id": "c", "text": "Air freight replaced ocean shipping for heavy bulk goods" },
+      { "id": "d", "text": "Ports needed more manual dockworkers to unpack every crate" }
+    ],
+    "answer": "a",
+    "explanation": "Intermodal containers moved seamlessly from ship to rail to truck, slashing freight costs worldwide.",
+    "source_url": "https://www.britannica.com/technology/containerization",
+    "fun_fact": "Standard 20- and 40-foot boxes cut ocean freight loading costs by more than 90 percent.",
+    "trap_notes": {
+      "b": "Cheap ocean shipping encouraged firms to locate factories wherever labor and inputs were cheapest.",
+      "c": "Over 80% of world merchandise volume still travels by sea.",
+      "d": "Cranes and standardized boxes dramatically reduced manual dock labor.",
+      "default": "Lower transport costs made globalized manufacturing chains economical."
+    }
+  },
+  {
+    "id": "world-syn-125",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Arab Spring & Digital Media",
+    "era": "2010–2012 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 36.8065, "lng": 10.1815, "label": "Tunis, Tunisia" },
+    "secondary_geo": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo, Egypt" },
+    "prompt": "What common grievances sparked the 2010–2011 Arab Spring protests across North Africa and the Middle East?",
+    "options": [
+      { "id": "a", "text": "Authoritarian corruption, youth unemployment, and rising food prices" },
+      { "id": "b", "text": "Demands to restore Ottoman rule from Istanbul" },
+      { "id": "c", "text": "Disputes over European Union eurozone membership" },
+      { "id": "d", "text": "Protests against Cold War Soviet missile bases" }
+    ],
+    "answer": "a",
+    "explanation": "Economic hardship, corruption, and lack of political freedom drove mass protests amplified by social media.",
+    "source_url": "https://www.britannica.com/event/Arab-Spring",
+    "fun_fact": "Protests began in Tunisia in December 2010 and quickly spread to Egypt, Libya, Yemen, and Syria.",
+    "trap_notes": {
+      "b": "The Ottoman Empire dissolved in 1922.",
+      "c": "Arab Spring countries are not members of the European Union.",
+      "d": "The Soviet Union dissolved in 1991, twenty years earlier.",
+      "default": "Economic frustration and authoritarian rule drove the 2010–2011 uprisings."
+    }
+  },
+  {
+    "id": "world-syn-126",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Hellenistic Cultural Blending",
+    "era": "336–30 BCE",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.2001, "lng": 29.9187, "label": "Alexandria, Egypt" },
+    "secondary_geo": { "lat": 34.5553, "lng": 69.2075, "label": "Kabul, Afghanistan" },
+    "prompt": "How did Alexander the Great's conquests reshape culture from Egypt to Central Asia?",
+    "options": [
+      { "id": "a", "text": "Greek-speaking cities blended Hellenic art and science with Persian, Egyptian, and Indian traditions" },
+      { "id": "b", "text": "Alexander banned all Greek language and philosophy outside Athens" },
+      { "id": "c", "text": "Conquered regions adopted Latin as their sole administrative language" },
+      { "id": "d", "text": "Trade between the Mediterranean and India stopped for three centuries" }
+    ],
+    "answer": "a",
+    "explanation": "Hellenistic kingdoms fused Greek urban culture with local traditions, even influencing Gandharan Buddhist art.",
+    "source_url": "https://www.britannica.com/event/Hellenistic-Age",
+    "fun_fact": "Alexandria's Great Library attracted scholars like Euclid and Eratosthenes from across the Mediterranean.",
+    "trap_notes": {
+      "b": "Greek became the common scholarly and administrative language of the Hellenistic world.",
+      "c": "Latin spread later with the Roman Empire, not Alexander's Greek kingdoms.",
+      "d": "Hellenistic routes expanded trade linking the Mediterranean, Persia, and India.",
+      "default": "Hellenistic culture blended Greek and local Afro-Eurasian traditions."
+    }
+  },
+  {
+    "id": "world-syn-127",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Code of Hammurabi & Rule of Law",
+    "era": "1750 BCE",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.5364, "lng": 44.4208, "label": "Babylon, Mesopotamia" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did Hammurabi's Code differ from modern constitutional equality under the law?",
+    "options": [
+      { "id": "a", "text": "Hammurabi's penalties varied sharply by social class, gender, and free or enslaved status" },
+      { "id": "b", "text": "Hammurabi guaranteed identical fines for nobles and enslaved people" },
+      { "id": "c", "text": "Babylonian judges were elected by universal adult suffrage" },
+      { "id": "d", "text": "Hammurabi's laws were unwritten oral customs kept secret from citizens" }
+    ],
+    "answer": "a",
+    "explanation": "While Hammurabi posted written laws publicly, punishments depended on whether a victim was elite, commoner, or enslaved.",
+    "source_url": "https://www.britannica.com/topic/Code-of-Hammurabi",
+    "fun_fact": "Hammurabi's stele was carved in Akkadian cuneiform and displayed in public temple squares.",
+    "trap_notes": {
+      "b": "The code imposed harsher physical penalties on commoners and enslaved people than on elites.",
+      "c": "Babylon was a hereditary monarchy, not a voting democracy.",
+      "d": "Hammurabi famously inscribed his laws publicly on stone steles.",
+      "default": "Written law existed in Babylon, but equal treatment across classes did not."
+    }
+  },
+  {
+    "id": "world-syn-128",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Geo", "Econ"],
+    "subdomain": "Little Ice Age & 17th-Century Crises",
+    "era": "1550–1700 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "secondary_geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "How did Little Ice Age cooling contribute to 17th-century political crises across Eurasia?",
+    "options": [
+      { "id": "a", "text": "Crop failures triggered famines, tax revolts, and state strain" },
+      { "id": "b", "text": "Warming seas melted polar ice and flooded Beijing and Paris" },
+      { "id": "c", "text": "Abundant harvests ended peasant rebellions across Eurasia" },
+      { "id": "d", "text": "Glaciers blocked Atlantic shipping between Spain and London" }
+    ],
+    "answer": "a",
+    "explanation": "Colder winters and erratic rains reduced harvests, fueling peasant uprisings from Ming China to Europe.",
+    "source_url": "https://www.britannica.com/science/Little-Ice-Age",
+    "fun_fact": "Londoners occasionally held 'frost fairs' on the frozen River Thames during the coldest winters.",
+    "trap_notes": {
+      "b": "The Little Ice Age was a period of cooling, not global sea-level rise.",
+      "c": "Harvest failures worsened hunger and helped topple the Ming Dynasty in 1644.",
+      "d": "North Atlantic shipping routes remained open despite colder European winters.",
+      "default": "Colder climates hurt harvests, raising food prices and social unrest."
+    }
+  },
+  {
+    "id": "world-syn-129",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Wilson's Fourteen Points & Decolonization",
+    "era": "1918–1945 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "secondary_geo": { "lat": 21.0278, "lng": 105.8342, "label": "Hanoi, Vietnam" },
+    "prompt": "How did colonized leaders in Asia and Africa respond to Woodrow Wilson's 1918 call for self-determination?",
+    "options": [
+      { "id": "a", "text": "Many petitioned Versailles, then organized when denied" },
+      { "id": "b", "text": "Britain and France immediately freed all colonies in 1919" },
+      { "id": "c", "text": "Ho Chi Minh endorsed permanent French rule in Indochina" },
+      { "id": "d", "text": "The League of Nations dissolved European empires in 1920" }
+    ],
+    "answer": "a",
+    "explanation": "When Paris Peace talks denied colonial self-rule, activists like Ho Chi Minh turned toward anticolonial organizing.",
+    "source_url": "https://www.britannica.com/event/Fourteen-Points",
+    "fun_fact": "In 1919, a young Ho Chi Minh worked in Paris and tried to hand a petition for Vietnamese rights to Wilson.",
+    "trap_notes": {
+      "b": "Britain and France actually expanded their holdings through League of Nations mandates.",
+      "c": "Ho Chi Minh sought Vietnamese independence from French colonial rule.",
+      "d": "The League mandate system preserved European oversight over former Ottoman and German territories.",
+      "default": "Unfulfilled promises of self-determination in 1919 fueled anticolonial nationalism."
+    }
+  },
+  {
+    "id": "world-syn-130",
+    "type": "synthesis",
+    "domain": "World",
+    "secondary_domains": ["Econ", "Geo"],
+    "subdomain": "Demographic Transition",
+    "era": "1800–2020 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "secondary_geo": { "lat": 6.5244, "lng": 3.3792, "label": "Lagos, Nigeria" },
+    "prompt": "What pattern does the historical demographic transition model describe as societies industrialize and urbanize?",
+    "options": [
+      { "id": "a", "text": "Death rates fall first, followed later by falling birth rates" },
+      { "id": "b", "text": "Birth rates drop before clean water or vaccines arrive" },
+      { "id": "c", "text": "Death rates rise sharply as cities add sewers and clinics" },
+      { "id": "d", "text": "Urbanization tends to increase average family size" }
+    ],
+    "answer": "a",
+    "explanation": "Cleaner water and medicine cut mortality first, causing rapid population growth until birth rates also decline.",
+    "source_url": "https://www.britannica.com/topic/demographic-transition",
+    "fun_fact": "Japan completed this transition rapidly after 1945 and now faces a shrinking, aging population.",
+    "trap_notes": {
+      "b": "Mortality declines first; fertility declines later as education and urban costs rise.",
+      "c": "Sanitation and hospitals lower death rates rather than raising them.",
+      "d": "Urban industrial economies typically see smaller family sizes over time.",
+      "default": "Falling death rates precede falling birth rates, creating a surge in between."
+    }
+  }
+]

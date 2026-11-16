@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "us-ord-201",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Colonial Settlement",
+    "era": "1607–1682",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.2104, "lng": -76.7777, "label": "Eastern Seaboard" },
+    "prompt": "Order these English colonial milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "William Penn founds Pennsylvania as a Quaker refuge" },
+      { "id": "b", "text": "English settlers establish Jamestown in Virginia" },
+      { "id": "c", "text": "Puritans establish the Massachusetts Bay Colony" },
+      { "id": "d", "text": "Pilgrims sign the Mayflower Compact at Plymouth" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Jamestown began in 1607, Plymouth in 1620, Massachusetts Bay in 1630, and Pennsylvania in 1681.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/colonial-settlement-1600-1763/",
+    "trap_notes": {
+      "default": "Remember Virginia came first in 1607, then New England colonies, and Pennsylvania much later."
+    }
+  },
+  {
+    "id": "us-ord-202",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Colonial Self-Government",
+    "era": "1619–1735",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.2104, "lng": -76.7777, "label": "Thirteen Colonies" },
+    "prompt": "Order these colonial political milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "John Peter Zenger wins acquittal in a libel trial" },
+      { "id": "b", "text": "Virginia creates the House of Burgesses assembly" },
+      { "id": "c", "text": "Maryland passes the Act of Religious Toleration" },
+      { "id": "d", "text": "Connecticut adopts the Fundamental Orders" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The House of Burgesses met in 1619, Fundamental Orders in 1639, Toleration Act in 1649, and Zenger trial in 1735.",
+    "source_url": "https://www.britannica.com/topic/House-of-Burgesses",
+    "trap_notes": {
+      "default": "Virginia's assembly came first, while the Zenger press-freedom trial happened in the 1730s."
+    }
+  },
+  {
+    "id": "us-ord-203",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Road to Revolution",
+    "era": "1754–1773",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston & Philadelphia" },
+    "prompt": "Order these imperial events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Britain issues the Proclamation Line of 1763" },
+      { "id": "b", "text": "Colonial delegates draft the Albany Plan of Union" },
+      { "id": "c", "text": "Sons of Liberty stage the Boston Tea Party" },
+      { "id": "d", "text": "Parliament passes the Stamp Act on paper goods" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The Albany Plan came in 1754, Proclamation Line in 1763, Stamp Act in 1765, and Boston Tea Party in 1773.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/american-revolution-1763-1783/",
+    "trap_notes": {
+      "default": "The Albany Plan occurred at the start of the French and Indian War, before British tax acts."
+    }
+  },
+  {
+    "id": "us-ord-204",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1774–1776",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia & Boston" },
+    "prompt": "Order these early Revolutionary War events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Thomas Paine publishes the pamphlet Common Sense" },
+      { "id": "b", "text": "First Continental Congress meets in Philadelphia" },
+      { "id": "c", "text": "Second Continental Congress adopts the Declaration" },
+      { "id": "d", "text": "Minutemen clash with British troops at Lexington" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The First Congress met in 1774, Lexington happened in April 1775, Common Sense in January 1776, and the Declaration in July 1776.",
+    "source_url": "https://www.archives.gov/founding-docs/declaration-transcript",
+    "trap_notes": {
+      "default": "Fighting at Lexington began over a year before Common Sense and the Declaration of Independence."
+    }
+  },
+  {
+    "id": "us-ord-205",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1777–1783",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.2388, "lng": -76.5097, "label": "Saratoga to Yorktown" },
+    "prompt": "Order these later Revolutionary War milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "British General Cornwallis surrenders at Yorktown" },
+      { "id": "b", "text": "American forces defeat Burgoyne at Saratoga" },
+      { "id": "c", "text": "Britain recognizes U.S. independence in Paris" },
+      { "id": "d", "text": "Continental Army endures winter at Valley Forge" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Saratoga was October 1777, Valley Forge winter 1777–1778, Yorktown October 1781, and the Treaty of Paris 1783.",
+    "source_url": "https://www.nps.gov/york/learn/historyculture/history-of-the-siege.htm",
+    "trap_notes": {
+      "default": "Saratoga came right before the Valley Forge winter; Yorktown and the peace treaty came years later."
+    }
+  },
+  {
+    "id": "us-ord-206",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Constitutional Founding",
+    "era": "1781–1791",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9489, "lng": -75.1500, "label": "Philadelphia & New York" },
+    "prompt": "Order these founding government milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "States ratify the first ten amendments as the Bill of Rights" },
+      { "id": "b", "text": "States ratify the Articles of Confederation" },
+      { "id": "c", "text": "Delegates draft the U.S. Constitution in Philadelphia" },
+      { "id": "d", "text": "Shays' Rebellion erupts in western Massachusetts" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Articles took effect in 1781, Shays' Rebellion hit in 1786–1787, the Constitution was drafted in 1787, and the Bill of Rights in 1791.",
+    "source_url": "https://constitutioncenter.org/the-constitution/historic-document-library",
+    "trap_notes": {
+      "default": "Shays' Rebellion exposed the Articles' weakness and prompted the 1787 Constitutional Convention."
+    }
+  },
+  {
+    "id": "us-ord-207",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1791–1800",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Early United States" },
+    "prompt": "Order these 1790s national events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress passes the Alien and Sedition Acts" },
+      { "id": "b", "text": "Washington sends troops to end the Whiskey Rebellion" },
+      { "id": "c", "text": "Congress charters the First Bank of the United States" },
+      { "id": "d", "text": "Washington warns against factions in his Farewell Address" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The First Bank was chartered in 1791, Whiskey Rebellion ended in 1794, Farewell Address came in 1796, and Alien and Sedition Acts in 1798.",
+    "source_url": "https://millercenter.org/president/washington",
+    "trap_notes": {
+      "default": "Hamilton's Bank came early under Washington, while the Alien and Sedition Acts came under John Adams."
+    }
+  },
+  {
+    "id": "us-ord-208",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Jeffersonian Era",
+    "era": "1803–1815",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.6270, "lng": -90.1994, "label": "Louisiana to New Orleans" },
+    "prompt": "Order these early 1800s milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress passes the Embargo Act halting foreign trade" },
+      { "id": "b", "text": "Andrew Jackson wins the Battle of New Orleans" },
+      { "id": "c", "text": "The United States buys the Louisiana Territory" },
+      { "id": "d", "text": "British forces burn public buildings in Washington" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Louisiana Purchase was 1803, Embargo Act 1807, burning of Washington August 1814, and New Orleans January 1815.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "trap_notes": {
+      "default": "The Embargo Act preceded the War of 1812, and New Orleans was fought after the burning of Washington."
+    }
+  },
+  {
+    "id": "us-ord-209",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Early Republic & Expansion",
+    "era": "1819–1825",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.6526, "lng": -73.7562, "label": "Eastern United States" },
+    "prompt": "Order these Era of Good Feelings events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "President Monroe issues the Monroe Doctrine" },
+      { "id": "b", "text": "Spain cedes Florida in the Adams-Onis Treaty" },
+      { "id": "c", "text": "Workers complete the Erie Canal across New York" },
+      { "id": "d", "text": "Congress enacts the Missouri Compromise" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Adams-Onis Treaty was signed in 1819, Missouri Compromise in 1820, Monroe Doctrine in 1823, and Erie Canal finished in 1825.",
+    "source_url": "https://history.state.gov/milestones/1801-1829/monroe",
+    "trap_notes": {
+      "default": "Florida cession and the Missouri Compromise came early in Monroe's term; the Erie Canal opened in 1825."
+    }
+  },
+  {
+    "id": "us-ord-210",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Jacksonian Era",
+    "era": "1828–1838",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.4676, "lng": -97.5164, "label": "Southeast to Oklahoma" },
+    "prompt": "Order these Jacksonian Era events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Cherokee people endure the forced Trail of Tears" },
+      { "id": "b", "text": "Congress passes the Indian Removal Act" },
+      { "id": "c", "text": "Andrew Jackson wins his first presidential election" },
+      { "id": "d", "text": "South Carolina threatens to nullify federal tariffs" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Jackson won in 1828, signed Indian Removal in 1830, faced the Nullification Crisis in 1832, and the Trail of Tears occurred in 1838.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/national-expansion-and-reform-1815-1880/",
+    "trap_notes": {
+      "default": "The Indian Removal Act passed in 1830, but the main Cherokee Trail of Tears took place in 1838."
+    }
+  },
+  {
+    "id": "us-ord-211",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Antebellum Reform",
+    "era": "1831–1852",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.9106, "lng": -76.7966, "label": "Seneca Falls & Boston" },
+    "prompt": "Order these antebellum reform milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Harriet Beecher Stowe publishes Uncle Tom's Cabin" },
+      { "id": "b", "text": "Delegates meet at the Seneca Falls Convention" },
+      { "id": "c", "text": "William Lloyd Garrison launches The Liberator" },
+      { "id": "d", "text": "Frederick Douglass publishes his first autobiography" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The Liberator began in 1831, Douglass's narrative in 1845, Seneca Falls in 1848, and Uncle Tom's Cabin in 1852.",
+    "source_url": "https://www.nps.gov/wori/learn/historyculture/seneca-falls-convention.htm",
+    "trap_notes": {
+      "default": "Garrison started The Liberator in the 1830s, while Uncle Tom's Cabin appeared in the 1850s."
+    }
+  },
+  {
+    "id": "us-ord-212",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1836–1853",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "Western North America" },
+    "prompt": "Order these westward expansion milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Prospectors rush to California after gold discovery" },
+      { "id": "b", "text": "Texas declares independence from Mexico" },
+      { "id": "c", "text": "The United States completes the Gadsden Purchase" },
+      { "id": "d", "text": "Treaty of Guadalupe Hidalgo ends the Mexican War" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Texas declared independence in 1836, the Mexican War ended in early 1848, the Gold Rush peaked in 1849, and Gadsden Purchase was 1853.",
+    "source_url": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+    "trap_notes": {
+      "default": "California became U.S. territory in 1848 just before the 1849 Gold Rush; Gadsden Purchase came last."
+    }
+  },
+  {
+    "id": "us-ord-213",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Sectional Crisis",
+    "era": "1850–1859",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.3254, "lng": -77.7389, "label": "Washington to Harpers Ferry" },
+    "prompt": "Order these pre-Civil War crises from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "John Brown leads a raid on Harpers Ferry" },
+      { "id": "b", "text": "Supreme Court rules against Dred Scott" },
+      { "id": "c", "text": "Congress passes the Compromise of 1850" },
+      { "id": "d", "text": "Congress enacts the Kansas-Nebraska Act" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The Compromise of 1850 came first, Kansas-Nebraska Act in 1854, Dred Scott decision in 1857, and Harpers Ferry in 1859.",
+    "source_url": "https://www.archives.gov/milestone-documents/dred-scott-v-sandford",
+    "trap_notes": {
+      "default": "The 1850s escalated from the 1850 Compromise to Kansas-Nebraska, Dred Scott, and John Brown's raid."
+    }
+  },
+  {
+    "id": "us-ord-214",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Civil War",
+    "era": "1860–1863",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.7524, "lng": -79.8747, "label": "Eastern & Western Theaters" },
+    "prompt": "Order these early Civil War milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Lincoln issues the final Emancipation Proclamation" },
+      { "id": "b", "text": "Confederate guns fire on Fort Sumter" },
+      { "id": "c", "text": "Union troops win a turning point at Gettysburg" },
+      { "id": "d", "text": "South Carolina secedes from the Union" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "South Carolina seceded in December 1860, Fort Sumter fell in April 1861, Emancipation took effect Jan 1863, and Gettysburg was July 1863.",
+    "source_url": "https://www.nps.gov/gett/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Emancipation took effect on January 1, 1863, six months before the Battle of Gettysburg."
+    }
+  },
+  {
+    "id": "us-ord-215",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Civil War & Reconstruction",
+    "era": "1865–1870",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Appomattox & Washington" },
+    "prompt": "Order these Civil War and Reconstruction events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "States ratify the Fifteenth Amendment on voting" },
+      { "id": "b", "text": "Robert E. Lee surrenders at Appomattox Court House" },
+      { "id": "c", "text": "States ratify the Fourteenth Amendment on citizenship" },
+      { "id": "d", "text": "States ratify the Thirteenth Amendment ending slavery" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Lee surrendered in April 1865, the 13th Amendment was ratified Dec 1865, the 14th in 1868, and the 15th in 1870.",
+    "source_url": "https://www.archives.gov/milestone-documents/13th-amendment",
+    "trap_notes": {
+      "default": "The Reconstruction Amendments follow numerical order: 13th (freedom), 14th (citizenship), 15th (voting)."
+    }
+  },
+  {
+    "id": "us-ord-216",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865–1877",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C. & South" },
+    "prompt": "Order these Reconstruction political events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "The Compromise of 1877 withdraws federal troops" },
+      { "id": "b", "text": "Congress creates the Freedmen's Bureau" },
+      { "id": "c", "text": "The House impeaches President Andrew Johnson" },
+      { "id": "d", "text": "Congress passes the Reconstruction Acts of 1867" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Freedmen's Bureau began in 1865, Reconstruction Acts passed in 1867, Johnson was impeached in 1868, and troops left in 1877.",
+    "source_url": "https://www.britannica.com/event/Reconstruction-United-States-history",
+    "trap_notes": {
+      "default": "The Freedmen's Bureau started before the 1867 military Reconstruction Acts and Johnson's 1868 impeachment."
+    }
+  },
+  {
+    "id": "us-ord-217",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Westward Settlement",
+    "era": "1862–1890",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.6195, "lng": -112.5475, "label": "Great Plains & West" },
+    "prompt": "Order these Great Plains and Western events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Crews join the Transcontinental Railroad in Utah" },
+      { "id": "b", "text": "Congress passes the Dawes Act dividing tribal land" },
+      { "id": "c", "text": "Congress passes the Homestead Act offering free land" },
+      { "id": "d", "text": "Lakota and Cheyenne warriors win at Little Bighorn" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "The Homestead Act passed in 1862, the railroad finished in 1869, Little Bighorn happened in 1876, and the Dawes Act in 1887.",
+    "source_url": "https://www.archives.gov/milestone-documents/homestead-act",
+    "trap_notes": {
+      "default": "The Homestead Act passed during the Civil War, while the Dawes Act came in the late 1880s."
+    }
+  },
+  {
+    "id": "us-ord-218",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Gilded Age Labor",
+    "era": "1877–1894",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago & Homestead" },
+    "prompt": "Order these Gilded Age labor conflicts from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Federal troops break the Pullman railroad strike" },
+      { "id": "b", "text": "Violence erupts at Chicago's Haymarket Square" },
+      { "id": "c", "text": "Workers launch the Great Railroad Strike of 1877" },
+      { "id": "d", "text": "Steelworkers clash with Pinkertons at Homestead" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The Great Railroad Strike occurred in 1877, Haymarket in 1886, Homestead in 1892, and the Pullman Strike in 1894.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/",
+    "trap_notes": {
+      "default": "Haymarket happened in the 1880s, whereas Homestead and Pullman took place in the 1890s."
+    }
+  },
+  {
+    "id": "us-ord-219",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Gilded Age Regulation",
+    "era": "1882–1896",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order these Gilded Age laws and rulings from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Supreme Court upholds segregation in Plessy v. Ferguson" },
+      { "id": "b", "text": "Congress passes the Chinese Exclusion Act" },
+      { "id": "c", "text": "Congress passes the Sherman Antitrust Act" },
+      { "id": "d", "text": "Congress creates the Interstate Commerce Commission" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Chinese Exclusion passed in 1882, the Interstate Commerce Act in 1887, Sherman Antitrust in 1890, and Plessy in 1896.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "trap_notes": {
+      "default": "Railroad regulation (ICC) came in 1887 before the 1890 Sherman Antitrust Act and 1896 Plessy ruling."
+    }
+  },
+  {
+    "id": "us-ord-220",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Populism & 1890s",
+    "era": "1890–1896",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha & Chicago" },
+    "prompt": "Order these 1890s political milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "William Jennings Bryan gives his Cross of Gold speech" },
+      { "id": "b", "text": "Populists adopt the Omaha Platform for reform" },
+      { "id": "c", "text": "A severe financial panic triggers the 1893 depression" },
+      { "id": "d", "text": "William McKinley wins the 1896 presidential race" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "The Omaha Platform was issued in 1892, the Panic hit in 1893, Bryan spoke in July 1896, and McKinley won in November 1896.",
+    "source_url": "https://www.britannica.com/event/Populist-movement",
+    "trap_notes": {
+      "default": "Populists formed the Omaha Platform in 1892, before the 1893 Panic and the 1896 election."
+    }
+  },
+  {
+    "id": "us-ord-221",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "American Imperialism",
+    "era": "1898–1914",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 9.0820, "lng": -79.6800, "label": "Caribbean & Panama" },
+    "prompt": "Order these U.S. foreign policy milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "President Roosevelt announces the Roosevelt Corollary" },
+      { "id": "b", "text": "The USS Maine explodes in Havana Harbor" },
+      { "id": "c", "text": "Ships pass through the completed Panama Canal" },
+      { "id": "d", "text": "Secretary Hay issues the first Open Door Notes" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Maine exploded in 1898, Open Door Notes came in 1899, Roosevelt Corollary in 1904, and the Panama Canal opened in 1914.",
+    "source_url": "https://history.state.gov/milestones/1899-1913/roosevelt-and-latin-america",
+    "trap_notes": {
+      "default": "The Spanish-American War (1898) and Open Door Notes (1899) preceded the 1904 Corollary and 1914 Canal."
+    }
+  },
+  {
+    "id": "us-ord-222",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1906–1920",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order these Progressive Era reforms from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "States ratify the Nineteenth Amendment for suffrage" },
+      { "id": "b", "text": "Congress passes the Meat Inspection Act" },
+      { "id": "c", "text": "Congress establishes the Federal Reserve System" },
+      { "id": "d", "text": "States ratify the Seventeenth Amendment for senators" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Meat Inspection Act passed in 1906, the 17th Amendment in April 1913, the Federal Reserve in Dec 1913, and the 19th in 1920.",
+    "source_url": "https://www.archives.gov/milestone-documents/19th-amendment",
+    "trap_notes": {
+      "default": "Food safety laws came under Teddy Roosevelt, while direct senator elections and the Fed came under Wilson."
+    }
+  },
+  {
+    "id": "us-ord-223",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "World War I",
+    "era": "1914–1919",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Atlantic & Europe" },
+    "prompt": "Order these World War I events involving the U.S. from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress declares war after the Zimmermann Telegram" },
+      { "id": "b", "text": "A German submarine sinks the passenger ship Lusitania" },
+      { "id": "c", "text": "The U.S. Senate rejects the Treaty of Versailles" },
+      { "id": "d", "text": "President Wilson outlines his Fourteen Points" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The Lusitania sank in 1915, the U.S. entered in 1917, Fourteen Points came in 1918, and the Senate rejected Versailles in 1919.",
+    "source_url": "https://history.state.gov/milestones/1914-1920/wwi",
+    "trap_notes": {
+      "default": "The Lusitania sank two years before the U.S. entered the war; Versailles came after the armistice."
+    }
+  },
+  {
+    "id": "us-ord-224",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "1920s Society",
+    "era": "1919–1927",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.0060, "label": "United States" },
+    "prompt": "Order these 1920s cultural and legal milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Charles Lindbergh flies solo across the Atlantic" },
+      { "id": "b", "text": "States ratify the Eighteenth Amendment banning alcohol" },
+      { "id": "c", "text": "Tennessee puts John Scopes on trial over evolution" },
+      { "id": "d", "text": "Congress passes the National Origins Quota Act" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Prohibition was ratified in 1919, the Quota Act passed in 1924, the Scopes Trial happened in 1925, and Lindbergh flew in 1927.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/",
+    "trap_notes": {
+      "default": "Prohibition began right after WWI, while Lindbergh's famous flight came near the end of the decade."
+    }
+  },
+  {
+    "id": "us-ord-225",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Great Depression",
+    "era": "1929–1933",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7074, "lng": -74.0113, "label": "New York & Washington" },
+    "prompt": "Order these Great Depression events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Franklin D. Roosevelt launches the First Hundred Days" },
+      { "id": "b", "text": "Stock prices collapse on Black Tuesday in New York" },
+      { "id": "c", "text": "World War I veterans march in the Bonus Army" },
+      { "id": "d", "text": "Congress passes the high Smoot-Hawley Tariff" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The crash hit in Oct 1929, Smoot-Hawley passed in 1930, the Bonus Army marched in 1932, and FDR's Hundred Days began in March 1933.",
+    "source_url": "https://www.fdrlibrary.org/great-depression-facts",
+    "trap_notes": {
+      "default": "Smoot-Hawley and the Bonus Army happened under Hoover before FDR took office in 1933."
+    }
+  },
+  {
+    "id": "us-ord-226",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "New Deal",
+    "era": "1933–1937",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "Order these New Deal milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "FDR proposes expanding the Supreme Court seats" },
+      { "id": "b", "text": "Congress creates the Civilian Conservation Corps" },
+      { "id": "c", "text": "Congress passes the Social Security Act" },
+      { "id": "d", "text": "Supreme Court strikes down the National Recovery Act" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The CCC began in March 1933, the Court struck down the NRA in May 1935, Social Security passed in Aug 1935, and court-packing came in 1937.",
+    "source_url": "https://www.archives.gov/milestone-documents/social-security-act",
+    "trap_notes": {
+      "default": "The CCC was part of the First New Deal (1933); FDR's court-packing plan came after his 1936 reelection."
+    }
+  },
+  {
+    "id": "us-ord-227",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Road to World War II",
+    "era": "1935–1941",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 21.3649, "lng": -157.9500, "label": "Washington to Pearl Harbor" },
+    "prompt": "Order these pre-WWII U.S. foreign policy steps from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Japan launches a surprise attack on Pearl Harbor" },
+      { "id": "b", "text": "Congress passes the first Neutrality Act" },
+      { "id": "c", "text": "FDR and Churchill sign the Atlantic Charter" },
+      { "id": "d", "text": "Congress approves the Lend-Lease Act for Allies" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The first Neutrality Act passed in 1935, Lend-Lease in March 1941, Atlantic Charter in August 1941, and Pearl Harbor in December 1941.",
+    "source_url": "https://www.archives.gov/milestone-documents/lend-lease-act",
+    "trap_notes": {
+      "default": "The U.S. moved from 1935 neutrality to Lend-Lease and the Atlantic Charter before Pearl Harbor."
+    }
+  },
+  {
+    "id": "us-ord-228",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1942–1945",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 49.3400, "lng": -0.8800, "label": "Pacific & Europe" },
+    "prompt": "Order these World War II turning points from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Allied forces storm Normandy beaches on D-Day" },
+      { "id": "b", "text": "U.S. Navy wins a decisive victory at Midway" },
+      { "id": "c", "text": "The United States drops atomic bombs on Japan" },
+      { "id": "d", "text": "Allied troops land in North Africa in Operation Torch" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Midway was June 1942, Operation Torch Nov 1942, D-Day June 1944, and the atomic bombings August 1945.",
+    "source_url": "https://www.nationalww2museum.org/war/articles/battle-of-midway",
+    "trap_notes": {
+      "default": "Midway and North Africa came in 1942, two years before the 1944 D-Day invasion."
+    }
+  },
+  {
+    "id": "us-ord-229",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Early Cold War",
+    "era": "1947–1950",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.5200, "lng": 13.4050, "label": "Europe & Korea" },
+    "prompt": "Order these early Cold War milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "North Korean troops invade South Korea" },
+      { "id": "b", "text": "President Truman announces the Truman Doctrine" },
+      { "id": "c", "text": "Western nations form the NATO alliance" },
+      { "id": "d", "text": "Allied planes begin the Berlin Airlift" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Truman Doctrine came in 1947, Berlin Airlift began in June 1948, NATO formed in April 1949, and the Korean War began in June 1950.",
+    "source_url": "https://history.state.gov/milestones/1945-1952/truman-doctrine",
+    "trap_notes": {
+      "default": "The Berlin Airlift began in 1948 and helped spur NATO's creation in 1949 before the Korean War."
+    }
+  },
+  {
+    "id": "us-ord-230",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "1950s Cold War & Society",
+    "era": "1950–1957",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order these 1950s U.S. milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "The Soviet Union launches the Sputnik satellite" },
+      { "id": "b", "text": "Senator Joseph McCarthy begins anti-communist hearings" },
+      { "id": "c", "text": "Congress funds the Interstate Highway System" },
+      { "id": "d", "text": "Armistice halts fighting on the Korean Peninsula" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "McCarthy began his campaign in 1950, the Korean armistice came in 1953, Highway Act in 1956, and Sputnik in 1957.",
+    "source_url": "https://www.archives.gov/milestone-documents/national-interstate-and-defense-highways-act",
+    "trap_notes": {
+      "default": "McCarthy's rise began in 1950, while the Highway Act and Sputnik came in the mid-to-late 1950s."
+    }
+  },
+  {
+    "id": "us-ord-231",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1954–1963",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.3668, "lng": -86.3000, "label": "U.S. South & Washington" },
+    "prompt": "Order these early Civil Rights milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Martin Luther King Jr. leads the March on Washington" },
+      { "id": "b", "text": "Black residents launch the Montgomery Bus Boycott" },
+      { "id": "c", "text": "Supreme Court rules on Brown v. Board of Education" },
+      { "id": "d", "text": "College students begin lunch-counter sit-ins in Greensboro" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Brown v. Board was 1954, Montgomery Bus Boycott began 1955, Greensboro sit-ins 1960, and the March on Washington 1963.",
+    "source_url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+    "trap_notes": {
+      "default": "Brown (1954) and Montgomery (1955) came in the 1950s, followed by 1960 sit-ins and the 1963 March."
+    }
+  },
+  {
+    "id": "us-ord-232",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Cold War Crises",
+    "era": "1960–1963",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Berlin & Cuba" },
+    "prompt": "Order these early 1960s Cold War events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "The U.S. and USSR face off in the Cuban Missile Crisis" },
+      { "id": "b", "text": "Cuban exiles fail in the Bay of Pigs invasion" },
+      { "id": "c", "text": "The Soviet Union shoots down a U.S. U-2 spy plane" },
+      { "id": "d", "text": "East Germany builds the Berlin Wall across the city" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The U-2 incident was May 1960, Bay of Pigs April 1961, Berlin Wall August 1961, and Cuban Missile Crisis October 1962.",
+    "source_url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+    "trap_notes": {
+      "default": "The U-2 incident happened under Eisenhower in 1960; Bay of Pigs, Berlin Wall, and Missile Crisis happened under JFK."
+    }
+  },
+  {
+    "id": "us-ord-233",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Civil Rights & Great Society",
+    "era": "1964–1968",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.4074, "lng": -87.0211, "label": "Selma & Washington" },
+    "prompt": "Order these 1960s civil rights milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress passes the Fair Housing Act" },
+      { "id": "b", "text": "Congress passes the Civil Rights Act of 1964" },
+      { "id": "c", "text": "Congress passes the Voting Rights Act after Selma" },
+      { "id": "d", "text": "Supreme Court strikes down marriage bans in Loving v. Virginia" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "The Civil Rights Act passed in 1964, Voting Rights Act in 1965, Loving v. Virginia in 1967, and the Fair Housing Act in 1968.",
+    "source_url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "trap_notes": {
+      "default": "The three major 1960s civil rights laws passed in 1964, 1965, and 1968, with Loving in 1967."
+    }
+  },
+  {
+    "id": "us-ord-234",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Vietnam War",
+    "era": "1964–1975",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 10.8231, "lng": 106.6297, "label": "Vietnam & Washington" },
+    "prompt": "Order these Vietnam War milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "North Vietnamese forces launch the Tet Offensive" },
+      { "id": "b", "text": "Congress passes the Gulf of Tonkin Resolution" },
+      { "id": "c", "text": "South Vietnam's capital Saigon falls to the North" },
+      { "id": "d", "text": "The U.S. signs the Paris Peace Accords" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Gulf of Tonkin passed in 1964, Tet Offensive hit in 1968, Paris Peace Accords were signed in 1973, and Saigon fell in 1975.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/ending-vietnam",
+    "trap_notes": {
+      "default": "The Paris Peace Accords ended direct U.S. combat in 1973, two years before Saigon fell in 1975."
+    }
+  },
+  {
+    "id": "us-ord-235",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Space Race",
+    "era": "1958–1969",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 28.5729, "lng": -80.6490, "label": "Cape Canaveral & Moon" },
+    "prompt": "Order these U.S. Space Race milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Neil Armstrong walks on the Moon on Apollo 11" },
+      { "id": "b", "text": "John Glenn becomes the first American to orbit Earth" },
+      { "id": "c", "text": "Congress establishes NASA as the civilian space agency" },
+      { "id": "d", "text": "Alan Shepard makes the first U.S. suborbital flight" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "NASA formed in 1958, Shepard flew in May 1961, Glenn orbited in Feb 1962, and Apollo 11 landed in July 1969.",
+    "source_url": "https://www.nasa.gov/mission/apollo-11/",
+    "trap_notes": {
+      "default": "Shepard's short flight came first in 1961, followed by Glenn's orbit in 1962 and Apollo 11 in 1969."
+    }
+  },
+  {
+    "id": "us-ord-236",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "1970s Politics & Society",
+    "era": "1970–1979",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "Order these 1970s domestic events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "President Richard Nixon resigns over Watergate" },
+      { "id": "b", "text": "Americans celebrate the first Earth Day" },
+      { "id": "c", "text": "Accident occurs at the Three Mile Island nuclear plant" },
+      { "id": "d", "text": "OPEC oil embargo triggers long U.S. gas lines" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The first Earth Day was 1970, OPEC embargo began Oct 1973, Nixon resigned Aug 1974, and Three Mile Island happened in 1979.",
+    "source_url": "https://www.archives.gov/milestone-documents/president-richard-nixons-resignation-letter",
+    "trap_notes": {
+      "default": "Earth Day started in 1970, while Three Mile Island occurred at the end of the decade in 1979."
+    }
+  },
+  {
+    "id": "us-ord-237",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "1970s Foreign Policy",
+    "era": "1972–1979",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.6418, "lng": -77.4661, "label": "Beijing, Camp David & Tehran" },
+    "prompt": "Order these 1970s U.S. foreign policy events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Iranian militants seize the U.S. Embassy in Tehran" },
+      { "id": "b", "text": "President Nixon visits the People's Republic of China" },
+      { "id": "c", "text": "President Carter brokers the Camp David Accords" },
+      { "id": "d", "text": "U.S. and Senate agree to return the Panama Canal" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Nixon visited China in 1972, Panama Canal treaties were signed in 1977, Camp David in 1978, and the Iran hostage crisis began in Nov 1979.",
+    "source_url": "https://history.state.gov/milestones/1977-1980/camp-david",
+    "trap_notes": {
+      "default": "Nixon's China trip came first in 1972; Carter's Canal treaties, Camp David, and Tehran crisis followed."
+    }
+  },
+  {
+    "id": "us-ord-238",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Reagan & End of Cold War",
+    "era": "1981–1991",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.5163, "lng": 13.3777, "label": "Washington & Berlin" },
+    "prompt": "Order these 1980s and early 1990s events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "East and West Germans tear down the Berlin Wall" },
+      { "id": "b", "text": "Congress passes Reagan's major tax cut program" },
+      { "id": "c", "text": "U.S.-led coalition fights the Persian Gulf War" },
+      { "id": "d", "text": "Iran-Contra arms-for-hostages scandal breaks" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Reagan's tax cuts passed in 1981, Iran-Contra broke in 1986, the Berlin Wall fell in 1989, and the Gulf War occurred in early 1991.",
+    "source_url": "https://millercenter.org/president/reagan",
+    "trap_notes": {
+      "default": "Reagan's 1981 tax cuts came first, while the Berlin Wall (1989) and Gulf War (1991) came under Bush."
+    }
+  },
+  {
+    "id": "us-ord-239",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Contemporary United States",
+    "era": "1993–2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "United States" },
+    "prompt": "Order these modern U.S. milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress creates the Department of Homeland Security" },
+      { "id": "b", "text": "North American Free Trade Agreement takes effect" },
+      { "id": "c", "text": "Housing crisis triggers the Great Recession" },
+      { "id": "d", "text": "Congress passes the No Child Left Behind Act" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "NAFTA took effect in Jan 1994, No Child Left Behind passed in Jan 2002, Homeland Security in Nov 2002, and the Great Recession in 2008.",
+    "source_url": "https://www.britannica.com/event/North-American-Free-Trade-Agreement",
+    "trap_notes": {
+      "default": "NAFTA began under Clinton in 1994; Homeland Security and the Great Recession came in the 2000s."
+    }
+  },
+  {
+    "id": "us-ord-240",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "U.S. Women's History",
+    "era": "1920–1981",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8906, "lng": -77.0044, "label": "United States" },
+    "prompt": "Order these milestones in U.S. women's history from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Sandra Day O'Connor joins the U.S. Supreme Court" },
+      { "id": "b", "text": "Betty Friedan publishes The Feminine Mystique" },
+      { "id": "c", "text": "Congress passes Title IX banning school sex bias" },
+      { "id": "d", "text": "Frances Perkins becomes the first female cabinet member" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Perkins became Labor Secretary in 1933, Friedan published in 1963, Title IX passed in 1972, and O'Connor joined the Court in 1981.",
+    "source_url": "https://www.supremecourt.gov/about/members_text.aspx",
+    "trap_notes": {
+      "default": "Perkins served in FDR's 1933 cabinet; Friedan sparked 1960s feminism before Title IX and O'Connor."
+    }
+  },
+  {
+    "id": "us-ord-241",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Immigration History",
+    "era": "1882–1986",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.6995, "lng": -74.0396, "label": "Ellis Island & Washington" },
+    "prompt": "Order these U.S. immigration milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Immigration and Nationality Act ends national quotas" },
+      { "id": "b", "text": "Ellis Island opens as a federal immigration station" },
+      { "id": "c", "text": "Congress passes the Immigration Reform and Control Act" },
+      { "id": "d", "text": "U.S. and Mexico launch the wartime Bracero Program" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Ellis Island opened in 1892, the Bracero Program began in 1942, the 1965 Act ended quotas, and IRCA passed in 1986.",
+    "source_url": "https://www.nps.gov/elis/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Ellis Island opened in 1892, Bracero came during WWII, and the 1965 Act ended the 1920s quota system."
+    }
+  },
+  {
+    "id": "us-ord-242",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Transportation & Technology",
+    "era": "1807–1927",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.9985, "lng": -75.6725, "label": "United States" },
+    "prompt": "Order these U.S. invention milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Wright brothers make the first powered airplane flight" },
+      { "id": "b", "text": "Samuel Morse sends the first telegraph message" },
+      { "id": "c", "text": "Robert Fulton launches the Clermont steamboat" },
+      { "id": "d", "text": "Henry Ford introduces the Model T automobile" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Fulton's steamboat sailed in 1807, Morse's telegraph worked in 1844, the Wrights flew in 1903, and the Model T debuted in 1908.",
+    "source_url": "https://www.loc.gov/collections/wilbur-and-orville-wright-papers/about-this-collection/",
+    "trap_notes": {
+      "default": "Steamboats came in 1807 and telegraphs in 1844; airplanes (1903) and the Model T (1908) came in the 1900s."
+    }
+  },
+  {
+    "id": "us-ord-243",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Supreme Court Landmarks",
+    "era": "1954–1973",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8906, "lng": -77.0044, "label": "Washington, D.C." },
+    "prompt": "Order these Supreme Court rulings from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Miranda v. Arizona requires police rights warnings" },
+      { "id": "b", "text": "Gideon v. Wainwright guarantees defense lawyers" },
+      { "id": "c", "text": "Roe v. Wade protects abortion privacy rights" },
+      { "id": "d", "text": "Engel v. Vitale bans official school-led prayer" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Engel was decided in 1962, Gideon in 1963, Miranda in 1966, and Roe v. Wade in 1973.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/gideon-v-wainwright",
+    "trap_notes": {
+      "default": "Engel (1962), Gideon (1963), and Miranda (1966) were Warren Court rulings; Roe came in 1973."
+    }
+  },
+  {
+    "id": "us-ord-244",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "African American History",
+    "era": "1909–1955",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.8116, "lng": -73.9465, "label": "New York & Washington" },
+    "prompt": "Order these African American history milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "President Truman desegregates the U.S. armed forces" },
+      { "id": "b", "text": "Activists establish the NAACP in New York" },
+      { "id": "c", "text": "Jackie Robinson breaks baseball's color barrier" },
+      { "id": "d", "text": "A. Philip Randolph threatens a march on Washington" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The NAACP formed in 1909, Randolph planned his march in 1941, Robinson debuted in 1947, and Truman integrated the military in 1948.",
+    "source_url": "https://www.archives.gov/milestone-documents/executive-order-9981",
+    "trap_notes": {
+      "default": "The NAACP began in 1909; Randolph's 1941 pressure, Robinson (1947), and Truman's order (1948) followed."
+    }
+  },
+  {
+    "id": "us-ord-245",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Environmental Policy",
+    "era": "1872–1973",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 44.4280, "lng": -110.5885, "label": "Yellowstone & Washington" },
+    "prompt": "Order these U.S. conservation and environmental milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Rachel Carson publishes Silent Spring on pesticides" },
+      { "id": "b", "text": "Congress establishes Yellowstone National Park" },
+      { "id": "c", "text": "President Nixon creates the Environmental Protection Agency" },
+      { "id": "d", "text": "Congress creates the National Park Service" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Yellowstone began in 1872, the National Park Service in 1916, Silent Spring in 1962, and the EPA in 1970.",
+    "source_url": "https://www.nps.gov/yell/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Yellowstone came in 1872, decades before the 1916 Park Service, 1962 Silent Spring, and 1970 EPA."
+    }
+  },
+  {
+    "id": "us-cmp-201",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Colonial Society",
+    "era": "1620–1760",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Thirteen Colonies" },
+    "compareSpec": {
+      "leftLabel": "First Great Awakening",
+      "rightLabel": "American Enlightenment",
+      "items": [
+        { "id": "i1", "text": "Emotional outdoor religious revivals", "bucket": "left" },
+        { "id": "i2", "text": "Preachers like Jonathan Edwards", "bucket": "left" },
+        { "id": "i3", "text": "Reason, science, and natural rights", "bucket": "right" },
+        { "id": "i4", "text": "Thinkers like Benjamin Franklin", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each colonial idea or figure into First Great Awakening or American Enlightenment.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Great Awakening stressed emotional religious faith, while the Enlightenment stressed reason and natural rights.",
+    "source_url": "https://www.britannica.com/event/Great-Awakening",
+    "trap_notes": {
+      "default": "Match revivals and preachers to the Great Awakening, and reason or science to the Enlightenment."
+    }
+  },
+  {
+    "id": "us-cmp-202",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Revolutionary War",
+    "era": "1775–1783",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Thirteen Colonies" },
+    "compareSpec": {
+      "leftLabel": "Patriots",
+      "rightLabel": "Loyalists",
+      "items": [
+        { "id": "i1", "text": "Wanted full independence from Britain", "bucket": "left" },
+        { "id": "i2", "text": "Backed the Continental Congress", "bucket": "left" },
+        { "id": "i3", "text": "Stayed faithful to King George III", "bucket": "right" },
+        { "id": "i4", "text": "Many fled to Canada after 1783", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Revolutionary-era trait into Patriots or Loyalists.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Patriots fought for independence under Congress, while Loyalists remained loyal to the British Crown.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/american-revolution-1763-1783/",
+    "trap_notes": {
+      "default": "Patriots backed independence and Congress; Loyalists backed the King and British rule."
+    }
+  },
+  {
+    "id": "us-cmp-203",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Constitutional Convention",
+    "era": "1787",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9489, "lng": -75.1500, "label": "Philadelphia" },
+    "compareSpec": {
+      "leftLabel": "Virginia Plan",
+      "rightLabel": "New Jersey Plan",
+      "items": [
+        { "id": "i1", "text": "Two-house Congress based on population", "bucket": "left" },
+        { "id": "i2", "text": "Favored by large states in 1787", "bucket": "left" },
+        { "id": "i3", "text": "One-house Congress with equal votes", "bucket": "right" },
+        { "id": "i4", "text": "Favored by small states in 1787", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1787 proposal into the Virginia Plan or the New Jersey Plan.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Large states backed the Virginia Plan's population-based Congress, while small states backed equal state votes.",
+    "source_url": "https://www.archives.gov/milestone-documents/virginia-plan",
+    "trap_notes": {
+      "default": "Virginia was a large state wanting population votes; New Jersey was a small state wanting equal votes."
+    }
+  },
+  {
+    "id": "us-cmp-204",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Westward Trails",
+    "era": "1840–1860",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8000, "lng": -103.7000, "label": "Western Trails" },
+    "compareSpec": {
+      "leftLabel": "Oregon Trail",
+      "rightLabel": "Mormon Trail",
+      "items": [
+        { "id": "i1", "text": "Led farmers toward the Willamette Valley", "bucket": "left" },
+        { "id": "i2", "text": "Driven by fertile land in the Northwest", "bucket": "left" },
+        { "id": "i3", "text": "Led Brigham Young's followers to Utah", "bucket": "right" },
+        { "id": "i4", "text": "Driven by escape from religious hostility", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1840s migration feature into the Oregon Trail or the Mormon Trail.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Oregon Trail settlers sought farmland in the Pacific Northwest, while Mormon pioneers sought religious refuge in Utah.",
+    "source_url": "https://www.nps.gov/oreg/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Match Willamette farmland to Oregon and Brigham Young's Utah refuge to the Mormon Trail."
+    }
+  },
+  {
+    "id": "us-cmp-205",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Industrial & Market Revolution",
+    "era": "1820–1860",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.6334, "lng": -71.3162, "label": "Northern & Southern U.S." },
+    "compareSpec": {
+      "leftLabel": "Northern Economy",
+      "rightLabel": "Southern Economy",
+      "items": [
+        { "id": "i1", "text": "Textile mills using wage labor", "bucket": "left" },
+        { "id": "i2", "text": "Dense network of canals and railroads", "bucket": "left" },
+        { "id": "i3", "text": "Cotton gin boom across the Black Belt", "bucket": "right" },
+        { "id": "i4", "text": "Heavy reliance on enslaved farm labor", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each antebellum economic feature into Northern Economy or Southern Economy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "By 1860, the North centered on factories, wage labor, and rail, while the South centered on cotton and enslaved labor.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/national-expansion-and-reform-1815-1880/",
+    "trap_notes": {
+      "default": "Match textile factories and railroads to the North, and cotton plantations to the South."
+    }
+  },
+  {
+    "id": "us-cmp-206",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Reconstruction Plans",
+    "era": "1863–1868",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Presidential Reconstruction",
+      "rightLabel": "Congressional Reconstruction",
+      "items": [
+        { "id": "i1", "text": "Pardoned many former Confederates quickly", "bucket": "left" },
+        { "id": "i2", "text": "Led by Lincoln and Andrew Johnson", "bucket": "left" },
+        { "id": "i3", "text": "Divided the South into military districts", "bucket": "right" },
+        { "id": "i4", "text": "Required states to ratify the 14th Amendment", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each policy into Presidential Reconstruction or Congressional Reconstruction.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Presidential Reconstruction offered quick pardons, while Radical Republicans in Congress enforced military rule and rights.",
+    "source_url": "https://www.britannica.com/event/Reconstruction-United-States-history",
+    "trap_notes": {
+      "default": "Johnson favored lenient pardons; Congress imposed military districts and 14th Amendment rules."
+    }
+  },
+  {
+    "id": "us-cmp-207",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Gilded Age Immigration",
+    "era": "1840–1920",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.6995, "lng": -74.0396, "label": "U.S. Port Cities" },
+    "compareSpec": {
+      "leftLabel": "Old Immigrants",
+      "rightLabel": "New Immigrants",
+      "items": [
+        { "id": "i1", "text": "Mainly from Northern and Western Europe", "bucket": "left" },
+        { "id": "i2", "text": "Peaked from the 1840s to 1880s", "bucket": "left" },
+        { "id": "i3", "text": "Mainly from Southern and Eastern Europe", "bucket": "right" },
+        { "id": "i4", "text": "Peaked from the 1890s to 1910s", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each immigration wave trait into Old Immigrants or New Immigrants.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Earlier immigrants came mainly from Northern and Western Europe, while later waves came from Southern and Eastern Europe.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/immigration-to-united-states-1851-1900/",
+    "trap_notes": {
+      "default": "Old Immigrants came earlier from Ireland, Britain, and Germany; New Immigrants came later from Italy, Poland, and Russia."
+    }
+  },
+  {
+    "id": "us-cmp-208",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Progressive Presidents",
+    "era": "1901–1921",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Theodore Roosevelt",
+      "rightLabel": "Woodrow Wilson",
+      "items": [
+        { "id": "i1", "text": "Promised a Square Deal for consumers", "bucket": "left" },
+        { "id": "i2", "text": "Set aside millions of acres of forest", "bucket": "left" },
+        { "id": "i3", "text": "Signed the Federal Reserve Act of 1913", "bucket": "right" },
+        { "id": "i4", "text": "Led the nation into World War I", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Progressive Era achievement into Theodore Roosevelt or Woodrow Wilson.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Roosevelt championed the Square Deal and conservation, while Wilson signed the Federal Reserve Act and led in WWI.",
+    "source_url": "https://millercenter.org/president/wilson",
+    "trap_notes": {
+      "default": "Square Deal and conservation belong to Roosevelt; the Federal Reserve and WWI belong to Wilson."
+    }
+  },
+  {
+    "id": "us-cmp-209",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1920s Harlem & Culture",
+    "era": "1920–1929",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.8116, "lng": -73.9465, "label": "Harlem & New York" },
+    "compareSpec": {
+      "leftLabel": "Harlem Renaissance",
+      "rightLabel": "Lost Generation",
+      "items": [
+        { "id": "i1", "text": "Celebrated Black art, jazz, and pride", "bucket": "left" },
+        { "id": "i2", "text": "Led by Langston Hughes and Zora Hurston", "bucket": "left" },
+        { "id": "i3", "text": "Critiqued WWI trauma and materialism", "bucket": "right" },
+        { "id": "i4", "text": "Led by Ernest Hemingway and Fitzgerald", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1920s literary movement trait into Harlem Renaissance or Lost Generation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Harlem Renaissance celebrated Black culture in New York, while the Lost Generation critiqued postwar disillusionment.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/",
+    "trap_notes": {
+      "default": "Hughes and Hurston led the Harlem Renaissance; Hemingway and Fitzgerald led the Lost Generation."
+    }
+  },
+  {
+    "id": "us-cmp-210",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Great Depression Responses",
+    "era": "1929–1936",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Herbert Hoover",
+      "rightLabel": "Franklin D. Roosevelt",
+      "items": [
+        { "id": "i1", "text": "Relied first on voluntary business pledges", "bucket": "left" },
+        { "id": "i2", "text": "Created the Reconstruction Finance Corp.", "bucket": "left" },
+        { "id": "i3", "text": "Used fireside radio chats to calm voters", "bucket": "right" },
+        { "id": "i4", "text": "Backed direct federal jobs like the WPA", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Depression-era approach into Herbert Hoover or Franklin D. Roosevelt.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Hoover favored voluntary action and business loans, while FDR used fireside chats and direct federal relief jobs.",
+    "source_url": "https://www.fdrlibrary.org/great-depression-facts",
+    "trap_notes": {
+      "default": "RFC and voluntary pledges were Hoover's tools; fireside chats and the WPA were FDR's."
+    }
+  },
+  {
+    "id": "us-cmp-211",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "World War II Strategy",
+    "era": "1941–1945",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 20.0000, "lng": 145.0000, "label": "Europe & Pacific" },
+    "compareSpec": {
+      "leftLabel": "European Theater",
+      "rightLabel": "Pacific Theater",
+      "items": [
+        { "id": "i1", "text": "Normandy invasion on D-Day", "bucket": "left" },
+        { "id": "i2", "text": "Battle of the Bulge in winter 1944", "bucket": "left" },
+        { "id": "i3", "text": "Island-hopping campaign toward Japan", "bucket": "right" },
+        { "id": "i4", "text": "Naval carrier battle at Midway", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each World War II campaign or battle into European Theater or Pacific Theater.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "D-Day and the Battle of the Bulge occurred in Europe, while Midway and island-hopping occurred in the Pacific.",
+    "source_url": "https://www.nationalww2museum.org/war/articles",
+    "trap_notes": {
+      "default": "Match D-Day and the Bulge to Europe against Germany, and Midway and island-hopping to Japan."
+    }
+  },
+  {
+    "id": "us-cmp-212",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Cold War Diplomacy",
+    "era": "1947–1975",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington & Moscow" },
+    "compareSpec": {
+      "leftLabel": "Containment (1940s–1950s)",
+      "rightLabel": "Detente (1970s)",
+      "items": [
+        { "id": "i1", "text": "Blocked Soviet expansion with Marshall aid", "bucket": "left" },
+        { "id": "i2", "text": "Guided Truman's response in Greece and Korea", "bucket": "left" },
+        { "id": "i3", "text": "Eased tensions through SALT I arms talks", "bucket": "right" },
+        { "id": "i4", "text": "Included Nixon's 1972 summit in Moscow", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Cold War policy into Containment (1940s–1950s) or Detente (1970s).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Containment aimed to stop Soviet spread early in the Cold War, while detente eased tensions in the 1970s.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/detente",
+    "trap_notes": {
+      "default": "Containment used aid and alliances in the 1940s–50s; detente used 1970s arms treaties like SALT I."
+    }
+  },
+  {
+    "id": "us-cmp-213",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1960s Civil Rights Organizations",
+    "era": "1957–1966",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.7490, "lng": -84.3880, "label": "Atlanta & Oakland" },
+    "compareSpec": {
+      "leftLabel": "SCLC",
+      "rightLabel": "Black Panther Party",
+      "items": [
+        { "id": "i1", "text": "Led by Martin Luther King Jr.", "bucket": "left" },
+        { "id": "i2", "text": "Centered on nonviolent church-based protest", "bucket": "left" },
+        { "id": "i3", "text": "Founded by Huey Newton and Bobby Seale", "bucket": "right" },
+        { "id": "i4", "text": "Organized armed patrols and breakfast aid", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each civil rights trait into SCLC or Black Panther Party.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "King's SCLC used nonviolent Southern church protests, while the Black Panthers combined self-defense with urban aid.",
+    "source_url": "https://www.britannica.com/topic/Southern-Christian-Leadership-Conference",
+    "trap_notes": {
+      "default": "SCLC was MLK's nonviolent church group; the Black Panthers began in Oakland with armed self-defense."
+    }
+  },
+  {
+    "id": "us-cmp-214",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1960s Social Movements",
+    "era": "1962–1975",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.7749, "lng": -119.2470, "label": "California & Great Plains" },
+    "compareSpec": {
+      "leftLabel": "United Farm Workers (UFW)",
+      "rightLabel": "American Indian Movement (AIM)",
+      "items": [
+        { "id": "i1", "text": "Led by Cesar Chavez and Dolores Huerta", "bucket": "left" },
+        { "id": "i2", "text": "Organized national grape boycotts", "bucket": "left" },
+        { "id": "i3", "text": "Protested broken treaties and poverty", "bucket": "right" },
+        { "id": "i4", "text": "Staged protests at Alcatraz and Wounded Knee", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1960s–1970s activism trait into United Farm Workers (UFW) or American Indian Movement (AIM).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The UFW used strikes and boycotts for farmworker pay, while AIM fought for Native treaty rights and sovereignty.",
+    "source_url": "https://www.nps.gov/cech/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Chavez and grape boycotts belong to UFW; Alcatraz and Wounded Knee protests belong to AIM."
+    }
+  },
+  {
+    "id": "us-cmp-215",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Late 20th-Century Politics",
+    "era": "1981–1999",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Reaganomics (1980s)",
+      "rightLabel": "Clinton Era (1990s)",
+      "items": [
+        { "id": "i1", "text": "Cut top income tax rates and deregulated", "bucket": "left" },
+        { "id": "i2", "text": "Boosted defense spending sharply", "bucket": "left" },
+        { "id": "i3", "text": "Produced federal budget surpluses by 1998", "bucket": "right" },
+        { "id": "i4", "text": "Enacted welfare reform and NAFTA trade", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each economic policy or outcome into Reaganomics (1980s) or Clinton Era (1990s).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Reaganomics paired supply-side tax cuts with defense buildup, while Clinton's 1990s saw welfare reform, NAFTA, and surpluses.",
+    "source_url": "https://millercenter.org/president/clinton",
+    "trap_notes": {
+      "default": "Supply-side tax cuts and defense hikes were 1980s Reaganomics; NAFTA and 1998 surpluses were Clinton's 1990s."
+    }
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "world-cau-201",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Neolithic Revolution",
+    "era": "10000–3000 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.2231, "lng": 38.9225, "label": "Fertile Crescent" },
+    "prompt": "Order this cause-and-effect chain from the Neolithic transition:",
+    "options": [
+      { "id": "a", "text": "People settle into permanent farming villages" },
+      { "id": "b", "text": "Some villagers specialize in crafts and trade" },
+      { "id": "c", "text": "Communities domesticate wild grains and animals" },
+      { "id": "d", "text": "Grain surpluses support larger local populations" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Domesticating crops led to permanent villages, which produced food surpluses that allowed craft specialization.",
+    "source_url": "https://www.britannica.com/topic/Neolithic-Period",
+    "trap_notes": {
+      "default": "Agriculture and settled villages came first, creating the surpluses needed for specialized artisans."
+    }
+  },
+  {
+    "id": "world-cau-202",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Ancient Mesopotamia",
+    "era": "3500–2000 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 31.326, "lng": 45.636, "label": "Uruk, Mesopotamia" },
+    "prompt": "Order this causal chain showing how writing emerged in Sumer:",
+    "options": [
+      { "id": "a", "text": "Temple officials need records of grain and taxes" },
+      { "id": "b", "text": "Scribes press wedge-shaped cuneiform into clay" },
+      { "id": "c", "text": "Irrigated river farming expands Sumerian cities" },
+      { "id": "d", "text": "Written records support laws, trade, and literature" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Irrigated city growth created complex temple economies, prompting cuneiform accounting that later recorded laws and stories.",
+    "source_url": "https://www.britannica.com/topic/cuneiform",
+    "trap_notes": {
+      "default": "Economic record-keeping for growing cities drove the invention of cuneiform before literature appeared."
+    }
+  },
+  {
+    "id": "world-cau-203",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Classical Greece",
+    "era": "500–431 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "prompt": "Order this causal chain leading to the Peloponnesian War:",
+    "options": [
+      { "id": "a", "text": "Sparta and allies declare war on Athens" },
+      { "id": "b", "text": "Athens uses Delian League funds to build its power" },
+      { "id": "c", "text": "Greek city-states form the Delian League against Persia" },
+      { "id": "d", "text": "Rival city-states fear growing Athenian dominance" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Formed against Persia, the Delian League became an Athenian empire, alarming Sparta and sparking the Peloponnesian War.",
+    "source_url": "https://www.britannica.com/event/Peloponnesian-War",
+    "trap_notes": {
+      "default": "Athens's post-Persian League power created the fear in Sparta that triggered the Peloponnesian War."
+    }
+  },
+  {
+    "id": "world-cau-204",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Hellenistic World",
+    "era": "359–300 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 31.2001, "lng": 29.9187, "label": "Alexandria, Egypt" },
+    "prompt": "Order this causal chain explaining the spread of Hellenistic culture:",
+    "options": [
+      { "id": "a", "text": "Greek language and learning blend with local traditions" },
+      { "id": "b", "text": "Alexander conquers lands from Egypt to northwestern India" },
+      { "id": "c", "text": "New cities like Alexandria attract scholars and merchants" },
+      { "id": "d", "text": "Philip II of Macedon unites weakened Greek city-states" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Macedon's unification enabled Alexander's conquests, which founded cities like Alexandria where Greek and local cultures blended.",
+    "source_url": "https://www.britannica.com/event/Hellenistic-Age",
+    "trap_notes": {
+      "default": "Macedonian conquest came first, then new imperial cities, and then Hellenistic cultural blending."
+    }
+  },
+  {
+    "id": "world-cau-205",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Roman Republic",
+    "era": "133–27 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "Order this causal chain explaining the fall of the Roman Republic:",
+    "options": [
+      { "id": "a", "text": "Generals use loyal armies to fight civil wars for power" },
+      { "id": "b", "text": "Wealthy landowners buy up farms with enslaved war captives" },
+      { "id": "c", "text": "Displaced Roman farmers lose land and crowd into cities" },
+      { "id": "d", "text": "Augustus emerges as sole ruler of a new Roman Empire" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Slave-worked estates displaced small farmers, fueling urban unrest and rival armies whose civil wars ended in Augustus's empire.",
+    "source_url": "https://www.britannica.com/place/ancient-Rome/The-end-of-the-Roman-Republic",
+    "trap_notes": {
+      "default": "Land concentration and displaced farmers weakened the Republic before generals fought civil wars."
+    }
+  },
+  {
+    "id": "world-cau-206",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Han China",
+    "era": "138 BCE–100 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Chang'an, China" },
+    "prompt": "Order this causal chain showing how the Silk Road developed:",
+    "options": [
+      { "id": "a", "text": "Han envoys map routes across Central Asia" },
+      { "id": "b", "text": "Chinese silk reaches Roman markets via intermediaries" },
+      { "id": "c", "text": "Emperor Wu seeks allies and horses against the Xiongnu" },
+      { "id": "d", "text": "Oasis towns expand caravan trade along the Tarim Basin" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Han military diplomacy under Emperor Wu opened Central Asian routes, growing oasis caravans that carried silk westward.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "default": "Han diplomatic missions against Xiongnu threats came before regular long-distance silk trade to Rome."
+    }
+  },
+  {
+    "id": "world-cau-207",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Byzantine Empire",
+    "era": "532–565 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Constantinople" },
+    "prompt": "Order this causal chain from Justinian I's reign in Byzantium:",
+    "options": [
+      { "id": "a", "text": "Hagia Sophia is built as a grand domed cathedral" },
+      { "id": "b", "text": "The Nika riots burn much of central Constantinople" },
+      { "id": "c", "text": "Justinian crushes the revolt and clears ruined districts" },
+      { "id": "d", "text": "High taxes and faction rivalries anger city crowds" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Tax anger sparked the Nika riots, which destroyed old buildings and allowed Justinian to rebuild the monumental Hagia Sophia.",
+    "source_url": "https://www.britannica.com/topic/Hagia-Sophia",
+    "trap_notes": {
+      "default": "The Nika riots destroyed the earlier church, clearing the way for Justinian to build Hagia Sophia."
+    }
+  },
+  {
+    "id": "world-cau-208",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Islamic Golden Age",
+    "era": "750–1000 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.3152, "lng": 44.3661, "label": "Baghdad, Iraq" },
+    "prompt": "Order this causal chain from the Abbasid Translation Movement:",
+    "options": [
+      { "id": "a", "text": "Papermaking spreads from China into Islamic lands" },
+      { "id": "b", "text": "Baghdad scholars translate Greek and Sanskrit texts" },
+      { "id": "c", "text": "Cheaper paper makes copying manuscripts affordable" },
+      { "id": "d", "text": "Advances in algebra, optics, and medicine flourish" }
+    ],
+    "answer": ["a", "c", "b", "d"],
+    "explanation": "Papermaking lowered book costs, enabling Baghdad scholars to translate classical works and advance algebra, optics, and medicine.",
+    "source_url": "https://www.britannica.com/topic/House-of-Wisdom",
+    "trap_notes": {
+      "default": "Paper technology enabled affordable manuscripts, which fueled translation and original scientific discoveries."
+    }
+  },
+  {
+    "id": "world-cau-209",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Medieval Europe",
+    "era": "800–1100 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "Order this causal chain showing how European feudalism spread:",
+    "options": [
+      { "id": "a", "text": "Local lords grant land fiefs to mounted knights" },
+      { "id": "b", "text": "Carolingian central authority fractures after Charlemagne" },
+      { "id": "c", "text": "Viking, Magyar, and Muslim raids threaten rural towns" },
+      { "id": "d", "text": "Peasants seek protection on fortified manorial estates" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Weakened central rule exposed Europe to raids, so local lords armed knights with fiefs while peasants worked manors for protection.",
+    "source_url": "https://www.britannica.com/topic/feudalism",
+    "trap_notes": {
+      "default": "Central collapse and outside raids drove local lords to build knightly defense networks and manors."
+    }
+  },
+  {
+    "id": "world-cau-210",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Song China",
+    "era": "960–1279 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.2741, "lng": 120.1551, "label": "Hangzhou, China" },
+    "prompt": "Order this causal chain from Song Dynasty economic growth:",
+    "options": [
+      { "id": "a", "text": "Rapid population growth expands southern Chinese cities" },
+      { "id": "b", "text": "Merchants adopt paper money to handle booming trade" },
+      { "id": "c", "text": "Farmers plant fast-ripening Champa rice from Vietnam" },
+      { "id": "d", "text": "Double-harvest rice surpluses feed larger households" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Champa rice allowed two harvests a year, boosting food surpluses, urban growth, and commercial demand for paper money.",
+    "source_url": "https://www.britannica.com/topic/Song-dynasty",
+    "trap_notes": {
+      "default": "Champa rice cultivation created the agricultural surplus that fueled Song urbanization and paper currency."
+    }
+  },
+  {
+    "id": "world-cau-211",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "West African Kingdoms",
+    "era": "1235–1350 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "prompt": "Order this causal chain from Mansa Musa's rule in Mali:",
+    "options": [
+      { "id": "a", "text": "Scholars and architects arrive to build mosques and schools" },
+      { "id": "b", "text": "Mansa Musa distributes vast gold during his Cairo stop" },
+      { "id": "c", "text": "Mali controls rich West African goldfields and salt routes" },
+      { "id": "d", "text": "Timbuktu grows into a major center of Islamic learning" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Mali's gold wealth funded Mansa Musa's famous hajj, attracting Muslim scholars who made Timbuktu a center of learning.",
+    "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+    "trap_notes": {
+      "default": "Gold-salt wealth funded the pilgrimage, which brought scholars back to build Timbuktu's universities."
+    }
+  },
+  {
+    "id": "world-cau-212",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Black Death",
+    "era": "1347–1420 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 43.7696, "lng": 11.2558, "label": "Florence, Italy" },
+    "prompt": "Order this causal chain showing the Black Death's social impact:",
+    "options": [
+      { "id": "a", "text": "Surviving laborers demand higher wages from landlords" },
+      { "id": "b", "text": "Merchant ships carry plague-infected rats to Europe" },
+      { "id": "c", "text": "Severe population loss creates acute labor shortages" },
+      { "id": "d", "text": "Traditional serfdom weakens across Western Europe" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Trade ships spread plague across Europe, killing millions and causing labor shortages that raised wages and weakened serfdom.",
+    "source_url": "https://www.britannica.com/event/Black-Death",
+    "trap_notes": {
+      "default": "Plague mortality caused labor scarcity, which gave surviving workers leverage to weaken serfdom."
+    }
+  },
+  {
+    "id": "world-cau-213",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Italian Renaissance",
+    "era": "1350–1520 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 45.4408, "lng": 12.3155, "label": "Venice, Italy" },
+    "prompt": "Order this causal chain behind the Italian Renaissance:",
+    "options": [
+      { "id": "a", "text": "Wealthy merchant families patronize artists and scholars" },
+      { "id": "b", "text": "Mediterranean trade enriches Italian city-states" },
+      { "id": "c", "text": "Humanist art and classical learning flourish in cities" },
+      { "id": "d", "text": "Banking houses like the Medici accumulate vast capital" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Mediterranean trade enriched Italian cities and banks, whose wealthy patrons funded humanist scholars and Renaissance artists.",
+    "source_url": "https://www.britannica.com/event/Renaissance",
+    "trap_notes": {
+      "default": "Commercial wealth and banking capital came first, enabling the patronage that fueled Renaissance art."
+    }
+  },
+  {
+    "id": "world-cau-214",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Protestant Reformation",
+    "era": "1450–1555 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.8671, "lng": 12.6431, "label": "Wittenberg, Germany" },
+    "prompt": "Order this causal chain of the Protestant Reformation:",
+    "options": [
+      { "id": "a", "text": "Printers rapidly circulate Luther's pamphlets in German" },
+      { "id": "b", "text": "Church officials sell indulgences to fund St. Peter's" },
+      { "id": "c", "text": "German princes adopt Lutheranism and split from Rome" },
+      { "id": "d", "text": "Martin Luther challenges indulgences in Ninety-Five Theses" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Indulgence sales provoked Luther's Theses, which printing presses spread rapidly, winning support from German princes.",
+    "source_url": "https://www.britannica.com/event/Reformation",
+    "trap_notes": {
+      "default": "Indulgence sales triggered Luther's protest, and printed pamphlets spread his ideas before princes broke with Rome."
+    }
+  },
+  {
+    "id": "world-cau-215",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Age of Exploration",
+    "era": "1453–1510 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.7223, "lng": -9.1393, "label": "Lisbon, Portugal" },
+    "prompt": "Order this causal chain behind European oceanic exploration:",
+    "options": [
+      { "id": "a", "text": "Iberian monarchs fund voyages seeking sea routes to Asia" },
+      { "id": "b", "text": "Ottoman and Venetian middlemen raise spice prices in Europe" },
+      { "id": "c", "text": "Sailors adopt caravels, astrolabes, and magnetic compasses" },
+      { "id": "d", "text": "Portugal and Spain reach India and the Americas by sea" }
+    ],
+    "answer": ["b", "a", "c", "d"],
+    "explanation": "Costly overland spice markups pushed Iberian monarchs to fund sea voyages using caravels and compasses to reach Asia.",
+    "source_url": "https://www.britannica.com/topic/European-exploration",
+    "trap_notes": {
+      "default": "High overland spice costs motivated state funding and maritime navigation before oceanic crossings succeeded."
+    }
+  },
+  {
+    "id": "world-cau-216",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Columbian Exchange",
+    "era": "1492–1700 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 18.4861, "lng": -69.9312, "label": "Santo Domingo" },
+    "prompt": "Order this causal chain of the Columbian Exchange in the Americas:",
+    "options": [
+      { "id": "a", "text": "European planters turn to enslaved African labor" },
+      { "id": "b", "text": "Old World diseases like smallpox sweep Indigenous towns" },
+      { "id": "c", "text": "European ships carry new pathogens across the Atlantic" },
+      { "id": "d", "text": "Indigenous populations suffer catastrophic demographic loss" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Transatlantic contact brought smallpox to Indigenous peoples, causing severe population loss that planters offset with enslaved Africans.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "default": "Pathogen arrival and Indigenous demographic collapse preceded the large-scale expansion of African enslavement."
+    }
+  },
+  {
+    "id": "world-cau-217",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Global Silver Trade",
+    "era": "1545–1640 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -19.5723, "lng": -65.755, "label": "Potosi, Bolivia" },
+    "prompt": "Order this causal chain of the early modern global silver trade:",
+    "options": [
+      { "id": "a", "text": "Ming China requires taxes to be paid in silver" },
+      { "id": "b", "text": "Manila galleons carry American silver across the Pacific" },
+      { "id": "c", "text": "Spain mines vast silver deposits at Potosi and Zacatecas" },
+      { "id": "d", "text": "Global silver flows link the Americas, Europe, and Asia" }
+    ],
+    "answer": ["a", "c", "b", "d"],
+    "explanation": "Ming silver tax policies created huge Asian demand, which Spanish mines in Potosi met via Manila galleons, linking global trade.",
+    "source_url": "https://www.britannica.com/place/Potosi-Bolivia",
+    "trap_notes": {
+      "default": "Ming tax demand and American silver mining drove the Manila galleon trade that unified global commerce."
+    }
+  },
+  {
+    "id": "world-cau-218",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "English Constitutionalism",
+    "era": "1628–1689 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, England" },
+    "prompt": "Order this causal chain leading to England's Bill of Rights:",
+    "options": [
+      { "id": "a", "text": "Parliament invites William and Mary in the Glorious Revolution" },
+      { "id": "b", "text": "James II suspends laws and rules without Parliament" },
+      { "id": "c", "text": "William and Mary accept the English Bill of Rights" },
+      { "id": "d", "text": "Protestant nobles fear a Catholic absolute monarchy" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "James II's unilateral rule alarmed Protestant elites, who invited William and Mary and required them to accept the Bill of Rights.",
+    "source_url": "https://www.britannica.com/event/Glorious-Revolution",
+    "trap_notes": {
+      "default": "James II's actions sparked elite fears and the Glorious Revolution, which produced the 1689 Bill of Rights."
+    }
+  },
+  {
+    "id": "world-cau-219",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "French Revolution",
+    "era": "1780–1789 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "prompt": "Order this causal chain triggering the French Revolution:",
+    "options": [
+      { "id": "a", "text": "Louis XVI summons the Estates-General to raise taxes" },
+      { "id": "b", "text": "Third Estate delegates break away as a National Assembly" },
+      { "id": "c", "text": "Costly wars and royal spending push France near bankruptcy" },
+      { "id": "d", "text": "Nobles refuse new taxes unless the Estates-General meets" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Debt forced Louis XVI to seek taxes; noble resistance forced an Estates-General, where the Third Estate formed the National Assembly.",
+    "source_url": "https://www.britannica.com/event/French-Revolution",
+    "trap_notes": {
+      "default": "Fiscal crisis and noble tax resistance forced the Estates-General, which split into the National Assembly."
+    }
+  },
+  {
+    "id": "world-cau-220",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Haitian Revolution",
+    "era": "1789–1804 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 18.5944, "lng": -72.3074, "label": "Port-au-Prince, Haiti" },
+    "prompt": "Order this causal chain of the Haitian Revolution:",
+    "options": [
+      { "id": "a", "text": "Toussaint Louverture leads disciplined forces against rivals" },
+      { "id": "b", "text": "Haiti defeats a French expedition and declares independence" },
+      { "id": "c", "text": "French revolutionary ideals reach divided Saint-Domingue" },
+      { "id": "d", "text": "Enslaved people launch a massive 1791 plantation uprising" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "French revolutionary turmoil inspired Saint-Domingue's 1791 uprising, which Louverture organized before Haiti won independence in 1804.",
+    "source_url": "https://www.britannica.com/topic/Haitian-Revolution",
+    "trap_notes": {
+      "default": "Revolutionary upheaval in France sparked the 1791 uprising before Louverture's campaigns and 1804 independence."
+    }
+  },
+  {
+    "id": "world-cau-221",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Latin American Independence",
+    "era": "1807–1824 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 10.4806, "lng": -66.9036, "label": "Caracas, Venezuela" },
+    "prompt": "Order this causal chain of Spanish American independence:",
+    "options": [
+      { "id": "a", "text": "Creole juntas form across Spanish American capitals" },
+      { "id": "b", "text": "Napoleon invades Spain and deposes King Ferdinand VII" },
+      { "id": "c", "text": "Most mainland Spanish colonies win full independence" },
+      { "id": "d", "text": "Ferdinand VII's harsh return turns juntas toward independence" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Napoleon's 1808 invasion of Spain prompted local Creole juntas, and Ferdinand VII's rigid restoration pushed colonies to full independence.",
+    "source_url": "https://www.britannica.com/place/Latin-America/The-wars-of-independence-1808-26",
+    "trap_notes": {
+      "default": "Napoleon's invasion created a power vacuum in Madrid, prompting juntas that later fought for full independence."
+    }
+  },
+  {
+    "id": "world-cau-222",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "1700–1830 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, England" },
+    "prompt": "Order this causal chain explaining why industrialization began in Britain:",
+    "options": [
+      { "id": "a", "text": "Displaced rural workers move to growing factory towns" },
+      { "id": "b", "text": "Enclosure acts consolidate farmland and boost output" },
+      { "id": "c", "text": "Coal-powered steam engines drive textile mills in cities" },
+      { "id": "d", "text": "Britain becomes the world's leading workshop of goods" }
+    ],
+    "answer": ["b", "a", "c", "d"],
+    "explanation": "Enclosure acts freed rural labor for cities, where coal-fired steam mills turned Britain into the leading industrial producer.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "default": "Agricultural enclosure and urban labor migration came before steam-powered factory dominance."
+    }
+  },
+  {
+    "id": "world-cau-223",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Industrial Reform",
+    "era": "1820–1875 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, England" },
+    "prompt": "Order this causal chain of nineteenth-century British labor reform:",
+    "options": [
+      { "id": "a", "text": "Parliament passes Factory Acts limiting child labor hours" },
+      { "id": "b", "text": "Unregulated mills impose long hours and unsafe machinery" },
+      { "id": "c", "text": "Working conditions improve and public schooling expands" },
+      { "id": "d", "text": "Investigators and unions expose harsh factory abuses" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Harsh unregulated mills prompted investigations and union pressure, leading Parliament to pass Factory Acts that improved conditions.",
+    "source_url": "https://www.britannica.com/event/Factory-Act-United-Kingdom-1833",
+    "trap_notes": {
+      "default": "Factory abuses and public investigations came before Parliament enacted protective labor laws."
+    }
+  },
+  {
+    "id": "world-cau-224",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Opium Wars",
+    "era": "1790–1842 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.1291, "lng": 113.2644, "label": "Guangzhou, China" },
+    "prompt": "Order this causal chain leading to the Treaty of Nanjing:",
+    "options": [
+      { "id": "a", "text": "Qing official Lin Zexu seizes and destroys British opium" },
+      { "id": "b", "text": "Britain ships opium from India to balance China trade" },
+      { "id": "c", "text": "China cedes Hong Kong and opens five treaty ports" },
+      { "id": "d", "text": "British steam gunboats defeat Qing coastal defenses" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "British opium imports triggered Lin Zexu's crackdown, sparking war in which British gunboats forced the 1842 Treaty of Nanjing.",
+    "source_url": "https://www.britannica.com/event/Opium-Wars",
+    "trap_notes": {
+      "default": "Opium smuggling and Qing confiscation preceded British naval intervention and the Treaty of Nanjing."
+    }
+  },
+  {
+    "id": "world-cau-225",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Meiji Restoration",
+    "era": "1853–1895 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Order this causal chain of Japan's Meiji transformation:",
+    "options": [
+      { "id": "a", "text": "Japan builds modern railways, factories, and a conscript army" },
+      { "id": "b", "text": "Foreign gunboats force Tokugawa Japan into unequal treaties" },
+      { "id": "c", "text": "Meiji leaders overthrow the shogun to strengthen Japan" },
+      { "id": "d", "text": "Japan emerges as an industrial East Asian military power" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Unequal treaties discredited the shogunate, leading Meiji reformers to centralize rule and industrialize Japan's economy and army.",
+    "source_url": "https://www.britannica.com/event/Meiji-Restoration",
+    "trap_notes": {
+      "default": "Foreign pressure and unequal treaties sparked the Meiji coup, which then drove state-led industrialization."
+    }
+  },
+  {
+    "id": "world-cau-226",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Scramble for Africa",
+    "era": "1870–1900 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order this causal chain of the Scramble for Africa:",
+    "options": [
+      { "id": "a", "text": "European leaders set partition rules at Berlin in 1884" },
+      { "id": "b", "text": "Industrial Europe seeks raw materials like rubber and copper" },
+      { "id": "c", "text": "Quinine, steamboats, and Maxim guns aid inland conquest" },
+      { "id": "d", "text": "Colonial borders divide African ethnic and language groups" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Industrial resource demand and new medical and military tools fueled European rivalry, formalized at Berlin into artificial borders.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "trap_notes": {
+      "default": "Industrial demand and military-medical tools preceded the 1884 Berlin Conference that drew colonial borders."
+    }
+  },
+  {
+    "id": "world-cau-227",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "German Unification",
+    "era": "1862–1871 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "prompt": "Order this causal chain of German unification under Bismarck:",
+    "options": [
+      { "id": "a", "text": "Prussia defeats Austria and forms a northern confederation" },
+      { "id": "b", "text": "Southern German states join Prussia against France" },
+      { "id": "c", "text": "Otto von Bismarck modernizes the Prussian army" },
+      { "id": "d", "text": "German princes proclaim the German Empire at Versailles" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Prussian military strength defeated Austria, then war with France rallied southern states into the 1871 German Empire.",
+    "source_url": "https://www.britannica.com/biography/Otto-von-Bismarck",
+    "trap_notes": {
+      "default": "Prussia defeated Austria first, then used the Franco-Prussian War to bring southern states into the empire."
+    }
+  },
+  {
+    "id": "world-cau-228",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "World War I",
+    "era": "1914 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 43.8563, "lng": 18.4131, "label": "Sarajevo, Bosnia" },
+    "prompt": "Order this causal chain of the July Crisis starting World War I:",
+    "options": [
+      { "id": "a", "text": "Russia mobilizes troops to support Serbia" },
+      { "id": "b", "text": "Gavrilo Princip assassinates Archduke Franz Ferdinand" },
+      { "id": "c", "text": "Germany declares war on Russia and invades Belgium" },
+      { "id": "d", "text": "Austria-Hungary declares war on Serbia" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Sarajevo assassination led Austria to attack Serbia, prompting Russian mobilization and German declarations of war.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "trap_notes": {
+      "default": "Sarajevo triggered Austria's attack on Serbia, which pulled in Russia and then Germany."
+    }
+  },
+  {
+    "id": "world-cau-229",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Russian Revolution",
+    "era": "1914–1917 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 59.9343, "lng": 30.3351, "label": "Petrograd, Russia" },
+    "prompt": "Order this causal chain behind the 1917 Russian Revolution:",
+    "options": [
+      { "id": "a", "text": "Food and fuel shortages spark strikes in Petrograd" },
+      { "id": "b", "text": "Russian armies suffer massive losses in World War I" },
+      { "id": "c", "text": "Bolsheviks win support promising peace, land, and bread" },
+      { "id": "d", "text": "Soldiers join protesters and Tsar Nicholas II abdicates" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "WWI defeats and shortages sparked Petrograd strikes, forcing the Tsar to abdicate and opening the door for the Bolsheviks.",
+    "source_url": "https://www.britannica.com/event/Russian-Revolution",
+    "trap_notes": {
+      "default": "Wartime strain and strikes toppled the Tsar in February 1917 before the Bolsheviks took power in October."
+    }
+  },
+  {
+    "id": "world-cau-230",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Interwar Europe",
+    "era": "1919–1933 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order this causal chain behind the rise of Nazism in Germany:",
+    "options": [
+      { "id": "a", "text": "Mass unemployment and despair surge across Germany" },
+      { "id": "b", "text": "Voters turn to extremist parties and Hitler gains power" },
+      { "id": "c", "text": "The Great Depression halts US loans to Weimar Germany" },
+      { "id": "d", "text": "Versailles reparations strain Weimar's fragile economy" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "Postwar reparations left Weimar vulnerable; when the Depression cut US loans, mass unemployment fueled Nazi electoral gains.",
+    "source_url": "https://www.britannica.com/place/Weimar-Republic",
+    "trap_notes": {
+      "default": "Economic shocks from reparations and the 1929 Depression created the unemployment crisis that lifted Hitler."
+    }
+  },
+  {
+    "id": "world-cau-231",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "World War II",
+    "era": "1936–1939 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.1351, "lng": 11.582, "label": "Munich, Germany" },
+    "prompt": "Order this causal chain showing how appeasement failed before WWII:",
+    "options": [
+      { "id": "a", "text": "Germany signs a pact with Stalin and invades Poland" },
+      { "id": "b", "text": "Britain and France cede the Sudetenland at Munich" },
+      { "id": "c", "text": "Hitler remilitarizes the Rhineland and annexes Austria" },
+      { "id": "d", "text": "Hitler occupies the rest of Czechoslovakia months later" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Early German aggression went unchecked, leading to the Munich concession, which emboldened Hitler to seize Czechoslovakia and Poland.",
+    "source_url": "https://www.britannica.com/event/Munich-Agreement",
+    "trap_notes": {
+      "default": "The 1938 Munich Agreement preceded the 1939 seizure of Czechoslovakia and the invasion of Poland."
+    }
+  },
+  {
+    "id": "world-cau-232",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1945–1949 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order this causal chain of the early Cold War division of Europe:",
+    "options": [
+      { "id": "a", "text": "Western democracies form the NATO military alliance" },
+      { "id": "b", "text": "Soviet forces install communist regimes in Eastern Europe" },
+      { "id": "c", "text": "Stalin blockades West Berlin to protest Western currency" },
+      { "id": "d", "text": "The US launches the Truman Doctrine and Marshall Plan" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Soviet control of Eastern Europe prompted US containment aid, which escalated into the Berlin Blockade and the creation of NATO.",
+    "source_url": "https://www.britannica.com/event/Berlin-blockade",
+    "trap_notes": {
+      "default": "Eastern bloc consolidation and US containment came before the 1948 Berlin Blockade and 1949 NATO."
+    }
+  },
+  {
+    "id": "world-cau-233",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Indian Independence",
+    "era": "1919–1947 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "prompt": "Order this causal chain leading to the 1947 Partition of India:",
+    "options": [
+      { "id": "a", "text": "Britain withdraws and partitions India and Pakistan" },
+      { "id": "b", "text": "Mass nonviolent campaigns weaken British colonial rule" },
+      { "id": "c", "text": "World War II leaves Britain financially exhausted" },
+      { "id": "d", "text": "Hindu-Muslim political divisions deepen over power sharing" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Indian nationalist pressure and WWII exhaustion forced British withdrawal, while communal divisions resulted in Partition.",
+    "source_url": "https://www.britannica.com/event/Partition-of-India",
+    "trap_notes": {
+      "default": "Nationalist mobilization and WWII exhaustion preceded the 1947 decision to partition British India."
+    }
+  },
+  {
+    "id": "world-cau-234",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "African Decolonization",
+    "era": "1945–1965 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 5.6037, "lng": -0.187, "label": "Accra, Ghana" },
+    "prompt": "Order this causal chain of postwar African decolonization:",
+    "options": [
+      { "id": "a", "text": "African veterans and students organize nationalist parties" },
+      { "id": "b", "text": "Dozens of African nations win independence in the 1960s" },
+      { "id": "c", "text": "Africans fight for Allied powers during World War II" },
+      { "id": "d", "text": "Ghana's 1957 independence inspires movements across Africa" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "WWII service heightened anti-colonial demands, fueling nationalist parties that won Ghana's 1957 freedom and a 1960s wave.",
+    "source_url": "https://www.britannica.com/topic/decolonization",
+    "trap_notes": {
+      "default": "WWII mobilization and nationalist organizing led to Ghana's 1957 breakthrough and wider 1960s independence."
+    }
+  },
+  {
+    "id": "world-cau-235",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Maoist China",
+    "era": "1958–1962 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "Order this causal chain from China's Great Leap Forward:",
+    "options": [
+      { "id": "a", "text": "Catastrophic famine kills tens of millions in the countryside" },
+      { "id": "b", "text": "Mao merges peasant farms into huge state communes" },
+      { "id": "c", "text": "Local officials exaggerate harvests and divert labor to steel" },
+      { "id": "d", "text": "Grain output collapses while state quotas remain high" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Collectivized communes and backyard steel diverted farm labor, while inflated reports kept quotas high and caused mass famine.",
+    "source_url": "https://www.britannica.com/event/Great-Leap-Forward",
+    "trap_notes": {
+      "default": "Commune policies and inflated reporting caused the grain collapse that produced the famine."
+    }
+  },
+  {
+    "id": "world-cau-236",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Deng Xiaoping Era",
+    "era": "1978–2001 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 22.5431, "lng": 114.0579, "label": "Shenzhen, China" },
+    "prompt": "Order this causal chain of China's economic transformation after 1978:",
+    "options": [
+      { "id": "a", "text": "Foreign firms invest in Special Economic Zones like Shenzhen" },
+      { "id": "b", "text": "China becomes a major hub of global manufacturing exports" },
+      { "id": "c", "text": "Deng Xiaoping introduces market incentives and coastal zones" },
+      { "id": "d", "text": "Industrial output and urban incomes rise rapidly" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Deng's market reforms opened Special Economic Zones to foreign investment, raising output and making China a top exporter.",
+    "source_url": "https://www.britannica.com/biography/Deng-Xiaoping",
+    "trap_notes": {
+      "default": "State-led opening of Special Economic Zones came first, attracting foreign capital and driving export growth."
+    }
+  },
+  {
+    "id": "world-cau-237",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Cuban Missile Crisis",
+    "era": "1959–1962 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "prompt": "Order this causal chain of the 1962 Cuban Missile Crisis:",
+    "options": [
+      { "id": "a", "text": "US reconnaissance planes spot Soviet missile sites in Cuba" },
+      { "id": "b", "text": "Castro aligns Cuba with the USSR after the Bay of Pigs" },
+      { "id": "c", "text": "Khrushchev agrees to remove missiles in a diplomatic deal" },
+      { "id": "d", "text": "Kennedy imposes a naval quarantine around Cuba" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Cuba's Soviet alignment led to missile deployments spotted by US planes, prompting a naval quarantine and a negotiated withdrawal.",
+    "source_url": "https://www.britannica.com/event/Cuban-missile-crisis",
+    "trap_notes": {
+      "default": "US discovery of missiles triggered the quarantine, which led to Khrushchev's agreement to remove them."
+    }
+  },
+  {
+    "id": "world-cau-238",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Iranian Revolution",
+    "era": "1953–1979 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6892, "lng": 51.389, "label": "Tehran, Iran" },
+    "prompt": "Order this causal chain of the 1979 Iranian Revolution:",
+    "options": [
+      { "id": "a", "text": "Ayatollah Khomeini leads an Islamic Republic in Iran" },
+      { "id": "b", "text": "Massive strikes and street protests force the shah to flee" },
+      { "id": "c", "text": "The shah's autocratic rule and Westernization alienate groups" },
+      { "id": "d", "text": "Religious, nationalist, and leftist critics unite in opposition" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "Resentment of the shah's autocracy united broad opposition, whose protests forced him into exile and brought Khomeini to power.",
+    "source_url": "https://www.britannica.com/event/Iranian-Revolution",
+    "trap_notes": {
+      "default": "Opposition to the shah and mass protests forced his departure before Khomeini established the Islamic Republic."
+    }
+  },
+  {
+    "id": "world-cau-239",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Soviet Collapse",
+    "era": "1985–1991 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "prompt": "Order this causal chain behind the 1991 collapse of the USSR:",
+    "options": [
+      { "id": "a", "text": "Eastern European satellites oust communist governments in 1989" },
+      { "id": "b", "text": "Gorbachev launches glasnost and ends military enforcement abroad" },
+      { "id": "c", "text": "Soviet republics declare independence and dissolve the USSR" },
+      { "id": "d", "text": "Nationalist movements surge inside Baltic and Soviet republics" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Gorbachev's openness and refusal to use force let Eastern Europe break free in 1989, inspiring Soviet republics to dissolve the USSR.",
+    "source_url": "https://www.britannica.com/event/collapse-of-the-Soviet-Union",
+    "trap_notes": {
+      "default": "Gorbachev's reforms and the 1989 Eastern European revolutions preceded the 1991 breakup of the USSR itself."
+    }
+  },
+  {
+    "id": "world-cau-240",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "End of Apartheid",
+    "era": "1960–1994 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -26.2041, "lng": 28.0473, "label": "Johannesburg, South Africa" },
+    "prompt": "Order this causal chain ending apartheid in South Africa:",
+    "options": [
+      { "id": "a", "text": "Global sanctions and divestment pressure Pretoria's economy" },
+      { "id": "b", "text": "South Africa holds multiracial elections and elects Mandela" },
+      { "id": "c", "text": "Apartheid repression sparks domestic strikes and protests" },
+      { "id": "d", "text": "F. W. de Klerk frees Nelson Mandela and begins negotiations" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Internal resistance and international sanctions pressured the apartheid regime, leading de Klerk to free Mandela and negotiate democracy.",
+    "source_url": "https://www.britannica.com/topic/apartheid",
+    "trap_notes": {
+      "default": "Domestic resistance and sanctions pressured the government before Mandela's release and the 1994 election."
+    }
+  },
+  {
+    "id": "world-cau-241",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "European Integration",
+    "era": "1945–1999 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "prompt": "Order this causal chain creating the European Union:",
+    "options": [
+      { "id": "a", "text": "Nations pool coal and steel to prevent future European wars" },
+      { "id": "b", "text": "The Maastricht Treaty establishes the European Union" },
+      { "id": "c", "text": "World War II leaves Western Europe devastated and divided" },
+      { "id": "d", "text": "The European Economic Community builds a common market" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "WWII devastation motivated the Coal and Steel Community, which grew into the Common Market and then the 1993 European Union.",
+    "source_url": "https://www.britannica.com/topic/European-Union",
+    "trap_notes": {
+      "default": "Coal and steel pooling came first after WWII, followed by the Common Market and later the Maastricht EU."
+    }
+  },
+  {
+    "id": "world-cau-242",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Green Revolution",
+    "era": "1945–1980 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.901, "lng": 75.8573, "label": "Punjab, India" },
+    "prompt": "Order this causal chain of the twentieth-century Green Revolution:",
+    "options": [
+      { "id": "a", "text": "Developing nations adopt new seeds, irrigation, and fertilizer" },
+      { "id": "b", "text": "Scientists breed high-yield, disease-resistant wheat and rice" },
+      { "id": "c", "text": "Rapid population growth raises fears of severe famine" },
+      { "id": "d", "text": "Grain harvests surge in India, Mexico, and Southeast Asia" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Famine fears spurred agricultural research into high-yield seeds, which farmers adopted with fertilizer and irrigation to boost harvests.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "default": "Population pressure drove seed research first, followed by farm adoption and surging grain harvests."
+    }
+  },
+  {
+    "id": "world-cau-243",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1453–1571 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "prompt": "Order this causal chain of Ottoman expansion in the Mediterranean:",
+    "options": [
+      { "id": "a", "text": "Ottoman forces control key trade links between Europe and Asia" },
+      { "id": "b", "text": "Mehmed II uses heavy cannons to breach Constantinople's walls" },
+      { "id": "c", "text": "Ottomans expand across the Balkans, Syria, and Egypt" },
+      { "id": "d", "text": "Constantinople becomes Istanbul, the Ottoman imperial capital" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Gunpowder artillery took Constantinople, turning it into the Ottoman capital from which sultans conquered the eastern Mediterranean.",
+    "source_url": "https://www.britannica.com/place/Ottoman-Empire",
+    "trap_notes": {
+      "default": "Taking Constantinople in 1453 gave the Ottomans a central capital for expanding into Egypt and controlling trade."
+    }
+  },
+  {
+    "id": "world-cau-244",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Tokugawa Japan",
+    "era": "1603–1850 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Edo, Japan" },
+    "prompt": "Order this causal chain from Tokugawa Japan's urban growth:",
+    "options": [
+      { "id": "a", "text": "Merchants and artisans thrive in castle towns and Edo" },
+      { "id": "b", "text": "Tokugawa shoguns require daimyo to live part-time in Edo" },
+      { "id": "c", "text": "Kabuki theater and woodblock prints flourish among townspeople" },
+      { "id": "d", "text": "Daimyo processions and households fuel demand along roads" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Alternate attendance forced daimyo to travel and maintain Edo homes, enriching merchants who patronized kabuki and woodblock art.",
+    "source_url": "https://www.britannica.com/event/Tokugawa-period",
+    "trap_notes": {
+      "default": "Political control through alternate attendance created the urban spending that fueled Edo merchant culture."
+    }
+  },
+  {
+    "id": "world-cau-245",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Scientific Revolution",
+    "era": "1543–1687 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, England" },
+    "prompt": "Order this causal chain of the Scientific Revolution:",
+    "options": [
+      { "id": "a", "text": "Newton unifies terrestrial and celestial motion with gravity" },
+      { "id": "b", "text": "Copernicus challenges the geocentric model with heliocentrism" },
+      { "id": "c", "text": "Galileo and Kepler gather telescopic and orbital evidence" },
+      { "id": "d", "text": "Enlightenment thinkers apply natural laws to human society" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Copernicus's sun-centered model sparked new observations by Kepler and Galileo, which Newton unified before inspiring the Enlightenment.",
+    "source_url": "https://www.britannica.com/science/Scientific-Revolution",
+    "trap_notes": {
+      "default": "Heliocentric theory and astronomical evidence led to Newton's laws, which later inspired Enlightenment philosophy."
+    }
+  },
+  {
+    "id": "world-cmp-216",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Ancient China",
+    "era": "1046–206 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Xi'an, China" },
+    "compareSpec": {
+      "leftLabel": "Zhou Dynasty",
+      "rightLabel": "Qin Dynasty",
+      "items": [
+        { "id": "i1", "text": "Mandate of Heaven justifying rule", "bucket": "left" },
+        { "id": "i2", "text": "Legalist centralizing of all provinces", "bucket": "right" },
+        { "id": "i3", "text": "Decentralized feudal lordships", "bucket": "left" },
+        { "id": "i4", "text": "Standardized script, coins, and axles", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each political feature into the Zhou Dynasty or Qin Dynasty:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Zhou used feudal lordships and the Mandate of Heaven, while the Qin centralized China under Legalism and standardized systems.",
+    "source_url": "https://www.britannica.com/topic/Qin-dynasty",
+    "trap_notes": {
+      "default": "Feudalism and the Mandate of Heaven mark the Zhou; Legalist centralization and standardization mark the Qin."
+    }
+  },
+  {
+    "id": "world-cmp-217",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Early Christianity & Islam",
+    "era": "30–750 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.7683, "lng": 35.2137, "label": "Jerusalem" },
+    "compareSpec": {
+      "leftLabel": "Early Christianity",
+      "rightLabel": "Early Islam",
+      "items": [
+        { "id": "i1", "text": "Spread along Roman roads by apostles", "bucket": "left" },
+        { "id": "i2", "text": "Guided by the Quran and Five Pillars", "bucket": "right" },
+        { "id": "i3", "text": "Adopted as Roman imperial religion", "bucket": "left" },
+        { "id": "i4", "text": "Expanded under Rashidun and Umayyad rule", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each historical feature into Early Christianity or Early Islam:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Early Christianity spread within the Roman Empire, while early Islam expanded rapidly across Arabia and beyond under the caliphates.",
+    "source_url": "https://www.britannica.com/topic/Islam",
+    "trap_notes": {
+      "default": "Roman road missions and imperial adoption belong to Christianity; the Five Pillars and caliphates belong to Islam."
+    }
+  },
+  {
+    "id": "world-cmp-218",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "East Asia",
+    "era": "618–1392 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.9718, "lng": 126.5519, "label": "Kaesong, Korea" },
+    "compareSpec": {
+      "leftLabel": "Silla & Goryeo Korea",
+      "rightLabel": "Heian Japan",
+      "items": [
+        { "id": "i1", "text": "Tribute relations with Chinese courts", "bucket": "left" },
+        { "id": "i2", "text": "Aristocratic court at Kyoto", "bucket": "right" },
+        { "id": "i3", "text": "Tripitaka Koreana woodblock printing", "bucket": "left" },
+        { "id": "i4", "text": "The Tale of Genji written in kana", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each cultural feature into medieval Korea or Heian Japan:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Silla and Goryeo Korea maintained tribute ties and carved the Tripitaka Koreana, while Heian Japan centered on Kyoto court literature.",
+    "source_url": "https://www.britannica.com/place/Korea/The-Koryo-dynasty",
+    "trap_notes": {
+      "default": "Chinese tribute ties and Tripitaka woodblocks mark Korea; Kyoto's court and The Tale of Genji mark Heian Japan."
+    }
+  },
+  {
+    "id": "world-cmp-219",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Mesoamerica",
+    "era": "250–1521 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 20.6843, "lng": -88.5678, "label": "Chichen Itza, Mexico" },
+    "compareSpec": {
+      "leftLabel": "Classic Maya",
+      "rightLabel": "Aztec Empire",
+      "items": [
+        { "id": "i1", "text": "Independent Yucatan-Guatemala city-states", "bucket": "left" },
+        { "id": "i2", "text": "Island capital of Tenochtitlan", "bucket": "right" },
+        { "id": "i3", "text": "Glyphic stelae and base-20 zero math", "bucket": "left" },
+        { "id": "i4", "text": "Chinampas floating lake gardens", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Mesoamerican feature into the Classic Maya or Aztec Empire:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Classic Maya lived in independent lowland city-states, while the Aztecs built Tenochtitlan and chinampas in central Mexico.",
+    "source_url": "https://www.britannica.com/topic/Maya-people",
+    "trap_notes": {
+      "default": "Yucatan city-states and base-20 zero belong to the Maya; Tenochtitlan and chinampas belong to the Aztecs."
+    }
+  },
+  {
+    "id": "world-cmp-220",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Renaissance",
+    "era": "1400–1600 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.2194, "lng": 4.4025, "label": "Antwerp, Belgium" },
+    "compareSpec": {
+      "leftLabel": "Italian Renaissance",
+      "rightLabel": "Northern Renaissance",
+      "items": [
+        { "id": "i1", "text": "Classical Greco-Roman sculpture revival", "bucket": "left" },
+        { "id": "i2", "text": "Christian humanism of Erasmus", "bucket": "right" },
+        { "id": "i3", "text": "Linear perspective frescoes in Florence", "bucket": "left" },
+        { "id": "i4", "text": "Oil-painted scenes of Flemish daily life", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each artistic or intellectual trait into Italian or Northern Renaissance:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Italy emphasized classical forms and perspective frescoes, while Northern Europe emphasized Christian humanism and detailed oil painting.",
+    "source_url": "https://www.britannica.com/event/Renaissance",
+    "trap_notes": {
+      "default": "Classical frescoes in Florence mark Italy; Erasmus's Christian humanism and Flemish oil painting mark the North."
+    }
+  },
+  {
+    "id": "world-cmp-221",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Reformation",
+    "era": "1517–1563 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 46.0748, "lng": 11.1217, "label": "Trent, Italy" },
+    "compareSpec": {
+      "leftLabel": "Lutheranism",
+      "rightLabel": "Calvinism",
+      "items": [
+        { "id": "i1", "text": "Salvation by faith alone, not works", "bucket": "left" },
+        { "id": "i2", "text": "Doctrine of strict predestination", "bucket": "right" },
+        { "id": "i3", "text": "Originated in Wittenberg, Germany", "bucket": "left" },
+        { "id": "i4", "text": "Theocratic city government in Geneva", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Protestant doctrine or origin into Lutheranism or Calvinism:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Lutheranism began in Germany emphasizing faith alone, whereas Calvinism centered in Geneva and taught predestination.",
+    "source_url": "https://www.britannica.com/topic/Calvinism",
+    "trap_notes": {
+      "default": "Wittenberg and faith alone belong to Luther; Geneva and predestination belong to Calvin."
+    }
+  },
+  {
+    "id": "world-cmp-222",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Early Modern Empires",
+    "era": "1644–1912 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "compareSpec": {
+      "leftLabel": "Qing China",
+      "rightLabel": "Russian Empire",
+      "items": [
+        { "id": "i1", "text": "Manchu rulers enforcing the queue hairstyle", "bucket": "left" },
+        { "id": "i2", "text": "Cossack expansion across Siberia", "bucket": "right" },
+        { "id": "i3", "text": "Canton System limiting foreign trade", "bucket": "left" },
+        { "id": "i4", "text": "Westernization reforms under Peter the Great", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each early modern imperial policy into Qing China or Russia:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Manchu Qing rulers imposed the queue and Canton trade limits, while Russia expanded across Siberia and westernized under Peter.",
+    "source_url": "https://www.britannica.com/topic/Qing-dynasty",
+    "trap_notes": {
+      "default": "Manchu hair edicts and the Canton System belong to Qing China; Siberia and Peter the Great belong to Russia."
+    }
+  },
+  {
+    "id": "world-cmp-223",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Atlantic World",
+    "era": "1600–1850 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 5.1066, "lng": -1.2466, "label": "Cape Coast, Ghana" },
+    "compareSpec": {
+      "leftLabel": "Transatlantic Slave Trade",
+      "rightLabel": "Indian Ocean Slave Trade",
+      "items": [
+        { "id": "i1", "text": "Middle Passage to Americas plantations", "bucket": "left" },
+        { "id": "i2", "text": "Centered on Swahili Coast and Arabia", "bucket": "right" },
+        { "id": "i3", "text": "Dominated by European sugar economies", "bucket": "left" },
+        { "id": "i4", "text": "Higher share of domestic and military roles", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each feature into the Transatlantic or Indian Ocean slave trade:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Atlantic trade supplied American plantations, while the Indian Ocean trade fed domestic and military roles in Asia and Arabia.",
+    "source_url": "https://www.britannica.com/topic/transatlantic-slave-trade",
+    "trap_notes": {
+      "default": "The Middle Passage and American sugar plantations mark the Atlantic trade; Swahili-Arabian routes mark the Indian Ocean."
+    }
+  },
+  {
+    "id": "world-cmp-224",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Nineteenth-Century Nationalism",
+    "era": "1815–1871 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 45.0703, "lng": 7.6869, "label": "Turin, Italy" },
+    "compareSpec": {
+      "leftLabel": "Italian Unification",
+      "rightLabel": "German Unification",
+      "items": [
+        { "id": "i1", "text": "Led by Cavour and Garibaldi's Redshirts", "bucket": "left" },
+        { "id": "i2", "text": "Directed by Otto von Bismarck of Prussia", "bucket": "right" },
+        { "id": "i3", "text": "Centered on the Kingdom of Piedmont-Sardinia", "bucket": "left" },
+        { "id": "i4", "text": "Proclaimed at Versailles after French defeat", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each unification leader or event into Italy or Germany:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Piedmont-Sardinia, Cavour, and Garibaldi unified Italy, while Bismarck's Prussia unified Germany after defeating France.",
+    "source_url": "https://www.britannica.com/event/Risorgimento",
+    "trap_notes": {
+      "default": "Cavour, Garibaldi, and Piedmont belong to Italy; Bismarck, Prussia, and Versailles 1871 belong to Germany."
+    }
+  },
+  {
+    "id": "world-cmp-225",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Imperialism in Asia",
+    "era": "1850–1910 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 22.5726, "lng": 88.3639, "label": "Kolkata, India" },
+    "compareSpec": {
+      "leftLabel": "British Raj in India",
+      "rightLabel": "French Indochina",
+      "items": [
+        { "id": "i1", "text": "Followed the 1857 Sepoy Rebellion", "bucket": "left" },
+        { "id": "i2", "text": "Included Vietnam, Laos, and Cambodia", "bucket": "right" },
+        { "id": "i3", "text": "Built vast rail network for cotton exports", "bucket": "left" },
+        { "id": "i4", "text": "Extracted rubber and rice in the Mekong", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each colonial feature into the British Raj or French Indochina:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Crown rule in the British Raj followed 1857 and built Indian railways, while French Indochina ruled Vietnam, Laos, and Cambodia.",
+    "source_url": "https://www.britannica.com/place/Indochina",
+    "trap_notes": {
+      "default": "1857 and Indian cotton railways belong to the British Raj; Vietnam, Laos, and Cambodia belong to French Indochina."
+    }
+  },
+  {
+    "id": "world-cmp-226",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "World War I",
+    "era": "1914–1918 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 50.8503, "lng": 2.8857, "label": "Ypres, Belgium" },
+    "compareSpec": {
+      "leftLabel": "Western Front",
+      "rightLabel": "Eastern Front",
+      "items": [
+        { "id": "i1", "text": "Locked in static trench warfare in France", "bucket": "left" },
+        { "id": "i2", "text": "More mobile fighting across Russia and Poland", "bucket": "right" },
+        { "id": "i3", "text": "Battles of Verdun and the Somme", "bucket": "left" },
+        { "id": "i4", "text": "Ended early with Treaty of Brest-Litovsk", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each World War I feature into the Western Front or Eastern Front:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Western Front saw static trench battles like Verdun and the Somme, while the Eastern Front was more mobile and ended at Brest-Litovsk.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "trap_notes": {
+      "default": "Static trenches at Verdun and the Somme mark the Western Front; mobile Russian campaigns and Brest-Litovsk mark the East."
+    }
+  },
+  {
+    "id": "world-cmp-227",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Interwar Diplomacy",
+    "era": "1919–1945 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "compareSpec": {
+      "leftLabel": "League of Nations",
+      "rightLabel": "United Nations",
+      "items": [
+        { "id": "i1", "text": "Created by 1919 Treaty of Versailles", "bucket": "left" },
+        { "id": "i2", "text": "Has a Security Council with five vetoes", "bucket": "right" },
+        { "id": "i3", "text": "Lacked US membership and armed forces", "bucket": "left" },
+        { "id": "i4", "text": "Adopted Universal Declaration of Human Rights", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trait into the League of Nations or the United Nations:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The League of Nations lacked US membership and enforcement power, whereas the UN has a Security Council and human rights charter.",
+    "source_url": "https://www.britannica.com/topic/League-of-Nations",
+    "trap_notes": {
+      "default": "1919 Versailles and US absence mark the League; the five-veto Security Council and 1948 human rights charter mark the UN."
+    }
+  },
+  {
+    "id": "world-cmp-228",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Decolonization",
+    "era": "1945–1975 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 36.7538, "lng": 3.0588, "label": "Algiers, Algeria" },
+    "compareSpec": {
+      "leftLabel": "Negotiated Independence",
+      "rightLabel": "Armed Liberation War",
+      "items": [
+        { "id": "i1", "text": "Ghana's 1957 transition under Nkrumah", "bucket": "left" },
+        { "id": "i2", "text": "Algeria's 1954–1962 war against France", "bucket": "right" },
+        { "id": "i3", "text": "India's 1947 transfer of power", "bucket": "left" },
+        { "id": "i4", "text": "Vietnam's struggle at Dien Bien Phu", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each decolonization path into Negotiated Independence or Armed War:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "India and Ghana won independence through political negotiation, whereas Algeria and Vietnam fought prolonged armed liberation wars.",
+    "source_url": "https://www.britannica.com/event/Algerian-War",
+    "trap_notes": {
+      "default": "Ghana and India negotiated transfers of power; Algeria and Vietnam fought protracted wars against France."
+    }
+  },
+  {
+    "id": "world-cmp-229",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1955–1991 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": -6.9175, "lng": 107.6191, "label": "Bandung, Indonesia" },
+    "compareSpec": {
+      "leftLabel": "Non-Aligned Movement",
+      "rightLabel": "Soviet Bloc",
+      "items": [
+        { "id": "i1", "text": "Rejected Cold War military alliances", "bucket": "left" },
+        { "id": "i2", "text": "Bound to Moscow via the Warsaw Pact", "bucket": "right" },
+        { "id": "i3", "text": "Launched at the 1955 Bandung Conference", "bucket": "left" },
+        { "id": "i4", "text": "Enforced by the Brezhnev Doctrine", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Cold War alignment into Non-Aligned or Soviet Bloc:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Non-Aligned nations met at Bandung to stay outside superpower blocs, whereas Soviet Bloc states were bound to the Warsaw Pact.",
+    "source_url": "https://www.britannica.com/topic/Non-Aligned-Movement",
+    "trap_notes": {
+      "default": "Bandung and alliance neutrality mark the Non-Aligned Movement; the Warsaw Pact and Brezhnev Doctrine mark the Soviet Bloc."
+    }
+  },
+  {
+    "id": "world-cmp-230",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Latin America",
+    "era": "1950–1990 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -33.4489, "lng": -70.6693, "label": "Santiago, Chile" },
+    "compareSpec": {
+      "leftLabel": "Cuban Revolution",
+      "rightLabel": "Chilean 1973 Coup",
+      "items": [
+        { "id": "i1", "text": "Installed a socialist state under Castro", "bucket": "left" },
+        { "id": "i2", "text": "Overthrew elected president Allende", "bucket": "right" },
+        { "id": "i3", "text": "Allied closely with the Soviet Union", "bucket": "left" },
+        { "id": "i4", "text": "Established Pinochet's military junta", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Cold War Latin American event into Cuba or Chile:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Cuba's 1959 revolution created a Soviet-aligned socialist state under Castro, while Chile's 1973 coup replaced Allende with Pinochet.",
+    "source_url": "https://www.britannica.com/biography/Salvador-Allende",
+    "trap_notes": {
+      "default": "Castro and Soviet alignment belong to Cuba; Allende and Pinochet's junta belong to Chile."
+    }
+  }
+]

@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "us-dat-101",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Colonial Population",
+    "era": "1650–1770",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5407, "lng": -77.436, "label": "Richmond, Virginia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Estimated Colonial Population (in thousands)",
+      "headers": ["Region", "1700", "1770"],
+      "rows": [
+        ["New England", "93", "581"],
+        ["Middle Colonies", "53", "556"],
+        ["Southern Colonies", "105", "1,012"]
+      ]
+    },
+    "prompt": "Which colonial region had the largest population in both 1700 and 1770?",
+    "options": [
+      { "id": "a", "text": "The Southern Colonies led in both years" },
+      { "id": "b", "text": "New England led in both years" },
+      { "id": "c", "text": "The Middle Colonies led in both years" },
+      { "id": "d", "text": "All three regions were equal by 1770" }
+    ],
+    "answer": "a",
+    "explanation": "The Southern Colonies grew from 105,000 in 1700 to over 1 million in 1770, ahead of both other regions.",
+    "source_url": "https://www.census.gov/history/www/through_the_decades/overview/1790.html",
+    "fun_fact": "By 1770, enslaved African Americans made up nearly 40 percent of the Southern Colonies' population.",
+    "trap_notes": {
+      "b": "New England had 93,000 in 1700 and 581,000 in 1770, second in 1770.",
+      "c": "The Middle Colonies grew fastest by percentage but remained third in total size.",
+      "d": "The South had nearly twice the population of either northern region in 1770.",
+      "default": "Compare the numbers in each column: 105 and 1,012 are the largest in both."
+    }
+  },
+  {
+    "id": "us-dat-102",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Cotton & Antebellum Economy",
+    "era": "1790–1860",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.8407, "lng": -83.6324, "label": "Macon, Georgia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Cotton Output and Enslaved Population",
+      "headers": ["Year", "Cotton Bales", "Enslaved People"],
+      "rows": [
+        ["1790", "3,000", "698,000"],
+        ["1820", "335,000", "1,538,000"],
+        ["1860", "3,841,000", "3,954,000"]
+      ]
+    },
+    "prompt": "What historical trend does this table show after the 1793 invention of the cotton gin?",
+    "options": [
+      { "id": "a", "text": "Cotton output and slavery both rose sharply" },
+      { "id": "b", "text": "Cotton output rose while slavery faded away" },
+      { "id": "c", "text": "Cotton output fell as farms shifted to wheat" },
+      { "id": "d", "text": "Enslaved numbers stayed flat after 1820" }
+    ],
+    "answer": "a",
+    "explanation": "The cotton gin made short-staple cotton profitable, driving huge growth in both cotton bales and enslaved labor.",
+    "source_url": "https://www.archives.gov/education/lessons/cotton-gin-patent",
+    "fun_fact": "By 1860, raw cotton made up more than half of all U.S. export earnings.",
+    "trap_notes": {
+      "b": "The table shows enslaved people grew from 698,000 to nearly 4 million.",
+      "c": "Cotton output jumped over a thousandfold between 1790 and 1860.",
+      "d": "Enslaved numbers more than doubled between 1820 and 1860.",
+      "default": "Read both columns from 1790 to 1860: both numbers climb dramatically."
+    }
+  },
+  {
+    "id": "us-dat-103",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Election of 1860",
+    "era": "1860",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.7817, "lng": -89.6501, "label": "Springfield, Illinois" },
+    "stimulus": {
+      "kind": "table",
+      "title": "1860 Presidential Election Results",
+      "headers": ["Candidate", "Popular Vote %", "Electoral Votes"],
+      "rows": [
+        ["Abraham Lincoln", "39.8%", "180"],
+        ["Stephen Douglas", "29.5%", "12"],
+        ["John Breckinridge", "18.1%", "72"]
+      ]
+    },
+    "prompt": "How did Abraham Lincoln win the 1860 presidency despite winning under 40% of the popular vote?",
+    "options": [
+      { "id": "a", "text": "He won a majority of Northern electoral votes" },
+      { "id": "b", "text": "The House of Representatives chose him" },
+      { "id": "c", "text": "Stephen Douglas gave him his delegates" },
+      { "id": "d", "text": "Southern states boycotted the popular vote" }
+    ],
+    "answer": "a",
+    "explanation": "With opponents split, Lincoln swept populous free states and reached 180 electoral votes, a clear majority of 303.",
+    "source_url": "https://www.archives.gov/electoral-college/history",
+    "fun_fact": "Lincoln was not even on the ballot in ten southern states in 1860.",
+    "trap_notes": {
+      "b": "The House only decides when no candidate wins an electoral majority; Lincoln had 180 of 303.",
+      "c": "Douglas ran against Lincoln to the end and won 12 electoral votes.",
+      "d": "Southern states voted heavily for Breckinridge and John Bell.",
+      "default": "Winning populous states gives all their electoral votes, letting a plural winner reach 180."
+    }
+  },
+  {
+    "id": "us-dat-104",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Civil War Casualties",
+    "era": "1861–1865",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.8309, "lng": -77.2311, "label": "Gettysburg, Pennsylvania" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Civil War Soldier Deaths by Cause",
+      "headers": ["Side", "Combat Deaths", "Disease & Other"],
+      "rows": [
+        ["Union", "110,000", "250,000"],
+        ["Confederate", "94,000", "164,000"],
+        ["Combined Total", "204,000", "414,000"]
+      ]
+    },
+    "prompt": "What does the table reveal about the leading cause of soldier deaths during the Civil War?",
+    "options": [
+      { "id": "a", "text": "Disease killed roughly twice as many as combat" },
+      { "id": "b", "text": "Combat killed more soldiers than camp disease" },
+      { "id": "c", "text": "Confederate combat deaths exceeded Union totals" },
+      { "id": "d", "text": "Union troops suffered fewer disease deaths" }
+    ],
+    "answer": "a",
+    "explanation": "Combined disease and non-combat deaths (414,000) were more than double battlefield combat deaths (204,000).",
+    "source_url": "https://www.nps.gov/civilwar/facts.htm",
+    "fun_fact": "Crowded camps, poor sanitation, and lack of antibiotics made typhoid and dysentery deadlier than bullets.",
+    "trap_notes": {
+      "b": "The combined combat total (204,000) was half the disease total (414,000).",
+      "c": "Union combat deaths (110,000) exceeded Confederate combat deaths (94,000).",
+      "d": "Union troops lost 250,000 to disease compared with 164,000 Confederate losses.",
+      "default": "Compare 204,000 combat deaths to 414,000 disease and other deaths."
+    }
+  },
+  {
+    "id": "us-dat-105",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Railroad Expansion",
+    "era": "1850–1890",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Railroad Track Mileage",
+      "headers": ["Year", "Total Miles", "Key Milestone"],
+      "rows": [
+        ["1850", "9,021", "Early eastern lines"],
+        ["1870", "52,922", "First transcontinental line"],
+        ["1890", "163,597", "National rail network"]
+      ]
+    },
+    "prompt": "During which 20-year period did the U.S. add the most miles of railroad track?",
+    "options": [
+      { "id": "a", "text": "1870 to 1890, adding over 110,000 miles" },
+      { "id": "b", "text": "1850 to 1870, adding about 44,000 miles" },
+      { "id": "c", "text": "Before 1850, with early eastern lines" },
+      { "id": "d", "text": "Both periods added the exact same mileage" }
+    ],
+    "answer": "a",
+    "explanation": "From 1870 to 1890, U.S. track mileage jumped from 52,922 to 163,597—an addition of over 110,000 miles.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/railroads-in-late-19th-century/",
+    "fun_fact": "To coordinate train schedules across thousands of miles, railroads created four U.S. time zones in 1883.",
+    "trap_notes": {
+      "b": "Track grew by about 43,901 miles in 1850–1870, far less than in 1870–1890.",
+      "c": "Total mileage in 1850 was only 9,021 miles.",
+      "d": "The post-1870 Gilded Age boom more than doubled the earlier gain.",
+      "default": "Subtract 1870 from 1890 (110,675 miles) and compare with 1850 to 1870 (43,901 miles)."
+    }
+  },
+  {
+    "id": "us-dat-106",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Immigration Shifts",
+    "era": "1870–1920",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.6995, "lng": -74.0396, "label": "Ellis Island, New York" },
+    "stimulus": {
+      "kind": "table",
+      "title": "European Immigration to U.S. by Origin",
+      "headers": ["Decade", "North & West Europe", "South & East Europe"],
+      "rows": [
+        ["1871–1880", "2,070,000", "180,000"],
+        ["1891–1900", "1,640,000", "1,910,000"],
+        ["1901–1910", "1,910,000", "6,150,000"]
+      ]
+    },
+    "prompt": "What major shift in European immigration is shown between the 1870s and the 1900s?",
+    "options": [
+      { "id": "a", "text": "Southern and Eastern Europe became the largest source" },
+      { "id": "b", "text": "Northern and Western Europe tripled its share" },
+      { "id": "c", "text": "Total European immigration dropped after 1880" },
+      { "id": "d", "text": "Southern European arrivals stayed below 200,000" }
+    ],
+    "answer": "a",
+    "explanation": "By 1901–1910, 'New Immigrants' from Southern and Eastern Europe outnumbered Northern/Western arrivals over 3 to 1.",
+    "source_url": "https://www.loc.gov/classroom-materials/immigration/",
+    "fun_fact": "This wave included millions of Italians, Poles, Greeks, and Eastern European Jews settling in industrial cities.",
+    "trap_notes": {
+      "b": "Northern and Western European arrivals stayed near 1.9 million while their share fell.",
+      "c": "Total European immigration surged from 2.25 million to over 8 million.",
+      "d": "Southern and Eastern European arrivals jumped from 180,000 to 6.15 million.",
+      "default": "Compare the two columns in 1901–1910: 6.15 million vs. 1.91 million."
+    }
+  },
+  {
+    "id": "us-dat-107",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Urbanization",
+    "era": "1880–1930",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Urban vs. Rural Population Share",
+      "headers": ["Census Year", "Urban %", "Rural %"],
+      "rows": [
+        ["1880", "28.2%", "71.8%"],
+        ["1900", "39.6%", "60.4%"],
+        ["1920", "51.2%", "48.8%"]
+      ]
+    },
+    "prompt": "What demographic milestone does the 1920 census row document?",
+    "options": [
+      { "id": "a", "text": "Most Americans lived in urban areas for the first time" },
+      { "id": "b", "text": "Rural populations still outnumbered city residents" },
+      { "id": "c", "text": "Urban growth slowed down after 1900" },
+      { "id": "d", "text": "Farm life drew millions away from factory cities" }
+    ],
+    "answer": "a",
+    "explanation": "In 1920, the urban share reached 51.2%, marking the first time more Americans lived in cities and towns than rural areas.",
+    "source_url": "https://www.census.gov/history/www/through_the_decades/overview/1920.html",
+    "fun_fact": "Factory jobs, electric streetcars, and immigration fueled rapid city growth between 1880 and 1920.",
+    "trap_notes": {
+      "b": "In 1920, rural share fell to 48.8%, below the 51.2% urban majority.",
+      "c": "Urban share rose 11.6 points from 1900 to 1920, matching the earlier pace.",
+      "d": "The trend moved from rural farms to urban cities, not the reverse.",
+      "default": "Look at the 1920 row: 51.2% urban passes the 50% mark."
+    }
+  },
+  {
+    "id": "us-dat-108",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Great Depression",
+    "era": "1929–1939",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Unemployment and Bank Failures",
+      "headers": ["Year", "Unemployment Rate", "Bank Failures"],
+      "rows": [
+        ["1929", "3.2%", "659"],
+        ["1933", "24.9%", "4,000"],
+        ["1937", "14.3%", "59"]
+      ]
+    },
+    "prompt": "Which statement best matches the economic turnaround shown between 1933 and 1937?",
+    "options": [
+      { "id": "a", "text": "Bank failures plunged after New Deal banking reforms" },
+      { "id": "b", "text": "Unemployment reached its peak in 1937" },
+      { "id": "c", "text": "Bank failures were higher in 1937 than in 1929" },
+      { "id": "d", "text": "Unemployment returned to 1929 levels by 1937" }
+    ],
+    "answer": "a",
+    "explanation": "After the 1933 bank holiday and FDIC deposit insurance, bank failures dropped from 4,000 in 1933 to just 59 in 1937.",
+    "source_url": "https://www.federalreservehistory.org/essays/bank-holiday-of-1933",
+    "fun_fact": "The Emergency Banking Act and FDIC restored public trust so people stopped rushing to pull out cash.",
+    "trap_notes": {
+      "b": "Unemployment peaked at 24.9% in 1933, not 1937.",
+      "c": "Bank failures were 59 in 1937, far below 659 in 1929.",
+      "d": "Unemployment was still 14.3% in 1937, well above 3.2% in 1929.",
+      "default": "Compare 1933 (4,000 bank failures) with 1937 (59 bank failures)."
+    }
+  },
+  {
+    "id": "us-dat-109",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Automobile Age",
+    "era": "1910–1930",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Ford Model T Price and U.S. Car Registrations",
+      "headers": ["Year", "Model T Price", "Registered Cars"],
+      "rows": [
+        ["1909", "$850", "306,000"],
+        ["1916", "$360", "3,368,000"],
+        ["1924", "$290", "15,460,000"]
+      ]
+    },
+    "prompt": "How did Henry Ford's moving assembly line affect car prices and ownership?",
+    "options": [
+      { "id": "a", "text": "Falling prices helped millions of families buy cars" },
+      { "id": "b", "text": "Rising prices limited car ownership to the rich" },
+      { "id": "c", "text": "Car ownership grew slowly until prices doubled" },
+      { "id": "d", "text": "Lower prices caused total car sales to shrink" }
+    ],
+    "answer": "a",
+    "explanation": "Assembly-line efficiency cut Model T prices from $850 to $290, helping car registrations jump past 15 million.",
+    "source_url": "https://www.loc.gov/item/today-in-history/october-01/",
+    "fun_fact": "Ford cut the time needed to build a Model T chassis from over 12 hours to about 90 minutes.",
+    "trap_notes": {
+      "b": "Model T prices fell by nearly two-thirds, making cars affordable for middle-class families.",
+      "c": "Registrations jumped fiftyfold as prices dropped, not rose.",
+      "d": "Lower prices expanded sales dramatically rather than shrinking them.",
+      "default": "As Model T prices dropped from $850 to $290, registered cars jumped from 306,000 to 15.46 million."
+    }
+  },
+  {
+    "id": "us-dat-110",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "World War I",
+    "era": "1914–1919",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Exports to Europe ($ millions)",
+      "headers": ["Trading Partner", "1914", "1916"],
+      "rows": [
+        ["Britain & France", "$754", "$2,387"],
+        ["Germany", "$345", "$0.3"],
+        ["Total to Europe", "$1,486", "$3,813"]
+      ]
+    },
+    "prompt": "What does this trade table show about U.S. neutrality between 1914 and 1916?",
+    "options": [
+      { "id": "a", "text": "U.S. trade became tied heavily to the Allies" },
+      { "id": "b", "text": "U.S. exports to Germany grew during the blockade" },
+      { "id": "c", "text": "The U.S. stopped trading with Britain and France" },
+      { "id": "d", "text": "Total U.S. exports to Europe fell by half" }
+    ],
+    "answer": "a",
+    "explanation": "Britain's naval blockade cut U.S. exports to Germany to near zero while Allied orders tripled to $2.39 billion.",
+    "source_url": "https://history.state.gov/milestones/1914-1920/wwi",
+    "fun_fact": "American banks also loaned over $2 billion to the Allies before the U.S. entered the war in 1917.",
+    "trap_notes": {
+      "b": "Exports to Germany collapsed from $345 million to $0.3 million.",
+      "c": "Exports to Britain and France more than tripled between 1914 and 1916.",
+      "d": "Total exports to Europe more than doubled from $1,486M to $3,813M.",
+      "default": "Compare Allied exports ($2,387M) to German exports ($0.3M) in 1916."
+    }
+  },
+  {
+    "id": "us-dat-111",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "World War II Production",
+    "era": "1940–1945",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Wartime Aircraft & Ship Output",
+      "headers": ["Year", "Military Planes", "Merchant Ships"],
+      "rows": [
+        ["1940", "6,019", "53"],
+        ["1942", "47,836", "746"],
+        ["1944", "96,318", "1,677"]
+      ]
+    },
+    "prompt": "What does this World War II production table demonstrate about the U.S. 'Arsenal of Democracy'?",
+    "options": [
+      { "id": "a", "text": "U.S. factories scaled up war output at massive speed" },
+      { "id": "b", "text": "Aircraft production peaked in 1940 before Pearl Harbor" },
+      { "id": "c", "text": "Shipbuilding slowed down as plane output rose" },
+      { "id": "d", "text": "Output stayed flat between 1942 and 1944" }
+    ],
+    "answer": "a",
+    "explanation": "From 1940 to 1944, U.S. aircraft output grew sixteenfold and shipbuilding grew over thirtyfold to supply the Allies.",
+    "source_url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/america-goes-war-take-closer-look",
+    "fun_fact": "Willow Run in Michigan turned out one B-24 bomber roughly every hour at peak production.",
+    "trap_notes": {
+      "b": "1940 had the lowest output (6,019 planes); 1944 reached 96,318.",
+      "c": "Merchant ship output more than doubled from 1942 to 1944.",
+      "d": "Both planes and ships roughly doubled again between 1942 and 1944.",
+      "default": "Look at the steep climb in both columns from 1940 to 1944."
+    }
+  },
+  {
+    "id": "us-dat-112",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Great Migration",
+    "era": "1910–1970",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Black Population Share by U.S. Region",
+      "headers": ["Year", "South", "North & West"],
+      "rows": [
+        ["1910", "89%", "11%"],
+        ["1940", "77%", "23%"],
+        ["1970", "53%", "47%"]
+      ]
+    },
+    "prompt": "Which historical movement explains the shift shown in this 60-year regional table?",
+    "options": [
+      { "id": "a", "text": "The Great Migration of Black families out of the South" },
+      { "id": "b", "text": "The Dust Bowl movement of Plains farmers to Oregon" },
+      { "id": "c", "text": "The California Gold Rush of 1848–1850" },
+      { "id": "d", "text": "The Post-1970 Sunbelt shift back to rural farms" }
+    ],
+    "answer": "a",
+    "explanation": "During the Great Migration (1910–1970), roughly 6 million Black Americans moved from the South to northern and western cities.",
+    "source_url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+    "fun_fact": "Newspapers like the Chicago Defender encouraged southern Black families to head north for factory jobs and voting rights.",
+    "trap_notes": {
+      "b": "The Dust Bowl happened only in the 1930s on the Great Plains.",
+      "c": "The Gold Rush occurred in 1848–1850, long before 1910.",
+      "d": "The table ends in 1970 and shows movement out of the South, not into it.",
+      "default": "Between 1910 and 1970, the share of Black Americans outside the South rose from 11% to 47%."
+    }
+  },
+  {
+    "id": "us-dat-113",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Baby Boom & Suburbs",
+    "era": "1945–1964",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.766, "lng": -73.525, "label": "Levittown, New York" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Annual Births (in millions)",
+      "headers": ["Year", "Annual Births", "Historical Context"],
+      "rows": [
+        ["1935", "2.38", "Great Depression"],
+        ["1947", "3.82", "Post-WWII Baby Boom"],
+        ["1957", "4.30", "Peak Baby Boom"]
+      ]
+    },
+    "prompt": "What postwar change does the jump in annual births from 1935 to 1957 reflect?",
+    "options": [
+      { "id": "a", "text": "The Baby Boom fueled demand for schools and suburbs" },
+      { "id": "b", "text": "Great Depression hardship raised birth rates in 1935" },
+      { "id": "c", "text": "Births declined steadily after World War II ended" },
+      { "id": "d", "text": "Suburban growth slowed down during the 1950s" }
+    ],
+    "answer": "a",
+    "explanation": "Prosperity and returning veterans pushed births to 4.3 million by 1957, driving a boom in suburbs and public schools.",
+    "source_url": "https://www.census.gov/library/stories/2019/12/by-2030-all-baby-boomers-will-be-age-65-or-older.html",
+    "fun_fact": "Roughly 76 million Americans were born during the Baby Boom years from 1946 to 1964.",
+    "trap_notes": {
+      "b": "1935 had the lowest birth count (2.38 million) in the table.",
+      "c": "Births climbed sharply from 1947 (3.82M) to 1957 (4.30M).",
+      "d": "Suburban housing boomed in the 1950s to house growing Baby Boom families.",
+      "default": "Annual births nearly doubled from 1935 to the 1957 Baby Boom peak."
+    }
+  },
+  {
+    "id": "us-dat-114",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1964–1968",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 32.2988, "lng": -90.1848, "label": "Jackson, Mississippi" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Black Voter Registration in Deep South (%)",
+      "headers": ["State", "1964", "1969"],
+      "rows": [
+        ["Mississippi", "6.7%", "66.5%"],
+        ["Alabama", "19.3%", "61.3%"],
+        ["Georgia", "27.4%", "60.4%"]
+      ]
+    },
+    "prompt": "Which federal law directly caused the sharp rise in registration shown between 1964 and 1969?",
+    "options": [
+      { "id": "a", "text": "The Voting Rights Act of 1965" },
+      { "id": "b", "text": "The GI Bill of 1944" },
+      { "id": "c", "text": "The Social Security Act of 1935" },
+      { "id": "d", "text": "The Interstate Highway Act of 1956" }
+    ],
+    "answer": "a",
+    "explanation": "The Voting Rights Act of 1965 banned literacy tests and sent federal registrars, lifting registration across the Deep South.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "fun_fact": "Mississippi's Black voter registration jumped nearly tenfold in five years after 1964.",
+    "trap_notes": {
+      "b": "The 1944 GI Bill funded veteran education and mortgages, not voting access.",
+      "c": "Social Security (1935) created retirement pensions, not voter protections.",
+      "d": "The 1956 Highway Act built interstate roads, unrelated to voter registration.",
+      "default": "Look at the dates 1964 to 1969: the 1965 Voting Rights Act transformed ballot access."
+    }
+  },
+  {
+    "id": "us-dat-115",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Federal Spending & Cold War",
+    "era": "1960–1985",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Defense Share of Federal Budget",
+      "headers": ["Year", "Defense Share", "Context"],
+      "rows": [
+        ["1960", "52.2%", "Early Cold War"],
+        ["1975", "26.0%", "Post-Vietnam drawdown"],
+        ["1985", "26.7%", "Reagan defense buildup"]
+      ]
+    },
+    "prompt": "Why did defense drop from over half the federal budget in 1960 to 26% by 1975?",
+    "options": [
+      { "id": "a", "text": "Domestic programs grew while Vietnam ended" },
+      { "id": "b", "text": "The U.S. disbanded its armed forces in 1975" },
+      { "id": "c", "text": "The Cold War ended in 1975 with a Soviet collapse" },
+      { "id": "d", "text": "Federal income taxes were abolished in 1970" }
+    ],
+    "answer": "a",
+    "explanation": "Medicare, Medicaid, and Social Security expanded the domestic budget while U.S. forces withdrew from Vietnam.",
+    "source_url": "https://www.cbo.gov/topics/budget",
+    "fun_fact": "Even when Reagan boosted defense dollars in the 1980s, entitlements kept defense near a quarter of the budget.",
+    "trap_notes": {
+      "b": "The U.S. kept a large military throughout the Cold War.",
+      "c": "The Cold War continued until 1991, not 1975.",
+      "d": "Federal income taxes remained in place after 1970.",
+      "default": "Great Society programs expanded non-defense spending while Vietnam War costs ended."
+    }
+  },
+  {
+    "id": "us-dat-116",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Electoral History",
+    "era": "1912–1920",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "1912 Presidential Election Results",
+      "headers": ["Candidate", "Party", "Electoral Votes"],
+      "rows": [
+        ["Woodrow Wilson", "Democratic", "435"],
+        ["Theodore Roosevelt", "Progressive", "88"],
+        ["William H. Taft", "Republican", "8"]
+      ]
+    },
+    "prompt": "How did Democrat Woodrow Wilson win 435 electoral votes in 1912?",
+    "options": [
+      { "id": "a", "text": "Roosevelt and Taft split the Republican vote" },
+      { "id": "b", "text": "Taft withdrew from the race before November" },
+      { "id": "c", "text": "Wilson won 90 percent of the popular vote" },
+      { "id": "d", "text": "The Progressive Party backed Wilson in 1912" }
+    ],
+    "answer": "a",
+    "explanation": "Former President Roosevelt ran as a third-party Progressive, splitting Republican voters with Taft and handing Wilson a landslide.",
+    "source_url": "https://www.archives.gov/electoral-college/history",
+    "fun_fact": "Roosevelt's 88 electoral votes remain the strongest third-party presidential showing in U.S. history.",
+    "trap_notes": {
+      "b": "Taft stayed in the race and won 8 electoral votes.",
+      "c": "Wilson won with 41.8% of the popular vote, not 90%.",
+      "d": "The Progressive Party nominated Roosevelt against Wilson and Taft.",
+      "default": "Notice two candidates (Roosevelt and Taft) competed for the same Republican coalition."
+    }
+  },
+  {
+    "id": "us-dat-117",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Women in the Workforce",
+    "era": "1940–1980",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Women's Labor Force Participation",
+      "headers": ["Year", "Share Working", "Era"],
+      "rows": [
+        ["1940", "27.4%", "Pre-WWII"],
+        ["1960", "37.7%", "Postwar Era"],
+        ["1980", "51.5%", "Late 20th Century"]
+      ]
+    },
+    "prompt": "What long-term social trend does this 40-year labor table show?",
+    "options": [
+      { "id": "a", "text": "Women's paid workforce share rose steadily past half" },
+      { "id": "b", "text": "Women left the paid workforce after 1960" },
+      { "id": "c", "text": "Most women already held paid jobs in 1940" },
+      { "id": "d", "text": "Participation fell between 1940 and 1960" }
+    ],
+    "answer": "a",
+    "explanation": "From 1940 to 1980, women's labor force participation climbed from 27.4% to 51.5%, crossing the majority mark.",
+    "source_url": "https://www.dol.gov/agencies/wb/data/facts-over-time",
+    "fun_fact": "Expanding service-sector jobs, higher college attendance, and equal-pay laws helped drive the 1960–1980 surge.",
+    "trap_notes": {
+      "b": "Participation jumped from 37.7% in 1960 to 51.5% in 1980.",
+      "c": "Only 27.4% of women were in the paid labor force in 1940.",
+      "d": "Participation rose more than 10 percentage points between 1940 and 1960.",
+      "default": "Read down the Share Working column: 27.4% -> 37.7% -> 51.5%."
+    }
+  },
+  {
+    "id": "us-dat-118",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "New Deal Farm Policy",
+    "era": "1929–1936",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines, Iowa" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Average Wheat Price per Bushel",
+      "headers": ["Year", "Price / Bushel", "Farm Policy"],
+      "rows": [
+        ["1929", "$1.04", "Pre-Crash"],
+        ["1932", "$0.38", "No Federal Limits"],
+        ["1935", "$0.83", "Agricultural Adjustment Act"]
+      ]
+    },
+    "prompt": "How did the 1933 Agricultural Adjustment Act (AAA) help lift wheat prices by 1935?",
+    "options": [
+      { "id": "a", "text": "It paid farmers to cut output and reduce surpluses" },
+      { "id": "b", "text": "It ordered farmers to double wheat acreage" },
+      { "id": "c", "text": "It ended all tariffs on foreign grain imports" },
+      { "id": "d", "text": "It set a maximum price cap of 38 cents" }
+    ],
+    "answer": "a",
+    "explanation": "By paying farmers to plant fewer acres, the AAA lowered crop surpluses so wheat prices recovered from $0.38 to $0.83.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/franklin-delano-roosevelt-and-the-new-deal/",
+    "fun_fact": "The Supreme Court struck down the first AAA in 1936, so Congress passed a revised farm law in 1938.",
+    "trap_notes": {
+      "b": "Doubling acreage would have flooded the market and pushed prices even lower.",
+      "c": "Cutting tariffs on imports would have increased supply and lowered U.S. prices.",
+      "d": "$0.38 was the Depression crash price in 1932, not a government cap.",
+      "default": "To raise crop prices during a glut, the AAA paid farmers to reduce supply."
+    }
+  },
+  {
+    "id": "us-dat-119",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Higher Education & GI Bill",
+    "era": "1940–1960",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Bachelor's Degrees Awarded",
+      "headers": ["Year", "Degrees Awarded", "Context"],
+      "rows": [
+        ["1940", "186,500", "Pre-WWII"],
+        ["1950", "432,000", "GI Bill Veterans"],
+        ["1960", "392,000", "Post-GI Bill"]
+      ]
+    },
+    "prompt": "Why did U.S. bachelor's degrees spike to 432,000 in 1950 before dipping slightly in 1960?",
+    "options": [
+      { "id": "a", "text": "The 1944 GI Bill funded college for WWII veterans" },
+      { "id": "b", "text": "Colleges closed their doors during the 1950s" },
+      { "id": "c", "text": "The draft barred veterans from attending college" },
+      { "id": "d", "text": "High schools stopped graduating students in 1955" }
+    ],
+    "answer": "a",
+    "explanation": "The 1944 GI Bill paid tuition and living stipends for millions of WWII veterans, creating a 1950 graduation surge.",
+    "source_url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+    "fun_fact": "At peak enrollment in 1947, veterans made up nearly half of all U.S. college students.",
+    "trap_notes": {
+      "b": "Colleges expanded rapidly in the 1950s rather than closing.",
+      "c": "The GI Bill actively paid for veterans to attend college.",
+      "d": "High school graduation rates rose steadily in the 1950s.",
+      "default": "The 1950 spike matches the first wave of WWII veterans finishing college on the GI Bill."
+    }
+  },
+  {
+    "id": "us-dat-120",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "1970s Energy Crisis",
+    "era": "1972–1980",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Average Gasoline Price & Inflation",
+      "headers": ["Year", "Gas / Gallon", "Inflation Rate"],
+      "rows": [
+        ["1972", "$0.36", "3.2%"],
+        ["1974", "$0.53", "11.0%"],
+        ["1980", "$1.19", "13.5%"]
+      ]
+    },
+    "prompt": "What 1970s economic problem is reflected in rising fuel prices alongside double-digit inflation?",
+    "options": [
+      { "id": "a", "text": "OPEC oil shocks drove stagflation across the U.S." },
+      { "id": "b", "text": "Falling oil prices caused severe 1970s deflation" },
+      { "id": "c", "text": "Cheap domestic oil kept inflation near 3%" },
+      { "id": "d", "text": "Gasoline prices dropped after 1974" }
+    ],
+    "answer": "a",
+    "explanation": "The 1973 OPEC embargo and 1979 oil shock tripled gas prices and helped trigger 1970s stagflation.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/oil-embargo",
+    "fun_fact": "Long lines at gas stations led the U.S. to adopt a national 55 mph speed limit in 1974 to save fuel.",
+    "trap_notes": {
+      "b": "Inflation surged to 11.0% and 13.5%, the opposite of deflation.",
+      "c": "Inflation jumped far above 3% in 1974 and 1980.",
+      "d": "Gasoline more than doubled from $0.53 in 1974 to $1.19 in 1980.",
+      "default": "Rising oil prices in 1973 and 1979 pushed both gas prices and inflation sharply upward."
+    }
+  },
+  {
+    "id": "us-dat-121",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Reconstruction Amendments",
+    "era": "1865–1870",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Black Legislators in Selected Southern States",
+      "headers": ["State", "1870", "1890"],
+      "rows": [
+        ["South Carolina", "85", "4"],
+        ["Mississippi", "35", "0"],
+        ["Louisiana", "49", "0"]
+      ]
+    },
+    "prompt": "What political shift between 1870 and 1890 does this table illustrate?",
+    "options": [
+      { "id": "a", "text": "Post-Reconstruction disfranchisement erased Black officeholders" },
+      { "id": "b", "text": "Black political representation grew steadily after 1877" },
+      { "id": "c", "text": "The 15th Amendment took effect for the first time in 1890" },
+      { "id": "d", "text": "South Carolina had fewer Black lawmakers in 1870" }
+    ],
+    "answer": "a",
+    "explanation": "After federal troops left in 1877, poll taxes, literacy tests, and intimidation drove Black lawmakers out of southern legislatures.",
+    "source_url": "https://www.loc.gov/exhibits/african-american-odyssey/reconstruction.html",
+    "fun_fact": "It took until the Voting Rights Act of 1965 for Black legislative representation in the South to rebound.",
+    "trap_notes": {
+      "b": "Representation collapsed from dozens of lawmakers in 1870 to near zero by 1890.",
+      "c": "The 15th Amendment was ratified in 1870, not 1890.",
+      "d": "South Carolina had 85 Black lawmakers in 1870 and only 4 in 1890.",
+      "default": "Compare 1870 Reconstruction numbers with 1890 Jim Crow numbers."
+    }
+  },
+  {
+    "id": "us-dat-122",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Tariffs & Trade",
+    "era": "1929–1933",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Foreign Trade After Smoot-Hawley (1930)",
+      "headers": ["Year", "U.S. Exports", "U.S. Imports"],
+      "rows": [
+        ["1929", "$5.2B", "$4.4B"],
+        ["1931", "$2.4B", "$2.1B"],
+        ["1933", "$1.7B", "$1.4B"]
+      ]
+    },
+    "prompt": "What happened to U.S. foreign trade after the 1930 Smoot-Hawley Tariff raised import taxes?",
+    "options": [
+      { "id": "a", "text": "Retaliatory tariffs helped cut U.S. trade by two-thirds" },
+      { "id": "b", "text": "U.S. exports doubled as foreign nations bought more" },
+      { "id": "c", "text": "Imports rose sharply above $5 billion by 1933" },
+      { "id": "d", "text": "Trade stayed unchanged throughout the Depression" }
+    ],
+    "answer": "a",
+    "explanation": "Foreign nations hit back with their own tariffs, causing both U.S. exports and imports to plunge by about two-thirds.",
+    "source_url": "https://history.state.gov/milestones/1921-1936/protectionism",
+    "fun_fact": "Over 1,000 economists signed a petition urging President Hoover to veto the 1930 Smoot-Hawley bill.",
+    "trap_notes": {
+      "b": "U.S. exports fell from $5.2B in 1929 to $1.7B in 1933.",
+      "c": "U.S. imports dropped from $4.4B to $1.4B by 1933.",
+      "d": "Both exports and imports collapsed dramatically between 1929 and 1933.",
+      "default": "Follow both columns down from 1929 to 1933: trade shrank by roughly two-thirds."
+    }
+  },
+  {
+    "id": "us-dat-123",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Westward Homesteading",
+    "era": "1862–1900",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.2647, "lng": -96.747, "label": "Beatrice, Nebraska" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Population Growth in Plains States",
+      "headers": ["State", "1870", "1890"],
+      "rows": [
+        ["Kansas", "364,000", "1,428,000"],
+        ["Nebraska", "123,000", "1,063,000"],
+        ["South Dakota", "12,000", "349,000"]
+      ]
+    },
+    "prompt": "Which 1862 federal law combined with railroads to drive the Plains population boom shown here?",
+    "options": [
+      { "id": "a", "text": "The Homestead Act granting 160 acres to settlers" },
+      { "id": "b", "text": "The Embargo Act halting European trade" },
+      { "id": "c", "text": "The Lend-Lease Act supplying Allied armies" },
+      { "id": "d", "text": "The Wagner Act protecting factory unions" }
+    ],
+    "answer": "a",
+    "explanation": "The 1862 Homestead Act offered 160 acres of public land to families who farmed it for five years.",
+    "source_url": "https://www.archives.gov/milestone-documents/homestead-act",
+    "fun_fact": "Eventually, about 10 percent of all U.S. land—270 million acres—was settled under the Homestead Act.",
+    "trap_notes": {
+      "b": "The 1807 Embargo Act restricted sea trade, unrelated to Plains settlement.",
+      "c": "Lend-Lease was a 1941 World War II supply program.",
+      "d": "The 1935 Wagner Act protected labor unions, not western homesteaders.",
+      "default": "Match 1870–1890 Plains farm settlement to the 1862 Homestead Act."
+    }
+  },
+  {
+    "id": "us-dat-124",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Progressive Era Labor",
+    "era": "1900–1920",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Children Ages 10–15 in Paid Work",
+      "headers": ["Year", "Working Children", "Share of Age Group"],
+      "rows": [
+        ["1900", "1,750,000", "18.2%"],
+        ["1920", "1,060,000", "8.5%"],
+        ["1930", "667,000", "4.7%"]
+      ]
+    },
+    "prompt": "What Progressive reform trend explains the drop in child labor from 18.2% in 1900 to 4.7% in 1930?",
+    "options": [
+      { "id": "a", "text": "Compulsory school laws and state child-labor limits" },
+      { "id": "b", "text": "Factories hiring more children under age ten" },
+      { "id": "c", "text": "Closing public high schools in industrial cities" },
+      { "id": "d", "text": "Banning adult immigrants from factory jobs" }
+    ],
+    "answer": "a",
+    "explanation": "Compulsory attendance laws and state child-labor restrictions moved children out of mines and mills into schools.",
+    "source_url": "https://www.loc.gov/collections/national-child-labor-committee/about-this-collection/",
+    "fun_fact": "Photographer Lewis Hine documented child mill workers to build public support for child-labor laws.",
+    "trap_notes": {
+      "b": "Child labor fell sharply rather than rising.",
+      "c": "High school enrollment surged as child labor declined.",
+      "d": "Adult immigrants continued working in factories throughout this era.",
+      "default": "Progressive school and labor laws cut child employment by nearly three-quarters."
+    }
+  },
+  {
+    "id": "us-dat-125",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Space Race",
+    "era": "1960–1970",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 28.5729, "lng": -80.649, "label": "Cape Canaveral, Florida" },
+    "stimulus": {
+      "kind": "table",
+      "title": "NASA Share of Federal Budget",
+      "headers": ["Year", "NASA Share", "Milestone"],
+      "rows": [
+        ["1960", "0.5%", "Mercury Program"],
+        ["1966", "4.4%", "Apollo Build-Up"],
+        ["1972", "1.5%", "Final Apollo Flights"]
+      ]
+    },
+    "prompt": "Why did NASA's share of the federal budget peak at 4.4% in 1966?",
+    "options": [
+      { "id": "a", "text": "The U.S. funded Apollo heavily to beat the USSR to the Moon" },
+      { "id": "b", "text": "The Apollo 11 Moon landing happened in 1960" },
+      { "id": "c", "text": "NASA stopped launching rockets after 1966" },
+      { "id": "d", "text": "Congress cut NASA's budget before the Moon race" }
+    ],
+    "answer": "a",
+    "explanation": "Following Kennedy's 1961 pledge, Congress poured funding into Apollo in the mid-1960s to reach the Moon by 1969.",
+    "source_url": "https://www.nasa.gov/mission/apollo-11/",
+    "fun_fact": "At its 1966 peak, the Apollo program employed roughly 400,000 engineers, scientists, and factory workers.",
+    "trap_notes": {
+      "b": "Apollo 11 landed on the Moon in July 1969, not 1960.",
+      "c": "NASA landed six Apollo crews on the Moon between 1969 and 1972.",
+      "d": "NASA's budget grew nearly ninefold in share between 1960 and 1966.",
+      "default": "1966 was the peak build-up year for the Apollo Moon program."
+    }
+  },
+  {
+    "id": "us-dat-126",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Cold War Alliances",
+    "era": "1948–1952",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Top Marshall Plan Aid Recipients (1948–1951)",
+      "headers": ["Country", "U.S. Aid ($ billions)", "Region"],
+      "rows": [
+        ["United Kingdom", "$3.2B", "Western Europe"],
+        ["France", "$2.7B", "Western Europe"],
+        ["West Germany", "$1.4B", "Western Europe"]
+      ]
+    },
+    "prompt": "What Cold War goal did U.S. Marshall Plan aid to Western Europe aim to achieve?",
+    "options": [
+      { "id": "a", "text": "Rebuild postwar economies to resist communism" },
+      { "id": "b", "text": "Keep West Germany weak and unindustrialized" },
+      { "id": "c", "text": "Fund Soviet factories inside Eastern Europe" },
+      { "id": "d", "text": "Replace European currencies with the U.S. dollar" }
+    ],
+    "answer": "a",
+    "explanation": "The Marshall Plan sent over $13 billion to rebuild Western European economies so hunger and chaos would not fuel communism.",
+    "source_url": "https://history.state.gov/milestones/1945-1952/marshall-plan",
+    "fun_fact": "The Soviet Union refused Marshall Plan aid and barred Eastern European nations from accepting it.",
+    "trap_notes": {
+      "b": "West Germany received $1.4 billion specifically to rebuild its economy.",
+      "c": "All top recipients were in Western Europe, not the Soviet bloc.",
+      "d": "European nations kept their own currencies while buying U.S. goods and machinery.",
+      "default": "Marshall Plan grants rebuilt Western European democracies after World War II."
+    }
+  },
+  {
+    "id": "us-dat-127",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "Sunbelt Migration",
+    "era": "1950–2000",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.4484, "lng": -112.074, "label": "Phoenix, Arizona" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. House Seats by Selected States",
+      "headers": ["State", "1950 Seats", "2000 Seats"],
+      "rows": [
+        ["New York", "43", "29"],
+        ["California", "30", "53"],
+        ["Texas", "22", "32"]
+      ]
+    },
+    "prompt": "What post-1950 demographic and political shift does this House seat table reflect?",
+    "options": [
+      { "id": "a", "text": "Population and political clout shifted to the Sunbelt" },
+      { "id": "b", "text": "Northeast states gained seats faster than Texas" },
+      { "id": "c", "text": "California lost population between 1950 and 2000" },
+      { "id": "d", "text": "The total size of the House doubled after 1950" }
+    ],
+    "answer": "a",
+    "explanation": "Air conditioning and defense jobs drew millions to the Sunbelt, shifting House seats from New York to California and Texas.",
+    "source_url": "https://www.census.gov/topics/public-sector/congressional-apportionment.html",
+    "fun_fact": "Because the House is capped at 435 seats, rapid Sunbelt growth automatically reduces seats in slower-growing states.",
+    "trap_notes": {
+      "b": "New York dropped from 43 seats to 29, while Texas rose from 22 to 32.",
+      "c": "California gained 23 seats, climbing from 30 to 53.",
+      "d": "The House has remained capped at 435 voting seats since 1913.",
+      "default": "Notice New York fell by 14 seats while Sunbelt states California and Texas gained 33."
+    }
+  },
+  {
+    "id": "us-dat-128",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1775–1783",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, PA" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Continental Dollar Value vs. Gold",
+      "headers": ["Year", "Paper Dollars = $1 Gold", "Context"],
+      "rows": [
+        ["1777", "$3", "Early War Printing"],
+        ["1779", "$28", "Heavy War Debt"],
+        ["1781", "$168", "Near Collapse"]
+      ]
+    },
+    "prompt": "What wartime economic problem is shown by the Continental dollar's collapse from $3 to $168?",
+    "options": [
+      { "id": "a", "text": "Severe inflation from printing unbacked paper money" },
+      { "id": "b", "text": "Deflation caused by too much gold in Congress" },
+      { "id": "c", "text": "High federal income taxes draining paper cash" },
+      { "id": "d", "text": "Steady currency value throughout the war" }
+    ],
+    "answer": "a",
+    "explanation": "Lacking power to tax, the Continental Congress printed huge sums of paper money, causing runaway inflation.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/revolution-of-the-mind.html",
+    "fun_fact": "The phrase 'not worth a Continental' came from how worthless Revolutionary paper bills became by 1781.",
+    "trap_notes": {
+      "b": "Prices soared because Congress had too little gold, not too much.",
+      "c": "The Continental Congress could not levy direct taxes.",
+      "d": "The currency lost almost all of its purchasing power between 1777 and 1781.",
+      "default": "Needing $168 in paper to buy $1 in gold shows extreme inflation."
+    }
+  },
+  {
+    "id": "us-dat-129",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "World War I Home Front",
+    "era": "1917–1919",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "How the U.S. Paid for World War I",
+      "headers": ["Funding Source", "Share of Cost", "Method"],
+      "rows": [
+        ["Liberty Bonds", "68%", "Public Borrowing"],
+        ["Income & Excise Taxes", "22%", "16th Amendment Taxes"],
+        ["Other Revenue", "10%", "Fees & Tariffs"]
+      ]
+    },
+    "prompt": "According to the table, what was the main way the U.S. government financed World War I?",
+    "options": [
+      { "id": "a", "text": "Selling Liberty Bonds to millions of citizens" },
+      { "id": "b", "text": "Raising tariffs to cover 90 percent of costs" },
+      { "id": "c", "text": "Paying the entire war from income taxes alone" },
+      { "id": "d", "text": "Borrowing all funds from European allies" }
+    ],
+    "answer": "a",
+    "explanation": "Public borrowing through Liberty Bonds covered 68% of U.S. World War I spending, far more than taxes.",
+    "source_url": "https://www.federalreservehistory.org/essays/liberty-bonds",
+    "fun_fact": "Movie stars like Charlie Chaplin and Mary Pickford held huge rallies to sell Liberty Bonds.",
+    "trap_notes": {
+      "b": "Tariffs and other revenue covered only 10% of war costs.",
+      "c": "Income and excise taxes covered 22%, less than a third of the Liberty Bond share.",
+      "d": "The U.S. lent money to European allies rather than borrowing from them.",
+      "default": "Look at the Share of Cost column: Liberty Bonds provided 68%."
+    }
+  },
+  {
+    "id": "us-dat-130",
+    "type": "data",
+    "domain": "US",
+    "subdomain": "1990s–2000s Economy",
+    "era": "1990–2005",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.3861, "lng": -122.0839, "label": "Silicon Valley, CA" },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Households with Internet Access",
+      "headers": ["Year", "Share Connected", "Milestone"],
+      "rows": [
+        ["1997", "18.0%", "Early Web Dial-Up"],
+        ["2001", "50.4%", "Broadband Expansion"],
+        ["2009", "68.7%", "Mobile & High-Speed"]
+      ]
+    },
+    "prompt": "What technological milestone does the 2001 row show for U.S. households?",
+    "options": [
+      { "id": "a", "text": "Over half of U.S. homes had Internet access" },
+      { "id": "b", "text": "Internet use fell after the 1990s dot-com boom" },
+      { "id": "c", "text": "Most U.S. homes were already online in 1997" },
+      { "id": "d", "text": "Home Internet growth stalled after 2001" }
+    ],
+    "answer": "a",
+    "explanation": "By 2001, household Internet access reached 50.4%, rising from 18.0% in 1997 as personal computers spread.",
+    "source_url": "https://www.census.gov/topics/population/computer-internet.html",
+    "fun_fact": "Home Internet access climbed another 18 points by 2009 as broadband and Wi-Fi replaced dial-up.",
+    "trap_notes": {
+      "b": "Household access climbed from 50.4% in 2001 to 68.7% in 2009.",
+      "c": "Only 18.0% of U.S. homes had Internet access in 1997.",
+      "d": "Access grew by more than 18 percentage points between 2001 and 2009.",
+      "default": "Look at the 2001 row: 50.4% marks the first majority of U.S. households."
+    }
+  },
+  {
+    "id": "us-syn-101",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Constitutional Compromises",
+    "era": "1787",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, PA" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did the 1787 Great Compromise settle the clash between large and small states in Congress?",
+    "options": [
+      { "id": "a", "text": "A two-house Congress with equal Senate and population House" },
+      { "id": "b", "text": "A single-house Congress giving every state two votes" },
+      { "id": "c", "text": "A rotating presidency shared by large and small states" },
+      { "id": "d", "text": "A Supreme Court appointed directly by state governors" }
+    ],
+    "answer": "a",
+    "explanation": "Roger Sherman's Great Compromise created a bicameral Congress: population-based seats in the House and two per state in the Senate.",
+    "source_url": "https://www.archives.gov/milestone-documents/constitution",
+    "fun_fact": "The Great Compromise is also called the Connecticut Compromise because Sherman came from Connecticut.",
+    "trap_notes": {
+      "b": "A single-house equal legislature was the New Jersey Plan, which large states rejected.",
+      "c": "The compromise restructured Congress, not the presidency.",
+      "d": "The president appoints Supreme Court justices with Senate approval.",
+      "default": "The Great Compromise blended the Virginia Plan (House) and New Jersey Plan (Senate)."
+    }
+  },
+  {
+    "id": "us-syn-102",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Early Republic Finance",
+    "era": "1790–1795",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, PA" },
+    "secondary_geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Why did Alexander Hamilton urge the federal government to assume state Revolutionary War debts?",
+    "options": [
+      { "id": "a", "text": "To build U.S. credit and tie bondholders to the nation" },
+      { "id": "b", "text": "To cancel all foreign loans without paying interest" },
+      { "id": "c", "text": "To abolish federal tariffs on imported factory goods" },
+      { "id": "d", "text": "To return taxing power solely to the state legislatures" }
+    ],
+    "answer": "a",
+    "explanation": "Assuming state debts proved the U.S. paid its bills, boosting credit and giving wealthy investors a stake in federal success.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/formation-of-political-parties.html",
+    "fun_fact": "To win southern votes for debt assumption, Hamilton agreed to place the permanent U.S. capital along the Potomac River.",
+    "trap_notes": {
+      "b": "Hamilton insisted on paying off debts at full value, not canceling them.",
+      "c": "Hamilton supported tariffs to raise revenue and protect young U.S. factories.",
+      "d": "Hamilton wanted stronger federal fiscal authority, not weaker federal power.",
+      "default": "Paying debts on time builds national credit and investor confidence."
+    }
+  },
+  {
+    "id": "us-syn-103",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Proclamation of 1763",
+    "era": "1763–1775",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, PA" },
+    "secondary_geo": { "lat": 38.0293, "lng": -78.4767, "label": "Appalachian Mountains" },
+    "prompt": "What physical barrier did Britain's Proclamation of 1763 use to bar colonists from settling western lands?",
+    "options": [
+      { "id": "a", "text": "The Appalachian Mountains crest line" },
+      { "id": "b", "text": "The Rocky Mountains continental divide" },
+      { "id": "c", "text": "The Rio Grande border with Mexico" },
+      { "id": "d", "text": "The Sierra Nevada mountain range" }
+    ],
+    "answer": "a",
+    "explanation": "To avoid costly wars with Native nations after the French and Indian War, Britain banned settlement west of the Appalachians.",
+    "source_url": "https://history.state.gov/milestones/1750-1775/proclamation-line-1763",
+    "fun_fact": "Many land-hungry colonists, including George Washington, felt angry because they had just fought for the Ohio Valley.",
+    "trap_notes": {
+      "b": "The Rockies lay in French/Spanish territory far west of the 1763 British colonies.",
+      "c": "The Rio Grande is in Texas, not the 1763 colonial frontier.",
+      "d": "The Sierra Nevada is in California, reached by U.S. settlers nearly a century later.",
+      "default": "In 1763, the Appalachian ridge separated the 13 colonies from the Ohio River Valley."
+    }
+  },
+  {
+    "id": "us-syn-104",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Reconstruction & Supreme Court",
+    "era": "1875–1896",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, Louisiana" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did Plessy v. Ferguson (1896) reinterpret the 14th Amendment's Equal Protection Clause?",
+    "options": [
+      { "id": "a", "text": "It upheld 'separate but equal' racial segregation" },
+      { "id": "b", "text": "It outlawed all Jim Crow laws in southern states" },
+      { "id": "c", "text": "It required immediate integration of public schools" },
+      { "id": "d", "text": "It struck down state poll taxes and literacy tests" }
+    ],
+    "answer": "a",
+    "explanation": "Plessy ruled that racial segregation was constitutional as long as facilities were supposedly equal, legalizing Jim Crow for 58 years.",
+    "source_url": "https://www.archives.gov/milestone-documents/plessy-v-ferguson",
+    "fun_fact": "Justice John Marshall Harlan wrote the lone dissent, declaring 'Our Constitution is color-blind.'",
+    "trap_notes": {
+      "b": "Plessy legalized Jim Crow; Brown v. Board (1954) and the 1964 Civil Rights Act ended it.",
+      "c": "School integration came later in Brown v. Board of Education (1954).",
+      "d": "The 24th Amendment (1964) and Voting Rights Act (1965) ended poll taxes and literacy tests.",
+      "default": "Plessy v. Ferguson created the 'separate but equal' doctrine."
+    }
+  },
+  {
+    "id": "us-syn-105",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Market Revolution",
+    "era": "1820–1850",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.6334, "lng": -71.3162, "label": "Lowell, Massachusetts" },
+    "secondary_geo": { "lat": 42.8864, "lng": -78.8784, "label": "Buffalo, New York" },
+    "prompt": "How did canals, steamboats, and railroads transform U.S. regional economies before the Civil War?",
+    "options": [
+      { "id": "a", "text": "They linked western farms to eastern cities and factories" },
+      { "id": "b", "text": "They forced every farm to make all its own tools" },
+      { "id": "c", "text": "They ended cotton shipments from southern ports" },
+      { "id": "d", "text": "They isolated New England mills from national trade" }
+    ],
+    "answer": "a",
+    "explanation": "Lower shipping costs let Midwest farmers sell grain to eastern cities and buy manufactured goods from New England mills.",
+    "source_url": "https://www.nps.gov/lowe/learn/historyculture/index.htm",
+    "fun_fact": "In Lowell, Massachusetts, thousands of young farm women worked in water-powered textile mills.",
+    "trap_notes": {
+      "b": "Cheap transport ended self-sufficiency by letting regions specialize and trade.",
+      "c": "Steamboats carried more southern cotton to ports than ever before.",
+      "d": "New England mills sold cloth nationwide thanks to canals and railroads.",
+      "default": "Faster transport created a linked national market between farms and factories."
+    }
+  },
+  {
+    "id": "us-syn-106",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["World"],
+    "subdomain": "World War I Diplomacy",
+    "era": "1917–1919",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "prompt": "Which 1917 German message helped push the United States to enter World War I?",
+    "options": [
+      { "id": "a", "text": "The Zimmermann Telegram urging Mexico to attack the U.S." },
+      { "id": "b", "text": "The Berlin Airlift order blocking Allied supply trains" },
+      { "id": "c", "text": "The Treaty of Brest-Litovsk ending fighting with Russia" },
+      { "id": "d", "text": "The Munich Pact ceding Czech borderlands to Germany" }
+    ],
+    "answer": "a",
+    "explanation": "British codebreakers intercepted the Zimmermann Telegram, in which Germany offered Mexico U.S. territory if it joined the Central Powers.",
+    "source_url": "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+    "fun_fact": "Combined with Germany's return to unrestricted submarine warfare, the telegram led Congress to declare war in April 1917.",
+    "trap_notes": {
+      "b": "The Berlin Airlift happened in 1948–1949 during the Cold War.",
+      "c": "Brest-Litovsk (1918) took Russia out of WWI after the U.S. had already entered.",
+      "d": "The Munich Pact was a 1938 appeasement agreement before WWII.",
+      "default": "Germany's 1917 Zimmermann Telegram proposed a German-Mexican alliance against the U.S."
+    }
+  },
+  {
+    "id": "us-syn-107",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "FDR & Separation of Powers",
+    "era": "1935–1937",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Why did Congress reject FDR's 1937 'court-packing' plan to add new Supreme Court justices?",
+    "options": [
+      { "id": "a", "text": "Lawmakers feared it would break checks and balances" },
+      { "id": "b", "text": "The Constitution forbids Congress from setting Court size" },
+      { "id": "c", "text": "All nine justices resigned before the vote took place" },
+      { "id": "d", "text": "The Court had already approved every New Deal law" }
+    ],
+    "answer": "a",
+    "explanation": "Even many Democrats opposed FDR's plan because expanding the Court to flip rulings threatened judicial independence.",
+    "source_url": "https://www.fjc.gov/history/timeline/fdrs-court-packing-plan",
+    "fun_fact": "Soon after, the Court began upholding key New Deal laws like Social Security and the Wagner Act anyway.",
+    "trap_notes": {
+      "b": "Congress does set the number of justices by law; the objection was political interference.",
+      "c": "The justices did not resign; the Senate simply voted down the bill.",
+      "d": "The Court had struck down major New Deal laws like the NIRA and AAA in 1935–1936.",
+      "default": "Expanding the Court for political rulings was seen as violating separation of powers."
+    }
+  },
+  {
+    "id": "us-syn-108",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "World War II Aid",
+    "era": "1941–1945",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "How did the 1941 Lend-Lease Act change U.S. policy before Pearl Harbor?",
+    "options": [
+      { "id": "a", "text": "It let the U.S. supply Allies without demanding upfront cash" },
+      { "id": "b", "text": "It banned all U.S. weapon sales to Britain and China" },
+      { "id": "c", "text": "It sent two million U.S. soldiers to France in 1940" },
+      { "id": "d", "text": "It required European buyers to haul goods on their own ships" }
+    ],
+    "answer": "a",
+    "explanation": "Lend-Lease ended strict neutrality by letting the president lend or lease war supplies to countries vital to U.S. defense.",
+    "source_url": "https://www.archives.gov/milestone-documents/lend-lease-act",
+    "fun_fact": "FDR compared Lend-Lease to lending a garden hose to a neighbor whose house was on fire.",
+    "trap_notes": {
+      "b": "Earlier 1930s Neutrality Acts banned weapon sales; Lend-Lease opened the supply tap.",
+      "c": "U.S. combat troops did not enter Europe until after Pearl Harbor in late 1941.",
+      "d": "Cash-and-carry (1939) required upfront cash and foreign ships; Lend-Lease removed cash barriers.",
+      "default": "Lend-Lease supplied Britain, the USSR, and China on credit before the U.S. entered WWII."
+    }
+  },
+  {
+    "id": "us-syn-109",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Dust Bowl & Ecology",
+    "era": "1930–1939",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.68, "lng": -101.48, "label": "Southern Great Plains" },
+    "secondary_geo": { "lat": 35.3733, "lng": -119.0187, "label": "Bakersfield, California" },
+    "prompt": "What human farming practice combined with 1930s drought to create the Dust Bowl?",
+    "options": [
+      { "id": "a", "text": "Plowing up deep-rooted prairie grass for wheat" },
+      { "id": "b", "text": "Flooding Great Plains fields with river dams" },
+      { "id": "c", "text": "Planting thick shelterbelts of trees across Kansas" },
+      { "id": "d", "text": "Leaving all Plains grasslands untouched by tractors" }
+    ],
+    "answer": "a",
+    "explanation": "Tractors tore up native prairie sod that held soil in place, so drought winds blew millions of tons of dry topsoil away.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl/",
+    "fun_fact": "New Deal agencies later taught contour plowing and planted millions of trees as windbreaks.",
+    "trap_notes": {
+      "b": "The region suffered severe drought, not river flooding.",
+      "c": "Tree shelterbelts were a New Deal solution, not the cause of the Dust Bowl.",
+      "d": "Heavy tractor plowing removed the protective native grass.",
+      "default": "Removing native prairie grass left dry soil exposed to high Plains winds."
+    }
+  },
+  {
+    "id": "us-syn-110",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Civil Rights & Federalism",
+    "era": "1954–1964",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.0473, "lng": -95.6752, "label": "Topeka, Kansas" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What constitutional principle did Brown v. Board of Education (1954) establish for public schools?",
+    "options": [
+      { "id": "a", "text": "Separate schools are inherently unequal under the 14th Amendment" },
+      { "id": "b", "text": "States may segregate schools if buildings match in cost" },
+      { "id": "c", "text": "Only private schools are covered by the Equal Protection Clause" },
+      { "id": "d", "text": "Local school boards outrank federal constitutional rulings" }
+    ],
+    "answer": "a",
+    "explanation": "A unanimous Supreme Court overturned Plessy in public education, ruling that segregated schools violate the 14th Amendment.",
+    "source_url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+    "fun_fact": "NAACP attorney Thurgood Marshall argued the case and later became the first Black Supreme Court justice.",
+    "trap_notes": {
+      "b": "That was the old Plessy rule, which Brown explicitly rejected in education.",
+      "c": "The 14th Amendment applies to state-run public schools.",
+      "d": "Under the Supremacy Clause, federal constitutional rulings override state segregation laws.",
+      "default": "Brown v. Board ruled that 'separate educational facilities are inherently unequal.'"
+    }
+  },
+  {
+    "id": "us-syn-111",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Progressive Era Antitrust",
+    "era": "1890–1914",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Why did Congress pass the 1890 Sherman Antitrust Act and 1914 Clayton Antitrust Act?",
+    "options": [
+      { "id": "a", "text": "To break up monopolies and protect market competition" },
+      { "id": "b", "text": "To guarantee every industry a single legal trust" },
+      { "id": "c", "text": "To ban labor unions from collective bargaining" },
+      { "id": "d", "text": "To nationalize all U.S. banks and steel mills" }
+    ],
+    "answer": "a",
+    "explanation": "Antitrust laws targeted trusts that stifled competition and fixed prices, while the Clayton Act also protected peaceful union strikes.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "fun_fact": "The Supreme Court used the Sherman Act in 1911 to break Rockefeller's Standard Oil into 34 separate companies.",
+    "trap_notes": {
+      "b": "Antitrust laws aimed to stop monopolies, not protect them.",
+      "c": "The 1914 Clayton Act actually exempted labor unions from antitrust prosecution.",
+      "d": "The U.S. regulated private monopolies rather than taking over banks or steel.",
+      "default": "Antitrust laws preserve competition when one trust dominates a market."
+    }
+  },
+  {
+    "id": "us-syn-112",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Cold War Liberties",
+    "era": "1965–1969",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines, Iowa" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What First Amendment rule did Tinker v. Des Moines (1969) affirm during the Vietnam War?",
+    "options": [
+      { "id": "a", "text": "Students keep free-speech rights unless speech disrupts class" },
+      { "id": "b", "text": "Principals may ban any political symbols at school" },
+      { "id": "c", "text": "First Amendment rights apply only to adults off campus" },
+      { "id": "d", "text": "Only spoken speeches count as protected expression" }
+    ],
+    "answer": "a",
+    "explanation": "Students wore black armbands to protest Vietnam, and the Court ruled students keep free-speech rights at school.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-tinker-v-des-moines",
+    "fun_fact": "Mary Beth Tinker was just 13 years old when she wore the black armband to her junior high school.",
+    "trap_notes": {
+      "b": "Schools cannot ban peaceful political expression just because administrators disagree with it.",
+      "c": "The Court specifically protected students inside public schools.",
+      "d": "Wearing symbolic armbands was protected as symbolic speech.",
+      "default": "Tinker protected peaceful student symbolic speech unless it causes substantial disruption."
+    }
+  },
+  {
+    "id": "us-syn-113",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["World"],
+    "subdomain": "Cold War Containment",
+    "era": "1947–1953",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "prompt": "What Cold War strategy guided the 1947 Truman Doctrine of aid to Greece and Turkey?",
+    "options": [
+      { "id": "a", "text": "Containment to stop Soviet communism from spreading" },
+      { "id": "b", "text": "Isolationism to withdraw from all European affairs" },
+      { "id": "c", "text": "Appeasement to grant new territory to Moscow" },
+      { "id": "d", "text": "Mercantilism to tax European raw-material exports" }
+    ],
+    "answer": "a",
+    "explanation": "Based on George Kennan's containment idea, Truman pledged U.S. support to free peoples resisting armed minorities or outside pressure.",
+    "source_url": "https://history.state.gov/milestones/1945-1952/truman-doctrine",
+    "fun_fact": "Congress approved $400 million in emergency aid to Greece and Turkey within two months of Truman's speech.",
+    "trap_notes": {
+      "b": "The Truman Doctrine marked the end of traditional U.S. peacetime isolationism.",
+      "c": "Appeasement was Britain and France's 1938 policy toward Hitler, not Truman's policy.",
+      "d": "Mercantilism was an 18th-century colonial trade system.",
+      "default": "Containment aimed to block Soviet expansion without starting World War III."
+    }
+  },
+  {
+    "id": "us-syn-114",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Geo", "Econ"],
+    "subdomain": "Interstate Highway System",
+    "era": "1956–1975",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 39.7392, "lng": -104.9903, "label": "Denver, Colorado" },
+    "prompt": "How did the 1956 Federal-Aid Highway Act reshape U.S. geography and commerce?",
+    "options": [
+      { "id": "a", "text": "It sped up trucking, suburbs, and car travel nationwide" },
+      { "id": "b", "text": "It replaced all freight railroads with local canals" },
+      { "id": "c", "text": "It restricted interstate highways to East Coast cities" },
+      { "id": "d", "text": "It slowed suburban growth by banning gas stations" }
+    ],
+    "answer": "a",
+    "explanation": "Funded for national defense and commerce, the 41,000-mile Interstate network boosted trucking, suburbs, and cross-country travel.",
+    "source_url": "https://www.archives.gov/milestone-documents/national-interstate-and-defense-highways-act",
+    "fun_fact": "As a young army officer in 1919, Dwight Eisenhower took 62 days to cross the U.S. by convoy, inspiring his 1956 highway push.",
+    "trap_notes": {
+      "b": "Highways boosted trucking rather than building canals.",
+      "c": "The Interstate system connected major cities from coast to coast.",
+      "d": "Highways accelerated suburban sprawl and roadside businesses.",
+      "default": "Interstate highways transformed both suburban commuting and long-distance freight."
+    }
+  },
+  {
+    "id": "us-syn-115",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Bill of Rights",
+    "era": "1789–1791",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "secondary_geo": { "lat": 37.5407, "lng": -77.436, "label": "Richmond, Virginia" },
+    "prompt": "Which colonial grievance directly inspired the Fourth Amendment's ban on unreasonable searches?",
+    "options": [
+      { "id": "a", "text": "British writs of assistance allowing blanket home searches" },
+      { "id": "b", "text": "The Stamp Act fee on colonial marriage licenses" },
+      { "id": "c", "text": "Parliament's tea monopoly for the East India Company" },
+      { "id": "d", "text": "The Proclamation of 1763 banning western land claims" }
+    ],
+    "answer": "a",
+    "explanation": "General search warrants called writs of assistance let British customs officers search any home or ship without probable cause.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-iv",
+    "fun_fact": "James Otis argued against writs of assistance in 1761, inspiring John Adams to call it the spark of independence.",
+    "trap_notes": {
+      "b": "The Stamp Act involved taxation without representation, not search warrants.",
+      "c": "The Tea Act involved trade monopolies, not home searches.",
+      "d": "The Proclamation Line involved western settlement, not privacy.",
+      "default": "The Fourth Amendment requires specific warrants based on probable cause."
+    }
+  },
+  {
+    "id": "us-syn-116",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Panic of 1907 & Federal Reserve",
+    "era": "1907–1913",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why did Congress create the Federal Reserve System in 1913 after the Panic of 1907?",
+    "options": [
+      { "id": "a", "text": "To provide a central bank that stabilizes money and credit" },
+      { "id": "b", "text": "To replace paper dollars with silver coins only" },
+      { "id": "c", "text": "To abolish all private commercial banks nationwide" },
+      { "id": "d", "text": "To give state governors control over tariff rates" }
+    ],
+    "answer": "a",
+    "explanation": "In 1907, Wall Street had to rely on J.P. Morgan to rescue banks; Congress created the Fed in 1913 as a public lender of last resort.",
+    "source_url": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed",
+    "fun_fact": "The Federal Reserve Act set up 12 regional Reserve Banks so no single city controlled all U.S. credit.",
+    "trap_notes": {
+      "b": "The Fed created Federal Reserve notes as an elastic currency, not silver-only coins.",
+      "c": "Private commercial banks remained the backbone of U.S. banking under Fed supervision.",
+      "d": "Congress, not state governors, sets tariffs; the Fed manages monetary policy.",
+      "default": "The Fed was built to prevent bank panics and manage the nation's money supply."
+    }
+  },
+  {
+    "id": "us-syn-117",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["World"],
+    "subdomain": "Chinese Exclusion & Immigration",
+    "era": "1882–1943",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, CA" },
+    "secondary_geo": { "lat": 23.1291, "lng": 113.2644, "label": "Guangzhou, China" },
+    "prompt": "What made the 1882 Chinese Exclusion Act a turning point in U.S. immigration law?",
+    "options": [
+      { "id": "a", "text": "It was the first federal ban targeting a specific nationality" },
+      { "id": "b", "text": "It granted automatic U.S. citizenship to all railroad workers" },
+      { "id": "c", "text": "It lifted all limits on immigration from East Asia" },
+      { "id": "d", "text": "It required European immigrants to enter via San Francisco" }
+    ],
+    "answer": "a",
+    "explanation": "Passed amid West Coast labor resentment after the railroads were built, it barred Chinese laborers and blocked naturalization.",
+    "source_url": "https://www.archives.gov/milestone-documents/chinese-exclusion-act",
+    "fun_fact": "Congress did not repeal the Chinese Exclusion Act until 1943, when China was a U.S. ally in World War II.",
+    "trap_notes": {
+      "b": "The law actually barred Chinese immigrants from becoming U.S. citizens.",
+      "c": "It imposed strict exclusion rather than lifting limits.",
+      "d": "European immigrants mainly entered through East Coast ports like Ellis Island.",
+      "default": "The 1882 act was the first major U.S. immigration law excluding a group by nationality."
+    }
+  },
+  {
+    "id": "us-syn-118",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Watergate & Executive Power",
+    "era": "1972–1974",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 33.7175, "lng": -117.8311, "label": "Yorba Linda, California" },
+    "prompt": "What constitutional rule did United States v. Nixon (1974) establish during the Watergate scandal?",
+    "options": [
+      { "id": "a", "text": "Executive privilege cannot shield evidence in a criminal trial" },
+      { "id": "b", "text": "A president may ignore subpoenas from federal courts" },
+      { "id": "c", "text": "Only the House Speaker can review White House tapes" },
+      { "id": "d", "text": "Presidents are immune from all constitutional limits" }
+    ],
+    "answer": "a",
+    "explanation": "A unanimous Supreme Court ordered Nixon to hand over the Watergate tapes, affirming that no president is above the law.",
+    "source_url": "https://www.archives.gov/milestone-documents/united-states-v-nixon",
+    "fun_fact": "Sixteen days after the Supreme Court ruling, Richard Nixon became the only U.S. president to resign.",
+    "trap_notes": {
+      "b": "The Court ruled that Nixon had to obey the federal subpoena.",
+      "c": "The federal district court subpoenaed the tapes for a criminal trial.",
+      "d": "The ruling reinforced the rule of law and limits on presidential power.",
+      "default": "United States v. Nixon limited executive privilege and upheld the rule of law."
+    }
+  },
+  {
+    "id": "us-syn-119",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Columbian Exchange",
+    "era": "1492–1650",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 25.0343, "lng": -77.3963, "label": "Caribbean Basin" },
+    "secondary_geo": { "lat": 40.4168, "lng": -3.7038, "label": "Madrid, Spain" },
+    "prompt": "How did the Columbian Exchange reshape both the Americas and Europe after 1492?",
+    "options": [
+      { "id": "a", "text": "Crops like potatoes fed Europe while diseases devastated Natives" },
+      { "id": "b", "text": "Horses and cattle originated in North America before 1492" },
+      { "id": "c", "text": "Corn and tomatoes came from Europe to the Americas" },
+      { "id": "d", "text": "Trade between the hemispheres stayed limited to gold only" }
+    ],
+    "answer": "a",
+    "explanation": "New World crops like potatoes and maize boosted Old World populations, while Old World diseases like smallpox ravaged Native peoples.",
+    "source_url": "https://www.loc.gov/exhibits/exploring-the-early-americas/",
+    "fun_fact": "Horses brought by Spanish explorers transformed life for Plains Native nations within a few generations.",
+    "trap_notes": {
+      "b": "Modern horses and cattle were brought from Europe to the Americas after 1492.",
+      "c": "Corn and tomatoes were native to the Americas and spread to Europe.",
+      "d": "Plants, animals, people, and diseases all crossed the Atlantic in both directions.",
+      "default": "Remember: potatoes and corn went east; horses, cattle, and smallpox went west."
+    }
+  },
+  {
+    "id": "us-syn-120",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Mercantilism & Navigation Acts",
+    "era": "1651–1763",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "secondary_geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Under British mercantilism, what role were the 13 colonies expected to play in the empire?",
+    "options": [
+      { "id": "a", "text": "Supply raw materials and buy British manufactured goods" },
+      { "id": "b", "text": "Trade freely with France and Spain on Dutch ships" },
+      { "id": "c", "text": "Outlaw British imports to protect colonial factories" },
+      { "id": "d", "text": "Mint their own gold coins to replace the British pound" }
+    ],
+    "answer": "a",
+    "explanation": "The Navigation Acts required colonies to ship key raw goods like tobacco to Britain and buy finished goods from British merchants.",
+    "source_url": "https://www.britannica.com/event/Navigation-Acts",
+    "fun_fact": "Until 1763, Britain practiced 'salutary neglect,' loosely enforcing trade rules while colonies prospered.",
+    "trap_notes": {
+      "b": "The Navigation Acts barred using foreign ships for key colonial exports.",
+      "c": "Britain discouraged colonial manufacturing that competed with British workshops.",
+      "d": "Britain restricted colonial currency rather than encouraging rival gold coins.",
+      "default": "Mercantilism treated colonies as raw-material suppliers and captive markets for the mother country."
+    }
+  },
+  {
+    "id": "us-syn-121",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Progressive Amendments",
+    "era": "1913–1920",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "How did the 17th Amendment (1913) make the U.S. Senate more democratic?",
+    "options": [
+      { "id": "a", "text": "It shifted Senate elections from state legislatures to voters" },
+      { "id": "b", "text": "It allowed the president to appoint all U.S. senators" },
+      { "id": "c", "text": "It gave larger states more senators based on population" },
+      { "id": "d", "text": "It lowered the national voting age from 21 to 18" }
+    ],
+    "answer": "a",
+    "explanation": "Before 1913, state legislatures picked U.S. senators; the 17th Amendment gave voters the power to elect senators directly.",
+    "source_url": "https://www.archives.gov/milestone-documents/17th-amendment",
+    "fun_fact": "Progressive reformers pushed the 17th Amendment after bribery scandals in state-level Senate elections.",
+    "trap_notes": {
+      "b": "Senators are elected by voters in each state, not appointed by the president.",
+      "c": "Every state still gets exactly two senators regardless of population.",
+      "d": "Lowering the voting age to 18 came later in the 26th Amendment (1971).",
+      "default": "The 17th Amendment created direct popular election of U.S. senators."
+    }
+  },
+  {
+    "id": "us-syn-122",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["World"],
+    "subdomain": "Open Door Policy",
+    "era": "1899–1900",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "Why did U.S. Secretary of State John Hay propose the 1899 Open Door Policy in China?",
+    "options": [
+      { "id": "a", "text": "To keep Chinese ports open to U.S. trade alongside Europe" },
+      { "id": "b", "text": "To ban all American exports from entering East Asia" },
+      { "id": "c", "text": "To divide China into exclusive U.S. colonies" },
+      { "id": "d", "text": "To invite European powers to colonize California" }
+    ],
+    "answer": "a",
+    "explanation": "Fearing European powers and Japan would carve China into closed trade zones, Hay urged equal trading rights for all nations.",
+    "source_url": "https://history.state.gov/milestones/1899-1913/hay-and-china",
+    "fun_fact": "Acquiring the Philippines in 1898 gave U.S. merchants a Pacific stepping-stone toward Chinese markets.",
+    "trap_notes": {
+      "b": "The U.S. wanted to expand trade with China, not ban it.",
+      "c": "The U.S. opposed closed spheres of influence so it could trade everywhere in China.",
+      "d": "The Open Door Policy concerned trade in China, not California.",
+      "default": "The Open Door Policy aimed to preserve equal U.S. commercial access in China."
+    }
+  },
+  {
+    "id": "us-syn-123",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics", "Econ"],
+    "subdomain": "1980s Reaganomics",
+    "era": "1981–1989",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 34.0522, "lng": -118.2437, "label": "Los Angeles, California" },
+    "prompt": "What core supply-side idea guided President Reagan's 1981 tax and regulatory policies?",
+    "options": [
+      { "id": "a", "text": "Cutting tax rates and rules spurs business investment" },
+      { "id": "b", "text": "Raising top income taxes funds New Deal job agencies" },
+      { "id": "c", "text": "Price controls and rationing curb consumer demand" },
+      { "id": "d", "text": "Public ownership of airlines lowers ticket prices" }
+    ],
+    "answer": "a",
+    "explanation": "Supply-side economics held that lower marginal tax rates and deregulation would boost investment, production, and jobs.",
+    "source_url": "https://www.federalreservehistory.org/essays/economic-recovery-tax-act-of-1981",
+    "fun_fact": "Combined with higher defense spending, the 1981 tax cuts also tripled the federal budget deficit during the 1980s.",
+    "trap_notes": {
+      "b": "Reagan cut the top income tax rate rather than raising it.",
+      "c": "Nixon briefly used price controls in 1971; Reagan favored free-market deregulation.",
+      "d": "Airlines and trucking were deregulated, not taken over by the government.",
+      "default": "Reaganomics paired lower tax rates and deregulation to stimulate business supply."
+    }
+  },
+  {
+    "id": "us-syn-124",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Environmental Movement",
+    "era": "1962–1973",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.4993, "lng": -81.6944, "label": "Cuyahoga River, Ohio" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did Rachel Carson's Silent Spring (1962) and the 1969 Cuyahoga River fire reshape U.S. policy?",
+    "options": [
+      { "id": "a", "text": "They spurred creation of the EPA and Clean Water Act" },
+      { "id": "b", "text": "They led Congress to abolish all national parks" },
+      { "id": "c", "text": "They ended federal limits on industrial chemical waste" },
+      { "id": "d", "text": "They sparked the 1933 Tennessee Valley dam project" }
+    ],
+    "answer": "a",
+    "explanation": "Public alarm over DDT pesticides and burning polluted rivers led to Earth Day, the EPA (1970), and the Clean Water Act (1972).",
+    "source_url": "https://www.epa.gov/history/origins-epa",
+    "fun_fact": "Roughly 20 million Americans joined the first Earth Day in April 1970.",
+    "trap_notes": {
+      "b": "Environmental laws expanded conservation rather than closing parks.",
+      "c": "The EPA and Clean Water Act increased limits on industrial pollution.",
+      "d": "The TVA began in 1933, nearly 30 years before Silent Spring.",
+      "default": "1960s environmental warnings directly produced the EPA and federal clean air and water laws."
+    }
+  },
+  {
+    "id": "us-syn-125",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Northwest Ordinance",
+    "era": "1787",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.4153, "lng": -81.4548, "label": "Marietta, Ohio" },
+    "secondary_geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Why is the Northwest Ordinance of 1787 viewed as the Articles of Confederation's lasting success?",
+    "options": [
+      { "id": "a", "text": "It set a clear path for territories to join as equal states" },
+      { "id": "b", "text": "It created a national Supreme Court and president" },
+      { "id": "c", "text": "It expanded slavery across all Great Lakes territories" },
+      { "id": "d", "text": "It gave Congress power to levy direct income taxes" }
+    ],
+    "answer": "a",
+    "explanation": "The Northwest Ordinance banned slavery in the Northwest Territory, funded public schools, and let territories become equal states.",
+    "source_url": "https://www.archives.gov/milestone-documents/northwest-ordinance",
+    "fun_fact": "Ohio, Indiana, Illinois, Michigan, and Wisconsin all entered the Union under the Northwest Ordinance's rules.",
+    "trap_notes": {
+      "b": "The U.S. Constitution, not the Northwest Ordinance, created the president and Supreme Court.",
+      "c": "The Northwest Ordinance actually prohibited slavery north of the Ohio River.",
+      "d": "Direct income taxes came much later under the 16th Amendment (1913).",
+      "default": "The Northwest Ordinance created the orderly process for adding new states on equal footing."
+    }
+  },
+  {
+    "id": "us-syn-126",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["World"],
+    "subdomain": "End of the Cold War",
+    "era": "1985–1991",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "secondary_geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "prompt": "How did Mikhail Gorbachev's glasnost and perestroika reforms affect U.S.-Soviet relations?",
+    "options": [
+      { "id": "a", "text": "They eased tensions, led to arms cuts, and ended Soviet rule" },
+      { "id": "b", "text": "They sparked the 1962 Cuban Missile Crisis" },
+      { "id": "c", "text": "They strengthened Soviet control over the Berlin Wall" },
+      { "id": "d", "text": "They launched the Korean War along the 38th Parallel" }
+    ],
+    "answer": "a",
+    "explanation": "Gorbachev's openness and economic reforms reduced Cold War hostility, leading to the 1987 INF Treaty and the 1991 Soviet breakup.",
+    "source_url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+    "fun_fact": "East and West Berliners tore down the Berlin Wall in November 1989 after Gorbachev refused to use Soviet troops.",
+    "trap_notes": {
+      "b": "The Cuban Missile Crisis happened in 1962 under Khrushchev and Kennedy.",
+      "c": "The Berlin Wall fell in 1989 during Gorbachev's reforms.",
+      "d": "The Korean War began in 1950 under Joseph Stalin.",
+      "default": "Gorbachev's 1980s reforms helped end the Cold War peacefully."
+    }
+  },
+  {
+    "id": "us-syn-127",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Gilded Age & Tariffs",
+    "era": "1870–1900",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, PA" },
+    "secondary_geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha, Nebraska" },
+    "prompt": "Why did Gilded Age factory owners support high protective tariffs while Midwest farmers opposed them?",
+    "options": [
+      { "id": "a", "text": "Tariffs shielded U.S. mills while raising farm tool prices" },
+      { "id": "b", "text": "Tariffs lowered prices on imported European steel" },
+      { "id": "c", "text": "Tariffs paid direct cash subsidies to wheat growers" },
+      { "id": "d", "text": "Tariffs banned U.S. factories from selling goods at home" }
+    ],
+    "answer": "a",
+    "explanation": "High tariffs raised prices on foreign goods, helping U.S. factories while forcing farmers to pay more for tools.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/",
+    "fun_fact": "Tariff debates were one of the fiercest partisan divides between Republicans and Democrats in the 1880s and 1890s.",
+    "trap_notes": {
+      "b": "Tariffs raised import prices rather than lowering them.",
+      "c": "Tariffs taxed imports and did not pay cash subsidies to farmers.",
+      "d": "Tariffs protected U.S. factories inside the domestic market.",
+      "default": "Protective tariffs help domestic manufacturers charge higher prices, which hurts farm buyers."
+    }
+  },
+  {
+    "id": "us-syn-128",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Nullification & Federalism",
+    "era": "1828–1833",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.7765, "lng": -79.9311, "label": "Charleston, SC" },
+    "secondary_geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What constitutional clash lay at the heart of the 1832–1833 Nullification Crisis?",
+    "options": [
+      { "id": "a", "text": "Whether a state could declare a federal tariff law void" },
+      { "id": "b", "text": "Whether Congress could pass a national income tax" },
+      { "id": "c", "text": "Whether the president could serve more than two terms" },
+      { "id": "d", "text": "Whether territories could vote in presidential elections" }
+    ],
+    "answer": "a",
+    "explanation": "South Carolina claimed states could nullify the 1828 and 1832 tariffs, but President Jackson insisted federal law is supreme.",
+    "source_url": "https://www.loc.gov/item/today-in-history/december-10/",
+    "fun_fact": "Henry Clay brokered a compromise tariff in 1833 that lowered rates while Congress passed the Force Bill.",
+    "trap_notes": {
+      "b": "Federal income taxes came much later in 1913 under the 16th Amendment.",
+      "c": "Presidential term limits were set by the 22nd Amendment in 1951.",
+      "d": "Territories still do not cast electoral votes in presidential elections.",
+      "default": "Nullification tested whether state sovereignty could override federal law."
+    }
+  },
+  {
+    "id": "us-syn-129",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["World", "Geo"],
+    "subdomain": "Alaska & Arctic Strategy",
+    "era": "1867–1959",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 58.3019, "lng": -134.4197, "label": "Juneau, Alaska" },
+    "secondary_geo": { "lat": 59.9311, "lng": 30.3609, "label": "St. Petersburg, Russia" },
+    "prompt": "Why did critics mock the 1867 Alaska Purchase before gold, oil, and Cold War geography proved its value?",
+    "options": [
+      { "id": "a", "text": "They saw a remote frozen land as 'Seward's Folly'" },
+      { "id": "b", "text": "They feared Alaska was too densely populated to govern" },
+      { "id": "c", "text": "They wanted Spain to keep Alaska as a buffer colony" },
+      { "id": "d", "text": "They believed Alaska had no Pacific coastline at all" }
+    ],
+    "answer": "a",
+    "explanation": "Critics mocked Seward for spending $7.2 million on ice, until gold, oil, and Arctic defense proved Alaska's value.",
+    "source_url": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+    "fun_fact": "The U.S. bought Alaska from Russia for roughly two cents per acre.",
+    "trap_notes": {
+      "b": "Alaska was sparsely populated, not overcrowded.",
+      "c": "The U.S. bought Alaska from Russia, not Spain.",
+      "d": "Alaska has the longest coastline of any U.S. state.",
+      "default": "Critics called it 'Seward's Folly' before its resources and strategic location paid off."
+    }
+  },
+  {
+    "id": "us-syn-130",
+    "type": "synthesis",
+    "domain": "US",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Voting Rights Expansion",
+    "era": "1965–1971",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "secondary_geo": { "lat": 32.3792, "lng": -86.3077, "label": "Montgomery, Alabama" },
+    "prompt": "What Vietnam-era argument led to the rapid 1971 ratification of the 26th Amendment?",
+    "options": [
+      { "id": "a", "text": "If 18-year-olds could be drafted to fight, they should vote" },
+      { "id": "b", "text": "Only property owners over age 21 understood foreign policy" },
+      { "id": "c", "text": "Poll taxes were needed to fund local high schools" },
+      { "id": "d", "text": "States wanted to raise the minimum voting age to 25" }
+    ],
+    "answer": "a",
+    "explanation": "With 18-year-olds drafted for Vietnam, states quickly ratified the 26th Amendment to lower the voting age to 18.",
+    "source_url": "https://www.archives.gov/milestone-documents/26th-amendment",
+    "fun_fact": "The 26th Amendment was ratified in just 100 days, the fastest amendment ratification in U.S. history.",
+    "trap_notes": {
+      "b": "The 26th Amendment lowered the voting age to 18 and expanded the electorate.",
+      "c": "The 24th Amendment (1964) banned poll taxes in federal elections.",
+      "d": "The 26th Amendment lowered the voting age from 21 to 18.",
+      "default": "Drafting 18-year-olds for Vietnam drove support for lowering the voting age to 18."
+    }
+  }
+]

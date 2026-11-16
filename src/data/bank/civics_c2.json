@@ -1,0 +1,2012 @@
+[
+  {
+    "id": "civics-ded-201",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1215",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.4342, "lng": -0.5649, "label": "Runnymede, England" },
+    "prompt": "Identify this foundational charter of limited government.",
+    "clues": [
+      "English barons forced a king to seal this agreement in 1215.",
+      "It established that even the monarch was subject to the law of the land.",
+      "Its Clause 39 inspired the due process guarantees in the U.S. Constitution."
+    ],
+    "options": [
+      { "id": "a", "text": "The English Bill of Rights" },
+      { "id": "b", "text": "The Magna Carta of 1215" },
+      { "id": "c", "text": "The Mayflower Compact" },
+      { "id": "d", "text": "The Treaty of Westphalia" }
+    ],
+    "answer": "b",
+    "explanation": "Sealed by King John in 1215, Magna Carta established rule-of-law limits on royal power and influenced due process.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/magna-carta",
+    "trap_notes": {
+      "a": "The English Bill of Rights was enacted in 1689 after the Glorious Revolution.",
+      "c": "The Mayflower Compact was signed by Pilgrims in Massachusetts in 1620.",
+      "d": "The Peace of Westphalia ended the Thirty Years' War in 1648.",
+      "default": "Magna Carta (1215) is the medieval charter that anchored due process and rule of law."
+    }
+  },
+  {
+    "id": "civics-ded-202",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1620",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.0584, "lng": -70.1786, "label": "Provincetown, Massachusetts" },
+    "prompt": "Identify this early colonial self-government agreement.",
+    "clues": [
+      "Male passengers signed this brief pledge aboard a ship in November 1620.",
+      "Signers agreed to form a civil body politic and obey just, equal laws.",
+      "It is celebrated as an early North American example of social-contract consent."
+    ],
+    "options": [
+      { "id": "a", "text": "The Virginia Rights Charter" },
+      { "id": "b", "text": "The Articles of Confederation" },
+      { "id": "c", "text": "The Mayflower Compact" },
+      { "id": "d", "text": "The Northwest Ordinance" }
+    ],
+    "answer": "c",
+    "explanation": "Signed in 1620 before landing at Plymouth, the Mayflower Compact bound settlers to majority self-rule.",
+    "source_url": "https://www.britannica.com/topic/Mayflower-Compact",
+    "trap_notes": {
+      "a": "George Mason drafted the Virginia Declaration of Rights in 1776.",
+      "b": "The Articles of Confederation were drafted by the Continental Congress in 1777.",
+      "d": "The Northwest Ordinance was passed by Congress in 1787.",
+      "default": "The 1620 Mayflower Compact established self-government by consent in Plymouth Colony."
+    }
+  },
+  {
+    "id": "civics-ded-203",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this Article I legislative rule.",
+    "clues": [
+      "This Article I, Section 7 clause governs how federal tax laws begin.",
+      "It gives the chamber closest to voters the sole power to start revenue bills.",
+      "The Senate may still propose amendments to these bills after receiving them."
+    ],
+    "options": [
+      { "id": "a", "text": "The Origination Clause" },
+      { "id": "b", "text": "The Supremacy Clause" },
+      { "id": "c", "text": "The Establishment Clause" },
+      { "id": "d", "text": "The Free Exercise Clause" }
+    ],
+    "answer": "a",
+    "explanation": "The Origination Clause requires all bills for raising revenue to originate in the House of Representatives.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/759",
+    "trap_notes": {
+      "b": "The Supremacy Clause in Article VI makes federal law supreme over state law.",
+      "c": "The Establishment Clause in the First Amendment bars government-established religion.",
+      "d": "The Free Exercise Clause in the First Amendment protects religious practice.",
+      "default": "The Origination Clause ensures tax bills begin in the directly elected House."
+    }
+  },
+  {
+    "id": "civics-ded-204",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1865–Present",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this Reconstruction-era constitutional amendment.",
+    "clues": [
+      "Ratified in December 1865, it was the first of three Reconstruction amendments.",
+      "It abolished slavery and involuntary servitude across the entire United States.",
+      "It retains a narrow exception allowing forced labor as punishment for a crime."
+    ],
+    "options": [
+      { "id": "a", "text": "The Twelfth Amendment" },
+      { "id": "b", "text": "The Thirteenth Amendment" },
+      { "id": "c", "text": "The Seventeenth Amendment" },
+      { "id": "d", "text": "The Nineteenth Amendment" }
+    ],
+    "answer": "b",
+    "explanation": "The Thirteenth Amendment (1865) permanently abolished slavery nationwide, extending beyond the Emancipation Proclamation.",
+    "source_url": "https://www.archives.gov/milestone-documents/13th-amendment",
+    "trap_notes": {
+      "a": "The Twelfth Amendment (1804) reformed Electoral College balloting.",
+      "c": "The Seventeenth Amendment (1913) established direct election of senators.",
+      "d": "The Nineteenth Amendment (1920) guaranteed women's right to vote.",
+      "default": "Ratified in 1865, the Thirteenth Amendment outlawed slavery throughout the United States."
+    }
+  },
+  {
+    "id": "civics-ded-205",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1913–Present",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this Progressive-era constitutional amendment.",
+    "clues": [
+      "Ratified in February 1913, it overturned an 1895 Supreme Court tax ruling.",
+      "It expanded federal fiscal capacity without apportioning taxes by state population.",
+      "It explicitly authorized Congress to lay and collect taxes on incomes."
+    ],
+    "options": [
+      { "id": "a", "text": "The Eleventh Amendment" },
+      { "id": "b", "text": "The Fourteenth Amendment" },
+      { "id": "c", "text": "The Sixteenth Amendment" },
+      { "id": "d", "text": "The Twenty-first Amendment" }
+    ],
+    "answer": "c",
+    "explanation": "The Sixteenth Amendment (1913) gave Congress clear power to levy a federal income tax.",
+    "source_url": "https://www.archives.gov/milestone-documents/16th-amendment",
+    "trap_notes": {
+      "a": "The Eleventh Amendment (1795) limits federal lawsuits against states.",
+      "b": "The Fourteenth Amendment (1868) established citizenship, due process, and equal protection.",
+      "d": "The Twenty-first Amendment (1933) repealed national Prohibition.",
+      "default": "The Sixteenth Amendment enabled the modern progressive federal income tax."
+    }
+  },
+  {
+    "id": "civics-ded-206",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1933–Present",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this 1933 constitutional amendment.",
+    "clues": [
+      "It is nicknamed the 'Lame Duck Amendment' because it shortened transition waits.",
+      "It moved the start of new congressional terms from March 4 to January 3.",
+      "It also set January 20 as the inauguration date for the president and vice president."
+    ],
+    "options": [
+      { "id": "a", "text": "The Eighteenth Amendment" },
+      { "id": "b", "text": "The Twentieth Amendment" },
+      { "id": "c", "text": "The Twenty-second Amendment" },
+      { "id": "d", "text": "The Twenty-fifth Amendment" }
+    ],
+    "answer": "b",
+    "explanation": "Ratified in 1933, the Twentieth Amendment reduced the lame-duck period by moving inaugurations to January.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xx",
+    "trap_notes": {
+      "a": "The Eighteenth Amendment (1919) enacted Prohibition.",
+      "c": "The Twenty-second Amendment (1951) limited presidents to two elected terms.",
+      "d": "The Twenty-fifth Amendment (1967) clarified presidential succession and disability.",
+      "default": "The Twentieth Amendment moved federal terms from March to January."
+    }
+  },
+  {
+    "id": "civics-ded-207",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1961–Present",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this voting-rights constitutional amendment.",
+    "clues": [
+      "Ratified in 1961, it changed presidential elections without creating a new state.",
+      "It granted federal district residents their first voice in choosing a president.",
+      "It awards Washington, D.C. electors equal to the least populous state, capped at three."
+    ],
+    "options": [
+      { "id": "a", "text": "The Twenty-third Amendment" },
+      { "id": "b", "text": "The Twenty-fourth Amendment" },
+      { "id": "c", "text": "The Twenty-sixth Amendment" },
+      { "id": "d", "text": "The Twenty-seventh Amendment" }
+    ],
+    "answer": "a",
+    "explanation": "The Twenty-third Amendment (1961) gave Washington, D.C. three Electoral College votes in presidential races.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxiii",
+    "trap_notes": {
+      "b": "The Twenty-fourth Amendment (1964) banned poll taxes in federal elections.",
+      "c": "The Twenty-sixth Amendment (1971) lowered the voting age to eighteen.",
+      "d": "The Twenty-seventh Amendment (1992) delayed congressional pay raises.",
+      "default": "The Twenty-third Amendment granted D.C. residents presidential electors."
+    }
+  },
+  {
+    "id": "civics-ded-208",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1803–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this core judicial power.",
+    "clues": [
+      "This authority is not explicitly named in the text of Article III.",
+      "Alexander Hamilton defended it in Federalist No. 78 as essential to limited government.",
+      "It empowers courts to strike down laws or executive acts that violate the Constitution."
+    ],
+    "options": [
+      { "id": "a", "text": "Executive privilege" },
+      { "id": "b", "text": "Senatorial courtesy" },
+      { "id": "c", "text": "Legislative oversight" },
+      { "id": "d", "text": "Judicial review" }
+    ],
+    "answer": "d",
+    "explanation": "Established in Marbury v. Madison (1803), judicial review lets courts invalidate unconstitutional laws.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/about",
+    "trap_notes": {
+      "a": "Executive privilege protects confidential presidential communications.",
+      "b": "Senatorial courtesy gives home-state senators influence over judicial nominees.",
+      "c": "Legislative oversight is Congress's monitoring of executive agencies.",
+      "default": "Judicial review is the courts' power to measure laws against the Constitution."
+    }
+  },
+  {
+    "id": "civics-ded-209",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1974–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this implied presidential doctrine.",
+    "clues": [
+      "Presidents invoke this doctrine to withhold certain records from Congress or courts.",
+      "It rests on the idea that candid advice to the president requires confidentiality.",
+      "The Supreme Court ruled in 1974 that it is qualified, not absolute, in criminal trials."
+    ],
+    "options": [
+      { "id": "a", "text": "Executive privilege" },
+      { "id": "b", "text": "A pocket veto" },
+      { "id": "c", "text": "A signing statement" },
+      { "id": "d", "text": "Sovereign immunity" }
+    ],
+    "answer": "a",
+    "explanation": "Executive privilege shields sensitive executive communications, though United States v. Nixon limited it.",
+    "source_url": "https://www.law.cornell.edu/wex/executive_privilege",
+    "trap_notes": {
+      "b": "A pocket veto occurs when the president leaves a bill unsigned as Congress adjourns.",
+      "c": "A signing statement is a written comment issued when signing a bill into law.",
+      "d": "Sovereign immunity bars lawsuits against the government without its consent.",
+      "default": "Executive privilege protects confidential presidential advice unless outweighed by justice."
+    }
+  },
+  {
+    "id": "civics-ded-210",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this presidential legislative action.",
+    "clues": [
+      "It occurs without the president writing a veto message or returning the bill.",
+      "It can only happen during the ten-day window right after Congress adjourns.",
+      "Because Congress is no longer in session, lawmakers cannot vote to override it."
+    ],
+    "options": [
+      { "id": "a", "text": "A House discharge petition" },
+      { "id": "b", "text": "A presidential pocket veto" },
+      { "id": "c", "text": "A Senate cloture motion" },
+      { "id": "d", "text": "A formal executive order" }
+    ],
+    "answer": "b",
+    "explanation": "A pocket veto kills a bill when the president does not sign it and Congress adjourns within ten days.",
+    "source_url": "https://www.senate.gov/reference/glossary_term/pocket_veto.htm",
+    "trap_notes": {
+      "a": "A discharge petition is a House tool to bring a bill out of committee.",
+      "c": "A cloture vote ends a filibuster in the U.S. Senate.",
+      "d": "An executive order directs federal agencies without legislative passage.",
+      "default": "Unlike a regular veto, a pocket veto cannot be overridden by Congress."
+    }
+  },
+  {
+    "id": "civics-ded-211",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this powerful congressional committee.",
+    "clues": [
+      "Established in 1789, it is the oldest standing committee in the U.S. House.",
+      "Its jurisdiction covers tariffs, Social Security, Medicare, and federal taxes.",
+      "Under the Origination Clause, all revenue bills begin under its authority."
+    ],
+    "options": [
+      { "id": "a", "text": "The Senate Judiciary Committee" },
+      { "id": "b", "text": "The House Floor Rules Committee" },
+      { "id": "c", "text": "The House Ways and Means Committee" },
+      { "id": "d", "text": "The Senate Foreign Affairs Panel" }
+    ],
+    "answer": "c",
+    "explanation": "The House Ways and Means Committee is the chief tax-writing panel in the U.S. Congress.",
+    "source_url": "https://waysandmeans.house.gov/about/",
+    "trap_notes": {
+      "a": "The Senate Judiciary Committee reviews federal judicial nominations and criminal law.",
+      "b": "The House Rules Committee sets floor debate terms rather than writing tax bills.",
+      "d": "The Senate Foreign Relations Committee handles treaties and diplomatic nominees.",
+      "default": "House Ways and Means writes federal tax, tariff, and entitlement legislation."
+    }
+  },
+  {
+    "id": "civics-ded-212",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this federal budget stopgap measure.",
+    "clues": [
+      "Congress passes this temporary bill when annual spending bills miss the deadline.",
+      "It keeps federal agencies operating at existing funding levels for weeks or months.",
+      "Without it or full appropriations, a federal government shutdown begins."
+    ],
+    "options": [
+      { "id": "a", "text": "A continuing resolution" },
+      { "id": "b", "text": "A conference report" },
+      { "id": "c", "text": "A line-item veto" },
+      { "id": "d", "text": "A discharge motion" }
+    ],
+    "answer": "a",
+    "explanation": "A continuing resolution extends prior-year federal funding temporarily while Congress finishes full budgets.",
+    "source_url": "https://www.congress.gov/help/learn-about-the-legislative-process/appropriations",
+    "trap_notes": {
+      "b": "A conference report is the final compromise text of any bill from both chambers.",
+      "c": "A line-item veto was struck down by the Supreme Court in 1998.",
+      "d": "A discharge motion pulls a stalled bill out of a House committee.",
+      "default": "Continuing resolutions prevent government shutdowns when appropriations lapse."
+    }
+  },
+  {
+    "id": "civics-ded-213",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1930s–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this type of federal grant to states.",
+    "clues": [
+      "Congress sends these funds to states or cities for a narrowly defined purpose.",
+      "Recipients must follow strict federal rules and often provide matching funds.",
+      "Examples include Medicaid and school lunch subsidies, unlike broad block grants."
+    ],
+    "options": [
+      { "id": "a", "text": "An unfunded mandate" },
+      { "id": "b", "text": "A categorical grant" },
+      { "id": "c", "text": "An interstate compact" },
+      { "id": "d", "text": "A property tax rebate" }
+    ],
+    "answer": "b",
+    "explanation": "Categorical grants give states federal money for specific programs with strict federal conditions.",
+    "source_url": "https://www.britannica.com/topic/categorical-grant",
+    "trap_notes": {
+      "a": "Unfunded mandates require state action without providing federal money.",
+      "c": "Interstate compacts are formal agreements between two or more states.",
+      "d": "Property tax rebates are state or local tax credits, not federal grants.",
+      "default": "Categorical grants restrict how states spend federal funds, unlike flexible block grants."
+    }
+  },
+  {
+    "id": "civics-ded-214",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1868–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines, Iowa" },
+    "prompt": "Identify this legal doctrine governing local governments.",
+    "clues": [
+      "Named for an Iowa judge in 1868, it defines the status of cities and counties.",
+      "It holds that municipalities are creatures of the state, not independent sovereigns.",
+      "Under this rule, local governments exercise only powers expressly granted by the state."
+    ],
+    "options": [
+      { "id": "a", "text": "Dillon's Rule" },
+      { "id": "b", "text": "Incorporation" },
+      { "id": "c", "text": "Nullification" },
+      { "id": "d", "text": "Senatorial courtesy" }
+    ],
+    "answer": "a",
+    "explanation": "Dillon's Rule limits municipal authority to powers expressly granted or implied by state law.",
+    "source_url": "https://www.nlc.org/resource/cities-101-delegation-of-power/",
+    "trap_notes": {
+      "b": "Incorporation applies the Bill of Rights to states via the Fourteenth Amendment.",
+      "c": "Nullification was a rejected claim that states could void federal laws.",
+      "d": "Senatorial courtesy concerns federal judicial nominations.",
+      "default": "Dillon's Rule contrasts with home rule by narrowly construing city powers."
+    }
+  },
+  {
+    "id": "civics-ded-215",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Cases",
+    "era": "1896",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, Louisiana" },
+    "prompt": "Identify this landmark 1896 Supreme Court ruling.",
+    "clues": [
+      "The case began when a Louisiana man challenged a segregated railway car law.",
+      "Only Justice John Marshall Harlan dissented, writing that our Constitution is color-blind.",
+      "The majority upheld Jim Crow segregation under the 'separate but equal' doctrine."
+    ],
+    "options": [
+      { "id": "a", "text": "Dred Scott v. Sandford" },
+      { "id": "b", "text": "Plessy v. Ferguson" },
+      { "id": "c", "text": "Korematsu v. United States" },
+      { "id": "d", "text": "Loving v. Virginia" }
+    ],
+    "answer": "b",
+    "explanation": "Plessy v. Ferguson (1896) legitimized racial segregation until Brown v. Board overturned it in 1954.",
+    "source_url": "https://www.archives.gov/milestone-documents/plessy-v-ferguson",
+    "trap_notes": {
+      "a": "Dred Scott v. Sandford (1857) denied citizenship to enslaved and free Black people.",
+      "c": "Korematsu v. United States (1944) upheld wartime Japanese American internment.",
+      "d": "Loving v. Virginia (1967) struck down state bans on interracial marriage.",
+      "default": "Plessy v. Ferguson created the separate-but-equal precedent for Jim Crow laws."
+    }
+  },
+  {
+    "id": "civics-ded-216",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Cases",
+    "era": "1944",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7249, "lng": -122.1561, "label": "San Leandro, California" },
+    "prompt": "Identify this World War II Supreme Court decision.",
+    "clues": [
+      "A California citizen challenged Executive Order 9066 during World War II.",
+      "The 1944 majority upheld forced exclusion of Japanese Americans as a military necessity.",
+      "The Supreme Court formally repudiated this ruling in 2018 as gravely wrong."
+    ],
+    "options": [
+      { "id": "a", "text": "Schenck v. United States" },
+      { "id": "b", "text": "Ex parte Milligan of 1866" },
+      { "id": "c", "text": "Korematsu v. United States" },
+      { "id": "d", "text": "Youngstown v. Sawyer" }
+    ],
+    "answer": "c",
+    "explanation": "Korematsu v. United States (1944) upheld wartime internment exclusion orders, though later widely condemned.",
+    "source_url": "https://www.oyez.org/cases/1940-1955/323us214",
+    "trap_notes": {
+      "a": "Schenck v. United States (1919) involved World War I anti-draft pamphlets.",
+      "b": "Ex parte Milligan (1866) barred military trials of civilians where civil courts operated.",
+      "d": "Youngstown (1952) barred President Truman from seizing steel mills.",
+      "default": "Korematsu upheld Japanese American wartime exclusion before being repudiated in 2018."
+    }
+  },
+  {
+    "id": "civics-ded-217",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Cases",
+    "era": "1967",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.5407, "lng": -77.436, "label": "Richmond, Virginia" },
+    "prompt": "Identify this 1967 civil rights Supreme Court case.",
+    "clues": [
+      "An interracial couple was sentenced to prison under a Virginia felony statute.",
+      "Chief Justice Earl Warren wrote for a unanimous Court in June 1967.",
+      "The ruling struck down all remaining state bans on interracial marriage."
+    ],
+    "options": [
+      { "id": "a", "text": "Loving v. Virginia" },
+      { "id": "b", "text": "Gideon v. Wainwright" },
+      { "id": "c", "text": "Mapp v. Ohio" },
+      { "id": "d", "text": "Obergefell v. Hodges" }
+    ],
+    "answer": "a",
+    "explanation": "Loving v. Virginia (1967) held that anti-miscegenation laws violate Equal Protection and Due Process.",
+    "source_url": "https://www.oyez.org/cases/1966/395",
+    "trap_notes": {
+      "b": "Gideon v. Wainwright (1963) guaranteed defense lawyers for indigent felony defendants.",
+      "c": "Mapp v. Ohio (1961) applied the exclusionary rule to state courts.",
+      "d": "Obergefell v. Hodges (2015) recognized same-sex marriage nationwide.",
+      "default": "Loving v. Virginia invalidated state laws banning interracial marriage."
+    }
+  },
+  {
+    "id": "civics-ded-218",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Cases",
+    "era": "1969",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 39.1031, "lng": -84.512, "label": "Cincinnati, Ohio" },
+    "prompt": "Identify this landmark 1969 First Amendment case.",
+    "clues": [
+      "It replaced the older 'clear and present danger' standard for punishing speech.",
+      "The Court held that abstract advocacy of force is protected by the First Amendment.",
+      "Speech loses protection only if it incites imminent lawless action likely to occur."
+    ],
+    "options": [
+      { "id": "a", "text": "Tinker v. Des Moines" },
+      { "id": "b", "text": "Brandenburg v. Ohio" },
+      { "id": "c", "text": "Texas v. Johnson" },
+      { "id": "d", "text": "Hazelwood v. Kuhlmeier" }
+    ],
+    "answer": "b",
+    "explanation": "Brandenburg v. Ohio (1969) created the strict imminent-lawless-action test for incitement.",
+    "source_url": "https://www.oyez.org/cases/1968/492",
+    "trap_notes": {
+      "a": "Tinker v. Des Moines (1969) protected student symbolic speech at school.",
+      "c": "Texas v. Johnson (1989) protected political flag burning.",
+      "d": "Hazelwood v. Kuhlmeier (1988) allowed school oversight of student newspapers.",
+      "default": "Brandenburg v. Ohio set the modern First Amendment test for incitement."
+    }
+  },
+  {
+    "id": "civics-ded-219",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Cases",
+    "era": "2008",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this 2008 Second Amendment Supreme Court case.",
+    "clues": [
+      "A special police officer challenged a strict handgun ban in the nation's capital.",
+      "Justice Antonin Scalia wrote the 5–4 majority opinion in June 2008.",
+      "It held the Second Amendment protects an individual right to own a gun for self-defense."
+    ],
+    "options": [
+      { "id": "a", "text": "Printz v. United States" },
+      { "id": "b", "text": "District of Columbia v. Heller" },
+      { "id": "c", "text": "Shelby County v. Holder" },
+      { "id": "d", "text": "Citizens United v. FEC" }
+    ],
+    "answer": "b",
+    "explanation": "District of Columbia v. Heller (2008) affirmed an individual Second Amendment right unconnected to militia service.",
+    "source_url": "https://www.oyez.org/cases/2007/07-290",
+    "trap_notes": {
+      "a": "Printz v. United States (1997) struck down federal commandeering of local sheriffs.",
+      "c": "Shelby County v. Holder (2013) invalidated the Voting Rights Act coverage formula.",
+      "d": "Citizens United v. FEC (2010) struck down bans on corporate independent spending.",
+      "default": "Heller struck down D.C.'s handgun ban and affirmed individual self-defense rights."
+    }
+  },
+  {
+    "id": "civics-ded-220",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Cases",
+    "era": "2015",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.1031, "lng": -84.512, "label": "Cincinnati, Ohio" },
+    "prompt": "Identify this 2015 Fourteenth Amendment Supreme Court case.",
+    "clues": [
+      "Plaintiffs from Ohio, Michigan, Kentucky, and Tennessee challenged state marriage bans.",
+      "Justice Anthony Kennedy wrote the 5–4 opinion decided in June 2015.",
+      "It held that the Fourteenth Amendment requires all states to license same-sex marriages."
+    ],
+    "options": [
+      { "id": "a", "text": "Obergefell v. Hodges" },
+      { "id": "b", "text": "Loving v. Virginia" },
+      { "id": "c", "text": "Baker v. Carr" },
+      { "id": "d", "text": "Wisconsin v. Yoder" }
+    ],
+    "answer": "a",
+    "explanation": "Obergefell v. Hodges (2015) guaranteed the fundamental right to marry for same-sex couples nationwide.",
+    "source_url": "https://www.oyez.org/cases/2014/14-556",
+    "trap_notes": {
+      "b": "Loving v. Virginia (1967) struck down bans on interracial marriage.",
+      "c": "Baker v. Carr (1962) allowed federal courts to review malapportioned districts.",
+      "d": "Wisconsin v. Yoder (1972) protected Amish religious exemptions from high school.",
+      "default": "Obergefell v. Hodges legalized same-sex marriage across all fifty states."
+    }
+  },
+  {
+    "id": "civics-ded-221",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Civil Rights and Liberties",
+    "era": "1965–Present",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.4074, "lng": -87.0211, "label": "Selma, Alabama" },
+    "prompt": "Identify this landmark 1965 federal statute.",
+    "clues": [
+      "Passed after the Selma-to-Montgomery marches, it enforced the Fifteenth Amendment.",
+      "It outlawed literacy tests and sent federal examiners to register disenfranchised voters.",
+      "Section 5 required covered jurisdictions to get federal preclearance for voting changes."
+    ],
+    "options": [
+      { "id": "a", "text": "The Civil Rights Act of 1964" },
+      { "id": "b", "text": "The Voting Rights Act of 1965" },
+      { "id": "c", "text": "The Fair Housing Act of 1968" },
+      { "id": "d", "text": "The Americans with Disabilities Act" }
+    ],
+    "answer": "b",
+    "explanation": "The Voting Rights Act of 1965 dismantled Jim Crow voting barriers and sharply raised Black voter registration.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "a": "The Civil Rights Act of 1964 targeted public accommodations and employment discrimination.",
+      "c": "The Fair Housing Act of 1968 barred discrimination in housing sales and rentals.",
+      "d": "The Americans with Disabilities Act was enacted in 1990.",
+      "default": "The Voting Rights Act of 1965 banned literacy tests and created federal preclearance."
+    }
+  },
+  {
+    "id": "civics-ded-222",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Civil Rights and Liberties",
+    "era": "1931–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "Identify this First Amendment press doctrine.",
+    "clues": [
+      "It happens when officials try to block speech or news before it is published.",
+      "Courts view it as the most severe form of censorship under the First Amendment.",
+      "The Supreme Court rejected it in both Near v. Minnesota and the Pentagon Papers case."
+    ],
+    "options": [
+      { "id": "a", "text": "Strict scrutiny" },
+      { "id": "b", "text": "Actual malice" },
+      { "id": "c", "text": "Prior restraint" },
+      { "id": "d", "text": "Symbolic speech" }
+    ],
+    "answer": "c",
+    "explanation": "Prior restraint is government censorship before publication, which carries a heavy presumption of invalidity.",
+    "source_url": "https://www.law.cornell.edu/wex/prior_restraint",
+    "trap_notes": {
+      "a": "Strict scrutiny is a judicial standard of review, not pre-publication censorship.",
+      "b": "Actual malice is the standard public officials must prove in libel lawsuits.",
+      "d": "Symbolic speech refers to expressive conduct like wearing armbands.",
+      "default": "Prior restraint blocks publication in advance rather than punishing unlawful speech afterward."
+    }
+  },
+  {
+    "id": "civics-ded-223",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Civil Rights and Liberties",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this Fifth Amendment criminal-justice protection.",
+    "clues": [
+      "This safeguard prevents prosecutors from retrying a defendant after an acquittal.",
+      "It is listed in the Fifth Amendment alongside the right against self-incrimination.",
+      "Under dual sovereignty, however, both state and federal courts may prosecute separately."
+    ],
+    "options": [
+      { "id": "a", "text": "Exclusionary rule" },
+      { "id": "b", "text": "Double jeopardy" },
+      { "id": "c", "text": "Eminent domain" },
+      { "id": "d", "text": "Habeas corpus" }
+    ],
+    "answer": "b",
+    "explanation": "The Double Jeopardy Clause bars being tried or punished twice for the same offense by the same sovereign.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-v",
+    "trap_notes": {
+      "a": "The exclusionary rule bars illegally seized evidence under the Fourth Amendment.",
+      "c": "Eminent domain allows government to take private property for public use with just pay.",
+      "d": "Habeas corpus challenges unlawful detention before a judge.",
+      "default": "Double jeopardy protects acquitted defendants from repeated prosecutions by the same government."
+    }
+  },
+  {
+    "id": "civics-ded-224",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "1812–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "Identify this redistricting practice.",
+    "clues": [
+      "Its name comes from an 1812 Massachusetts governor and a salamander-shaped map.",
+      "Mapmakers use tactics called 'packing' and 'cracking' to dilute rival voters.",
+      "It manipulates legislative district borders to favor one party or incumbent."
+    ],
+    "options": [
+      { "id": "a", "text": "Malapportionment" },
+      { "id": "b", "text": "Logrolling" },
+      { "id": "c", "text": "Gerrymandering" },
+      { "id": "d", "text": "Filibustering" }
+    ],
+    "answer": "c",
+    "explanation": "Gerrymandering draws bizarrely shaped or partisan districts to maximize one party's legislative seats.",
+    "source_url": "https://www.britannica.com/topic/gerrymandering",
+    "trap_notes": {
+      "a": "Malapportionment occurs when districts have unequal populations.",
+      "b": "Logrolling is lawmakers trading votes on different bills.",
+      "d": "Filibustering is using prolonged debate to stall a bill in the Senate.",
+      "default": "Gerrymandering packs or cracks voters to tilt district outcomes."
+    }
+  },
+  {
+    "id": "civics-ded-225",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "1900s–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 43.0731, "lng": -89.4012, "label": "Madison, Wisconsin" },
+    "prompt": "Identify this party nominating contest.",
+    "clues": [
+      "Voters cast secret ballots to select a party's nominee for the general election.",
+      "Unlike a closed contest, voters do not need prior party registration to take part.",
+      "On election day, any registered voter may choose which single party ballot to use."
+    ],
+    "options": [
+      { "id": "a", "text": "A party caucus" },
+      { "id": "b", "text": "A closed primary" },
+      { "id": "c", "text": "An open primary" },
+      { "id": "d", "text": "A runoff election" }
+    ],
+    "answer": "c",
+    "explanation": "In an open primary, any registered voter can pick one party's primary ballot without pre-registering in that party.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/state-primary-election-types",
+    "trap_notes": {
+      "a": "A caucus is an in-person neighborhood meeting rather than a standard ballot primary.",
+      "b": "A closed primary restricts participation to registered party members.",
+      "d": "A runoff election is a second contest held when no candidate wins a majority.",
+      "default": "Open primaries let independent and unaffiliated voters participate in party nominations."
+    }
+  },
+  {
+    "id": "civics-ded-226",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "2010–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this campaign finance organization.",
+    "clues": [
+      "This type of group emerged in 2010 after Citizens United and SpeechNow.org v. FEC.",
+      "It may raise and spend unlimited sums from corporations, unions, and individuals.",
+      "It is barred by law from donating directly to or coordinating with federal candidates."
+    ],
+    "options": [
+      { "id": "a", "text": "A Super PAC" },
+      { "id": "b", "text": "A traditional PAC" },
+      { "id": "c", "text": "A national party committee" },
+      { "id": "d", "text": "An exploratory committee" }
+    ],
+    "answer": "a",
+    "explanation": "Super PACs make unlimited independent expenditures while remaining legally barred from direct candidate coordination.",
+    "source_url": "https://www.fec.gov/help-candidates-and-committees/registering-pac/understanding-nonconnected-pacs/",
+    "trap_notes": {
+      "b": "Traditional PACs face strict contribution caps and may donate directly to candidates.",
+      "c": "National party committees face contribution limits and coordinate with nominees.",
+      "d": "Exploratory committees test whether a candidate should run for office.",
+      "default": "Super PACs raise unlimited funds for independent ads but cannot coordinate with campaigns."
+    }
+  },
+  {
+    "id": "civics-ded-227",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Political Parties and Media",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this interest-group advocacy strategy.",
+    "clues": [
+      "Unlike inside lobbying on Capitol Hill, this strategy mobilizes everyday citizens.",
+      "Groups urge members to call, email, or rally outside lawmakers' district offices.",
+      "It demonstrates broad public intensity to persuade undecided legislators."
+    ],
+    "options": [
+      { "id": "a", "text": "Grassroots lobbying" },
+      { "id": "b", "text": "Amicus filing" },
+      { "id": "c", "text": "Executive rulemaking" },
+      { "id": "d", "text": "Horse-race reporting" }
+    ],
+    "answer": "a",
+    "explanation": "Grassroots lobbying rallies constituents to contact their elected officials directly on pending bills.",
+    "source_url": "https://www.britannica.com/topic/lobbying",
+    "trap_notes": {
+      "b": "Amicus filings are legal briefs submitted to appellate courts.",
+      "c": "Executive rulemaking is the process agencies use to issue federal regulations.",
+      "d": "Horse-race reporting is media coverage focused on election polling.",
+      "default": "Grassroots lobbying uses constituent pressure from the bottom up to sway lawmakers."
+    }
+  },
+  {
+    "id": "civics-ded-228",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Identify this democratic system of government.",
+    "clues": [
+      "Voters elect the legislature, which then chooses the chief executive.",
+      "The head of government and cabinet sit inside the legislature, fusing both branches.",
+      "Canada, Japan, and the United Kingdom all operate under this constitutional model."
+    ],
+    "options": [
+      { "id": "a", "text": "A presidential republic" },
+      { "id": "b", "text": "A parliamentary democracy" },
+      { "id": "c", "text": "An absolute monarchy" },
+      { "id": "d", "text": "A loose confederation" }
+    ],
+    "answer": "b",
+    "explanation": "In a parliamentary democracy, the prime minister and cabinet emerge from and remain accountable to the legislature.",
+    "source_url": "https://www.britannica.com/topic/parliamentary-system",
+    "trap_notes": {
+      "a": "Presidential republics separate executive and legislative elections.",
+      "c": "Absolute monarchies concentrate unchecked power in a hereditary ruler.",
+      "d": "Confederations are weak alliances of sovereign states.",
+      "default": "Parliamentary systems fuse executive and legislative authority through a prime minister."
+    }
+  },
+  {
+    "id": "civics-ded-229",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1993–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "prompt": "Identify this regional supranational union.",
+    "clues": [
+      "It grew out of 1950s coal, steel, and common market agreements in Western Europe.",
+      "Its 27 member states share a single market, and most use a common currency, the euro.",
+      "Its institutions include a directly elected Parliament in Strasbourg and a Commission."
+    ],
+    "options": [
+      { "id": "a", "text": "The African Union" },
+      { "id": "b", "text": "The European Union" },
+      { "id": "c", "text": "The World Trade Organization" },
+      { "id": "d", "text": "The North Atlantic Treaty Organization" }
+    ],
+    "answer": "b",
+    "explanation": "Formally created by the 1992 Maastricht Treaty, the European Union blends economic integration with shared law.",
+    "source_url": "https://european-union.europa.eu/principles-countries-history/history-eu_en",
+    "trap_notes": {
+      "a": "The African Union unites 55 African states and is headquartered in Addis Ababa.",
+      "c": "The WTO is a global trade organization based in Geneva.",
+      "d": "NATO is a transatlantic military defense alliance.",
+      "default": "The European Union is the world's most deeply integrated supranational organization."
+    }
+  },
+  {
+    "id": "civics-ded-230",
+    "type": "deduction",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1949–Present",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "Identify this body of international humanitarian law.",
+    "clues": [
+      "First drafted in 1864 and updated in four treaties in 1949, it governs armed conflict.",
+      "It sets binding rules for humane treatment of wounded soldiers, medics, and prisoners.",
+      "Its Fourth Convention specifically protects civilians in war zones and occupied lands."
+    ],
+    "options": [
+      { "id": "a", "text": "The Geneva Conventions" },
+      { "id": "b", "text": "The Bretton Woods Accords" },
+      { "id": "c", "text": "The Kyoto Protocol" },
+      { "id": "d", "text": "The Monroe Doctrine" }
+    ],
+    "answer": "a",
+    "explanation": "The 1949 Geneva Conventions form the core of international humanitarian law protecting war victims and civilians.",
+    "source_url": "https://www.icrc.org/en/law-and-policy/geneva-conventions-and-their-commentaries",
+    "trap_notes": {
+      "b": "The 1944 Bretton Woods Accords created the IMF and World Bank.",
+      "c": "The 1997 Kyoto Protocol addressed greenhouse-gas emissions.",
+      "d": "The 1823 Monroe Doctrine was a U.S. foreign-policy statement on the Americas.",
+      "default": "The Geneva Conventions establish legal protections for prisoners, medics, and civilians in war."
+    }
+  },
+  {
+    "id": "civics-dat-201",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Constitutional Supermajority Thresholds",
+      "headers": ["Action", "Vote Needed", "Who Votes"],
+      "rows": [
+        ["Veto Override", "Two-thirds", "House & Senate"],
+        ["Propose Amendment", "Two-thirds", "House & Senate"],
+        ["Ratify Amendment", "Three-fourths", "State Legislatures/Conventions"]
+      ]
+    },
+    "prompt": "According to the table, which constitutional action requires the highest percentage threshold?",
+    "options": [
+      { "id": "a", "text": "Overriding a presidential veto in Congress" },
+      { "id": "b", "text": "Proposing a constitutional amendment in Congress" },
+      { "id": "c", "text": "Ratifying a proposed constitutional amendment" },
+      { "id": "d", "text": "Passing an ordinary revenue bill in the House" }
+    ],
+    "answer": "c",
+    "explanation": "Ratifying an amendment requires three-fourths (75%) of the states, exceeding the two-thirds (66.7%) congressional bar.",
+    "source_url": "https://www.archives.gov/federal-register/constitution",
+    "trap_notes": {
+      "a": "A veto override requires two-thirds (about 67%), less than three-fourths.",
+      "b": "Proposing an amendment in Congress requires two-thirds, not three-fourths.",
+      "d": "Ordinary bills are not listed in the table and require only a simple majority.",
+      "default": "Three-fourths (75%) for state ratification is higher than two-thirds (67%)."
+    }
+  },
+  {
+    "id": "civics-dat-202",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–1790",
+    "skill_tag": "data_literacy",
+    "trap_type": "chronology",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, Pennsylvania" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Sample State Ratification Votes (1787–1788)",
+      "headers": ["State", "For", "Against"],
+      "rows": [
+        ["Delaware", "30", "0"],
+        ["Massachusetts", "187", "168"],
+        ["Virginia", "89", "79"]
+      ]
+    },
+    "prompt": "Which conclusion is best supported by the state ratification data in the table?",
+    "options": [
+      { "id": "a", "text": "Ratification was unanimous in all three states" },
+      { "id": "b", "text": "Virginia and Massachusetts passed by narrow margins" },
+      { "id": "c", "text": "Delaware cast the most total convention votes" },
+      { "id": "d", "text": "Anti-Federalists defeated the Constitution in Virginia" }
+    ],
+    "answer": "b",
+    "explanation": "Massachusetts passed by 19 votes (52.7%) and Virginia by 10 votes (53.0%), showing sharp debate.",
+    "source_url": "https://constitutioncenter.org/blog/the-day-the-constitution-was-ratified",
+    "trap_notes": {
+      "a": "Only Delaware voted unanimously (30–0); the other two had strong opposition.",
+      "c": "Delaware cast 30 total votes, far fewer than Massachusetts (355) or Virginia (168).",
+      "d": "Virginia ratified the Constitution 89–79 despite Anti-Federalist opposition.",
+      "default": "The narrow margins in Massachusetts and Virginia reflect intense debate over ratification."
+    }
+  },
+  {
+    "id": "civics-dat-203",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1960–1992",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Selected Amendment Ratification Timelines",
+      "headers": ["Amendment", "Proposed", "Ratified"],
+      "rows": [
+        ["26th (Age 18 Vote)", "Mar 1971", "Jul 1971"],
+        ["22nd (Term Limits)", "Mar 1947", "Feb 1951"],
+        ["27th (Congress Pay)", "Sep 1789", "May 1992"]
+      ]
+    },
+    "prompt": "What does the table show about the Twenty-sixth Amendment compared with the others?",
+    "options": [
+      { "id": "a", "text": "It was ratified in the shortest time, under four months" },
+      { "id": "b", "text": "It took more than two centuries to win state approval" },
+      { "id": "c", "text": "It was proposed before the Bill of Rights was drafted" },
+      { "id": "d", "text": "It required four years of debate across the states" }
+    ],
+    "answer": "a",
+    "explanation": "Proposed in March 1971 and ratified in July 1971, the Twenty-sixth Amendment was the fastest in U.S. history.",
+    "source_url": "https://constitutioncenter.org/blog/the-26th-amendment-and-the-fastest-ratification-in-history",
+    "trap_notes": {
+      "b": "The Twenty-seventh Amendment (1789–1992) took over two centuries.",
+      "c": "The Twenty-seventh Amendment was proposed in 1789 alongside the Bill of Rights.",
+      "d": "The Twenty-second Amendment (1947–1951) took nearly four years.",
+      "default": "March to July 1971 is roughly four months, far faster than the other two."
+    }
+  },
+  {
+    "id": "civics-dat-204",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "2024",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "2024 Electoral Votes by Selected States",
+      "headers": ["State", "House Seats", "Electoral Votes"],
+      "rows": [
+        ["Wyoming", "1", "3"],
+        ["Ohio", "15", "17"],
+        ["California", "52", "54"]
+      ]
+    },
+    "prompt": "Based on the table, why does Wyoming have a higher share of electoral votes per resident than California?",
+    "options": [
+      { "id": "a", "text": "Every state receives two Senate-based electors plus House seats" },
+      { "id": "b", "text": "Wyoming is awarded bonus electors for low population density" },
+      { "id": "c", "text": "California loses two electors for using winner-take-all rules" },
+      { "id": "d", "text": "House seats are divided equally among all fifty states" }
+    ],
+    "answer": "a",
+    "explanation": "Each state gets two electors for its two senators regardless of population, giving small states a baseline of three.",
+    "source_url": "https://www.archives.gov/electoral-college/allocation",
+    "trap_notes": {
+      "b": "Electors are based on congressional delegation size, not land area or density.",
+      "c": "California's 54 electors equal 52 House seats plus 2 Senate seats.",
+      "d": "House seats are apportioned by population, ranging from 1 to 52.",
+      "default": "Adding 2 Senate-based electors to every state boosts small states' per-capita weight."
+    }
+  },
+  {
+    "id": "civics-dat-205",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "2012–2020",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Voter Turnout by Age Group (Census CPS)",
+      "headers": ["Age Group", "2016 Turnout", "2020 Turnout"],
+      "rows": [
+        ["18–24", "43.0%", "51.4%"],
+        ["35–44", "59.8%", "65.6%"],
+        ["65–74", "72.6%", "76.0%"]
+      ]
+    },
+    "prompt": "Which statement accurately summarizes the Census voter turnout data in the table?",
+    "options": [
+      { "id": "a", "text": "Turnout fell across all age groups from 2016 to 2020" },
+      { "id": "b", "text": "Older voters turned out at higher rates in both elections" },
+      { "id": "c", "text": "Younger voters had the smallest percentage-point gain in 2020" },
+      { "id": "d", "text": "Ages 35–44 voted at a higher rate than ages 65–74 in 2020" }
+    ],
+    "answer": "b",
+    "explanation": "In both 2016 and 2020, turnout rose steadily with age, peaking in the 65–74 group.",
+    "source_url": "https://www.census.gov/library/visualizations/time-series/demo/voting-historical-time-series.html",
+    "trap_notes": {
+      "a": "Turnout increased in every listed age group between 2016 and 2020.",
+      "c": "Ages 18–24 gained 8.4 percentage points, the largest jump in the table.",
+      "d": "Ages 65–74 voted at 76.0% in 2020, ahead of 35–44 at 65.6%.",
+      "default": "Older age cohorts consistently show higher voter turnout than younger cohorts."
+    }
+  },
+  {
+    "id": "civics-dat-206",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1974–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Presidential Vetoes by Selected Presidents",
+      "headers": ["President", "Total Vetoes", "Overridden"],
+      "rows": [
+        ["Franklin Roosevelt", "635", "9"],
+        ["George H. W. Bush", "44", "1"],
+        ["Barack Obama", "12", "1"]
+      ]
+    },
+    "prompt": "What does the historical veto table indicate about congressional veto overrides?",
+    "options": [
+      { "id": "a", "text": "Congress overrides most presidential vetoes" },
+      { "id": "b", "text": "Veto overrides are rare compared with total vetoes" },
+      { "id": "c", "text": "George H. W. Bush had more overrides than Roosevelt" },
+      { "id": "d", "text": "Barack Obama never had a veto overridden by Congress" }
+    ],
+    "answer": "b",
+    "explanation": "Across all three presidencies, only a tiny fraction of vetoes were overridden due to the two-thirds hurdle.",
+    "source_url": "https://www.senate.gov/legislative/vetoes/vetoCounts.htm",
+    "trap_notes": {
+      "a": "In each row, the overwhelming majority of vetoes were sustained.",
+      "c": "Roosevelt had 9 vetoes overridden, compared with 1 for George H. W. Bush.",
+      "d": "Obama had 1 veto overridden out of 12 total vetoes.",
+      "default": "The two-thirds threshold in both chambers makes overriding a veto rare."
+    }
+  },
+  {
+    "id": "civics-dat-207",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1975–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Senate Cloture Thresholds (Current Rules)",
+      "headers": ["Senate Business", "Cloture Votes", "Final Passage"],
+      "rows": [
+        ["Most Legislation", "60", "Simple Majority"],
+        ["Executive/Judicial Picks", "Simple Majority", "Simple Majority"],
+        ["Treaty Ratification", "60", "Two-Thirds"]
+      ]
+    },
+    "prompt": "According to the table, which Senate action requires 60 votes for cloture but only a simple majority to pass?",
+    "options": [
+      { "id": "a", "text": "Confirming federal district court judges" },
+      { "id": "b", "text": "Ratifying an international defense treaty" },
+      { "id": "c", "text": "Passing most ordinary federal legislation" },
+      { "id": "d", "text": "Confirming cabinet department secretaries" }
+    ],
+    "answer": "c",
+    "explanation": "Most bills still require 60 votes to end debate via cloture, even though final passage needs a simple majority.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm",
+    "trap_notes": {
+      "a": "Judicial nominees require only a simple majority for both cloture and confirmation.",
+      "b": "Treaties require a two-thirds vote for final ratification, not a simple majority.",
+      "d": "Executive cabinet nominees need only a simple majority for cloture.",
+      "default": "Most Senate bills face a 60-vote cloture hurdle before a simple-majority passage vote."
+    }
+  },
+  {
+    "id": "civics-dat-208",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Allocation of Powers in U.S. Federalism",
+      "headers": ["Power Type", "Level of Gov.", "Example"],
+      "rows": [
+        ["Enumerated", "Federal Only", "Coining Money"],
+        ["Reserved", "State Only", "Issuing Driver's Licenses"],
+        ["Concurrent", "Federal & State", "Levying Taxes"]
+      ]
+    },
+    "prompt": "Using the table, which pairing correctly matches a power type with an example?",
+    "options": [
+      { "id": "a", "text": "Reserved power: coining national currency" },
+      { "id": "b", "text": "Enumerated power: issuing state driver's licenses" },
+      { "id": "c", "text": "Concurrent power: levying taxes on residents" },
+      { "id": "d", "text": "Concurrent power: declaring war on foreign states" }
+    ],
+    "answer": "c",
+    "explanation": "Both federal and state governments levy taxes, making taxation a classic concurrent power.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-x",
+    "trap_notes": {
+      "a": "Coining money is an enumerated federal power, not a state reserved power.",
+      "b": "Driver's licenses are issued under state reserved powers.",
+      "d": "Declaring war is an exclusive enumerated power of Congress.",
+      "default": "Concurrent powers like taxation are exercised by both federal and state governments."
+    }
+  },
+  {
+    "id": "civics-dat-209",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Comparing Federal Grant Types",
+      "headers": ["Grant Type", "Spending Scope", "State Discretion"],
+      "rows": [
+        ["Categorical", "Narrowly defined", "Low"],
+        ["Block", "Broad policy area", "High"],
+        ["Revenue Sharing", "General purpose", "Very High"]
+      ]
+    },
+    "prompt": "Based on the table, why do state governors typically prefer block grants over categorical grants?",
+    "options": [
+      { "id": "a", "text": "Block grants give states higher flexibility in spending" },
+      { "id": "b", "text": "Block grants restrict funds to a single narrow project" },
+      { "id": "c", "text": "Categorical grants give states very high discretion" },
+      { "id": "d", "text": "Categorical grants require zero federal compliance rules" }
+    ],
+    "answer": "a",
+    "explanation": "The table shows block grants cover broad policy areas and allow high state discretion.",
+    "source_url": "https://www.britannica.com/topic/block-grant",
+    "trap_notes": {
+      "b": "Restricting funds to narrow projects describes categorical grants.",
+      "c": "Categorical grants carry low state discretion.",
+      "d": "Categorical grants carry strict federal conditions.",
+      "default": "Block grants bundle funds for broad goals so states can tailor local programs."
+    }
+  },
+  {
+    "id": "civics-dat-210",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Cases",
+    "era": "1954–2015",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Landmark Supreme Court Vote Margins",
+      "headers": ["Case", "Year", "Vote Margin"],
+      "rows": [
+        ["Brown v. Board", "1954", "9–0"],
+        ["Miranda v. Arizona", "1966", "5–4"],
+        ["Obergefell v. Hodges", "2015", "5–4"]
+      ]
+    },
+    "prompt": "What does the table show about the Supreme Court's decision in Brown v. Board of Education?",
+    "options": [
+      { "id": "a", "text": "It was decided by a single-vote majority" },
+      { "id": "b", "text": "It was a unanimous 9–0 ruling by the justices" },
+      { "id": "c", "text": "It was decided more recently than Miranda v. Arizona" },
+      { "id": "d", "text": "It produced four dissenting opinions" }
+    ],
+    "answer": "b",
+    "explanation": "Chief Justice Earl Warren worked to secure a unanimous 9–0 vote in Brown to strengthen its moral authority.",
+    "source_url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+    "trap_notes": {
+      "a": "Miranda and Obergefell were 5–4 rulings, whereas Brown was 9–0.",
+      "c": "Brown (1954) was decided twelve years before Miranda (1966).",
+      "d": "A 9–0 ruling has zero dissenting justices.",
+      "default": "Brown v. Board of Education was a unanimous 9–0 Supreme Court decision."
+    }
+  },
+  {
+    "id": "civics-dat-211",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Civil Rights and Liberties",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Equal Protection Tiers of Judicial Scrutiny",
+      "headers": ["Standard", "Applies To", "Gov. Burden"],
+      "rows": [
+        ["Strict Scrutiny", "Race / National Origin", "Compelling Interest"],
+        ["Intermediate", "Sex / Gender", "Important Interest"],
+        ["Rational Basis", "Age / Economic Rules", "Legitimate Interest"]
+      ]
+    },
+    "prompt": "According to the table, which classification triggers intermediate scrutiny in federal courts?",
+    "options": [
+      { "id": "a", "text": "Laws classifying people by age" },
+      { "id": "b", "text": "Laws classifying people by race" },
+      { "id": "c", "text": "Laws classifying people by sex" },
+      { "id": "d", "text": "Laws regulating business licensing" }
+    ],
+    "answer": "c",
+    "explanation": "Sex-based classifications must serve an important government interest and are reviewed under intermediate scrutiny.",
+    "source_url": "https://www.law.cornell.edu/wex/intermediate_scrutiny",
+    "trap_notes": {
+      "a": "Age classifications are reviewed under the rational basis standard.",
+      "b": "Racial classifications trigger strict scrutiny.",
+      "d": "Economic and licensing rules generally receive rational basis review.",
+      "default": "Intermediate scrutiny applies to gender classifications and requires an important interest."
+    }
+  },
+  {
+    "id": "civics-dat-212",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Civil Rights and Liberties",
+    "era": "1960–1968",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.3668, "lng": -86.3, "label": "Montgomery, Alabama" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Black Voter Registration in Selected States (%)",
+      "headers": ["State", "1964", "1968"],
+      "rows": [
+        ["Mississippi", "6.7%", "59.8%"],
+        ["Alabama", "19.3%", "56.7%"],
+        ["Louisiana", "31.6%", "58.9%"]
+      ]
+    },
+    "prompt": "Which state in the table saw the largest percentage-point jump in Black voter registration after the 1965 Voting Rights Act?",
+    "options": [
+      { "id": "a", "text": "Mississippi, rising 53.1 percentage points" },
+      { "id": "b", "text": "Alabama, rising 37.4 percentage points" },
+      { "id": "c", "text": "Louisiana, rising 27.3 percentage points" },
+      { "id": "d", "text": "All three states rose by under 20 points" }
+    ],
+    "answer": "a",
+    "explanation": "Mississippi rose from 6.7% in 1964 to 59.8% in 1968, an increase of 53.1 percentage points.",
+    "source_url": "https://www.justice.gov/crt/history-federal-voting-rights-laws",
+    "trap_notes": {
+      "b": "Alabama's 37.4-point gain was substantial but smaller than Mississippi's 53.1-point rise.",
+      "c": "Louisiana gained 27.3 points, the smallest jump among the three listed states.",
+      "d": "Every state in the table increased by more than 25 percentage points.",
+      "default": "Federal examiners and the ban on literacy tests produced dramatic gains in Mississippi."
+    }
+  },
+  {
+    "id": "civics-dat-213",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "2023–2024",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal Contribution Limits (2023–2024 Cycle)",
+      "headers": ["Donor Type", "To Candidate", "To Super PAC"],
+      "rows": [
+        ["Individual", "$3,300/election", "Unlimited"],
+        ["Multicandidate PAC", "$5,000/election", "Unlimited"],
+        ["Corporation", "Prohibited", "Unlimited"]
+      ]
+    },
+    "prompt": "What does the FEC table show about corporate campaign contributions?",
+    "options": [
+      { "id": "a", "text": "Corporations may give $5,000 directly to candidates" },
+      { "id": "b", "text": "Corporations cannot give directly to candidates but can fund Super PACs" },
+      { "id": "c", "text": "Individuals face no limits on direct donations to candidates" },
+      { "id": "d", "text": "Multicandidate PACs are barred from donating to candidates" }
+    ],
+    "answer": "b",
+    "explanation": "Federal law bans direct corporate donations to candidates, while Citizens United allows unlimited Super PAC gifts.",
+    "source_url": "https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/",
+    "trap_notes": {
+      "a": "The $5,000 limit applies to multicandidate PACs, not corporations.",
+      "c": "Individuals are capped at $3,300 per election to a federal candidate.",
+      "d": "Multicandidate PACs may donate up to $5,000 per election to candidates.",
+      "default": "Corporations are barred from direct candidate gifts but may give unlimited sums to Super PACs."
+    }
+  },
+  {
+    "id": "civics-dat-214",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Hypothetical 100-Seat Legislative Election",
+      "headers": ["Party", "Vote Share", "SMD Seats"],
+      "rows": [
+        ["Blue Party", "48%", "58"],
+        ["Red Party", "40%", "42"],
+        ["Green Party", "12%", "0"]
+      ]
+    },
+    "prompt": "How does the single-member district (SMD) table illustrate Duverger's Law?",
+    "options": [
+      { "id": "a", "text": "The Green Party wins seats exactly equal to its 12% vote" },
+      { "id": "b", "text": "Winner-take-all districts shut out the third party despite 12% support" },
+      { "id": "c", "text": "The Red Party wins a majority of seats with 40% of votes" },
+      { "id": "d", "text": "No party wins more than half of the legislative seats" }
+    ],
+    "answer": "b",
+    "explanation": "In single-member districts, a party with 12% spread thinly across districts can win zero seats, favoring two parties.",
+    "source_url": "https://www.britannica.com/topic/Duvergers-law",
+    "trap_notes": {
+      "a": "The Green Party won 0 seats in the table despite receiving 12% of votes.",
+      "c": "The Red Party won 42 seats, short of a 51-seat majority.",
+      "d": "The Blue Party won 58 seats, a clear majority.",
+      "default": "Single-member plurality rules penalize minor parties and reinforce two-party systems."
+    }
+  },
+  {
+    "id": "civics-dat-215",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Comparing Democratic Executive Models",
+      "headers": ["Feature", "Presidential", "Parliamentary"],
+      "rows": [
+        ["Chief Executive", "Separately Elected", "Chosen by Legislature"],
+        ["Term Length", "Fixed Term", "Confidence-Dependent"],
+        ["Head of State", "Same as Executive", "Separate Monarch/President"]
+      ]
+    },
+    "prompt": "Based on the table, which statement distinguishes a parliamentary system from a presidential one?",
+    "options": [
+      { "id": "a", "text": "The chief executive serves a fixed term regardless of legislative votes" },
+      { "id": "b", "text": "The head of state and chief executive are always the same person" },
+      { "id": "c", "text": "The chief executive is chosen by the legislature and needs its confidence" },
+      { "id": "d", "text": "Voters elect the prime minister on a separate national ballot" }
+    ],
+    "answer": "c",
+    "explanation": "In parliamentary systems, the legislature selects the prime minister, whose term depends on maintaining confidence.",
+    "source_url": "https://www.britannica.com/topic/parliamentary-system",
+    "trap_notes": {
+      "a": "Fixed terms regardless of legislative votes characterize presidential systems.",
+      "b": "Combining head of state and head of government is a presidential feature.",
+      "d": "Separately electing the chief executive describes a presidential system.",
+      "default": "Parliamentary executives depend on legislative confidence rather than fixed terms."
+    }
+  },
+  {
+    "id": "civics-dat-216",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Constitutional Distribution of Sovereignty",
+      "headers": ["System", "Source of Authority", "Example"],
+      "rows": [
+        ["Unitary", "Central Government", "France"],
+        ["Federal", "Shared Constitutionally", "Germany"],
+        ["Confederal", "Sovereign Member States", "Early U.S. (1781)"]
+      ]
+    },
+    "prompt": "According to the table, in which system do subnational units retain ultimate sovereignty over a weak center?",
+    "options": [
+      { "id": "a", "text": "A unitary system like France" },
+      { "id": "b", "text": "A federal system like Germany" },
+      { "id": "c", "text": "A confederal system like the early U.S." },
+      { "id": "d", "text": "Both unitary and federal systems equally" }
+    ],
+    "answer": "c",
+    "explanation": "In a confederation, sovereign member states delegate limited powers to a weak central body.",
+    "source_url": "https://www.britannica.com/topic/confederation-politics",
+    "trap_notes": {
+      "a": "In a unitary system, supreme authority rests with the central government.",
+      "b": "In a federal system, sovereignty is constitutionally divided between levels.",
+      "d": "Unitary and federal systems differ sharply on whether subnational units have protected powers.",
+      "default": "Confederations place ultimate sovereignty in the member states."
+    }
+  },
+  {
+    "id": "civics-dat-217",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1945–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7489, "lng": -73.968, "label": "New York, New York" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Key United Nations Principal Organs",
+      "headers": ["UN Organ", "Membership", "Primary Power"],
+      "rows": [
+        ["General Assembly", "All 193 States", "Non-binding Resolutions"],
+        ["Security Council", "15 States (5 Veto)", "Binding Peace Decisions"],
+        ["ICJ", "15 Judges", "State Legal Rulings"]
+      ]
+    },
+    "prompt": "According to the table, which UN organ includes all 193 member states but issues non-binding resolutions?",
+    "options": [
+      { "id": "a", "text": "The Security Council" },
+      { "id": "b", "text": "The General Assembly" },
+      { "id": "c", "text": "The International Court of Justice" },
+      { "id": "d", "text": "The Five Permanent Veto Powers" }
+    ],
+    "answer": "b",
+    "explanation": "Every UN member state sits in the General Assembly with one vote, though its resolutions are non-binding.",
+    "source_url": "https://www.un.org/en/about-us/main-bodies",
+    "trap_notes": {
+      "a": "The Security Council has 15 members and can issue binding decisions.",
+      "c": "The ICJ consists of 15 judges resolving state legal disputes.",
+      "d": "The five permanent veto powers are part of the Security Council.",
+      "default": "The UN General Assembly is universal in membership but advisory in legal force."
+    }
+  },
+  {
+    "id": "civics-dat-218",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1789–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Constitutional Structure of Congress",
+      "headers": ["Chamber", "Term Length", "Minimum Age"],
+      "rows": [
+        ["House", "2 Years", "25"],
+        ["Senate", "6 Years", "30"],
+        ["President (Exec.)", "4 Years", "35"]
+      ]
+    },
+    "prompt": "What pattern does the table reveal about term length and minimum age across federal offices?",
+    "options": [
+      { "id": "a", "text": "Longer terms correspond with higher minimum age rules" },
+      { "id": "b", "text": "House members serve longer terms than U.S. senators" },
+      { "id": "c", "text": "Presidents have a lower age floor than senators" },
+      { "id": "d", "text": "All three offices share identical two-year election cycles" }
+    ],
+    "answer": "a",
+    "explanation": "House (2 yrs, age 25), President (4 yrs, age 35), and Senate (6 yrs, age 30) all require higher age for longer terms than the House.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i",
+    "trap_notes": {
+      "b": "Senators serve 6-year terms, three times longer than House 2-year terms.",
+      "c": "Presidents must be at least 35, compared with 30 for senators.",
+      "d": "Term lengths vary across 2, 4, and 6 years.",
+      "default": "The Framers paired longer terms in the Senate and presidency with higher age floors."
+    }
+  },
+  {
+    "id": "civics-dat-219",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Political Parties and Media",
+    "era": "2020–2024",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Where U.S. Adults Often Get News (Pew Survey %)",
+      "headers": ["Platform", "2020", "2023"],
+      "rows": [
+        ["Television", "40%", "32%"],
+        ["News Websites/Apps", "33%", "28%"],
+        ["Social Media", "23%", "25%"]
+      ]
+    },
+    "prompt": "Which trend is supported by the Pew news-consumption data in the table?",
+    "options": [
+      { "id": "a", "text": "Television news use grew sharply from 2020 to 2023" },
+      { "id": "b", "text": "Social media was the only platform listed that increased" },
+      { "id": "c", "text": "More adults got news from social media than TV in 2023" },
+      { "id": "d", "text": "News websites overtook television as the top source in 2023" }
+    ],
+    "answer": "b",
+    "explanation": "Between 2020 and 2023, TV fell 8 points and websites fell 5 points, while social media rose from 23% to 25%.",
+    "source_url": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/",
+    "trap_notes": {
+      "a": "Television declined from 40% to 32% in the table.",
+      "c": "TV remained ahead of social media (32% vs. 25%) in 2023.",
+      "d": "News websites (28%) stayed below television (32%) in 2023.",
+      "default": "Traditional TV news declined while social media gained share as a news source."
+    }
+  },
+  {
+    "id": "civics-dat-220",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal Court Tiers in the United States",
+      "headers": ["Court Tier", "Number", "Primary Role"],
+      "rows": [
+        ["District Courts", "94", "Federal Trials"],
+        ["Courts of Appeals", "13", "Error Review"],
+        ["Supreme Court", "1", "Final Constitutional Review"]
+      ]
+    },
+    "prompt": "What does the federal court table show about where federal trials take place?",
+    "options": [
+      { "id": "a", "text": "Trials are held in the 94 U.S. District Courts" },
+      { "id": "b", "text": "Trials are held in the 13 Courts of Appeals" },
+      { "id": "c", "text": "All criminal trials start in the Supreme Court" },
+      { "id": "d", "text": "District Courts only review appeals from states" }
+    ],
+    "answer": "a",
+    "explanation": "The 94 U.S. District Courts are the trial courts of the federal judiciary, where witnesses and juries appear.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+    "trap_notes": {
+      "b": "The 13 Courts of Appeals review trial records for legal errors rather than holding trials.",
+      "c": "The Supreme Court rarely exercises original jurisdiction and never holds routine trials.",
+      "d": "District Courts handle original federal trials, not state supreme court appeals.",
+      "default": "The federal judiciary is a three-tier pyramid with 94 trial courts at the base."
+    }
+  },
+  {
+    "id": "civics-dat-221",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Impeachment and Removal Roles",
+      "headers": ["Stage", "Body", "Vote Required"],
+      "rows": [
+        ["Impeach (Charge)", "House", "Simple Majority"],
+        ["Try & Convict", "Senate", "Two-Thirds"],
+        ["Preside (Pres. Trial)", "Chief Justice", "Presiding Officer"]
+      ]
+    },
+    "prompt": "According to the table, what is required to remove an impeached official from office?",
+    "options": [
+      { "id": "a", "text": "A simple majority vote in the House alone" },
+      { "id": "b", "text": "A two-thirds conviction vote in the U.S. Senate" },
+      { "id": "c", "text": "A unanimous ruling by all nine Supreme Court justices" },
+      { "id": "d", "text": "Approval by three-fourths of state legislatures" }
+    ],
+    "answer": "b",
+    "explanation": "While the House impeaches by simple majority, removal requires a two-thirds conviction vote in the Senate.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "trap_notes": {
+      "a": "The House vote brings formal charges (impeachment) but does not remove an official.",
+      "c": "The Chief Justice presides over presidential trials, but senators cast the verdict.",
+      "d": "State legislatures have no role in federal impeachment trials.",
+      "default": "Impeachment is a two-step check: House charges by majority, Senate convicts by two-thirds."
+    }
+  },
+  {
+    "id": "civics-dat-222",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Civil Rights and Liberties",
+    "era": "1791–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Criminal Justice Protections in the Bill of Rights",
+      "headers": ["Amendment", "Key Protection", "Stage"],
+      "rows": [
+        ["Fourth", "Warrant / Probable Cause", "Search & Arrest"],
+        ["Fifth", "Remain Silent / No Double Jeopardy", "Charging & Trial"],
+        ["Sixth", "Speedy Trial & Counsel", "Criminal Trial"]
+      ]
+    },
+    "prompt": "Using the table, which amendment guarantees a defendant legal counsel during a criminal trial?",
+    "options": [
+      { "id": "a", "text": "The Fourth Amendment" },
+      { "id": "b", "text": "The Fifth Amendment" },
+      { "id": "c", "text": "The Sixth Amendment" },
+      { "id": "d", "text": "The Eighth Amendment" }
+    ],
+    "answer": "c",
+    "explanation": "The Sixth Amendment protects trial rights, including the assistance of counsel and a speedy public jury trial.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-vi",
+    "trap_notes": {
+      "a": "The Fourth Amendment governs searches, seizures, and arrest warrants.",
+      "b": "The Fifth Amendment covers self-incrimination, grand juries, and double jeopardy.",
+      "d": "The Eighth Amendment bars excessive bail and cruel punishments.",
+      "default": "Trial rights like counsel and jury confrontation are anchored in the Sixth Amendment."
+    }
+  },
+  {
+    "id": "civics-dat-223",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "1980–2022",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. House Incumbent Reelection Rates",
+      "headers": ["Election Year", "Type", "Incumbents Reelected"],
+      "rows": [
+        ["2018", "Midterm", "91%"],
+        ["2020", "Presidential", "95%"],
+        ["2022", "Midterm", "94%"]
+      ]
+    },
+    "prompt": "What does the table demonstrate about modern U.S. House elections?",
+    "options": [
+      { "id": "a", "text": "Over 90% of House incumbents won reelection in each cycle" },
+      { "id": "b", "text": "Midterm elections consistently unseat most incumbents" },
+      { "id": "c", "text": "Incumbents lost more often in 2020 than in 2018" },
+      { "id": "d", "text": "Fewer than half of House incumbents kept their seats" }
+    ],
+    "answer": "a",
+    "explanation": "In 2018, 2020, and 2022, more than 90% of House incumbents seeking reelection won.",
+    "source_url": "https://www.opensecrets.org/elections-overview/reelection-rates",
+    "trap_notes": {
+      "b": "Both 2018 (91%) and 2022 (94%) midterms saw overwhelming incumbent victories.",
+      "c": "Incumbents won at a higher rate in 2020 (95%) than in 2018 (91%).",
+      "d": "Incumbent reelection rates exceeded 90%, far above half.",
+      "default": "Name recognition, safe districts, and fundraising keep House incumbency rates above 90%."
+    }
+  },
+  {
+    "id": "civics-dat-224",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Electoral College and Campaigns",
+    "era": "2020–2024",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "State Primary Election Rules (Sample)",
+      "headers": ["Primary Type", "Who May Vote", "Example State"],
+      "rows": [
+        ["Closed", "Registered Party Members", "Florida"],
+        ["Open", "Any Registered Voter", "Wisconsin"],
+        ["Top-Two", "All Voters / All Candidates", "California"]
+      ]
+    },
+    "prompt": "Based on the table, how does California's top-two primary differ from Florida's closed primary?",
+    "options": [
+      { "id": "a", "text": "Florida lets all voters choose among all party candidates" },
+      { "id": "b", "text": "California places all candidates on one ballot for all voters" },
+      { "id": "c", "text": "Wisconsin restricts primary ballots to registered members" },
+      { "id": "d", "text": "California bars independent voters from primary elections" }
+    ],
+    "answer": "b",
+    "explanation": "In a top-two primary, all voters and candidates share one ballot, with the top two advancing to November.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/state-primary-election-types",
+    "trap_notes": {
+      "a": "Florida uses a closed primary restricted to registered party members.",
+      "c": "Wisconsin uses an open primary open to any registered voter.",
+      "d": "Independent voters can participate fully in California's top-two primary.",
+      "default": "Top-two primaries combine all candidates on one ballot regardless of party."
+    }
+  },
+  {
+    "id": "civics-dat-225",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Political Parties and Media",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Tax-Exempt Political Organizations",
+      "headers": ["IRS Code", "Primary Purpose", "Donor Disclosure"],
+      "rows": [
+        ["527 Group", "Influence Elections", "Publicly Disclosed"],
+        ["501(c)(4)", "Social Welfare", "Mostly Undisclosed"],
+        ["501(c)(3)", "Charity / Education", "No Campaigning"]
+      ]
+    },
+    "prompt": "Why are 501(c)(4) organizations often associated with 'dark money' in U.S. politics?",
+    "options": [
+      { "id": "a", "text": "They may spend on issue advocacy without disclosing donors" },
+      { "id": "b", "text": "They are required to publish every donor's name and address" },
+      { "id": "c", "text": "They are charitable groups allowed to endorse candidates" },
+      { "id": "d", "text": "They are 527 groups that receive public Treasury grants" }
+    ],
+    "answer": "a",
+    "explanation": "Unlike 527s, 501(c)(4) social-welfare groups generally do not have to publicly disclose their donors.",
+    "source_url": "https://www.opensecrets.org/dark-money/basics",
+    "trap_notes": {
+      "b": "Public donor disclosure applies to 527 groups and PACs, not most 501(c)(4)s.",
+      "c": "501(c)(3) charities are barred from endorsing or campaigning for candidates.",
+      "d": "527 groups are distinct from 501(c)(4)s and do not receive Treasury grants.",
+      "default": "Dark money refers to political spending by nonprofits that do not reveal their donors."
+    }
+  },
+  {
+    "id": "civics-dat-226",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Primary Tax Bases by U.S. Government Level",
+      "headers": ["Level", "Top Tax Source", "Second Source"],
+      "rows": [
+        ["Federal", "Individual Income", "Payroll Taxes"],
+        ["State", "Sales & Gross Receipts", "Individual Income"],
+        ["Local", "Property Taxes", "State Aid / Fees"]
+      ]
+    },
+    "prompt": "According to the table, which tax is the primary revenue source for local governments?",
+    "options": [
+      { "id": "a", "text": "Federal payroll taxes" },
+      { "id": "b", "text": "Local property taxes" },
+      { "id": "c", "text": "State corporate income taxes" },
+      { "id": "d", "text": "National customs tariffs" }
+    ],
+    "answer": "b",
+    "explanation": "Local governments—counties, cities, and school districts—rely most heavily on property taxes.",
+    "source_url": "https://www.census.gov/programs-surveys/gov-finances.html",
+    "trap_notes": {
+      "a": "Payroll taxes fund federal programs like Social Security and Medicare.",
+      "c": "States rely primarily on sales and individual income taxes.",
+      "d": "Customs tariffs are collected solely by the federal government.",
+      "default": "Property taxes are the backbone of local municipal and public-school budgets."
+    }
+  },
+  {
+    "id": "civics-dat-227",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Legislative Electoral Systems Compared",
+      "headers": ["System", "Ballot Choice", "Typical Party Count"],
+      "rows": [
+        ["Single-Member Plurality", "Individual Candidate", "Two Major Parties"],
+        ["Proportional List", "Party List", "Multiparty Coalition"],
+        ["Mixed-Member", "Candidate + Party", "Moderate Multiparty"]
+      ]
+    },
+    "prompt": "According to the table, which electoral system combines a candidate vote and a party-list vote?",
+    "options": [
+      { "id": "a", "text": "Single-member plurality" },
+      { "id": "b", "text": "Closed proportional list" },
+      { "id": "c", "text": "Mixed-member proportional" },
+      { "id": "d", "text": "Winner-take-all caucus" }
+    ],
+    "answer": "c",
+    "explanation": "Mixed-member systems, used in Germany and New Zealand, give voters both a local candidate and a party-list vote.",
+    "source_url": "https://www.britannica.com/topic/mixed-member-proportional-representation",
+    "trap_notes": {
+      "a": "Single-member plurality uses only a single candidate vote per district.",
+      "b": "Proportional list systems use party lists without single-member district seats.",
+      "d": "Caucuses are party nominating meetings, not legislative electoral formulas.",
+      "default": "Mixed-member systems blend local district representation with proportional party balance."
+    }
+  },
+  {
+    "id": "civics-dat-228",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1945–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 52.0705, "lng": 4.3007, "label": "The Hague, Netherlands" },
+    "stimulus": {
+      "kind": "table",
+      "title": "International Courts in The Hague",
+      "headers": ["Court", "Who Stands Trial", "Founded"],
+      "rows": [
+        ["ICJ", "Sovereign States", "1945"],
+        ["ICC", "Individual Persons", "2002"],
+        ["Permanent Court of Arbitration", "States / Entities", "1899"]
+      ]
+    },
+    "prompt": "Based on the table, how does the International Criminal Court (ICC) differ from the ICJ?",
+    "options": [
+      { "id": "a", "text": "The ICC prosecutes individual persons rather than states" },
+      { "id": "b", "text": "The ICC was founded in 1945 as part of the UN Charter" },
+      { "id": "c", "text": "The ICJ tries individual war criminals instead of nations" },
+      { "id": "d", "text": "The ICJ was created more recently than the ICC" }
+    ],
+    "answer": "a",
+    "explanation": "Established in 2002 under the Rome Statute, the ICC tries individuals for genocide, war crimes, and crimes against humanity.",
+    "source_url": "https://www.icc-cpi.int/about/the-court",
+    "trap_notes": {
+      "b": "The ICJ was founded in 1945; the ICC began operating in 2002.",
+      "c": "The ICJ hears disputes between sovereign states, not individual criminal trials.",
+      "d": "The ICC (2002) is much newer than the ICJ (1945).",
+      "default": "ICJ = disputes between states; ICC = criminal prosecution of individuals."
+    }
+  },
+  {
+    "id": "civics-dat-229",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Types of Congressional Committees",
+      "headers": ["Committee Type", "Duration", "Example"],
+      "rows": [
+        ["Standing", "Permanent", "House Judiciary"],
+        ["Select / Special", "Temporary", "Jan. 6 Committee"],
+        ["Conference", "Bill-Specific", "House-Senate Tax Panel"]
+      ]
+    },
+    "prompt": "According to the table, which committee resolves differences between House and Senate versions of a bill?",
+    "options": [
+      { "id": "a", "text": "A permanent standing committee" },
+      { "id": "b", "text": "A temporary select committee" },
+      { "id": "c", "text": "A bill-specific conference committee" },
+      { "id": "d", "text": "A partisan steering committee" }
+    ],
+    "answer": "c",
+    "explanation": "Conference committees are temporary House-Senate panels formed to reconcile differing versions of the same bill.",
+    "source_url": "https://www.congress.gov/help/learn-about-the-legislative-process/resolving-differences",
+    "trap_notes": {
+      "a": "Standing committees draft and review bills within one chamber.",
+      "b": "Select committees conduct special investigations rather than reconciling bill text.",
+      "d": "Steering committees handle party strategy and committee assignments.",
+      "default": "Conference committees produce a single compromise bill for both chambers to pass."
+    }
+  },
+  {
+    "id": "civics-dat-230",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "stimulus": {
+      "kind": "table",
+      "title": "Presidential Line of Succession (Top 3)",
+      "headers": ["Order", "Office", "Basis"],
+      "rows": [
+        ["1", "Vice President", "U.S. Constitution"],
+        ["2", "Speaker of the House", "1947 Succession Act"],
+        ["3", "Senate President Pro Tempore", "1947 Succession Act"]
+      ]
+    },
+    "prompt": "What does the table show about the presidential line of succession after the vice president?",
+    "options": [
+      { "id": "a", "text": "It is set by the 1947 Presidential Succession Act, starting with the Speaker" },
+      { "id": "b", "text": "The Secretary of State comes immediately before the House Speaker" },
+      { "id": "c", "text": "The Senate President Pro Tempore outranks the House Speaker" },
+      { "id": "d", "text": "The Constitution names the House Speaker as first in line" }
+    ],
+    "answer": "a",
+    "explanation": "Congress set the post-vice-presidential line in the 1947 Succession Act, placing the House Speaker second.",
+    "source_url": "https://www.senate.gov/about/officers-staff/president-pro-tempore/presidential-succession.htm",
+    "trap_notes": {
+      "b": "Cabinet secretaries follow congressional leaders under the 1947 act.",
+      "c": "The House Speaker is second in line, ahead of the Senate President Pro Tempore.",
+      "d": "The Constitution names only the vice president and empowers Congress to set the rest.",
+      "default": "After the vice president, the 1947 law places the Speaker and President Pro Tempore next."
+    }
+  }
+]

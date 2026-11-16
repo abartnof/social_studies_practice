@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "world-mc-201",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 1750 BCE",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.5422, "lng": 44.421, "label": "Babylon, Iraq" },
+    "prompt": "What did the Code of Hammurabi reveal about Babylonian society?",
+    "options": [
+      { "id": "a", "text": "Punishments varied sharply depending on a person's social class" },
+      { "id": "b", "text": "All free citizens voted directly on every criminal sentence" },
+      { "id": "c", "text": "Enslaved workers held the same legal rights as noble landowners" },
+      { "id": "d", "text": "Priests banned written laws in favor of oral tribal customs" }
+    ],
+    "answer": "a",
+    "explanation": "Hammurabi's Code assigned harsher penalties when elites were harmed than when commoners or enslaved people were.",
+    "fun_fact": "The laws were carved onto a tall black stone pillar placed in public so people could see royal justice.",
+    "source_url": "https://www.britannica.com/topic/Code-of-Hammurabi",
+    "trap_notes": {
+      "b": "Direct citizen voting on laws belongs to classical Athens, not ancient Babylon.",
+      "c": "Hammurabi's Code explicitly gave elites, commoners, and enslaved people unequal legal status.",
+      "d": "The code is famous precisely because it was carved into stone as written law.",
+      "default": "Hammurabi's Code enforced unequal punishments based on social rank."
+    }
+  },
+  {
+    "id": "world-mc-202",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 2575–2150 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.9792, "lng": 31.1342, "label": "Giza, Egypt" },
+    "prompt": "How did Old Kingdom Egypt mobilize labor to build the Great Pyramids?",
+    "options": [
+      { "id": "a", "text": "By hiring European mercenaries with silver coins" },
+      { "id": "b", "text": "By drafting seasonal farmers during the Nile flood" },
+      { "id": "c", "text": "By importing steam cranes from Mesopotamian ports" },
+      { "id": "d", "text": "By forcing every city priest to work alone" }
+    ],
+    "answer": "b",
+    "explanation": "When Nile floods covered fields, the state fed and organized thousands of farmers to haul stone for royal tombs.",
+    "fun_fact": "Archaeologists found worker villages near Giza with bakeries and medical care for injured builders.",
+    "source_url": "https://www.britannica.com/topic/Pyramids-of-Giza",
+    "trap_notes": {
+      "a": "Coinage and European mercenaries did not exist in Old Kingdom Egypt.",
+      "c": "Steam power was invented thousands of years later during the Industrial Revolution.",
+      "d": "Pyramid building required tens of thousands of organized laborers, not solo priests.",
+      "default": "Egypt's seasonal Nile flood freed farmers to work on state building projects."
+    }
+  },
+  {
+    "id": "world-mc-203",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 2600–1900 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.629, "lng": 72.865, "label": "Harappa, Pakistan" },
+    "prompt": "What do standardized weights and stone seals in Indus cities suggest?",
+    "options": [
+      { "id": "a", "text": "Organized trade regulated across wide regional networks" },
+      { "id": "b", "text": "Constant civil wars that destroyed all market towns" },
+      { "id": "c", "text": "Total isolation from neighboring river valley peoples" },
+      { "id": "d", "text": "A nomadic herding culture with no permanent settlements" }
+    ],
+    "answer": "a",
+    "explanation": "Uniform weights and carved seals helped Indus merchants measure goods and mark shipments to places like Mesopotamia.",
+    "fun_fact": "Indus stone weights followed a precise binary system, doubling from 1 to 2, 4, 8, and up to 64.",
+    "source_url": "https://www.britannica.com/topic/Indus-civilization",
+    "trap_notes": {
+      "b": "Indus sites show remarkably few weapons or signs of constant internal warfare.",
+      "c": "Indus seals have been unearthed in Mesopotamia, proving active long-distance trade.",
+      "d": "Harappa and Mohenjo-daro were dense, planned brick cities rather than nomadic camps.",
+      "default": "Standardized weights and seals point to regulated, long-distance trade."
+    }
+  },
+  {
+    "id": "world-mc-204",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 1046–256 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 34.2658, "lng": 108.954, "label": "Xi'an, China" },
+    "prompt": "Why did Zhou Dynasty rulers introduce the Mandate of Heaven?",
+    "options": [
+      { "id": "a", "text": "To justify overthrowing the Shang and claiming moral authority" },
+      { "id": "b", "text": "To abolish the monarchy and create an elected senate" },
+      { "id": "c", "text": "To ban ancestor worship across northern Chinese villages" },
+      { "id": "d", "text": "To divide China permanently into independent coastal republics" }
+    ],
+    "answer": "a",
+    "explanation": "Zhou leaders argued heaven gave the right to rule to just kings and withdrew it from corrupt dynasties like the Shang.",
+    "fun_fact": "Famines, floods, and rebellions were later viewed as signs that a ruling dynasty had lost the Mandate.",
+    "source_url": "https://www.britannica.com/topic/Mandate-of-Heaven",
+    "trap_notes": {
+      "b": "The Mandate of Heaven reinforced royal rule rather than creating an elected senate.",
+      "c": "Ancestor veneration remained central to Chinese family and royal life under the Zhou.",
+      "d": "The Zhou claimed unified moral authority under one king, not coastal republics.",
+      "default": "The Mandate of Heaven explained dynastic change as heaven's reward for just rule."
+    }
+  },
+  {
+    "id": "world-mc-205",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 1200–800 BCE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.8938, "lng": 35.5018, "label": "Byblos, Lebanon" },
+    "prompt": "Why did the Phoenician alphabet spread widely around the Mediterranean?",
+    "options": [
+      { "id": "a", "text": "Its 22 sound-based letters made trade records easier to learn" },
+      { "id": "b", "text": "Phoenician armies conquered every kingdom from Spain to Persia" },
+      { "id": "c", "text": "It used thousands of complex picture signs reserved for priests" },
+      { "id": "d", "text": "Roman emperors forced all merchants to adopt it by law" }
+    ],
+    "answer": "a",
+    "explanation": "Phoenician sea traders carried a simple 22-letter phonetic script that Greeks and others quickly adapted.",
+    "fun_fact": "The English word 'alphabet' comes from the first two Greek letters, alpha and beta, borrowed from Phoenician.",
+    "source_url": "https://www.britannica.com/topic/Phoenician-alphabet",
+    "trap_notes": {
+      "b": "Phoenicians built coastal trading colonies rather than a vast land-conquering empire.",
+      "c": "Complex picture signs describe Egyptian hieroglyphs, not the simple Phoenician script.",
+      "d": "Phoenician traders spread their alphabet centuries before the Roman Empire existed.",
+      "default": "A small set of sound-based letters made the Phoenician script practical for merchants."
+    }
+  },
+  {
+    "id": "world-mc-206",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 911–612 BCE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 36.3594, "lng": 43.1528, "label": "Nineveh, Iraq" },
+    "prompt": "What helped the Neo-Assyrian Empire conquer and hold a huge territory?",
+    "options": [
+      { "id": "a", "text": "Iron weapons, siege engines, and organized provincial governors" },
+      { "id": "b", "text": "Gunpowder artillery and ocean-going caravel warships" },
+      { "id": "c", "text": "Peaceful treaties that disbanded all standing royal armies" },
+      { "id": "d", "text": "Paper banknotes printed in every conquered frontier town" }
+    ],
+    "answer": "a",
+    "explanation": "Assyria combined iron weaponry and siege tactics with royal roads, horse messengers, and loyal governors.",
+    "fun_fact": "Assyrian King Ashurbanipal built a massive clay-tablet library at Nineveh that preserved the Epic of Gilgamesh.",
+    "source_url": "https://www.britannica.com/place/Assyria",
+    "trap_notes": {
+      "b": "Gunpowder artillery and caravels appeared more than two thousand years later.",
+      "c": "Assyria maintained a powerful standing army rather than disbanding its forces.",
+      "d": "Paper money originated in Song Dynasty China, not ancient Mesopotamia.",
+      "default": "Iron arms, siege warfare, and provincial administration sustained Assyrian power."
+    }
+  },
+  {
+    "id": "world-mc-207",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 750 BCE–350 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 16.9383, "lng": 33.7489, "label": "Meroe, Sudan" },
+    "prompt": "What made the Nubian Kingdom of Kush at Meroe a major ancient power?",
+    "options": [
+      { "id": "a", "text": "Abundant ironworking and control of Nile-Red Sea trade" },
+      { "id": "b", "text": "Deep Arctic harbors that launched Viking longships" },
+      { "id": "c", "text": "Silk monopolies enforced along the Yellow River valley" },
+      { "id": "d", "text": "Volcanic obsidian mines deep in central Mexico" }
+    ],
+    "answer": "a",
+    "explanation": "Meroe had rich iron ore and timber for smelting, linking sub-Saharan Africa with Egypt and the Red Sea.",
+    "fun_fact": "Kushite rulers built steep-sided stone pyramids at Meroe and ruled Egypt as its 25th Dynasty.",
+    "source_url": "https://www.britannica.com/place/Meroe",
+    "trap_notes": {
+      "b": "Viking longships sailed from Scandinavia, thousands of miles north of Sudan.",
+      "c": "Silk production along the Yellow River belonged to ancient China, not Nubia.",
+      "d": "Obsidian mines in central Mexico belonged to Mesoamerican civilizations.",
+      "default": "Meroe thrived on iron metallurgy and trade along the Nile and Red Sea."
+    }
+  },
+  {
+    "id": "world-mc-208",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 522–486 BCE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.1892, "lng": 48.2436, "label": "Susa, Iran" },
+    "prompt": "How did the Persian Royal Road strengthen Darius I's empire?",
+    "options": [
+      { "id": "a", "text": "Relay stations let royal couriers carry orders rapidly across provinces" },
+      { "id": "b", "text": "Stone walls along the road blocked all merchant caravans" },
+      { "id": "c", "text": "Steam locomotives hauled grain from Susa to Sardis" },
+      { "id": "d", "text": "It connected Persian ports directly to the Americas" }
+    ],
+    "answer": "a",
+    "explanation": "Fresh horses at way stations allowed Persian messengers to cross 1,600 miles from Susa to Sardis in about a week.",
+    "fun_fact": "Greek historian Herodotus praised Persian couriers, inspiring the modern postal motto about rain and snow.",
+    "source_url": "https://www.britannica.com/topic/Royal-Road",
+    "trap_notes": {
+      "b": "The Royal Road encouraged trade and tax collection rather than blocking caravans.",
+      "c": "Steam locomotives were invented in the 1800s CE, over two millennia later.",
+      "d": "The Royal Road was an overland route in Southwest Asia, not a transoceanic link.",
+      "default": "Relay horse stations on the Royal Road sped up imperial communication and trade."
+    }
+  },
+  {
+    "id": "world-mc-209",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 508–322 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "prompt": "Who was excluded from voting in classical Athens's direct democracy?",
+    "options": [
+      { "id": "a", "text": "Women, enslaved people, and foreign-born residents" },
+      { "id": "b", "text": "Small farmers and urban craftspeople born in Athens" },
+      { "id": "c", "text": "Sailors serving in the Athenian naval fleet" },
+      { "id": "d", "text": "Adult male citizens who owned no noble estates" }
+    ],
+    "answer": "a",
+    "explanation": "Athenian citizenship was restricted to free adult men with Athenian parents, leaving out most of the city's people.",
+    "fun_fact": "Even poor male citizens could participate in Athens because jurors and officials received modest daily pay.",
+    "source_url": "https://www.britannica.com/place/ancient-Greece",
+    "trap_notes": {
+      "b": "Athenian-born male farmers and artisans held full voting rights in the Assembly.",
+      "c": "Rowers in Athens's navy were free male citizens whose service strengthened democracy.",
+      "d": "Property qualifications were largely removed so poorer male citizens could still vote.",
+      "default": "Only free adult male citizens could vote in Athens; women, enslaved people, and metics could not."
+    }
+  },
+  {
+    "id": "world-mc-210",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 323–30 BCE",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.2001, "lng": 29.9187, "label": "Alexandria, Egypt" },
+    "prompt": "What best defines the Hellenistic culture that followed Alexander's conquests?",
+    "options": [
+      { "id": "a", "text": "A blend of Greek traditions with Persian, Egyptian, and Indian influences" },
+      { "id": "b", "text": "A strict ban on Greek language outside the Balkan peninsula" },
+      { "id": "c", "text": "A unified empire ruled peacefully by a single elected council" },
+      { "id": "d", "text": "The replacement of Mediterranean cities with nomadic tent camps" }
+    ],
+    "answer": "a",
+    "explanation": "Greek settlers, merchants, and scholars mixed with local peoples across Southwest Asia and Egypt, creating hybrid art and science.",
+    "fun_fact": "Alexandria's Great Library attracted scholars like Euclid and Eratosthenes from across the Hellenistic world.",
+    "source_url": "https://www.britannica.com/event/Hellenistic-Age",
+    "trap_notes": {
+      "b": "Koine Greek became a shared trade and scholarly language from Egypt to Central Asia.",
+      "c": "Alexander's empire fractured into rival kingdoms ruled by his generals, not a single council.",
+      "d": "Hellenistic rulers founded dozens of stone cities, including Alexandria in Egypt.",
+      "default": "Hellenistic civilization fused Greek culture with Eastern Mediterranean and Asian traditions."
+    }
+  },
+  {
+    "id": "world-mc-211",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 100 BCE–200 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "How did paved roads and aqueducts support the Roman Empire?",
+    "options": [
+      { "id": "a", "text": "They sped up army marches and supplied clean water to growing cities" },
+      { "id": "b", "text": "They kept provincial governors isolated from Roman law" },
+      { "id": "c", "text": "They replaced Mediterranean sea shipping with desert trails" },
+      { "id": "d", "text": "They prevented non-Romans from entering Italian towns" }
+    ],
+    "answer": "a",
+    "explanation": "Roman roads moved legions and trade goods quickly, while gravity-fed aqueducts brought fresh water to baths and fountains.",
+    "fun_fact": "Many Roman roadbeds were layered so well that modern European highways still follow their routes.",
+    "source_url": "https://www.britannica.com/technology/aqueduct-engineering",
+    "trap_notes": {
+      "b": "Roads tied provinces closer to Rome rather than isolating governors.",
+      "c": "Rome relied heavily on Mediterranean grain ships alongside its overland road network.",
+      "d": "Roads connected towns and encouraged travel, trade, and cultural exchange.",
+      "default": "Roman engineering boosted military mobility, urban sanitation, and trade."
+    }
+  },
+  {
+    "id": "world-mc-212",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "284–305 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7667, "lng": 29.9167, "label": "Nicomedia, Turkey" },
+    "prompt": "Why did Emperor Diocletian divide the Roman Empire into eastern and western halves?",
+    "options": [
+      { "id": "a", "text": "To make a vast, crisis-ridden empire easier to defend and govern" },
+      { "id": "b", "text": "To hand western provinces directly to Chinese Han ambassadors" },
+      { "id": "c", "text": "To abolish the Roman military and end all border taxes" },
+      { "id": "d", "text": "To relocate the Roman Senate to islands in the Atlantic" }
+    ],
+    "answer": "a",
+    "explanation": "Facing invasions, civil wars, and inflation, Diocletian split administration so co-emperors could respond faster.",
+    "fun_fact": "The wealthier Eastern Roman Empire survived for a thousand years after the Western Empire fell in 476 CE.",
+    "source_url": "https://www.britannica.com/biography/Diocletian",
+    "trap_notes": {
+      "b": "The Han Dynasty had already fallen in 220 CE and never governed Roman provinces.",
+      "c": "Diocletian actually expanded the army and reformed taxes to pay for defense.",
+      "d": "The Senate remained in Rome while new imperial capitals rose near threatened borders.",
+      "default": "Diocletian divided the empire to improve defense and administrative control."
+    }
+  },
+  {
+    "id": "world-mc-213",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 105 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.6197, "lng": 112.454, "label": "Luoyang, China" },
+    "prompt": "How did the Han Dynasty's refinement of papermaking change government?",
+    "options": [
+      { "id": "a", "text": "Light, cheap paper made record-keeping and copying texts far easier" },
+      { "id": "b", "text": "Paper replaced bronze weapons in frontier cavalry battles" },
+      { "id": "c", "text": "It forced scholars to carve every decree onto heavy bamboo slats" },
+      { "id": "d", "text": "It ended civil service exams in favor of hereditary dukes" }
+    ],
+    "answer": "a",
+    "explanation": "Paper made from plant fibers was lighter than bamboo and cheaper than silk, helping officials store archives and texts.",
+    "fun_fact": "Court official Cai Lun is credited in 105 CE with standardizing papermaking from mulberry bark and hemp.",
+    "source_url": "https://www.britannica.com/technology/papermaking",
+    "trap_notes": {
+      "b": "Paper was used for writing and administration, not as battlefield weaponry.",
+      "c": "Paper replaced cumbersome bamboo strips and costly silk scrolls.",
+      "d": "Cheaper writing materials actually supported scholarship and bureaucratic exams.",
+      "default": "Affordable paper streamlined Han record-keeping, scholarship, and administration."
+    }
+  },
+  {
+    "id": "world-mc-214",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 320–550 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.1357, "lng": 85.443, "label": "Nalanda, India" },
+    "prompt": "What drew international scholars to Nalanda during India's Gupta era?",
+    "options": [
+      { "id": "a", "text": "Its renowned Buddhist monastery-university and vast libraries" },
+      { "id": "b", "text": "Its factories building steamships for Indian Ocean fleets" },
+      { "id": "c", "text": "Its role as the capital of the Persian Achaemenid Empire" },
+      { "id": "d", "text": "Its gold mines supplying Spanish galleons bound for Europe" }
+    ],
+    "answer": "a",
+    "explanation": "Nalanda grew into a major center of higher learning, attracting monks and students from China, Korea, and Tibet.",
+    "fun_fact": "Chinese pilgrim Xuanzang studied at Nalanda in the 600s CE and carried hundreds of manuscripts home.",
+    "source_url": "https://www.britannica.com/place/Nalanda",
+    "trap_notes": {
+      "b": "Steamships were invented in the 1800s CE, long after the Gupta period.",
+      "c": "Achaemenid Persian capitals like Persepolis and Susa were in Iran, not eastern India.",
+      "d": "Spanish galleons sailed over a thousand years later in the early modern era.",
+      "default": "Nalanda was a premier center of Buddhist philosophy, medicine, and astronomy."
+    }
+  },
+  {
+    "id": "world-mc-215",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 100 BCE–600 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.4704, "lng": 75.9898, "label": "Kashgar, China" },
+    "prompt": "How did most goods actually travel along the overland Silk Road?",
+    "options": [
+      { "id": "a", "text": "Through relay trade across oasis towns by many different merchants" },
+      { "id": "b", "text": "On single camel caravans escorted nonstop from Rome to China" },
+      { "id": "c", "text": "By underground canals dug beneath the Taklamakan Desert" },
+      { "id": "d", "text": "On state-owned railroads built by Han and Roman engineers" }
+    ],
+    "answer": "a",
+    "explanation": "Because deserts and mountains were harsh, merchants usually traded goods at oasis hubs like Kashgar and Samarkand.",
+    "fun_fact": "Each handoff at an oasis bazaar raised prices, making silk a luxury status symbol in Rome.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "b": "Very few individuals ever traveled the entire length of the Silk Road.",
+      "c": "Travelers skirted the Taklamakan Desert via northern and southern oasis rims, not canals.",
+      "d": "Railroads did not exist in the ancient world.",
+      "default": "Silk Road commerce worked as a relay system linking oasis cities across Eurasia."
+    }
+  },
+  {
+    "id": "world-mc-216",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 100–600 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.1421, "lng": 94.6618, "label": "Dunhuang, China" },
+    "prompt": "How did Buddhism first enter and take root in China?",
+    "options": [
+      { "id": "a", "text": "Monks and merchants carried it along Central Asian trade routes" },
+      { "id": "b", "text": "Indian armies conquered Chang'an and outlawed Confucianism" },
+      { "id": "c", "text": "Portuguese sailors introduced it at Macao in the 1500s" },
+      { "id": "d", "text": "Han emperors invented it to replace all Daoist temples" }
+    ],
+    "answer": "a",
+    "explanation": "Buddhist missionaries traveled Silk Road oasis cities like Dunhuang, translating scriptures into Chinese.",
+    "fun_fact": "The Mogao Caves near Dunhuang preserve centuries of Buddhist murals and manuscripts along the Silk Road.",
+    "source_url": "https://www.britannica.com/topic/Buddhism/China",
+    "trap_notes": {
+      "b": "Buddhism spread peacefully through monks and merchants, not military conquest.",
+      "c": "Buddhism reached China more than a millennium before Portuguese sailors arrived.",
+      "d": "Buddhism originated in South Asia, not in the Han imperial court.",
+      "default": "Central Asian trade routes carried Buddhist monks and texts into China."
+    }
+  },
+  {
+    "id": "world-mc-217",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "527–565 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "prompt": "What lasting legal contribution came from Byzantine Emperor Justinian I?",
+    "options": [
+      { "id": "a", "text": "Codifying centuries of Roman laws into a clear written collection" },
+      { "id": "b", "text": "Drafting the English Magna Carta with rebellious barons" },
+      { "id": "c", "text": "Writing the Napoleonic Code for French revolutionary courts" },
+      { "id": "d", "text": "Replacing written courts with trial by Viking combat" }
+    ],
+    "answer": "a",
+    "explanation": "Justinian's Corpus Juris Civilis organized Roman legal rulings and later shaped civil law across Europe.",
+    "fun_fact": "Justinian also rebuilt the Hagia Sophia in Constantinople with a massive dome that amazed medieval visitors.",
+    "source_url": "https://www.britannica.com/topic/Code-of-Justinian",
+    "trap_notes": {
+      "b": "Magna Carta was signed in England in 1215, nearly 700 years after Justinian.",
+      "c": "The Napoleonic Code dates to 1804 France, though it drew on Roman civil law traditions.",
+      "d": "Justinian strengthened written imperial courts rather than abolishing them.",
+      "default": "Justinian's Code preserved and systematized Roman law for later generations."
+    }
+  },
+  {
+    "id": "world-mc-218",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "1054 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "prompt": "What caused the Great Schism of 1054 within Christianity?",
+    "options": [
+      { "id": "a", "text": "Disputes over papal authority and theology between Rome and Constantinople" },
+      { "id": "b", "text": "Martin Luther posting ninety-five theses on a German church door" },
+      { "id": "c", "text": "King Henry VIII demanding a divorce from the Byzantine patriarch" },
+      { "id": "d", "text": "A ban on translating the Bible into Latin in western Europe" }
+    ],
+    "answer": "a",
+    "explanation": "Rival claims by the Pope in Rome and the Patriarch in Constantinople split Christianity into Catholic and Orthodox branches.",
+    "fun_fact": "In 1965, Pope Paul VI and Patriarch Athenagoras I formally lifted the mutual excommunications of 1054.",
+    "source_url": "https://www.britannica.com/event/East-West-Schism-1054",
+    "trap_notes": {
+      "b": "Martin Luther sparked the Protestant Reformation in 1517, almost 500 years later.",
+      "c": "Henry VIII broke with the Roman Pope in the 1530s, not the Byzantine patriarch.",
+      "d": "Latin was already the standard church language of Western Christianity.",
+      "default": "The 1054 schism divided Roman Catholicism from Eastern Orthodoxy over authority and doctrine."
+    }
+  },
+  {
+    "id": "world-mc-219",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "661–750 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 33.5138, "lng": 36.2765, "label": "Damascus, Syria" },
+    "prompt": "How did Umayyad Caliph Abd al-Malik unify administration across his empire?",
+    "options": [
+      { "id": "a", "text": "By making Arabic the official government language and minting Islamic coins" },
+      { "id": "b", "text": "By requiring all tax records to be written in Classical Greek" },
+      { "id": "c", "text": "By moving the caliphate's capital from Damascus to London" },
+      { "id": "d", "text": "By ending all long-distance trade between Syria and North Africa" }
+    ],
+    "answer": "a",
+    "explanation": "Standardized Arabic records and gold dinar coins replaced older Byzantine and Persian systems across the caliphate.",
+    "fun_fact": "Abd al-Malik also ordered the construction of the Dome of the Rock in Jerusalem around 691 CE.",
+    "source_url": "https://www.britannica.com/biography/Abd-al-Malik-ibn-Marwan",
+    "trap_notes": {
+      "b": "Umayyad reforms phased out Greek and Persian in favor of Arabic for state records.",
+      "c": "The Umayyad capital stayed in Damascus, Syria, not Europe.",
+      "d": "Unified coinage actually boosted trade across the Mediterranean and Southwest Asia.",
+      "default": "Arabic administration and uniform coinage helped bind the Umayyad Caliphate together."
+    }
+  },
+  {
+    "id": "world-mc-220",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "c. 1025 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.7747, "lng": 64.4286, "label": "Bukhara, Uzbekistan" },
+    "prompt": "Why was Ibn Sina's Canon of Medicine influential across Afro-Eurasia?",
+    "options": [
+      { "id": "a", "text": "It compiled clinical medicine and served as a textbook for centuries" },
+      { "id": "b", "text": "It outlawed hospitals across Baghdad, Cairo, and Damascus" },
+      { "id": "c", "text": "It introduced penicillin antibiotics to medieval European armies" },
+      { "id": "d", "text": "It argued that astronomy had no connection to natural science" }
+    ],
+    "answer": "a",
+    "explanation": "Known in Europe as Avicenna, Ibn Sina synthesized Greek, Persian, and Islamic medical knowledge into a standard guide.",
+    "fun_fact": "Latin translations of the Canon of Medicine were still taught at European universities into the 1600s.",
+    "source_url": "https://www.britannica.com/biography/Avicenna",
+    "trap_notes": {
+      "b": "Islamic cities built advanced public hospitals where physicians trained and treated patients.",
+      "c": "Penicillin was discovered by Alexander Fleming in 1928, centuries later.",
+      "d": "Ibn Sina was a polymath who wrote extensively on philosophy and astronomy as well.",
+      "default": "Ibn Sina's Canon of Medicine guided doctors in both the Islamic world and Europe."
+    }
+  },
+  {
+    "id": "world-mc-221",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "618–907 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 34.2658, "lng": 108.954, "label": "Xi'an, China" },
+    "prompt": "How did Tang China's tributary system shape relations with neighbors?",
+    "options": [
+      { "id": "a", "text": "Foreign envoys offered symbolic gifts in exchange for trade and recognition" },
+      { "id": "b", "text": "Tang emperors paid annual taxes to Korean and Japanese kings" },
+      { "id": "c", "text": "It banned all foreign ambassadors from entering Chinese capitals" },
+      { "id": "d", "text": "It forced neighboring states to abandon farming for silk weaving" }
+    ],
+    "answer": "a",
+    "explanation": "States like Silla Korea sent tribute missions to Chang'an, receiving valuable Chinese gifts and access to official trade.",
+    "fun_fact": "Japanese envoys to Tang Chang'an brought back Chinese writing, architecture, and Buddhism to Nara and Kyoto.",
+    "source_url": "https://www.britannica.com/topic/tributary-system",
+    "trap_notes": {
+      "b": "Neighbors acknowledged the Chinese emperor's prestige rather than China paying them tribute.",
+      "c": "Foreign envoys were welcomed at court in Chang'an as part of imperial diplomacy.",
+      "d": "The tributary system managed diplomacy and trade, not domestic farming.",
+      "default": "The tributary system paired diplomatic recognition with regulated gift exchange and trade."
+    }
+  },
+  {
+    "id": "world-mc-222",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "960–1279 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.6586, "lng": 104.0648, "label": "Chengdu, China" },
+    "prompt": "Why did Song Dynasty China pioneer government-issued paper money?",
+    "options": [
+      { "id": "a", "text": "Heavy strings of copper coins were impractical for booming long-distance trade" },
+      { "id": "b", "text": "China had run out of all wood and plant fibers for printing" },
+      { "id": "c", "text": "European bankers demanded paper notes for Atlantic sugar shipments" },
+      { "id": "d", "text": "Song rulers wanted to outlaw all private markets and shops" }
+    ],
+    "answer": "a",
+    "explanation": "As commerce surged, Sichuan merchants used deposit receipts called jiaozi, which the Song state later standardized.",
+    "fun_fact": "Marco Polo later marveled at Chinese paper money, which had not yet appeared in medieval Europe.",
+    "source_url": "https://www.britannica.com/topic/paper-money",
+    "trap_notes": {
+      "b": "Paper production relied on plentiful plant fibers and woodblock printing.",
+      "c": "Transatlantic sugar trade began centuries later after 1492.",
+      "d": "Song China had one of the most commercialized, market-driven economies in the medieval world.",
+      "default": "Booming Song commerce made lightweight paper bills far easier to carry than copper coins."
+    }
+  },
+  {
+    "id": "world-mc-223",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "c. 1000–1200 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 24.8741, "lng": 118.6757, "label": "Quanzhou, China" },
+    "prompt": "How did the Song Dynasty's magnetic compass transform sea trade?",
+    "options": [
+      { "id": "a", "text": "Sailors could navigate open oceans even under cloudy skies" },
+      { "id": "b", "text": "Ships no longer needed wind or sails to cross the Pacific" },
+      { "id": "c", "text": "It allowed wooden junks to measure exact ocean depth automatically" },
+      { "id": "d", "text": "It prevented storms from forming in the South China Sea" }
+    ],
+    "answer": "a",
+    "explanation": "With a magnetized needle pointing south or north, mariners did not have to hug coastlines or wait for clear stars.",
+    "fun_fact": "Chinese navigators used the compass by the late 1000s CE, and the technology later spread to the Islamic world and Europe.",
+    "source_url": "https://www.britannica.com/technology/compass-navigational-instrument",
+    "trap_notes": {
+      "b": "Compass navigation still relied on wind-powered sails and monsoon currents.",
+      "c": "A compass indicates direction, not water depth.",
+      "d": "A compass helped sailors stay on course during overcast weather, not control storms.",
+      "default": "The magnetic compass let sailors steer reliably out of sight of land and stars."
+    }
+  },
+  {
+    "id": "world-mc-224",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "c. 1100–1400 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.2093, "lng": 3.2247, "label": "Bruges, Belgium" },
+    "prompt": "What primary role did craft guilds play in medieval European towns?",
+    "options": [
+      { "id": "a", "text": "Setting quality standards, prices, and apprentice training in a trade" },
+      { "id": "b", "text": "Commanding royal crusader armies across the eastern Mediterranean" },
+      { "id": "c", "text": "Electing the Roman Catholic Pope every four years" },
+      { "id": "d", "text": "Running rural manors with unpaid serf labor in the countryside" }
+    ],
+    "answer": "a",
+    "explanation": "Guilds of weavers, bakers, and smiths protected local artisans by regulating wages, training, and product quality.",
+    "fun_fact": "An apprentice worked for years under a master before submitting a 'masterpiece' to join the guild.",
+    "source_url": "https://www.britannica.com/topic/guild-trade-association",
+    "trap_notes": {
+      "b": "Crusader armies were led by kings and nobles, not urban craft guilds.",
+      "c": "Popes were elected by the College of Cardinals, not town craftspeople.",
+      "d": "Rural manors were run by feudal lords; guilds operated in chartered towns.",
+      "default": "Medieval guilds regulated craft quality, prices, and entry into skilled trades."
+    }
+  },
+  {
+    "id": "world-mc-225",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 700–1100 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 15.6667, "lng": -7.9833, "label": "Koumbi Saleh, Mauritania" },
+    "prompt": "How did the early Ghana Empire grow wealthy without owning all gold mines?",
+    "options": [
+      { "id": "a", "text": "By taxing gold and salt caravans passing through its territory" },
+      { "id": "b", "text": "By charging tolls on European ships crossing the Atlantic Ocean" },
+      { "id": "c", "text": "By exporting silk textiles directly to Tang Dynasty Chang'an" },
+      { "id": "d", "text": "By mining silver deep inside the Andes Mountains" }
+    ],
+    "answer": "a",
+    "explanation": "Located between Saharan salt mines and southern goldfields, Ghana's kings taxed every donkey load entering or leaving.",
+    "fun_fact": "Arab geographers called Ghana's ruler the 'lord of the gold' because he kept pure nuggets for the royal treasury.",
+    "source_url": "https://www.britannica.com/place/Ghana-historical-West-African-empire",
+    "trap_notes": {
+      "b": "Ghana's wealth came from overland camel caravans, not Atlantic shipping.",
+      "c": "Silk was China's signature export, not West Africa's.",
+      "d": "Andean silver mining belonged to South America, especially colonial Potosi.",
+      "default": "Ghana prospered by controlling and taxing the trans-Saharan gold-for-salt trade."
+    }
+  },
+  {
+    "id": "world-mc-226",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "1324–1325 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 13.8961, "lng": -4.555, "label": "Niani, Mali" },
+    "prompt": "What was a famous economic effect of Mansa Musa's 1324 pilgrimage to Mecca?",
+    "options": [
+      { "id": "a", "text": "His lavish gold spending in Cairo briefly drove down gold prices" },
+      { "id": "b", "text": "He traded Mali's entire salt supply for Spanish silver coins" },
+      { "id": "c", "text": "He closed Timbuktu's schools to fund a navy in the Pacific" },
+      { "id": "d", "text": "He ended all Islamic scholarship across the Niger River valley" }
+    ],
+    "answer": "a",
+    "explanation": "Mansa Musa gave away so much gold in Egypt that its value dropped in Cairo markets for years afterward.",
+    "fun_fact": "His journey put Mali on European world maps, including the famous 1375 Catalan Atlas.",
+    "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+    "trap_notes": {
+      "b": "Mali was rich in gold and traded with North Africa and the Middle East, not Spain's New World silver.",
+      "c": "After returning, Mansa Musa funded mosques and scholarship in Timbuktu and Gao.",
+      "d": "His pilgrimage strengthened Mali's ties to the wider Islamic scholarly world.",
+      "default": "Mansa Musa's massive gold gifts during his hajj flooded Cairo's market and showcased Mali's wealth."
+    }
+  },
+  {
+    "id": "world-mc-227",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 1464–1591 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 16.2666, "lng": -0.0447, "label": "Gao, Mali" },
+    "prompt": "What geographic advantage helped the Songhai Empire expand from Gao?",
+    "options": [
+      { "id": "a", "text": "A fleet of war canoes controlling trade along the Niger River" },
+      { "id": "b", "text": "Alpine mountain passes linking Italy with Germany" },
+      { "id": "c", "text": "Deep-water ports facing the Strait of Malacca" },
+      { "id": "d", "text": "Frozen tundra trails across northern Siberia" }
+    ],
+    "answer": "a",
+    "explanation": "Under Sunni Ali and Askia Muhammad, Songhai used river fleets and cavalry to dominate the Niger bend and trans-Saharan hubs.",
+    "fun_fact": "At its height, Songhai united Gao, Timbuktu, and Jenne into the largest empire in West African history.",
+    "source_url": "https://www.britannica.com/place/Songhai-empire",
+    "trap_notes": {
+      "b": "Alpine passes are in Europe, not West Africa.",
+      "c": "The Strait of Malacca lies in Southeast Asia between Malaya and Sumatra.",
+      "d": "Siberian tundra lies in northern Asia, far from the Niger River.",
+      "default": "Control of the Niger River waterway gave Songhai rapid troop movement and trade dominance."
+    }
+  },
+  {
+    "id": "world-mc-228",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 1100–1450 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -20.2675, "lng": 30.9333, "label": "Masvingo, Zimbabwe" },
+    "prompt": "What linked the inland kingdom of Great Zimbabwe to the Indian Ocean world?",
+    "options": [
+      { "id": "a", "text": "Gold and ivory traded through Swahili ports like Kilwa and Sofala" },
+      { "id": "b", "text": "Portuguese steam trains running from Cape Town to Cairo" },
+      { "id": "c", "text": "Silk caravans arriving directly from Kyoto, Japan" },
+      { "id": "d", "text": "Spanish silver fleets anchored on Lake Victoria" }
+    ],
+    "answer": "a",
+    "explanation": "Great Zimbabwe's elites grew rich from cattle and gold, exchanging inland goods for Chinese porcelain and glass beads.",
+    "fun_fact": "Archaeologists found Persian pottery and Ming Chinese porcelain shards inside Great Zimbabwe's stone enclosures.",
+    "source_url": "https://www.britannica.com/place/Great-Zimbabwe",
+    "trap_notes": {
+      "b": "Steam trains in southern Africa were built centuries later in the 1800s.",
+      "c": "Japanese goods reached East Africa indirectly through Indian Ocean merchants, not overland caravans.",
+      "d": "Spanish silver fleets sailed the Atlantic and Pacific, not East African lakes.",
+      "default": "Great Zimbabwe supplied gold and ivory to Swahili Coast ports on the Indian Ocean."
+    }
+  },
+  {
+    "id": "world-mc-229",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 250–900 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 17.222, "lng": -89.6237, "label": "Tikal, Guatemala" },
+    "prompt": "Which achievement set Classic Maya city-states apart in the ancient Americas?",
+    "options": [
+      { "id": "a", "text": "A complex hieroglyphic script and precise astronomical calendars" },
+      { "id": "b", "text": "A single unified empire stretching from Alaska to Chile" },
+      { "id": "c", "text": "Iron-wheeled chariots pulled by domesticated horses" },
+      { "id": "d", "text": "Printing presses that produced daily newspapers in Tikal" }
+    ],
+    "answer": "a",
+    "explanation": "Maya scribes carved phonetic and picture glyphs on stone monuments and tracked solar, lunar, and Venus cycles.",
+    "fun_fact": "The Maya independently developed the mathematical concept of zero centuries before it reached Europe.",
+    "source_url": "https://www.britannica.com/topic/Maya-people",
+    "trap_notes": {
+      "b": "The Maya lived in independent, competing city-states like Tikal and Palenque, not one continental empire.",
+      "c": "Horses and iron wheels were absent from the pre-Columbian Americas.",
+      "d": "Movable-type printing presses did not exist in the ancient Americas.",
+      "default": "Classic Maya cities excelled in hieroglyphic writing, zero-based math, and astronomy."
+    }
+  },
+  {
+    "id": "world-mc-230",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 1325–1521 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.2667, "lng": -99.1, "label": "Xochimilco, Mexico" },
+    "prompt": "How did Aztec chinampas feed a huge urban population at Tenochtitlan?",
+    "options": [
+      { "id": "a", "text": "Artificial lake-bed plots gave year-round moisture and fertile mud" },
+      { "id": "b", "text": "Vast wheat fields were irrigated by windmills from Spain" },
+      { "id": "c", "text": "Farmers cleared high Andean peaks with bronze plows" },
+      { "id": "d", "text": "Grain barges arrived weekly from Europe across the Atlantic" }
+    ],
+    "answer": "a",
+    "explanation": "Aztec farmers anchored woven reed beds in Lake Texcoco and piled rich lake muck on top for multiple harvests a year.",
+    "fun_fact": "Willow trees planted around each chinampa locked the soil in place and shaded crops like maize and squash.",
+    "source_url": "https://www.britannica.com/topic/chinampa",
+    "trap_notes": {
+      "b": "Wheat and European windmills arrived in Mexico only after Spanish conquest in the 1500s.",
+      "c": "Andean mountain farming belonged to the Inca in South America, not the Aztecs.",
+      "d": "No transatlantic food shipments existed before 1492.",
+      "default": "Chinampas turned shallow lake beds into highly productive, year-round farmland."
+    }
+  },
+  {
+    "id": "world-mc-231",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 1428–1521 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "prompt": "How did the Aztec Empire govern most of the territories it conquered?",
+    "options": [
+      { "id": "a", "text": "By leaving local rulers in place if they paid regular tribute" },
+      { "id": "b", "text": "By sending elected governors from every village to a senate" },
+      { "id": "c", "text": "By replacing every local language with classical Latin" },
+      { "id": "d", "text": "By abolishing all markets and banning cacao bean currency" }
+    ],
+    "answer": "a",
+    "explanation": "The Triple Alliance demanded scheduled payments of maize, textiles, feathers, and captives rather than direct micromanagement.",
+    "fun_fact": "Resentment over heavy tribute later pushed some subject cities, like Tlaxcala, to ally with Hernan Cortes.",
+    "source_url": "https://www.britannica.com/topic/Aztec",
+    "trap_notes": {
+      "b": "The Aztec state was a tribute empire, not an elected parliamentary system.",
+      "c": "Latin was a European language; Nahuatl was the main language of the Aztec core.",
+      "d": "Bustling regional markets like Tlatelolco thrived and used cacao beans as small change.",
+      "default": "Aztec rule relied on indirect control backed by military force and regular tribute."
+    }
+  },
+  {
+    "id": "world-mc-232",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 1438–1533 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -13.5319, "lng": -71.9675, "label": "Cusco, Peru" },
+    "prompt": "How did Inca farmers overcome steep slopes and frost in the high Andes?",
+    "options": [
+      { "id": "a", "text": "With stone terraces and freeze-dried potatoes stored for years" },
+      { "id": "b", "text": "By flooding lowland rice paddies with monsoon rains" },
+      { "id": "c", "text": "By importing refrigerated beef from Argentine ranches" },
+      { "id": "d", "text": "With steel tractors powered by coal-fired engines" }
+    ],
+    "answer": "a",
+    "explanation": "Stone terraces prevented erosion and trapped warmth, while freeze-dried chuno potatoes kept in state storehouses.",
+    "fun_fact": "Andean freeze-dried potatoes could be stored for several years without spoiling, guarding against famine.",
+    "source_url": "https://www.britannica.com/topic/Inca",
+    "trap_notes": {
+      "b": "Monsoon rice paddies belong to South and East Asia, not the high Andes.",
+      "c": "Cattle ranching and refrigeration came centuries after the Inca Empire.",
+      "d": "Coal-powered tractors belong to the modern industrial era.",
+      "default": "Terracing and freeze-drying let the Inca farm steep slopes and store surplus food."
+    }
+  },
+  {
+    "id": "world-mc-233",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "c. 1453–1800 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "prompt": "How did the Ottoman millet system manage religious diversity?",
+    "options": [
+      { "id": "a", "text": "Non-Muslim groups governed their own courts, schools, and charities" },
+      { "id": "b", "text": "All subjects were forced to convert to Sunni Islam within a year" },
+      { "id": "c", "text": "Christian and Jewish merchants were barred from owning city homes" },
+      { "id": "d", "text": "Religious leaders collected no taxes and held zero local authority" }
+    ],
+    "answer": "a",
+    "explanation": "Under the millet system, Orthodox, Armenian, and Jewish communities managed family law and worship under royal protection.",
+    "fun_fact": "Non-Muslims paid a special tax called the jizya in exchange for protection and exemption from regular military service.",
+    "source_url": "https://www.britannica.com/topic/millet-religious-group",
+    "trap_notes": {
+      "b": "The Ottoman state generally tolerated 'People of the Book' rather than forcing mass conversion.",
+      "c": "Non-Muslim merchants played major roles in Ottoman urban commerce and banking.",
+      "d": "Community leaders like patriarchs and chief rabbis held real legal authority over their millets.",
+      "default": "The millet system granted non-Muslim communities internal self-rule in exchange for loyalty and taxes."
+    }
+  },
+  {
+    "id": "world-mc-234",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1453 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "prompt": "Why was the Ottoman capture of Constantinople in 1453 a turning point?",
+    "options": [
+      { "id": "a", "text": "It ended the Byzantine Empire and gave Ottomans key trade crossroads" },
+      { "id": "b", "text": "It sparked the First Crusade to capture Jerusalem in 1096" },
+      { "id": "c", "text": "It forced Ottoman sultans to abandon gunpowder cannons" },
+      { "id": "d", "text": "It opened the Suez Canal between Europe and India" }
+    ],
+    "answer": "a",
+    "explanation": "Mehmed II used massive bronze cannons to breach Constantinople's walls, securing control between Europe and Asia.",
+    "fun_fact": "Ottoman control of eastern Mediterranean routes encouraged Western Europeans to seek sea routes to Asia.",
+    "source_url": "https://www.britannica.com/event/Conquest-of-Constantinople",
+    "trap_notes": {
+      "b": "The First Crusade occurred in 1096, more than 350 years before 1453.",
+      "c": "Cannons were central to Mehmed II's victory, earning the Ottomans fame as a gunpowder empire.",
+      "d": "The Suez Canal opened in 1869, over four centuries after 1453.",
+      "default": "Taking Constantinople ended Byzantium and anchored Ottoman power at a vital crossroads."
+    }
+  },
+  {
+    "id": "world-mc-235",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1588–1629 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.6546, "lng": 51.668, "label": "Isfahan, Iran" },
+    "prompt": "How did Shah Abbas I strengthen the Safavid economy in Isfahan?",
+    "options": [
+      { "id": "a", "text": "By promoting state-backed silk exports and settling Armenian merchants" },
+      { "id": "b", "text": "By banning Persian carpet weaving and closing all bazaars" },
+      { "id": "c", "text": "By conquering Mexico's silver mines with a Pacific fleet" },
+      { "id": "d", "text": "By abolishing all overland caravans to Ottoman and Mughal lands" }
+    ],
+    "answer": "a",
+    "explanation": "Shah Abbas turned Isfahan into a glittering capital, using Armenian traders to export Persian silk to Europe and Asia.",
+    "fun_fact": "A Persian proverb boasted that 'Isfahan is half the world' because of its grand square, mosques, and markets.",
+    "source_url": "https://www.britannica.com/biography/Abbas-I-safavid-shah-of-Persia",
+    "trap_notes": {
+      "b": "Carpet weaving and luxury crafts boomed under Safavid royal workshops.",
+      "c": "Safavid Persia was a land-based empire in Iran, not an Atlantic colonial power.",
+      "d": "Shah Abbas built caravanserais to welcome merchants and boost trade.",
+      "default": "Shah Abbas boosted Safavid wealth through silk trade, skilled artisans, and urban planning."
+    }
+  },
+  {
+    "id": "world-mc-236",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1658–1707 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "Delhi, India" },
+    "prompt": "What weakened the Mughal Empire during Emperor Aurangzeb's long reign?",
+    "options": [
+      { "id": "a", "text": "Costly wars in southern India and the return of the jizya tax" },
+      { "id": "b", "text": "A sudden decision to disband the Mughal army and navy" },
+      { "id": "c", "text": "The loss of all Indian cotton and spice production" },
+      { "id": "d", "text": "An alliance with France to colonize North America" }
+    ],
+    "answer": "a",
+    "explanation": "Decades of Deccan campaigns drained the treasury, while reversing Akbar's tolerant policies fueled Maratha and Sikh revolts.",
+    "fun_fact": "After Aurangzeb died in 1707, regional governors broke away, leaving space for European trading companies.",
+    "source_url": "https://www.britannica.com/biography/Aurangzeb",
+    "trap_notes": {
+      "b": "Aurangzeb fought constant military campaigns rather than disbanding his forces.",
+      "c": "India remained one of the world's top producers of cotton textiles throughout this period.",
+      "d": "Mughal rulers focused on the Indian subcontinent, not North American colonization.",
+      "default": "Overextension in southern wars and religious intolerance strained Mughal unity."
+    }
+  },
+  {
+    "id": "world-mc-237",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "c. 1450–1550 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 49.9929, "lng": 8.2473, "label": "Mainz, Germany" },
+    "prompt": "How did Gutenberg's movable-type printing press affect Europe?",
+    "options": [
+      { "id": "a", "text": "It lowered book prices and spread Renaissance and Reformation ideas fast" },
+      { "id": "b", "text": "It restricted reading to Latin monks inside walled abbeys" },
+      { "id": "c", "text": "It ended the use of local languages like German and English" },
+      { "id": "d", "text": "It prevented scientists from sharing diagrams and tables" }
+    ],
+    "answer": "a",
+    "explanation": "Cheap printed pamphlets and Bibles in everyday languages let new religious and scientific ideas reach wide audiences.",
+    "fun_fact": "Within fifty years of Gutenberg's press, European printers had produced roughly 20 million books.",
+    "source_url": "https://www.britannica.com/biography/Johannes-Gutenberg",
+    "trap_notes": {
+      "b": "Printing broke the clerical monopoly on books by making texts affordable for townspeople.",
+      "c": "Printers published heavily in vernacular languages like German, French, and English.",
+      "d": "Woodcuts and engravings in printed books helped scientists share accurate diagrams.",
+      "default": "Movable-type printing multiplied books, boosted literacy, and accelerated cultural debate."
+    }
+  },
+  {
+    "id": "world-mc-238",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1648 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.9607, "lng": 7.6261, "label": "Munster, Germany" },
+    "prompt": "What key principle did the 1648 Peace of Westphalia establish in Europe?",
+    "options": [
+      { "id": "a", "text": "Each state held sovereign authority over its own territory and religion" },
+      { "id": "b", "text": "The Holy Roman Emperor gained direct rule over France and Spain" },
+      { "id": "c", "text": "All European nations united under a single elected parliament" },
+      { "id": "d", "text": "The Catholic Pope was given power to appoint every king" }
+    ],
+    "answer": "a",
+    "explanation": "Ending the Thirty Years' War, Westphalia recognized independent states and barred outside interference in domestic faith.",
+    "fun_fact": "Modern international law still uses the term 'Westphalian sovereignty' for independent nation-states.",
+    "source_url": "https://www.britannica.com/event/Peace-of-Westphalia",
+    "trap_notes": {
+      "b": "Westphalia weakened the Holy Roman Emperor and confirmed German princes' autonomy.",
+      "c": "A European parliament did not emerge until the late 20th century.",
+      "d": "Westphalia reduced papal political sway over treaties between Protestant and Catholic states.",
+      "default": "The Peace of Westphalia anchored modern European politics in state sovereignty."
+    }
+  },
+  {
+    "id": "world-mc-239",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1600–1750 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 52.3676, "lng": 4.9041, "label": "Amsterdam, Netherlands" },
+    "prompt": "Why did European merchants form joint-stock companies like the Dutch VOC?",
+    "options": [
+      { "id": "a", "text": "To pool investor capital and share the high risks of Asian voyages" },
+      { "id": "b", "text": "To give factory workers equal votes on royal tax rates" },
+      { "id": "c", "text": "To abolish all tariffs and create free trade for Asian rivals" },
+      { "id": "d", "text": "To replace ocean shipping with overland camel caravans" }
+    ],
+    "answer": "a",
+    "explanation": "Selling shares let many investors fund costly, dangerous spice fleets without risking total personal ruin.",
+    "fun_fact": "The Dutch East India Company issued the world's first publicly traded stock on the Amsterdam exchange.",
+    "source_url": "https://www.britannica.com/topic/Dutch-East-India-Company",
+    "trap_notes": {
+      "b": "Joint-stock companies served wealthy shareholders, not industrial factory workers.",
+      "c": "These chartered companies sought trade monopolies, not tariff-free competition.",
+      "d": "Joint-stock companies financed armed ocean-going fleets around Africa to Asia.",
+      "default": "Joint-stock companies pooled investor money and spread risk for long-distance sea trade."
+    }
+  },
+  {
+    "id": "world-mc-240",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1639–1853 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.7503, "lng": 129.8779, "label": "Nagasaki, Japan" },
+    "prompt": "Why did the Tokugawa shogunate adopt its sakoku policy in the 1630s?",
+    "options": [
+      { "id": "a", "text": "To curb Christian missions and keep foreign trade under shogunal control" },
+      { "id": "b", "text": "To invite Spanish conquistadors to build forts near Edo" },
+      { "id": "c", "text": "To launch Japanese naval invasions of western Europe" },
+      { "id": "d", "text": "To end domestic rice farming across Japanese islands" }
+    ],
+    "answer": "a",
+    "explanation": "Tokugawa rulers feared European influence would fuel rebellion, so they banned Christianity and limited trade to Nagasaki.",
+    "fun_fact": "Even under sakoku, Japan traded selectively with the Dutch at Dejima as well as with China, Korea, and Ryukyu.",
+    "source_url": "https://www.britannica.com/event/sakoku",
+    "trap_notes": {
+      "b": "Tokugawa rulers expelled Spanish and Portuguese traders to prevent colonial meddling.",
+      "c": "Tokugawa law forbade building large ocean-going ships or traveling abroad.",
+      "d": "Rice farming remained the backbone of Tokugawa Japan's domestic economy.",
+      "default": "Sakoku restricted foreign contact to protect Tokugawa political stability."
+    }
+  },
+  {
+    "id": "world-mc-241",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1689 CE",
+    "skill_tag": "primary_source",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "prompt": "What did John Locke argue in Two Treatises of Government?",
+    "options": [
+      { "id": "a", "text": "People may replace a government that fails to protect natural rights" },
+      { "id": "b", "text": "Kings receive absolute power directly from God and owe no duty" },
+      { "id": "c", "text": "Only military generals should own private property or land" },
+      { "id": "d", "text": "Citizens must obey tyrants to avoid social disorder at all costs" }
+    ],
+    "answer": "a",
+    "explanation": "Locke wrote that rulers govern by consent to safeguard life, liberty, and property, and lose legitimacy if they abuse power.",
+    "fun_fact": "Locke's ideas directly inspired Thomas Jefferson's wording in the U.S. Declaration of Independence.",
+    "source_url": "https://www.britannica.com/biography/John-Locke",
+    "trap_notes": {
+      "b": "Divine right of kings was the view Locke argued against.",
+      "c": "Locke saw property as a natural right of individuals, not a privilege of generals.",
+      "d": "Unquestioning obedience to tyrants was argued by Thomas Hobbes, not Locke.",
+      "default": "Locke tied legitimate government to consent and the protection of natural rights."
+    }
+  },
+  {
+    "id": "world-mc-242",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1792 CE",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "prompt": "What core claim did Mary Wollstonecraft make in 1792?",
+    "options": [
+      { "id": "a", "text": "Women deserve equal education because they share human reason" },
+      { "id": "b", "text": "Women should avoid science and focus solely on court etiquette" },
+      { "id": "c", "text": "Only hereditary queens should hold political rights in Europe" },
+      { "id": "d", "text": "Enlightenment salons should ban all books written in English" }
+    ],
+    "answer": "a",
+    "explanation": "In A Vindication of the Rights of Woman, Wollstonecraft argued women appeared inferior only because they lacked equal schooling.",
+    "fun_fact": "Wollstonecraft was the mother of Mary Shelley, author of the famous novel Frankenstein.",
+    "source_url": "https://www.britannica.com/biography/Mary-Wollstonecraft",
+    "trap_notes": {
+      "b": "Wollstonecraft criticized writers like Rousseau who limited women to domestic roles.",
+      "c": "She argued for broader women's rights and education, not hereditary monarchy.",
+      "d": "She wrote in English to reach British and European reform audiences.",
+      "default": "Wollstonecraft applied Enlightenment reason to demand equal education for women."
+    }
+  },
+  {
+    "id": "world-mc-243",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1789 CE",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "What did France's 1789 Declaration of the Rights of Man proclaim?",
+    "options": [
+      { "id": "a", "text": "All male citizens were equal before the law without noble privilege" },
+      { "id": "b", "text": "Clergy and nobles kept permanent exemptions from paying taxes" },
+      { "id": "c", "text": "King Louis XVI held unlimited power to jail critics without trial" },
+      { "id": "d", "text": "French peasants had to return to medieval feudal dues" }
+    ],
+    "answer": "a",
+    "explanation": "The National Assembly ended legal privileges of the First and Second Estates and affirmed free speech and fair taxation.",
+    "fun_fact": "Playwright Olympe de Gouges soon wrote a parallel Declaration of the Rights of Woman in 1791.",
+    "source_url": "https://www.britannica.com/topic/Declaration-of-the-Rights-of-Man-and-of-the-Citizen",
+    "trap_notes": {
+      "b": "The 1789 decrees abolished tax exemptions for the clergy and nobility.",
+      "c": "The declaration placed sovereignty in the nation and law, curbing royal power.",
+      "d": "The National Assembly abolished feudal dues in August 1789.",
+      "default": "The 1789 Declaration replaced aristocratic privilege with legal equality for citizens."
+    }
+  },
+  {
+    "id": "world-mc-244",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1791–1804 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 18.5944, "lng": -72.3074, "label": "Port-au-Prince, Haiti" },
+    "prompt": "Why was the Haitian Revolution of 1791–1804 unique in world history?",
+    "options": [
+      { "id": "a", "text": "It was the only successful slave revolt that founded an independent nation" },
+      { "id": "b", "text": "It restored Spanish colonial rule across every Caribbean island" },
+      { "id": "c", "text": "It was led peacefully by French sugar planters seeking lower taxes" },
+      { "id": "d", "text": "It preserved plantation slavery under a new royal charter" }
+    ],
+    "answer": "a",
+    "explanation": "Enslaved Africans in Saint-Domingue defeated French, Spanish, and British forces to abolish slavery and create Haiti.",
+    "fun_fact": "Haiti's victory alarmed slaveholders in the United States and inspired abolitionists across the Americas.",
+    "source_url": "https://www.britannica.com/topic/Haitian-Revolution",
+    "trap_notes": {
+      "b": "Haiti broke free from European colonial rule rather than restoring Spain's empire.",
+      "c": "The revolution was a fierce armed struggle led by formerly enslaved people, not planters.",
+      "d": "Haiti permanently outlawed slavery in its founding constitution.",
+      "default": "Haiti became the first independent nation born from a successful revolt against slavery."
+    }
+  },
+  {
+    "id": "world-mc-245",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1810–1825 CE",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 10.4806, "lng": -66.9036, "label": "Caracas, Venezuela" },
+    "prompt": "What sparked Creole-led independence movements in Spanish America?",
+    "options": [
+      { "id": "a", "text": "Resentment of Spanish-born officials and Napoleon's invasion of Spain" },
+      { "id": "b", "text": "A British promise to annex Mexico into Canada" },
+      { "id": "c", "text": "Spanish kings abolishing all Catholic churches in Peru" },
+      { "id": "d", "text": "A joint invasion of South America by Qing China and Japan" }
+    ],
+    "answer": "a",
+    "explanation": "American-born elites resented peninsulare monopoly on high office, and Napoleon's 1808 coup in Spain opened a path to revolt.",
+    "fun_fact": "Simon Bolivar's 1815 Jamaica Letter laid out his vision for independent, constitutional republics in South America.",
+    "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+    "trap_notes": {
+      "b": "Britain sought trade with independent Latin America, not to annex Mexico into Canada.",
+      "c": "Spain strongly backed the Catholic Church in its American colonies.",
+      "d": "Neither Qing China nor Tokugawa Japan invaded South America.",
+      "default": "Creole frustration with peninsulare rule and Spain's crisis under Napoleon drove independence."
+    }
+  },
+  {
+    "id": "world-mc-246",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1804 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "What was a lasting impact of the 1804 Napoleonic Code across Europe?",
+    "options": [
+      { "id": "a", "text": "It replaced feudal laws with uniform legal equality for male citizens" },
+      { "id": "b", "text": "It granted women full voting and property rights across France" },
+      { "id": "c", "text": "It restored local noble courts and church tithes in Germany" },
+      { "id": "d", "text": "It ended written law codes in favor of royal decrees alone" }
+    ],
+    "answer": "a",
+    "explanation": "Napoleon's civil code protected property and merit-based promotion for men, though it sharply curbed women's legal rights.",
+    "fun_fact": "Versions of the Napoleonic Code influenced legal systems from Belgium and Spain to Louisiana and Latin America.",
+    "source_url": "https://www.britannica.com/topic/Napoleonic-Code",
+    "trap_notes": {
+      "b": "The Napoleonic Code actually rolled back women's property and divorce rights gained earlier.",
+      "c": "Napoleon abolished feudal dues and noble courts in territories his armies controlled.",
+      "d": "It was a systematic written code of civil law.",
+      "default": "The Napoleonic Code spread uniform civil law and male legal equality across much of Europe."
+    }
+  },
+  {
+    "id": "world-mc-247",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1814–1815 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "prompt": "What was the main goal of European leaders at the 1815 Congress of Vienna?",
+    "options": [
+      { "id": "a", "text": "To restore monarchies and build a balance of power against new wars" },
+      { "id": "b", "text": "To spread democratic republics into every European kingdom" },
+      { "id": "c", "text": "To divide France completely among Russia, Britain, and Spain" },
+      { "id": "d", "text": "To create a single European currency managed in Brussels" }
+    ],
+    "answer": "a",
+    "explanation": "Guided by Metternich, diplomats ringed France with strong neighbors and backed conservative kings to keep peace.",
+    "fun_fact": "The Concert of Europe helped prevent a continent-wide war for nearly a century until 1914.",
+    "source_url": "https://www.britannica.com/event/Congress-of-Vienna",
+    "trap_notes": {
+      "b": "The Congress of Vienna opposed revolutionary republics and suppressed nationalist uprisings.",
+      "c": "Delegates kept France intact under a restored Bourbon king so it could help balance Europe.",
+      "d": "A shared European currency did not appear until the euro in 1999.",
+      "default": "Vienna's diplomats sought stability through restored monarchies and a balance of power."
+    }
+  },
+  {
+    "id": "world-mc-248",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1807 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "prompt": "What helped pass Britain's 1807 ban on the transatlantic slave trade?",
+    "options": [
+      { "id": "a", "text": "Public abolitionist petitions, Black writers, and parliamentary pressure" },
+      { "id": "b", "text": "A naval blockade of London by the United States Congress" },
+      { "id": "c", "text": "The immediate end of all sugar consumption in European cities" },
+      { "id": "d", "text": "A treaty signed with the Ottoman Empire in Constantinople" }
+    ],
+    "answer": "a",
+    "explanation": "Abolitionists like William Wilberforce and formerly enslaved authors like Olaudah Equiano swayed British public opinion.",
+    "fun_fact": "After 1807, Britain's Royal Navy patrolled the West African coast to intercept illegal slave ships.",
+    "source_url": "https://www.britannica.com/topic/abolitionism-European-and-American-social-movement",
+    "trap_notes": {
+      "b": "The U.S. Congress also banned the import of enslaved people in 1808, without blockading London.",
+      "c": "Sugar remained hugely popular in Europe, though abolitionists organized boycotts of slave-grown sugar.",
+      "d": "The 1807 act was passed by the British Parliament, not by an Ottoman treaty.",
+      "default": "Grassroots abolitionist campaigns and shifting economic views led Britain to outlaw the slave trade."
+    }
+  },
+  {
+    "id": "world-mc-249",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "c. 1750–1830 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, United Kingdom" },
+    "prompt": "How did Britain's enclosure movement help fuel early industrialization?",
+    "options": [
+      { "id": "a", "text": "Fencing common lands pushed displaced villagers into factory towns" },
+      { "id": "b", "text": "It gave every peasant family large free farms near London" },
+      { "id": "c", "text": "It banned wool and cotton textile mills across northern England" },
+      { "id": "d", "text": "It forced urban factory owners to move back to medieval manors" }
+    ],
+    "answer": "a",
+    "explanation": "Enclosure boosted farm output for wealthy landowners while driving landless rural workers to seek wages in industrial cities.",
+    "fun_fact": "Manchester grew so fast during industrialization that observers nicknamed it 'Cottonopolis.'",
+    "source_url": "https://www.britannica.com/topic/enclosure",
+    "trap_notes": {
+      "b": "Enclosure consolidated small plots into large private estates, costing poor villagers their common grazing rights.",
+      "c": "Wool and cotton mills expanded rapidly as displaced rural workers joined the urban workforce.",
+      "d": "Population shifted from the countryside into towns, not the reverse.",
+      "default": "Enclosure raised farm productivity and created a mobile wage-labor force for factories."
+    }
+  },
+  {
+    "id": "world-mc-250",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "c. 1825–1860 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 53.4084, "lng": -2.9916, "label": "Liverpool, United Kingdom" },
+    "prompt": "How did steam locomotives reshape industrial economies in the 1800s?",
+    "options": [
+      { "id": "a", "text": "They cut overland freight costs and linked mines to ports and factories" },
+      { "id": "b", "text": "They replaced all ocean steamships with underwater tunnels" },
+      { "id": "c", "text": "They slowed down travel so goods stayed inside local villages" },
+      { "id": "d", "text": "They eliminated the demand for coal, iron, and steel" }
+    ],
+    "answer": "a",
+    "explanation": "Railways moved heavy coal, iron, and finished goods faster and cheaper than canals or horses, creating national markets.",
+    "fun_fact": "The 1830 Liverpool and Manchester Railway was the first intercity line powered entirely by steam locomotives.",
+    "source_url": "https://www.britannica.com/technology/railroad",
+    "trap_notes": {
+      "b": "Ocean steamships and railways worked together rather than underwater tunnels.",
+      "c": "Railroads dramatically sped up travel and connected distant markets.",
+      "d": "Railroad construction created huge new demand for coal, iron, and later steel.",
+      "default": "Steam railways lowered shipping costs and tied industrial regions to national markets."
+    }
+  },
+  {
+    "id": "world-mc-251",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1850–1864 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "prompt": "How did the Taiping Rebellion affect Qing Dynasty China?",
+    "options": [
+      { "id": "a", "text": "It killed millions and forced Beijing to rely on regional armies" },
+      { "id": "b", "text": "It unified China rapidly into an industrial democratic republic" },
+      { "id": "c", "text": "It drove all European traders out of Shanghai for a century" },
+      { "id": "d", "text": "It restored the Ming Dynasty in Beijing in 1853" }
+    ],
+    "answer": "a",
+    "explanation": "Led by Hong Xiuquan, the Taiping uprising devastated southern China and shifted real military power to provincial warlords.",
+    "fun_fact": "With an estimated 20 million or more deaths, the Taiping Rebellion was the deadliest civil war of the 1800s.",
+    "source_url": "https://www.britannica.com/event/Taiping-Rebellion",
+    "trap_notes": {
+      "b": "The Qing suppressed the rebellion in 1864, leaving the empire deeply weakened rather than industrialized.",
+      "c": "Foreign powers actually gained greater leverage in treaty ports during the Qing crisis.",
+      "d": "The Taiping set up their own Heavenly Kingdom at Nanjing, not a Ming restoration.",
+      "default": "The Taiping Rebellion devastated China and weakened central Qing authority."
+    }
+  },
+  {
+    "id": "world-mc-252",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1857–1858 CE",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 28.9845, "lng": 77.7064, "label": "Meerut, India" },
+    "prompt": "What major political change followed the Indian Rebellion of 1857?",
+    "options": [
+      { "id": "a", "text": "Britain ended East India Company rule and began direct Crown rule" },
+      { "id": "b", "text": "India won immediate independence under Mahatma Gandhi" },
+      { "id": "c", "text": "The Mughal Empire reconquered all of British-held Bengal" },
+      { "id": "d", "text": "France took over administration of Delhi and Bombay" }
+    ],
+    "answer": "a",
+    "explanation": "After crushing the sepoy uprising, Parliament dissolved East India Company rule and placed India under the British Raj.",
+    "fun_fact": "The revolt also ended the Mughal Dynasty formally when the British exiled Bahadur Shah II to Burma.",
+    "source_url": "https://www.britannica.com/event/Indian-Mutiny",
+    "trap_notes": {
+      "b": "Indian independence came 90 years later in 1947.",
+      "c": "The British defeated the rebellion and deposed the last Mughal emperor.",
+      "d": "Britain, not France, tightened direct imperial control over India.",
+      "default": "The 1857 uprising replaced East India Company rule with direct British Crown control."
+    }
+  },
+  {
+    "id": "world-mc-253",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1869–1914 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Ismailia, Egypt" },
+    "prompt": "Why did Britain treat control of the Suez Canal as vital after 1869?",
+    "options": [
+      { "id": "a", "text": "It slashed sea travel time between Britain and its Indian Empire" },
+      { "id": "b", "text": "It connected the Atlantic Ocean directly to the Pacific Ocean" },
+      { "id": "c", "text": "It supplied Britain's coal mines with freshwater barges" },
+      { "id": "d", "text": "It kept Ottoman and Russian ships out of the Baltic Sea" }
+    ],
+    "answer": "a",
+    "explanation": "Ships using the Suez Canal avoided sailing all the way around southern Africa, speeding trade and troops to India.",
+    "fun_fact": "Britain bought Egypt's shares in the canal in 1875 and occupied Egypt in 1882 to guard the route.",
+    "source_url": "https://www.britannica.com/topic/Suez-Canal",
+    "trap_notes": {
+      "b": "The Panama Canal, opened in 1914, linked the Atlantic and Pacific Oceans.",
+      "c": "The Suez Canal is a saltwater shipping lane, not a domestic coal barge route.",
+      "d": "The Baltic Sea lies in northern Europe, far from Egypt.",
+      "default": "The Suez Canal served as Britain's strategic maritime lifeline to India and Asia."
+    }
+  },
+  {
+    "id": "world-mc-254",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1885–1908 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -4.4419, "lng": 15.2663, "label": "Kinshasa, DR Congo" },
+    "prompt": "What drove the brutal abuses in King Leopold II's Congo Free State?",
+    "options": [
+      { "id": "a", "text": "Forced labor quotas for wild rubber and ivory to enrich Leopold" },
+      { "id": "b", "text": "Building public universities for Congolese voters in every village" },
+      { "id": "c", "text": "A Belgian parliament ban on all European exports from Africa" },
+      { "id": "d", "text": "Competition with Inca silver miners in the Congo basin" }
+    ],
+    "answer": "a",
+    "explanation": "Leopold treated the Congo as personal property, using terror and mutilation to force villagers to meet rubber quotas.",
+    "fun_fact": "International outrage led by journalists and missionaries forced Belgium's government to take over the colony in 1908.",
+    "source_url": "https://www.britannica.com/place/Congo-Free-State",
+    "trap_notes": {
+      "b": "Leopold invested almost nothing in local education, focusing instead on resource extraction.",
+      "c": "Global demand for rubber bicycle and car tires drove intense extraction.",
+      "d": "The Inca lived in the South American Andes centuries earlier.",
+      "default": "Leopold II's personal rule relied on forced labor to extract rubber and ivory."
+    }
+  },
+  {
+    "id": "world-mc-255",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1919 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "prompt": "How did the 1919 Treaty of Versailles treat Germany after World War I?",
+    "options": [
+      { "id": "a", "text": "It assigned war guilt, demanded reparations, and cut German territory" },
+      { "id": "b", "text": "It divided Germany into British and Soviet occupation zones" },
+      { "id": "c", "text": "It awarded Germany new colonies across East Africa and Asia" },
+      { "id": "d", "text": "It forgave all wartime debts and expanded Germany's army" }
+    ],
+    "answer": "a",
+    "explanation": "The treaty forced Germany to accept blame, pay heavy reparations, shrink its military, and give up land and colonies.",
+    "fun_fact": "Widespread German anger over the treaty's 'war guilt' clause was later exploited by Adolf Hitler.",
+    "source_url": "https://www.britannica.com/event/Treaty-of-Versailles-1919",
+    "trap_notes": {
+      "b": "Allied occupation zones in Germany happened in 1945 after World War II, not 1919.",
+      "c": "Germany lost its overseas colonies, which became League of Nations mandates.",
+      "d": "The treaty capped Germany's army at 100,000 troops and imposed steep reparations.",
+      "default": "The Treaty of Versailles penalized Germany with war guilt, reparations, and territorial losses."
+    }
+  },
+  {
+    "id": "world-mc-256",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1947 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 31.5204, "lng": 74.3587, "label": "Lahore, Pakistan" },
+    "prompt": "What was an immediate human consequence of the 1947 Partition of India?",
+    "options": [
+      { "id": "a", "text": "Millions of Hindus, Muslims, and Sikhs fled across new borders" },
+      { "id": "b", "text": "India and Pakistan formed a single peaceful union government" },
+      { "id": "c", "text": "British troops stayed in power in New Delhi until 1990" },
+      { "id": "d", "text": "All railway lines between Bengal and Punjab were dismantled" }
+    ],
+    "answer": "a",
+    "explanation": "Drawing borders between India and Pakistan triggered one of history's largest mass migrations and deadly communal violence.",
+    "fun_fact": "Roughly 14 to 15 million people crossed the new borders, and up to a million died in the upheaval.",
+    "source_url": "https://www.britannica.com/event/Partition-of-India",
+    "trap_notes": {
+      "b": "Partition created two separate nations, India and Pakistan, amid bitter conflict over Kashmir.",
+      "c": "British rule ended in August 1947 when independence and partition took effect.",
+      "d": "Packed trains actually carried millions of refugees across the new borders.",
+      "default": "Partition uprooted millions of refugees and caused widespread communal violence in 1947."
+    }
+  },
+  {
+    "id": "world-mc-257",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1948–1951 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "Why did the United States launch the Marshall Plan in 1948?",
+    "options": [
+      { "id": "a", "text": "To rebuild Western Europe's economies and curb communist appeal" },
+      { "id": "b", "text": "To fund Soviet heavy industry across Siberia and Ukraine" },
+      { "id": "c", "text": "To dismantle all factories in West Germany and northern Italy" },
+      { "id": "d", "text": "To replace the United Nations with a European trade union" }
+    ],
+    "answer": "a",
+    "explanation": "By sending over $13 billion in aid, Washington helped revive Western European markets and stabilize democratic governments.",
+    "fun_fact": "The Soviet Union rejected Marshall Plan aid and barred Eastern European satellites from accepting it.",
+    "source_url": "https://www.britannica.com/event/Marshall-Plan",
+    "trap_notes": {
+      "b": "The Marshall Plan was a Cold War containment policy, and the USSR refused to participate.",
+      "c": "Early plans to deindustrialize Germany were abandoned in favor of rebuilding its economy.",
+      "d": "The United States remained a founding member of the United Nations.",
+      "default": "The Marshall Plan used economic recovery aid to stabilize Western Europe against communism."
+    }
+  },
+  {
+    "id": "world-mc-258",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1962 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "prompt": "How did the 1962 Cuban Missile Crisis end without nuclear war?",
+    "options": [
+      { "id": "a", "text": "The USSR removed missiles in Cuba while the U.S. pledged not to invade" },
+      { "id": "b", "text": "NATO troops occupied Havana and deposed Fidel Castro" },
+      { "id": "c", "text": "China sent peacekeeping forces to govern Florida and Cuba" },
+      { "id": "d", "text": "Both superpowers signed a treaty uniting their navies" }
+    ],
+    "answer": "a",
+    "explanation": "After a tense naval quarantine, Khrushchev withdrew Soviet missiles and Kennedy pledged no invasion and quietly removed Turkish missiles.",
+    "fun_fact": "The crisis led Moscow and Washington to install a direct 'hotline' teletype link to prevent miscommunication.",
+    "source_url": "https://www.britannica.com/event/Cuban-missile-crisis",
+    "trap_notes": {
+      "b": "Fidel Castro remained in power in Cuba for decades after 1962.",
+      "c": "China was not a mediator or peacekeeper in the Cuban Missile Crisis.",
+      "d": "Cold War naval rivalry continued after the 1962 diplomatic deal.",
+      "default": "Secret and public diplomacy ended the crisis through mutual missile withdrawals and a no-invasion pledge."
+    }
+  },
+  {
+    "id": "world-mc-259",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1950s–1970s CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.901, "lng": 75.8573, "label": "Ludhiana, India" },
+    "prompt": "What was the primary achievement of the Green Revolution in Asia and Latin America?",
+    "options": [
+      { "id": "a", "text": "High-yield wheat and rice varieties sharply boosted grain harvests" },
+      { "id": "b", "text": "Solar panels replaced all diesel tractors on rural farms" },
+      { "id": "c", "text": "Farmers abandoned irrigation and chemical fertilizers worldwide" },
+      { "id": "d", "text": "Global population fell by half due to food shortages" }
+    ],
+    "answer": "a",
+    "explanation": "Combining dwarf grain seeds, irrigation, and fertilizers helped countries like India and Mexico avert predicted famines.",
+    "fun_fact": "Agronomist Norman Borlaug won the 1970 Nobel Peace Prize for his work on high-yield wheat.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "b": "The Green Revolution relied on selective breeding, irrigation, and synthetic fertilizers, not solar tractors.",
+      "c": "High-yield crops actually increased dependence on irrigation and chemical inputs.",
+      "d": "Global food supply and population grew rapidly alongside Green Revolution harvests.",
+      "default": "The Green Revolution raised grain yields dramatically through improved seeds, water, and fertilizer."
+    }
+  },
+  {
+    "id": "world-mc-260",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1989 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "What did the fall of the Berlin Wall in November 1989 symbolize?",
+    "options": [
+      { "id": "a", "text": "The collapse of communist rule in Eastern Europe and Cold War division" },
+      { "id": "b", "text": "The start of the Korean War along the 38th parallel" },
+      { "id": "c", "text": "The creation of the Warsaw Pact military alliance" },
+      { "id": "d", "text": "The partition of Germany into four permanent empires" }
+    ],
+    "answer": "a",
+    "explanation": "Peaceful protests and Gorbachev's refusal to send Soviet tanks led to open borders and German reunification in 1990.",
+    "fun_fact": "East and West Berliners chipped away pieces of the concrete wall with hammers and chisels as souvenirs.",
+    "source_url": "https://www.britannica.com/topic/Berlin-Wall",
+    "trap_notes": {
+      "b": "The Korean War began in 1950, nearly forty years before the Berlin Wall fell.",
+      "c": "The Warsaw Pact was formed in 1955 and dissolved shortly after 1989.",
+      "d": "The fall of the wall led to German reunification, not permanent partition.",
+      "default": "The Berlin Wall's fall marked the end of Soviet-backed regimes in Eastern Europe."
+    }
+  }
+]

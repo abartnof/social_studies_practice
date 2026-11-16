@@ -1,0 +1,1684 @@
+[
+  {
+    "id": "econ-mc-101",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 55.9533, "lng": -3.1883, "label": "Edinburgh, Scotland" },
+    "prompt": "Why does scarcity exist in every human economy?",
+    "options": [
+      { "id": "a", "text": "People have unlimited wants but limited resources" },
+      { "id": "b", "text": "Governments print too little paper currency" },
+      { "id": "c", "text": "Businesses refuse to produce basic necessities" },
+      { "id": "d", "text": "Consumers save too much of their annual income" }
+    ],
+    "answer": "a",
+    "explanation": "Scarcity is the basic economic problem: human wants are endless, while land, labor, and capital are finite.",
+    "fun_fact": "Economics is often called the study of how people make choices under scarcity.",
+    "source_url": "https://www.econlib.org/library/Enc/Scarcity.html",
+    "trap_notes": {
+      "b": "Printing more money causes inflation, not more real goods or resources.",
+      "c": "Even if firms produce essentials, raw materials and time remain limited.",
+      "d": "Saving shifts when people spend, but it does not create scarcity.",
+      "default": "Scarcity comes from limited resources meeting unlimited wants."
+    }
+  },
+  {
+    "id": "econ-mc-102",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "A student chooses to work a $15/hour shift instead of studying for an exam. What is the opportunity cost?",
+    "options": [
+      { "id": "a", "text": "The wages earned during the work shift" },
+      { "id": "b", "text": "The exam study time given up to work" },
+      { "id": "c", "text": "The taxes deducted from the paycheck" },
+      { "id": "d", "text": "The bus fare paid to reach the workplace" }
+    ],
+    "answer": "b",
+    "explanation": "Opportunity cost is the value of the next best alternative given up when making a choice.",
+    "fun_fact": "Economists count both out-of-pocket costs and forgone time when measuring true cost.",
+    "source_url": "https://www.econlib.org/library/Enc/OpportunityCost.html",
+    "trap_notes": {
+      "a": "The wages are the benefit gained from working, not the cost forgone.",
+      "c": "Taxes reduce take-home pay, whereas opportunity cost is the forgone choice.",
+      "d": "Bus fare is an explicit money cost, not the next best alternative activity.",
+      "default": "Opportunity cost is the best alternative you gave up."
+    }
+  },
+  {
+    "id": "econ-mc-103",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "What does a point inside a Production Possibilities Frontier (PPF) show?",
+    "options": [
+      { "id": "a", "text": "Resources are being used inefficiently or left idle" },
+      { "id": "b", "text": "Output is impossible with current technology" },
+      { "id": "c", "text": "The economy has achieved full employment" },
+      { "id": "d", "text": "Prices for consumer goods are falling rapidly" }
+    ],
+    "answer": "a",
+    "explanation": "Points inside the PPF mean an economy could produce more of both goods using existing resources.",
+    "fun_fact": "Points on the curve show efficiency; points outside the curve are currently unattainable.",
+    "source_url": "https://www.britannica.com/money/production-possibilities-curve",
+    "trap_notes": {
+      "b": "Unattainable output lies outside the PPF curve, not inside it.",
+      "c": "Full employment places an economy directly on the PPF boundary.",
+      "d": "A PPF measures physical output trade-offs, not price levels.",
+      "default": "Inside the PPF means idle workers or wasted resources."
+    }
+  },
+  {
+    "id": "econ-mc-104",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "According to the law of demand, what happens when the price of coffee rises, holding other factors constant?",
+    "options": [
+      { "id": "a", "text": "The quantity of coffee demanded increases" },
+      { "id": "b", "text": "The entire demand curve shifts to the right" },
+      { "id": "c", "text": "The quantity of coffee demanded decreases" },
+      { "id": "d", "text": "The supply of coffee drops to zero" }
+    ],
+    "answer": "c",
+    "explanation": "The law of demand states that higher prices lead to a lower quantity demanded along the same curve.",
+    "fun_fact": "Alfred Marshall popularized the classic supply-and-demand cross diagram in 1890.",
+    "source_url": "https://www.britannica.com/money/law-of-demand",
+    "trap_notes": {
+      "a": "Price and quantity demanded move in opposite directions, not together.",
+      "b": "A price change moves along the curve; it does not shift the whole curve.",
+      "d": "Higher prices actually encourage producers to supply more, not less.",
+      "default": "Higher price means lower quantity demanded along the curve."
+    }
+  },
+  {
+    "id": "econ-mc-105",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, California" },
+    "prompt": "If consumer incomes fall during a downturn, what happens to the demand for an inferior good like instant noodles?",
+    "options": [
+      { "id": "a", "text": "Demand decreases and the curve shifts left" },
+      { "id": "b", "text": "Demand increases and the curve shifts right" },
+      { "id": "c", "text": "Supply decreases and the curve shifts left" },
+      { "id": "d", "text": "Quantity demanded falls along the same curve" }
+    ],
+    "answer": "b",
+    "explanation": "Consumers buy more inferior goods when incomes drop because they substitute away from pricier options.",
+    "fun_fact": "Calling a good 'inferior' is about income response, not necessarily low quality.",
+    "source_url": "https://www.britannica.com/money/inferior-good",
+    "trap_notes": {
+      "a": "A leftward shift when income falls describes a normal good, not an inferior one.",
+      "c": "Consumer income changes affect buyer demand first, not producer supply.",
+      "d": "Income is a non-price determinant, so it shifts the entire demand curve.",
+      "default": "Lower income raises demand for inferior goods."
+    }
+  },
+  {
+    "id": "econ-mc-106",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "prompt": "A sharp rise in steel prices increases carmakers' production costs. How does the car supply curve change?",
+    "options": [
+      { "id": "a", "text": "It shifts to the right as output expands" },
+      { "id": "b", "text": "It stays fixed while demand shifts right" },
+      { "id": "c", "text": "It becomes vertical at every price level" },
+      { "id": "d", "text": "It shifts to the left as output shrinks" }
+    ],
+    "answer": "d",
+    "explanation": "Higher input costs make each car less profitable to build, shifting the supply curve to the left.",
+    "fun_fact": "A leftward supply shift raises equilibrium price and lowers equilibrium quantity.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "a": "Supply shifts right when input costs fall or technology improves.",
+      "b": "Steel prices affect automakers' costs, which moves supply rather than demand.",
+      "c": "A vertical supply curve means fixed quantity, such as original artwork.",
+      "default": "Higher input costs reduce supply and shift the curve left."
+    }
+  },
+  {
+    "id": "econ-mc-107",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.7392, "lng": -104.9903, "label": "Denver, Colorado" },
+    "prompt": "Why is the demand for life-saving insulin highly price inelastic?",
+    "options": [
+      { "id": "a", "text": "Buyers have few close substitutes and need it daily" },
+      { "id": "b", "text": "Patients can easily delay purchases for months" },
+      { "id": "c", "text": "It takes up a tiny share of hospital budgets" },
+      { "id": "d", "text": "Many competing brands sell identical generic vials" }
+    ],
+    "answer": "a",
+    "explanation": "Necessities with few substitutes have inelastic demand: quantity bought barely drops when price rises.",
+    "fun_fact": "Goods with many close substitutes, like restaurant meals, tend to have elastic demand.",
+    "source_url": "https://www.britannica.com/money/price-elasticity-of-demand",
+    "trap_notes": {
+      "b": "If buyers can easily wait, demand becomes more elastic, not inelastic.",
+      "c": "Elasticity depends on consumer necessity and substitutes, not hospital budgets.",
+      "d": "Many identical substitutes would make demand for one brand very elastic.",
+      "default": "Necessities without substitutes have inelastic demand."
+    }
+  },
+  {
+    "id": "econ-mc-108",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "What market outcome occurs when a city sets a binding rent ceiling below equilibrium?",
+    "options": [
+      { "id": "a", "text": "A housing surplus as landlords build more units" },
+      { "id": "b", "text": "A housing shortage as quantity demanded exceeds supply" },
+      { "id": "c", "text": "Immediate market clearing with zero waiting lists" },
+      { "id": "d", "text": "Higher rents for every tenant in the city" }
+    ],
+    "answer": "b",
+    "explanation": "A price ceiling below equilibrium boosts quantity demanded while cutting quantity supplied, creating a shortage.",
+    "fun_fact": "New York City has maintained some form of rent regulation since World War II.",
+    "source_url": "https://www.econlib.org/library/Enc/PriceControls.html",
+    "trap_notes": {
+      "a": "Surpluses come from price floors above equilibrium, not ceilings below it.",
+      "c": "Price controls prevent the price from rising to clear the market.",
+      "d": "A rent ceiling legally caps rents downward rather than raising them.",
+      "default": "A binding price ceiling creates a shortage."
+    }
+  },
+  {
+    "id": "econ-mc-109",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What happens when the government sets a binding price floor above equilibrium for corn?",
+    "options": [
+      { "id": "a", "text": "A shortage develops because farmers stop planting" },
+      { "id": "b", "text": "Consumers buy more corn at the higher price" },
+      { "id": "c", "text": "A surplus develops as supply exceeds demand" },
+      { "id": "d", "text": "The equilibrium price falls below the floor" }
+    ],
+    "answer": "c",
+    "explanation": "A price floor above equilibrium encourages farmers to grow more while buyers purchase less, causing a surplus.",
+    "fun_fact": "During the 1980s, U.S. dairy price floors led the government to store billions of pounds of cheese.",
+    "source_url": "https://www.britannica.com/money/price-floor",
+    "trap_notes": {
+      "a": "Higher guaranteed prices encourage more planting, not less.",
+      "b": "By the law of demand, buyers purchase less when the price rises.",
+      "d": "A binding floor prevents the market price from falling to equilibrium.",
+      "default": "A binding price floor creates a surplus."
+    }
+  },
+  {
+    "id": "econ-mc-110",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines, Iowa" },
+    "prompt": "Which trait defines a perfectly competitive market such as wheat farming?",
+    "options": [
+      { "id": "a", "text": "One firm controls the entire national supply" },
+      { "id": "b", "text": "Firms spend heavily on brand advertising" },
+      { "id": "c", "text": "High legal barriers block new firms from entering" },
+      { "id": "d", "text": "Many small firms sell identical products as price takers" }
+    ],
+    "answer": "d",
+    "explanation": "In perfect competition, many firms sell identical goods, entry is easy, and no single seller sets the price.",
+    "fun_fact": "Individual wheat farmers must accept the global commodity price set by market supply and demand.",
+    "source_url": "https://www.britannica.com/money/perfect-competition",
+    "trap_notes": {
+      "a": "A single seller controlling the entire market defines a monopoly.",
+      "b": "Brand advertising happens when products differ, as in monopolistic competition.",
+      "c": "High barriers to entry characterize monopolies and oligopolies.",
+      "default": "Perfect competition has many firms, identical goods, and price takers."
+    }
+  },
+  {
+    "id": "econ-mc-111",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle, Washington" },
+    "prompt": "Which market structure has a few dominant firms that watch each other's pricing closely?",
+    "options": [
+      { "id": "a", "text": "An oligopoly market" },
+      { "id": "b", "text": "Perfect competition" },
+      { "id": "c", "text": "A natural monopoly" },
+      { "id": "d", "text": "A pure monopsony" }
+    ],
+    "answer": "a",
+    "explanation": "An oligopoly is dominated by a small number of large firms whose pricing and output decisions affect rivals.",
+    "fun_fact": "Commercial aircraft makers Boeing and Airbus form a famous global duopoly, a two-firm oligopoly.",
+    "source_url": "https://www.britannica.com/money/oligopoly",
+    "trap_notes": {
+      "b": "Perfect competition has thousands of tiny firms that cannot affect market price.",
+      "c": "A natural monopoly has only one firm, such as a local water utility.",
+      "d": "A monopsony is a market with only one dominant buyer, not a few sellers.",
+      "default": "An oligopoly has a few large, interdependent sellers."
+    }
+  },
+  {
+    "id": "econ-mc-112",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "How does a rational firm decide whether to produce one more unit of a good?",
+    "options": [
+      { "id": "a", "text": "It produces if total revenue exceeds fixed costs" },
+      { "id": "b", "text": "It produces if marginal revenue exceeds marginal cost" },
+      { "id": "c", "text": "It produces until average total cost hits zero" },
+      { "id": "d", "text": "It produces whenever workers request overtime pay" }
+    ],
+    "answer": "b",
+    "explanation": "In marginal analysis, a firm adds output as long as the extra revenue meets or exceeds the extra cost.",
+    "fun_fact": "Profit peaks right where marginal revenue equals marginal cost.",
+    "source_url": "https://www.britannica.com/money/marginal-cost",
+    "trap_notes": {
+      "a": "Fixed costs are sunk in the short run and should not guide extra unit output.",
+      "c": "Average total cost includes fixed and variable costs and rarely reaches zero.",
+      "d": "Overtime raises labor costs, which must be weighed against extra revenue.",
+      "default": "Compare marginal revenue against marginal cost for the next unit."
+    }
+  },
+  {
+    "id": "econ-mc-113",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Which transaction is counted in this year's U.S. Gross Domestic Product (GDP)?",
+    "options": [
+      { "id": "a", "text": "Buying a used bicycle from a neighbor" },
+      { "id": "b", "text": "Receiving a monthly Social Security check" },
+      { "id": "c", "text": "Purchasing a newly built car made in Ohio" },
+      { "id": "d", "text": "Selling shares of stock on the New York exchange" }
+    ],
+    "answer": "c",
+    "explanation": "GDP counts only final goods and services newly produced within a country's borders during the year.",
+    "fun_fact": "The U.S. Bureau of Economic Analysis releases quarterly GDP updates every year.",
+    "source_url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+    "trap_notes": {
+      "a": "Used goods were already counted in GDP during the year they were first made.",
+      "b": "Government transfer payments do not buy newly produced goods or services.",
+      "d": "Financial asset trades transfer ownership rather than producing new goods.",
+      "default": "GDP counts new final goods and services made inside the country."
+    }
+  },
+  {
+    "id": "econ-mc-114",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why do economists use Real GDP instead of Nominal GDP to measure economic growth?",
+    "options": [
+      { "id": "a", "text": "Real GDP removes the effect of price inflation" },
+      { "id": "b", "text": "Real GDP includes unpaid household chores" },
+      { "id": "c", "text": "Real GDP counts only government tax revenue" },
+      { "id": "d", "text": "Real GDP ignores goods sold to foreign buyers" }
+    ],
+    "answer": "a",
+    "explanation": "Real GDP uses constant base-year prices so higher inflation does not look like higher physical output.",
+    "fun_fact": "If prices double while output stays flat, Nominal GDP doubles while Real GDP stays unchanged.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "trap_notes": {
+      "b": "Neither Nominal nor Real GDP counts unpaid household work.",
+      "c": "GDP measures total production, not government tax collections.",
+      "d": "Both Nominal and Real GDP include net exports.",
+      "default": "Real GDP adjusts for inflation using constant base-year prices."
+    }
+  },
+  {
+    "id": "econ-mc-115",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What does the Consumer Price Index (CPI) measure each month?",
+    "options": [
+      { "id": "a", "text": "The total profits of U.S. manufacturing firms" },
+      { "id": "b", "text": "Price changes in a fixed basket of household goods" },
+      { "id": "c", "text": "The interest rate banks charge their best borrowers" },
+      { "id": "d", "text": "The gap between federal spending and tax revenue" }
+    ],
+    "answer": "b",
+    "explanation": "The CPI tracks price changes over time for a representative basket of urban consumer goods and services.",
+    "fun_fact": "Social Security cost-of-living adjustments are tied directly to the Consumer Price Index.",
+    "source_url": "https://www.bls.gov/cpi/",
+    "trap_notes": {
+      "a": "Corporate profits appear in national income accounts, not the CPI.",
+      "c": "The rate banks charge top borrowers is the prime rate, not the CPI.",
+      "d": "The gap between spending and revenue is the federal budget deficit.",
+      "default": "CPI tracks prices of a standard consumer market basket."
+    }
+  },
+  {
+    "id": "econ-mc-116",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.749, "lng": -84.388, "label": "Atlanta, Georgia" },
+    "prompt": "A college graduate spends six weeks interviewing before starting a first full-time job. What type of unemployment is this?",
+    "options": [
+      { "id": "a", "text": "Cyclical unemployment" },
+      { "id": "b", "text": "Structural unemployment" },
+      { "id": "c", "text": "Frictional unemployment" },
+      { "id": "d", "text": "Seasonal unemployment" }
+    ],
+    "answer": "c",
+    "explanation": "Frictional unemployment occurs when workers are briefly between jobs or newly entering the labor force.",
+    "fun_fact": "Even a healthy, growing economy has frictional unemployment as people search for better job matches.",
+    "source_url": "https://www.bls.gov/cps/definitions.htm",
+    "trap_notes": {
+      "a": "Cyclical unemployment is caused by a recession, not normal job searching.",
+      "b": "Structural unemployment results from obsolete skills or long-term industry shifts.",
+      "d": "Seasonal unemployment follows predictable weather or holiday cycles.",
+      "default": "Frictional unemployment covers normal time spent searching for a job."
+    }
+  },
+  {
+    "id": "econ-mc-117",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "prompt": "Automated factory robots replace assembly workers whose skills no longer match available jobs. What unemployment is this?",
+    "options": [
+      { "id": "a", "text": "Frictional unemployment" },
+      { "id": "b", "text": "Cyclical unemployment" },
+      { "id": "c", "text": "Seasonal unemployment" },
+      { "id": "d", "text": "Structural unemployment" }
+    ],
+    "answer": "d",
+    "explanation": "Structural unemployment happens when technology or economic shifts leave workers' skills mismatched with open jobs.",
+    "fun_fact": "Economists group frictional and structural unemployment together as the natural rate of unemployment.",
+    "source_url": "https://www.britannica.com/money/structural-unemployment",
+    "trap_notes": {
+      "a": "Frictional unemployment is short-term job searching when skills still match demand.",
+      "b": "Cyclical unemployment rises during recessions and falls during recoveries.",
+      "c": "Seasonal unemployment is temporary work loss tied to calendar seasons.",
+      "default": "Structural unemployment stems from a mismatch between worker skills and jobs."
+    }
+  },
+  {
+    "id": "econ-mc-118",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "During a severe recession, car sales plummet and dealerships lay off salespeople. What type of unemployment rises?",
+    "options": [
+      { "id": "a", "text": "Cyclical unemployment" },
+      { "id": "b", "text": "Frictional unemployment" },
+      { "id": "c", "text": "Structural unemployment" },
+      { "id": "d", "text": "Voluntary unemployment" }
+    ],
+    "answer": "a",
+    "explanation": "Cyclical unemployment rises during economic downturns when overall spending and output fall.",
+    "fun_fact": "Eliminating cyclical unemployment is a central goal of both fiscal and monetary stimulus.",
+    "source_url": "https://www.britannica.com/money/cyclical-unemployment",
+    "trap_notes": {
+      "b": "Frictional unemployment reflects normal job transitions, not recession layoffs.",
+      "c": "Structural unemployment comes from skill mismatches rather than a business downturn.",
+      "d": "Laid-off workers who still seek jobs are involuntarily unemployed.",
+      "default": "Recession-driven job losses are cyclical unemployment."
+    }
+  },
+  {
+    "id": "econ-mc-119",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Which action is an example of expansionary fiscal policy to fight a recession?",
+    "options": [
+      { "id": "a", "text": "The Federal Reserve sells government bonds" },
+      { "id": "b", "text": "Congress cuts income taxes and funds highways" },
+      { "id": "c", "text": "The Federal Reserve raises reserve requirements" },
+      { "id": "d", "text": "Congress raises payroll taxes on small firms" }
+    ],
+    "answer": "b",
+    "explanation": "Expansionary fiscal policy uses congressional tax cuts or higher government spending to boost total demand.",
+    "fun_fact": "Fiscal policy is set by Congress and the President, whereas monetary policy is set by the Federal Reserve.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy",
+    "trap_notes": {
+      "a": "Bond sales are contractionary monetary policy run by the Federal Reserve.",
+      "c": "Reserve requirements are a monetary tool, and raising them slows the economy.",
+      "d": "Raising taxes is contractionary fiscal policy, which cools spending.",
+      "default": "Expansionary fiscal policy means lower taxes or higher government spending."
+    }
+  },
+  {
+    "id": "econ-mc-120",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How can Congress use contractionary fiscal policy to cool high inflation?",
+    "options": [
+      { "id": "a", "text": "Lower corporate tax rates and expand subsidies" },
+      { "id": "b", "text": "Direct the central bank to buy Treasury bills" },
+      { "id": "c", "text": "Raise income taxes and reduce federal spending" },
+      { "id": "d", "text": "Eliminate tariffs on all imported luxury cars" }
+    ],
+    "answer": "c",
+    "explanation": "Raising taxes and cutting government spending reduces aggregate demand and eases upward price pressure.",
+    "fun_fact": "Contractionary fiscal policy is often politically unpopular because voters dislike tax hikes and spending cuts.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy",
+    "trap_notes": {
+      "a": "Cutting taxes and raising subsidies expands demand and worsens inflation.",
+      "b": "Buying Treasury bills is expansionary monetary policy by the central bank.",
+      "d": "Tariff policy affects trade flows rather than broad fiscal demand.",
+      "default": "Contractionary fiscal policy raises taxes or cuts federal spending."
+    }
+  },
+  {
+    "id": "econ-mc-121",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7081, "lng": -74.0091, "label": "New York City, New York" },
+    "prompt": "What happens when the Federal Reserve buys government bonds on the open market?",
+    "options": [
+      { "id": "a", "text": "Bank reserves shrink and interest rates rise" },
+      { "id": "b", "text": "Federal income tax rates automatically drop" },
+      { "id": "c", "text": "The Treasury prints gold coins for citizens" },
+      { "id": "d", "text": "Bank reserves grow and interest rates fall" }
+    ],
+    "answer": "d",
+    "explanation": "When the Fed buys bonds, it pays banks with new reserves, expanding lending capacity and lowering interest rates.",
+    "fun_fact": "Open market operations are conducted by the Federal Reserve Bank of New York.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+    "trap_notes": {
+      "a": "Bank reserves shrink when the Fed sells bonds, not when it buys them.",
+      "b": "The Federal Reserve does not set income tax rates; Congress does.",
+      "c": "The U.S. left the gold standard in 1971 and does not issue circulating gold coins.",
+      "default": "Fed bond purchases inject reserves and lower interest rates."
+    }
+  },
+  {
+    "id": "econ-mc-122",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why does the Federal Reserve raise its policy interest rate when inflation runs hot?",
+    "options": [
+      { "id": "a", "text": "To make borrowing costlier and slow spending" },
+      { "id": "b", "text": "To encourage households to take bigger loans" },
+      { "id": "c", "text": "To increase federal infrastructure outlays" },
+      { "id": "d", "text": "To weaken the dollar against foreign money" }
+    ],
+    "answer": "a",
+    "explanation": "Higher interest rates make mortgages, car loans, and business borrowing costlier, cooling demand and inflation.",
+    "fun_fact": "The Fed's Federal Open Market Committee meets eight times a year to review interest rates.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+    "trap_notes": {
+      "b": "Higher rates discourage borrowing rather than encouraging larger loans.",
+      "c": "Infrastructure outlays are congressional fiscal policy, not Fed rate hikes.",
+      "d": "Higher U.S. interest rates usually attract foreign capital and strengthen the dollar.",
+      "default": "Higher rates cool inflation by making borrowing more expensive."
+    }
+  },
+  {
+    "id": "econ-mc-123",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "era": "1970s",
+    "prompt": "Which combination of economic problems defined 1970s stagflation in the United States?",
+    "options": [
+      { "id": "a", "text": "Falling prices, full employment, and rapid growth" },
+      { "id": "b", "text": "Rising inflation, high unemployment, and slow growth" },
+      { "id": "c", "text": "Budget surpluses, low oil prices, and deflation" },
+      { "id": "d", "text": "Zero tariffs, balanced trade, and fixed wages" }
+    ],
+    "answer": "b",
+    "explanation": "Stagflation combines stagnant economic growth and high unemployment with rising inflation, driven in the 1970s by oil shocks.",
+    "fun_fact": "Standard Keynesian models struggled to explain stagflation because inflation and joblessness rose together.",
+    "source_url": "https://www.britannica.com/money/stagflation",
+    "trap_notes": {
+      "a": "Falling prices and full employment describe a booming, non-inflationary economy.",
+      "c": "The 1970s saw oil price spikes and inflation, not oil gluts and deflation.",
+      "d": "Stagflation refers to domestic growth, jobs, and prices, not zero tariffs.",
+      "default": "Stagflation pairs stagnant growth and joblessness with high inflation."
+    }
+  },
+  {
+    "id": "econ-mc-124",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "In the business cycle, what is the lowest point of output before recovery begins?",
+    "options": [
+      { "id": "a", "text": "The peak" },
+      { "id": "b", "text": "The expansion" },
+      { "id": "c", "text": "The trough" },
+      { "id": "d", "text": "The ceiling" }
+    ],
+    "answer": "c",
+    "explanation": "A trough is the bottom turning point of a business cycle where contraction ends and expansion starts.",
+    "fun_fact": "The National Bureau of Economic Research officially dates U.S. business cycle peaks and troughs.",
+    "source_url": "https://www.nber.org/research/business-cycle-dating",
+    "trap_notes": {
+      "a": "The peak is the highest point of output right before a contraction begins.",
+      "b": "Expansion is the rising phase between a trough and the next peak.",
+      "d": "Ceiling refers to a legal price limit, not a business cycle phase.",
+      "default": "The trough is the bottom of the business cycle."
+    }
+  },
+  {
+    "id": "econ-mc-125",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why is unemployment insurance called an automatic stabilizer?",
+    "options": [
+      { "id": "a", "text": "Congress must pass a new bill before every payment" },
+      { "id": "b", "text": "It locks interest rates at a single fixed level" },
+      { "id": "c", "text": "It forces banks to hold extra cash during booms" },
+      { "id": "d", "text": "Payouts rise in recessions without new laws" }
+    ],
+    "answer": "d",
+    "explanation": "Automatic stabilizers like unemployment benefits and progressive taxes cushion downturns right away without new legislation.",
+    "fun_fact": "During economic booms, automatic stabilizers shrink payouts and collect more taxes, cooling inflation.",
+    "source_url": "https://www.britannica.com/money/automatic-stabilizer",
+    "trap_notes": {
+      "a": "Programs requiring new bills are discretionary fiscal policy, not automatic.",
+      "b": "Interest rates are managed by the Fed, not by unemployment insurance.",
+      "c": "Bank cash rules are reserve requirements set by the central bank.",
+      "default": "Automatic stabilizers adjust spending and taxes without new laws."
+    }
+  },
+  {
+    "id": "econ-mc-126",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How does the U.S. national debt differ from the annual federal budget deficit?",
+    "options": [
+      { "id": "a", "text": "Debt is the total owed; a deficit is one year's shortfall" },
+      { "id": "b", "text": "Debt is owed to states; a deficit is owed to banks" },
+      { "id": "c", "text": "Debt measures imports; a deficit measures exports" },
+      { "id": "d", "text": "Debt resets each October; a deficit lasts ten years" }
+    ],
+    "answer": "a",
+    "explanation": "A budget deficit occurs when one year's spending exceeds tax revenue; the national debt is the accumulated total borrowed.",
+    "fun_fact": "Running a budget surplus shrinks the national debt, while each deficit adds to it.",
+    "source_url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/",
+    "trap_notes": {
+      "b": "Both deficits and national debt are funded by selling Treasury securities to investors.",
+      "c": "Imports and exports make up the trade balance, not the federal budget.",
+      "d": "The federal fiscal year runs from October 1 to September 30, but debt does not reset.",
+      "default": "Deficit is one year's gap; debt is the cumulative total owed."
+    }
+  },
+  {
+    "id": "econ-mc-127",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "According to David Ricardo, when does a country have a comparative advantage in making cloth?",
+    "options": [
+      { "id": "a", "text": "When it uses more workers per bolt than rivals" },
+      { "id": "b", "text": "When it produces cloth at a lower opportunity cost" },
+      { "id": "c", "text": "When it bans all foreign cloth from entering ports" },
+      { "id": "d", "text": "When it holds the world's largest gold reserves" }
+    ],
+    "answer": "b",
+    "explanation": "Comparative advantage means producing a good at a lower opportunity cost than trading partners, allowing mutual gains.",
+    "fun_fact": "Even a country that is less efficient at making everything can still gain by specializing in its comparative advantage.",
+    "source_url": "https://www.econlib.org/library/Enc/ComparativeAdvantage.html",
+    "trap_notes": {
+      "a": "Using more workers per unit signals lower productivity, not an advantage.",
+      "c": "Banning imports blocks the gains from specialization and trade.",
+      "d": "Hoarding gold reflects mercantilism, which Ricardo and Adam Smith criticized.",
+      "default": "Comparative advantage is all about lower opportunity cost."
+    }
+  },
+  {
+    "id": "econ-mc-128",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "What is the key difference between absolute advantage and comparative advantage?",
+    "options": [
+      { "id": "a", "text": "Absolute uses tariffs; comparative uses quotas" },
+      { "id": "b", "text": "Absolute applies to services; comparative to farms" },
+      { "id": "c", "text": "Absolute measures total output; comparative measures cost" },
+      { "id": "d", "text": "Absolute lasts one year; comparative lasts decades" }
+    ],
+    "answer": "c",
+    "explanation": "Absolute advantage compares who can produce more using the same inputs; comparative advantage compares opportunity costs.",
+    "fun_fact": "Adam Smith described absolute advantage in 1776; David Ricardo formalized comparative advantage in 1817.",
+    "source_url": "https://www.britannica.com/money/comparative-advantage",
+    "trap_notes": {
+      "a": "Tariffs and quotas are trade barriers, not measures of production efficiency.",
+      "b": "Both concepts apply to goods, services, and individual workers alike.",
+      "d": "Neither advantage has a fixed expiration date; both depend on productivity.",
+      "default": "Absolute compares output per input; comparative compares opportunity cost."
+    }
+  },
+  {
+    "id": "econ-mc-129",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How does a protective tariff on imported shoes affect domestic consumers and producers?",
+    "options": [
+      { "id": "a", "text": "Consumers pay less while imports double" },
+      { "id": "b", "text": "Domestic shoemakers lose all market share" },
+      { "id": "c", "text": "Government tax revenue drops to zero" },
+      { "id": "d", "text": "Consumers pay more while domestic firms sell more" }
+    ],
+    "answer": "d",
+    "explanation": "A tariff taxes imports, raising market prices for consumers while shielding domestic producers from foreign competition.",
+    "fun_fact": "Tariffs raise revenue for the government, unlike import quotas unless licenses are auctioned.",
+    "source_url": "https://www.britannica.com/money/tariff",
+    "trap_notes": {
+      "a": "Tariffs raise import prices and reduce import volume rather than lowering prices.",
+      "b": "Higher import prices help domestic producers gain sales, not lose them.",
+      "c": "Tariffs are taxes on imports, so they generate customs revenue.",
+      "default": "Tariffs raise consumer prices and help domestic producers."
+    }
+  },
+  {
+    "id": "econ-mc-130",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "How does an import quota restrict trade differently from a tariff?",
+    "options": [
+      { "id": "a", "text": "It sets a hard cap on import quantity" },
+      { "id": "b", "text": "It pays domestic exporters a cash bonus" },
+      { "id": "c", "text": "It taxes every unit sold by domestic factories" },
+      { "id": "d", "text": "It lowers the exchange rate of foreign money" }
+    ],
+    "answer": "a",
+    "explanation": "An import quota caps the physical number of units allowed into a country, whereas a tariff taxes each imported unit.",
+    "fun_fact": "World Trade Organization rules generally discourage quotas in favor of transparent tariffs.",
+    "source_url": "https://www.britannica.com/money/import-quota",
+    "trap_notes": {
+      "b": "Cash bonuses for domestic exporters are export subsidies, not import quotas.",
+      "c": "Taxing domestic factory output is an excise tax, not a trade quota.",
+      "d": "Quotas limit physical shipments rather than directly setting exchange rates.",
+      "default": "An import quota caps the maximum quantity of imports."
+    }
+  },
+  {
+    "id": "econ-mc-131",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "If the U.S. dollar appreciates sharply against the euro, what happens to U.S. trade?",
+    "options": [
+      { "id": "a", "text": "European goods become costlier for Americans" },
+      { "id": "b", "text": "European goods become cheaper for Americans" },
+      { "id": "c", "text": "U.S. exports become cheaper for Europeans" },
+      { "id": "d", "text": "U.S. tourists pay more while visiting Paris" }
+    ],
+    "answer": "b",
+    "explanation": "A stronger dollar buys more euros, making European imports cheaper for Americans while making U.S. exports pricier abroad.",
+    "fun_fact": "U.S. exporters often dislike a strong dollar because foreign buyers must spend more local currency to buy American goods.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Exchange-Rates",
+    "trap_notes": {
+      "a": "European goods get costlier when the dollar weakens, not when it strengthens.",
+      "c": "A stronger dollar makes U.S. exports more expensive for European buyers.",
+      "d": "American tourists get more euros per dollar, making Paris trips cheaper.",
+      "default": "A stronger dollar makes imports cheaper and exports costlier."
+    }
+  },
+  {
+    "id": "econ-mc-132",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "When does a country experience a merchandise trade deficit?",
+    "options": [
+      { "id": "a", "text": "When federal tax revenue falls below spending" },
+      { "id": "b", "text": "When domestic savings exceed business investment" },
+      { "id": "c", "text": "When the value of imports exceeds exports" },
+      { "id": "d", "text": "When the central bank raises interest rates" }
+    ],
+    "answer": "c",
+    "explanation": "A trade deficit occurs when a nation imports a greater dollar value of goods than it exports.",
+    "fun_fact": "A country can run a trade deficit in goods while running a surplus in services like software and finance.",
+    "source_url": "https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services",
+    "trap_notes": {
+      "a": "Tax revenue falling below spending is a government budget deficit, not a trade deficit.",
+      "b": "High domestic savings relative to investment usually pairs with a trade surplus.",
+      "d": "Interest rate hikes are monetary policy, not the definition of a trade deficit.",
+      "default": "Trade deficit means imports exceed exports."
+    }
+  },
+  {
+    "id": "econ-mc-133",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "era": "1994–2020",
+    "prompt": "What was the main goal of NAFTA (1994) and its successor USMCA (2020)?",
+    "options": [
+      { "id": "a", "text": "To adopt a single shared North American currency" },
+      { "id": "b", "text": "To place steep tariffs on Canadian lumber" },
+      { "id": "c", "text": "To merge the three national central banks" },
+      { "id": "d", "text": "To lower trade barriers across North America" }
+    ],
+    "answer": "d",
+    "explanation": "NAFTA and USMCA reduced tariffs and trade rules among Canada, Mexico, and the United States.",
+    "fun_fact": "Unlike the European Union's eurozone, North American nations kept their own separate currencies.",
+    "source_url": "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+    "trap_notes": {
+      "a": "The U.S., Canada, and Mexico still use dollars and pesos, not one currency.",
+      "b": "Free trade pacts aim to cut tariffs rather than raise them.",
+      "c": "Each country kept its own independent central bank.",
+      "default": "NAFTA and USMCA cut tariffs among the U.S., Canada, and Mexico."
+    }
+  },
+  {
+    "id": "econ-mc-134",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Why does compound interest grow savings faster than simple interest over time?",
+    "options": [
+      { "id": "a", "text": "It pays interest on both principal and past interest" },
+      { "id": "b", "text": "It exempts all bank accounts from income taxes" },
+      { "id": "c", "text": "It doubles the interest rate every twelve months" },
+      { "id": "d", "text": "It prevents inflation from reducing buying power" }
+    ],
+    "answer": "a",
+    "explanation": "Compound interest adds earned interest back into the balance so future interest is calculated on a larger sum.",
+    "fun_fact": "The Rule of 72 estimates how many years it takes money to double: divide 72 by the annual interest rate.",
+    "source_url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+    "trap_notes": {
+      "b": "Compound interest is a math formula, not a tax exemption.",
+      "c": "The percentage rate stays the same; only the balance earning it grows.",
+      "d": "Inflation still reduces purchasing power if prices rise faster than savings.",
+      "default": "Compound interest earns interest on prior interest."
+    }
+  },
+  {
+    "id": "econ-mc-135",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "New York City, New York" },
+    "prompt": "Why do financial advisors recommend diversifying a retirement portfolio?",
+    "options": [
+      { "id": "a", "text": "To guarantee that stock prices rise every year" },
+      { "id": "b", "text": "To spread risk across different asset types" },
+      { "id": "c", "text": "To eliminate all federal capital gains taxes" },
+      { "id": "d", "text": "To concentrate all savings in one top company" }
+    ],
+    "answer": "b",
+    "explanation": "Diversification spreads money across stocks, bonds, and industries so a drop in one asset hurts less.",
+    "fun_fact": "Index funds let small investors buy hundreds of companies in a single low-cost fund.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/asset-allocation-and-diversification",
+    "trap_notes": {
+      "a": "No investment strategy can guarantee positive returns every single year.",
+      "c": "Diversification manages risk; tax-advantaged accounts handle taxes.",
+      "d": "Putting all savings in one company increases risk rather than lowering it.",
+      "default": "Diversification lowers risk by spreading investments."
+    }
+  },
+  {
+    "id": "econ-mc-136",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.749, "lng": -84.388, "label": "Atlanta, Georgia" },
+    "prompt": "Which habit carries the largest weight in calculating a consumer's credit score?",
+    "options": [
+      { "id": "a", "text": "Holding a high annual salary from one employer" },
+      { "id": "b", "text": "Checking a savings balance every morning" },
+      { "id": "c", "text": "Making on-time payments on loans and cards" },
+      { "id": "d", "text": "Opening five new store credit cards each month" }
+    ],
+    "answer": "c",
+    "explanation": "Payment history accounts for roughly 35% of a standard FICO credit score, making on-time payments critical.",
+    "fun_fact": "Income and savings balances are not included in standard FICO credit score formulas.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/",
+    "trap_notes": {
+      "a": "Salary affects loan affordability, but it is not part of a credit score.",
+      "b": "Checking your own account balance has zero effect on credit scores.",
+      "d": "Opening many new cards in a short span usually lowers a credit score.",
+      "default": "Payment history is the biggest piece of a credit score."
+    }
+  },
+  {
+    "id": "econ-mc-137",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How does Annual Percentage Yield (APY) differ from Annual Percentage Rate (APR)?",
+    "options": [
+      { "id": "a", "text": "APY applies to loans; APR applies to savings" },
+      { "id": "b", "text": "APY ignores fees; APR includes stock dividends" },
+      { "id": "c", "text": "APY lasts ten years; APR lasts one month" },
+      { "id": "d", "text": "APY includes compounding; APR does not" }
+    ],
+    "answer": "d",
+    "explanation": "APY shows the true yearly return including compound interest, while APR states the base annual rate without compounding.",
+    "fun_fact": "Banks advertise APY on savings accounts to highlight compounding, and APR on loans and credit cards.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-mortgage-interest-rate-and-an-apr-en-135/",
+    "trap_notes": {
+      "a": "Banks typically quote APY on deposit accounts and APR on borrowing.",
+      "b": "APR on loans actually includes certain lender fees, unlike simple interest.",
+      "c": "Both APR and APY express annualized percentage rates over one year.",
+      "default": "APY reflects compound interest; APR is the base annual rate."
+    }
+  },
+  {
+    "id": "econ-mc-138",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Which personal asset has the highest liquidity?",
+    "options": [
+      { "id": "a", "text": "Funds in a checking account" },
+      { "id": "b", "text": "Equity in a family house" },
+      { "id": "c", "text": "A five-year certificate of deposit" },
+      { "id": "d", "text": "A vintage baseball card collection" }
+    ],
+    "answer": "a",
+    "explanation": "Liquidity is how fast an asset converts into spendable cash without losing value; checking funds are already cash.",
+    "fun_fact": "Emergency funds are kept in liquid accounts so households can pay sudden bills without selling long-term assets.",
+    "source_url": "https://www.britannica.com/money/liquidity",
+    "trap_notes": {
+      "b": "Selling a house can take months and involves closing costs.",
+      "c": "Withdrawing a certificate of deposit early usually triggers a penalty.",
+      "d": "Collectibles take time to appraise and sell at fair market value.",
+      "default": "Checking accounts offer immediate cash access with no loss of value."
+    }
+  },
+  {
+    "id": "econ-mc-139",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What is a major advantage of saving in an employer-sponsored 401(k) plan?",
+    "options": [
+      { "id": "a", "text": "Withdrawals at age 25 carry zero penalties" },
+      { "id": "b", "text": "Contributions grow tax-deferred and often get matched" },
+      { "id": "c", "text": "The government guarantees a 10% yearly profit" },
+      { "id": "d", "text": "Balances replace all Social Security benefits" }
+    ],
+    "answer": "b",
+    "explanation": "Traditional 401(k) contributions reduce current taxable income, grow tax-deferred, and often earn employer matching funds.",
+    "fun_fact": "The 401(k) gets its name from subsection 401(k) of the U.S. Internal Revenue Code, added in 1978.",
+    "source_url": "https://www.investor.gov/additional-resources/retirement-toolkit/employer-sponsored-plans/401k-plans",
+    "trap_notes": {
+      "a": "Early withdrawals before age 59 and a half usually face a 10% tax penalty.",
+      "c": "Investment returns depend on the funds chosen and are not guaranteed.",
+      "d": "A 401(k) supplements Social Security rather than replacing it.",
+      "default": "401(k) plans offer tax advantages and frequent employer matches."
+    }
+  },
+  {
+    "id": "econ-mc-140",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.2271, "lng": -80.8431, "label": "Charlotte, North Carolina" },
+    "prompt": "Why might a homebuyer choose a fixed-rate mortgage over an adjustable-rate mortgage?",
+    "options": [
+      { "id": "a", "text": "The interest rate drops whenever inflation rises" },
+      { "id": "b", "text": "The loan principal disappears after five years" },
+      { "id": "c", "text": "Monthly principal and interest stay predictable" },
+      { "id": "d", "text": "Property taxes are waived for thirty years" }
+    ],
+    "answer": "c",
+    "explanation": "A fixed-rate mortgage locks in the interest rate for the life of the loan, keeping monthly payments steady.",
+    "fun_fact": "The 30-year fixed-rate mortgage became widespread in the U.S. after the New Deal housing reforms of the 1930s.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-fixed-rate-and-adjustable-rate-mortgage-arm-loan-en-100/",
+    "trap_notes": {
+      "a": "Fixed rates stay constant; they do not automatically drop when inflation rises.",
+      "b": "Borrowers must repay the full principal over the loan term.",
+      "d": "Local property taxes still change over time even with a fixed mortgage.",
+      "default": "Fixed-rate loans keep interest rates and base payments steady."
+    }
+  },
+  {
+    "id": "econ-ded-101",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1776",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 55.9533, "lng": -3.1883, "label": "Edinburgh, Scotland" },
+    "prompt": "Identify this Scottish economist.",
+    "clues": [
+      "This 18th-century thinker argued that free markets coordinate self-interest.",
+      "He used a pin factory to show how division of labor boosts productivity.",
+      "He wrote 'The Wealth of Nations' in 1776 and coined the 'invisible hand'."
+    ],
+    "options": [
+      { "id": "a", "text": "Adam Smith" },
+      { "id": "b", "text": "David Ricardo" },
+      { "id": "c", "text": "John Maynard Keynes" },
+      { "id": "d", "text": "Milton Friedman" }
+    ],
+    "answer": "a",
+    "explanation": "Adam Smith's 1776 book 'The Wealth of Nations' laid the foundation for classical free-market economics.",
+    "fun_fact": "Smith taught moral philosophy at the University of Glasgow before writing his famous economics book.",
+    "source_url": "https://www.britannica.com/money/Adam-Smith",
+    "trap_notes": {
+      "b": "David Ricardo developed comparative advantage in 1817, four decades after Smith.",
+      "c": "John Maynard Keynes wrote in the 1930s about government stimulus during recessions.",
+      "d": "Milton Friedman led 20th-century monetarism at the University of Chicago.",
+      "default": "Adam Smith wrote 'The Wealth of Nations' in 1776."
+    }
+  },
+  {
+    "id": "econ-ded-102",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1936",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.2053, "lng": 0.1218, "label": "Cambridge, England" },
+    "prompt": "Identify this British macroeconomist.",
+    "clues": [
+      "He challenged classical economists who said recessions fix themselves quickly.",
+      "He argued governments should boost spending during severe downturns.",
+      "His 1936 'General Theory' shaped New Deal and postwar fiscal policy."
+    ],
+    "options": [
+      { "id": "a", "text": "Friedrich Hayek" },
+      { "id": "b", "text": "John Maynard Keynes" },
+      { "id": "c", "text": "Adam Smith" },
+      { "id": "d", "text": "Karl Marx" }
+    ],
+    "answer": "b",
+    "explanation": "John Maynard Keynes argued that active government spending can restore aggregate demand during depressions.",
+    "fun_fact": "Keynes also helped design the International Monetary Fund at the 1944 Bretton Woods conference.",
+    "source_url": "https://www.britannica.com/biography/John-Maynard-Keynes",
+    "trap_notes": {
+      "a": "Friedrich Hayek opposed heavy government stimulus and favored free-market adjustments.",
+      "c": "Adam Smith wrote in 1776 and favored limited government intervention.",
+      "d": "Karl Marx called for abolishing private capitalism rather than stabilizing it.",
+      "default": "Keynes's 1936 book launched modern macroeconomics and fiscal stimulus."
+    }
+  },
+  {
+    "id": "econ-ded-103",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1960s–1980s",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.7886, "lng": -87.5987, "label": "Chicago, Illinois" },
+    "prompt": "Identify this Nobel Prize-winning economist.",
+    "clues": [
+      "He led the Chicago School and challenged Keynesian fiscal fine-tuning.",
+      "He argued that steady money-supply growth matters more than tax tweaks.",
+      "This monetarist argued that inflation stems from excess money supply."
+    ],
+    "options": [
+      { "id": "a", "text": "John Kenneth Galbraith" },
+      { "id": "b", "text": "Paul Samuelson" },
+      { "id": "c", "text": "Milton Friedman" },
+      { "id": "d", "text": "Thorstein Veblen" }
+    ],
+    "answer": "c",
+    "explanation": "Milton Friedman championed monetarism, arguing that central banks control inflation by managing the money supply.",
+    "fun_fact": "Friedman won the Nobel Memorial Prize in Economic Sciences in 1976.",
+    "source_url": "https://www.britannica.com/money/Milton-Friedman",
+    "trap_notes": {
+      "a": "John Kenneth Galbraith was a Harvard Keynesian who favored strong public spending.",
+      "b": "Paul Samuelson was an MIT economist who blended neoclassical and Keynesian ideas.",
+      "d": "Thorstein Veblen coined 'conspicuous consumption' around 1899, long before monetarism.",
+      "default": "Milton Friedman was the leading voice of 20th-century monetarism."
+    }
+  },
+  {
+    "id": "econ-ded-104",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1817",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Identify this classical trade theorist.",
+    "clues": [
+      "This British stockbroker became one of the most influential classical thinkers.",
+      "He opposed Britain's Corn Laws, which taxed imported grain.",
+      "In 1817 he used England and Portugal to explain comparative advantage."
+    ],
+    "options": [
+      { "id": "a", "text": "Thomas Malthus" },
+      { "id": "b", "text": "Jean-Baptiste Say" },
+      { "id": "c", "text": "John Stuart Mill" },
+      { "id": "d", "text": "David Ricardo" }
+    ],
+    "answer": "d",
+    "explanation": "David Ricardo's 1817 theory of comparative advantage showed how nations gain by specializing and trading.",
+    "fun_fact": "Ricardo used cloth and wine trade between England and Portugal as his classic textbook example.",
+    "source_url": "https://www.britannica.com/money/David-Ricardo",
+    "trap_notes": {
+      "a": "Thomas Malthus is best known for warning about population outgrowing food supply.",
+      "b": "Jean-Baptiste Say is famous for Say's Law that supply creates its own demand.",
+      "c": "John Stuart Mill wrote 'Principles of Political Economy' later in 1848.",
+      "default": "David Ricardo formulated comparative advantage in 1817."
+    }
+  },
+  {
+    "id": "econ-ded-105",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1848–1867",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Identify this 19th-century economic critic.",
+    "clues": [
+      "Born in Germany, he spent decades researching factories in London.",
+      "He argued that capitalists extract surplus value from wage workers.",
+      "He co-wrote 'The Communist Manifesto' and authored 'Das Kapital'."
+    ],
+    "options": [
+      { "id": "a", "text": "Karl Marx" },
+      { "id": "b", "text": "Adam Smith" },
+      { "id": "c", "text": "Alfred Marshall" },
+      { "id": "d", "text": "Joseph Schumpeter" }
+    ],
+    "answer": "a",
+    "explanation": "Karl Marx analyzed industrial capitalism in 'Das Kapital' (1867) and predicted class conflict between workers and owners.",
+    "fun_fact": "Marx wrote much of 'Das Kapital' in the Reading Room of the British Museum.",
+    "source_url": "https://www.britannica.com/biography/Karl-Marx",
+    "trap_notes": {
+      "b": "Adam Smith defended market competition in 1776, not socialist revolution.",
+      "c": "Alfred Marshall formalized supply-and-demand curves in 1890.",
+      "d": "Joseph Schumpeter coined 'creative destruction' to describe capitalist innovation.",
+      "default": "Karl Marx authored 'Das Kapital' and co-wrote 'The Communist Manifesto'."
+    }
+  },
+  {
+    "id": "econ-ded-106",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1913–present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.8927, "lng": -77.0458, "label": "Washington, D.C." },
+    "prompt": "Identify this U.S. financial institution.",
+    "clues": [
+      "Congress created it in 1913 after the Panic of 1907 shook banks.",
+      "It operates through twelve regional banks and a Board of Governors.",
+      "Its dual mandate targets maximum employment and stable prices."
+    ],
+    "options": [
+      { "id": "a", "text": "Department of the Treasury" },
+      { "id": "b", "text": "Federal Reserve System" },
+      { "id": "c", "text": "Export-Import Bank" },
+      { "id": "d", "text": "Internal Revenue Service" }
+    ],
+    "answer": "b",
+    "explanation": "The Federal Reserve System serves as the U.S. central bank, managing monetary policy and banking stability.",
+    "fun_fact": "The 12 regional Reserve Banks are headquartered in cities from Boston to San Francisco.",
+    "source_url": "https://www.federalreserve.gov/aboutthefed.htm",
+    "trap_notes": {
+      "a": "The Treasury collects taxes and prints currency, while the Fed sets monetary policy.",
+      "c": "The Export-Import Bank finances U.S. exports rather than managing the money supply.",
+      "d": "The IRS collects federal taxes and does not act as a central bank.",
+      "default": "The Federal Reserve System is the U.S. central bank, founded in 1913."
+    }
+  },
+  {
+    "id": "econ-ded-107",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1933–present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this New Deal banking agency.",
+    "clues": [
+      "It was created in 1933 to stop panicked bank runs during the Depression.",
+      "Member banks pay premiums into a fund that backs customer accounts.",
+      "Today it insures standard bank deposits up to $250,000 per depositor."
+    ],
+    "options": [
+      { "id": "a", "text": "Securities and Exchange Commission" },
+      { "id": "b", "text": "Federal Trade Commission" },
+      { "id": "c", "text": "Federal Deposit Insurance Corporation" },
+      { "id": "d", "text": "National Labor Relations Board" }
+    ],
+    "answer": "c",
+    "explanation": "The FDIC (1933) guarantees customer deposits at insured banks, restoring public trust in the banking system.",
+    "fun_fact": "Since the FDIC began operating in 1934, no depositor has lost a cent of insured funds.",
+    "source_url": "https://www.fdic.gov/about/what-we-do/index.html",
+    "trap_notes": {
+      "a": "The SEC regulates stock and bond markets rather than insuring bank deposits.",
+      "b": "The FTC enforces consumer protection and antitrust laws, not deposit insurance.",
+      "d": "The NLRB oversees union elections and labor disputes, not bank accounts.",
+      "default": "The FDIC insures bank deposits to prevent bank runs."
+    }
+  },
+  {
+    "id": "econ-ded-108",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1934–present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this federal market regulator.",
+    "clues": [
+      "Congress created it in 1934 following the 1929 stock market crash.",
+      "Its first chairman was Joseph P. Kennedy, a former Wall Street trader.",
+      "It requires public companies to file financial reports and fights fraud."
+    ],
+    "options": [
+      { "id": "a", "text": "Federal Reserve Board" },
+      { "id": "b", "text": "Consumer Financial Protection Bureau" },
+      { "id": "c", "text": "Small Business Administration" },
+      { "id": "d", "text": "Securities and Exchange Commission" }
+    ],
+    "answer": "d",
+    "explanation": "The Securities and Exchange Commission (SEC) oversees U.S. stock markets, protects investors, and enforces disclosure rules.",
+    "fun_fact": "Public companies submit annual 10-K reports to the SEC so investors can inspect their finances.",
+    "source_url": "https://www.sec.gov/about/what-we-do",
+    "trap_notes": {
+      "a": "The Federal Reserve manages monetary policy and banks, not stock disclosure.",
+      "b": "The CFPB was created in 2010 to protect consumers on loans and credit cards.",
+      "c": "The SBA helps small businesses get loans rather than regulating Wall Street.",
+      "default": "The SEC regulates stock markets and corporate financial disclosures."
+    }
+  },
+  {
+    "id": "econ-ded-109",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1944–1971",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 44.259, "lng": -71.4414, "label": "Bretton Woods, New Hampshire" },
+    "prompt": "Identify this global monetary arrangement.",
+    "clues": [
+      "Delegates from 44 Allied nations designed it at a 1944 resort conference.",
+      "It pegged major currencies to the U.S. dollar, which was backed by gold.",
+      "President Nixon ended its gold convertibility in 1971, shifting to floating rates."
+    ],
+    "options": [
+      { "id": "a", "text": "Bretton Woods System" },
+      { "id": "b", "text": "Marshall Plan" },
+      { "id": "c", "text": "Eurozone Monetary Union" },
+      { "id": "d", "text": "Plaza Accord" }
+    ],
+    "answer": "a",
+    "explanation": "The Bretton Woods System (1944–1971) stabilized postwar trade with fixed exchange rates tied to a gold-backed dollar.",
+    "fun_fact": "The 1944 conference also created both the International Monetary Fund and the World Bank.",
+    "source_url": "https://www.federalreservehistory.org/essays/bretton-woods-created",
+    "trap_notes": {
+      "b": "The Marshall Plan (1948) sent U.S. aid to rebuild Western Europe, not a currency peg.",
+      "c": "The eurozone launched in 1999, decades after Bretton Woods ended.",
+      "d": "The 1985 Plaza Accord was a five-nation deal to depreciate the U.S. dollar.",
+      "default": "Bretton Woods (1944) linked currencies to the gold-backed dollar."
+    }
+  },
+  {
+    "id": "econ-ded-110",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1995–present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "Identify this international trade organization.",
+    "clues": [
+      "Headquartered in Geneva, it formally replaced the 1947 GATT framework.",
+      "Over 160 member nations negotiate tariff cuts through its rounds.",
+      "Launched in 1995, it settles trade disputes and enforces global rules."
+    ],
+    "options": [
+      { "id": "a", "text": "International Monetary Fund" },
+      { "id": "b", "text": "World Trade Organization" },
+      { "id": "c", "text": "European Central Bank" },
+      { "id": "d", "text": "World Health Organization" }
+    ],
+    "answer": "b",
+    "explanation": "The World Trade Organization (WTO) began in 1995 to oversee global trade agreements and resolve member disputes.",
+    "fun_fact": "The WTO operates by consensus, meaning major rule changes require broad agreement among member countries.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm",
+    "trap_notes": {
+      "a": "The IMF monitors exchange rates and lends to countries facing currency crises.",
+      "c": "The European Central Bank manages the euro, not global trade disputes.",
+      "d": "The World Health Organization coordinates global public health, not trade.",
+      "default": "The WTO (1995) replaced GATT to govern global trade rules."
+    }
+  },
+  {
+    "id": "econ-ded-111",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1944–present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9001, "lng": -77.0442, "label": "Washington, D.C." },
+    "prompt": "Identify this international financial institution.",
+    "clues": [
+      "Established in 1944 alongside the World Bank, it sits in Washington, D.C.",
+      "It monitors global economic growth and exchange-rate stability.",
+      "It provides emergency loans to nations facing balance-of-payments crises."
+    ],
+    "options": [
+      { "id": "a", "text": "World Trade Organization" },
+      { "id": "b", "text": "Bank for International Settlements" },
+      { "id": "c", "text": "International Monetary Fund" },
+      { "id": "d", "text": "Organization for Economic Cooperation" }
+    ],
+    "answer": "c",
+    "explanation": "The International Monetary Fund (IMF) stabilizes currencies and lends to countries struggling to pay foreign debts.",
+    "fun_fact": "IMF emergency loans often require borrowing countries to reform budgets and tame inflation.",
+    "source_url": "https://www.imf.org/en/About/Factsheets/IMF-at-a-Glance",
+    "trap_notes": {
+      "a": "The WTO resolves trade disputes from Geneva rather than lending to stabilize currencies.",
+      "b": "The Bank for International Settlements in Basel coordinates central banks, not crisis bailouts.",
+      "d": "The OECD publishes policy research rather than issuing emergency balance-of-payments loans.",
+      "default": "The IMF provides emergency loans to stabilize struggling currencies."
+    }
+  },
+  {
+    "id": "econ-ded-112",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "era": "1960–present",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "prompt": "Identify this international producer cartel.",
+    "clues": [
+      "Five founding nations formed it in Baghdad in 1960 to coordinate exports.",
+      "Its members set production quotas to influence a vital energy market.",
+      "Its 1973 oil embargo quadrupled crude prices and sparked U.S. gas lines."
+    ],
+    "options": [
+      { "id": "a", "text": "North American Free Trade Pact" },
+      { "id": "b", "text": "European Union Trade Bloc" },
+      { "id": "c", "text": "Group of Seven Nations" },
+      { "id": "d", "text": "OPEC Oil Export Cartel" }
+    ],
+    "answer": "d",
+    "explanation": "The Organization of the Petroleum Exporting Countries (OPEC) coordinates crude oil output among major producer nations.",
+    "fun_fact": "OPEC's headquarters moved from Geneva to Vienna in 1965.",
+    "source_url": "https://www.opec.org/opec_web/en/about_us/24.htm",
+    "trap_notes": {
+      "a": "NAFTA was a 1994 North American free-trade agreement, not an oil cartel.",
+      "b": "The European Union is a political and economic union of European states.",
+      "c": "The G7 is a group of major industrial democracies, not an oil-exporting cartel.",
+      "default": "OPEC is the oil-exporting cartel behind the 1973 embargo."
+    }
+  },
+  {
+    "id": "econ-ded-113",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "era": "1890",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this landmark U.S. antitrust law.",
+    "clues": [
+      "Passed in 1890, it was the first federal law targeting corporate monopolies.",
+      "It outlawed contracts or conspiracies in restraint of interstate trade.",
+      "Theodore Roosevelt used it to break up giant trusts like Standard Oil."
+    ],
+    "options": [
+      { "id": "a", "text": "Sherman Antitrust Act" },
+      { "id": "b", "text": "Wagner Labor Act" },
+      { "id": "c", "text": "Glass-Steagall Act" },
+      { "id": "d", "text": "Smoot-Hawley Tariff" }
+    ],
+    "answer": "a",
+    "explanation": "The Sherman Antitrust Act (1890) empowered the federal government to break up monopolies and protect competition.",
+    "fun_fact": "In 1911, the Supreme Court used the Sherman Act to split Standard Oil into 34 separate companies.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "trap_notes": {
+      "b": "The 1935 Wagner Act protected labor unions rather than breaking up trusts.",
+      "c": "The 1933 Glass-Steagall Act reformed banking, not industrial monopolies.",
+      "d": "The 1930 Smoot-Hawley Tariff raised taxes on imported goods.",
+      "default": "The 1890 Sherman Antitrust Act was the first federal anti-monopoly law."
+    }
+  },
+  {
+    "id": "econ-ded-114",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1933–1999",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this 1933 U.S. banking law.",
+    "clues": [
+      "Congress passed it in 1933 after thousands of U.S. banks collapsed.",
+      "It created the FDIC to insure everyday household checking and savings.",
+      "It barred commercial deposit banks from risky Wall Street underwriting."
+    ],
+    "options": [
+      { "id": "a", "text": "Dodd-Frank Act" },
+      { "id": "b", "text": "Glass-Steagall Act" },
+      { "id": "c", "text": "Federal Reserve Act" },
+      { "id": "d", "text": "Sarbanes-Oxley Act" }
+    ],
+    "answer": "b",
+    "explanation": "The Glass-Steagall Act (1933) separated commercial banking from investment banking and established the FDIC.",
+    "fun_fact": "Congress repealed the separation between commercial and investment banks in 1999.",
+    "source_url": "https://www.federalreservehistory.org/essays/glass-steagall-act",
+    "trap_notes": {
+      "a": "The Dodd-Frank Act was passed in 2010 after the 2008 financial crisis.",
+      "c": "The Federal Reserve Act passed in 1913, twenty years before the FDIC.",
+      "d": "The 2002 Sarbanes-Oxley Act targeted corporate accounting fraud.",
+      "default": "Glass-Steagall (1933) created the FDIC and split commercial and investment banks."
+    }
+  },
+  {
+    "id": "econ-ded-115",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "era": "1935–present",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this New Deal social insurance program.",
+    "clues": [
+      "Signed in 1935, it created a federal safety net for elderly Americans.",
+      "It is funded mainly by payroll taxes paid by current workers and employers.",
+      "It provides monthly retirement pensions, survivor benefits, and disability aid."
+    ],
+    "options": [
+      { "id": "a", "text": "Federal Medicare Program" },
+      { "id": "b", "text": "Works Progress Administration" },
+      { "id": "c", "text": "Social Security System" },
+      { "id": "d", "text": "Federal Pell Grant Program" }
+    ],
+    "answer": "c",
+    "explanation": "Social Security (1935) uses payroll taxes to fund retirement, disability, and survivor benefits.",
+    "fun_fact": "Ida May Fuller received the very first monthly Social Security check in January 1940 for $22.54.",
+    "source_url": "https://www.ssa.gov/history/35act.html",
+    "trap_notes": {
+      "a": "Medicare was created in 1965 to provide health insurance for seniors.",
+      "b": "The WPA was a temporary 1930s jobs program, not a permanent pension system.",
+      "d": "Pell Grants fund college tuition for students rather than retiree pensions.",
+      "default": "Social Security (1935) provides payroll-funded retirement benefits."
+    }
+  },
+  {
+    "id": "econ-ded-116",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1930",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this 1930 U.S. trade law.",
+    "clues": [
+      "Over 1,000 economists signed a petition urging President Hoover to veto it.",
+      "It raised U.S. import tariffs to historic highs to protect domestic farms.",
+      "Foreign nations retaliated with their own tariffs, shrinking global trade."
+    ],
+    "options": [
+      { "id": "a", "text": "McKinley Tariff of 1890" },
+      { "id": "b", "text": "Reciprocal Trade Act" },
+      { "id": "c", "text": "General Agreement on Tariffs" },
+      { "id": "d", "text": "Smoot-Hawley Tariff Act" }
+    ],
+    "answer": "d",
+    "explanation": "The Smoot-Hawley Tariff Act (1930) triggered retaliatory tariffs worldwide and deepened the Great Depression.",
+    "fun_fact": "World trade fell by roughly two-thirds between 1929 and 1934 after tariff walls rose globally.",
+    "source_url": "https://www.britannica.com/topic/Smoot-Hawley-Tariff-Act",
+    "trap_notes": {
+      "a": "The McKinley Tariff passed in 1890, forty years before Hoover's presidency.",
+      "b": "The 1934 Reciprocal Trade Agreements Act actually lowered tariffs to undo the damage.",
+      "c": "GATT was signed in 1947 to reduce global tariffs after World War II.",
+      "default": "Smoot-Hawley (1930) hiked tariffs and sparked global retaliation."
+    }
+  },
+  {
+    "id": "econ-ded-117",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1919–present",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this widely watched inflation gauge.",
+    "clues": [
+      "The Bureau of Labor Statistics publishes this index every month.",
+      "It tracks prices of food, housing, gas, medical care, and apparel.",
+      "Percentage changes in this basket measure consumer price inflation."
+    ],
+    "options": [
+      { "id": "a", "text": "Consumer Price Index" },
+      { "id": "b", "text": "Gross National Product" },
+      { "id": "c", "text": "Dow Jones Industrial Average" },
+      { "id": "d", "text": "Federal Funds Rate" }
+    ],
+    "answer": "a",
+    "explanation": "The Consumer Price Index (CPI) tracks monthly price changes in a standard basket of household goods and services.",
+    "fun_fact": "Housing costs make up the single largest share of the U.S. CPI market basket.",
+    "source_url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+    "trap_notes": {
+      "b": "Gross National Product measures total output by citizens, not retail prices.",
+      "c": "The Dow Jones tracks 30 large company stock prices, not grocery or rent costs.",
+      "d": "The federal funds rate is an overnight bank lending rate set by the Fed.",
+      "default": "The Consumer Price Index measures household inflation each month."
+    }
+  },
+  {
+    "id": "econ-ded-118",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1934–present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Identify this headline measure of national output.",
+    "clues": [
+      "Economist Simon Kuznets helped develop national income accounts in the 1930s.",
+      "Using the expenditure method, it equals C + I + G + (X - M).",
+      "It totals all final goods and services produced inside a country's borders."
+    ],
+    "options": [
+      { "id": "a", "text": "Consumer Price Index" },
+      { "id": "b", "text": "Gross Domestic Product" },
+      { "id": "c", "text": "Balance of Payments" },
+      { "id": "d", "text": "Labor Force Participation Rate" }
+    ],
+    "answer": "b",
+    "explanation": "Gross Domestic Product (GDP) sums consumption, investment, government purchases, and net exports within a nation.",
+    "fun_fact": "Personal consumption (C) accounts for roughly two-thirds of total U.S. GDP.",
+    "source_url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+    "trap_notes": {
+      "a": "The CPI measures price inflation, not total physical output.",
+      "c": "The balance of payments records international cash flows, not domestic production.",
+      "d": "Labor force participation measures the share of adults working or seeking work.",
+      "default": "GDP equals C + I + G + NX inside a country's borders."
+    }
+  },
+  {
+    "id": "econ-ded-119",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1958–present",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Identify this macroeconomic curve.",
+    "clues": [
+      "A New Zealand economist published it in 1958 using British wage data.",
+      "It graphs a short-run trade-off between two major macroeconomic goals.",
+      "It shows unemployment falling as inflation rises in the short run."
+    ],
+    "options": [
+      { "id": "a", "text": "Laffer Curve" },
+      { "id": "b", "text": "Lorenz Curve" },
+      { "id": "c", "text": "Phillips Curve" },
+      { "id": "d", "text": "Kuznets Curve" }
+    ],
+    "answer": "c",
+    "explanation": "The Phillips Curve illustrates the short-run inverse relationship between unemployment and inflation.",
+    "fun_fact": "In the long run, economists found the Phillips Curve becomes vertical at the natural rate of unemployment.",
+    "source_url": "https://www.britannica.com/money/Phillips-curve",
+    "trap_notes": {
+      "a": "The Laffer Curve graphs tax rates against government tax revenue.",
+      "b": "The Lorenz Curve graphs the distribution of household income inequality.",
+      "d": "The Kuznets Curve links economic development to inequality or pollution.",
+      "default": "The Phillips Curve links lower unemployment to higher short-run inflation."
+    }
+  },
+  {
+    "id": "econ-ded-120",
+    "type": "deduction",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1912–present",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "Identify this measure of economic inequality.",
+    "clues": [
+      "An Italian statistician introduced this summary measure in 1912.",
+      "It is calculated from the area between the line of equality and the Lorenz curve.",
+      "It ranges from 0 for total equality to 1 for complete inequality."
+    ],
+    "options": [
+      { "id": "a", "text": "Big Mac Index" },
+      { "id": "b", "text": "Human Development Index" },
+      { "id": "c", "text": "Producer Price Index" },
+      { "id": "d", "text": "Gini Coefficient" }
+    ],
+    "answer": "d",
+    "explanation": "The Gini Coefficient measures income or wealth inequality on a scale from 0 (equal) to 1 (one person holds all).",
+    "fun_fact": "Nordic nations often post Gini scores near 0.27, while the U.S. typically sits near 0.41.",
+    "source_url": "https://www.britannica.com/topic/Gini-coefficient",
+    "trap_notes": {
+      "a": "The Big Mac Index compares currency purchasing power across countries.",
+      "b": "The Human Development Index combines health, education, and income.",
+      "c": "The Producer Price Index tracks wholesale prices received by domestic producers.",
+      "default": "The Gini Coefficient measures income inequality from 0 to 1."
+    }
+  }
+]

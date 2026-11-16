@@ -1,0 +1,2732 @@
+[
+  {
+    "id": "geo-ord-201",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Geographic Tools & Cartography",
+    "era": "Antiquity to Modern",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.48,
+      "lng": 0,
+      "label": "Cartographic History"
+    },
+    "prompt": "Order these mapping innovations from earliest to most recent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mercator publishes cylindrical sea chart"
+      },
+      {
+        "id": "b",
+        "text": "GPS satellites broadcast location signals"
+      },
+      {
+        "id": "c",
+        "text": "Ptolemy compiles Geographia world atlas"
+      },
+      {
+        "id": "d",
+        "text": "Airplanes capture stereo aerial photos"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Ptolemy wrote Geographia around 150 CE, Mercator mapped in 1569, aerial photos grew in the 1910s, and GPS began in 1978.",
+    "source_url": "https://www.britannica.com/science/cartography",
+    "trap_notes": {
+      "default": "Anchor ancient atlases before Renaissance sea charts, then 20th-century aviation before space-age satellites."
+    }
+  },
+  {
+    "id": "geo-ord-202",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "era": "Modern",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 51.5,
+      "lng": -0.1,
+      "label": "Demographic Transition"
+    },
+    "prompt": "Order the four classic stages of the Demographic Transition Model.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Death rates drop while birth rates stay high"
+      },
+      {
+        "id": "b",
+        "text": "Both birth and death rates stabilize low"
+      },
+      {
+        "id": "c",
+        "text": "Both birth and death rates remain high"
+      },
+      {
+        "id": "d",
+        "text": "Birth rates fall toward low death rates"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "In the Demographic Transition Model, death rates fall in Stage 2 before birth rates decline in Stage 3 and stabilize in Stage 4.",
+    "source_url": "https://www.britannica.com/topic/demographic-transition",
+    "trap_notes": {
+      "default": "Remember that improved sanitation lowers death rates first; families reduce birth rates later."
+    }
+  },
+  {
+    "id": "geo-ord-203",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "era": "Prehistory to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 14.7,
+      "lng": -17.4,
+      "label": "Global Migration"
+    },
+    "prompt": "Order these major human migration waves from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Guest workers move to postwar Western Europe"
+      },
+      {
+        "id": "b",
+        "text": "Early humans cross Beringia into the Americas"
+      },
+      {
+        "id": "c",
+        "text": "Enslaved Africans are forced across the Atlantic"
+      },
+      {
+        "id": "d",
+        "text": "Austronesian voyagers settle Pacific islands"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Beringia came over 15,000 years ago, Austronesian voyages ~3000 BCE, the Atlantic trade in the 1500s, and guest workers after 1945.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/migration/",
+    "trap_notes": {
+      "default": "Separate prehistoric peopling of continents from early modern forced migration and 20th-century labor migration."
+    }
+  },
+  {
+    "id": "geo-ord-204",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "era": "19th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.88,
+      "lng": -87.63,
+      "label": "US Urban Epochs"
+    },
+    "prompt": "Order John Borchert's four epochs of US urban growth from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Auto-Air-Amenity era with highway suburbs"
+      },
+      {
+        "id": "b",
+        "text": "Sail-Wagon era along Atlantic ports"
+      },
+      {
+        "id": "c",
+        "text": "Steel-Rail era linking industrial cities"
+      },
+      {
+        "id": "d",
+        "text": "Iron Horse era of early steam railroads"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Borchert traced US cities from Sail-Wagon (1790-1830) to Iron Horse (1830-1870), Steel-Rail (1870-1920), and Auto-Air-Amenity (1920+).",
+    "source_url": "https://www.britannica.com/topic/urban-geography",
+    "trap_notes": {
+      "default": "Follow the dominant transport technology: wooden ships and wagons, early iron rails, heavy steel rails, then cars and planes."
+    }
+  },
+  {
+    "id": "geo-ord-205",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Geologic Time",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 28,
+      "lng": 86.9,
+      "label": "Plate Tectonics"
+    },
+    "prompt": "Order these supercontinent and mountain-building events from oldest to newest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "India collides with Asia to raise the Himalayas"
+      },
+      {
+        "id": "b",
+        "text": "Rodinia forms as an ancient supercontinent"
+      },
+      {
+        "id": "c",
+        "text": "Pangaea breaks into Laurasia and Gondwana"
+      },
+      {
+        "id": "d",
+        "text": "Pangaea assembles into one global landmass"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Rodinia formed ~1B years ago, Pangaea assembled ~300M and split ~200M years ago, and the Himalayas rose ~50M years ago.",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards/plate-tectonics",
+    "trap_notes": {
+      "default": "Rodinia predated Pangaea by hundreds of millions of years; the Himalayas rose after Pangaea split."
+    }
+  },
+  {
+    "id": "geo-ord-206",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Geographic Tools & Cartography",
+    "era": "11th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.48,
+      "lng": -0.001,
+      "label": "Navigation History"
+    },
+    "prompt": "Order these navigation milestones from earliest to most recent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Greenwich becomes the Prime Meridian"
+      },
+      {
+        "id": "b",
+        "text": "Harrison builds an accurate marine chronometer"
+      },
+      {
+        "id": "c",
+        "text": "Chinese sailors adopt the magnetic compass"
+      },
+      {
+        "id": "d",
+        "text": "LORAN radio beacons guide ocean ships"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "Chinese mariners used compasses by the 1000s, Harrison solved longitude in the 1760s, Greenwich was chosen in 1884, and LORAN began in WWII.",
+    "source_url": "https://www.britannica.com/technology/navigation-technology",
+    "trap_notes": {
+      "default": "Place the magnetic compass in medieval China, the chronometer in the 1700s, Greenwich in 1884, and radio beacons in the 1940s."
+    }
+  },
+  {
+    "id": "geo-ord-207",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "era": "Ancient to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 30.58,
+      "lng": 32.27,
+      "label": "Global Canals"
+    },
+    "prompt": "Order the opening of these major shipping canals from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Panama Canal links Atlantic and Pacific"
+      },
+      {
+        "id": "b",
+        "text": "Erie Canal connects Hudson River to Lake Erie"
+      },
+      {
+        "id": "c",
+        "text": "Suez Canal joins Mediterranean and Red Seas"
+      },
+      {
+        "id": "d",
+        "text": "Grand Canal links northern and southern China"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "c",
+      "a"
+    ],
+    "explanation": "China's Grand Canal was unified in 609 CE, the Erie Canal opened in 1825, the Suez Canal in 1869, and the Panama Canal in 1914.",
+    "source_url": "https://www.britannica.com/technology/canal-waterway",
+    "trap_notes": {
+      "default": "Remember that Suez opened nearly 45 years before Panama, while the Erie Canal predated both."
+    }
+  },
+  {
+    "id": "geo-ord-208",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "era": "Neolithic to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 33.3,
+      "lng": 44.4,
+      "label": "Agricultural Revolutions"
+    },
+    "prompt": "Order these global agricultural milestones from earliest to most recent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Green Revolution spreads high-yield wheat"
+      },
+      {
+        "id": "b",
+        "text": "Columbian Exchange swaps crops across oceans"
+      },
+      {
+        "id": "c",
+        "text": "Seed drills boost British crop rotation yields"
+      },
+      {
+        "id": "d",
+        "text": "Neolithic farmers domesticate wild grains"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "c",
+      "a"
+    ],
+    "explanation": "Farming began ~10,000 BCE, the Columbian Exchange after 1492, British farm advances in the 1700s, and the Green Revolution in the 1960s.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/agriculture/",
+    "trap_notes": {
+      "default": "Place the Columbian Exchange before the 18th-century mechanical farming boom and the 1960s Green Revolution."
+    }
+  },
+  {
+    "id": "geo-ord-209",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "era": "19th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.8,
+      "lng": -98.5,
+      "label": "US Territorial Growth"
+    },
+    "prompt": "Order these US territorial acquisitions from earliest to most recent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "United States purchases Alaska from Russia"
+      },
+      {
+        "id": "b",
+        "text": "United States buys Louisiana Territory"
+      },
+      {
+        "id": "c",
+        "text": "Mexico cedes California and the Southwest"
+      },
+      {
+        "id": "d",
+        "text": "Republic of Texas joins the United States"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "The US bought Louisiana in 1803, annexed Texas in 1845, gained the Mexican Cession in 1848, and bought Alaska in 1867.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "trap_notes": {
+      "default": "Texas annexation came three years before the Mexican Cession, and Alaska followed after the Civil War."
+    }
+  },
+  {
+    "id": "geo-ord-210",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Geomorphology",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 29.9,
+      "lng": -90,
+      "label": "River Morphology"
+    },
+    "prompt": "Order these river features from mountain headwaters to coastal mouth.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sediment builds a fan-shaped coastal delta"
+      },
+      {
+        "id": "b",
+        "text": "Fast stream carves a steep V-shaped valley"
+      },
+      {
+        "id": "c",
+        "text": "Cut-off river bend forms an oxbow lake"
+      },
+      {
+        "id": "d",
+        "text": "Gentle slope creates broad river meanders"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Rivers carve V-shaped valleys in steep uplands, meander across flat floodplains, pinch off oxbow lakes, and deposit deltas at the sea.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/rivers-streams-and-creeks",
+    "trap_notes": {
+      "default": "A river must first form wide meanders before a loop can pinch off into an oxbow lake."
+    }
+  },
+  {
+    "id": "geo-ord-211",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Ecological Time",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 19.4,
+      "lng": -155.3,
+      "label": "Primary Succession"
+    },
+    "prompt": "Order the stages of primary ecological succession on bare volcanic rock.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grasses and shrubs take root in thin soil"
+      },
+      {
+        "id": "b",
+        "text": "Lichens and mosses weather bare basalt"
+      },
+      {
+        "id": "c",
+        "text": "Mature shade-tolerant forest stabilizes"
+      },
+      {
+        "id": "d",
+        "text": "Cooled lava forms sterile rock surface"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "Primary succession starts on bare rock, then lichens form thin soil, grasses and shrubs root, and a mature forest stabilizes.",
+    "source_url": "https://www.britannica.com/science/ecological-succession",
+    "trap_notes": {
+      "default": "Pioneer species like lichens must create thin soil before rooted grasses and trees can survive."
+    }
+  },
+  {
+    "id": "geo-ord-212",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "era": "19th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 44.4,
+      "lng": -110.6,
+      "label": "US Conservation"
+    },
+    "prompt": "Order these US environmental and conservation milestones from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress passes the modern Clean Water Act"
+      },
+      {
+        "id": "b",
+        "text": "Yellowstone becomes the first national park"
+      },
+      {
+        "id": "c",
+        "text": "Dust Bowl prompts the Soil Conservation Service"
+      },
+      {
+        "id": "d",
+        "text": "US Forest Service forms under Gifford Pinchot"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Yellowstone was established in 1872, the US Forest Service in 1905, the Soil Conservation Service in 1935, and the Clean Water Act in 1972.",
+    "source_url": "https://www.nps.gov/yell/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Place Yellowstone in the 1870s, Progressive-Era forestry in 1905, Dust Bowl relief in the 1930s, and Clean Water Act in 1972."
+    }
+  },
+  {
+    "id": "geo-ord-213",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Pleistocene",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 45,
+      "lng": -84,
+      "label": "Glacial Landforms"
+    },
+    "prompt": "Order the sequence of continental glacier advance and retreat.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Melting ice leaves behind moraines and kettle lakes"
+      },
+      {
+        "id": "b",
+        "text": "Heavy snow compacts into dense glacial ice"
+      },
+      {
+        "id": "c",
+        "text": "Advancing ice scours bedrock into U-shaped valleys"
+      },
+      {
+        "id": "d",
+        "text": "Warming climate causes the ice front to recede"
+      }
+    ],
+    "answer": [
+      "b",
+      "c",
+      "d",
+      "a"
+    ],
+    "explanation": "Snow compacts into glacial ice, advancing glaciers carve valleys, warming triggers retreat, and meltwater leaves moraines and kettle lakes.",
+    "source_url": "https://www.nps.gov/subjects/geology/glacial-landforms.htm",
+    "trap_notes": {
+      "default": "Glaciers must advance and scour rock before warming causes retreat and deposits moraines."
+    }
+  },
+  {
+    "id": "geo-ord-214",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "era": "Ancient to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 35.7,
+      "lng": 139.7,
+      "label": "Global Urbanization"
+    },
+    "prompt": "Order these global urbanization milestones from earliest to most recent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Over half of the world lives in urban areas"
+      },
+      {
+        "id": "b",
+        "text": "First walled cities rise in Mesopotamia"
+      },
+      {
+        "id": "c",
+        "text": "New York and Tokyo pass ten million residents"
+      },
+      {
+        "id": "d",
+        "text": "Coal factories spark British industrial cities"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Mesopotamian cities rose ~3500 BCE, British industrial cities in the 1800s, megacities in the 1950s, and a global urban majority in 2007.",
+    "source_url": "https://www.un.org/en/desa/2018-revision-world-urbanization-prospects",
+    "trap_notes": {
+      "default": "The world's first megacities appeared in the mid-20th century, decades before the 2007 global urban majority."
+    }
+  },
+  {
+    "id": "geo-ord-215",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "era": "15th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 5.6,
+      "lng": -0.2,
+      "label": "Colonial Geography"
+    },
+    "prompt": "Order these major phases of European overseas territorial control.",
+    "options": [
+      {
+        "id": "a",
+        "text": "European powers partition Africa at Berlin"
+      },
+      {
+        "id": "b",
+        "text": "Asian and African colonies win independence"
+      },
+      {
+        "id": "c",
+        "text": "Spain conquers Aztec and Inca empires"
+      },
+      {
+        "id": "d",
+        "text": "Portugal sets up Atlantic island sugar posts"
+      }
+    ],
+    "answer": [
+      "d",
+      "c",
+      "a",
+      "b"
+    ],
+    "explanation": "Portugal took Atlantic islands in the 1400s, Spain took the Americas in the 1500s, Africa was split in 1884, and colonies freed post-1945.",
+    "source_url": "https://www.britannica.com/topic/Western-colonialism",
+    "trap_notes": {
+      "default": "Separate 15th-16th century Atlantic empires from the late-19th century Scramble for Africa and post-1945 decolonization."
+    }
+  },
+  {
+    "id": "geo-ord-216",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Geologic Time",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": -17.5,
+      "lng": -149.6,
+      "label": "Coral Atoll Stages"
+    },
+    "prompt": "Order Darwin's stages of coral atoll formation from start to finish.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sinking island leaves a wide lagoon barrier reef"
+      },
+      {
+        "id": "b",
+        "text": "Volcanic island rises above the tropical ocean"
+      },
+      {
+        "id": "c",
+        "text": "Ring-shaped coral atoll encircles open water"
+      },
+      {
+        "id": "d",
+        "text": "Fringing reef grows tight along the island shore"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "A volcanic island forms, a fringing reef hugs its shore, sinking widens a barrier lagoon, and only a coral atoll ring remains.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_corals/coral04_reefs.html",
+    "trap_notes": {
+      "default": "Remember the reef sequence: fringing reef (touching shore), barrier reef (lagoon gap), then atoll (island gone)."
+    }
+  },
+  {
+    "id": "geo-ord-217",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "era": "20th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 48.86,
+      "lng": 2.35,
+      "label": "Climate Milestones"
+    },
+    "prompt": "Order these global atmospheric and climate milestones from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paris Agreement sets global warming limits"
+      },
+      {
+        "id": "b",
+        "text": "Montreal Protocol phases out ozone-harming CFCs"
+      },
+      {
+        "id": "c",
+        "text": "Keeling begins Mauna Loa CO2 measurements"
+      },
+      {
+        "id": "d",
+        "text": "Kyoto Protocol sets binding emissions targets"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "d",
+      "a"
+    ],
+    "explanation": "Mauna Loa CO2 tracking began in 1958, the Montreal Protocol was signed in 1987, the Kyoto Protocol in 1997, and the Paris Agreement in 2015.",
+    "source_url": "https://climate.nasa.gov/evidence/",
+    "trap_notes": {
+      "default": "Ozone action (Montreal 1987) preceded the first global greenhouse treaty (Kyoto 1997) and Paris (2015)."
+    }
+  },
+  {
+    "id": "geo-ord-218",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Geologic Time",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 36.1,
+      "lng": -112.1,
+      "label": "Rock Cycle"
+    },
+    "prompt": "Order these rock-cycle steps from molten magma to metamorphic rock.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Buried layers compact into sedimentary rock"
+      },
+      {
+        "id": "b",
+        "text": "Heat and pressure transform rock into gneiss"
+      },
+      {
+        "id": "c",
+        "text": "Molten magma cools into solid igneous rock"
+      },
+      {
+        "id": "d",
+        "text": "Weathering breaks rock into loose sand grains"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Magma cools into igneous rock, weathering creates sediment, burial compacts sedimentary rock, and heat and pressure form gneiss.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+    "trap_notes": {
+      "default": "Follow the mineral path: cooling magma -> loose sediment -> compacted rock -> heat-altered rock."
+    }
+  },
+  {
+    "id": "geo-ord-219",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "era": "19th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 33.4,
+      "lng": -112,
+      "label": "US Internal Migration"
+    },
+    "prompt": "Order these major US internal migration waves from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Retirees and workers surge into the Sun Belt"
+      },
+      {
+        "id": "b",
+        "text": "Pioneers travel Oregon Trail to the West"
+      },
+      {
+        "id": "c",
+        "text": "Black Southerners move to northern cities"
+      },
+      {
+        "id": "d",
+        "text": "Plains farm families flee Dust Bowl droughts"
+      }
+    ],
+    "answer": [
+      "b",
+      "c",
+      "d",
+      "a"
+    ],
+    "explanation": "The Oregon Trail peaked in the 1840s, the Great Migration began around 1916, Dust Bowl moves in the 1930s, and Sun Belt growth after 1970.",
+    "source_url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+    "trap_notes": {
+      "default": "Remember the Great Migration began during World War I, before the 1930s Dust Bowl and postwar Sun Belt boom."
+    }
+  },
+  {
+    "id": "geo-ord-220",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Geomorphology",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 50.6,
+      "lng": -2,
+      "label": "Coastal Erosion"
+    },
+    "prompt": "Order the stages of rocky headland erosion by ocean waves.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Waves widen cliff cracks into a sea cave"
+      },
+      {
+        "id": "b",
+        "text": "Arch roof collapses leaving an isolated sea stack"
+      },
+      {
+        "id": "c",
+        "text": "Solid rocky headland juts into the sea"
+      },
+      {
+        "id": "d",
+        "text": "Cave breaks through headland to form a sea arch"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Waves erode cracks in a rocky headland into a sea cave, cut through to create a sea arch, and collapse the arch into a sea stack.",
+    "source_url": "https://www.nps.gov/subjects/geology/coastal-landforms.htm",
+    "trap_notes": {
+      "default": "Follow the erosion path: crack -> cave -> arch -> collapsed stack."
+    }
+  },
+  {
+    "id": "geo-ord-221",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "era": "18th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 53.5,
+      "lng": -2.2,
+      "label": "Energy Geography"
+    },
+    "prompt": "Order these dominant global energy sources from earliest to newest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Petroleum fuels cars and highway freight"
+      },
+      {
+        "id": "b",
+        "text": "Wood and river waterwheels power early mills"
+      },
+      {
+        "id": "c",
+        "text": "Utility solar and wind farms expand rapidly"
+      },
+      {
+        "id": "d",
+        "text": "Coal drives steam engines and iron foundries"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Wood and waterwheels came first, coal powered early factories, oil drove 20th-century transport, and renewables surged in the 2000s.",
+    "source_url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+    "trap_notes": {
+      "default": "Coal preceded oil as the primary industrial fuel, while utility-scale wind and solar grew most recently."
+    }
+  },
+  {
+    "id": "geo-ord-222",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "20th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": -90,
+      "lng": 0,
+      "label": "Polar Exploration"
+    },
+    "prompt": "Order these polar geography milestones from earliest to most recent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Antarctic Treaty reserves continent for science"
+      },
+      {
+        "id": "b",
+        "text": "Roald Amundsen's team reaches the South Pole"
+      },
+      {
+        "id": "c",
+        "text": "Summer sea ice loss opens Northwest Passage"
+      },
+      {
+        "id": "d",
+        "text": "Fuchs completes first Antarctic land crossing"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Amundsen reached the South Pole (1911), Fuchs crossed Antarctica (1958), the Antarctic Treaty signed (1959), and Arctic lanes opened (2007).",
+    "source_url": "https://www.britannica.com/place/Antarctica/History",
+    "trap_notes": {
+      "default": "Early polar expeditions happened in the 1910s, scientific treaties in the late 1950s, and Arctic sea-ice opening in the 2000s."
+    }
+  },
+  {
+    "id": "geo-ord-223",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Pedology",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 41.6,
+      "lng": -93.6,
+      "label": "Soil Formation"
+    },
+    "prompt": "Order the stages of soil horizon development from bare bedrock.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decaying plants add dark humus to topsoil"
+      },
+      {
+        "id": "b",
+        "text": "Distinct O, A, B, and C horizons stabilize"
+      },
+      {
+        "id": "c",
+        "text": "Rain and frost crack solid bedrock"
+      },
+      {
+        "id": "d",
+        "text": "Deep mineral subsoil accumulates below surface"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Weathering cracks bedrock, plants add humus to topsoil, leaching builds mineral subsoil, and mature soil horizons stabilize.",
+    "source_url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-formation",
+    "trap_notes": {
+      "default": "Bedrock must fracture first, then surface plants build humus before leaching differentiates deeper horizons."
+    }
+  },
+  {
+    "id": "geo-ord-224",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "era": "Ancient to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 34.3,
+      "lng": 108.9,
+      "label": "Global Trade Corridors"
+    },
+    "prompt": "Order these global trade network milestones from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Standard shipping containers transform ports"
+      },
+      {
+        "id": "b",
+        "text": "Han Dynasty opens overland Silk Road routes"
+      },
+      {
+        "id": "c",
+        "text": "Portuguese ships sail around Cape of Good Hope"
+      },
+      {
+        "id": "d",
+        "text": "Arab dhows ride Indian Ocean monsoon winds"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Han Silk Road opened ~130 BCE, monsoon dhow trade thrived in medieval times, da Gama rounded Africa in 1498, and containers began in 1956.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "default": "Overland Silk Road routes came first, followed by Indian Ocean dhow trade, European Cape routes, and modern container ships."
+    }
+  },
+  {
+    "id": "geo-ord-225",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "era": "Meteorological Cycle",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 25,
+      "lng": -75,
+      "label": "Tropical Cyclone"
+    },
+    "prompt": "Order the lifecycle stages of a tropical hurricane.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Warm ocean water fuels rising moist air"
+      },
+      {
+        "id": "b",
+        "text": "Storm loses moisture and weakens over land"
+      },
+      {
+        "id": "c",
+        "text": "Rotating winds form a calm eye and eyewall"
+      },
+      {
+        "id": "d",
+        "text": "Tropical depression begins spinning slowly"
+      }
+    ],
+    "answer": [
+      "a",
+      "d",
+      "c",
+      "b"
+    ],
+    "explanation": "Warm ocean heat feeds rising moist air, creating a spinning depression that grows into an eyewall hurricane before weakening overland.",
+    "source_url": "https://www.nhc.noaa.gov/aboutsshws.php",
+    "trap_notes": {
+      "default": "Hurricanes need warm ocean fuel to organize into a depression and eyewall before losing power at landfall."
+    }
+  },
+  {
+    "id": "geo-ord-226",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Geographic Tools & Cartography",
+    "era": "19th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.51,
+      "lng": -0.14,
+      "label": "Spatial Analysis"
+    },
+    "prompt": "Order these spatial analysis and GIS milestones from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Landsat 1 captures digital Earth imagery"
+      },
+      {
+        "id": "b",
+        "text": "Crowdsourced web maps update in real time"
+      },
+      {
+        "id": "c",
+        "text": "John Snow maps London cholera water pumps"
+      },
+      {
+        "id": "d",
+        "text": "Desktop GIS software layers census data"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "John Snow mapped cholera in 1854, Landsat 1 launched in 1972, desktop GIS spread in the 1990s, and live web maps arrived in the 2000s.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/geographic-information-system-gis/",
+    "trap_notes": {
+      "default": "John Snow's paper map came in 1854; satellite imagery began in 1972 before personal desktop GIS and web maps."
+    }
+  },
+  {
+    "id": "geo-ord-227",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Geomorphology",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.18,
+      "lng": -86.1,
+      "label": "Karst Topography"
+    },
+    "prompt": "Order the steps that create karst caves and sinkholes.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weakly acidic groundwater dissolves limestone"
+      },
+      {
+        "id": "b",
+        "text": "Weakened cave roof collapses into a sinkhole"
+      },
+      {
+        "id": "c",
+        "text": "Rainwater absorbs carbon dioxide from soil"
+      },
+      {
+        "id": "d",
+        "text": "Underground rock gaps widen into caverns"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Rainwater picks up carbon dioxide to become acidic, dissolves buried limestone, carves caverns, and eventually collapses into a sinkhole.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/sinkholes",
+    "trap_notes": {
+      "default": "Water must become acidic and dissolve limestone into caverns before the ground above can collapse."
+    }
+  },
+  {
+    "id": "geo-ord-228",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "era": "19th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.75,
+      "lng": -73.97,
+      "label": "World Population"
+    },
+    "prompt": "Order these world population milestones from earliest to most recent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Global population reaches 5 billion people"
+      },
+      {
+        "id": "b",
+        "text": "Global population reaches 1 billion people"
+      },
+      {
+        "id": "c",
+        "text": "Global population reaches 8 billion people"
+      },
+      {
+        "id": "d",
+        "text": "Global population reaches 2 billion people"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "World population reached 1 billion around 1804, 2 billion in 1927, 5 billion in 1987, and 8 billion in 2022.",
+    "source_url": "https://www.un.org/en/global-issues/population",
+    "trap_notes": {
+      "default": "Human population grew sequentially from 1 to 2 to 5 to 8 billion between 1804 and 2022."
+    }
+  },
+  {
+    "id": "geo-ord-229",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Ecological Time",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 44.9,
+      "lng": -93.2,
+      "label": "Lake Succession"
+    },
+    "prompt": "Order the stages as a glacial lake gradually turns into a meadow.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reeds and cattails fill shallow water edges"
+      },
+      {
+        "id": "b",
+        "text": "Deep cold basin holds clear glacial water"
+      },
+      {
+        "id": "c",
+        "text": "Dry organic soil supports meadow grasses"
+      },
+      {
+        "id": "d",
+        "text": "Runoff silt and algae build up on lakebed"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "A deep glacial lake traps runoff silt and organic matter, becomes shallow enough for reeds, and eventually fills in as a dry meadow.",
+    "source_url": "https://www.britannica.com/science/eutrophication",
+    "trap_notes": {
+      "default": "Sediment must shallow the basin before marsh plants can root across it and turn it into dry meadow."
+    }
+  },
+  {
+    "id": "geo-ord-230",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "era": "19th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 36.01,
+      "lng": -114.74,
+      "label": "US Land & Water Policy"
+    },
+    "prompt": "Order these US federal land and water milestones from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hoover Dam creates Lake Mead reservoir"
+      },
+      {
+        "id": "b",
+        "text": "Homestead Act grants western farm plots"
+      },
+      {
+        "id": "c",
+        "text": "Wild and Scenic Rivers Act protects streams"
+      },
+      {
+        "id": "d",
+        "text": "Reclamation Act funds western irrigation"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "The Homestead Act passed in 1862, Reclamation Act in 1902, Hoover Dam finished in 1936, and the Wild and Scenic Rivers Act in 1968.",
+    "source_url": "https://www.usbr.gov/history/hooverdam.html",
+    "trap_notes": {
+      "default": "Homesteading came in the 1860s, federal irrigation policy in 1902, Hoover Dam in the 1930s, and river protection in 1968."
+    }
+  },
+  {
+    "id": "geo-ord-231",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "era": "Contemporary",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 40.72,
+      "lng": -73.95,
+      "label": "Urban Gentrification"
+    },
+    "prompt": "Order the typical stages of urban neighborhood gentrification.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rising rents displace longtime working families"
+      },
+      {
+        "id": "b",
+        "text": "Factory closures leave cheap, aging housing"
+      },
+      {
+        "id": "c",
+        "text": "Developers renovate homes and upscale shops"
+      },
+      {
+        "id": "d",
+        "text": "Artists and students move in for low rents"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Factory closures lower rents, attracting artists; developers then renovate homes, raising rents and displacing longtime residents.",
+    "source_url": "https://www.britannica.com/topic/gentrification",
+    "trap_notes": {
+      "default": "Low rents attract early newcomers before large-scale renovation and rent-driven displacement occur."
+    }
+  },
+  {
+    "id": "geo-ord-232",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Geographic Tools & Cartography",
+    "era": "19th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.48,
+      "lng": 0,
+      "label": "Standard Time Zones"
+    },
+    "prompt": "Order these milestones in global time-zone standardization.",
+    "options": [
+      {
+        "id": "a",
+        "text": "International conference sets 24 global zones"
+      },
+      {
+        "id": "b",
+        "text": "Each town sets clocks by its own solar noon"
+      },
+      {
+        "id": "c",
+        "text": "Atomic clocks anchor Coordinated Universal Time"
+      },
+      {
+        "id": "d",
+        "text": "US railroads adopt four standard time zones"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Towns used local solar time until US railroads adopted standard zones in 1883, the world conference met in 1884, and UTC began in the 1960s.",
+    "source_url": "https://www.nist.gov/pml/time-and-frequency-division/popular-topics/time-zones",
+    "trap_notes": {
+      "default": "Railroads standardized US time in 1883 right before the 1884 global conference, while atomic UTC came in the 1960s."
+    }
+  },
+  {
+    "id": "geo-ord-233",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "era": "Contemporary",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 13.5,
+      "lng": 2.1,
+      "label": "Sahel Desertification"
+    },
+    "prompt": "Order the stages of desertification in a semiarid grassland.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Exposed topsoil dries and blows away in wind"
+      },
+      {
+        "id": "b",
+        "text": "Barren sand and hardpan replace farmland"
+      },
+      {
+        "id": "c",
+        "text": "Overgrazing and woodcutting strip grass cover"
+      },
+      {
+        "id": "d",
+        "text": "Gullies form as rare rains wash bare ground"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Clearing grass cover exposes soil to wind erosion, rare storms carve gullies, and the degraded land turns barren.",
+    "source_url": "https://www.un.org/en/observances/desertification-day",
+    "trap_notes": {
+      "default": "Vegetation loss comes first, exposing soil to wind and water erosion until barren desert remains."
+    }
+  },
+  {
+    "id": "geo-ord-234",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "era": "17th to 20th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 48.2,
+      "lng": 16.37,
+      "label": "European Borders"
+    },
+    "prompt": "Order these turning points in European political geography.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Iron Curtain divides Western and Eastern blocs"
+      },
+      {
+        "id": "b",
+        "text": "Treaty of Westphalia defines sovereign states"
+      },
+      {
+        "id": "c",
+        "text": "Maastricht Treaty creates the European Union"
+      },
+      {
+        "id": "d",
+        "text": "Congress of Vienna redraws post-Napoleon map"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Westphalia (1648) defined states, Vienna (1815) redrew Europe, the Iron Curtain divided it after 1945, and the EU formed in 1993.",
+    "source_url": "https://www.britannica.com/event/Peace-of-Westphalia",
+    "trap_notes": {
+      "default": "Anchor Westphalia in 1648, Vienna in 1815, the Cold War after 1945, and the Maastricht EU in 1993."
+    }
+  },
+  {
+    "id": "geo-ord-235",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Geomorphology",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 36.5,
+      "lng": -116.9,
+      "label": "Alluvial Fan"
+    },
+    "prompt": "Order the steps that build an alluvial fan at a mountain base.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stream exits narrow canyon onto flat valley"
+      },
+      {
+        "id": "b",
+        "text": "Fast mountain stream carries gravel downstream"
+      },
+      {
+        "id": "c",
+        "text": "Fan-shaped wedge of sediment spreads outward"
+      },
+      {
+        "id": "d",
+        "text": "Slowing water drops heavy boulders and sand"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "A steep stream carries gravel, exits the canyon onto a flat valley, slows down to drop sediment, and builds a fan-shaped deposit.",
+    "source_url": "https://www.nps.gov/deva/learn/nature/alluvial-fans.htm",
+    "trap_notes": {
+      "default": "Sediment is carried in the steep canyon, dropped when the stream hits the flat floor, and shaped into a fan."
+    }
+  },
+  {
+    "id": "geo-ord-236",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "era": "Prehistory to 14th Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": -17.6,
+      "lng": -149.4,
+      "label": "Polynesian Voyaging"
+    },
+    "prompt": "Order these stages of Pacific Island settlement from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Maori voyagers settle Aotearoa New Zealand"
+      },
+      {
+        "id": "b",
+        "text": "Lapita seafarers reach Fiji and western islands"
+      },
+      {
+        "id": "c",
+        "text": "Polynesians reach Hawaii and Easter Island"
+      },
+      {
+        "id": "d",
+        "text": "Distinct Polynesian culture forms in Samoa"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Lapita settlers reached Fiji ~1000 BCE, Samoa/Tonga came next, voyagers reached Hawaii by ~1000 CE, and Maori settled New Zealand ~1250 CE.",
+    "source_url": "https://www.britannica.com/place/Polynesia",
+    "trap_notes": {
+      "default": "Polynesian settlement moved eastward from Fiji and Samoa to Hawaii, with New Zealand settled last around 1250 CE."
+    }
+  },
+  {
+    "id": "geo-ord-237",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "era": "19th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9,
+      "lng": -77.2,
+      "label": "Suburban Evolution"
+    },
+    "prompt": "Order these phases of North American suburban growth from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Edge cities cluster offices at beltway exits"
+      },
+      {
+        "id": "b",
+        "text": "Streetcar lines create narrow commuter suburbs"
+      },
+      {
+        "id": "c",
+        "text": "Postwar tract homes spread along new highways"
+      },
+      {
+        "id": "d",
+        "text": "Regional shopping malls anchor suburban towns"
+      }
+    ],
+    "answer": [
+      "b",
+      "c",
+      "d",
+      "a"
+    ],
+    "explanation": "Streetcar suburbs grew around 1900, postwar tracts in the 1950s, regional malls in the 1960s-70s, and edge cities in the 1980s-90s.",
+    "source_url": "https://www.britannica.com/topic/suburb",
+    "trap_notes": {
+      "default": "Streetcars preceded postwar car suburbs, which later gained regional malls and finally independent edge cities."
+    }
+  },
+  {
+    "id": "geo-ord-238",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "era": "20th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 46.4,
+      "lng": 6.27,
+      "label": "Biodiversity Treaties"
+    },
+    "prompt": "Order these global wildlife and habitat milestones from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CITES restricts cross-border wildlife trade"
+      },
+      {
+        "id": "b",
+        "text": "IUCN launches global Red List of species"
+      },
+      {
+        "id": "c",
+        "text": "Nations adopt 30x30 biodiversity protection goal"
+      },
+      {
+        "id": "d",
+        "text": "Ramsar Convention protects global wetlands"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "The IUCN Red List began in 1964, Ramsar wetlands treaty in 1971, CITES wildlife trade treaty in 1975, and the 30x30 goal in 2022.",
+    "source_url": "https://www.iucnredlist.org/about/background-history",
+    "trap_notes": {
+      "default": "The Red List (1964) came first, followed by Ramsar (1971), CITES (1975), and the 2022 30x30 framework."
+    }
+  },
+  {
+    "id": "geo-ord-239",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "era": "Meteorological Cycle",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 47.5,
+      "lng": -121,
+      "label": "Orographic Lift"
+    },
+    "prompt": "Order the path of air crossing a coastal mountain range.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dry air descends the leeward slope and warms"
+      },
+      {
+        "id": "b",
+        "text": "Cooling vapor condenses into windward rain"
+      },
+      {
+        "id": "c",
+        "text": "Moist ocean air is forced up mountain slopes"
+      },
+      {
+        "id": "d",
+        "text": "Warm dry air creates a rain-shadow desert"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "Moist ocean air rises up the windward slope, cools to drop rain, descends the leeward side dry, and forms a rain shadow.",
+    "source_url": "https://www.noaa.gov/jetstream/synoptic/precipitation",
+    "trap_notes": {
+      "default": "Air must rise and drop its moisture on the windward side before descending dry on the leeward side."
+    }
+  },
+  {
+    "id": "geo-ord-240",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "era": "Ancient to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 30.8,
+      "lng": 111,
+      "label": "China Infrastructure"
+    },
+    "prompt": "Order these landmark geographic projects in China from earliest to latest.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Three Gorges Dam spans the Yangtze River"
+      },
+      {
+        "id": "b",
+        "text": "Grand Canal links Yangtze and Yellow rivers"
+      },
+      {
+        "id": "c",
+        "text": "High-speed rail network links major cities"
+      },
+      {
+        "id": "d",
+        "text": "Qin Dynasty connects northern frontier walls"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "Qin walls were linked ~214 BCE, the Grand Canal in 609 CE, Three Gorges Dam finished in 2006, and high-speed rail boomed after 2008.",
+    "source_url": "https://www.britannica.com/topic/Three-Gorges-Dam",
+    "trap_notes": {
+      "default": "Great Wall unification came in BCE, the Grand Canal in the Sui Dynasty, Three Gorges in 2006, and high-speed rail after 2008."
+    }
+  },
+  {
+    "id": "geo-ord-241",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Coastal Geomorphology",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 35.2,
+      "lng": -75.5,
+      "label": "Barrier Island Rollover"
+    },
+    "prompt": "Order how a sandy barrier island migrates landward as sea level rises.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dune grasses anchor fresh sand on backshore"
+      },
+      {
+        "id": "b",
+        "text": "Storm waves wash ocean sand over the island"
+      },
+      {
+        "id": "c",
+        "text": "Entire sandbar shifts closer to the mainland"
+      },
+      {
+        "id": "d",
+        "text": "New marshland builds along the lagoon edge"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Storm overwash pushes sand across the island, building new lagoon marshland and vegetated dunes as the whole island rolls landward.",
+    "source_url": "https://www.usgs.gov/centers/spcmsc/science/barrier-island-evolution",
+    "trap_notes": {
+      "default": "Storm overwash moves sand onto the back side first, allowing marshes and dunes to rebuild inland."
+    }
+  },
+  {
+    "id": "geo-ord-242",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "19th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 30,
+      "lng": -45,
+      "label": "Oceanography History"
+    },
+    "prompt": "Order these ocean exploration and seafloor mapping milestones.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Argo robotic floats track ocean heat worldwide"
+      },
+      {
+        "id": "b",
+        "text": "HMS Challenger measures deep-ocean trenches"
+      },
+      {
+        "id": "c",
+        "text": "Alvin submersible discovers deep-sea vents"
+      },
+      {
+        "id": "d",
+        "text": "Sonar charts the Mid-Atlantic Ridge rift"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "HMS Challenger sailed in 1872, sonar mapped ridges in the 1950s, Alvin found vents in 1977, and Argo floats deployed in 2000.",
+    "source_url": "https://oceanexplorer.noaa.gov/history/history.html",
+    "trap_notes": {
+      "default": "Challenger used weighted lines in the 1870s, sonar came in the 1950s, Alvin in 1977, and robotic Argo floats in 2000."
+    }
+  },
+  {
+    "id": "geo-ord-243",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "era": "Modernization Theory",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.5,
+      "lng": 127,
+      "label": "Rostow Model"
+    },
+    "prompt": "Order four stages of Rostow's Modernization Model of economic growth.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rapid factory growth drives industrial takeoff"
+      },
+      {
+        "id": "b",
+        "text": "Subsistence farming dominates traditional society"
+      },
+      {
+        "id": "c",
+        "text": "High mass consumption of consumer goods"
+      },
+      {
+        "id": "d",
+        "text": "New roads and schools set stage for takeoff"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Rostow's model moves from traditional society to preconditions for takeoff, industrial takeoff, and finally high mass consumption.",
+    "source_url": "https://www.britannica.com/money/Walt-Whitman-Rostow",
+    "trap_notes": {
+      "default": "Infrastructure preconditions precede industrial takeoff, which precedes a mass-consumption service economy."
+    }
+  },
+  {
+    "id": "geo-ord-244",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "era": "20th to 21st Century",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 45,
+      "lng": 60,
+      "label": "Aral Sea Change"
+    },
+    "prompt": "Order the historical stages of the Aral Sea environmental crisis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Salt flats and toxic dust replace dry seabed"
+      },
+      {
+        "id": "b",
+        "text": "Kokaral Dam partially restores the North Aral"
+      },
+      {
+        "id": "c",
+        "text": "Soviet canals divert rivers to cotton fields"
+      },
+      {
+        "id": "d",
+        "text": "Shrinking water splits the sea into two basins"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Soviet canals diverted rivers in the 1960s, splitting the sea by 1987, leaving salt flats, until the 2005 Kokaral Dam aided the north.",
+    "source_url": "https://earthobservatory.nasa.gov/world-of-change/AralSea",
+    "trap_notes": {
+      "default": "River diversion caused the sea to split and dry into salt flats before the 2005 dam restored the northern basin."
+    }
+  },
+  {
+    "id": "geo-ord-245",
+    "type": "ordering",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "era": "Hydrologic Event",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.2,
+      "lng": -113,
+      "label": "Desert Flash Flood"
+    },
+    "prompt": "Order the sequence of a desert arroyo flash flood.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wall of muddy water surges down narrow canyon"
+      },
+      {
+        "id": "b",
+        "text": "Cloudburst drops heavy rain on baked soil"
+      },
+      {
+        "id": "c",
+        "text": "Floodwater sinks into dry downstream sand"
+      },
+      {
+        "id": "d",
+        "text": "Unabsorbed runoff funnels into a dry wash"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Heavy rain hits baked soil, funnels into a dry wash, surges downstream as a flash flood, and eventually sinks into sandy flats.",
+    "source_url": "https://www.weather.gov/safety/flood-flash",
+    "trap_notes": {
+      "default": "Runoff must funnel into the canyon before a flood wall surges downstream and later soaks into flat sand."
+    }
+  },
+  {
+    "id": "geo-cmp-201",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Geographic Tools & Cartography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 0,
+      "lng": 0,
+      "label": "Geographic Grid"
+    },
+    "compareSpec": {
+      "leftLabel": "Latitude",
+      "rightLabel": "Longitude",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Measures distance north or south",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Meridians meet at both poles",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Starts at the Prime Meridian",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Parallels stay evenly spaced apart",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each coordinate-grid trait into Latitude or Longitude.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Latitude lines (parallels) measure north-south from the Equator, while longitude lines (meridians) converge at the poles.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/latitude/",
+    "trap_notes": {
+      "default": "Latitude lines run east-west to measure north-south; longitude lines run pole-to-pole to measure east-west."
+    }
+  },
+  {
+    "id": "geo-cmp-202",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Geographic Tools & Cartography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 34.05,
+      "lng": -117.18,
+      "label": "Geospatial Tools"
+    },
+    "compareSpec": {
+      "leftLabel": "GIS",
+      "rightLabel": "GPS",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Layers roads, soil, and census data",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Uses satellites to pinpoint position",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Gives turn-by-turn car coordinates",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Analyzes spatial patterns on maps",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each geospatial function under GIS or GPS.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "GPS uses satellites to determine exact location, while GIS is software that layers and analyzes spatial data.",
+    "source_url": "https://www.usgs.gov/faqs/what-geographic-information-system-gis",
+    "trap_notes": {
+      "default": "GPS finds where you are; GIS layers and analyzes multiple map datasets."
+    }
+  },
+  {
+    "id": "geo-cmp-203",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.5,
+      "lng": -0.1,
+      "label": "Climate Regions"
+    },
+    "compareSpec": {
+      "leftLabel": "Maritime Climate",
+      "rightLabel": "Continental Climate",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Mild winters moderated by ocean air",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Wide summer-to-winter temperature gap",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Located deep inside large landmasses",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Cool summers with frequent sea fog",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each climate trait into Maritime Climate or Continental Climate.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Oceans heat and cool slowly, giving maritime coasts mild seasons, whereas inland continental areas face extreme temperature swings.",
+    "source_url": "https://www.noaa.gov/jetstream/global/climate-zones",
+    "trap_notes": {
+      "default": "Water buffers coastal temperatures; interior landmasses heat up and cool down rapidly."
+    }
+  },
+  {
+    "id": "geo-cmp-204",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.7,
+      "lng": -119.5,
+      "label": "Rock Types"
+    },
+    "compareSpec": {
+      "leftLabel": "Igneous Rock",
+      "rightLabel": "Sedimentary Rock",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Forms when molten magma cools",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Often preserves plant or shell fossils",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Built from compacted sand or mud",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Includes volcanic basalt and granite",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each rock trait under Igneous Rock or Sedimentary Rock.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Igneous rocks crystallize from cooled magma or lava, whereas sedimentary rocks form from compacted layers that can hold fossils.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+    "trap_notes": {
+      "default": "Heat melts away fossils in igneous rocks; gentle layered burial preserves fossils in sedimentary rocks."
+    }
+  },
+  {
+    "id": "geo-cmp-205",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -29.3,
+      "lng": 27.5,
+      "label": "State Morphology"
+    },
+    "compareSpec": {
+      "leftLabel": "Perforated State",
+      "rightLabel": "Landlocked State",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Encloses another nation on all sides",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Lacks direct access to any ocean",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Relies on neighbors for sea ports",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "South Africa enclosing Lesotho",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Match each territorial trait to Perforated State or Landlocked State.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A perforated state completely surrounds another country, while a landlocked state has no ocean coastline.",
+    "source_url": "https://www.britannica.com/topic/political-geography",
+    "trap_notes": {
+      "default": "South Africa is perforated by Lesotho; Lesotho (or Bolivia) is landlocked without a sea coast."
+    }
+  },
+  {
+    "id": "geo-cmp-206",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 48.8,
+      "lng": 2.3,
+      "label": "State Governance"
+    },
+    "compareSpec": {
+      "leftLabel": "Unitary State",
+      "rightLabel": "Federal State",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Central capital holds supreme power",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Divides power with regional states",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Suits large, diverse nations like US",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Local units carry out national laws",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each governance trait into Unitary State or Federal State.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Unitary states concentrate authority in a central government, whereas federal states share constitutional power with regional units.",
+    "source_url": "https://www.britannica.com/topic/federalism",
+    "trap_notes": {
+      "default": "Unitary means one central authority; federal means power is constitutionally shared with provinces or states."
+    }
+  },
+  {
+    "id": "geo-cmp-207",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 14,
+      "lng": 100.5,
+      "label": "Farming Intensity"
+    },
+    "compareSpec": {
+      "leftLabel": "Intensive Agriculture",
+      "rightLabel": "Extensive Agriculture",
+      "items": [
+        {
+          "id": "c1",
+          "text": "High labor input on small plots",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Low input spread over huge ranches",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Open-range cattle grazing in steppes",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Terraced wet-rice paddies in Asia",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each farming practice as Intensive or Extensive Agriculture.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Intensive farming uses heavy labor or capital per acre on small plots, while extensive farming uses vast land with lower inputs per acre.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/agriculture/",
+    "trap_notes": {
+      "default": "Compare effort per acre: dense rice terraces are intensive; sprawling cattle ranches are extensive."
+    }
+  },
+  {
+    "id": "geo-cmp-208",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3,
+      "lng": -83,
+      "label": "Urban Economic Base"
+    },
+    "compareSpec": {
+      "leftLabel": "Basic Industry",
+      "rightLabel": "Nonbasic Industry",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Exports goods to outside markets",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Serves local residents inside city",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Neighborhood bakery or dry cleaner",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Brings new outside money into city",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each urban business trait into Basic Industry or Nonbasic Industry.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Basic industries sell outside the city to bring in new income, while nonbasic businesses circulate money locally.",
+    "source_url": "https://www.britannica.com/topic/urban-economics",
+    "trap_notes": {
+      "default": "Ask where the customers live: outside buyers mean basic; local neighbors mean nonbasic."
+    }
+  },
+  {
+    "id": "geo-cmp-209",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 19.4,
+      "lng": -99.1,
+      "label": "Urban Hierarchy"
+    },
+    "compareSpec": {
+      "leftLabel": "Primate City",
+      "rightLabel": "Rank-Size Rule",
+      "items": [
+        {
+          "id": "c1",
+          "text": "One city dwarfs all others in nation",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Second city has half the top size",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Balanced network of regional hubs",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Bangkok or Paris leading its country",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Match each urban-system trait to Primate City or Rank-Size Rule.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A primate city is more than twice as large as the next city, whereas the rank-size rule predicts proportional city sizes (1/2, 1/3, 1/4).",
+    "source_url": "https://www.britannica.com/topic/primate-city",
+    "trap_notes": {
+      "default": "Primate city systems are top-heavy; rank-size systems step down smoothly by fractions."
+    }
+  },
+  {
+    "id": "geo-cmp-210",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.9,
+      "lng": -87.6,
+      "label": "Urban Land Models"
+    },
+    "compareSpec": {
+      "leftLabel": "Concentric Zone Model",
+      "rightLabel": "Multiple Nuclei Model",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Rings expand around one city core",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "City grows around several hubs",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Airports and campuses form separate nodes",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Burgess model based on 1920s Chicago",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each urban layout under Concentric Zone or Multiple Nuclei Model.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Burgess's Concentric Zone Model radiates in rings from one CBD, while Harris and Ullman's Multiple Nuclei Model centers on several hubs.",
+    "source_url": "https://www.britannica.com/topic/urban-structure",
+    "trap_notes": {
+      "default": "Concentric means bullseye rings around one center; multiple nuclei means several distinct activity centers."
+    }
+  },
+  {
+    "id": "geo-cmp-211",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 31.9,
+      "lng": 35.9,
+      "label": "Migrant Categories"
+    },
+    "compareSpec": {
+      "leftLabel": "Refugee",
+      "rightLabel": "Economic Migrant",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Flees war or political persecution",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Moves mainly for higher wages",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Can safely return to home country",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Protected under UN asylum treaties",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each migration description into Refugee or Economic Migrant.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Refugees flee danger or persecution and receive international protection, while economic migrants move voluntarily for work.",
+    "source_url": "https://www.unhcr.org/about-unhcr/who-we-protect/refugees",
+    "trap_notes": {
+      "default": "Distinguish forced flight from danger (refugee) from voluntary relocation for jobs (economic migrant)."
+    }
+  },
+  {
+    "id": "geo-cmp-212",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.6,
+      "lng": 139.7,
+      "label": "Fertility Metrics"
+    },
+    "compareSpec": {
+      "leftLabel": "Crude Birth Rate",
+      "rightLabel": "Total Fertility Rate",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Annual births per 1,000 total people",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Average children born per woman",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Replacement level is about 2.1",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Includes men and children in denominator",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Match each demographic metric to Crude Birth Rate or Total Fertility Rate.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Crude Birth Rate counts yearly births per 1,000 total residents, while Total Fertility Rate estimates lifetime births per woman.",
+    "source_url": "https://www.prb.org/resources/glossary/",
+    "trap_notes": {
+      "default": "Crude Birth Rate uses the whole population as its base; Total Fertility Rate focuses on women's lifetime births."
+    }
+  },
+  {
+    "id": "geo-cmp-213",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 66.5,
+      "lng": 25.7,
+      "label": "High-Latitude Biomes"
+    },
+    "compareSpec": {
+      "leftLabel": "Tundra Biome",
+      "rightLabel": "Taiga Biome",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Treeless plains with shallow permafrost",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Dense spruce and pine boreal forest",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Largest land biome across Canada, Russia",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Covered by mosses, lichens, and sedges",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each cold-climate trait into Tundra Biome or Taiga Biome.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Tundra is treeless and underlain by permafrost, whereas taiga (boreal forest) supports vast evergreen conifer trees.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/taiga/",
+    "trap_notes": {
+      "default": "Tundra means treeless polar plains; taiga means the northern evergreen conifer forest."
+    }
+  },
+  {
+    "id": "geo-cmp-214",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 64,
+      "lng": -145,
+      "label": "River Channels"
+    },
+    "compareSpec": {
+      "leftLabel": "Meandering River",
+      "rightLabel": "Braided River",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Single channel winding in S-curves",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Multiple threads split around gravel bars",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Common in sediment-rich glacial valleys",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Flows slowly across flat muddy plains",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each river pattern as Meandering River or Braided River.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Meandering rivers wind as one channel across flat floodplains, while braided rivers split into many channels around excess gravel.",
+    "source_url": "https://www.nps.gov/articles/river-systems-and-fluvial-landforms.htm",
+    "trap_notes": {
+      "default": "Meandering is one looping channel; braided is many interwoven streams choked with gravel."
+    }
+  },
+  {
+    "id": "geo-cmp-215",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 30.9,
+      "lng": 75.8,
+      "label": "Farming Methods"
+    },
+    "compareSpec": {
+      "leftLabel": "Green Revolution",
+      "rightLabel": "Organic Farming",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Relies on high-yield hybrid grain seeds",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Avoids synthetic chemical pesticides",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Builds soil with compost and cover crops",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Uses synthetic fertilizers and irrigation",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each agricultural practice into Green Revolution or Organic Farming.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Green Revolution boosted yields using hybrid seeds and synthetic inputs, whereas organic farming relies on natural soil builders.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "default": "Despite its name, the Green Revolution used synthetic fertilizers and bred hybrids; organic farming avoids synthetic chemicals."
+    }
+  }
+]

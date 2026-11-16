@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "world-ded-201",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 559–530 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.1939, "lng": 53.1753, "label": "Pasargadae, Iran" },
+    "prompt": "Which ancient empire builder do these clues describe?",
+    "clues": [
+      "This sixth-century BCE ruler united Medes and Persians to forge a huge Southwest Asian empire.",
+      "He respected local gods and customs in conquered lands instead of destroying temples.",
+      "In 539 BCE he captured Babylon and allowed exiled Jews to return home and rebuild."
+    ],
+    "options": [
+      { "id": "a", "text": "Cyrus the Great" },
+      { "id": "b", "text": "Hammurabi of Babylon" },
+      { "id": "c", "text": "Alexander the Great" },
+      { "id": "d", "text": "Augustus Caesar" }
+    ],
+    "answer": "a",
+    "explanation": "Cyrus the Great founded the Achaemenid Persian Empire and won praise for tolerant rule after taking Babylon.",
+    "fun_fact": "The Cyrus Cylinder, a baked clay barrel, records his restoration of temples and displaced peoples.",
+    "source_url": "https://www.britannica.com/biography/Cyrus-the-Great",
+    "trap_notes": {
+      "b": "Hammurabi ruled Babylon in the 1700s BCE, more than a thousand years earlier.",
+      "c": "Alexander conquered the Persian Empire in the 330s BCE rather than founding it.",
+      "d": "Augustus became Rome's first emperor in 27 BCE, five centuries after Cyrus.",
+      "default": "Cyrus the Great founded the Achaemenid Persian Empire and freed Jewish exiles in Babylon."
+    }
+  },
+  {
+    "id": "world-ded-202",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 268–232 BCE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.5941, "lng": 85.1376, "label": "Patna, India" },
+    "prompt": "Which South Asian ruler do these clues describe?",
+    "clues": [
+      "This third-century BCE emperor ruled nearly the entire Indian subcontinent from Pataliputra.",
+      "Appalled by the bloodshed of the Kalinga War, he renounced further wars of conquest.",
+      "He carved moral edicts onto stone pillars and sent Buddhist missionaries abroad."
+    ],
+    "options": [
+      { "id": "a", "text": "Siddhartha Gautama" },
+      { "id": "b", "text": "Ashoka Maurya" },
+      { "id": "c", "text": "Chandragupta II" },
+      { "id": "d", "text": "Akbar the Great" }
+    ],
+    "answer": "b",
+    "explanation": "Mauryan Emperor Ashoka converted to Buddhism after the Kalinga War and promoted dharma on stone pillars.",
+    "fun_fact": "The four-lion capital from Ashoka's pillar at Sarnath is today India's national emblem.",
+    "source_url": "https://www.britannica.com/biography/Ashoka",
+    "trap_notes": {
+      "a": "Siddhartha Gautama was the spiritual founder of Buddhism, not a Mauryan emperor.",
+      "c": "Chandragupta II ruled the later Gupta Empire in the 300s–400s CE.",
+      "d": "Akbar was a Mughal emperor in the 1500s CE, nearly 1,800 years later.",
+      "default": "Ashoka's remorse after Kalinga led him to spread Buddhist ethics across Asia."
+    }
+  },
+  {
+    "id": "world-ded-203",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 563–483 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 24.6959, "lng": 84.9914, "label": "Bodh Gaya, India" },
+    "prompt": "Which religious founder do these clues describe?",
+    "clues": [
+      "Born into a noble family near the Himalayas, he left palace luxury to seek truth.",
+      "He taught that suffering stems from selfish desire and can end via the Eightfold Path.",
+      "His enlightenment beneath a bodhi tree at Bodh Gaya launched a major world religion."
+    ],
+    "options": [
+      { "id": "a", "text": "Confucius" },
+      { "id": "b", "text": "Zoroaster" },
+      { "id": "c", "text": "Siddhartha Gautama" },
+      { "id": "d", "text": "Laozi" }
+    ],
+    "answer": "c",
+    "explanation": "Siddhartha Gautama became the Buddha and taught the Four Noble Truths and the Eightfold Path.",
+    "fun_fact": "Unlike the Hindu caste system, early Buddhism taught that anyone could reach nirvana through right living.",
+    "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism",
+    "trap_notes": {
+      "a": "Confucius was a Chinese philosopher focused on social harmony and filial piety.",
+      "b": "Zoroaster was an ancient Persian prophet who taught cosmic struggle between good and evil.",
+      "d": "Laozi is the traditional founder of Daoism in China.",
+      "default": "Siddhartha Gautama attained enlightenment at Bodh Gaya and founded Buddhism."
+    }
+  },
+  {
+    "id": "world-ded-204",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "551–479 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.596, "lng": 116.986, "label": "Qufu, China" },
+    "prompt": "Which ancient thinker do these clues describe?",
+    "clues": [
+      "Living during China's chaotic Zhou decline, he sought to restore social harmony.",
+      "He emphasized five key relationships, filial piety, and moral leadership by rulers.",
+      "His disciples compiled his sayings in the Analects, shaping East Asian civil service."
+    ],
+    "options": [
+      { "id": "a", "text": "Han Feizi" },
+      { "id": "b", "text": "Confucius" },
+      { "id": "c", "text": "Mencius" },
+      { "id": "d", "text": "Zhuangzi" }
+    ],
+    "answer": "b",
+    "explanation": "Confucius taught that ethical conduct, respect for elders, and education create a stable, just society.",
+    "fun_fact": "During the Han and Tang dynasties, mastery of Confucian classics became the key to government office.",
+    "source_url": "https://www.britannica.com/biography/Confucius",
+    "trap_notes": {
+      "a": "Han Feizi championed Legalism, arguing for strict laws and harsh punishments rather than virtue.",
+      "c": "Mencius was a later follower of Confucius, not the author of the Analects.",
+      "d": "Zhuangzi was a leading Daoist thinker who urged living in harmony with nature.",
+      "default": "Confucius's Analects grounded Chinese ethics, family duty, and scholarly governance."
+    }
+  },
+  {
+    "id": "world-ded-205",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 461–429 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "prompt": "Which Greek statesman do these clues describe?",
+    "clues": [
+      "He led a wealthy maritime Greek city-state during its fifth-century BCE Golden Age.",
+      "He paid public jurors and oversaw the building of the Parthenon on the Acropolis.",
+      "His famous Funeral Oration praised Athens's democracy during the Peloponnesian War."
+    ],
+    "options": [
+      { "id": "a", "text": "Pericles" },
+      { "id": "b", "text": "Solon" },
+      { "id": "c", "text": "Leonidas" },
+      { "id": "d", "text": "Julius Caesar" }
+    ],
+    "answer": "a",
+    "explanation": "Pericles guided Athens at its cultural peak, expanding civic participation and funding monumental architecture.",
+    "fun_fact": "Pericles died in 429 BCE during a devastating plague that struck overcrowded Athens.",
+    "source_url": "https://www.britannica.com/biography/Pericles-Athenian-statesman",
+    "trap_notes": {
+      "b": "Solon was an earlier Athenian lawgiver in the 590s BCE, before the Persian and Peloponnesian wars.",
+      "c": "Leonidas was the Spartan king who fought at Thermopylae in 480 BCE.",
+      "d": "Julius Caesar was a Roman general and dictator in the first century BCE.",
+      "default": "Pericles presided over Golden Age Athens, the Parthenon, and the Funeral Oration."
+    }
+  },
+  {
+    "id": "world-ded-206",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "27 BCE–14 CE",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "Which Roman leader do these clues describe?",
+    "clues": [
+      "Adopted heir of Julius Caesar, he defeated Mark Antony and Cleopatra at Actium.",
+      "He kept republican titles like 'First Citizen' while holding supreme military power.",
+      "His reign began the two-century Pax Romana as Rome's first true emperor."
+    ],
+    "options": [
+      { "id": "a", "text": "Constantine" },
+      { "id": "b", "text": "Diocletian" },
+      { "id": "c", "text": "Augustus" },
+      { "id": "d", "text": "Trajan" }
+    ],
+    "answer": "c",
+    "explanation": "Born Octavian, Augustus ended Rome's civil wars in 27 BCE and launched the long stability of the Pax Romana.",
+    "fun_fact": "The month of August was named in honor of Emperor Augustus.",
+    "source_url": "https://www.britannica.com/biography/Augustus-Roman-emperor",
+    "trap_notes": {
+      "a": "Constantine ruled in the 300s CE and legalized Christianity.",
+      "b": "Diocletian ruled in the late 200s CE and split the empire into eastern and western halves.",
+      "d": "Trajan ruled around 98–117 CE, expanding Rome to its greatest territorial size.",
+      "default": "Augustus became Rome's first emperor and ushered in the Pax Romana."
+    }
+  },
+  {
+    "id": "world-ded-207",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "532–537 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.0086, "lng": 28.9802, "label": "Istanbul, Turkey" },
+    "prompt": "Which historic landmark do these clues describe?",
+    "clues": [
+      "Built in the 530s CE, this monumental domed structure stood in Constantinople.",
+      "Commissioned by Emperor Justinian I, it served for centuries as an Orthodox cathedral.",
+      "After 1453, Ottoman rulers added minarets and converted it into an imperial mosque."
+    ],
+    "options": [
+      { "id": "a", "text": "The Pantheon" },
+      { "id": "b", "text": "The Hagia Sophia" },
+      { "id": "c", "text": "The Dome of the Rock" },
+      { "id": "d", "text": "The Taj Mahal" }
+    ],
+    "answer": "b",
+    "explanation": "The Hagia Sophia showcased Byzantine engineering under Justinian and later became a famed Ottoman mosque.",
+    "fun_fact": "Its massive dome rests on curved triangular pendentives, a breakthrough in Byzantine architecture.",
+    "source_url": "https://www.britannica.com/topic/Hagia-Sophia",
+    "trap_notes": {
+      "a": "The Pantheon is a Roman temple in Italy built under Hadrian in the second century CE.",
+      "c": "The Dome of the Rock is an Umayyad Islamic shrine in Jerusalem.",
+      "d": "The Taj Mahal is a 17th-century Mughal marble mausoleum in Agra, India.",
+      "default": "The Hagia Sophia served as Constantinople's grand cathedral and later an Ottoman mosque."
+    }
+  },
+  {
+    "id": "world-ded-208",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "690–705 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.2658, "lng": 108.954, "label": "Xi'an, China" },
+    "prompt": "Which Chinese ruler do these clues describe?",
+    "clues": [
+      "Rising from court concubine during the Tang Dynasty, she outmaneuvered rival nobles.",
+      "She expanded civil service exams and backed Buddhism to gain popular legitimacy.",
+      "She remains the only woman in Chinese history to rule in her own right as emperor."
+    ],
+    "options": [
+      { "id": "a", "text": "Empress Wu Zetian" },
+      { "id": "b", "text": "Empress Dowager Cixi" },
+      { "id": "c", "text": "Queen Seondeok" },
+      { "id": "d", "text": "Lady Murasaki" }
+    ],
+    "answer": "a",
+    "explanation": "Wu Zetian ruled Tang China from 690 to 705 CE, strengthening merit-based exams and expanding imperial borders.",
+    "fun_fact": "Despite harsh criticism from later Confucian historians, her reign saw strong economic growth and stability.",
+    "source_url": "https://www.britannica.com/biography/Wuhou",
+    "trap_notes": {
+      "b": "Empress Dowager Cixi wielded power behind the Qing throne in the late 1800s, not as emperor.",
+      "c": "Queen Seondeok ruled the Korean kingdom of Silla in the 630s–640s CE.",
+      "d": "Murasaki Shikibu was a Japanese noblewoman who wrote The Tale of Genji.",
+      "default": "Wu Zetian was China's sole female emperor, ruling during the Tang golden age."
+    }
+  },
+  {
+    "id": "world-ded-209",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "768–814 CE",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 50.7753, "lng": 6.0839, "label": "Aachen, Germany" },
+    "prompt": "Which medieval European monarch do these clues describe?",
+    "clues": [
+      "This Frankish king united much of Western and Central Europe through constant campaigns.",
+      "At Aachen, he sponsored a revival of Latin learning, schools, and standardized script.",
+      "On Christmas Day in 800 CE, Pope Leo III crowned him Emperor of the Romans."
+    ],
+    "options": [
+      { "id": "a", "text": "William the Conqueror" },
+      { "id": "b", "text": "Charlemagne" },
+      { "id": "c", "text": "Charles V" },
+      { "id": "d", "text": "Louis XIV" }
+    ],
+    "answer": "b",
+    "explanation": "Charlemagne forged the Carolingian Empire and blended Roman, Christian, and Germanic traditions in Western Europe.",
+    "fun_fact": "Carolingian minuscule, developed at his court, inspired the clear lowercase letters we still use today.",
+    "source_url": "https://www.britannica.com/biography/Charlemagne",
+    "trap_notes": {
+      "a": "William the Conqueror invaded England from Normandy in 1066, over two centuries later.",
+      "c": "Habsburg Emperor Charles V ruled Spain and the Holy Roman Empire in the 1500s.",
+      "d": "Louis XIV was France's absolutist Sun King in the late 1600s.",
+      "default": "Charlemagne united Western Europe and was crowned emperor in Rome in 800 CE."
+    }
+  },
+  {
+    "id": "world-ded-210",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "1215 CE",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.4445, "lng": -0.5628, "label": "Runnymede, United Kingdom" },
+    "prompt": "Which historic document do these clues describe?",
+    "clues": [
+      "Rebellious English barons forced a king to seal this charter in a meadow in 1215.",
+      "It barred the monarch from levying certain taxes without baronial consent.",
+      "Its clause promising due process later inspired constitutional limits on royal power."
+    ],
+    "options": [
+      { "id": "a", "text": "The Treaty of Tordesillas" },
+      { "id": "b", "text": "The Edict of Nantes" },
+      { "id": "c", "text": "The Magna Carta" },
+      { "id": "d", "text": "The English Bill of Rights" }
+    ],
+    "answer": "c",
+    "explanation": "King John sealed Magna Carta at Runnymede in 1215, establishing that even the monarch is subject to the law.",
+    "fun_fact": "Although Pope Innocent III soon annulled it, later English kings reissued Magna Carta repeatedly.",
+    "source_url": "https://www.britannica.com/topic/Magna-Carta",
+    "trap_notes": {
+      "a": "The 1494 Treaty of Tordesillas divided newly explored Atlantic lands between Spain and Portugal.",
+      "b": "The 1598 Edict of Nantes granted religious toleration to French Protestants.",
+      "d": "The English Bill of Rights was passed in 1689 after the Glorious Revolution.",
+      "default": "Magna Carta (1215) placed early legal limits on the English king's power."
+    }
+  },
+  {
+    "id": "world-ded-211",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "1312–1337 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "prompt": "Which West African ruler do these clues describe?",
+    "clues": [
+      "He governed a gold-rich savanna empire stretching across the western Sudan.",
+      "His 1324 hajj caravan to Mecca included thousands of attendants and camels.",
+      "Back in Mali, he funded mosques and scholars in Timbuktu and Gao."
+    ],
+    "options": [
+      { "id": "a", "text": "Sundiata Keita" },
+      { "id": "b", "text": "Mansa Musa" },
+      { "id": "c", "text": "Askia Muhammad" },
+      { "id": "d", "text": "Shaka Zulu" }
+    ],
+    "answer": "b",
+    "explanation": "Mansa Musa made the Mali Empire famous across Afro-Eurasia through his 1324 pilgrimage and patronage of learning.",
+    "fun_fact": "He brought back Andalusian architect Abu Ishaq al-Sahili to design Timbuktu's Djinguereber Mosque.",
+    "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+    "trap_notes": {
+      "a": "Sundiata Keita founded the Mali Empire in the 1230s, decades before Mansa Musa.",
+      "c": "Askia Muhammad ruled the later Songhai Empire around 1500 CE.",
+      "d": "Shaka Zulu built the Zulu Kingdom in southern Africa in the early 1800s.",
+      "default": "Mansa Musa's 1324 pilgrimage showcased Mali's gold wealth and Islamic scholarship."
+    }
+  },
+  {
+    "id": "world-ded-212",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "1271–1295 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 45.4408, "lng": 12.3155, "label": "Venice, Italy" },
+    "prompt": "Which medieval traveler do these clues describe?",
+    "clues": [
+      "As a teenager from Venice, he journeyed overland across Asia with his father and uncle.",
+      "He spent seventeen years in China, claiming to serve Mongol ruler Kublai Khan.",
+      "His dictated book introduced Europeans to Chinese coal, paper money, and Grand Canal trade."
+    ],
+    "options": [
+      { "id": "a", "text": "Vasco da Gama" },
+      { "id": "b", "text": "Marco Polo" },
+      { "id": "c", "text": "Xuanzang" },
+      { "id": "d", "text": "Bartolomeu Dias" }
+    ],
+    "answer": "b",
+    "explanation": "Marco Polo's accounts of Yuan China inspired later European explorers, including Christopher Columbus.",
+    "fun_fact": "Polo dictated his travel stories while imprisoned in Genoa after a naval battle with Venice.",
+    "source_url": "https://www.britannica.com/biography/Marco-Polo",
+    "trap_notes": {
+      "a": "Vasco da Gama was a Portuguese navigator who sailed around Africa to India in 1498.",
+      "c": "Xuanzang was a 7th-century Chinese Buddhist monk who traveled to India.",
+      "d": "Bartolomeu Dias rounded the southern tip of Africa in 1488.",
+      "default": "Marco Polo's travels in Kublai Khan's China sparked European interest in Asian trade."
+    }
+  },
+  {
+    "id": "world-ded-213",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "1346–1353 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.0519, "lng": 35.3886, "label": "Feodosiya, Crimea" },
+    "prompt": "Which medieval crisis do these clues describe?",
+    "clues": [
+      "Carried by fleas on rats along Silk Road and sea routes, it struck Eurasia in the 1340s.",
+      "From the Crimean port of Caffa, Genoese ships brought it into Mediterranean harbors.",
+      "It killed roughly a third to half of Europe's people and raised wages for surviving workers."
+    ],
+    "options": [
+      { "id": "a", "text": "The Little Ice Age" },
+      { "id": "b", "text": "The Black Death" },
+      { "id": "c", "text": "The 1918 Influenza" },
+      { "id": "d", "text": "The Irish Potato Famine" }
+    ],
+    "answer": "b",
+    "explanation": "Bubonic plague devastated Afro-Eurasia in the mid-1300s, causing severe labor shortages that weakened serfdom.",
+    "fun_fact": "Venice pioneered the word 'quarantine' from 'quaranta giorni,' requiring ships to wait 40 days before docking.",
+    "source_url": "https://www.britannica.com/event/Black-Death",
+    "trap_notes": {
+      "a": "The Little Ice Age was a centuries-long cooling period, not a flea-borne epidemic.",
+      "c": "The 1918 influenza pandemic occurred during World War I, nearly 600 years later.",
+      "d": "The Irish Potato Famine struck Ireland in the 1840s due to a potato blight.",
+      "default": "The Black Death spread along trade routes in the 1340s, reshaping Afro-Eurasian society."
+    }
+  },
+  {
+    "id": "world-ded-214",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1405–1433 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "prompt": "Which maritime commander do these clues describe?",
+    "clues": [
+      "A Muslim court eunuch from Yunnan, he led seven massive Ming Dynasty naval expeditions.",
+      "His huge wooden treasure ships sailed across Southeast Asia to India, Arabia, and East Africa.",
+      "His fleets brought back exotic animals like giraffes before Ming rulers ended the voyages."
+    ],
+    "options": [
+      { "id": "a", "text": "Ferdinand Magellan" },
+      { "id": "b", "text": "Zheng He" },
+      { "id": "c", "text": "Admiral Yi Sun-sin" },
+      { "id": "d", "text": "James Cook" }
+    ],
+    "answer": "b",
+    "explanation": "Admiral Zheng He projected Ming China's prestige across the Indian Ocean decades before European caravels arrived.",
+    "fun_fact": "After 1433, Ming officials scrapped the fleet to focus funds on defending northern borders against Mongols.",
+    "source_url": "https://www.britannica.com/biography/Zheng-He",
+    "trap_notes": {
+      "a": "Magellan led the Spanish expedition that first circumnavigated the globe in 1519–1522.",
+      "c": "Admiral Yi Sun-sin defended Korea against Japanese invasions in the 1590s.",
+      "d": "British Captain James Cook charted the Pacific Ocean in the 1760s–1770s.",
+      "default": "Zheng He commanded China's Ming treasure fleets across the Indian Ocean."
+    }
+  },
+  {
+    "id": "world-ded-215",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "c. 1450 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 49.9929, "lng": 8.2473, "label": "Mainz, Germany" },
+    "prompt": "Which European inventor do these clues describe?",
+    "clues": [
+      "Trained as a goldsmith in Mainz, he combined metal type, oil-based ink, and a screw press.",
+      "His workshop produced a famous Latin Bible in the mid-1450s.",
+      "His invention slashed book costs and fueled both the Renaissance and Reformation."
+    ],
+    "options": [
+      { "id": "a", "text": "Johannes Gutenberg" },
+      { "id": "b", "text": "Leonardo da Vinci" },
+      { "id": "c", "text": "Galileo Galilei" },
+      { "id": "d", "text": "Richard Arkwright" }
+    ],
+    "answer": "a",
+    "explanation": "Johannes Gutenberg's movable-type printing press transformed information sharing across Europe after 1450.",
+    "fun_fact": "Movable clay and metal type had already been invented in East Asia centuries before Gutenberg.",
+    "source_url": "https://www.britannica.com/biography/Johannes-Gutenberg",
+    "trap_notes": {
+      "b": "Leonardo da Vinci was an Italian Renaissance painter and engineer, not a German printer.",
+      "c": "Galileo improved the telescope and studied astronomy in the early 1600s.",
+      "d": "Richard Arkwright invented the water frame for textile spinning in 1769 Britain.",
+      "default": "Johannes Gutenberg pioneered Europe's movable-type printing press in Mainz."
+    }
+  },
+  {
+    "id": "world-ded-216",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1517–1546 CE",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.8671, "lng": 12.6431, "label": "Wittenberg, Germany" },
+    "prompt": "Which religious reformer do these clues describe?",
+    "clues": [
+      "A German monk and theology professor, he grew outraged by the sale of church indulgences.",
+      "In 1517 he circulated Ninety-Five Theses arguing that salvation comes by faith alone.",
+      "His refusal to recant at Worms split Western Christianity and launched Protestantism."
+    ],
+    "options": [
+      { "id": "a", "text": "Ignatius of Loyola" },
+      { "id": "b", "text": "Martin Luther" },
+      { "id": "c", "text": "John Calvin" },
+      { "id": "d", "text": "Desiderius Erasmus" }
+    ],
+    "answer": "b",
+    "explanation": "Martin Luther sparked the Protestant Reformation in 1517 and translated the Bible into German.",
+    "fun_fact": "Luther's pamphlets spread across Germany in weeks thanks to the printing press.",
+    "source_url": "https://www.britannica.com/biography/Martin-Luther",
+    "trap_notes": {
+      "a": "Ignatius of Loyola founded the Jesuits to lead the Catholic Counter-Reformation.",
+      "c": "John Calvin led a later Reformed movement in Geneva centered on predestination.",
+      "d": "Erasmus was a Dutch humanist who criticized church abuses but remained Catholic.",
+      "default": "Martin Luther's 1517 challenge to indulgences ignited the Protestant Reformation."
+    }
+  },
+  {
+    "id": "world-ded-217",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1492–1700 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "prompt": "Which global process do these clues describe?",
+    "clues": [
+      "Beginning after 1492, it linked the Eastern and Western Hemispheres biologically.",
+      "Old World diseases like smallpox devastated Indigenous populations in the Americas.",
+      "American crops such as potatoes and maize spurred population growth in Afro-Eurasia."
+    ],
+    "options": [
+      { "id": "a", "text": "The Silk Road" },
+      { "id": "b", "text": "The Columbian Exchange" },
+      { "id": "c", "text": "The Industrial Revolution" },
+      { "id": "d", "text": "The Green Revolution" }
+    ],
+    "answer": "b",
+    "explanation": "The Columbian Exchange transferred plants, animals, microbes, and people between the Americas and Afro-Eurasia.",
+    "fun_fact": "Horses, cattle, and sugar cane crossed west to the Americas, while tomatoes and cacao went east.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "a": "The Silk Road connected Asia, the Middle East, and Europe overland, not the Americas.",
+      "c": "The Industrial Revolution began in 18th-century Britain with steam and factories.",
+      "d": "The Green Revolution refers to 20th-century high-yield agricultural science.",
+      "default": "The Columbian Exchange reshaped global diets, ecosystems, and demographics after 1492."
+    }
+  },
+  {
+    "id": "world-ded-218",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1514–1566 CE",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 16.737, "lng": -92.6376, "label": "San Cristobal, Mexico" },
+    "prompt": "Which colonial-era critic do these clues describe?",
+    "clues": [
+      "Initially a Spanish settler in the Caribbean, he gave up his encomienda and became a friar.",
+      "He documented brutal forced labor and massacres in his Short Account of 1542.",
+      "He lobbied Spain's king to pass the New Laws protecting Indigenous peoples."
+    ],
+    "options": [
+      { "id": "a", "text": "Hernan Cortes" },
+      { "id": "b", "text": "Francisco Pizarro" },
+      { "id": "c", "text": "Bartolome de las Casas" },
+      { "id": "d", "text": "Ferdinand Magellan" }
+    ],
+    "answer": "c",
+    "explanation": "Bartolome de las Casas became a fierce defender of Indigenous rights in Spain's American empire.",
+    "fun_fact": "His writings later led Spain's rivals to spread the 'Black Legend' about Spanish colonial cruelty.",
+    "source_url": "https://www.britannica.com/biography/Bartolome-de-Las-Casas",
+    "trap_notes": {
+      "a": "Hernan Cortes was the conquistador who led the overthrow of the Aztec Empire.",
+      "b": "Francisco Pizarro led the Spanish conquest of the Inca Empire in Peru.",
+      "d": "Ferdinand Magellan commanded the first expedition to sail across the Pacific.",
+      "default": "Bartolome de las Casas campaigned against the encomienda system's abuse of Indigenous people."
+    }
+  },
+  {
+    "id": "world-ded-219",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1556–1605 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 27.1767, "lng": 78.0081, "label": "Agra, India" },
+    "prompt": "Which early modern emperor do these clues describe?",
+    "clues": [
+      "Taking the throne at thirteen, he expanded a South Asian empire across northern India.",
+      "He abolished the jizya tax on non-Muslims and appointed Hindu Rajputs to high office.",
+      "He hosted debates among Muslim, Hindu, Jain, and Christian scholars at Fatehpur Sikri."
+    ],
+    "options": [
+      { "id": "a", "text": "Akbar the Great" },
+      { "id": "b", "text": "Aurangzeb" },
+      { "id": "c", "text": "Shah Abbas I" },
+      { "id": "d", "text": "Mehmed II" }
+    ],
+    "answer": "a",
+    "explanation": "Mughal Emperor Akbar strengthened his diverse empire through religious tolerance and centralized tax reform.",
+    "fun_fact": "Although Akbar could not read, he built a royal library of over 24,000 illustrated manuscripts.",
+    "source_url": "https://www.britannica.com/biography/Akbar",
+    "trap_notes": {
+      "b": "Aurangzeb reversed Akbar's tolerant policies and restored the jizya tax in the late 1600s.",
+      "c": "Shah Abbas I ruled Safavid Persia, not Mughal India.",
+      "d": "Mehmed II was the Ottoman sultan who conquered Constantinople in 1453.",
+      "default": "Akbar built Mughal stability through religious tolerance and inclusive administration."
+    }
+  },
+  {
+    "id": "world-ded-220",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1609–1642 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.7696, "lng": 11.2558, "label": "Florence, Italy" },
+    "prompt": "Which Scientific Revolution figure do these clues describe?",
+    "clues": [
+      "Using an improved telescope in 1609, he observed mountains on the Moon and Jupiter's moons.",
+      "His findings backed Copernicus's sun-centered model of the solar system.",
+      "In 1633 the Roman Inquisition forced him to recant and placed him under house arrest."
+    ],
+    "options": [
+      { "id": "a", "text": "Johannes Kepler" },
+      { "id": "b", "text": "Galileo Galilei" },
+      { "id": "c", "text": "Francis Bacon" },
+      { "id": "d", "text": "Rene Descartes" }
+    ],
+    "answer": "b",
+    "explanation": "Galileo Galilei's telescopic discoveries provided observational proof against the Earth-centered universe.",
+    "fun_fact": "While under house arrest, Galileo wrote Two New Sciences, laying foundations for modern physics.",
+    "source_url": "https://www.britannica.com/biography/Galileo-Galilei",
+    "trap_notes": {
+      "a": "Johannes Kepler formulated the three laws of planetary motion mathematically, without facing the Inquisition.",
+      "c": "Francis Bacon was an English philosopher who championed the inductive scientific method.",
+      "d": "Rene Descartes was a French mathematician and philosopher known for 'I think, therefore I am.'",
+      "default": "Galileo used telescope observations to defend heliocentrism and clashed with the Inquisition."
+    }
+  },
+  {
+    "id": "world-ded-221",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1687 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.2053, "lng": 0.1218, "label": "Cambridge, United Kingdom" },
+    "prompt": "Which scientist do these clues describe?",
+    "clues": [
+      "This English mathematician developed calculus and studied optics with glass prisms.",
+      "In 1687 he published Principia Mathematica, uniting earthly and celestial physics.",
+      "His laws of motion and universal gravitation became pillars of modern science."
+    ],
+    "options": [
+      { "id": "a", "text": "Isaac Newton" },
+      { "id": "b", "text": "Charles Darwin" },
+      { "id": "c", "text": "Louis Pasteur" },
+      { "id": "d", "text": "Albert Einstein" }
+    ],
+    "answer": "a",
+    "explanation": "Isaac Newton showed that a single set of mathematical laws governs both falling apples and orbiting planets.",
+    "fun_fact": "Enlightenment thinkers like Voltaire admired Newton so much they tried to find similar natural laws for society.",
+    "source_url": "https://www.britannica.com/biography/Isaac-Newton",
+    "trap_notes": {
+      "b": "Charles Darwin published On the Origin of Species on evolution in 1859.",
+      "c": "Louis Pasteur developed germ theory and pasteurization in the 1800s.",
+      "d": "Albert Einstein formulated relativity in the early 1900s.",
+      "default": "Isaac Newton's Principia united motion and gravity under universal mathematical laws."
+    }
+  },
+  {
+    "id": "world-ded-222",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1791–1793 CE",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "Which French revolutionary writer do these clues describe?",
+    "clues": [
+      "A playwright and activist in Paris, she wrote against slavery and for women's legal equality.",
+      "In 1791 she published the Declaration of the Rights of Woman and of the Female Citizen.",
+      "She was guillotined during the Reign of Terror in 1793 after criticizing Jacobin extremism."
+    ],
+    "options": [
+      { "id": "a", "text": "Mary Wollstonecraft" },
+      { "id": "b", "text": "Olympe de Gouges" },
+      { "id": "c", "text": "Marie Antoinette" },
+      { "id": "d", "text": "Catherine the Great" }
+    ],
+    "answer": "b",
+    "explanation": "Olympe de Gouges challenged the French Revolution's male-only rights by demanding equal citizenship for women.",
+    "fun_fact": "Her declaration opened with: 'Woman is born free and remains equal to man in rights.'",
+    "source_url": "https://www.britannica.com/biography/Olympe-de-Gouges",
+    "trap_notes": {
+      "a": "Mary Wollstonecraft was a British writer who published in London in 1792 and was not guillotined.",
+      "c": "Marie Antoinette was the executed queen of France, not a revolutionary playwright.",
+      "d": "Catherine the Great was the empress of Russia from 1762 to 1796.",
+      "default": "Olympe de Gouges authored the 1791 Declaration of the Rights of Woman in revolutionary France."
+    }
+  },
+  {
+    "id": "world-ded-223",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1810–1830 CE",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 4.711, "lng": -74.0721, "label": "Bogota, Colombia" },
+    "prompt": "Which independence leader do these clues describe?",
+    "clues": [
+      "Born to a wealthy Creole family in Caracas, he studied Enlightenment ideas in Europe.",
+      "He led daring marches across the Andes to defeat Spanish forces in Colombia and Peru.",
+      "Known as El Libertador, he dreamed of uniting northern South America as Gran Colombia."
+    ],
+    "options": [
+      { "id": "a", "text": "Miguel Hidalgo" },
+      { "id": "b", "text": "Simon Bolivar" },
+      { "id": "c", "text": "Jose de San Martin" },
+      { "id": "d", "text": "Emiliano Zapata" }
+    ],
+    "answer": "b",
+    "explanation": "Simon Bolivar led independence wars freeing Venezuela, Colombia, Ecuador, Peru, and Bolivia from Spain.",
+    "fun_fact": "Although Gran Colombia fractured by 1830, the nation of Bolivia was named in his honor.",
+    "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+    "trap_notes": {
+      "a": "Father Miguel Hidalgo launched Mexico's independence struggle in 1810.",
+      "c": "Jose de San Martin led independence campaigns from Argentina across Chile to Peru.",
+      "d": "Emiliano Zapata was a peasant leader in the Mexican Revolution of 1910–1919.",
+      "default": "Simon Bolivar, El Libertador, freed northern South America from Spanish colonial rule."
+    }
+  },
+  {
+    "id": "world-ded-224",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1848–1867 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "prompt": "Which economic thinker do these clues describe?",
+    "clues": [
+      "Exiled from Germany, he spent decades researching industrial capitalism in London.",
+      "With Friedrich Engels, he co-wrote The Communist Manifesto in 1848.",
+      "He argued that class struggle between bourgeoisie and proletariat would end in socialism."
+    ],
+    "options": [
+      { "id": "a", "text": "Adam Smith" },
+      { "id": "b", "text": "Karl Marx" },
+      { "id": "c", "text": "John Stuart Mill" },
+      { "id": "d", "text": "John Maynard Keynes" }
+    ],
+    "answer": "b",
+    "explanation": "Karl Marx critiqued industrial capitalism and predicted a workers' revolution in The Communist Manifesto and Das Kapital.",
+    "fun_fact": "Marx wrote much of Das Kapital in the reading room of the British Museum in London.",
+    "source_url": "https://www.britannica.com/biography/Karl-Marx",
+    "trap_notes": {
+      "a": "Adam Smith championed free-market capitalism in The Wealth of Nations in 1776.",
+      "c": "John Stuart Mill was a British liberal philosopher who supported utilitarianism and women's suffrage.",
+      "d": "John Maynard Keynes advocated government stimulus during the 1930s Great Depression.",
+      "default": "Karl Marx analyzed capitalism as class conflict between factory owners and workers."
+    }
+  },
+  {
+    "id": "world-ded-225",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1868–1912 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Which historical transformation do these clues describe?",
+    "clues": [
+      "Triggered by unequal Western treaties, reformers overthrew the Tokugawa shogunate in 1868.",
+      "The new government abolished samurai privileges, built railroads, and taxed land.",
+      "Within four decades, it turned an island nation into an industrial and imperial power."
+    ],
+    "options": [
+      { "id": "a", "text": "The Self-Strengthening Movement" },
+      { "id": "b", "text": "The Meiji Restoration" },
+      { "id": "c", "text": "The Boxer Rebellion" },
+      { "id": "d", "text": "The Taiping Rebellion" }
+    ],
+    "answer": "b",
+    "explanation": "The Meiji Restoration centralized Japan under the emperor and rapidly industrialized its economy and military.",
+    "fun_fact": "Japan's Meiji leaders adopted a slogan meaning 'Enrich the country, strengthen the armed forces.'",
+    "source_url": "https://www.britannica.com/event/Meiji-Restoration",
+    "trap_notes": {
+      "a": "The Self-Strengthening Movement was Qing China's more limited modernization effort.",
+      "c": "The Boxer Rebellion was an anti-foreign uprising in China around 1900.",
+      "d": "The Taiping Rebellion was a massive civil war in Qing China from 1850 to 1864.",
+      "default": "The Meiji Restoration transformed Japan from feudal isolation into an industrial power."
+    }
+  },
+  {
+    "id": "world-ded-226",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1884–1885 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Which diplomatic meeting do these clues describe?",
+    "clues": [
+      "Fourteen European nations and the United States met in Germany in 1884–1885.",
+      "Not a single African leader was invited to attend or sign the final agreement.",
+      "It set rules for European powers to claim and partition African territory."
+    ],
+    "options": [
+      { "id": "a", "text": "The Congress of Vienna" },
+      { "id": "b", "text": "The Berlin Conference" },
+      { "id": "c", "text": "The Yalta Conference" },
+      { "id": "d", "text": "The Bandung Conference" }
+    ],
+    "answer": "b",
+    "explanation": "Hosted by Otto von Bismarck, the Berlin Conference formalized the Scramble for Africa without African consent.",
+    "fun_fact": "Colonial borders drawn after Berlin split many ethnic groups across rival European empires.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "trap_notes": {
+      "a": "The 1815 Congress of Vienna settled European borders after Napoleon's defeat.",
+      "c": "The 1945 Yalta Conference was a World War II Allied summit on postwar Europe.",
+      "d": "The 1955 Bandung Conference brought together newly independent Asian and African states.",
+      "default": "The 1884–1885 Berlin Conference set European rules for colonizing Africa."
+    }
+  },
+  {
+    "id": "world-ded-227",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1955 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -6.9175, "lng": 107.6191, "label": "Bandung, Indonesia" },
+    "prompt": "Which 20th-century summit do these clues describe?",
+    "clues": [
+      "Twenty-nine Asian and African nations gathered in Indonesia in April 1955.",
+      "Leaders like Sukarno, Nehru, and Zhou Enlai condemned colonialism and racial discrimination.",
+      "The meeting helped launch the Non-Aligned Movement during the Cold War."
+    ],
+    "options": [
+      { "id": "a", "text": "The Potsdam Conference" },
+      { "id": "b", "text": "The Bandung Conference" },
+      { "id": "c", "text": "The Bretton Woods Conference" },
+      { "id": "d", "text": "The Treaty of Brest-Litovsk" }
+    ],
+    "answer": "b",
+    "explanation": "The 1955 Bandung Conference united postcolonial Asian and African states seeking independence from Cold War blocs.",
+    "fun_fact": "Representing over half the world's population, Bandung attendees pledged mutual respect for sovereignty.",
+    "source_url": "https://www.britannica.com/event/Bandung-Conference",
+    "trap_notes": {
+      "a": "The 1945 Potsdam Conference was held by the U.S., UK, and USSR at the end of World War II.",
+      "c": "The 1944 Bretton Woods Conference created the IMF and World Bank.",
+      "d": "The 1918 Treaty of Brest-Litovsk ended Russia's participation in World War I.",
+      "default": "The 1955 Bandung Conference championed anti-colonialism and Cold War non-alignment."
+    }
+  },
+  {
+    "id": "world-ded-228",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1957–1966 CE",
+    "skill_tag": "chronology",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 5.6037, "lng": -0.187, "label": "Accra, Ghana" },
+    "prompt": "Which independence leader do these clues describe?",
+    "clues": [
+      "Educated in the United States and Britain, he led the Gold Coast's push for self-rule.",
+      "He organized boycotts and strikes, winning freedom for his nation in March 1957.",
+      "As Ghana's first prime minister and president, he championed Pan-African unity."
+    ],
+    "options": [
+      { "id": "a", "text": "Jomo Kenyatta" },
+      { "id": "b", "text": "Kwame Nkrumah" },
+      { "id": "c", "text": "Julius Nyerere" },
+      { "id": "d", "text": "Nelson Mandela" }
+    ],
+    "answer": "b",
+    "explanation": "Kwame Nkrumah led Ghana to become the first sub-Saharan African colony to win independence in 1957.",
+    "fun_fact": "Nkrumah chose the name 'Ghana' to honor the medieval West African empire.",
+    "source_url": "https://www.britannica.com/biography/Kwame-Nkrumah",
+    "trap_notes": {
+      "a": "Jomo Kenyatta led Kenya's independence movement and became its first president in 1964.",
+      "c": "Julius Nyerere led Tanzania to independence and promoted African socialism.",
+      "d": "Nelson Mandela fought apartheid and became South Africa's first Black president in 1994.",
+      "default": "Kwame Nkrumah guided Ghana to independence in 1957 and promoted Pan-Africanism."
+    }
+  },
+  {
+    "id": "world-ded-229",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1978–1992 CE",
+    "skill_tag": "policy_lever_swap",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 22.5431, "lng": 114.0579, "label": "Shenzhen, China" },
+    "prompt": "Which Chinese leader do these clues describe?",
+    "clues": [
+      "Surviving political purges under Mao, he became China's paramount leader in 1978.",
+      "He replaced collective farms with family responsibility contracts and opened coastal trade.",
+      "His Four Modernizations and Special Economic Zones sparked rapid Chinese growth."
+    ],
+    "options": [
+      { "id": "a", "text": "Chiang Kai-shek" },
+      { "id": "b", "text": "Mao Zedong" },
+      { "id": "c", "text": "Deng Xiaoping" },
+      { "id": "d", "text": "Ho Chi Minh" }
+    ],
+    "answer": "c",
+    "explanation": "Deng Xiaoping introduced market reforms and foreign investment while keeping Communist Party political control.",
+    "fun_fact": "Shenzhen grew from a small fishing town into a mega-city after becoming China's first Special Economic Zone.",
+    "source_url": "https://www.britannica.com/biography/Deng-Xiaoping",
+    "trap_notes": {
+      "a": "Chiang Kai-shek led the Nationalist government before retreating to Taiwan in 1949.",
+      "b": "Mao Zedong led the 1949 revolution and launched the Great Leap Forward and Cultural Revolution.",
+      "d": "Ho Chi Minh was the communist independence leader of Vietnam.",
+      "default": "Deng Xiaoping's 1978 economic reforms opened China to global trade and rapid growth."
+    }
+  },
+  {
+    "id": "world-ded-230",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1990–1994 CE",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -33.8067, "lng": 18.3662, "label": "Robben Island, South Africa" },
+    "prompt": "Which 20th-century leader do these clues describe?",
+    "clues": [
+      "An anti-apartheid lawyer, he spent 27 years in prison, mostly on Robben Island.",
+      "Released in 1990, he negotiated a peaceful end to white minority rule with F.W. de Klerk.",
+      "In 1994 he won South Africa's first multiracial democratic election as president."
+    ],
+    "options": [
+      { "id": "a", "text": "Desmond Tutu" },
+      { "id": "b", "text": "Nelson Mandela" },
+      { "id": "c", "text": "Patrice Lumumba" },
+      { "id": "d", "text": "Haile Selassie" }
+    ],
+    "answer": "b",
+    "explanation": "Nelson Mandela endured 27 years in prison and became South Africa's first Black president in 1994.",
+    "fun_fact": "Mandela and F.W. de Klerk shared the 1993 Nobel Peace Prize for dismantling apartheid.",
+    "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+    "trap_notes": {
+      "a": "Archbishop Desmond Tutu was a key anti-apartheid cleric and Truth Commission chair, not president.",
+      "c": "Patrice Lumumba was the first prime minister of independent Congo in 1960.",
+      "d": "Haile Selassie was the emperor of Ethiopia from 1930 to 1974.",
+      "default": "Nelson Mandela led South Africa's transition from apartheid to multiracial democracy."
+    }
+  },
+  {
+    "id": "world-dat-201",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Ancient Civilizations",
+    "era": "c. 3000–1200 BCE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 31.326, "lng": 45.636, "label": "Uruk, Iraq" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Bronze Age River Valley Systems",
+      "headers": ["Civilization", "Primary River", "Early Script"],
+      "rows": [
+        ["Mesopotamia", "Tigris & Euphrates", "Cuneiform"],
+        ["Egypt", "Nile", "Hieroglyphs"],
+        ["Shang China", "Yellow (Huang He)", "Oracle bone script"]
+      ]
+    },
+    "prompt": "Based on the table, which river valley civilization used wedge-shaped cuneiform writing?",
+    "options": [
+      { "id": "a", "text": "Mesopotamia along the Tigris and Euphrates" },
+      { "id": "b", "text": "Old Kingdom Egypt along the Nile" },
+      { "id": "c", "text": "Shang China along the Yellow River" },
+      { "id": "d", "text": "Indus Valley cities in South Asia" }
+    ],
+    "answer": "a",
+    "explanation": "The table links Mesopotamia's Tigris and Euphrates valley with cuneiform, pressed into clay with a reed stylus.",
+    "source_url": "https://www.britannica.com/topic/cuneiform",
+    "trap_notes": {
+      "b": "Egypt's early script was hieroglyphs, not cuneiform.",
+      "c": "Shang China used oracle bone inscriptions along the Yellow River.",
+      "d": "Indus Valley seals remain undeciphered and are not listed in the table.",
+      "default": "Mesopotamia developed cuneiform in the Tigris and Euphrates valley."
+    }
+  },
+  {
+    "id": "world-dat-202",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 100 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Classical Empires Around 100 CE",
+      "headers": ["Empire", "Estimated Population", "Capital City"],
+      "rows": [
+        ["Han China", "58 million", "Luoyang"],
+        ["Roman Empire", "55 million", "Rome"],
+        ["Kushan Empire", "15 million", "Peshawar"]
+      ]
+    },
+    "prompt": "What does the table show about Han China and the Roman Empire around 100 CE?",
+    "options": [
+      { "id": "a", "text": "Both governed comparable populations of roughly 55 to 58 million" },
+      { "id": "b", "text": "The Kushan Empire held more people than Han China and Rome combined" },
+      { "id": "c", "text": "Rome ruled twice as many people as Han China from Luoyang" },
+      { "id": "d", "text": "Han China had fewer residents than the Kushan Empire" }
+    ],
+    "answer": "a",
+    "explanation": "Around 100 CE, Han China and Rome were demographic peers, each ruling roughly a quarter of humanity.",
+    "source_url": "https://www.britannica.com/topic/Han-dynasty",
+    "trap_notes": {
+      "b": "The Kushan Empire's 15 million was much smaller than either Han China or Rome.",
+      "c": "Han China and Rome had nearly equal populations, and Luoyang was Han China's capital.",
+      "d": "Han China's 58 million was nearly four times the Kushan estimate.",
+      "default": "Han China and Rome governed similarly massive populations at opposite ends of Eurasia."
+    }
+  },
+  {
+    "id": "world-dat-203",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 500 BCE–500 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 25.5941, "lng": 85.1376, "label": "Patna, India" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Classical Belief Systems",
+      "headers": ["Tradition", "Core Text", "Key Focus"],
+      "rows": [
+        ["Confucianism", "Analects", "Social harmony & duty"],
+        ["Buddhism", "Tripitaka", "Ending suffering"],
+        ["Daoism", "Dao De Jing", "Living with nature"]
+      ]
+    },
+    "prompt": "According to the table, which tradition centered on ending suffering through the Tripitaka?",
+    "options": [
+      { "id": "a", "text": "Confucianism" },
+      { "id": "b", "text": "Buddhism" },
+      { "id": "c", "text": "Daoism" },
+      { "id": "d", "text": "Legalism" }
+    ],
+    "answer": "b",
+    "explanation": "The Tripitaka, or Three Baskets, preserves Buddhist teachings on overcoming desire and suffering.",
+    "source_url": "https://www.britannica.com/topic/Tipitaka",
+    "trap_notes": {
+      "a": "Confucianism centers on the Analects and social duty.",
+      "c": "Daoism centers on the Dao De Jing and harmony with nature.",
+      "d": "Legalism is not listed in the table and focuses on strict state laws.",
+      "default": "Buddhism's Tripitaka focuses on ending suffering."
+    }
+  },
+  {
+    "id": "world-dat-204",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "c. 1000 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.8882, "lng": -4.7794, "label": "Cordoba, Spain" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Major Cities Around 1000 CE",
+      "headers": ["City", "Region", "Est. Population"],
+      "rows": [
+        ["Cordoba", "Islamic Spain", "450,000"],
+        ["Kaifeng", "Song China", "400,000"],
+        ["London", "Anglo-Saxon England", "25,000"]
+      ]
+    },
+    "prompt": "What contrast does this 1000 CE urban data highlight?",
+    "options": [
+      { "id": "a", "text": "Islamic and Chinese cities far exceeded northwestern European towns in size" },
+      { "id": "b", "text": "London was already larger than both Cordoba and Kaifeng combined" },
+      { "id": "c", "text": "Song China had no cities larger than 50,000 people in 1000 CE" },
+      { "id": "d", "text": "Cordoba was a tiny village compared with Anglo-Saxon London" }
+    ],
+    "answer": "a",
+    "explanation": "Around 1000 CE, Afro-Eurasian hubs like Cordoba and Kaifeng dwarfed feudal towns in northwestern Europe.",
+    "source_url": "https://www.britannica.com/place/Cordoba-Spain",
+    "trap_notes": {
+      "b": "London's 25,000 residents were a small fraction of Cordoba's or Kaifeng's population.",
+      "c": "Kaifeng, the Northern Song capital, held roughly 400,000 people.",
+      "d": "Cordoba was nearly 18 times larger than London in 1000 CE.",
+      "default": "Urbanization in 1000 CE was far more advanced in Islamic Spain and Song China than in England."
+    }
+  },
+  {
+    "id": "world-dat-205",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "618–1279 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.2741, "lng": 120.1551, "label": "Hangzhou, China" },
+    "stimulus": {
+      "kind": "table",
+      "title": "China's Rice & Population Shift",
+      "headers": ["Period", "Est. Population", "Main Rice Type"],
+      "rows": [
+        ["Tang (c. 750)", "53 million", "Single-crop rice"],
+        ["N. Song (c. 1100)", "100 million", "Early Champa rice"],
+        ["S. Song (c. 1200)", "115 million", "Double-crop rice"]
+      ]
+    },
+    "prompt": "What trend does the table link to the spread of fast-ripening Champa rice?",
+    "options": [
+      { "id": "a", "text": "China's population roughly doubled between the Tang and Song eras" },
+      { "id": "b", "text": "Chinese population fell sharply after farmers adopted double-cropping" },
+      { "id": "c", "text": "Tang China already fed 115 million people with double-crop rice" },
+      { "id": "d", "text": "Southern Song farms abandoned rice completely for wheat" }
+    ],
+    "answer": "a",
+    "explanation": "Drought-resistant, fast-ripening Champa rice allowed two harvests a year, supporting Song China's population boom.",
+    "source_url": "https://www.britannica.com/topic/Song-dynasty",
+    "trap_notes": {
+      "b": "Population rose from 53 million to 115 million as rice yields grew.",
+      "c": "Double-crop rice and 115 million people appear under the Southern Song, not the Tang.",
+      "d": "Rice remained the staple crop driving southern China's growth.",
+      "default": "Faster-ripening Champa rice helped Song China's population nearly double."
+    }
+  },
+  {
+    "id": "world-dat-206",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "c. 1200–1450 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -8.96, "lng": 39.51, "label": "Kilwa Kisiwani, Tanzania" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Afro-Eurasian Trade Networks",
+      "headers": ["Network", "Key Transport", "Major Exports"],
+      "rows": [
+        ["Silk Road", "Camel caravans", "Silk, porcelain, horses"],
+        ["Indian Ocean", "Dhow & junk ships", "Spices, cotton, ivory"],
+        ["Trans-Saharan", "Camel caravans", "Gold, salt, kola nuts"]
+      ]
+    },
+    "prompt": "Which network in the table relied on ocean vessels to carry spices, cotton, and ivory?",
+    "options": [
+      { "id": "a", "text": "The Silk Road network" },
+      { "id": "b", "text": "The Indian Ocean network" },
+      { "id": "c", "text": "The Trans-Saharan network" },
+      { "id": "d", "text": "The Hanseatic Baltic network" }
+    ],
+    "answer": "b",
+    "explanation": "Indian Ocean merchants sailed monsoon winds on dhows and junks, moving bulk goods like spices, cotton, and ivory.",
+    "source_url": "https://www.britannica.com/place/Indian-Ocean",
+    "trap_notes": {
+      "a": "The overland Silk Road used camel caravans to carry high-value luxury goods like silk.",
+      "c": "Trans-Saharan trade crossed the desert by camel caravan carrying gold and salt.",
+      "d": "The Hanseatic League operated in northern Europe and is not in the table.",
+      "default": "Indian Ocean trade used ships to move spices, cotton textiles, and ivory."
+    }
+  },
+  {
+    "id": "world-dat-207",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Americas & Africa",
+    "era": "c. 1400–1530 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -13.5319, "lng": -71.9675, "label": "Cusco, Peru" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Pre-Columbian American Empires",
+      "headers": ["Empire", "Region", "Record System"],
+      "rows": [
+        ["Maya", "Yucatan & Guatemala", "Hieroglyphic books"],
+        ["Aztec", "Central Mexico", "Pictographic codices"],
+        ["Inca", "Andes Mountains", "Knotted quipu cords"]
+      ]
+    },
+    "prompt": "Based on the table, how did the Inca Empire differ from Mesoamerican civilizations?",
+    "options": [
+      { "id": "a", "text": "It kept records using knotted quipu cords rather than painted codices" },
+      { "id": "b", "text": "It governed the Yucatan Peninsula using hieroglyphic stone books" },
+      { "id": "c", "text": "It relied on Central Mexican pictographs for tax records" },
+      { "id": "d", "text": "It had no method at all for tracking tribute or censuses" }
+    ],
+    "answer": "a",
+    "explanation": "While Maya and Aztec scribes used written or painted books, Inca officials tracked numbers and tribute on knotted quipus.",
+    "source_url": "https://www.britannica.com/technology/quipu",
+    "trap_notes": {
+      "b": "The Yucatan Peninsula and hieroglyphic books belong to the Maya, not the Inca.",
+      "c": "Central Mexican pictographic codices were used by the Aztecs.",
+      "d": "Quipus were a sophisticated Inca system for censuses, tribute, and storehouses.",
+      "default": "The Andean Inca used knotted quipu cords, unlike Mesoamerican glyph and picture books."
+    }
+  },
+  {
+    "id": "world-dat-208",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade & Faith",
+    "era": "1347–1400 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 43.7696, "lng": 11.2558, "label": "Florence, Italy" },
+    "stimulus": {
+      "kind": "table",
+      "title": "European Population Estimates",
+      "headers": ["Year", "Population (Millions)", "Context"],
+      "rows": [
+        ["1300", "79", "Pre-plague peak"],
+        ["1350", "60", "Peak Black Death"],
+        ["1400", "60", "Recurring outbreaks"]
+      ]
+    },
+    "prompt": "What does the table indicate about Europe's recovery after the 1347 Black Death?",
+    "options": [
+      { "id": "a", "text": "Repeated plague outbreaks kept population flat through 1400" },
+      { "id": "b", "text": "Europe's population immediately rebounded above 1300 levels by 1400" },
+      { "id": "c", "text": "Europe lost all 79 million residents by 1350" },
+      { "id": "d", "text": "Population grew steadily every decade from 1300 to 1400" }
+    ],
+    "answer": "a",
+    "explanation": "Europe's population dropped by nearly a quarter by 1350 and stayed stagnant at 60 million in 1400 due to recurring plague.",
+    "source_url": "https://www.britannica.com/event/Black-Death",
+    "trap_notes": {
+      "b": "In 1400, Europe's 60 million remained well below the 1300 peak of 79 million.",
+      "c": "Roughly 19 million, not all 79 million, were lost between 1300 and 1350 in this estimate.",
+      "d": "The table shows a sharp drop between 1300 and 1350, not steady growth.",
+      "default": "Recurring plague kept European population depressed for decades after 1347."
+    }
+  },
+  {
+    "id": "world-dat-209",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1405–1500 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "stimulus": {
+      "kind": "table",
+      "title": "15th-Century Maritime Expeditions",
+      "headers": ["Voyage", "Peak Fleet Size", "Max Ship Length"],
+      "rows": [
+        ["Zheng He (1405)", "317 ships", "c. 120 meters"],
+        ["Columbus (1492)", "3 ships", "c. 25 meters"],
+        ["Da Gama (1497)", "4 ships", "c. 30 meters"]
+      ]
+    },
+    "prompt": "What comparison is supported by this table of 15th-century voyages?",
+    "options": [
+      { "id": "a", "text": "Zheng He's Ming fleet dwarfed early European oceanic expeditions in scale" },
+      { "id": "b", "text": "Columbus commanded more ships than Zheng He and da Gama combined" },
+      { "id": "c", "text": "Portuguese caravels were four times longer than Ming treasure ships" },
+      { "id": "d", "text": "European voyages began nearly a century before Zheng He's expeditions" }
+    ],
+    "answer": "a",
+    "explanation": "Ming China mobilized hundreds of massive ships in 1405, far larger than the small Atlantic fleets of 1492–1497.",
+    "source_url": "https://www.britannica.com/biography/Zheng-He",
+    "trap_notes": {
+      "b": "Columbus sailed with 3 ships, compared with Zheng He's 317.",
+      "c": "Da Gama's ships were around 30 meters, roughly a quarter the length of Ming treasure ships.",
+      "d": "Zheng He sailed in 1405, nearly ninety years before Columbus and da Gama.",
+      "default": "Early Ming treasure fleets vastly outsized early European voyages in ships and tonnage."
+    }
+  },
+  {
+    "id": "world-dat-210",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1500–1866 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -12.9714, "lng": -38.5014, "label": "Salvador, Brazil" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Transatlantic Slave Trade Destinations",
+      "headers": ["Destination Region", "Share of Arrivals", "Main Plantation Crop"],
+      "rows": [
+        ["Brazil", "c. 45%", "Sugar & coffee"],
+        ["Caribbean", "c. 40%", "Sugar"],
+        ["British North America", "c. 4%", "Tobacco & cotton"]
+      ]
+    },
+    "prompt": "What does the table show about where most enslaved Africans were taken?",
+    "options": [
+      { "id": "a", "text": "Over four-fifths went to sugar and coffee plantations in Brazil and the Caribbean" },
+      { "id": "b", "text": "British North America received the vast majority of transatlantic captives" },
+      { "id": "c", "text": "Caribbean colonies imported enslaved labor mainly for tobacco farms" },
+      { "id": "d", "text": "Brazil received fewer enslaved Africans than British North America" }
+    ],
+    "answer": "a",
+    "explanation": "Brazil and the Caribbean absorbed about 85% of enslaved Africans, driven by deadly, labor-intensive sugar production.",
+    "source_url": "https://www.britannica.com/topic/transatlantic-slave-trade",
+    "trap_notes": {
+      "b": "British North America received roughly 4% of transatlantic arrivals, though its enslaved population grew naturally.",
+      "c": "Sugar, not tobacco, was the primary driver of Caribbean slavery.",
+      "d": "Brazil received about 45%, more than ten times British North America's share.",
+      "default": "Brazil and the Caribbean received the overwhelming majority of enslaved Africans."
+    }
+  },
+  {
+    "id": "world-dat-211",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1520–1620 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -19.5723, "lng": -65.755, "label": "Potosi, Bolivia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Central Mexican Indigenous Population",
+      "headers": ["Year", "Est. Population", "Primary Cause"],
+      "rows": [
+        ["1519", "25 million", "Pre-contact baseline"],
+        ["1548", "6 million", "Smallpox & typhus"],
+        ["1605", "1 million", "Repeated epidemics"]
+      ]
+    },
+    "prompt": "What demographic impact does the table show in central Mexico after 1519?",
+    "options": [
+      { "id": "a", "text": "Introduced diseases caused a catastrophic drop of over 90 percent" },
+      { "id": "b", "text": "Indigenous population rebounded steadily between 1548 and 1605" },
+      { "id": "c", "text": "Population fell by only 10 percent during the first century of contact" },
+      { "id": "d", "text": "Most population loss happened before Europeans arrived in 1519" }
+    ],
+    "answer": "a",
+    "explanation": "Lacking immunity to Old World diseases like smallpox and measles, central Mexico's population plunged from 25 million to 1 million.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "b": "Population continued falling sharply from 6 million in 1548 to 1 million in 1605.",
+      "c": "A decline from 25 million to 1 million is a 96 percent collapse, not 10 percent.",
+      "d": "The table uses 1519 as the pre-contact baseline before epidemics struck.",
+      "default": "Old World diseases triggered a demographic collapse of over 90 percent in central Mexico."
+    }
+  },
+  {
+    "id": "world-dat-212",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "1550–1700 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 14.5995, "lng": 120.9842, "label": "Manila, Philippines" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Early Modern Global Silver Flows",
+      "headers": ["Source", "Destination", "Key Trade Link"],
+      "rows": [
+        ["Potosi (Andes)", "Seville, Spain", "Atlantic treasure fleets"],
+        ["Zacatecas (Mexico)", "Manila -> China", "Pacific Manila Galleons"],
+        ["Iwami (Japan)", "Ming & Qing China", "East Asian sea trade"]
+      ]
+    },
+    "prompt": "What global pattern is shown in this table of 16th–17th century silver flows?",
+    "options": [
+      { "id": "a", "text": "Silver from the Americas and Japan converged on China's massive market" },
+      { "id": "b", "text": "China exported huge silver fleets to pay for Andean potatoes" },
+      { "id": "c", "text": "Spain shipped all Potosi silver directly to Japan via Manila" },
+      { "id": "d", "text": "Pacific galleons carried only European wool to Mexico" }
+    ],
+    "answer": "a",
+    "explanation": "Because Ming China required taxes in silver, huge shares of Spanish American and Japanese silver flowed into China.",
+    "source_url": "https://www.britannica.com/place/Potosi-Bolivia",
+    "trap_notes": {
+      "b": "China imported silver in exchange for silk, porcelain, and tea rather than exporting silver.",
+      "c": "Potosi silver crossed the Atlantic to Seville, while Acapulco-Manila galleons linked Mexico to Asia.",
+      "d": "Manila galleons carried Mexican silver west and Asian luxury goods east.",
+      "default": "Global silver mines in the Americas and Japan supplied China's silver-based economy."
+    }
+  },
+  {
+    "id": "world-dat-213",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Early Modern Gunpowder Empires",
+    "era": "c. 1550–1700 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.6546, "lng": 51.668, "label": "Isfahan, Iran" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Early Modern Gunpowder Empires",
+      "headers": ["Empire", "Core Region", "Official Islam Branch"],
+      "rows": [
+        ["Ottoman", "Anatolia & Balkans", "Sunni"],
+        ["Safavid", "Persia (Iran)", "Twelver Shia"],
+        ["Mughal", "Northern India", "Sunni"]
+      ]
+    },
+    "prompt": "Based on the table, which empire's official branch of Islam set it apart from its neighbors?",
+    "options": [
+      { "id": "a", "text": "The Safavid Empire in Persia" },
+      { "id": "b", "text": "The Ottoman Empire in Anatolia" },
+      { "id": "c", "text": "The Mughal Empire in India" },
+      { "id": "d", "text": "The Songhai Empire in West Africa" }
+    ],
+    "answer": "a",
+    "explanation": "Making Twelver Shia Islam the state faith gave Safavid Persia a distinct religious identity between Sunni rivals.",
+    "source_url": "https://www.britannica.com/topic/Safavid-dynasty",
+    "trap_notes": {
+      "b": "The Ottoman Empire was officially Sunni Muslim.",
+      "c": "Mughal emperors were Sunni Muslims ruling a majority-Hindu population.",
+      "d": "The Songhai Empire is not in the table and was Sunni Muslim.",
+      "default": "The Safavid Empire stood out as a Twelver Shia state between the Sunni Ottomans and Mughals."
+    }
+  },
+  {
+    "id": "world-dat-214",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1789 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "stimulus": {
+      "kind": "table",
+      "title": "France's Three Estates (1789)",
+      "headers": ["Estate", "Share of Population", "Share of Land"],
+      "rows": [
+        ["First (Clergy)", "c. 0.5%", "c. 10%"],
+        ["Second (Nobility)", "c. 1.5%", "c. 25%"],
+        ["Third (Commoners)", "c. 98%", "c. 65%"]
+      ]
+    },
+    "prompt": "How does the table help explain peasant and middle-class anger before the French Revolution?",
+    "options": [
+      { "id": "a", "text": "Two percent of the population held over a third of French land and tax perks" },
+      { "id": "b", "text": "The First and Second Estates made up 98 percent of France's population" },
+      { "id": "c", "text": "Commoners owned 98 percent of the land and paid zero royal taxes" },
+      { "id": "d", "text": "Clergy and nobles owned no land and worked as urban factory hands" }
+    ],
+    "answer": "a",
+    "explanation": "Clergy and nobles made up only 2% of France yet controlled 35% of the land while enjoying tax exemptions.",
+    "source_url": "https://www.britannica.com/topic/Estates-General",
+    "trap_notes": {
+      "b": "The Third Estate, not the clergy and nobility, made up 98% of the population.",
+      "c": "The Third Estate owned 65% of the land and carried the heaviest tax burden.",
+      "d": "The clergy and nobility held 35% of the land and dominated high offices.",
+      "default": "Extreme land and tax inequality between the 2% elite and 98% Third Estate fueled revolution."
+    }
+  },
+  {
+    "id": "world-dat-215",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Enlightenment & Revolutions",
+    "era": "1791 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.7592, "lng": -72.1981, "label": "Cap-Haitien, Haiti" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Saint-Domingue Population (c. 1789)",
+      "headers": ["Social Group", "Approx. Count", "Legal Status"],
+      "rows": [
+        ["Enslaved Africans", "500,000", "Unfree plantation labor"],
+        ["Free People of Color", "28,000", "Free, limited rights"],
+        ["White Colonists", "32,000", "Free, held political power"]
+      ]
+    },
+    "prompt": "What does the table reveal about Saint-Domingue on the eve of the 1791 Haitian Revolution?",
+    "options": [
+      { "id": "a", "text": "Enslaved Africans outnumbered free residents by more than eight to one" },
+      { "id": "b", "text": "White colonists formed the largest group on the sugar-producing island" },
+      { "id": "c", "text": "Free people of color held total control of the colonial assembly" },
+      { "id": "d", "text": "Enslaved workers made up less than half of Saint-Domingue's people" }
+    ],
+    "answer": "a",
+    "explanation": "Roughly 500,000 enslaved people outnumbered the combined 60,000 free residents, creating explosive tension.",
+    "source_url": "https://www.britannica.com/topic/Haitian-Revolution",
+    "trap_notes": {
+      "b": "White colonists numbered only about 32,000 out of 560,000 total residents.",
+      "c": "White planters monopolized political power and blocked rights for free people of color.",
+      "d": "Enslaved Africans made up nearly 90 percent of the colony's population.",
+      "default": "A massive enslaved majority lived under harsh sugar-plantation rule by a small white minority."
+    }
+  },
+  {
+    "id": "world-dat-216",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1750–1850 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, United Kingdom" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Manchester Population Growth",
+      "headers": ["Year", "Population", "Economic Driver"],
+      "rows": [
+        ["1750", "18,000", "Market town"],
+        ["1801", "75,000", "Early cotton mills"],
+        ["1851", "303,000", "Steam factories & rail"]
+      ]
+    },
+    "prompt": "What trend does Manchester's population data illustrate between 1750 and 1851?",
+    "options": [
+      { "id": "a", "text": "Industrial factories caused explosive urbanization in Britain" },
+      { "id": "b", "text": "British factory towns shrank as workers returned to farming" },
+      { "id": "c", "text": "Railways in the 1840s reduced Manchester's population by half" },
+      { "id": "d", "text": "Manchester grew only after 1900 with the invention of automobiles" }
+    ],
+    "answer": "a",
+    "explanation": "Manchester grew more than sixteenfold in a century as steam-powered textile mills drew thousands of workers.",
+    "source_url": "https://www.britannica.com/place/Manchester-England",
+    "trap_notes": {
+      "b": "Population surged from 18,000 to over 300,000 rather than shrinking.",
+      "c": "Steam factories and railways accelerated Manchester's growth to 303,000 by 1851.",
+      "d": "Manchester's boom occurred during the 1750–1851 Industrial Revolution.",
+      "default": "Industrialization triggered rapid, crowded urban growth in cities like Manchester."
+    }
+  },
+  {
+    "id": "world-dat-217",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1820–1870 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.4862, "lng": -1.8904, "label": "Birmingham, United Kingdom" },
+    "stimulus": {
+      "kind": "table",
+      "title": "British Iron Production",
+      "headers": ["Year", "Pig Iron (Tons)", "Key Fuel / Tech"],
+      "rows": [
+        ["1788", "68,000", "Early coke smelting"],
+        ["1830", "677,000", "Steam blast furnaces"],
+        ["1850", "2,249,000", "Railroad boom"]
+      ]
+    },
+    "prompt": "According to the table, what happened to British pig iron output between 1788 and 1850?",
+    "options": [
+      { "id": "a", "text": "Output surged more than thirtyfold as steam and rail demand grew" },
+      { "id": "b", "text": "Production peaked in 1788 and declined during the railroad boom" },
+      { "id": "c", "text": "Steam blast furnaces cut iron output in half by 1830" },
+      { "id": "d", "text": "British ironworks stopped using coke and coal after 1830" }
+    ],
+    "answer": "a",
+    "explanation": "Pig iron output jumped from 68,000 tons in 1788 to over 2.2 million tons in 1850 to build rails and machines.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "b": "Output rose dramatically through 1850 rather than peaking in 1788.",
+      "c": "Iron output grew nearly tenfold between 1788 and 1830.",
+      "d": "Coal-derived coke and steam blasts powered the surge in iron production.",
+      "default": "Coal, steam, and railroads drove a massive expansion in British iron production."
+    }
+  },
+  {
+    "id": "world-dat-218",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1750–1900 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 22.5726, "lng": 88.3639, "label": "Kolkata, India" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Share of World Manufacturing Output",
+      "headers": ["Region", "1750", "1900"],
+      "rows": [
+        ["China", "32.8%", "6.2%"],
+        ["India", "24.5%", "1.7%"],
+        ["United Kingdom", "1.9%", "18.5%"]
+      ]
+    },
+    "prompt": "What global economic shift does this table reveal between 1750 and 1900?",
+    "options": [
+      { "id": "a", "text": "Industrial Europe rose sharply while Asian manufacturing shares fell" },
+      { "id": "b", "text": "India remained the world's top textile manufacturer in 1900" },
+      { "id": "c", "text": "China tripled its share of global manufacturing during the 1800s" },
+      { "id": "d", "text": "Britain produced more goods than China and India combined in 1750" }
+    ],
+    "answer": "a",
+    "explanation": "Industrialization vaulted Britain from 1.9% to 18.5% of world manufacturing, while India and China deindustrialized.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "b": "India's share fell from 24.5% in 1750 to 1.7% in 1900 under British colonial competition.",
+      "c": "China's share dropped from 32.8% in 1750 to 6.2% in 1900.",
+      "d": "In 1750, China and India together produced over half of world manufactures, compared to Britain's 1.9%.",
+      "default": "The Industrial Revolution shifted global manufacturing leadership from Asia to Europe."
+    }
+  },
+  {
+    "id": "world-dat-219",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1872–1914 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Meiji Japan Industrial Indicators",
+      "headers": ["Indicator", "1872–1875", "1914"],
+      "rows": [
+        ["Railroad track (miles)", "18", "7,100"],
+        ["Merchant steamships", "96", "1,514"],
+        ["Coal output (tons)", "0.6 million", "21.3 million"]
+      ]
+    },
+    "prompt": "What does the table demonstrate about Meiji Japan's economic transformation?",
+    "options": [
+      { "id": "a", "text": "State-backed modernization built vast rail, shipping, and coal capacity" },
+      { "id": "b", "text": "Japan relied solely on wooden sailing ships through 1914" },
+      { "id": "c", "text": "Railroad construction stalled after 1875 due to lack of coal" },
+      { "id": "d", "text": "Coal mining in Japan shrank as merchant fleets expanded" }
+    ],
+    "answer": "a",
+    "explanation": "From almost zero in 1872, Meiji Japan built over 7,000 miles of rail, a huge steam fleet, and 21 million tons of coal output.",
+    "source_url": "https://www.britannica.com/event/Meiji-Restoration",
+    "trap_notes": {
+      "b": "Merchant steamships grew from 96 to 1,514 by 1914.",
+      "c": "Railroad mileage expanded nearly four-hundredfold between 1872 and 1914.",
+      "d": "Coal output jumped from 0.6 million to 21.3 million tons to fuel trains and ships.",
+      "default": "Meiji reforms rapidly industrialized Japan's transport and energy sectors by 1914."
+    }
+  },
+  {
+    "id": "world-dat-220",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "Industrialization & Imperialism",
+    "era": "1876–1914 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 9.03, "lng": 38.74, "label": "Addis Ababa, Ethiopia" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Africa Under European Rule",
+      "headers": ["Year", "Share Colonized", "Independent States"],
+      "rows": [
+        ["1876", "c. 10%", "Most of continent"],
+        ["1900", "c. 90%", "Ethiopia & Liberia"],
+        ["1914", "c. 97%", "Ethiopia & Liberia"]
+      ]
+    },
+    "prompt": "What historical event explains the dramatic jump in colonized African territory after 1876?",
+    "options": [
+      { "id": "a", "text": "The Scramble for Africa following the 1884–1885 Berlin Conference" },
+      { "id": "b", "text": "The Wave of African Decolonization after World War II" },
+      { "id": "c", "text": "The collapse of European empires during the 1848 revolutions" },
+      { "id": "d", "text": "Ethiopia's conquest of European coastal trading forts" }
+    ],
+    "answer": "a",
+    "explanation": "Armed with Maxim guns, quinine, and steamships, European powers partitioned almost all of Africa by 1914.",
+    "source_url": "https://www.britannica.com/place/Africa/The-colonization-of-Africa",
+    "trap_notes": {
+      "b": "Decolonization reversed colonial rule in the 1950s–1970s, rather than expanding it.",
+      "c": "European colonization of interior Africa surged decades after 1848.",
+      "d": "Ethiopia famously defeated Italy at Adwa in 1896 to stay independent, rather than conquering Europe.",
+      "default": "The Scramble for Africa shifted European control from 10% to 97% in under forty years."
+    }
+  },
+  {
+    "id": "world-dat-221",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1914–1918 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 49.1597, "lng": 5.3844, "label": "Verdun, France" },
+    "stimulus": {
+      "kind": "table",
+      "title": "World War I Military Losses",
+      "headers": ["Country", "Mobilized Troops", "Military Deaths"],
+      "rows": [
+        ["Russia", "12.0 million", "c. 1.8 million"],
+        ["Germany", "11.0 million", "c. 2.0 million"],
+        ["France", "8.4 million", "c. 1.4 million"]
+      ]
+    },
+    "prompt": "What does the table show about the human cost of World War I among major powers?",
+    "options": [
+      { "id": "a", "text": "Industrialized total war killed roughly one in six mobilized soldiers" },
+      { "id": "b", "text": "France mobilized more soldiers than Russia and Germany combined" },
+      { "id": "c", "text": "Russia suffered fewer military deaths than France" },
+      { "id": "d", "text": "Modern weapons kept total military deaths below one million" }
+    ],
+    "answer": "a",
+    "explanation": "Machine guns, poison gas, and heavy artillery produced staggering casualties across all major European belligerents.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "trap_notes": {
+      "b": "France mobilized 8.4 million, fewer than either Russia (12 million) or Germany (11 million).",
+      "c": "Russia lost about 1.8 million soldiers, more than France's 1.4 million.",
+      "d": "Just these three nations alone lost over 5 million soldiers.",
+      "default": "World War I's industrialized weapons caused millions of military deaths across Europe."
+    }
+  },
+  {
+    "id": "world-dat-222",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1929–1933 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Great Depression Industrial Output (1929 = 100)",
+      "headers": ["Country", "1929", "1932"],
+      "rows": [
+        ["United States", "100", "54"],
+        ["Germany", "100", "53"],
+        ["USSR", "100", "174"]
+      ]
+    },
+    "prompt": "Why did Soviet industrial output rise while Western economies plunged in 1929–1932?",
+    "options": [
+      { "id": "a", "text": "Stalin's state-planned Five-Year Plans isolated the USSR from global markets" },
+      { "id": "b", "text": "The USSR received massive Marshall Plan grants from Washington in 1930" },
+      { "id": "c", "text": "German and U.S. factories moved completely to Moscow in 1931" },
+      { "id": "d", "text": "Soviet farms stopped growing grain to focus on stock trading" }
+    ],
+    "answer": "a",
+    "explanation": "Command-economy Five-Year Plans poured state resources into heavy industry, shielding Soviet output from the market crash.",
+    "source_url": "https://www.britannica.com/event/Great-Depression",
+    "trap_notes": {
+      "b": "The Marshall Plan began in 1948 for Western Europe, and the USSR refused to join.",
+      "c": "U.S. and German output fell due to banking crises and collapsed demand, not factory relocation.",
+      "d": "The USSR had no private stock market and forced peasants into collective farms.",
+      "default": "Stalin's Five-Year Plans drove Soviet industrial growth even as market economies crashed."
+    }
+  },
+  {
+    "id": "world-dat-223",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1945–1960 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Post-WWII Decolonization Milestones",
+      "headers": ["Country", "Former Colonial Power", "Independence Year"],
+      "rows": [
+        ["India", "United Kingdom", "1947"],
+        ["Indonesia", "Netherlands", "1949"],
+        ["Algeria", "France", "1962"]
+      ]
+    },
+    "prompt": "What broader 20th-century pattern is reflected in this table?",
+    "options": [
+      { "id": "a", "text": "Weakened European empires lost Asian and African colonies after World War II" },
+      { "id": "b", "text": "France, Britain, and the Netherlands expanded their empires after 1945" },
+      { "id": "c", "text": "African colonies won independence before Asian colonies" },
+      { "id": "d", "text": "Indonesia remained a Dutch colony until 1962" }
+    ],
+    "answer": "a",
+    "explanation": "Exhausted by World War II, European powers could no longer hold colonies against rising Asian and African nationalism.",
+    "source_url": "https://www.britannica.com/topic/decolonization",
+    "trap_notes": {
+      "b": "European empires dissolved rather than expanded in the decades after 1945.",
+      "c": "In the table, Asian nations India (1947) and Indonesia (1949) gained freedom before Algeria (1962).",
+      "d": "The Netherlands recognized Indonesian independence in 1949.",
+      "default": "Post-1945 decolonization ended centuries of European rule across Asia and Africa."
+    }
+  },
+  {
+    "id": "world-dat-224",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1949–1955 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Cold War Military Alliances",
+      "headers": ["Alliance", "Founded", "Leading Superpower"],
+      "rows": [
+        ["NATO", "1949", "United States"],
+        ["Warsaw Pact", "1955", "Soviet Union"],
+        ["Non-Aligned Movement", "1961 (formal)", "None (neutral bloc)"]
+      ]
+    },
+    "prompt": "Based on the table, why did the Soviet Union form the Warsaw Pact in 1955?",
+    "options": [
+      { "id": "a", "text": "As a rival Eastern Bloc military alliance countering NATO" },
+      { "id": "b", "text": "To join the United States in defending Western Europe" },
+      { "id": "c", "text": "To unite neutral Asian and African nations against both blocs" },
+      { "id": "d", "text": "To replace the United Nations Security Council in 1949" }
+    ],
+    "answer": "a",
+    "explanation": "After West Germany joined NATO in 1955, Moscow bound Eastern European satellite states into the Warsaw Pact.",
+    "source_url": "https://www.britannica.com/event/Warsaw-Pact",
+    "trap_notes": {
+      "b": "The Warsaw Pact opposed NATO rather than cooperating with Washington.",
+      "c": "Neutrality between superpower blocs was the goal of the Non-Aligned Movement.",
+      "d": "The Warsaw Pact was a 1955 military treaty, not a replacement for the United Nations.",
+      "default": "The 1955 Warsaw Pact served as the Soviet-led counterweight to NATO."
+    }
+  },
+  {
+    "id": "world-dat-225",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1950–1985 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "stimulus": {
+      "kind": "table",
+      "title": "India Wheat Production (Green Revolution)",
+      "headers": ["Year", "Wheat Harvest (Million Tons)", "Policy / Tech"],
+      "rows": [
+        ["1960", "10.3", "Traditional seeds"],
+        ["1970", "20.1", "High-yield dwarf wheat"],
+        ["1980", "31.8", "Expanded irrigation"]
+      ]
+    },
+    "prompt": "What does India's wheat data show about the impact of Green Revolution technology?",
+    "options": [
+      { "id": "a", "text": "Wheat harvests more than tripled in twenty years, easing famine risk" },
+      { "id": "b", "text": "High-yield seeds cut India's wheat output in half by 1970" },
+      { "id": "c", "text": "Expanded irrigation caused wheat harvests to stagnate after 1970" },
+      { "id": "d", "text": "Traditional seeds outproduced dwarf wheat by 1980" }
+    ],
+    "answer": "a",
+    "explanation": "Dwarf wheat varieties, fertilizers, and irrigation lifted India's harvest from 10.3 million tons to 31.8 million tons.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "b": "Output nearly doubled between 1960 and 1970.",
+      "c": "Harvests rose another 11.7 million tons between 1970 and 1980.",
+      "d": "High-yield dwarf wheat and irrigation drove the steep rise after 1960.",
+      "default": "Green Revolution seeds and irrigation tripled India's wheat output between 1960 and 1980."
+    }
+  },
+  {
+    "id": "world-dat-226",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1945–1975 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Cold War Nuclear Warhead Stockpiles",
+      "headers": ["Year", "United States", "Soviet Union"],
+      "rows": [
+        ["1950", "c. 300", "c. 5"],
+        ["1965", "c. 31,000", "c. 6,100"],
+        ["1985", "c. 23,000", "c. 39,000"]
+      ]
+    },
+    "prompt": "What Cold War trend is visible in this table of nuclear stockpiles?",
+    "options": [
+      { "id": "a", "text": "Both superpowers built tens of thousands of warheads in an escalating arms race" },
+      { "id": "b", "text": "The Soviet Union had more nuclear weapons than the United States in 1950" },
+      { "id": "c", "text": "Both nations dismantled almost all nuclear weapons before 1985" },
+      { "id": "d", "text": "U.S. stockpiles stayed below 500 warheads throughout the Cold War" }
+    ],
+    "answer": "a",
+    "explanation": "From a tiny handful in 1950, both superpowers amassed huge arsenals, creating Mutually Assured Destruction.",
+    "source_url": "https://www.britannica.com/topic/arms-race",
+    "trap_notes": {
+      "b": "In 1950, the U.S. held roughly 300 warheads while the USSR had about 5.",
+      "c": "Major stockpile reductions began after 1985 with treaties like INF and START.",
+      "d": "U.S. warheads peaked above 30,000 in the mid-1960s.",
+      "default": "The Cold War nuclear arms race produced massive arsenals on both sides."
+    }
+  },
+  {
+    "id": "world-dat-227",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1980–2000 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "stimulus": {
+      "kind": "table",
+      "title": "China's Post-1978 Economic Opening",
+      "headers": ["Year", "Exports ($ Billion)", "Urban Population Share"],
+      "rows": [
+        ["1980", "$18 billion", "19%"],
+        ["1990", "$62 billion", "26%"],
+        ["2000", "$249 billion", "36%"]
+      ]
+    },
+    "prompt": "What does the table show about China's economy in the two decades after Deng Xiaoping's reforms?",
+    "options": [
+      { "id": "a", "text": "Exports soared more than tenfold alongside rapid movement to cities" },
+      { "id": "b", "text": "China's exports shrank as more people moved into the countryside" },
+      { "id": "c", "text": "Over 80 percent of Chinese people lived in cities by 1980" },
+      { "id": "d", "text": "Foreign trade stalled completely between 1990 and 2000" }
+    ],
+    "answer": "a",
+    "explanation": "Special Economic Zones and export manufacturing lifted Chinese exports from $18B to $249B while urbanizing the country.",
+    "source_url": "https://www.britannica.com/biography/Deng-Xiaoping",
+    "trap_notes": {
+      "b": "Exports grew steeply and the urban share rose from 19% to 36%.",
+      "c": "In 1980, only 19% of China's population lived in cities.",
+      "d": "Exports quadrupled between 1990 ($62B) and 2000 ($249B).",
+      "default": "Deng's market reforms sparked explosive export growth and rapid urbanization."
+    }
+  },
+  {
+    "id": "world-dat-228",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1957–2007 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "chronology",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Growth of European Integration",
+      "headers": ["Milestone", "Year", "Member States"],
+      "rows": [
+        ["Treaty of Rome (EEC)", "1957", "6"],
+        ["Maastricht Treaty (EU)", "1993", "12"],
+        ["Post-Cold War Expansion", "2007", "27"]
+      ]
+    },
+    "prompt": "What shift in European integration does the table reflect after the Cold War?",
+    "options": [
+      { "id": "a", "text": "The European Union more than doubled its membership, adding former Eastern Bloc states" },
+      { "id": "b", "text": "European nations dissolved the common market in 1993" },
+      { "id": "c", "text": "Only six countries remained in the European Union by 2007" },
+      { "id": "d", "text": "The Treaty of Rome included 27 countries when signed in 1957" }
+    ],
+    "answer": "a",
+    "explanation": "Starting with six Western European founders in 1957, the EU grew to 27 members by 2007 as Eastern Europe joined.",
+    "source_url": "https://www.britannica.com/topic/European-Union",
+    "trap_notes": {
+      "b": "The 1993 Maastricht Treaty deepened integration by creating the European Union.",
+      "c": "Membership rose from 6 in 1957 to 27 by 2007.",
+      "d": "The 1957 Treaty of Rome began with just six founding nations.",
+      "default": "After the Cold War, the EU expanded eastward from 12 to 27 member states."
+    }
+  },
+  {
+    "id": "world-dat-229",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1950–2000 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5665, "lng": 126.978, "label": "Seoul, South Korea" },
+    "stimulus": {
+      "kind": "table",
+      "title": "East Asian 'Tiger' Growth (South Korea)",
+      "headers": ["Year", "Per Capita GDP (USD)", "Leading Export"],
+      "rows": [
+        ["1960", "$158", "Raw minerals & wigs"],
+        ["1980", "$1,715", "Steel & textiles"],
+        ["2000", "$11,948", "Electronics & cars"]
+      ]
+    },
+    "prompt": "What economic strategy is illustrated by South Korea's trajectory from 1960 to 2000?",
+    "options": [
+      { "id": "a", "text": "Moving up the ladder from low-cost exports to high-tech manufacturing" },
+      { "id": "b", "text": "Closing all ports to foreign trade to focus on subsistence rice" },
+      { "id": "c", "text": "Remaining dependent on raw mineral exports through 2000" },
+      { "id": "d", "text": "Experiencing steady income decline after building steel mills" }
+    ],
+    "answer": "a",
+    "explanation": "Investing in education and export industries lifted South Korea from poverty in 1960 to a high-tech economy by 2000.",
+    "source_url": "https://www.britannica.com/place/South-Korea/Economy",
+    "trap_notes": {
+      "b": "Export-oriented industrialization, not isolation, drove South Korea's rapid growth.",
+      "c": "By 2000, South Korea's leading exports were high-value electronics and automobiles.",
+      "d": "Per capita GDP rose more than seventyfold between 1960 and 2000.",
+      "default": "South Korea achieved rapid growth by shifting from raw goods to advanced manufacturing exports."
+    }
+  },
+  {
+    "id": "world-dat-230",
+    "type": "data",
+    "domain": "World",
+    "subdomain": "20th-Century Conflicts & Cold War",
+    "era": "1950–2010 CE",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, United States" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Global Urbanization Trend",
+      "headers": ["Year", "World Population", "Share Living in Cities"],
+      "rows": [
+        ["1950", "2.5 billion", "30%"],
+        ["1980", "4.4 billion", "39%"],
+        ["2010", "6.9 billion", "52%"]
+      ]
+    },
+    "prompt": "What historic demographic milestone does the table show between 1980 and 2010?",
+    "options": [
+      { "id": "a", "text": "For the first time, over half of humanity lived in urban areas" },
+      { "id": "b", "text": "Global population fell sharply as cities emptied out" },
+      { "id": "c", "text": "Rural farm populations grew faster than city populations after 1980" },
+      { "id": "d", "text": "Urban share stayed frozen at 30 percent from 1950 to 2010" }
+    ],
+    "answer": "a",
+    "explanation": "Driven by industrialization and migration across Asia, Africa, and Latin America, the world became majority urban by 2010.",
+    "source_url": "https://www.un.org/en/global-issues/population",
+    "trap_notes": {
+      "b": "World population nearly tripled from 2.5 billion in 1950 to 6.9 billion in 2010.",
+      "c": "The urban share rose from 39% to 52%, meaning cities grew faster than rural areas.",
+      "d": "The share living in cities climbed 22 percentage points between 1950 and 2010.",
+      "default": "By 2010, more than half of the world's growing population lived in cities."
+    }
+  }
+]

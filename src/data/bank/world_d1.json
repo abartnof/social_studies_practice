@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "world-ord-201",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Early Civilizations",
+    "era": "3500–500 BCE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.326, "lng": 45.636, "label": "Ur, Mesopotamia" },
+    "prompt": "Order these ancient Near Eastern developments from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Cyrus the Great establishes the Persian Empire" },
+      { "id": "b", "text": "Sumerians develop early cuneiform script on clay" },
+      { "id": "c", "text": "Hammurabi issues his written Babylonian law code" },
+      { "id": "d", "text": "Phoenicians spread an alphabetic script across trade routes" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Sumerian cuneiform came first, followed by Hammurabi's Code, the Phoenician alphabet, and Cyrus's Persian Empire.",
+    "source_url": "https://www.britannica.com/topic/cuneiform",
+    "trap_notes": {
+      "default": "Bronze Age Sumer and Babylon came centuries before the Iron Age Phoenician alphabet and Persian Empire."
+    }
+  },
+  {
+    "id": "world-ord-202",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Ancient Egypt",
+    "era": "3100–30 BCE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.9792, "lng": 31.1342, "label": "Giza, Egypt" },
+    "prompt": "Order these milestones of Ancient Egypt from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Workers build the Great Pyramid at Giza" },
+      { "id": "b", "text": "Hatshepsut rules as female pharaoh and expands trade" },
+      { "id": "c", "text": "Narmer unites Upper and Lower Egypt into one kingdom" },
+      { "id": "d", "text": "Cleopatra VII dies as Rome annexes Egypt" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Egypt unified under Narmer, built Giza's Great Pyramid in the Old Kingdom, saw Hatshepsut in the New Kingdom, and fell to Rome.",
+    "source_url": "https://www.britannica.com/place/ancient-Egypt",
+    "trap_notes": {
+      "default": "Unification preceded Old Kingdom pyramids, which came long before New Kingdom pharaohs and Ptolemaic Rome."
+    }
+  },
+  {
+    "id": "world-ord-203",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Ancient South Asia",
+    "era": "2600 BCE–550 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.5941, "lng": 85.1376, "label": "Pataliputra, India" },
+    "prompt": "Order these South Asian historical eras from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Gupta Empire patrons advance astronomy and mathematics" },
+      { "id": "b", "text": "Harappa and Mohenjo-daro thrive in the Indus Valley" },
+      { "id": "c", "text": "Ashoka promotes Buddhism across the Maurya Empire" },
+      { "id": "d", "text": "Early Vedic hymns are composed in northern India" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Indus Valley cities rose first, followed by Vedic culture, Ashoka's Maurya Empire, and later the Gupta Empire.",
+    "source_url": "https://www.britannica.com/topic/Indus-civilization",
+    "trap_notes": {
+      "default": "Indus cities and Vedic traditions preceded the Maurya Empire, while the Gupta Empire came centuries later."
+    }
+  },
+  {
+    "id": "world-ord-204",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Ancient China",
+    "era": "1600 BCE–220 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Xi'an, China" },
+    "prompt": "Order these early Chinese dynasties from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Qin Dynasty unifies China and standardizes weights" },
+      { "id": "b", "text": "Han Dynasty opens Silk Road trade to Central Asia" },
+      { "id": "c", "text": "Shang Dynasty casts bronze vessels and oracle bones" },
+      { "id": "d", "text": "Zhou Dynasty introduces the Mandate of Heaven concept" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Shang rule came first, then the Zhou Dynasty, brief Qin unification, and the long-lasting Han Dynasty.",
+    "source_url": "https://www.britannica.com/topic/Shang-dynasty",
+    "trap_notes": {
+      "default": "Shang and Zhou came before Qin unification, and the Han Dynasty followed the fall of Qin."
+    }
+  },
+  {
+    "id": "world-ord-205",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Classical Greece",
+    "era": "500–323 BCE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "prompt": "Order these events of Classical Greece from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Alexander the Great conquers the Persian Empire" },
+      { "id": "b", "text": "Greek city-states defeat invading Persian armies" },
+      { "id": "c", "text": "Sparta defeats Athens in the Peloponnesian War" },
+      { "id": "d", "text": "Cleisthenes expands democratic reforms in Athens" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Athenian democracy began before the Persian Wars, which preceded the Peloponnesian War and Alexander's conquests.",
+    "source_url": "https://www.britannica.com/place/ancient-Greece",
+    "trap_notes": {
+      "default": "The Persian Wars united Greeks briefly before Athens and Sparta fought, leaving Greece open to Macedon."
+    }
+  },
+  {
+    "id": "world-ord-206",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Ancient Rome",
+    "era": "509 BCE–476 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "Order these Roman historical milestones from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Augustus becomes the first Roman emperor" },
+      { "id": "b", "text": "Rome defeats Carthage in the Punic Wars" },
+      { "id": "c", "text": "Constantine issues the Edict of Milan on religion" },
+      { "id": "d", "text": "Roman patricians establish an aristocratic republic" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "The Roman Republic formed first, fought Carthage, became an empire under Augustus, and legalized Christianity under Constantine.",
+    "source_url": "https://www.britannica.com/place/ancient-Rome",
+    "trap_notes": {
+      "default": "Republic expansion in the Punic Wars preceded Augustus's Principate and Constantine's fourth-century reforms."
+    }
+  },
+  {
+    "id": "world-ord-207",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "World Religions",
+    "era": "600 BCE–650 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.7683, "lng": 35.2137, "label": "Jerusalem" },
+    "prompt": "Order these major religious foundations from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Muhammad leads the Hijra from Mecca to Medina" },
+      { "id": "b", "text": "Siddhartha Gautama teaches the Four Noble Truths" },
+      { "id": "c", "text": "Paul spreads Christian teachings around the Mediterranean" },
+      { "id": "d", "text": "Constantine convenes the Council of Nicaea" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Buddhism began in the sixth century BCE, followed by first-century Christianity, the 325 CE Council of Nicaea, and 622 CE Islam.",
+    "source_url": "https://www.britannica.com/topic/Buddhism",
+    "trap_notes": {
+      "default": "Buddhism predates Christianity by centuries, while Islam emerged in the seventh century CE."
+    }
+  },
+  {
+    "id": "world-ord-208",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Byzantine Empire",
+    "era": "330–1453 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Constantinople" },
+    "prompt": "Order these Byzantine Empire events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Ottoman forces capture Constantinople under Mehmed II" },
+      { "id": "b", "text": "Justinian I codifies Roman law and builds Hagia Sophia" },
+      { "id": "c", "text": "Latin Crusaders sack Constantinople during the Fourth Crusade" },
+      { "id": "d", "text": "Rome and Constantinople split in the Great Schism" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Justinian ruled in the 500s, the Great Schism occurred in 1054, Crusaders sacked the city in 1204, and Ottomans took it in 1453.",
+    "source_url": "https://www.britannica.com/place/Byzantine-Empire",
+    "trap_notes": {
+      "default": "Justinian's sixth-century golden age came long before the 1054 Schism and late medieval Ottoman conquest."
+    }
+  },
+  {
+    "id": "world-ord-209",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Islamic Caliphates",
+    "era": "632–1258 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.3152, "lng": 44.3661, "label": "Baghdad, Iraq" },
+    "prompt": "Order these developments in Islamic history from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Abbasid scholars establish the House of Wisdom in Baghdad" },
+      { "id": "b", "text": "Mongol armies under Hulagu Khan destroy Baghdad" },
+      { "id": "c", "text": "Umayyad armies expand rule across North Africa into Iberia" },
+      { "id": "d", "text": "The Quran is compiled under the early Rashidun caliphs" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "The Rashidun caliphs came first, followed by Umayyad expansion, the Abbasid golden age in Baghdad, and the 1258 Mongol siege.",
+    "source_url": "https://www.britannica.com/topic/Abbasid-caliphate",
+    "trap_notes": {
+      "default": "Umayyad rule preceded the Abbasid Caliphate, which ended when Mongols sacked Baghdad in 1258."
+    }
+  },
+  {
+    "id": "world-ord-210",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "East Asia",
+    "era": "581–1368 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.2741, "lng": 120.1551, "label": "Hangzhou, China" },
+    "prompt": "Order these post-classical Chinese dynasties from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Song Dynasty expands paper money and magnetic compasses" },
+      { "id": "b", "text": "Sui Dynasty constructs the Grand Canal linking north and south" },
+      { "id": "c", "text": "Kublai Khan establishes the Mongol-led Yuan Dynasty" },
+      { "id": "d", "text": "Tang Dynasty expands Silk Road trade from Chang'an" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Sui built the Grand Canal, followed by the Tang, the commercial Song Dynasty, and Kublai Khan's Yuan Dynasty.",
+    "source_url": "https://www.britannica.com/topic/Tang-dynasty",
+    "trap_notes": {
+      "default": "Sui and Tang came before the Song Dynasty, which was conquered by the Mongols who founded the Yuan."
+    }
+  },
+  {
+    "id": "world-ord-211",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Medieval Japan",
+    "era": "794–1603 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.0116, "lng": 135.7681, "label": "Kyoto, Japan" },
+    "prompt": "Order these eras of Japanese history from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Tokugawa Ieyasu establishes the Edo shogunate" },
+      { "id": "b", "text": "Heian court culture produces The Tale of Genji" },
+      { "id": "c", "text": "Minamoto Yoritomo forms the Kamakura shogunate" },
+      { "id": "d", "text": "Oda Nobunaga begins wars to unify Sengoku Japan" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Heian court life preceded Kamakura military rule, followed by Sengoku unification wars and the Tokugawa shogunate.",
+    "source_url": "https://www.britannica.com/place/Japan/History",
+    "trap_notes": {
+      "default": "Imperial Heian culture gave way to Kamakura shoguns long before sixteenth-century unification and Tokugawa rule."
+    }
+  },
+  {
+    "id": "world-ord-212",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "West African Kingdoms",
+    "era": "800–1600 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "prompt": "Order these West African milestones from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Mansa Musa leads a famed Mali pilgrimage to Mecca" },
+      { "id": "b", "text": "Moroccan forces defeat Songhai at the Battle of Tondibi" },
+      { "id": "c", "text": "Kingdom of Ghana taxes trans-Saharan gold and salt trade" },
+      { "id": "d", "text": "Sunni Ali expands the Songhai Empire along the Niger River" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Ghana rose first, then Mansa Musa's Mali, Sunni Ali's Songhai Empire, and finally Morocco's 1591 victory at Tondibi.",
+    "source_url": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+    "trap_notes": {
+      "default": "Remember the sequence of Sahel empires: Ghana, then Mali, then Songhai, which fell to Morocco in 1591."
+    }
+  },
+  {
+    "id": "world-ord-213",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Medieval Europe",
+    "era": "800–1350 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, England" },
+    "prompt": "Order these medieval European events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "King John seals Magna Carta at Runnymede" },
+      { "id": "b", "text": "Charlemagne is crowned emperor in Rome" },
+      { "id": "c", "text": "The Black Death arrives across European ports" },
+      { "id": "d", "text": "Pope Urban II calls for the First Crusade" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Charlemagne was crowned in 800, the First Crusade began in 1095, Magna Carta was sealed in 1215, and the Black Death hit in 1347.",
+    "source_url": "https://www.britannica.com/event/Middle-Ages",
+    "trap_notes": {
+      "default": "Charlemagne's 800 coronation came centuries before the Crusades, Magna Carta, and the fourteenth-century plague."
+    }
+  },
+  {
+    "id": "world-ord-214",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Mongol Empire",
+    "era": "1206–1368 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 47.9186, "lng": 106.917, "label": "Karakorum, Mongolia" },
+    "prompt": "Order these events of the Mongol Empire from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Marco Polo visits the court of Kublai Khan" },
+      { "id": "b", "text": "Temujin takes the title Genghis Khan" },
+      { "id": "c", "text": "Ming forces drive Yuan rulers out of Beijing" },
+      { "id": "d", "text": "Mongol armies invade Kievan Rus principalities" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Genghis Khan united the tribes in 1206, Batu invaded Rus in the 1230s, Marco Polo arrived under Kublai, and the Ming rose in 1368.",
+    "source_url": "https://www.britannica.com/place/Mongol-empire",
+    "trap_notes": {
+      "default": "Genghis Khan's 1206 unification came before westward Rus invasions, Kublai's Yuan court, and the 1368 Ming rise."
+    }
+  },
+  {
+    "id": "world-ord-215",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Mesoamerica & Andes",
+    "era": "250–1533 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Tenochtitlan, Mexico" },
+    "prompt": "Order these pre-Columbian and conquest events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Spanish conquistadors overthrow the Inca Empire" },
+      { "id": "b", "text": "Maya city-states flourish in the Classic period" },
+      { "id": "c", "text": "Mexica founders establish Tenochtitlan on Lake Texcoco" },
+      { "id": "d", "text": "Hernan Cortes defeats the Aztec Empire" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Classic Maya cities peaked before Tenochtitlan's 1325 founding; Cortes defeated the Aztecs in 1521 before Pizarro's 1533 Inca conquest.",
+    "source_url": "https://www.britannica.com/topic/Aztec",
+    "trap_notes": {
+      "default": "Classic Maya civilization peaked long before the Aztec Triple Alliance, and Mexico fell before Peru."
+    }
+  },
+  {
+    "id": "world-ord-216",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Renaissance & Reformation",
+    "era": "1350–1565 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.7696, "lng": 11.2558, "label": "Florence, Italy" },
+    "prompt": "Order these Renaissance and Reformation events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Martin Luther posts his Ninety-Five Theses in Wittenberg" },
+      { "id": "b", "text": "Johannes Gutenberg prints Bibles with movable metal type" },
+      { "id": "c", "text": "The Council of Trent defines Catholic Counter-Reformation doctrine" },
+      { "id": "d", "text": "Petrarch revives classical Latin texts in early Renaissance Italy" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Petrarch's humanism began in the 1300s, Gutenberg printed in the 1450s, Luther posted in 1517, and Trent met in 1545–1563.",
+    "source_url": "https://www.britannica.com/event/Reformation",
+    "trap_notes": {
+      "default": "Humanism and printing came before Luther's 1517 protest, which triggered the Council of Trent."
+    }
+  },
+  {
+    "id": "world-ord-217",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Age of Exploration",
+    "era": "1405–1522 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.7223, "lng": -9.1393, "label": "Lisbon, Portugal" },
+    "prompt": "Order these maritime voyages from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Vasco da Gama reaches India around southern Africa" },
+      { "id": "b", "text": "Zheng He leads Ming treasure fleets across the Indian Ocean" },
+      { "id": "c", "text": "Magellan's expedition completes a global circumnavigation" },
+      { "id": "d", "text": "Christopher Columbus lands in the Caribbean" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Zheng He sailed in 1405–1433, Columbus in 1492, da Gama reached India in 1498, and Magellan's fleet returned in 1522.",
+    "source_url": "https://www.britannica.com/biography/Zheng-He",
+    "trap_notes": {
+      "default": "Ming treasure voyages occurred decades before European transoceanic crossings in 1492 and 1498."
+    }
+  },
+  {
+    "id": "world-ord-218",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1453–1707 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 27.1751, "lng": 78.0421, "label": "Agra, India" },
+    "prompt": "Order these Gunpowder Empire milestones from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Babur founds the Mughal Empire after winning at Panipat" },
+      { "id": "b", "text": "Shah Jahan commissions the Taj Mahal in Agra" },
+      { "id": "c", "text": "Ismail I establishes the Shia Safavid dynasty in Persia" },
+      { "id": "d", "text": "Ottoman cannons breach Constantinople's walls" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "Ottomans took Constantinople in 1453, Safavids rose in 1501, Babur founded the Mughals in 1526, and Shah Jahan built the Taj Mahal in 1632.",
+    "source_url": "https://www.britannica.com/topic/Mughal-dynasty",
+    "trap_notes": {
+      "default": "Constantinople fell in 1453 before Safavid and Mughal foundations, while the Taj Mahal came in the 1600s."
+    }
+  },
+  {
+    "id": "world-ord-219",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Scientific Revolution",
+    "era": "1543–1687 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.2053, "lng": 0.1218, "label": "Cambridge, England" },
+    "prompt": "Order these Scientific Revolution works from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Isaac Newton publishes Principia Mathematica on gravity" },
+      { "id": "b", "text": "Nicolaus Copernicus proposes a heliocentric universe" },
+      { "id": "c", "text": "Galileo Galilei observes Jupiter's moons by telescope" },
+      { "id": "d", "text": "Johannes Kepler formulates laws of planetary motion" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Copernicus published in 1543, Kepler's first laws appeared in 1609, Galileo's Sidereus Nuncius in 1610, and Newton's Principia in 1687.",
+    "source_url": "https://www.britannica.com/science/Scientific-Revolution",
+    "trap_notes": {
+      "default": "Copernicus launched heliocentrism in 1543, whereas Newton synthesized motion and gravity in 1687."
+    }
+  },
+  {
+    "id": "world-ord-220",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Early Modern Europe",
+    "era": "1588–1715 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "prompt": "Order these early modern European events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "England's Glorious Revolution affirms the Bill of Rights" },
+      { "id": "b", "text": "The Peace of Westphalia ends the Thirty Years' War" },
+      { "id": "c", "text": "English ships scatter the Spanish Armada" },
+      { "id": "d", "text": "Louis XIV revokes the Edict of Nantes" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The Armada sailed in 1588, Westphalia came in 1648, Louis XIV revoked the Edict of Nantes in 1685, and the Glorious Revolution in 1688.",
+    "source_url": "https://www.britannica.com/event/Peace-of-Westphalia",
+    "trap_notes": {
+      "default": "The 1588 Armada preceded the 1648 Peace of Westphalia, and both preceded 1680s France and England."
+    }
+  },
+  {
+    "id": "world-ord-221",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "The Enlightenment",
+    "era": "1689–1776 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "Order these Enlightenment publications from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Adam Smith publishes The Wealth of Nations" },
+      { "id": "b", "text": "John Locke publishes Two Treatises of Government" },
+      { "id": "c", "text": "Jean-Jacques Rousseau publishes The Social Contract" },
+      { "id": "d", "text": "Montesquieu publishes The Spirit of the Laws" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Locke published in 1689, Montesquieu in 1748, Rousseau in 1762, and Adam Smith in 1776.",
+    "source_url": "https://www.britannica.com/event/Enlightenment-European-history",
+    "trap_notes": {
+      "default": "Locke wrote in the 1680s, Montesquieu and Rousseau in mid-1700s France, and Smith in 1776."
+    }
+  },
+  {
+    "id": "world-ord-222",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "French Revolution",
+    "era": "1789–1815 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "Order these French Revolution and Napoleonic events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "European allies defeat Napoleon at Waterloo" },
+      { "id": "b", "text": "Parisians storm the Bastille prison-fortress" },
+      { "id": "c", "text": "Napoleon Bonaparte crowns himself Emperor of the French" },
+      { "id": "d", "text": "Robespierre's Committee oversees the Reign of Terror" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Bastille fell in 1789, the Reign of Terror peaked in 1793–1794, Napoleon crowned himself in 1804, and Waterloo occurred in 1815.",
+    "source_url": "https://www.britannica.com/event/French-Revolution",
+    "trap_notes": {
+      "default": "Revolutionary upheaval and the Reign of Terror came before Napoleon's Empire and final 1815 defeat."
+    }
+  },
+  {
+    "id": "world-ord-223",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Atlantic Revolutions",
+    "era": "1776–1824 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 18.5944, "lng": -72.3074, "label": "Port-au-Prince, Haiti" },
+    "prompt": "Order these Atlantic independence milestones from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Haiti declares independence as a free Black republic" },
+      { "id": "b", "text": "The United States issues the Declaration of Independence" },
+      { "id": "c", "text": "Gran Colombia wins independence under Simon Bolivar" },
+      { "id": "d", "text": "Enslaved people launch the Haitian Revolution in Saint-Domingue" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The US declared independence in 1776, Haiti's revolt began in 1791, Haiti won freedom in 1804, and Bolivar freed Gran Colombia by 1821.",
+    "source_url": "https://www.britannica.com/topic/Haitian-Revolution",
+    "trap_notes": {
+      "default": "The US Revolution preceded the 1791–1804 Haitian Revolution, which in turn preceded South American independence."
+    }
+  },
+  {
+    "id": "world-ord-224",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "1760–1880 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, England" },
+    "prompt": "Order these industrial breakthroughs from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Henry Bessemer patents a process for mass-producing steel" },
+      { "id": "b", "text": "James Watt patents an improved steam engine" },
+      { "id": "c", "text": "Thomas Edison develops a practical incandescent light system" },
+      { "id": "d", "text": "George Stephenson's Rocket runs on the Liverpool-Manchester rail" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Watt's steam engine (1769) powered early factories before Stephenson's 1829 locomotive, Bessemer steel (1856), and Edison's 1879 lighting.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "default": "First Industrial Revolution steam and rail came before Second Industrial Revolution steel and electricity."
+    }
+  },
+  {
+    "id": "world-ord-225",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Nineteenth-Century Europe",
+    "era": "1815–1871 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order these nineteenth-century European events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Otto von Bismarck proclaims the unified German Empire" },
+      { "id": "b", "text": "The Congress of Vienna restores European monarchies" },
+      { "id": "c", "text": "Revolutions sweep across France, Germany, and Austria" },
+      { "id": "d", "text": "Victor Emmanuel II becomes king of a unified Italy" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "The Congress of Vienna met in 1815, revolutions erupted in 1848, Italy unified in 1861, and Germany unified in 1871.",
+    "source_url": "https://www.britannica.com/event/Congress-of-Vienna",
+    "trap_notes": {
+      "default": "Vienna's 1815 settlement preceded the 1848 revolutions, while Italian unification came a decade before Germany's."
+    }
+  },
+  {
+    "id": "world-ord-226",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Qing China",
+    "era": "1839–1912 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "Order these events of late Qing China from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "The Boxer Rebellion attacks foreign legations in Beijing" },
+      { "id": "b", "text": "Britain forces China to sign the Treaty of Nanjing" },
+      { "id": "c", "text": "The Xinhai Revolution ends imperial rule in China" },
+      { "id": "d", "text": "The Taiping Rebellion devastates southern and central China" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The First Opium War ended in 1842, the Taiping Rebellion raged in 1850–1864, the Boxer Rebellion in 1900, and the Xinhai Revolution in 1911.",
+    "source_url": "https://www.britannica.com/event/Opium-Wars",
+    "trap_notes": {
+      "default": "The 1842 Treaty of Nanjing and 1850s Taiping Rebellion preceded the 1900 Boxers and 1911 fall of the Qing."
+    }
+  },
+  {
+    "id": "world-ord-227",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Modern Japan",
+    "era": "1853–1905 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Order these events of Japan's modernization from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Japan defeats Russia in the Russo-Japanese War" },
+      { "id": "b", "text": "Commodore Perry's fleet arrives in Edo Bay" },
+      { "id": "c", "text": "Meiji reformers abolish the samurai-era domains" },
+      { "id": "d", "text": "Japan defeats Qing China in the First Sino-Japanese War" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Perry arrived in 1853, the Meiji Restoration began in 1868, Japan defeated China in 1894–1895, and defeated Russia in 1904–1905.",
+    "source_url": "https://www.britannica.com/event/Meiji-Restoration",
+    "trap_notes": {
+      "default": "Perry's 1853 arrival triggered the 1868 Meiji Restoration, before Japan's wars with China and then Russia."
+    }
+  },
+  {
+    "id": "world-ord-228",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Imperialism",
+    "era": "1857–1902 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -26.2041, "lng": 28.0473, "label": "Johannesburg, South Africa" },
+    "prompt": "Order these nineteenth-century imperial events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "European diplomats partition Africa at the Berlin Conference" },
+      { "id": "b", "text": "Indian soldiers revolt against British East India Company rule" },
+      { "id": "c", "text": "British forces win the South African War against Boers" },
+      { "id": "d", "text": "The Suez Canal opens, linking Mediterranean and Red Seas" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The 1857 Indian Rebellion preceded the 1869 Suez Canal opening, the 1884–1885 Berlin Conference, and the 1899–1902 South African War.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "trap_notes": {
+      "default": "India's 1857 rebellion and the 1869 Suez Canal came before the 1884 Berlin Conference and 1899 Boer War."
+    }
+  },
+  {
+    "id": "world-ord-229",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "World War I",
+    "era": "1914–1919 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "prompt": "Order these World War I events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Allied and German delegates sign the Treaty of Versailles" },
+      { "id": "b", "text": "Archduke Franz Ferdinand is assassinated in Sarajevo" },
+      { "id": "c", "text": "Soviet Russia signs the Treaty of Brest-Litovsk" },
+      { "id": "d", "text": "British and French troops halt Germany at the Marne" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Sarajevo sparked the war in June 1914, the Marne followed in Sept. 1914, Brest-Litovsk in March 1918, and Versailles in 1919.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "trap_notes": {
+      "default": "The 1914 assassination and Marne came at the war's start, while Brest-Litovsk (1918) and Versailles (1919) came at the end."
+    }
+  },
+  {
+    "id": "world-ord-230",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Russian Revolution",
+    "era": "1905–1924 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 59.9343, "lng": 30.3351, "label": "Petrograd, Russia" },
+    "prompt": "Order these Russian revolutionary events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Bolsheviks overthrow the Provisional Government in October" },
+      { "id": "b", "text": "Tsar Nicholas II abdicates during the February Revolution" },
+      { "id": "c", "text": "Protesters march in Petrograd on Bloody Sunday" },
+      { "id": "d", "text": "The Union of Soviet Socialist Republics is formally created" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Bloody Sunday occurred in 1905, the Tsar abdicated in early 1917, Bolsheviks took power in late 1917, and the USSR formed in 1922.",
+    "source_url": "https://www.britannica.com/event/Russian-Revolution",
+    "trap_notes": {
+      "default": "The 1905 unrest came first, then the two 1917 revolutions, and finally the 1922 creation of the USSR."
+    }
+  },
+  {
+    "id": "world-ord-231",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Interwar Period",
+    "era": "1919–1938 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.1351, "lng": 11.582, "label": "Munich, Germany" },
+    "prompt": "Order these interwar European events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Britain and France sign the Munich Agreement with Hitler" },
+      { "id": "b", "text": "Benito Mussolini marches on Rome and takes power" },
+      { "id": "c", "text": "Adolf Hitler is appointed chancellor of Germany" },
+      { "id": "d", "text": "The New York stock crash triggers a global depression" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Mussolini took power in 1922, the Wall Street crash hit in 1929, Hitler became chancellor in 1933, and Munich occurred in 1938.",
+    "source_url": "https://www.britannica.com/event/Munich-Agreement",
+    "trap_notes": {
+      "default": "Italian Fascism rose in 1922 before the 1929 Depression, which helped Hitler gain power in 1933 and sign Munich in 1938."
+    }
+  },
+  {
+    "id": "world-ord-232",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "World War II",
+    "era": "1939–1945 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.708, "lng": 44.5133, "label": "Stalingrad, USSR" },
+    "prompt": "Order these World War II turning points from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Allied troops land on Normandy beaches on D-Day" },
+      { "id": "b", "text": "Germany invades Poland, starting war in Europe" },
+      { "id": "c", "text": "Soviet forces encircle German troops at Stalingrad" },
+      { "id": "d", "text": "Japanese aircraft attack Pearl Harbor" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Poland was invaded in Sept. 1939, Pearl Harbor in Dec. 1941, Stalingrad ended in Feb. 1943, and D-Day occurred in June 1944.",
+    "source_url": "https://www.britannica.com/event/World-War-II",
+    "trap_notes": {
+      "default": "1939 Poland and 1941 Pearl Harbor came before the 1942–1943 Stalingrad victory and the 1944 Normandy invasion."
+    }
+  },
+  {
+    "id": "world-ord-233",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Decolonization",
+    "era": "1947–1975 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "prompt": "Order these postwar decolonization milestones from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Ghana becomes independent under Kwame Nkrumah" },
+      { "id": "b", "text": "British India is partitioned into India and Pakistan" },
+      { "id": "c", "text": "Algeria wins independence after war with France" },
+      { "id": "d", "text": "Vietnamese forces defeat France at Dien Bien Phu" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "India was partitioned in 1947, Dien Bien Phu fell in 1954, Ghana gained independence in 1957, and Algeria in 1962.",
+    "source_url": "https://www.britannica.com/topic/decolonization",
+    "trap_notes": {
+      "default": "South Asia decolonized in 1947 and Indochina in 1954 before sub-Saharan Ghana (1957) and Algeria (1962)."
+    }
+  },
+  {
+    "id": "world-ord-234",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1945–1963 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order these early Cold War events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "East Germany builds the Berlin Wall across the city" },
+      { "id": "b", "text": "Western Allies supply West Berlin during the Berlin Airlift" },
+      { "id": "c", "text": "The Cuban Missile Crisis brings the superpowers near war" },
+      { "id": "d", "text": "The Soviet Union launches the Sputnik satellite" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Berlin Airlift ran in 1948–1949, Sputnik launched in 1957, the Berlin Wall rose in 1961, and the Cuban Missile Crisis occurred in 1962.",
+    "source_url": "https://www.britannica.com/event/Cold-War",
+    "trap_notes": {
+      "default": "The 1948 Airlift preceded 1957 Sputnik, which came before the 1961 Berlin Wall and 1962 Cuban Missile Crisis."
+    }
+  },
+  {
+    "id": "world-ord-235",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Modern China",
+    "era": "1949–1989 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "Order these events in the People's Republic of China from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Mao Zedong launches the Cultural Revolution" },
+      { "id": "b", "text": "Deng Xiaoping introduces market-oriented economic reforms" },
+      { "id": "c", "text": "Mao Zedong proclaims the People's Republic of China" },
+      { "id": "d", "text": "The Great Leap Forward reorganizes farms into communes" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "The PRC was founded in 1949, the Great Leap began in 1958, the Cultural Revolution in 1966, and Deng's reforms in 1978.",
+    "source_url": "https://www.britannica.com/place/China/History",
+    "trap_notes": {
+      "default": "1949 founding came first, then Mao's 1958 Great Leap and 1966 Cultural Revolution, followed by Deng's 1978 reforms."
+    }
+  },
+  {
+    "id": "world-ord-236",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Middle East",
+    "era": "1948–1979 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo, Egypt" },
+    "prompt": "Order these modern Middle Eastern events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "The Iranian Revolution replaces the shah with an Islamic republic" },
+      { "id": "b", "text": "Gamal Abdel Nasser nationalizes the Suez Canal" },
+      { "id": "c", "text": "Israel declares independence, sparking the 1948 war" },
+      { "id": "d", "text": "Israel and Egypt sign the Camp David peace accords" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Israel declared independence in 1948, Suez was nationalized in 1956, Camp David was signed in 1978, and Iran's revolution succeeded in 1979.",
+    "source_url": "https://www.britannica.com/event/Iranian-Revolution",
+    "trap_notes": {
+      "default": "1948 statehood and the 1956 Suez Crisis preceded the 1978 Camp David Accords and 1979 Iranian Revolution."
+    }
+  },
+  {
+    "id": "world-ord-237",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "End of the Cold War",
+    "era": "1985–1994 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "prompt": "Order these late-Cold War events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "The Soviet Union formally dissolves into fifteen republics" },
+      { "id": "b", "text": "Mikhail Gorbachev introduces glasnost and perestroika" },
+      { "id": "c", "text": "Crowds breach and dismantle the Berlin Wall" },
+      { "id": "d", "text": "The Maastricht Treaty establishes the European Union" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Gorbachev's reforms began in 1985–1986, the Berlin Wall fell in 1989, the USSR dissolved in 1991, and Maastricht took effect in 1993.",
+    "source_url": "https://www.britannica.com/event/collapse-of-the-Soviet-Union",
+    "trap_notes": {
+      "default": "Gorbachev's mid-1980s reforms preceded the 1989 fall of the Berlin Wall, 1991 Soviet collapse, and 1993 EU launch."
+    }
+  },
+  {
+    "id": "world-ord-238",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "South Africa",
+    "era": "1948–1994 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -25.7479, "lng": 28.2293, "label": "Pretoria, South Africa" },
+    "prompt": "Order these events in South African history from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Nelson Mandela is elected president in multiracial voting" },
+      { "id": "b", "text": "The National Party institutes formal apartheid laws" },
+      { "id": "c", "text": "Police fire on student protesters in Soweto" },
+      { "id": "d", "text": "Nelson Mandela is released from prison after 27 years" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Apartheid began in 1948, the Soweto uprising occurred in 1976, Mandela was freed in 1990, and he was elected president in 1994.",
+    "source_url": "https://www.britannica.com/topic/apartheid",
+    "trap_notes": {
+      "default": "1948 apartheid laws and the 1976 Soweto uprising came before Mandela's 1990 release and 1994 election."
+    }
+  },
+  {
+    "id": "world-ord-239",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Latin America",
+    "era": "1910–1994 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "prompt": "Order these twentieth-century Latin American events from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Fidel Castro's revolutionaries take power in Cuba" },
+      { "id": "b", "text": "The Mexican Revolution overthrows Porfirio Diaz" },
+      { "id": "c", "text": "Augusto Pinochet leads a military coup in Chile" },
+      { "id": "d", "text": "Juan Peron wins his first presidential term in Argentina" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Mexican Revolution began in 1910, Peron was elected in 1946, Castro took power in 1959, and Pinochet's coup occurred in 1973.",
+    "source_url": "https://www.britannica.com/event/Mexican-Revolution",
+    "trap_notes": {
+      "default": "The 1910 Mexican Revolution came decades before Peron (1946), Castro (1959), and Pinochet (1973)."
+    }
+  },
+  {
+    "id": "world-ord-240",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Korean Peninsula",
+    "era": "1910–1988 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.5665, "lng": 126.978, "label": "Seoul, South Korea" },
+    "prompt": "Order these events in modern Korean history from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "An armistice halts fighting in the Korean War" },
+      { "id": "b", "text": "Japan formally annexes the Korean Peninsula" },
+      { "id": "c", "text": "Seoul hosts the Summer Olympic Games as a democracy" },
+      { "id": "d", "text": "Korea is divided into northern and southern zones" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Japan annexed Korea in 1910, Korea was divided in 1945, the armistice was signed in 1953, and Seoul hosted the Olympics in 1988.",
+    "source_url": "https://www.britannica.com/event/Korean-War",
+    "trap_notes": {
+      "default": "Japanese colonial rule (1910–1945) preceded division, the 1950–1953 war, and South Korea's 1988 Olympics."
+    }
+  },
+  {
+    "id": "world-ord-241",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Global Trade & Science",
+    "era": "1944–2001 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "Order these postwar global milestones from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "The World Trade Organization replaces the GATT system" },
+      { "id": "b", "text": "Delegates at Bretton Woods create the IMF and World Bank" },
+      { "id": "c", "text": "Twelve European nations adopt the euro as common currency" },
+      { "id": "d", "text": "Oil-exporting nations form OPEC in Baghdad" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Bretton Woods met in 1944, OPEC formed in 1960, the WTO launched in 1995, and euro cash entered circulation in 2002 (launched 1999).",
+    "source_url": "https://www.britannica.com/topic/World-Trade-Organization",
+    "trap_notes": {
+      "default": "Bretton Woods (1944) and OPEC (1960) came decades before the 1995 WTO and the euro currency."
+    }
+  },
+  {
+    "id": "world-ord-242",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Silk Road & Eurasia",
+    "era": "200 BCE–1500 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.6542, "lng": 66.9597, "label": "Samarkand, Uzbekistan" },
+    "prompt": "Order these Afro-Eurasian trade developments from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Pax Mongolica secures overland Silk Road caravans" },
+      { "id": "b", "text": "Han envoy Zhang Qian opens routes to Central Asia" },
+      { "id": "c", "text": "Portuguese ships enter Indian Ocean spice trade" },
+      { "id": "d", "text": "Tang and Abbasid empires exchange paper-making craft" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Han routes opened around 130 BCE, Tang-Abbasid contact occurred in the 700s, Pax Mongolica in the 1200s, and Portuguese ships in 1498.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "default": "Han routes came in antiquity, Tang-Abbasid exchange in the 700s, Mongols in the 1200s, and sea bypasses around 1500."
+    }
+  },
+  {
+    "id": "world-ord-243",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "British Empire & Abolition",
+    "era": "1787–1888 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, England" },
+    "prompt": "Order these milestones in the abolition of slavery from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Brazil becomes the last country in the Americas to abolish slavery" },
+      { "id": "b", "text": "Britain abolishes the transatlantic slave trade" },
+      { "id": "c", "text": "Britain passes the Slavery Abolition Act for its colonies" },
+      { "id": "d", "text": "Denmark becomes the first European power to ban the slave trade" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Denmark's 1792 ban (effective 1803) preceded Britain's 1807 trade ban, Britain's 1833 emancipation act, and Brazil's 1888 abolition.",
+    "source_url": "https://www.britannica.com/topic/abolitionism-European-and-American-social-movement",
+    "trap_notes": {
+      "default": "Slave trade bans came before colonial emancipation, and Brazil abolished slavery last in 1888."
+    }
+  },
+  {
+    "id": "world-ord-244",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Russian & Soviet History",
+    "era": "1480–1917 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "prompt": "Order these milestones of imperial Russia from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Alexander II emancipates Russia's serfs" },
+      { "id": "b", "text": "Peter the Great founds St. Petersburg on the Baltic" },
+      { "id": "c", "text": "Ivan III ends Mongol-Tatar tribute over Moscow" },
+      { "id": "d", "text": "Catherine the Great expands Russia to the Black Sea" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Ivan III broke Mongol tribute in 1480, Peter founded St. Petersburg in 1703, Catherine ruled 1762–1796, and serfs were freed in 1861.",
+    "source_url": "https://www.britannica.com/place/Russia/History",
+    "trap_notes": {
+      "default": "Muscovy's 1480 independence preceded Peter and Catherine in the 1700s, while serf emancipation came in 1861."
+    }
+  },
+  {
+    "id": "world-ord-245",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Southeast Asia",
+    "era": "800–1975 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 13.4125, "lng": 103.867, "label": "Angkor, Cambodia" },
+    "prompt": "Order these Southeast Asian milestones from earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Indonesia declares independence under Sukarno" },
+      { "id": "b", "text": "Khmer rulers construct the temple complex of Angkor Wat" },
+      { "id": "c", "text": "The Dutch East India Company dominates spice trade in Java" },
+      { "id": "d", "text": "Vietnam reunifies after the fall of Saigon" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Angkor Wat was built in the 1100s, the VOC operated from 1602, Indonesia declared independence in 1945, and Saigon fell in 1975.",
+    "source_url": "https://www.britannica.com/topic/Angkor-Wat",
+    "trap_notes": {
+      "default": "Medieval Angkor preceded European trading companies, which came centuries before 1945 Indonesian and 1975 Vietnamese events."
+    }
+  },
+  {
+    "id": "world-cmp-201",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Early Civilizations",
+    "era": "3000–1000 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 27.3243, "lng": 68.1357, "label": "Mohenjo-daro, Pakistan" },
+    "compareSpec": {
+      "leftLabel": "Indus Valley",
+      "rightLabel": "Shang China",
+      "items": [
+        { "id": "i1", "text": "Grid-planned brick cities and drains", "bucket": "left" },
+        { "id": "i2", "text": "Inscribed oracle bones for divination", "bucket": "right" },
+        { "id": "i3", "text": "Standardized weights along the Indus", "bucket": "left" },
+        { "id": "i4", "text": "Bronze ritual vessels in royal tombs", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Bronze Age feature into the Indus Valley or Shang China:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Indus cities featured brick grids and drainage, whereas Shang China is known for oracle bones and bronze ritual vessels.",
+    "source_url": "https://www.britannica.com/topic/Indus-civilization",
+    "trap_notes": {
+      "default": "Urban drainage and standardized weights mark the Indus Valley; oracle bones and bronze ritual vessels mark Shang China."
+    }
+  },
+  {
+    "id": "world-cmp-202",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "550 BCE–220 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.9354, "lng": 52.8914, "label": "Persepolis, Iran" },
+    "compareSpec": {
+      "leftLabel": "Achaemenid Persia",
+      "rightLabel": "Han China",
+      "items": [
+        { "id": "i1", "text": "Satraps governing imperial provinces", "bucket": "left" },
+        { "id": "i2", "text": "Civil service exams on Confucian texts", "bucket": "right" },
+        { "id": "i3", "text": "Royal Road from Susa to Sardis", "bucket": "left" },
+        { "id": "i4", "text": "State monopolies on salt and iron", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each imperial institution into Achaemenid Persia or Han China:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Persia used satraps and the Royal Road, while Han China used Confucian exams and state salt and iron monopolies.",
+    "source_url": "https://www.britannica.com/topic/Achaemenian-dynasty",
+    "trap_notes": {
+      "default": "Satraps and Susa-Sardis roads belong to Persia; Confucian exams and salt-iron monopolies belong to Han China."
+    }
+  },
+  {
+    "id": "world-cmp-203",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "South Asian Empires",
+    "era": "322 BCE–550 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.5941, "lng": 85.1376, "label": "Pataliputra, India" },
+    "compareSpec": {
+      "leftLabel": "Maurya Empire",
+      "rightLabel": "Gupta Empire",
+      "items": [
+        { "id": "i1", "text": "Ashoka's stone pillars and edicts", "bucket": "left" },
+        { "id": "i2", "text": "Decimal zero and classical Sanskrit poetry", "bucket": "right" },
+        { "id": "i3", "text": "Kautilya's Arthashastra statecraft", "bucket": "left" },
+        { "id": "i4", "text": "Decentralized rule with Hindu revival", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each feature into the Maurya Empire or the Gupta Empire:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Mauryas featured Kautilya and Ashoka's pillars, whereas the Gupta era saw decimal mathematics and a Hindu cultural revival.",
+    "source_url": "https://www.britannica.com/topic/Gupta-dynasty",
+    "trap_notes": {
+      "default": "Ashoka and the Arthashastra belong to the Maurya Empire; zero and Gupta golden-age arts came centuries later."
+    }
+  },
+  {
+    "id": "world-cmp-204",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Post-Classical Eurasia",
+    "era": "500–1453 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Constantinople" },
+    "compareSpec": {
+      "leftLabel": "Byzantine Empire",
+      "rightLabel": "Western Europe",
+      "items": [
+        { "id": "i1", "text": "Greek administration in Constantinople", "bucket": "left" },
+        { "id": "i2", "text": "Decentralized manorialism and fiefs", "bucket": "right" },
+        { "id": "i3", "text": "Emperor appointing the patriarch", "bucket": "left" },
+        { "id": "i4", "text": "Latin liturgy under the Roman papacy", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each medieval trait into the Byzantine Empire or Western Europe:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Byzantium kept centralized Greek imperial rule, while Western Europe had feudal fragmentation and Latin papal authority.",
+    "source_url": "https://www.britannica.com/place/Byzantine-Empire",
+    "trap_notes": {
+      "default": "Centralized Greek rule and caesaropapism mark Byzantium; manorialism and Latin papal authority mark Western Europe."
+    }
+  },
+  {
+    "id": "world-cmp-205",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "East African & Sahel Trade",
+    "era": "1000–1500 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -8.96, "lng": 39.51, "label": "Kilwa, Tanzania" },
+    "compareSpec": {
+      "leftLabel": "Swahili Coast",
+      "rightLabel": "Mali Empire",
+      "items": [
+        { "id": "i1", "text": "City-states trading via monsoon winds", "bucket": "left" },
+        { "id": "i2", "text": "Camel caravans crossing the Sahara", "bucket": "right" },
+        { "id": "i3", "text": "Bantu-Arabic coastal Swahili language", "bucket": "left" },
+        { "id": "i4", "text": "Inland Niger River centers like Timbuktu", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each medieval African trait into the Swahili Coast or Mali:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Swahili city-states traded on the Indian Ocean using monsoons, while inland Mali linked the Niger River to Saharan caravans.",
+    "source_url": "https://www.britannica.com/topic/Swahili-culture",
+    "trap_notes": {
+      "default": "Monsoon maritime cities belong to the Swahili Coast; Saharan camel caravans and Timbuktu belong to Mali."
+    }
+  },
+  {
+    "id": "world-cmp-206",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "East Asia",
+    "era": "1271–1644 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "compareSpec": {
+      "leftLabel": "Yuan Dynasty",
+      "rightLabel": "Ming Dynasty",
+      "items": [
+        { "id": "i1", "text": "Mongol-led rule under Kublai Khan", "bucket": "left" },
+        { "id": "i2", "text": "Zheng He's state-sponsored sea voyages", "bucket": "right" },
+        { "id": "i3", "text": "Foreigners placed above Han officials", "bucket": "left" },
+        { "id": "i4", "text": "Restoration of Confucian exams and Great Wall", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each policy or event into the Yuan Dynasty or Ming Dynasty:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Mongol Yuan privileged non-Han administrators, while the native Ming restored Confucian exams and launched Zheng He's fleets.",
+    "source_url": "https://www.britannica.com/topic/Ming-dynasty-Chinese-history",
+    "trap_notes": {
+      "default": "Kublai Khan and Mongol social hierarchy belong to Yuan; Zheng He and Great Wall rebuilding belong to Ming."
+    }
+  },
+  {
+    "id": "world-cmp-207",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Early Modern Empires",
+    "era": "1500–1750 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "Delhi, India" },
+    "compareSpec": {
+      "leftLabel": "Mughal Empire",
+      "rightLabel": "Tokugawa Japan",
+      "items": [
+        { "id": "i1", "text": "Muslim dynasty ruling a Hindu majority", "bucket": "left" },
+        { "id": "i2", "text": "Strict isolation restricting foreign ships", "bucket": "right" },
+        { "id": "i3", "text": "Zamindar tax collectors and Taj Mahal", "bucket": "left" },
+        { "id": "i4", "text": "Daimyo required to alternate in Edo", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each early modern feature into the Mughal Empire or Tokugawa Japan:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mughal rulers governed South Asia through zamindars, while Tokugawa shoguns controlled daimyo in Edo and restricted foreign trade.",
+    "source_url": "https://www.britannica.com/event/Tokugawa-period",
+    "trap_notes": {
+      "default": "Zamindars and South Asian religious diversity belong to the Mughals; isolation and alternate attendance belong to Tokugawa."
+    }
+  },
+  {
+    "id": "world-cmp-208",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Colonial Americas",
+    "era": "1500–1800 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -19.5723, "lng": -65.755, "label": "Potosi, Bolivia" },
+    "compareSpec": {
+      "leftLabel": "Spanish Americas",
+      "rightLabel": "Portuguese Brazil",
+      "items": [
+        { "id": "i1", "text": "Potosi silver mining using mita labor", "bucket": "left" },
+        { "id": "i2", "text": "Sugar plantations along the Atlantic coast", "bucket": "right" },
+        { "id": "i3", "text": "Viceroyalties of New Spain and Peru", "bucket": "left" },
+        { "id": "i4", "text": "Heavy reliance on enslaved African labor", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each colonial feature into Spanish Americas or Portuguese Brazil:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Spain organized viceroyalties around silver mines like Potosi, whereas Portugal built Brazil's economy on coastal sugar plantations.",
+    "source_url": "https://www.britannica.com/place/Brazil/History",
+    "trap_notes": {
+      "default": "Potosi silver and viceroyalties of New Spain and Peru belong to Spain; coastal sugar and massive African enslavement mark Brazil."
+    }
+  },
+  {
+    "id": "world-cmp-209",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Early Modern Trade",
+    "era": "1500–1750 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 52.3676, "lng": 4.9041, "label": "Amsterdam, Netherlands" },
+    "compareSpec": {
+      "leftLabel": "Mercantilism",
+      "rightLabel": "Joint-Stock Capitalism",
+      "items": [
+        { "id": "i1", "text": "State tariffs to hoard bullion reserves", "bucket": "left" },
+        { "id": "i2", "text": "Private investors buying trade shares", "bucket": "right" },
+        { "id": "i3", "text": "Colonies restricted to trade with home state", "bucket": "left" },
+        { "id": "i4", "text": "Risk shared across stockholders in VOC", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each economic practice into Mercantilism or Joint-Stock Capitalism:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mercantilism used state tariffs and colonial monopolies to hoard bullion, while joint-stock firms pooled private investor capital.",
+    "source_url": "https://www.britannica.com/topic/mercantilism",
+    "trap_notes": {
+      "default": "State bullion hoarding and closed colonial trade mark mercantilism; tradeable shares and pooled risk mark joint-stock firms."
+    }
+  },
+  {
+    "id": "world-cmp-210",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Political Revolutions",
+    "era": "1789–1824 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 10.4806, "lng": -66.9036, "label": "Caracas, Venezuela" },
+    "compareSpec": {
+      "leftLabel": "French Revolution",
+      "rightLabel": "Spanish American Wars",
+      "items": [
+        { "id": "i1", "text": "Abolition of feudal estate privileges", "bucket": "left" },
+        { "id": "i2", "text": "Creole elites breaking from Madrid", "bucket": "right" },
+        { "id": "i3", "text": "Committee of Public Safety in Paris", "bucket": "left" },
+        { "id": "i4", "text": "Campaigns led by Bolivar and San Martin", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each revolutionary trait into the French Revolution or Spanish America:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "France's revolution dismantled feudal estates in Paris, while Spanish American wars were anti-colonial struggles led by Creole generals.",
+    "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+    "trap_notes": {
+      "default": "Feudal estates and the Paris Committee belong to France; Creole independence under Bolivar and San Martin belongs to Spanish America."
+    }
+  },
+  {
+    "id": "world-cmp-211",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Imperialism",
+    "era": "1850–1914 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 6.5244, "lng": 3.3792, "label": "Lagos, Nigeria" },
+    "compareSpec": {
+      "leftLabel": "Direct Colonial Rule",
+      "rightLabel": "Indirect Colonial Rule",
+      "items": [
+        { "id": "i1", "text": "European officials staff local courts", "bucket": "left" },
+        { "id": "i2", "text": "Local chiefs govern under British advisors", "bucket": "right" },
+        { "id": "i3", "text": "Assimilation policies in French West Africa", "bucket": "left" },
+        { "id": "i4", "text": "Traditional hierarchies kept in Nigeria", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each imperial strategy into Direct Rule or Indirect Rule:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Direct rule replaced local institutions with European officials, whereas indirect rule governed through existing local elites.",
+    "source_url": "https://www.britannica.com/topic/Western-colonialism",
+    "trap_notes": {
+      "default": "European administrators and French assimilation mark direct rule; British use of local chiefs marks indirect rule."
+    }
+  },
+  {
+    "id": "world-cmp-212",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Twentieth-Century China",
+    "era": "1911–1949 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "compareSpec": {
+      "leftLabel": "Nationalists (KMT)",
+      "rightLabel": "Chinese Communists",
+      "items": [
+        { "id": "i1", "text": "Led by Chiang Kai-shek after Sun Yat-sen", "bucket": "left" },
+        { "id": "i2", "text": "Built rural base via the Long March", "bucket": "right" },
+        { "id": "i3", "text": "Retreated to Taiwan after 1949 defeat", "bucket": "left" },
+        { "id": "i4", "text": "Mobilized peasant support for land reform", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Chinese Civil War feature into the Nationalists or Communists:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Chiang Kai-shek's Nationalists retreated to Taiwan in 1949, while Mao's Communists won by mobilizing peasants after the Long March.",
+    "source_url": "https://www.britannica.com/event/Chinese-Civil-War",
+    "trap_notes": {
+      "default": "Chiang Kai-shek and Taiwan belong to the KMT; the Long March and peasant land reform belong to the Communists."
+    }
+  },
+  {
+    "id": "world-cmp-213",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Middle East",
+    "era": "1918–1948 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 33.8938, "lng": 35.5018, "label": "Beirut, Lebanon" },
+    "compareSpec": {
+      "leftLabel": "British Mandates",
+      "rightLabel": "French Mandates",
+      "items": [
+        { "id": "i1", "text": "League of Nations mandate over Iraq", "bucket": "left" },
+        { "id": "i2", "text": "League of Nations mandate over Syria", "bucket": "right" },
+        { "id": "i3", "text": "Administration of Palestine and Transjordan", "bucket": "left" },
+        { "id": "i4", "text": "Creation of Greater Lebanon in 1920", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each post-WWI mandate territory into Britain or France:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "After WWI, Britain held mandates over Iraq, Palestine, and Transjordan, while France held mandates over Syria and Lebanon.",
+    "source_url": "https://www.britannica.com/topic/mandate-League-of-Nations",
+    "trap_notes": {
+      "default": "Iraq, Palestine, and Transjordan were British mandates; Syria and Lebanon were French mandates."
+    }
+  },
+  {
+    "id": "world-cmp-214",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1945–1991 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "compareSpec": {
+      "leftLabel": "Marshall Plan",
+      "rightLabel": "Comecon",
+      "items": [
+        { "id": "i1", "text": "US grants rebuilding Western Europe", "bucket": "left" },
+        { "id": "i2", "text": "Soviet bloc council coordinating trade", "bucket": "right" },
+        { "id": "i3", "text": "Aimed to curb Western communist appeal", "bucket": "left" },
+        { "id": "i4", "text": "Linked Eastern European planned economies", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Cold War economic program into the Marshall Plan or Comecon:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The US Marshall Plan funded Western European recovery, while Comecon coordinated trade among Soviet-bloc planned economies.",
+    "source_url": "https://www.britannica.com/event/Marshall-Plan",
+    "trap_notes": {
+      "default": "US recovery grants belong to the Marshall Plan; Soviet-bloc economic coordination belongs to Comecon."
+    }
+  },
+  {
+    "id": "world-cmp-215",
+    "type": "compare",
+    "domain": "World",
+    "subdomain": "Contemporary World",
+    "era": "1960–2000 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 30.901, "lng": 75.8573, "label": "Ludhiana, India" },
+    "compareSpec": {
+      "leftLabel": "Green Revolution",
+      "rightLabel": "Digital Revolution",
+      "items": [
+        { "id": "i1", "text": "High-yield wheat and rice varieties", "bucket": "left" },
+        { "id": "i2", "text": "Microprocessors and global internet links", "bucket": "right" },
+        { "id": "i3", "text": "Synthetic fertilizers and irrigation", "bucket": "left" },
+        { "id": "i4", "text": "Automated data processing in services", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each twentieth-century shift into the Green or Digital Revolution:",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Green Revolution boosted farm yields with new crops and fertilizers, while the Digital Revolution transformed computing and networks.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "default": "Crop yields and irrigation mark the Green Revolution; microchips and the internet mark the Digital Revolution."
+    }
+  }
+]

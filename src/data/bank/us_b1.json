@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "us-map-101",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Colonial Settlement",
+    "era": "1607–1620",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.2104, "lng": -76.7775, "label": "Jamestown, Virginia" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 274, "y": 92, "label": "Jamestown" },
+        { "id": "p2", "x": 304, "y": 54, "label": "Plymouth" },
+        { "id": "p3", "x": 258, "y": 114, "label": "Charleston" },
+        { "id": "p4", "x": 292, "y": 68, "label": "New Amsterdam" }
+      ]
+    },
+    "prompt": "Select the pin marking the first permanent English settlement in North America (1607).",
+    "options": [],
+    "answer": "p1",
+    "explanation": "English colonists founded Jamestown in 1607 along Virginia's Chesapeake Bay.",
+    "source_url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm",
+    "fun_fact": "Jamestown's early settlers survived a harsh 1609–1610 winter known as the Starving Time.",
+    "trap_notes": {
+      "p2": "Plymouth was founded in 1620 in Massachusetts, thirteen years after Jamestown.",
+      "p3": "Charleston was settled in 1670 in South Carolina, much farther south.",
+      "p4": "New Amsterdam was founded by the Dutch in 1624 on Manhattan Island.",
+      "default": "Jamestown (1607) sat on the Chesapeake coast of Virginia."
+    }
+  },
+  {
+    "id": "us-map-102",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1775–1783",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.0059, "lng": -73.6383, "label": "Saratoga, New York" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 278, "y": 60, "label": "Saratoga" },
+        { "id": "p2", "x": 272, "y": 96, "label": "Yorktown" },
+        { "id": "p3", "x": 302, "y": 54, "label": "Bunker Hill" },
+        { "id": "p4", "x": 256, "y": 116, "label": "Cowpens" }
+      ]
+    },
+    "prompt": "Which pin marks the 1777 Hudson Valley battle that convinced France to ally with the U.S.?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The American victory at Saratoga in upstate New York proved the U.S. could win, bringing France into the war.",
+    "source_url": "https://www.nps.gov/sara/learn/historyculture/index.htm",
+    "fun_fact": "French warships and troops later helped trap the British army at Yorktown in 1781.",
+    "trap_notes": {
+      "p2": "Yorktown (1781) in Virginia was the final major battle, not the 1777 turning point.",
+      "p3": "Bunker Hill (1775) took place near Boston early in the war.",
+      "p4": "Cowpens (1781) was a key southern Patriot victory in South Carolina.",
+      "default": "Saratoga lies in upstate New York along the upper Hudson River."
+    }
+  },
+  {
+    "id": "us-map-103",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "American Revolution",
+    "era": "1775–1783",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.2388, "lng": -76.5097, "label": "Yorktown, Virginia" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 298, "y": 54, "label": "Lexington" },
+        { "id": "p2", "x": 274, "y": 94, "label": "Yorktown" },
+        { "id": "p3", "x": 284, "y": 76, "label": "Trenton" },
+        { "id": "p4", "x": 260, "y": 118, "label": "Savannah" }
+      ]
+    },
+    "prompt": "Select the pin where Cornwallis surrendered in October 1781, ending major Revolutionary fighting.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Washington's army and the French fleet trapped Cornwallis on the Yorktown peninsula in Virginia.",
+    "source_url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/battle-of-yorktown",
+    "fun_fact": "French naval ships blocked Chesapeake Bay so British ships could not rescue Cornwallis.",
+    "trap_notes": {
+      "p1": "Lexington (1775) in Massachusetts was where the war began, not ended.",
+      "p3": "Trenton (1776) in New Jersey was Washington's Christmas crossing victory.",
+      "p4": "Savannah was captured by Britain in 1778, not the site of final surrender.",
+      "default": "Yorktown sits on a Virginia peninsula beside Chesapeake Bay."
+    }
+  },
+  {
+    "id": "us-map-104",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1803–1806",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, Louisiana" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 184, "y": 156, "label": "New Orleans" },
+        { "id": "p2", "x": 184, "y": 98, "label": "St. Louis" },
+        { "id": "p3", "x": 46, "y": 34, "label": "Fort Clatsop" },
+        { "id": "p4", "x": 238, "y": 170, "label": "St. Augustine" }
+      ]
+    },
+    "prompt": "Which pin marks the vital port at the mouth of the Mississippi River that sparked the 1803 Louisiana Purchase?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "President Jefferson wanted New Orleans so U.S. farmers could ship goods down the Mississippi River.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "fun_fact": "Jefferson only asked to buy New Orleans, but Napoleon offered the entire Louisiana Territory.",
+    "trap_notes": {
+      "p2": "St. Louis was where Lewis and Clark began their 1804 expedition upriver.",
+      "p3": "Fort Clatsop in Oregon was Lewis and Clark's Pacific winter camp.",
+      "p4": "St. Augustine in Florida remained Spanish until the 1819 Adams-Onis Treaty.",
+      "default": "New Orleans sits right at the Mississippi River delta on the Gulf Coast."
+    }
+  },
+  {
+    "id": "us-map-105",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "War of 1812",
+    "era": "1812–1815",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.2633, "lng": -76.5797, "label": "Baltimore, Maryland" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 244, "y": 74, "label": "Detroit" },
+        { "id": "p2", "x": 184, "y": 154, "label": "New Orleans" },
+        { "id": "p3", "x": 276, "y": 84, "label": "Baltimore" },
+        { "id": "p4", "x": 258, "y": 60, "label": "Montreal" }
+      ]
+    },
+    "prompt": "Select the pin for the 1814 harbor defense at Fort McHenry that inspired 'The Star-Spangled Banner.'",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Francis Scott Key wrote the lyrics after watching British ships bombard Fort McHenry in Baltimore.",
+    "source_url": "https://www.nps.gov/fomc/learn/historyculture/the-star-spangled-banner.htm",
+    "fun_fact": "The giant garrison flag sewn by Mary Pickersgill had 15 stars and 15 stripes.",
+    "trap_notes": {
+      "p1": "Detroit fell to British and Native forces in 1812 along the Great Lakes.",
+      "p2": "New Orleans was Andrew Jackson's 1815 victory after the peace treaty was signed.",
+      "p4": "Montreal was in British Canada, a target of failed U.S. invasions.",
+      "default": "Fort McHenry guarded the harbor of Baltimore on upper Chesapeake Bay."
+    }
+  },
+  {
+    "id": "us-map-106",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Early Republic Infrastructure",
+    "era": "1817–1825",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.8864, "lng": -78.8784, "label": "Buffalo, New York" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 246, "y": 72, "label": "Erie Canal" },
+        { "id": "p2", "x": 212, "y": 98, "label": "Ohio River" },
+        { "id": "p3", "x": 186, "y": 146, "label": "Lower Mississippi" },
+        { "id": "p4", "x": 144, "y": 152, "label": "Rio Grande" }
+      ]
+    },
+    "prompt": "Which pin marks the 1825 waterway linking the Great Lakes to the Hudson River and New York City?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Erie Canal connected Lake Erie to the Hudson River, making New York City the nation's top port.",
+    "source_url": "https://www.eriecanalway.org/learn/history-culture",
+    "fun_fact": "Shipping a ton of freight from Buffalo to New York dropped from $100 to under $10.",
+    "trap_notes": {
+      "p2": "The Ohio River flows southwest to the Mississippi, not to New York Harbor.",
+      "p3": "The Lower Mississippi carried goods south to New Orleans, not east to New York.",
+      "p4": "The Rio Grande forms the Texas-Mexico border far from the Great Lakes.",
+      "default": "The Erie Canal ran across upstate New York from Lake Erie to the Hudson."
+    }
+  },
+  {
+    "id": "us-map-107",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Indian Removal",
+    "era": "1830–1839",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.4676, "lng": -97.5164, "label": "Indian Territory" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 250, "y": 122, "label": "Georgia" },
+        { "id": "p2", "x": 162, "y": 116, "label": "Indian Territory" },
+        { "id": "p3", "x": 236, "y": 158, "label": "Florida" },
+        { "id": "p4", "x": 112, "y": 62, "label": "Montana" }
+      ]
+    },
+    "prompt": "Select the pin marking the destination where the Cherokee and other nations were forced along the Trail of Tears.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Under the 1830 Indian Removal Act, southeastern tribes were forced west to Indian Territory in present-day Oklahoma.",
+    "source_url": "https://www.nps.gov/trte/learn/historyculture/index.htm",
+    "fun_fact": "About 4,000 Cherokee people died from cold, hunger, and disease during the 1838–1839 march.",
+    "trap_notes": {
+      "p1": "Georgia was the homeland from which the Cherokee were removed, not the destination.",
+      "p3": "Florida was home to the Seminole, most of whom were also removed west.",
+      "p4": "Montana was the northern Plains region of later 1870s Sioux and Nez Perce wars.",
+      "default": "Indian Territory lay west of the Mississippi River in present-day Oklahoma."
+    }
+  },
+  {
+    "id": "us-map-108",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Manifest Destiny",
+    "era": "1846–1848",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.5816, "lng": -121.4944, "label": "Sacramento, California" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 50, "y": 82, "label": "Sutter's Mill" },
+        { "id": "p2", "x": 100, "y": 78, "label": "Salt Lake City" },
+        { "id": "p3", "x": 146, "y": 144, "label": "San Antonio" },
+        { "id": "p4", "x": 52, "y": 38, "label": "Willamette Valley" }
+      ]
+    },
+    "prompt": "Which pin marks the 1848 gold discovery site that triggered the California Gold Rush?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "James Marshall found gold at Sutter's Mill near Sacramento in 1848, drawing 300,000 forty-niners.",
+    "source_url": "https://www.loc.gov/collections/california-first-person-narratives/articles-and-essays/early-california-history/gold-rush/",
+    "fun_fact": "California gained so many people so fast that it skipped territorial status and became a state in 1850.",
+    "trap_notes": {
+      "p2": "Salt Lake City was settled by Mormon pioneers in 1847 in Utah.",
+      "p3": "San Antonio was the site of the 1836 Battle of the Alamo in Texas.",
+      "p4": "The Willamette Valley in Oregon drew farmers along the Oregon Trail.",
+      "default": "Sutter's Mill was in the Sierra Nevada foothills of northern California."
+    }
+  },
+  {
+    "id": "us-map-109",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil War",
+    "era": "1861–1865",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.7524, "lng": -79.8747, "label": "Charleston Harbor, SC" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 270, "y": 90, "label": "Richmond" },
+        { "id": "p2", "x": 258, "y": 114, "label": "Fort Sumter" },
+        { "id": "p3", "x": 270, "y": 76, "label": "Gettysburg" },
+        { "id": "p4", "x": 188, "y": 134, "label": "Vicksburg" }
+      ]
+    },
+    "prompt": "Select the pin where Confederate forces fired the first shots of the Civil War in April 1861.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Confederate artillery bombarded Union-held Fort Sumter in Charleston Harbor, South Carolina, starting the war.",
+    "source_url": "https://www.nps.gov/fosu/learn/historyculture/index.htm",
+    "fun_fact": "No soldiers died during the 34-hour bombardment of Fort Sumter, though the war later killed over 620,000.",
+    "trap_notes": {
+      "p1": "Richmond became the Confederate capital in Virginia, not the site of the first shots.",
+      "p3": "Gettysburg (1863) in Pennsylvania was the war's bloodiest turning-point battle.",
+      "p4": "Vicksburg (1863) was a key Union siege on the Mississippi River.",
+      "default": "Fort Sumter sits on an island in Charleston Harbor, South Carolina."
+    }
+  },
+  {
+    "id": "us-map-110",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil War",
+    "era": "1861–1865",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.3526, "lng": -90.8779, "label": "Vicksburg, Mississippi" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 188, "y": 134, "label": "Vicksburg" },
+        { "id": "p2", "x": 244, "y": 116, "label": "Atlanta" },
+        { "id": "p3", "x": 272, "y": 76, "label": "Gettysburg" },
+        { "id": "p4", "x": 274, "y": 86, "label": "Antietam" }
+      ]
+    },
+    "prompt": "Which pin marks the July 1863 siege that gave the Union full control of the Mississippi River?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Vicksburg surrendered on July 4, 1863, splitting the Confederacy in two along the Mississippi River.",
+    "source_url": "https://www.nps.gov/vick/learn/historyculture/vicksburg-campaign.htm",
+    "fun_fact": "Vicksburg fell just one day after the Union victory at Gettysburg.",
+    "trap_notes": {
+      "p2": "Atlanta fell to Sherman in September 1864, inland in Georgia.",
+      "p3": "Gettysburg was fought in Pennsylvania, far from the Mississippi River.",
+      "p4": "Antietam (1862) was fought in Maryland near Potomac Creek.",
+      "default": "Vicksburg sat on high bluffs overlooking the lower Mississippi River."
+    }
+  },
+  {
+    "id": "us-map-111",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil War",
+    "era": "1861–1865",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.8309, "lng": -77.2311, "label": "Gettysburg, Pennsylvania" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 266, "y": 94, "label": "Appomattox" },
+        { "id": "p2", "x": 272, "y": 76, "label": "Gettysburg" },
+        { "id": "p3", "x": 212, "y": 116, "label": "Shiloh" },
+        { "id": "p4", "x": 258, "y": 114, "label": "Fort Sumter" }
+      ]
+    },
+    "prompt": "Select the pin for the July 1863 northern battle that halted Lee's second invasion of the Union.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Union forces defeated Lee at Gettysburg in southern Pennsylvania, where Lincoln later gave his famous address.",
+    "source_url": "https://www.nps.gov/gett/learn/historyculture/index.htm",
+    "fun_fact": "Over 50,000 soldiers were killed, wounded, or missing in just three days at Gettysburg.",
+    "trap_notes": {
+      "p1": "Appomattox Court House in Virginia was where Lee surrendered in April 1865.",
+      "p3": "Shiloh (1862) was an early western theater battle in Tennessee.",
+      "p4": "Fort Sumter (1861) was in South Carolina, where the war started.",
+      "default": "Gettysburg is in southern Pennsylvania, north of Maryland."
+    }
+  },
+  {
+    "id": "us-map-112",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1862–1869",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.6186, "lng": -112.5508, "label": "Promontory Summit, Utah" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 100, "y": 74, "label": "Promontory Summit" },
+        { "id": "p2", "x": 156, "y": 82, "label": "Omaha" },
+        { "id": "p3", "x": 50, "y": 82, "label": "Sacramento" },
+        { "id": "p4", "x": 196, "y": 78, "label": "Chicago" }
+      ]
+    },
+    "prompt": "Which pin marks where the Central Pacific and Union Pacific railroads met in 1869?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Crews drove the Golden Spike at Promontory Summit, Utah, completing the first Transcontinental Railroad.",
+    "source_url": "https://www.nps.gov/gosp/learn/historyculture/index.htm",
+    "fun_fact": "Coast-to-coast travel time dropped from six months by wagon to about one week by train.",
+    "trap_notes": {
+      "p2": "Omaha, Nebraska, was the eastern starting point of the Union Pacific.",
+      "p3": "Sacramento, California, was the western starting point of the Central Pacific.",
+      "p4": "Chicago was a major Midwest rail hub, not the 1869 meeting point.",
+      "default": "The two railroads met near the Great Salt Lake in northern Utah."
+    }
+  },
+  {
+    "id": "us-map-113",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Plains Wars",
+    "era": "1876–1890",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 45.5658, "lng": -107.4281, "label": "Little Bighorn, Montana" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 122, "y": 54, "label": "Little Bighorn" },
+        { "id": "p2", "x": 146, "y": 144, "label": "The Alamo" },
+        { "id": "p3", "x": 162, "y": 116, "label": "Oklahoma City" },
+        { "id": "p4", "x": 54, "y": 100, "label": "Los Angeles" }
+      ]
+    },
+    "prompt": "Select the pin for the 1876 battle where Lakota and Cheyenne warriors defeated Custer's cavalry.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Sitting Bull and Crazy Horse led Lakota and Cheyenne fighters to victory at Little Bighorn in Montana.",
+    "source_url": "https://www.nps.gov/libi/learn/historyculture/index.htm",
+    "fun_fact": "Gold discoveries in the nearby Black Hills had sparked the 1876 conflict.",
+    "trap_notes": {
+      "p2": "The Alamo (1836) was a battle during the Texas Revolution.",
+      "p3": "Oklahoma City grew out of the 1889 Oklahoma Land Rush.",
+      "p4": "Los Angeles is on the southern California coast, far from Montana.",
+      "default": "Little Bighorn lies on the northern Great Plains in Montana."
+    }
+  },
+  {
+    "id": "us-map-114",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Immigration & Urbanization",
+    "era": "1880–1924",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.6995, "lng": -74.0396, "label": "Ellis Island, New York" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 288, "y": 72, "label": "Ellis Island" },
+        { "id": "p2", "x": 42, "y": 82, "label": "Angel Island" },
+        { "id": "p3", "x": 184, "y": 156, "label": "New Orleans" },
+        { "id": "p4", "x": 244, "y": 176, "label": "Miami" }
+      ]
+    },
+    "prompt": "Which pin marks the main federal station that processed 12 million European immigrants from 1892 to 1954?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Ellis Island in New York Harbor was the busiest gateway for European immigrants arriving on the East Coast.",
+    "source_url": "https://www.nps.gov/elis/learn/historyculture/index.htm",
+    "fun_fact": "Over 40 percent of Americans today can trace at least one ancestor through Ellis Island.",
+    "trap_notes": {
+      "p2": "Angel Island in San Francisco Bay processed mostly Asian immigrants on the West Coast.",
+      "p3": "New Orleans was a southern Gulf port, not the main European entry station.",
+      "p4": "Miami became a major immigration gateway much later in the 1960s.",
+      "default": "Ellis Island sits in New York Harbor on the Atlantic coast."
+    }
+  },
+  {
+    "id": "us-map-115",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Immigration & Urbanization",
+    "era": "1910–1940",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.8616, "lng": -122.4326, "label": "Angel Island, California" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 288, "y": 72, "label": "Ellis Island" },
+        { "id": "p2", "x": 44, "y": 82, "label": "Angel Island" },
+        { "id": "p3", "x": 302, "y": 54, "label": "Boston" },
+        { "id": "p4", "x": 204, "y": 74, "label": "Chicago" }
+      ]
+    },
+    "prompt": "Select the pin for the West Coast station where Chinese and other Asian immigrants faced strict interrogations.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Angel Island in San Francisco Bay detained many Asian immigrants under the Chinese Exclusion laws.",
+    "source_url": "https://www.nps.gov/places/angel-island-immigration-station.htm",
+    "fun_fact": "Detained immigrants carved hundreds of Chinese poems into the wooden barracks walls.",
+    "trap_notes": {
+      "p1": "Ellis Island in New York processed mostly European immigrants.",
+      "p3": "Boston was an East Coast port receiving mostly European arrivals.",
+      "p4": "Chicago is an inland Great Lakes city, not a coastal entry station.",
+      "default": "Angel Island sits in San Francisco Bay on the Pacific coast."
+    }
+  },
+  {
+    "id": "us-map-116",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Great Depression",
+    "era": "1930–1939",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 36.68, "lng": -101.48, "label": "Southern Great Plains" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 146, "y": 112, "label": "Dust Bowl" },
+        { "id": "p2", "x": 216, "y": 122, "label": "Tennessee Valley" },
+        { "id": "p3", "x": 300, "y": 52, "label": "New England" },
+        { "id": "p4", "x": 46, "y": 36, "label": "Pacific Northwest" }
+      ]
+    },
+    "prompt": "Which pin marks the region hit hardest by 1930s drought and black blizzards, forcing 'Okie' migration west?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Overplowing and severe drought turned the southern Great Plains into the Dust Bowl during the 1930s.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl/",
+    "fun_fact": "One 1935 dust storm carried Plains topsoil all the way to Washington, D.C.",
+    "trap_notes": {
+      "p2": "The Tennessee Valley received New Deal hydroelectric dams through the TVA.",
+      "p3": "New England is a forested coastal region, not the Great Plains.",
+      "p4": "The Pacific Northwest received migrants rather than losing farms to dust storms.",
+      "default": "The Dust Bowl centered on the Oklahoma and Texas panhandles and Kansas."
+    }
+  },
+  {
+    "id": "us-map-117",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "New Deal",
+    "era": "1933–1939",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 35.9606, "lng": -83.9207, "label": "Tennessee River Valley" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 218, "y": 120, "label": "Tennessee Valley" },
+        { "id": "p2", "x": 86, "y": 106, "label": "Hoover Dam" },
+        { "id": "p3", "x": 146, "y": 112, "label": "Dust Bowl" },
+        { "id": "p4", "x": 248, "y": 168, "label": "Everglades" }
+      ]
+    },
+    "prompt": "Select the pin for the 1933 New Deal regional agency that built dams, controlled floods, and brought rural electricity.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Tennessee Valley Authority (TVA) built dams to stop flooding and bring cheap power to seven southern states.",
+    "source_url": "https://www.archives.gov/milestone-documents/tennessee-valley-authority-act",
+    "fun_fact": "Before the TVA, only about 3 percent of farms in the Tennessee Valley had electricity.",
+    "trap_notes": {
+      "p2": "Hoover Dam sits on the Colorado River between Nevada and Arizona.",
+      "p3": "The Dust Bowl was on the dry southern Plains, not the Tennessee River basin.",
+      "p4": "The Everglades is a Florida wetland, not the TVA hydroelectric region.",
+      "default": "The TVA operated across the Tennessee River Valley in the Upper South."
+    }
+  },
+  {
+    "id": "us-map-118",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1954–1968",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.3792, "lng": -86.3077, "label": "Montgomery, Alabama" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 224, "y": 134, "label": "Montgomery" },
+        { "id": "p2", "x": 184, "y": 116, "label": "Little Rock" },
+        { "id": "p3", "x": 274, "y": 86, "label": "Washington, D.C." },
+        { "id": "p4", "x": 258, "y": 104, "label": "Greensboro" }
+      ]
+    },
+    "prompt": "Which pin marks the Alabama city where Rosa Parks's 1955 arrest sparked a 381-day bus boycott?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Black residents in Montgomery boycotted city buses until the Supreme Court outlawed bus segregation.",
+    "source_url": "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/",
+    "fun_fact": "Martin Luther King Jr., then a young Montgomery pastor, rose to national fame leading the boycott.",
+    "trap_notes": {
+      "p2": "Little Rock, Arkansas, was the site of the 1957 high school integration crisis.",
+      "p3": "Washington, D.C., hosted the 1963 March on Washington.",
+      "p4": "Greensboro, North Carolina, sparked the 1960 lunch-counter sit-ins.",
+      "default": "Montgomery is the state capital of central Alabama."
+    }
+  },
+  {
+    "id": "us-map-119",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1954–1968",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.7465, "lng": -92.2896, "label": "Little Rock, Arkansas" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 184, "y": 116, "label": "Little Rock" },
+        { "id": "p2", "x": 224, "y": 134, "label": "Selma" },
+        { "id": "p3", "x": 258, "y": 104, "label": "Greensboro" },
+        { "id": "p4", "x": 274, "y": 86, "label": "Washington, D.C." }
+      ]
+    },
+    "prompt": "Select the pin where President Eisenhower sent federal troops in 1957 to escort nine Black students into Central High.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Eisenhower sent the 101st Airborne to Little Rock, Arkansas, after the governor tried to block school integration.",
+    "source_url": "https://www.nps.gov/chsc/learn/historyculture/index.htm",
+    "fun_fact": "The nine students, called the Little Rock Nine, walked past jeering crowds to uphold Brown v. Board.",
+    "trap_notes": {
+      "p2": "Selma, Alabama, was the site of the 1965 voting rights marches.",
+      "p3": "Greensboro, North Carolina, was where four students held the 1960 Woolworth sit-in.",
+      "p4": "Washington, D.C., was where the Supreme Court ruled, not where troops escorted students.",
+      "default": "Little Rock lies in central Arkansas just west of the Mississippi River."
+    }
+  },
+  {
+    "id": "us-map-120",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "U.S. Imperialism",
+    "era": "1898–1914",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 90, "y": 100, "label": "Cuba" },
+        { "id": "p2", "x": 298, "y": 110, "label": "Philippines" },
+        { "id": "p3", "x": 28, "y": 104, "label": "Hawaii" },
+        { "id": "p4", "x": 80, "y": 116, "label": "Panama" }
+      ]
+    },
+    "prompt": "Which pin marks the Caribbean island where the USS Maine exploded in 1898, sparking the Spanish-American War?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The USS Maine exploded in Havana Harbor, Cuba, leading the U.S. to declare war on Spain in 1898.",
+    "source_url": "https://www.loc.gov/rr/hispanic/1898/intro.html",
+    "fun_fact": "Yellow journalists blamed Spain right away with the slogan 'Remember the Maine!'",
+    "trap_notes": {
+      "p2": "The Philippines was fought over in the Pacific, not where the USS Maine exploded.",
+      "p3": "Hawaii was annexed in 1898 as a mid-Pacific naval base, not the Maine site.",
+      "p4": "Panama became the site of the U.S.-built canal starting in 1904.",
+      "default": "Cuba lies in the Caribbean Sea just south of Florida."
+    }
+  },
+  {
+    "id": "us-map-121",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "U.S. Imperialism",
+    "era": "1903–1914",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 9.082, "lng": -79.68, "label": "Panama Canal" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 80, "y": 116, "label": "Panama" },
+        { "id": "p2", "x": 208, "y": 90, "label": "Suez" },
+        { "id": "p3", "x": 36, "y": 40, "label": "Alaska" },
+        { "id": "p4", "x": 28, "y": 104, "label": "Hawaii" }
+      ]
+    },
+    "prompt": "Select the pin for the 1914 U.S.-built waterway that cut sea travel between the Atlantic and Pacific oceans.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Panama Canal cut across Central America so U.S. warships and cargo ships no longer had to sail around South America.",
+    "source_url": "https://history.state.gov/milestones/1899-1913/panama-canal",
+    "fun_fact": "Doctors Walter Reed and William Gorgas controlled yellow fever mosquitoes so workers could finish the canal.",
+    "trap_notes": {
+      "p2": "The Suez Canal connects the Mediterranean and Red seas in Egypt.",
+      "p3": "Alaska is a northern territory bought from Russia in 1867.",
+      "p4": "Hawaii is a Pacific island chain, not a canal connecting two oceans.",
+      "default": "Panama sits on the narrow land bridge between North and South America."
+    }
+  },
+  {
+    "id": "us-map-122",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1941–1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 21.3649, "lng": -157.95, "label": "Pearl Harbor, Hawaii" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 28, "y": 104, "label": "Pearl Harbor" },
+        { "id": "p2", "x": 298, "y": 110, "label": "Manila" },
+        { "id": "p3", "x": 324, "y": 66, "label": "Tokyo" },
+        { "id": "p4", "x": 164, "y": 66, "label": "Normandy" }
+      ]
+    },
+    "prompt": "Which pin marks the U.S. Pacific Fleet base attacked by Japan on December 7, 1941?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Japan's surprise attack on Pearl Harbor in Hawaii brought the United States into World War II.",
+    "source_url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-leading-to-a-declaration-of-war-against-japan",
+    "fun_fact": "President Roosevelt called December 7, 1941, 'a date which will live in infamy.'",
+    "trap_notes": {
+      "p2": "Manila in the Philippines was attacked hours later, not the main Pacific Fleet base.",
+      "p3": "Tokyo was Japan's capital, bombed later in the war.",
+      "p4": "Normandy is in northern France, site of the 1944 D-Day invasion.",
+      "default": "Pearl Harbor is in the Hawaiian Islands in the central Pacific Ocean."
+    }
+  },
+  {
+    "id": "us-map-123",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1941–1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 49.3697, "lng": -0.8711, "label": "Normandy, France" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 164, "y": 64, "label": "Normandy" },
+        { "id": "p2", "x": 190, "y": 82, "label": "Sicily" },
+        { "id": "p3", "x": 208, "y": 90, "label": "El Alamein" },
+        { "id": "p4", "x": 28, "y": 104, "label": "Midway" }
+      ]
+    },
+    "prompt": "Select the pin for the June 6, 1944 D-Day amphibious landing that opened a Western Front in Europe.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Allied troops stormed five beaches in Normandy, France, on D-Day to begin liberating Western Europe.",
+    "source_url": "https://www.archives.gov/milestone-documents/general-dwight-d-eisenhowers-order-of-the-day",
+    "fun_fact": "Over 156,000 Allied troops landed in Normandy on the first day alone.",
+    "trap_notes": {
+      "p2": "Sicily was invaded earlier in July 1943, not D-Day in France.",
+      "p3": "El Alamein was a 1942 desert battle in Egypt.",
+      "p4": "Midway was a crucial 1942 naval battle in the Pacific Ocean.",
+      "default": "Normandy sits on the northern coast of France facing Britain."
+    }
+  },
+  {
+    "id": "us-map-124",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1945–1962",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 182, "y": 54, "label": "Berlin" },
+        { "id": "p2", "x": 312, "y": 72, "label": "Seoul" },
+        { "id": "p3", "x": 90, "y": 100, "label": "Havana" },
+        { "id": "p4", "x": 292, "y": 112, "label": "Saigon" }
+      ]
+    },
+    "prompt": "Which pin marks the divided city supplied by a massive 1948–1949 U.S. and British airlift?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "When the Soviet Union blockaded West Berlin, the U.S. flew in food and coal for nearly a year.",
+    "source_url": "https://history.state.gov/milestones/1945-1952/berlin-airlift",
+    "fun_fact": "U.S. pilot Gail Halvorsen dropped tiny parachutes with candy for Berlin children.",
+    "trap_notes": {
+      "p2": "Seoul was the capital of South Korea during the 1950–1953 Korean War.",
+      "p3": "Havana was the center of the 1962 Cuban Missile Crisis.",
+      "p4": "Saigon was South Vietnam's capital during the Vietnam War.",
+      "default": "Berlin lay deep inside Soviet-occupied East Germany in central Europe."
+    }
+  },
+  {
+    "id": "us-map-125",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1960–1963",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Cuba" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 90, "y": 100, "label": "Cuba" },
+        { "id": "p2", "x": 182, "y": 54, "label": "Berlin" },
+        { "id": "p3", "x": 200, "y": 76, "label": "Turkey" },
+        { "id": "p4", "x": 312, "y": 72, "label": "Korea" }
+      ]
+    },
+    "prompt": "Select the pin where Soviet nuclear missiles triggered a tense 13-day standoff with President Kennedy in 1962.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "U.S. spy planes spotted Soviet missiles in Cuba, leading Kennedy to order a naval blockade until they were removed.",
+    "source_url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+    "fun_fact": "As part of the deal, the U.S. quietly agreed to remove its own missiles from Turkey.",
+    "trap_notes": {
+      "p2": "Berlin had a wall crisis in 1961, not the 1962 missile crisis.",
+      "p3": "U.S. missiles in Turkey were part of the secret trade, not the Soviet site.",
+      "p4": "The Korean War ended in 1953, nine years before the 1962 crisis.",
+      "default": "Cuba is an island nation just 90 miles south of Florida."
+    }
+  },
+  {
+    "id": "us-map-126",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1950–1975",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.95, "lng": 126.9, "label": "38th Parallel, Korea" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "p1", "x": 222, "y": 82, "label": "38th Parallel" },
+        { "id": "p2", "x": 200, "y": 170, "label": "Taiwan" },
+        { "id": "p3", "x": 288, "y": 86, "label": "Tokyo" },
+        { "id": "p4", "x": 168, "y": 196, "label": "South China Sea" }
+      ]
+    },
+    "prompt": "Which pin marks the dividing line where U.S. and UN forces fought to halt a 1950 invasion?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "North Korean troops crossed the 38th Parallel in 1950, prompting a U.S.-led UN defense of South Korea.",
+    "source_url": "https://www.archives.gov/education/lessons/korean-conflict",
+    "fun_fact": "The 1953 armistice left the border very close to where the war started at the 38th Parallel.",
+    "trap_notes": {
+      "p2": "Taiwan was where Chinese Nationalists retreated in 1949, not the 1950 land war.",
+      "p3": "Tokyo was the headquarters for General MacArthur in occupied Japan.",
+      "p4": "The South China Sea lies much farther south near Vietnam and the Philippines.",
+      "default": "The 38th Parallel cuts across the middle of the Korean Peninsula."
+    }
+  },
+  {
+    "id": "us-map-127",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1791–1800",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, PA" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 282, "y": 78, "label": "Philadelphia" },
+        { "id": "p2", "x": 258, "y": 114, "label": "Charleston" },
+        { "id": "p3", "x": 184, "y": 156, "label": "New Orleans" },
+        { "id": "p4", "x": 244, "y": 74, "label": "Detroit" }
+      ]
+    },
+    "prompt": "Select the pin for the city where both the Declaration of Independence and the U.S. Constitution were written.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Delegates met at Independence Hall in Philadelphia in 1776 and again in 1787 to draft the Constitution.",
+    "source_url": "https://www.nps.gov/inde/learn/historyculture/index.htm",
+    "fun_fact": "Philadelphia also served as the temporary U.S. capital from 1790 to 1800 while Washington, D.C. was built.",
+    "trap_notes": {
+      "p2": "Charleston was a major southern port in South Carolina, not the convention city.",
+      "p3": "New Orleans belonged to Spain and France until the 1803 Louisiana Purchase.",
+      "p4": "Detroit was a frontier Great Lakes fort in 1787.",
+      "default": "Philadelphia sits in southeastern Pennsylvania near the Delaware River."
+    }
+  },
+  {
+    "id": "us-map-128",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Women's Rights",
+    "era": "1848–1920",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.9106, "lng": -76.7967, "label": "Seneca Falls, New York" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 266, "y": 64, "label": "Seneca Falls" },
+        { "id": "p2", "x": 274, "y": 86, "label": "Washington, D.C." },
+        { "id": "p3", "x": 204, "y": 74, "label": "Chicago" },
+        { "id": "p4", "x": 44, "y": 82, "label": "San Francisco" }
+      ]
+    },
+    "prompt": "Which pin marks the New York town where the first U.S. women's rights convention met in 1848?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Elizabeth Cady Stanton and Lucretia Mott organized the 1848 Seneca Falls Convention in upstate New York.",
+    "source_url": "https://www.nps.gov/wori/learn/historyculture/seneca-falls-convention.htm",
+    "fun_fact": "The convention's Declaration of Sentiments began: 'All men and women are created equal.'",
+    "trap_notes": {
+      "p2": "Washington, D.C., saw major suffrage parades in 1913, decades after 1848.",
+      "p3": "Chicago hosted major Progressive reform work at Hull House in 1889.",
+      "p4": "San Francisco was a Gold Rush port in 1848, not the convention site.",
+      "default": "Seneca Falls is in the Finger Lakes region of upstate New York."
+    }
+  },
+  {
+    "id": "us-map-129",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Industrialization",
+    "era": "1870–1914",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, PA" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 254, "y": 78, "label": "Pittsburgh" },
+        { "id": "p2", "x": 244, "y": 116, "label": "Atlanta" },
+        { "id": "p3", "x": 146, "y": 144, "label": "San Antonio" },
+        { "id": "p4", "x": 100, "y": 78, "label": "Salt Lake City" }
+      ]
+    },
+    "prompt": "Select the pin for the Appalachian river city that became America's steel capital under Andrew Carnegie.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Carnegie built giant steel mills in Pittsburgh, using nearby coal and Great Lakes iron ore.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/",
+    "fun_fact": "Three rivers meet at Pittsburgh, making it easy to ship coal and steel by barge.",
+    "trap_notes": {
+      "p2": "Atlanta became a southern rail and commerce hub, not Carnegie's steel base.",
+      "p3": "San Antonio was a Texas cattle and military center.",
+      "p4": "Salt Lake City was a western mining and rail crossroads.",
+      "default": "Pittsburgh sits in western Pennsylvania where the Ohio River begins."
+    }
+  },
+  {
+    "id": "us-map-130",
+    "type": "map",
+    "domain": "US",
+    "subdomain": "Cold War & Space Race",
+    "era": "1957–1969",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 28.5729, "lng": -80.649, "label": "Cape Canaveral, Florida" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 246, "y": 162, "label": "Cape Canaveral" },
+        { "id": "p2", "x": 166, "y": 162, "label": "Houston" },
+        { "id": "p3", "x": 124, "y": 134, "label": "Los Alamos" },
+        { "id": "p4", "x": 274, "y": 86, "label": "Washington, D.C." }
+      ]
+    },
+    "prompt": "Which pin marks the Atlantic coast launchpad from which Apollo 11 blasted off to the Moon in 1969?",
+    "options": [],
+    "answer": "p1",
+    "explanation": "NASA launched Apollo 11 from Cape Canaveral on Florida's Atlantic coast so rockets flew safely over the ocean.",
+    "source_url": "https://www.nasa.gov/mission/apollo-11/",
+    "fun_fact": "Mission Control was in Houston, Texas, while the rockets launched from Florida.",
+    "trap_notes": {
+      "p2": "Houston housed NASA's Mission Control, not the ocean-side launchpad.",
+      "p3": "Los Alamos in New Mexico was the World War II atomic bomb lab.",
+      "p4": "Washington, D.C., held NASA headquarters, not rocket launchpads.",
+      "default": "Cape Canaveral sits on Florida's eastern Atlantic coast."
+    }
+  },
+  {
+    "id": "us-cmp-101",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Colonial Regions",
+    "era": "1620–1750",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "New England & Chesapeake" },
+    "compareSpec": {
+      "leftLabel": "New England Colonies",
+      "rightLabel": "Southern Colonies",
+      "items": [
+        { "id": "i1", "text": "Town meetings and Puritan churches", "bucket": "left" },
+        { "id": "i2", "text": "Shipbuilding, timber, and cod fishing", "bucket": "left" },
+        { "id": "i3", "text": "Cash crops like tobacco and rice", "bucket": "right" },
+        { "id": "i4", "text": "Large plantations using enslaved labor", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each colonial feature into New England Colonies or Southern Colonies.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "New England relied on sea trade and town meetings, while the South grew cash crops on plantations.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/colonial-settlement-1600-1763/",
+    "fun_fact": "Rocky soil and short summers pushed New Englanders toward fishing and shipbuilding instead of giant farms.",
+    "trap_notes": {
+      "default": "Match rocky-soil sea trade and town meetings to New England, and plantations to the South."
+    }
+  },
+  {
+    "id": "us-cmp-102",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Constitutional Debate",
+    "era": "1787–1789",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Federalists",
+      "rightLabel": "Anti-Federalists",
+      "items": [
+        { "id": "i1", "text": "Favored a strong national government", "bucket": "left" },
+        { "id": "i2", "text": "Wrote The Federalist Papers", "bucket": "left" },
+        { "id": "i3", "text": "Demanded a written Bill of Rights", "bucket": "right" },
+        { "id": "i4", "text": "Feared states would lose their power", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each position into Federalists or Anti-Federalists during the 1787–1788 ratification debate.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Federalists backed a strong national Constitution, while Anti-Federalists demanded a Bill of Rights to protect states and people.",
+    "source_url": "https://constitutioncenter.org/the-constitution/white-papers/the-ratification-debate",
+    "fun_fact": "Alexander Hamilton, James Madison, and John Jay wrote 85 Federalist essays under the pen name 'Publius.'",
+    "trap_notes": {
+      "default": "Federalists pushed for ratification; Anti-Federalists insisted on adding a Bill of Rights."
+    }
+  },
+  {
+    "id": "us-cmp-103",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "First Party System",
+    "era": "1790–1800",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, PA" },
+    "compareSpec": {
+      "leftLabel": "Hamilton's Federalists",
+      "rightLabel": "Jefferson's Republicans",
+      "items": [
+        { "id": "i1", "text": "Supported a national bank and tariffs", "bucket": "left" },
+        { "id": "i2", "text": "Favored loose constitutional reading", "bucket": "left" },
+        { "id": "i3", "text": "Vision of independent small farmers", "bucket": "right" },
+        { "id": "i4", "text": "Favored strict constitutional reading", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1790s political idea into Hamilton's Federalists or Jefferson's Democratic-Republicans.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Hamilton wanted a national bank and industry, while Jefferson favored farmers and strict limits on federal power.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/formation-of-political-parties.html",
+    "fun_fact": "George Washington warned against political parties in his 1796 Farewell Address, but his cabinet had already split.",
+    "trap_notes": {
+      "default": "Link banks, tariffs, and loose reading to Hamilton; link farms and strict reading to Jefferson."
+    }
+  },
+  {
+    "id": "us-cmp-104",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Constitutional Foundations",
+    "era": "1777–1789",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, PA" },
+    "compareSpec": {
+      "leftLabel": "Articles of Confederation",
+      "rightLabel": "U.S. Constitution",
+      "items": [
+        { "id": "i1", "text": "No national president or federal courts", "bucket": "left" },
+        { "id": "i2", "text": "Congress could not levy direct taxes", "bucket": "left" },
+        { "id": "i3", "text": "Three branches with checks and balances", "bucket": "right" },
+        { "id": "i4", "text": "Two-house Congress with power to tax", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each feature into the Articles of Confederation or the U.S. Constitution.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Articles lacked a president, courts, and tax power, which the 1787 Constitution fixed with three branches.",
+    "source_url": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "fun_fact": "Under the Articles, all 13 states had to agree before any amendment could pass.",
+    "trap_notes": {
+      "default": "The Articles had a weak one-house Congress; the Constitution created three balanced branches."
+    }
+  },
+  {
+    "id": "us-cmp-105",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Road to Revolution",
+    "era": "1765–1775",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "compareSpec": {
+      "leftLabel": "British Actions",
+      "rightLabel": "Colonial Responses",
+      "items": [
+        { "id": "i1", "text": "Stamp Act tax on printed paper", "bucket": "left" },
+        { "id": "i2", "text": "Intolerable Acts closing Boston Harbor", "bucket": "left" },
+        { "id": "i3", "text": "Boycotting British goods and tea", "bucket": "right" },
+        { "id": "i4", "text": "Forming the First Continental Congress", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each pre-Revolution event into British Actions or Colonial Responses.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Parliament passed taxes and punitive laws, and colonists answered with boycotts and unified congresses.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/american-revolution-1763-1783/",
+    "fun_fact": "Colonial boycotts hurt British merchants so badly that Parliament repealed the Stamp Act in 1766.",
+    "trap_notes": {
+      "default": "Separate Parliament's taxes and laws from the colonists' protests and congresses."
+    }
+  },
+  {
+    "id": "us-cmp-106",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Civil War",
+    "era": "1861–1865",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Union Advantages",
+      "rightLabel": "Confederate Advantages",
+      "items": [
+        { "id": "i1", "text": "Larger population and more factories", "bucket": "left" },
+        { "id": "i2", "text": "Extensive railroad network and navy", "bucket": "left" },
+        { "id": "i3", "text": "Fighting defensively on home territory", "bucket": "right" },
+        { "id": "i4", "text": "Experienced generals like Robert E. Lee", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1861 wartime strength into Union Advantages or Confederate Advantages.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Union held industrial, population, and rail advantages, while the Confederacy fought defensively with skilled generals.",
+    "source_url": "https://www.nps.gov/civilwar/facts.htm",
+    "fun_fact": "The North produced over 90 percent of the nation's iron, firearms, and shoes in 1860.",
+    "trap_notes": {
+      "default": "Match industry, population, and navy to the Union; match home-turf defense to the Confederacy."
+    }
+  },
+  {
+    "id": "us-cmp-107",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865–1877",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Expanded Rights",
+      "rightLabel": "Restricted Rights",
+      "items": [
+        { "id": "i1", "text": "14th and 15th Amendments", "bucket": "left" },
+        { "id": "i2", "text": "Freedmen's Bureau schools and aid", "bucket": "left" },
+        { "id": "i3", "text": "Black Codes and Jim Crow laws", "bucket": "right" },
+        { "id": "i4", "text": "Poll taxes and literacy tests", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Reconstruction-era policy into Expanded Rights or Restricted Rights.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Federal amendments and the Freedmen's Bureau expanded rights, while Black Codes, poll taxes, and Jim Crow curtailed them.",
+    "source_url": "https://www.archives.gov/research/african-americans/freedmens-bureau",
+    "fun_fact": "Over 1,500 Black Americans held public office in the South during Reconstruction.",
+    "trap_notes": {
+      "default": "Separate federal protections for freed people from southern laws used to block their rights."
+    }
+  },
+  {
+    "id": "us-cmp-108",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Early Civil Rights Thinkers",
+    "era": "1890–1915",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 32.4299, "lng": -85.7082, "label": "Tuskegee, Alabama" },
+    "compareSpec": {
+      "leftLabel": "Booker T. Washington",
+      "rightLabel": "W.E.B. Du Bois",
+      "items": [
+        { "id": "i1", "text": "Founded Tuskegee Institute for trades", "bucket": "left" },
+        { "id": "i2", "text": "Urged gradual economic self-reliance", "bucket": "left" },
+        { "id": "i3", "text": "Co-founded the NAACP in 1909", "bucket": "right" },
+        { "id": "i4", "text": "Demanded immediate full civil equality", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each civil rights strategy into Booker T. Washington or W.E.B. Du Bois.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Washington emphasized vocational training first, while Du Bois co-founded the NAACP to demand immediate equal rights.",
+    "source_url": "https://www.loc.gov/exhibits/naacp/founding-and-early-years.html",
+    "fun_fact": "W.E.B. Du Bois was the first African American to earn a Ph.D. from Harvard University.",
+    "trap_notes": {
+      "default": "Link Tuskegee and job skills to Washington; link the NAACP and immediate rights to Du Bois."
+    }
+  },
+  {
+    "id": "us-cmp-109",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "New Deal",
+    "era": "1933–1939",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Relief & Jobs",
+      "rightLabel": "Financial Reform",
+      "items": [
+        { "id": "i1", "text": "CCC planting trees and building parks", "bucket": "left" },
+        { "id": "i2", "text": "WPA hiring builders, artists, writers", "bucket": "left" },
+        { "id": "i3", "text": "FDIC insuring bank savings deposits", "bucket": "right" },
+        { "id": "i4", "text": "SEC policing stock market fraud", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each New Deal program into Relief & Jobs or Financial Reform.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The CCC and WPA put unemployed people to work, while the FDIC and SEC reformed banks and stock markets.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/franklin-delano-roosevelt-and-the-new-deal/",
+    "fun_fact": "Both the FDIC and the SEC still regulate U.S. banks and stock markets today.",
+    "trap_notes": {
+      "default": "CCC and WPA created direct jobs; FDIC and SEC fixed banking and Wall Street rules."
+    }
+  },
+  {
+    "id": "us-cmp-110",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1920s Society",
+    "era": "1920–1929",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.8116, "lng": -73.9465, "label": "Harlem, New York" },
+    "compareSpec": {
+      "leftLabel": "Modernist Shifts",
+      "rightLabel": "Traditionalist Backlash",
+      "items": [
+        { "id": "i1", "text": "Harlem Renaissance art and jazz", "bucket": "left" },
+        { "id": "i2", "text": "Flapper fashion and women voting", "bucket": "left" },
+        { "id": "i3", "text": "Prohibition ban on alcohol sales", "bucket": "right" },
+        { "id": "i4", "text": "Strict 1924 immigration quotas", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1920s trend into Modernist Shifts or Traditionalist Backlash.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The 1920s saw cultural creativity in cities alongside Prohibition and strict immigration quotas.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/prohibition-case-study/",
+    "fun_fact": "The 1920 census was the first in U.S. history to show more Americans living in cities than in rural areas.",
+    "trap_notes": {
+      "default": "Separate urban cultural expression from laws meant to preserve older social norms."
+    }
+  },
+  {
+    "id": "us-cmp-111",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "World War I",
+    "era": "1914–1920",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Wilson's Fourteen Points",
+      "rightLabel": "U.S. Senate Critics",
+      "items": [
+        { "id": "i1", "text": "Create a global League of Nations", "bucket": "left" },
+        { "id": "i2", "text": "End secret treaties and support trade", "bucket": "left" },
+        { "id": "i3", "text": "Feared losing Congress's war power", "bucket": "right" },
+        { "id": "i4", "text": "Preferred avoiding foreign alliances", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each post-WWI treaty view into Wilson's Fourteen Points or U.S. Senate Critics.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Wilson pushed for the League of Nations, while Senate critics like Henry Cabot Lodge rejected foreign entanglements.",
+    "source_url": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
+    "fun_fact": "The U.S. Senate never ratified the Treaty of Versailles and never joined the League of Nations.",
+    "trap_notes": {
+      "default": "Match international cooperation to Wilson, and fear of foreign commitments to Senate critics."
+    }
+  },
+  {
+    "id": "us-cmp-112",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1945–1960",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "U.S. Cold War Moves",
+      "rightLabel": "Soviet Cold War Moves",
+      "items": [
+        { "id": "i1", "text": "Marshall Plan aid to Western Europe", "bucket": "left" },
+        { "id": "i2", "text": "Forming the NATO defense alliance", "bucket": "left" },
+        { "id": "i3", "text": "Forming the Warsaw Pact alliance", "bucket": "right" },
+        { "id": "i4", "text": "Launching the Sputnik satellite", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each early Cold War action into U.S. Cold War Moves or Soviet Cold War Moves.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The U.S. backed Western Europe with the Marshall Plan and NATO, while the USSR formed the Warsaw Pact and launched Sputnik.",
+    "source_url": "https://history.state.gov/milestones/1945-1952/marshall-plan",
+    "fun_fact": "Sputnik's 1957 launch led Congress to pass the National Defense Education Act to fund science and math.",
+    "trap_notes": {
+      "default": "Marshall Plan and NATO were U.S.-led; Warsaw Pact and Sputnik were Soviet-led."
+    }
+  },
+  {
+    "id": "us-cmp-113",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Sectionalism & Compromise",
+    "era": "1820–1854",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Missouri Compromise (1820)",
+      "rightLabel": "Kansas-Nebraska Act (1854)",
+      "items": [
+        { "id": "i1", "text": "Banned slavery north of 36°30' line", "bucket": "left" },
+        { "id": "i2", "text": "Admitted Maine free, Missouri slave", "bucket": "left" },
+        { "id": "i3", "text": "Used popular sovereignty voting", "bucket": "right" },
+        { "id": "i4", "text": "Repealed the 36°30' slavery ban", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each slavery compromise feature into the Missouri Compromise (1820) or Kansas-Nebraska Act (1854).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The 1820 compromise drew the 36°30' line, whereas the 1854 Kansas-Nebraska Act erased that line for local voting.",
+    "source_url": "https://www.archives.gov/milestone-documents/missouri-compromise",
+    "fun_fact": "Pro-slavery and anti-slavery settlers rushed into Kansas, sparking violence called 'Bleeding Kansas.'",
+    "trap_notes": {
+      "default": "1820 set the 36°30' line and paired Maine with Missouri; 1854 replaced it with popular sovereignty."
+    }
+  },
+  {
+    "id": "us-cmp-114",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Gilded Age Labor",
+    "era": "1870–1900",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "compareSpec": {
+      "leftLabel": "Knights of Labor",
+      "rightLabel": "American Federation of Labor",
+      "items": [
+        { "id": "i1", "text": "Open to skilled and unskilled workers", "bucket": "left" },
+        { "id": "i2", "text": "Declined after 1886 Haymarket Riot", "bucket": "left" },
+        { "id": "i3", "text": "Led by Samuel Gompers for craft unions", "bucket": "right" },
+        { "id": "i4", "text": "Focused on wages, hours, conditions", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each labor union trait into the Knights of Labor or the American Federation of Labor (AFL).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Knights welcomed all workers and faded after Haymarket, while Gompers's AFL focused skilled craft unions on pay and hours.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/work-in-late-19th-century/",
+    "fun_fact": "The AFL later merged with the CIO in 1955 to form today's AFL-CIO.",
+    "trap_notes": {
+      "default": "Knights included all workers; the AFL focused on skilled trades under Samuel Gompers."
+    }
+  },
+  {
+    "id": "us-cmp-115",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1890–1920",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Muckraker Journalists",
+      "rightLabel": "Progressive Laws",
+      "items": [
+        { "id": "i1", "text": "Upton Sinclair exposing meatpacking", "bucket": "left" },
+        { "id": "i2", "text": "Ida Tarbell exposing Standard Oil", "bucket": "left" },
+        { "id": "i3", "text": "Pure Food and Drug Act of 1906", "bucket": "right" },
+        { "id": "i4", "text": "19th Amendment for women's suffrage", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Progressive Era item into Muckraker Journalists or Progressive Laws.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Muckrakers like Sinclair and Tarbell exposed abuses, helping push Congress and states to pass reform laws.",
+    "source_url": "https://www.archives.gov/milestone-documents/19th-amendment",
+    "fun_fact": "Theodore Roosevelt coined the term 'muckraker' from a character who raked up filth on the ground.",
+    "trap_notes": {
+      "default": "Separate investigative writers from the federal laws and amendments they helped inspire."
+    }
+  },
+  {
+    "id": "us-cmp-116",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "WWII Home Front",
+    "era": "1941–1945",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.9358, "lng": -122.3477, "label": "Richmond, California" },
+    "compareSpec": {
+      "leftLabel": "Home Front Mobilization",
+      "rightLabel": "Wartime Restrictions",
+      "items": [
+        { "id": "i1", "text": "Women working in defense factories", "bucket": "left" },
+        { "id": "i2", "text": "Bracero farmworkers filling shortages", "bucket": "left" },
+        { "id": "i3", "text": "Ration books for gas, meat, sugar", "bucket": "right" },
+        { "id": "i4", "text": "Internment of Japanese Americans", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each WWII home-front development into Mobilization or Wartime Restrictions.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Factories and farms mobilized new workers, while rationing and Japanese American internment restricted daily life.",
+    "source_url": "https://www.archives.gov/education/lessons/japanese-relocation",
+    "fun_fact": "Over 120,000 Japanese Americans, two-thirds of them U.S. citizens, were forced into internment camps.",
+    "trap_notes": {
+      "default": "Separate labor mobilization from government rationing and wartime internment."
+    }
+  },
+  {
+    "id": "us-cmp-117",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1954–1968",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Civil Rights Act (1964)",
+      "rightLabel": "Voting Rights Act (1965)",
+      "items": [
+        { "id": "i1", "text": "Banned segregation in public places", "bucket": "left" },
+        { "id": "i2", "text": "Barred job bias by race or sex", "bucket": "left" },
+        { "id": "i3", "text": "Outlawed literacy tests for voters", "bucket": "right" },
+        { "id": "i4", "text": "Sent federal registrars to register", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each milestone into the Civil Rights Act of 1964 or the Voting Rights Act of 1965.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The 1964 law ended public and workplace segregation, while the 1965 law protected ballot access.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "fun_fact": "Black voter registration in Mississippi jumped from under 7 percent in 1964 to nearly 60 percent by 1968.",
+    "trap_notes": {
+      "default": "1964 covered public places and jobs; 1965 specifically protected voting rights."
+    }
+  },
+  {
+    "id": "us-cmp-118",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1801–1824",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Marbury v. Madison (1803)",
+      "rightLabel": "McCulloch v. Maryland (1819)",
+      "items": [
+        { "id": "i1", "text": "Established judicial review power", "bucket": "left" },
+        { "id": "i2", "text": "Struck down part of a federal law", "bucket": "left" },
+        { "id": "i3", "text": "Upheld the Second Bank of the U.S.", "bucket": "right" },
+        { "id": "i4", "text": "Blocked states from taxing federal", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Marshall Court ruling into Marbury v. Madison (1803) or McCulloch v. Maryland (1819).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Marbury created judicial review, while McCulloch protected federal implied powers and barred state taxes on federal banks.",
+    "source_url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+    "fun_fact": "Chief Justice John Marshall shaped the Supreme Court's authority for 34 years.",
+    "trap_notes": {
+      "default": "Marbury is about judicial review; McCulloch is about the national bank and federal supremacy."
+    }
+  },
+  {
+    "id": "us-cmp-119",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Antebellum Reform",
+    "era": "1830–1860",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "compareSpec": {
+      "leftLabel": "Abolitionists",
+      "rightLabel": "Pro-Slavery Defenders",
+      "items": [
+        { "id": "i1", "text": "William Lloyd Garrison's Liberator", "bucket": "left" },
+        { "id": "i2", "text": "Frederick Douglass's speeches", "bucket": "left" },
+        { "id": "i3", "text": "Claimed slavery was a 'positive good'", "bucket": "right" },
+        { "id": "i4", "text": "Used House 'gag rule' against petitions", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each antebellum argument or action into Abolitionists or Pro-Slavery Defenders.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Garrison and Douglass pushed for immediate emancipation, while pro-slavery leaders defended bondage and silenced petitions.",
+    "source_url": "https://www.loc.gov/exhibits/african-american-odyssey/abolition.html",
+    "fun_fact": "Former President John Quincy Adams fought in Congress for eight years to overturn the House gag rule.",
+    "trap_notes": {
+      "default": "Separate anti-slavery speakers and newspapers from pro-slavery arguments and rules."
+    }
+  },
+  {
+    "id": "us-cmp-120",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Jacksonian Democracy",
+    "era": "1828–1840",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 36.1627, "lng": -86.7816, "label": "Nashville, Tennessee" },
+    "compareSpec": {
+      "leftLabel": "Jackson's Policies",
+      "rightLabel": "Whig Party Goals",
+      "items": [
+        { "id": "i1", "text": "Vetoed the Second Bank recharter", "bucket": "left" },
+        { "id": "i2", "text": "Rewarded loyalists via spoils system", "bucket": "left" },
+        { "id": "i3", "text": "Backed Henry Clay's American System", "bucket": "right" },
+        { "id": "i4", "text": "Favored federal funds for roads/canals", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1830s political position into Jackson's Policies or Whig Party Goals.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Jackson fought the national bank and used the spoils system, while Whigs backed Clay's American System of roads and tariffs.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/national-expansion-and-reform-1815-1880/",
+    "fun_fact": "The Whig Party took its name from British Whigs who opposed King George III's power.",
+    "trap_notes": {
+      "default": "Jackson opposed the national bank; Whigs supported Clay's American System."
+    }
+  },
+  {
+    "id": "us-cmp-121",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "1960s Politics",
+    "era": "1961–1969",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Great Society Programs",
+      "rightLabel": "New Deal Programs",
+      "items": [
+        { "id": "i1", "text": "Medicare and Medicaid health care", "bucket": "left" },
+        { "id": "i2", "text": "Head Start preschool for low-income", "bucket": "left" },
+        { "id": "i3", "text": "Social Security Act of 1935", "bucket": "right" },
+        { "id": "i4", "text": "Civilian Conservation Corps (CCC)", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each federal program into LBJ's Great Society (1960s) or FDR's New Deal (1930s).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "FDR's 1930s New Deal created Social Security and the CCC, while LBJ's 1960s Great Society added Medicare and Head Start.",
+    "source_url": "https://www.archives.gov/milestone-documents/medicare-and-medicaid-act",
+    "fun_fact": "President Lyndon Johnson signed Medicare into law in Independence, Missouri, with former President Harry Truman beside him.",
+    "trap_notes": {
+      "default": "1930s New Deal tackled Depression jobs and pensions; 1960s Great Society added health care and education."
+    }
+  },
+  {
+    "id": "us-cmp-122",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Foreign Policy",
+    "era": "1823–1904",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Monroe Doctrine (1823)",
+      "rightLabel": "Roosevelt Corollary (1904)",
+      "items": [
+        { "id": "i1", "text": "Warned Europe against new colonies", "bucket": "left" },
+        { "id": "i2", "text": "Promised U.S. neutrality in Europe", "bucket": "left" },
+        { "id": "i3", "text": "Claimed U.S. 'police power' in Latin", "bucket": "right" },
+        { "id": "i4", "text": "Used to justify Caribbean landings", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each foreign-policy idea into the Monroe Doctrine (1823) or Roosevelt Corollary (1904).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Monroe warned Europe to stay out of the Americas, and Theodore Roosevelt added a claim for U.S. police intervention.",
+    "source_url": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
+    "fun_fact": "In 1823 the U.S. had a tiny navy, so Britain's Royal Navy actually helped enforce Monroe's warning.",
+    "trap_notes": {
+      "default": "Monroe warned Europe away; Roosevelt added U.S. police intervention in Latin America."
+    }
+  },
+  {
+    "id": "us-cmp-123",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Gilded Age Business",
+    "era": "1870–1900",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.4993, "lng": -81.6944, "label": "Cleveland, Ohio" },
+    "compareSpec": {
+      "leftLabel": "Vertical Integration",
+      "rightLabel": "Horizontal Integration",
+      "items": [
+        { "id": "i1", "text": "Owning mines, railroads, and mills", "bucket": "left" },
+        { "id": "i2", "text": "Carnegie Steel's supply-chain model", "bucket": "left" },
+        { "id": "i3", "text": "Buying out rival oil refineries", "bucket": "right" },
+        { "id": "i4", "text": "Rockefeller's Standard Oil monopoly", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Gilded Age business strategy into Vertical Integration or Horizontal Integration.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Carnegie used vertical integration to own every supply step, while Rockefeller bought out rival refineries horizontally.",
+    "source_url": "https://www.britannica.com/money/horizontal-integration",
+    "fun_fact": "By 1880, Standard Oil controlled roughly 90 percent of U.S. oil refining.",
+    "trap_notes": {
+      "default": "Vertical = owning every production step (Carnegie); Horizontal = buying competitors (Rockefeller)."
+    }
+  },
+  {
+    "id": "us-cmp-124",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Vietnam War Era",
+    "era": "1964–1975",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Escalation (1964–1968)",
+      "rightLabel": "Limits & Withdrawal (1969–1973)",
+      "items": [
+        { "id": "i1", "text": "Gulf of Tonkin Resolution", "bucket": "left" },
+        { "id": "i2", "text": "Over 500,000 U.S. troops in Vietnam", "bucket": "left" },
+        { "id": "i3", "text": "Nixon's Vietnamization troop pullout", "bucket": "right" },
+        { "id": "i4", "text": "War Powers Act restricting presidents", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each Vietnam-era policy into Escalation (1964–1968) or Limits & Withdrawal (1969–1973).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Gulf of Tonkin Resolution expanded U.S. troop levels, while Vietnamization and the War Powers Act pulled back.",
+    "source_url": "https://www.archives.gov/milestone-documents/tonkin-gulf-resolution",
+    "fun_fact": "Congress passed the 1973 War Powers Act over President Nixon's veto.",
+    "trap_notes": {
+      "default": "Separate 1960s troop buildup from 1970s withdrawal and congressional war limits."
+    }
+  },
+  {
+    "id": "us-cmp-125",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Late 20th Century",
+    "era": "1970–1991",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "1970s Détente & Crises",
+      "rightLabel": "1980s Reagan Era",
+      "items": [
+        { "id": "i1", "text": "Nixon's 1972 visit to China", "bucket": "left" },
+        { "id": "i2", "text": "Watergate scandal and resignation", "bucket": "left" },
+        { "id": "i3", "text": "Large tax cuts and defense buildup", "bucket": "right" },
+        { "id": "i4", "text": "INF nuclear treaty with Gorbachev", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each late-Cold War event into the 1970s or the 1980s Reagan Era.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The 1970s saw Nixon's China trip and Watergate, while the 1980s brought Reaganomics, defense spending, and the INF treaty.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/detente",
+    "fun_fact": "The 1987 INF Treaty was the first pact to eliminate an entire class of U.S. and Soviet nuclear missiles.",
+    "trap_notes": {
+      "default": "China opening and Watergate belong to the 1970s; Reagan's tax cuts and INF treaty to the 1980s."
+    }
+  },
+  {
+    "id": "us-cmp-126",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Populism",
+    "era": "1880–1896",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha, Nebraska" },
+    "compareSpec": {
+      "leftLabel": "Populist Party Demands",
+      "rightLabel": "Gold-Standard Conservatives",
+      "items": [
+        { "id": "i1", "text": "Free coinage of silver for inflation", "bucket": "left" },
+        { "id": "i2", "text": "Government ownership of railroads", "bucket": "left" },
+        { "id": "i3", "text": "Money backed strictly by gold", "bucket": "right" },
+        { "id": "i4", "text": "Private control of banks and rails", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1890s economic stance into Populist Party Demands or Gold-Standard Conservatives.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Populist farmers wanted silver money and public railroads, while conservatives defended the gold standard and private business.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/populist-party/",
+    "fun_fact": "Many Populist ideas—like a graduated income tax and direct election of senators—later became law.",
+    "trap_notes": {
+      "default": "Populists favored silver and public rail rules; conservatives backed gold and private ownership."
+    }
+  },
+  {
+    "id": "us-cmp-127",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "War of 1812 & Era of Good Feelings",
+    "era": "1812–1824",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Causes of War of 1812",
+      "rightLabel": "Effects of War of 1812",
+      "items": [
+        { "id": "i1", "text": "British impressment of U.S. sailors", "bucket": "left" },
+        { "id": "i2", "text": "British seizure of U.S. trade ships", "bucket": "left" },
+        { "id": "i3", "text": "Rise in U.S. manufacturing growth", "bucket": "right" },
+        { "id": "i4", "text": "Collapse of the Federalist Party", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each item into Causes of the War of 1812 or Effects of the War of 1812.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Sailor impressment and ship seizures sparked the war, which afterward boosted U.S. factories and ended the Federalist Party.",
+    "source_url": "https://www.nps.gov/articles/war-of-1812.htm",
+    "fun_fact": "Cut off from British goods during the war, New Englanders built their own textile factories.",
+    "trap_notes": {
+      "default": "Impressment and shipping interference came before the war; factory growth and Federalist decline came after."
+    }
+  },
+  {
+    "id": "us-cmp-128",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Cold War Domestic",
+    "era": "1945–1960",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.766, "lng": -73.525, "label": "Levittown, New York" },
+    "compareSpec": {
+      "leftLabel": "Postwar Prosperity",
+      "rightLabel": "Second Red Scare",
+      "items": [
+        { "id": "i1", "text": "GI Bill college and home loans", "bucket": "left" },
+        { "id": "i2", "text": "Suburban growth like Levittown", "bucket": "left" },
+        { "id": "i3", "text": "HUAC hearings and Hollywood blacklists", "bucket": "right" },
+        { "id": "i4", "text": "Senator McCarthy's loyalty charges", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each 1950s domestic trend into Postwar Prosperity or the Second Red Scare.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The GI Bill and suburbs fueled 1950s growth, while HUAC and McCarthyism reflected fear of domestic communism.",
+    "source_url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+    "fun_fact": "Nearly 8 million World War II veterans used GI Bill benefits to attend college or job training.",
+    "trap_notes": {
+      "default": "Separate GI Bill suburban growth from anti-communist investigations."
+    }
+  },
+  {
+    "id": "us-cmp-129",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Women's Suffrage",
+    "era": "1913–1920",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Carrie Chapman Catt (NAWSA)",
+      "rightLabel": "Alice Paul (NWP)",
+      "items": [
+        { "id": "i1", "text": "Worked state-by-state and lobbied", "bucket": "left" },
+        { "id": "i2", "text": "Supported Wilson during World War I", "bucket": "left" },
+        { "id": "i3", "text": "Picketed outside the White House", "bucket": "right" },
+        { "id": "i4", "text": "Staged hunger strikes in prison", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each suffrage tactic into Carrie Chapman Catt (NAWSA) or Alice Paul (National Woman's Party).",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Catt combined state campaigns with wartime support, while Paul's pickets and hunger strikes pressured Wilson directly.",
+    "source_url": "https://www.loc.gov/collections/women-of-protest/articles-and-essays/selected-leaders-of-the-national-womans-party/",
+    "fun_fact": "Public outrage over force-feeding Alice Paul and other suffragists helped sway Congress toward the 19th Amendment.",
+    "trap_notes": {
+      "default": "NAWSA favored steady lobbying and state wins; the NWP used militant White House pickets."
+    }
+  },
+  {
+    "id": "us-cmp-130",
+    "type": "compare",
+    "domain": "US",
+    "subdomain": "Recent U.S. History",
+    "era": "1990–2010",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "1990s Globalization",
+      "rightLabel": "Post-9/11 Policies",
+      "items": [
+        { "id": "i1", "text": "Signing the 1993 NAFTA trade pact", "bucket": "left" },
+        { "id": "i2", "text": "Rise of the commercial Internet", "bucket": "left" },
+        { "id": "i3", "text": "Creating Homeland Security (DHS)", "bucket": "right" },
+        { "id": "i4", "text": "Passing the 2001 USA PATRIOT Act", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each turn-of-the-century milestone into 1990s Globalization or Post-9/11 Policies.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The 1990s expanded trade and the Internet, while the 2001 attacks led to DHS and the PATRIOT Act.",
+    "source_url": "https://www.dhs.gov/creation-department-homeland-security",
+    "fun_fact": "The Department of Homeland Security merged 22 federal agencies into one cabinet department in 2002.",
+    "trap_notes": {
+      "default": "NAFTA and early Web growth belong to the 1990s; DHS and the PATRIOT Act followed 9/11."
+    }
+  }
+]

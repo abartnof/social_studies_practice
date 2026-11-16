@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "geo-syn-201",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Water & Infrastructure",
+    "era": "1820s",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 43.0, "lng": -76.0, "label": "Erie Canal, New York" },
+    "prompt": "How did building the Erie Canal across upstate New York reshape U.S. economic geography?",
+    "options": [
+      { "id": "a", "text": "It linked Great Lakes farms to Atlantic ports via New York City" },
+      { "id": "b", "text": "It diverted Mississippi River barges directly into Chesapeake Bay" },
+      { "id": "c", "text": "It replaced coastal shipping with mountain tunnels to California" },
+      { "id": "d", "text": "It ended cotton farming across the Deep South by flooding deltas" }
+    ],
+    "answer": "a",
+    "explanation": "Cutting through the Mohawk Valley gap, the Erie Canal slashed freight costs and made New York City the top U.S. port.",
+    "source_url": "https://www.britannica.com/topic/Erie-Canal",
+    "trap_notes": {
+      "b": "The Erie Canal connected Lake Erie to the Hudson River, not the Mississippi.",
+      "c": "Transcontinental rail to California came decades later in 1869.",
+      "d": "Southern cotton exports continued to grow via Gulf and Atlantic ports.",
+      "default": "The Erie Canal connected the Great Lakes to the Hudson River and New York Harbor."
+    }
+  },
+  {
+    "id": "geo-syn-202",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Settlement & Topography",
+    "era": "1760s",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.5, "lng": -79.5, "label": "Appalachian Mountains" },
+    "prompt": "Why did the British Proclamation of 1763 use the Appalachian crest as a colonial boundary?",
+    "options": [
+      { "id": "a", "text": "The ridge formed a clear watershed divide separating Atlantic colonies" },
+      { "id": "b", "text": "No navigable rivers existed anywhere west of the mountain range" },
+      { "id": "c", "text": "Arctic tundra covered the Ohio Valley year-round in the 1760s" },
+      { "id": "d", "text": "Spanish forts occupied every harbor along the Chesapeake coastline" }
+    ],
+    "answer": "a",
+    "explanation": "Britain used the Appalachian drainage divide to separate settlers from Indigenous lands and curb frontier wars.",
+    "source_url": "https://www.loc.gov/exhibits/british/brit-2.html",
+    "trap_notes": {
+      "b": "The Ohio and Mississippi rivers were major navigable waterways west of the ridge.",
+      "c": "The Ohio Valley has a temperate climate suited for farming, not tundra.",
+      "d": "Chesapeake Bay was firmly under British colonial control in 1763.",
+      "default": "The Appalachian divide served as a clear physical line to halt westward settlement."
+    }
+  },
+  {
+    "id": "geo-syn-203",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "Climate & Trade",
+    "era": "Postclassical",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 12.0, "lng": 55.0, "label": "Arabian Sea, Indian Ocean" },
+    "prompt": "How did seasonal monsoon winds shape medieval trade across the Indian Ocean?",
+    "options": [
+      { "id": "a", "text": "Predictable wind reversals carried fleets east in summer and west in winter" },
+      { "id": "b", "text": "Constant polar gales forced merchants to haul cargo solely by camel" },
+      { "id": "c", "text": "Frozen sea ice closed Indian Ocean ports for six months each year" },
+      { "id": "d", "text": "Year-round doldrums prevented sailing ships from reaching East Africa" }
+    ],
+    "answer": "a",
+    "explanation": "Sailors timed voyages to summer southwest monsoons toward India and winter northeast monsoons back to Arabia and Africa.",
+    "source_url": "https://www.britannica.com/place/Indian-Ocean",
+    "trap_notes": {
+      "b": "Indian Ocean maritime trade thrived alongside overland Silk Road routes.",
+      "c": "The tropical Indian Ocean stays ice-free throughout the year.",
+      "d": "Regular monsoon winds enabled reliable two-way sailing across the basin.",
+      "default": "Reversing monsoon winds gave sailors predictable seasonal round-trip routes."
+    }
+  },
+  {
+    "id": "geo-syn-204",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Human-Environment Interaction",
+    "era": "1930s",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.5, "lng": -101.5, "label": "Southern Great Plains" },
+    "prompt": "How did Great Plains ecology and wheat farming combine to create the 1930s Dust Bowl?",
+    "options": [
+      { "id": "a", "text": "Heavy coastal rainfall washed topsoil into the Gulf of Mexico" },
+      { "id": "b", "text": "Deep-rooted prairie grass was plowed up just before severe drought hit" },
+      { "id": "c", "text": "Spring snowmelt from the Appalachians flooded Kansas wheat fields" },
+      { "id": "d", "text": "Glacial ice sheets scraped away fertile loam across Oklahoma" }
+    ],
+    "answer": "b",
+    "explanation": "Removing native sod left loose soil exposed; when multiyear drought arrived, high Plains winds swept it into dust storms.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl/",
+    "trap_notes": {
+      "a": "The Dust Bowl was driven by extreme drought and wind erosion, not coastal rain.",
+      "c": "The Appalachians lie far east of Kansas and drain away from the Plains.",
+      "d": "No glaciers covered Oklahoma during the 1930s.",
+      "default": "Plowing native prairie grasses exposed dry soil to intense Plains winds."
+    }
+  },
+  {
+    "id": "geo-syn-205",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics", "US"],
+    "subdomain": "Political Geography",
+    "era": "1960s",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9, "lng": -77.0, "label": "Washington, D.C." },
+    "prompt": "Why does the U.S. Constitution require a census every ten years for congressional apportionment?",
+    "options": [
+      { "id": "a", "text": "To keep every state's House delegation fixed regardless of growth" },
+      { "id": "b", "text": "To adjust House seats as regional populations shift between states" },
+      { "id": "c", "text": "To redraw state borders whenever rivers change course after floods" },
+      { "id": "d", "text": "To assign two extra Senate seats to states with large land areas" }
+    ],
+    "answer": "b",
+    "explanation": "Reapportionment reallocates the 435 House seats every decade to reflect migration and regional population change.",
+    "source_url": "https://www.census.gov/programs-surveys/decennial-census/about/apportionment.html",
+    "trap_notes": {
+      "a": "House seats change as state populations grow or shrink relative to each other.",
+      "c": "State boundaries are not redrawn by the decennial census.",
+      "d": "Every state receives two senators regardless of population or land area.",
+      "default": "The census tracks population shifts so House seats reflect where people live."
+    }
+  },
+  {
+    "id": "geo-syn-206",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Physical & Historical Geography",
+    "era": "Ancient",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.0, "lng": 31.2, "label": "Nile River, Egypt" },
+    "prompt": "Why did annual Nile flooding support more stable farming than Tigris-Euphrates floods?",
+    "options": [
+      { "id": "a", "text": "Nile floods arrived in winter frost, freezing weeds before spring" },
+      { "id": "b", "text": "Nile floods followed predictable summer rains and left gentle silt" },
+      { "id": "c", "text": "Mesopotamian rivers flowed uphill away from irrigated lowlands" },
+      { "id": "d", "text": "Egypt received heavy year-round monsoon downpours from the Atlantic" }
+    ],
+    "answer": "b",
+    "explanation": "East African monsoon rains produced regular late-summer Nile floods, whereas Mesopotamian snowmelt floods were erratic.",
+    "source_url": "https://www.britannica.com/place/Nile-River",
+    "trap_notes": {
+      "a": "Egypt's lower Nile valley rarely freezes and floods in late summer.",
+      "c": "All rivers flow downhill; the Tigris and Euphrates simply flooded unpredictably.",
+      "d": "Egypt is hyper-arid and relies on river runoff from East Africa, not local rain.",
+      "default": "Predictable seasonal Nile floods deposited fertile silt without sudden destruction."
+    }
+  },
+  {
+    "id": "geo-syn-207",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ", "US"],
+    "subdomain": "Industrial Geography",
+    "era": "1800s",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.6, "lng": -71.3, "label": "Lowell, Massachusetts" },
+    "prompt": "Why did early U.S. textile mills cluster along New England's fall line in the early 1800s?",
+    "options": [
+      { "id": "a", "text": "Local cotton fields grew right beside every mountain stream" },
+      { "id": "b", "text": "Rapids and waterfalls provided reliable mechanical waterpower" },
+      { "id": "c", "text": "Deep coal seams lay exposed along Boston's sandy beaches" },
+      { "id": "d", "text": "Federal law banned steam engines everywhere outside Massachusetts" }
+    ],
+    "answer": "b",
+    "explanation": "Before widespread coal-fired steam, steep rivers in New England turned waterwheels that powered textile looms.",
+    "source_url": "https://www.nps.gov/lowe/learn/historyculture/index.htm",
+    "trap_notes": {
+      "a": "Raw cotton was grown in the American South and shipped north to mills.",
+      "c": "Major U.S. coal fields lay in Appalachia, not coastal Massachusetts.",
+      "d": "No federal ban existed; waterpower was simply cheaper and abundant in New England.",
+      "default": "Fast-flowing rivers dropping over falls supplied direct mechanical power for mills."
+    }
+  },
+  {
+    "id": "geo-syn-208",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "Biomes & Imperialism",
+    "era": "1500s-1700s",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -8.0, "lng": -35.0, "label": "Northeast Brazil" },
+    "prompt": "Why did European empires build sugar plantations in coastal Brazil and the Caribbean?",
+    "options": [
+      { "id": "a", "text": "Cool highland frosts killed tropical pests on sugarcane stalks" },
+      { "id": "b", "text": "Warm, humid tropical coasts suited sugarcane and Atlantic shipping" },
+      { "id": "c", "text": "Subarctic permafrost preserved harvested cane without refining" },
+      { "id": "d", "text": "Desert sands reflected extra heat needed to crystallize raw syrup" }
+    ],
+    "answer": "b",
+    "explanation": "Sugarcane requires frost-free tropical warmth and moisture, while coastal islands gave planters easy ocean port access.",
+    "source_url": "https://www.britannica.com/topic/plantation-system",
+    "trap_notes": {
+      "a": "Sugarcane is a tropical grass damaged by frost.",
+      "c": "Permafrost is found in polar tundra, not the tropical Atlantic.",
+      "d": "Sugarcane needs abundant rainfall or irrigation rather than desert aridity.",
+      "default": "Tropical coastal climates and nearby harbors made sugar production profitable."
+    }
+  },
+  {
+    "id": "geo-syn-209",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics", "World"],
+    "subdomain": "Geopolitics",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 27.0, "lng": 56.3, "label": "Strait of Hormuz" },
+    "prompt": "Under international maritime law, why must coastal states allow transit passage through narrow straits?",
+    "options": [
+      { "id": "a", "text": "To keep global shipping moving through vital chokepoints like Hormuz" },
+      { "id": "b", "text": "To let landlocked nations annex offshore islands for naval bases" },
+      { "id": "c", "text": "To abolish all national fishing rights within 200 miles of shore" },
+      { "id": "d", "text": "To require every cargo ship to unload goods at the nearest port" }
+    ],
+    "answer": "a",
+    "explanation": "The UN Law of the Sea guarantees unimpeded transit passage through straits used for international navigation.",
+    "source_url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part3.htm",
+    "trap_notes": {
+      "b": "Maritime law protects freedom of navigation, not territorial annexation.",
+      "c": "UNCLOS grants coastal states 200-nautical-mile Exclusive Economic Zones.",
+      "d": "Transit passage allows ships to pass through continuously without unloading.",
+      "default": "Transit passage keeps key international straits open to global maritime trade."
+    }
+  },
+  {
+    "id": "geo-syn-210",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Cultural & Mountain Geography",
+    "era": "Classical",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.0, "lng": 23.0, "label": "Greece" },
+    "prompt": "How did Greece's rugged mountains and indented coastline shape its classical political map?",
+    "options": [
+      { "id": "a", "text": "They unified the peninsula under a single river-valley monarchy" },
+      { "id": "b", "text": "They isolated valleys into independent sea-oriented city-states" },
+      { "id": "c", "text": "They prevented Greek mariners from sailing across the Aegean Sea" },
+      { "id": "d", "text": "They created vast flat steppes suited for nomadic horse empires" }
+    ],
+    "answer": "b",
+    "explanation": "Steep mountain ridges separated small coastal plains, encouraging autonomous poleis linked more by sea than by road.",
+    "source_url": "https://www.britannica.com/place/ancient-Greece",
+    "trap_notes": {
+      "a": "Unlike Egypt's Nile valley, Greece's terrain fragmented political authority.",
+      "c": "Natural harbors and nearby islands actually fostered seafaring and colonies.",
+      "d": "Greece is mountainous and rocky rather than a flat continental steppe.",
+      "default": "Mountain barriers divided communities into separate maritime city-states."
+    }
+  },
+  {
+    "id": "geo-syn-211",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Resource Geography",
+    "era": "1848-1855",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8, "lng": -120.9, "label": "Sierra Nevada, California" },
+    "prompt": "How did the 1848 discovery of placer gold in the Sierra Nevada foothills transform California?",
+    "options": [
+      { "id": "a", "text": "It triggered rapid migration, instant cities, and early statehood" },
+      { "id": "b", "text": "It emptied San Francisco as settlers abandoned all Pacific ports" },
+      { "id": "c", "text": "It delayed U.S. statehood until the 1920s due to sparse population" },
+      { "id": "d", "text": "It ended transcontinental railroad planning across the Great Basin" }
+    ],
+    "answer": "a",
+    "explanation": "Hundreds of thousands of prospectors flooded California, turning San Francisco into a boomtown and speeding statehood in 1850.",
+    "source_url": "https://www.loc.gov/collections/california-first-person-narratives/articles-and-essays/early-california-history/gold-rush/",
+    "trap_notes": {
+      "b": "San Francisco exploded from a small village into a major Pacific port.",
+      "c": "California gained statehood in 1850, just two years after the gold strike.",
+      "d": "The Gold Rush increased pressure to build a transcontinental railroad.",
+      "default": "Gold drew massive migration that rapidly urbanized California and sped statehood."
+    }
+  },
+  {
+    "id": "geo-syn-212",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Economic Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.9, "lng": 4.5, "label": "Port of Rotterdam, Netherlands" },
+    "prompt": "How does standardized containerization alter the geography of global manufacturing?",
+    "options": [
+      { "id": "a", "text": "It forces every factory to locate inside landlocked mountain valleys" },
+      { "id": "b", "text": "It lowers shipping costs so firms split production across continents" },
+      { "id": "c", "text": "It eliminates the need for deepwater ports and rail connections" },
+      { "id": "d", "text": "It restricts international trade solely to perishable fresh foods" }
+    ],
+    "answer": "b",
+    "explanation": "Intermodal containers move seamlessly from ship to rail to truck, slashing freight costs and enabling global supply chains.",
+    "source_url": "https://www.britannica.com/technology/containerization",
+    "trap_notes": {
+      "a": "Containerization favors coastal deepwater ports and major rail corridors.",
+      "c": "Modern ports require deep channels and giant cranes to handle container ships.",
+      "d": "Containers carry everything from electronics and clothing to machinery.",
+      "default": "Cheap intermodal shipping lets companies disperse factories around the globe."
+    }
+  },
+  {
+    "id": "geo-syn-213",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Oceanography & History",
+    "era": "1490s",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 25.0, "lng": -45.0, "label": "North Atlantic Gyre" },
+    "prompt": "How did the North Atlantic wind and current gyre guide early European voyages to the Americas?",
+    "options": [
+      { "id": "a", "text": "Trade winds carried ships west at low latitudes and westerlies home" },
+      { "id": "b", "text": "Strong polar currents pushed caravels straight north past Greenland" },
+      { "id": "c", "text": "Counterclockwise Pacific winds blew fleets across the Sahara" },
+      { "id": "d", "text": "Steady equatorial currents blocked all ships from returning to Europe" }
+    ],
+    "answer": "a",
+    "explanation": "Columbus and later mariners rode the northeast trade winds west to the Caribbean and caught the westerlies back to Europe.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_currents/05currents1.html",
+    "trap_notes": {
+      "b": "Iberian voyages sailed south toward the Canary Islands to catch the trade winds.",
+      "c": "The Sahara is a desert landmass, and Pacific winds do not cross Africa.",
+      "d": "Higher-latitude westerlies and the Gulf Stream carried ships reliably eastward.",
+      "default": "Clockwise Atlantic winds and currents formed a natural round-trip sailing loop."
+    }
+  },
+  {
+    "id": "geo-syn-214",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics", "Econ"],
+    "subdomain": "Environmental Policy",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 36.0, "lng": -114.7, "label": "Colorado River Basin" },
+    "prompt": "Why do seven U.S. states and Mexico govern the Colorado River through interstate compacts?",
+    "options": [
+      { "id": "a", "text": "River watersheds cross political borders so upstream use affects downstream users" },
+      { "id": "b", "text": "The Colorado River flows entirely underground beneath a single state" },
+      { "id": "c", "text": "Federal courts prohibit states from building dams on any western river" },
+      { "id": "d", "text": "Ocean tides push saltwater upstream all the way to the Rocky Mountains" }
+    ],
+    "answer": "a",
+    "explanation": "Because rivers cross state and national lines, shared agreements are needed to allocate scarce water fairly.",
+    "source_url": "https://www.usbr.gov/lc/region/pao/lawofrvr.html",
+    "trap_notes": {
+      "b": "The Colorado River flows on the surface across seven U.S. states and into Mexico.",
+      "c": "Major federal dams like Hoover and Glen Canyon sit on the Colorado River.",
+      "d": "Tides do not reach the high interior Rockies.",
+      "default": "Watersheds span political jurisdictions, requiring cross-border water compacts."
+    }
+  },
+  {
+    "id": "geo-syn-215",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Agricultural Geography",
+    "era": "1500s-1600s",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -13.5, "lng": -72.0, "label": "Andes Highlands, Peru" },
+    "prompt": "How did introducing Andean potatoes to Europe during the Columbian Exchange affect population?",
+    "options": [
+      { "id": "a", "text": "Potatoes yielded more calories per acre in cool soils, boosting growth" },
+      { "id": "b", "text": "Potatoes poisoned European wheat fields and halved urban populations" },
+      { "id": "c", "text": "Potatoes grew only in tropical greenhouses along the Mediterranean" },
+      { "id": "d", "text": "Potatoes replaced ocean fishing as the sole source of coastal protein" }
+    ],
+    "answer": "a",
+    "explanation": "Adapted to cool mountain soils, potatoes thrived in northern Europe, reducing famine and supporting rapid population growth.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "b": "Potatoes complemented grain crops and raised total caloric output.",
+      "c": "Potatoes thrived outdoors in cool northern European climates.",
+      "d": "Potatoes provide carbohydrates and calories, not coastal marine protein.",
+      "default": "High-calorie Andean potatoes thrived in cool European soils and fueled growth."
+    }
+  },
+  {
+    "id": "geo-syn-216",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Urban & Political Geography",
+    "era": "1950s-1970s",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7, "lng": -73.5, "label": "Levittown, New York" },
+    "prompt": "How did the U.S. Interstate Highway Act of 1956 reshape metropolitan settlement patterns?",
+    "options": [
+      { "id": "a", "text": "Highways sped suburban sprawl outward and weakened inner-city transit" },
+      { "id": "b", "text": "Highways concentrated all new housing inside dense downtown tenements" },
+      { "id": "c", "text": "Highways ended automobile commuting in favor of intercity canal boats" },
+      { "id": "d", "text": "Highways banned commercial retail stores from leaving central business districts" }
+    ],
+    "answer": "a",
+    "explanation": "Expressways lowered commute times from outer farmland, accelerating suburbanization, edge cities, and car dependence.",
+    "source_url": "https://www.archives.gov/milestone-documents/national-interstate-and-defense-highways-act",
+    "trap_notes": {
+      "b": "Highways enabled low-density single-family suburbs miles from downtown.",
+      "c": "Interstate highways greatly expanded car and truck travel.",
+      "d": "Shopping malls followed suburban commuters to highway interchanges.",
+      "default": "High-speed highways opened outer land for sprawling car-oriented suburbs."
+    }
+  },
+  {
+    "id": "geo-syn-217",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "Historical Geography",
+    "era": "1750-1850",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 53.5, "lng": -2.2, "label": "Manchester, England" },
+    "prompt": "Which geographic advantages helped Great Britain pioneer the Industrial Revolution?",
+    "options": [
+      { "id": "a", "text": "Shallow coal and iron deposits near navigable rivers and ports" },
+      { "id": "b", "text": "Vast tropical rainforests supplying natural rubber inside England" },
+      { "id": "c", "text": "A landlocked interior insulated from all overseas maritime trade" },
+      { "id": "d", "text": "Tall volcanic peaks generating geothermal power for London mills" }
+    ],
+    "answer": "a",
+    "explanation": "Britain's accessible coal, iron ore, and short distances to canals and ocean ports lowered fuel and transport costs.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "b": "Rubber came from tropical colonies in South America and Southeast Asia.",
+      "c": "Britain is an island nation with deep harbors and global sea trade.",
+      "d": "Britain has no active volcanoes and relied on coal-fired steam.",
+      "default": "Abundant coal and iron close to waterways powered Britain's early factories."
+    }
+  },
+  {
+    "id": "geo-syn-218",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Civics"],
+    "subdomain": "Political Geography",
+    "era": "1884-1914",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 5.0, "lng": 20.0, "label": "Sub-Saharan Africa" },
+    "prompt": "How do colonial-era Berlin Conference borders still affect modern African states?",
+    "options": [
+      { "id": "a", "text": "Straight geometric borders often split ethnic groups across countries" },
+      { "id": "b", "text": "Every modern border strictly follows ancient language boundaries" },
+      { "id": "c", "text": "Colonial powers left the entire continent as one single federation" },
+      { "id": "d", "text": "European mapmakers gave every African nation direct ocean port access" }
+    ],
+    "answer": "a",
+    "explanation": "European powers drew borders without regard for local societies, leaving multiethnic states and divided communities.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "trap_notes": {
+      "b": "Colonial borders frequently cut across linguistic and cultural homelands.",
+      "c": "Africa was partitioned into dozens of separate colonial territories.",
+      "d": "Sixteen African countries today are landlocked partly due to colonial borders.",
+      "default": "Arbitrary colonial lines divided ethnic groups and created many landlocked states."
+    }
+  },
+  {
+    "id": "geo-syn-219",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Demographic Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.7, "lng": 139.7, "label": "Tokyo, Japan" },
+    "prompt": "What economic challenge does a Stage 5 aging population pyramid create for countries like Japan?",
+    "options": [
+      { "id": "a", "text": "A shrinking workforce must support rising pension and healthcare costs" },
+      { "id": "b", "text": "A surge of young children overwhelms elementary school classrooms" },
+      { "id": "c", "text": "Rapidly rising birthrates double the labor supply every decade" },
+      { "id": "d", "text": "Low life expectancy eliminates the need for retirement programs" }
+    ],
+    "answer": "a",
+    "explanation": "When birthrates fall below replacement and longevity rises, fewer working-age taxpayers support more retirees.",
+    "source_url": "https://www.worldbank.org/en/topic/aging",
+    "trap_notes": {
+      "b": "Aging societies have shrinking child cohorts and often close rural schools.",
+      "c": "Stage 5 countries have very low birthrates and shrinking workforces.",
+      "d": "High life expectancy increases the number of years retirees need support.",
+      "default": "High old-age dependency ratios strain public pensions and labor markets."
+    }
+  },
+  {
+    "id": "geo-syn-220",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Cultural & Economic Geography",
+    "era": "1910-1970",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8, "lng": -87.6, "label": "Chicago, Illinois" },
+    "prompt": "Which push and pull factors drove the Great Migration of Black Americans from South to North?",
+    "options": [
+      { "id": "a", "text": "Jim Crow violence and farm mechanization pushed; factory jobs pulled" },
+      { "id": "b", "text": "Northern cotton plantations pulled workers away from southern mines" },
+      { "id": "c", "text": "Subtropical hurricanes pushed migrants toward coastal Florida cities" },
+      { "id": "d", "text": "Federal homestead grants gave free prairie farms only in New England" }
+    ],
+    "answer": "a",
+    "explanation": "Racial oppression and declining sharecropping pushed millions out of the South while wartime industrial jobs in northern cities pulled them.",
+    "source_url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+    "trap_notes": {
+      "b": "Cotton plantations were in the South; northern cities offered manufacturing jobs.",
+      "c": "The Great Migration moved people northward and westward to industrial hubs.",
+      "d": "Homestead grants were in the Great Plains and West, not New England.",
+      "default": "Jim Crow oppression pushed migrants while northern factory jobs pulled them."
+    }
+  },
+  {
+    "id": "geo-syn-221",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Tectonics & History",
+    "era": "1755",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.7, "lng": -9.1, "label": "Lisbon, Portugal" },
+    "prompt": "Why can an offshore plate-boundary earthquake like Lisbon in 1755 devastate distant coastlines?",
+    "options": [
+      { "id": "a", "text": "It launches fast-moving tsunamis across entire ocean basins" },
+      { "id": "b", "text": "It reverses Earth's magnetic poles within twenty-four hours" },
+      { "id": "c", "text": "It cools surface ocean water enough to freeze tropical harbors" },
+      { "id": "d", "text": "It triggers permanent trade-wind reversals across the Atlantic" }
+    ],
+    "answer": "a",
+    "explanation": "Seafloor rupture generates tsunamis that travel hundreds of miles per hour, striking coasts far from the epicenter.",
+    "source_url": "https://www.usgs.gov/faqs/what-tsunami",
+    "trap_notes": {
+      "b": "Earthquakes do not reverse Earth's magnetic field.",
+      "c": "Seismic waves do not freeze ocean water.",
+      "d": "Atmospheric wind belts are driven by solar heating, not earthquakes.",
+      "default": "Subsea earthquakes displace water into tsunamis that cross whole oceans."
+    }
+  },
+  {
+    "id": "geo-syn-222",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ", "World"],
+    "subdomain": "Resource Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": -23.0, "lng": -68.0, "label": "Atacama Salt Flats, Chile" },
+    "prompt": "Why does the 'Lithium Triangle' of Chile, Bolivia, and Argentina hold strategic global importance?",
+    "options": [
+      { "id": "a", "text": "Its arid salt flats hold vast lithium brines for batteries and EVs" },
+      { "id": "b", "text": "Its tropical rainforests produce most of the world's timber pulp" },
+      { "id": "c", "text": "Its deepwater straits carry all oil tankers from the Persian Gulf" },
+      { "id": "d", "text": "Its glacial meltwater supplies drinking water to Western Europe" }
+    ],
+    "answer": "a",
+    "explanation": "High-altitude Andean salt flats evaporate lithium-rich brine, supplying a critical mineral for clean-energy storage.",
+    "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/lithium-statistics-and-information",
+    "trap_notes": {
+      "b": "The Lithium Triangle sits in the arid high Andes, not tropical rainforest.",
+      "c": "Persian Gulf oil tankers pass through the Strait of Hormuz.",
+      "d": "South American glaciers do not supply water to Europe.",
+      "default": "Andean salars hold major lithium reserves essential for modern batteries."
+    }
+  },
+  {
+    "id": "geo-syn-223",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Cultural Diffusion",
+    "era": "Classical-Postclassical",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.7, "lng": 67.0, "label": "Samarkand, Central Asia" },
+    "prompt": "How did oasis cities like Samarkand and Kashgar shape cultural exchange along the Silk Road?",
+    "options": [
+      { "id": "a", "text": "Mountain-fed water let caravans rest, trade goods, and share ideas" },
+      { "id": "b", "text": "Deep ocean harbors linked Central Asia directly to Atlantic fleets" },
+      { "id": "c", "text": "Dense jungle canopies hid cities from all traveling merchants" },
+      { "id": "d", "text": "Strict border walls barred every foreign religion from entering" }
+    ],
+    "answer": "a",
+    "explanation": "Glacial meltwater oases in arid Central Asia served as vital nodes where merchants exchanged silk, paper, and faiths.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "b": "Central Asia is landlocked, far from open oceans.",
+      "c": "Central Asia's Silk Road crossed arid steppes and deserts, not jungles.",
+      "d": "Oasis cities were cosmopolitan crossroads for Buddhism, Islam, and Christianity.",
+      "default": "Oasis towns sustained desert caravans and acted as hubs of cultural diffusion."
+    }
+  },
+  {
+    "id": "geo-syn-224",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Agricultural Geography",
+    "era": "1830s-1860s",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.3, "lng": -90.2, "label": "Mississippi Black Belt" },
+    "prompt": "How did climate and soil geography concentrate cotton plantations across the American Deep South?",
+    "options": [
+      { "id": "a", "text": "Long frost-free summers and fertile alluvial soils favored cotton" },
+      { "id": "b", "text": "Steep rocky slopes prevented any flat-land plowing in the South" },
+      { "id": "c", "text": "Short 60-day growing seasons forced rapid harvesting before frost" },
+      { "id": "d", "text": "Permafrost layers kept cotton roots cool during July heatwaves" }
+    ],
+    "answer": "a",
+    "explanation": "Cotton requires roughly 200 frost-free days and warm rainfall, matching the Deep South's humid subtropical plains.",
+    "source_url": "https://www.britannica.com/place/Black-Belt-region-United-States",
+    "trap_notes": {
+      "b": "The Gulf Coastal Plain and Mississippi floodplain offered broad, flat farmland.",
+      "c": "Cotton needs a long growing season of around 200 frost-free days.",
+      "d": "Permafrost exists in Arctic regions, not the humid subtropical South.",
+      "default": "Humid subtropical summers and rich alluvial soils suited plantation cotton."
+    }
+  },
+  {
+    "id": "geo-syn-225",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics", "US"],
+    "subdomain": "Political Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 30.3, "lng": -97.7, "label": "Austin, Texas" },
+    "prompt": "How does gerrymandering use spatial boundaries to influence legislative elections?",
+    "options": [
+      { "id": "a", "text": "It draws district shapes to pack or crack voters for partisan gain" },
+      { "id": "b", "text": "It replaces all state legislatures with national popular elections" },
+      { "id": "c", "text": "It requires every district to follow straight latitude and longitude lines" },
+      { "id": "d", "text": "It assigns Senate seats based on county land area rather than states" }
+    ],
+    "answer": "a",
+    "explanation": "By concentrating opponents into few districts or splitting them across many, mapmakers tilt seat outcomes.",
+    "source_url": "https://www.brennancenter.org/our-work/research-reports/gerrymandering-explained",
+    "trap_notes": {
+      "b": "Gerrymandering manipulates single-member geographic districts.",
+      "c": "Gerrymandered districts are often irregular shapes, not straight grids.",
+      "d": "U.S. Senate seats are statewide and are not redistricted.",
+      "default": "Gerrymandering manipulates district boundaries to favor one party or group."
+    }
+  },
+  {
+    "id": "geo-syn-226",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "Urban & Climate Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.8, "lng": 90.4, "label": "Dhaka, Bangladesh" },
+    "prompt": "Why are low-lying delta megacities like Dhaka and Jakarta highly vulnerable to sea-level rise?",
+    "options": [
+      { "id": "a", "text": "High granite cliffs block rivers from draining into the ocean" },
+      { "id": "b", "text": "Flat coastal elevation meets land subsidence and stronger storm surges" },
+      { "id": "c", "text": "Arid desert winds evaporate all drinking water from river mouths" },
+      { "id": "d", "text": "Rapid mountain uplift raises city streets above tidal floodplains" }
+    ],
+    "answer": "b",
+    "explanation": "Groundwater pumping sinks soft delta soils while rising seas and cyclones push saltwater farther inland.",
+    "source_url": "https://www.ipcc.ch/srocc/",
+    "trap_notes": {
+      "a": "River deltas are flat sediment plains near sea level, not granite cliffs.",
+      "c": "Delta cities face flooding and salinization, not desert evaporation.",
+      "d": "Delta cities generally experience land subsidence (sinking), not uplift.",
+      "default": "Low elevation, sinking soils, and storm surges amplify coastal flood risk."
+    }
+  },
+  {
+    "id": "geo-syn-227",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Regional Geography",
+    "era": "1970s-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.5, "lng": -81.7, "label": "Cleveland, Ohio" },
+    "prompt": "What regional shift explains the rise of the U.S. Sun Belt alongside Rust Belt decline?",
+    "options": [
+      { "id": "a", "text": "Air conditioning, lower wages, and highways drew jobs south and west" },
+      { "id": "b", "text": "Northern iron mines froze permanently during a sudden ice age" },
+      { "id": "c", "text": "Federal tariffs banned all steel production in Great Lakes states" },
+      { "id": "d", "text": "Southern states discovered the only navigable rivers in North America" }
+    ],
+    "answer": "a",
+    "explanation": "Widespread air conditioning, interstate highways, and lower taxes spurred population and business growth across southern states.",
+    "source_url": "https://www.britannica.com/place/Sun-Belt",
+    "trap_notes": {
+      "b": "No ice age occurred; deindustrialization stemmed from automation and global trade.",
+      "c": "No federal law banned Great Lakes steelmaking.",
+      "d": "The Great Lakes and Mississippi-Ohio system remain major northern waterways.",
+      "default": "Climate technology, highways, and lower costs shifted growth to the Sun Belt."
+    }
+  },
+  {
+    "id": "geo-syn-228",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Biomes & Climate",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 14.0, "lng": 0.0, "label": "Sahel Region, West Africa" },
+    "prompt": "How do drought and overgrazing interact to speed desertification along the Sahel?",
+    "options": [
+      { "id": "a", "text": "Heavy monsoon floods wash desert sand into coastal mangrove swamps" },
+      { "id": "b", "text": "Stripping sparse plant cover exposes dry soil to wind and erosion" },
+      { "id": "c", "text": "Planting deep-rooted trees blocks rainwater from reaching aquifers" },
+      { "id": "d", "text": "Melting alpine glaciers flood grasslands with salty ocean water" }
+    ],
+    "answer": "b",
+    "explanation": "When livestock overgraze dry grasslands during drought, bare soil crusts over and loses its ability to hold moisture.",
+    "source_url": "https://www.un.org/en/observances/desertification-day",
+    "trap_notes": {
+      "a": "The Sahel suffers from recurring drought, not excessive monsoon flooding.",
+      "c": "Trees help anchor soil and retain moisture, slowing desertification.",
+      "d": "The Sahel is far from coastal ocean tides and alpine glaciers.",
+      "default": "Loss of vegetation during drought leaves fragile semi-arid soils exposed."
+    }
+  },
+  {
+    "id": "geo-syn-229",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics", "World"],
+    "subdomain": "Political Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 50.8, "lng": 4.4, "label": "Brussels, Belgium" },
+    "prompt": "How does the European Union's Schengen Area change the function of national borders?",
+    "options": [
+      { "id": "a", "text": "It removes routine passport checks between member states for free travel" },
+      { "id": "b", "text": "It merges every member nation into one unitary state without capitals" },
+      { "id": "c", "text": "It closes all seaports to ships arriving from outside Europe" },
+      { "id": "d", "text": "It forces every European country to adopt a single official language" }
+    ],
+    "answer": "a",
+    "explanation": "Schengen members abolish internal border controls while coordinating security along the zone's external frontier.",
+    "source_url": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/schengen-area_en",
+    "trap_notes": {
+      "b": "EU members remain sovereign states with their own governments and capitals.",
+      "c": "European ports remain open to global maritime trade.",
+      "d": "The EU recognizes 24 official languages across its member nations.",
+      "default": "The Schengen Area enables passport-free movement across participating borders."
+    }
+  },
+  {
+    "id": "geo-syn-230",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "Maritime Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 75.0, "lng": 100.0, "label": "Northern Sea Route, Arctic" },
+    "prompt": "Why are shipping firms and Arctic nations watching the decline of summer Arctic sea ice?",
+    "options": [
+      { "id": "a", "text": "Longer ice-free seasons could shorten Europe-to-Asia sea routes" },
+      { "id": "b", "text": "Melting sea ice will raise sea levels by turning salt into fresh rock" },
+      { "id": "c", "text": "Open Arctic water will permanently close the Panama Canal" },
+      { "id": "d", "text": "Thinning ice will make tropical coral reefs grow near the North Pole" }
+    ],
+    "answer": "a",
+    "explanation": "Seasonal open water along Russia's Northern Sea Route and the Northwest Passage cuts thousands of miles off Suez voyages.",
+    "source_url": "https://nsidc.org/learn/parts-cryosphere/sea-ice",
+    "trap_notes": {
+      "b": "Floating sea ice does not turn into rock, nor does its melt directly raise sea level.",
+      "c": "Arctic shipping offers an alternative route, not a physical closure of Panama.",
+      "d": "Arctic waters remain far too cold and dark in winter for tropical reefs.",
+      "default": "Retreating summer ice opens shorter northern maritime shortcuts and resource access."
+    }
+  },
+  {
+    "id": "geo-syn-231",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Urban Geography",
+    "era": "1880-1920",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7, "lng": -74.0, "label": "New York City, New York" },
+    "prompt": "How did steel-frame construction and electric elevators reshape late-1800s U.S. cities?",
+    "options": [
+      { "id": "a", "text": "They allowed skyscrapers to pack dense offices onto costly downtown lots" },
+      { "id": "b", "text": "They forced factories to relocate out into remote mountain passes" },
+      { "id": "c", "text": "They replaced paved streets with canals across Manhattan" },
+      { "id": "d", "text": "They limited every urban building to two stories for fire safety" }
+    ],
+    "answer": "a",
+    "explanation": "Steel skeletons and safe elevators let cities grow vertically where central land values were highest.",
+    "source_url": "https://www.loc.gov/exhibits/american-treasures/trm011.html",
+    "trap_notes": {
+      "b": "Steel frames concentrated commercial and financial offices in city centers.",
+      "c": "Cities built subways and streetcar lines rather than canals.",
+      "d": "Steel and elevators enabled buildings to rise far above earlier masonry limits.",
+      "default": "Skyscrapers maximized scarce, expensive land in central business districts."
+    }
+  },
+  {
+    "id": "geo-syn-232",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "Agricultural & Cultural Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -3.0, "lng": -60.0, "label": "Amazon Basin, Brazil" },
+    "prompt": "Why does clearing Amazon rainforest for cattle pasture often trigger a cycle of further clearing?",
+    "options": [
+      { "id": "a", "text": "Nutrient-poor tropical soils exhaust quickly, forcing ranchers onto new land" },
+      { "id": "b", "text": "Cleared pastures freeze solid every winter, killing grass roots" },
+      { "id": "c", "text": "Cattle herds enrich thin rainforest clay into deep black prairie loam" },
+      { "id": "d", "text": "Removing trees doubles local rainfall and floods upland pastures" }
+    ],
+    "answer": "a",
+    "explanation": "Most rainforest nutrients sit in living plants, not soil; once cleared, pastures degrade within years and push expansion.",
+    "source_url": "https://earthobservatory.nasa.gov/world-of-change/Deforestation",
+    "trap_notes": {
+      "b": "The equatorial Amazon basin stays warm year-round without winter frost.",
+      "c": "Tropical oxisols lose fertility rapidly once forest cover is removed.",
+      "d": "Large-scale deforestation actually reduces local moisture recycling and rainfall.",
+      "default": "Rapid nutrient loss in tropical soils drives ranchers to clear fresh forest."
+    }
+  },
+  {
+    "id": "geo-syn-233",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics", "World"],
+    "subdomain": "Resource & Political Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 12.0, "lng": 114.0, "label": "South China Sea" },
+    "prompt": "Why do competing claims over tiny islands in the South China Sea carry major geopolitical stakes?",
+    "options": [
+      { "id": "a", "text": "Island control can anchor fishing, seabed energy, and vital shipping claims" },
+      { "id": "b", "text": "The islands hold the world's largest freshwater glacial lakes" },
+      { "id": "c", "text": "They are the only landmass connecting Asia directly to Antarctica" },
+      { "id": "d", "text": "They block all monsoon winds from reaching the Indian subcontinent" }
+    ],
+    "answer": "a",
+    "explanation": "Claimants seek Exclusive Economic Zones for fish and hydrocarbons alongside leverage over trillions in annual ship cargo.",
+    "source_url": "https://www.britannica.com/place/South-China-Sea",
+    "trap_notes": {
+      "b": "The South China Sea's tiny atolls lack major freshwater lakes or glaciers.",
+      "c": "The South China Sea lies in tropical Southeast Asia, far from Antarctica.",
+      "d": "Small coral reefs do not block continental-scale monsoon winds.",
+      "default": "Maritime zones, fisheries, energy reserves, and shipping lanes drive the dispute."
+    }
+  },
+  {
+    "id": "geo-syn-234",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Physical & Historical Geography",
+    "era": "1900s",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.3, "lng": -94.8, "label": "Galveston, Texas" },
+    "prompt": "How did the catastrophic 1900 Galveston hurricane alter Texas's urban and port geography?",
+    "options": [
+      { "id": "a", "text": "Shipping and investment shifted inland to the protected Port of Houston" },
+      { "id": "b", "text": "Galveston expanded into Texas's capital city high in the Rockies" },
+      { "id": "c", "text": "Texas abandoned all Gulf Coast trade and closed every railroad" },
+      { "id": "d", "text": "The storm carved a natural deepwater canal from Dallas to El Paso" }
+    ],
+    "answer": "a",
+    "explanation": "After the storm devastated exposed Galveston Island, dredging the Houston Ship Channel made inland Houston the dominant port.",
+    "source_url": "https://www.noaa.gov/news/remembering-1900-galveston-hurricane",
+    "trap_notes": {
+      "b": "Austin remained Texas's capital, and the Rockies lie far to the northwest.",
+      "c": "Gulf Coast shipping grew rapidly once Houston's ship channel opened.",
+      "d": "Dallas and El Paso remain landlocked inland cities.",
+      "default": "Vulnerability on a barrier island pushed maritime growth inland to Houston."
+    }
+  },
+  {
+    "id": "geo-syn-235",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Civics"],
+    "subdomain": "Political Geography",
+    "era": "Cold War",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.5, "lng": 13.4, "label": "Berlin, Germany" },
+    "prompt": "Why is the former Berlin Wall line studied today as a classic relic boundary?",
+    "options": [
+      { "id": "a", "text": "Its political divide is gone, yet economic and urban patterns remain" },
+      { "id": "b", "text": "It still blocks all passenger trains from entering western Europe" },
+      { "id": "c", "text": "It follows a natural mountain range separating France from Spain" },
+      { "id": "d", "text": "It was drawn before any humans ever settled along the Spree River" }
+    ],
+    "answer": "a",
+    "explanation": "A relic boundary no longer functions legally, but differences in architecture, transit, and income linger on the landscape.",
+    "source_url": "https://www.britannica.com/topic/Berlin-Wall",
+    "trap_notes": {
+      "b": "The Berlin Wall fell in 1989 and Germany reunified in 1990.",
+      "c": "The Pyrenees separate France and Spain; Berlin sits on a flat northern plain.",
+      "d": "Berlin existed for centuries before the Cold War division.",
+      "default": "Relic boundaries lose legal force while leaving visible cultural or economic marks."
+    }
+  },
+  {
+    "id": "geo-syn-236",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ", "World"],
+    "subdomain": "Cultural & Economic Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 12.97, "lng": 77.59, "label": "Bengaluru, India" },
+    "prompt": "How do time zones and English fluency support offshore software services in cities like Bengaluru?",
+    "options": [
+      { "id": "a", "text": "Work passes between U.S. and Indian teams across opposite day-night hours" },
+      { "id": "b", "text": "Fiber-optic cables can transmit data only from east to west at noon" },
+      { "id": "c", "text": "Mountain glaciers cool data centers without any electrical power" },
+      { "id": "d", "text": "Cargo ships carry printed computer code across the Pacific each week" }
+    ],
+    "answer": "a",
+    "explanation": "A roughly 12-hour time difference lets global firms run continuous 24-hour development and customer support.",
+    "source_url": "https://www.britannica.com/place/Bengaluru",
+    "trap_notes": {
+      "b": "Undersea fiber-optic cables carry data in both directions continuously.",
+      "c": "Bengaluru sits on the tropical Deccan Plateau, far from mountain glaciers.",
+      "d": "Software and services move digitally via fiber-optic networks, not cargo ships.",
+      "default": "Opposite time zones and shared language enable round-the-clock digital work."
+    }
+  },
+  {
+    "id": "geo-syn-237",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Environmental Policy",
+    "era": "1960s-1970s",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.5, "lng": -81.7, "label": "Cuyahoga River, Ohio" },
+    "prompt": "How did visible pollution crises like the 1969 Cuyahoga River fire reshape U.S. environmental law?",
+    "options": [
+      { "id": "a", "text": "They built public support for the EPA and federal Clean Water standards" },
+      { "id": "b", "text": "They led Congress to ban all municipal drinking water utilities" },
+      { "id": "c", "text": "They ended interstate commerce along the Great Lakes forever" },
+      { "id": "d", "text": "They shifted all river regulation exclusively to private factory owners" }
+    ],
+    "answer": "a",
+    "explanation": "Public outrage over industrial river fires helped catalyze the EPA (1970) and the Clean Water Act (1972).",
+    "source_url": "https://www.epa.gov/history/origins-epa",
+    "trap_notes": {
+      "b": "The Clean Water Act funded and regulated safer municipal water treatment.",
+      "c": "Great Lakes shipping continued alongside stricter pollution controls.",
+      "d": "Federal law established national water-quality standards and enforcement.",
+      "default": "Severe industrial pollution spurred national environmental agencies and water laws."
+    }
+  },
+  {
+    "id": "geo-syn-238",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Physical & Historical Geography",
+    "era": "1815",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -8.2, "lng": 118.0, "label": "Mount Tambora, Indonesia" },
+    "prompt": "How could Mount Tambora's 1815 eruption in Indonesia cause crop failures in Europe and North America?",
+    "options": [
+      { "id": "a", "text": "Stratospheric sulfate aerosols reflected sunlight, cooling global summers" },
+      { "id": "b", "text": "Molten lava flowed across the Indian Ocean to bury European farms" },
+      { "id": "c", "text": "The blast reversed Earth's orbit so winter lasted ten years" },
+      { "id": "d", "text": "Tsunami waves flooded the interior Swiss Alps with seawater" }
+    ],
+    "answer": "a",
+    "explanation": "High-altitude ash and sulfur aerosols circled the globe, dimming sunlight and causing 1816's 'Year Without a Summer.'",
+    "source_url": "https://scied.ucar.edu/learning-zone/how-climate-works/volcanoes-and-climate",
+    "trap_notes": {
+      "b": "Lava stays close to the volcano; global cooling comes from upper-air aerosols.",
+      "c": "Volcanic eruptions affect atmospheric radiation, not Earth's orbital path.",
+      "d": "The Swiss Alps sit hundreds of miles inland and thousands of feet above sea level.",
+      "default": "Volcanic aerosols in the stratosphere scatter sunlight and temporarily cool Earth."
+    }
+  },
+  {
+    "id": "geo-syn-239",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ", "US"],
+    "subdomain": "Energy Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.0, "lng": -100.0, "label": "Great Plains Wind Corridor" },
+    "prompt": "Why does building wind farms in the Great Plains require major high-voltage transmission upgrades?",
+    "options": [
+      { "id": "a", "text": "Peak wind power is generated far from dense coastal and urban demand" },
+      { "id": "b", "text": "Wind turbines consume more electricity than they send to the grid" },
+      { "id": "c", "text": "Alternating current cannot travel farther than five miles from a tower" },
+      { "id": "d", "text": "Plains cities outlaw electric lighting during windy spring months" }
+    ],
+    "answer": "a",
+    "explanation": "The windiest Great Plains counties have sparse populations, so long-distance lines are needed to reach major metro grids.",
+    "source_url": "https://www.energy.gov/eere/wind/wind-energy-basics",
+    "trap_notes": {
+      "b": "Wind turbines generate net electricity whenever wind speeds exceed cut-in thresholds.",
+      "c": "High-voltage transmission lines carry power hundreds of miles efficiently.",
+      "d": "Electricity demand is simply concentrated in larger distant population centers.",
+      "default": "Spatial mismatch between windy rural plains and urban demand drives grid expansion."
+    }
+  },
+  {
+    "id": "geo-syn-240",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Political & Cultural Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.4, "lng": 2.17, "label": "Barcelona, Catalonia" },
+    "prompt": "Why do regions like Catalonia in Spain and Quebec in Canada illustrate devolutionary pressures?",
+    "options": [
+      { "id": "a", "text": "Distinct language and regional identity fuel demands for self-rule" },
+      { "id": "b", "text": "Rising sea levels physically detached both regions into ocean islands" },
+      { "id": "c", "text": "Both regions lack any coastline, forcing total isolation from trade" },
+      { "id": "d", "text": "Central governments banned all railroads from entering those provinces" }
+    ],
+    "answer": "a",
+    "explanation": "Cultural distinctiveness and economic grievances push subnational regions to seek greater autonomy or independence.",
+    "source_url": "https://www.britannica.com/topic/devolution-government",
+    "trap_notes": {
+      "b": "Devolution is a political shift of power, not physical separation by sea.",
+      "c": "Catalonia borders the Mediterranean and Quebec borders the St. Lawrence.",
+      "d": "Both regions are major economic and transport hubs within their countries.",
+      "default": "Strong regional language and identity often drive demands for political autonomy."
+    }
+  },
+  {
+    "id": "geo-syn-241",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Physical & Historical Geography",
+    "era": "1803-1806",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 45.0, "lng": -112.0, "label": "Bitterroot Range, Rockies" },
+    "prompt": "What key geographic reality did the Lewis and Clark expedition disprove in 1805?",
+    "options": [
+      { "id": "a", "text": "That an easy all-water passage crossed the continent to the Pacific" },
+      { "id": "b", "text": "That the Missouri River flowed into the Mississippi River system" },
+      { "id": "c", "text": "That Indigenous nations lived across the northern Great Plains" },
+      { "id": "d", "text": "That the Rocky Mountains rose higher than the Appalachian hills" }
+    ],
+    "answer": "a",
+    "explanation": "Crossing the rugged, snowbound Rockies showed there was no continuous Northwest Passage river route across North America.",
+    "source_url": "https://www.archives.gov/education/lessons/lewis-clark",
+    "trap_notes": {
+      "b": "The Missouri does flow into the Mississippi; the expedition started at St. Louis.",
+      "c": "Lewis and Clark interacted with dozens of Plains and Plateau nations.",
+      "d": "The expedition confirmed the Rockies were far higher and wider than expected.",
+      "default": "The rugged Continental Divide proved no simple river shortcut linked the oceans."
+    }
+  },
+  {
+    "id": "geo-syn-242",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Econ"],
+    "subdomain": "Water & Geopolitics",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 11.2, "lng": 35.1, "label": "Blue Nile, Ethiopia" },
+    "prompt": "Why has Ethiopia's Grand Renaissance Dam sparked diplomatic tension with downstream Egypt?",
+    "options": [
+      { "id": "a", "text": "Egypt relies almost entirely on the Nile for water and fears reduced flow" },
+      { "id": "b", "text": "The dam blocks Mediterranean oil tankers from entering the Suez Canal" },
+      { "id": "c", "text": "Ethiopia plans to pump Red Sea saltwater upstream into Cairo" },
+      { "id": "d", "text": "Egypt receives heavy monsoon rains and fears flooding from the dam" }
+    ],
+    "answer": "a",
+    "explanation": "Because the Blue Nile supplies most of the Nile's flow, upstream dam management directly affects Egyptian farming and cities.",
+    "source_url": "https://www.britannica.com/place/Nile-River",
+    "trap_notes": {
+      "b": "The dam sits thousands of miles upstream in Ethiopia, far from Suez.",
+      "c": "The project is a freshwater hydroelectric dam, not a saltwater pipeline.",
+      "d": "Egypt is hyper-arid and depends on steady Nile water, not local monsoon rain.",
+      "default": "Downstream arid nations depend heavily on upstream river management."
+    }
+  },
+  {
+    "id": "geo-syn-243",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Demographic Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 31.2, "lng": 121.5, "label": "Shanghai, China" },
+    "prompt": "Why do rapid rural-to-urban migrants in developing countries often settle in informal peri-urban districts?",
+    "options": [
+      { "id": "a", "text": "City jobs draw newcomers faster than formal housing and transit expand" },
+      { "id": "b", "text": "Municipal laws require factory workers to camp outside city utilities" },
+      { "id": "c", "text": "Rural farm wages are double the pay of urban manufacturing jobs" },
+      { "id": "d", "text": "Central business districts lack any electricity or paved roads" }
+    ],
+    "answer": "a",
+    "explanation": "When millions move to cities for work, affordable formal housing lags behind, creating self-built neighborhoods on urban fringes.",
+    "source_url": "https://unhabitat.org/topic/housing",
+    "trap_notes": {
+      "b": "Informal settlements arise from housing shortages and poverty, not mandates.",
+      "c": "Higher expected urban wages are a primary pull factor for migrants.",
+      "d": "Central districts have dense infrastructure, which makes central land unaffordable.",
+      "default": "Rapid urban migration outpaces affordable housing and utility construction."
+    }
+  },
+  {
+    "id": "geo-syn-244",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US", "Econ"],
+    "subdomain": "Agricultural Geography",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.7, "lng": -119.8, "label": "Fresno, California" },
+    "prompt": "How does California's Mediterranean climate make the Central Valley a top U.S. fruit and nut producer?",
+    "options": [
+      { "id": "a", "text": "Dry sunny summers curb crop fungus while winter mountain snow irrigates" },
+      { "id": "b", "text": "Daily summer thunderstorms keep orchard soils flooded all July" },
+      { "id": "c", "text": "Subzero winter blizzards kill all orchard pests across the valley floor" },
+      { "id": "d", "text": "High coastal humidity ripens citrus without any irrigation canals" }
+    ],
+    "answer": "a",
+    "explanation": "Long, sunny summers ripen specialty crops while reservoirs fed by Sierra Nevada snowmelt supply summer irrigation.",
+    "source_url": "https://www.usgs.gov/centers/california-water-science-center/science/central-valley",
+    "trap_notes": {
+      "b": "Mediterranean climates have dry summers rather than daily thunderstorms.",
+      "c": "The Central Valley rarely experiences severe subzero blizzards.",
+      "d": "Central Valley orchards depend heavily on engineered irrigation.",
+      "default": "Sunny dry summers paired with snowmelt irrigation create ideal orchard conditions."
+    }
+  },
+  {
+    "id": "geo-syn-245",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World", "Civics"],
+    "subdomain": "Hazards & Urban Planning",
+    "era": "Contemporary",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 35.7, "lng": 139.7, "label": "Tokyo, Japan" },
+    "prompt": "Why do cities like Tokyo and San Francisco enforce strict seismic building codes despite higher costs?",
+    "options": [
+      { "id": "a", "text": "Flexible steel frames absorb shaking, saving lives and cutting collapse" },
+      { "id": "b", "text": "Thick brick walls stop tectonic plates from moving along faults" },
+      { "id": "c", "text": "Building codes prevent underwater earthquakes from happening offshore" },
+      { "id": "d", "text": "Tall towers anchor continental crust so bedrock cannot vibrate" }
+    ],
+    "answer": "a",
+    "explanation": "Base isolation and ductile steel frames let structures sway safely during quakes, sharply reducing casualties and losses.",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards/science/preparedness",
+    "trap_notes": {
+      "b": "Unreinforced brick is brittle and collapses easily; buildings cannot stop plates.",
+      "c": "Engineering reduces damage on land but cannot prevent tectonic earthquakes.",
+      "d": "Towers do not anchor continental plates.",
+      "default": "Seismic engineering helps buildings flex with ground motion rather than collapse."
+    }
+  },
+  {
+    "id": "geo-mc-276",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Physical Systems",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 36.1, "lng": -112.1, "label": "Grand Canyon, Arizona" },
+    "prompt": "Which process explains how the Colorado River carved the deep Grand Canyon over millions of years?",
+    "options": [
+      { "id": "a", "text": "Tectonic uplift raised the plateau as the river cut downward" },
+      { "id": "b", "text": "Continental ice sheets plowed a straight trench to the sea" },
+      { "id": "c", "text": "Ocean waves eroded limestone cliffs during a single hurricane" },
+      { "id": "d", "text": "Volcanic lava tubes collapsed along a coastal transform fault" }
+    ],
+    "answer": "a",
+    "explanation": "As the Colorado Plateau rose slowly, the Colorado River maintained its grade by eroding deeper into layered rock.",
+    "source_url": "https://www.nps.gov/grca/learn/nature/geologicformations.htm",
+    "trap_notes": {
+      "b": "Glaciers did not reach the Grand Canyon; running water carved it.",
+      "c": "The Grand Canyon sits high inland, far from ocean storm waves.",
+      "d": "The canyon is a fluvial erosional landform, not a collapsed lava tube.",
+      "default": "Plateau uplift combined with steady river incision carved the canyon."
+    }
+  },
+  {
+    "id": "geo-mc-277",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climatology",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 71.0, "lng": -156.8, "label": "Utqiagvik, Alaska" },
+    "prompt": "How does the ice-albedo feedback amplify warming in polar tundra and Arctic seas?",
+    "options": [
+      { "id": "a", "text": "White sea ice reflects less heat than dark ocean water below" },
+      { "id": "b", "text": "Melting bright ice exposes dark water that absorbs more sunlight" },
+      { "id": "c", "text": "Thicker snowpack traps geothermal heat inside polar oceans" },
+      { "id": "d", "text": "Expanding glaciers reflect solar energy back to tropical deserts" }
+    ],
+    "answer": "b",
+    "explanation": "Bright ice has high albedo (reflectivity); when it melts, dark ocean or land absorbs solar energy and accelerates warming.",
+    "source_url": "https://nsidc.org/learn/parts-cryosphere/sea-ice/science-sea-ice",
+    "trap_notes": {
+      "a": "Bright white ice reflects far more sunlight than dark ocean water.",
+      "c": "Arctic amplification is driven by solar absorption, not geothermal heat.",
+      "d": "Melting, not expanding, ice drives the positive warming feedback.",
+      "default": "Replacing reflective ice with dark water increases absorbed solar heat."
+    }
+  },
+  {
+    "id": "geo-mc-278",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cartography & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.0, "lng": -105.3, "label": "Boulder, Colorado" },
+    "prompt": "What do closely spaced contour lines on a USGS topographic map indicate about the terrain?",
+    "options": [
+      { "id": "a", "text": "A flat coastal marsh near sea level" },
+      { "id": "b", "text": "A broad floodplain with slow meanders" },
+      { "id": "c", "text": "A steep slope where elevation rises rapidly" },
+      { "id": "d", "text": "An arid desert plateau with no drainage" }
+    ],
+    "answer": "c",
+    "explanation": "Each contour line marks a set elevation step, so packed lines show a rapid vertical change over a short horizontal distance.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-contour-lines",
+    "trap_notes": {
+      "a": "Flat terrain has widely spaced contour lines.",
+      "b": "Broad floodplains show few, widely separated contour lines.",
+      "d": "Line spacing shows slope steepness, not rainfall or aridity.",
+      "default": "Closely packed contour lines represent steep elevation changes."
+    }
+  },
+  {
+    "id": "geo-mc-279",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 46.9, "lng": 7.4, "label": "Bern, Switzerland" },
+    "prompt": "What is a toponym in human geography?",
+    "options": [
+      { "id": "a", "text": "A graph showing seasonal rainfall and temperature" },
+      { "id": "b", "text": "A boundary line drawn along a mountain watershed" },
+      { "id": "c", "text": "A measure of arable land per farm worker" },
+      { "id": "d", "text": "A place name that often reflects local history or culture" }
+    ],
+    "answer": "d",
+    "explanation": "Toponyms—such as Santa Fe, New Amsterdam, or Mount Rainier—preserve clues about settlers, languages, and landforms.",
+    "source_url": "https://www.britannica.com/science/toponymy",
+    "trap_notes": {
+      "a": "A graph of rainfall and temperature is a climograph.",
+      "b": "A watershed boundary is a drainage divide.",
+      "c": "People or workers per unit of farmland is agricultural or physiological density.",
+      "default": "A toponym is the geographic name given to a place."
+    }
+  },
+  {
+    "id": "geo-mc-280",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Physical Systems",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 64.8, "lng": -147.7, "label": "Fairbanks, Alaska" },
+    "prompt": "What structural problem occurs when permafrost thaws beneath roads and pipelines in subarctic regions?",
+    "options": [
+      { "id": "a", "text": "Waterlogged ground loses strength, causing surfaces to buckle and sink" },
+      { "id": "b", "text": "Thawed soil hardens into solid granite that blocks highway grading" },
+      { "id": "c", "text": "Underground ice expands upward into tall volcanic cinder cones" },
+      { "id": "d", "text": "Melting frost pulls coastal ocean tides inland across mountain passes" }
+    ],
+    "answer": "a",
+    "explanation": "Frozen ground acts like concrete; when ice-rich permafrost melts, the mud slumps and damages foundations and roads.",
+    "source_url": "https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost",
+    "trap_notes": {
+      "b": "Thawing softens frozen soil into unstable mud rather than granite.",
+      "c": "Volcanic cinder cones are unrelated to frozen soil thaw.",
+      "d": "Permafrost thaw causes local ground subsidence, not inland ocean tides.",
+      "default": "Thawing ice-rich permafrost destabilizes soil and warps infrastructure."
+    }
+  },
+  {
+    "id": "geo-mc-281",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Biomes & Climate",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 3.0, "lng": 35.0, "label": "Serengeti, East Africa" },
+    "prompt": "Which climate pattern characterizes a tropical savanna biome such as the East African Serengeti?",
+    "options": [
+      { "id": "a", "text": "Year-round freezing temperatures with stunted mosses" },
+      { "id": "b", "text": "Warm temperatures year-round with distinct wet and dry seasons" },
+      { "id": "c", "text": "Mild rainy winters followed by cool foggy coastal summers" },
+      { "id": "d", "text": "Constant heavy daily downpours supporting dense closed canopy" }
+    ],
+    "answer": "b",
+    "explanation": "Tropical savannas sit between rainforests and deserts, supporting grasslands and scattered trees through seasonal rains.",
+    "source_url": "https://education.nationalgeographic.org/resource/savanna-biome/",
+    "trap_notes": {
+      "a": "Year-round cold with mosses describes Arctic or alpine tundra.",
+      "c": "Mild wet winters and dry summers define a Mediterranean climate.",
+      "d": "Constant daily rain and closed canopies belong to tropical rainforests.",
+      "default": "Savannas stay warm year-round and alternate between wet and dry seasons."
+    }
+  },
+  {
+    "id": "geo-mc-282",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 34.0, "lng": -118.2, "label": "Los Angeles, California" },
+    "prompt": "What distinguishes a megalopolis such as the BosWash corridor from a single metropolitan area?",
+    "options": [
+      { "id": "a", "text": "It is a rural farm belt with no towns above 5,000 people" },
+      { "id": "b", "text": "It is an isolated island port cut off from inland highways" },
+      { "id": "c", "text": "It links multiple adjacent metro regions into one urban corridor" },
+      { "id": "d", "text": "It is a planned capital city built inside an unpopulated desert" }
+    ],
+    "answer": "c",
+    "explanation": "A megalopolis forms when expanding metropolitan areas grow together along major transport corridors like Boston-to-Washington.",
+    "source_url": "https://www.britannica.com/topic/megalopolis-urban-geography",
+    "trap_notes": {
+      "a": "Megalopolises are among the most densely urbanized corridors on Earth.",
+      "b": "Megalopolises span broad mainland transport networks.",
+      "d": "Forward-planned capitals like Brasilia are single cities, not merged metro chains.",
+      "default": "A megalopolis is a chain of overlapping, interconnected metropolitan areas."
+    }
+  },
+  {
+    "id": "geo-mc-283",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Population Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 28.6, "lng": 77.2, "label": "New Delhi, India" },
+    "prompt": "What does a country's total fertility rate measure in demographic geography?",
+    "options": [
+      { "id": "a", "text": "Total tons of grain harvested per square mile of cropland" },
+      { "id": "b", "text": "Share of citizens living inside coastal metropolitan areas" },
+      { "id": "c", "text": "Net number of international migrants arriving each decade" },
+      { "id": "d", "text": "Average number of children a woman is expected to bear" }
+    ],
+    "answer": "d",
+    "explanation": "Total fertility rate estimates average births per woman over her lifetime; about 2.1 is replacement level in low-mortality nations.",
+    "source_url": "https://www.prb.org/glossary/",
+    "trap_notes": {
+      "a": "Crop output per area measures agricultural yield, not demographic fertility.",
+      "b": "City share of population measures urbanization.",
+      "c": "Cross-border arrivals measure immigration, not fertility.",
+      "default": "Total fertility rate tracks average lifetime births per woman."
+    }
+  },
+  {
+    "id": "geo-mc-284",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8, "lng": 2.35, "label": "Paris, France" },
+    "prompt": "Which example best illustrates stimulus diffusion?",
+    "options": [
+      { "id": "a", "text": "A fast-food chain adapts its menu to local vegetarian tastes abroad" },
+      { "id": "b", "text": "Immigrants move to a new city and open a bakery using old recipes" },
+      { "id": "c", "text": "A wildfire spreads rapidly across dry pine trees in summer" },
+      { "id": "d", "text": "A river carries fallen logs downstream to a coastal delta" }
+    ],
+    "answer": "a",
+    "explanation": "In stimulus diffusion, the core idea spreads to a new culture, which modifies the form—like veggie burgers in India.",
+    "source_url": "https://www.britannica.com/topic/cultural-diffusion",
+    "trap_notes": {
+      "b": "People carrying an intact tradition to a new place is relocation diffusion.",
+      "c": "Wildfires are physical ecological events, not cultural diffusion.",
+      "d": "Rivers moving logs are physical transport, not cultural spread.",
+      "default": "Stimulus diffusion spreads an underlying concept while adapting its form locally."
+    }
+  },
+  {
+    "id": "geo-mc-285",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.4, "lng": -122.1, "label": "Palo Alto, California" },
+    "prompt": "In Alfred Weber's industrial location model, where should a weight-losing factory like a copper smelter locate?",
+    "options": [
+      { "id": "a", "text": "Close to the raw ore mine to avoid hauling heavy waste rock" },
+      { "id": "b", "text": "Inside the distant retail mall where finished wires are sold" },
+      { "id": "c", "text": "At the geographic midpoint of every ocean shipping route" },
+      { "id": "d", "text": "Along high mountain ridges far from roads and rail lines" }
+    ],
+    "answer": "a",
+    "explanation": "When raw inputs are much heavier than the final product, locating near the mine minimizes total transport costs.",
+    "source_url": "https://www.britannica.com/topic/industrial-location",
+    "trap_notes": {
+      "b": "Market-oriented location fits weight-gaining goods like bottled beverages.",
+      "c": "Break-of-bulk ports help when switching transport modes, not mid-ocean sites.",
+      "d": "Factories rely on accessible rail or road transport, not remote peaks.",
+      "default": "Bulk-reducing industries locate near raw materials to cut shipping weight."
+    }
+  },
+  {
+    "id": "geo-mc-286",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Physical Systems",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.6, "lng": -122.3, "label": "Puget Sound, Washington" },
+    "prompt": "How does a fjord form along high-latitude coastlines such as Norway or Alaska?",
+    "options": [
+      { "id": "a", "text": "Coral polyps build steep limestone walls around deep lagoons" },
+      { "id": "b", "text": "Sea-level rise floods a deep U-shaped valley carved by glaciers" },
+      { "id": "c", "text": "Desert windstorms hollow out coastal granite cliffs above tide" },
+      { "id": "d", "text": "River deltas pile up mud bars across flat tropical bays" }
+    ],
+    "answer": "b",
+    "explanation": "Fjords are steep-walled glacial troughs that filled with ocean water when ice sheets melted and sea levels rose.",
+    "source_url": "https://education.nationalgeographic.org/resource/fjord/",
+    "trap_notes": {
+      "a": "Coral reefs grow in warm tropical seas, not cold high-latitude coasts.",
+      "c": "Fjords are carved by moving glacial ice, not desert winds.",
+      "d": "River deltas build flat sediment fans rather than deep rocky inlets.",
+      "default": "Fjords are drowned glacial valleys along formerly glaciated coasts."
+    }
+  },
+  {
+    "id": "geo-mc-287",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climatology",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.7, "lng": -155.5, "label": "Hawaii Island, Pacific" },
+    "prompt": "Why does atmospheric pressure decrease as a hiker climbs higher up a tall mountain?",
+    "options": [
+      { "id": "a", "text": "Strong mountain winds blow oxygen downward into deep caves" },
+      { "id": "b", "text": "Rock strata at high elevations absorb nitrogen out of the air" },
+      { "id": "c", "text": "Less air column remains overhead to press down on the surface" },
+      { "id": "d", "text": "Snowfields freeze air molecules into solid crystals at the summit" }
+    ],
+    "answer": "c",
+    "explanation": "Air pressure equals the weight of overlying air; higher altitudes have thinner air and lower pressure, causing cooler temperatures.",
+    "source_url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure",
+    "trap_notes": {
+      "a": "Winds redistribute air horizontally rather than pushing oxygen into caves.",
+      "b": "Mountain rocks do not strip nitrogen from the atmosphere.",
+      "d": "Nitrogen and oxygen stay gaseous at mountain summit temperatures.",
+      "default": "Higher elevation means less atmosphere above, lowering air pressure and density."
+    }
+  },
+  {
+    "id": "geo-mc-288",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -15.8, "lng": -47.9, "label": "Brasilia, Brazil" },
+    "prompt": "Why do some countries move their seat of government to a forward capital like Brasilia or Abuja?",
+    "options": [
+      { "id": "a", "text": "To relocate parliament onto a floating offshore oil platform" },
+      { "id": "b", "text": "To keep foreign tourists from visiting historic coastal harbors" },
+      { "id": "c", "text": "To abandon all road and rail links across the national interior" },
+      { "id": "d", "text": "To spur interior development and balance regional political power" }
+    ],
+    "answer": "d",
+    "explanation": "Forward capitals shift administration away from crowded colonial coastal ports to integrate interior regions.",
+    "source_url": "https://www.britannica.com/place/Brasilia",
+    "trap_notes": {
+      "a": "Forward capitals are built on mainland interior sites, not oil platforms.",
+      "b": "Coastal cities like Rio de Janeiro remain major tourism and trade hubs.",
+      "c": "Forward capitals require new highways and airports to link the interior.",
+      "default": "Forward capitals promote interior growth and reduce coastal dominance."
+    }
+  },
+  {
+    "id": "geo-mc-289",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cartography & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.5, "lng": 0.0, "label": "Prime Meridian, Greenwich" },
+    "prompt": "Why do lines of longitude converge at the poles while lines of latitude stay parallel?",
+    "options": [
+      { "id": "a", "text": "Meridians are great-circle halves meeting at the poles; parallels ring East-West" },
+      { "id": "b", "text": "Latitude lines curve inward to avoid crossing the Equator" },
+      { "id": "c", "text": "Earth's oceans pull longitude lines closer near the Equator" },
+      { "id": "d", "text": "Cartographers draw meridians slanted to match trade-wind paths" }
+    ],
+    "answer": "a",
+    "explanation": "North-south meridians run from pole to pole and meet there, whereas east-west parallels stay equidistant from the Equator.",
+    "source_url": "https://oceanservice.noaa.gov/facts/lat-long.html",
+    "trap_notes": {
+      "b": "Latitude lines run parallel to the Equator and never cross it.",
+      "c": "Longitude lines are widest apart at the Equator, not pulled closer there.",
+      "d": "Meridians follow true north-south geometry, not wind belts.",
+      "default": "Meridians meet at Earth's poles while parallels remain evenly spaced circles."
+    }
+  },
+  {
+    "id": "geo-mc-290",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.6, "lng": -93.6, "label": "Des Moines, Iowa" },
+    "prompt": "What does crop rotation between corn and soybeans help farmers maintain in Midwest soils?",
+    "options": [
+      { "id": "a", "text": "Subsurface permafrost layers that prevent summer drought" },
+      { "id": "b", "text": "Soil nitrogen fertility and lower pest pressure without fallow years" },
+      { "id": "c", "text": "Saltwater marshes suited for growing coastal mangrove trees" },
+      { "id": "d", "text": "Steep volcanic terraces that block wind across flat prairies" }
+    ],
+    "answer": "b",
+    "explanation": "Soybeans host bacteria that fix atmospheric nitrogen into soil, replenishing nutrients used by corn and breaking pest cycles.",
+    "source_url": "https://www.usda.gov/topics/farming",
+    "trap_notes": {
+      "a": "Iowa has temperate prairie soils without permafrost.",
+      "c": "Midwestern farms rely on freshwater rain, not coastal saltwater marshes.",
+      "d": "Midwestern prairies are flat or gently rolling, not volcanic terraces.",
+      "default": "Alternating legumes with grain restores nitrogen and disrupts crop pests."
+    }
+  }
+]

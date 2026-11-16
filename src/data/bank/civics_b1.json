@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "civics-map-101",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "1945–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 52.0705,
+      "lng": 4.3007,
+      "label": "The Hague, Netherlands"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 171,
+          "y": 55,
+          "label": "The Hague"
+        },
+        {
+          "id": "p2",
+          "x": 174,
+          "y": 67,
+          "label": "Geneva"
+        },
+        {
+          "id": "p3",
+          "x": 102,
+          "y": 62,
+          "label": "New York City"
+        },
+        {
+          "id": "p4",
+          "x": 186,
+          "y": 62,
+          "label": "Vienna"
+        }
+      ]
+    },
+    "prompt": "Select the city that serves as the permanent seat of the International Court of Justice.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The International Court of Justice sits at the Peace Palace in The Hague, Netherlands, settling disputes between states.",
+    "source_url": "https://www.icj-cij.org/court",
+    "fun_fact": "The ICJ is the only one of the six principal UN organs not located in New York City.",
+    "trap_notes": {
+      "default": "The ICJ sits in The Hague, Netherlands, inside the Peace Palace.",
+      "p2": "Geneva hosts the WTO and UN Human Rights Council, not the ICJ.",
+      "p3": "New York City hosts UN headquarters, while the ICJ sits in Europe.",
+      "p4": "Vienna hosts the IAEA and UN drug-control offices, not the ICJ."
+    }
+  },
+  {
+    "id": "civics-map-102",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "1945–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.7489,
+      "lng": -73.968,
+      "label": "New York City, USA"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 168,
+          "y": 62,
+          "label": "Paris"
+        },
+        {
+          "id": "p2",
+          "x": 52,
+          "y": 72,
+          "label": "San Francisco"
+        },
+        {
+          "id": "p3",
+          "x": 102,
+          "y": 62,
+          "label": "New York City"
+        },
+        {
+          "id": "p4",
+          "x": 174,
+          "y": 67,
+          "label": "Geneva"
+        }
+      ]
+    },
+    "prompt": "Select the city where the United Nations General Assembly and Security Council meet at UN Headquarters.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "UN Headquarters opened in New York City along the East River in 1952, housing the General Assembly and Security Council.",
+    "source_url": "https://www.un.org/en/about-us",
+    "fun_fact": "John D. Rockefeller Jr. donated $8.5 million to purchase the Manhattan land for UN Headquarters.",
+    "trap_notes": {
+      "default": "The UN General Assembly and Security Council sit in New York City.",
+      "p1": "Paris hosts UNESCO headquarters, not the UN General Assembly.",
+      "p2": "San Francisco hosted the 1945 UN Charter signing, not permanent HQ.",
+      "p4": "Geneva hosts the UN's European office and agencies, not the main HQ."
+    }
+  },
+  {
+    "id": "civics-map-103",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "1945",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "label": "San Francisco, USA"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 159,
+          "y": 56,
+          "label": "London"
+        },
+        {
+          "id": "p2",
+          "x": 206,
+          "y": 50,
+          "label": "Moscow"
+        },
+        {
+          "id": "p3",
+          "x": 52,
+          "y": 72,
+          "label": "San Francisco"
+        },
+        {
+          "id": "p4",
+          "x": 102,
+          "y": 62,
+          "label": "New York City"
+        }
+      ]
+    },
+    "prompt": "Select the city where 50 nations signed the United Nations Charter in June 1945.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Delegates from 50 nations drafted and signed the UN Charter at the San Francisco Conference on June 26, 1945.",
+    "source_url": "https://www.un.org/en/about-us/history-of-the-un/san-francisco-conference",
+    "fun_fact": "Poland could not attend the signing ceremony, so a blank space was left for its signature later.",
+    "trap_notes": {
+      "default": "The UN Charter was signed in San Francisco in June 1945.",
+      "p1": "London hosted the first General Assembly in 1946, not the 1945 signing.",
+      "p2": "Moscow hosted a 1943 Allied declaration, not the 1945 UN Charter signing.",
+      "p4": "New York became permanent UN HQ later, after the 1945 Charter signing."
+    }
+  },
+  {
+    "id": "civics-map-104",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "1995–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 174,
+          "y": 67,
+          "label": "Geneva"
+        },
+        {
+          "id": "p2",
+          "x": 288,
+          "y": 128,
+          "label": "Singapore"
+        },
+        {
+          "id": "p3",
+          "x": 98,
+          "y": 68,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "p4",
+          "x": 170,
+          "y": 58,
+          "label": "Brussels"
+        }
+      ]
+    },
+    "prompt": "Select the city that houses the headquarters of the World Trade Organization.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The World Trade Organization is headquartered in Geneva, Switzerland, overseeing global trade rules and disputes.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm",
+    "fun_fact": "The WTO occupies the Centre William Rappard, originally built for the International Labour Organization.",
+    "trap_notes": {
+      "default": "The WTO is headquartered in Geneva, Switzerland.",
+      "p2": "Singapore hosts APEC's secretariat, not the World Trade Organization.",
+      "p3": "Washington, D.C. hosts the IMF and World Bank, not the WTO.",
+      "p4": "Brussels hosts the European Union and NATO, not the WTO."
+    }
+  },
+  {
+    "id": "civics-map-105",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1957–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "label": "Brussels, Belgium"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 170,
+          "y": 58,
+          "label": "Brussels"
+        },
+        {
+          "id": "p2",
+          "x": 182,
+          "y": 56,
+          "label": "Berlin"
+        },
+        {
+          "id": "p3",
+          "x": 160,
+          "y": 72,
+          "label": "Madrid"
+        },
+        {
+          "id": "p4",
+          "x": 180,
+          "y": 74,
+          "label": "Rome"
+        }
+      ]
+    },
+    "prompt": "Select the city that serves as the main administrative seat of the European Union.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Brussels hosts the European Commission, the Council of the EU, and key European Parliament committee sessions.",
+    "source_url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies_en",
+    "fun_fact": "The European Parliament splits its official plenary sessions between Brussels and Strasbourg, France.",
+    "trap_notes": {
+      "default": "Brussels is the main administrative capital of the European Union.",
+      "p2": "Berlin is Germany's capital, not the administrative seat of the EU.",
+      "p3": "Madrid is Spain's capital, not the headquarters of EU institutions.",
+      "p4": "Rome hosted the 1957 founding treaties, not the EU's administrative seat."
+    }
+  },
+  {
+    "id": "civics-map-106",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "2002–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 9.03,
+      "lng": 38.74,
+      "label": "Addis Ababa, Ethiopia"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 204,
+          "y": 166,
+          "label": "Pretoria"
+        },
+        {
+          "id": "p2",
+          "x": 206,
+          "y": 94,
+          "label": "Cairo"
+        },
+        {
+          "id": "p3",
+          "x": 218,
+          "y": 114,
+          "label": "Addis Ababa"
+        },
+        {
+          "id": "p4",
+          "x": 178,
+          "y": 114,
+          "label": "Abuja"
+        }
+      ]
+    },
+    "prompt": "Select the city where the African Union Commission is headquartered.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "The African Union is headquartered in Addis Ababa, Ethiopia, continuing the role once held by the OAU.",
+    "source_url": "https://au.int/en/overview",
+    "fun_fact": "The AU represents 55 member states across the African continent.",
+    "trap_notes": {
+      "default": "The African Union headquarters is located in Addis Ababa, Ethiopia.",
+      "p1": "Pretoria is South Africa's executive capital, not the AU headquarters.",
+      "p2": "Cairo hosts the Arab League headquarters, not the African Union.",
+      "p4": "Abuja hosts ECOWAS, a West African regional bloc, not the AU."
+    }
+  },
+  {
+    "id": "civics-map-107",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "1967–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "label": "Jakarta, Indonesia"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 294,
+          "y": 134,
+          "label": "Jakarta"
+        },
+        {
+          "id": "p2",
+          "x": 256,
+          "y": 94,
+          "label": "New Delhi"
+        },
+        {
+          "id": "p3",
+          "x": 298,
+          "y": 72,
+          "label": "Beijing"
+        },
+        {
+          "id": "p4",
+          "x": 325,
+          "y": 68,
+          "label": "Tokyo"
+        }
+      ]
+    },
+    "prompt": "Select the city that houses the Secretariat of the Association of Southeast Asian Nations.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The ASEAN Secretariat is located in Jakarta, Indonesia, coordinating regional diplomacy and trade among member states.",
+    "source_url": "https://asean.org/about-asean/",
+    "fun_fact": "ASEAN was founded in Bangkok in 1967 by five nations before placing its Secretariat in Jakarta.",
+    "trap_notes": {
+      "default": "The ASEAN Secretariat is based in Jakarta, Indonesia.",
+      "p2": "New Delhi is India's capital; India is not an ASEAN member state.",
+      "p3": "Beijing is China's capital; China is a dialogue partner, not an ASEAN member.",
+      "p4": "Tokyo is Japan's capital; Japan is not a member of ASEAN."
+    }
+  },
+  {
+    "id": "civics-map-108",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Foundations of Government",
+    "era": "5th Century BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "label": "Athens, Greece"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 180,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "p2",
+          "x": 206,
+          "y": 94,
+          "label": "Cairo"
+        },
+        {
+          "id": "p3",
+          "x": 159,
+          "y": 56,
+          "label": "London"
+        },
+        {
+          "id": "p4",
+          "x": 194,
+          "y": 78,
+          "label": "Athens"
+        }
+      ]
+    },
+    "prompt": "Select the ancient city-state where male citizens practiced direct democracy in the Assembly.",
+    "options": [],
+    "answer": "p4",
+    "explanation": "Ancient Athens developed direct democracy in the 5th century BCE, allowing male citizens to vote directly on laws.",
+    "source_url": "https://www.britannica.com/topic/democracy/Athenian-democracy",
+    "fun_fact": "Athenian citizens used bronze or pottery shards called ostraka to vote on exiling politicians.",
+    "trap_notes": {
+      "default": "Direct democracy originated in the Greek city-state of Athens.",
+      "p1": "Rome developed a representative republic, not Athenian direct democracy.",
+      "p2": "Ancient Egypt was ruled by pharaohs, not a citizen assembly.",
+      "p3": "Parliamentary democracy in London developed many centuries later."
+    }
+  },
+  {
+    "id": "civics-map-109",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Foundations of Government",
+    "era": "1215",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London Area, England"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 159,
+          "y": 56,
+          "label": "London"
+        },
+        {
+          "id": "p2",
+          "x": 168,
+          "y": 62,
+          "label": "Paris"
+        },
+        {
+          "id": "p3",
+          "x": 180,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "p4",
+          "x": 160,
+          "y": 72,
+          "label": "Madrid"
+        }
+      ]
+    },
+    "prompt": "Select the capital region near Runnymede, where King John sealed Magna Carta in 1215.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "King John sealed Magna Carta at Runnymede, just west of London, establishing that the monarch is subject to law.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/magna-carta",
+    "fun_fact": "Only four original 1215 copies of Magna Carta survive today, all in England.",
+    "trap_notes": {
+      "default": "Magna Carta was sealed at Runnymede near London in 1215.",
+      "p2": "France's Declaration of the Rights of Man came in 1789, not 1215.",
+      "p3": "Rome is associated with Roman law, not King John's 1215 charter.",
+      "p4": "Madrid was not the site of Magna Carta's 1215 sealing."
+    }
+  },
+  {
+    "id": "civics-map-110",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Human Rights & Treaties",
+    "era": "1948",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 52,
+          "y": 72,
+          "label": "San Francisco"
+        },
+        {
+          "id": "p2",
+          "x": 168,
+          "y": 62,
+          "label": "Paris"
+        },
+        {
+          "id": "p3",
+          "x": 102,
+          "y": 62,
+          "label": "New York City"
+        },
+        {
+          "id": "p4",
+          "x": 171,
+          "y": 55,
+          "label": "The Hague"
+        }
+      ]
+    },
+    "prompt": "Select the city where the UN General Assembly adopted the Universal Declaration of Human Rights in 1948.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "The UN General Assembly met at the Palais de Chaillot in Paris on December 10, 1948, to adopt the UDHR.",
+    "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "fun_fact": "Eleanor Roosevelt chaired the UN drafting committee that shaped the 30-article declaration.",
+    "trap_notes": {
+      "default": "The Universal Declaration of Human Rights was adopted in Paris in 1948.",
+      "p1": "San Francisco hosted the 1945 UN Charter signing, not the 1948 UDHR vote.",
+      "p3": "UN Headquarters in New York was still under construction in 1948.",
+      "p4": "The Hague hosts the ICJ, not the 1948 General Assembly session."
+    }
+  },
+  {
+    "id": "civics-map-111",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "1998",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "label": "Rome, Italy"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 182,
+          "y": 56,
+          "label": "Berlin"
+        },
+        {
+          "id": "p2",
+          "x": 194,
+          "y": 78,
+          "label": "Athens"
+        },
+        {
+          "id": "p3",
+          "x": 180,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "p4",
+          "x": 171,
+          "y": 55,
+          "label": "The Hague"
+        }
+      ]
+    },
+    "prompt": "Select the city where 120 states adopted the 1998 statute creating the International Criminal Court.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "The Rome Statute was adopted at a 1998 diplomatic conference in Rome, establishing the International Criminal Court.",
+    "source_url": "https://www.icc-cpi.int/about/the-court",
+    "fun_fact": "Although founded by the Rome Statute, the ICC's permanent courtroom sits in The Hague.",
+    "trap_notes": {
+      "default": "The ICC's founding treaty is the 1998 Rome Statute, adopted in Rome.",
+      "p1": "Berlin did not host the 1998 diplomatic conference creating the ICC.",
+      "p2": "Athens was not the site of the 1998 International Criminal Court treaty.",
+      "p4": "The Hague houses the ICC today, but the founding treaty was adopted in Rome."
+    }
+  },
+  {
+    "id": "civics-map-112",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "International Law & Organizations",
+    "era": "1957–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "label": "Vienna, Austria"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 174,
+          "y": 67,
+          "label": "Geneva"
+        },
+        {
+          "id": "p2",
+          "x": 170,
+          "y": 58,
+          "label": "Brussels"
+        },
+        {
+          "id": "p3",
+          "x": 325,
+          "y": 68,
+          "label": "Tokyo"
+        },
+        {
+          "id": "p4",
+          "x": 186,
+          "y": 62,
+          "label": "Vienna"
+        }
+      ]
+    },
+    "prompt": "Select the city that hosts the International Atomic Energy Agency headquarters.",
+    "options": [],
+    "answer": "p4",
+    "explanation": "The International Atomic Energy Agency (IAEA) has been headquartered in Vienna, Austria, since its founding in 1957.",
+    "source_url": "https://www.iaea.org/about/overview",
+    "fun_fact": "The IAEA and its director general won the 2005 Nobel Peace Prize for nuclear safeguards work.",
+    "trap_notes": {
+      "default": "The IAEA is headquartered in Vienna, Austria.",
+      "p1": "Geneva hosts the WTO and WHO, not the IAEA.",
+      "p2": "Brussels hosts EU and NATO headquarters, not the IAEA.",
+      "p3": "Tokyo hosts the United Nations University, not the IAEA."
+    }
+  },
+  {
+    "id": "civics-map-113",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "13th Century–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 51.4995,
+      "lng": -0.1248,
+      "label": "London, United Kingdom"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 159,
+          "y": 56,
+          "label": "London"
+        },
+        {
+          "id": "p2",
+          "x": 96,
+          "y": 52,
+          "label": "Ottawa"
+        },
+        {
+          "id": "p3",
+          "x": 324,
+          "y": 178,
+          "label": "Canberra"
+        },
+        {
+          "id": "p4",
+          "x": 168,
+          "y": 62,
+          "label": "Paris"
+        }
+      ]
+    },
+    "prompt": "Select the capital city where the Westminster model of parliamentary government originated.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Westminster parliamentary model developed at the Palace of Westminster in London, shaping systems worldwide.",
+    "source_url": "https://www.parliament.uk/about/how/role/",
+    "fun_fact": "Both Canada and Australia adapted the Westminster model into federal parliamentary systems.",
+    "trap_notes": {
+      "default": "The Westminster parliamentary system originated in London.",
+      "p2": "Ottawa uses a Westminster-style parliament, but the model originated in London.",
+      "p3": "Canberra's parliament was modeled on Westminster, not its birthplace.",
+      "p4": "Paris uses a semi-presidential system, not the Westminster model."
+    }
+  },
+  {
+    "id": "civics-map-114",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1950–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "label": "New Delhi, India"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 116,
+          "y": 148,
+          "label": "Brasília"
+        },
+        {
+          "id": "p2",
+          "x": 256,
+          "y": 94,
+          "label": "New Delhi"
+        },
+        {
+          "id": "p3",
+          "x": 294,
+          "y": 134,
+          "label": "Jakarta"
+        },
+        {
+          "id": "p4",
+          "x": 325,
+          "y": 68,
+          "label": "Tokyo"
+        }
+      ]
+    },
+    "prompt": "Select the capital of the world's most populous parliamentary democracy.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "New Delhi is the capital of India, a federal parliamentary republic and the world's most populous democracy.",
+    "source_url": "https://www.india.gov.in/my-government/indian-parliament",
+    "fun_fact": "India's 2024 general election involved over 960 million registered voters.",
+    "trap_notes": {
+      "default": "New Delhi is the capital of India, the largest parliamentary democracy.",
+      "p1": "Brasília is Brazil's capital, which uses a presidential republic.",
+      "p3": "Jakarta is Indonesia's capital, which uses a presidential system.",
+      "p4": "Tokyo is Japan's capital, a much smaller parliamentary democracy."
+    }
+  },
+  {
+    "id": "civics-map-115",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1960–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": -15.7975,
+      "lng": -47.8919,
+      "label": "Brasília, Brazil"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 74,
+          "y": 98,
+          "label": "Mexico City"
+        },
+        {
+          "id": "p2",
+          "x": 92,
+          "y": 126,
+          "label": "Bogotá"
+        },
+        {
+          "id": "p3",
+          "x": 116,
+          "y": 148,
+          "label": "Brasília"
+        },
+        {
+          "id": "p4",
+          "x": 108,
+          "y": 178,
+          "label": "Buenos Aires"
+        }
+      ]
+    },
+    "prompt": "Select the planned capital of South America's largest federal presidential republic.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Brasília became Brazil's planned federal capital in 1960, housing the National Congress, President, and Supreme Federal Court.",
+    "source_url": "https://www.britannica.com/place/Brasilia",
+    "fun_fact": "Brasília was built in just 41 months in Brazil's interior to encourage inland development.",
+    "trap_notes": {
+      "default": "Brasília is the planned federal capital of Brazil.",
+      "p1": "Mexico City is in North America, not South America.",
+      "p2": "Bogotá is the capital of Colombia, a unitary rather than federal republic.",
+      "p4": "Buenos Aires is Argentina's capital, not a planned interior capital."
+    }
+  },
+  {
+    "id": "civics-map-116",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, PA"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 264,
+          "y": 94,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "p2",
+          "x": 280,
+          "y": 76,
+          "label": "New York City"
+        },
+        {
+          "id": "p3",
+          "x": 296,
+          "y": 62,
+          "label": "Boston"
+        },
+        {
+          "id": "p4",
+          "x": 272,
+          "y": 84,
+          "label": "Philadelphia"
+        }
+      ]
+    },
+    "prompt": "Select the city where delegates drafted the U.S. Constitution in 1787.",
+    "options": [],
+    "answer": "p4",
+    "explanation": "Fifty-five delegates met at Independence Hall in Philadelphia from May to September 1787 to write the U.S. Constitution.",
+    "source_url": "https://www.archives.gov/founding-docs/constitution",
+    "fun_fact": "Delegates kept the convention windows closed in summer heat to preserve secrecy during debates.",
+    "trap_notes": {
+      "default": "The Constitutional Convention met in Philadelphia in 1787.",
+      "p1": "Washington, D.C. did not yet exist in 1787; it was founded in 1790.",
+      "p2": "New York City served as the first capital under the Constitution, not its drafting site.",
+      "p3": "Boston was a revolutionary hub, not the site of the 1787 Convention."
+    }
+  },
+  {
+    "id": "civics-map-117",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "U.S. Government Institutions",
+    "era": "1800–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 264,
+          "y": 94,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "p2",
+          "x": 272,
+          "y": 84,
+          "label": "Philadelphia"
+        },
+        {
+          "id": "p3",
+          "x": 262,
+          "y": 102,
+          "label": "Richmond"
+        },
+        {
+          "id": "p4",
+          "x": 280,
+          "y": 76,
+          "label": "New York City"
+        }
+      ]
+    },
+    "prompt": "Select the federal district created to house the U.S. Congress, President, and Supreme Court.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Created under the Constitution's District Clause, Washington, D.C. became the permanent U.S. capital in 1800.",
+    "source_url": "https://www.archives.gov/exhibits/treasures_of_congress/text/page2_text.html",
+    "fun_fact": "Maryland and Virginia donated land along the Potomac River to form the federal district.",
+    "trap_notes": {
+      "default": "Washington, D.C. is the permanent federal capital of the United States.",
+      "p2": "Philadelphia served as a temporary U.S. capital from 1790 to 1800.",
+      "p3": "Richmond is Virginia's state capital, not the U.S. federal district.",
+      "p4": "New York City served as the first federal capital only from 1789 to 1790."
+    }
+  },
+  {
+    "id": "civics-map-118",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Civil Rights & Suffrage",
+    "era": "1848",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 42.9106,
+      "lng": -76.7966,
+      "label": "Seneca Falls, NY"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 234,
+          "y": 128,
+          "label": "Atlanta"
+        },
+        {
+          "id": "p2",
+          "x": 258,
+          "y": 68,
+          "label": "Seneca Falls"
+        },
+        {
+          "id": "p3",
+          "x": 296,
+          "y": 62,
+          "label": "Boston"
+        },
+        {
+          "id": "p4",
+          "x": 202,
+          "y": 78,
+          "label": "Chicago"
+        }
+      ]
+    },
+    "prompt": "Select the upstate New York town that hosted the 1848 Women's Rights Convention.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "In July 1848, Lucretia Mott and Elizabeth Cady Stanton led the Seneca Falls Convention, issuing the Declaration of Sentiments.",
+    "source_url": "https://www.nps.gov/wori/learn/historyculture/seneca-falls-convention.htm",
+    "fun_fact": "Frederick Douglass attended and spoke forcefully in favor of the women's suffrage resolution.",
+    "trap_notes": {
+      "default": "The 1848 Women's Rights Convention took place in Seneca Falls, New York.",
+      "p1": "Atlanta was not the location of the 1848 Women's Rights Convention.",
+      "p3": "Boston hosted abolitionist and suffrage rallies later, not the 1848 convention.",
+      "p4": "Chicago was not the site of the 1848 Declaration of Sentiments."
+    }
+  },
+  {
+    "id": "civics-map-119",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Supreme Court & Civil Rights",
+    "era": "1954",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.0473,
+      "lng": -95.6752,
+      "label": "Topeka, KS"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 218,
+          "y": 136,
+          "label": "Montgomery"
+        },
+        {
+          "id": "p2",
+          "x": 186,
+          "y": 156,
+          "label": "New Orleans"
+        },
+        {
+          "id": "p3",
+          "x": 160,
+          "y": 102,
+          "label": "Topeka"
+        },
+        {
+          "id": "p4",
+          "x": 178,
+          "y": 126,
+          "label": "Little Rock"
+        }
+      ]
+    },
+    "prompt": "Select the Kansas capital where the landmark Brown v. Board of Education lawsuit began.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Oliver Brown sued the Topeka Board of Education after his daughter was denied entry to an all-white elementary school.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks/brown-v-board-education-podcast",
+    "fun_fact": "The Supreme Court combined cases from Kansas, South Carolina, Virginia, Delaware, and D.C. under Brown.",
+    "trap_notes": {
+      "default": "Brown v. Board of Education originated in Topeka, Kansas.",
+      "p1": "Montgomery was the site of the 1955–1956 bus boycott, not the Brown lawsuit.",
+      "p2": "New Orleans was the origin of Plessy v. Ferguson (1896), not Brown.",
+      "p4": "Little Rock was the 1957 desegregation crisis site, three years after Brown."
+    }
+  },
+  {
+    "id": "civics-map-120",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Civil Rights & Suffrage",
+    "era": "1955–1956",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 32.3792,
+      "lng": -86.3077,
+      "label": "Montgomery, AL"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 234,
+          "y": 128,
+          "label": "Atlanta"
+        },
+        {
+          "id": "p2",
+          "x": 178,
+          "y": 126,
+          "label": "Little Rock"
+        },
+        {
+          "id": "p3",
+          "x": 160,
+          "y": 102,
+          "label": "Topeka"
+        },
+        {
+          "id": "p4",
+          "x": 218,
+          "y": 136,
+          "label": "Montgomery"
+        }
+      ]
+    },
+    "prompt": "Select the Alabama capital where Rosa Parks's arrest sparked a 381-day bus boycott.",
+    "options": [],
+    "answer": "p4",
+    "explanation": "The 1955–1956 Montgomery Bus Boycott ended in Browder v. Gayle, ruling bus segregation unconstitutional.",
+    "source_url": "https://www.archives.gov/education/lessons/rosa-parks",
+    "fun_fact": "Black residents organized carpools and walked miles daily for over a year to sustain the boycott.",
+    "trap_notes": {
+      "default": "The 1955–1956 bus boycott took place in Montgomery, Alabama.",
+      "p1": "Atlanta was Martin Luther King Jr.'s hometown, not the 1955 bus boycott city.",
+      "p2": "Little Rock was the 1957 Central High School integration crisis.",
+      "p3": "Topeka was the origin of Brown v. Board of Education, not the bus boycott."
+    }
+  },
+  {
+    "id": "civics-map-121",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Federalism & Civil Rights",
+    "era": "1957",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 34.7465,
+      "lng": -92.2896,
+      "label": "Little Rock, AR"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 178,
+          "y": 126,
+          "label": "Little Rock"
+        },
+        {
+          "id": "p2",
+          "x": 218,
+          "y": 136,
+          "label": "Montgomery"
+        },
+        {
+          "id": "p3",
+          "x": 156,
+          "y": 134,
+          "label": "Dallas"
+        },
+        {
+          "id": "p4",
+          "x": 160,
+          "y": 102,
+          "label": "Topeka"
+        }
+      ]
+    },
+    "prompt": "Select the city where President Eisenhower sent federal troops to enforce school integration in 1957.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "In 1957, Eisenhower federalized the Arkansas National Guard and sent the 101st Airborne to protect the Little Rock Nine.",
+    "source_url": "https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis",
+    "fun_fact": "The crisis led to Cooper v. Aaron (1958), affirming that states cannot nullify Supreme Court rulings.",
+    "trap_notes": {
+      "default": "Federal troops escorted the Little Rock Nine into Central High in Little Rock.",
+      "p2": "Montgomery saw the 1955–1956 bus boycott, not the 1957 school troop deployment.",
+      "p3": "Dallas was not the site of the 1957 Central High integration crisis.",
+      "p4": "Topeka was the origin of the 1954 Brown ruling, not the 1957 troop enforcement."
+    }
+  },
+  {
+    "id": "civics-map-122",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Civil Rights & Suffrage",
+    "era": "1869",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.14,
+      "lng": -104.8202,
+      "label": "Cheyenne, WY"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 258,
+          "y": 68,
+          "label": "Seneca Falls"
+        },
+        {
+          "id": "p2",
+          "x": 126,
+          "y": 90,
+          "label": "Cheyenne"
+        },
+        {
+          "id": "p3",
+          "x": 96,
+          "y": 94,
+          "label": "Salt Lake City"
+        },
+        {
+          "id": "p4",
+          "x": 58,
+          "y": 100,
+          "label": "Sacramento"
+        }
+      ]
+    },
+    "prompt": "Select the capital of the first U.S. territory and state to grant women full voting rights in 1869.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Wyoming Territory granted women full suffrage in 1869 and entered the Union in 1890 as the first state with women's suffrage.",
+    "source_url": "https://www.nps.gov/articles/wyoming-women-s-suffrage.htm",
+    "fun_fact": "Wyoming's official state nickname is the Equality State because of its 1869 suffrage law.",
+    "trap_notes": {
+      "default": "Cheyenne is the capital of Wyoming, the first to grant women full suffrage.",
+      "p1": "Seneca Falls hosted the 1848 convention, but New York did not pass suffrage until 1917.",
+      "p3": "Utah Territory granted women suffrage in 1870, a year after Wyoming.",
+      "p4": "California voters approved women's suffrage later, in 1911."
+    }
+  },
+  {
+    "id": "civics-map-123",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1867–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 45.4215,
+      "lng": -75.6972,
+      "label": "Ottawa, Canada"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 292,
+          "y": 36,
+          "label": "Quebec City"
+        },
+        {
+          "id": "p2",
+          "x": 264,
+          "y": 94,
+          "label": "Washington, D.C."
+        },
+        {
+          "id": "p3",
+          "x": 264,
+          "y": 48,
+          "label": "Ottawa"
+        },
+        {
+          "id": "p4",
+          "x": 248,
+          "y": 64,
+          "label": "Toronto"
+        }
+      ]
+    },
+    "prompt": "Select the capital city of Canada's federal parliamentary democracy.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Ottawa is Canada's federal capital, housing Parliament Hill, the Prime Minister's Office, and the Supreme Court of Canada.",
+    "source_url": "https://www.canada.ca/en/canadian-heritage/services/crown-canada/about.html",
+    "fun_fact": "Queen Victoria chose Ottawa in 1857 partly because it sat on the border of English- and French-speaking regions.",
+    "trap_notes": {
+      "default": "Ottawa is the federal capital of Canada.",
+      "p1": "Quebec City is Quebec's provincial capital, not Canada's national capital.",
+      "p2": "Washington, D.C. is the capital of the United States, not Canada.",
+      "p4": "Toronto is Ontario's provincial capital and largest city, not the federal capital."
+    }
+  },
+  {
+    "id": "civics-map-124",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1917–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "label": "Mexico City, Mexico"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 152,
+          "y": 148,
+          "label": "Austin"
+        },
+        {
+          "id": "p2",
+          "x": 92,
+          "y": 130,
+          "label": "Phoenix"
+        },
+        {
+          "id": "p3",
+          "x": 186,
+          "y": 156,
+          "label": "New Orleans"
+        },
+        {
+          "id": "p4",
+          "x": 146,
+          "y": 196,
+          "label": "Mexico City"
+        }
+      ]
+    },
+    "prompt": "Select the capital of Mexico's federal presidential republic, governed under its 1917 Constitution.",
+    "options": [],
+    "answer": "p4",
+    "explanation": "Mexico City is the federal capital of Mexico, where the Congress of the Union, President, and Supreme Court sit.",
+    "source_url": "https://www.britannica.com/place/Mexico-City",
+    "fun_fact": "Mexico's 1917 Constitution was the first in the world to enshrine social rights like labor protections.",
+    "trap_notes": {
+      "default": "Mexico City is the capital of Mexico's federal republic.",
+      "p1": "Austin is the state capital of Texas, not Mexico.",
+      "p2": "Phoenix is the state capital of Arizona, not Mexico.",
+      "p3": "New Orleans is a U.S. port city in Louisiana, not Mexico's capital."
+    }
+  },
+  {
+    "id": "civics-map-125",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Foundations of Government",
+    "era": "1773",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, MA"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 296,
+          "y": 62,
+          "label": "Boston"
+        },
+        {
+          "id": "p2",
+          "x": 280,
+          "y": 76,
+          "label": "New York City"
+        },
+        {
+          "id": "p3",
+          "x": 272,
+          "y": 84,
+          "label": "Philadelphia"
+        },
+        {
+          "id": "p4",
+          "x": 262,
+          "y": 102,
+          "label": "Richmond"
+        }
+      ]
+    },
+    "prompt": "Select the colonial port where the 1773 Tea Party protested British taxation without representation.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Sons of Liberty dumped 342 chests of tea into Boston Harbor in 1773, prompting the Intolerable Acts and colonial unity.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/road-to-the-declaration.html",
+    "fun_fact": "Britain's Coercive Acts closed Boston Harbor, pushing colonies to form the First Continental Congress.",
+    "trap_notes": {
+      "default": "The 1773 Tea Party protest occurred in Boston Harbor.",
+      "p2": "New York had smaller tea protests, but the 1773 Tea Party was in Boston.",
+      "p3": "Philadelphia hosted the Continental Congresses, not the 1773 Tea Party.",
+      "p4": "Richmond was not the port of the 1773 Tea Party protest."
+    }
+  },
+  {
+    "id": "civics-map-126",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1786–1787",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 42.1015,
+      "lng": -72.5898,
+      "label": "Springfield, MA"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 202,
+          "y": 78,
+          "label": "Chicago"
+        },
+        {
+          "id": "p2",
+          "x": 288,
+          "y": 66,
+          "label": "Springfield"
+        },
+        {
+          "id": "p3",
+          "x": 272,
+          "y": 84,
+          "label": "Philadelphia"
+        },
+        {
+          "id": "p4",
+          "x": 234,
+          "y": 128,
+          "label": "Atlanta"
+        }
+      ]
+    },
+    "prompt": "Select the western Massachusetts town where Shays' Rebellion attacked a federal arsenal in 1787.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "Debt-ridden farmers led by Daniel Shays marched on the Springfield Armory, exposing the Articles of Confederation's weakness.",
+    "source_url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/shays-rebellion",
+    "fun_fact": "Because Congress lacked a standing army or taxing power, a privately funded state militia quelled the uprising.",
+    "trap_notes": {
+      "default": "Shays' Rebellion culminated at the Springfield Armory in Massachusetts.",
+      "p1": "Chicago did not exist as a city during the 1786–1787 uprising.",
+      "p3": "Philadelphia hosted the 1787 Convention sparked by Shays' Rebellion, not the revolt.",
+      "p4": "Atlanta was founded decades later and was not involved in Shays' Rebellion."
+    }
+  },
+  {
+    "id": "civics-map-127",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Supreme Court & Civil Liberties",
+    "era": "1966",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 33.4484,
+      "lng": -112.074,
+      "label": "Phoenix, AZ"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 124,
+          "y": 102,
+          "label": "Denver"
+        },
+        {
+          "id": "p2",
+          "x": 152,
+          "y": 148,
+          "label": "Austin"
+        },
+        {
+          "id": "p3",
+          "x": 92,
+          "y": 130,
+          "label": "Phoenix"
+        },
+        {
+          "id": "p4",
+          "x": 64,
+          "y": 124,
+          "label": "Los Angeles"
+        }
+      ]
+    },
+    "prompt": "Select the city where the arrest behind Miranda v. Arizona established required police warnings.",
+    "options": [],
+    "answer": "p3",
+    "explanation": "Ernesto Miranda's 1963 arrest in Phoenix led to Miranda v. Arizona (1966), requiring warnings of Fifth Amendment rights.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks/miranda-v-arizona-podcast",
+    "fun_fact": "Chief Justice Earl Warren carried a typed summary of the Miranda rules that police still read today.",
+    "trap_notes": {
+      "default": "Miranda v. Arizona began with a 1963 arrest in Phoenix, Arizona.",
+      "p1": "Denver is Colorado's capital, not the origin of Miranda v. Arizona.",
+      "p2": "Austin is Texas's capital, not the site of the Miranda case.",
+      "p4": "Los Angeles was not the site of Ernesto Miranda's arrest."
+    }
+  },
+  {
+    "id": "civics-map-128",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "State & Local Government",
+    "era": "1937–Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.8136,
+      "lng": -96.7026,
+      "label": "Lincoln, NE"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 160,
+          "y": 102,
+          "label": "Topeka"
+        },
+        {
+          "id": "p2",
+          "x": 124,
+          "y": 102,
+          "label": "Denver"
+        },
+        {
+          "id": "p3",
+          "x": 184,
+          "y": 64,
+          "label": "Saint Paul"
+        },
+        {
+          "id": "p4",
+          "x": 158,
+          "y": 88,
+          "label": "Lincoln"
+        }
+      ]
+    },
+    "prompt": "Select the state capital that houses the only unicameral state legislature in the United States.",
+    "options": [],
+    "answer": "p4",
+    "explanation": "Nebraska's single-chamber, nonpartisan legislature has met in Lincoln since 1937 after voters approved it in 1934.",
+    "source_url": "https://nebraskalegislature.gov/about/history_unicameral.php",
+    "fun_fact": "Senator George Norris championed Nebraska's unicameral to save money and eliminate secret conference committees.",
+    "trap_notes": {
+      "default": "Lincoln is the capital of Nebraska, the only state with a unicameral legislature.",
+      "p1": "Topeka houses Kansas's bicameral legislature, with a House and Senate.",
+      "p2": "Denver houses Colorado's bicameral General Assembly.",
+      "p3": "Saint Paul houses Minnesota's two-chamber legislature."
+    }
+  },
+  {
+    "id": "civics-map-129",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Supreme Court & Civil Liberties",
+    "era": "1961",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "label": "Cleveland, OH"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 232,
+          "y": 82,
+          "label": "Cleveland"
+        },
+        {
+          "id": "p2",
+          "x": 202,
+          "y": 78,
+          "label": "Chicago"
+        },
+        {
+          "id": "p3",
+          "x": 222,
+          "y": 74,
+          "label": "Detroit"
+        },
+        {
+          "id": "p4",
+          "x": 272,
+          "y": 84,
+          "label": "Philadelphia"
+        }
+      ]
+    },
+    "prompt": "Select the Lake Erie city where Mapp v. Ohio arose, extending the Fourth Amendment exclusionary rule to states.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "After Cleveland police searched Dollree Mapp's home without a warrant, the Court barred illegally seized evidence in state courts.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks/mapp-v-ohio-podcast",
+    "fun_fact": "Mapp v. Ohio (1961) incorporated the exclusionary rule through the Fourteenth Amendment's Due Process Clause.",
+    "trap_notes": {
+      "default": "Mapp v. Ohio began with a warrantless police search in Cleveland, Ohio.",
+      "p2": "Chicago is in Illinois, not the Ohio city where Mapp v. Ohio began.",
+      "p3": "Detroit is in Michigan, not the origin of Mapp v. Ohio.",
+      "p4": "Philadelphia is in Pennsylvania, not the origin of Mapp v. Ohio."
+    }
+  },
+  {
+    "id": "civics-map-130",
+    "type": "map",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1819",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "label": "Baltimore, MD"
+    },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        {
+          "id": "p1",
+          "x": 296,
+          "y": 62,
+          "label": "Boston"
+        },
+        {
+          "id": "p2",
+          "x": 267,
+          "y": 90,
+          "label": "Baltimore"
+        },
+        {
+          "id": "p3",
+          "x": 280,
+          "y": 76,
+          "label": "New York City"
+        },
+        {
+          "id": "p4",
+          "x": 262,
+          "y": 102,
+          "label": "Richmond"
+        }
+      ]
+    },
+    "prompt": "Select the port city where Maryland's tax on a national bank branch sparked McCulloch v. Maryland.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "James McCulloch, head of the Baltimore branch of the Second Bank of the U.S., refused to pay Maryland's tax, leading to the 1819 ruling.",
+    "source_url": "https://www.archives.gov/milestone-documents/mcculloch-v-maryland",
+    "fun_fact": "Chief Justice John Marshall famously wrote in the decision that 'the power to tax involves the power to destroy.'",
+    "trap_notes": {
+      "default": "McCulloch v. Maryland involved the Baltimore branch of the national bank.",
+      "p1": "Boston is in Massachusetts, not the Maryland branch in the 1819 case.",
+      "p3": "New York City was not the site of Maryland's tax dispute.",
+      "p4": "Richmond is in Virginia, whereas the dispute involved a Maryland bank tax."
+    }
+  },
+  {
+    "id": "civics-cmp-101",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Legislative Branch",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "U.S. House",
+      "rightLabel": "U.S. Senate",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Originates all federal revenue bills",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Holds sole power to impeach officials",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Ratifies treaties by two-thirds vote",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Confirms Supreme Court nominees",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each constitutional power into the chamber of Congress that holds it.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The House originates revenue bills and impeaches; the Senate confirms nominees and ratifies treaties.",
+    "source_url": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "fun_fact": "Article I sets two-year terms for House members and staggered six-year terms for senators.",
+    "trap_notes": {
+      "default": "Revenue bills and impeachment start in the House; confirmations and treaties belong to the Senate."
+    }
+  },
+  {
+    "id": "civics-cmp-102",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Federal Powers",
+      "rightLabel": "State Powers",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Coining national currency",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Declaring war and raising armies",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Issuing driver's and marriage licenses",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Establishing local public school districts",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each authority as an enumerated federal power or a reserved state power.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Article I grants currency and war powers to Congress, while the Tenth Amendment reserves licensing and schools to states.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-x",
+    "fun_fact": "Concurrent powers, such as levying taxes and building roads, are shared by both federal and state governments.",
+    "trap_notes": {
+      "default": "Currency and war are enumerated federal powers; licensing and public schools are reserved to states."
+    }
+  },
+  {
+    "id": "civics-cmp-103",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 51.4995,
+      "lng": -0.1248,
+      "label": "Westminster, London"
+    },
+    "compareSpec": {
+      "leftLabel": "Presidential System",
+      "rightLabel": "Parliamentary System",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Executive elected separately from legislature",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Fixed-term head of government",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Prime minister drawn from majority party",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Executive removable by no-confidence vote",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Match each institutional feature to a presidential or parliamentary system.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Presidential systems separate executive and legislative elections; parliamentary systems fuse them via majority confidence.",
+    "source_url": "https://www.britannica.com/topic/parliamentary-system",
+    "fun_fact": "In parliamentary systems, the head of state (a monarch or president) is often separate from the prime minister.",
+    "trap_notes": {
+      "default": "Presidential executives serve fixed terms separately; prime ministers depend on legislative confidence."
+    }
+  },
+  {
+    "id": "civics-cmp-104",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch & Law",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "compareSpec": {
+      "leftLabel": "Criminal Law",
+      "rightLabel": "Civil Law",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Prosecuted by the government",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Requires proof beyond a reasonable doubt",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Resolves private disputes over contracts",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Uses preponderance of the evidence standard",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each legal feature into criminal law or civil law.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Criminal cases are brought by prosecutors with a high burden of proof; civil suits resolve private disputes for damages.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/types-cases",
+    "fun_fact": "The same event can trigger both a criminal prosecution and a separate civil lawsuit.",
+    "trap_notes": {
+      "default": "The state prosecutes criminal cases beyond reasonable doubt; civil cases resolve private disputes."
+    }
+  },
+  {
+    "id": "civics-cmp-105",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1781–1789",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Independence Hall, PA"
+    },
+    "compareSpec": {
+      "leftLabel": "Articles of Confederation",
+      "rightLabel": "U.S. Constitution",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Unicameral Congress with one vote per state",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "No national executive or court system",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Power to levy federal taxes directly",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Bicameral legislature and supreme court",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each governmental structure into the Articles of Confederation or the U.S. Constitution.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Articles created a weak unicameral Congress with no taxing power; the Constitution built a three-branch federal system.",
+    "source_url": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "fun_fact": "Amending the Articles of Confederation required unanimous approval from all 13 states.",
+    "trap_notes": {
+      "default": "The Articles lacked an executive, courts, and taxing power; the Constitution established all three."
+    }
+  },
+  {
+    "id": "civics-cmp-106",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–1788",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York Ratification"
+    },
+    "compareSpec": {
+      "leftLabel": "Federalists",
+      "rightLabel": "Anti-Federalists",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Favored a strong central government",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Published The Federalist Papers",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Demanded a written Bill of Rights",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Feared federal power would crush states",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Match each constitutional ratification position to the Federalists or Anti-Federalists.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Federalists defended the new Constitution's strong union; Anti-Federalists demanded a Bill of Rights to protect states and citizens.",
+    "source_url": "https://guides.loc.gov/federalist-papers/full-text",
+    "fun_fact": "Hamilton, Madison, and Jay wrote 85 Federalist essays under the pen name Publius.",
+    "trap_notes": {
+      "default": "Federalists backed a strong union; Anti-Federalists feared central tyranny and sought a Bill of Rights."
+    }
+  },
+  {
+    "id": "civics-cmp-107",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "compareSpec": {
+      "leftLabel": "Democracy",
+      "rightLabel": "Autocracy",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Competitive multiparty elections",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Rulers accountable to independent courts",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Power concentrated in a single ruler",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Opposition parties banned or silenced",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each political characteristic under democracy or autocracy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Democracies rely on free elections and rule of law; autocracies concentrate unchecked power in one ruler.",
+    "source_url": "https://www.britannica.com/topic/autocracy",
+    "fun_fact": "Modern political scientists often measure democracies on a spectrum based on press freedom and judicial independence.",
+    "trap_notes": {
+      "default": "Democracies feature competitive elections and judicial checks; autocracies centralize unchecked power."
+    }
+  },
+  {
+    "id": "civics-cmp-108",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "compareSpec": {
+      "leftLabel": "Unitary System",
+      "rightLabel": "Federal System",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Central government holds all sovereignty",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Local units exist at national discretion",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Constitution divides power across levels",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "States retain independent protected powers",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each constitutional arrangement into a unitary or federal system.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Unitary states centralize sovereignty in the national government; federal systems divide authority constitutionally.",
+    "source_url": "https://www.britannica.com/topic/federalism",
+    "fun_fact": "Most countries in the world, including France and Japan, use unitary systems rather than federalism.",
+    "trap_notes": {
+      "default": "Unitary governments centralize sovereignty; federal systems constitutionally divide power with states."
+    }
+  },
+  {
+    "id": "civics-cmp-109",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Elections & Voting",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 43.2081,
+      "lng": -71.5376,
+      "label": "Concord, NH"
+    },
+    "compareSpec": {
+      "leftLabel": "Primary Election",
+      "rightLabel": "General Election",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Selects a party's official nominee",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Often features intra-party competition",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Decides who takes public office",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Pits nominees from rival parties together",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each electoral feature into a primary election or a general election.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Primaries choose each party's nominee; general elections decide which party's candidate wins the office.",
+    "source_url": "https://www.usa.gov/primaries-caucuses",
+    "fun_fact": "Federal general elections in the U.S. take place on the Tuesday after the first Monday in November.",
+    "trap_notes": {
+      "default": "Primaries narrow candidates to party nominees; general elections award the public office."
+    }
+  },
+  {
+    "id": "civics-cmp-110",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Elections & Voting",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 40.2732,
+      "lng": -76.8867,
+      "label": "Harrisburg, PA"
+    },
+    "compareSpec": {
+      "leftLabel": "Open Primary",
+      "rightLabel": "Closed Primary",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Independents may pick a party ballot",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "No prior party registration required",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Only registered party members may vote",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Prevents crossover voting by rivals",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each rule as belonging to an open primary or a closed primary.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Open primaries let any registered voter choose a party ballot; closed primaries restrict voting to registered party members.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/state-primary-election-types",
+    "fun_fact": "Even in open primaries, voters can only cast a ballot in one party's primary per election.",
+    "trap_notes": {
+      "default": "Open primaries allow independents to choose a ballot; closed primaries require party registration."
+    }
+  },
+  {
+    "id": "civics-cmp-111",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch & Law",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "compareSpec": {
+      "leftLabel": "Original Jurisdiction",
+      "rightLabel": "Appellate Jurisdiction",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Court hears a case for the first time",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Includes disputes between two U.S. states",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Reviews a lower court's legal ruling",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Accounts for most Supreme Court cases",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each court authority into original jurisdiction or appellate jurisdiction.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Original jurisdiction covers cases tried first, like state-vs-state disputes; appellate jurisdiction reviews lower rulings.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+    "fun_fact": "Article III gives the Supreme Court original jurisdiction over cases involving ambassadors and states.",
+    "trap_notes": {
+      "default": "Original jurisdiction hears trials first; appellate jurisdiction reviews prior court decisions."
+    }
+  },
+  {
+    "id": "civics-cmp-112",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch & Law",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "compareSpec": {
+      "leftLabel": "Judicial Activism",
+      "rightLabel": "Judicial Restraint",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Broadly interprets constitutional rights",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Willingly overturns legislative statutes",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Defers to elected branches on policy",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Stresses strict adherence to precedent",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Match each judicial philosophy description to activism or restraint.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Judicial activism readily strikes down laws to protect rights; judicial restraint defers to legislatures and precedent.",
+    "source_url": "https://www.britannica.com/topic/judicial-activism",
+    "fun_fact": "Both liberal and conservative Supreme Court majorities have practiced judicial activism in different eras.",
+    "trap_notes": {
+      "default": "Activist judges readily strike down laws; restrained judges defer to lawmakers and precedent."
+    }
+  },
+  {
+    "id": "civics-cmp-113",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Civil Liberties",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "compareSpec": {
+      "leftLabel": "Establishment Clause",
+      "rightLabel": "Free Exercise Clause",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Bans a national official religion",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Bars state-led prayer in public schools",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Protects private worship practices",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Guards conscientious religious observance",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each First Amendment protection into the Establishment Clause or Free Exercise Clause.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Establishment Clause stops government from endorsing religion; the Free Exercise Clause protects individuals' religious practice.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-i",
+    "fun_fact": "Engel v. Vitale (1962) struck down state-written school prayer under the Establishment Clause.",
+    "trap_notes": {
+      "default": "Establishment limits government endorsement of religion; Free Exercise protects personal religious practice."
+    }
+  },
+  {
+    "id": "civics-cmp-114",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Civil Liberties",
+    "era": "1868–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "compareSpec": {
+      "leftLabel": "Procedural Due Process",
+      "rightLabel": "Substantive Due Process",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Requires fair notice and a court hearing",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Governs how laws are enforced fairly",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Protects fundamental unenumerated rights",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Limits what laws can regulate privately",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each constitutional safeguard as procedural or substantive due process.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Procedural due process ensures fair legal steps; substantive due process shields fundamental rights from government intrusion.",
+    "source_url": "https://www.law.cornell.edu/wex/due_process",
+    "fun_fact": "Both the Fifth and Fourteenth Amendments contain Due Process Clauses limiting federal and state actions.",
+    "trap_notes": {
+      "default": "Procedural due process governs fair steps and hearings; substantive due process protects fundamental rights."
+    }
+  },
+  {
+    "id": "civics-cmp-115",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Direct Democracy",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "label": "Sacramento, CA"
+    },
+    "compareSpec": {
+      "leftLabel": "Initiative",
+      "rightLabel": "Referendum",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Citizens gather signatures to propose laws",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Bypasses legislature to reach the ballot",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Voters approve or reject a passed statute",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Often referred to voters by lawmakers",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each direct democracy tool into an initiative or a referendum.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Initiatives let citizens petition to propose new laws; referendums let voters approve or reject legislative measures.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes",
+    "fun_fact": "Progressive Era reformers popularized initiatives and referendums in western states after 1898.",
+    "trap_notes": {
+      "default": "Initiatives start with citizen petitions; referendums put legislative measures before voters."
+    }
+  },
+  {
+    "id": "civics-cmp-116",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "compareSpec": {
+      "leftLabel": "Expressed Powers",
+      "rightLabel": "Implied Powers",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Written explicitly in Article I, Section 8",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Includes establishing post offices",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Derived from the Necessary and Proper Clause",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Includes chartering a national bank",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each congressional power as expressed or implied.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Expressed powers are stated directly in the Constitution; implied powers flow from the Necessary and Proper Clause.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i",
+    "fun_fact": "The Necessary and Proper Clause is often nicknamed the Elastic Clause because it stretches federal authority.",
+    "trap_notes": {
+      "default": "Expressed powers are explicitly listed in Article I; implied powers rely on the Necessary and Proper Clause."
+    }
+  },
+  {
+    "id": "civics-cmp-117",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Public Policy & Budget",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Mandatory Spending",
+      "rightLabel": "Discretionary Spending",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Paid automatically under existing law",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Includes Social Security and Medicare",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Set annually through appropriations bills",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Includes most defense and education funds",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each federal budget category into mandatory or discretionary spending.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mandatory spending funds entitlement programs under standing law; discretionary spending is debated in annual appropriations.",
+    "source_url": "https://www.cbo.gov/topics/budget",
+    "fun_fact": "Mandatory spending plus net interest now makes up roughly two-thirds of annual federal outlays.",
+    "trap_notes": {
+      "default": "Mandatory spending runs on standing entitlement formulas; discretionary spending requires annual appropriations."
+    }
+  },
+  {
+    "id": "civics-cmp-118",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Economic Governance",
+    "era": "1913–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Federal Reserve, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Fiscal Policy",
+      "rightLabel": "Monetary Policy",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Enacted by Congress and the President",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Uses federal tax rates and spending",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Managed by the Federal Reserve System",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Adjusts interest rates and money supply",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Assign each government economic tool and institution to fiscal or monetary policy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Elected branches set fiscal policy through taxing and spending; the independent Federal Reserve conducts monetary policy.",
+    "source_url": "https://www.federalreserve.gov/faqs/money_12855.htm",
+    "fun_fact": "Congress created the Federal Reserve in 1913 to stabilize banking and keep monetary decisions insulated from politics.",
+    "trap_notes": {
+      "default": "Congress and the President control taxes and spending (fiscal); the Fed controls interest rates (monetary)."
+    }
+  },
+  {
+    "id": "civics-cmp-119",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Campaign Finance",
+    "era": "2010–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9022,
+      "lng": -77.0297,
+      "label": "Federal Election Commission"
+    },
+    "compareSpec": {
+      "leftLabel": "Candidate Campaigns",
+      "rightLabel": "Super PACs",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Subject to strict FEC donation caps",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Directs strategy with the candidate",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "May raise unlimited independent funds",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Barred from coordinating with candidates",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each federal campaign finance rule into candidate campaigns or Super PACs.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Candidate committees face strict contribution limits; Super PACs raise unlimited sums but cannot coordinate directly.",
+    "source_url": "https://www.fec.gov/help-candidates-and-committees/taking-receipts-pac/who-can-and-cant-contribute-nonconnected-pac/",
+    "fun_fact": "Super PACs emerged in 2010 after Citizens United v. FEC and SpeechNow.org v. FEC.",
+    "trap_notes": {
+      "default": "Candidate campaigns face donation caps; Super PACs raise unlimited money but cannot coordinate."
+    }
+  },
+  {
+    "id": "civics-cmp-120",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Elections & Voting",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Electoral College",
+      "rightLabel": "National Popular Vote",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Requires 270 state-allocated votes to win",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Rewards winning swing states by plurality",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Counts every individual ballot equally",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Used in U.S. statewide governor races",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each electoral characteristic into the Electoral College or a national popular vote.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Electoral College aggregates 538 state electors; a popular vote totals individual ballots nationwide.",
+    "source_url": "https://www.archives.gov/electoral-college/about",
+    "fun_fact": "Five U.S. presidents won the Electoral College without winning a plurality of the national popular vote.",
+    "trap_notes": {
+      "default": "The Electoral College uses state-by-state electors; a popular vote totals individual ballots directly."
+    }
+  },
+  {
+    "id": "civics-cmp-121",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Executive & Legislative Branches",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Executive Order",
+      "rightLabel": "Congressional Statute",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Issued unilaterally by the President",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Easily revoked by the next President",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Passed by both House and Senate",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Requires new legislation to repeal",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each lawmaking feature as an executive order or a congressional statute.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Executive orders direct federal agencies unilaterally and can be reversed by successors; statutes require bicameral passage.",
+    "source_url": "https://www.americanbar.org/groups/public_education/publications/teaching-legal-docs/what-is-an-executive-order-/",
+    "fun_fact": "Congress can also override an executive order by passing a new statute, subject to presidential veto.",
+    "trap_notes": {
+      "default": "Presidents issue and revoke executive orders alone; statutes require both chambers of Congress."
+    }
+  },
+  {
+    "id": "civics-cmp-122",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Foreign Policy",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Treaty",
+      "rightLabel": "Executive Agreement",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Needs two-thirds Senate ratification",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Binds future U.S. administrations",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Made by President without Senate vote",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Often used for routine trade or defense",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each foreign policy instrument into a formal treaty or an executive agreement.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Treaties require a two-thirds Senate vote under Article II; executive agreements are presidential pacts without Senate ratification.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/treaties.htm",
+    "fun_fact": "Since World War II, U.S. presidents have signed far more executive agreements than formal treaties.",
+    "trap_notes": {
+      "default": "Treaties require two-thirds Senate approval; executive agreements do not go through Senate ratification."
+    }
+  },
+  {
+    "id": "civics-cmp-123",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Legislative Branch",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "compareSpec": {
+      "leftLabel": "Standing Committee",
+      "rightLabel": "Conference Committee",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Permanent panel in one chamber",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Holds hearings on newly introduced bills",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Temporary joint House-Senate panel",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Reconciles differing versions of a bill",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Match each congressional committee role to a standing committee or conference committee.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Standing committees are permanent policy panels within one chamber; conference committees resolve House-Senate bill differences.",
+    "source_url": "https://www.congress.gov/committees",
+    "fun_fact": "Both chambers must pass the exact same text of a conference report before sending it to the President.",
+    "trap_notes": {
+      "default": "Standing committees are permanent single-chamber panels; conference committees temporarily reconcile bills."
+    }
+  },
+  {
+    "id": "civics-cmp-124",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Legislative Branch",
+    "era": "1917–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Senate"
+    },
+    "compareSpec": {
+      "leftLabel": "Filibuster",
+      "rightLabel": "Cloture",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Extends debate to block a Senate vote",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Used by the Senate minority to stall",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Requires 60 senators to end debate",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Moves a stalled bill toward final vote",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each Senate floor procedure into filibuster or cloture.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A filibuster prolongs debate to delay a vote; cloture is the 60-vote motion that ends debate.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm",
+    "fun_fact": "The House of Representatives has strict time limits on debate and does not allow filibusters.",
+    "trap_notes": {
+      "default": "A filibuster delays a Senate vote through debate; cloture cuts off debate with 60 votes."
+    }
+  },
+  {
+    "id": "civics-cmp-125",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Elections & Voting",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Reapportionment",
+      "rightLabel": "Gerrymandering",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Reallocates 435 House seats after census",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Shifts seats among states by population",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Draws district lines for partisan gain",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Uses packing and cracking strategies",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each redistricting concept under reapportionment or gerrymandering.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Reapportionment redistributes House seats among states every 10 years; gerrymandering manipulates district lines for advantage.",
+    "source_url": "https://www.census.gov/topics/public-sector/congressional-apportionment.html",
+    "fun_fact": "The term gerrymander was coined in 1812 after a salamander-shaped Massachusetts district under Governor Elbridge Gerry.",
+    "trap_notes": {
+      "default": "Reapportionment assigns House seat counts to states; gerrymandering draws biased district maps."
+    }
+  },
+  {
+    "id": "civics-cmp-126",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Citizenship & Civic Participation",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "United States"
+    },
+    "compareSpec": {
+      "leftLabel": "Legal Duties",
+      "rightLabel": "Civic Responsibilities",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Serving on a jury when summoned",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Paying federal and state income taxes",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Voting in local and national elections",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Volunteering in community organizations",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each citizen action into a mandatory legal duty or a voluntary civic responsibility.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Legal duties like jury service and taxes are required by law; civic responsibilities like voting and volunteering are voluntary.",
+    "source_url": "https://www.uscis.gov/citizenship/learn-about-citizenship/should-i-consider-us-citizenship",
+    "fun_fact": "Unlike the U.S., countries such as Australia and Belgium make voting a legal duty with fines.",
+    "trap_notes": {
+      "default": "Jury service and paying taxes are required by law; voting and volunteering are voluntary civic duties."
+    }
+  },
+  {
+    "id": "civics-cmp-127",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Citizenship & Civic Participation",
+    "era": "1868–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Jus Soli",
+      "rightLabel": "Jus Sanguinis",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Grants citizenship by place of birth",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Enshrined in the 14th Amendment",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Grants citizenship through parents",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Covers children born abroad to citizens",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Match each birthright citizenship rule to jus soli or jus sanguinis.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Jus soli confers citizenship by birth on national soil; jus sanguinis confers citizenship by parentage.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xiv",
+    "fun_fact": "United States v. Wong Kim Ark (1898) affirmed that the 14th Amendment protects jus soli citizenship.",
+    "trap_notes": {
+      "default": "Jus soli ('right of soil') depends on birthplace; jus sanguinis ('right of blood') depends on parents."
+    }
+  },
+  {
+    "id": "civics-cmp-128",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch & Law",
+    "era": "1791–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Federal Courthouse"
+    },
+    "compareSpec": {
+      "leftLabel": "Grand Jury",
+      "rightLabel": "Petit (Trial) Jury",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Decides if probable cause supports charges",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Issues a formal criminal indictment",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Hears evidence during a public trial",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Delivers a verdict of guilty or not",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each courtroom role into a grand jury or a petit (trial) jury.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Grand juries review evidence privately to issue indictments; petit juries hear trials and reach verdicts.",
+    "source_url": "https://www.uscourts.gov/services-forms/jury-service/types-juries",
+    "fun_fact": "The Fifth Amendment guarantees federal grand jury indictment for capital or infamous crimes.",
+    "trap_notes": {
+      "default": "Grand juries decide whether to indict; petit juries hear the trial and issue a verdict."
+    }
+  },
+  {
+    "id": "civics-cmp-129",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Political Parties & Interest Groups",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Interest Group",
+      "rightLabel": "Political Party",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Focuses on a narrow set of policy issues",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Lobbies lawmakers without running nominees",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Nominates candidates to run on ballots",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Builds broad coalitions to win office",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Classify each political organization trait as an interest group or a political party.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Interest groups influence policy from outside the ballot; political parties nominate candidates to win governing control.",
+    "source_url": "https://www.britannica.com/topic/interest-group",
+    "fun_fact": "Interest groups often form PACs to donate to candidates across parties who support their specific issue.",
+    "trap_notes": {
+      "default": "Interest groups lobby on specific issues; political parties nominate candidates to win elections."
+    }
+  },
+  {
+    "id": "civics-cmp-130",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.5014,
+      "lng": -0.1419,
+      "label": "London, United Kingdom"
+    },
+    "compareSpec": {
+      "leftLabel": "Constitutional Monarchy",
+      "rightLabel": "Absolute Monarchy",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Monarch's power is limited by a charter",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Elected parliament passes national laws",
+          "bucket": "left"
+        },
+        {
+          "id": "c3",
+          "text": "Hereditary ruler holds supreme authority",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "No binding legislature checks the crown",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each governing feature into a constitutional monarchy or an absolute monarchy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Constitutional monarchs serve mostly ceremonial roles under elected parliaments; absolute monarchs hold unchecked governing power.",
+    "source_url": "https://www.britannica.com/topic/monarchy",
+    "fun_fact": "Japan, Sweden, and the United Kingdom are modern constitutional monarchies with elected parliaments.",
+    "trap_notes": {
+      "default": "Constitutional monarchs are bound by law and parliament; absolute monarchs rule without legislative checks."
+    }
+  }
+]

@@ -1,0 +1,1727 @@
+[
+  {
+    "id": "econ-map-201",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 158, "y": 54, "label": "London" },
+        { "id": "b", "x": 102, "y": 68, "label": "New York" },
+        { "id": "c", "x": 178, "y": 64, "label": "Frankfurt" },
+        { "id": "d", "x": 324, "y": 66, "label": "Tokyo" }
+      ]
+    },
+    "prompt": "Select the British financial capital that handles the largest share of global foreign-exchange trading.",
+    "options": [],
+    "answer": "a",
+    "explanation": "London sits between Asian and American time zones, making it the world's top foreign-exchange trading center.",
+    "source_url": "https://www.bis.org/statistics/rpfx22.htm",
+    "trap_notes": {
+      "b": "New York leads global equity capitalization, but London leads daily FX turnover.",
+      "c": "Frankfurt hosts the European Central Bank, not the top global FX market.",
+      "d": "Tokyo anchors yen trading in Asia, ranking behind London in total FX volume.",
+      "default": "London's time-zone bridge makes it the largest global foreign-exchange hub."
+    }
+  },
+  {
+    "id": "econ-map-202",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 47.3769, "lng": 8.5417, "label": "Zurich, Switzerland" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 158, "y": 54, "label": "London" },
+        { "id": "b", "x": 178, "y": 66, "label": "Zurich" },
+        { "id": "c", "x": 296, "y": 92, "label": "Hong Kong" },
+        { "id": "d", "x": 284, "y": 126, "label": "Singapore" }
+      ]
+    },
+    "prompt": "Select the Swiss financial hub famous for private wealth management and gold clearing.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Zurich is Switzerland's largest financial center, renowned for private banking, insurance, and bullion clearing.",
+    "source_url": "https://www.britannica.com/place/Zurich",
+    "trap_notes": {
+      "a": "London is the British capital across the English Channel, not in Switzerland.",
+      "c": "Hong Kong is an East Asian financial hub on China's southern coast.",
+      "d": "Singapore is a Southeast Asian island city-state at the tip of Malaya.",
+      "default": "Zurich sits in northern Switzerland at the heart of European private banking."
+    }
+  },
+  {
+    "id": "econ-map-203",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -23.5505, "lng": -46.6333, "label": "Sao Paulo, Brazil" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 76, "y": 100, "label": "Mexico City" },
+        { "id": "b", "x": 86, "y": 146, "label": "Lima" },
+        { "id": "c", "x": 120, "y": 158, "label": "Sao Paulo" },
+        { "id": "d", "x": 106, "y": 174, "label": "Buenos Aires" }
+      ]
+    },
+    "prompt": "Select the Brazilian metropolis that serves as South America's largest industrial and stock-market hub.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Sao Paulo hosts Brazil's B3 stock exchange and drives South America's largest manufacturing economy.",
+    "source_url": "https://www.britannica.com/place/Sao-Paulo-Brazil",
+    "trap_notes": {
+      "a": "Mexico City is in North America, well north of Brazil.",
+      "b": "Lima is Peru's capital on the Pacific coast, not Brazil's Atlantic southeast.",
+      "d": "Buenos Aires is Argentina's capital on the Rio de la Plata.",
+      "default": "Sao Paulo lies in southeastern Brazil and anchors South American finance."
+    }
+  },
+  {
+    "id": "econ-map-204",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic Development",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 6.5244, "lng": 3.3792, "label": "Lagos, Nigeria" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 208, "y": 92, "label": "Cairo" },
+        { "id": "b", "x": 220, "y": 124, "label": "Nairobi" },
+        { "id": "c", "x": 198, "y": 176, "label": "Johannesburg" },
+        { "id": "d", "x": 172, "y": 116, "label": "Lagos" }
+      ]
+    },
+    "prompt": "Select the Nigerian coastal megacity that serves as West Africa's largest port and fintech hub.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Lagos sits on the Gulf of Guinea and powers West African shipping, banking, and digital startups.",
+    "source_url": "https://www.worldbank.org/en/country/nigeria/overview",
+    "trap_notes": {
+      "a": "Cairo sits on the Nile Delta in North Africa, not the Gulf of Guinea.",
+      "b": "Nairobi is an inland East African hub in Kenya.",
+      "c": "Johannesburg is in inland South Africa, far from West Africa's coast.",
+      "default": "Lagos is located on Nigeria's Atlantic coast in West Africa."
+    }
+  },
+  {
+    "id": "econ-map-205",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -33.8688, "lng": 151.2093, "label": "Sydney, Australia" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 324, "y": 176, "label": "Sydney" },
+        { "id": "b", "x": 290, "y": 172, "label": "Perth" },
+        { "id": "c", "x": 284, "y": 126, "label": "Singapore" },
+        { "id": "d", "x": 324, "y": 66, "label": "Tokyo" }
+      ]
+    },
+    "prompt": "Select the southeastern Australian city that hosts the nation's main stock exchange and reserve bank.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Sydney is Australia's financial capital, housing the ASX exchange and the Reserve Bank of Australia.",
+    "source_url": "https://www.rba.gov.au/",
+    "trap_notes": {
+      "b": "Perth sits on Australia's western coast and focuses on mining exports.",
+      "c": "Singapore is a Southeast Asian city-state northwest of Australia.",
+      "d": "Tokyo is Japan's capital in the northern hemisphere.",
+      "default": "Sydney lies on Australia's southeastern Pacific coast."
+    }
+  },
+  {
+    "id": "econ-map-206",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 24.7136, "lng": 46.6753, "label": "Riyadh, Saudi Arabia" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 198, "y": 78, "label": "Istanbul" },
+        { "id": "b", "x": 222, "y": 96, "label": "Riyadh" },
+        { "id": "c", "x": 244, "y": 104, "label": "Mumbai" },
+        { "id": "d", "x": 106, "y": 72, "label": "Houston" }
+      ]
+    },
+    "prompt": "Select the capital of the world's largest crude-oil exporter and a founding OPEC member.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Riyadh is Saudi Arabia's capital, steering OPEC production decisions and state oil revenues.",
+    "source_url": "https://www.opec.org/opec_web/en/about_us/169.htm",
+    "trap_notes": {
+      "a": "Istanbul is Turkey's commercial hub on the Bosporus, not an OPEC oil capital.",
+      "c": "Mumbai is India's financial center and a major net oil importer.",
+      "d": "Houston is a U.S. refining hub, not the capital of an OPEC state.",
+      "default": "Riyadh sits in central Saudi Arabia on the Arabian Peninsula."
+    }
+  },
+  {
+    "id": "econ-map-207",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -34.6037, "lng": -58.3816, "label": "Buenos Aires, Argentina" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 92, "y": 166, "label": "Santiago" },
+        { "id": "b", "x": 120, "y": 158, "label": "Sao Paulo" },
+        { "id": "c", "x": 106, "y": 174, "label": "Buenos Aires" },
+        { "id": "d", "x": 96, "y": 122, "label": "Bogota" }
+      ]
+    },
+    "prompt": "Select the Rio de la Plata port that exports Pampas grain and beef to global markets.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Buenos Aires sits on the Rio de la Plata estuary, shipping Argentina's agricultural exports worldwide.",
+    "source_url": "https://www.britannica.com/place/Buenos-Aires",
+    "trap_notes": {
+      "a": "Santiago lies west of the Andes in Chile, not on the Atlantic estuary.",
+      "b": "Sao Paulo is an inland Brazilian metropolis north of Argentina.",
+      "d": "Bogota sits high in the Colombian Andes in northern South America.",
+      "default": "Buenos Aires anchors Argentina's Atlantic agricultural trade."
+    }
+  },
+  {
+    "id": "econ-map-208",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic Development",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -1.2921, "lng": 36.8219, "label": "Nairobi, Kenya" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 172, "y": 116, "label": "Lagos" },
+        { "id": "b", "x": 208, "y": 92, "label": "Cairo" },
+        { "id": "c", "x": 198, "y": 176, "label": "Johannesburg" },
+        { "id": "d", "x": 220, "y": 124, "label": "Nairobi" }
+      ]
+    },
+    "prompt": "Select the Kenyan capital that pioneered mobile-money banking across East Africa.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Nairobi launched M-Pesa in 2007, expanding financial inclusion to millions without traditional bank accounts.",
+    "source_url": "https://www.worldbank.org/en/country/kenya/overview",
+    "trap_notes": {
+      "a": "Lagos is on Nigeria's West African coast, not in East Africa.",
+      "b": "Cairo sits at the northern end of the Nile in Egypt.",
+      "c": "Johannesburg is in southern Africa, well south of Kenya.",
+      "default": "Nairobi is Kenya's capital in East Africa."
+    }
+  },
+  {
+    "id": "econ-map-209",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1652-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -33.9249, "lng": 18.4241, "label": "Cape Town, South Africa" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "a", "x": 194, "y": 180, "label": "Cape Town" },
+        { "id": "b", "x": 208, "y": 92, "label": "Port Said" },
+        { "id": "c", "x": 84, "y": 114, "label": "Panama City" },
+        { "id": "d", "x": 284, "y": 126, "label": "Singapore" }
+      ]
+    },
+    "prompt": "Select the southern African port founded as a Dutch supply station for Europe-to-Asia ships.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Cape Town was built in 1652 near the Cape of Good Hope to resupply ships sailing between Europe and Asia.",
+    "source_url": "https://www.britannica.com/place/Cape-Town",
+    "trap_notes": {
+      "b": "Port Said sits at the Mediterranean end of Egypt's Suez Canal.",
+      "c": "Panama City guards the Pacific entrance to the Panama Canal.",
+      "d": "Singapore sits in Southeast Asia along the Strait of Malacca.",
+      "default": "Cape Town sits near Africa's southern tip where Atlantic and Indian trade meet."
+    }
+  },
+  {
+    "id": "econ-map-210",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1300-1600",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 44.4056, "lng": 8.9463, "label": "Genoa, Italy" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 146, "y": 64, "label": "Venice" },
+        { "id": "b", "x": 122, "y": 66, "label": "Genoa" },
+        { "id": "c", "x": 196, "y": 100, "label": "Athens" },
+        { "id": "d", "x": 250, "y": 156, "label": "Alexandria" }
+      ]
+    },
+    "prompt": "Select the Ligurian maritime republic that rivaled Venice in medieval Mediterranean banking and shipping.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Genoa financed Spanish and Mediterranean trade through early public banks such as the Bank of Saint George.",
+    "source_url": "https://www.britannica.com/place/Genoa-Italy",
+    "trap_notes": {
+      "a": "Venice sits on the northeastern Adriatic coast, opposite Genoa's Ligurian coast.",
+      "c": "Athens lies in Greece on the Aegean Sea, not northern Italy.",
+      "d": "Alexandria sits on Egypt's Nile Delta across the Mediterranean.",
+      "default": "Genoa is located on northwestern Italy's Ligurian Sea coast."
+    }
+  },
+  {
+    "id": "econ-map-211",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Money & Banking",
+    "era": "1252-1500",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.7696, "lng": 11.2558, "label": "Florence, Italy" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 40, "y": 86, "label": "Madrid" },
+        { "id": "b", "x": 92, "y": 68, "label": "Marseille" },
+        { "id": "c", "x": 134, "y": 76, "label": "Florence" },
+        { "id": "d", "x": 242, "y": 56, "label": "Istanbul" }
+      ]
+    },
+    "prompt": "Select the Tuscan city-state whose gold florin and Medici banks standardized Renaissance credit.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Florence minted the reliable gold florin in 1252 and pioneered double-entry bookkeeping and branch banking.",
+    "source_url": "https://www.britannica.com/place/Florence",
+    "trap_notes": {
+      "a": "Madrid sits in central Spain and was not a Renaissance banking center.",
+      "b": "Marseille is a French port west of Italy's Tuscan region.",
+      "d": "Istanbul lies on the Bosporus Strait between Europe and Asia.",
+      "default": "Florence sits in Tuscany in north-central Italy."
+    }
+  },
+  {
+    "id": "econ-map-212",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 43.2965, "lng": 5.3698, "label": "Marseille, France" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 68, "y": 88, "label": "Barcelona" },
+        { "id": "b", "x": 142, "y": 88, "label": "Rome" },
+        { "id": "c", "x": 196, "y": 100, "label": "Piraeus" },
+        { "id": "d", "x": 94, "y": 68, "label": "Marseille" }
+      ]
+    },
+    "prompt": "Select France's largest Mediterranean seaport, linking Rhone Valley industry to North Africa.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Marseille sits near the Rhone River mouth and serves as France's main Mediterranean container and energy port.",
+    "source_url": "https://www.britannica.com/place/Marseille",
+    "trap_notes": {
+      "a": "Barcelona is Spain's Catalan port southwest of Marseille.",
+      "b": "Rome is Italy's capital in central Italy, not on France's coast.",
+      "c": "Piraeus is Greece's main port near Athens on the Aegean Sea.",
+      "default": "Marseille sits on southern France's Mediterranean coast."
+    }
+  },
+  {
+    "id": "econ-map-213",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "Antiquity",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.2001, "lng": 29.9187, "label": "Alexandria, Egypt" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 246, "y": 154, "label": "Alexandria" },
+        { "id": "b", "x": 128, "y": 128, "label": "Carthage" },
+        { "id": "c", "x": 142, "y": 88, "label": "Rome" },
+        { "id": "d", "x": 288, "y": 134, "label": "Beirut" }
+      ]
+    },
+    "prompt": "Select the Nile Delta port that supplied ancient Rome with Egyptian grain and papyrus.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Alexandria connected Nile River barges to Mediterranean grain fleets that fed Rome's urban population.",
+    "source_url": "https://www.britannica.com/place/Alexandria-Egypt",
+    "trap_notes": {
+      "b": "Carthage stood in modern Tunisia, west of Egypt's Nile Delta.",
+      "c": "Rome was the imperial consumer on the Italian peninsula, not the Egyptian port.",
+      "d": "Beirut sits on the Levantine coast northeast of the Nile Delta.",
+      "default": "Alexandria sits on the western edge of Egypt's Nile Delta."
+    }
+  },
+  {
+    "id": "econ-map-214",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "Antiquity",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 36.8529, "lng": 10.3233, "label": "Carthage, Tunisia" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 24, "y": 104, "label": "Gibraltar" },
+        { "id": "b", "x": 128, "y": 128, "label": "Carthage" },
+        { "id": "c", "x": 246, "y": 154, "label": "Alexandria" },
+        { "id": "d", "x": 196, "y": 100, "label": "Athens" }
+      ]
+    },
+    "prompt": "Select the North African Phoenician port that dominated western Mediterranean silver and purple-dye trade.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Carthage controlled the central Mediterranean narrows near Sicily, linking Iberian silver mines to eastern markets.",
+    "source_url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia",
+    "trap_notes": {
+      "a": "Gibraltar marks the Atlantic entrance, far west of Tunisia's coast.",
+      "c": "Alexandria lies at the Nile Delta in the eastern Mediterranean.",
+      "d": "Athens sits in Greece on the Aegean Sea.",
+      "default": "Carthage stood in modern Tunisia across the strait from Sicily."
+    }
+  },
+  {
+    "id": "econ-map-215",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 33.8938, "lng": 35.5018, "label": "Beirut, Lebanon" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 242, "y": 56, "label": "Istanbul" },
+        { "id": "b", "x": 264, "y": 152, "label": "Port Said" },
+        { "id": "c", "x": 288, "y": 134, "label": "Beirut" },
+        { "id": "d", "x": 274, "y": 118, "label": "Nicosia" }
+      ]
+    },
+    "prompt": "Select the Levantine coastal capital that long served as an eastern Mediterranean banking and trade entrepot.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Beirut sits on the Levant coast and historically linked Arab Gulf capital with Mediterranean commerce.",
+    "source_url": "https://www.britannica.com/place/Beirut",
+    "trap_notes": {
+      "a": "Istanbul sits far to the north on Turkey's Bosporus Strait.",
+      "b": "Port Said lies at the northern mouth of Egypt's Suez Canal.",
+      "d": "Nicosia is the inland capital of the island of Cyprus.",
+      "default": "Beirut sits on Lebanon's eastern Mediterranean coast."
+    }
+  },
+  {
+    "id": "econ-map-216",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.3874, "lng": 2.1686, "label": "Barcelona, Spain" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 24, "y": 86, "label": "Lisbon" },
+        { "id": "b", "x": 94, "y": 68, "label": "Marseille" },
+        { "id": "c", "x": 142, "y": 88, "label": "Rome" },
+        { "id": "d", "x": 68, "y": 88, "label": "Barcelona" }
+      ]
+    },
+    "prompt": "Select the northeastern Spanish port that anchors Catalonia's manufacturing and container trade.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Barcelona is Spain's leading Mediterranean container port and a hub for automotive and textile exports.",
+    "source_url": "https://www.britannica.com/place/Barcelona",
+    "trap_notes": {
+      "a": "Lisbon is Portugal's capital on the Atlantic coast, not the Mediterranean.",
+      "b": "Marseille lies east across the border on France's Mediterranean coast.",
+      "c": "Rome is Italy's capital in central Italy.",
+      "default": "Barcelona sits on Spain's northeastern Mediterranean coast."
+    }
+  },
+  {
+    "id": "econ-map-217",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 46.4825, "lng": 30.7233, "label": "Odesa, Ukraine" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 268, "y": 26, "label": "Odesa" },
+        { "id": "b", "x": 242, "y": 56, "label": "Istanbul" },
+        { "id": "c", "x": 196, "y": 100, "label": "Piraeus" },
+        { "id": "d", "x": 246, "y": 154, "label": "Alexandria" }
+      ]
+    },
+    "prompt": "Select the Ukrainian Black Sea port that ships major volumes of wheat, corn, and sunflower oil.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Odesa sits on the northwestern Black Sea and exports Ukrainian grain bound for Africa, Asia, and Europe.",
+    "source_url": "https://www.britannica.com/place/Odesa-Ukraine",
+    "trap_notes": {
+      "b": "Istanbul guards the Turkish straits at the Black Sea's southern outlet.",
+      "c": "Piraeus is Greece's main seaport on the Aegean Sea.",
+      "d": "Alexandria is Egypt's port on the southeastern Mediterranean.",
+      "default": "Odesa lies on the northern Black Sea coast of Ukraine."
+    }
+  },
+  {
+    "id": "econ-map-218",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.7595, "lng": -5.834, "label": "Tangier, Morocco" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "a", "x": 84, "y": 124, "label": "Algiers" },
+        { "id": "b", "x": 26, "y": 120, "label": "Tangier" },
+        { "id": "c", "x": 128, "y": 128, "label": "Tunis" },
+        { "id": "d", "x": 158, "y": 148, "label": "Tripoli" }
+      ]
+    },
+    "prompt": "Select the Moroccan port on the Strait of Gibraltar that operates Africa's largest container terminal.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Tangier-Med sits where Atlantic and Mediterranean shipping lanes meet, handling African and European cargo.",
+    "source_url": "https://www.britannica.com/place/Tangier",
+    "trap_notes": {
+      "a": "Algiers sits farther east along Algeria's central Mediterranean coast.",
+      "c": "Tunis sits in the central Mediterranean across from Sicily.",
+      "d": "Tripoli is Libya's capital on the southern central Mediterranean.",
+      "default": "Tangier sits at Morocco's northern tip along the Strait of Gibraltar."
+    }
+  },
+  {
+    "id": "econ-map-219",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Money & Banking",
+    "era": "1848-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 286, "y": 68, "label": "New York" },
+        { "id": "b", "x": 186, "y": 156, "label": "New Orleans" },
+        { "id": "c", "x": 204, "y": 74, "label": "Chicago" },
+        { "id": "d", "x": 156, "y": 154, "label": "Houston" }
+      ]
+    },
+    "prompt": "Select the Lake Michigan hub where the Board of Trade and Mercantile Exchange price global grain futures.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Chicago's rail and Great Lakes links made it the center of U.S. agricultural futures and derivatives trading.",
+    "source_url": "https://www.federalreservehistory.org/essays/chicago-fed",
+    "trap_notes": {
+      "a": "New York leads in stock trading, whereas Chicago leads in agricultural futures.",
+      "b": "New Orleans is a Mississippi River export port, not the futures exchange hub.",
+      "d": "Houston anchors U.S. energy refining on the Gulf Coast.",
+      "default": "Chicago sits at the southern tip of Lake Michigan."
+    }
+  },
+  {
+    "id": "econ-map-220",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1849-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, California" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 52, "y": 46, "label": "Seattle" },
+        { "id": "b", "x": 118, "y": 86, "label": "Denver" },
+        { "id": "c", "x": 56, "y": 114, "label": "Los Angeles" },
+        { "id": "d", "x": 46, "y": 92, "label": "San Francisco" }
+      ]
+    },
+    "prompt": "Select the California bay port transformed by the 1849 Gold Rush and chosen for the 12th Federal Reserve Bank.",
+    "options": [],
+    "answer": "d",
+    "explanation": "San Francisco grew rapidly from Gold Rush banking and became the West Coast headquarters of the Federal Reserve.",
+    "source_url": "https://www.frbsf.org/about-us/our-history/",
+    "trap_notes": {
+      "a": "Seattle lies farther north on Puget Sound in Washington state.",
+      "b": "Denver is an inland Rocky Mountain city, not a Pacific port.",
+      "c": "Los Angeles lies farther south along the Southern California coast.",
+      "default": "San Francisco sits on northern California's deepwater bay."
+    }
+  },
+  {
+    "id": "econ-map-221",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Money & Banking",
+    "era": "1914-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.7767, "lng": -96.797, "label": "Dallas, Texas" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 152, "y": 134, "label": "Dallas" },
+        { "id": "b", "x": 188, "y": 102, "label": "St. Louis" },
+        { "id": "c", "x": 226, "y": 126, "label": "Atlanta" },
+        { "id": "d", "x": 184, "y": 58, "label": "Minneapolis" }
+      ]
+    },
+    "prompt": "Select the Texas metropolis that houses the 11th Federal Reserve District Bank.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Dallas hosts the Federal Reserve Bank of Dallas, monitoring energy, trade, and growth across Texas and nearby states.",
+    "source_url": "https://www.dallasfed.org/fed",
+    "trap_notes": {
+      "b": "St. Louis hosts the 8th Federal Reserve Bank on the Mississippi River.",
+      "c": "Atlanta hosts the 6th Federal Reserve Bank in the Southeast.",
+      "d": "Minneapolis hosts the 9th Federal Reserve Bank in the Upper Midwest.",
+      "default": "Dallas sits in northeastern Texas, inland from the Gulf Coast."
+    }
+  },
+  {
+    "id": "econ-map-222",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 43.6532, "lng": -79.3832, "label": "Toronto, Canada" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 220, "y": 74, "label": "Detroit" },
+        { "id": "b", "x": 248, "y": 64, "label": "Toronto" },
+        { "id": "c", "x": 304, "y": 48, "label": "Boston" },
+        { "id": "d", "x": 286, "y": 68, "label": "New York" }
+      ]
+    },
+    "prompt": "Select the Lake Ontario city that serves as Canada's banking and stock-exchange capital.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Toronto hosts the Toronto Stock Exchange and the headquarters of Canada's largest commercial banks.",
+    "source_url": "https://www.britannica.com/place/Toronto",
+    "trap_notes": {
+      "a": "Detroit lies across the border in Michigan on the Detroit River.",
+      "c": "Boston is a U.S. New England port on the Atlantic Ocean.",
+      "d": "New York is the financial capital of the United States, not Canada.",
+      "default": "Toronto sits on the northwestern shore of Lake Ontario."
+    }
+  },
+  {
+    "id": "econ-map-223",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic Geography",
+    "era": "1880-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 46.7867, "lng": -92.1005, "label": "Duluth, Minnesota" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 244, "y": 86, "label": "Pittsburgh" },
+        { "id": "b", "x": 234, "y": 80, "label": "Cleveland" },
+        { "id": "c", "x": 184, "y": 46, "label": "Duluth" },
+        { "id": "d", "x": 186, "y": 156, "label": "New Orleans" }
+      ]
+    },
+    "prompt": "Select the western Lake Superior port that ships Mesabi Range iron ore to Great Lakes steel mills.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Duluth connects Minnesota's iron mines to Great Lakes ore freighters bound for Gary, Cleveland, and Pittsburgh.",
+    "source_url": "https://www.britannica.com/place/Duluth-Minnesota",
+    "trap_notes": {
+      "a": "Pittsburgh was a steel-smelting center, not the Lake Superior ore-loading port.",
+      "b": "Cleveland sits on Lake Erie and received iron ore rather than mining it nearby.",
+      "d": "New Orleans sits at the mouth of the Mississippi River on the Gulf Coast.",
+      "default": "Duluth sits at the westernmost tip of Lake Superior."
+    }
+  },
+  {
+    "id": "econ-map-224",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle, Washington" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 46, "y": 92, "label": "San Francisco" },
+        { "id": "b", "x": 204, "y": 74, "label": "Chicago" },
+        { "id": "c", "x": 286, "y": 68, "label": "New York" },
+        { "id": "d", "x": 52, "y": 46, "label": "Seattle" }
+      ]
+    },
+    "prompt": "Select the Puget Sound port known for commercial aerospace exports and trans-Pacific container trade.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Seattle's deepwater harbor and shorter great-circle route to East Asia make it a major Pacific trade and tech hub.",
+    "source_url": "https://www.britannica.com/place/Seattle",
+    "trap_notes": {
+      "a": "San Francisco sits farther south in California, not on Puget Sound.",
+      "b": "Chicago is an inland Great Lakes rail hub, not a Pacific seaport.",
+      "c": "New York sits on the Atlantic Ocean, facing Europe rather than East Asia.",
+      "default": "Seattle lies on Puget Sound in northwestern Washington state."
+    }
+  },
+  {
+    "id": "econ-map-225",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1791-1836",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, Pennsylvania" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 278, "y": 76, "label": "Philadelphia" },
+        { "id": "b", "x": 272, "y": 86, "label": "Washington" },
+        { "id": "c", "x": 304, "y": 48, "label": "Boston" },
+        { "id": "d", "x": 244, "y": 86, "label": "Pittsburgh" }
+      ]
+    },
+    "prompt": "Select the Delaware River city that headquartered both the First and Second Banks of the United States.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Philadelphia was the early U.S. financial capital and housed both national banks chartered by Congress.",
+    "source_url": "https://www.federalreservehistory.org/essays/first-bank-of-the-us",
+    "trap_notes": {
+      "b": "Washington, D.C. became the political capital, while the national banks stood in Philadelphia.",
+      "c": "Boston was a major New England port, not the site of the First Bank of the U.S.",
+      "d": "Pittsburgh sits inland at the forks of the Ohio River in western Pennsylvania.",
+      "default": "Philadelphia sits on the Delaware River between New York and Washington."
+    }
+  },
+  {
+    "id": "econ-map-226",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1880-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 44.9778, "lng": -93.265, "label": "Minneapolis, Minnesota" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 188, "y": 102, "label": "St. Louis" },
+        { "id": "b", "x": 184, "y": 58, "label": "Minneapolis" },
+        { "id": "c", "x": 152, "y": 134, "label": "Dallas" },
+        { "id": "d", "x": 220, "y": 74, "label": "Detroit" }
+      ]
+    },
+    "prompt": "Select the Upper Mississippi River city where waterpower fueled giant flour mills and the 9th Fed bank.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Minneapolis harnessed St. Anthony Falls to mill Great Plains wheat and became the 9th Federal Reserve city.",
+    "source_url": "https://www.minneapolisfed.org/about-us/history",
+    "trap_notes": {
+      "a": "St. Louis sits farther south near the Missouri-Mississippi confluence.",
+      "c": "Dallas sits in Texas, far from the Upper Mississippi wheat belt.",
+      "d": "Detroit sits on the Great Lakes and specialized in automobiles.",
+      "default": "Minneapolis sits near the headwaters of the Upper Mississippi River."
+    }
+  },
+  {
+    "id": "econ-map-227",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Money & Banking",
+    "era": "1914-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 33.749, "lng": -84.388, "label": "Atlanta, Georgia" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "a", "x": 244, "y": 176, "label": "Miami" },
+        { "id": "b", "x": 186, "y": 156, "label": "New Orleans" },
+        { "id": "c", "x": 226, "y": 126, "label": "Atlanta" },
+        { "id": "d", "x": 272, "y": 86, "label": "Washington" }
+      ]
+    },
+    "prompt": "Select the Piedmont rail and air-hub city that houses the 6th Federal Reserve District Bank.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Atlanta grew as a Southeastern rail junction and hosts the 6th Federal Reserve Bank serving the Deep South.",
+    "source_url": "https://www.atlantafed.org/about/history",
+    "trap_notes": {
+      "a": "Miami sits at the southern tip of Florida, not in the Piedmont interior.",
+      "b": "New Orleans is a Gulf Coast port west of Georgia.",
+      "d": "Washington, D.C. hosts the Federal Reserve Board of Governors, not the 6th District Bank.",
+      "default": "Atlanta sits inland at the southern end of the Appalachian Piedmont."
+    }
+  },
+  {
+    "id": "econ-map-228",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 22.3193, "lng": 114.1694, "label": "Hong Kong" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 184, "y": 130, "label": "Shanghai" },
+        { "id": "b", "x": 162, "y": 68, "label": "Beijing" },
+        { "id": "c", "x": 196, "y": 168, "label": "Taipei" },
+        { "id": "d", "x": 148, "y": 190, "label": "Hong Kong" }
+      ]
+    },
+    "prompt": "Select the Pearl River Delta free port that links mainland China to global capital markets.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Hong Kong pairs zero-tariff port rules with a major stock exchange and a U.S.-dollar currency peg.",
+    "source_url": "https://www.britannica.com/place/Hong-Kong",
+    "trap_notes": {
+      "a": "Shanghai lies farther north at the mouth of the Yangtze River.",
+      "b": "Beijing is China's inland northern capital, not a southern Pearl River port.",
+      "c": "Taipei sits across the strait on the island of Taiwan.",
+      "default": "Hong Kong sits on China's southern coast at the Pearl River Delta."
+    }
+  },
+  {
+    "id": "econ-map-229",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1600-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.6937, "lng": 135.5023, "label": "Osaka, Japan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 276, "y": 102, "label": "Osaka" },
+        { "id": "b", "x": 298, "y": 86, "label": "Tokyo" },
+        { "id": "c", "x": 302, "y": 36, "label": "Sapporo" },
+        { "id": "d", "x": 214, "y": 80, "label": "Seoul" }
+      ]
+    },
+    "prompt": "Select the Japanese port city that pioneered organized rice futures trading during the Tokugawa era.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Osaka's Dojima Rice Exchange in the 1700s created one of the world's earliest standardized futures markets.",
+    "source_url": "https://www.britannica.com/place/Osaka-Japan",
+    "trap_notes": {
+      "b": "Tokyo (then Edo) was the political capital east of Osaka's merchant hub.",
+      "c": "Sapporo lies far to the north on the island of Hokkaido.",
+      "d": "Seoul is South Korea's capital on the Korean Peninsula.",
+      "default": "Osaka sits in western Honshu along the Seto Inland Sea."
+    }
+  },
+  {
+    "id": "econ-map-230",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.5665, "lng": 126.978, "label": "Seoul, South Korea" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 226, "y": 106, "label": "Busan" },
+        { "id": "b", "x": 214, "y": 80, "label": "Seoul" },
+        { "id": "c", "x": 162, "y": 68, "label": "Beijing" },
+        { "id": "d", "x": 298, "y": 86, "label": "Tokyo" }
+      ]
+    },
+    "prompt": "Select the East Asian capital that houses the headquarters of South Korea's major export conglomerates.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Seoul anchors South Korea's finance and corporate headquarters for electronics, auto, and shipbuilding exports.",
+    "source_url": "https://www.britannica.com/place/Seoul",
+    "trap_notes": {
+      "a": "Busan is South Korea's southeastern container port, not the capital.",
+      "c": "Beijing is China's capital west of the Korean Peninsula.",
+      "d": "Tokyo is Japan's capital across the Sea of Japan.",
+      "default": "Seoul sits in northwestern South Korea on the Han River."
+    }
+  },
+  {
+    "id": "econ-map-231",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 25.033, "lng": 121.5654, "label": "Taipei, Taiwan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 148, "y": 190, "label": "Hong Kong" },
+        { "id": "b", "x": 184, "y": 130, "label": "Shanghai" },
+        { "id": "c", "x": 196, "y": 168, "label": "Taipei" },
+        { "id": "d", "x": 252, "y": 124, "label": "Fukuoka" }
+      ]
+    },
+    "prompt": "Select the northern Taiwanese capital that anchors the island's semiconductor design and finance sector.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Taipei coordinates finance, research, and export logistics for Taiwan's global electronics supply chain.",
+    "source_url": "https://www.britannica.com/place/Taipei",
+    "trap_notes": {
+      "a": "Hong Kong sits on the Chinese mainland's southern coast, west of Taiwan.",
+      "b": "Shanghai lies farther north on the Yangtze River delta.",
+      "d": "Fukuoka is a Japanese port on the island of Kyushu.",
+      "default": "Taipei sits at the northern end of the island of Taiwan."
+    }
+  },
+  {
+    "id": "econ-map-232",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1757-1842",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 23.1291, "lng": 113.2644, "label": "Guangzhou, China" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 118, "y": 98, "label": "Xi'an" },
+        { "id": "b", "x": 184, "y": 130, "label": "Shanghai" },
+        { "id": "c", "x": 162, "y": 68, "label": "Beijing" },
+        { "id": "d", "x": 144, "y": 186, "label": "Guangzhou" }
+      ]
+    },
+    "prompt": "Select the southern Chinese port that served as the sole legal gateway for European sea trade before 1842.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Under the Canton System, Qing rulers restricted Western merchants to Guangzhou to trade silver for tea and porcelain.",
+    "source_url": "https://www.britannica.com/event/Canton-system",
+    "trap_notes": {
+      "a": "Xi'an is an inland Yellow River basin city, not a maritime port.",
+      "b": "Shanghai opened to Western treaty-port trade only after 1842.",
+      "c": "Beijing was the inland imperial capital, closed to coastal European shipping.",
+      "default": "Guangzhou sits at the head of the Pearl River Delta in southern China."
+    }
+  },
+  {
+    "id": "econ-map-233",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic Geography",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.563, "lng": 106.5516, "label": "Chongqing, China" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 98, "y": 136, "label": "Chongqing" },
+        { "id": "b", "x": 184, "y": 130, "label": "Shanghai" },
+        { "id": "c", "x": 162, "y": 68, "label": "Beijing" },
+        { "id": "d", "x": 226, "y": 106, "label": "Busan" }
+      ]
+    },
+    "prompt": "Select the inland Yangtze River metropolis that links western China's factories to coastal shipping.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Chongqing sits on the upper Yangtze River and serves as a major electronics and auto hub for inland China.",
+    "source_url": "https://www.britannica.com/place/Chongqing",
+    "trap_notes": {
+      "b": "Shanghai sits at the coastal mouth of the Yangtze, not in the western interior.",
+      "c": "Beijing sits on the North China Plain, far north of the Yangtze River.",
+      "d": "Busan is a coastal port in South Korea.",
+      "default": "Chongqing sits upstream along the Yangtze River in southwestern China."
+    }
+  },
+  {
+    "id": "econ-map-234",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.0842, "lng": 117.201, "label": "Tianjin, China" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 144, "y": 134, "label": "Wuhan" },
+        { "id": "b", "x": 168, "y": 72, "label": "Tianjin" },
+        { "id": "c", "x": 148, "y": 190, "label": "Hong Kong" },
+        { "id": "d", "x": 276, "y": 102, "label": "Osaka" }
+      ]
+    },
+    "prompt": "Select the Bohai Sea port city that serves as Beijing's maritime gateway in northern China.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Tianjin lies southeast of Beijing on the Bohai Sea, handling bulk cargo and industrial imports for northern China.",
+    "source_url": "https://www.britannica.com/place/Tianjin",
+    "trap_notes": {
+      "a": "Wuhan is an inland port along the middle Yangtze River.",
+      "c": "Hong Kong sits on China's southern coast, far from Beijing.",
+      "d": "Osaka is a Japanese port city across the sea.",
+      "default": "Tianjin sits on the Bohai Sea coast near Beijing."
+    }
+  },
+  {
+    "id": "econ-map-235",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic Geography",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.1815, "lng": 136.9066, "label": "Nagoya, Japan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 302, "y": 36, "label": "Sapporo" },
+        { "id": "b", "x": 252, "y": 124, "label": "Nagasaki" },
+        { "id": "c", "x": 286, "y": 96, "label": "Nagoya" },
+        { "id": "d", "x": 214, "y": 80, "label": "Seoul" }
+      ]
+    },
+    "prompt": "Select the central Honshu industrial hub that anchors Japan's automotive and aerospace manufacturing.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Nagoya sits between Tokyo and Osaka and forms the core of Japan's auto-manufacturing cluster.",
+    "source_url": "https://www.britannica.com/place/Nagoya",
+    "trap_notes": {
+      "a": "Sapporo is on the northern island of Hokkaido, outside Honshu's industrial belt.",
+      "b": "Nagasaki sits on the southern island of Kyushu.",
+      "d": "Seoul is the capital of South Korea, not in Japan.",
+      "default": "Nagoya sits on central Honshu's Pacific coast."
+    }
+  },
+  {
+    "id": "econ-map-236",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 22.6273, "lng": 120.3014, "label": "Kaohsiung, Taiwan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "a", "x": 196, "y": 164, "label": "Taipei" },
+        { "id": "b", "x": 184, "y": 130, "label": "Shanghai" },
+        { "id": "c", "x": 226, "y": 106, "label": "Busan" },
+        { "id": "d", "x": 194, "y": 180, "label": "Kaohsiung" }
+      ]
+    },
+    "prompt": "Select Taiwan's largest deepwater container and petrochemical port, located at the island's southern end.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Kaohsiung handles the majority of Taiwan's heavy maritime freight and petrochemical exports.",
+    "source_url": "https://www.britannica.com/place/Kaohsiung",
+    "trap_notes": {
+      "a": "Taipei sits near the northern end of Taiwan, not the southern coast.",
+      "b": "Shanghai lies on the Chinese mainland at the Yangtze River mouth.",
+      "c": "Busan is South Korea's main port on the Korean Peninsula.",
+      "default": "Kaohsiung sits on Taiwan's southwestern coast."
+    }
+  },
+  {
+    "id": "econ-map-237",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1690-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 22.5726, "lng": 88.3639, "label": "Kolkata, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 228, "y": 68, "label": "Kolkata" },
+        { "id": "b", "x": 164, "y": 88, "label": "Mumbai" },
+        { "id": "c", "x": 194, "y": 138, "label": "Colombo" },
+        { "id": "d", "x": 296, "y": 138, "label": "Singapore" }
+      ]
+    },
+    "prompt": "Select the Ganges Delta port that served as the British East India Company's Bengal trade capital.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Kolkata (Calcutta) anchored British colonial commerce in Bengal, exporting jute, tea, and opium.",
+    "source_url": "https://www.britannica.com/place/Kolkata",
+    "trap_notes": {
+      "b": "Mumbai sits on India's western Arabian Sea coast, not the Bay of Bengal.",
+      "c": "Colombo is on the island of Sri Lanka south of India.",
+      "d": "Singapore sits on the Strait of Malacca in Southeast Asia.",
+      "default": "Kolkata lies on the Hooghly River in the Ganges Delta."
+    }
+  },
+  {
+    "id": "econ-map-238",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1400-1700",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 11.2588, "lng": 75.7804, "label": "Calicut, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 182, "y": 34, "label": "Delhi" },
+        { "id": "b", "x": 176, "y": 122, "label": "Calicut" },
+        { "id": "c", "x": 112, "y": 64, "label": "Muscat" },
+        { "id": "d", "x": 48, "y": 144, "label": "Mombasa" }
+      ]
+    },
+    "prompt": "Select the Malabar Coast spice port where Vasco da Gama landed in 1498 seeking black pepper.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Calicut (Kozhikode) was a thriving Indian Ocean spice entrepot linking Indian pepper growers to Arab and European buyers.",
+    "source_url": "https://www.britannica.com/place/Kozhikode",
+    "trap_notes": {
+      "a": "Delhi is an inland northern capital, not a coastal Malabar spice port.",
+      "c": "Muscat sits on the Arabian Peninsula across the Arabian Sea.",
+      "d": "Mombasa is an East African port across the Indian Ocean.",
+      "default": "Calicut sits on southwestern India's Malabar Coast."
+    }
+  },
+  {
+    "id": "econ-map-239",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -4.0435, "lng": 39.6682, "label": "Mombasa, Kenya" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 56, "y": 86, "label": "Aden" },
+        { "id": "b", "x": 64, "y": 178, "label": "Antananarivo" },
+        { "id": "c", "x": 48, "y": 144, "label": "Mombasa" },
+        { "id": "d", "x": 164, "y": 88, "label": "Mumbai" }
+      ]
+    },
+    "prompt": "Select the Kenyan deepwater port that handles maritime imports for landlocked Uganda and Rwanda.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Mombasa's port and rail corridor connect East Africa's interior economies to Indian Ocean container shipping.",
+    "source_url": "https://www.britannica.com/place/Mombasa",
+    "trap_notes": {
+      "a": "Aden sits on the southern tip of the Arabian Peninsula, not in East Africa.",
+      "b": "Antananarivo is the inland capital of the island of Madagascar.",
+      "d": "Mumbai sits on India's western coast across the Arabian Sea.",
+      "default": "Mombasa sits on Kenya's Indian Ocean coast."
+    }
+  },
+  {
+    "id": "econ-map-240",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 6.9271, "lng": 79.8612, "label": "Colombo, Sri Lanka" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 296, "y": 138, "label": "Singapore" },
+        { "id": "b", "x": 144, "y": 54, "label": "Karachi" },
+        { "id": "c", "x": 104, "y": 46, "label": "Dubai" },
+        { "id": "d", "x": 194, "y": 138, "label": "Colombo" }
+      ]
+    },
+    "prompt": "Select the Sri Lankan island port that serves as South Asia's main container transshipment hub.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Colombo sits directly on the Suez-to-Malacca trunk route, transferring cargo between mega-ships and regional feeders.",
+    "source_url": "https://www.britannica.com/place/Colombo",
+    "trap_notes": {
+      "a": "Singapore sits farther east along the Strait of Malacca.",
+      "b": "Karachi sits on Pakistan's northern Arabian Sea coast.",
+      "c": "Dubai sits inside the Persian Gulf northwest of India.",
+      "default": "Colombo sits on the western coast of Sri Lanka south of India."
+    }
+  },
+  {
+    "id": "econ-map-241",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -6.2088, "lng": 106.8456, "label": "Jakarta, Indonesia" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 308, "y": 174, "label": "Jakarta" },
+        { "id": "b", "x": 274, "y": 84, "label": "Bangkok" },
+        { "id": "c", "x": 228, "y": 68, "label": "Kolkata" },
+        { "id": "d", "x": 192, "y": 114, "label": "Chennai" }
+      ]
+    },
+    "prompt": "Select the Indonesian capital on Java that anchors Southeast Asia's largest domestic economy.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Jakarta houses Indonesia's stock exchange, central bank, and main port serving over 270 million people.",
+    "source_url": "https://www.britannica.com/place/Jakarta",
+    "trap_notes": {
+      "b": "Bangkok sits on mainland Southeast Asia in Thailand, north of Java.",
+      "c": "Kolkata sits on India's Bay of Bengal coast.",
+      "d": "Chennai sits on southeastern India's Coromandel Coast.",
+      "default": "Jakarta sits on the northwestern coast of Java in Indonesia."
+    }
+  },
+  {
+    "id": "econ-map-242",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1500-1900",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 23.588, "lng": 58.3829, "label": "Muscat, Oman" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 56, "y": 86, "label": "Aden" },
+        { "id": "b", "x": 112, "y": 64, "label": "Muscat" },
+        { "id": "c", "x": 164, "y": 88, "label": "Mumbai" },
+        { "id": "d", "x": 44, "y": 166, "label": "Dar es Salaam" }
+      ]
+    },
+    "prompt": "Select the Omani port near the Gulf of Oman that linked Persian Gulf commerce with East African trade.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Muscat's sheltered harbor made Oman a maritime power connecting Arabian, Indian, and Swahili Coast merchants.",
+    "source_url": "https://www.britannica.com/place/Muscat",
+    "trap_notes": {
+      "a": "Aden sits at the southwestern corner of Arabia near the Red Sea.",
+      "c": "Mumbai sits on India's western coast across the Arabian Sea.",
+      "d": "Dar es Salaam sits far to the south on Tanzania's East African coast.",
+      "default": "Muscat sits on the southeastern edge of the Arabian Peninsula."
+    }
+  },
+  {
+    "id": "econ-map-243",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1839-Present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 12.7855, "lng": 45.0187, "label": "Aden, Yemen" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 104, "y": 46, "label": "Dubai" },
+        { "id": "b", "x": 144, "y": 54, "label": "Karachi" },
+        { "id": "c", "x": 56, "y": 86, "label": "Aden" },
+        { "id": "d", "x": 296, "y": 138, "label": "Singapore" }
+      ]
+    },
+    "prompt": "Select the Yemeni port guarding the Bab el-Mandeb strait between the Red Sea and Indian Ocean.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Aden became a vital steamship coaling station and remains a key chokepoint port along the Suez shipping lane.",
+    "source_url": "https://www.britannica.com/place/Aden-Yemen",
+    "trap_notes": {
+      "a": "Dubai sits inside the Persian Gulf, not at the Red Sea entrance.",
+      "b": "Karachi sits near the Indus Delta in Pakistan.",
+      "d": "Singapore guards the Strait of Malacca in Southeast Asia.",
+      "default": "Aden sits on Yemen's southern coast at the entrance to the Red Sea."
+    }
+  },
+  {
+    "id": "econ-map-244",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "Economic Geography",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 13.0827, "lng": 80.2707, "label": "Chennai, India" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 164, "y": 88, "label": "Mumbai" },
+        { "id": "b", "x": 228, "y": 68, "label": "Kolkata" },
+        { "id": "c", "x": 182, "y": 34, "label": "Delhi" },
+        { "id": "d", "x": 192, "y": 114, "label": "Chennai" }
+      ]
+    },
+    "prompt": "Select the Bay of Bengal port city that anchors southern India's automotive manufacturing cluster.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Chennai combines deepwater port access with skilled engineering labor, exporting cars and auto parts worldwide.",
+    "source_url": "https://www.britannica.com/place/Chennai",
+    "trap_notes": {
+      "a": "Mumbai sits on India's western Arabian Sea coast.",
+      "b": "Kolkata sits farther north at the Ganges Delta.",
+      "c": "Delhi is an inland northern capital, not a coastal seaport.",
+      "default": "Chennai sits on India's southeastern Coromandel Coast."
+    }
+  },
+  {
+    "id": "econ-map-245",
+    "type": "map",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 24.8607, "lng": 67.0011, "label": "Karachi, Pakistan" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "a", "x": 144, "y": 54, "label": "Karachi" },
+        { "id": "b", "x": 192, "y": 114, "label": "Chennai" },
+        { "id": "c", "x": 112, "y": 64, "label": "Muscat" },
+        { "id": "d", "x": 48, "y": 144, "label": "Mombasa" }
+      ]
+    },
+    "prompt": "Select the Arabian Sea port near the Indus Delta that serves as Pakistan's commercial and financial hub.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Karachi handles most of Pakistan's maritime imports and exports and houses the Pakistan Stock Exchange.",
+    "source_url": "https://www.britannica.com/place/Karachi",
+    "trap_notes": {
+      "b": "Chennai lies on southeastern India's Bay of Bengal coast.",
+      "c": "Muscat sits across the Arabian Sea on the Arabian Peninsula.",
+      "d": "Mombasa lies far to the southwest on Kenya's coast.",
+      "default": "Karachi sits on Pakistan's Arabian Sea coast west of the Indus Delta."
+    }
+  },
+  {
+    "id": "econ-mc-261",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "prompt": "According to the law of diminishing marginal utility, what happens as a consumer eats more slices of pizza in one sitting?",
+    "options": [
+      { "id": "a", "text": "Total satisfaction falls with the very first slice" },
+      { "id": "b", "text": "Each extra slice adds less satisfaction than the last" },
+      { "id": "c", "text": "The market price of pizza rises with each slice" },
+      { "id": "d", "text": "Consumers switch to complementary goods immediately" }
+    ],
+    "answer": "b",
+    "explanation": "Marginal utility is the extra satisfaction from one more unit; as consumption rises in the short run, each additional unit adds less value.",
+    "source_url": "https://www.econlib.org/library/Enc/Marginalism.html",
+    "trap_notes": {
+      "a": "Total satisfaction still rises at first; only the added gain per slice shrinks.",
+      "c": "One buyer's hunger does not automatically raise the restaurant's menu price.",
+      "d": "Diminishing marginal utility describes satisfaction per unit, not switching goods.",
+      "default": "Each additional unit consumed in one sitting brings smaller added satisfaction."
+    }
+  },
+  {
+    "id": "econ-mc-262",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why do economists classify childhood vaccinations as creating a positive externality?",
+    "options": [
+      { "id": "a", "text": "Private clinics earn profits without any regulation" },
+      { "id": "b", "text": "Vaccinated people pay higher taxes on medical care" },
+      { "id": "c", "text": "Third parties gain lower disease risk without paying" },
+      { "id": "d", "text": "Insurance firms eliminate all deductibles for patients" }
+    ],
+    "answer": "c",
+    "explanation": "A positive externality occurs when a transaction creates spillover benefits for bystanders who were not part of the purchase.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities",
+    "trap_notes": {
+      "a": "Provider profit is a private return, not a spillover benefit to third parties.",
+      "b": "Taxes are government transfers, not an external health benefit.",
+      "d": "Insurance billing rules do not define an economic externality.",
+      "default": "Positive externalities deliver unpriced benefits to people outside the transaction."
+    }
+  },
+  {
+    "id": "econ-mc-263",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "prompt": "When a chemical plant dumps untreated waste into a river, why does an unregulated market overproduce that chemical?",
+    "options": [
+      { "id": "a", "text": "The plant ignores external cleanup costs borne by others" },
+      { "id": "b", "text": "Downstream residents pay the plant to increase output" },
+      { "id": "c", "text": "Government subsidies force the plant to run at capacity" },
+      { "id": "d", "text": "Consumers value polluted water more than clean water" }
+    ],
+    "answer": "a",
+    "explanation": "Because the firm pays only private production costs and not social pollution costs, it produces past the socially optimal level.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities",
+    "trap_notes": {
+      "b": "Downstream residents suffer harm; they do not pay the plant to pollute.",
+      "c": "Overproduction happens even without subsidies when pollution is free.",
+      "d": "Clean water has value, but its loss is left out of the firm's private ledger.",
+      "default": "Unpriced external costs lead firms to produce more than society prefers."
+    }
+  },
+  {
+    "id": "econ-mc-264",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "prompt": "Which pair of traits defines a pure public good such as national defense or a lighthouse beam?",
+    "options": [
+      { "id": "a", "text": "High retail price and private ownership" },
+      { "id": "b", "text": "Scarce supply and strict user fees" },
+      { "id": "c", "text": "Elastic demand and rapid depreciation" },
+      { "id": "d", "text": "Non-rivalrous use and non-excludable access" }
+    ],
+    "answer": "d",
+    "explanation": "A pure public good is non-rivalrous (one person's use leaves no less for others) and non-excludable (non-payers cannot be blocked).",
+    "source_url": "https://www.econlib.org/library/Enc/PublicGoods.html",
+    "trap_notes": {
+      "a": "Private ownership and high prices describe private goods, not public goods.",
+      "b": "User fees exclude non-payers, which violates non-excludability.",
+      "c": "Elasticity and depreciation apply to many private goods as well.",
+      "default": "Pure public goods are both non-rivalrous and non-excludable."
+    }
+  },
+  {
+    "id": "econ-mc-265",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.5615, "lng": -52.7126, "label": "St. John's, Newfoundland" },
+    "prompt": "What economic problem explains why open-access ocean fisheries often suffer rapid overfishing?",
+    "options": [
+      { "id": "a", "text": "Fishers face high property taxes on ocean waters" },
+      { "id": "b", "text": "Individual fishers gain the catch while all share depletion" },
+      { "id": "c", "text": "Seafood demand stays constant regardless of price" },
+      { "id": "d", "text": "Central banks restrict loans for new fishing boats" }
+    ],
+    "answer": "b",
+    "explanation": "In the tragedy of the commons, a shared, rivalrous resource is overused because each user captures private gains while costs spread.",
+    "source_url": "https://www.econlib.org/library/Enc/TragedyoftheCommons.html",
+    "trap_notes": {
+      "a": "Open-ocean fisheries lack private ownership and property taxes.",
+      "c": "Demand elasticity does not cause open-access depletion by itself.",
+      "d": "Tight boat loans would reduce fishing effort rather than increase it.",
+      "default": "Shared rivalrous resources are overused when private gains exceed private costs."
+    }
+  },
+  {
+    "id": "econ-mc-266",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "Which feature distinguishes monopolistic competition, such as neighborhood restaurants, from perfect competition?",
+    "options": [
+      { "id": "a", "text": "Only one firm legally operates in the entire city" },
+      { "id": "b", "text": "Firms face insurmountable barriers to market entry" },
+      { "id": "c", "text": "Many firms sell differentiated products via branding" },
+      { "id": "d", "text": "Government regulators set identical menu prices" }
+    ],
+    "answer": "c",
+    "explanation": "Monopolistic competition has many sellers and easy entry like perfect competition, but each firm differentiates its product.",
+    "source_url": "https://www.britannica.com/money/monopolistic-competition",
+    "trap_notes": {
+      "a": "A single legal seller describes a monopoly, not monopolistic competition.",
+      "b": "High entry barriers characterize monopolies and oligopolies.",
+      "d": "Firms set their own prices based on product differentiation.",
+      "default": "Product differentiation among many sellers defines monopolistic competition."
+    }
+  },
+  {
+    "id": "econ-mc-267",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Why are municipal water pipes and local electric grids considered natural monopolies?",
+    "options": [
+      { "id": "a", "text": "One network supplies the market at lower cost than rivals" },
+      { "id": "b", "text": "Consumers prefer buying utilities from foreign firms" },
+      { "id": "c", "text": "Water and electricity require zero fixed infrastructure" },
+      { "id": "d", "text": "Small startups can duplicate power lines cheaply" }
+    ],
+    "answer": "a",
+    "explanation": "High fixed infrastructure costs create strong economies of scale, making a single regulated provider cheaper than duplicate networks.",
+    "source_url": "https://www.britannica.com/money/natural-monopoly",
+    "trap_notes": {
+      "b": "Local utilities are tied to physical grids, not foreign consumer preferences.",
+      "c": "Utilities require massive upfront fixed investments in pipes and lines.",
+      "d": "Duplicating power lines is prohibitively expensive and wasteful.",
+      "default": "Economies of scale make one grid cheaper per customer than competing grids."
+    }
+  },
+  {
+    "id": "econ-mc-268",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.3382, "lng": -121.8863, "label": "San Jose, California" },
+    "prompt": "Why is the supply of most manufactured goods more price elastic in the long run than in the short run?",
+    "options": [
+      { "id": "a", "text": "Consumers forget about price changes after one year" },
+      { "id": "b", "text": "Short-run factories face zero resource constraints" },
+      { "id": "c", "text": "Governments ban price adjustments during the short run" },
+      { "id": "d", "text": "Firms can build new plants and adjust capacity over time" }
+    ],
+    "answer": "d",
+    "explanation": "Over a longer horizon, producers can expand factories, train workers, and enter or exit markets in response to price shifts.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/elasticity-tutorial/price-elasticity-tutorial/a/price-elasticity-of-supply-and-its-determinants",
+    "trap_notes": {
+      "a": "Supply elasticity depends on producer flexibility, not consumer memory.",
+      "b": "Short-run production is constrained by fixed plant size and equipment.",
+      "c": "Supply elasticity reflects physical production limits, not price bans.",
+      "default": "Long-run time lets firms expand capacity and adjust all inputs."
+    }
+  },
+  {
+    "id": "econ-mc-269",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "In the circular flow model of an economy, what role do households play in factor markets?",
+    "options": [
+      { "id": "a", "text": "They sell labor and capital to firms in exchange for income" },
+      { "id": "b", "text": "They purchase finished consumer goods from retail stores" },
+      { "id": "c", "text": "They print currency and set overnight interest rates" },
+      { "id": "d", "text": "They collect corporate taxes from manufacturing plants" }
+    ],
+    "answer": "a",
+    "explanation": "Households supply labor, land, and capital in factor markets and earn wages, rent, and profits in return.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-6-circular-flow",
+    "trap_notes": {
+      "b": "Buying finished goods takes place in product markets, not factor markets.",
+      "c": "Printing currency and setting policy rates are central bank functions.",
+      "d": "Collecting taxes is a government fiscal role, not a household factor role.",
+      "default": "Households are sellers of productive inputs in factor markets."
+    }
+  },
+  {
+    "id": "econ-mc-270",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What does a higher Gini coefficient, closer to 1.0 than to 0.0, indicate about a country's income distribution?",
+    "options": [
+      { "id": "a", "text": "Faster annual growth in real industrial output" },
+      { "id": "b", "text": "Greater inequality in how income is shared" },
+      { "id": "c", "text": "Lower inflation across consumer price indexes" },
+      { "id": "d", "text": "Higher average wages for entry-level workers" }
+    ],
+    "answer": "b",
+    "explanation": "The Gini coefficient ranges from 0 (perfect equality) to 1 (one person holds all income), measuring income inequality.",
+    "source_url": "https://www.census.gov/topics/income-poverty/income-inequality/about/metrics/gini-index.html",
+    "trap_notes": {
+      "a": "GDP growth measures output expansion, not income distribution.",
+      "c": "CPI tracks price inflation, not how income is divided.",
+      "d": "A high Gini score reflects wider gaps, not higher entry-level pay.",
+      "default": "Values closer to 1.0 on the Gini index signal higher income inequality."
+    }
+  },
+  {
+    "id": "econ-mc-271",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why do economists classify a flat state sales tax on groceries as a regressive tax?",
+    "options": [
+      { "id": "a", "text": "High-income shoppers pay a higher tax rate at checkout" },
+      { "id": "b", "text": "Stores remit the tax only during economic recessions" },
+      { "id": "c", "text": "Low-income families spend a larger share of income on food" },
+      { "id": "d", "text": "Federal courts prohibit states from taxing retail sales" }
+    ],
+    "answer": "c",
+    "explanation": "Because lower-income households spend a greater percentage of their income on necessities, a flat sales tax takes a larger share.",
+    "source_url": "https://apps.irs.gov/app/understandingTaxes/teacher/whys_thm03_les02.jsp",
+    "trap_notes": {
+      "a": "All shoppers face the same flat rate at the register regardless of income.",
+      "b": "Sales taxes apply year-round, not just during downturns.",
+      "d": "Most U.S. states legally collect retail sales taxes.",
+      "default": "A tax is regressive when it takes a larger percentage of lower incomes."
+    }
+  },
+  {
+    "id": "econ-mc-272",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "prompt": "In the short-run Phillips curve, what inverse relationship did economists historically observe?",
+    "options": [
+      { "id": "a", "text": "Higher tariffs paired with lower domestic prices" },
+      { "id": "b", "text": "Higher savings rates paired with zero investment" },
+      { "id": "c", "text": "Lower interest rates paired with higher unemployment" },
+      { "id": "d", "text": "Lower unemployment paired with higher wage inflation" }
+    ],
+    "answer": "d",
+    "explanation": "The short-run Phillips curve illustrates a tradeoff in which tighter labor markets (lower unemployment) push wages and prices up.",
+    "source_url": "https://www.econlib.org/library/Enc/PhillipsCurve.html",
+    "trap_notes": {
+      "a": "Tariffs raise import prices rather than lowering domestic prices.",
+      "b": "Higher savings generally support investment rather than eliminating it.",
+      "c": "Lower interest rates usually stimulate hiring and reduce unemployment.",
+      "default": "The short-run Phillips curve links low unemployment with rising inflation."
+    }
+  },
+  {
+    "id": "econ-mc-273",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Money & Banking",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "In a fractional-reserve banking system, how do commercial banks expand the broader money supply?",
+    "options": [
+      { "id": "a", "text": "They lend out excess reserves beyond required cash" },
+      { "id": "b", "text": "They mint gold coins inside local branch vaults" },
+      { "id": "c", "text": "They lock every customer deposit inside a safe" },
+      { "id": "d", "text": "They collect federal income taxes on payroll checks" }
+    ],
+    "answer": "a",
+    "explanation": "When banks keep only a fraction of deposits in reserve and lend the rest, those loans become new deposits across the system.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-9-money-banking",
+    "trap_notes": {
+      "b": "Commercial banks do not mint coins; central banks issue base currency.",
+      "c": "Holding 100 percent of deposits in vaults prevents credit creation.",
+      "d": "Tax collection is a government treasury function, not bank lending.",
+      "default": "Lending excess reserves creates new checking deposits and expands money."
+    }
+  },
+  {
+    "id": "econ-mc-274",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Which example best illustrates investment in human capital to raise long-run economic productivity?",
+    "options": [
+      { "id": "a", "text": "Buying shares of a foreign technology company" },
+      { "id": "b", "text": "Training workers in advanced robotics and coding" },
+      { "id": "c", "text": "Storing cash inside a commercial bank savings account" },
+      { "id": "d", "text": "Importing crude oil for winter home heating" }
+    ],
+    "answer": "b",
+    "explanation": "Human capital consists of the education, skills, and health that make workers more productive.",
+    "source_url": "https://www.econlib.org/library/Enc/HumanCapital.html",
+    "trap_notes": {
+      "a": "Buying stock is financial investment, not an upgrade to worker skills.",
+      "c": "Holding cash in savings does not directly expand worker productivity.",
+      "d": "Importing heating oil is resource consumption, not human capital.",
+      "default": "Education and job training build human capital and raise productivity."
+    }
+  },
+  {
+    "id": "econ-mc-275",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Money & Banking",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "If a savings account pays a 5 percent nominal interest rate while annual inflation is 3 percent, what is the real interest rate?",
+    "options": [
+      { "id": "a", "text": "8 percent purchasing-power gain" },
+      { "id": "b", "text": "5 percent purchasing-power gain" },
+      { "id": "c", "text": "2 percent purchasing-power gain" },
+      { "id": "d", "text": "15 percent purchasing-power gain" }
+    ],
+    "answer": "c",
+    "explanation": "The real interest rate equals the nominal rate minus inflation (5% - 3% = 2%), showing actual purchasing-power growth.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2021/october/difference-between-nominal-and-real-interest-rates",
+    "trap_notes": {
+      "a": "Adding inflation to the nominal rate overstates real returns; inflation erodes value.",
+      "b": "Five percent is the nominal rate before adjusting for rising prices.",
+      "d": "Real interest is found by subtracting inflation, not multiplying rates.",
+      "default": "Subtracting the inflation rate from the nominal rate gives the real interest rate."
+    }
+  }
+]

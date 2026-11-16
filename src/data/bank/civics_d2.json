@@ -1,0 +1,2747 @@
+[
+  {
+    "id": "civics-cau-201",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Legislative Process",
+    "era": "Constitutional Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order the steps for a federal bill to become law:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Second chamber passes identical bill text"
+      },
+      {
+        "id": "b",
+        "text": "Standing committee reviews and reports bill"
+      },
+      {
+        "id": "c",
+        "text": "President signs the enrolled bill into law"
+      },
+      {
+        "id": "d",
+        "text": "Originating chamber approves bill on floor"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "A bill clears committee first, passes its originating chamber, passes the other chamber in identical form, and is signed by the President.",
+    "source_url": "https://www.congress.gov/legislative-process",
+    "trap_notes": {
+      "default": "Lawmaking flow: committee review, first chamber vote, second chamber vote, presidential signature."
+    }
+  },
+  {
+    "id": "civics-cau-202",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Constitutional Amendments",
+    "era": "Article V Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order the standard Article V steps to amend the Constitution:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Three-fourths of states ratify the amendment"
+      },
+      {
+        "id": "b",
+        "text": "Archivist certifies amendment into Constitution"
+      },
+      {
+        "id": "c",
+        "text": "Two-thirds of both chambers approve proposal"
+      },
+      {
+        "id": "d",
+        "text": "Proposal is sent to state legislatures"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Two-thirds of Congress proposes an amendment, states receive it, three-fourths ratify it, and the Archivist certifies it.",
+    "source_url": "https://www.archives.gov/federal-register/constitution",
+    "trap_notes": {
+      "default": "Article V path: 2/3 of Congress proposes, states receive it, 3/4 of states ratify, Archivist certifies."
+    }
+  },
+  {
+    "id": "civics-cau-203",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Checks & Balances",
+    "era": "Constitutional Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order the steps to impeach and remove a federal official:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Senate conducts trial with Chief Justice"
+      },
+      {
+        "id": "b",
+        "text": "Two-thirds Senate vote removes the official"
+      },
+      {
+        "id": "c",
+        "text": "House committee investigates alleged offenses"
+      },
+      {
+        "id": "d",
+        "text": "House majority votes articles of impeachment"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The House investigates and impeaches by simple majority; the Senate then holds a trial where a two-thirds vote removes.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "trap_notes": {
+      "default": "Impeachment sequence: House investigates, House impeaches (majority), Senate tries, Senate convicts (2/3)."
+    }
+  },
+  {
+    "id": "civics-cau-204",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Judicial Appointments",
+    "era": "Constitutional Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order the steps to appoint a U.S. Supreme Court justice:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Senate Judiciary Committee holds public hearings"
+      },
+      {
+        "id": "b",
+        "text": "Nominee takes judicial oath to begin service"
+      },
+      {
+        "id": "c",
+        "text": "President selects and nominates a candidate"
+      },
+      {
+        "id": "d",
+        "text": "Full Senate confirms nominee by majority vote"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "The President nominates a candidate, the Judiciary Committee holds hearings, the full Senate confirms, and the justice takes the oath.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/nominations.htm",
+    "trap_notes": {
+      "default": "Process: President nominates, Judiciary Committee holds hearings, full Senate confirms, justice takes oath."
+    }
+  },
+  {
+    "id": "civics-cau-205",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Federal Courts",
+    "era": "Judicial Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order how a federal lawsuit reaches the U.S. Supreme Court:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Four justices vote to grant writ of certiorari"
+      },
+      {
+        "id": "b",
+        "text": "Federal district court holds initial trial"
+      },
+      {
+        "id": "c",
+        "text": "Losing party petitions Supreme Court for review"
+      },
+      {
+        "id": "d",
+        "text": "Circuit court of appeals reviews trial record"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "A case starts in district court, moves to a circuit court of appeals, is petitioned to the Supreme Court, and needs four votes for cert.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/supreme-1",
+    "trap_notes": {
+      "default": "Path: district court trial, circuit appeal, cert petition, Rule of Four grants review."
+    }
+  },
+  {
+    "id": "civics-cau-206",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Supreme Court Procedure",
+    "era": "Judicial Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order how the Supreme Court decides a case after granting review:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Justices meet in private conference to vote"
+      },
+      {
+        "id": "b",
+        "text": "Majority opinion is published as precedent"
+      },
+      {
+        "id": "c",
+        "text": "Attorneys present oral arguments to the bench"
+      },
+      {
+        "id": "d",
+        "text": "Assigned justice drafts the majority opinion"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "After oral arguments, the justices vote in conference, draft and circulate opinions, and publish the final ruling.",
+    "source_url": "https://www.supremecourt.gov/about/procedures.aspx",
+    "trap_notes": {
+      "default": "Decision flow: oral arguments, private conference vote, opinion drafting, public release."
+    }
+  },
+  {
+    "id": "civics-cau-207",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Senate Procedure",
+    "era": "Legislative Rules",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Senate, Washington, D.C."
+    },
+    "prompt": "Order how the Senate ends a filibuster using Rule XXII cloture:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sixty senators vote to invoke cloture"
+      },
+      {
+        "id": "b",
+        "text": "Senators hold the floor to delay a bill"
+      },
+      {
+        "id": "c",
+        "text": "Senate holds final up-or-down vote on bill"
+      },
+      {
+        "id": "d",
+        "text": "Sixteen senators file a cloture petition"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "When senators filibuster, 16 senators file a cloture motion, 60 senators must vote to limit debate, and then a final vote occurs.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm",
+    "trap_notes": {
+      "default": "Cloture path: filibuster begins, 16 file petition, 60 vote for cloture, final bill vote."
+    }
+  },
+  {
+    "id": "civics-cau-208",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Presidential Elections",
+    "era": "Constitutional Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order how the Electoral College elects a U.S. President:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Electors meet in state capitals to cast ballots"
+      },
+      {
+        "id": "b",
+        "text": "Congress counts electoral votes in joint session"
+      },
+      {
+        "id": "c",
+        "text": "Voters cast November ballots for party slates"
+      },
+      {
+        "id": "d",
+        "text": "States certify winners and appoint electors"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Voters cast ballots in November, states certify and appoint electors, electors vote in December, and Congress counts votes in January.",
+    "source_url": "https://www.archives.gov/electoral-college/about",
+    "trap_notes": {
+      "default": "Sequence: November popular vote, state certification, December elector vote, January congressional count."
+    }
+  },
+  {
+    "id": "civics-cau-209",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Contingent Elections",
+    "era": "Twelfth Amendment",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order what happens if no candidate wins 270 electoral votes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "House votes by state delegation among top three"
+      },
+      {
+        "id": "b",
+        "text": "Joint session confirms no 270-vote majority"
+      },
+      {
+        "id": "c",
+        "text": "Candidate winning 26 states becomes President"
+      },
+      {
+        "id": "d",
+        "text": "Contingent election shifts to House of Representatives"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Under the 12th Amendment, if no one reaches 270 electoral votes, the House votes by state delegation and 26 states elect the President.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xii",
+    "trap_notes": {
+      "default": "12th Amendment flow: no 270 majority, House takes over, one vote per state, 26 states win."
+    }
+  },
+  {
+    "id": "civics-cau-210",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Presidential Succession",
+    "era": "Twenty-Fifth Amendment",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "prompt": "Order how a Vice Presidential vacancy is filled under the 25th Amendment:",
+    "options": [
+      {
+        "id": "a",
+        "text": "House and Senate confirm by simple majorities"
+      },
+      {
+        "id": "b",
+        "text": "Vice Presidency becomes vacant mid-term"
+      },
+      {
+        "id": "c",
+        "text": "Confirmed nominee takes oath as Vice President"
+      },
+      {
+        "id": "d",
+        "text": "President nominates a replacement candidate"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "When the Vice Presidency is vacant, the President nominates a replacement who takes office after majority approval in both chambers.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxv",
+    "trap_notes": {
+      "default": "25th Amendment Section 2: vacancy occurs, President nominates, both House and Senate confirm, oath taken."
+    }
+  },
+  {
+    "id": "civics-cau-211",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Federal Bureaucracy",
+    "era": "Administrative Law",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order how a federal agency issues a binding regulation:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agency publishes proposed rule in Federal Register"
+      },
+      {
+        "id": "b",
+        "text": "Public and stakeholders submit written comments"
+      },
+      {
+        "id": "c",
+        "text": "Congress passes law granting rulemaking power"
+      },
+      {
+        "id": "d",
+        "text": "Agency issues final rule with legal force"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Congress delegates authority by statute, the agency proposes a rule, the public comments, and the agency publishes the final rule.",
+    "source_url": "https://www.federalregister.gov/uploads/2011/01/the_rulemaking_process.pdf",
+    "trap_notes": {
+      "default": "Rulemaking flow: statute authorizes, proposed rule published, public comments, final rule issued."
+    }
+  },
+  {
+    "id": "civics-cau-212",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Criminal Justice",
+    "era": "Due Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order the sequence of a federal felony prosecution:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grand jury reviews probable cause and indicts"
+      },
+      {
+        "id": "b",
+        "text": "Petit jury hears trial evidence and deliberates"
+      },
+      {
+        "id": "c",
+        "text": "Police arrest suspect and file initial charges"
+      },
+      {
+        "id": "d",
+        "text": "Jury returns verdict of guilty or not guilty"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "After arrest, a grand jury issues an indictment, a petit jury hears evidence at trial, and the jury delivers a verdict.",
+    "source_url": "https://www.uscourts.gov/services-forms/jury-service/types-juries",
+    "trap_notes": {
+      "default": "Criminal flow: arrest, grand jury indictment, petit jury trial, verdict."
+    }
+  },
+  {
+    "id": "civics-cau-213",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Fifth Amendment Rights",
+    "era": "Criminal Procedure",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 33.4484,
+      "lng": -112.074,
+      "label": "Phoenix, Arizona"
+    },
+    "prompt": "Order how Miranda protections operate during police questioning:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Officers read right to silence and counsel"
+      },
+      {
+        "id": "b",
+        "text": "Suspect knowingly waives rights or stays silent"
+      },
+      {
+        "id": "c",
+        "text": "Police take suspect into custodial detention"
+      },
+      {
+        "id": "d",
+        "text": "Officers prepare to interrogate the suspect"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Miranda applies once a suspect is in custody and about to be interrogated; officers read warnings before questioning proceeds.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-miranda-v-arizona",
+    "trap_notes": {
+      "default": "Miranda trigger: custody, intent to interrogate, warnings read, suspect waives or invokes rights."
+    }
+  },
+  {
+    "id": "civics-cau-214",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Fourth Amendment",
+    "era": "Criminal Procedure",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "label": "Cleveland, Ohio"
+    },
+    "prompt": "Order how the exclusionary rule enforces the Fourth Amendment:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Defense attorney files a motion to suppress"
+      },
+      {
+        "id": "b",
+        "text": "Police seize evidence without a valid warrant"
+      },
+      {
+        "id": "c",
+        "text": "Prosecution cannot use tainted items at trial"
+      },
+      {
+        "id": "d",
+        "text": "Judge rules the search violated Fourth Amendment"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "If police conduct an unlawful search, the defense moves to suppress, the judge finds a violation, and the evidence is barred at trial.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/what-does-fourth",
+    "trap_notes": {
+      "default": "Exclusionary sequence: unlawful search, motion to suppress, judicial ruling, evidence excluded."
+    }
+  },
+  {
+    "id": "civics-cau-215",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Incorporation Doctrine",
+    "era": "Fourteenth Amendment",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order how selective incorporation applies Bill of Rights limits to states:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Supreme Court links right to Due Process Clause"
+      },
+      {
+        "id": "b",
+        "text": "State passes law restricting a core liberty"
+      },
+      {
+        "id": "c",
+        "text": "State law is struck down as unconstitutional"
+      },
+      {
+        "id": "d",
+        "text": "Citizen challenges law under 14th Amendment"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "When a state restricts a fundamental right, a challenger invokes the 14th Amendment, the Court incorporates the right, and the law falls.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xiv",
+    "trap_notes": {
+      "default": "Incorporation flow: state restriction, 14th Amendment challenge, Due Process linkage, state law voided."
+    }
+  },
+  {
+    "id": "civics-cau-216",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Judicial Review",
+    "era": "Constitutional Law",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order how federal judicial review invalidates an unconstitutional law:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Injured party files lawsuit challenging statute"
+      },
+      {
+        "id": "b",
+        "text": "Court declares conflicting statute null and void"
+      },
+      {
+        "id": "c",
+        "text": "Congress enacts a federal statute into law"
+      },
+      {
+        "id": "d",
+        "text": "Court compares statute against constitutional text"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "After Congress passes a law, an injured party must sue; the court then measures it against the Constitution and voids it if it conflicts.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/about",
+    "trap_notes": {
+      "default": "Judicial review requires a real lawsuit: law enacted, party sues, court compares text, law voided."
+    }
+  },
+  {
+    "id": "civics-cau-217",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Reapportionment & Redistricting",
+    "era": "Constitutional Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8462,
+      "lng": -76.9275,
+      "label": "Suitland, Maryland"
+    },
+    "prompt": "Order the decennial cycle that updates U.S. House districts:",
+    "options": [
+      {
+        "id": "a",
+        "text": "States redraw congressional district boundaries"
+      },
+      {
+        "id": "b",
+        "text": "U.S. Census counts population every ten years"
+      },
+      {
+        "id": "c",
+        "text": "Voters elect representatives from new districts"
+      },
+      {
+        "id": "d",
+        "text": "435 House seats are reapportioned among states"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "First the Census counts residents, then 435 seats are reapportioned among states, states draw new maps, and elections use them.",
+    "source_url": "https://www.census.gov/topics/public-sector/congressional-apportionment.html",
+    "trap_notes": {
+      "default": "Decennial cycle: Census count, seat reapportionment, state redistricting, congressional elections."
+    }
+  },
+  {
+    "id": "civics-cau-218",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Political Parties & Nominations",
+    "era": "Modern Elections",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "prompt": "Order how a major U.S. party chooses its presidential nominee:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Delegates vote formally at national convention"
+      },
+      {
+        "id": "b",
+        "text": "Candidates compete in state primaries and caucuses"
+      },
+      {
+        "id": "c",
+        "text": "Party nominee campaigns for November election"
+      },
+      {
+        "id": "d",
+        "text": "States award pledged delegates to contenders"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Candidates run in state primaries and caucuses to win pledged delegates, who nominate the candidate at the national convention.",
+    "source_url": "https://www.usa.gov/primaries-caucuses",
+    "trap_notes": {
+      "default": "Nomination flow: primaries/caucuses, delegate awards, convention vote, general election campaign."
+    }
+  },
+  {
+    "id": "civics-cau-219",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Federal Budget Process",
+    "era": "Fiscal Governance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order the annual steps to enact federal discretionary spending:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress adopts an overall budget resolution"
+      },
+      {
+        "id": "b",
+        "text": "President signs enacted appropriations bills"
+      },
+      {
+        "id": "c",
+        "text": "President submits a proposed federal budget"
+      },
+      {
+        "id": "d",
+        "text": "Appropriations committees pass spending bills"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "The President proposes a budget, Congress sets targets in a resolution, passes appropriations bills, and the President signs them.",
+    "source_url": "https://www.congress.gov/crs-product/R46240",
+    "trap_notes": {
+      "default": "Budget sequence: presidential proposal, budget resolution, appropriations bills, presidential signature."
+    }
+  },
+  {
+    "id": "civics-cau-220",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Executive-Legislative Relations",
+    "era": "Constitutional Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "prompt": "Order how a pocket veto prevents a bill from becoming law:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress adjourns before ten-day window ends"
+      },
+      {
+        "id": "b",
+        "text": "Bill dies without possibility of veto override"
+      },
+      {
+        "id": "c",
+        "text": "House and Senate send passed bill to President"
+      },
+      {
+        "id": "d",
+        "text": "President neither signs nor returns the bill"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "If Congress sends a bill and adjourns within 10 days, the President's inaction kills the bill via pocket veto with no override chance.",
+    "source_url": "https://www.senate.gov/reference/glossary_term/pocket_veto.htm",
+    "trap_notes": {
+      "default": "Pocket veto: bill sent, Congress adjourns within 10 days, President takes no action, bill dies."
+    }
+  },
+  {
+    "id": "civics-cau-221",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Foreign Policy Powers",
+    "era": "Article II Process",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order the constitutional steps to make a U.S. treaty binding:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two-thirds of Senate votes to give consent"
+      },
+      {
+        "id": "b",
+        "text": "President signs and exchanges treaty instruments"
+      },
+      {
+        "id": "c",
+        "text": "Executive branch negotiates terms with foreign state"
+      },
+      {
+        "id": "d",
+        "text": "President submits signed treaty to the Senate"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The President negotiates a treaty, submits it to the Senate for a two-thirds vote of advice and consent, and then ratifies it.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/treaties.htm",
+    "trap_notes": {
+      "default": "Treaty path: negotiate, submit to Senate, 2/3 Senate consent, presidential ratification."
+    }
+  },
+  {
+    "id": "civics-cau-222",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "War Powers",
+    "era": "1973–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8719,
+      "lng": -77.0563,
+      "label": "The Pentagon, Arlington, Virginia"
+    },
+    "prompt": "Order the timeline required by the 1973 War Powers Resolution:",
+    "options": [
+      {
+        "id": "a",
+        "text": "President notifies Congress within 48 hours"
+      },
+      {
+        "id": "b",
+        "text": "Troops must withdraw absent congressional approval"
+      },
+      {
+        "id": "c",
+        "text": "President deploys U.S. forces into hostilities"
+      },
+      {
+        "id": "d",
+        "text": "Sixty-day authorization clock runs in Congress"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "After deploying troops, the President must notify Congress within 48 hours and withdraw within 60 days unless Congress approves.",
+    "source_url": "https://www.congress.gov/crs-product/R42699",
+    "trap_notes": {
+      "default": "War Powers clock: deploy forces, 48-hour notice, 60-day limit, withdrawal without approval."
+    }
+  },
+  {
+    "id": "civics-cau-223",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Citizenship & Naturalization",
+    "era": "Immigration Law",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "label": "New York Harbor, New York"
+    },
+    "prompt": "Order the standard steps to become a naturalized U.S. citizen:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Applicant passes English and U.S. civics exams"
+      },
+      {
+        "id": "b",
+        "text": "Lawful permanent resident files N-400 petition"
+      },
+      {
+        "id": "c",
+        "text": "Applicant takes the Oath of Allegiance"
+      },
+      {
+        "id": "d",
+        "text": "USCIS conducts biometrics and background check"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "A permanent resident applies, completes biometrics and background checks, passes English and civics tests, and takes the Oath of Allegiance.",
+    "source_url": "https://www.uscis.gov/citizenship/learn-about-citizenship/the-naturalization-interview-and-test",
+    "trap_notes": {
+      "default": "Naturalization steps: N-400 application, background check, civics/English test, Oath of Allegiance."
+    }
+  },
+  {
+    "id": "civics-cau-224",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Direct Democracy",
+    "era": "State & Local Government",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "label": "Sacramento, California"
+    },
+    "prompt": "Order how a citizen ballot initiative becomes state law:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Election officials verify required signatures"
+      },
+      {
+        "id": "b",
+        "text": "Voters approve measure by majority on Election Day"
+      },
+      {
+        "id": "c",
+        "text": "Citizens draft text and gather voter signatures"
+      },
+      {
+        "id": "d",
+        "text": "State places the qualified initiative on ballot"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Citizens draft and circulate a petition, officials verify the signatures, the measure goes on the ballot, and a majority vote enacts it.",
+    "source_url": "https://www.britannica.com/topic/initiative-government",
+    "trap_notes": {
+      "default": "Initiative path: gather signatures, verify signatures, place on ballot, majority voter approval."
+    }
+  },
+  {
+    "id": "civics-cau-225",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "State & Local Accountability",
+    "era": "Direct Democracy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 43.0731,
+      "lng": -89.4012,
+      "label": "Madison, Wisconsin"
+    },
+    "prompt": "Order how voters remove a state official through a recall election:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Special election asks voters whether to remove"
+      },
+      {
+        "id": "b",
+        "text": "Organizers collect recall petition signatures"
+      },
+      {
+        "id": "c",
+        "text": "Ousted official is replaced by chosen successor"
+      },
+      {
+        "id": "d",
+        "text": "State certifies enough valid signatures for ballot"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Voters gather recall signatures, officials certify them, a special recall election is held, and a successor takes office if recalled.",
+    "source_url": "https://www.britannica.com/topic/recall-election",
+    "trap_notes": {
+      "default": "Recall steps: gather signatures, certify petition, hold recall vote, seat successor."
+    }
+  },
+  {
+    "id": "civics-cau-226",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "State Executive Power",
+    "era": "State Government",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "label": "Austin, Texas"
+    },
+    "prompt": "Order how a state governor exercises a line-item veto:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Governor strikes specific spending lines only"
+      },
+      {
+        "id": "b",
+        "text": "State legislature passes an appropriations bill"
+      },
+      {
+        "id": "c",
+        "text": "Legislature may vote to override struck items"
+      },
+      {
+        "id": "d",
+        "text": "Unvetoed parts of the budget take legal effect"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "After lawmakers pass a budget, a governor uses the line-item veto to strike parts, the rest becomes law, and lawmakers can override.",
+    "source_url": "https://www.britannica.com/topic/line-item-veto",
+    "trap_notes": {
+      "default": "Line-item veto: legislature passes budget, governor strikes items, remainder becomes law, override option."
+    }
+  },
+  {
+    "id": "civics-cau-227",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Parliamentary Systems",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.4995,
+      "lng": -0.1248,
+      "label": "Westminster, London"
+    },
+    "prompt": "Order how a no-confidence vote works in a parliamentary system:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Majority of parliament votes against government"
+      },
+      {
+        "id": "b",
+        "text": "Opposition introduces a motion of no confidence"
+      },
+      {
+        "id": "c",
+        "text": "New cabinet forms or snap election is called"
+      },
+      {
+        "id": "d",
+        "text": "Prime minister and cabinet must step down"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "After an opposition motion passes by majority vote, the prime minister and cabinet resign, triggering a new coalition or snap election.",
+    "source_url": "https://www.britannica.com/topic/vote-of-confidence",
+    "trap_notes": {
+      "default": "Parliamentary crisis: motion introduced, majority votes no confidence, cabinet resigns, new government or election."
+    }
+  },
+  {
+    "id": "civics-cau-228",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Founding Era",
+    "era": "1786–1787",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 42.1015,
+      "lng": -72.5898,
+      "label": "Springfield, Massachusetts"
+    },
+    "prompt": "Order the causal chain from Shays' Rebellion to the U.S. Constitution:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Delegates meet in Philadelphia to write charter"
+      },
+      {
+        "id": "b",
+        "text": "Indebted farmers revolt in western Massachusetts"
+      },
+      {
+        "id": "c",
+        "text": "National leaders urge stronger central authority"
+      },
+      {
+        "id": "d",
+        "text": "Confederation Congress lacks funds or troops"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Shays' Rebellion exposed Congress's inability to raise troops, convincing leaders to meet in Philadelphia and draft a new Constitution.",
+    "source_url": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "trap_notes": {
+      "default": "Causal chain: farmers revolt, Congress lacks power, leaders call for reform, Philadelphia convention."
+    }
+  },
+  {
+    "id": "civics-cau-229",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Judicial Review Origins",
+    "era": "1801–1803",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order the causal sequence in Marbury v. Madison:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Court strikes down part of Judiciary Act of 1789"
+      },
+      {
+        "id": "b",
+        "text": "Madison withholds Marbury's signed commission"
+      },
+      {
+        "id": "c",
+        "text": "Judicial review becomes binding Supreme Court power"
+      },
+      {
+        "id": "d",
+        "text": "Marbury sues directly in the Supreme Court"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "When Madison withheld his commission, Marbury sued under the Judiciary Act; Marshall voided that section and established judicial review.",
+    "source_url": "https://www.oyez.org/cases/1789-1850/5us137",
+    "trap_notes": {
+      "default": "Marbury chain: commission withheld, Marbury sues, Section 13 voided, judicial review established."
+    }
+  },
+  {
+    "id": "civics-cau-230",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Right to Counsel",
+    "era": "1961–1963",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 30.1588,
+      "lng": -85.6602,
+      "label": "Panama City, Florida"
+    },
+    "prompt": "Order how Gideon v. Wainwright reshaped state criminal trials:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Supreme Court incorporates Sixth Amendment counsel"
+      },
+      {
+        "id": "b",
+        "text": "Florida judge denies Gideon a court-appointed lawyer"
+      },
+      {
+        "id": "c",
+        "text": "States must fund public defenders for poor defendants"
+      },
+      {
+        "id": "d",
+        "text": "Gideon appeals his conviction from prison"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Denied a lawyer in Florida, Gideon petitioned the Supreme Court, which incorporated the Sixth Amendment and required state public defenders.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-gideon-v-wainwright",
+    "trap_notes": {
+      "default": "Gideon chain: lawyer denied, prison appeal, 6th Amendment incorporated, states fund public defenders."
+    }
+  },
+  {
+    "id": "civics-cau-231",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Voting Rights",
+    "era": "1965–1970s",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 32.4074,
+      "lng": -87.0211,
+      "label": "Selma, Alabama"
+    },
+    "prompt": "Order the causal impact of the Voting Rights Act of 1965:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Federal examiners register disenfranchised voters"
+      },
+      {
+        "id": "b",
+        "text": "Voting Rights Act suspends discriminatory tests"
+      },
+      {
+        "id": "c",
+        "text": "More minority officials win state and local seats"
+      },
+      {
+        "id": "d",
+        "text": "Black voter registration surges across the South"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "The 1965 Act suspended literacy tests and sent federal examiners, causing Black registration to surge and diversifying elected offices.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "default": "VRA impact: tests suspended, federal examiners sent, registration surges, elected offices diversify."
+    }
+  },
+  {
+    "id": "civics-cau-232",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Elimination of Poll Taxes",
+    "era": "1890s–1966",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 37.5407,
+      "lng": -77.436,
+      "label": "Richmond, Virginia"
+    },
+    "prompt": "Order how poll taxes were eliminated from all U.S. elections:",
+    "options": [
+      {
+        "id": "a",
+        "text": "24th Amendment bans poll taxes in federal races"
+      },
+      {
+        "id": "b",
+        "text": "Harper v. Virginia ends poll taxes in state races"
+      },
+      {
+        "id": "c",
+        "text": "Southern states adopt poll taxes to block poor voters"
+      },
+      {
+        "id": "d",
+        "text": "Financial barriers to casting ballots are removed"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "States used poll taxes until the 24th Amendment banned them in federal elections (1964) and Harper ended them in state elections (1966).",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxiv",
+    "trap_notes": {
+      "default": "Poll tax end: state poll taxes adopted, 24th Amendment (federal), Harper ruling (state), barrier removed."
+    }
+  },
+  {
+    "id": "civics-cau-233",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Bicameral Lawmaking",
+    "era": "Congressional Procedure",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order how a conference committee resolves House-Senate bill differences:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Conference committee drafts a compromise report"
+      },
+      {
+        "id": "b",
+        "text": "House and Senate pass conflicting versions of bill"
+      },
+      {
+        "id": "c",
+        "text": "President receives the unified final bill"
+      },
+      {
+        "id": "d",
+        "text": "Both chambers vote on identical compromise text"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "When House and Senate pass different bills, a conference committee blends them so both pass identical text for the President.",
+    "source_url": "https://www.congress.gov/legislative-process",
+    "trap_notes": {
+      "default": "Conference path: differing bills pass, conference compromises, both pass identical text, President receives bill."
+    }
+  },
+  {
+    "id": "civics-cau-234",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "House Floor Procedure",
+    "era": "Legislative Rules",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. House, Washington, D.C."
+    },
+    "prompt": "Order how a discharge petition forces a stalled House bill to the floor:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Majority of 218 House members sign petition"
+      },
+      {
+        "id": "b",
+        "text": "Standing committee chair refuses to advance bill"
+      },
+      {
+        "id": "c",
+        "text": "Full House debates and votes on the bill"
+      },
+      {
+        "id": "d",
+        "text": "Bill is discharged directly to House floor"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "When a committee stalls a bill, 218 House members can sign a discharge petition to pull it from committee for a full floor vote.",
+    "source_url": "https://www.congress.gov/help/learn-about-the-legislative-process/how-our-laws-are-made",
+    "trap_notes": {
+      "default": "Discharge steps: committee stalls bill, 218 members sign, bill moves to floor, full House votes."
+    }
+  },
+  {
+    "id": "civics-cau-235",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Supremacy Clause",
+    "era": "Constitutional Law",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order how the Supremacy Clause resolves federal-state legal conflicts:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Court applies Article VI Supremacy Clause"
+      },
+      {
+        "id": "b",
+        "text": "State enacts statute that conflicts with U.S. law"
+      },
+      {
+        "id": "c",
+        "text": "Congress passes valid law under Article I"
+      },
+      {
+        "id": "d",
+        "text": "Valid federal law preempts the state statute"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "When a state law conflicts with a valid federal statute, courts apply the Supremacy Clause and federal law preempts the state law.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-vi/clauses/31",
+    "trap_notes": {
+      "default": "Preemption flow: valid federal law, conflicting state law, Supremacy Clause applied, state law preempted."
+    }
+  },
+  {
+    "id": "civics-cau-236",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Fiscal Federalism",
+    "era": "Modern Federalism",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order how conditional federal grants shape state laws:",
+    "options": [
+      {
+        "id": "a",
+        "text": "State raises drinking age to keep full funding"
+      },
+      {
+        "id": "b",
+        "text": "Congress ties highway grants to drinking-age rule"
+      },
+      {
+        "id": "c",
+        "text": "Federal government disburses full highway aid"
+      },
+      {
+        "id": "d",
+        "text": "Supreme Court upholds grant condition as valid"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Congress tied highway funds to a 21 drinking age, the Court upheld the condition in South Dakota v. Dole, and states complied to keep funds.",
+    "source_url": "https://www.oyez.org/cases/1986/86-260",
+    "trap_notes": {
+      "default": "Fiscal federalism: Congress attaches condition, Court upholds power, state complies, federal funds flow."
+    }
+  },
+  {
+    "id": "civics-cau-237",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Gerrymandering",
+    "era": "Redistricting",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, Massachusetts"
+    },
+    "prompt": "Order how partisan gerrymandering reduces election competition:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mapmakers pack or crack rival party voters"
+      },
+      {
+        "id": "b",
+        "text": "General elections become less competitive"
+      },
+      {
+        "id": "c",
+        "text": "One party controls state redistricting process"
+      },
+      {
+        "id": "d",
+        "text": "Districts produce predictable safe partisan seats"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "A controlling party packs or cracks opponents when drawing maps, creating safe seats that make general elections less competitive.",
+    "source_url": "https://www.britannica.com/topic/gerrymandering",
+    "trap_notes": {
+      "default": "Gerrymander chain: party controls map, packs/cracks rivals, safe seats form, competition drops."
+    }
+  },
+  {
+    "id": "civics-cau-238",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Independent Regulatory Agencies",
+    "era": "Administrative State",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order how an independent regulatory commission enforces federal standards:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Commission investigates alleged rule violations"
+      },
+      {
+        "id": "b",
+        "text": "Congress establishes independent regulatory board"
+      },
+      {
+        "id": "c",
+        "text": "Commission imposes civil fines or cease orders"
+      },
+      {
+        "id": "d",
+        "text": "Board issues safety or market compliance rules"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Congress creates an independent commission, which writes industry rules, investigates violations, and issues penalties.",
+    "source_url": "https://www.usa.gov/agency-index",
+    "trap_notes": {
+      "default": "Regulatory cycle: Congress creates board, board writes rules, investigates breaches, imposes penalties."
+    }
+  },
+  {
+    "id": "civics-cau-239",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Government Transparency",
+    "era": "1966–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order how a citizen obtains records under the Freedom of Information Act:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agency searches files for responsive records"
+      },
+      {
+        "id": "b",
+        "text": "Requester receives non-exempt public documents"
+      },
+      {
+        "id": "c",
+        "text": "Citizen or journalist submits written FOIA request"
+      },
+      {
+        "id": "d",
+        "text": "Agency redacts classified or private exemptions"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "A requester files a FOIA request, the agency locates responsive records, redacts statutory exemptions, and releases the rest.",
+    "source_url": "https://www.foia.gov/how-to.html",
+    "trap_notes": {
+      "default": "FOIA process: request filed, records searched, exemptions redacted, documents released."
+    }
+  },
+  {
+    "id": "civics-cau-240",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Habeas Corpus",
+    "era": "Constitutional Rights",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order how a writ of habeas corpus challenges unlawful detention:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jailer must bring detainee and show legal cause"
+      },
+      {
+        "id": "b",
+        "text": "Judge orders release if detention lacks lawful basis"
+      },
+      {
+        "id": "c",
+        "text": "Detained person petitions a court for a writ"
+      },
+      {
+        "id": "d",
+        "text": "Government holds an individual in custody"
+      }
+    ],
+    "answer": [
+      "d",
+      "c",
+      "a",
+      "b"
+    ],
+    "explanation": "A detained person petitions for habeas corpus, forcing officials to justify custody in court or release the prisoner.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/763",
+    "trap_notes": {
+      "default": "Habeas flow: person detained, writ petitioned, jailer justifies custody, judge orders release if unlawful."
+    }
+  },
+  {
+    "id": "civics-cau-241",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Electoral College Reform",
+    "era": "1800–1804",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order the causal chain from the 1800 election to the 12th Amendment:",
+    "options": [
+      {
+        "id": "a",
+        "text": "House breaks deadlock after 36 ballots"
+      },
+      {
+        "id": "b",
+        "text": "12th Amendment separates presidential and VP votes"
+      },
+      {
+        "id": "c",
+        "text": "Jefferson and Burr tie in electoral votes"
+      },
+      {
+        "id": "d",
+        "text": "Congress proposes reform to prevent ticket ties"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "The 1800 tie between Jefferson and Burr forced 36 House ballots, prompting the nation to adopt separate ballots via the 12th Amendment.",
+    "source_url": "https://www.archives.gov/milestone-documents/12th-amendment",
+    "trap_notes": {
+      "default": "1800 crisis: Jefferson-Burr tie, 36 House ballots, reform proposed, 12th Amendment ratified."
+    }
+  },
+  {
+    "id": "civics-cau-242",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Constitutional Convention",
+    "era": "1787",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Order how the Great Compromise broke the 1787 convention deadlock:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Connecticut delegates propose two-house Congress"
+      },
+      {
+        "id": "b",
+        "text": "Large and small states clash over representation"
+      },
+      {
+        "id": "c",
+        "text": "Convention adopts House by population, equal Senate"
+      },
+      {
+        "id": "d",
+        "text": "Virginia and New Jersey Plans stall in debate"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Clashes between the Virginia and New Jersey Plans led Connecticut delegates to propose a bicameral compromise that the convention adopted.",
+    "source_url": "https://www.senate.gov/about/origins-foundations/idea-of-the-senate/1787ConnecticutCompromise.htm",
+    "trap_notes": {
+      "default": "1787 sequence: state clash, rival plans stall, Connecticut proposal, bicameral Congress adopted."
+    }
+  },
+  {
+    "id": "civics-cau-243",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Executive-Legislative Bargaining",
+    "era": "Modern Governance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "prompt": "Order how a presidential veto threat shapes a bill before passage:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lawmakers revise contested provisions in bill"
+      },
+      {
+        "id": "b",
+        "text": "White House signals opposition to draft bill"
+      },
+      {
+        "id": "c",
+        "text": "President signs the compromised legislation"
+      },
+      {
+        "id": "d",
+        "text": "Bill advances in congressional committee"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "When a bill advances, a presidential veto threat pushes lawmakers to modify contested clauses so the final bill earns a signature.",
+    "source_url": "https://www.congress.gov/legislative-process",
+    "trap_notes": {
+      "default": "Bargaining flow: bill advances, veto threat issued, bill amended, President signs compromise."
+    }
+  },
+  {
+    "id": "civics-cau-244",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Local Government",
+    "era": "State & Local Governance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "label": "Denver, Colorado"
+    },
+    "prompt": "Order how a city gains local self-governance under a home-rule charter:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Local voters adopt a municipal home-rule charter"
+      },
+      {
+        "id": "b",
+        "text": "City council passes local zoning and ordinances"
+      },
+      {
+        "id": "c",
+        "text": "State constitution authorizes municipal home rule"
+      },
+      {
+        "id": "d",
+        "text": "City manages local services without state bills"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Once a state authorizes home rule, local voters adopt a charter, empowering the city council to pass ordinances and run local services.",
+    "source_url": "https://www.britannica.com/topic/home-rule",
+    "trap_notes": {
+      "default": "Home rule chain: state authorization, voter-adopted charter, local ordinances, self-managed services."
+    }
+  },
+  {
+    "id": "civics-cau-245",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Foreign Policy Tools",
+    "era": "International Relations",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8949,
+      "lng": -77.049,
+      "label": "U.S. Department of State, Washington, D.C."
+    },
+    "prompt": "Order how economic sanctions operate as a nonmilitary foreign policy tool:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Target country faces trade and currency strain"
+      },
+      {
+        "id": "b",
+        "text": "U.S. freezes assets and restricts trade ties"
+      },
+      {
+        "id": "c",
+        "text": "Target regime violates international norms"
+      },
+      {
+        "id": "d",
+        "text": "Target enters talks to ease economic pressure"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "After a regime violates norms, sanctions freeze assets and trade, creating economic strain that pressures the target to negotiate.",
+    "source_url": "https://www.state.gov/economic-sanctions-policy-and-implementation/",
+    "trap_notes": {
+      "default": "Sanctions chain: norm violation, asset/trade freeze, economic strain, diplomatic talks."
+    }
+  },
+  {
+    "id": "civics-cmp-216",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Primary Systems",
+    "era": "Modern Elections",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 42.9956,
+      "lng": -71.4548,
+      "label": "Manchester, New Hampshire"
+    },
+    "compareSpec": {
+      "leftLabel": "Closed Primary",
+      "rightLabel": "Open Primary",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Only registered party members may vote",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Prevents rival-party crossover voting",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Any registered voter chooses a party ballot",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Allows independent voters to participate",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each primary rule into Closed Primary or Open Primary.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Closed primaries restrict voting to registered party members; open primaries let any registered voter pick a party ballot.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/state-primary-election-types",
+    "trap_notes": {
+      "default": "Closed primaries require prior party registration; open primaries let independents and others choose a ballot."
+    }
+  },
+  {
+    "id": "civics-cmp-217",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Fiscal Federalism",
+    "era": "Modern Federalism",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Categorical Grants",
+      "rightLabel": "Block Grants",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Restricted to narrow, specific projects",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Include strict federal spending rules",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Support broad policy areas like health",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Give states wide spending discretion",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each federal grant feature into Categorical Grants or Block Grants.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Categorical grants fund specific purposes with strict rules; block grants give states broad discretion within wide policy areas.",
+    "source_url": "https://www.congress.gov/crs-product/R40486",
+    "trap_notes": {
+      "default": "Categorical grants have narrow rules; block grants give states broad flexibility."
+    }
+  },
+  {
+    "id": "civics-cmp-218",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Federal Judiciary",
+    "era": "Court Structure",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "U.S. District Courts",
+      "rightLabel": "U.S. Courts of Appeals",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Hold jury trials and hear witnesses",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Presided over by a single trial judge",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Hear cases in three-judge panels",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Review trial records for legal errors",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each federal court trait into U.S. District Courts or U.S. Courts of Appeals.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "District courts are single-judge trial courts with juries; circuit courts of appeals sit in three-judge panels to review legal errors.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+    "trap_notes": {
+      "default": "District courts hold trials with juries; appellate courts use three-judge panels to review records."
+    }
+  },
+  {
+    "id": "civics-cmp-219",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Political Ideologies",
+    "era": "Modern Politics",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Modern American Liberalism",
+      "rightLabel": "Modern American Conservatism",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Favors broader social safety-net programs",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Backs active federal market regulation",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Favors lower taxes and deregulation",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Emphasizes traditional social institutions",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each policy stance into Modern American Liberalism or Conservatism.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Modern liberalism favors active federal regulation and social programs; conservatism favors lower taxes, deregulation, and tradition.",
+    "source_url": "https://www.britannica.com/topic/political-spectrum",
+    "trap_notes": {
+      "default": "Liberalism backs regulation and social programs; conservatism backs lower taxes and traditional institutions."
+    }
+  },
+  {
+    "id": "civics-cmp-220",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Electoral Systems",
+    "era": "Comparative Politics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "label": "Berlin, Germany"
+    },
+    "compareSpec": {
+      "leftLabel": "Winner-Take-All Districts",
+      "rightLabel": "Proportional Representation",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Single top candidate wins entire district",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Tends to reinforce a two-party system",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Seats match each party's vote share",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Encourages multiparty coalition cabinets",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each electoral trait into Winner-Take-All Districts or Proportional Representation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Winner-take-all districts favor two major parties; proportional representation awards seats by vote share and fosters coalitions.",
+    "source_url": "https://www.britannica.com/topic/proportional-representation",
+    "trap_notes": {
+      "default": "Winner-take-all favors two parties; proportional representation mirrors vote share and aids smaller parties."
+    }
+  },
+  {
+    "id": "civics-cmp-221",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Models of Representation",
+    "era": "Legislative Theory",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Delegate Model",
+      "rightLabel": "Trustee Model",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Votes strictly as constituents prefer",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Mirrors district opinion polls closely",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Uses personal judgment on complex bills",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "May vote against short-term local opinion",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each legislative behavior into Delegate Model or Trustee Model.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A delegate follows constituents' direct wishes; a trustee relies on independent judgment for the broader public good.",
+    "source_url": "https://www.britannica.com/topic/representation-government",
+    "trap_notes": {
+      "default": "Delegates mirror voter wishes; trustees rely on their own judgment."
+    }
+  },
+  {
+    "id": "civics-cmp-222",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Judicial Writs",
+    "era": "Constitutional Law",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Writ of Certiorari",
+      "rightLabel": "Writ of Habeas Corpus",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Orders a lower court to send case records",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Granted when four justices agree",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Orders a jailer to justify holding a prisoner",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Protected in Article I against suspension",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each legal feature into Writ of Certiorari or Writ of Habeas Corpus.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Certiorari brings a lower-court case up for Supreme Court review; habeas corpus challenges unlawful physical detention.",
+    "source_url": "https://www.uscourts.gov/glossary",
+    "trap_notes": {
+      "default": "Certiorari calls up appellate records; habeas corpus challenges unlawful detention."
+    }
+  },
+  {
+    "id": "civics-cmp-223",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "First Amendment Religion",
+    "era": "Bill of Rights",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Establishment Clause",
+      "rightLabel": "Free Exercise Clause",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Bars creating an official church",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Forbids state-authored public school prayer",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Protects individuals' right to worship freely",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Shields sincere religious practice from bans",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each protection into Establishment Clause or Free Exercise Clause.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The Establishment Clause stops government from endorsing religion; the Free Exercise Clause protects individuals' religious practice.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-i",
+    "trap_notes": {
+      "default": "Establishment bars state-sponsored religion; Free Exercise protects personal worship and practice."
+    }
+  },
+  {
+    "id": "civics-cmp-224",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Models of Federalism",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Dual Federalism",
+      "rightLabel": "Cooperative Federalism",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Divides spheres like a layer cake",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Prevailed across most of the 19th century",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Blends roles like a marble cake",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Expanded rapidly during the 1930s New Deal",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each federalism trait into Dual Federalism or Cooperative Federalism.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Dual federalism kept federal and state spheres separate; cooperative federalism blended them through shared programs since the New Deal.",
+    "source_url": "https://www.britannica.com/topic/cooperative-federalism",
+    "trap_notes": {
+      "default": "Dual = layer cake (19th century); Cooperative = marble cake (New Deal onward)."
+    }
+  },
+  {
+    "id": "civics-cmp-225",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Congressional Rules",
+    "era": "Legislative Procedure",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "House Rules Committee",
+      "rightLabel": "Senate Filibuster",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Sets strict time limits on floor debate",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Decides whether floor amendments are allowed",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Allows minority senators to extend debate",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Requires 60 votes under Rule XXII to end",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each legislative mechanism into House Rules Committee or Senate Filibuster.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The House Rules Committee controls debate time and amendments; the Senate filibuster lets senators extend debate unless 60 invoke cloture.",
+    "source_url": "https://www.congress.gov/legislative-process",
+    "trap_notes": {
+      "default": "House Rules Committee limits debate; Senate filibuster extends debate until 60-vote cloture."
+    }
+  },
+  {
+    "id": "civics-cmp-226",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Campaign Finance",
+    "era": "Modern Elections",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Direct Candidate Contributions",
+      "rightLabel": "Super PAC Spending",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Subject to strict per-election dollar caps",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Paid directly to a candidate's campaign",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "May raise unlimited sums from corporations",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Cannot coordinate ads with a candidate",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each rule into Direct Candidate Contributions or Super PAC Spending.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Direct campaign donations face strict FEC dollar limits; Super PACs raise unlimited sums but must act independently of candidates.",
+    "source_url": "https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/",
+    "trap_notes": {
+      "default": "Direct donations are capped by law; Super PACs are unlimited but barred from coordinating."
+    }
+  },
+  {
+    "id": "civics-cmp-227",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Foreign Policy Instruments",
+    "era": "Constitutional Law",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Formal Treaty",
+      "rightLabel": "Executive Agreement",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Requires two-thirds Senate consent",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Explicitly outlined in Article II text",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Signed by President without Senate vote",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Can be reversed by a later President",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each foreign-policy pact into Formal Treaty or Executive Agreement.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Article II treaties require two-thirds Senate approval; executive agreements are presidential pacts that do not need Senate consent.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/treaties.htm",
+    "trap_notes": {
+      "default": "Treaties need 2/3 of the Senate; executive agreements do not and can be undone by a future President."
+    }
+  },
+  {
+    "id": "civics-cmp-228",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Municipal Government",
+    "era": "Local Governance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "compareSpec": {
+      "leftLabel": "Mayor-Council System",
+      "rightLabel": "Council-Manager System",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Elected mayor serves as chief executive",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Separates executive and council powers",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "City council hires a professional manager",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Appointed administrator runs daily services",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each city-government feature into Mayor-Council or Council-Manager System.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mayor-council cities elect a chief executive mayor; council-manager cities hire a professional city manager to run operations.",
+    "source_url": "https://www.nlc.org/resource/forms-of-municipal-government/",
+    "trap_notes": {
+      "default": "Mayor-council uses an elected executive mayor; council-manager hires a professional administrator."
+    }
+  },
+  {
+    "id": "civics-cmp-229",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Voting Rules",
+    "era": "Elections",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 33.749,
+      "lng": -84.388,
+      "label": "Atlanta, Georgia"
+    },
+    "compareSpec": {
+      "leftLabel": "Plurality Voting",
+      "rightLabel": "Majority Runoff Voting",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Candidate with the most votes wins outright",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Winner can take office under 50 percent",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Requires winning more than half of votes",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Holds a second round if no one hits 50%",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each election rule into Plurality Voting or Majority Runoff Voting.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Plurality elections award victory to the highest vote-getter even under 50%; majority runoff systems require over 50% of votes.",
+    "source_url": "https://www.britannica.com/topic/plurality-system",
+    "trap_notes": {
+      "default": "Plurality = most votes wins; Majority runoff = over 50% required, or top two face a runoff."
+    }
+  },
+  {
+    "id": "civics-cmp-230",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Judicial Philosophy",
+    "era": "Constitutional Law",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Judicial Activism",
+      "rightLabel": "Judicial Restraint",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Readily strikes down elected-branch laws",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Willingly overturns older court precedents",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Defers heavily to legislative policy choices",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Adheres closely to stare decisis precedent",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each judicial approach into Judicial Activism or Judicial Restraint.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Judicial activism is willing to void laws and precedent to protect rights; judicial restraint defers to lawmakers and precedent.",
+    "source_url": "https://www.britannica.com/topic/judicial-activism",
+    "trap_notes": {
+      "default": "Activism voids laws and precedents more readily; restraint defers to legislatures and stare decisis."
+    }
+  }
+]

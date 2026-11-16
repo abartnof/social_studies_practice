@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "world-ord-101",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 3200–539 BCE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.5422, "lng": 44.421, "label": "Babylon, Mesopotamia" },
+    "prompt": "Order these ancient Near Eastern milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Shang priests carve questions on oracle bones" },
+      { "id": "b", "text": "Sumerians press early cuneiform into clay" },
+      { "id": "c", "text": "Cyrus the Great issues his clay cylinder in Babylon" },
+      { "id": "d", "text": "Hammurabi posts his stone law stele" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Sumerian cuneiform came first, followed by Hammurabi's Code, Shang oracle bones, and Cyrus's Cylinder.",
+    "fun_fact": "The Cyrus Cylinder from 539 BCE records Cyrus allowing displaced peoples to return home and rebuild temples.",
+    "source_url": "https://www.britannica.com/topic/cuneiform",
+    "trap_notes": {
+      "default": "Order: Sumerian cuneiform (c. 3200 BCE), Hammurabi (c. 1750 BCE), Shang (c. 1200 BCE), Cyrus (539 BCE)."
+    }
+  },
+  {
+    "id": "world-ord-102",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "550–27 BCE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "prompt": "Order these classical Mediterranean milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Augustus becomes the first Roman emperor" },
+      { "id": "b", "text": "Athenians complete the Parthenon on the Acropolis" },
+      { "id": "c", "text": "Cyrus the Great founds the Achaemenid Persian Empire" },
+      { "id": "d", "text": "Alexander the Great leads armies to the Indus River" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Persia rose in 550 BCE, Athens built the Parthenon in the 440s BCE, Alexander marched in 326 BCE, and Augustus ruled in 27 BCE.",
+    "fun_fact": "Alexander named over twenty cities after himself, though Alexandria in Egypt became the most famous.",
+    "source_url": "https://www.britannica.com/place/ancient-Greece",
+    "trap_notes": {
+      "default": "Order: Cyrus (550 BCE), Parthenon (438 BCE), Alexander (326 BCE), Augustus (27 BCE)."
+    }
+  },
+  {
+    "id": "world-ord-103",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 500 BCE–550 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.5941, "lng": 85.1376, "label": "Pataliputra, India" },
+    "prompt": "Order these classical Asian milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Gupta mathematicians formalize zero in base-10 math" },
+      { "id": "b", "text": "Qin Shi Huang unifies China's warring states" },
+      { "id": "c", "text": "Ashoka carves Buddhist edicts on stone pillars" },
+      { "id": "d", "text": "Siddhartha Gautama teaches the Four Noble Truths" }
+    ],
+    "answer": ["d", "c", "b", "a"],
+    "explanation": "The Buddha taught around 500 BCE, Ashoka ruled c. 268 BCE, Qin unified China in 221 BCE, and Gupta math peaked c. 450 CE.",
+    "fun_fact": "Ashoka's stone pillars are the earliest deciphered written inscriptions in South Asia.",
+    "source_url": "https://www.britannica.com/biography/Ashoka",
+    "trap_notes": {
+      "default": "Order: Buddha (c. 500 BCE), Ashoka (c. 260 BCE), Qin (221 BCE), Gupta (c. 450 CE)."
+    }
+  },
+  {
+    "id": "world-ord-104",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "World Religions",
+    "era": "313–1054 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 21.4225, "lng": 39.8262, "label": "Mecca, Saudi Arabia" },
+    "prompt": "Order these religious history milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Eastern Orthodox and Catholic Churches split" },
+      { "id": "b", "text": "Constantine issues the Edict of Milan for Christians" },
+      { "id": "c", "text": "Muhammad leads the Hijra from Mecca to Medina" },
+      { "id": "d", "text": "Tang China restricts foreign Buddhist monasteries" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Rome legalized Christianity in 313, the Hijra took place in 622, Tang restrictions hit in 845, and the Great Schism occurred in 1054.",
+    "fun_fact": "The Hijra in 622 CE marks Year 1 of the Islamic lunar calendar.",
+    "source_url": "https://www.britannica.com/event/Great-Schism",
+    "trap_notes": {
+      "default": "Order: Edict of Milan (313), Hijra (622), Tang suppression (845), Great Schism (1054)."
+    }
+  },
+  {
+    "id": "world-ord-105",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "East Asian History",
+    "era": "138 BCE–1405 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Xi'an, China" },
+    "prompt": "Order these imperial Chinese milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Zheng He launches Ming treasure fleets" },
+      { "id": "b", "text": "Song merchants adopt government paper money" },
+      { "id": "c", "text": "Han envoy Zhang Qian opens Central Asian routes" },
+      { "id": "d", "text": "Tang Chang'an thrives as a Silk Road hub" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "Han Zhang Qian traveled west in 138 BCE, Tang peaked in the 700s, Song paper money rose in the 1020s, and Zheng He sailed in 1405.",
+    "fun_fact": "Han, Tang, Song, and Ming form one of the core dynastic sequences tested on world history exams.",
+    "source_url": "https://www.britannica.com/topic/China/History",
+    "trap_notes": {
+      "default": "Dynastic order: Han (138 BCE), Tang (700s CE), Song (1020s CE), Ming (1405 CE)."
+    }
+  },
+  {
+    "id": "world-ord-106",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Islamic Golden Age",
+    "era": "632–1258 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.3152, "lng": 44.3661, "label": "Baghdad, Iraq" },
+    "prompt": "Order these Islamic history milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Abbasids build Baghdad as their new capital" },
+      { "id": "b", "text": "Umayyad armies cross into the Iberian Peninsula" },
+      { "id": "c", "text": "Mongol forces under Hulagu sack Baghdad" },
+      { "id": "d", "text": "Al-Khwarizmi writes his foundational algebra text" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Umayyads entered Spain in 711, Abbasids founded Baghdad in 762, al-Khwarizmi wrote around 820, and Mongols sacked Baghdad in 1258.",
+    "fun_fact": "Al-Khwarizmi's name was Latinized as Algoritmi, giving us the modern word algorithm.",
+    "source_url": "https://www.britannica.com/topic/Abbasid-caliphate",
+    "trap_notes": {
+      "default": "Order: Umayyad Spain (711), Baghdad founded (762), Algebra (c. 820), Mongol sack (1258)."
+    }
+  },
+  {
+    "id": "world-ord-107",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Afro-Eurasian Trade",
+    "era": "c. 800–1591 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "prompt": "Order these West African empire milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Sundiata Keita founds the Mali Empire" },
+      { "id": "b", "text": "Moroccan musketeers defeat Songhai at Tondibi" },
+      { "id": "c", "text": "Ghana kings tax gold-salt caravans at Kumbi Saleh" },
+      { "id": "d", "text": "Askia Muhammad expands Songhai scholarship" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Ghana peaked first around 1000, Mali rose in 1235, Askia Muhammad ruled Songhai around 1500, and Morocco defeated Songhai in 1591.",
+    "fun_fact": "The sequence of major Sahelian empires is always Ghana, then Mali, then Songhai.",
+    "source_url": "https://www.britannica.com/place/Songhai-empire",
+    "trap_notes": {
+      "default": "Order: Ghana (c. 1000), Mali founded (1235), Askia Muhammad (1493), Tondibi (1591)."
+    }
+  },
+  {
+    "id": "world-ord-108",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Mongol Empire",
+    "era": "1206–1279 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "Order these Mongol Empire milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Kublai Khan completes conquest of Southern Song" },
+      { "id": "b", "text": "Temujin takes the title Genghis Khan" },
+      { "id": "c", "text": "Batu's Golden Horde invades Rus principalities" },
+      { "id": "d", "text": "Mongol armies capture Jin capital Zhongdu" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Genghis Khan united tribes in 1206, took Zhongdu in 1215, Batu invaded Rus in 1237, and Kublai defeated Song China in 1279.",
+    "fun_fact": "After 1279, Kublai Khan became the first non-Chinese ruler to govern all of China.",
+    "source_url": "https://www.britannica.com/place/Mongol-empire",
+    "trap_notes": {
+      "default": "Order: Genghis Khan (1206), Zhongdu (1215), Rus invasion (1237), Southern Song fall (1279)."
+    }
+  },
+  {
+    "id": "world-ord-109",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Medieval Europe",
+    "era": "800–1348 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, England" },
+    "prompt": "Order these medieval European milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "English barons seal the Magna Carta with King John" },
+      { "id": "b", "text": "Pope Leo III crowns Charlemagne emperor" },
+      { "id": "c", "text": "The Black Death arrives in Mediterranean ports" },
+      { "id": "d", "text": "Pope Urban II calls for the First Crusade" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Charlemagne was crowned in 800, the First Crusade began in 1095, Magna Carta was sealed in 1215, and plague hit in 1347.",
+    "fun_fact": "Magna Carta's clause 39 promised free men judgment by peers or the law of the land.",
+    "source_url": "https://www.britannica.com/topic/Magna-Carta",
+    "trap_notes": {
+      "default": "Order: Charlemagne (800), First Crusade (1095), Magna Carta (1215), Black Death (1347)."
+    }
+  },
+  {
+    "id": "world-ord-110",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Pre-Columbian Americas",
+    "era": "c. 1200 BCE–1470 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 17.222, "lng": -89.6237, "label": "Tikal, Guatemala" },
+    "prompt": "Order these Pre-Columbian American milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Mexica settlers found Tenochtitlan on Lake Texcoco" },
+      { "id": "b", "text": "Classic Maya kings raise stone stelae at Tikal" },
+      { "id": "c", "text": "Inca ruler Pachacuti expands Andean empire" },
+      { "id": "d", "text": "Olmec artisans carve colossal basalt heads" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Olmec civilization thrived c. 1200–400 BCE, Classic Maya peaked 250–900 CE, Tenochtitlan began in 1325, and Pachacuti ruled in 1438.",
+    "fun_fact": "The Olmec are often called Mesoamerica's mother culture for their calendar, ballgame, and art.",
+    "source_url": "https://www.britannica.com/topic/Olmec",
+    "trap_notes": {
+      "default": "Order: Olmec (c. 1000 BCE), Classic Maya (c. 600 CE), Tenochtitlan (1325), Pachacuti (1438)."
+    }
+  },
+  {
+    "id": "world-ord-111",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Renaissance & Reformation",
+    "era": "1450–1563 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 50.0, "lng": 8.271, "label": "Mainz, Germany" },
+    "prompt": "Order these early modern European milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Martin Luther posts his Ninety-five Theses" },
+      { "id": "b", "text": "Gutenberg prints Bibles with metal movable type" },
+      { "id": "c", "text": "The Catholic Council of Trent meets to reform church rules" },
+      { "id": "d", "text": "Columbus makes landfall in the Caribbean" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Gutenberg's press appeared c. 1450, Columbus sailed in 1492, Luther challenged indulgences in 1517, and Trent opened in 1545.",
+    "fun_fact": "Within 50 years of Gutenberg's press, European printers had produced an estimated 20 million books.",
+    "source_url": "https://www.britannica.com/biography/Johannes-Gutenberg",
+    "trap_notes": {
+      "default": "Order: Gutenberg (c. 1450), Columbus (1492), Luther (1517), Council of Trent (1545)."
+    }
+  },
+  {
+    "id": "world-ord-112",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1453–1648 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 27.1751, "lng": 78.0421, "label": "Agra, India" },
+    "prompt": "Order these Gunpowder Empire milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Shah Ismail I establishes the Safavid Empire in Iran" },
+      { "id": "b", "text": "Shah Jahan completes the Taj Mahal in Agra" },
+      { "id": "c", "text": "Babur wins at Panipat to found the Mughal Empire" },
+      { "id": "d", "text": "Ottoman cannons breach Constantinople's walls" }
+    ],
+    "answer": ["d", "a", "c", "b"],
+    "explanation": "Constantinople fell in 1453, Safavids rose in 1501, Babur founded the Mughal Empire in 1526, and the Taj Mahal finished in 1648.",
+    "fun_fact": "All three empires—Ottoman, Safavid, and Mughal—used heavy bronze cannons and muskets to expand.",
+    "source_url": "https://www.britannica.com/topic/Mughal-dynasty",
+    "trap_notes": {
+      "default": "Order: Constantinople (1453), Safavids (1501), Babur (1526), Taj Mahal (1648)."
+    }
+  },
+  {
+    "id": "world-ord-113",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Age of Exploration",
+    "era": "1488–1602 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.7223, "lng": -9.1393, "label": "Lisbon, Portugal" },
+    "prompt": "Order these maritime exploration milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Dutch merchants form the East India Company" },
+      { "id": "b", "text": "Magellan's expedition starts circling the globe" },
+      { "id": "c", "text": "Bartolomeu Dias rounds Africa's southern cape" },
+      { "id": "d", "text": "Vasco da Gama reaches Calicut in India" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "Dias rounded the Cape in 1488, da Gama reached India in 1498, Magellan sailed in 1519, and the Dutch VOC formed in 1602.",
+    "fun_fact": "Only one of Magellan's five ships, the Victoria, completed the first circumnavigation in 1522.",
+    "source_url": "https://www.britannica.com/biography/Vasco-da-Gama",
+    "trap_notes": {
+      "default": "Order: Dias (1488), da Gama (1498), Magellan (1519), Dutch VOC (1602)."
+    }
+  },
+  {
+    "id": "world-ord-114",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Scientific Revolution",
+    "era": "1543–1748 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, England" },
+    "prompt": "Order these Scientific Revolution and Enlightenment works earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Newton publishes Principia on gravity and motion" },
+      { "id": "b", "text": "Montesquieu writes The Spirit of the Laws" },
+      { "id": "c", "text": "Copernicus publishes his sun-centered universe book" },
+      { "id": "d", "text": "Galileo defends heliocentrism in his Dialogue" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Copernicus published in 1543, Galileo's Dialogue appeared in 1632, Newton's Principia in 1687, and Montesquieu in 1748.",
+    "fun_fact": "Newton wrote much of his early calculus and optics work while Cambridge was closed for plague in 1665–1666.",
+    "source_url": "https://www.britannica.com/biography/Isaac-Newton",
+    "trap_notes": {
+      "default": "Order: Copernicus (1543), Galileo (1632), Newton (1687), Montesquieu (1748)."
+    }
+  },
+  {
+    "id": "world-ord-115",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Atlantic Revolutions",
+    "era": "1776–1821 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 10.4806, "lng": -66.9036, "label": "Caracas, Venezuela" },
+    "prompt": "Order these Atlantic Revolution milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Haiti declares independence as a free republic" },
+      { "id": "b", "text": "Parisians storm the Bastille fortress" },
+      { "id": "c", "text": "American colonists adopt the Declaration of Independence" },
+      { "id": "d", "text": "Simon Bolivar helps liberate Gran Colombia" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "U.S. independence came in 1776, the Bastille fell in 1789, Haiti won freedom in 1804, and Bolivar secured Gran Colombia in 1819–1821.",
+    "fun_fact": "Haiti's 1804 declaration made it the second independent nation in the Americas, right after the United States.",
+    "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+    "trap_notes": {
+      "default": "Order: U.S. (1776), Bastille (1789), Haiti (1804), Gran Colombia (1819–1821)."
+    }
+  },
+  {
+    "id": "world-ord-116",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "1769–1885 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 53.4084, "lng": -2.9916, "label": "Liverpool, England" },
+    "prompt": "Order these Industrial Revolution breakthroughs earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Henry Bessemer patents cheap mass steelmaking" },
+      { "id": "b", "text": "Karl Benz builds a gasoline-powered automobile" },
+      { "id": "c", "text": "James Watt patents his separate-condenser steam engine" },
+      { "id": "d", "text": "Stephenson's Rocket runs on the Liverpool rail line" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Watt's patent came in 1769, Stephenson's Rocket won in 1829, Bessemer steel arrived in 1856, and Benz's car ran in 1885.",
+    "fun_fact": "Bertha Benz made the first long-distance car trip in 1888 without telling her husband, buying fuel at pharmacies.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "default": "Order: Watt (1769), Rocket train (1829), Bessemer steel (1856), Benz car (1885)."
+    }
+  },
+  {
+    "id": "world-ord-117",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "19th-Century East Asia",
+    "era": "1839–1895 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Order these 19th-century East Asian events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Meiji reformers end Tokugawa shogunate rule" },
+      { "id": "b", "text": "Qing China fights Britain in the First Opium War" },
+      { "id": "c", "text": "Japan defeats Qing China in the First Sino-Japanese War" },
+      { "id": "d", "text": "Commodore Perry's U.S. warships enter Edo Bay" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The First Opium War ran 1839–1842, Perry arrived in 1853, the Meiji Restoration happened in 1868, and Japan won in 1895.",
+    "fun_fact": "Japan's rapid 27-year rise from 1868 to 1895 stunned Western powers who expected Qing China to win.",
+    "source_url": "https://www.britannica.com/event/Meiji-Restoration",
+    "trap_notes": {
+      "default": "Order: Opium War (1839), Perry (1853), Meiji (1868), Sino-Japanese War (1894–1895)."
+    }
+  },
+  {
+    "id": "world-ord-118",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "New Imperialism",
+    "era": "1857–1896 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 14.1667, "lng": 38.9, "label": "Adwa, Ethiopia" },
+    "prompt": "Order these 19th-century imperialism milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Ethiopia defeats Italy at the Battle of Adwa" },
+      { "id": "b", "text": "European powers meet at the Berlin Conference" },
+      { "id": "c", "text": "Egypt opens the Suez Canal linking two seas" },
+      { "id": "d", "text": "Indian soldiers rise in the 1857 Sepoy Rebellion" }
+    ],
+    "answer": ["d", "c", "b", "a"],
+    "explanation": "The Sepoy Rebellion erupted in 1857, the Suez Canal opened in 1869, Berlin met in 1884, and Ethiopia won at Adwa in 1896.",
+    "fun_fact": "Ethiopia's 1896 victory under Menelik II kept it independent during the Scramble for Africa.",
+    "source_url": "https://www.britannica.com/event/Battle-of-Adwa",
+    "trap_notes": {
+      "default": "Order: Sepoy Rebellion (1857), Suez Canal (1869), Berlin (1884), Adwa (1896)."
+    }
+  },
+  {
+    "id": "world-ord-119",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "20th-Century Revolutions",
+    "era": "1911–1923 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9334, "lng": 32.8597, "label": "Ankara, Turkey" },
+    "prompt": "Order these early 20th-century revolutions earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Bolsheviks seize power in Russia's October Revolution" },
+      { "id": "b", "text": "Mustafa Kemal Ataturk proclaims the Republic of Turkey" },
+      { "id": "c", "text": "China's Xinhai Revolution topples the Qing Dynasty" },
+      { "id": "d", "text": "Mexico adopts its reformist 1917 Constitution" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "China's Xinhai began in 1911, Mexico's constitution came in Feb 1917, Russia's Bolsheviks struck in Oct 1917, and Turkey formed in 1923.",
+    "fun_fact": "Mexico's 1917 Constitution came in February, eight months before Lenin's October Revolution in Russia.",
+    "source_url": "https://www.britannica.com/biography/Kemal-Ataturk",
+    "trap_notes": {
+      "default": "Order: Xinhai (1911), Mexican Constitution (Feb 1917), Bolsheviks (Oct 1917), Turkey (1923)."
+    }
+  },
+  {
+    "id": "world-ord-120",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "World War I",
+    "era": "1914–1919 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8049, "lng": 2.1204, "label": "Versailles, France" },
+    "prompt": "Order these World War I milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Russia signs the Treaty of Brest-Litovsk to exit" },
+      { "id": "b", "text": "Allies and Germany sign the Treaty of Versailles" },
+      { "id": "c", "text": "Archduke Franz Ferdinand is assassinated in Sarajevo" },
+      { "id": "d", "text": "British and French forces fight at the Somme" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Sarajevo happened in June 1914, the Somme in 1916, Brest-Litovsk in March 1918, and Versailles in June 1919.",
+    "fun_fact": "Tanks were used in battle for the first time by Britain during the 1916 Somme offensive.",
+    "source_url": "https://www.britannica.com/event/Treaty-of-Versailles-1919",
+    "trap_notes": {
+      "default": "Order: Sarajevo (1914), Somme (1916), Brest-Litovsk (Mar 1918), Versailles (Jun 1919)."
+    }
+  },
+  {
+    "id": "world-ord-121",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Interwar Era",
+    "era": "1929–1938 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.1351, "lng": 11.582, "label": "Munich, Germany" },
+    "prompt": "Order these interwar crisis milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Britain and France sign the Munich Agreement" },
+      { "id": "b", "text": "Japan invades Manchuria in northeastern China" },
+      { "id": "c", "text": "Adolf Hitler becomes chancellor of Germany" },
+      { "id": "d", "text": "The Wall Street crash triggers a global depression" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "The U.S. crash hit in 1929, Japan invaded Manchuria in 1931, Hitler took power in 1933, and Munich happened in 1938.",
+    "fun_fact": "Within a year of the 1938 Munich Agreement, Germany seized the rest of Czechoslovakia and invaded Poland.",
+    "source_url": "https://www.britannica.com/event/Munich-Agreement",
+    "trap_notes": {
+      "default": "Order: 1929 Crash, Manchuria (1931), Hitler Chancellor (1933), Munich (1938)."
+    }
+  },
+  {
+    "id": "world-ord-122",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "World War II",
+    "era": "1939–1945 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.3853, "lng": 132.4553, "label": "Hiroshima, Japan" },
+    "prompt": "Order these World War II milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Japan attacks the U.S. fleet at Pearl Harbor" },
+      { "id": "b", "text": "German forces invade Poland to start war in Europe" },
+      { "id": "c", "text": "The United States drops atomic bombs on Japan" },
+      { "id": "d", "text": "Allied troops storm Normandy beaches on D-Day" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Poland was invaded in Sept 1939, Pearl Harbor hit in Dec 1941, D-Day landed in June 1944, and atomic bombs fell in Aug 1945.",
+    "fun_fact": "Japan formally surrendered aboard the battleship USS Missouri in Tokyo Bay on September 2, 1945.",
+    "source_url": "https://www.britannica.com/event/World-War-II",
+    "trap_notes": {
+      "default": "Order: Poland (1939), Pearl Harbor (1941), D-Day (1944), Atomic bombs (1945)."
+    }
+  },
+  {
+    "id": "world-ord-123",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1947–1955 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.2297, "lng": 21.0122, "label": "Warsaw, Poland" },
+    "prompt": "Order these early Cold War milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Soviet-bloc nations sign the Warsaw Pact" },
+      { "id": "b", "text": "North Korean troops cross the 38th parallel" },
+      { "id": "c", "text": "Western Allies launch the Berlin Airlift" },
+      { "id": "d", "text": "President Truman announces aid to contain communism" }
+    ],
+    "answer": ["d", "c", "b", "a"],
+    "explanation": "The Truman Doctrine came in 1947, the Berlin Airlift began in 1948, the Korean War started in 1950, and the Warsaw Pact formed in 1955.",
+    "fun_fact": "The Warsaw Pact was created in direct response to West Germany joining NATO in 1955.",
+    "source_url": "https://www.britannica.com/event/Cold-War",
+    "trap_notes": {
+      "default": "Order: Truman Doctrine (1947), Berlin Airlift (1948), Korean War (1950), Warsaw Pact (1955)."
+    }
+  },
+  {
+    "id": "world-ord-124",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1957–1989 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order these Cold War turning points earliest to latest:",
+    "options": [
+      { "id": "a", "text": "East Berliners tear down the Berlin Wall" },
+      { "id": "b", "text": "The Soviet Union launches the Sputnik satellite" },
+      { "id": "c", "text": "Nations sign the Helsinki Accords on human rights" },
+      { "id": "d", "text": "The Cuban Missile Crisis brings superpower brinkmanship" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Sputnik launched in 1957, the Cuban Missile Crisis happened in 1962, the Helsinki Accords in 1975, and the Berlin Wall fell in 1989.",
+    "fun_fact": "Sputnik weighed only 184 pounds and orbited Earth every 96 minutes, beeping radio pulses.",
+    "source_url": "https://www.britannica.com/topic/Berlin-Wall",
+    "trap_notes": {
+      "default": "Order: Sputnik (1957), Cuban Missile Crisis (1962), Helsinki (1975), Berlin Wall (1989)."
+    }
+  },
+  {
+    "id": "world-ord-125",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "20th-Century China",
+    "era": "1919–1978 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "Order these 20th-century Chinese milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Mao Zedong proclaims the People's Republic of China" },
+      { "id": "b", "text": "Deng Xiaoping launches market-oriented reforms" },
+      { "id": "c", "text": "Students spark the May Fourth Movement in Beijing" },
+      { "id": "d", "text": "Communist forces survive the Long March" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "The May Fourth protests came in 1919, the Long March ran 1934–1935, the PRC formed in 1949, and Deng's reforms began in 1978.",
+    "fun_fact": "During the Long March, Red Army soldiers trekked roughly 6,000 miles across mountains and rivers.",
+    "source_url": "https://www.britannica.com/event/Long-March",
+    "trap_notes": {
+      "default": "Order: May Fourth (1919), Long March (1934), PRC (1949), Deng reforms (1978)."
+    }
+  },
+  {
+    "id": "world-ord-126",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "20th-Century Decolonization",
+    "era": "1930–1991 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "prompt": "Order these modern South Asian milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "India opens its economy with 1991 market reforms" },
+      { "id": "b", "text": "East Pakistan breaks away as independent Bangladesh" },
+      { "id": "c", "text": "Mahatma Gandhi leads the 240-mile Salt March" },
+      { "id": "d", "text": "Partition creates independent India and Pakistan" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The Salt March took place in 1930, Partition in 1947, Bangladesh's independence in 1971, and India's reforms in 1991.",
+    "fun_fact": "Before 1971, West and East Pakistan were separated by roughly 1,000 miles of Indian territory.",
+    "source_url": "https://www.britannica.com/place/Bangladesh",
+    "trap_notes": {
+      "default": "Order: Salt March (1930), Partition (1947), Bangladesh (1971), Market reforms (1991)."
+    }
+  },
+  {
+    "id": "world-ord-127",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "20th-Century Decolonization",
+    "era": "1957–1994 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 5.6037, "lng": -0.187, "label": "Accra, Ghana" },
+    "prompt": "Order these African independence milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Nelson Mandela wins South Africa's first multiracial vote" },
+      { "id": "b", "text": "Ghana becomes sub-Saharan Africa's first free colony" },
+      { "id": "c", "text": "Algeria wins independence after a war with France" },
+      { "id": "d", "text": "Seventeen African nations gain freedom in 1960" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Ghana gained freedom in 1957, the Year of Africa followed in 1960, Algeria won in 1962, and Mandela won in 1994.",
+    "fun_fact": "1960 is called the Year of Africa because 17 nations gained independence in a single calendar year.",
+    "source_url": "https://www.britannica.com/topic/decolonization",
+    "trap_notes": {
+      "default": "Order: Ghana (1957), Year of Africa (1960), Algeria (1962), Mandela (1994)."
+    }
+  },
+  {
+    "id": "world-ord-128",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Modern Middle East",
+    "era": "1922–1978 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo, Egypt" },
+    "prompt": "Order these 20th-century Middle Eastern milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Egypt and Israel sign the Camp David Accords" },
+      { "id": "b", "text": "Oil-exporting nations form OPEC in Baghdad" },
+      { "id": "c", "text": "Gamal Abdel Nasser nationalizes the Suez Canal" },
+      { "id": "d", "text": "The Ottoman sultanate is formally abolished" }
+    ],
+    "answer": ["d", "c", "b", "a"],
+    "explanation": "The Ottoman sultanate ended in 1922, Nasser nationalized Suez in 1956, OPEC formed in 1960, and Camp David was signed in 1978.",
+    "fun_fact": "Five founding oil producers—Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela—launched OPEC in 1960.",
+    "source_url": "https://www.britannica.com/topic/OPEC",
+    "trap_notes": {
+      "default": "Order: Ottoman end (1922), Suez (1956), OPEC (1960), Camp David (1978)."
+    }
+  },
+  {
+    "id": "world-ord-129",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Modern Latin America",
+    "era": "1938–1994 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "prompt": "Order these 20th-century Latin American milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "NAFTA takes effect across Mexico, Canada, and the U.S." },
+      { "id": "b", "text": "Fidel Castro's rebels triumph in the Cuban Revolution" },
+      { "id": "c", "text": "Lazaro Cardenas nationalizes Mexico's oil industry" },
+      { "id": "d", "text": "Salvador Allende wins Chile's presidential election" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Mexico nationalized oil in 1938, Castro took Havana in 1959, Allende won in 1970, and NAFTA took effect in 1994.",
+    "fun_fact": "Mexico's March 18, 1938 oil nationalization is still commemorated as Oil Expropriation Day.",
+    "source_url": "https://www.britannica.com/event/Cuban-Revolution",
+    "trap_notes": {
+      "default": "Order: Mexican oil (1938), Cuban Revolution (1959), Allende (1970), NAFTA (1994)."
+    }
+  },
+  {
+    "id": "world-ord-130",
+    "type": "ordering",
+    "domain": "World",
+    "subdomain": "Globalization",
+    "era": "1991–2015 CE",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "Order these post-Cold War global milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "The World Trade Organization opens in Geneva" },
+      { "id": "b", "text": "The Soviet Union formally dissolves into 15 republics" },
+      { "id": "c", "text": "Nations adopt the Paris Agreement on climate change" },
+      { "id": "d", "text": "The Maastricht Treaty establishes the European Union" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The USSR dissolved in Dec 1991, Maastricht took effect in Nov 1993, the WTO launched in 1995, and the Paris Agreement came in 2015.",
+    "fun_fact": "The WTO replaced the 1947 GATT tariff framework to oversee global trade rules and disputes.",
+    "source_url": "https://www.britannica.com/topic/World-Trade-Organization",
+    "trap_notes": {
+      "default": "Order: USSR dissolves (1991), EU Maastricht (1993), WTO (1995), Paris Agreement (2015)."
+    }
+  },
+  {
+    "id": "world-cau-101",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Neolithic Revolution",
+    "era": "c. 10,000–3500 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.667, "lng": 32.828, "label": "Catalhoyuk, Turkey" },
+    "prompt": "Order the cause-and-effect chain of the Neolithic Revolution:",
+    "options": [
+      { "id": "a", "text": "Food surpluses free workers to specialize in crafts" },
+      { "id": "b", "text": "Ice Age ends and warmer climates support wild grains" },
+      { "id": "c", "text": "Permanent farming villages grow into early cities" },
+      { "id": "d", "text": "People domesticate crops and herd animals" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Warmer post-Ice Age climates enabled farming and herding, producing surpluses that fueled specialized towns and cities.",
+    "fun_fact": "Farming emerged independently in at least seven regions, including Mesopotamia, China, and Mesoamerica.",
+    "source_url": "https://www.britannica.com/event/Neolithic-Period",
+    "trap_notes": {
+      "default": "Chain: Warming climate -> Domestication -> Surplus food & specialists -> Early cities."
+    }
+  },
+  {
+    "id": "world-cau-102",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 3500–2500 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 31.3222, "lng": 45.6361, "label": "Uruk, Mesopotamia" },
+    "prompt": "Order the cause-and-effect chain linking irrigation to early states:",
+    "options": [
+      { "id": "a", "text": "Kings and priests coordinate labor and tax grain" },
+      { "id": "b", "text": "Farmers dig shared canals and dikes to control water" },
+      { "id": "c", "text": "Irrigated fields yield reliable grain surpluses" },
+      { "id": "d", "text": "Scribes invent writing to record taxes and rations" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Shared irrigation produced steady surpluses, which rulers taxed and organized while scribes tracked records.",
+    "fun_fact": "Early Mesopotamian city-states used clay tokens inside sealed clay balls before pressing tablets.",
+    "source_url": "https://www.britannica.com/place/Mesopotamia-historical-region-Asia",
+    "trap_notes": {
+      "default": "Chain: Irrigation canals -> Grain surplus -> State tax coordination -> Written records."
+    }
+  },
+  {
+    "id": "world-cau-103",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Ancient Technology",
+    "era": "c. 1200–800 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.0, "lng": 34.6, "label": "Hattusa, Turkey" },
+    "prompt": "Order the cause-and-effect chain of the shift from bronze to iron:",
+    "options": [
+      { "id": "a", "text": "States arm large infantry forces at lower cost" },
+      { "id": "b", "text": "Bronze-era trade collapses, cutting off tin supplies" },
+      { "id": "c", "text": "Tougher iron plows also boost farm output" },
+      { "id": "d", "text": "Smiths master hotter furnaces to smelt local iron" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "When tin routes collapsed around 1200 BCE, smiths smelted widespread iron, enabling cheaper armies and better plows.",
+    "fun_fact": "Iron ore is far more common in Earth's crust than tin, making tools affordable for ordinary farmers.",
+    "source_url": "https://www.britannica.com/event/Iron-Age",
+    "trap_notes": {
+      "default": "Chain: Tin shortage -> Iron smelting -> Cheaper mass armies -> Stronger farm plows."
+    }
+  },
+  {
+    "id": "world-cau-104",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Ancient Mediterranean",
+    "era": "c. 1050–750 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.2705, "lng": 35.2038, "label": "Tyre, Lebanon" },
+    "prompt": "Order the cause-and-effect chain of the Phoenician alphabet's spread:",
+    "options": [
+      { "id": "a", "text": "Greeks adapt the script and add vowel letters" },
+      { "id": "b", "text": "Phoenician ships expand Mediterranean sea trade" },
+      { "id": "c", "text": "Merchants adopt a compact 22-letter sound script" },
+      { "id": "d", "text": "Alphabetic literacy spreads widely across Europe" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Phoenician sea trade demanded fast recordkeeping, spreading a 22-letter script that Greeks adapted with vowels.",
+    "fun_fact": "The English word alphabet comes from the first two Greek letters, alpha and beta.",
+    "source_url": "https://www.britannica.com/topic/Phoenician-alphabet",
+    "trap_notes": {
+      "default": "Chain: Sea trade -> 22-letter script -> Greek vowels added -> Wider European literacy."
+    }
+  },
+  {
+    "id": "world-cau-105",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "522–486 BCE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 29.9352, "lng": 52.8916, "label": "Persepolis, Iran" },
+    "prompt": "Order the cause-and-effect chain of Persian Royal Road governance:",
+    "options": [
+      { "id": "a", "text": "Darius I builds the paved 1,600-mile Royal Road" },
+      { "id": "b", "text": "Relay riders carry royal orders in days, not months" },
+      { "id": "c", "text": "Persian conquests span Egypt to the Indus Valley" },
+      { "id": "d", "text": "Central rulers keep tight control over distant satraps" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Persia's vast size led Darius to build the Royal Road, speeding courier dispatches and keeping satraps loyal.",
+    "fun_fact": "Wait stations with fresh horses sat roughly a day's ride apart along the entire Royal Road.",
+    "source_url": "https://www.britannica.com/topic/Royal-Road",
+    "trap_notes": {
+      "default": "Chain: Vast empire -> Royal Road built -> Fast relay couriers -> Satraps stay controlled."
+    }
+  },
+  {
+    "id": "world-cau-106",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "138 BCE–220 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Chang'an, China" },
+    "prompt": "Order the cause-and-effect chain of the Silk Road's opening under Han China:",
+    "options": [
+      { "id": "a", "text": "Caravans carry Chinese silk west and horses east" },
+      { "id": "b", "text": "Xiongnu nomadic raids threaten northern Han borders" },
+      { "id": "c", "text": "Buddhism and new crops travel along trade oases" },
+      { "id": "d", "text": "Emperor Wu sends Zhang Qian to seek western allies" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Xiongnu raids pushed Han Wu to send Zhang Qian west, opening silk-for-horse trade and cultural exchange.",
+    "fun_fact": "Zhang Qian was captured by the Xiongnu for ten years before escaping to reach Central Asia.",
+    "source_url": "https://www.britannica.com/biography/Zhang-Qian",
+    "trap_notes": {
+      "default": "Chain: Xiongnu raids -> Zhang Qian mission -> Silk-horse trade -> Cultural exchange."
+    }
+  },
+  {
+    "id": "world-cau-107",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Indian Ocean Trade",
+    "era": "c. 100–1400 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 11.2588, "lng": 75.7804, "label": "Calicut, India" },
+    "prompt": "Order the cause-and-effect chain of Indian Ocean monsoon commerce:",
+    "options": [
+      { "id": "a", "text": "Merchants settle in ports while waiting for wind shifts" },
+      { "id": "b", "text": "Monsoon winds reverse reliably twice every year" },
+      { "id": "c", "text": "Diaspora communities blend local and foreign cultures" },
+      { "id": "d", "text": "Captains time round-trip spice and textile voyages" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Predictable monsoon reversals let sailors time round trips, creating seasonal port stays and blended cultures.",
+    "fun_fact": "Sailors using lateen triangular sails could catch crosswinds smoothly across the Arabian Sea.",
+    "source_url": "https://www.britannica.com/place/Indian-Ocean",
+    "trap_notes": {
+      "default": "Chain: Monsoon wind shifts -> Timed voyages -> Seasonal port stays -> Blended port cultures."
+    }
+  },
+  {
+    "id": "world-cau-108",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "235–476 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "Order the cause-and-effect chain behind the Western Roman Empire's fall:",
+    "options": [
+      { "id": "a", "text": "Western Roman provinces fragment into Germanic kingdoms" },
+      { "id": "b", "text": "Overstretched borders and civil wars drain tax revenue" },
+      { "id": "c", "text": "Imperial armies struggle to defend the Rhine and Danube" },
+      { "id": "d", "text": "Germanic groups cross borders under Hunnic pressure" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Fiscal strain and civil wars left Rome unable to hold borders when Germanic groups migrated, fracturing the West.",
+    "fun_fact": "The Eastern Roman Empire, known as Byzantium, survived for nearly another thousand years until 1453.",
+    "source_url": "https://www.britannica.com/place/ancient-Rome/The-fall-of-Rome",
+    "trap_notes": {
+      "default": "Chain: Fiscal/civil strain -> Migrations press borders -> Weakened defense -> Western collapse."
+    }
+  },
+  {
+    "id": "world-cau-109",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Afro-Eurasian Trade",
+    "era": "c. 300–1400 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "prompt": "Order the cause-and-effect chain of West African trans-Saharan empires:",
+    "options": [
+      { "id": "a", "text": "Ghana and Mali tax caravans to fund strong armies" },
+      { "id": "b", "text": "Camels and Berber saddles make desert crossings regular" },
+      { "id": "c", "text": "Trade cities like Timbuktu become Islamic learning hubs" },
+      { "id": "d", "text": "North African salt flows south for West African gold" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Camel transport unlocked regular salt-for-gold trade, enriching Ghana and Mali and turning Timbuktu into a scholarly hub.",
+    "fun_fact": "A single camel can carry up to 400 pounds across desert dunes for days without drinking water.",
+    "source_url": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+    "trap_notes": {
+      "default": "Chain: Camel caravans -> Gold-salt trade -> Kingdoms tax routes -> Timbuktu flourishes."
+    }
+  },
+  {
+    "id": "world-cau-110",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Tang & Song China",
+    "era": "960–1279 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.2741, "lng": 120.1551, "label": "Hangzhou, China" },
+    "prompt": "Order the cause-and-effect chain of Song China's commercial revolution:",
+    "options": [
+      { "id": "a", "text": "China's population doubles past 100 million people" },
+      { "id": "b", "text": "Fast-ripening Champa rice arrives from Vietnam" },
+      { "id": "c", "text": "Farmers harvest two crops a year on southern terraces" },
+      { "id": "d", "text": "Booming cities adopt paper money and iron industry" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Champa rice enabled double harvests, doubling Song population and fueling urban markets, iron output, and paper money.",
+    "fun_fact": "Song China produced roughly 125,000 tons of iron a year, centuries before Europe's Industrial Revolution.",
+    "source_url": "https://www.britannica.com/topic/Song-dynasty",
+    "trap_notes": {
+      "default": "Chain: Champa rice -> Double harvests -> Population boom -> Urban commerce & paper money."
+    }
+  },
+  {
+    "id": "world-cau-111",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Mongol Empire",
+    "era": "1206–1350 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.2022, "lng": 102.8472, "label": "Karakorum, Mongolia" },
+    "prompt": "Order the cause-and-effect chain of Mongol Eurasian integration:",
+    "options": [
+      { "id": "a", "text": "Merchants, scholars, and technologies cross Eurasia safely" },
+      { "id": "b", "text": "Mongol cavalry conquers from Korea to Eastern Europe" },
+      { "id": "c", "text": "Rulers set up the Yam relay network and guard roads" },
+      { "id": "d", "text": "Dense caravan traffic also speeds the Black Death west" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Mongol conquests enabled unified road security, boosting long-distance trade that later carried plague west.",
+    "fun_fact": "Gunpowder, the compass, and printing knowledge reached the Islamic world and Europe faster under Mongol rule.",
+    "source_url": "https://www.britannica.com/topic/Pax-Mongolica",
+    "trap_notes": {
+      "default": "Chain: Mongol conquests -> Yam road security -> Safe Eurasian exchange -> Plague also spreads."
+    }
+  },
+  {
+    "id": "world-cau-112",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Late Medieval Europe",
+    "era": "1347–1400 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, England" },
+    "prompt": "Order the cause-and-effect chain of the Black Death's economic impact:",
+    "options": [
+      { "id": "a", "text": "Surviving laborers demand higher wages and better terms" },
+      { "id": "b", "text": "Bubonic plague kills roughly one-third of Europe's people" },
+      { "id": "c", "text": "Manorial serfdom weakens across Western Europe" },
+      { "id": "d", "text": "Farms and workshops face an acute shortage of workers" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Massive plague deaths created a severe labor shortage, letting surviving workers win higher pay and loosen serfdom.",
+    "fun_fact": "When English lords tried to freeze wages at pre-plague levels, peasants erupted in the 1381 Peasants' Revolt.",
+    "source_url": "https://www.britannica.com/event/Black-Death",
+    "trap_notes": {
+      "default": "Chain: Plague deaths -> Labor shortage -> Workers demand higher pay -> Serfdom declines."
+    }
+  },
+  {
+    "id": "world-cau-113",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Protestant Reformation",
+    "era": "1450–1555 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.8667, "lng": 12.65, "label": "Wittenberg, Germany" },
+    "prompt": "Order the cause-and-effect chain of the Protestant Reformation's spread:",
+    "options": [
+      { "id": "a", "text": "German printers copy Luther's tracts in local language" },
+      { "id": "b", "text": "Gutenberg's movable-type press lowers book costs" },
+      { "id": "c", "text": "Western Christianity fractures into rival churches" },
+      { "id": "d", "text": "Readers across Europe debate salvation and papal power" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Affordable printing let German presses spread Luther's tracts rapidly, sparking wide debate and permanent church division.",
+    "fun_fact": "Lucas Cranach's woodcut cartoons helped spread Reformation ideas even to people who could not read.",
+    "source_url": "https://www.britannica.com/event/Reformation",
+    "trap_notes": {
+      "default": "Chain: Printing press -> Cheap local tracts -> Mass debate -> Western Church splits."
+    }
+  },
+  {
+    "id": "world-cau-114",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Age of Exploration",
+    "era": "1453–1498 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.7223, "lng": -9.1393, "label": "Lisbon, Portugal" },
+    "prompt": "Order the cause-and-effect chain launching European ocean voyages:",
+    "options": [
+      { "id": "a", "text": "Ottoman control raises taxes on overland spice routes" },
+      { "id": "b", "text": "Portugal and Spain fund caravels to bypass middlemen" },
+      { "id": "c", "text": "Europeans gain direct sea access to Asia and the Americas" },
+      { "id": "d", "text": "Asian pepper and silk prices climb in European markets" }
+    ],
+    "answer": ["a", "d", "b", "c"],
+    "explanation": "Ottoman tariffs raised spice prices in Europe, pushing Iberia to sponsor ocean voyages that reached India and the Americas.",
+    "fun_fact": "Iberian sailors combined the Chinese compass, Arab astrolabe, and lateen sails to navigate open oceans.",
+    "source_url": "https://www.britannica.com/topic/European-exploration",
+    "trap_notes": {
+      "default": "Chain: Ottoman trade bottleneck -> High spice prices -> Caravel voyages -> Global sea routes."
+    }
+  },
+  {
+    "id": "world-cau-115",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Columbian Exchange",
+    "era": "1492–1650 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 18.4861, "lng": -69.9312, "label": "Santo Domingo, Dominican Republic" },
+    "prompt": "Order the cause-and-effect chain of the Great Dying in the Americas:",
+    "options": [
+      { "id": "a", "text": "Spanish and Portuguese planters face severe labor shortages" },
+      { "id": "b", "text": "Smallpox and measles strike Indigenous populations" },
+      { "id": "c", "text": "European ships connect isolated hemispheres after 1492" },
+      { "id": "d", "text": "Colonizers expand the transatlantic trade in enslaved Africans" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Post-1492 contact brought Eurasian diseases to unexposed Americans, causing massive deaths and driving African slave imports.",
+    "fun_fact": "Historians estimate Indigenous populations in the Americas fell by 80 to 90 percent over the first century.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "default": "Chain: 1492 contact -> Old World diseases -> Labor shortage -> Atlantic slave trade grows."
+    }
+  },
+  {
+    "id": "world-cau-116",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Global Silver Trade",
+    "era": "1545–1700 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 14.5995, "lng": 120.9842, "label": "Manila, Philippines" },
+    "prompt": "Order the cause-and-effect chain of the early modern silver circuit:",
+    "options": [
+      { "id": "a", "text": "Spanish galleons ship American silver to Manila" },
+      { "id": "b", "text": "Ming China requires taxes to be paid in silver" },
+      { "id": "c", "text": "Global silver prices fall, fueling inflation in Europe" },
+      { "id": "d", "text": "Chinese merchants trade silk and porcelain for silver" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Ming silver tax demand drew Potosi silver via Manila galleons, linking global markets and triggering price inflation.",
+    "fun_fact": "The Spanish silver peso became so trusted that it circulated as currency in China and the early United States.",
+    "source_url": "https://www.britannica.com/place/Manila",
+    "trap_notes": {
+      "default": "Chain: Ming silver tax -> Manila galleon shipments -> Silk-for-silver trade -> Price inflation."
+    }
+  },
+  {
+    "id": "world-cau-117",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Atlantic Slave Trade",
+    "era": "1550–1800 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 13.1939, "lng": -59.5432, "label": "Bridgetown, Barbados" },
+    "prompt": "Order the cause-and-effect chain of Caribbean sugar plantation slavery:",
+    "options": [
+      { "id": "a", "text": "Traders force millions of Africans through the Middle Passage" },
+      { "id": "b", "text": "European demand for sugar, tea, and coffee surges" },
+      { "id": "c", "text": "Brutal cane labor causes high death rates on islands" },
+      { "id": "d", "text": "Planters convert tropical islands into sugar estates" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Rising European sugar demand drove island plantations where grueling labor caused high deaths and constant captive imports.",
+    "fun_fact": "Sugar plantations operated like early factories, running boiling houses 24 hours a day during harvest.",
+    "source_url": "https://www.britannica.com/topic/Middle-Passage-slave-trade",
+    "trap_notes": {
+      "default": "Chain: Sugar demand -> Island plantations -> Deadly labor conditions -> Mass Middle Passage."
+    }
+  },
+  {
+    "id": "world-cau-118",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "The Enlightenment",
+    "era": "1687–1789 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "Order the cause-and-effect chain from science to political revolution:",
+    "options": [
+      { "id": "a", "text": "Philosophers apply reason to rights and social contracts" },
+      { "id": "b", "text": "Scientists reveal a universe governed by natural laws" },
+      { "id": "c", "text": "Citizens challenge absolute kings in Atlantic revolutions" },
+      { "id": "d", "text": "Enlightenment salons spread ideas of consent of the governed" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Scientific laws inspired thinkers to seek natural rights, spreading ideas through salons that fueled Atlantic revolutions.",
+    "fun_fact": "Coffeehouses in London and Paris served as cheap, lively debate hubs where anyone could read newspapers.",
+    "source_url": "https://www.britannica.com/event/Enlightenment-European-history",
+    "trap_notes": {
+      "default": "Chain: Natural science -> Enlightenment rights theory -> Salons spread ideas -> Revolutions."
+    }
+  },
+  {
+    "id": "world-cau-119",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "1750–1830 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, England" },
+    "prompt": "Order the cause-and-effect chain of British factory urbanization:",
+    "options": [
+      { "id": "a", "text": "Displaced rural families migrate to growing cities" },
+      { "id": "b", "text": "Parliament's Enclosure Acts fence off common pastures" },
+      { "id": "c", "text": "Mill owners hire low-wage urban workers for textile factories" },
+      { "id": "d", "text": "Industrial cities like Manchester expand rapidly" }
+    ],
+    "answer": ["b", "a", "c", "d"],
+    "explanation": "Enclosure Acts pushed small farmers off common land into towns, giving textile mills a cheap urban workforce.",
+    "fun_fact": "Manchester's population grew roughly tenfold between 1760 and 1850, earning the nickname Cottonopolis.",
+    "source_url": "https://www.britannica.com/topic/enclosure",
+    "trap_notes": {
+      "default": "Chain: Enclosure Acts -> Rural migration -> Factory wage labor -> Rapid city growth."
+    }
+  },
+  {
+    "id": "world-cau-120",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "1769–1850 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.4862, "lng": -1.8904, "label": "Birmingham, England" },
+    "prompt": "Order the cause-and-effect chain of steam power and railroads:",
+    "options": [
+      { "id": "a", "text": "Engineers mount steam engines onto iron rail locomotives" },
+      { "id": "b", "text": "Watt's steam engine pumps deep coal mines efficiently" },
+      { "id": "c", "text": "Rail lines cut freight costs and link national markets" },
+      { "id": "d", "text": "Cheaper coal fuels booming iron smelting and factories" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Watt's engine unlocked deeper coal, fueling ironworks that built locomotives and integrated national markets.",
+    "fun_fact": "Standardized railway timetables even forced British towns to adopt a single national clock time.",
+    "source_url": "https://www.britannica.com/technology/steam-engine",
+    "trap_notes": {
+      "default": "Chain: Watt engine -> Cheap coal & iron -> Steam locomotives -> Integrated national markets."
+    }
+  },
+  {
+    "id": "world-cau-121",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "19th-Century China",
+    "era": "1820–1842 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.1291, "lng": 113.2644, "label": "Guangzhou, China" },
+    "prompt": "Order the cause-and-effect chain of the First Opium War:",
+    "options": [
+      { "id": "a", "text": "Qing official Lin Zexu seizes and destroys opium chests" },
+      { "id": "b", "text": "British merchants smuggle Indian opium into China for silver" },
+      { "id": "c", "text": "British gunboats force China to sign the Treaty of Nanjing" },
+      { "id": "d", "text": "Britain faces a large silver deficit buying Chinese tea" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Britain's tea silver deficit led merchants to smuggle opium; Qing seizures sparked war and the 1842 Treaty of Nanjing.",
+    "fun_fact": "The Treaty of Nanjing was the first of China's so-called unequal treaties with Western powers.",
+    "source_url": "https://www.britannica.com/topic/Opium-Wars",
+    "trap_notes": {
+      "default": "Chain: Tea silver deficit -> Opium smuggling -> Qing crackdown -> Treaty of Nanjing."
+    }
+  },
+  {
+    "id": "world-cau-122",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "19th-Century China",
+    "era": "1840–1864 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "prompt": "Order the cause-and-effect chain of the Taiping Rebellion's impact:",
+    "options": [
+      { "id": "a", "text": "Provincial armies gain power, weakening central Qing rule" },
+      { "id": "b", "text": "Hong Xiuquan leads millions in the Taiping civil war" },
+      { "id": "c", "text": "Qing defeats, taxes, and population strain spark unrest" },
+      { "id": "d", "text": "The 14-year war kills millions and drains the treasury" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Rural hardship fueled Hong Xiuquan's rebellion, whose devastating toll forced the Qing to rely on regional armies.",
+    "fun_fact": "The Taiping Rebellion (1850–1864) was the deadliest civil war in world history, killing at least 20 million people.",
+    "source_url": "https://www.britannica.com/event/Taiping-Rebellion",
+    "trap_notes": {
+      "default": "Chain: Rural unrest -> Taiping uprising -> Huge casualties & debt -> Stronger regional generals."
+    }
+  },
+  {
+    "id": "world-cau-123",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "New Imperialism",
+    "era": "1870–1900 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order the cause-and-effect chain of the Scramble for Africa:",
+    "options": [
+      { "id": "a", "text": "European powers partition Africa at the Berlin Conference" },
+      { "id": "b", "text": "Industrial Europe seeks rubber, palm oil, and minerals" },
+      { "id": "c", "text": "Quinine, steamboats, and Maxim guns aid inland conquest" },
+      { "id": "d", "text": "Artificial colonial borders split ethnic communities" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Industrial demand and new medical and military tools enabled European conquest, formalized at Berlin with artificial borders.",
+    "fun_fact": "Quinine extracted from cinchona bark protected European soldiers from malaria in tropical river basins.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "trap_notes": {
+      "default": "Chain: Raw material demand -> Quinine & Maxim gun -> Berlin partition -> Artificial borders."
+    }
+  },
+  {
+    "id": "world-cau-124",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "World War I",
+    "era": "1914 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 43.8563, "lng": 18.4131, "label": "Sarajevo, Bosnia" },
+    "prompt": "Order the cause-and-effect chain of the July 1914 Crisis:",
+    "options": [
+      { "id": "a", "text": "Russia mobilizes troops to defend Serbia" },
+      { "id": "b", "text": "Gavrilo Princip assassinates Archduke Franz Ferdinand" },
+      { "id": "c", "text": "Germany, France, and Britain enter a continental war" },
+      { "id": "d", "text": "Austria-Hungary declares war on Serbia" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Sarajevo assassination led Austria-Hungary to attack Serbia, triggering Russian mobilization and rival alliance treaties.",
+    "fun_fact": "Within five weeks of the June 28 assassination, all major European powers were at war.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "trap_notes": {
+      "default": "Chain: Sarajevo shooting -> Austria attacks Serbia -> Russia mobilizes -> Alliance war erupts."
+    }
+  },
+  {
+    "id": "world-cau-125",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Interwar Era",
+    "era": "1929–1933 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order the cause-and-effect chain of the Great Depression in Germany:",
+    "options": [
+      { "id": "a", "text": "U.S. banks recall loans from Weimar Germany" },
+      { "id": "b", "text": "The 1929 Wall Street crash freezes global credit" },
+      { "id": "c", "text": "Desperate voters turn toward the Nazi Party" },
+      { "id": "d", "text": "German factories close and unemployment nears 30 percent" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The 1929 U.S. crash pulled American loans out of Germany, sparking mass unemployment that boosted extremist parties.",
+    "fun_fact": "In 1928, before the Depression, the Nazi Party won less than 3 percent of the German national vote.",
+    "source_url": "https://www.britannica.com/event/Great-Depression",
+    "trap_notes": {
+      "default": "Chain: 1929 crash -> U.S. loans recalled -> German joblessness -> Surge in Nazi support."
+    }
+  },
+  {
+    "id": "world-cau-126",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "20th-Century Decolonization",
+    "era": "1945–1965 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, England" },
+    "prompt": "Order the cause-and-effect chain linking WWII to decolonization:",
+    "options": [
+      { "id": "a", "text": "Anticolonial leaders press for self-rule across Asia and Africa" },
+      { "id": "b", "text": "European empires end colonial rule across dozens of nations" },
+      { "id": "c", "text": "World War II leaves Britain and France deeply in debt" },
+      { "id": "d", "text": "Colonial troops return home questioning imperial rule" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "WWII bankrupted European powers while returning colonial soldiers and nationalist leaders demanded independence.",
+    "fun_fact": "Between 1945 and 1965, more than 50 former colonies in Asia and Africa became independent states.",
+    "source_url": "https://www.britannica.com/topic/decolonization",
+    "trap_notes": {
+      "default": "Chain: WWII debt -> Returning colonial troops -> Nationalist pressure -> Empires dismantle."
+    }
+  },
+  {
+    "id": "world-cau-127",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Modern Science & Agriculture",
+    "era": "1944–1975 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "prompt": "Order the cause-and-effect chain of the Green Revolution:",
+    "options": [
+      { "id": "a", "text": "Asian grain harvests double, averting mass famine" },
+      { "id": "b", "text": "Rapid postwar population growth raises famine fears" },
+      { "id": "c", "text": "Farmers pair high-yield seeds with irrigation and fertilizer" },
+      { "id": "d", "text": "Norman Borlaug breeds disease-resistant dwarf wheat" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Famine fears spurred Borlaug's high-yield dwarf crops, which—paired with irrigation and fertilizer—doubled harvests.",
+    "fun_fact": "Norman Borlaug won the 1970 Nobel Peace Prize for his work preventing starvation in Mexico, India, and Pakistan.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "default": "Chain: Famine fears -> Dwarf wheat bred -> Fertilizer & irrigation -> Doubled harvests."
+    }
+  },
+  {
+    "id": "world-cau-128",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Modern Middle East",
+    "era": "1973–1979 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 24.7136, "lng": 46.6753, "label": "Riyadh, Saudi Arabia" },
+    "prompt": "Order the cause-and-effect chain of the 1973 Oil Crisis:",
+    "options": [
+      { "id": "a", "text": "Global crude oil prices nearly quadruple within months" },
+      { "id": "b", "text": "Industrial nations face stagflation and energy conservation" },
+      { "id": "c", "text": "Arab OPEC members cut output and embargo U.S. allies" },
+      { "id": "d", "text": "The 1973 Yom Kippur War erupts in the Middle East" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "During the 1973 Yom Kippur War, Arab OPEC members cut oil supplies, quadrupling prices and triggering Western stagflation.",
+    "fun_fact": "The 1973 oil shock pushed automakers in Japan and Europe to pioneer smaller, fuel-efficient cars.",
+    "source_url": "https://www.britannica.com/event/Arab-oil-embargo",
+    "trap_notes": {
+      "default": "Chain: 1973 War -> Arab OPEC embargo -> Oil prices quadruple -> Global stagflation."
+    }
+  },
+  {
+    "id": "world-cau-129",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1985–1991 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "prompt": "Order the cause-and-effect chain of the Soviet Union's collapse:",
+    "options": [
+      { "id": "a", "text": "Gorbachev introduces glasnost and perestroika reforms" },
+      { "id": "b", "text": "Soviet economy stagnates under costly arms and Afghan war" },
+      { "id": "c", "text": "Eastern Europe breaks free and the USSR dissolves in 1991" },
+      { "id": "d", "text": "Openness fuels nationalist protests across Soviet republics" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Economic stagnation led Gorbachev to launch glasnost and perestroika, unleashing protests that ended Soviet rule in 1991.",
+    "fun_fact": "The Baltic republics of Estonia, Latvia, and Lithuania formed a 400-mile human chain in 1989 calling for freedom.",
+    "source_url": "https://www.britannica.com/event/the-collapse-of-the-Soviet-Union",
+    "trap_notes": {
+      "default": "Chain: Economic strain -> Gorbachev reforms -> Republic protests -> 1991 USSR breakup."
+    }
+  },
+  {
+    "id": "world-cau-130",
+    "type": "causal",
+    "domain": "World",
+    "subdomain": "Post-WWII East Asia",
+    "era": "1955–1990 CE",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.5665, "lng": 126.978, "label": "Seoul, South Korea" },
+    "prompt": "Order the cause-and-effect chain of East Asia's export growth:",
+    "options": [
+      { "id": "a", "text": "Industries climb from textiles to electronics and autos" },
+      { "id": "b", "text": "States invest heavily in schooling and export ports" },
+      { "id": "c", "text": "Rising wages and savings build a large middle class" },
+      { "id": "d", "text": "Low-cost factories ship consumer goods to global markets" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Education and port investment fueled low-cost exports, which upgraded into high-tech goods and grew a strong middle class.",
+    "fun_fact": "South Korea, Taiwan, Hong Kong, and Singapore were nicknamed the Four Asian Tigers for their rapid growth.",
+    "source_url": "https://www.britannica.com/topic/Asian-Tigers",
+    "trap_notes": {
+      "default": "Chain: Education & ports -> Low-cost exports -> High-tech upgrade -> Middle-class growth."
+    }
+  }
+]

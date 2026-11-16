@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "us-ord-101",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1607–1676",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.209, "lng": -76.774, "label": "Jamestown, Virginia" },
+    "prompt": "Order these early English colonial milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Pilgrims sign the Mayflower Compact at Plymouth" },
+      { "id": "b", "text": "Bacon's Rebellion challenges Virginia's governor" },
+      { "id": "c", "text": "Virginia Company settlers establish Jamestown" },
+      { "id": "d", "text": "John Winthrop leads Puritans to Massachusetts Bay" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Jamestown began in 1607, Plymouth in 1620, Massachusetts Bay in 1630, and Bacon's Rebellion in 1676.",
+    "source_url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm",
+    "trap_notes": {
+      "default": "Timeline: Jamestown (1607), Mayflower Compact (1620), Massachusetts Bay (1630), Bacon's Rebellion (1676)."
+    }
+  },
+  {
+    "id": "us-ord-102",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1636–1754",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.824, "lng": -71.4128, "label": "Providence, Rhode Island" },
+    "prompt": "Order these colonial developments earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Maryland passes the Toleration Act for Christians" },
+      { "id": "b", "text": "Benjamin Franklin proposes the Albany Plan of Union" },
+      { "id": "c", "text": "Roger Williams founds Providence in Rhode Island" },
+      { "id": "d", "text": "William Penn receives a royal charter for Pennsylvania" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Providence was founded in 1636, Maryland's Toleration Act passed in 1649, Pennsylvania began in 1681, and the Albany Plan came in 1754.",
+    "source_url": "https://www.loc.gov/exhibits/religion/rel01.html",
+    "trap_notes": {
+      "default": "Timeline: Providence (1636), Maryland Toleration Act (1649), Pennsylvania (1681), Albany Plan (1754)."
+    }
+  },
+  {
+    "id": "us-ord-103",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1763–1774",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "Order these events leading to the Revolution earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Colonists dump East India tea into Boston Harbor" },
+      { "id": "b", "text": "Britain issues the Proclamation Line of 1763" },
+      { "id": "c", "text": "Parliament passes the Coercive Acts against Boston" },
+      { "id": "d", "text": "Stamp Act Congress meets in New York City" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Proclamation Line (1763) came before the Stamp Act Congress (1765), Boston Tea Party (1773), and Coercive Acts (1774).",
+    "source_url": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/",
+    "trap_notes": {
+      "default": "Timeline: Proclamation (1763), Stamp Act Congress (1765), Tea Party (1773), Coercive Acts (1774)."
+    }
+  },
+  {
+    "id": "us-ord-104",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1775–1783",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.2388, "lng": -76.5097, "label": "Yorktown, Virginia" },
+    "prompt": "Order these Revolutionary War milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Treaty of Paris recognizes U.S. independence" },
+      { "id": "b", "text": "First shots are fired at Lexington and Concord" },
+      { "id": "c", "text": "General Cornwallis surrenders his army at Yorktown" },
+      { "id": "d", "text": "Continental Congress adopts Declaration of Independence" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Fighting began at Lexington in 1775, independence was declared in 1776, Yorktown fell in 1781, and the Treaty of Paris was signed in 1783.",
+    "source_url": "https://www.archives.gov/milestone-documents/treaty-of-paris",
+    "trap_notes": {
+      "default": "Timeline: Lexington (1775), Declaration (1776), Yorktown (1781), Treaty of Paris (1783)."
+    }
+  },
+  {
+    "id": "us-ord-105",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1789–1803",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Early Republic events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Congress passes the Alien and Sedition Acts" },
+      { "id": "b", "text": "George Washington takes the oath as first president" },
+      { "id": "c", "text": "Thomas Jefferson buys the Louisiana Territory" },
+      { "id": "d", "text": "Washington quells the Whiskey Rebellion in Pennsylvania" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Washington took office in 1789, ended the Whiskey Rebellion in 1794, Adams signed the Alien Acts in 1798, and Louisiana was bought in 1803.",
+    "source_url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/",
+    "trap_notes": {
+      "default": "Timeline: Inauguration (1789), Whiskey Rebellion (1794), Alien Acts (1798), Louisiana Purchase (1803)."
+    }
+  },
+  {
+    "id": "us-ord-106",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1804–1823",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these early 1800s U.S. events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "President Monroe issues the Monroe Doctrine" },
+      { "id": "b", "text": "Lewis and Clark set out to explore the Missouri River" },
+      { "id": "c", "text": "United States and Britain fight the War of 1812" },
+      { "id": "d", "text": "Spain cedes Florida in the Adams-Onís Treaty" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Lewis and Clark departed in 1804, the War of 1812 began in 1812, Spain ceded Florida in 1819, and the Monroe Doctrine came in 1823.",
+    "source_url": "https://www.archives.gov/milestone-documents/monroe-doctrine",
+    "trap_notes": {
+      "default": "Timeline: Lewis & Clark (1804), War of 1812 (1812), Adams-Onís (1819), Monroe Doctrine (1823)."
+    }
+  },
+  {
+    "id": "us-ord-107",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1825–1849",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, California" },
+    "prompt": "Order these westward and market milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Forty-niners rush to California after gold is found" },
+      { "id": "b", "text": "Andrew Jackson signs the Indian Removal Act" },
+      { "id": "c", "text": "New York opens the Erie Canal to Great Lakes trade" },
+      { "id": "d", "text": "United States annexes the Republic of Texas" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The Erie Canal opened in 1825, Indian Removal passed in 1830, Texas was annexed in 1845, and the California Gold Rush peaked in 1849.",
+    "source_url": "https://www.loc.gov/collections/california-first-person-narratives/",
+    "trap_notes": {
+      "default": "Timeline: Erie Canal (1825), Indian Removal (1830), Texas Annexation (1845), Gold Rush (1849)."
+    }
+  },
+  {
+    "id": "us-ord-108",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1820–1857",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.627, "lng": -90.1994, "label": "St. Louis, Missouri" },
+    "prompt": "Order these pre-Civil War slavery disputes earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Supreme Court rules against Dred Scott" },
+      { "id": "b", "text": "Congress passes the Missouri Compromise" },
+      { "id": "c", "text": "Kansas-Nebraska Act opens northern land to voting" },
+      { "id": "d", "text": "Compromise of 1850 admits California as a free state" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Missouri Compromise (1820) preceded the Compromise of 1850, Kansas-Nebraska Act (1854), and Dred Scott decision (1857).",
+    "source_url": "https://www.archives.gov/milestone-documents/dred-scott-v-sandford",
+    "trap_notes": {
+      "default": "Timeline: Missouri Compromise (1820), Compromise of 1850, Kansas-Nebraska (1854), Dred Scott (1857)."
+    }
+  },
+  {
+    "id": "us-ord-109",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1860–1865",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.3765, "lng": -78.798, "label": "Appomattox, Virginia" },
+    "prompt": "Order these Civil War events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Lincoln issues the Emancipation Proclamation" },
+      { "id": "b", "text": "Confederate forces fire on Fort Sumter" },
+      { "id": "c", "text": "Lee surrenders to Grant at Appomattox Court House" },
+      { "id": "d", "text": "Union troops turn back Lee at Gettysburg" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Fort Sumter fell in April 1861, Emancipation took effect in Jan 1863, Gettysburg in July 1863, and Appomattox in April 1865.",
+    "source_url": "https://www.nps.gov/apco/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Timeline: Fort Sumter (1861), Emancipation (Jan 1863), Gettysburg (July 1863), Appomattox (1865)."
+    }
+  },
+  {
+    "id": "us-ord-110",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865–1877",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Reconstruction milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "15th Amendment protects Black men's voting rights" },
+      { "id": "b", "text": "13th Amendment abolishes slavery nationwide" },
+      { "id": "c", "text": "Compromise of 1877 removes federal troops from the South" },
+      { "id": "d", "text": "14th Amendment grants birthright citizenship" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The 13th Amendment passed in 1865, the 14th in 1868, the 15th in 1870, and the Compromise of 1877 ended Reconstruction.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Timeline: 13th (1865), 14th (1868), 15th (1870), Compromise of 1877."
+    }
+  },
+  {
+    "id": "us-ord-111",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1862–1890",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.6195, "lng": -112.548, "label": "Promontory Summit, Utah" },
+    "prompt": "Order these western frontier events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Golden spike completes the First Transcontinental Railroad" },
+      { "id": "b", "text": "Dawes Act divides tribal reservation lands into plots" },
+      { "id": "c", "text": "Homestead Act offers 160-acre farms to western settlers" },
+      { "id": "d", "text": "Lakota and Cheyenne defeat Custer at Little Bighorn" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "The Homestead Act passed in 1862, the railroad finished in 1869, Little Bighorn was in 1876, and the Dawes Act passed in 1887.",
+    "source_url": "https://www.archives.gov/milestone-documents/dawes-act",
+    "trap_notes": {
+      "default": "Timeline: Homestead Act (1862), Golden Spike (1869), Little Bighorn (1876), Dawes Act (1887)."
+    }
+  },
+  {
+    "id": "us-ord-112",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1882–1896",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Order these Gilded Age events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Supreme Court upholds segregation in Plessy v. Ferguson" },
+      { "id": "b", "text": "Congress passes the Chinese Exclusion Act" },
+      { "id": "c", "text": "Populist Party adopts the Omaha Platform" },
+      { "id": "d", "text": "Sherman Antitrust Act targets business monopolies" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Chinese Exclusion passed in 1882, Sherman Antitrust in 1890, the Omaha Platform in 1892, and Plessy v. Ferguson in 1896.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "trap_notes": {
+      "default": "Timeline: Chinese Exclusion (1882), Sherman Antitrust (1890), Omaha Platform (1892), Plessy (1896)."
+    }
+  },
+  {
+    "id": "us-ord-113",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1877–1894",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "prompt": "Order these Gilded Age labor and reform events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Federal troops break up the Pullman rail strike" },
+      { "id": "b", "text": "Great Railroad Strike halts trains across the country" },
+      { "id": "c", "text": "Steelworkers clash with guards at Homestead, Pennsylvania" },
+      { "id": "d", "text": "Haymarket Square bombing hurts the Knights of Labor" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Great Railroad Strike occurred in 1877, Haymarket in 1886, Homestead in 1892, and the Pullman Strike in 1894.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/",
+    "trap_notes": {
+      "default": "Timeline: Great Railroad Strike (1877), Haymarket (1886), Homestead (1892), Pullman Strike (1894)."
+    }
+  },
+  {
+    "id": "us-ord-114",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1889–1911",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Order these Progressive Era milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Triangle Shirtwaist Factory fire kills 146 workers" },
+      { "id": "b", "text": "Jane Addams opens Hull House in Chicago" },
+      { "id": "c", "text": "Congress passes the Pure Food and Drug Act" },
+      { "id": "d", "text": "Theodore Roosevelt mediates the Anthracite Coal Strike" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Hull House opened in 1889, the coal strike was in 1902, the Pure Food Act passed in 1906, and the Triangle fire hit in 1911.",
+    "source_url": "https://www.archives.gov/legislative/features/meat-inspection",
+    "trap_notes": {
+      "default": "Timeline: Hull House (1889), Coal Strike (1902), Pure Food Act (1906), Triangle Fire (1911)."
+    }
+  },
+  {
+    "id": "us-ord-115",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1913–1920",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Progressive Era constitutional amendments earliest to latest:",
+    "options": [
+      { "id": "a", "text": "19th Amendment guarantees women's right to vote" },
+      { "id": "b", "text": "16th Amendment authorizes a federal income tax" },
+      { "id": "c", "text": "18th Amendment bans the sale of alcohol nationwide" },
+      { "id": "d", "text": "17th Amendment sets direct election of U.S. senators" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "They were ratified in numerical order: 16th in Feb 1913, 17th in April 1913, 18th in 1919, and 19th in 1920.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Progressive Amendments: 16th income tax (1913), 17th senators (1913), 18th Prohibition (1919), 19th suffrage (1920)."
+    }
+  },
+  {
+    "id": "us-ord-116",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1898–1914",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 9.082, "lng": -79.68, "label": "Panama Canal Zone" },
+    "prompt": "Order these U.S. foreign policy events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Panama Canal opens to Atlantic-Pacific shipping" },
+      { "id": "b", "text": "United States defeats Spain in the Spanish-American War" },
+      { "id": "c", "text": "President Roosevelt announces the Roosevelt Corollary" },
+      { "id": "d", "text": "John Hay circulates the Open Door Notes on China" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Spanish-American War was in 1898, Open Door Notes in 1899, Roosevelt Corollary in 1904, and Panama Canal opening in 1914.",
+    "source_url": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
+    "trap_notes": {
+      "default": "Timeline: Spanish-American War (1898), Open Door (1899), Roosevelt Corollary (1904), Panama Canal (1914)."
+    }
+  },
+  {
+    "id": "us-ord-117",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1914–1919",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these World War I era events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "U.S. Senate rejects the Treaty of Versailles" },
+      { "id": "b", "text": "German U-boat sinks the British liner Lusitania" },
+      { "id": "c", "text": "United States declares war on Germany" },
+      { "id": "d", "text": "President Wilson outlines his Fourteen Points" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "The Lusitania sank in 1915, the U.S. entered in 1917, Fourteen Points came in 1918, and the Senate rejected Versailles in 1919.",
+    "source_url": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
+    "trap_notes": {
+      "default": "Timeline: Lusitania (1915), U.S. war declaration (1917), Fourteen Points (1918), Versailles rejected (1919)."
+    }
+  },
+  {
+    "id": "us-ord-118",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1919–1929",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Order these 1920s events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Charles Lindbergh flies solo across the Atlantic" },
+      { "id": "b", "text": "Wall Street stock market crashes in October" },
+      { "id": "c", "text": "First Red Scare Palmer Raids target suspected radicals" },
+      { "id": "d", "text": "Scopes Trial debates teaching evolution in Tennessee" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "The Palmer Raids happened in 1919-1920, the Scopes Trial in 1925, Lindbergh's flight in 1927, and the stock market crash in 1929.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/",
+    "trap_notes": {
+      "default": "Timeline: Palmer Raids (1919-20), Scopes Trial (1925), Lindbergh (1927), Crash (1929)."
+    }
+  },
+  {
+    "id": "us-ord-119",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1929–1935",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Great Depression and New Deal events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Congress passes the Social Security Act" },
+      { "id": "b", "text": "President Hoover signs the Smoot-Hawley Tariff" },
+      { "id": "c", "text": "Franklin Roosevelt orders a national bank holiday" },
+      { "id": "d", "text": "Black Tuesday triggers the 1929 stock market crash" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "The crash hit in Oct 1929, Smoot-Hawley passed in 1930, FDR's bank holiday came in March 1933, and Social Security passed in 1935.",
+    "source_url": "https://www.archives.gov/milestone-documents/social-security-act",
+    "trap_notes": {
+      "default": "Timeline: Crash (1929), Smoot-Hawley (1930), Bank Holiday (1933), Social Security (1935)."
+    }
+  },
+  {
+    "id": "us-ord-120",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1941–1945",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 49.3438, "lng": -0.8886, "label": "Normandy, France" },
+    "prompt": "Order these World War II events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Allied forces land on the beaches of Normandy on D-Day" },
+      { "id": "b", "text": "Japan attacks the U.S. Pacific Fleet at Pearl Harbor" },
+      { "id": "c", "text": "United States drops atomic bombs on Hiroshima and Nagasaki" },
+      { "id": "d", "text": "U.S. Navy wins the decisive Battle of Midway" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Pearl Harbor was Dec 1941, Midway was June 1942, D-Day was June 1944, and the atomic bombings occurred in August 1945.",
+    "source_url": "https://www.archives.gov/research/military/ww2",
+    "trap_notes": {
+      "default": "Timeline: Pearl Harbor (Dec 1941), Midway (June 1942), D-Day (June 1944), Atomic Bombs (Aug 1945)."
+    }
+  },
+  {
+    "id": "us-ord-121",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1939–1944",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. wartime home-front actions earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Congress passes the GI Bill for returning veterans" },
+      { "id": "b", "text": "Executive Order 9066 authorizes Japanese American internment" },
+      { "id": "c", "text": "Congress approves the Lend-Lease Act to aid Allies" },
+      { "id": "d", "text": "A. Philip Randolph's march threat wins a defense hiring order" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "Lend-Lease passed in March 1941, Fair Employment order came in June 1941, Executive Order 9066 in Feb 1942, and the GI Bill in 1944.",
+    "source_url": "https://www.archives.gov/milestone-documents/executive-order-8802",
+    "trap_notes": {
+      "default": "Timeline: Lend-Lease (Mar 1941), EO 8802 (June 1941), EO 9066 (Feb 1942), GI Bill (1944)."
+    }
+  },
+  {
+    "id": "us-ord-122",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1947–1953",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order these early Cold War milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Armistice halts fighting in the Korean War" },
+      { "id": "b", "text": "President Truman announces the Truman Doctrine" },
+      { "id": "c", "text": "United States and allies form the NATO alliance" },
+      { "id": "d", "text": "Berlin Airlift supplies West Berlin during a Soviet blockade" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Truman Doctrine came in 1947, Berlin Airlift in June 1948, NATO in April 1949, and the Korean armistice in July 1953.",
+    "source_url": "https://www.archives.gov/milestone-documents/truman-doctrine",
+    "trap_notes": {
+      "default": "Timeline: Truman Doctrine (1947), Berlin Airlift (1948), NATO (1949), Korean Armistice (1953)."
+    }
+  },
+  {
+    "id": "us-ord-123",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1957–1969",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 28.5729, "lng": -80.649, "label": "Cape Canaveral, Florida" },
+    "prompt": "Order these Space Race and Cold War events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Apollo 11 astronauts land on the Moon" },
+      { "id": "b", "text": "Soviet Union launches the Sputnik 1 satellite" },
+      { "id": "c", "text": "Cuban Missile Crisis brings superpowers near nuclear war" },
+      { "id": "d", "text": "East Germany builds the Berlin Wall" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Sputnik launched in 1957, the Berlin Wall went up in Aug 1961, the Cuban Missile Crisis occurred in Oct 1962, and Apollo 11 landed in 1969.",
+    "source_url": "https://www.nasa.gov/mission/apollo-11/",
+    "trap_notes": {
+      "default": "Timeline: Sputnik (1957), Berlin Wall (1961), Cuban Missile Crisis (1962), Apollo 11 (1969)."
+    }
+  },
+  {
+    "id": "us-ord-124",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1954–1965",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Civil Rights Movement milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Congress passes the Voting Rights Act" },
+      { "id": "b", "text": "Brown v. Board strikes down school segregation" },
+      { "id": "c", "text": "March on Washington draws 250,000 people" },
+      { "id": "d", "text": "Montgomery Bus Boycott begins after Rosa Parks's arrest" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Brown was decided in 1954, the Montgomery boycott began in 1955, the March on Washington in 1963, and Voting Rights Act in 1965.",
+    "source_url": "https://www.loc.gov/exhibits/civil-rights-act/",
+    "trap_notes": {
+      "default": "Timeline: Brown (1954), Montgomery Boycott (1955), March on Washington (1963), Voting Rights Act (1965)."
+    }
+  },
+  {
+    "id": "us-ord-125",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1957–1968",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.7465, "lng": -92.2896, "label": "Little Rock, Arkansas" },
+    "prompt": "Order these Civil Rights turning points earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Freedom Riders challenge segregated interstate buses" },
+      { "id": "b", "text": "Fair Housing Act bans housing discrimination" },
+      { "id": "c", "text": "Little Rock Nine integrate Central High School" },
+      { "id": "d", "text": "Civil Rights Act outlaws public segregation" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Little Rock occurred in 1957, Freedom Rides in 1961, the Civil Rights Act in 1964, and the Fair Housing Act in 1968.",
+    "source_url": "https://www.nps.gov/chsc/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Timeline: Little Rock (1957), Freedom Rides (1961), Civil Rights Act (1964), Fair Housing Act (1968)."
+    }
+  },
+  {
+    "id": "us-ord-126",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1964–1975",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Vietnam War era events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Congress passes the War Powers Resolution" },
+      { "id": "b", "text": "Gulf of Tonkin Resolution expands U.S. involvement" },
+      { "id": "c", "text": "Saigon falls as South Vietnam collapses" },
+      { "id": "d", "text": "Tet Offensive shocks the American public" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Gulf of Tonkin passed in 1964, the Tet Offensive struck in 1968, the War Powers Resolution passed in 1973, and Saigon fell in 1975.",
+    "source_url": "https://www.archives.gov/research/vietnam-war",
+    "trap_notes": {
+      "default": "Timeline: Gulf of Tonkin (1964), Tet Offensive (1968), War Powers (1973), Fall of Saigon (1975)."
+    }
+  },
+  {
+    "id": "us-ord-127",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1962–1973",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these 1960s-1970s social and legal milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "First Earth Day highlights environmental protection" },
+      { "id": "b", "text": "Rachel Carson publishes Silent Spring" },
+      { "id": "c", "text": "Supreme Court decides Roe v. Wade" },
+      { "id": "d", "text": "Congress creates Medicare and Medicaid" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Silent Spring appeared in 1962, Medicare passed in 1965, the first Earth Day took place in 1970, and Roe v. Wade was decided in 1973.",
+    "source_url": "https://www.epa.gov/history",
+    "trap_notes": {
+      "default": "Timeline: Silent Spring (1962), Medicare (1965), Earth Day (1970), Roe v. Wade (1973)."
+    }
+  },
+  {
+    "id": "us-ord-128",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1972–1979",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.6484, "lng": -77.465, "label": "Camp David, Maryland" },
+    "prompt": "Order these 1970s events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Iranian students seize the U.S. embassy in Tehran" },
+      { "id": "b", "text": "President Nixon visits the People's Republic of China" },
+      { "id": "c", "text": "Egypt and Israel sign the Camp David Accords" },
+      { "id": "d", "text": "Nixon resigns during the Watergate scandal" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Nixon visited China in 1972 and resigned in 1974; Camp David was signed in 1978, and the Iran Hostage Crisis began in 1979.",
+    "source_url": "https://millercenter.org/president/carter/foreign-affairs",
+    "trap_notes": {
+      "default": "Timeline: Nixon in China (1972), Resignation (1974), Camp David (1978), Iran Hostage Crisis (1979)."
+    }
+  },
+  {
+    "id": "us-ord-129",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1981–1994",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these late-20th-century U.S. milestones earliest to latest:",
+    "options": [
+      { "id": "a", "text": "NAFTA trade deal takes effect across North America" },
+      { "id": "b", "text": "Sandra Day O'Connor joins the U.S. Supreme Court" },
+      { "id": "c", "text": "Americans with Disabilities Act becomes federal law" },
+      { "id": "d", "text": "Persian Gulf War drives Iraqi forces from Kuwait" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "O'Connor was sworn in in 1981, the ADA passed in 1990, the Gulf War was fought in early 1991, and NAFTA took effect in 1994.",
+    "source_url": "https://www.archives.gov/research/americans-with-disabilities-act",
+    "trap_notes": {
+      "default": "Timeline: O'Connor (1981), ADA (1990), Gulf War (1991), NAFTA (1994)."
+    }
+  },
+  {
+    "id": "us-ord-130",
+    "type": "ordering",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "2001–2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Order these early 21st-century U.S. events earliest to latest:",
+    "options": [
+      { "id": "a", "text": "Hurricane Katrina floods New Orleans and the Gulf Coast" },
+      { "id": "b", "text": "Congress passes the Affordable Care Act" },
+      { "id": "c", "text": "September 11 attacks strike New York and Washington" },
+      { "id": "d", "text": "Lehman Brothers collapse deepens the Great Recession" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "9/11 occurred in 2001, Katrina hit in 2005, Lehman Brothers failed in 2008, and the Affordable Care Act passed in 2010.",
+    "source_url": "https://www.archives.gov/research/9-11",
+    "trap_notes": {
+      "default": "Timeline: 9/11 (2001), Katrina (2005), 2008 Financial Crisis, Affordable Care Act (2010)."
+    }
+  },
+  {
+    "id": "us-cau-101",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1607–1620",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.209, "lng": -76.774, "label": "Jamestown, Virginia" },
+    "prompt": "Order how tobacco shaped early Virginia's labor system:",
+    "options": [
+      { "id": "a", "text": "Planters expand use of indentured and enslaved workers" },
+      { "id": "b", "text": "John Rolfe introduces sweet West Indian tobacco" },
+      { "id": "c", "text": "Jamestown struggles without gold or export income" },
+      { "id": "d", "text": "High European tobacco demand makes Virginia land valuable" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Struggling for profit, Jamestown turned to Rolfe's tobacco, whose European demand drove land grabs and forced labor.",
+    "source_url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm",
+    "trap_notes": {
+      "default": "No gold -> Rolfe's tobacco -> European boom -> expansion of bound labor."
+    }
+  },
+  {
+    "id": "us-cau-102",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1754–1765",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "Order how the French and Indian War led to colonial tax protests:",
+    "options": [
+      { "id": "a", "text": "Colonists boycott British goods and protest taxation" },
+      { "id": "b", "text": "Britain piles up massive war debt defending colonies" },
+      { "id": "c", "text": "Parliament passes the Stamp Act to raise revenue" },
+      { "id": "d", "text": "Britain wins Canada and the Ohio Valley from France" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Victory over France left Britain deeply in debt, prompting Parliament to pass the Stamp Act and sparking colonial boycotts.",
+    "source_url": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1763-to-1765/",
+    "trap_notes": {
+      "default": "British victory -> war debt -> Stamp Act -> colonial boycotts."
+    }
+  },
+  {
+    "id": "us-cau-103",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1773–1775",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "Order the chain of events from the Tea Act to the First Congress:",
+    "options": [
+      { "id": "a", "text": "Twelve colonies form the First Continental Congress" },
+      { "id": "b", "text": "Parliament passes the Coercive Acts closing Boston Harbor" },
+      { "id": "c", "text": "Sons of Liberty dump tea into Boston Harbor" },
+      { "id": "d", "text": "Britain grants the East India Company a colonial tea monopoly" }
+    ],
+    "answer": ["d", "c", "b", "a"],
+    "explanation": "The 1773 Tea Act triggered the Boston Tea Party, which provoked the Coercive Acts and united colonies in the First Continental Congress.",
+    "source_url": "https://www.loc.gov/item/today-in-history/december-16/",
+    "trap_notes": {
+      "default": "Tea Act -> Boston Tea Party -> Coercive Acts -> First Continental Congress."
+    }
+  },
+  {
+    "id": "us-cau-104",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1783–1787",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "Order how weaknesses in the Articles led to the U.S. Constitution:",
+    "options": [
+      { "id": "a", "text": "Delegates meet in Philadelphia and draft a stronger charter" },
+      { "id": "b", "text": "Articles deny Congress the power to tax or raise an army" },
+      { "id": "c", "text": "Debt-ridden Massachusetts farmers launch Shays' Rebellion" },
+      { "id": "d", "text": "Federal government cannot pay war debts or keep order" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Lacking tax and military power, the Confederation stalled on debts; Shays' Rebellion then convinced leaders to draft the Constitution.",
+    "source_url": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "trap_notes": {
+      "default": "Weak Articles -> unpaid debts -> Shays' Rebellion -> 1787 Constitutional Convention."
+    }
+  },
+  {
+    "id": "us-cau-105",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1790–1800",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "Order how Hamilton's financial plan split the first political parties:",
+    "options": [
+      { "id": "a", "text": "Hamilton proposes a national bank and debt assumption" },
+      { "id": "b", "text": "Federalists and Democratic-Republicans form rival parties" },
+      { "id": "c", "text": "Revolutionary War leaves the U.S. with heavy unpaid debts" },
+      { "id": "d", "text": "Jefferson and Madison argue the bank violates strict construction" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "War debt prompted Hamilton's bank plan, which Jefferson opposed on constitutional grounds, creating the first two-party system.",
+    "source_url": "https://www.federalreservehistory.org/essays/first-bank-of-the-us",
+    "trap_notes": {
+      "default": "War debt -> Hamilton's Bank -> Jefferson's opposition -> first political parties."
+    }
+  },
+  {
+    "id": "us-cau-106",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1793–1830",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.0809, "lng": -81.0912, "label": "Savannah, Georgia" },
+    "prompt": "Order how the 1793 cotton gin reshaped the American South:",
+    "options": [
+      { "id": "a", "text": "Demand for enslaved labor surges across the Deep South" },
+      { "id": "b", "text": "Cleaning seeds from short-staple cotton is slow by hand" },
+      { "id": "c", "text": "Cotton plantations spread rapidly from Georgia to Texas" },
+      { "id": "d", "text": "Eli Whitney invents a machine that cleans cotton fast" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Slow hand-cleaning limited cotton until Whitney's 1793 gin made it wildly profitable, spreading plantations and expanding slavery.",
+    "source_url": "https://www.archives.gov/education/lessons/cotton-gin-patent",
+    "trap_notes": {
+      "default": "Slow seed removal -> cotton gin -> plantation boom -> surge in enslaved labor."
+    }
+  },
+  {
+    "id": "us-cau-107",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1800–1803",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, Louisiana" },
+    "prompt": "Order how events in Europe and Haiti led to the Louisiana Purchase:",
+    "options": [
+      { "id": "a", "text": "Napoleon sells all of Louisiana to the United States" },
+      { "id": "b", "text": "Haitian Revolution defeats French forces in Saint-Domingue" },
+      { "id": "c", "text": "Jefferson sends envoys to Paris to buy New Orleans" },
+      { "id": "d", "text": "Spain transfers Louisiana back to France, alarming U.S. farmers" }
+    ],
+    "answer": ["d", "c", "b", "a"],
+    "explanation": "France's takeover of Louisiana alarmed Jefferson, who sought New Orleans; after losing Haiti, Napoleon sold the entire territory.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "trap_notes": {
+      "default": "France gets Louisiana -> U.S. seeks New Orleans -> Haitian Revolution -> Napoleon sells all."
+    }
+  },
+  {
+    "id": "us-cau-108",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1807–1815",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order how maritime disputes led to the War of 1812:",
+    "options": [
+      { "id": "a", "text": "War Hawks in Congress push for war with Great Britain" },
+      { "id": "b", "text": "British warships seize U.S. ships and impress American sailors" },
+      { "id": "c", "text": "Embargo Act fails to stop seizures and hurts U.S. ports" },
+      { "id": "d", "text": "Britain and France clash in the Napoleonic Wars" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "European war led Britain to impress U.S. sailors; Jefferson's 1807 embargo failed, and War Hawks pushed Congress into war in 1812.",
+    "source_url": "https://www.nps.gov/subjects/warof1812/index.htm",
+    "trap_notes": {
+      "default": "Napoleonic Wars -> impressment -> failed Embargo Act -> War Hawks declare war."
+    }
+  },
+  {
+    "id": "us-cau-109",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1828–1838",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 34.4884, "lng": -84.9488, "label": "New Echota, Georgia" },
+    "prompt": "Order how Georgia gold and federal policy caused the Trail of Tears:",
+    "options": [
+      { "id": "a", "text": "U.S. troops force Cherokee people west in 1838" },
+      { "id": "b", "text": "Congress passes the 1830 Indian Removal Act" },
+      { "id": "c", "text": "Gold discovery on Cherokee land draws white prospectors" },
+      { "id": "d", "text": "Jackson refuses to enforce Worcester v. Georgia protections" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Georgia gold fueled demand for Cherokee land, leading to the 1830 Removal Act, ignored court rulings, and the 1838 Trail of Tears.",
+    "source_url": "https://www.nps.gov/trte/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Gold on Cherokee land -> Indian Removal Act -> court ruling ignored -> Trail of Tears."
+    }
+  },
+  {
+    "id": "us-cau-110",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1836–1848",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 25.9017, "lng": -97.4975, "label": "Brownsville, Texas" },
+    "prompt": "Order how Texas annexation led to the Mexican Cession:",
+    "options": [
+      { "id": "a", "text": "Mexico cedes California and the Southwest in 1848" },
+      { "id": "b", "text": "United States annexes Texas in 1845 despite Mexican protests" },
+      { "id": "c", "text": "U.S. and Mexican troops clash along the disputed Rio Grande" },
+      { "id": "d", "text": "President Polk sends troops into the disputed border zone" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Annexing Texas sparked a border dispute; Polk sent troops to the Rio Grande, fighting broke out, and the 1848 treaty ceded the Southwest.",
+    "source_url": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+    "trap_notes": {
+      "default": "Texas annexed -> troops sent to Rio Grande -> war begins -> Treaty of Guadalupe Hidalgo."
+    }
+  },
+  {
+    "id": "us-cau-111",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1854–1860",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order how the 1854 Kansas-Nebraska Act reshaped U.S. politics:",
+    "options": [
+      { "id": "a", "text": "Northern opponents unite to form the Republican Party" },
+      { "id": "b", "text": "Kansas-Nebraska Act repeals the Missouri Compromise line" },
+      { "id": "c", "text": "Abraham Lincoln wins the 1860 presidential election" },
+      { "id": "d", "text": "Whig Party splits apart over expanding slavery westward" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Repealing the 1820 line shattered the Whig Party, gave birth to the antislavery Republican Party, and led to Lincoln's 1860 victory.",
+    "source_url": "https://www.archives.gov/milestone-documents/kansas-nebraska-act",
+    "trap_notes": {
+      "default": "Kansas-Nebraska Act -> Whig collapse -> Republican Party formed -> Lincoln elected in 1860."
+    }
+  },
+  {
+    "id": "us-cau-112",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1860–1861",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.7525, "lng": -79.8747, "label": "Charleston, South Carolina" },
+    "prompt": "Order the chain of events that began the Civil War:",
+    "options": [
+      { "id": "a", "text": "Confederate guns open fire on Fort Sumter" },
+      { "id": "b", "text": "Abraham Lincoln wins the 1860 election without Southern votes" },
+      { "id": "c", "text": "Lincoln calls for 75,000 troops, prompting four more states to secede" },
+      { "id": "d", "text": "South Carolina and six Deep South states secede from the Union" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Lincoln's 1860 win triggered Deep South secession, followed by the attack on Fort Sumter and four Upper South states seceding.",
+    "source_url": "https://www.nps.gov/fosu/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Lincoln elected -> Deep South secedes -> Fort Sumter fired on -> Upper South secedes."
+    }
+  },
+  {
+    "id": "us-cau-113",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1862–1863",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.4732, "lng": -77.7447, "label": "Sharpsburg, Maryland" },
+    "prompt": "Order how the Battle of Antietam led to the Emancipation Proclamation:",
+    "options": [
+      { "id": "a", "text": "Lincoln waits for a Union victory before announcing emancipation" },
+      { "id": "b", "text": "Britain and France hold back from recognizing the Confederacy" },
+      { "id": "c", "text": "Union forces halt Lee's invasion at Antietam in September 1862" },
+      { "id": "d", "text": "Lincoln issues the preliminary and final Emancipation Proclamation" }
+    ],
+    "answer": ["a", "c", "d", "b"],
+    "explanation": "Lincoln waited for a Union victory at Antietam to issue the Emancipation Proclamation, which kept Britain and France out of the war.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation",
+    "trap_notes": {
+      "default": "Lincoln waits for victory -> Antietam -> Emancipation Proclamation -> Europe stays neutral."
+    }
+  },
+  {
+    "id": "us-cau-114",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865–1896",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.749, "lng": -84.388, "label": "Atlanta, Georgia" },
+    "prompt": "Order how sharecropping trapped many Southern families in poverty:",
+    "options": [
+      { "id": "a", "text": "Low cotton prices keep tenants in endless debt to landowners" },
+      { "id": "b", "text": "Freedpeople lack land and cash after the Civil War" },
+      { "id": "c", "text": "Families rent plots and buy supplies on high-interest credit" },
+      { "id": "d", "text": "Planters lack cash to pay wages for cotton planting" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "With freedpeople lacking land and planters lacking cash, sharecropping arose on credit, locking tenants into cycles of debt.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/",
+    "trap_notes": {
+      "default": "Landless workers + cash-poor planters -> sharecropping on credit -> cycle of debt."
+    }
+  },
+  {
+    "id": "us-cau-115",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1869–1892",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha, Nebraska" },
+    "prompt": "Order how farm distress gave rise to the Populist Party:",
+    "options": [
+      { "id": "a", "text": "Farmers form the Grange and Alliances to fight monopolies" },
+      { "id": "b", "text": "Crop prices fall while railroad shipping rates stay high" },
+      { "id": "c", "text": "Populist Party nominates a presidential ticket in 1892" },
+      { "id": "d", "text": "Alliances unite with labor groups to enter national politics" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Falling crop prices and high rail rates pushed farmers into the Grange and Alliances, which merged into the 1892 Populist Party.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/",
+    "trap_notes": {
+      "default": "Low crop prices -> Grange & Alliances -> political coalition -> 1892 Populist Party."
+    }
+  },
+  {
+    "id": "us-cau-116",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1870–1910",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Order how rapid industrialization fueled Gilded Age city growth:",
+    "options": [
+      { "id": "a", "text": "Crowded tenement districts strain city water and sanitation" },
+      { "id": "b", "text": "Factories expand mass production in northern cities" },
+      { "id": "c", "text": "Urban reformers push for parks, sewers, and building codes" },
+      { "id": "d", "text": "Millions of immigrants and rural workers move to factory jobs" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Expanding factories drew millions to cities, overcrowding tenements and prompting Progressive urban sanitation and housing reforms.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/cities-during-the-progressive-era/",
+    "trap_notes": {
+      "default": "Factory jobs -> migration to cities -> crowded tenements -> Progressive urban reforms."
+    }
+  },
+  {
+    "id": "us-cau-117",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1881–1883",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order how the spoils system led to civil service reform:",
+    "options": [
+      { "id": "a", "text": "Congress passes the 1883 Pendleton Civil Service Act" },
+      { "id": "b", "text": "A disappointed job seeker assassinates President Garfield" },
+      { "id": "c", "text": "Political parties hand out federal jobs to loyal supporters" },
+      { "id": "d", "text": "Federal agencies begin hiring workers through merit exams" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Patronage abuses culminated in President Garfield's 1881 assassination, spurring the 1883 Pendleton Act and merit-based civil service exams.",
+    "source_url": "https://www.archives.gov/milestone-documents/pendleton-act",
+    "trap_notes": {
+      "default": "Spoils system -> Garfield assassinated -> Pendleton Act -> merit exams."
+    }
+  },
+  {
+    "id": "us-cau-118",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1898–1902",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "prompt": "Order how the Cuban crisis led to an overseas U.S. empire:",
+    "options": [
+      { "id": "a", "text": "Spain cedes Puerto Rico, Guam, and the Philippines to the U.S." },
+      { "id": "b", "text": "Cuban rebels fight Spanish rule while yellow press stirs outrage" },
+      { "id": "c", "text": "United States defeats Spain in a short 1898 war" },
+      { "id": "d", "text": "USS Maine explodes in Havana Harbor, triggering war calls" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Cuban rebellion and yellow journalism primed U.S. opinion; the USS Maine explosion sparked the 1898 war, ending with Spain ceding colonies.",
+    "source_url": "https://www.loc.gov/rr/hispanic/1898/",
+    "trap_notes": {
+      "default": "Cuban revolt -> USS Maine explosion -> Spanish-American War -> overseas territories."
+    }
+  },
+  {
+    "id": "us-cau-119",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1914–1917",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order how German actions drew the United States into World War I:",
+    "options": [
+      { "id": "a", "text": "President Wilson asks Congress to declare war in April 1917" },
+      { "id": "b", "text": "Germany resumes unrestricted submarine attacks on merchant ships" },
+      { "id": "c", "text": "British blockade squeezes German food and war supplies" },
+      { "id": "d", "text": "Zimmermann Telegram offers Mexico U.S. land to join Germany" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Facing a British blockade, Germany resumed U-boat attacks and sent the Zimmermann Telegram, leading Congress to declare war in April 1917.",
+    "source_url": "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+    "trap_notes": {
+      "default": "British blockade -> U-boat attacks -> Zimmermann Telegram -> U.S. enters WWI."
+    }
+  },
+  {
+    "id": "us-cau-120",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1919–1933",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Order how Prohibition created unintended consequences in the 1920s:",
+    "options": [
+      { "id": "a", "text": "Organized crime syndicates profit by smuggling illegal liquor" },
+      { "id": "b", "text": "18th Amendment bans making, selling, and shipping alcohol" },
+      { "id": "c", "text": "21st Amendment repeals Prohibition during the Great Depression" },
+      { "id": "d", "text": "Speakeasies and bootleggers supply high public demand" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The 18th Amendment drove drinking to speakeasies, enriching organized crime until the 21st Amendment repealed Prohibition in 1933.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xviii",
+    "trap_notes": {
+      "default": "18th Amendment -> bootlegging & speakeasies -> organized crime -> 21st Amendment repeal."
+    }
+  },
+  {
+    "id": "us-cau-121",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1919–1929",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "prompt": "Order how Henry Ford's assembly line transformed 1920s America:",
+    "options": [
+      { "id": "a", "text": "Suburbs, paved highways, and roadside businesses expand rapidly" },
+      { "id": "b", "text": "Moving assembly lines slash the time and cost to build Model Ts" },
+      { "id": "c", "text": "Millions of middle-class families buy cars on installment credit" },
+      { "id": "d", "text": "Early automobiles are handmade and too costly for most families" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Ford's moving assembly line lowered car prices so families could buy on credit, fueling suburban growth and highway construction.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/automobiles-in-the-progressive-and-new-eras/",
+    "trap_notes": {
+      "default": "Costly handmade cars -> assembly line -> mass car ownership -> suburbs & highways."
+    }
+  },
+  {
+    "id": "us-cau-122",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1929–1933",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "Wall Street, New York" },
+    "prompt": "Order how the 1929 stock crash deepened into the Great Depression:",
+    "options": [
+      { "id": "a", "text": "Factories cut output and lay off a quarter of U.S. workers" },
+      { "id": "b", "text": "Panicked depositors rush to withdraw cash, causing bank failures" },
+      { "id": "c", "text": "Stock prices collapse in October 1929, wiping out margin buyers" },
+      { "id": "d", "text": "Businesses and consumers slash spending as credit dries up" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The 1929 crash triggered bank runs and failures, which dried up credit, crushed spending, and caused mass layoffs.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-depression",
+    "trap_notes": {
+      "default": "1929 Crash -> bank runs & failures -> spending & credit freeze -> mass unemployment."
+    }
+  },
+  {
+    "id": "us-cau-123",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1933–1937",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order how New Deal court rulings led to Roosevelt's 1937 court plan:",
+    "options": [
+      { "id": "a", "text": "Congress rejects FDR's plan, though the Court backs New Deal laws" },
+      { "id": "b", "text": "Supreme Court strikes down major First New Deal agencies like NIRA" },
+      { "id": "c", "text": "FDR proposes adding up to six new justices to the Supreme Court" },
+      { "id": "d", "text": "FDR wins a landslide 1936 reelection backing New Deal reforms" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "After the Court voided early New Deal laws, a reelected FDR proposed adding justices; Congress rejected the plan, but the Court shifted.",
+    "source_url": "https://www.archives.gov/education/lessons/separation-powers",
+    "trap_notes": {
+      "default": "Court voids New Deal laws -> 1936 landslide -> court-packing plan -> Congress rejects."
+    }
+  },
+  {
+    "id": "us-cau-124",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1940–1941",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 21.3649, "lng": -157.95, "label": "Oahu, Hawaii" },
+    "prompt": "Order how Pacific tensions led to the attack on Pearl Harbor:",
+    "options": [
+      { "id": "a", "text": "Japan launches a surprise air raid on Pearl Harbor" },
+      { "id": "b", "text": "United States freezes Japanese assets and cuts off oil exports" },
+      { "id": "c", "text": "Japan expands its military occupation into French Indochina" },
+      { "id": "d", "text": "Japanese leaders decide to cripple the U.S. Pacific Fleet" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Japan's move into Indochina prompted a U.S. oil embargo, leading Tokyo to plan and execute the December 1941 strike on Pearl Harbor.",
+    "source_url": "https://www.nps.gov/perl/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Japan enters Indochina -> U.S. oil embargo -> Japan plans strike -> Pearl Harbor."
+    }
+  },
+  {
+    "id": "us-cau-125",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1941–1945",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.9358, "lng": -122.3478, "label": "Richmond, California" },
+    "prompt": "Order how World War II reshaped women's roles on the U.S. home front:",
+    "options": [
+      { "id": "a", "text": "Six million women enter factory, shipyard, and office jobs" },
+      { "id": "b", "text": "Millions of American men are drafted into military service" },
+      { "id": "c", "text": "Government campaigns like Rosie the Riveter recruit women workers" },
+      { "id": "d", "text": "Wartime factories face severe labor shortages as orders surge" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Drafting millions of men caused factory labor shortages, prompting Rosie the Riveter drives that brought six million women into war work.",
+    "source_url": "https://www.nps.gov/rori/learn/historyculture/index.htm",
+    "trap_notes": {
+      "default": "Military draft -> factory labor shortages -> Rosie the Riveter -> 6 million women hired."
+    }
+  },
+  {
+    "id": "us-cau-126",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1945–1949",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order how the Berlin crisis led to the creation of NATO:",
+    "options": [
+      { "id": "a", "text": "U.S. and British planes airlift supplies to West Berlin for 11 months" },
+      { "id": "b", "text": "Western Allies plan to unite their German zones with a new currency" },
+      { "id": "c", "text": "Twelve Western nations sign the NATO collective defense treaty" },
+      { "id": "d", "text": "Soviet Union blockades all roads and rails into West Berlin" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Western zone currency reform prompted Stalin's Berlin blockade, which the Berlin Airlift defeated and spurred Western allies to form NATO.",
+    "source_url": "https://www.archives.gov/milestone-documents/north-atlantic-treaty",
+    "trap_notes": {
+      "default": "Western currency reform -> Soviet blockade -> Berlin Airlift -> NATO formed in 1949."
+    }
+  },
+  {
+    "id": "us-cau-127",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1957–1961",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order how Sputnik reshaped U.S. science and education policy:",
+    "options": [
+      { "id": "a", "text": "Congress creates NASA and funds math and science schools" },
+      { "id": "b", "text": "Soviet Union launches Sputnik 1, the first artificial satellite" },
+      { "id": "c", "text": "President Kennedy pledges to land an American on the Moon" },
+      { "id": "d", "text": "Americans fear the U.S. has fallen behind in missile technology" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Sputnik's 1957 launch sparked U.S. missile-gap fears, leading Congress to create NASA and fund NDEA education before JFK's Moon pledge.",
+    "source_url": "https://www.nasa.gov/history/sputnik/",
+    "trap_notes": {
+      "default": "Sputnik launch -> U.S. tech fears -> NASA & NDEA funding -> JFK Moon goal."
+    }
+  },
+  {
+    "id": "us-cau-128",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1960–1964",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.0726, "lng": -79.792, "label": "Greensboro, North Carolina" },
+    "prompt": "Order how grassroots protests led to the 1964 Civil Rights Act:",
+    "options": [
+      { "id": "a", "text": "Congress passes the Civil Rights Act banning public segregation" },
+      { "id": "b", "text": "Students launch lunch-counter sit-ins across Southern cities" },
+      { "id": "c", "text": "Birmingham protest images and the 1963 March build national support" },
+      { "id": "d", "text": "President Kennedy proposes a sweeping federal civil rights bill" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Sit-ins and the 1963 Birmingham and Washington demonstrations built public pressure for Kennedy's bill, signed by Johnson in 1964.",
+    "source_url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "trap_notes": {
+      "default": "Sit-ins -> Birmingham & March on Washington -> JFK bill -> 1964 Civil Rights Act."
+    }
+  },
+  {
+    "id": "us-cau-129",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1964–1965",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.4074, "lng": -87.0211, "label": "Selma, Alabama" },
+    "prompt": "Order how the Selma campaign led to the 1965 Voting Rights Act:",
+    "options": [
+      { "id": "a", "text": "President Johnson signs the Voting Rights Act banning literacy tests" },
+      { "id": "b", "text": "Alabama officials block Black citizens from registering to vote" },
+      { "id": "c", "text": "Televised police violence on Bloody Sunday shocks the nation" },
+      { "id": "d", "text": "Activists organize a voting-rights march from Selma to Montgomery" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Alabama voter suppression sparked the 1965 Selma march; televised violence on Bloody Sunday spurred passage of the Voting Rights Act.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "default": "Voter suppression -> Selma march -> Bloody Sunday -> 1965 Voting Rights Act."
+    }
+  },
+  {
+    "id": "us-cau-130",
+    "type": "causal",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1973–1974",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order how the 1973 oil embargo affected the U.S. economy:",
+    "options": [
+      { "id": "a", "text": "Drivers wait in long gas lines as fuel prices quadruple" },
+      { "id": "b", "text": "OPEC Arab members cut oil shipments to U.S. allies" },
+      { "id": "c", "text": "High energy costs worsen 1970s inflation and slow growth" },
+      { "id": "d", "text": "United States resupplies Israel during the 1973 Yom Kippur War" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "U.S. aid to Israel in 1973 triggered an OPEC oil embargo, causing gas lines, soaring fuel prices, and 1970s stagflation.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/oil-embargo",
+    "trap_notes": {
+      "default": "1973 Yom Kippur War aid -> OPEC embargo -> gas lines -> 1970s stagflation."
+    }
+  }
+]

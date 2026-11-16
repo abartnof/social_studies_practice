@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "world-mc-101",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 2600–2150 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.9792, "lng": 31.1342, "label": "Giza, Egypt" },
+    "prompt": "Why did annual Nile River floods help ancient Egypt build a stable state?",
+    "options": [
+      { "id": "a", "text": "Predictable floods left rich silt that supported surplus grain harvests" },
+      { "id": "b", "text": "Violent floods forced cities to relocate every few decades" },
+      { "id": "c", "text": "Seasonal droughts pushed Egyptian farmers to abandon river valleys" },
+      { "id": "d", "text": "Fast mountain currents prevented river boats from carrying trade goods" }
+    ],
+    "answer": "a",
+    "explanation": "The Nile flooded on a steady schedule, depositing fertile silt that fed cities and funded royal projects.",
+    "fun_fact": "Ancient Egyptians divided their year into three seasons based on the Nile: Flooding, Planting, and Harvest.",
+    "source_url": "https://www.britannica.com/place/ancient-Egypt",
+    "trap_notes": {
+      "b": "Unlike Mesopotamia's Tigris and Euphrates, the Nile flooded gently and predictably.",
+      "c": "Egyptians relied on Nile irrigation rather than abandoning the valley.",
+      "d": "The Nile's gentle current and prevailing north winds made two-way boat travel easy.",
+      "default": "Predictable Nile floods meant steady silt, surplus food, and political stability."
+    }
+  },
+  {
+    "id": "world-mc-102",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 2500–1900 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 27.3243, "lng": 68.1357, "label": "Mohenjo-daro, Pakistan" },
+    "prompt": "What archaeological evidence at Mohenjo-daro points to strong urban planning?",
+    "options": [
+      { "id": "a", "text": "Stone pyramids built to house royal mummies and gold treasures" },
+      { "id": "b", "text": "Grid-patterned streets paired with covered brick drainage systems" },
+      { "id": "c", "text": "Massive marble amphitheaters designed for citizen assemblies" },
+      { "id": "d", "text": "Iron-plated fortress walls built to repel nomadic horse archers" }
+    ],
+    "answer": "b",
+    "explanation": "Indus Valley cities like Mohenjo-daro featured straight grid streets, standardized bricks, and indoor drains.",
+    "fun_fact": "Most homes in Mohenjo-daro had private wells and indoor bathrooms connected to street sewers.",
+    "source_url": "https://www.britannica.com/place/Mohenjo-daro",
+    "trap_notes": {
+      "a": "Stone pyramids for royal mummies belong to Old Kingdom Egypt, not the Indus Valley.",
+      "c": "Marble amphitheaters and citizen assemblies belong to classical Greece and Rome.",
+      "d": "Iron metallurgy became widespread centuries after the Indus Valley cities declined.",
+      "default": "Indus cities are famous for grid streets, standard bricks, and advanced drainage."
+    }
+  },
+  {
+    "id": "world-mc-103",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 1600–1046 BCE",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 36.1011, "lng": 114.3497, "label": "Anyang, China" },
+    "prompt": "How did Shang Dynasty rulers use inscribed oracle bones?",
+    "options": [
+      { "id": "a", "text": "To record silver loans between Silk Road merchant guilds" },
+      { "id": "b", "text": "To print Buddhist scriptures for village temple libraries" },
+      { "id": "c", "text": "To ask ancestors questions about harvests, weather, and war" },
+      { "id": "d", "text": "To map ocean currents for treasure voyages to East Africa" }
+    ],
+    "answer": "c",
+    "explanation": "Shang priests heated ox bones and turtle shells to read cracks as answers from royal ancestors.",
+    "fun_fact": "Over 150,000 Shang oracle bone fragments survive, showing the earliest known Chinese writing.",
+    "source_url": "https://www.britannica.com/topic/oracle-bone",
+    "trap_notes": {
+      "a": "Silk Road merchant guilds developed over a thousand years after the Shang Dynasty.",
+      "b": "Buddhism reached China during the Han Dynasty, long after the Shang period.",
+      "d": "Ming treasure voyages occurred in the 1400s CE, roughly 2,500 years later.",
+      "default": "Shang oracle bones were divination tools bearing China's earliest surviving script."
+    }
+  },
+  {
+    "id": "world-mc-104",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 3200–2350 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 31.3222, "lng": 45.6361, "label": "Uruk, Mesopotamia" },
+    "prompt": "For what primary purpose did Sumerians first invent cuneiform writing?",
+    "options": [
+      { "id": "a", "text": "To compose epic poems praising Greek Olympian deities" },
+      { "id": "b", "text": "To draft democratic constitutions for coastal city-states" },
+      { "id": "c", "text": "To publish weekly newsletters for long-distance caravan drivers" },
+      { "id": "d", "text": "To track grain, livestock, and tax records on clay tablets" }
+    ],
+    "answer": "d",
+    "explanation": "Sumerian scribes first pressed wedge marks into clay to track temple grain, sheep, and tax rations.",
+    "fun_fact": "Early cuneiform tablets even list daily beer rations paid to temple workers in Uruk.",
+    "source_url": "https://www.britannica.com/topic/cuneiform",
+    "trap_notes": {
+      "a": "Greek epics appeared millennia later; Sumerian writing started with accounting.",
+      "b": "Sumerian cities were ruled by kings and priests, not democratic constitutions.",
+      "c": "Clay tablets were administrative records, not public newsletters for travelers.",
+      "default": "Cuneiform began as a temple accounting system before expanding to laws and epics."
+    }
+  },
+  {
+    "id": "world-mc-105",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "550–330 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 29.9352, "lng": 52.8916, "label": "Persepolis, Iran" },
+    "prompt": "How did the Achaemenid Persian Empire govern its vast, diverse territory?",
+    "options": [
+      { "id": "a", "text": "By appointing regional satraps linked by the Royal Road and inspectors" },
+      { "id": "b", "text": "By forcing every conquered province to adopt Persian religion" },
+      { "id": "c", "text": "By abolishing local languages in favor of Greek city charters" },
+      { "id": "d", "text": "By ruling directly from one palace without provincial governors" }
+    ],
+    "answer": "a",
+    "explanation": "Persian kings divided the empire into satrapies, respected local customs, and used royal inspectors.",
+    "fun_fact": "Persian couriers on the 1,600-mile Royal Road inspired the U.S. Postal Service's informal motto.",
+    "source_url": "https://www.britannica.com/topic/Achaemenian-dynasty",
+    "trap_notes": {
+      "b": "Persian rulers like Cyrus the Great were noted for tolerating local religions.",
+      "c": "Greek city charters spread later under Alexander and Hellenistic kingdoms.",
+      "d": "The empire was far too large to govern without provincial governors called satraps.",
+      "default": "Persia paired regional governors called satraps with roads, couriers, and local tolerance."
+    }
+  },
+  {
+    "id": "world-mc-106",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "268–232 BCE",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.5941, "lng": 85.1376, "label": "Pataliputra, India" },
+    "prompt": "What major shift marked Emperor Ashoka's rule after the Kalinga War?",
+    "options": [
+      { "id": "a", "text": "He launched naval invasions to conquer Han China" },
+      { "id": "b", "text": "He promoted Buddhist ethics and nonviolence on stone pillars" },
+      { "id": "c", "text": "He replaced Sanskrit writing with Arabic calligraphy" },
+      { "id": "d", "text": "He dismantled Mauryan roads to isolate India from trade" }
+    ],
+    "answer": "b",
+    "explanation": "Horrified by bloodshed at Kalinga, Ashoka embraced Buddhism and carved moral edicts across India.",
+    "fun_fact": "The lion capital from Ashoka's pillar at Sarnath serves as India's official national emblem today.",
+    "source_url": "https://www.britannica.com/biography/Ashoka",
+    "trap_notes": {
+      "a": "Ashoka renounced wars of conquest after Kalinga rather than invading China.",
+      "c": "Arabic script arrived in South Asia many centuries later with Islamic dynasties.",
+      "d": "Ashoka built roads, rest houses, and hospitals to support travelers and trade.",
+      "default": "After Kalinga, Ashoka spread Buddhist values through rock and pillar edicts."
+    }
+  },
+  {
+    "id": "world-mc-107",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 320–550 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.3176, "lng": 82.9739, "label": "Varanasi, India" },
+    "prompt": "Which mathematical breakthrough is closely tied to India's Gupta Golden Age?",
+    "options": [
+      { "id": "a", "text": "Developing calculus to track planetary orbits" },
+      { "id": "b", "text": "Creating Roman numerals for imperial tax ledgers" },
+      { "id": "c", "text": "Formalizing zero as a placeholder in a base-10 system" },
+      { "id": "d", "text": "Inventing binary code for mechanical weaving looms" }
+    ],
+    "answer": "c",
+    "explanation": "Gupta-era Indian mathematicians refined the base-10 place-value system and zero as a number.",
+    "fun_fact": "Arab scholars later adopted India's numerals, which Europeans came to call Arabic numerals.",
+    "source_url": "https://www.britannica.com/topic/Gupta-dynasty",
+    "trap_notes": {
+      "a": "Calculus was developed in the 17th century by Newton and Leibniz.",
+      "b": "Roman numerals lacked a zero placeholder and came from ancient Rome.",
+      "d": "Binary punch-card looms appeared during Europe's Industrial Revolution.",
+      "default": "Gupta scholars advanced astronomy, medicine, and the base-10 system with zero."
+    }
+  },
+  {
+    "id": "world-mc-108",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "202 BCE–220 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Chang'an, China" },
+    "prompt": "How did the Han Dynasty select many of its government officials?",
+    "options": [
+      { "id": "a", "text": "Through public lotteries held in provincial market squares" },
+      { "id": "b", "text": "By hiring European knights as permanent tax collectors" },
+      { "id": "c", "text": "By reserving every office strictly for merchant guild elders" },
+      { "id": "d", "text": "Through civil service exams testing Confucian classics" }
+    ],
+    "answer": "d",
+    "explanation": "Han Emperor Wu set up an imperial academy where candidates studied Confucian texts for state exams.",
+    "fun_fact": "Han officials also pioneered paper making, giving China a lightweight writing surface for records.",
+    "source_url": "https://www.britannica.com/topic/Han-dynasty",
+    "trap_notes": {
+      "a": "Public lotteries for office were a feature of classical Athenian democracy, not Han China.",
+      "b": "European knights existed in medieval Europe, centuries after the Han Dynasty.",
+      "c": "Confucian ideals actually ranked merchants below scholars and farmers in status.",
+      "default": "Han bureaucracy relied on scholar-officials trained in Confucian classics."
+    }
+  },
+  {
+    "id": "world-mc-109",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "c. 450 BCE",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.9028, "lng": 12.4964, "label": "Rome, Italy" },
+    "prompt": "Why did Roman plebeians demand the posting of the Twelve Tables?",
+    "options": [
+      { "id": "a", "text": "So written laws could be seen by all and limit unfair patrician rulings" },
+      { "id": "b", "text": "So Roman emperors could claim divine status over Greek colonies" },
+      { "id": "c", "text": "So Christian bishops could collect church taxes across Italy" },
+      { "id": "d", "text": "So enslaved workers could vote in annual Senate elections" }
+    ],
+    "answer": "a",
+    "explanation": "Publishing the Twelve Tables in the Forum stopped noble judges from twisting unwritten laws.",
+    "fun_fact": "Roman schoolchildren had to memorize lines from the Twelve Tables centuries after they were carved.",
+    "source_url": "https://www.britannica.com/topic/Law-of-the-Twelve-Tables",
+    "trap_notes": {
+      "b": "The Twelve Tables were written during the early Republic, long before emperors.",
+      "c": "Christianity did not become legal in Rome until the 4th century CE.",
+      "d": "Enslaved people had no voting rights in the Roman Republic.",
+      "default": "Public written laws protected ordinary citizens from arbitrary patrician judges."
+    }
+  },
+  {
+    "id": "world-mc-110",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Islamic Golden Age",
+    "era": "750–1258 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.3152, "lng": 44.3661, "label": "Baghdad, Iraq" },
+    "prompt": "What key role did Baghdad's House of Wisdom play during the Abbasid Caliphate?",
+    "options": [
+      { "id": "a", "text": "It trained Crusaders to govern coastal forts in Syria" },
+      { "id": "b", "text": "It translated Greek, Persian, and Indian texts and spurred new science" },
+      { "id": "c", "text": "It banned mathematical research outside religious law courts" },
+      { "id": "d", "text": "It organized Atlantic voyages to map South American coastlines" }
+    ],
+    "answer": "b",
+    "explanation": "Scholars at Baghdad's House of Wisdom translated ancient works and advanced algebra, optics, and medicine.",
+    "fun_fact": "Scholar al-Khwarizmi worked in Baghdad; his book title gave us the word algebra.",
+    "source_url": "https://www.britannica.com/place/House-of-Wisdom",
+    "trap_notes": {
+      "a": "The Crusades began in 1095, centuries after the House of Wisdom was founded.",
+      "c": "Abbasid caliphs actively funded astronomy, medicine, and mathematics.",
+      "d": "Atlantic voyages to the Americas occurred in the late 1400s under European crowns.",
+      "default": "The House of Wisdom preserved ancient knowledge and fueled major Islamic scientific gains."
+    }
+  },
+  {
+    "id": "world-mc-111",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Afro-Eurasian Trade",
+    "era": "c. 800–1591 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "prompt": "Which two commodities formed the backbone of West African trans-Saharan trade?",
+    "options": [
+      { "id": "a", "text": "Porcelain from Hangzhou and silver from Potosi" },
+      { "id": "b", "text": "Nutmeg from Maluku and wool from England" },
+      { "id": "c", "text": "Gold from West African forests and salt from Saharan mines" },
+      { "id": "d", "text": "Coffee from Ethiopia and timber from Scandinavia" }
+    ],
+    "answer": "c",
+    "explanation": "Forest states in Ghana and Mali traded abundant gold for vital Saharan rock salt carried by camel.",
+    "fun_fact": "In medieval Mali, salt slabs from Taghaza were sometimes traded weight-for-weight with gold.",
+    "source_url": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+    "trap_notes": {
+      "a": "Potosi silver and Chinese porcelain belonged to the 16th-century Pacific galleon trade.",
+      "b": "Nutmeg and English wool were not the core goods of Saharan camel caravans.",
+      "d": "Scandinavian timber and Ethiopian coffee were not paired in trans-Saharan trade.",
+      "default": "West Africa had rich gold fields while desert mines supplied essential salt."
+    }
+  },
+  {
+    "id": "world-mc-112",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Indian Ocean Trade",
+    "era": "c. 1000–1500 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -8.9606, "lng": 39.5117, "label": "Kilwa Kisiwani, Tanzania" },
+    "prompt": "What cultural blend shaped the Swahili Coast city-states of East Africa?",
+    "options": [
+      { "id": "a", "text": "Norse Viking longship settlers blending with inland steppe nomads" },
+      { "id": "b", "text": "Spanish conquistadors merging with Andean mountain kingdoms" },
+      { "id": "c", "text": "Han Chinese generals imposing Confucian academies on coastal towns" },
+      { "id": "d", "text": "Bantu-speaking African communities mixing with Arab and Persian traders" }
+    ],
+    "answer": "d",
+    "explanation": "Indian Ocean trade linked Bantu coastal towns with Arab and Persian merchants, creating Swahili culture.",
+    "fun_fact": "Swahili language uses Bantu grammar paired with many Arabic loanwords from centuries of sea trade.",
+    "source_url": "https://www.britannica.com/place/Swahili-coast",
+    "trap_notes": {
+      "a": "Viking settlers operated in the North Atlantic and Eastern Europe, not East Africa.",
+      "b": "Spanish conquistadors operated in the Americas after 1492.",
+      "c": "Zheng He visited East Africa briefly in the 1400s, without imposing Confucian rule.",
+      "default": "Swahili ports like Kilwa and Mombasa grew from Bantu-Islamic Indian Ocean commerce."
+    }
+  },
+  {
+    "id": "world-mc-113",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Afro-Eurasian Trade",
+    "era": "c. 100 BCE–1400 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.6542, "lng": 66.9597, "label": "Samarkand, Uzbekistan" },
+    "prompt": "Beyond luxury goods, what major cultural change traveled along the Silk Road?",
+    "options": [
+      { "id": "a", "text": "The spread of Buddhism, Islam, and papermaking across Eurasia" },
+      { "id": "b", "text": "The immediate adoption of European parliaments across Central Asia" },
+      { "id": "c", "text": "The replacement of all Asian crops with American potatoes" },
+      { "id": "d", "text": "The abolition of caravan cities in favor of ocean steamships" }
+    ],
+    "answer": "a",
+    "explanation": "Merchants and monks carried Buddhism, Islam, and technologies like paper along Silk Road oasis towns.",
+    "fun_fact": "Chinese papermaking spread to Samarkand in the 700s before reaching Baghdad and Europe.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "b": "Parliamentary government did not spread along ancient and medieval Silk Road routes.",
+      "c": "American potatoes arrived in Afro-Eurasia only after 1492 via the Columbian Exchange.",
+      "d": "Steamships were a 19th-century Industrial Revolution invention.",
+      "default": "Trade routes moved ideas, religions, and inventions alongside silk and spices."
+    }
+  },
+  {
+    "id": "world-mc-114",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Pre-Columbian Americas",
+    "era": "c. 1438–1533 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -13.5319, "lng": -71.9675, "label": "Cusco, Peru" },
+    "prompt": "How did the Inca Empire organize labor and keep records without alphabetic writing?",
+    "options": [
+      { "id": "a", "text": "Through feudal knighthoods and Latin monastery libraries" },
+      { "id": "b", "text": "Through the mit'a labor tax and knotted-cord quipu records" },
+      { "id": "c", "text": "Through gold coinage stamped in coastal banking houses" },
+      { "id": "d", "text": "Through wind-powered mills and clay cuneiform tablets" }
+    ],
+    "answer": "b",
+    "explanation": "The Inca required communities to rotate public labor under mit'a and tracked numbers on knotted quipus.",
+    "fun_fact": "Inca runners called chasquis relayed messages across 25,000 miles of mountain roads in days.",
+    "source_url": "https://www.britannica.com/topic/Inca",
+    "trap_notes": {
+      "a": "Feudal knights and Latin monasteries belonged to medieval Europe.",
+      "c": "The Inca economy operated through state redistribution rather than coined money.",
+      "d": "Cuneiform clay tablets belonged to ancient Mesopotamia.",
+      "default": "Inca governance relied on mit'a rotational labor and quipu knotted strings."
+    }
+  },
+  {
+    "id": "world-mc-115",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Tang & Song China",
+    "era": "618–907 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.2658, "lng": 108.9541, "label": "Xi'an, China" },
+    "prompt": "What made Chang'an a standout capital during China's Tang Dynasty?",
+    "options": [
+      { "id": "a", "text": "It banned all foreign merchants from entering city gates" },
+      { "id": "b", "text": "It served only as a seasonal camp for nomadic herders" },
+      { "id": "c", "text": "It hosted diverse Silk Road traders, faiths, and cosmopolitan arts" },
+      { "id": "d", "text": "It functioned as a Portuguese naval base for silver fleets" }
+    ],
+    "answer": "c",
+    "explanation": "Tang Chang'an was a planned metropolis of over a million people welcoming Persian, Arab, and Turkic visitors.",
+    "fun_fact": "Chang'an's grid layout directly inspired the design of Japan's ancient capitals at Nara and Kyoto.",
+    "source_url": "https://www.britannica.com/topic/Tang-dynasty",
+    "trap_notes": {
+      "a": "Tang China was unusually open to foreign trade, music, and religions.",
+      "b": "Chang'an was a monumental walled capital of stone, brick, and grand markets.",
+      "d": "Portuguese ships reached China in the 1500s, centuries after the Tang fell.",
+      "default": "Tang Chang'an stood at the eastern end of the Silk Road as a global hub."
+    }
+  },
+  {
+    "id": "world-mc-116",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Tang & Song China",
+    "era": "960–1279 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.2741, "lng": 120.1551, "label": "Hangzhou, China" },
+    "prompt": "How did fast-ripening Champa rice transform Song Dynasty China?",
+    "options": [
+      { "id": "a", "text": "It caused severe soil collapse that halved China's population" },
+      { "id": "b", "text": "It forced Song farmers to abandon southern river valleys" },
+      { "id": "c", "text": "It replaced silk and porcelain as China's main sea export" },
+      { "id": "d", "text": "It allowed two harvests a year, fueling rapid population growth" }
+    ],
+    "answer": "d",
+    "explanation": "Champa rice from Vietnam matured quickly and resisted drought, doubling harvests and doubling Song population.",
+    "fun_fact": "Song cities grew so busy that China introduced the world's first government-issued paper money.",
+    "source_url": "https://www.britannica.com/topic/Song-dynasty",
+    "trap_notes": {
+      "a": "Champa rice boosted food output and helped China's population surpass 100 million.",
+      "b": "Southern China became the empire's agricultural and commercial heartland.",
+      "c": "Silk and porcelain remained China's prized luxury exports.",
+      "default": "Drought-resistant, fast-ripening Champa rice meant more harvests and booming cities."
+    }
+  },
+  {
+    "id": "world-mc-117",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Feudal Japan",
+    "era": "1185–1600 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.3192, "lng": 139.5467, "label": "Kamakura, Japan" },
+    "prompt": "In medieval Japan's shogunate system, who held real military and political power?",
+    "options": [
+      { "id": "a", "text": "The shogun, a supreme military commander backed by samurai" },
+      { "id": "b", "text": "The emperor, who commanded every provincial army directly" },
+      { "id": "c", "text": "Town merchants, who elected a national parliament every four years" },
+      { "id": "d", "text": "Confucian scholars chosen by annual imperial examinations" }
+    ],
+    "answer": "a",
+    "explanation": "While the emperor remained a symbolic figurehead in Kyoto, the shogun ruled through daimyo and samurai.",
+    "fun_fact": "Samurai followed bushido, a warrior code stressing loyalty, honor, and discipline.",
+    "source_url": "https://www.britannica.com/topic/shogunate",
+    "trap_notes": {
+      "b": "Medieval Japanese emperors held ceremonial prestige rather than military command.",
+      "c": "Merchants ranked low in feudal Japan and did not elect a national parliament.",
+      "d": "Civil service exams defined imperial China, not feudal Japan.",
+      "default": "Emperor = symbolic figurehead; Shogun = military ruler leading daimyo and samurai."
+    }
+  },
+  {
+    "id": "world-mc-118",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Southeast Asia",
+    "era": "802–1431 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 13.4125, "lng": 103.867, "label": "Angkor Wat, Cambodia" },
+    "prompt": "What engineering achievement sustained the Khmer Empire around Angkor?",
+    "options": [
+      { "id": "a", "text": "Deep ocean harbors built for transatlantic galleons" },
+      { "id": "b", "text": "Massive reservoirs and canals that managed monsoon rice farming" },
+      { "id": "c", "text": "Steam-powered pumps draining coastal salt marshes" },
+      { "id": "d", "text": "Underground aqueducts carved beneath arid desert dunes" }
+    ],
+    "answer": "b",
+    "explanation": "Khmer rulers built huge reservoirs called barays and canals to store monsoon rain for year-round rice crops.",
+    "fun_fact": "Angkor Wat is the largest religious monument in the world, covering over 400 acres.",
+    "source_url": "https://www.britannica.com/place/Angkor",
+    "trap_notes": {
+      "a": "Angkor was an inland river-basin empire, not a transatlantic port.",
+      "c": "Steam engines were invented centuries later in 18th-century Britain.",
+      "d": "Underground desert qanats belonged to arid Persia, not tropical Cambodia.",
+      "default": "Khmer power rested on monsoon water-control reservoirs and dense rice harvests."
+    }
+  },
+  {
+    "id": "world-mc-119",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Mongol Empire",
+    "era": "1206–1368 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.2022, "lng": 102.8472, "label": "Karakorum, Mongolia" },
+    "prompt": "How did the Pax Mongolica affect overland trade across Eurasia?",
+    "options": [
+      { "id": "a", "text": "It closed all mountain passes between China and Persia" },
+      { "id": "b", "text": "It banned foreign merchants from using silver coins" },
+      { "id": "c", "text": "It secured Silk Road routes with relay stations and passports" },
+      { "id": "d", "text": "It shifted all Asian commerce onto Atlantic sailing ships" }
+    ],
+    "answer": "c",
+    "explanation": "Unified Mongol rule cut banditry, built the Yam horse-relay network, and issued safe-conduct passes.",
+    "fun_fact": "A traveler with a Mongol metal passport called a paiza could claim fresh horses and food along the road.",
+    "source_url": "https://www.britannica.com/topic/Pax-Mongolica",
+    "trap_notes": {
+      "a": "Mongols actively reopened and guarded overland Eurasian trade routes.",
+      "b": "The Mongol Empire encouraged merchant networks and standardized weights and silver.",
+      "d": "Atlantic ocean routes developed after 1492, long after the Mongol Empire fragmented.",
+      "default": "Pax Mongolica means Mongol Peace: safer roads, relay posts, and booming trade."
+    }
+  },
+  {
+    "id": "world-mc-120",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Mongol Empire",
+    "era": "1271–1368 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9042, "lng": 116.4074, "label": "Beijing, China" },
+    "prompt": "How did Kublai Khan govern the Yuan Dynasty in China?",
+    "options": [
+      { "id": "a", "text": "He banned all Buddhists and Muslims from imperial cities" },
+      { "id": "b", "text": "He gave top civil posts only to native Chinese Confucian scholars" },
+      { "id": "c", "text": "He abandoned cities to rule solely from nomadic steppe tents" },
+      { "id": "d", "text": "He kept Chinese bureaucracy while hiring foreign administrators" }
+    ],
+    "answer": "d",
+    "explanation": "Kublai Khan adopted Chinese dynastic rituals but relied heavily on Mongols and Central Asians in top posts.",
+    "fun_fact": "Venetian traveler Marco Polo claimed he served in Kublai Khan's administration for 17 years.",
+    "source_url": "https://www.britannica.com/topic/Yuan-dynasty",
+    "trap_notes": {
+      "a": "The Yuan court practiced broad religious tolerance toward Buddhists, Muslims, and Christians.",
+      "b": "Kublai Khan suspended traditional Confucian exams for decades and distrusted Song elites.",
+      "c": "Kublai Khan built his grand capital Dadu at modern Beijing.",
+      "default": "Yuan rulers blended Chinese administrative structures with Mongol and foreign officials."
+    }
+  },
+  {
+    "id": "world-mc-121",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Mongol Empire",
+    "era": "1346–1353 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.0488, "lng": 35.3792, "label": "Caffa, Crimea" },
+    "prompt": "What major demographic crisis spread rapidly along Afro-Eurasian trade routes in the 1340s?",
+    "options": [
+      { "id": "a", "text": "The Black Death, carried by fleas on rats aboard caravans and ships" },
+      { "id": "b", "text": "Smallpox epidemics arriving from Aztec cities in Mexico" },
+      { "id": "c", "text": "The Irish Potato Famine triggered by New World crop blight" },
+      { "id": "d", "text": "A volcanic winter that froze the Indian Ocean for a decade" }
+    ],
+    "answer": "a",
+    "explanation": "Bubonic plague traveled from Central Asia along Silk Road and Black Sea routes, killing millions.",
+    "fun_fact": "In Europe, labor shortages after the Black Death helped surviving peasants win higher wages.",
+    "source_url": "https://www.britannica.com/event/Black-Death",
+    "trap_notes": {
+      "b": "Smallpox devastated the Americas after 1492, moving from Eurasia to the Americas.",
+      "c": "The Irish Potato Famine occurred in the 1840s, five centuries later.",
+      "d": "No volcanic winter froze the tropical Indian Ocean.",
+      "default": "Dense 14th-century trade links accelerated the spread of bubonic plague across Afro-Eurasia."
+    }
+  },
+  {
+    "id": "world-mc-122",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Renaissance",
+    "era": "c. 1350–1550 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.7696, "lng": 11.2558, "label": "Florence, Italy" },
+    "prompt": "What central idea defined Renaissance humanism in Italian city-states?",
+    "options": [
+      { "id": "a", "text": "Rejecting all classical Greek and Roman texts as useless" },
+      { "id": "b", "text": "Studying classical literature to cultivate civic virtue and individual skill" },
+      { "id": "c", "text": "Replacing urban banking with feudal serfdom on manors" },
+      { "id": "d", "text": "Demanding factory regulation and eight-hour workdays" }
+    ],
+    "answer": "b",
+    "explanation": "Humanists revived Greek and Roman texts to educate active citizens in rhetoric, history, and ethics.",
+    "fun_fact": "Wealthy banking families like the Medici in Florence funded painters, sculptors, and libraries.",
+    "source_url": "https://www.britannica.com/topic/humanism",
+    "trap_notes": {
+      "a": "Humanists eagerly hunted monastery libraries for lost Greek and Roman manuscripts.",
+      "c": "Italian city-states thrived on banking, trade, and urban workshops, not serfdom.",
+      "d": "Factory labor laws emerged during the 19th-century Industrial Revolution.",
+      "default": "Renaissance humanism paired classical learning with civic life and human potential."
+    }
+  },
+  {
+    "id": "world-mc-123",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Protestant Reformation",
+    "era": "1545–1563 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 46.0664, "lng": 11.1257, "label": "Trent, Italy" },
+    "prompt": "How did the Catholic Council of Trent respond to the Protestant Reformation?",
+    "options": [
+      { "id": "a", "text": "It adopted Luther's idea of salvation by faith alone" },
+      { "id": "b", "text": "It closed all Catholic monasteries across Spain and Italy" },
+      { "id": "c", "text": "It reformed clergy abuses while reaffirming traditional Catholic doctrine" },
+      { "id": "d", "text": "It ended papal authority and handed churches to local kings" }
+    ],
+    "answer": "c",
+    "explanation": "The Council of Trent banned the sale of indulgences, improved priest training, and kept core Catholic teachings.",
+    "fun_fact": "The Jesuit order founded in 1540 built hundreds of schools and sent missionaries to Asia and the Americas.",
+    "source_url": "https://www.britannica.com/event/Council-of-Trent",
+    "trap_notes": {
+      "a": "The Council rejected faith alone and upheld both faith and good works.",
+      "b": "Catholic monastic orders like the Jesuits actually expanded during the Counter-Reformation.",
+      "d": "The Council strongly reaffirmed the Pope's spiritual authority.",
+      "default": "Counter-Reformation: clean up church corruption, keep Catholic theology intact."
+    }
+  },
+  {
+    "id": "world-mc-124",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Scientific Revolution",
+    "era": "1543–1687 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 45.4064, "lng": 11.8768, "label": "Padua, Italy" },
+    "prompt": "How did Galileo Galilei's telescope observations challenge medieval astronomy?",
+    "options": [
+      { "id": "a", "text": "They proved Earth sat motionless at the center of a perfect sky" },
+      { "id": "b", "text": "They showed telescopes could only work on flat plains" },
+      { "id": "c", "text": "They confirmed Ptolemy's ancient maps of circular orbits" },
+      { "id": "d", "text": "They revealed moons around Jupiter, backing a sun-centered model" }
+    ],
+    "answer": "d",
+    "explanation": "Seeing Jupiter's moons and Venus's phases gave direct evidence for Copernicus's sun-centered universe.",
+    "fun_fact": "Galileo also spotted mountains and craters on the Moon, showing it was not a smooth crystal sphere.",
+    "source_url": "https://www.britannica.com/biography/Galileo-Galilei",
+    "trap_notes": {
+      "a": "Galileo's findings undermined the geocentric model, which placed Earth at the center.",
+      "b": "Galileo made his famous observations from rooftops in Padua and Florence.",
+      "c": "Ptolemy's Earth-centered model could not explain the full phases of Venus.",
+      "default": "Galileo used empirical observation to support Copernicus's heliocentric theory."
+    }
+  },
+  {
+    "id": "world-mc-125",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "The Enlightenment",
+    "era": "1748 CE",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "What political safeguard did Montesquieu propose in The Spirit of the Laws?",
+    "options": [
+      { "id": "a", "text": "Dividing government into separate branches that check one another" },
+      { "id": "b", "text": "Granting absolute monarchs lifetime control over every court" },
+      { "id": "c", "text": "Abolishing written laws so judges could rule by royal whim" },
+      { "id": "d", "text": "Merging church and state under a single hereditary bishop" }
+    ],
+    "answer": "a",
+    "explanation": "Montesquieu argued that splitting legislative, executive, and judicial powers prevents tyranny.",
+    "fun_fact": "James Madison cited Montesquieu directly in Federalist No. 47 when defending the U.S. Constitution.",
+    "source_url": "https://www.britannica.com/biography/Montesquieu",
+    "trap_notes": {
+      "b": "Montesquieu warned that concentrating all power in one ruler destroys liberty.",
+      "c": "Enlightenment thinkers favored clear, rational laws over arbitrary decrees.",
+      "d": "Montesquieu focused on secular constitutional balance, not church rule.",
+      "default": "Montesquieu = separation of powers into three checking branches."
+    }
+  },
+  {
+    "id": "world-mc-126",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "c. 1400–1700 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "prompt": "How did the Ottoman Empire recruit its elite Janissary infantry?",
+    "options": [
+      { "id": "a", "text": "By hiring European mercenaries through Venetian banks" },
+      { "id": "b", "text": "Through the devshirme levy of Christian boys trained for state service" },
+      { "id": "c", "text": "By drafting retired samurai warriors from Nagasaki ports" },
+      { "id": "d", "text": "Through open elections held in Anatolian village councils" }
+    ],
+    "answer": "b",
+    "explanation": "Under devshirme, the Ottoman state recruited Balkan Christian youths, converted them, and trained elite troops.",
+    "fun_fact": "Top devshirme graduates could rise from humble origins to become Grand Vizier, second only to the Sultan.",
+    "source_url": "https://www.britannica.com/topic/Janissary",
+    "trap_notes": {
+      "a": "Janissaries were loyal standing soldiers of the sultan, not short-term Venetian mercenaries.",
+      "c": "Samurai lived in Japan and did not serve in the Ottoman military.",
+      "d": "Janissaries were selected by imperial levy rather than village elections.",
+      "default": "Devshirme supplied loyal Janissary soldiers and administrators directly to the sultan."
+    }
+  },
+  {
+    "id": "world-mc-127",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1501–1736 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 32.6546, "lng": 51.668, "label": "Isfahan, Iran" },
+    "prompt": "How did the Safavid Empire set itself apart from its Ottoman and Mughal rivals?",
+    "options": [
+      { "id": "a", "text": "It made Theravada Buddhism the official state faith" },
+      { "id": "b", "text": "It relied exclusively on Atlantic colonies for silk revenue" },
+      { "id": "c", "text": "It established Twelver Shia Islam as Persia's state religion" },
+      { "id": "d", "text": "It banned gunpowder weapons in favor of bronze chariots" }
+    ],
+    "answer": "c",
+    "explanation": "Shah Ismail I declared Twelver Shia Islam the Safavid state faith, sharpening rivalry with Sunni Ottomans.",
+    "fun_fact": "Shah Abbas the Great rebuilt Isfahan with grand tiled mosques and a thriving Armenian silk quarter.",
+    "source_url": "https://www.britannica.com/topic/Safavid-dynasty",
+    "trap_notes": {
+      "a": "Theravada Buddhism was centered in Sri Lanka and mainland Southeast Asia.",
+      "b": "The Safavids were a land-based Persian empire, not an Atlantic colonial power.",
+      "d": "Safavids were one of the three Gunpowder Empires and adopted muskets and cannon.",
+      "default": "Safavid Persia = Twelver Shia Islam, distinguishing it from Sunni Ottomans."
+    }
+  },
+  {
+    "id": "world-mc-128",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1556–1605 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 27.1751, "lng": 78.0421, "label": "Agra, India" },
+    "prompt": "How did Mughal Emperor Akbar strengthen unity across his diverse Indian empire?",
+    "options": [
+      { "id": "a", "text": "By forcing every Hindu temple to convert into a royal fort" },
+      { "id": "b", "text": "By sealing Indian ports to stop all European and Arab ships" },
+      { "id": "c", "text": "By doubling the jizya tax on non-Muslim farming villages" },
+      { "id": "d", "text": "By ending the jizya tax and appointing Hindus to high office" }
+    ],
+    "answer": "d",
+    "explanation": "Akbar promoted religious tolerance, abolished the non-Muslim poll tax, and welcomed Hindu Rajput nobles.",
+    "fun_fact": "Akbar hosted weekly debates in his palace among Muslim, Hindu, Jain, Christian, and Zoroastrian scholars.",
+    "source_url": "https://www.britannica.com/biography/Akbar",
+    "trap_notes": {
+      "a": "Akbar funded Hindu temples and translated Sanskrit epics into Persian.",
+      "b": "Mughal India prospered from global textile and spice exports.",
+      "c": "Akbar abolished the jizya tax rather than raising it.",
+      "default": "Akbar built Mughal stability through religious tolerance and inclusive administration."
+    }
+  },
+  {
+    "id": "world-mc-129",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Ming China",
+    "era": "1405–1433 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "prompt": "What was the main goal of Zheng He's seven Ming treasure voyages?",
+    "options": [
+      { "id": "a", "text": "To display Ming prestige and enroll Indian Ocean states in tribute" },
+      { "id": "b", "text": "To establish permanent Ming settler colonies in Brazil" },
+      { "id": "c", "text": "To defeat Spanish galleons off the coast of California" },
+      { "id": "d", "text": "To search for a northern ice passage around Siberia" }
+    ],
+    "answer": "a",
+    "explanation": "Zheng He's massive fleets sailed to Southeast Asia, India, and East Africa to project Ming prestige and tribute.",
+    "fun_fact": "Zheng He brought back a giraffe from East Africa, which Ming officials hailed as a mythical qilin.",
+    "source_url": "https://www.britannica.com/biography/Zheng-He",
+    "trap_notes": {
+      "b": "Ming fleets sailed the South China Sea and Indian Ocean, never the Atlantic.",
+      "c": "Spanish Manila galleons began sailing over a century after Zheng He's last voyage.",
+      "d": "Zheng He followed warm tropical monsoon routes, not Arctic ice passages.",
+      "default": "Zheng He's voyages showcased Ming power and diplomacy across the Indian Ocean."
+    }
+  },
+  {
+    "id": "world-mc-130",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Columbian Exchange",
+    "era": "1492–1750 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 53.3498, "lng": -6.2603, "label": "Dublin, Ireland" },
+    "prompt": "How did American crops like potatoes and maize reshape Afro-Eurasia after 1492?",
+    "options": [
+      { "id": "a", "text": "They caused widespread famine because farmers refused to plant them" },
+      { "id": "b", "text": "They delivered high calories per acre, driving sharp population growth" },
+      { "id": "c", "text": "They wiped out rice farming across southern China and India" },
+      { "id": "d", "text": "They spread smallpox from the Andes to European cities" }
+    ],
+    "answer": "b",
+    "explanation": "Calorie-dense potatoes, maize, and cassava grew in tough soils and fueled major population booms.",
+    "fun_fact": "Potatoes produce roughly twice as many calories per acre as wheat or oats in northern Europe.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "a": "Potatoes and maize quickly became staple crops in Europe, Africa, and Asia.",
+      "c": "Maize and sweet potatoes supplemented rice on upland slopes without replacing paddy rice.",
+      "d": "Old World diseases like smallpox devastated Indigenous Americans, not the reverse.",
+      "default": "New World crops meant more calories per acre and rising Old World populations."
+    }
+  },
+  {
+    "id": "world-mc-131",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Global Silver Trade",
+    "era": "1545–1750 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -19.5723, "lng": -65.755, "label": "Potosi, Bolivia" },
+    "prompt": "Why did massive amounts of Spanish American silver flow to Ming China?",
+    "options": [
+      { "id": "a", "text": "Ming laws required taxes in silver and Europe craved Chinese goods" },
+      { "id": "b", "text": "China had no silk or porcelain workshops of its own" },
+      { "id": "c", "text": "Spanish kings paid Ming emperors annual tribute for peace" },
+      { "id": "d", "text": "Inca merchants sailed directly from Peru to Beijing ports" }
+    ],
+    "answer": "a",
+    "explanation": "Ming China's Single Whip tax system demanded silver, while Europeans traded silver for silk and porcelain.",
+    "fun_fact": "Manila Galleons carried Potosi and Mexican silver across the Pacific to exchange for Chinese goods.",
+    "source_url": "https://www.britannica.com/place/Potosi",
+    "trap_notes": {
+      "b": "China was the world's leading producer of fine silk, porcelain, and tea.",
+      "c": "European merchants traded silver voluntarily for Asian luxury goods.",
+      "d": "Spanish Manila Galleons, not Inca fleets, ran the trans-Pacific silver trade.",
+      "default": "Chinese tax demand for silver + European demand for silk = global silver circuit."
+    }
+  },
+  {
+    "id": "world-mc-132",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Atlantic Slave Trade",
+    "era": "1500–1866 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -12.9714, "lng": -38.5014, "label": "Salvador, Brazil" },
+    "prompt": "Which region of the Americas received the largest share of enslaved Africans?",
+    "options": [
+      { "id": "a", "text": "New England fishing ports and Canadian timber camps" },
+      { "id": "b", "text": "High mountain silver towns in the central Andes" },
+      { "id": "c", "text": "Sugar plantations in Brazil and the Caribbean islands" },
+      { "id": "d", "text": "Fur trading outposts along the Pacific Northwest coast" }
+    ],
+    "answer": "c",
+    "explanation": "Roughly 80 percent of enslaved Africans brought across the Atlantic went to Brazil and Caribbean sugar colonies.",
+    "fun_fact": "Brazil alone received more than four million enslaved Africans and was the last country in the Americas to abolish slavery, in 1888.",
+    "source_url": "https://www.britannica.com/topic/transatlantic-slave-trade",
+    "trap_notes": {
+      "a": "British North America received around 4 to 5 percent of total transatlantic captives.",
+      "b": "Andean silver mines mostly relied on coerced Indigenous labor under the Spanish mita.",
+      "d": "Pacific Northwest fur posts were not centers of the Atlantic slave trade.",
+      "default": "Deadly sugar plantations in Brazil and the Caribbean drove the vast majority of voyages."
+    }
+  },
+  {
+    "id": "world-mc-133",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Colonial Latin America",
+    "era": "1503–1720 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "prompt": "How did the Spanish encomienda system operate in the early Americas?",
+    "options": [
+      { "id": "a", "text": "It gave Indigenous villages equal seats in the Spanish parliament" },
+      { "id": "b", "text": "It abolished all mining taxes across New Spain and Peru" },
+      { "id": "c", "text": "It divided land evenly among newly freed plantation workers" },
+      { "id": "d", "text": "It granted colonists Indigenous labor and tribute in return for conversion" }
+    ],
+    "answer": "d",
+    "explanation": "Spanish encomenderos received the right to demand tribute and labor from Indigenous groups while promising instruction.",
+    "fun_fact": "Friar Bartolome de las Casas campaigned fiercely against encomienda abuses, prompting Spain's 1542 New Laws.",
+    "source_url": "https://www.britannica.com/topic/encomienda",
+    "trap_notes": {
+      "a": "Indigenous communities had no representation in the Spanish Cortes.",
+      "b": "The Spanish crown kept a strict one-fifth tax, the quinto real, on silver and gold.",
+      "c": "Encomiendas concentrated wealth and labor control in the hands of Spanish elites.",
+      "default": "Encomienda = crown grant of Indigenous labor and tribute to Spanish colonists."
+    }
+  },
+  {
+    "id": "world-mc-134",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "c. 1760–1830 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, England" },
+    "prompt": "Which geographic advantage helped Britain lead the early Industrial Revolution?",
+    "options": [
+      { "id": "a", "text": "Abundant shallow coal and iron ore near navigable rivers and ports" },
+      { "id": "b", "text": "Tropical climate ideal for growing raw cotton inside England" },
+      { "id": "c", "text": "Complete isolation from overseas trade and colonial markets" },
+      { "id": "d", "text": "Vast desert oil fields powering early textile factories" }
+    ],
+    "answer": "a",
+    "explanation": "Britain's accessible coal and iron deposits, plus waterways and Atlantic trade, fueled steam-powered industry.",
+    "fun_fact": "By 1800, Britain mined more coal than the rest of Europe combined.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "b": "British mills imported raw cotton from the U.S. South, Egypt, and India.",
+      "c": "Global shipping and colonial markets were vital buyers for British cloth.",
+      "d": "Oil-powered industry came much later, in the late 19th and 20th centuries.",
+      "default": "Coal + iron + rivers/ports + capital = Britain's early industrial edge."
+    }
+  },
+  {
+    "id": "world-mc-135",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Meiji Restoration",
+    "era": "1868–1895 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Why did Meiji leaders send the 1871 Iwakura Mission to the United States and Europe?",
+    "options": [
+      { "id": "a", "text": "To surrender Japanese islands to British colonial governors" },
+      { "id": "b", "text": "To study Western laws, schools, and factories for Japan's modernization" },
+      { "id": "c", "text": "To recruit European monarchs to replace Japan's emperor" },
+      { "id": "d", "text": "To ban foreign steamships from entering Yokohama harbor" }
+    ],
+    "answer": "b",
+    "explanation": "Meiji officials toured Western nations to adopt modern banking, rail, legal codes, and industry.",
+    "fun_fact": "Several young Japanese women traveled with the Iwakura Mission to study at American colleges like Vassar.",
+    "source_url": "https://www.britannica.com/event/Iwakura-Mission",
+    "trap_notes": {
+      "a": "Meiji reformers modernized specifically to preserve Japanese sovereignty.",
+      "c": "The Meiji state elevated the Japanese emperor as the symbol of national unity.",
+      "d": "Japan opened trade and built modern ports rather than returning to isolation.",
+      "default": "Meiji reformers studied Western institutions to turn Japan into a modern industrial power."
+    }
+  },
+  {
+    "id": "world-mc-136",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "New Imperialism",
+    "era": "1884–1885 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "What was the main outcome of the 1884–1885 Berlin Conference?",
+    "options": [
+      { "id": "a", "text": "African kingdoms formed a united defense pact against Europe" },
+      { "id": "b", "text": "European powers returned all coastal forts to Ottoman rule" },
+      { "id": "c", "text": "European states set rules to carve up Africa without African leaders" },
+      { "id": "d", "text": "The United Nations drew independent borders for 54 African states" }
+    ],
+    "answer": "c",
+    "explanation": "Fourteen Western powers met in Berlin to divide Africa into colonies, ignoring existing ethnic and political lines.",
+    "fun_fact": "Not a single African leader was invited to the Berlin Conference that decided Africa's borders.",
+    "source_url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+    "trap_notes": {
+      "a": "African leaders were excluded; European rivals agreed on rules for claiming territory.",
+      "b": "European empires were expanding into Africa, not handing territory to the Ottomans.",
+      "d": "The United Nations was founded in 1945, sixty years after the Berlin Conference.",
+      "default": "Berlin Conference (1884–1885) = Scramble for Africa without African representation."
+    }
+  },
+  {
+    "id": "world-mc-137",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "World War I",
+    "era": "1914–1918 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo, Egypt" },
+    "prompt": "Why is World War I considered a truly global conflict rather than a European-only war?",
+    "options": [
+      { "id": "a", "text": "No fighting occurred on European soil between 1914 and 1918" },
+      { "id": "b", "text": "All combat took place exclusively in the North Atlantic Ocean" },
+      { "id": "c", "text": "Every Latin American nation sent armies to the Western Front" },
+      { "id": "d", "text": "Empires mobilized millions of colonial troops and fought across Africa and Asia" }
+    ],
+    "answer": "d",
+    "explanation": "Britain, France, and Germany fought in Africa, the Middle East, and the Pacific using millions of colonial soldiers.",
+    "fun_fact": "Over one million Indian soldiers and 140,000 Chinese laborers served the Allied war effort.",
+    "source_url": "https://www.britannica.com/event/World-War-I",
+    "trap_notes": {
+      "a": "Europe's Western and Eastern Fronts saw the largest battles of the war.",
+      "b": "Major land campaigns took place in Europe, the Middle East, and Africa.",
+      "c": "Most Latin American states stayed neutral or gave economic support rather than large armies.",
+      "default": "Imperial networks pulled Africa, Asia, the Middle East, and Oceania into WWI."
+    }
+  },
+  {
+    "id": "world-mc-138",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "World War II",
+    "era": "1942–1943 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.708, "lng": 44.5133, "label": "Volgograd, Russia" },
+    "prompt": "Why was the 1942–1943 Battle of Stalingrad a major turning point in World War II?",
+    "options": [
+      { "id": "a", "text": "Soviet forces encircled the German Sixth Army and halted Nazi advance" },
+      { "id": "b", "text": "Allied troops landed in Normandy to liberate northern France" },
+      { "id": "c", "text": "Japanese aircraft carriers lost four ships near Midway Island" },
+      { "id": "d", "text": "German and Soviet leaders signed a nonaggression pact there" }
+    ],
+    "answer": "a",
+    "explanation": "After brutal street fighting, the Red Army surrounded German forces at Stalingrad and seized the offensive.",
+    "fun_fact": "Stalingrad was the bloodiest battle in modern history, with roughly two million total casualties.",
+    "source_url": "https://www.britannica.com/event/Battle-of-Stalingrad",
+    "trap_notes": {
+      "b": "The Normandy D-Day landings took place in June 1944 in western France.",
+      "c": "The Battle of Midway was the June 1942 Pacific naval turning point.",
+      "d": "The Nazi-Soviet Pact was signed in Moscow in August 1939, before the war began.",
+      "default": "Stalingrad (1942–1943) broke the German offensive on the Eastern Front."
+    }
+  },
+  {
+    "id": "world-mc-139",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1955 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -6.9175, "lng": 107.6191, "label": "Bandung, Indonesia" },
+    "prompt": "What shared goal united Asian and African leaders at the 1955 Bandung Conference?",
+    "options": [
+      { "id": "a", "text": "Joining the Warsaw Pact under Soviet military command" },
+      { "id": "b", "text": "Opposing colonialism while staying independent of both Cold War blocs" },
+      { "id": "c", "text": "Restoring European colonial rule over Southeast Asian ports" },
+      { "id": "d", "text": "Creating a single currency backed by NATO gold reserves" }
+    ],
+    "answer": "b",
+    "explanation": "Twenty-nine Asian and African nations met in Bandung to oppose colonialism and launch the Non-Aligned path.",
+    "fun_fact": "Bandung delegates represented more than half the world's population at the time.",
+    "source_url": "https://www.britannica.com/event/Bandung-Conference",
+    "trap_notes": {
+      "a": "The Warsaw Pact was the Soviet-led Eastern European alliance formed in 1955.",
+      "c": "Bandung delegates strongly condemned all forms of colonial domination.",
+      "d": "NATO was the U.S.-led Western alliance; Bandung sought non-alignment.",
+      "default": "Bandung (1955) = newly independent nations charting a Non-Aligned third way."
+    }
+  },
+  {
+    "id": "world-mc-140",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "20th-Century Decolonization",
+    "era": "1957 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 5.6037, "lng": -0.187, "label": "Accra, Ghana" },
+    "prompt": "Why was Ghana's independence under Kwame Nkrumah in 1957 a milestone?",
+    "options": [
+      { "id": "a", "text": "It marked the end of French colonial rule in North Africa" },
+      { "id": "b", "text": "It was the first European colony to join the Soviet Union" },
+      { "id": "c", "text": "It made Ghana the first sub-Saharan African colony to win independence" },
+      { "id": "d", "text": "It ended white minority apartheid rule in southern Africa" }
+    ],
+    "answer": "c",
+    "explanation": "Formerly the British Gold Coast, Ghana became sub-Saharan Africa's first newly independent nation in 1957.",
+    "fun_fact": "Nkrumah used strikes and nonviolent Positive Action campaigns to pressure Britain for self-rule.",
+    "source_url": "https://www.britannica.com/biography/Kwame-Nkrumah",
+    "trap_notes": {
+      "a": "French rule in North Africa ended in Tunisia and Morocco in 1956, and Algeria in 1962.",
+      "b": "Ghana became an independent republic and a leader in the Non-Aligned Movement.",
+      "d": "Apartheid in South Africa ended in the early 1990s.",
+      "default": "1957 Ghana = first sub-Saharan colony to break free, inspiring a wave across Africa."
+    }
+  },
+  {
+    "id": "world-ded-101",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 2100–1200 BCE",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.3222, "lng": 45.6361, "label": "Uruk, Mesopotamia" },
+    "clues": [
+      "This ancient story was pressed into clay tablets using wedge-shaped cuneiform script.",
+      "Its hero is a king of Uruk who mourns his wild friend Enkidu and searches for immortality.",
+      "A survivor named Utnapishtim tells the hero about a great flood sent by the gods."
+    ],
+    "prompt": "Which ancient literary work do these clues describe?",
+    "options": [
+      { "id": "a", "text": "The Epic of Gilgamesh" },
+      { "id": "b", "text": "The Book of the Dead" },
+      { "id": "c", "text": "The Odyssey of Homer" },
+      { "id": "d", "text": "The Analects of Confucius" }
+    ],
+    "answer": "a",
+    "explanation": "The Epic of Gilgamesh is Mesopotamia's oldest surviving epic, following King Gilgamesh's quest.",
+    "fun_fact": "Archaeologists found twelve broken tablets of the epic in King Ashurbanipal's library at Nineveh.",
+    "source_url": "https://www.britannica.com/topic/Epic-of-Gilgamesh",
+    "trap_notes": {
+      "b": "The Book of the Dead is a collection of Egyptian funerary spells written on papyrus.",
+      "c": "The Odyssey is an ancient Greek epic about Odysseus sailing home to Ithaca.",
+      "d": "The Analects are recorded sayings of the Chinese philosopher Confucius.",
+      "default": "Cuneiform clay + Uruk king + flood tale = Epic of Gilgamesh."
+    }
+  },
+  {
+    "id": "world-ded-102",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "196 BCE",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 31.4044, "lng": 30.4164, "label": "Rashid, Egypt" },
+    "clues": [
+      "This carved dark stone slab recorded a royal decree issued for an Egyptian king in 196 BCE.",
+      "Its text appears in three scripts: hieroglyphs, everyday Demotic, and ancient Greek.",
+      "Comparing the known Greek text to the symbols helped Jean-Francois Champollion crack hieroglyphs."
+    ],
+    "prompt": "Which famous artifact do these clues describe?",
+    "options": [
+      { "id": "a", "text": "The Cyrus Cylinder" },
+      { "id": "b", "text": "The Rosetta Stone" },
+      { "id": "c", "text": "The Behistun Inscription" },
+      { "id": "d", "text": "The Dead Sea Scrolls" }
+    ],
+    "answer": "b",
+    "explanation": "Found in 1799, the trilingual Rosetta Stone unlocked the reading of ancient Egyptian hieroglyphs.",
+    "fun_fact": "French soldiers discovered the stone while digging fortifications near the Nile Delta town of Rashid.",
+    "source_url": "https://www.britannica.com/topic/Rosetta-Stone",
+    "trap_notes": {
+      "a": "The Cyrus Cylinder is a Persian clay barrel inscribed in Babylonian cuneiform.",
+      "c": "The Behistun Inscription is a Persian cliff carving that helped decode cuneiform.",
+      "d": "The Dead Sea Scrolls are Jewish religious manuscripts found in caves near Qumran.",
+      "default": "Three scripts including Greek + unlocking hieroglyphs = Rosetta Stone."
+    }
+  },
+  {
+    "id": "world-ded-103",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Classical Empires",
+    "era": "221–210 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 34.3841, "lng": 109.2785, "label": "Xi'an, China" },
+    "clues": [
+      "This ruler ended China's Warring States era by uniting rival kingdoms in 221 BCE.",
+      "Guided by Legalist advisers, he standardized coins, weights, axle widths, and writing.",
+      "Thousands of life-sized clay soldiers were buried near his tomb to guard him."
+    ],
+    "prompt": "Which historical leader do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Emperor Ashoka" },
+      { "id": "b", "text": "Emperor Wu of Han" },
+      { "id": "c", "text": "Qin Shi Huang" },
+      { "id": "d", "text": "Emperor Taizong" }
+    ],
+    "answer": "c",
+    "explanation": "Qin Shi Huang unified China in 221 BCE, standardized its systems, and built the Terracotta Army.",
+    "fun_fact": "Every clay soldier in Qin Shi Huang's Terracotta Army has unique facial features and armor details.",
+    "source_url": "https://www.britannica.com/biography/Qin-Shi-Huang",
+    "trap_notes": {
+      "a": "Ashoka ruled the Mauryan Empire in India and promoted Buddhism.",
+      "b": "Han Wu expanded China's borders and backed Confucianism a century later.",
+      "d": "Taizong was an early Tang Dynasty emperor in the 7th century CE.",
+      "default": "221 BCE unification + Legalism + clay army = Qin Shi Huang."
+    }
+  },
+  {
+    "id": "world-ded-104",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Byzantine Empire",
+    "era": "527–565 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.0086, "lng": 28.9802, "label": "Istanbul, Turkey" },
+    "clues": [
+      "This 6th-century Byzantine emperor sought to restore old Roman territories around the Mediterranean.",
+      "He commissioned the grand domed church Hagia Sophia in Constantinople.",
+      "His legal scholars organized centuries of Roman law into a single famous code."
+    ],
+    "prompt": "Which ruler do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Constantine the Great" },
+      { "id": "b", "text": "Charlemagne" },
+      { "id": "c", "text": "Suleiman the Magnificent" },
+      { "id": "d", "text": "Justinian I" }
+    ],
+    "answer": "d",
+    "explanation": "Emperor Justinian I built Hagia Sophia and issued Justinian's Code, shaping European civil law.",
+    "fun_fact": "Justinian's wife, Empress Theodora, helped save his throne during the 532 Nika Riots.",
+    "source_url": "https://www.britannica.com/biography/Justinian-I",
+    "trap_notes": {
+      "a": "Constantine legalized Christianity and founded Constantinople in the 300s CE.",
+      "b": "Charlemagne ruled the Frankish Empire in Western Europe around 800 CE.",
+      "c": "Suleiman ruled the Ottoman Empire in the 1500s, long after Byzantine rule.",
+      "default": "500s Constantinople + Hagia Sophia + Roman law code = Justinian I."
+    }
+  },
+  {
+    "id": "world-ded-105",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Afro-Eurasian Trade",
+    "era": "1325–1354 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.7595, "lng": -5.834, "label": "Tangier, Morocco" },
+    "clues": [
+      "Born in Tangier, this Muslim legal scholar set out on a pilgrimage to Mecca in 1325.",
+      "Over nearly 30 years, he traveled roughly 75,000 miles across Africa, Europe, and Asia.",
+      "His dictated travel book, the Rihla, describes Mali, Delhi, and Yuan China."
+    ],
+    "prompt": "Which medieval traveler do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Ibn Battuta" },
+      { "id": "b", "text": "Marco Polo" },
+      { "id": "c", "text": "Xuanzang" },
+      { "id": "d", "text": "Al-Idrisi" }
+    ],
+    "answer": "a",
+    "explanation": "Ibn Battuta traveled across the Islamic world and beyond from 1325 to 1354, recording life in the Rihla.",
+    "fun_fact": "Ibn Battuta covered about three times as much distance as Marco Polo did a generation earlier.",
+    "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+    "trap_notes": {
+      "b": "Marco Polo was a Venetian merchant who traveled to China in the late 1200s.",
+      "c": "Xuanzang was a 7th-century Chinese Buddhist monk who journeyed to India.",
+      "d": "Al-Idrisi was a 12th-century geographer who created a world map for Sicily's king.",
+      "default": "1325 Tangier + 75,000 miles + Rihla = Ibn Battuta."
+    }
+  },
+  {
+    "id": "world-ded-106",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Afro-Eurasian Trade",
+    "era": "c. 1325–1591 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 16.7666, "lng": -3.0026, "label": "Timbuktu, Mali" },
+    "clues": [
+      "Located near the Niger River bend, this city linked desert camel caravans with river canoes.",
+      "Under Mali and Songhai rulers, thousands of manuscripts were copied and sold in its markets.",
+      "Its Sankore Mosque drew Islamic scholars from across North and West Africa."
+    ],
+    "prompt": "Which historic African center of learning do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Great Zimbabwe" },
+      { "id": "b", "text": "Timbuktu, Mali" },
+      { "id": "c", "text": "Axum, Ethiopia" },
+      { "id": "d", "text": "Alexandria, Egypt" }
+    ],
+    "answer": "b",
+    "explanation": "Timbuktu prospered as both a trans-Saharan trade crossroads and a major Islamic university town.",
+    "fun_fact": "Hundreds of thousands of medieval Timbuktu manuscripts still survive in family and public libraries.",
+    "source_url": "https://www.britannica.com/place/Timbuktu-Mali",
+    "trap_notes": {
+      "a": "Great Zimbabwe was a stone-walled trading capital in southern Africa.",
+      "c": "Axum was an ancient Christian trading kingdom in northern Ethiopia.",
+      "d": "Alexandria sits on Egypt's Mediterranean coast, far from the Niger River.",
+      "default": "Niger River + Mali/Songhai + Sankore Mosque = Timbuktu."
+    }
+  },
+  {
+    "id": "world-ded-107",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Tang & Song China",
+    "era": "c. 1040 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 34.7972, "lng": 114.3076, "label": "Kaifeng, China" },
+    "clues": [
+      "This Song Dynasty breakthrough built on earlier woodblock printing used across East Asia.",
+      "Craftsman Bi Sheng shaped individual baked-clay characters that could be arranged and reused.",
+      "It appeared in China roughly four centuries before Gutenberg's metal press in Europe."
+    ],
+    "prompt": "Which Song Dynasty invention do these clues describe?",
+    "options": [
+      { "id": "a", "text": "The magnetic compass" },
+      { "id": "b", "text": "Gunpowder rockets" },
+      { "id": "c", "text": "Movable-type printing" },
+      { "id": "d", "text": "Cast-iron blast furnaces" }
+    ],
+    "answer": "c",
+    "explanation": "Bi Sheng invented reusable ceramic movable type around 1040 CE during China's Song Dynasty.",
+    "fun_fact": "Korean printers later advanced the idea by casting durable metal movable type in the 1200s and 1300s.",
+    "source_url": "https://www.britannica.com/biography/Bi-Sheng",
+    "trap_notes": {
+      "a": "The Song magnetic compass guided ships at sea rather than printing books.",
+      "b": "Gunpowder rockets were military weapons developed in Song China.",
+      "d": "Blast furnaces produced iron for tools and weapons, not reusable text characters.",
+      "default": "Bi Sheng + reusable clay characters + pre-Gutenberg = movable-type printing."
+    }
+  },
+  {
+    "id": "world-ded-108",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Mongol Empire",
+    "era": "1206–1227 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 47.75, "lng": 108.9, "label": "Onon River, Mongolia" },
+    "clues": [
+      "Born as Temujin, this steppe leader united rival nomadic clans in 1206.",
+      "He organized his cavalry into decimal units and promoted commanders by merit rather than birth.",
+      "His conquests built the largest contiguous land empire in world history."
+    ],
+    "prompt": "Which empire builder do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Attila the Hun" },
+      { "id": "b", "text": "Timur the Lame" },
+      { "id": "c", "text": "Emperor Babur" },
+      { "id": "d", "text": "Genghis Khan" }
+    ],
+    "answer": "d",
+    "explanation": "Temujin took the title Genghis Khan in 1206 and forged a disciplined Mongol Empire across Eurasia.",
+    "fun_fact": "Genghis Khan adopted the Uyghur alphabet to give the Mongol language its first written script.",
+    "source_url": "https://www.britannica.com/biography/Genghis-Khan",
+    "trap_notes": {
+      "a": "Attila led the Huns against the Roman Empire in the 400s CE.",
+      "b": "Tamerlane built a Central Asian empire in the late 1300s, claiming Mongol descent.",
+      "c": "Babur founded India's Mughal Empire in 1526.",
+      "default": "Temujin + 1206 steppe unification + merit-based army = Genghis Khan."
+    }
+  },
+  {
+    "id": "world-ded-109",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Pre-Columbian Americas",
+    "era": "1325–1521 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "clues": [
+      "Founded on islands in Lake Texcoco, this capital was linked to shore by stone causeways.",
+      "Farmers built artificial garden plots called chinampas to harvest crops year-round.",
+      "By 1500, more than 200,000 people lived in this Mexica imperial city."
+    ],
+    "prompt": "Which Pre-Columbian city do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Tenochtitlan" },
+      { "id": "b", "text": "Cahokia" },
+      { "id": "c", "text": "Cusco" },
+      { "id": "d", "text": "Chichen Itza" }
+    ],
+    "answer": "a",
+    "explanation": "Tenochtitlan was the island capital of the Aztec Empire, fed by fertile chinampa lake gardens.",
+    "fun_fact": "Spanish soldiers arriving in 1519 compared Tenochtitlan's canals and markets to Venice.",
+    "source_url": "https://www.britannica.com/place/Tenochtitlan",
+    "trap_notes": {
+      "b": "Cahokia was a Mississippian earthen-mound city near modern St. Louis.",
+      "c": "Cusco was the inland mountain capital of the Inca Empire in Peru.",
+      "d": "Chichen Itza was a major Maya city on the Yucatan Peninsula.",
+      "default": "Lake Texcoco + causeways + chinampas = Aztec capital Tenochtitlan."
+    }
+  },
+  {
+    "id": "world-ded-110",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Pre-Columbian Americas",
+    "era": "c. 1450–1530 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -13.1631, "lng": -72.545, "label": "Machu Picchu, Peru" },
+    "clues": [
+      "Built high on an Andean mountain ridge, this stone complex features dry-fitted walls without mortar.",
+      "Steep agricultural terraces prevented erosion and grew maize and potatoes on cliffsides.",
+      "Scholars believe Emperor Pachacuti commissioned it as a royal Inca estate."
+    ],
+    "prompt": "Which historic site do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Teotihuacan" },
+      { "id": "b", "text": "Machu Picchu" },
+      { "id": "c", "text": "Tikal" },
+      { "id": "d", "text": "Mesa Verde" }
+    ],
+    "answer": "b",
+    "explanation": "Machu Picchu is a 15th-century Inca citadel perched in the Peruvian Andes above the Urubamba River.",
+    "fun_fact": "Its mortarless granite stones fit so tightly that not even a knife blade slips between them.",
+    "source_url": "https://www.britannica.com/place/Machu-Picchu",
+    "trap_notes": {
+      "a": "Teotihuacan is an ancient pyramid city in central Mexico.",
+      "c": "Tikal is a Classic Maya rainforest city in northern Guatemala.",
+      "d": "Mesa Verde is an Ancestral Puebloan cliff-dwelling site in Colorado.",
+      "default": "Andean ridge + mortarless stone + Pachacuti = Machu Picchu."
+    }
+  },
+  {
+    "id": "world-ded-111",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Scientific Revolution",
+    "era": "1543 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 54.3583, "lng": 19.6833, "label": "Frombork, Poland" },
+    "clues": [
+      "This Polish astronomer spent decades calculating planetary positions from a cathedral tower.",
+      "He argued that Earth rotates daily on its axis and orbits the Sun once a year.",
+      "His book On the Revolutions of the Heavenly Spheres was published just as he died in 1543."
+    ],
+    "prompt": "Which scientist do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Isaac Newton" },
+      { "id": "b", "text": "Robert Boyle" },
+      { "id": "c", "text": "Nicolaus Copernicus" },
+      { "id": "d", "text": "Johannes Kepler" }
+    ],
+    "answer": "c",
+    "explanation": "Copernicus launched the Scientific Revolution in 1543 by proposing a sun-centered solar system.",
+    "fun_fact": "The chemical element copernicium, atomic number 112, was named in his honor in 2010.",
+    "source_url": "https://www.britannica.com/biography/Nicolaus-Copernicus",
+    "trap_notes": {
+      "a": "Isaac Newton published his laws of motion and gravity in 1687.",
+      "b": "Robert Boyle was a 17th-century Irish chemist known for Boyle's Law of gases.",
+      "d": "Johannes Kepler later showed that planetary orbits are ellipses rather than circles.",
+      "default": "Polish astronomer + 1543 book + heliocentric model = Nicolaus Copernicus."
+    }
+  },
+  {
+    "id": "world-ded-112",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1520–1566 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.0082, "lng": 28.9784, "label": "Istanbul, Turkey" },
+    "clues": [
+      "He ruled the Ottoman Empire at its peak from 1520 to 1566, stretching from Hungary to Iraq.",
+      "At home he earned the title Kanuni, or the Lawgiver, for harmonizing imperial laws.",
+      "He patronized chief architect Mimar Sinan, who designed grand mosques in Istanbul."
+    ],
+    "prompt": "Which ruler do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Mehmed the Conqueror" },
+      { "id": "b", "text": "Shah Abbas the Great" },
+      { "id": "c", "text": "Emperor Aurangzeb" },
+      { "id": "d", "text": "Suleiman the Magnificent" }
+    ],
+    "answer": "d",
+    "explanation": "Suleiman the Magnificent expanded Ottoman borders, reformed legal codes, and funded a golden age of arts.",
+    "fun_fact": "Under Suleiman, Istanbul's Suleymaniye Mosque complex included schools, a hospital, and a soup kitchen.",
+    "source_url": "https://www.britannica.com/biography/Suleyman-the-Magnificent",
+    "trap_notes": {
+      "a": "Mehmed II conquered Constantinople in 1453, decades before Suleiman's reign.",
+      "b": "Shah Abbas I ruled the rival Safavid Empire in Iran.",
+      "c": "Aurangzeb was a late 17th-century Mughal emperor in India.",
+      "default": "1520–1566 Ottoman peak + Lawgiver + Sinan mosques = Suleiman the Magnificent."
+    }
+  },
+  {
+    "id": "world-ded-113",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Atlantic Revolutions",
+    "era": "1791–1804 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 18.5944, "lng": -72.3074, "label": "Port-au-Prince, Haiti" },
+    "clues": [
+      "Born enslaved in the French sugar colony of Saint-Domingue, he learned to read and manage estates.",
+      "He led a disciplined army of formerly enslaved fighters against French, Spanish, and British troops.",
+      "His leadership paved the way for Haiti to become the world's first Black republic in 1804."
+    ],
+    "prompt": "Which revolutionary leader do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Toussaint Louverture" },
+      { "id": "b", "text": "Simon Bolivar" },
+      { "id": "c", "text": "Jose de San Martin" },
+      { "id": "d", "text": "Miguel Hidalgo" }
+    ],
+    "answer": "a",
+    "explanation": "Toussaint Louverture led the Haitian Revolution, securing emancipation and inspiring abolitionists worldwide.",
+    "fun_fact": "Haiti's defeat of Napoleon's forces helped convince France to sell the Louisiana Territory to the United States.",
+    "source_url": "https://www.britannica.com/biography/Toussaint-Louverture",
+    "trap_notes": {
+      "b": "Simon Bolivar led South American independence wars in Venezuela, Colombia, and Peru.",
+      "c": "Jose de San Martin led independence forces in Argentina, Chile, and Peru.",
+      "d": "Miguel Hidalgo sparked Mexico's independence movement in 1810.",
+      "default": "Saint-Domingue + enslaved revolt + 1804 Haiti = Toussaint Louverture."
+    }
+  },
+  {
+    "id": "world-ded-114",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "1769 CE",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 55.8642, "lng": -4.2518, "label": "Glasgow, Scotland" },
+    "clues": [
+      "Working in Glasgow, this Scottish instrument maker repaired a clunky Newcomen mine pump.",
+      "By adding a separate condenser in 1769, he slashed coal waste and multiplied engine power.",
+      "His improved rotary engine soon drove cotton mills, ironworks, and later locomotives."
+    ],
+    "prompt": "Which inventor do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Richard Arkwright" },
+      { "id": "b", "text": "James Watt" },
+      { "id": "c", "text": "Henry Bessemer" },
+      { "id": "d", "text": "Eli Whitney" }
+    ],
+    "answer": "b",
+    "explanation": "James Watt's separate-condenser steam engine freed factories from riverbanks and powered industrialization.",
+    "fun_fact": "The standard scientific unit of power, the watt, is named after James Watt.",
+    "source_url": "https://www.britannica.com/biography/James-Watt",
+    "trap_notes": {
+      "a": "Richard Arkwright invented the water frame spinning machine.",
+      "c": "Henry Bessemer developed an affordable mass-steel process in the 1850s.",
+      "d": "Eli Whitney invented the cotton gin in the United States in 1793.",
+      "default": "Glasgow + separate condenser + steam engine = James Watt."
+    }
+  },
+  {
+    "id": "world-ded-115",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "19th-Century China",
+    "era": "1839–1842 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.1291, "lng": 113.2644, "label": "Guangzhou, China" },
+    "clues": [
+      "To fix a silver trade deficit, British merchants smuggled an addictive drug from India into China.",
+      "Qing official Lin Zexu seized and destroyed more than 20,000 chests of the drug at Guangzhou.",
+      "Britain's naval victory ended in the 1842 Treaty of Nanjing, ceding Hong Kong Island."
+    ],
+    "prompt": "Which conflict do these clues describe?",
+    "options": [
+      { "id": "a", "text": "The Taiping Rebellion" },
+      { "id": "b", "text": "The Boxer Uprising" },
+      { "id": "c", "text": "The First Opium War" },
+      { "id": "d", "text": "The Sino-Japanese War" }
+    ],
+    "answer": "c",
+    "explanation": "The First Opium War forced Qing China to open treaty ports and cede Hong Kong to Britain in 1842.",
+    "fun_fact": "Lin Zexu destroyed the seized opium by mixing it with lime and salt in trenches and flushing it to sea.",
+    "source_url": "https://www.britannica.com/topic/Opium-Wars",
+    "trap_notes": {
+      "a": "The Taiping Rebellion was a massive 1850–1864 civil war inside Qing China.",
+      "b": "The Boxer Uprising was an anti-foreign revolt in northern China in 1899–1901.",
+      "d": "The First Sino-Japanese War occurred in 1894–1895 over influence in Korea.",
+      "default": "Lin Zexu + 1842 Treaty of Nanjing + Hong Kong = First Opium War."
+    }
+  },
+  {
+    "id": "world-ded-116",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "20th-Century China",
+    "era": "1911–1912 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.0603, "lng": 118.7969, "label": "Nanjing, China" },
+    "clues": [
+      "Trained as a physician, this revolutionary organized overseas groups to topple Qing rule.",
+      "His Three Principles of the People called for nationalism, democracy, and people's livelihood.",
+      "After the 1911 Xinhai Revolution, he became provisional president of the Republic of China."
+    ],
+    "prompt": "Which Chinese leader do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Mao Zedong" },
+      { "id": "b", "text": "Deng Xiaoping" },
+      { "id": "c", "text": "Empress Dowager Cixi" },
+      { "id": "d", "text": "Sun Yat-sen" }
+    ],
+    "answer": "d",
+    "explanation": "Sun Yat-sen led the Nationalist movement that ended over 2,000 years of Chinese imperial dynasties in 1912.",
+    "fun_fact": "Both the Republic of China in Taiwan and the People's Republic of China honor Sun Yat-sen as a pioneer.",
+    "source_url": "https://www.britannica.com/biography/Sun-Yat-sen",
+    "trap_notes": {
+      "a": "Mao Zedong founded the People's Republic of China in 1949.",
+      "b": "Deng Xiaoping launched China's market-oriented reforms in the late 1970s.",
+      "c": "Empress Dowager Cixi was a conservative Qing ruler who opposed republican revolution.",
+      "default": "Three Principles + 1911 Revolution + first provisional president = Sun Yat-sen."
+    }
+  },
+  {
+    "id": "world-ded-117",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "20th-Century Decolonization",
+    "era": "1930 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 20.9467, "lng": 72.8342, "label": "Dandi, India" },
+    "clues": [
+      "In 1930, Indian nationalists targeted an unfair British tax on a basic everyday mineral.",
+      "Led by Mahatma Gandhi, thousands walked 240 miles from Sabarmati Ashram to the Arabian Sea.",
+      "Picking up natural coastal crystals broke British law and sparked mass civil disobedience."
+    ],
+    "prompt": "Which protest campaign do these clues describe?",
+    "options": [
+      { "id": "a", "text": "The Salt March" },
+      { "id": "b", "text": "The Amritsar Boycott" },
+      { "id": "c", "text": "The Quit India Strike" },
+      { "id": "d", "text": "The Sepoy Mutiny" }
+    ],
+    "answer": "a",
+    "explanation": "Gandhi's 1930 Salt March turned a simple nonviolent act into a nationwide challenge to British rule.",
+    "fun_fact": "Newsreels of the Salt March carried images of British police beating peaceful marchers around the world.",
+    "source_url": "https://www.britannica.com/event/Salt-March",
+    "trap_notes": {
+      "b": "The 1919 Amritsar Massacre was a tragic British shooting of unarmed protesters.",
+      "c": "The Quit India movement was launched in 1942 during World War II.",
+      "d": "The 1857 Sepoy Rebellion was an armed uprising against the British East India Company.",
+      "default": "1930 + 240-mile walk to the sea + Gandhi = Salt March."
+    }
+  },
+  {
+    "id": "world-ded-118",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1948–1949 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "clues": [
+      "In June 1948, the Soviet Union cut off all rail, road, and canal links into a divided city.",
+      "Rather than retreat or risk war, Western Allies flew food and coal around the clock.",
+      "After 11 months and over 270,000 flights, Stalin lifted the blockade in May 1949."
+    ],
+    "prompt": "Which early Cold War crisis do these clues describe?",
+    "options": [
+      { "id": "a", "text": "The Suez Crisis" },
+      { "id": "b", "text": "The Berlin Airlift" },
+      { "id": "c", "text": "The Cuban Missile Crisis" },
+      { "id": "d", "text": "The Prague Spring" }
+    ],
+    "answer": "b",
+    "explanation": "The 1948–1949 Berlin Airlift kept West Berlin supplied by air, defeating the Soviet land blockade.",
+    "fun_fact": "U.S. pilot Gail Halvorsen dropped tiny parachute bundles of candy to Berlin children, earning the nickname Candy Bomber.",
+    "source_url": "https://www.britannica.com/event/Berlin-blockade",
+    "trap_notes": {
+      "a": "The 1956 Suez Crisis was a conflict over Egypt's nationalization of the Suez Canal.",
+      "c": "The Cuban Missile Crisis took place in October 1962 over Soviet missiles in Cuba.",
+      "d": "The Prague Spring was a 1968 reform movement in Czechoslovakia.",
+      "default": "1948 blockade + 270,000 supply flights = Berlin Airlift."
+    }
+  },
+  {
+    "id": "world-ded-119",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "20th-Century Decolonization",
+    "era": "1948–1994 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -26.2041, "lng": 28.0473, "label": "Johannesburg, South Africa" },
+    "clues": [
+      "From 1948 to the early 1990s, South Africa enforced strict racial segregation by law.",
+      "Global sanctions, boycotts, and domestic protests pressured the white-minority government.",
+      "Freed after 27 years in prison, Nelson Mandela became president in 1994's multiracial vote."
+    ],
+    "prompt": "Which system ended with South Africa's 1994 election?",
+    "options": [
+      { "id": "a", "text": "Mercantilism" },
+      { "id": "b", "text": "Feudalism" },
+      { "id": "c", "text": "Apartheid" },
+      { "id": "d", "text": "Collectivization" }
+    ],
+    "answer": "c",
+    "explanation": "Apartheid was South Africa's legal system of white-minority rule, dismantled in the early 1990s.",
+    "fun_fact": "Mandela and South African President F.W. de Klerk shared the 1993 Nobel Peace Prize.",
+    "source_url": "https://www.britannica.com/topic/apartheid",
+    "trap_notes": {
+      "a": "Mercantilism was an early modern European trade policy focused on bullion and colonies.",
+      "b": "Feudalism was a medieval system of land grants and military service.",
+      "d": "Collectivization was Stalin's forced merging of peasant farms in the Soviet Union.",
+      "default": "South Africa + legal racial segregation + Nelson Mandela = Apartheid."
+    }
+  },
+  {
+    "id": "world-ded-120",
+    "type": "deduction",
+    "domain": "World",
+    "subdomain": "Cold War",
+    "era": "1985–1991 CE",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "clues": [
+      "Taking power in 1985, this Soviet leader faced economic stagnation and a costly arms race.",
+      "He introduced glasnost for political openness and perestroika for economic restructuring.",
+      "He refused to crush 1989 Eastern European protests, preceding the USSR's 1991 breakup."
+    ],
+    "prompt": "Which Soviet leader do these clues describe?",
+    "options": [
+      { "id": "a", "text": "Nikita Khrushchev" },
+      { "id": "b", "text": "Leonid Brezhnev" },
+      { "id": "c", "text": "Joseph Stalin" },
+      { "id": "d", "text": "Mikhail Gorbachev" }
+    ],
+    "answer": "d",
+    "explanation": "Mikhail Gorbachev's reforms of glasnost and perestroika inadvertently accelerated the Soviet Union's collapse.",
+    "fun_fact": "Gorbachev resigned on December 25, 1991, and the Soviet flag was lowered over the Kremlin the next day.",
+    "source_url": "https://www.britannica.com/biography/Mikhail-Gorbachev",
+    "trap_notes": {
+      "a": "Nikita Khrushchev led the USSR during the 1950s and the 1962 Cuban Missile Crisis.",
+      "b": "Leonid Brezhnev led the Soviet Union from 1964 to 1982.",
+      "c": "Joseph Stalin ruled the Soviet Union from the late 1920s until his death in 1953.",
+      "default": "1985 + glasnost & perestroika + 1991 USSR breakup = Mikhail Gorbachev."
+    }
+  }
+]

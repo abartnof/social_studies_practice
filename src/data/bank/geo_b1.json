@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "geo-map-101",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Human & Economic Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 9.1, "lng": -79.7, "label": "Panama Canal" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 78, "y": 112, "label": "Central America" },
+        { "id": "p2", "x": 214, "y": 98, "label": "Red Sea Isthmus" },
+        { "id": "p3", "x": 286, "y": 128, "label": "Malay Strait" },
+        { "id": "p4", "x": 96, "y": 196, "label": "Southern Cape" }
+      ]
+    },
+    "prompt": "Select the pin marking the Panama Canal, which links the Atlantic and Pacific Oceans.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Panama Canal cuts across the Isthmus of Panama in Central America, shortening sea routes between the Atlantic and Pacific.",
+    "source_url": "https://www.britannica.com/topic/Panama-Canal",
+    "trap_notes": {
+      "default": "Look for the narrow land bridge between North and South America.",
+      "p2": "That is the Suez region linking the Mediterranean and Red Seas.",
+      "p3": "That is the Strait of Malacca in Southeast Asia.",
+      "p4": "That is Cape Horn at the southern tip of South America."
+    }
+  },
+  {
+    "id": "geo-map-102",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -3.4, "lng": -62.2, "label": "Amazon Basin" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 196, "y": 132, "label": "Central Africa" },
+        { "id": "p2", "x": 106, "y": 136, "label": "Northern South America" },
+        { "id": "p3", "x": 296, "y": 132, "label": "Maritime SE Asia" },
+        { "id": "p4", "x": 66, "y": 78, "label": "Great Plains" }
+      ]
+    },
+    "prompt": "Select the pin marking the Amazon Basin, home to Earth's largest tropical rainforest.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "The Amazon Basin spans northern South America along the Equator, draining vast tropical rainforests into the Atlantic Ocean.",
+    "source_url": "https://www.britannica.com/place/Amazon-River",
+    "trap_notes": {
+      "default": "Tropical rainforests cluster along the Equator; the Amazon is in South America.",
+      "p1": "That marks the Congo Basin in central Africa.",
+      "p3": "That marks the Indonesian archipelago in Southeast Asia.",
+      "p4": "That marks temperate grasslands in central North America."
+    }
+  },
+  {
+    "id": "geo-map-103",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.4, "lng": 12.0, "label": "Sahara Desert" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 184, "y": 104, "label": "Northern Africa" },
+        { "id": "p2", "x": 308, "y": 168, "label": "Central Australia" },
+        { "id": "p3", "x": 288, "y": 64, "label": "East Asian Steppe" },
+        { "id": "p4", "x": 198, "y": 166, "label": "Southern Africa" }
+      ]
+    },
+    "prompt": "Select the pin marking the Sahara, the largest hot desert biome on Earth.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Sahara stretches across northern Africa under a subtropical high-pressure belt around 20 to 30 degrees north latitude.",
+    "source_url": "https://www.britannica.com/place/Sahara-desert-Africa",
+    "trap_notes": {
+      "default": "Look for the broad desert belt spanning northern Africa.",
+      "p2": "That marks the Australian Outback.",
+      "p3": "That marks the Gobi Desert in East Asia.",
+      "p4": "That marks the Kalahari and Namib region in southern Africa."
+    }
+  },
+  {
+    "id": "geo-map-104",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.0, "lng": -65.0, "label": "Gulf Stream" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 124, "y": 74, "label": "North Atlantic" },
+        { "id": "p2", "x": 36, "y": 134, "label": "Eastern Pacific" },
+        { "id": "p3", "x": 254, "y": 146, "label": "Central Indian Ocean" },
+        { "id": "p4", "x": 152, "y": 156, "label": "South Atlantic" }
+      ]
+    },
+    "prompt": "Select the pin on the Gulf Stream, the warm current that moderates Western Europe's climate.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Gulf Stream carries warm water northeastward across the North Atlantic, keeping Western Europe milder than similar latitudes.",
+    "source_url": "https://oceanservice.noaa.gov/facts/gulfstream.html",
+    "trap_notes": {
+      "default": "Follow the warm current flowing northeast from Florida toward Europe.",
+      "p2": "That is in the Pacific Ocean, far from the Atlantic.",
+      "p3": "That is in the Indian Ocean basin.",
+      "p4": "That is in the South Atlantic, south of the Equator."
+    }
+  },
+  {
+    "id": "geo-map-105",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -18.0, "lng": -68.0, "label": "Andes Mountains" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 54, "y": 66, "label": "Western North America" },
+        { "id": "p2", "x": 86, "y": 155, "label": "Western South America" },
+        { "id": "p3", "x": 182, "y": 68, "label": "Central Europe" },
+        { "id": "p4", "x": 258, "y": 86, "label": "South Asian Rim" }
+      ]
+    },
+    "prompt": "Select the pin marking the Andes, the longest continental mountain range on Earth.",
+    "options": [],
+    "answer": "p2",
+    "explanation": "The Andes run along South America's entire western coast, formed by the subduction of the Nazca Plate beneath South America.",
+    "source_url": "https://www.britannica.com/place/Andes-Mountains",
+    "trap_notes": {
+      "default": "Look along the western Pacific edge of South America.",
+      "p1": "That marks the Rocky Mountains in North America.",
+      "p3": "That marks the Alps in Europe.",
+      "p4": "That marks the Himalayas in Asia."
+    }
+  },
+  {
+    "id": "geo-map-106",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -18.2, "lng": 147.7, "label": "Great Barrier Reef" },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        { "id": "p1", "x": 326, "y": 154, "label": "NE Australia Coast" },
+        { "id": "p2", "x": 96, "y": 100, "label": "Caribbean Basin" },
+        { "id": "p3", "x": 236, "y": 158, "label": "East African Coast" },
+        { "id": "p4", "x": 324, "y": 64, "label": "Japanese Coast" }
+      ]
+    },
+    "prompt": "Select the pin marking the Great Barrier Reef, the world's largest coral reef system.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Great Barrier Reef stretches along Australia's northeastern coast in warm, shallow Coral Sea waters.",
+    "source_url": "https://www.britannica.com/place/Great-Barrier-Reef",
+    "trap_notes": {
+      "default": "Find the northeastern coastline of Australia.",
+      "p2": "That is the Caribbean Sea, not Australia.",
+      "p3": "That is off the coast of Madagascar and East Africa.",
+      "p4": "That is near Japan in the temperate northwest Pacific."
+    }
+  },
+  {
+    "id": "geo-map-107",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.9, "lng": -5.6, "label": "Strait of Gibraltar" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "p1", "x": 24, "y": 114, "label": "Western Passage" },
+        { "id": "p2", "x": 240, "y": 60, "label": "Northern Strait" },
+        { "id": "p3", "x": 144, "y": 124, "label": "Central Island Gap" },
+        { "id": "p4", "x": 274, "y": 156, "label": "Eastern Isthmus" }
+      ]
+    },
+    "prompt": "Select the pin marking the Strait of Gibraltar, connecting the Mediterranean to the Atlantic.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Strait of Gibraltar separates southern Spain from northern Morocco at the western entrance to the Mediterranean Sea.",
+    "source_url": "https://www.britannica.com/place/Strait-of-Gibraltar",
+    "trap_notes": {
+      "default": "Look at the far western outlet of the Mediterranean Sea.",
+      "p2": "That is the Bosporus Strait leading into the Black Sea.",
+      "p3": "That is the Strait of Messina near Sicily.",
+      "p4": "That is the Isthmus of Suez leading toward the Red Sea."
+    }
+  },
+  {
+    "id": "geo-map-108",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Human & Economic Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.5, "lng": 32.3, "label": "Suez Canal" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "p1", "x": 274, "y": 156, "label": "Sinai Isthmus" },
+        { "id": "p2", "x": 24, "y": 114, "label": "Western Strait" },
+        { "id": "p3", "x": 240, "y": 60, "label": "Black Sea Outlet" },
+        { "id": "p4", "x": 222, "y": 98, "label": "Aegean Passage" }
+      ]
+    },
+    "prompt": "Select the pin marking the Suez Canal, which links the Mediterranean Sea to the Red Sea.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Opened in 1869, the Suez Canal crosses Egypt's Isthmus of Suez, allowing ships to bypass Africa between Europe and Asia.",
+    "source_url": "https://www.britannica.com/topic/Suez-Canal",
+    "trap_notes": {
+      "default": "Look in the southeastern corner of the Mediterranean east of the Nile.",
+      "p2": "That is the Strait of Gibraltar at the Atlantic entrance.",
+      "p3": "That is the Bosporus Strait leading to the Black Sea.",
+      "p4": "That is in the Aegean Sea between Greece and Anatolia."
+    }
+  },
+  {
+    "id": "geo-map-109",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.1, "lng": 29.1, "label": "Bosporus Strait" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "p1", "x": 240, "y": 60, "label": "Black Sea Strait" },
+        { "id": "p2", "x": 154, "y": 82, "label": "Adriatic Sea" },
+        { "id": "p3", "x": 274, "y": 156, "label": "Red Sea Isthmus" },
+        { "id": "p4", "x": 24, "y": 114, "label": "Atlantic Gateway" }
+      ]
+    },
+    "prompt": "Select the pin marking the Bosporus Strait, the chokepoint linking the Black Sea to the Mediterranean.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Bosporus cuts through northwestern Turkey, connecting the Black Sea to the Sea of Marmara and the Aegean Sea.",
+    "source_url": "https://www.britannica.com/place/Bosporus",
+    "trap_notes": {
+      "default": "Look for the narrow outlet at the southwestern corner of the Black Sea.",
+      "p2": "That is the Adriatic Sea east of Italy.",
+      "p3": "That is the Suez Canal region in Egypt.",
+      "p4": "That is the Strait of Gibraltar in the far west."
+    }
+  },
+  {
+    "id": "geo-map-110",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 31.0, "lng": 31.2, "label": "Nile River Delta" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "p1", "x": 254, "y": 156, "label": "North African Delta" },
+        { "id": "p2", "x": 334, "y": 116, "label": "Eastern Twin Rivers" },
+        { "id": "p3", "x": 134, "y": 84, "label": "Italian Peninsula" },
+        { "id": "p4", "x": 274, "y": 118, "label": "Eastern Island" }
+      ]
+    },
+    "prompt": "Select the pin marking the Nile River Delta, where Africa's longest river meets the sea.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Nile flows northward through Egypt and fans into a fertile triangular delta on the southeastern Mediterranean coast.",
+    "source_url": "https://www.britannica.com/place/Nile-River",
+    "trap_notes": {
+      "default": "Follow the river flowing north out of Africa into the eastern Mediterranean.",
+      "p2": "That marks the Tigris and Euphrates system in Mesopotamia.",
+      "p3": "That is on the Italian Peninsula in southern Europe.",
+      "p4": "That marks the island of Cyprus."
+    }
+  },
+  {
+    "id": "geo-map-111",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.5, "lng": 12.5, "label": "Italian Peninsula" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "p1", "x": 144, "y": 92, "label": "Central Peninsula" },
+        { "id": "p2", "x": 26, "y": 84, "label": "Western Peninsula" },
+        { "id": "p3", "x": 192, "y": 88, "label": "Balkan Peninsula" },
+        { "id": "p4", "x": 276, "y": 84, "label": "Anatolian Peninsula" }
+      ]
+    },
+    "prompt": "Select the pin marking the Italian Peninsula, which divides the western and eastern Mediterranean.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Italian Peninsula juts southeast into the central Mediterranean toward Sicily, separating the Tyrrhenian and Adriatic Seas.",
+    "source_url": "https://www.britannica.com/place/Italy",
+    "trap_notes": {
+      "default": "Look for the central boot-shaped peninsula pointing toward Sicily.",
+      "p2": "That is the Iberian Peninsula in the far west.",
+      "p3": "That is Greece on the southern Balkan Peninsula.",
+      "p4": "That is Anatolia in modern-day Turkey."
+    }
+  },
+  {
+    "id": "geo-map-112",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.3, "lng": 44.4, "label": "Mesopotamia" },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        { "id": "p1", "x": 334, "y": 116, "label": "Eastern River Valley" },
+        { "id": "p2", "x": 254, "y": 176, "label": "North African River" },
+        { "id": "p3", "x": 282, "y": 40, "label": "Northern Inland Sea" },
+        { "id": "p4", "x": 217, "y": 127, "label": "Southern Island" }
+      ]
+    },
+    "prompt": "Select the pin marking the Tigris-Euphrates river valley of Mesopotamia.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Tigris and Euphrates flow southeast across Mesopotamia toward the Persian Gulf, forming the eastern Fertile Crescent.",
+    "source_url": "https://www.britannica.com/place/Mesopotamia-historical-region-Asia",
+    "trap_notes": {
+      "default": "Look east of the Mediterranean coast for the twin rivers flowing southeast.",
+      "p2": "That is the Nile River in Egypt.",
+      "p3": "That is the Black Sea north of Anatolia.",
+      "p4": "That is the island of Crete."
+    }
+  },
+  {
+    "id": "geo-map-113",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.1, "lng": -89.2, "label": "Mississippi Delta" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 184, "y": 158, "label": "Central Gulf Mouth" },
+        { "id": "p2", "x": 162, "y": 174, "label": "Western Gulf Mouth" },
+        { "id": "p3", "x": 274, "y": 86, "label": "Atlantic Bay" },
+        { "id": "p4", "x": 200, "y": 46, "label": "Northern Lake" }
+      ]
+    },
+    "prompt": "Select the pin marking the Mississippi River Delta on the northern Gulf Coast.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Mississippi River drains most of interior North America southward into a major delta along the northern Gulf of Mexico.",
+    "source_url": "https://www.britannica.com/place/Mississippi-River",
+    "trap_notes": {
+      "default": "Follow the central north-south river all the way to the Gulf Coast.",
+      "p2": "That is the mouth of the Rio Grande further west.",
+      "p3": "That is along the Atlantic coast, not the Gulf of Mexico.",
+      "p4": "That is Lake Superior in the north."
+    }
+  },
+  {
+    "id": "geo-map-114",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5, "lng": -80.5, "label": "Appalachian Mountains" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 256, "y": 90, "label": "Eastern Ridge" },
+        { "id": "p2", "x": 100, "y": 76, "label": "Western Cordillera" },
+        { "id": "p3", "x": 148, "y": 86, "label": "Central Plains" },
+        { "id": "p4", "x": 240, "y": 162, "label": "Southeastern Peninsula" }
+      ]
+    },
+    "prompt": "Select the pin marking the Appalachian Mountains, the older eroded range in eastern North America.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Appalachians run southwest to northeast parallel to the Atlantic coast, historically acting as a barrier to early westward settlement.",
+    "source_url": "https://www.britannica.com/place/Appalachian-Mountains",
+    "trap_notes": {
+      "default": "Look for the dashed mountain ridge running along eastern North America.",
+      "p2": "That is the Rocky Mountain region in the west.",
+      "p3": "That is the flat interior Great Plains.",
+      "p4": "That is the low-lying Florida Peninsula."
+    }
+  },
+  {
+    "id": "geo-map-115",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 44.0, "lng": -110.0, "label": "Rocky Mountains" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 100, "y": 76, "label": "Western Mountains" },
+        { "id": "p2", "x": 256, "y": 90, "label": "Eastern Mountains" },
+        { "id": "p3", "x": 216, "y": 62, "label": "Inland Lakes" },
+        { "id": "p4", "x": 172, "y": 196, "label": "Southern Peninsula" }
+      ]
+    },
+    "prompt": "Select the pin marking the Rocky Mountains, which form North America's Continental Divide.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Rocky Mountains stretch down western North America, separating rivers flowing toward the Pacific from those flowing east.",
+    "source_url": "https://www.britannica.com/place/Rocky-Mountains",
+    "trap_notes": {
+      "default": "Look in western North America near the headwaters of eastward-flowing rivers.",
+      "p2": "That marks the Appalachian Mountains in the east.",
+      "p3": "That marks the Great Lakes region.",
+      "p4": "That marks the Yucatan Peninsula in the south."
+    }
+  },
+  {
+    "id": "geo-map-116",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.7, "lng": -87.5, "label": "Lake Superior" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 200, "y": 46, "label": "Northernmost Lake" },
+        { "id": "p2", "x": 252, "y": 67, "label": "Easternmost Lake" },
+        { "id": "p3", "x": 208, "y": 65, "label": "Southern Finger Lake" },
+        { "id": "p4", "x": 233, "y": 77, "label": "Shallow Southern Lake" }
+      ]
+    },
+    "prompt": "Select the pin marking Lake Superior, the largest and northernmost of the five Great Lakes.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Lake Superior sits at the northwestern head of the Great Lakes system, holding more freshwater than the other four lakes combined.",
+    "source_url": "https://www.epa.gov/greatlakes/physical-features-great-lakes",
+    "trap_notes": {
+      "default": "Find the largest, farthest-northwest lake in the Great Lakes cluster.",
+      "p2": "That is Lake Ontario at the eastern end.",
+      "p3": "That is Lake Michigan extending southward.",
+      "p4": "That is Lake Erie on the southern side."
+    }
+  },
+  {
+    "id": "geo-map-117",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.5, "lng": -102.5, "label": "Rio Grande" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 142, "y": 154, "label": "Southwestern River" },
+        { "id": "p2", "x": 214, "y": 96, "label": "Eastern Tributary" },
+        { "id": "p3", "x": 156, "y": 84, "label": "Northern Plains River" },
+        { "id": "p4", "x": 186, "y": 96, "label": "Central River" }
+      ]
+    },
+    "prompt": "Select the pin marking the Rio Grande, a river forming a major natural border in southern North America.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Rio Grande flows southeast from the southern Rockies to the Gulf of Mexico, forming a natural border between Texas and Mexico.",
+    "source_url": "https://www.britannica.com/place/Rio-Grande-river-United-States-Mexico",
+    "trap_notes": {
+      "default": "Look in the southwest for the river flowing southeast into the Gulf of Mexico.",
+      "p2": "That is the Ohio River flowing west to the Mississippi.",
+      "p3": "That is the Missouri River crossing the northern plains.",
+      "p4": "That is the main stem of the Mississippi River."
+    }
+  },
+  {
+    "id": "geo-map-118",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.5, "lng": -100.0, "label": "Great Plains" },
+    "mapSpec": {
+      "region": "north_america",
+      "pins": [
+        { "id": "p1", "x": 148, "y": 86, "label": "Interior Grasslands" },
+        { "id": "p2", "x": 54, "y": 108, "label": "Pacific Coast" },
+        { "id": "p3", "x": 240, "y": 162, "label": "Subtropical Peninsula" },
+        { "id": "p4", "x": 274, "y": 86, "label": "Atlantic Coastal Plain" }
+      ]
+    },
+    "prompt": "Select the pin marking the Great Plains, the semi-arid grassland biome east of the Rocky Mountains.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Great Plains lie in the rain shadow east of the Rockies, supporting vast grasslands and commercial grain agriculture.",
+    "source_url": "https://www.britannica.com/place/Great-Plains",
+    "trap_notes": {
+      "default": "Look in the dry interior west of the Mississippi River.",
+      "p2": "That is the Pacific coastline.",
+      "p3": "That is the humid Florida Peninsula.",
+      "p4": "That is the humid Atlantic Coastal Plain."
+    }
+  },
+  {
+    "id": "geo-map-119",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 36.0, "lng": 110.0, "label": "Yellow River" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "p1", "x": 106, "y": 76, "label": "Northern River Bend" },
+        { "id": "p2", "x": 122, "y": 138, "label": "Southern River Valley" },
+        { "id": "p3", "x": 46, "y": 156, "label": "High Southern Plateau" },
+        { "id": "p4", "x": 216, "y": 88, "label": "Eastern Peninsula" }
+      ]
+    },
+    "prompt": "Select the pin on the Yellow River, which carries fertile loess silt across northern China.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Yellow River (Huang He) makes a distinctive northern loop through the Loess Plateau before emptying into the Yellow Sea.",
+    "source_url": "https://www.britannica.com/place/Yellow-River",
+    "trap_notes": {
+      "default": "Look for the northernmost of China's two major rivers.",
+      "p2": "That is the Yangtze River further south.",
+      "p3": "That is the Tibetan Plateau and Himalayan rim.",
+      "p4": "That is the Korean Peninsula."
+    }
+  },
+  {
+    "id": "geo-map-120",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 31.2, "lng": 121.5, "label": "Yangtze River" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "p1", "x": 154, "y": 134, "label": "Central-South River" },
+        { "id": "p2", "x": 132, "y": 92, "label": "Northern River" },
+        { "id": "p3", "x": 292, "y": 78, "label": "Island Mainstem" },
+        { "id": "p4", "x": 131, "y": 198, "label": "Southern Coast" }
+      ]
+    },
+    "prompt": "Select the pin on the Yangtze River, Asia's longest river and a vital corridor to the East China Sea.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Yangtze flows eastward across central China to the East China Sea, supporting dense populations and rice farming.",
+    "source_url": "https://www.britannica.com/place/Yangtze-River",
+    "trap_notes": {
+      "default": "Look for the major river south of the Yellow River flowing east to the coast.",
+      "p2": "That is the Yellow River to the north.",
+      "p3": "That is Honshu in the Japanese archipelago.",
+      "p4": "That is Hainan Island off southern China."
+    }
+  },
+  {
+    "id": "geo-map-121",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.0, "lng": 88.0, "label": "Tibetan Plateau" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "p1", "x": 46, "y": 156, "label": "High Southwest Rim" },
+        { "id": "p2", "x": 195, "y": 172, "label": "Offshore Island" },
+        { "id": "p3", "x": 216, "y": 88, "label": "Northeast Peninsula" },
+        { "id": "p4", "x": 303, "y": 36, "label": "Northern Island" }
+      ]
+    },
+    "prompt": "Select the pin marking the Tibetan Plateau, the high-elevation source of Asia's great rivers.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Bordered by the Himalayas, the Tibetan Plateau averages over 4,500 meters high and feeds both the Yellow and Yangtze Rivers.",
+    "source_url": "https://www.britannica.com/place/Plateau-of-Tibet",
+    "trap_notes": {
+      "default": "Look in the far southwest along the dashed mountain ridge.",
+      "p2": "That is the island of Taiwan.",
+      "p3": "That is the Korean Peninsula.",
+      "p4": "That is Hokkaido in northern Japan."
+    }
+  },
+  {
+    "id": "geo-map-122",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5, "lng": 127.5, "label": "Korean Peninsula" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "p1", "x": 216, "y": 88, "label": "Mainland Peninsula" },
+        { "id": "p2", "x": 292, "y": 78, "label": "Eastern Archipelago" },
+        { "id": "p3", "x": 195, "y": 172, "label": "Subtropical Island" },
+        { "id": "p4", "x": 131, "y": 198, "label": "Tropical Strait" }
+      ]
+    },
+    "prompt": "Select the pin marking the Korean Peninsula, which separates the Yellow Sea from the Sea of Japan.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Korean Peninsula extends southward from northeastern China between the Yellow Sea on the west and the Sea of Japan on the east.",
+    "source_url": "https://www.britannica.com/place/Korea",
+    "trap_notes": {
+      "default": "Find the peninsula jutting southward from the Asian mainland toward Japan.",
+      "p2": "That is Honshu, Japan's main island.",
+      "p3": "That is Taiwan off southeastern China.",
+      "p4": "That is Hainan Island in the South China Sea."
+    }
+  },
+  {
+    "id": "geo-map-123",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.0, "lng": 135.0, "label": "Sea of Japan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "p1", "x": 254, "y": 72, "label": "Northeastern Basin" },
+        { "id": "p2", "x": 194, "y": 100, "label": "Western Shallow Sea" },
+        { "id": "p3", "x": 212, "y": 146, "label": "Central Marginal Sea" },
+        { "id": "p4", "x": 168, "y": 196, "label": "Southern Marginal Sea" }
+      ]
+    },
+    "prompt": "Select the pin marking the Sea of Japan, enclosed by the Asian mainland and the Japanese islands.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Sea of Japan lies between the Korean Peninsula and Russia on the west and the Japanese archipelago on the east.",
+    "source_url": "https://www.britannica.com/place/Sea-of-Japan",
+    "trap_notes": {
+      "default": "Look between the Korean Peninsula and the main island of Japan.",
+      "p2": "That is the Yellow Sea west of Korea.",
+      "p3": "That is the East China Sea between China and Kyushu.",
+      "p4": "That is the South China Sea."
+    }
+  },
+  {
+    "id": "geo-map-124",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.7, "lng": 121.0, "label": "Taiwan" },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        { "id": "p1", "x": 195, "y": 172, "label": "Southeastern Island" },
+        { "id": "p2", "x": 252, "y": 124, "label": "Southern Japan Island" },
+        { "id": "p3", "x": 131, "y": 198, "label": "South China Coast" },
+        { "id": "p4", "x": 303, "y": 36, "label": "Northern Japan Island" }
+      ]
+    },
+    "prompt": "Select the pin marking Taiwan, the mountainous island separated from southeastern China by a narrow strait.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Taiwan sits along the Tropic of Cancer off southeastern China, between the East China Sea and the South China Sea.",
+    "source_url": "https://www.britannica.com/place/Taiwan",
+    "trap_notes": {
+      "default": "Look just off the southeastern coast of mainland China.",
+      "p2": "That is Kyushu in southern Japan.",
+      "p3": "That is Hainan Island further southwest.",
+      "p4": "That is Hokkaido in northern Japan."
+    }
+  },
+  {
+    "id": "geo-map-125",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 2.5, "lng": 101.2, "label": "Strait of Malacca" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "p1", "x": 278, "y": 134, "label": "Southeast Passage" },
+        { "id": "p2", "x": 122, "y": 34, "label": "Gulf Chokepoint" },
+        { "id": "p3", "x": 56, "y": 88, "label": "Red Sea Chokepoint" },
+        { "id": "p4", "x": 194, "y": 139, "label": "South Asian Island" }
+      ]
+    },
+    "prompt": "Select the pin marking the Strait of Malacca, the busy shipping lane between the Indian and Pacific Oceans.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Strait of Malacca runs between the Malay Peninsula and Sumatra, carrying a huge share of East-West maritime trade.",
+    "source_url": "https://www.britannica.com/place/Strait-of-Malacca",
+    "trap_notes": {
+      "default": "Look in the far east of the map between the Malay Peninsula and Sumatra.",
+      "p2": "That is the Strait of Hormuz at the Persian Gulf.",
+      "p3": "That is the Bab el-Mandeb Strait at the Red Sea.",
+      "p4": "That is the island of Sri Lanka south of India."
+    }
+  },
+  {
+    "id": "geo-map-126",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 26.6, "lng": 56.3, "label": "Strait of Hormuz" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "p1", "x": 122, "y": 34, "label": "Persian Gulf Outlet" },
+        { "id": "p2", "x": 56, "y": 88, "label": "Red Sea Outlet" },
+        { "id": "p3", "x": 278, "y": 134, "label": "Malay Passage" },
+        { "id": "p4", "x": 190, "y": 128, "label": "Palk Strait" }
+      ]
+    },
+    "prompt": "Select the pin marking the Strait of Hormuz, the vital chokepoint for Persian Gulf oil tankers.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Strait of Hormuz links the Persian Gulf to the Gulf of Oman and Arabian Sea, carrying roughly a fifth of global petroleum trade.",
+    "source_url": "https://www.britannica.com/place/Strait-of-Hormuz",
+    "trap_notes": {
+      "default": "Look at the narrow mouth of the Persian Gulf northeast of Arabia.",
+      "p2": "That is the Bab el-Mandeb Strait at the southern Red Sea.",
+      "p3": "That is the Strait of Malacca in Southeast Asia.",
+      "p4": "That is the shallow strait between India and Sri Lanka."
+    }
+  },
+  {
+    "id": "geo-map-127",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 12.6, "lng": 43.3, "label": "Bab el-Mandeb" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "p1", "x": 56, "y": 88, "label": "Southern Red Sea" },
+        { "id": "p2", "x": 122, "y": 34, "label": "Persian Gulf Mouth" },
+        { "id": "p3", "x": 64, "y": 178, "label": "Southern Island" },
+        { "id": "p4", "x": 278, "y": 134, "label": "Sumatra Strait" }
+      ]
+    },
+    "prompt": "Select the pin marking the Bab el-Mandeb Strait, linking the Red Sea to the Gulf of Aden.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Bab el-Mandeb separates the Arabian Peninsula from the Horn of Africa, forming the southern chokepoint of the Suez shipping route.",
+    "source_url": "https://www.britannica.com/place/Bab-El-Mandeb-Strait",
+    "trap_notes": {
+      "default": "Look between southwestern Arabia and the Horn of Africa.",
+      "p2": "That is the Strait of Hormuz at the Persian Gulf.",
+      "p3": "That is Madagascar off southeastern Africa.",
+      "p4": "That is the Strait of Malacca in Southeast Asia."
+    }
+  },
+  {
+    "id": "geo-map-128",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 22.0, "lng": 89.8, "label": "Ganges Delta" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "p1", "x": 228, "y": 66, "label": "Bay of Bengal Delta" },
+        { "id": "p2", "x": 148, "y": 58, "label": "Arabian Sea Delta" },
+        { "id": "p3", "x": 184, "y": 104, "label": "Southern Plateau" },
+        { "id": "p4", "x": 112, "y": 46, "label": "Western Gulf" }
+      ]
+    },
+    "prompt": "Select the pin marking the Ganges River Delta, the world's largest river delta on the Bay of Bengal.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Fed by Himalayan snowmelt and monsoon rains, the Ganges and Brahmaputra form a vast, densely populated delta on the Bay of Bengal.",
+    "source_url": "https://www.britannica.com/place/Ganges-River",
+    "trap_notes": {
+      "default": "Look on the eastern side of the Indian subcontinent at the head of the Bay of Bengal.",
+      "p2": "That is the Indus River mouth on the Arabian Sea.",
+      "p3": "That is the interior Deccan Plateau of southern India.",
+      "p4": "That is the Persian Gulf."
+    }
+  },
+  {
+    "id": "geo-map-129",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 27.5, "lng": 68.5, "label": "Indus River Valley" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "p1", "x": 154, "y": 40, "label": "Western River Basin" },
+        { "id": "p2", "x": 208, "y": 48, "label": "Eastern River Basin" },
+        { "id": "p3", "x": 68, "y": 114, "label": "Horn of Africa" },
+        { "id": "p4", "x": 314, "y": 174, "label": "Volcanic Island" }
+      ]
+    },
+    "prompt": "Select the pin marking the Indus River Valley, which drains the western Himalayas into the Arabian Sea.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "The Indus flows southwest through arid plains into the Arabian Sea, supporting one of the world's earliest urban civilizations.",
+    "source_url": "https://www.britannica.com/place/Indus-River",
+    "trap_notes": {
+      "default": "Look on the northwestern edge of the Indian subcontinent.",
+      "p2": "That is the Ganges River basin flowing southeast.",
+      "p3": "That is the Horn of Africa.",
+      "p4": "That is the island of Java in Indonesia."
+    }
+  },
+  {
+    "id": "geo-map-130",
+    "type": "map",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -19.0, "lng": 46.5, "label": "Madagascar" },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        { "id": "p1", "x": 64, "y": 178, "label": "Southwest Island" },
+        { "id": "p2", "x": 194, "y": 139, "label": "South Asian Island" },
+        { "id": "p3", "x": 278, "y": 148, "label": "Sunda Island" },
+        { "id": "p4", "x": 314, "y": 174, "label": "Eastern Island" }
+      ]
+    },
+    "prompt": "Select the pin marking Madagascar, the large island off southeastern Africa known for unique wildlife.",
+    "options": [],
+    "answer": "p1",
+    "explanation": "Long geographic isolation from mainland Africa allowed Madagascar to evolve distinct endemic species such as lemurs.",
+    "source_url": "https://www.britannica.com/place/Madagascar",
+    "trap_notes": {
+      "default": "Look in the southwestern Indian Ocean just east of Africa.",
+      "p2": "That is Sri Lanka off southern India.",
+      "p3": "That is Sumatra in Indonesia.",
+      "p4": "That is Java in Indonesia."
+    }
+  },
+  {
+    "id": "geo-cmp-101",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.0, "lng": -95.0, "label": "Migration Factors" },
+    "compareSpec": {
+      "leftLabel": "Push Factor",
+      "rightLabel": "Pull Factor",
+      "items": [
+        { "id": "c1", "text": "Prolonged drought ruining local farms", "bucket": "left" },
+        { "id": "c2", "text": "Higher-paying factory jobs in a city", "bucket": "right" },
+        { "id": "c3", "text": "Civil war forcing families to flee", "bucket": "left" },
+        { "id": "c4", "text": "Strong public universities and clinics", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each migration driver into Push Factor or Pull Factor.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Push factors drive people away from a home area due to hardship, while pull factors attract migrants to a new destination.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/migration/",
+    "trap_notes": {
+      "default": "Ask whether the factor drives someone out of home (push) or draws them toward a destination (pull)."
+    }
+  },
+  {
+    "id": "geo-cmp-102",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7, "lng": -74.0, "label": "Site and Situation" },
+    "compareSpec": {
+      "leftLabel": "Site",
+      "rightLabel": "Situation",
+      "items": [
+        { "id": "c1", "text": "Deep natural harbor with bedrock", "bucket": "left" },
+        { "id": "c2", "text": "Located along a busy transoceanic route", "bucket": "right" },
+        { "id": "c3", "text": "Flat floodplain above river rapids", "bucket": "left" },
+        { "id": "c4", "text": "Connected by rail to inland farm towns", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each urban feature as an example of Site or Situation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Site describes the physical traits of a place itself, whereas situation describes its location relative to surrounding places.",
+    "source_url": "https://www.britannica.com/science/geography/Human-geography",
+    "trap_notes": {
+      "default": "Site is on-the-ground physical terrain; situation is external connectivity to other places."
+    }
+  },
+  {
+    "id": "geo-cmp-103",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 39.8, "lng": -98.5, "label": "Energy Resources" },
+    "compareSpec": {
+      "leftLabel": "Renewable Resource",
+      "rightLabel": "Nonrenewable Resource",
+      "items": [
+        { "id": "c1", "text": "Solar radiation captured by panels", "bucket": "left" },
+        { "id": "c2", "text": "Coal formed over millions of years", "bucket": "right" },
+        { "id": "c3", "text": "Wind turning offshore turbine blades", "bucket": "left" },
+        { "id": "c4", "text": "Crude oil pumped from shale basins", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each energy source into Renewable Resource or Nonrenewable Resource.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Renewable resources replenish naturally on human timescales, while fossil fuels form over millions of years and are finite.",
+    "source_url": "https://www.eia.gov/energyexplained/what-is-energy/sources-of-energy.php",
+    "trap_notes": {
+      "default": "Check whether the source replenishes continuously or exists in a finite geologic stock."
+    }
+  },
+  {
+    "id": "geo-cmp-104",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Cartography & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 0.0, "label": "Map Projections" },
+    "compareSpec": {
+      "leftLabel": "Mercator Projection",
+      "rightLabel": "Equal-Area Projection",
+      "items": [
+        { "id": "c1", "text": "Preserves compass angles for navigation", "bucket": "left" },
+        { "id": "c2", "text": "Preserves true land size across latitudes", "bucket": "right" },
+        { "id": "c3", "text": "Makes Greenland look as large as Africa", "bucket": "left" },
+        { "id": "c4", "text": "Distorts shapes near poles to keep area", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each map trait to Mercator Projection or Equal-Area Projection.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mercator maps preserve direction and shape at the cost of huge polar area distortion; equal-area maps keep relative land sizes accurate.",
+    "source_url": "https://www.usgs.gov/faqs/what-map-projection",
+    "trap_notes": {
+      "default": "Mercator is conformal (angles/navigation); equal-area sacrifices shape to keep true size."
+    }
+  },
+  {
+    "id": "geo-cmp-105",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Human Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9, "lng": -77.0, "label": "Region Types" },
+    "compareSpec": {
+      "leftLabel": "Formal Region",
+      "rightLabel": "Functional Region",
+      "items": [
+        { "id": "c1", "text": "Corn Belt defined by shared farm output", "bucket": "left" },
+        { "id": "c2", "text": "Metro area served by one commuter rail", "bucket": "right" },
+        { "id": "c3", "text": "State defined by legal tax boundaries", "bucket": "left" },
+        { "id": "c4", "text": "Delivery zone radiating from a warehouse", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each geographic area as a Formal Region or Functional Region.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Formal regions share a uniform trait throughout, while functional regions are organized around a central node and its connections.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/region/",
+    "trap_notes": {
+      "default": "Look for uniform shared traits (formal) versus a hub-and-spoke network (functional)."
+    }
+  },
+  {
+    "id": "geo-cmp-106",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.2, "lng": -97.4, "label": "Atmosphere" },
+    "compareSpec": {
+      "leftLabel": "Weather",
+      "rightLabel": "Climate",
+      "items": [
+        { "id": "c1", "text": "Afternoon thunderstorm passing a town", "bucket": "left" },
+        { "id": "c2", "text": "30-year average summer rainfall pattern", "bucket": "right" },
+        { "id": "c3", "text": "Cold front dropping temperatures tonight", "bucket": "left" },
+        { "id": "c4", "text": "Dry subtropical conditions in a desert", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each atmospheric description into Weather or Climate.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Weather refers to short-term atmospheric conditions, while climate describes long-term patterns averaged over decades.",
+    "source_url": "https://www.noaa.gov/education/resource-collections/climate",
+    "trap_notes": {
+      "default": "Short-term events are weather; multi-decade averages and biome patterns are climate."
+    }
+  },
+  {
+    "id": "geo-cmp-107",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -15.0, "lng": -75.0, "label": "Plate Tectonics" },
+    "compareSpec": {
+      "leftLabel": "Divergent Boundary",
+      "rightLabel": "Convergent Boundary",
+      "items": [
+        { "id": "c1", "text": "Mid-ocean ridge forming new seafloor", "bucket": "left" },
+        { "id": "c2", "text": "Deep ocean trench where plates subduct", "bucket": "right" },
+        { "id": "c3", "text": "East African rift valley pulling apart", "bucket": "left" },
+        { "id": "c4", "text": "Himalayan peaks pushed up by collision", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each landform to a Divergent Boundary or Convergent Boundary.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Divergent boundaries pull plates apart to form rifts and ridges; convergent boundaries push plates together into trenches and mountains.",
+    "source_url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+    "trap_notes": {
+      "default": "Plates pull apart at divergent boundaries and collide or subduct at convergent boundaries."
+    }
+  },
+  {
+    "id": "geo-cmp-108",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.1, "lng": -112.1, "label": "Weathering" },
+    "compareSpec": {
+      "leftLabel": "Physical Weathering",
+      "rightLabel": "Chemical Weathering",
+      "items": [
+        { "id": "c1", "text": "Ice wedging splitting granite cracks", "bucket": "left" },
+        { "id": "c2", "text": "Acidic rainwater dissolving limestone", "bucket": "right" },
+        { "id": "c3", "text": "Tree roots prying apart sandstone", "bucket": "left" },
+        { "id": "c4", "text": "Oxygen rusting iron-rich rock layers", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each rock-breakdown process as Physical Weathering or Chemical Weathering.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Physical weathering breaks rock into smaller pieces without changing its minerals; chemical weathering alters rock composition.",
+    "source_url": "https://www.nps.gov/subjects/geology/weathering.htm",
+    "trap_notes": {
+      "default": "Mechanical force (ice, roots) is physical; reactions (dissolving, rusting) are chemical."
+    }
+  },
+  {
+    "id": "geo-cmp-109",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.6, "lng": -93.6, "label": "Agricultural Systems" },
+    "compareSpec": {
+      "leftLabel": "Commercial Farming",
+      "rightLabel": "Subsistence Farming",
+      "items": [
+        { "id": "c1", "text": "Large mechanized wheat farms for export", "bucket": "left" },
+        { "id": "c2", "text": "Small plots feeding one extended family", "bucket": "right" },
+        { "id": "c3", "text": "High capital investment in fertilizers", "bucket": "left" },
+        { "id": "c4", "text": "High share of household labor by hand", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each agricultural trait into Commercial Farming or Subsistence Farming.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Commercial farming produces crops for sale using capital and machinery, while subsistence farming feeds the farmer's household.",
+    "source_url": "https://www.britannica.com/topic/subsistence-farming",
+    "trap_notes": {
+      "default": "Compare market-oriented, mechanized production with household-consumption farming."
+    }
+  },
+  {
+    "id": "geo-cmp-110",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.7, "lng": 139.7, "label": "Settlement Patterns" },
+    "compareSpec": {
+      "leftLabel": "High-Density Urban",
+      "rightLabel": "Low-Density Rural",
+      "items": [
+        { "id": "c1", "text": "High-rise apartments near subway stops", "bucket": "left" },
+        { "id": "c2", "text": "Scattered farmsteads miles apart", "bucket": "right" },
+        { "id": "c3", "text": "Mixed-use blocks walkable on foot", "bucket": "left" },
+        { "id": "c4", "text": "Extensive pastures and timberland", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each land-use pattern as High-Density Urban or Low-Density Rural.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Urban cores concentrate people, transit, and vertical buildings, whereas rural landscapes spread residences across farmland and open space.",
+    "source_url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html",
+    "trap_notes": {
+      "default": "Concentrated housing and transit belong to urban cores; dispersed farms are rural."
+    }
+  },
+  {
+    "id": "geo-cmp-111",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.4, "lng": -121.4, "label": "Orographic Effect" },
+    "compareSpec": {
+      "leftLabel": "Windward Slope",
+      "rightLabel": "Leeward Slope",
+      "items": [
+        { "id": "c1", "text": "Moist ocean air rises and cools", "bucket": "left" },
+        { "id": "c2", "text": "Dry air descends and warms rapidly", "bucket": "right" },
+        { "id": "c3", "text": "Lush temperate forest receives rain", "bucket": "left" },
+        { "id": "c4", "text": "Rain shadow creates arid steppe", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each mountain-climate trait into Windward Slope or Leeward Slope.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Air forced up the windward side cools and drops rain, leaving dry descending air to form a rain shadow on the leeward side.",
+    "source_url": "https://www.britannica.com/science/orographic-precipitation",
+    "trap_notes": {
+      "default": "Wet rising air hits the windward side; dry descending air creates the leeward rain shadow."
+    }
+  },
+  {
+    "id": "geo-cmp-112",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 31.2, "lng": 121.5, "label": "Migration Scale" },
+    "compareSpec": {
+      "leftLabel": "Internal Migration",
+      "rightLabel": "International Migration",
+      "items": [
+        { "id": "c1", "text": "Farmworkers moving from inland to coast", "bucket": "left" },
+        { "id": "c2", "text": "Nurses relocating to a foreign country", "bucket": "right" },
+        { "id": "c3", "text": "Retirees moving to a warmer home state", "bucket": "left" },
+        { "id": "c4", "text": "Refugees crossing a sovereign border", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each move as Internal Migration or International Migration.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Internal migration occurs within one country's borders, whereas international migration crosses between sovereign states.",
+    "source_url": "https://www.un.org/en/global-issues/migration",
+    "trap_notes": {
+      "default": "Check whether the mover crosses an international border or stays within one nation."
+    }
+  },
+  {
+    "id": "geo-cmp-113",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.5, "lng": -0.1, "label": "Economic Sectors" },
+    "compareSpec": {
+      "leftLabel": "Primary Sector",
+      "rightLabel": "Tertiary Sector",
+      "items": [
+        { "id": "c1", "text": "Iron ore mining in open pits", "bucket": "left" },
+        { "id": "c2", "text": "Retail banking and customer lending", "bucket": "right" },
+        { "id": "c3", "text": "Commercial coastal fishing fleets", "bucket": "left" },
+        { "id": "c4", "text": "Hospital care and outpatient clinics", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each economic activity into the Primary Sector or Tertiary Sector.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The primary sector extracts raw materials directly from Earth, while the tertiary sector provides services to consumers and businesses.",
+    "source_url": "https://www.britannica.com/money/economic-sector",
+    "trap_notes": {
+      "default": "Resource extraction is primary; services like banking and healthcare are tertiary."
+    }
+  },
+  {
+    "id": "geo-cmp-114",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Geographic Inquiry",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.0, "lng": -93.0, "label": "Branches of Geography" },
+    "compareSpec": {
+      "leftLabel": "Physical Geography",
+      "rightLabel": "Human Geography",
+      "items": [
+        { "id": "c1", "text": "Glacial erosion carving U-shaped valleys", "bucket": "left" },
+        { "id": "c2", "text": "Spread of official languages by trade", "bucket": "right" },
+        { "id": "c3", "text": "Monsoon wind shifts over South Asia", "bucket": "left" },
+        { "id": "c4", "text": "Zoning laws shaping suburban neighborhoods", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each topic under Physical Geography or Human Geography.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Physical geography examines natural landforms and climate, while human geography studies cultures, populations, and cities.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/geography/",
+    "trap_notes": {
+      "default": "Natural Earth processes belong to physical geography; human institutions belong to human geography."
+    }
+  },
+  {
+    "id": "geo-cmp-115",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Cartography & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 29.9, "lng": -90.1, "label": "Location Concepts" },
+    "compareSpec": {
+      "leftLabel": "Absolute Location",
+      "rightLabel": "Relative Location",
+      "items": [
+        { "id": "c1", "text": "30 degrees north, 90 degrees west", "bucket": "left" },
+        { "id": "c2", "text": "Two miles downstream from the bridge", "bucket": "right" },
+        { "id": "c3", "text": "Exact street address on a city grid", "bucket": "left" },
+        { "id": "c4", "text": "A three-hour drive north of the port", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each description into Absolute Location or Relative Location.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Absolute location uses fixed coordinates or addresses, whereas relative location describes a place in relation to other landmarks.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/location/",
+    "trap_notes": {
+      "default": "Fixed coordinates and addresses are absolute; descriptions using nearby landmarks are relative."
+    }
+  },
+  {
+    "id": "geo-cmp-116",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 34.0, "lng": -118.2, "label": "Cultural Diffusion" },
+    "compareSpec": {
+      "leftLabel": "Expansion Diffusion",
+      "rightLabel": "Relocation Diffusion",
+      "items": [
+        { "id": "c1", "text": "Viral song spreading outward online", "bucket": "left" },
+        { "id": "c2", "text": "Immigrants opening a homeland bakery", "bucket": "right" },
+        { "id": "c3", "text": "Solar panels adopted by neighboring towns", "bucket": "left" },
+        { "id": "c4", "text": "Settlers carrying a dialect to an island", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each cultural spread into Expansion Diffusion or Relocation Diffusion.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Expansion diffusion spreads an idea outward while staying strong at its origin; relocation diffusion occurs when people physically move.",
+    "source_url": "https://www.britannica.com/topic/cultural-diffusion",
+    "trap_notes": {
+      "default": "Ideas spreading person-to-person are expansion; traits carried by migrating people are relocation."
+    }
+  },
+  {
+    "id": "geo-cmp-117",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 115.0, "label": "State Shapes" },
+    "compareSpec": {
+      "leftLabel": "Compact State",
+      "rightLabel": "Fragmented State",
+      "items": [
+        { "id": "c1", "text": "Nearly circular territory around capital", "bucket": "left" },
+        { "id": "c2", "text": "Archipelago spread across many islands", "bucket": "right" },
+        { "id": "c3", "text": "Short distances from center to borders", "bucket": "left" },
+        { "id": "c4", "text": "Territory split by another country", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each territorial trait to a Compact State or Fragmented State.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Compact states have roughly equidistant borders from their center, while fragmented states consist of disconnected pieces or islands.",
+    "source_url": "https://www.britannica.com/topic/political-geography",
+    "trap_notes": {
+      "default": "Circular, unified territories are compact; island chains or separated exclaves are fragmented."
+    }
+  },
+  {
+    "id": "geo-cmp-118",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 20.0, "label": "Biomes" },
+    "compareSpec": {
+      "leftLabel": "Tropical Rainforest",
+      "rightLabel": "Hot Desert Biome",
+      "items": [
+        { "id": "c1", "text": "Dense multi-layered evergreen canopy", "bucket": "left" },
+        { "id": "c2", "text": "High daily temperature swings at night", "bucket": "right" },
+        { "id": "c3", "text": "Heavy year-round equatorial rainfall", "bucket": "left" },
+        { "id": "c4", "text": "Deep-rooted shrubs and waxy cacti", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each ecological trait into Tropical Rainforest or Hot Desert Biome.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Equatorial rainforests get heavy year-round rain and dense canopies, while deserts have sparse plants and wide daily temperature swings.",
+    "source_url": "https://earthobservatory.nasa.gov/biome",
+    "trap_notes": {
+      "default": "Equatorial moisture builds canopies; arid high-pressure belts produce wide temperature swings."
+    }
+  },
+  {
+    "id": "geo-cmp-119",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 26.8, "lng": 30.8, "label": "Population Density" },
+    "compareSpec": {
+      "leftLabel": "Arithmetic Density",
+      "rightLabel": "Physiological Density",
+      "items": [
+        { "id": "c1", "text": "Total people divided by total land area", "bucket": "left" },
+        { "id": "c2", "text": "Total people divided by arable farmland", "bucket": "right" },
+        { "id": "c3", "text": "Includes uninhabited desert in denominator", "bucket": "left" },
+        { "id": "c4", "text": "Measures pressure on food-growing land", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each population measure to Arithmetic Density or Physiological Density.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Arithmetic density uses all land area, whereas physiological density uses only arable land to gauge food-production pressure.",
+    "source_url": "https://www.census.gov/topics/population.html",
+    "trap_notes": {
+      "default": "Arithmetic uses total land; physiological narrows the denominator to farmable land."
+    }
+  },
+  {
+    "id": "geo-cmp-120",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Cartography & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9, "lng": -77.4, "label": "Map Types" },
+    "compareSpec": {
+      "leftLabel": "Topographic Map",
+      "rightLabel": "Thematic Map",
+      "items": [
+        { "id": "c1", "text": "Contour lines showing elevation changes", "bucket": "left" },
+        { "id": "c2", "text": "Shaded counties showing median income", "bucket": "right" },
+        { "id": "c3", "text": "Streams, cliffs, and hiking trail grades", "bucket": "left" },
+        { "id": "c4", "text": "Dot symbols showing coffee production", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each map feature under Topographic Map or Thematic Map.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Topographic maps show terrain elevation using contour lines, while thematic maps visualize a specific social or natural variable.",
+    "source_url": "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+    "trap_notes": {
+      "default": "Elevation and terrain contours are topographic; single-variable data overlays are thematic."
+    }
+  },
+  {
+    "id": "geo-cmp-121",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Cartography & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.9, "lng": -87.6, "label": "Map Scale" },
+    "compareSpec": {
+      "leftLabel": "Large-Scale Map",
+      "rightLabel": "Small-Scale Map",
+      "items": [
+        { "id": "c1", "text": "Shows individual city blocks and alleys", "bucket": "left" },
+        { "id": "c2", "text": "Shows an entire continent on one page", "bucket": "right" },
+        { "id": "c3", "text": "Uses a ratio such as 1:10,000", "bucket": "left" },
+        { "id": "c4", "text": "Uses a ratio such as 1:50,000,000", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each cartographic trait into Large-Scale Map or Small-Scale Map.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Large-scale maps zoom in on small areas in high detail (larger fraction), while small-scale maps zoom out to show vast regions.",
+    "source_url": "https://www.usgs.gov/faqs/what-map-scale",
+    "trap_notes": {
+      "default": "Think of the ratio as a fraction: 1/10,000 is larger than 1/50,000,000 and shows more detail."
+    }
+  },
+  {
+    "id": "geo-cmp-122",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 49.0, "lng": -104.0, "label": "Political Boundaries" },
+    "compareSpec": {
+      "leftLabel": "Natural Boundary",
+      "rightLabel": "Geometric Boundary",
+      "items": [
+        { "id": "c1", "text": "Border following a winding river channel", "bucket": "left" },
+        { "id": "c2", "text": "Border drawn along the 49th parallel", "bucket": "right" },
+        { "id": "c3", "text": "Border running along a mountain crest", "bucket": "left" },
+        { "id": "c4", "text": "Straight-line desert border on a map", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each border type as a Natural Boundary or Geometric Boundary.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Natural boundaries follow rivers or mountain ridges, while geometric boundaries use straight lines or latitude and longitude.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/boundary/",
+    "trap_notes": {
+      "default": "Landforms like rivers and ridges are natural; straight surveyed lines are geometric."
+    }
+  },
+  {
+    "id": "geo-cmp-123",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.8, "lng": 2.3, "label": "National Cohesion" },
+    "compareSpec": {
+      "leftLabel": "Centripetal Force",
+      "rightLabel": "Centrifugal Force",
+      "items": [
+        { "id": "c1", "text": "National rail network linking regions", "bucket": "left" },
+        { "id": "c2", "text": "Regional separatist movement in hills", "bucket": "right" },
+        { "id": "c3", "text": "Shared civic holidays and constitution", "bucket": "left" },
+        { "id": "c4", "text": "Severe wealth gap between provinces", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each political factor into Centripetal Force or Centrifugal Force.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Centripetal forces unite a state and strengthen stability, whereas centrifugal forces divide citizens and weaken central authority.",
+    "source_url": "https://www.britannica.com/topic/political-geography",
+    "trap_notes": {
+      "default": "Centripetal pulls a country together; centrifugal pushes regions or groups apart."
+    }
+  },
+  {
+    "id": "geo-cmp-124",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.5, "lng": 13.4, "label": "Von Thunen Model" },
+    "compareSpec": {
+      "leftLabel": "Near-City Zone",
+      "rightLabel": "Outer-Ring Zone",
+      "items": [
+        { "id": "c1", "text": "Fresh dairy and leafy market greens", "bucket": "left" },
+        { "id": "c2", "text": "Extensive cattle ranching on cheap land", "bucket": "right" },
+        { "id": "c3", "text": "High transport cost per day of spoilage", "bucket": "left" },
+        { "id": "c4", "text": "Dry wheat stored and shipped in bulk", "bucket": "right" }
+      ]
+    },
+    "prompt": "Match each Von Thunen land-use trait to the Near-City Zone or Outer-Ring Zone.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "In Von Thunen's model, perishable goods cluster near the urban market, while grain and ranching occupy cheaper outer land.",
+    "source_url": "https://www.britannica.com/biography/Johann-Heinrich-von-Thunen",
+    "trap_notes": {
+      "default": "Perishable, high-value goods sit close to the city; space-hungry ranching and grain sit farther out."
+    }
+  },
+  {
+    "id": "geo-cmp-125",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.4, "lng": 8.5, "label": "Development Indicators" },
+    "compareSpec": {
+      "leftLabel": "High-Income Economy",
+      "rightLabel": "Low-Income Economy",
+      "items": [
+        { "id": "c1", "text": "Most workers employed in service jobs", "bucket": "left" },
+        { "id": "c2", "text": "Large share of workforce in farming", "bucket": "right" },
+        { "id": "c3", "text": "Low infant mortality and long lifespan", "bucket": "left" },
+        { "id": "c4", "text": "Rapid population growth and young median age", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each demographic indicator into High-Income Economy or Low-Income Economy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "High-income economies feature service jobs and long lifespans, whereas low-income economies have younger populations and more farming.",
+    "source_url": "https://hdr.undp.org/data-center/human-development-index",
+    "trap_notes": {
+      "default": "Compare service-sector, aging societies with agrarian, fast-growing populations."
+    }
+  },
+  {
+    "id": "geo-cmp-126",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -5.0, "lng": -120.0, "label": "ENSO Cycle" },
+    "compareSpec": {
+      "leftLabel": "El Nino Phase",
+      "rightLabel": "La Nina Phase",
+      "items": [
+        { "id": "c1", "text": "Unusually warm central Pacific surface", "bucket": "left" },
+        { "id": "c2", "text": "Unusually cool equatorial Pacific water", "bucket": "right" },
+        { "id": "c3", "text": "Weakened trade winds off South America", "bucket": "left" },
+        { "id": "c4", "text": "Stronger trade winds pushing water west", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each Pacific Ocean condition under El Nino Phase or La Nina Phase.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "El Nino brings warmer Pacific waters and weaker trade winds, whereas La Nina brings cooler eastern Pacific waters and stronger trade winds.",
+    "source_url": "https://www.climate.gov/enso",
+    "trap_notes": {
+      "default": "El Nino is the warm phase with weaker trades; La Nina is the cool phase with stronger trades."
+    }
+  },
+  {
+    "id": "geo-cmp-127",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.0, "lng": -45.0, "label": "Ocean Circulation" },
+    "compareSpec": {
+      "leftLabel": "Surface Current",
+      "rightLabel": "Deep Ocean Current",
+      "items": [
+        { "id": "c1", "text": "Driven mainly by global prevailing winds", "bucket": "left" },
+        { "id": "c2", "text": "Driven by cold, salty water sinking", "bucket": "right" },
+        { "id": "c3", "text": "Forms large rotating ocean gyres", "bucket": "left" },
+        { "id": "c4", "text": "Slowly circulates along the abyssal floor", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each ocean-circulation trait into Surface Current or Deep Ocean Current.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Prevailing winds drive surface gyres, while temperature and salinity differences power deep thermohaline ocean circulation.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_currents/",
+    "trap_notes": {
+      "default": "Winds move surface gyres; water density (temperature and salinity) drives deep currents."
+    }
+  },
+  {
+    "id": "geo-cmp-128",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7, "lng": -73.5, "label": "Urban Trends" },
+    "compareSpec": {
+      "leftLabel": "Urbanization",
+      "rightLabel": "Suburbanization",
+      "items": [
+        { "id": "c1", "text": "Rural families moving into dense cities", "bucket": "left" },
+        { "id": "c2", "text": "City residents moving to outer car suburbs", "bucket": "right" },
+        { "id": "c3", "text": "Rising share of national population in cities", "bucket": "left" },
+        { "id": "c4", "text": "Single-family subdivisions replacing farms", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each settlement trend as Urbanization or Suburbanization.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Urbanization shifts population from rural areas into cities, whereas suburbanization spreads city dwellers outward into lower-density rings.",
+    "source_url": "https://www.britannica.com/topic/urbanization",
+    "trap_notes": {
+      "default": "Rural-to-city growth is urbanization; city-to-outer-ring sprawl is suburbanization."
+    }
+  },
+  {
+    "id": "geo-cmp-129",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 44.4, "lng": -110.6, "label": "Land Stewardship" },
+    "compareSpec": {
+      "leftLabel": "Conservation",
+      "rightLabel": "Preservation",
+      "items": [
+        { "id": "c1", "text": "Managing forests for sustainable timber", "bucket": "left" },
+        { "id": "c2", "text": "Banning logging in wilderness parks", "bucket": "right" },
+        { "id": "c3", "text": "Regulating river dams for long-term use", "bucket": "left" },
+        { "id": "c4", "text": "Keeping ecosystems untouched by industry", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each environmental approach into Conservation or Preservation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Conservation promotes planned, sustainable use of natural resources, whereas preservation protects nature from human extraction altogether.",
+    "source_url": "https://www.nps.gov/articles/conservation-vs-preservation.htm",
+    "trap_notes": {
+      "default": "Wise sustainable use is conservation; strict hands-off protection is preservation."
+    }
+  },
+  {
+    "id": "geo-cmp-130",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.0, "lng": -76.3, "label": "Water Pollution" },
+    "compareSpec": {
+      "leftLabel": "Point-Source Pollution",
+      "rightLabel": "Nonpoint-Source Pollution",
+      "items": [
+        { "id": "c1", "text": "Wastewater pipe draining from one factory", "bucket": "left" },
+        { "id": "c2", "text": "Fertilizer runoff washing off many farms", "bucket": "right" },
+        { "id": "c3", "text": "Oil leaking from a single damaged tanker", "bucket": "left" },
+        { "id": "c4", "text": "Road salt carried by rain across streets", "bucket": "right" }
+      ]
+    },
+    "prompt": "Classify each water-pollution example as Point-Source or Nonpoint-Source.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Point-source pollution enters waterways from a single identifiable pipe or site, while nonpoint-source pollution comes from diffuse runoff.",
+    "source_url": "https://www.epa.gov/nps/basic-information-about-nonpoint-source-nps-pollution",
+    "trap_notes": {
+      "default": "One identifiable outlet is point-source; wide surface runoff from many areas is nonpoint-source."
+    }
+  }
+]

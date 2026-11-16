@@ -1,0 +1,2687 @@
+[
+  {
+    "id": "geo-cau-201",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 46.8,
+      "lng": -120.5,
+      "label": "Cascade Rain Shadow"
+    },
+    "prompt": "Order this cause-and-effect chain explaining how a mountain rain shadow forms.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dry air descends the far slope and warms"
+      },
+      {
+        "id": "b",
+        "text": "Prevailing ocean winds hit coastal peaks"
+      },
+      {
+        "id": "c",
+        "text": "Leeward valleys stay arid behind mountains"
+      },
+      {
+        "id": "d",
+        "text": "Rising air cools and drops heavy rain"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Ocean winds hit mountains, rise and drop moisture on the windward side, then descend dry and warm to create an arid leeward valley.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/rain-shadow/",
+    "trap_notes": {
+      "default": "Moisture must condense and fall on the windward side before dry air descends to create a rain shadow."
+    }
+  },
+  {
+    "id": "geo-cau-202",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 33.45,
+      "lng": -112.07,
+      "label": "Urban Heat Island"
+    },
+    "prompt": "Order how dark pavement and buildings create an urban heat island.",
+    "options": [
+      {
+        "id": "a",
+        "text": "City air stays hotter than nearby farms"
+      },
+      {
+        "id": "b",
+        "text": "Dark asphalt absorbs sunlight all day"
+      },
+      {
+        "id": "c",
+        "text": "Rising heat increases air-conditioning use"
+      },
+      {
+        "id": "d",
+        "text": "Streets and roofs radiate stored heat at night"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Dark urban surfaces absorb sunlight, radiate heat at night, warm city air above rural areas, and increase cooling demand.",
+    "source_url": "https://www.epa.gov/heatislands/learn-about-heat-islands",
+    "trap_notes": {
+      "default": "Solar absorption by dark surfaces comes first, radiating heat that warms city air and drives up cooling demand."
+    }
+  },
+  {
+    "id": "geo-cau-203",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 64.9,
+      "lng": -19,
+      "label": "Mid-Ocean Ridge"
+    },
+    "prompt": "Order the causal chain of seafloor spreading at a divergent ocean boundary.",
+    "options": [
+      {
+        "id": "a",
+        "text": "New basalt crust pushes older seafloor aside"
+      },
+      {
+        "id": "b",
+        "text": "Tectonic plates pull apart under the ocean"
+      },
+      {
+        "id": "c",
+        "text": "Ocean basin gradually widens over millions of years"
+      },
+      {
+        "id": "d",
+        "text": "Hot magma rises into the spreading rift"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Diverging plates open a rift, magma wells up to cool into new basalt crust, and older seafloor shifts outward as the ocean widens.",
+    "source_url": "https://oceanexplorer.noaa.gov/facts/plate-boundaries.html",
+    "trap_notes": {
+      "default": "Plates pull apart first, letting magma rise to form new crust that pushes older crust outward."
+    }
+  },
+  {
+    "id": "geo-cau-204",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.3,
+      "lng": 142.4,
+      "label": "Subduction Tsunami"
+    },
+    "prompt": "Order the causal chain that produces a destructive coastal tsunami.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Shifted seabed lifts a huge column of water"
+      },
+      {
+        "id": "b",
+        "text": "Subduction earthquake snaps ocean floor upward"
+      },
+      {
+        "id": "c",
+        "text": "Waves slow and tower high near shallow coasts"
+      },
+      {
+        "id": "d",
+        "text": "Fast ocean swells race outward in deep water"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "An undersea subduction quake snaps the seabed up, launching fast deep-ocean waves that tower up upon hitting shallow coasts.",
+    "source_url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/tsunamis",
+    "trap_notes": {
+      "default": "Seabed displacement launches fast low waves in deep water that only grow tall when slowed by shallow coasts."
+    }
+  },
+  {
+    "id": "geo-cau-205",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 28.8,
+      "lng": -90.5,
+      "label": "Gulf Dead Zone"
+    },
+    "prompt": "Order how farm fertilizer runoff creates a coastal ocean dead zone.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decaying algae consume dissolved oxygen"
+      },
+      {
+        "id": "b",
+        "text": "Rain washes nitrogen fertilizer into rivers"
+      },
+      {
+        "id": "c",
+        "text": "Low oxygen suffocates coastal fish and shrimp"
+      },
+      {
+        "id": "d",
+        "text": "Excess nutrients trigger massive coastal algae blooms"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Fertilizer runoff feeds explosive algae blooms; when the algae die and decay, bacteria strip oxygen from the water, killing marine life.",
+    "source_url": "https://oceanservice.noaa.gov/facts/deadzone.html",
+    "trap_notes": {
+      "default": "Algae blooms themselves do not suffocate fish directly; bacterial decay of dead algae uses up the oxygen."
+    }
+  },
+  {
+    "id": "geo-cau-206",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 27.7,
+      "lng": 85.3,
+      "label": "Watershed Erosion"
+    },
+    "prompt": "Order how hillside deforestation worsens downstream river flooding.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Loggers clear deep-rooted mountain forests"
+      },
+      {
+        "id": "b",
+        "text": "Muddy runoff clogs shallow river channels"
+      },
+      {
+        "id": "c",
+        "text": "Heavy rain washes loose topsoil down slopes"
+      },
+      {
+        "id": "d",
+        "text": "Overflowing rivers flood valley towns"
+      }
+    ],
+    "answer": [
+      "a",
+      "c",
+      "b",
+      "d"
+    ],
+    "explanation": "Clearing forests removes roots that hold soil, so rain erodes topsoil into rivers, silting up channels and causing floods.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/floods",
+    "trap_notes": {
+      "default": "Root removal leads to soil erosion first, which fills riverbeds with silt and makes flooding worse."
+    }
+  },
+  {
+    "id": "geo-cau-207",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": -12,
+      "lng": -77,
+      "label": "El Nino Fisheries"
+    },
+    "prompt": "Order how an El Nino event disrupts Peru's coastal fishing economy.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Warm water blocks cold nutrient upwelling"
+      },
+      {
+        "id": "b",
+        "text": "Anchovy schools shrink along the coast"
+      },
+      {
+        "id": "c",
+        "text": "Weakened trade winds let warm water drift east"
+      },
+      {
+        "id": "d",
+        "text": "Peruvian fishing boats bring in smaller catches"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Weak trade winds allow warm Pacific water to pool off Peru, blocking cold upwelling, starving anchovies of plankton, and cutting catches.",
+    "source_url": "https://www.climate.gov/enso",
+    "trap_notes": {
+      "default": "Weakening winds shift warm water eastward first, which stops nutrient upwelling and hurts fish stocks."
+    }
+  },
+  {
+    "id": "geo-cau-208",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 4.2,
+      "lng": 73.5,
+      "label": "Sea-Level Rise"
+    },
+    "prompt": "Order the causal chain linking fossil fuels to coastal flooding.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rising seas flood low-lying coastal cities"
+      },
+      {
+        "id": "b",
+        "text": "Extra greenhouse gases trap outgoing heat"
+      },
+      {
+        "id": "c",
+        "text": "Burning fossil fuels adds CO2 to the air"
+      },
+      {
+        "id": "d",
+        "text": "Warmer oceans expand and melt land ice"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "d",
+      "a"
+    ],
+    "explanation": "Fossil fuel combustion raises atmospheric CO2, trapping heat that warms oceans and melts glaciers, which raises sea levels.",
+    "source_url": "https://climate.nasa.gov/vital-signs/sea-level/",
+    "trap_notes": {
+      "default": "Greenhouse gases trap heat first; warming then drives thermal ocean expansion and glacier melt."
+    }
+  },
+  {
+    "id": "geo-cau-209",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 25.8,
+      "lng": -80.2,
+      "label": "Coastal Aquifer"
+    },
+    "prompt": "Order how overpumping coastal wells leads to saltwater intrusion.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Freshwater pressure drops underground"
+      },
+      {
+        "id": "b",
+        "text": "Salty seawater seeps inland into rock pores"
+      },
+      {
+        "id": "c",
+        "text": "Coastal cities pump groundwater faster than rain refills"
+      },
+      {
+        "id": "d",
+        "text": "Municipal drinking wells turn brackish"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Excessive pumping lowers underground freshwater pressure, letting dense seawater push inland and contaminate coastal wells.",
+    "source_url": "https://www.usgs.gov/mission-areas/water-resources/science/saltwater-intrusion",
+    "trap_notes": {
+      "default": "Groundwater depletion lowers freshwater pressure first, which allows ocean water to creep into the aquifer."
+    }
+  },
+  {
+    "id": "geo-cau-210",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 19.1,
+      "lng": 72.9,
+      "label": "Megacity Growth"
+    },
+    "prompt": "Order how rapid rural-to-urban migration creates informal settlements.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Newcomers build makeshift homes on city fringes"
+      },
+      {
+        "id": "b",
+        "text": "Farm mechanization cuts rural jobs"
+      },
+      {
+        "id": "c",
+        "text": "City housing supply cannot keep pace with demand"
+      },
+      {
+        "id": "d",
+        "text": "Millions of rural workers move to megacities"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Loss of farm work pushes rural migrants to cities; when formal housing falls short, newcomers build informal settlements on edge land.",
+    "source_url": "https://www.un.org/sustainabledevelopment/cities/",
+    "trap_notes": {
+      "default": "Rural job loss drives migration first; housing shortages in the city then lead to informal settlements."
+    }
+  },
+  {
+    "id": "geo-cau-211",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 22.5,
+      "lng": 114.1,
+      "label": "Container Shipping"
+    },
+    "prompt": "Order how standard shipping containers reshaped global factory locations.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Firms move factories to lower-wage Asian ports"
+      },
+      {
+        "id": "b",
+        "text": "Cranes load sealed metal boxes onto ships quickly"
+      },
+      {
+        "id": "c",
+        "text": "Ocean freight costs plunge for manufactured goods"
+      },
+      {
+        "id": "d",
+        "text": "Goods reach distant stores at competitive prices"
+      }
+    ],
+    "answer": [
+      "b",
+      "c",
+      "a",
+      "d"
+    ],
+    "explanation": "Mechanized container loading cut shipping costs, letting firms offshore factories to lower-wage ports and ship goods globally.",
+    "source_url": "https://www.britannica.com/technology/containerization",
+    "trap_notes": {
+      "default": "Fast container handling lowered shipping costs first, making distant factory offshoring profitable."
+    }
+  },
+  {
+    "id": "geo-cau-212",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 42.3,
+      "lng": -83,
+      "label": "Highway Suburbanization"
+    },
+    "prompt": "Order how postwar US highways reshaped inner-city neighborhoods.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Middle-class families buy homes in outer suburbs"
+      },
+      {
+        "id": "b",
+        "text": "New interstate highways link cities to cheap farmland"
+      },
+      {
+        "id": "c",
+        "text": "Older downtown tax bases and transit shrink"
+      },
+      {
+        "id": "d",
+        "text": "Retail stores follow shoppers to suburban malls"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "Interstate highways opened cheap suburban land, drawing residents and retail out of central cities and shrinking urban tax bases.",
+    "source_url": "https://www.archives.gov/milestone-documents/national-interstate-and-defense-highways-act",
+    "trap_notes": {
+      "default": "Highways made suburban commuting possible first, pulling residents and shops outward and hurting downtown taxes."
+    }
+  },
+  {
+    "id": "geo-cau-213",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 64.8,
+      "lng": -147.7,
+      "label": "Permafrost Thaw"
+    },
+    "prompt": "Order the feedback loop triggered when Arctic permafrost thaws.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Microbes decay thawed peat and release methane"
+      },
+      {
+        "id": "b",
+        "text": "Warmer Arctic summers melt frozen subsoil"
+      },
+      {
+        "id": "c",
+        "text": "Extra methane traps more heat in the atmosphere"
+      },
+      {
+        "id": "d",
+        "text": "Faster warming thaws even deeper permafrost"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "c",
+      "d"
+    ],
+    "explanation": "Warming melts permafrost, letting microbes release methane that traps more heat and accelerates further Arctic thaw.",
+    "source_url": "https://climate.nasa.gov/news/2785/unexpected-future-boost-of-methane-possible-from-arctic-permafrost/",
+    "trap_notes": {
+      "default": "Initial warming thaws frozen soil first, releasing methane that amplifies further warming."
+    }
+  },
+  {
+    "id": "geo-cau-214",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 23.8,
+      "lng": 90.4,
+      "label": "South Asian Monsoon"
+    },
+    "prompt": "Order how summer heating drives the wet South Asian monsoon.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Moist Indian Ocean air rushes northward onto land"
+      },
+      {
+        "id": "b",
+        "text": "Intense summer sun heats India's interior plains"
+      },
+      {
+        "id": "c",
+        "text": "Heavy monsoon rains water South Asian rice fields"
+      },
+      {
+        "id": "d",
+        "text": "Warm rising air creates a deep low-pressure zone"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Summer sunlight heats inland plains, creating low pressure that draws moist Indian Ocean winds ashore to drop heavy monsoon rains.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/monsoon/",
+    "trap_notes": {
+      "default": "Land heating creates low pressure first, pulling moist ocean winds inland to produce rain."
+    }
+  },
+  {
+    "id": "geo-cau-215",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": -18.3,
+      "lng": 147.7,
+      "label": "Ocean Acidification"
+    },
+    "prompt": "Order how excess carbon dioxide in the air weakens coral reefs.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Seawater acidity rises and carbonate ions drop"
+      },
+      {
+        "id": "b",
+        "text": "Oceans absorb extra CO2 from the atmosphere"
+      },
+      {
+        "id": "c",
+        "text": "Reef fish lose shelter as coral structures crumble"
+      },
+      {
+        "id": "d",
+        "text": "Corals struggle to build hard calcium skeletons"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "Oceans absorb atmospheric CO2, raising acidity and reducing carbonate ions so corals build weaker skeletons and reefs degrade.",
+    "source_url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification",
+    "trap_notes": {
+      "default": "Ocean CO2 uptake lowers seawater pH first, depriving corals of carbonate needed to build skeletons."
+    }
+  },
+  {
+    "id": "geo-cau-216",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 27.98,
+      "lng": 86.92,
+      "label": "Himalayan Uplift"
+    },
+    "prompt": "Order the causal chain that built the Himalayan mountain range.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Granite crust buckles upward instead of sinking"
+      },
+      {
+        "id": "b",
+        "text": "Indian tectonic plate drifts northward into Asia"
+      },
+      {
+        "id": "c",
+        "text": "High snowcapped peaks block Asian air currents"
+      },
+      {
+        "id": "d",
+        "text": "Two continental plates collide head-on"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "The Indian plate drifted north into Eurasia; buoyant continental crust resisted subduction and buckled upward into the Himalayas.",
+    "source_url": "https://pubs.usgs.gov/gip/dynamic/himalaya.html",
+    "trap_notes": {
+      "default": "Plate drift leads to continental collision, which forces crust upward into mountains that then alter climate."
+    }
+  },
+  {
+    "id": "geo-cau-217",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 32.7,
+      "lng": -115.5,
+      "label": "Soil Salinization"
+    },
+    "prompt": "Order how heavy irrigation in dry climates ruins fertile farmland.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dissolved mineral salts stay behind in topsoil"
+      },
+      {
+        "id": "b",
+        "text": "Hot desert sun evaporates surface irrigation water"
+      },
+      {
+        "id": "c",
+        "text": "Farmers flood arid fields with river water"
+      },
+      {
+        "id": "d",
+        "text": "Salty crust stunts crop roots and cuts yields"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "Flooding dry fields brings trace salts; intense evaporation removes pure water while leaving salt in topsoil, poisoning crop roots.",
+    "source_url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-salinity",
+    "trap_notes": {
+      "default": "Irrigation adds water containing trace salts; evaporation removes the water and concentrates the salt."
+    }
+  },
+  {
+    "id": "geo-cau-218",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 63,
+      "lng": 21,
+      "label": "Isostatic Rebound"
+    },
+    "prompt": "Order how melting ice sheets cause land in Scandinavia to rise.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Earth's crust slowly springs upward over millennia"
+      },
+      {
+        "id": "b",
+        "text": "Former sea beaches lift above modern coastlines"
+      },
+      {
+        "id": "c",
+        "text": "Mile-thick ice sheets press crust down into mantle"
+      },
+      {
+        "id": "d",
+        "text": "Post-ice-age warming melts heavy glaciers away"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Heavy ice sheets depress the crust; when glaciers melt, the unloaded crust rebounds upward, lifting old beaches above sea level.",
+    "source_url": "https://oceanservice.noaa.gov/facts/glacial-isostatic-adjustment.html",
+    "trap_notes": {
+      "default": "Ice weight must depress the crust and melt away before the land can spring back up."
+    }
+  },
+  {
+    "id": "geo-cau-219",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 44.1,
+      "lng": -73.9,
+      "label": "Acid Deposition"
+    },
+    "prompt": "Order how coal-fired power plants cause acid rain in distant forests.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acidic rain leaches calcium from mountain soils"
+      },
+      {
+        "id": "b",
+        "text": "Prevailing winds carry sulfur dioxide downwind"
+      },
+      {
+        "id": "c",
+        "text": "Smokestacks release sulfur and nitrogen gases"
+      },
+      {
+        "id": "d",
+        "text": "Spruce trees weaken and lake fish populations drop"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "Smokestacks emit sulfur and nitrogen gases that travel downwind, fall as acid rain, strip soil nutrients, and harm forests and lakes.",
+    "source_url": "https://www.epa.gov/acidrain/what-acid-rain",
+    "trap_notes": {
+      "default": "Emissions enter the air first, drift downwind, fall as acid rain, and then damage soils and ecosystems."
+    }
+  },
+  {
+    "id": "geo-cau-220",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 35.7,
+      "lng": 139.7,
+      "label": "Aging Population"
+    },
+    "prompt": "Order how low birth rates create economic strain in countries like Japan.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fewer young workers enter the labor force"
+      },
+      {
+        "id": "b",
+        "text": "Families have fewer children for several decades"
+      },
+      {
+        "id": "c",
+        "text": "Taxpayers struggle to fund pensions and elder care"
+      },
+      {
+        "id": "d",
+        "text": "Median age rises and retirees outnumber youth"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Sustained low birth rates raise a nation's median age, shrink the incoming workforce, and leave fewer taxpayers to fund pensions.",
+    "source_url": "https://www.prb.org/resources/aging-and-health/",
+    "trap_notes": {
+      "default": "Low birth rates shift the age structure upward first, reducing future workers and straining pension budgets."
+    }
+  },
+  {
+    "id": "geo-cau-221",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 31.2,
+      "lng": 30,
+      "label": "Nile Delta Erosion"
+    },
+    "prompt": "Order how building a large upstream dam shrinks a coastal river delta.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reservoir traps river silt behind the concrete wall"
+      },
+      {
+        "id": "b",
+        "text": "Ocean waves erode coastal farmland faster than buildup"
+      },
+      {
+        "id": "c",
+        "text": "Engineers build a major dam across a river valley"
+      },
+      {
+        "id": "d",
+        "text": "Clear river water reaches the sea with little sediment"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Dams trap river sediment in reservoirs, starving the downstream delta of new mud so ocean waves erode the coast faster.",
+    "source_url": "https://earthobservatory.nasa.gov/images/83265/shrinking-nile-delta",
+    "trap_notes": {
+      "default": "The dam traps silt upstream first, starving the delta of replenishment so coastal erosion outpaces deposition."
+    }
+  },
+  {
+    "id": "geo-cau-222",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 23.44,
+      "lng": 0,
+      "label": "Earth Seasons"
+    },
+    "prompt": "Order how Earth's tilted axis creates summer in the Northern Hemisphere.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Northern latitudes receive direct, concentrated sun"
+      },
+      {
+        "id": "b",
+        "text": "Earth orbits with its axis tilted 23.5 degrees"
+      },
+      {
+        "id": "c",
+        "text": "Longer days and stronger rays bring warm summer"
+      },
+      {
+        "id": "d",
+        "text": "North Pole leans toward the Sun in June"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Earth's 23.5-degree tilt points the North Pole toward the Sun in June, giving northern latitudes direct sunlight and warm summer weather.",
+    "source_url": "https://spaceplace.nasa.gov/seasons/en/",
+    "trap_notes": {
+      "default": "Earth's fixed axial tilt causes the North Pole to lean sunward in June, concentrating solar rays and warmth."
+    }
+  },
+  {
+    "id": "geo-cau-223",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 15,
+      "lng": -40,
+      "label": "Trade Winds"
+    },
+    "prompt": "Order how Earth's rotation curves tropical trade winds westward.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Surface air flows back toward the hot Equator"
+      },
+      {
+        "id": "b",
+        "text": "Earth spins eastward faster at the Equator"
+      },
+      {
+        "id": "c",
+        "text": "Warm air rises at the Equator and cools aloft"
+      },
+      {
+        "id": "d",
+        "text": "Coriolis effect bends equator-bound winds west"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Equatorial air rises and draws surface winds toward the Equator, where Earth's faster equatorial spin deflects them westward as trade winds.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents1.html",
+    "trap_notes": {
+      "default": "Convection draws air toward the Equator, and Earth's rotation deflects that moving air into westward trade winds."
+    }
+  },
+  {
+    "id": "geo-cau-224",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": -23.6,
+      "lng": -70.4,
+      "label": "Atacama Coastal Desert"
+    },
+    "prompt": "Order how a cold ocean current creates an arid coastal desert like the Atacama.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Chilled coastal air holds very little moisture"
+      },
+      {
+        "id": "b",
+        "text": "Cold Humboldt Current flows north along Chile"
+      },
+      {
+        "id": "c",
+        "text": "Coastal desert stays dry except for morning fog"
+      },
+      {
+        "id": "d",
+        "text": "Stable cool air resists rising to form rain clouds"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "Cold ocean currents chill coastal air so it holds little water and resists rising, leaving coastal deserts like the Atacama hyper-arid.",
+    "source_url": "https://www.britannica.com/place/Atacama-Desert",
+    "trap_notes": {
+      "default": "Cold ocean water chills the air above it first, preventing upward convection and leaving only coastal fog."
+    }
+  },
+  {
+    "id": "geo-cau-225",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 34,
+      "lng": -118.5,
+      "label": "Sea Breeze"
+    },
+    "prompt": "Order how daytime sunshine creates a refreshing afternoon sea breeze.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cooler, denser air over the sea flows ashore"
+      },
+      {
+        "id": "b",
+        "text": "Afternoon sun warms beach sand faster than ocean"
+      },
+      {
+        "id": "c",
+        "text": "Warm air rises over land, lowering air pressure"
+      },
+      {
+        "id": "d",
+        "text": "Steady onshore breeze cools coastal towns"
+      }
+    ],
+    "answer": [
+      "b",
+      "c",
+      "a",
+      "d"
+    ],
+    "explanation": "Land warms faster than water under afternoon sun, causing air over land to rise and draw cooler ocean air ashore as a sea breeze.",
+    "source_url": "https://www.weather.gov/jetstream/seabreeze",
+    "trap_notes": {
+      "default": "Land heats faster than water first, creating low pressure over land that pulls cool sea air inland."
+    }
+  },
+  {
+    "id": "geo-cau-226",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 18.1,
+      "lng": -77.3,
+      "label": "Brain Drain"
+    },
+    "prompt": "Order the causal chain of skilled 'brain drain' from a developing country.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trained doctors and engineers emigrate abroad"
+      },
+      {
+        "id": "b",
+        "text": "Local hospitals and schools face staff shortages"
+      },
+      {
+        "id": "c",
+        "text": "Wealthier nations offer higher pay and lab funding"
+      },
+      {
+        "id": "d",
+        "text": "Home country struggles to grow key public services"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Higher wages abroad attract skilled graduates, leaving home hospitals and schools short-staffed and slowing local development.",
+    "source_url": "https://www.britannica.com/topic/brain-drain",
+    "trap_notes": {
+      "default": "Higher pay abroad pulls skilled workers out first, creating staff shortages that weaken home services."
+    }
+  },
+  {
+    "id": "geo-cau-227",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.4,
+      "lng": -122.1,
+      "label": "Agglomeration"
+    },
+    "prompt": "Order how agglomeration economies build a specialized tech hub like Silicon Valley.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skilled engineers and venture funds cluster nearby"
+      },
+      {
+        "id": "b",
+        "text": "Major research university spawns early tech startups"
+      },
+      {
+        "id": "c",
+        "text": "Region becomes a self-reinforcing innovation hub"
+      },
+      {
+        "id": "d",
+        "text": "New tech firms locate close to shared talent"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "Anchor universities spark early startups, attracting talent and capital that draw even more firms into a self-reinforcing hub.",
+    "source_url": "https://www.britannica.com/topic/agglomeration-economy",
+    "trap_notes": {
+      "default": "Anchor institutions and early startups attract a talent pool first, which then draws competing and supporting firms."
+    }
+  },
+  {
+    "id": "geo-cau-228",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 41.5,
+      "lng": -81.7,
+      "label": "Deindustrialization"
+    },
+    "prompt": "Order how deindustrialization affected older Great Lakes manufacturing cities.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Younger workers move away to Sun Belt cities"
+      },
+      {
+        "id": "b",
+        "text": "Steel mills and auto plants close or automate"
+      },
+      {
+        "id": "c",
+        "text": "Cities face vacant blocks and shrinking tax revenue"
+      },
+      {
+        "id": "d",
+        "text": "Thousands of union factory jobs disappear"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Plant closures and automation cut factory jobs, prompting workers to relocate and leaving older industrial cities with smaller tax bases.",
+    "source_url": "https://www.britannica.com/topic/deindustrialization",
+    "trap_notes": {
+      "default": "Factory closures and job losses came first, triggering out-migration and then municipal budget strain."
+    }
+  },
+  {
+    "id": "geo-cau-229",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 31.76,
+      "lng": -106.48,
+      "label": "River Border Shift"
+    },
+    "prompt": "Order how a shifting river course can spark an international border dispute.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Treaty defines a meandering river as the border"
+      },
+      {
+        "id": "b",
+        "text": "Diplomats negotiate a new border treaty or canal"
+      },
+      {
+        "id": "c",
+        "text": "Flooding cuts a new channel, shifting land to one side"
+      },
+      {
+        "id": "d",
+        "text": "Two nations claim ownership of the cut-off parcel"
+      }
+    ],
+    "answer": [
+      "a",
+      "c",
+      "d",
+      "b"
+    ],
+    "explanation": "When a treaty uses a meandering river as a border, channel shifts strand land across the river, sparking disputes settled by diplomacy.",
+    "source_url": "https://www.nps.gov/cham/learn/historyculture/the-chamizal-dispute.htm",
+    "trap_notes": {
+      "default": "A river-based border treaty precedes the flood shift, which creates overlapping claims before diplomats settle it."
+    }
+  },
+  {
+    "id": "geo-cau-230",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 30.9,
+      "lng": 75.8,
+      "label": "Green Revolution Water Use"
+    },
+    "prompt": "Order how Green Revolution crops increased groundwater depletion in Punjab.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Farmers pump deep aquifers with electric tubewells"
+      },
+      {
+        "id": "b",
+        "text": "High-yield wheat and rice need steady irrigation"
+      },
+      {
+        "id": "c",
+        "text": "Regional water tables drop year after year"
+      },
+      {
+        "id": "d",
+        "text": "Small farmers face rising costs to drill deeper wells"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "c",
+      "d"
+    ],
+    "explanation": "Thirsty hybrid crops spurred widespread tubewell pumping, which lowered water tables and forced farmers to drill costlier deep wells.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "default": "Water-hungry hybrid crops drove tubewell pumping first, dropping water tables and raising drilling costs."
+    }
+  },
+  {
+    "id": "geo-cau-231",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": -75,
+      "lng": 0,
+      "label": "Ozone Layer"
+    },
+    "prompt": "Order how synthetic CFC gases thinned Earth's protective ozone layer.",
+    "options": [
+      {
+        "id": "a",
+        "text": "More harmful ultraviolet rays reach Earth's surface"
+      },
+      {
+        "id": "b",
+        "text": "CFCs drift high into the cold stratosphere"
+      },
+      {
+        "id": "c",
+        "text": "Sunlight splits CFCs, releasing ozone-destroying chlorine"
+      },
+      {
+        "id": "d",
+        "text": "Spray cans and refrigerators leak CFC gases"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "c",
+      "a"
+    ],
+    "explanation": "Leaked CFCs rise to the stratosphere, where sunlight frees chlorine atoms that destroy ozone and let more UV radiation reach Earth.",
+    "source_url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science",
+    "trap_notes": {
+      "default": "CFCs must reach the stratosphere and break apart under UV light before chlorine destroys ozone."
+    }
+  },
+  {
+    "id": "geo-cau-232",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 22,
+      "lng": 89.2,
+      "label": "Coastal Mangroves"
+    },
+    "prompt": "Order how clearing coastal mangrove forests worsens cyclone storm damage.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Developers clear tangled mangrove roots for shrimp ponds"
+      },
+      {
+        "id": "b",
+        "text": "Coastal villages suffer deeper saltwater flooding"
+      },
+      {
+        "id": "c",
+        "text": "Cyclone waves sweep ashore without natural friction"
+      },
+      {
+        "id": "d",
+        "text": "Shoreline loses its natural wave-breaking buffer"
+      }
+    ],
+    "answer": [
+      "a",
+      "d",
+      "c",
+      "b"
+    ],
+    "explanation": "Clearing mangroves removes tangled coastal roots that slow storm waves, allowing cyclone surges to sweep further inland and flood villages.",
+    "source_url": "https://oceanservice.noaa.gov/facts/mangroves.html",
+    "trap_notes": {
+      "default": "Mangrove removal destroys the natural wave buffer first, letting storm surges flood coastal towns."
+    }
+  },
+  {
+    "id": "geo-cau-233",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 14.6,
+      "lng": -90.5,
+      "label": "Migrant Remittances"
+    },
+    "prompt": "Order how international migrant remittances reshape hometown economies.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Relatives spend funds on clinics, roofs, and tuition"
+      },
+      {
+        "id": "b",
+        "text": "Workers send part of their wages home via transfers"
+      },
+      {
+        "id": "c",
+        "text": "Migrants find higher-paying jobs in destination cities"
+      },
+      {
+        "id": "d",
+        "text": "Local builders and shops see steadier hometown sales"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "explanation": "Migrants earn higher wages abroad and wire remittances home, helping families afford schooling and housing while boosting local businesses.",
+    "source_url": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+    "trap_notes": {
+      "default": "Earning wages abroad enables remittances, which families spend locally to stimulate hometown commerce."
+    }
+  },
+  {
+    "id": "geo-cau-234",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 41.39,
+      "lng": 2.17,
+      "label": "Overtourism"
+    },
+    "prompt": "Order how mass tourism can price residents out of historic city centers.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Longtime neighbors move out as rents climb sharply"
+      },
+      {
+        "id": "b",
+        "text": "Budget flights bring record waves of weekend visitors"
+      },
+      {
+        "id": "c",
+        "text": "Historic neighborhood shifts into a tourist district"
+      },
+      {
+        "id": "d",
+        "text": "Landlords convert apartments into short-term rentals"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Surging visitor numbers push landlords toward short-term vacation rentals, turning residential blocks into tourist zones and raising rents.",
+    "source_url": "https://www.unwto.org/sustainable-development",
+    "trap_notes": {
+      "default": "Visitor surges motivate short-term rental conversions first, shrinking housing supply and driving up rents."
+    }
+  },
+  {
+    "id": "geo-cau-235",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 47.6,
+      "lng": -52.7,
+      "label": "Grand Banks Collapse"
+    },
+    "prompt": "Order how overfishing led to the 1992 Atlantic cod moratorium.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Factory trawlers harvest cod faster than reproduction"
+      },
+      {
+        "id": "b",
+        "text": "Government bans cod fishing to save remaining stock"
+      },
+      {
+        "id": "c",
+        "text": "Spawning cod numbers crash to historic lows"
+      },
+      {
+        "id": "d",
+        "text": "Newfoundland fishing towns lose primary livelihoods"
+      }
+    ],
+    "answer": [
+      "a",
+      "c",
+      "b",
+      "d"
+    ],
+    "explanation": "Industrial trawling outpaced cod reproduction, crashing spawning stocks and forcing a 1992 ban that devastated Atlantic fishing towns.",
+    "source_url": "https://www.britannica.com/place/Grand-Banks",
+    "trap_notes": {
+      "default": "Overharvesting caused stock collapse first, which forced the government fishing ban and coastal job losses."
+    }
+  },
+  {
+    "id": "geo-cau-236",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": -1.3,
+      "lng": 36.8,
+      "label": "East African Rift"
+    },
+    "prompt": "Order how tectonic rifting created East Africa's deep valley lakes.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Steep fault blocks drop down into a long rift valley"
+      },
+      {
+        "id": "b",
+        "text": "Rising mantle heat stretches African continental crust"
+      },
+      {
+        "id": "c",
+        "text": "Rain and rivers fill deep troughs into narrow lakes"
+      },
+      {
+        "id": "d",
+        "text": "Parallel cracks split the plateau north to south"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Mantle heat stretches East Africa's crust, forming parallel faults whose sunken floor fills with water to create deep rift lakes.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/rift-valley/",
+    "trap_notes": {
+      "default": "Crustal stretching and faulting create the sunken rift basin first, which later fills with water as lakes."
+    }
+  },
+  {
+    "id": "geo-cau-237",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 29.76,
+      "lng": -95.37,
+      "label": "Urban Flash Flooding"
+    },
+    "prompt": "Order how paving wetlands and prairies increases urban flash flooding.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Storm drains overflow into streets and basements"
+      },
+      {
+        "id": "b",
+        "text": "Concrete parking lots block rainwater from soaking in"
+      },
+      {
+        "id": "c",
+        "text": "Creeks rise rapidly in sharp, sudden flood peaks"
+      },
+      {
+        "id": "d",
+        "text": "Fast surface runoff rushes straight into storm sewers"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "Impervious pavement blocks soil infiltration, sending rainwater rushing into storm sewers so creeks peak sharply and overflow.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/urbanization-and-water-quality",
+    "trap_notes": {
+      "default": "Blocking infiltration speeds up runoff into drains and creeks, which then surge and overflow into streets."
+    }
+  },
+  {
+    "id": "geo-cau-238",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 34.05,
+      "lng": -118.24,
+      "label": "Thermal Inversion"
+    },
+    "prompt": "Order how a temperature inversion traps smog inside a mountain basin.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Exhaust gases build up in stagnant city air"
+      },
+      {
+        "id": "b",
+        "text": "Warm air layer settles above cooler valley air"
+      },
+      {
+        "id": "c",
+        "text": "Warm lid blocks polluted surface air from rising"
+      },
+      {
+        "id": "d",
+        "text": "Sunlight turns trapped exhaust into brown smog"
+      }
+    ],
+    "answer": [
+      "b",
+      "c",
+      "a",
+      "d"
+    ],
+    "explanation": "A warm upper air layer acts as a lid over cool valley air, trapping car exhaust so sunlight cooks it into photochemical smog.",
+    "source_url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/inversion/inversion.htm",
+    "trap_notes": {
+      "default": "The warm-over-cool inversion layer acts as a lid first, trapping exhaust that sunlight turns into smog."
+    }
+  },
+  {
+    "id": "geo-cau-239",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 30.58,
+      "lng": 32.27,
+      "label": "Maritime Chokepoint"
+    },
+    "prompt": "Order how blocking a maritime chokepoint like the Suez Canal affects global trade.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Container ships reroute thousands of miles around Africa"
+      },
+      {
+        "id": "b",
+        "text": "Stuck vessel halts traffic through the narrow canal"
+      },
+      {
+        "id": "c",
+        "text": "Stores face delayed goods and higher shipping prices"
+      },
+      {
+        "id": "d",
+        "text": "Extra fuel and weeks at sea raise freight costs"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "A blocked canal forces ships around Africa, adding fuel and transit time that raise freight rates and delay store deliveries.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "default": "Canal blockage forces longer voyages first, which raises fuel costs and then delays retail deliveries."
+    }
+  },
+  {
+    "id": "geo-cau-240",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 40.3,
+      "lng": -105.6,
+      "label": "Frost Wedging"
+    },
+    "prompt": "Order how frost wedging breaks high mountain cliffs into talus slopes.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Liquid water trickles into tiny cliff cracks"
+      },
+      {
+        "id": "b",
+        "text": "Broken boulders tumble down into steep rock piles"
+      },
+      {
+        "id": "c",
+        "text": "Expanding ice pries rock fractures wider apart"
+      },
+      {
+        "id": "d",
+        "text": "Nighttime freeze turns trapped water into ice"
+      }
+    ],
+    "answer": [
+      "a",
+      "d",
+      "c",
+      "b"
+    ],
+    "explanation": "Water enters cliff cracks, freezes and expands at night, pries rock fragments loose, and drops them onto talus slopes below.",
+    "source_url": "https://www.nps.gov/subjects/geology/weathering.htm",
+    "trap_notes": {
+      "default": "Water must enter cracks and freeze before ice expansion breaks rocks loose."
+    }
+  },
+  {
+    "id": "geo-cau-241",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.56,
+      "lng": 126.98,
+      "label": "Demographic Dividend"
+    },
+    "prompt": "Order how a falling birth rate can create a temporary 'demographic dividend.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Working-age adults outnumber young dependents"
+      },
+      {
+        "id": "b",
+        "text": "Rapid drop in birth rate shrinks the youth share"
+      },
+      {
+        "id": "c",
+        "text": "Higher savings and output boost national growth"
+      },
+      {
+        "id": "d",
+        "text": "Families and states spend less on child dependency"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "A sharp birth-rate drop leaves a large working-age generation with fewer dependents, freeing savings and labor to power rapid growth.",
+    "source_url": "https://www.unfpa.org/demographic-dividend",
+    "trap_notes": {
+      "default": "Falling fertility shrinks the child share first, creating a large workforce with lower dependency costs."
+    }
+  },
+  {
+    "id": "geo-cau-242",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 24.48,
+      "lng": 118.09,
+      "label": "Special Economic Zone"
+    },
+    "prompt": "Order how Export-Processing Zones (EPZs) spark coastal urban growth.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Foreign firms build assembly plants in the zone"
+      },
+      {
+        "id": "b",
+        "text": "Government cuts tariffs and taxes near a seaport"
+      },
+      {
+        "id": "c",
+        "text": "Port city expands rapidly with new housing and roads"
+      },
+      {
+        "id": "d",
+        "text": "Thousands of workers migrate for factory wages"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "Tax-free port zones attract foreign assembly plants, drawing migrant factory workers and fueling rapid coastal city expansion.",
+    "source_url": "https://www.britannica.com/money/free-trade-zone",
+    "trap_notes": {
+      "default": "Policy incentives at the port attract foreign factories first, which then draw workers and urban growth."
+    }
+  },
+  {
+    "id": "geo-cau-243",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 39.8,
+      "lng": -121.6,
+      "label": "Wildfire Watersheds"
+    },
+    "prompt": "Order how a severe mountain wildfire degrades a city's drinking water.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Winter rains wash loose ash and mud off bare slopes"
+      },
+      {
+        "id": "b",
+        "text": "Intense wildfire burns forest cover and chars soil"
+      },
+      {
+        "id": "c",
+        "text": "Water treatment plants struggle with muddy reservoirs"
+      },
+      {
+        "id": "d",
+        "text": "Debris flows dump heavy silt into mountain streams"
+      }
+    ],
+    "answer": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "explanation": "Severe fire strips vegetation and leaves water-repellent soil, so rains trigger muddy debris flows that foul downstream reservoirs.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/wildfires-and-water-quality",
+    "trap_notes": {
+      "default": "Fire removes vegetation first; subsequent rains then wash ash and mud into streams and reservoirs."
+    }
+  },
+  {
+    "id": "geo-cau-244",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 19.4,
+      "lng": -155.3,
+      "label": "Hawaiian Hotspot"
+    },
+    "prompt": "Order how a stationary mantle hotspot built the Hawaiian island chain.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pacific plate drifts northwest over the hot plume"
+      },
+      {
+        "id": "b",
+        "text": "Line of older extinct islands trails northwest"
+      },
+      {
+        "id": "c",
+        "text": "Magma plume punches through crust to build a volcano"
+      },
+      {
+        "id": "d",
+        "text": "Old volcano moves off plume and stops erupting"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "A stationary magma plume builds a volcanic island; as the Pacific plate drifts northwest, older volcanoes move off the plume and go extinct.",
+    "source_url": "https://www.usgs.gov/observatories/hvo/hawaiian-hot-spot",
+    "trap_notes": {
+      "default": "The hotspot stays fixed while the plate moves over it, carrying older volcanoes northwest to go extinct."
+    }
+  },
+  {
+    "id": "geo-cau-245",
+    "type": "causal",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.5,
+      "lng": 127,
+      "label": "Digital Cultural Diffusion"
+    },
+    "prompt": "Order how social media spreads pop-culture trends globally.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Youth worldwide adopt shared slang, fashion, or music"
+      },
+      {
+        "id": "b",
+        "text": "Short-video platforms share clips across borders instantly"
+      },
+      {
+        "id": "c",
+        "text": "Local artists blend global styles with home traditions"
+      },
+      {
+        "id": "d",
+        "text": "Trendy dance or song goes viral in one major city"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "A trend emerges locally, spreads across borders via social platforms, gains global youth followers, and blends with local traditions.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/cultural-diffusion/",
+    "trap_notes": {
+      "default": "A trend starts at a hearth, travels via digital networks, reaches global audiences, and then adapts locally."
+    }
+  },
+  {
+    "id": "geo-cmp-216",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 19.5,
+      "lng": -155.6,
+      "label": "Volcano Types"
+    },
+    "compareSpec": {
+      "leftLabel": "Shield Volcano",
+      "rightLabel": "Composite Volcano",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Broad, gentle slopes of runny lava",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Steep cone built of ash and lava",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Explosive eruptions at subduction zones",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Mauna Loa in Hawaii is a prime example",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each volcanic trait under Shield Volcano or Composite Volcano.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Shield volcanoes like Mauna Loa have broad slopes from fluid lava, while composite volcanoes form steep cones from explosive ash and lava.",
+    "source_url": "https://www.usgs.gov/programs/VHP/about-volcanoes",
+    "trap_notes": {
+      "default": "Runny basalt lava builds wide shields; sticky magma creates steep, explosive composite cones."
+    }
+  },
+  {
+    "id": "geo-cmp-217",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 36.1,
+      "lng": -112.1,
+      "label": "Surface Processes"
+    },
+    "compareSpec": {
+      "leftLabel": "Erosion",
+      "rightLabel": "Deposition",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Carries soil and sand away downstream",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Drops sediment to build a river delta",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Forms sandbars and coastal beaches",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Carves canyons deeper into bedrock",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each landscape process into Erosion or Deposition.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Erosion picks up and transports weathered rock, whereas deposition drops that sediment to build landforms like deltas and beaches.",
+    "source_url": "https://www.nps.gov/subjects/geology/erosion.htm",
+    "trap_notes": {
+      "default": "Erosion removes and moves material; deposition sets it down in a new place."
+    }
+  },
+  {
+    "id": "geo-cmp-218",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 39,
+      "lng": -98,
+      "label": "Pressure Systems"
+    },
+    "compareSpec": {
+      "leftLabel": "High-Pressure System",
+      "rightLabel": "Low-Pressure System",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Sinking air brings clear, dry skies",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Rising air cools into clouds and rain",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Drives storms and tropical cyclones",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Associated with calm, sunny weather",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each weather pattern under High-Pressure or Low-Pressure System.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "High-pressure systems have sinking air that suppresses clouds, while low-pressure systems have rising air that forms clouds and storms.",
+    "source_url": "https://www.noaa.gov/jetstream/synoptic/origin-of-wind",
+    "trap_notes": {
+      "default": "High pressure = sinking air and clear skies; low pressure = rising air and stormy clouds."
+    }
+  },
+  {
+    "id": "geo-cmp-219",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 45.3,
+      "lng": -64.4,
+      "label": "Ocean Tides"
+    },
+    "compareSpec": {
+      "leftLabel": "Spring Tide",
+      "rightLabel": "Neap Tide",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Sun, Earth, and Moon line up straight",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Sun and Moon pull at right angles",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Produces mildest high and low tides",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Occurs during full and new moons",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each tidal condition into Spring Tide or Neap Tide.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Spring tides happen at full and new moons when gravity aligns for extreme tides; neap tides happen at quarter moons for mild tides.",
+    "source_url": "https://oceanservice.noaa.gov/facts/springtide.html",
+    "trap_notes": {
+      "default": "Spring tides are not about the season—aligned gravity makes tides 'spring' higher; right-angle neap tides are mild."
+    }
+  },
+  {
+    "id": "geo-cmp-220",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 15,
+      "lng": 75,
+      "label": "Global Winds"
+    },
+    "compareSpec": {
+      "leftLabel": "Monsoon Wind",
+      "rightLabel": "Trade Wind",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Reverses direction between seasons",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Blows steadily toward the Equator",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Guided sailing ships across tropics",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Brings wet summers and dry winters",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Match each wind system to Monsoon Wind or Trade Wind.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Monsoon winds reverse direction seasonally between land and sea, whereas trade winds blow steadily from subtropics toward the Equator.",
+    "source_url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+    "trap_notes": {
+      "default": "Trade winds blow steadily year-round; monsoons flip direction between summer and winter."
+    }
+  },
+  {
+    "id": "geo-cmp-221",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 43.65,
+      "lng": -79.38,
+      "label": "Cultural Integration"
+    },
+    "compareSpec": {
+      "leftLabel": "Cultural Assimilation",
+      "rightLabel": "Multiculturalism",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Minority adopts majority dress and tongue",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Diverse groups keep distinct heritages",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Ethnic neighborhoods celebrate own roots",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Original cultural traits fade over time",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each social pattern as Cultural Assimilation or Multiculturalism.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Assimilation blends newcomers into the dominant culture, while multiculturalism supports distinct cultural traditions coexisting.",
+    "source_url": "https://www.britannica.com/topic/assimilation-society",
+    "trap_notes": {
+      "default": "Assimilation means blending into one dominant norm; multiculturalism means preserving diverse traditions side by side."
+    }
+  },
+  {
+    "id": "geo-cmp-222",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -1.3,
+      "lng": 36.8,
+      "label": "Contact Languages"
+    },
+    "compareSpec": {
+      "leftLabel": "Lingua Franca",
+      "rightLabel": "Pidgin Language",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Full language used across different groups",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Simplified trade speech, no native base",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Uses small vocabulary and basic grammar",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "English in global aviation and science",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each linguistic trait into Lingua Franca or Pidgin Language.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A lingua franca is a full bridge language like English or Swahili, while a pidgin is a simplified contact speech with no native speakers.",
+    "source_url": "https://www.britannica.com/topic/lingua-franca",
+    "trap_notes": {
+      "default": "A lingua franca is an established bridge language; a pidgin is a stripped-down makeshift trade speech."
+    }
+  },
+  {
+    "id": "geo-cmp-223",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 31.77,
+      "lng": 35.23,
+      "label": "Geography of Religion"
+    },
+    "compareSpec": {
+      "leftLabel": "Universalizing Religion",
+      "rightLabel": "Ethnic Religion",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Seeks converts across all nations",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Tied closely to one people and homeland",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Spreads mainly through birth, not missions",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Christianity, Islam, and Buddhism",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each faith trait under Universalizing Religion or Ethnic Religion.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Universalizing religions welcome converts worldwide, whereas ethnic religions are closely linked to a specific culture or homeland.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/religion/",
+    "trap_notes": {
+      "default": "Ask whether the faith actively seeks global converts (universalizing) or stays rooted in one heritage (ethnic)."
+    }
+  },
+  {
+    "id": "geo-cmp-224",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 54.7,
+      "lng": 20.5,
+      "label": "Territorial Shapes"
+    },
+    "compareSpec": {
+      "leftLabel": "Exclave",
+      "rightLabel": "Enclave",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Detached piece of a home country",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Territory surrounded by a foreign state",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Vatican City inside Rome, Italy",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Alaska separated from the lower 48 states",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Match each territorial example to Exclave or Enclave.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "An exclave is a territory separated from its main state (like Alaska), while an enclave is completely surrounded by another state.",
+    "source_url": "https://www.britannica.com/topic/enclave-geography",
+    "trap_notes": {
+      "default": "Ex- = outside/detached from the home state; En- = enclosed inside another country."
+    }
+  },
+  {
+    "id": "geo-cmp-225",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Political Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 14,
+      "lng": 115,
+      "label": "Law of the Sea"
+    },
+    "compareSpec": {
+      "leftLabel": "Territorial Sea",
+      "rightLabel": "Exclusive Economic Zone",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Extends 12 nautical miles from shore",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Extends 200 nautical miles from shore",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Grants resource rights, not full borders",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Gives coastal nation full sovereign control",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each UN Law of the Sea rule into Territorial Sea or Exclusive Economic Zone.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A nation holds full sovereignty over its 12-mile territorial sea, and sole fishing/drilling rights in its 200-mile Exclusive Economic Zone.",
+    "source_url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part5.htm",
+    "trap_notes": {
+      "default": "12 miles = full sovereignty (territorial sea); 200 miles = fishing and energy resource rights (EEZ)."
+    }
+  },
+  {
+    "id": "geo-cmp-226",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 1.29,
+      "lng": 103.85,
+      "label": "Trade Hubs"
+    },
+    "compareSpec": {
+      "leftLabel": "Break-of-Bulk Point",
+      "rightLabel": "Entrepot",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Cargo shifts from ships to rail or trucks",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Duty-free hub for re-exporting imports",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Singapore or Hong Kong trade centers",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Large loads split into smaller shipments",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each trade-hub trait under Break-of-Bulk Point or Entrepot.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A break-of-bulk point transfers cargo between transport modes, whereas an entrepot is a duty-free port for storing and re-exporting goods.",
+    "source_url": "https://www.britannica.com/money/entrepot",
+    "trap_notes": {
+      "default": "Break-of-bulk focuses on switching transport modes; entrepot focuses on duty-free re-exporting."
+    }
+  },
+  {
+    "id": "geo-cmp-227",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 0,
+      "lng": 25,
+      "label": "Extensive Subsistence"
+    },
+    "compareSpec": {
+      "leftLabel": "Shifting Cultivation",
+      "rightLabel": "Pastoral Nomadism",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Clears tropical forest plots by burning",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Herds camels, goats, or sheep in drylands",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Follows seasonal grass and waterholes",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Abandons depleted soil after a few years",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each traditional livelihood into Shifting Cultivation or Pastoral Nomadism.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Shifting cultivation rotates slash-and-burn crop plots in tropical forests, while pastoral nomadism herds livestock across arid grasslands.",
+    "source_url": "https://www.nationalgeographic.org/encyclopedia/agriculture/",
+    "trap_notes": {
+      "default": "Shifting cultivation grows crops in tropical forests; pastoral nomadism herds animals in drylands."
+    }
+  },
+  {
+    "id": "geo-cmp-228",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Urban & Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 33.75,
+      "lng": -84.39,
+      "label": "Urban Patterns"
+    },
+    "compareSpec": {
+      "leftLabel": "Urban Renewal",
+      "rightLabel": "Urban Sprawl",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Rebuilds aging downtown blocks and parks",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Spreads low-density suburbs over farmland",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Increases car commutes and road costs",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Redevelops blighted inner-city tracts",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Classify each land-use trend as Urban Renewal or Urban Sprawl.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Urban renewal redevelops older central-city districts, whereas urban sprawl expands low-density, car-dependent suburbs outward.",
+    "source_url": "https://www.britannica.com/topic/urban-sprawl",
+    "trap_notes": {
+      "default": "Renewal rebuilds inside existing city cores; sprawl pushes low-density development outward."
+    }
+  },
+  {
+    "id": "geo-cmp-229",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41,
+      "lng": -100,
+      "label": "Water Systems"
+    },
+    "compareSpec": {
+      "leftLabel": "Aquifer",
+      "rightLabel": "Watershed",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Underground rock layer holding groundwater",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Land area draining into one river system",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Bounded on the surface by ridge divides",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Tapped by deep agricultural water wells",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Sort each water feature into Aquifer or Watershed.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "An aquifer stores groundwater in porous underground rock, while a watershed is the surface land area draining into a river.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/aquifers-and-groundwater",
+    "trap_notes": {
+      "default": "Aquifers are underground rock reservoirs; watersheds are surface drainage basins bounded by ridges."
+    }
+  },
+  {
+    "id": "geo-cmp-230",
+    "type": "compare",
+    "domain": "Geo",
+    "subdomain": "Geographic Tools & Cartography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9,
+      "lng": -77,
+      "label": "Thematic Maps"
+    },
+    "compareSpec": {
+      "leftLabel": "Choropleth Map",
+      "rightLabel": "Dot-Density Map",
+      "items": [
+        {
+          "id": "c1",
+          "text": "Shades counties by color for income rates",
+          "bucket": "left"
+        },
+        {
+          "id": "c2",
+          "text": "Uses one dot per 1,000 residents",
+          "bucket": "right"
+        },
+        {
+          "id": "c3",
+          "text": "Shows exact clustering within regions",
+          "bucket": "right"
+        },
+        {
+          "id": "c4",
+          "text": "Applies uniform tint across whole state",
+          "bucket": "left"
+        }
+      ]
+    },
+    "prompt": "Match each thematic map trait to Choropleth Map or Dot-Density Map.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Choropleth maps shade entire political units by statistical rates, while dot-density maps place dots to show spatial clustering.",
+    "source_url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/thematic-maps.html",
+    "trap_notes": {
+      "default": "Choropleth uses shaded areas for rates; dot-density uses individual dots for counts and clustering."
+    }
+  }
+]

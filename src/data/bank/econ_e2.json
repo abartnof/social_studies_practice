@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "econ-syn-201",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Economic History",
+    "era": "1791",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "Why did Alexander Hamilton urge Congress in 1791 to enact protective tariffs on European goods?",
+    "options": [
+      { "id": "a", "text": "To shield young American factories from British price competition" },
+      { "id": "b", "text": "To force southern planters to abandon cotton and tobacco exports" },
+      { "id": "c", "text": "To replace the U.S. dollar with French silver coinage nationwide" },
+      { "id": "d", "text": "To ban all maritime trade between New England and Caribbean ports" }
+    ],
+    "answer": "a",
+    "explanation": "In his Report on Manufactures, Hamilton argued that tariffs would nurture infant U.S. industries until they could compete globally.",
+    "source_url": "https://www.archives.gov/milestone-documents/alexander-hamiltons-report-on-manufactures",
+    "trap_notes": {
+      "b": "Hamilton wanted to balance agriculture with industry, not end farm exports.",
+      "c": "Hamilton established the U.S. Mint and a domestic dollar, not French coinage.",
+      "d": "Tariffs taxed imports rather than banning regional maritime commerce.",
+      "default": "Hamilton used protective tariffs to help infant American manufacturers grow."
+    }
+  },
+  {
+    "id": "econ-syn-202",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "Geo"],
+    "subdomain": "Economic History",
+    "era": "1825",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.6526, "lng": -73.7562, "label": "Albany, New York" },
+    "prompt": "How did opening the Erie Canal in 1825 reshape the economy of the early United States?",
+    "options": [
+      { "id": "a", "text": "It shifted most U.S. cotton exports away from New Orleans" },
+      { "id": "b", "text": "It slashed freight costs between the Great Lakes and New York" },
+      { "id": "c", "text": "It ended steamboat traffic along the lower Mississippi River" },
+      { "id": "d", "text": "It blocked European immigrants from settling the Midwest" }
+    ],
+    "answer": "b",
+    "explanation": "The Erie Canal cut shipping costs from Buffalo to New York City by roughly 90 percent, linking Midwest farms to Atlantic trade.",
+    "source_url": "https://www.britannica.com/topic/Erie-Canal",
+    "trap_notes": {
+      "a": "Southern cotton still moved through Gulf ports like New Orleans and Mobile.",
+      "c": "Mississippi steamboat commerce continued growing alongside northern canals.",
+      "d": "The canal actually accelerated westward migration into the Great Lakes basin.",
+      "default": "Lower canal freight rates integrated Midwest grain with New York's port."
+    }
+  },
+  {
+    "id": "econ-syn-203",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US"],
+    "subdomain": "Economic History",
+    "era": "1862",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha, Nebraska" },
+    "prompt": "How did the Homestead Act and Pacific Railway Act of 1862 work together to expand U.S. output?",
+    "options": [
+      { "id": "a", "text": "They nationalized all eastern factories to fund western forts" },
+      { "id": "b", "text": "They taxed frontier farms to subsidize coastal clipper ships" },
+      { "id": "c", "text": "They paired free land grants with rail lines to distant markets" },
+      { "id": "d", "text": "They outlawed private land ownership west of the Mississippi" }
+    ],
+    "answer": "c",
+    "explanation": "Free 160-acre homesteads drew settlers west while transcontinental railroads carried their grain and cattle to eastern cities.",
+    "source_url": "https://www.archives.gov/milestone-documents/homestead-act",
+    "trap_notes": {
+      "a": "Neither law nationalized eastern manufacturing plants.",
+      "b": "The laws subsidized overland railroads, not coastal sailing ships.",
+      "d": "The Homestead Act transferred federal public land into private family ownership.",
+      "default": "Land grants brought settlers while railroads connected western farms to markets."
+    }
+  },
+  {
+    "id": "econ-syn-204",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Microeconomics",
+    "era": "1890",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What market failure did Congress target when it passed the Sherman Antitrust Act of 1890?",
+    "options": [
+      { "id": "a", "text": "Seasonal crop failures caused by Great Plains droughts" },
+      { "id": "b", "text": "Gold shortages inside local frontier general stores" },
+      { "id": "c", "text": "High municipal property taxes on small family farms" },
+      { "id": "d", "text": "Monopolistic trusts restricting output and fixing prices" }
+    ],
+    "answer": "d",
+    "explanation": "The Sherman Antitrust Act outlawed contracts and conspiracies in restraint of trade to curb Gilded Age monopolies.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "trap_notes": {
+      "a": "Weather-driven crop losses are supply shocks, not antitrust violations.",
+      "b": "Currency supply debates involved silver and gold standards, not antitrust law.",
+      "c": "Local property taxes fall under state and city law, not federal antitrust.",
+      "default": "Antitrust law targets monopolies that stifle competition and fix prices."
+    }
+  },
+  {
+    "id": "econ-syn-205",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Money & Banking",
+    "era": "1913",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "Why did Congress create the Federal Reserve System in 1913 after the financial Panic of 1907?",
+    "options": [
+      { "id": "a", "text": "To provide an elastic currency and lender of last resort" },
+      { "id": "b", "text": "To insure every stock portfolio against market losses" },
+      { "id": "c", "text": "To eliminate all state-chartered commercial banks" },
+      { "id": "d", "text": "To replace federal income taxes with bank reserve fees" }
+    ],
+    "answer": "a",
+    "explanation": "The 1913 Federal Reserve Act created a central bank able to supply emergency liquidity during banking panics.",
+    "source_url": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed",
+    "trap_notes": {
+      "b": "The Fed stabilizes banking liquidity; it does not insure stock investors.",
+      "c": "State-chartered banks continued operating within the dual banking system.",
+      "d": "The 16th Amendment in 1913 authorized the federal income tax separately.",
+      "default": "Congress created the Fed to stabilize banking panics as lender of last resort."
+    }
+  },
+  {
+    "id": "econ-syn-206",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "World"],
+    "subdomain": "International Trade",
+    "era": "1930",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did the U.S. Smoot-Hawley Tariff of 1930 deepen the global Great Depression?",
+    "options": [
+      { "id": "a", "text": "It eliminated all customs duties on European steel" },
+      { "id": "b", "text": "It sparked foreign retaliatory tariffs that shrank world trade" },
+      { "id": "c", "text": "It forced the Federal Reserve to print unlimited paper dollars" },
+      { "id": "d", "text": "It doubled American farm exports to Western Europe" }
+    ],
+    "answer": "b",
+    "explanation": "Raising U.S. tariffs to historic highs prompted trading partners to retaliate, collapsing global imports and exports.",
+    "source_url": "https://history.state.gov/milestones/1921-1936/protectionism",
+    "trap_notes": {
+      "a": "Smoot-Hawley sharply raised tariffs rather than cutting them.",
+      "c": "Tariff policy was fiscal trade law, not central bank money printing.",
+      "d": "Retaliatory tariffs crushed U.S. agricultural exports instead of doubling them.",
+      "default": "Retaliatory tariffs turned protectionism into a global trade collapse."
+    }
+  },
+  {
+    "id": "econ-syn-207",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Money & Banking",
+    "era": "1933",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did creating the Federal Deposit Insurance Corporation (FDIC) in 1933 stop contagious bank runs?",
+    "options": [
+      { "id": "a", "text": "It banned households from opening checking accounts" },
+      { "id": "b", "text": "It required banks to hold 100 percent gold reserves" },
+      { "id": "c", "text": "It guaranteed insured deposits even if a bank failed" },
+      { "id": "d", "text": "It merged every private bank into the U.S. Treasury" }
+    ],
+    "answer": "c",
+    "explanation": "Deposit insurance reassured savers that their money was safe, removing the panic incentive to withdraw cash all at once.",
+    "source_url": "https://www.fdic.gov/about/history",
+    "trap_notes": {
+      "a": "The FDIC encouraged trust in checking and savings accounts.",
+      "b": "Banks still operated on fractional reserves rather than 100 percent gold.",
+      "d": "Private commercial banks remained privately owned and regulated.",
+      "default": "Federal deposit insurance ended panic withdrawals by protecting savers."
+    }
+  },
+  {
+    "id": "econ-syn-208",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US"],
+    "subdomain": "Macroeconomics",
+    "era": "1944",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did the 1944 GI Bill boost long-run U.S. productivity after World War II?",
+    "options": [
+      { "id": "a", "text": "It raised import tariffs on foreign consumer electronics" },
+      { "id": "b", "text": "It restricted veterans to working only in defense plants" },
+      { "id": "c", "text": "It froze consumer wages across all manufacturing sectors" },
+      { "id": "d", "text": "It funded college tuition and home loans for veterans" }
+    ],
+    "answer": "d",
+    "explanation": "By financing education and mortgages, the GI Bill expanded human capital and stimulated postwar construction.",
+    "source_url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+    "trap_notes": {
+      "a": "The GI Bill focused on veteran benefits, not trade tariffs.",
+      "b": "Veterans used benefits to enter diverse civilian professions and trades.",
+      "c": "Wartime wage controls ended after WWII rather than being extended by the GI Bill.",
+      "default": "College and housing subsidies under the GI Bill built postwar human capital."
+    }
+  },
+  {
+    "id": "econ-syn-209",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "Geo"],
+    "subdomain": "Economic Geography",
+    "era": "1956",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.8283, "lng": -98.5795, "label": "United States" },
+    "prompt": "What major economic effect followed the 1956 Federal-Aid Highway Act building the Interstate System?",
+    "options": [
+      { "id": "a", "text": "Lower trucking costs and faster suburban commercial growth" },
+      { "id": "b", "text": "A complete halt to domestic airline passenger travel" },
+      { "id": "c", "text": "A sharp decline in automobile and oil consumption" },
+      { "id": "d", "text": "The immediate closure of all coastal container ports" }
+    ],
+    "answer": "a",
+    "explanation": "Limited-access interstates cut overland freight times, expanded national supply chains, and fueled suburban development.",
+    "source_url": "https://www.archives.gov/milestone-documents/national-interstate-and-defense-highways-act",
+    "trap_notes": {
+      "b": "Commercial jet travel expanded alongside interstate highway trucking.",
+      "c": "Interstate highways increased demand for cars, trucks, and motor fuel.",
+      "d": "Highways fed cargo to and from seaports rather than closing them.",
+      "default": "Interstate highways lowered freight costs and reshaped metro growth."
+    }
+  },
+  {
+    "id": "econ-syn-210",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "World"],
+    "subdomain": "Macroeconomics",
+    "era": "1973",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 24.7136, "lng": 46.6753, "label": "Riyadh, Saudi Arabia" },
+    "prompt": "Why did the 1973 Arab oil embargo trigger stagflation across the United States?",
+    "options": [
+      { "id": "a", "text": "Cheap gasoline caused factories to hire too many workers" },
+      { "id": "b", "text": "Soaring energy costs pushed prices up while slowing output" },
+      { "id": "c", "text": "Higher U.S. oil exports caused severe currency deflation" },
+      { "id": "d", "text": "Congress eliminated all federal income taxes overnight" }
+    ],
+    "answer": "b",
+    "explanation": "The oil supply shock raised production and transport costs across the economy, causing both inflation and recession.",
+    "source_url": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74",
+    "trap_notes": {
+      "a": "Oil prices quadrupled rather than falling, squeezing business margins.",
+      "c": "The U.S. was a net oil importer facing inflation, not deflation.",
+      "d": "Congress did not abolish income taxes during the 1973 oil crisis.",
+      "default": "An adverse energy supply shock drives inflation up and output down."
+    }
+  },
+  {
+    "id": "econ-syn-211",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "World"],
+    "subdomain": "International Finance",
+    "era": "1971",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What global monetary shift occurred when President Nixon ended dollar-to-gold convertibility in 1971?",
+    "options": [
+      { "id": "a", "text": "Every country returned to using silver coins for trade" },
+      { "id": "b", "text": "The International Monetary Fund banned foreign exchange" },
+      { "id": "c", "text": "Major currencies moved toward floating exchange rates" },
+      { "id": "d", "text": "Gold mines in South Africa closed permanently" }
+    ],
+    "answer": "c",
+    "explanation": "Ending the Bretton Woods gold link ushered in today's fiat system where major currencies float on market supply and demand.",
+    "source_url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+    "trap_notes": {
+      "a": "Countries moved away from metallic backing toward fiat currencies.",
+      "b": "Foreign exchange trading expanded rapidly once exchange rates floated.",
+      "d": "Gold remained a traded commodity and reserve asset even without fixed pegs.",
+      "default": "Ending dollar-gold convertibility ended Bretton Woods fixed exchange rates."
+    }
+  },
+  {
+    "id": "econ-syn-212",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["US", "Civics"],
+    "subdomain": "Money & Banking",
+    "era": "2008",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "Why did Congress and the Treasury launch the 2008 TARP program during the subprime mortgage crisis?",
+    "options": [
+      { "id": "a", "text": "To raise mortgage rates and slow down home construction" },
+      { "id": "b", "text": "To replace private homeownership with federal housing" },
+      { "id": "c", "text": "To outlaw all adjustable-rate loans across the country" },
+      { "id": "d", "text": "To inject capital into banks and prevent credit freeze" }
+    ],
+    "answer": "d",
+    "explanation": "TARP purchased troubled assets and bank equity to keep major financial institutions solvent and prevent a wider credit collapse.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+    "trap_notes": {
+      "a": "Policymakers cut interest rates in 2008 to support borrowing, not raise rates.",
+      "b": "TARP stabilized private banks rather than nationalizing housing.",
+      "c": "Later Dodd-Frank rules tightened standards without banning all ARMs.",
+      "default": "TARP recapitalized banks to stop a systemic financial freeze."
+    }
+  },
+  {
+    "id": "econ-syn-213",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World", "Geo"],
+    "subdomain": "Economic History",
+    "era": "1550-1700",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -19.5723, "lng": -65.755, "label": "Potosi, Bolivia" },
+    "prompt": "How did massive silver mining at Potosi and Zacatecas reshape early modern global trade?",
+    "options": [
+      { "id": "a", "text": "Spanish silver flowed to Europe and Asia to buy Asian goods" },
+      { "id": "b", "text": "European prices fell sharply due to scarce coinage" },
+      { "id": "c", "text": "Ming China banned silver taxes and returned to barter" },
+      { "id": "d", "text": "Silk Road caravans replaced all Atlantic sailing ships" }
+    ],
+    "answer": "a",
+    "explanation": "American silver financed European imports of Chinese silk, tea, and porcelain while fueling price inflation in Europe.",
+    "source_url": "https://www.britannica.com/place/Potosi-Bolivia",
+    "trap_notes": {
+      "b": "Abundant silver caused the 16th-century Price Revolution (inflation), not deflation.",
+      "c": "Ming China's Single Whip tax reform actually increased demand for silver.",
+      "d": "Transoceanic galleons expanded maritime trade over overland caravans.",
+      "default": "New World silver lubricated early modern trade between Europe, the Americas, and Asia."
+    }
+  },
+  {
+    "id": "econ-syn-214",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World"],
+    "subdomain": "Money & Banking",
+    "era": "1602",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.3676, "lng": 4.9041, "label": "Amsterdam, Netherlands" },
+    "prompt": "What financial innovation did the Dutch East India Company (VOC) pioneer in 1602 to fund risky voyages?",
+    "options": [
+      { "id": "a", "text": "Tax-free municipal bonds backed by farmland" },
+      { "id": "b", "text": "Tradable joint-stock shares with limited liability" },
+      { "id": "c", "text": "Paper banknotes redeemable only in spices" },
+      { "id": "d", "text": "State-owned steamships insured by the League of Nations" }
+    ],
+    "answer": "b",
+    "explanation": "The VOC issued permanent shares traded on the Amsterdam exchange, letting many investors pool capital and share risk.",
+    "source_url": "https://www.britannica.com/topic/Dutch-East-India-Company",
+    "trap_notes": {
+      "a": "The VOC raised private merchant equity rather than local farmland bonds.",
+      "c": "VOC shares represented equity ownership, not spice-backed currency.",
+      "d": "Steamships and the League of Nations belonged to the 19th and 20th centuries.",
+      "default": "Joint-stock shares allowed investors to pool capital and trade ownership."
+    }
+  },
+  {
+    "id": "econ-syn-215",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World"],
+    "subdomain": "Economic History",
+    "era": "1750-1830",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 53.4808, "lng": -2.2426, "label": "Manchester, United Kingdom" },
+    "prompt": "How did Britain's Enclosure Acts contribute to the Industrial Revolution?",
+    "options": [
+      { "id": "a", "text": "They gave every peasant free factory machinery" },
+      { "id": "b", "text": "They banned steam engines inside northern cities" },
+      { "id": "c", "text": "They displaced small farmers into urban factory labor" },
+      { "id": "d", "text": "They eliminated private property rights in rural counties" }
+    ],
+    "answer": "c",
+    "explanation": "Fencing common lands raised farm efficiency while pushing landless rural workers to seek wage jobs in industrial towns.",
+    "source_url": "https://www.britannica.com/topic/enclosure",
+    "trap_notes": {
+      "a": "Enclosure consolidated land for wealthy landlords rather than gifting machines.",
+      "b": "Steam-powered textile mills expanded rapidly during enclosure.",
+      "d": "Enclosure strengthened private land titles by ending shared commons.",
+      "default": "Enclosure freed up labor that migrated to growing industrial cities."
+    }
+  },
+  {
+    "id": "econ-syn-216",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World", "Civics"],
+    "subdomain": "International Trade",
+    "era": "1846",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 51.5072, "lng": -0.1276, "label": "London, United Kingdom" },
+    "prompt": "Why did British manufacturers push Parliament to repeal the Corn Laws in 1846?",
+    "options": [
+      { "id": "a", "text": "To raise tariffs on American cotton and wool" },
+      { "id": "b", "text": "To stop urban workers from migrating to London" },
+      { "id": "c", "text": "To force colonies to buy expensive British grain" },
+      { "id": "d", "text": "To lower food prices and support free-trade exports" }
+    ],
+    "answer": "d",
+    "explanation": "Repealing grain tariffs lowered bread costs for factory workers and encouraged foreign countries to buy British manufactured goods.",
+    "source_url": "https://www.britannica.com/event/Corn-Law-British-history",
+    "trap_notes": {
+      "a": "Manufacturers wanted cheaper imported raw materials and food, not higher tariffs.",
+      "b": "Factory owners welcomed urban labor rather than blocking migration.",
+      "c": "Britain imported grain; it was not trying to export high-priced grain.",
+      "default": "Repealing the Corn Laws lowered food costs and advanced British free trade."
+    }
+  },
+  {
+    "id": "econ-syn-217",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World"],
+    "subdomain": "Money & Banking",
+    "era": "1923",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "What monetary policy caused Weimar Germany's catastrophic hyperinflation in 1923?",
+    "options": [
+      { "id": "a", "text": "Printing massive sums of paper marks to pay deficits" },
+      { "id": "b", "text": "Raising interest rates to 50 percent to curb spending" },
+      { "id": "c", "text": "Fixing the mark strictly to British gold sovereigns" },
+      { "id": "d", "text": "Collecting huge budget surpluses from German factories" }
+    ],
+    "answer": "a",
+    "explanation": "To fund Ruhr strike subsidies and fiscal deficits, the Reichsbank printed currency rapidly, destroying the mark's purchasing power.",
+    "source_url": "https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic",
+    "trap_notes": {
+      "b": "Sharp interest rate hikes cool inflation rather than causing hyperinflation.",
+      "c": "The mark was unbacked paper currency in 1923 until the Rentenmark stabilized it.",
+      "d": "Large budget deficits, not surpluses, drove the money-printing spiral.",
+      "default": "Rapidly printing unbacked money to cover deficits fuels hyperinflation."
+    }
+  },
+  {
+    "id": "econ-syn-218",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World", "US"],
+    "subdomain": "Economic History",
+    "era": "1948",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "How did the U.S. Marshall Plan of 1948 aid both Western Europe and the American economy?",
+    "options": [
+      { "id": "a", "text": "It required Europe to dismantle all industrial factories" },
+      { "id": "b", "text": "It rebuilt European infrastructure and created U.S. export buyers" },
+      { "id": "c", "text": "It replaced European currencies with the Soviet ruble" },
+      { "id": "d", "text": "It raised steep tariffs between France and West Germany" }
+    ],
+    "answer": "b",
+    "explanation": "Grants and loans financed European recovery, restoring stable trading partners for American machinery, grain, and goods.",
+    "source_url": "https://www.archives.gov/milestone-documents/marshall-plan",
+    "trap_notes": {
+      "a": "The Marshall Plan rebuilt European industry rather than dismantling it.",
+      "c": "The plan anchored Western Europe to dollar-linked trade, not the Soviet ruble.",
+      "d": "The program encouraged European economic integration and lower trade barriers.",
+      "default": "Rebuilding Europe created prosperous, stable trading partners for the U.S."
+    }
+  },
+  {
+    "id": "econ-syn-219",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World", "Geo"],
+    "subdomain": "Economic Development",
+    "era": "1978-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 22.5431, "lng": 114.0579, "label": "Shenzhen, China" },
+    "prompt": "How did Deng Xiaoping's 1978 reforms transform China's coastal cities into export powerhouses?",
+    "options": [
+      { "id": "a", "text": "By banning foreign direct investment in coastal ports" },
+      { "id": "b", "text": "By eliminating all private household farming plots" },
+      { "id": "c", "text": "By opening Special Economic Zones to foreign capital and trade" },
+      { "id": "d", "text": "By closing Shanghai's port to international container ships" }
+    ],
+    "answer": "c",
+    "explanation": "Special Economic Zones offered tax incentives and market rules that attracted foreign factories, technology, and export jobs.",
+    "source_url": "https://www.britannica.com/biography/Deng-Xiaoping",
+    "trap_notes": {
+      "a": "Reforms actively welcomed foreign direct investment for the first time since 1949.",
+      "b": "Deng replaced collective farms with the household responsibility system.",
+      "d": "Coastal ports expanded rapidly as China embraced export-led growth.",
+      "default": "Special Economic Zones combined market incentives with global export access."
+    }
+  },
+  {
+    "id": "econ-syn-220",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World", "Civics"],
+    "subdomain": "International Finance",
+    "era": "1993-1999",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 50.1109, "lng": 8.6821, "label": "Frankfurt, Germany" },
+    "prompt": "What economic tradeoff did European nations accept when adopting the euro under the Maastricht Treaty?",
+    "options": [
+      { "id": "a", "text": "Higher tariffs on goods shipped between France and Germany" },
+      { "id": "b", "text": "Loss of free labor movement across member borders" },
+      { "id": "c", "text": "Complete abolition of all national income and sales taxes" },
+      { "id": "d", "text": "Giving up independent national monetary policy for one currency" }
+    ],
+    "answer": "d",
+    "explanation": "Eurozone members gained lower currency-exchange costs but ceded interest-rate control to the European Central Bank.",
+    "source_url": "https://www.ecb.europa.eu/ecb/educational/explainers/tell-me/html/euro_benefits.en.html",
+    "trap_notes": {
+      "a": "The European single market eliminated internal tariffs rather than raising them.",
+      "b": "EU integration expanded cross-border labor mobility rather than ending it.",
+      "c": "Member nations retained their own national tax and fiscal budgets.",
+      "default": "Sharing one currency removes exchange costs but ends national rate control."
+    }
+  },
+  {
+    "id": "econ-syn-221",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World"],
+    "subdomain": "International Finance",
+    "era": "1997",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 13.7563, "lng": 100.5018, "label": "Bangkok, Thailand" },
+    "prompt": "What triggered the 1997 Asian Financial Crisis starting in Thailand?",
+    "options": [
+      { "id": "a", "text": "Collapse of a fixed currency peg amid heavy foreign-dollar debt" },
+      { "id": "b", "text": "A sudden ban on semiconductor exports from South Korea" },
+      { "id": "c", "text": "Discovery of massive gold reserves inside the Mekong Delta" },
+      { "id": "d", "text": "Hyperinflation caused by zero foreign borrowing" }
+    ],
+    "answer": "a",
+    "explanation": "When Thailand ran out of reserves to defend its dollar peg, the baht plunged and made dollar-denominated loans unaffordable.",
+    "source_url": "https://www.federalreservehistory.org/essays/asian-financial-crisis",
+    "trap_notes": {
+      "b": "Asian electronics exports stayed strong and later helped economies recover.",
+      "c": "The crisis stemmed from currency and debt mismatches, not gold discoveries.",
+      "d": "Heavy short-term foreign borrowing, not zero borrowing, created fragility.",
+      "default": "Devaluing a pegged currency spikes the local cost of foreign-currency debt."
+    }
+  },
+  {
+    "id": "econ-syn-222",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World"],
+    "subdomain": "International Trade",
+    "era": "2001-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "How did China's 2001 entry into the World Trade Organization affect global manufacturing?",
+    "options": [
+      { "id": "a", "text": "It raised average tariffs on Chinese goods in North America" },
+      { "id": "b", "text": "It integrated China's vast labor force into global supply chains" },
+      { "id": "c", "text": "It ended container shipping across the Pacific Ocean" },
+      { "id": "d", "text": "It forced European factories to stop exporting machinery" }
+    ],
+    "answer": "b",
+    "explanation": "WTO membership locked in lower tariffs and predictable trade rules, accelerating global offshoring and consumer price declines.",
+    "source_url": "https://www.wto.org/english/thewto_e/countries_e/china_e.htm",
+    "trap_notes": {
+      "a": "WTO accession lowered trade barriers rather than raising tariffs.",
+      "c": "Trans-Pacific container shipping surged after 2001.",
+      "d": "European machinery exports to China's growing factories actually expanded.",
+      "default": "WTO rules integrated China into global production and lowered goods prices."
+    }
+  },
+  {
+    "id": "econ-syn-223",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World", "Geo"],
+    "subdomain": "Economic History",
+    "era": "130 BCE-1450 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 34.3416, "lng": 108.9398, "label": "Xi'an, China" },
+    "prompt": "Why did Silk Road merchants rely on high-value, low-weight goods like silk and spices?",
+    "options": [
+      { "id": "a", "text": "Roman law prohibited transporting any metal coins overland" },
+      { "id": "b", "text": "Camels could only travel during winter snowstorms" },
+      { "id": "c", "text": "High overland transport costs made bulky goods unprofitable" },
+      { "id": "d", "text": "Central Asian oasis cities produced no local food" }
+    ],
+    "answer": "c",
+    "explanation": "Long caravan journeys across deserts and mountains made shipping grain or timber too costly, favoring luxury goods.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "a": "Roman gold and silver coins traveled widely along Eurasian trade routes.",
+      "b": "Caravans crossed deserts in milder seasons and relied on oasis relays.",
+      "d": "Oasis towns supplied food and water to passing merchant caravans.",
+      "default": "High overland freight costs restricted caravan trade to high-value goods."
+    }
+  },
+  {
+    "id": "econ-syn-224",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["World", "Geo"],
+    "subdomain": "Money & Banking",
+    "era": "1324",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Cairo, Egypt" },
+    "prompt": "What monetary lesson illustrates Mansa Musa's 1324 pilgrimage spending in Cairo?",
+    "options": [
+      { "id": "a", "text": "Gold coins lose value only when governments ban trade" },
+      { "id": "b", "text": "Taxing caravan routes eliminates local inflation" },
+      { "id": "c", "text": "Shortages of precious metals cause rapid price inflation" },
+      { "id": "d", "text": "A sudden surge in gold supply drives its purchasing power down" }
+    ],
+    "answer": "d",
+    "explanation": "Mali's emperor distributed so much gold in Egypt that gold's local value fell and prices of everyday goods jumped for years.",
+    "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+    "trap_notes": {
+      "a": "Value fell from oversupply in an active market, not from a trade ban.",
+      "b": "Spending, not taxing, flooded Cairo's economy with extra gold.",
+      "c": "An abundance of gold, not a shortage, caused prices to rise.",
+      "default": "Even commodity money like gold loses purchasing power when supply surges."
+    }
+  },
+  {
+    "id": "econ-syn-225",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics", "US"],
+    "subdomain": "Economic History",
+    "era": "1787",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "How did the U.S. Constitution's Interstate Commerce Clause fix a major flaw of the Articles of Confederation?",
+    "options": [
+      { "id": "a", "text": "It barred states from taxing each other's goods, creating a common market" },
+      { "id": "b", "text": "It required every state to print its own separate paper currency" },
+      { "id": "c", "text": "It gave state governors sole power over foreign trade treaties" },
+      { "id": "d", "text": "It abolished all federal customs duties at Atlantic seaports" }
+    ],
+    "answer": "a",
+    "explanation": "Giving Congress power over interstate trade ended state-versus-state tariff wars and fostered a unified national market.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/752",
+    "trap_notes": {
+      "b": "The Constitution prohibited states from coining money or issuing bills of credit.",
+      "c": "Foreign commerce power was placed in Congress, not state governors.",
+      "d": "Congress gained power to levy uniform federal tariffs at national ports.",
+      "default": "The Commerce Clause stopped state trade wars and built a single U.S. market."
+    }
+  },
+  {
+    "id": "econ-syn-226",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Microeconomics",
+    "era": "1787-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What economic incentive explains the U.S. Constitution's Patent and Copyright Clause in Article I, Section 8?",
+    "options": [
+      { "id": "a", "text": "Forcing inventors to share trade secrets with rivals free of charge" },
+      { "id": "b", "text": "Granting temporary exclusive rights so creators can recoup R&D costs" },
+      { "id": "c", "text": "Creating permanent government monopolies over all retail stores" },
+      { "id": "d", "text": "Eliminating private property rights in books and software" }
+    ],
+    "answer": "b",
+    "explanation": "Limited-time patents and copyrights reward innovation by preventing immediate copying, while later entering the public domain.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/755",
+    "trap_notes": {
+      "a": "Patents protect inventors from immediate copying rather than forcing free sharing.",
+      "c": "Patents are temporary and cover specific inventions, not permanent retail monopolies.",
+      "d": "Copyrights establish intellectual property rights rather than removing them.",
+      "default": "Temporary intellectual property rights incentivize costly research and creation."
+    }
+  },
+  {
+    "id": "econ-syn-227",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Microeconomics",
+    "era": "1791-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How does the Fifth Amendment's Takings Clause protect market incentives when government uses eminent domain?",
+    "options": [
+      { "id": "a", "text": "It bars governments from ever building public highways" },
+      { "id": "b", "text": "It lets local mayors seize factories without paying owners" },
+      { "id": "c", "text": "It requires just compensation for private land taken for public use" },
+      { "id": "d", "text": "It exempts commercial real estate from all state property taxes" }
+    ],
+    "answer": "c",
+    "explanation": "Requiring fair market payment disciplines government land seizures and preserves investor confidence in property rights.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-v",
+    "trap_notes": {
+      "a": "Government can build highways if it pays just compensation for private land.",
+      "b": "Uncompensated seizure violates the Fifth Amendment's Takings Clause.",
+      "d": "The Takings Clause governs condemnation, not routine property taxation.",
+      "default": "Just compensation protects property owners when land is taken for public use."
+    }
+  },
+  {
+    "id": "econ-syn-228",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics", "US"],
+    "subdomain": "Macroeconomics",
+    "era": "1913",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did the Sixteenth Amendment (1913) change federal revenue and fiscal policy?",
+    "options": [
+      { "id": "a", "text": "It replaced all federal taxes with a national sales tax" },
+      { "id": "b", "text": "It required Congress to balance the federal budget every month" },
+      { "id": "c", "text": "It transferred income-tax collection solely to state governors" },
+      { "id": "d", "text": "It authorized a progressive federal tax on individual incomes" }
+    ],
+    "answer": "d",
+    "explanation": "The 16th Amendment allowed Congress to tax incomes directly without apportioning by state population, shifting away from tariffs.",
+    "source_url": "https://www.archives.gov/milestone-documents/16th-amendment",
+    "trap_notes": {
+      "a": "The United States has never enacted a national retail sales tax.",
+      "b": "The 16th Amendment created revenue authority, not a balanced-budget rule.",
+      "c": "It empowered Congress, not state governors, to levy federal income taxes.",
+      "default": "The 16th Amendment enabled the modern federal income tax."
+    }
+  },
+  {
+    "id": "econ-syn-229",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Money & Banking",
+    "era": "1977-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What two statutory goals form the Federal Reserve's dual mandate assigned by Congress?",
+    "options": [
+      { "id": "a", "text": "Maximum employment and stable prices" },
+      { "id": "b", "text": "Zero national debt and fixed exchange rates" },
+      { "id": "c", "text": "Rising stock prices and balanced trade" },
+      { "id": "d", "text": "Low corporate taxes and high tariffs" }
+    ],
+    "answer": "a",
+    "explanation": "Congress amended the Federal Reserve Act in 1977 to direct monetary policy toward maximum employment and price stability.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+    "trap_notes": {
+      "b": "Fiscal deficits and floating exchange rates are outside the Fed's dual mandate.",
+      "c": "The Fed watches financial stability, not specific stock-index or trade-balance targets.",
+      "d": "Tax rates and tariffs are set by Congress, not the Federal Reserve.",
+      "default": "The Fed's statutory dual mandate is maximum employment and price stability."
+    }
+  },
+  {
+    "id": "econ-syn-230",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Money & Banking",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why do democracies give central banks operational independence from short-term election politics?",
+    "options": [
+      { "id": "a", "text": "So central banks can write federal tax laws without Congress" },
+      { "id": "b", "text": "So policymakers can fight inflation without pre-election rate cuts" },
+      { "id": "c", "text": "So voters cannot see annual unemployment or CPI statistics" },
+      { "id": "d", "text": "So private banks can set federal minimum wage rates" }
+    ],
+    "answer": "b",
+    "explanation": "Independent central banks resist political pressure to print money or cut rates before elections, anchoring low inflation expectations.",
+    "source_url": "https://www.stlouisfed.org/in-plain-english/a-closer-look-at-fed-independence",
+    "trap_notes": {
+      "a": "Congress retains all taxing and spending authority under the Constitution.",
+      "c": "Central banks publish data openly; independence insulates rate decisions.",
+      "d": "Minimum wage laws are set by legislatures, not private banks.",
+      "default": "Central bank independence prevents politically timed inflation cycles."
+    }
+  },
+  {
+    "id": "econ-syn-231",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Money & Banking",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "How do city and state governments typically finance long-lived public schools, bridges, and water systems?",
+    "options": [
+      { "id": "a", "text": "By printing their own state paper currency" },
+      { "id": "b", "text": "By borrowing directly from the World Trade Organization" },
+      { "id": "c", "text": "By issuing tax-exempt municipal bonds to investors" },
+      { "id": "d", "text": "By levying protective tariffs on neighboring states" }
+    ],
+    "answer": "c",
+    "explanation": "Municipal bonds let local governments spread infrastructure costs over decades while offering investors tax-advantaged interest.",
+    "source_url": "https://www.msrb.org/About-Municipal-Securities",
+    "trap_notes": {
+      "a": "The U.S. Constitution prohibits states from issuing their own currency.",
+      "b": "The WTO sets trade rules; it does not lend money to U.S. cities.",
+      "d": "States cannot tax interstate imports under the Commerce Clause.",
+      "default": "Municipal bonds fund long-term state and local capital projects."
+    }
+  },
+  {
+    "id": "econ-syn-232",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Microeconomics",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What public-choice problem occurs when a government regulatory agency ends up serving the industry it oversees?",
+    "options": [
+      { "id": "a", "text": "Creative destruction" },
+      { "id": "b", "text": "Comparative advantage" },
+      { "id": "c", "text": "Monetary neutrality" },
+      { "id": "d", "text": "Regulatory capture" }
+    ],
+    "answer": "d",
+    "explanation": "Regulatory capture happens when concentrated industry lobbying steers rules toward incumbent profits instead of public safety.",
+    "source_url": "https://www.britannica.com/money/regulatory-capture",
+    "trap_notes": {
+      "a": "Creative destruction describes new innovations displacing older firms.",
+      "b": "Comparative advantage explains specialization in international trade.",
+      "c": "Monetary neutrality means money supply changes affect prices, not real output, long term.",
+      "default": "Regulatory capture occurs when agencies favor regulated firms over the public."
+    }
+  },
+  {
+    "id": "econ-syn-233",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Macroeconomics",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "In fiscal federalism, why does Congress attach conditions to categorical grants sent to state governments?",
+    "options": [
+      { "id": "a", "text": "To ensure states spend federal funds on specific national priorities" },
+      { "id": "b", "text": "To prevent states from collecting any local sales or property taxes" },
+      { "id": "c", "text": "To let state legislatures set national monetary policy rates" },
+      { "id": "d", "text": "To replace state governors with federal treasury officials" }
+    ],
+    "answer": "a",
+    "explanation": "Categorical grants fund defined areas like highways or Medicaid and require states to follow federal standards.",
+    "source_url": "https://www.britannica.com/topic/categorical-grant",
+    "trap_notes": {
+      "b": "States retain independent authority to levy state sales, income, and property taxes.",
+      "c": "Monetary policy belongs solely to the Federal Reserve, not state legislatures.",
+      "d": "Grants use financial incentives rather than replacing elected state leaders.",
+      "default": "Categorical grants steer state spending toward targeted federal goals."
+    }
+  },
+  {
+    "id": "econ-syn-234",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics", "Geo"],
+    "subdomain": "Microeconomics",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "prompt": "How does a cap-and-trade emissions system differ from a flat carbon tax in curbing pollution?",
+    "options": [
+      { "id": "a", "text": "Cap-and-trade bans all electricity generation from fossil fuels" },
+      { "id": "b", "text": "Cap-and-trade fixes total emissions while letting permit prices float" },
+      { "id": "c", "text": "Cap-and-trade pays factories a bonus for each ton of carbon" },
+      { "id": "d", "text": "Cap-and-trade sets a fixed tax rate with no limit on total tons" }
+    ],
+    "answer": "b",
+    "explanation": "Cap-and-trade caps overall pollution and lets firms trade permits; a carbon tax fixes the price per ton instead.",
+    "source_url": "https://www.epa.gov/emissions-trading-resources/what-emissions-trading",
+    "trap_notes": {
+      "a": "Firms can still emit carbon if they buy or hold enough permits under the cap.",
+      "c": "Firms pay for permits or invest in cleaner tech; they are not paid to pollute.",
+      "d": "Fixing the price per ton without a quantity cap describes a carbon tax.",
+      "default": "Cap-and-trade sets a quantity ceiling, whereas a carbon tax sets a price."
+    }
+  },
+  {
+    "id": "econ-syn-235",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Civics", "US"],
+    "subdomain": "Microeconomics",
+    "era": "1938",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What labor-market floor did the 1938 Fair Labor Standards Act establish nationwide?",
+    "options": [
+      { "id": "a", "text": "Lifetime guaranteed employment in federal agencies" },
+      { "id": "b", "text": "Mandatory profit-sharing for every agricultural worker" },
+      { "id": "c", "text": "A federal minimum wage, overtime pay, and child-labor limits" },
+      { "id": "d", "text": "Annual wage freezes across all unionized manufacturing" }
+    ],
+    "answer": "c",
+    "explanation": "The Fair Labor Standards Act created the federal minimum wage, time-and-a-half overtime, and restrictions on child labor.",
+    "source_url": "https://www.dol.gov/agencies/whd/flsa",
+    "trap_notes": {
+      "a": "The act regulated private-sector pay and hours rather than guaranteeing federal jobs.",
+      "b": "The law did not mandate profit-sharing and initially exempted many farmworkers.",
+      "d": "It set a wage floor rather than freezing wages.",
+      "default": "The 1938 FLSA established the federal minimum wage and overtime rules."
+    }
+  },
+  {
+    "id": "econ-syn-236",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo", "World"],
+    "subdomain": "Economic History",
+    "era": "500-1500",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 11.2588, "lng": 75.7804, "label": "Calicut, India" },
+    "prompt": "How did predictable seasonal monsoon winds shape Indian Ocean trade before steamships?",
+    "options": [
+      { "id": "a", "text": "Merchants avoided sailing between East Africa and India altogether" },
+      { "id": "b", "text": "High winds forced traders to carry spices overland across Siberia" },
+      { "id": "c", "text": "Year-round storms prevented any port cities from developing" },
+      { "id": "d", "text": "Reversing winds timed round-trip voyages and grew port entrepots" }
+    ],
+    "answer": "d",
+    "explanation": "Southwest summer monsoons blew ships toward India, and northeast winter winds carried them back to Arabia and East Africa.",
+    "source_url": "https://www.britannica.com/science/Indian-monsoon",
+    "trap_notes": {
+      "a": "Monsoon winds made Indian Ocean crossings faster and safer than open-Atlantic routes.",
+      "b": "Indian Ocean spice trade moved overwhelmingly by sea, not across Siberia.",
+      "c": "Waiting between wind shifts turned ports like Calicut and Kilwa into thriving hubs.",
+      "default": "Predictable reversing monsoons structured round-trip Indian Ocean shipping."
+    }
+  },
+  {
+    "id": "econ-syn-237",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Economic Development",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -16.4897, "lng": -68.1193, "label": "La Paz, Bolivia" },
+    "prompt": "Why do landlocked developing countries often face slower trade growth than coastal nations?",
+    "options": [
+      { "id": "a", "text": "Overland transit and border delays raise import and export costs" },
+      { "id": "b", "text": "International law forbids landlocked states from joining the WTO" },
+      { "id": "c", "text": "Coastal countries refuse to buy any agricultural goods" },
+      { "id": "d", "text": "Landlocked economies cannot use paper currency or banks" }
+    ],
+    "answer": "a",
+    "explanation": "Relying on neighbors' highways, rails, and seaports adds transit fees and customs delays that raise trade costs.",
+    "source_url": "https://www.worldbank.org/en/topic/trade/brief/landlocked-developing-countries",
+    "trap_notes": {
+      "b": "Many landlocked nations, such as Bolivia and Uganda, are WTO members.",
+      "c": "Coastal nations import farm and mineral goods from inland neighbors.",
+      "d": "Landlocked countries maintain normal currencies and banking systems.",
+      "default": "Lack of direct sea access raises overland freight and border transit costs."
+    }
+  },
+  {
+    "id": "econ-syn-238",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Economic Geography",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.3875, "lng": -122.0575, "label": "Silicon Valley, California" },
+    "prompt": "Why do competing technology or finance firms often cluster in the same city despite high office rents?",
+    "options": [
+      { "id": "a", "text": "Federal zoning laws forbid startups from opening elsewhere" },
+      { "id": "b", "text": "Clustering yields deep talent pools and fast knowledge spillovers" },
+      { "id": "c", "text": "High rents automatically lower corporate income tax rates" },
+      { "id": "d", "text": "Rival firms share identical bank accounts to cut costs" }
+    ],
+    "answer": "b",
+    "explanation": "Agglomeration economies give clustered firms easier access to specialized workers, suppliers, and informal ideas.",
+    "source_url": "https://www.britannica.com/money/agglomeration-economics",
+    "trap_notes": {
+      "a": "Firms cluster voluntarily for productivity gains, not due to federal bans.",
+      "c": "High rents are a cost of clustering, offset by productivity advantages.",
+      "d": "Competing firms remain separate businesses even when located nearby.",
+      "default": "Agglomeration economies reward firms for locating near talent and suppliers."
+    }
+  },
+  {
+    "id": "econ-syn-239",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo", "World"],
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.3676, "lng": 4.9041, "label": "Amsterdam, Netherlands" },
+    "prompt": "What economic distortion does the term 'Dutch Disease' describe in resource-rich countries?",
+    "options": [
+      { "id": "a", "text": "Crop blights that wipe out agricultural exports" },
+      { "id": "b", "text": "Central bank deflation caused by running out of oil" },
+      { "id": "c", "text": "Resource booms driving up currency value and hurting factories" },
+      { "id": "d", "text": "Falling tax revenues when ports handle too much cargo" }
+    ],
+    "answer": "c",
+    "explanation": "A surge in oil or gas exports appreciates the currency, making the country's non-resource exports less competitive abroad.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Dutch-Disease",
+    "trap_notes": {
+      "a": "Dutch Disease is a macroeconomic currency effect, not a plant disease.",
+      "b": "It stems from booming resource revenues, not resource exhaustion.",
+      "d": "Higher export volumes usually raise port activity rather than cutting port fees.",
+      "default": "Resource booms appreciate the currency and squeeze manufacturing exports."
+    }
+  },
+  {
+    "id": "econ-syn-240",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo"],
+    "subdomain": "International Trade",
+    "era": "2016",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 9.082, "lng": -79.68, "label": "Panama Canal" },
+    "prompt": "Why did Panama build wider Neopanamax canal locks that opened in 2016?",
+    "options": [
+      { "id": "a", "text": "To drain Gatun Lake and turn the route into a highway" },
+      { "id": "b", "text": "To block U.S. liquefied natural gas tankers from Asia" },
+      { "id": "c", "text": "To replace the Suez Canal for Europe-to-India shipping" },
+      { "id": "d", "text": "To fit larger container ships and capture economies of scale" }
+    ],
+    "answer": "d",
+    "explanation": "Wider locks let modern megaships carry nearly triple the cargo per transit, lowering per-container shipping costs.",
+    "source_url": "https://www.britannica.com/topic/Panama-Canal",
+    "trap_notes": {
+      "a": "Gatun Lake remains essential to operating the canal's lock system.",
+      "b": "Expanded locks actually opened a major route for U.S. LNG exports to Asia.",
+      "c": "Europe-to-India trade still relies on the Suez Canal rather than Panama.",
+      "default": "Larger locks allow megaships to lower per-unit ocean freight costs."
+    }
+  },
+  {
+    "id": "econ-syn-241",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo", "World"],
+    "subdomain": "International Trade",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.6401, "lng": 109.8403, "label": "Baotou, China" },
+    "prompt": "Why do electronics and wind-turbine makers worry about geographic concentration in rare-earth processing?",
+    "options": [
+      { "id": "a", "text": "Export limits in one dominant supplier can disrupt global supply" },
+      { "id": "b", "text": "Rare-earth metals are only used to print paper banknotes" },
+      { "id": "c", "text": "Rare earths cannot be transported aboard cargo ships" },
+      { "id": "d", "text": "Every country already refines equal amounts of rare earths" }
+    ],
+    "answer": "a",
+    "explanation": "Because China refines most global rare-earth elements, supply-chain bottlenecks or export curbs can stall high-tech output.",
+    "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/rare-earths-statistics-and-information",
+    "trap_notes": {
+      "b": "Rare earths are vital for magnets, batteries, motors, and optics, not banknotes.",
+      "c": "Refined rare-earth oxides and magnets are routinely shipped worldwide.",
+      "d": "Processing capacity is heavily concentrated rather than evenly distributed.",
+      "default": "Geographic concentration in critical minerals creates supply-chain risk."
+    }
+  },
+  {
+    "id": "econ-syn-242",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo", "World"],
+    "subdomain": "Microeconomics",
+    "era": "1960-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 45.0, "lng": 60.0, "label": "Aral Sea Basin" },
+    "prompt": "What economic tradeoff caused the shrinking of Central Asia's Aral Sea since the 1960s?",
+    "options": [
+      { "id": "a", "text": "Building hydroelectric dams to flood coastal cotton fields" },
+      { "id": "b", "text": "Diverting feeder rivers for irrigated cotton at fishery expense" },
+      { "id": "c", "text": "Rising ocean tides draining an inland freshwater lake" },
+      { "id": "d", "text": "Overfishing sturgeon without any agricultural irrigation" }
+    ],
+    "answer": "b",
+    "explanation": "Soviet planners diverted the Amu Darya and Syr Darya for desert cotton, collapsing the Aral Sea and its fishing economy.",
+    "source_url": "https://www.britannica.com/place/Aral-Sea",
+    "trap_notes": {
+      "a": "River water was diverted away into irrigation canals rather than flooding the basin.",
+      "c": "The Aral Sea is an endorheic inland lake disconnected from ocean tides.",
+      "d": "Massive irrigation diversion, not fishing alone, shrank the sea.",
+      "default": "Diverting river water for cotton destroyed the Aral Sea's fishery and ecology."
+    }
+  },
+  {
+    "id": "econ-syn-243",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo"],
+    "subdomain": "Economic Geography",
+    "era": "1700-Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5407, "lng": -77.436, "label": "Richmond, Virginia" },
+    "prompt": "Why did major trade cities grow at 'break-of-bulk' points such as river fall lines and deepwater ports?",
+    "options": [
+      { "id": "a", "text": "Governments banned warehouses anywhere along coastlines" },
+      { "id": "b", "text": "Traders had to pay zero wages at river waterfalls" },
+      { "id": "c", "text": "Cargo shifted transport modes there, spawning storage and trade" },
+      { "id": "d", "text": "All inland rivers freeze solid throughout the summer" }
+    ],
+    "answer": "c",
+    "explanation": "Unloading goods from ships to barges, wagons, or rail created jobs in warehousing, finance, and local processing.",
+    "source_url": "https://www.britannica.com/topic/fall-line",
+    "trap_notes": {
+      "a": "Ports and fall-line cities actually concentrated warehouses and docks.",
+      "b": "Workers earned normal wages handling and processing cargo.",
+      "d": "Break-of-bulk points reflect terrain and ship-size limits, not summer ice.",
+      "default": "Transferring cargo between transport modes builds commercial cities."
+    }
+  },
+  {
+    "id": "econ-syn-244",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo", "World"],
+    "subdomain": "Macroeconomics",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "What macroeconomic challenge does rapid population aging pose to countries like Japan?",
+    "options": [
+      { "id": "a", "text": "Too many teenagers entering entry-level factory jobs" },
+      { "id": "b", "text": "Surging birthrates forcing cuts in pension spending" },
+      { "id": "c", "text": "Falling retiree numbers lowering healthcare demand" },
+      { "id": "d", "text": "A shrinking workforce supporting a rising share of retirees" }
+    ],
+    "answer": "d",
+    "explanation": "Fewer working-age adults slow potential GDP growth while increasing pension and healthcare burdens per worker.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/2020/03/implications-of-aging-population-in-japan-chart",
+    "trap_notes": {
+      "a": "Aging societies face labor shortages rather than an oversupply of young workers.",
+      "b": "Low birthrates, not surging birthrates, drive demographic aging.",
+      "c": "Older populations increase demand for healthcare and pensions.",
+      "default": "Population aging shrinks the labor force relative to retirees."
+    }
+  },
+  {
+    "id": "econ-syn-245",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": ["Geo", "World"],
+    "subdomain": "Economic Development",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 14.5995, "lng": 120.9842, "label": "Manila, Philippines" },
+    "prompt": "How do migrant worker remittances affect developing economies such as the Philippines or Mexico?",
+    "options": [
+      { "id": "a", "text": "They bring foreign currency that lifts household spending and reserves" },
+      { "id": "b", "text": "They count as domestic factory output inside U.S. GDP" },
+      { "id": "c", "text": "They force home-country central banks to print less currency" },
+      { "id": "d", "text": "They eliminate the need for commercial banks in rural towns" }
+    ],
+    "answer": "a",
+    "explanation": "Money sent home by overseas workers boosts family consumption, education spending, and national foreign-exchange inflows.",
+    "source_url": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+    "trap_notes": {
+      "b": "Transfers across borders are personal income flows, not U.S. factory output.",
+      "c": "Remittances add foreign currency inflows rather than shrinking domestic money.",
+      "d": "Banks and money-transfer firms are the channels used to deliver remittances.",
+      "default": "Remittances provide vital foreign-exchange and household income inflows."
+    }
+  },
+  {
+    "id": "econ-mc-276",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "prompt": "Why do economists call an automaker's demand for assembly-line workers a 'derived demand'?",
+    "options": [
+      { "id": "a", "text": "Labor demand depends on consumer demand for finished cars" },
+      { "id": "b", "text": "Workers set their own hourly wages without market input" },
+      { "id": "c", "text": "Auto plants hire workers only during economic recessions" },
+      { "id": "d", "text": "Government labor boards assign workers to factories" }
+    ],
+    "answer": "a",
+    "explanation": "Firms hire inputs like labor because consumers want the final product; when car sales rise, labor demand rises too.",
+    "source_url": "https://www.britannica.com/money/derived-demand",
+    "trap_notes": {
+      "b": "Wages reflect supply and demand for labor, not unilateral worker pricing.",
+      "c": "Recessions reduce car demand and typically lower hiring.",
+      "d": "In market economies, firms decide hiring based on expected product sales.",
+      "default": "Input demand is derived from demand for the final good it helps produce."
+    }
+  },
+  {
+    "id": "econ-mc-277",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "If the price of peanut butter jumps sharply and consumers buy less jelly, how are peanut butter and jelly related?",
+    "options": [
+      { "id": "a", "text": "They are substitute goods" },
+      { "id": "b", "text": "They are complementary goods" },
+      { "id": "c", "text": "They are inferior goods" },
+      { "id": "d", "text": "They are pure public goods" }
+    ],
+    "answer": "b",
+    "explanation": "Complementary goods are used together; a higher price for one reduces demand for the other (negative cross-price elasticity).",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium/demand-curve-tutorial/a/related-goods-complements-and-substitutes",
+    "trap_notes": {
+      "a": "If they were substitutes, a higher peanut butter price would raise jelly demand.",
+      "c": "Inferior goods depend on consumer income changes, not another good's price.",
+      "d": "Both peanut butter and jelly are rivalrous, excludable private goods.",
+      "default": "When a price hike in one good cuts demand for another, they are complements."
+    }
+  },
+  {
+    "id": "econ-mc-278",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.8715, "lng": -122.273, "label": "Berkeley, California" },
+    "prompt": "In George Akerlof's used-car 'lemons' problem, what market failure arises from asymmetric information?",
+    "options": [
+      { "id": "a", "text": "Sellers charge lower prices than buyers offer" },
+      { "id": "b", "text": "High-quality cars flood the market at bargain rates" },
+      { "id": "c", "text": "Buyers offer low prices, driving good cars out of the market" },
+      { "id": "d", "text": "Automakers stop building new vehicles altogether" }
+    ],
+    "answer": "c",
+    "explanation": "When buyers cannot tell good cars from defects, they discount offers, causing owners of good cars to withdraw (adverse selection).",
+    "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2001/popular-information/",
+    "trap_notes": {
+      "a": "Buyers discount offers because they fear hidden defects, not because sellers underprice.",
+      "b": "Good-car owners exit the market rather than selling at low average prices.",
+      "d": "The lemons problem affects used markets with hidden quality, not new-car production.",
+      "default": "Hidden quality causes adverse selection that pushes high-quality goods out."
+    }
+  },
+  {
+    "id": "econ-mc-279",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "Which situation best illustrates 'moral hazard' in insurance or banking?",
+    "options": [
+      { "id": "a", "text": "A driver buys a safer car after reading crash ratings" },
+      { "id": "b", "text": "A homeowner installs smoke detectors to cut premiums" },
+      { "id": "c", "text": "A saver compares interest rates across three banks" },
+      { "id": "d", "text": "An insured bank takes riskier bets expecting a bailout" }
+    ],
+    "answer": "d",
+    "explanation": "Moral hazard occurs after a contract is signed when protection from losses encourages someone to take greater risks.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Moral-Hazard",
+    "trap_notes": {
+      "a": "Choosing a safer vehicle reduces risk rather than increasing it.",
+      "b": "Installing smoke detectors lowers fire risk.",
+      "c": "Shopping for interest rates is normal market comparison, not risk-taking.",
+      "default": "Moral hazard happens when being shielded from loss encourages riskier behavior."
+    }
+  },
+  {
+    "id": "econ-mc-280",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "A student buys a nonrefundable $15 ticket, dislikes the movie, yet stays only because they already paid. What error is this?",
+    "options": [
+      { "id": "a", "text": "Sunk cost fallacy" },
+      { "id": "b", "text": "Price discrimination" },
+      { "id": "c", "text": "Liquidity trap" },
+      { "id": "d", "text": "Purchasing power parity" }
+    ],
+    "answer": "a",
+    "explanation": "A sunk cost cannot be recovered; rational choices weigh only future marginal benefits and costs, not past unrecoverable spending.",
+    "source_url": "https://www.econlib.org/library/Enc/SunkCosts.html",
+    "trap_notes": {
+      "b": "Price discrimination is charging different buyers different prices for the same good.",
+      "c": "A liquidity trap occurs when near-zero interest rates fail to spur borrowing.",
+      "d": "Purchasing power parity compares currency values across countries.",
+      "default": "The sunk cost fallacy lets unrecoverable past expenses distort future choices."
+    }
+  },
+  {
+    "id": "econ-mc-281",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle, Washington" },
+    "prompt": "When does a manufacturing firm experience economies of scale in the long run?",
+    "options": [
+      { "id": "a", "text": "When its total fixed costs fall to zero after one week" },
+      { "id": "b", "text": "When its average total cost per unit falls as output grows" },
+      { "id": "c", "text": "When its product price rises faster than worker wages" },
+      { "id": "d", "text": "When government regulators cap its annual factory output" }
+    ],
+    "answer": "b",
+    "explanation": "Economies of scale occur when expanding plant size and specialization lowers the long-run average cost of each unit produced.",
+    "source_url": "https://www.britannica.com/money/economies-of-scale",
+    "trap_notes": {
+      "a": "Fixed costs remain positive; they spread across more units per period.",
+      "c": "Economies of scale measure falling unit production costs, not rising prices.",
+      "d": "Output caps restrict scale rather than creating cost efficiencies.",
+      "default": "Economies of scale mean lower average cost per unit at higher output."
+    }
+  },
+  {
+    "id": "econ-mc-282",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "prompt": "Why are international producer cartels such as OPEC often unstable over time?",
+    "options": [
+      { "id": "a", "text": "Consumers stop using energy whenever prices rise slightly" },
+      { "id": "b", "text": "Cartel rules force every member to cut output to zero" },
+      { "id": "c", "text": "Each member can profit by secretly producing above its quota" },
+      { "id": "d", "text": "Central banks outlaw oil trading across national borders" }
+    ],
+    "answer": "c",
+    "explanation": "When a cartel restricts supply to lift prices, individual members face a prisoner's dilemma incentive to cheat and sell extra barrels.",
+    "source_url": "https://www.econlib.org/library/Enc/Cartels.html",
+    "trap_notes": {
+      "a": "Oil demand is relatively price inelastic in the short run.",
+      "b": "Cartels set production quotas, not zero output.",
+      "d": "Oil is actively traded globally across currencies and borders.",
+      "default": "High cartel prices tempt individual members to cheat on output quotas."
+    }
+  },
+  {
+    "id": "econ-mc-283",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What does 'crowding out' mean when a government runs large budget deficits during full employment?",
+    "options": [
+      { "id": "a", "text": "Lower income taxes force households to work fewer hours" },
+      { "id": "b", "text": "Commercial banks close local branches due to low deposits" },
+      { "id": "c", "text": "Rising exports push domestic consumer goods off store shelves" },
+      { "id": "d", "text": "Heavy public borrowing lifts interest rates and curbs private investment" }
+    ],
+    "answer": "d",
+    "explanation": "When government competes for limited loanable funds, higher real interest rates can reduce private business capital spending.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2018/february/what-is-crowding-out",
+    "trap_notes": {
+      "a": "Lower income taxes generally raise, not lower, the incentive to work.",
+      "b": "Crowding out is an interest-rate effect in credit markets, not branch closures.",
+      "c": "Higher interest rates tend to appreciate currency and reduce net exports.",
+      "default": "Government deficit borrowing can push up rates and crowd out private investment."
+    }
+  },
+  {
+    "id": "econ-mc-284",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Money & Banking",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "In the equation of exchange (M x V = P x Q), what does the 'velocity of money' (V) measure?",
+    "options": [
+      { "id": "a", "text": "How many times an average dollar is spent on final goods yearly" },
+      { "id": "b", "text": "How fast armored trucks deliver coins to retail banks" },
+      { "id": "c", "text": "The percentage interest rate charged on 30-year mortgages" },
+      { "id": "d", "text": "The annual trade deficit divided by total tariff revenue" }
+    ],
+    "answer": "a",
+    "explanation": "Velocity measures how rapidly money circulates through the economy to buy final goods and services in a given period.",
+    "source_url": "https://www.stlouisfed.org/on-the-economy/2014/september/what-does-money-velocity-tell-us-about-low-inflation-in-the-us",
+    "trap_notes": {
+      "b": "Velocity tracks economic turnover of spending, not physical cash transport.",
+      "c": "Mortgage rates reflect credit pricing, not spending turnover.",
+      "d": "Trade deficits and tariffs are international trade figures, not money velocity.",
+      "default": "Velocity is the average number of times a dollar is spent in a year."
+    }
+  },
+  {
+    "id": "econ-mc-285",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why do economists use Purchasing Power Parity (PPP) instead of market exchange rates to compare living standards?",
+    "options": [
+      { "id": "a", "text": "Market exchange rates exclude all stock market investments" },
+      { "id": "b", "text": "PPP adjusts for differences in local prices of everyday goods" },
+      { "id": "c", "text": "PPP ignores services such as housing and local haircuts" },
+      { "id": "d", "text": "Market exchange rates remain fixed by the United Nations" }
+    ],
+    "answer": "b",
+    "explanation": "Because haircuts, rent, and local food often cost less in lower-income countries, PPP compares what incomes actually buy.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Purchasing-Power-Parity-PPP",
+    "trap_notes": {
+      "a": "GDP comparisons measure output and consumption, not stock holdings.",
+      "c": "PPP specifically accounts for non-traded local services like housing and haircuts.",
+      "d": "Major market exchange rates float daily on foreign-exchange markets.",
+      "default": "PPP adjusts currency comparisons for local cost-of-living differences."
+    }
+  },
+  {
+    "id": "econ-mc-286",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "How does Foreign Direct Investment (FDI) differ from foreign portfolio investment?",
+    "options": [
+      { "id": "a", "text": "FDI only buys short-term government treasury bills" },
+      { "id": "b", "text": "FDI requires zero physical assets in the host country" },
+      { "id": "c", "text": "FDI involves lasting ownership and control of foreign operations" },
+      { "id": "d", "text": "FDI is restricted strictly to domestic municipal bonds" }
+    ],
+    "answer": "c",
+    "explanation": "Building a factory or acquiring a controlling stake abroad is FDI, whereas buying small stock or bond stakes is portfolio investment.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/2018/06/what-is-foreign-direct-investment-basics",
+    "trap_notes": {
+      "a": "Buying short-term treasury bills is liquid portfolio investment, not FDI.",
+      "b": "FDI typically builds or acquires physical plants, equipment, or subsidiaries.",
+      "d": "FDI crosses national borders rather than staying inside domestic municipal bonds.",
+      "default": "FDI creates lasting operational control in a foreign business or facility."
+    }
+  },
+  {
+    "id": "econ-mc-287",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "In a nation's balance of payments, which transaction is recorded in the current account?",
+    "options": [
+      { "id": "a", "text": "A foreign bank purchasing U.S. Treasury bonds" },
+      { "id": "b", "text": "A domestic firm building an auto plant overseas" },
+      { "id": "c", "text": "A central bank buying gold bars from another central bank" },
+      { "id": "d", "text": "A domestic airline selling tickets to foreign tourists" }
+    ],
+    "answer": "d",
+    "explanation": "The current account tracks exports and imports of goods and services (including tourism), plus primary income and transfers.",
+    "source_url": "https://www.bea.gov/data/intl-trade-investment/international-transactions",
+    "trap_notes": {
+      "a": "Cross-border bond purchases belong in the financial account.",
+      "b": "Building a foreign factory is direct investment in the financial account.",
+      "c": "Official reserve transactions appear in the financial account.",
+      "default": "Exports and imports of goods and services belong in the current account."
+    }
+  },
+  {
+    "id": "econ-mc-288",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "Why does paying only the minimum monthly payment on a high-APR credit card cost a borrower far more over time?",
+    "options": [
+      { "id": "a", "text": "Unpaid principal keeps compounding high interest every billing cycle" },
+      { "id": "b", "text": "Credit card issuers double the purchase price after thirty days" },
+      { "id": "c", "text": "Minimum payments lower the card's APR to zero percent" },
+      { "id": "d", "text": "Federal law forbids borrowers from paying off balances early" }
+    ],
+    "answer": "a",
+    "explanation": "Small minimum payments mostly cover interest, leaving principal unpaid and compounding heavy debt costs.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-minimum-payment-on-a-credit-card-en-42/",
+    "trap_notes": {
+      "b": "The sticker price stays fixed; compounding interest on the unpaid balance adds cost.",
+      "c": "Carrying a balance keeps the regular APR active rather than dropping it to zero.",
+      "d": "Borrowers can pay off credit card balances in full anytime without penalty.",
+      "default": "Small minimum payments leave principal unpaid, compounding high interest."
+    }
+  },
+  {
+    "id": "econ-mc-289",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How does a Roth IRA differ from a Traditional IRA for retirement savers?",
+    "options": [
+      { "id": "a", "text": "Roth IRAs are funded with pre-tax income and taxed at withdrawal" },
+      { "id": "b", "text": "Roth IRAs are funded with after-tax income for tax-free withdrawals" },
+      { "id": "c", "text": "Roth IRAs guarantee a fixed 10 percent return from the Treasury" },
+      { "id": "d", "text": "Roth IRAs allow zero stock or index-fund investments" }
+    ],
+    "answer": "b",
+    "explanation": "Roth IRA contributions are taxed upfront, allowing qualified investment growth and retirement withdrawals to be tax-free.",
+    "source_url": "https://www.irs.gov/retirement-plans/roth-iras",
+    "trap_notes": {
+      "a": "Pre-tax contributions and taxed withdrawals describe a Traditional IRA.",
+      "c": "IRA returns depend on chosen market investments, not a Treasury guarantee.",
+      "d": "Roth IRAs commonly hold stocks, bonds, and mutual or index funds.",
+      "default": "Roth IRAs tax contributions today so qualified withdrawals are tax-free."
+    }
+  },
+  {
+    "id": "econ-mc-290",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York, New York" },
+    "prompt": "Why do many long-term investors prefer broad stock index funds over actively managed mutual funds?",
+    "options": [
+      { "id": "a", "text": "Index funds eliminate all risk of stock market downturns" },
+      { "id": "b", "text": "Index funds are insured against loss by the FDIC" },
+      { "id": "c", "text": "Index funds charge lower fees and track broad market returns" },
+      { "id": "d", "text": "Index funds pay no capital gains taxes when sold at a profit" }
+    ],
+    "answer": "c",
+    "explanation": "Passive index funds avoid costly stock-picking research, keeping expense ratios low while diversifying across the entire index.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-1",
+    "trap_notes": {
+      "a": "Index funds still rise and fall with the overall stock market.",
+      "b": "FDIC insurance covers bank deposits, not stock market index funds.",
+      "d": "Profits from selling index funds in taxable accounts remain subject to capital gains tax.",
+      "default": "Low expense ratios and broad diversification make index funds popular."
+    }
+  }
+]

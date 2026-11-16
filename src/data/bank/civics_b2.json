@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "civics-dat-101",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Elections & Apportionment",
+    "era": "2020 Census",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Electoral Votes by State (2024)",
+      "headers": [
+        "State",
+        "House Seats",
+        "Electoral Votes"
+      ],
+      "rows": [
+        [
+          "Wyoming",
+          "1",
+          "3"
+        ],
+        [
+          "Ohio",
+          "15",
+          "17"
+        ],
+        [
+          "California",
+          "52",
+          "54"
+        ]
+      ]
+    },
+    "prompt": "Based on the table, why does every state receive two more electoral votes than its House seats?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each state adds two votes for its two U.S. senators"
+      },
+      {
+        "id": "b",
+        "text": "Each state adds two votes for its state supreme court"
+      },
+      {
+        "id": "c",
+        "text": "Each state adds two votes for its governor and lieutenant"
+      },
+      {
+        "id": "d",
+        "text": "Each state adds two votes for federal district judges"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A state's electoral votes equal its House seats plus its two U.S. senators, giving even the smallest state three votes.",
+    "source_url": "https://www.archives.gov/electoral-college/allocation",
+    "fun_fact": "Because of the two-senator baseline, Wyoming has roughly three times more electoral votes per resident than California.",
+    "trap_notes": {
+      "default": "Electoral votes equal a state's House delegation plus its two U.S. senators.",
+      "b": "State supreme courts play no role in allocating federal electoral votes.",
+      "c": "Governors and lieutenant governors are state officials, not part of Electoral College math.",
+      "d": "Federal judges are appointed and do not add electoral votes to a state."
+    }
+  },
+  {
+    "id": "civics-dat-102",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Voting Behavior",
+    "era": "2018–2020",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "United States"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Citizen Turnout by Age (%)",
+      "headers": [
+        "Age Group",
+        "2018 Midterm",
+        "2020 Presidential"
+      ],
+      "rows": [
+        [
+          "18–24",
+          "30%",
+          "51%"
+        ],
+        [
+          "35–44",
+          "49%",
+          "66%"
+        ],
+        [
+          "65+",
+          "66%",
+          "76%"
+        ]
+      ]
+    },
+    "prompt": "What pattern in U.S. political participation does the turnout table illustrate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Age has no measurable effect on voter turnout rates"
+      },
+      {
+        "id": "b",
+        "text": "Turnout drops in midterm elections across every age group"
+      },
+      {
+        "id": "c",
+        "text": "Younger voters participate at higher rates than older voters"
+      },
+      {
+        "id": "d",
+        "text": "Presidential elections attract fewer voters than midterms"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Every age group voted at a lower rate in the 2018 midterm than in the 2020 presidential election, while older voters led both.",
+    "source_url": "https://www.census.gov/library/stories/2021/04/record-high-turnout-in-2020-general-election.html",
+    "fun_fact": "Midterm elections typically see a 15-to-25 percentage point drop in turnout compared to presidential years.",
+    "trap_notes": {
+      "default": "Turnout is consistently higher in presidential elections and among older age groups.",
+      "a": "Turnout rises steadily with age in both election years shown.",
+      "c": "The table shows 65+ voters outvoted 18–24 voters in both elections.",
+      "d": "The 2020 presidential election drew much higher turnout than the 2018 midterm."
+    }
+  },
+  {
+    "id": "civics-dat-103",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Federalism & Taxation",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "United States"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Primary Tax Sources by Government Level",
+      "headers": [
+        "Level",
+        "Largest Tax Source",
+        "Second Source"
+      ],
+      "rows": [
+        [
+          "Federal",
+          "Individual Income",
+          "Payroll Taxes"
+        ],
+        [
+          "State",
+          "Sales & Gross Receipts",
+          "Individual Income"
+        ],
+        [
+          "Local",
+          "Property Taxes",
+          "Sales Taxes"
+        ]
+      ]
+    },
+    "prompt": "Which conclusion about fiscal federalism is supported by the tax table?",
+    "options": [
+      {
+        "id": "a",
+        "text": "States collect most of their revenue from property taxes"
+      },
+      {
+        "id": "b",
+        "text": "The federal government relies primarily on national sales taxes"
+      },
+      {
+        "id": "c",
+        "text": "Each level of government relies primarily on a distinct tax base"
+      },
+      {
+        "id": "d",
+        "text": "Local governments depend mainly on federal payroll taxes"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Federal revenue centers on income and payroll taxes, states lean on sales and income taxes, and localities rely on property taxes.",
+    "source_url": "https://www.urban.org/policy-centers/cross-center-initiatives/state-and-local-finance-initiative/state-and-local-backgrounders/state-and-local-revenues",
+    "fun_fact": "Property taxes fund roughly 70% of local tax collections, supporting public schools and municipal services.",
+    "trap_notes": {
+      "default": "Federal, state, and local governments rely on different primary tax sources.",
+      "a": "Property taxes are the main local tax, while states rely most on sales and income taxes.",
+      "b": "The U.S. has no national sales tax; federal revenue relies on income and payroll taxes.",
+      "d": "Payroll taxes are a federal revenue source, not a local government tax."
+    }
+  },
+  {
+    "id": "civics-dat-104",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Sample U.S. Supreme Court Term Docket",
+      "headers": [
+        "Stage",
+        "Approx. Cases",
+        "Share of Filings"
+      ],
+      "rows": [
+        [
+          "Petitions Filed",
+          "5,000",
+          "100%"
+        ],
+        [
+          "Oral Arguments Heard",
+          "65",
+          "1.3%"
+        ],
+        [
+          "Signed Opinions",
+          "58",
+          "1.2%"
+        ]
+      ]
+    },
+    "prompt": "What does the docket data demonstrate about how the U.S. Supreme Court selects cases?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Court must hear every constitutional appeal filed by citizens"
+      },
+      {
+        "id": "b",
+        "text": "Most petitions filed with the Court receive full oral argument"
+      },
+      {
+        "id": "c",
+        "text": "The Court issues signed opinions without hearing oral arguments"
+      },
+      {
+        "id": "d",
+        "text": "The Court hears only a tiny fraction of petitions via certiorari"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Using discretionary writs of certiorari and the Rule of Four, the Supreme Court selects roughly 1% of petitions for review.",
+    "source_url": "https://www.supremecourt.gov/about/justicecaseload.aspx",
+    "fun_fact": "Only four of the nine justices need to agree to grant a writ of certiorari and place a case on the docket.",
+    "trap_notes": {
+      "default": "The Supreme Court has broad docket discretion and hears only about 1% of petitions.",
+      "a": "The Court is not required to hear every appeal; it grants certiorari selectively.",
+      "b": "Only about 1.3% of filings receive oral argument.",
+      "c": "The table shows 58 signed opinions out of 65 cases that received oral argument."
+    }
+  },
+  {
+    "id": "civics-dat-105",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Types of Federal Grants to States",
+      "headers": [
+        "Grant Type",
+        "Spending Rules",
+        "State Flexibility"
+      ],
+      "rows": [
+        [
+          "Categorical",
+          "Narrowly defined purpose",
+          "Low"
+        ],
+        [
+          "Block",
+          "Broad policy area",
+          "High"
+        ],
+        [
+          "Revenue Sharing",
+          "Minimal federal conditions",
+          "Very High"
+        ]
+      ]
+    },
+    "prompt": "Which federal grant type gives state governments the widest discretion over how to spend federal funds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Revenue sharing, which carries minimal federal conditions"
+      },
+      {
+        "id": "b",
+        "text": "Categorical grants, which restrict funds to narrow projects"
+      },
+      {
+        "id": "c",
+        "text": "Matching categorical grants, which require strict compliance"
+      },
+      {
+        "id": "d",
+        "text": "Project grants, which require federal agency approval"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Revenue sharing places minimal conditions on states, whereas categorical grants tightly restrict how federal money is spent.",
+    "source_url": "https://www.congress.gov/crs-product/R40638",
+    "fun_fact": "Congress ended general revenue sharing in 1986 due to federal deficits, leaving categorical and block grants.",
+    "trap_notes": {
+      "default": "Less restrictive federal conditions translate directly into higher state spending flexibility.",
+      "b": "Categorical grants carry strict federal rules and low state flexibility.",
+      "c": "Matching categorical grants still bind states to narrow federal rules.",
+      "d": "Project grants are a form of categorical grant with low state discretion."
+    }
+  },
+  {
+    "id": "civics-dat-106",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Legislative Process",
+    "era": "2021–2023",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "117th Congress Bill Survival Funnel",
+      "headers": [
+        "Legislative Stage",
+        "Bills Count",
+        "Share of Total"
+      ],
+      "rows": [
+        [
+          "Introduced",
+          "15,000+",
+          "100%"
+        ],
+        [
+          "Passed One Chamber",
+          "1,200",
+          "8%"
+        ],
+        [
+          "Enacted into Law",
+          "362",
+          "2.4%"
+        ]
+      ]
+    },
+    "prompt": "What does the legislative funnel reveal about the U.S. lawmaking process?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Over half of bills passed by one chamber become federal law"
+      },
+      {
+        "id": "b",
+        "text": "Multiple veto points eliminate most bills before enactment"
+      },
+      {
+        "id": "c",
+        "text": "Most bills introduced in Congress pass at least one chamber"
+      },
+      {
+        "id": "d",
+        "text": "Committee review guarantees a bill will reach the President"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Committees, floor scheduling, bicameral passage, and presidential approval filter out over 97% of introduced bills.",
+    "source_url": "https://www.congress.gov/browse/117th-congress",
+    "fun_fact": "Many bills never receive a committee hearing, which is why committees are often called legislative gatekeepers.",
+    "trap_notes": {
+      "default": "The constitutional lawmaking process has many hurdles, so only about 2–3% of bills become law.",
+      "a": "Only 362 of 1,200 bills passing one chamber (about 30%) became law.",
+      "c": "Only 8% of introduced bills even passed one chamber in the 117th Congress.",
+      "d": "Most bills die in committee and never reach the floor or the President."
+    }
+  },
+  {
+    "id": "civics-dat-107",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Checks and Balances",
+    "era": "1981–2021",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Presidential Vetoes & Overrides",
+      "headers": [
+        "President",
+        "Total Vetoes",
+        "Overridden"
+      ],
+      "rows": [
+        [
+          "Ronald Reagan",
+          "78",
+          "9"
+        ],
+        [
+          "Bill Clinton",
+          "37",
+          "2"
+        ],
+        [
+          "Barack Obama",
+          "12",
+          "1"
+        ]
+      ]
+    },
+    "prompt": "Why are congressional veto overrides so rare across all three administrations shown?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress may only override vetoes during a midterm year"
+      },
+      {
+        "id": "b",
+        "text": "Presidents can veto a bill again after Congress overrides it"
+      },
+      {
+        "id": "c",
+        "text": "Overriding a veto requires a two-thirds vote in both chambers"
+      },
+      {
+        "id": "d",
+        "text": "Overriding a veto requires approval from the Supreme Court"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article I, Section 7 requires a two-thirds supermajority in both the House and Senate to override a presidential veto.",
+    "source_url": "https://www.senate.gov/legislative/vetoes/vetoCounts.htm",
+    "fun_fact": "Historically, Congress has overridden fewer than 5% of all regular presidential vetoes.",
+    "trap_notes": {
+      "default": "Clearing a two-thirds supermajority in both chambers is a high constitutional bar.",
+      "a": "Congress can override a veto in any session, not just midterm years.",
+      "b": "Once Congress overrides a veto by two-thirds in both chambers, the bill becomes law.",
+      "d": "The Supreme Court plays no role in the legislative veto-override process."
+    }
+  },
+  {
+    "id": "civics-dat-108",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Voting Behavior",
+    "era": "2020",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "United States"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "2020 U.S. Citizen Voting by Education",
+      "headers": [
+        "Education Level",
+        "Registered (%)",
+        "Voted (%)"
+      ],
+      "rows": [
+        [
+          "High School Grad",
+          "62%",
+          "56%"
+        ],
+        [
+          "Some College",
+          "75%",
+          "69%"
+        ],
+        [
+          "Bachelor's Degree",
+          "84%",
+          "80%"
+        ]
+      ]
+    },
+    "prompt": "What relationship between education and civic participation is shown in the 2020 data?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Voters with bachelor's degrees register less often than high school graduates"
+      },
+      {
+        "id": "b",
+        "text": "Registration rates are identical across all three educational groups"
+      },
+      {
+        "id": "c",
+        "text": "High school graduates turn out at higher rates than college graduates"
+      },
+      {
+        "id": "d",
+        "text": "Higher educational attainment correlates with higher registration and turnout"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Both voter registration and turnout rise steadily with formal education, reaching 80% turnout among bachelor's degree holders.",
+    "source_url": "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-585.html",
+    "fun_fact": "Political scientists link higher education with stronger civic skills and familiarity with registration rules.",
+    "trap_notes": {
+      "default": "Higher formal education strongly correlates with higher registration and voting rates.",
+      "a": "Bachelor's degree holders registered at 84%, compared to 62% for high school graduates.",
+      "b": "Registration rises by 22 percentage points across the three groups.",
+      "c": "High school graduates turned out at 56%, lower than both college groups."
+    }
+  },
+  {
+    "id": "civics-dat-109",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Campaign Finance",
+    "era": "2020",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9022,
+      "lng": -77.0297,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal Campaign Spending Rules",
+      "headers": [
+        "Entity",
+        "Contribution Cap",
+        "Coordination Allowed"
+      ],
+      "rows": [
+        [
+          "Candidate Committee",
+          "Strict per-donor cap",
+          "Direct control"
+        ],
+        [
+          "National Party",
+          "Capped per donor",
+          "Limited coordination"
+        ],
+        [
+          "Super PAC",
+          "Unlimited",
+          "Prohibited"
+        ]
+      ]
+    },
+    "prompt": "According to the table, what legal trade-off governs Super PACs compared to candidate committees?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Super PACs raise unlimited sums but may not coordinate with candidates"
+      },
+      {
+        "id": "b",
+        "text": "Super PACs face strict donor caps in exchange for direct control"
+      },
+      {
+        "id": "c",
+        "text": "Candidate committees may raise unlimited funds without disclosure"
+      },
+      {
+        "id": "d",
+        "text": "National parties are banned from coordinating with any candidates"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under Supreme Court precedent, Super PACs can raise unlimited independent funds only if they do not coordinate with candidates.",
+    "source_url": "https://www.fec.gov/help-candidates-and-committees/taking-receipts-pac/who-can-and-cant-contribute-nonconnected-pac/",
+    "fun_fact": "Super PACs must still disclose their donors publicly to the Federal Election Commission.",
+    "trap_notes": {
+      "default": "Independent-expenditure groups avoid contribution limits only by avoiding candidate coordination.",
+      "b": "Candidate committees, not Super PACs, face strict donor caps and have direct control.",
+      "c": "Candidate committees face strict per-donor contribution limits.",
+      "d": "National parties are allowed limited coordination with their candidates."
+    }
+  },
+  {
+    "id": "civics-dat-110",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "State & Local Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.8136,
+      "lng": -96.7026,
+      "label": "Lincoln, NE"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Selected State Legislatures",
+      "headers": [
+        "State",
+        "Chambers",
+        "Total Lawmakers"
+      ],
+      "rows": [
+        [
+          "Nebraska",
+          "1 (Unicameral)",
+          "49"
+        ],
+        [
+          "California",
+          "2 (Bicameral)",
+          "120"
+        ],
+        [
+          "New Hampshire",
+          "2 (Bicameral)",
+          "424"
+        ]
+      ]
+    },
+    "prompt": "Which statement accurately compares state legislative structures using the table?",
+    "options": [
+      {
+        "id": "a",
+        "text": "California has more state lawmakers than New Hampshire"
+      },
+      {
+        "id": "b",
+        "text": "Nebraska is unique among the three for having a single-chamber body"
+      },
+      {
+        "id": "c",
+        "text": "Population size dictates the exact number of state lawmakers"
+      },
+      {
+        "id": "d",
+        "text": "All U.S. states require two chambers to pass state budgets"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Nebraska operates the only unicameral state legislature in the U.S., while 49 states use bicameral legislatures.",
+    "source_url": "https://www.ncsl.org/about-state-legislatures/number-of-legislators-and-length-of-terms-in-years",
+    "fun_fact": "New Hampshire's 400-member House of Representatives is the largest state legislative chamber in the country.",
+    "trap_notes": {
+      "default": "Nebraska is the only state with a single-chamber legislature; seat counts vary widely by state.",
+      "a": "New Hampshire has 424 lawmakers compared to California's 120.",
+      "c": "Small New Hampshire has 424 lawmakers, far more than populous California's 120.",
+      "d": "Nebraska passes its state budget in a single unicameral chamber."
+    }
+  },
+  {
+    "id": "civics-dat-111",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Public Policy & Budget",
+    "era": "FY 2023",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Federal Outlays Breakdown (FY 2023)",
+      "headers": [
+        "Budget Category",
+        "Share of Spending",
+        "Annual Vote Needed"
+      ],
+      "rows": [
+        [
+          "Mandatory Programs",
+          "61%",
+          "No"
+        ],
+        [
+          "Discretionary Programs",
+          "28%",
+          "Yes"
+        ],
+        [
+          "Net Interest on Debt",
+          "11%",
+          "No"
+        ]
+      ]
+    },
+    "prompt": "Why is it difficult for Congress to balance the federal budget solely by cutting annual appropriations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress votes every year on Social Security benefit formulas"
+      },
+      {
+        "id": "b",
+        "text": "Net interest payments can be canceled by annual appropriations"
+      },
+      {
+        "id": "c",
+        "text": "Over 70% of spending goes to mandatory programs and debt interest"
+      },
+      {
+        "id": "d",
+        "text": "Discretionary spending accounts for nearly all federal outlays"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Mandatory programs (61%) and net interest (11%) operate outside annual appropriations, leaving only 28% in discretionary bills.",
+    "source_url": "https://www.cbo.gov/publication/59727",
+    "fun_fact": "Changing mandatory spending requires Congress to amend the underlying entitlement statutes, not just pass a budget.",
+    "trap_notes": {
+      "default": "Annual appropriations only cover the 28% discretionary share of federal spending.",
+      "a": "Social Security is mandatory spending and does not require an annual vote.",
+      "b": "The U.S. is legally obligated to pay interest on national debt to avoid default.",
+      "d": "Discretionary spending is only 28% of total federal outlays."
+    }
+  },
+  {
+    "id": "civics-dat-112",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Constitutional Amendments",
+    "era": "1913–1992",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Selected Constitutional Ratifications",
+      "headers": [
+        "Amendment",
+        "Proposed",
+        "Ratified"
+      ],
+      "rows": [
+        [
+          "17th (Direct Senators)",
+          "1912",
+          "1913"
+        ],
+        [
+          "26th (Voting Age 18)",
+          "1971",
+          "1971"
+        ],
+        [
+          "27th (Congressional Pay)",
+          "1789",
+          "1992"
+        ]
+      ]
+    },
+    "prompt": "What does the ratification timeline of the 27th Amendment demonstrate about Article V?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every proposed amendment expires after seven years automatically"
+      },
+      {
+        "id": "b",
+        "text": "Ratification routinely takes longer than ten years to complete"
+      },
+      {
+        "id": "c",
+        "text": "Congress can ratify amendments without state legislative votes"
+      },
+      {
+        "id": "d",
+        "text": "Amendments without a deadline can remain pending for centuries"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Because the 1789 congressional pay amendment had no time limit, states finally completed its ratification 202 years later in 1992.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxvii",
+    "fun_fact": "A University of Texas student named Gregory Watson wrote a 1982 paper arguing the 1789 amendment was still alive.",
+    "trap_notes": {
+      "default": "Without a congressionally set deadline, proposed amendments stay open for state ratification.",
+      "a": "Only amendments with a deadline written by Congress expire after seven years.",
+      "b": "The 26th Amendment was ratified in just 100 days in 1971.",
+      "c": "Article V requires three-fourths of the states to ratify every amendment."
+    }
+  },
+  {
+    "id": "civics-dat-113",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "label": "Berlin, Germany"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Hypothetical 100-Seat Election (Party A: 35%)",
+      "headers": [
+        "Electoral System",
+        "Party A Vote %",
+        "Party A Seats"
+      ],
+      "rows": [
+        [
+          "Single-Member Plurality",
+          "35%",
+          "52 seats"
+        ],
+        [
+          "Proportional Representation",
+          "35%",
+          "35 seats"
+        ],
+        [
+          "Two-Round Majority",
+          "35%",
+          "44 seats"
+        ]
+      ]
+    },
+    "prompt": "How does proportional representation differ from single-member plurality in the table?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It aligns a party's legislative seat share with its vote share"
+      },
+      {
+        "id": "b",
+        "text": "It automatically gives a 35% party an outright legislative majority"
+      },
+      {
+        "id": "c",
+        "text": "It eliminates minor parties from winning any legislative seats"
+      },
+      {
+        "id": "d",
+        "text": "It awards bonus seats to the party finishing in first place"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Proportional representation translates 35% of the vote into 35% of seats, whereas single-member plurality can yield a majority.",
+    "source_url": "https://www.britannica.com/topic/proportional-representation",
+    "fun_fact": "Because proportional systems rarely give one party 50% alone, they usually produce coalition governments.",
+    "trap_notes": {
+      "default": "Proportional representation matches seat shares closely to national vote percentages.",
+      "b": "In the table, only single-member plurality gave Party A a 52-seat majority.",
+      "c": "Proportional representation actually helps smaller parties win seats.",
+      "d": "Single-member plurality, not proportional representation, magnified Party A's seat count."
+    }
+  },
+  {
+    "id": "civics-dat-114",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "State & Local Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 32.7767,
+      "lng": -96.797,
+      "label": "Dallas, TX"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Municipal Government Forms",
+      "headers": [
+        "Form",
+        "Chief Administrator",
+        "Legislative Body"
+      ],
+      "rows": [
+        [
+          "Strong Mayor-Council",
+          "Elected Mayor",
+          "City Council"
+        ],
+        [
+          "Council-Manager",
+          "Appointed City Manager",
+          "City Council"
+        ],
+        [
+          "Commission",
+          "Elected Commissioners",
+          "Commission Board"
+        ]
+      ]
+    },
+    "prompt": "How does the council-manager form separate political leadership from daily administration?",
+    "options": [
+      {
+        "id": "a",
+        "text": "State governors appoint city managers to oversee local budgets"
+      },
+      {
+        "id": "b",
+        "text": "An elected council hires a professional manager to run city operations"
+      },
+      {
+        "id": "c",
+        "text": "An elected mayor appoints both the council and department heads"
+      },
+      {
+        "id": "d",
+        "text": "Voters directly elect every municipal department administrator"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In council-manager cities, the elected council sets policy and hires a nonpartisan professional city manager to administer services.",
+    "source_url": "https://www.nlc.org/resource/forms-of-municipal-government/",
+    "fun_fact": "Council-manager government is the most common form in mid-sized U.S. cities, including Phoenix and San Antonio.",
+    "trap_notes": {
+      "default": "Council-manager systems pair an elected council with an appointed professional city manager.",
+      "a": "Local city councils, not state governors, hire the city manager.",
+      "c": "Voters, not mayors, elect city councils.",
+      "d": "In a council-manager system, the council appoints the city manager."
+    }
+  },
+  {
+    "id": "civics-dat-115",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Elections & Apportionment",
+    "era": "1960–2020",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "label": "Austin, TX"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. House Seats After Censuses",
+      "headers": [
+        "State",
+        "1960 Seats",
+        "2020 Seats"
+      ],
+      "rows": [
+        [
+          "New York",
+          "41",
+          "26"
+        ],
+        [
+          "Texas",
+          "23",
+          "38"
+        ],
+        [
+          "Florida",
+          "12",
+          "28"
+        ]
+      ]
+    },
+    "prompt": "Why did New York lose 15 House seats while Texas and Florida gained 31 combined between 1960 and 2020?",
+    "options": [
+      {
+        "id": "a",
+        "text": "New York voluntarily surrendered seats to lower its federal taxes"
+      },
+      {
+        "id": "b",
+        "text": "States with larger land area automatically receive extra House seats"
+      },
+      {
+        "id": "c",
+        "text": "The 435 House seats are reapportioned as population shifts southward"
+      },
+      {
+        "id": "d",
+        "text": "Congress expanded the House past 435 seats to reward Sun Belt states"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Because the House is capped at 435 seats, faster population growth in Sun Belt states shifts seats away from slower-growing states.",
+    "source_url": "https://www.census.gov/topics/public-sector/congressional-apportionment.html",
+    "fun_fact": "The Permanent Apportionment Act of 1929 fixed the size of the U.S. House of Representatives at 435 seats.",
+    "trap_notes": {
+      "default": "House seats are fixed at 435, so regional population shifts reallocate seats after each census.",
+      "a": "States cannot trade or surrender House seats; apportionment is constitutional.",
+      "b": "House seats are apportioned by population, not geographic land area.",
+      "d": "The House has remained capped at 435 voting seats since 1929."
+    }
+  },
+  {
+    "id": "civics-dat-116",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Three Tiers of Federal Courts",
+      "headers": [
+        "Court Tier",
+        "Number of Courts",
+        "Primary Function"
+      ],
+      "rows": [
+        [
+          "U.S. District Courts",
+          "94",
+          "Original trials"
+        ],
+        [
+          "U.S. Courts of Appeals",
+          "13",
+          "Review trial rulings"
+        ],
+        [
+          "U.S. Supreme Court",
+          "1",
+          "Final constitutional review"
+        ]
+      ]
+    },
+    "prompt": "Where does a federal criminal or civil lawsuit normally begin in the federal court system?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In one of the 13 U.S. Courts of Appeals"
+      },
+      {
+        "id": "b",
+        "text": "Directly in the U.S. Supreme Court"
+      },
+      {
+        "id": "c",
+        "text": "In a state appellate court first"
+      },
+      {
+        "id": "d",
+        "text": "In one of the 94 U.S. District Courts"
+      }
+    ],
+    "answer": "d",
+    "explanation": "U.S. District Courts are the general trial courts of the federal system, where evidence is presented and juries sit.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+    "fun_fact": "Every U.S. state has at least one federal judicial district, and larger states like California and Texas have four.",
+    "trap_notes": {
+      "default": "Federal trials begin in U.S. District Courts before any appeal to Circuit Courts.",
+      "a": "Courts of Appeals review District Court decisions; they do not hold original trials.",
+      "b": "The Supreme Court rarely exercises original jurisdiction, mostly hearing appeals.",
+      "c": "Federal cases start in federal District Courts, not state appellate courts."
+    }
+  },
+  {
+    "id": "civics-dat-117",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Elections & Voting",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 47.0379,
+      "lng": -122.9007,
+      "label": "Olympia, WA"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "State Primary Election Rules",
+      "headers": [
+        "Primary Type",
+        "Who Can Vote",
+        "Who Advances"
+      ],
+      "rows": [
+        [
+          "Closed",
+          "Party members only",
+          "1 per party"
+        ],
+        [
+          "Open",
+          "Any registered voter",
+          "1 per party"
+        ],
+        [
+          "Top-Two",
+          "Any registered voter",
+          "Top 2 overall"
+        ]
+      ]
+    },
+    "prompt": "What unique general-election outcome can a top-two primary produce compared to open or closed primaries?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two candidates from the same party can face each other"
+      },
+      {
+        "id": "b",
+        "text": "Independent voters are barred from casting a primary ballot"
+      },
+      {
+        "id": "c",
+        "text": "Every political party is guaranteed a spot on the November ballot"
+      },
+      {
+        "id": "d",
+        "text": "Only registered party members determine the two finalists"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Because the top two vote-getters advance regardless of party, two candidates from the same party can meet in November.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/state-primary-election-types",
+    "fun_fact": "California and Washington both use top-two primaries for congressional and statewide offices.",
+    "trap_notes": {
+      "default": "Top-two primaries advance the highest two finishers regardless of party label.",
+      "b": "Any registered voter, including independents, can vote in a top-two primary.",
+      "c": "Parties that finish third or lower do not advance to the general election.",
+      "d": "Closed primaries, not top-two primaries, restrict voting to party members."
+    }
+  },
+  {
+    "id": "civics-dat-118",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Public Opinion & Institutions",
+    "era": "2000–2023",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Public Trust in Federal Branches (%)",
+      "headers": [
+        "Branch",
+        "2000",
+        "2023"
+      ],
+      "rows": [
+        [
+          "Judicial",
+          "75%",
+          "47%"
+        ],
+        [
+          "Executive",
+          "65%",
+          "41%"
+        ],
+        [
+          "Legislative",
+          "68%",
+          "34%"
+        ]
+      ]
+    },
+    "prompt": "Which trend across all three branches of the U.S. government is shown in the polling table?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The judicial branch suffered the largest percentage-point drop"
+      },
+      {
+        "id": "b",
+        "text": "Public trust declined sharply in every branch, led by Congress"
+      },
+      {
+        "id": "c",
+        "text": "Public trust in Congress rose above trust in the Supreme Court"
+      },
+      {
+        "id": "d",
+        "text": "The executive branch maintained majority public trust in 2023"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Trust fell in all three branches between 2000 and 2023, with Congress dropping 34 points to the lowest level at 34%.",
+    "source_url": "https://news.gallup.com/poll/511044/americans-trust-government-branches-new-lows.aspx",
+    "fun_fact": "Despite falling from 75% to 47%, the judicial branch remained the most trusted of the three branches.",
+    "trap_notes": {
+      "default": "All three branches saw major trust declines, with Congress dropping the most (34 points).",
+      "a": "Congress dropped 34 points (68% to 34%), while the judicial branch dropped 28 points.",
+      "c": "Congress fell to 34% in 2023, remaining below the judicial branch at 47%.",
+      "d": "Executive trust fell to 41% in 2023, below a 50% majority."
+    }
+  },
+  {
+    "id": "civics-dat-119",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "State & Local Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "label": "Austin, TX"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "State Tax Revenue Mix (%)",
+      "headers": [
+        "State",
+        "Income Tax Share",
+        "Sales Tax Share"
+      ],
+      "rows": [
+        [
+          "Oregon",
+          "68%",
+          "0%"
+        ],
+        [
+          "Texas",
+          "0%",
+          "57%"
+        ],
+        [
+          "North Carolina",
+          "45%",
+          "31%"
+        ]
+      ]
+    },
+    "prompt": "What does the variation in state tax mixes illustrate about U.S. federalism?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress sets uniform state sales tax rates across the nation"
+      },
+      {
+        "id": "b",
+        "text": "States without sales taxes cannot fund public infrastructure"
+      },
+      {
+        "id": "c",
+        "text": "States retain broad authority to design distinct tax systems"
+      },
+      {
+        "id": "d",
+        "text": "The U.S. Constitution requires every state to levy an income tax"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Under federalism, states choose their own tax mixes—Oregon relies on income taxes without sales tax, while Texas does the reverse.",
+    "source_url": "https://www.taxadmin.org/state-tax-revenue",
+    "fun_fact": "Nine U.S. states levy no broad individual income tax, while five levy no statewide general sales tax.",
+    "trap_notes": {
+      "default": "Federalism allows each state to choose its own combination of income, sales, and other taxes.",
+      "a": "States set their own sales tax rates; Oregon chooses a 0% statewide sales tax.",
+      "b": "Oregon funds state infrastructure using its income tax and other revenues.",
+      "d": "Texas levies 0% individual income tax, showing it is not constitutionally required."
+    }
+  },
+  {
+    "id": "civics-dat-120",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Legislative Branch",
+    "era": "1969–2022",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Senate"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Senate Cloture Motions Filed",
+      "headers": [
+        "Congress (Years)",
+        "Motions Filed",
+        "Cloture Invoked"
+      ],
+      "rows": [
+        [
+          "91st (1969–1970)",
+          "7",
+          "0"
+        ],
+        [
+          "106th (1999–2000)",
+          "71",
+          "23"
+        ],
+        [
+          "117th (2021–2022)",
+          "328",
+          "270"
+        ]
+      ]
+    },
+    "prompt": "What shift in U.S. Senate governance is reflected in the cloture data?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Senators stopped using cloture motions after the 1970s"
+      },
+      {
+        "id": "b",
+        "text": "Cloture motions were easier to defeat in 2022 than in 1970"
+      },
+      {
+        "id": "c",
+        "text": "The House of Representatives adopted Senate cloture rules in 2021"
+      },
+      {
+        "id": "d",
+        "text": "Filibuster threats and cloture votes became routine legislative hurdles"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cloture filings surged from 7 in 1969–1970 to 328 in 2021–2022, making a 60-vote threshold routine for Senate action.",
+    "source_url": "https://www.senate.gov/legislative/cloture/clotureCounts.htm",
+    "fun_fact": "In 1975, the Senate lowered the cloture threshold from two-thirds of senators present to three-fifths (60).",
+    "trap_notes": {
+      "default": "Cloture filings skyrocketed over five decades as filibuster threats became routine.",
+      "a": "Cloture filings increased nearly fiftyfold after 1970.",
+      "b": "In 2021–2022, 270 of 328 cloture motions succeeded, compared to 0 of 7 in 1969–1970.",
+      "c": "The House has strict debate limits and does not use Senate cloture."
+    }
+  },
+  {
+    "id": "civics-dat-121",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Citizenship",
+    "era": "2020–2022",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Naturalizations (FY 2020–2022)",
+      "headers": [
+        "Fiscal Year",
+        "New Citizens",
+        "Top Requirement"
+      ],
+      "rows": [
+        [
+          "FY 2020",
+          "628,000",
+          "Civics & English test"
+        ],
+        [
+          "FY 2021",
+          "814,000",
+          "Civics & English test"
+        ],
+        [
+          "FY 2022",
+          "969,000",
+          "Civics & English test"
+        ]
+      ]
+    },
+    "prompt": "Which constitutional power authorizes Congress to set the uniform naturalization rules reflected in the table?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Article I, Section 8 power to establish a uniform rule of naturalization"
+      },
+      {
+        "id": "b",
+        "text": "Tenth Amendment power reserving citizenship rules to state governors"
+      },
+      {
+        "id": "c",
+        "text": "Third Amendment power governing peacetime quartering of troops"
+      },
+      {
+        "id": "d",
+        "text": "Article III power granting federal courts control of immigration visas"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article I, Section 8 gives Congress exclusive power to establish a uniform rule of naturalization across all states.",
+    "source_url": "https://www.uscis.gov/citizenship-resource-center/naturalization-statistics",
+    "fun_fact": "FY 2022 recorded the third-highest annual number of U.S. naturalizations since 1907.",
+    "trap_notes": {
+      "default": "Congress sets national naturalization standards under Article I, Section 8.",
+      "b": "States do not grant U.S. citizenship; naturalization is an enumerated federal power.",
+      "c": "The Third Amendment deals with quartering soldiers, not citizenship.",
+      "d": "Article III covers federal judicial power, not naturalization rules."
+    }
+  },
+  {
+    "id": "civics-dat-122",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Direct Democracy",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "label": "Denver, CO"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Sample State Ballot Measures (2022)",
+      "headers": [
+        "Measure Type",
+        "Origin",
+        "Passage Rate"
+      ],
+      "rows": [
+        [
+          "Citizen Initiative",
+          "Voter petitions",
+          "44%"
+        ],
+        [
+          "Legislative Referral",
+          "State legislature",
+          "74%"
+        ],
+        [
+          "Veto Referendum",
+          "Voter petitions",
+          "50%"
+        ]
+      ]
+    },
+    "prompt": "What pattern in direct democracy does the ballot measure table highlight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Veto referendums are proposed by governors rather than voters"
+      },
+      {
+        "id": "b",
+        "text": "Measures placed on the ballot by legislatures pass more often than citizen initiatives"
+      },
+      {
+        "id": "c",
+        "text": "Citizen initiatives pass at a higher rate than legislative referrals"
+      },
+      {
+        "id": "d",
+        "text": "Voters approve every measure referred to them by state legislatures"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Legislative referrals passed 74% of the time in the sample, outpacing citizen-initiated measures at 44%.",
+    "source_url": "https://www.ncsl.org/elections-and-campaigns/initiative-and-referendum-processes",
+    "fun_fact": "Twenty-six U.S. states allow citizens to place initiatives or veto referendums on the statewide ballot.",
+    "trap_notes": {
+      "default": "Measures referred by state lawmakers generally enjoy higher passage rates than citizen initiatives.",
+      "a": "The table lists voter petitions as the origin of veto referendums.",
+      "c": "Citizen initiatives passed at 44%, well below legislative referrals at 74%.",
+      "d": "A 74% passage rate means about a quarter of legislative referrals were rejected."
+    }
+  },
+  {
+    "id": "civics-dat-123",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1946–2023",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7489,
+      "lng": -73.968,
+      "label": "UN Headquarters, NY"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "UN Security Council Vetoes (Selected Eras)",
+      "headers": [
+        "Permanent Member",
+        "1946–1991",
+        "1992–2023"
+      ],
+      "rows": [
+        [
+          "USSR / Russia",
+          "114",
+          "34"
+        ],
+        [
+          "United States",
+          "67",
+          "19"
+        ],
+        [
+          "United Kingdom",
+          "30",
+          "0"
+        ]
+      ]
+    },
+    "prompt": "How does the veto power of permanent UN Security Council members shape international action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The United Kingdom used its veto more often after 1992 than before"
+      },
+      {
+        "id": "b",
+        "text": "Only the United States and Russia hold veto power on the Council"
+      },
+      {
+        "id": "c",
+        "text": "Any single permanent member can block a binding Council resolution"
+      },
+      {
+        "id": "d",
+        "text": "A majority vote of ten rotating members overrides a permanent veto"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Under the UN Charter, substantive Security Council resolutions fail if any of the five permanent members casts a veto.",
+    "source_url": "https://www.un.org/securitycouncil/content/voting-system",
+    "fun_fact": "The five permanent Security Council members are China, France, Russia, the United Kingdom, and the United States.",
+    "trap_notes": {
+      "default": "Each of the five permanent Security Council members holds an individual veto over resolutions.",
+      "a": "The UK cast 0 vetoes between 1992 and 2023, down from 30 during the Cold War.",
+      "b": "China and France also hold permanent seats and veto power.",
+      "d": "Rotating members cannot override a permanent member's veto."
+    }
+  },
+  {
+    "id": "civics-dat-124",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "State & Local Government",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "United States"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Public K–12 School Funding Shares",
+      "headers": [
+        "Government Level",
+        "Funding Share",
+        "Primary Mechanism"
+      ],
+      "rows": [
+        [
+          "State",
+          "47%",
+          "State income & sales tax"
+        ],
+        [
+          "Local",
+          "45%",
+          "Local property tax"
+        ],
+        [
+          "Federal",
+          "8%",
+          "Title I & IDEA grants"
+        ]
+      ]
+    },
+    "prompt": "What does the funding table demonstrate about public K–12 education governance in the United States?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The federal Department of Education provides most school district budgets"
+      },
+      {
+        "id": "b",
+        "text": "Local property taxes supply less than a tenth of school funding"
+      },
+      {
+        "id": "c",
+        "text": "States contribute no funding to local public school districts"
+      },
+      {
+        "id": "d",
+        "text": "Public schooling is financed overwhelmingly by state and local governments"
+      }
+    ],
+    "answer": "d",
+    "explanation": "State and local governments supply 92% of public K–12 revenue, reflecting reserved state authority over education.",
+    "source_url": "https://nces.ed.gov/programs/coe/indicator/cma",
+    "fun_fact": "Federal Title I grants target districts serving low-income families rather than funding general school operations.",
+    "trap_notes": {
+      "default": "Education is primarily a state and local responsibility, with federal aid at about 8%.",
+      "a": "Federal grants account for only 8% of public K–12 school funding.",
+      "b": "Local property taxes provide 45% of total K–12 public school revenue.",
+      "c": "State governments provide the largest single share (47%) of school funding."
+    }
+  },
+  {
+    "id": "civics-dat-125",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Interest Groups & Lobbying",
+    "era": "2023",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal Lobbying Spending (2023 Sample)",
+      "headers": [
+        "Sector",
+        "Annual Spending",
+        "Primary Target"
+      ],
+      "rows": [
+        [
+          "Health Care",
+          "$740M",
+          "Congress & HHS"
+        ],
+        [
+          "Finance & Real Estate",
+          "$590M",
+          "Congress & Treasury"
+        ],
+        [
+          "Tech & Telecom",
+          "$340M",
+          "Congress & FTC/FCC"
+        ]
+      ]
+    },
+    "prompt": "Why do interest groups lobby both Congress and executive agencies like HHS or the FTC?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agencies write binding regulations that implement congressional statutes"
+      },
+      {
+        "id": "b",
+        "text": "Executive agencies have sole power to pass federal tax laws"
+      },
+      {
+        "id": "c",
+        "text": "Federal lobbying is illegal when directed at members of Congress"
+      },
+      {
+        "id": "d",
+        "text": "Executive agencies appoint U.S. senators to oversight committees"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Congress passes broad laws, while executive and independent agencies draft detailed rules, making both key lobbying targets.",
+    "source_url": "https://www.opensecrets.org/federal-lobbying",
+    "fun_fact": "The First Amendment right to petition the government for a redress of grievances protects lawful lobbying.",
+    "trap_notes": {
+      "default": "Interest groups target both lawmakers who pass statutes and agencies that write regulations.",
+      "b": "Only Congress has the constitutional power to enact federal tax laws.",
+      "c": "Lobbying Congress is legal and protected by the First Amendment, subject to disclosure rules.",
+      "d": "Senate party leaders and members, not executive agencies, assign committee seats."
+    }
+  },
+  {
+    "id": "civics-dat-126",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Executive Branch",
+    "era": "1981–2021",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Average Executive Orders per Year",
+      "headers": [
+        "President",
+        "Years in Office",
+        "Orders / Year"
+      ],
+      "rows": [
+        [
+          "Franklin Roosevelt",
+          "12.1",
+          "307"
+        ],
+        [
+          "Ronald Reagan",
+          "8.0",
+          "48"
+        ],
+        [
+          "Barack Obama",
+          "8.0",
+          "35"
+        ]
+      ]
+    },
+    "prompt": "Why did Franklin Roosevelt issue far more executive orders per year than modern presidents in the table?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Executive orders required Supreme Court approval after 1950"
+      },
+      {
+        "id": "b",
+        "text": "The Great Depression and World War II prompted sweeping executive action"
+      },
+      {
+        "id": "c",
+        "text": "The 22nd Amendment required modern presidents to issue fewer orders"
+      },
+      {
+        "id": "d",
+        "text": "Congress lacked authority to pass laws during the 1930s and 1940s"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Severe national crises—the Great Depression and World War II—dramatically expanded presidential use of executive orders under FDR.",
+    "source_url": "https://www.presidency.ucsb.edu/statistics/data/executive-orders",
+    "fun_fact": "FDR issued 3,721 executive orders across his three-plus terms—more than any other U.S. president.",
+    "trap_notes": {
+      "default": "Economic and wartime emergencies under FDR drove unprecedented executive-order activity.",
+      "a": "Executive orders do not require prior Supreme Court approval, though courts can review them.",
+      "c": "The 22nd Amendment limits presidential terms to two, not the number of executive orders.",
+      "d": "Congress passed major New Deal laws; executive orders supplemented those statutes."
+    }
+  },
+  {
+    "id": "civics-dat-127",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch & Law",
+    "era": "Modern",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Federal Courts"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal Criminal Case Resolutions",
+      "headers": [
+        "Resolution Type",
+        "Share of Cases",
+        "Jury Involved"
+      ],
+      "rows": [
+        [
+          "Guilty Plea",
+          "90%",
+          "No"
+        ],
+        [
+          "Dismissed",
+          "8%",
+          "No"
+        ],
+        [
+          "Jury or Bench Trial",
+          "2%",
+          "Mostly"
+        ]
+      ]
+    },
+    "prompt": "What does the federal criminal data show about how the Sixth Amendment right to a trial operates in practice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Federal prosecutors dismiss over half of all criminal indictments"
+      },
+      {
+        "id": "b",
+        "text": "The Sixth Amendment forbids defendants from entering guilty pleas"
+      },
+      {
+        "id": "c",
+        "text": "Most defendants waive a trial and resolve charges through plea bargains"
+      },
+      {
+        "id": "d",
+        "text": "Nearly all federal criminal cases are decided by a twelve-person jury"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Roughly 90% of federal criminal cases end in guilty pleas, saving court resources and giving defendants negotiated sentences.",
+    "source_url": "https://www.pewresearch.org/short-reads/2023/06/14/fewer-than-1-of-defendants-in-federal-criminal-cases-were-acquitted-in-2022/",
+    "fun_fact": "The Supreme Court upheld plea bargaining in Brady v. United States (1970) when pleas are voluntary and informed.",
+    "trap_notes": {
+      "default": "Although the Sixth Amendment guarantees a jury trial, 90% of federal cases end in plea deals.",
+      "a": "Only 8% of federal criminal cases are dismissed.",
+      "b": "Defendants may voluntarily waive their right to a jury trial and plead guilty.",
+      "d": "Only 2% of federal criminal cases go to trial."
+    }
+  },
+  {
+    "id": "civics-dat-128",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Transparency & Accountability",
+    "era": "2020–2022",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal FOIA Requests Processed",
+      "headers": [
+        "Fiscal Year",
+        "Requests Processed",
+        "Full or Partial Grant"
+      ],
+      "rows": [
+        [
+          "FY 2020",
+          "769,000",
+          "72%"
+        ],
+        [
+          "FY 2021",
+          "824,000",
+          "75%"
+        ],
+        [
+          "FY 2022",
+          "879,000",
+          "76%"
+        ]
+      ]
+    },
+    "prompt": "How does the Freedom of Information Act (FOIA) support democratic accountability in the United States?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It forces federal courts to release secret jury deliberations"
+      },
+      {
+        "id": "b",
+        "text": "It requires private corporations to publish all trade secrets"
+      },
+      {
+        "id": "c",
+        "text": "It abolishes all national security classification rules"
+      },
+      {
+        "id": "d",
+        "text": "It lets citizens and journalists request executive-branch records"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Enacted in 1966, FOIA empowers the public and press to obtain federal agency records, subject to nine statutory exemptions.",
+    "source_url": "https://www.foia.gov/about.html",
+    "fun_fact": "FOIA includes nine exemptions protecting classified defense data, personal privacy, and trade secrets.",
+    "trap_notes": {
+      "default": "FOIA promotes transparency by granting public access to federal executive agency records.",
+      "a": "FOIA applies to federal executive agencies, not the judicial branch or jury rooms.",
+      "b": "FOIA covers federal government agencies, not private corporate records.",
+      "c": "FOIA explicitly exempts properly classified national security information."
+    }
+  },
+  {
+    "id": "civics-dat-129",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "2023",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "label": "Stockholm, Sweden"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Women in Lower Legislative Chambers",
+      "headers": [
+        "Country",
+        "Electoral System",
+        "Women Share"
+      ],
+      "rows": [
+        [
+          "Sweden",
+          "Proportional",
+          "46%"
+        ],
+        [
+          "United Kingdom",
+          "Single-Member Plurality",
+          "35%"
+        ],
+        [
+          "United States",
+          "Single-Member Plurality",
+          "29%"
+        ]
+      ]
+    },
+    "prompt": "Based on the table, how are electoral systems linked to women's legislative representation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proportional party-list systems often yield higher female representation"
+      },
+      {
+        "id": "b",
+        "text": "Single-member plurality districts guarantee equal gender representation"
+      },
+      {
+        "id": "c",
+        "text": "The United States has a higher share of women lawmakers than Sweden"
+      },
+      {
+        "id": "d",
+        "text": "Proportional systems prevent women from running on party ballots"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Proportional party-list systems make it easier for parties to balance candidate slates, contributing to Sweden's 46% share.",
+    "source_url": "https://data.ipu.org/women-ranking/",
+    "fun_fact": "Political scientists note that multi-member proportional districts reduce winner-take-all incumbency advantages.",
+    "trap_notes": {
+      "default": "Proportional representation tends to produce higher shares of women legislators than single-member districts.",
+      "b": "Both single-member plurality countries shown sit well below 50%.",
+      "c": "The U.S. sits at 29%, lower than both the UK (35%) and Sweden (46%).",
+      "d": "Proportional systems frequently use gender-balanced party lists."
+    }
+  },
+  {
+    "id": "civics-dat-130",
+    "type": "data",
+    "domain": "Civics",
+    "subdomain": "Elections & Voting",
+    "era": "2016–2020",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "United States"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "U.S. Ballots Cast by Method (%)",
+      "headers": [
+        "Voting Method",
+        "2016",
+        "2020"
+      ],
+      "rows": [
+        [
+          "Election Day In-Person",
+          "60%",
+          "31%"
+        ],
+        [
+          "Mail / Absentee",
+          "21%",
+          "43%"
+        ],
+        [
+          "Early In-Person",
+          "19%",
+          "26%"
+        ]
+      ]
+    },
+    "prompt": "What major shift in U.S. election administration occurred between 2016 and 2020?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Election Day in-person voting remained the majority method in 2020"
+      },
+      {
+        "id": "b",
+        "text": "More than two-thirds of voters cast ballots before Election Day in 2020"
+      },
+      {
+        "id": "c",
+        "text": "Mail voting declined sharply between 2016 and 2020"
+      },
+      {
+        "id": "d",
+        "text": "States eliminated early in-person voting during 2020"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Combining mail (43%) and early in-person (26%), 69% of 2020 voters cast ballots prior to Election Day.",
+    "source_url": "https://www.census.gov/library/stories/2021/04/what-methods-did-people-use-to-vote-in-2020-election.html",
+    "fun_fact": "Under the Constitution's Elections Clause, states administer voting methods unless Congress sets uniform federal rules.",
+    "trap_notes": {
+      "default": "Mail and early in-person voting surged in 2020, accounting for 69% of all ballots cast.",
+      "a": "Election Day in-person voting dropped from 60% to 31% in 2020.",
+      "c": "Mail voting more than doubled from 21% in 2016 to 43% in 2020.",
+      "d": "Early in-person voting rose from 19% in 2016 to 26% in 2020."
+    }
+  },
+  {
+    "id": "civics-syn-101",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Judicial Review",
+    "era": "1803",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, 1803"
+    },
+    "prompt": "How did Chief Justice John Marshall establish judicial review in Marbury v. Madison (1803)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He amended Article III to create lower federal district courts"
+      },
+      {
+        "id": "b",
+        "text": "He ruled that state legislatures could nullify federal statutes"
+      },
+      {
+        "id": "c",
+        "text": "He struck down part of the Judiciary Act of 1789 as unconstitutional"
+      },
+      {
+        "id": "d",
+        "text": "He ordered President Jefferson to appoint all Federalist judges"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Marshall ruled Section 13 of the Judiciary Act of 1789 conflicted with Article III, asserting the Court's duty to strike down laws.",
+    "source_url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+    "fun_fact": "By denying himself the power to issue Marbury's writ, Marshall avoided a standoff with Jefferson while claiming judicial review.",
+    "trap_notes": {
+      "default": "Marbury v. Madison voided part of a federal statute for conflicting with the Constitution.",
+      "a": "Courts cannot amend the Constitution; Article V governs constitutional amendments.",
+      "b": "Marshall's Court later rejected state nullification in cases like McCulloch v. Maryland.",
+      "d": "Marshall held that Marbury deserved his commission, but the Court lacked jurisdiction to issue the writ."
+    }
+  },
+  {
+    "id": "civics-syn-102",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Commerce Clause",
+    "era": "1824",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York Harbor"
+    },
+    "secondary_geo": {
+      "lat": 40.7357,
+      "lng": -74.1724,
+      "label": "Newark, NJ"
+    },
+    "prompt": "How did Gibbons v. Ogden (1824) reshape both U.S. federalism and the national economy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It allowed states to tax goods crossing state borders without limit"
+      },
+      {
+        "id": "b",
+        "text": "It barred the federal government from regulating waterways or railroads"
+      },
+      {
+        "id": "c",
+        "text": "It protected New York's steamboat monopoly under the Tenth Amendment"
+      },
+      {
+        "id": "d",
+        "text": "It gave Congress broad authority over interstate commerce, ending state monopolies"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Supreme Court invalidated New York's steamboat monopoly, ruling that federal commerce power covers interstate navigation.",
+    "source_url": "https://www.archives.gov/milestone-documents/gibbons-v-ogden",
+    "fun_fact": "Breaking up state-granted monopolies lowered steamboat fares and spurred a national market.",
+    "trap_notes": {
+      "default": "Gibbons v. Ogden interpreted Congress's Commerce Clause power broadly to foster an integrated market.",
+      "a": "The Constitution's Import-Export and Commerce Clauses bar states from erecting interstate tariffs.",
+      "b": "The ruling confirmed, rather than barred, federal authority over interstate waterways.",
+      "c": "The Court struck down New York's monopoly because it conflicted with a federal coasting license."
+    }
+  },
+  {
+    "id": "civics-syn-103",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Enlightenment & Constitution",
+    "era": "1748–1787",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, PA"
+    },
+    "secondary_geo": {
+      "lat": 44.8378,
+      "lng": -0.5792,
+      "label": "Bordeaux, France"
+    },
+    "prompt": "Which idea from Montesquieu's The Spirit of the Laws (1748) directly shaped Articles I–III of the U.S. Constitution?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dividing legislative, executive, and judicial power prevents tyranny"
+      },
+      {
+        "id": "b",
+        "text": "Absolute monarchy provides the most stable protection for liberty"
+      },
+      {
+        "id": "c",
+        "text": "A single national assembly should control both courts and armies"
+      },
+      {
+        "id": "d",
+        "text": "Direct democracy works best in geographically vast empires"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Montesquieu argued that separating lawmaking, execution, and judging into distinct branches checks abuse of power.",
+    "source_url": "https://constitutioncenter.org/education/classroom-resources-by-topic/separation-of-powers",
+    "fun_fact": "James Madison cited 'the celebrated Montesquieu' as the oracle of separation of powers in Federalist No. 47.",
+    "trap_notes": {
+      "default": "Montesquieu's separation-of-powers theory became the blueprint for Articles I, II, and III.",
+      "b": "Montesquieu critiqued absolute monarchy as prone to despotism.",
+      "c": "Concentrating all power in one assembly violates separation of powers.",
+      "d": "Montesquieu believed pure direct democracy suited small city-states, not vast republics."
+    }
+  },
+  {
+    "id": "civics-syn-104",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Apportionment & Migration",
+    "era": "1950–2020",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. House of Representatives"
+    },
+    "secondary_geo": {
+      "lat": 33.4484,
+      "lng": -112.074,
+      "label": "Phoenix, AZ"
+    },
+    "prompt": "How has postwar internal migration to the Sun Belt altered national representation in Washington, D.C.?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It eliminated the constitutional requirement for a decennial U.S. Census"
+      },
+      {
+        "id": "b",
+        "text": "It shifted House seats and electors from the Frost Belt to the Sun Belt"
+      },
+      {
+        "id": "c",
+        "text": "It increased the number of U.S. senators representing Sun Belt states"
+      },
+      {
+        "id": "d",
+        "text": "It reduced the total number of voting House members below 435 seats"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Air conditioning and Sun Belt job growth drew millions southward and westward, shifting House seats and electoral votes accordingly.",
+    "source_url": "https://www.census.gov/library/visualizations/2021/dec/2020-apportionment-map.html",
+    "fun_fact": "After the 2020 Census, Texas gained two House seats while New York, Ohio, and Pennsylvania each lost one.",
+    "trap_notes": {
+      "default": "Population migration reallocates House seats and Electoral College votes after each census.",
+      "a": "The Constitution mandates a decennial census specifically to reapportion seats.",
+      "c": "Every state receives exactly two U.S. senators regardless of population.",
+      "d": "The total number of voting House seats remains fixed at 435."
+    }
+  },
+  {
+    "id": "civics-syn-105",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Incorporation Doctrine",
+    "era": "1925",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, NY"
+    },
+    "prompt": "Why was Gitlow v. New York (1925) a turning point in applying the Bill of Rights to the states?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It repealed the First Amendment's protection of political speech"
+      },
+      {
+        "id": "b",
+        "text": "It allowed state governors to suspend the 14th Amendment in wartime"
+      },
+      {
+        "id": "c",
+        "text": "It used the 14th Amendment Due Process Clause to apply free speech to states"
+      },
+      {
+        "id": "d",
+        "text": "It ruled that the Bill of Rights restricts only the federal government"
+      }
+    ],
+    "answer": "c",
+    "explanation": "In Gitlow, the Supreme Court held that First Amendment speech and press freedoms bind states via the 14th Amendment.",
+    "source_url": "https://constitutioncenter.org/the-constitution/supreme-court-case-library/gitlow-v-new-york",
+    "fun_fact": "Benjamin Gitlow lost his own appeal, yet the Court's ruling launched modern selective incorporation.",
+    "trap_notes": {
+      "default": "Selective incorporation uses the 14th Amendment to apply Bill of Rights protections to state laws.",
+      "a": "The Supreme Court cannot repeal constitutional amendments.",
+      "b": "State governors have no authority to suspend federal constitutional amendments.",
+      "d": "Barron v. Baltimore (1833) held that rule before the 14th Amendment; Gitlow reversed that trend."
+    }
+  },
+  {
+    "id": "civics-syn-106",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Federalism & Banking",
+    "era": "1819",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "label": "Baltimore, MD"
+    },
+    "prompt": "How did McCulloch v. Maryland (1819) support federal economic institutions against state interference?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It ruled that only state-chartered banks could issue paper currency"
+      },
+      {
+        "id": "b",
+        "text": "It allowed Maryland to tax federal institutions at 10 percent"
+      },
+      {
+        "id": "c",
+        "text": "It abolished the Second Bank of the United States as unconstitutional"
+      },
+      {
+        "id": "d",
+        "text": "It affirmed implied power to charter a national bank and barred state taxes on it"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Marshall invoked the Necessary and Proper Clause for the bank and the Supremacy Clause to block Maryland's tax.",
+    "source_url": "https://www.archives.gov/milestone-documents/mcculloch-v-maryland",
+    "fun_fact": "The ruling protected federal agencies from hostile state taxation across the growing republic.",
+    "trap_notes": {
+      "default": "McCulloch upheld implied congressional power and federal supremacy over state taxation.",
+      "a": "The Court upheld Congress's power to charter a national bank.",
+      "b": "The Court struck down Maryland's tax under the Supremacy Clause.",
+      "c": "President Andrew Jackson later vetoed the bank's recharter in 1832, not the Court in 1819."
+    }
+  },
+  {
+    "id": "civics-syn-107",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Social Contract Theory",
+    "era": "1689–1776",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, PA"
+    },
+    "secondary_geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, England"
+    },
+    "prompt": "How did John Locke's Two Treatises of Government (1689) influence the Declaration of Independence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It argued that governments derive legitimacy from consent to protect natural rights"
+      },
+      {
+        "id": "b",
+        "text": "It defended the divine right of kings against parliamentary rebellion"
+      },
+      {
+        "id": "c",
+        "text": "It proposed abolishing private property in favor of communal ownership"
+      },
+      {
+        "id": "d",
+        "text": "It urged colonies to remain loyal to monarchs regardless of grievances"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Jefferson echoed Locke's social contract: people have natural rights, and when government violates them, citizens may alter or abolish it.",
+    "source_url": "https://www.archives.gov/founding-docs/declaration-transcript",
+    "fun_fact": "Locke listed natural rights as 'life, liberty, and estate,' which Jefferson adapted to 'life, liberty, and the pursuit of happiness.'",
+    "trap_notes": {
+      "default": "Locke's social contract and natural-rights philosophy underpin the Declaration's justification for independence.",
+      "b": "Locke wrote his First Treatise specifically to refute the divine right of kings.",
+      "c": "Locke strongly defended individual property rights as a core natural right.",
+      "d": "Locke argued citizens have a right to revolt against tyrannical rulers."
+    }
+  },
+  {
+    "id": "civics-syn-108",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Redistricting & Spatial Politics",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.7796,
+      "lng": -78.6382,
+      "label": "Raleigh, NC"
+    },
+    "secondary_geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, MA"
+    },
+    "prompt": "How do 'packing' and 'cracking' manipulate spatial geography during legislative redistricting?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They assign extra U.S. senators to densely populated urban areas"
+      },
+      {
+        "id": "b",
+        "text": "They concentrate rival voters in few districts or split them across many"
+      },
+      {
+        "id": "c",
+        "text": "They require every legislative district to follow county boundaries"
+      },
+      {
+        "id": "d",
+        "text": "They ensure every district has an identical geographic land area"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Packing wastes rival votes in landslide districts, while cracking dilutes rival majorities across several neighboring districts.",
+    "source_url": "https://www.brennancenter.org/our-work/research-reports/gerrymandering-explained",
+    "fun_fact": "In Rucho v. Common Cause (2019), the Supreme Court held federal courts cannot police purely partisan gerrymanders.",
+    "trap_notes": {
+      "default": "Partisan mapmakers use geographic packing and cracking to maximize wasted opposition votes.",
+      "a": "U.S. senators represent entire states, not redrawn geographic districts.",
+      "c": "Gerrymandered maps frequently slice across county and city lines.",
+      "d": "Districts must have roughly equal populations, not equal land areas."
+    }
+  },
+  {
+    "id": "civics-syn-109",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Voting Rights",
+    "era": "1965",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 32.4074,
+      "lng": -87.0211,
+      "label": "Selma, AL"
+    },
+    "secondary_geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Why was the Voting Rights Act of 1965 needed nearly a century after the 15th Amendment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Women were still barred from voting nationwide until 1965"
+      },
+      {
+        "id": "b",
+        "text": "The Supreme Court had repealed the 15th Amendment in 1954"
+      },
+      {
+        "id": "c",
+        "text": "Literacy tests and intimidation still blocked Black citizens from voting"
+      },
+      {
+        "id": "d",
+        "text": "The 15th Amendment applied only to presidential elections, not local ones"
+      }
+    ],
+    "answer": "c",
+    "explanation": "State literacy tests, poll taxes, and intimidation nullified 15th Amendment rights until federal law banned those barriers in 1965.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "fun_fact": "Within four years of the 1965 act, Black voter registration in Mississippi jumped from under 7% to nearly 60%.",
+    "trap_notes": {
+      "default": "Jim Crow barriers persisted until federal enforcement under the 1965 Voting Rights Act.",
+      "a": "The 19th Amendment guaranteed women's suffrage nationwide in 1920.",
+      "b": "The Supreme Court cannot repeal constitutional amendments.",
+      "d": "The 15th Amendment covered all elections, but states evaded it with discriminatory tests."
+    }
+  },
+  {
+    "id": "civics-syn-110",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Taxation & Constitutional Amendments",
+    "era": "1913",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, NY"
+    },
+    "prompt": "How did the 16th Amendment (1913) change federal fiscal capacity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It banned the federal government from collecting tariffs on imported goods"
+      },
+      {
+        "id": "b",
+        "text": "It required states to turn over local property taxes to the Treasury"
+      },
+      {
+        "id": "c",
+        "text": "It capped federal income tax rates at a flat two percent"
+      },
+      {
+        "id": "d",
+        "text": "It empowered Congress to levy a federal income tax without state apportionment"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The 16th Amendment overturned Pollock v. Farmers' Loan & Trust Co., letting Congress enact a progressive income tax.",
+    "source_url": "https://www.archives.gov/milestone-documents/16th-amendment",
+    "fun_fact": "Before 1913, tariffs and excise taxes provided the bulk of federal government revenue.",
+    "trap_notes": {
+      "default": "The 16th Amendment authorized unapportioned federal income taxes, shifting revenue away from tariffs.",
+      "a": "Tariffs remained legal under Article I, Section 8.",
+      "b": "Local property taxes stay with local and state governments.",
+      "c": "The 16th Amendment set no cap on income tax rates."
+    }
+  },
+  {
+    "id": "civics-syn-111",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Rule of Law",
+    "era": "1215–1791",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 51.4344,
+      "lng": -0.5625,
+      "label": "Runnymede, England"
+    },
+    "prompt": "Which principle from Clause 39 of Magna Carta (1215) is echoed in the Fifth Amendment Due Process Clause?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No free person may be imprisoned or stripped of property without lawful judgment"
+      },
+      {
+        "id": "b",
+        "text": "Every citizen has the right to vote directly on national tax rates"
+      },
+      {
+        "id": "c",
+        "text": "Monarchs hold absolute immunity from parliamentary oversight"
+      },
+      {
+        "id": "d",
+        "text": "Religious minorities must be granted separate legislative chambers"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Magna Carta's guarantee against arbitrary arrest without 'the law of the land' evolved into American constitutional due process.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/magna-carta",
+    "fun_fact": "English jurist Edward Coke helped popularize 'due process of law' as the modern translation of 'law of the land.'",
+    "trap_notes": {
+      "default": "Magna Carta planted the rule-of-law seed that grew into the Fifth Amendment's Due Process Clause.",
+      "b": "Magna Carta was a baronial charter, not a system of universal voting.",
+      "c": "Magna Carta limited, rather than expanded, royal immunity.",
+      "d": "Magna Carta did not establish separate religious legislative chambers."
+    }
+  },
+  {
+    "id": "civics-syn-112",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Electoral Geography",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, PA"
+    },
+    "secondary_geo": {
+      "lat": 43.0731,
+      "lng": -89.4012,
+      "label": "Madison, WI"
+    },
+    "prompt": "Why do presidential campaigns concentrate visits and ads in a handful of battleground states?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Electoral votes in safe states are divided proportionally by county"
+      },
+      {
+        "id": "b",
+        "text": "Winner-take-all state rules award all electors even for a narrow plurality"
+      },
+      {
+        "id": "c",
+        "text": "The Constitution bans campaigning in states with large populations"
+      },
+      {
+        "id": "d",
+        "text": "Only battleground states are permitted to hold presidential primaries"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Because 48 states use winner-take-all rules, winning a safe state by more votes adds zero extra electors, focusing focus on swing states.",
+    "source_url": "https://www.archives.gov/electoral-college/allocation",
+    "fun_fact": "Maine and Nebraska are the only two states that allocate some electoral votes by congressional district.",
+    "trap_notes": {
+      "default": "Winner-take-all state allocation makes closely divided swing states decisive for reaching 270.",
+      "a": "No state allocates electoral votes by county.",
+      "c": "Candidates can campaign in any state; strategy, not law, drives swing-state focus.",
+      "d": "Every state holds presidential primaries or caucuses."
+    }
+  },
+  {
+    "id": "civics-syn-113",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "War Powers",
+    "era": "1973",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "secondary_geo": {
+      "lat": 21.0278,
+      "lng": 105.8342,
+      "label": "Hanoi, Vietnam"
+    },
+    "prompt": "Why did Congress pass the War Powers Resolution of 1973 over President Nixon's veto?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To abolish the President's constitutional role as Commander in Chief"
+      },
+      {
+        "id": "b",
+        "text": "To require United Nations approval before any U.S. military deployment"
+      },
+      {
+        "id": "c",
+        "text": "To reassert legislative checks after undeclared executive wars in Vietnam"
+      },
+      {
+        "id": "d",
+        "text": "To transfer the power to declare war from Congress to the Pentagon"
+      }
+    ],
+    "answer": "c",
+    "explanation": "After Vietnam, Congress required presidents to report troop deployments within 48 hours and seek approval within 60 days.",
+    "source_url": "https://www.loc.gov/item/today-in-history/november-07/",
+    "fun_fact": "Every president since 1973 has questioned the War Powers Resolution's constitutionality, though most submit reports.",
+    "trap_notes": {
+      "default": "The 1973 War Powers Resolution aimed to curb unilateral presidential troop commitments after Vietnam.",
+      "a": "Statutes cannot abolish the President's Article II Commander-in-Chief role.",
+      "b": "The law requires congressional authorization, not UN permission.",
+      "d": "Congress sought to reclaim, not surrender, war-making oversight."
+    }
+  },
+  {
+    "id": "civics-syn-114",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Independent Agencies",
+    "era": "1913–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Federal Reserve Board"
+    },
+    "secondary_geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "Wall Street, New York"
+    },
+    "prompt": "Why did Congress structure the Federal Reserve Board with 14-year staggered terms?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To allow the President to fire governors over interest-rate disagreements"
+      },
+      {
+        "id": "b",
+        "text": "To give private commercial banks control over federal income tax rates"
+      },
+      {
+        "id": "c",
+        "text": "To place the central bank outside all congressional statutory authority"
+      },
+      {
+        "id": "d",
+        "text": "To insulate monetary policy from short-term electoral pressure"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Long, staggered terms prevent a single president from packing the Board, helping the Fed fight inflation even before elections.",
+    "source_url": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-board.htm",
+    "fun_fact": "The Federal Reserve Chair still testifies twice a year before Congress to maintain democratic accountability.",
+    "trap_notes": {
+      "default": "Staggered 14-year terms shield monetary policy from short-term political pressure to print money.",
+      "a": "Fed governors can only be removed 'for cause,' not over policy disagreements.",
+      "b": "Congress, not private banks, sets federal income tax rates.",
+      "c": "Congress created the Fed by statute and can amend its mandate at any time."
+    }
+  },
+  {
+    "id": "civics-syn-115",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Comparative Party Systems",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "label": "Amsterdam, Netherlands"
+    },
+    "prompt": "According to Duverger's Law, why does the U.S. have two major parties while the Netherlands has many?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Single-member plurality districts favor two parties, while proportional lists aid many"
+      },
+      {
+        "id": "b",
+        "text": "The U.S. Constitution bans third parties from appearing on federal ballots"
+      },
+      {
+        "id": "c",
+        "text": "Dutch law requires every citizen to join at least two political parties"
+      },
+      {
+        "id": "d",
+        "text": "Parliamentary systems typically produce fewer parties than presidential ones"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Single-member districts penalize minor parties under Duverger's Law, whereas proportional lists let small parties win seats.",
+    "source_url": "https://www.britannica.com/topic/two-party-system",
+    "fun_fact": "In the Netherlands, a party needs less than 1% of the national vote to win a seat in the 150-member lower house.",
+    "trap_notes": {
+      "default": "Electoral rules shape party systems: plurality districts produce two-party competition, while PR yields multiparty systems.",
+      "b": "Third parties regularly appear on U.S. ballots, though winner-take-all rules limit their wins.",
+      "c": "Dutch citizens are not required to join political parties.",
+      "d": "Proportional parliamentary systems typically produce more parties, not fewer."
+    }
+  },
+  {
+    "id": "civics-syn-116",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Interstate Relations",
+    "era": "1922–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 36.016,
+      "lng": -114.7377,
+      "label": "Colorado River Basin"
+    },
+    "secondary_geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Congress"
+    },
+    "prompt": "How does the Constitution's Compact Clause help seven western states manage the Colorado River?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It forbids states from cooperating on shared environmental resources"
+      },
+      {
+        "id": "b",
+        "text": "It lets states form binding regional water agreements with congressional consent"
+      },
+      {
+        "id": "c",
+        "text": "It lets upstream states divert all river water without consulting neighbors"
+      },
+      {
+        "id": "d",
+        "text": "It transfers all state river ownership directly to county sheriffs"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under Article I, Section 10, states negotiated the 1922 Colorado River Compact, approved by Congress, to divide water shares.",
+    "source_url": "https://www.usbr.gov/lc/region/pao/pdfiles/crcompct.pdf",
+    "fun_fact": "Over 200 interstate compacts operate in the U.S. today, covering bridges, transit, and river basins.",
+    "trap_notes": {
+      "default": "Article I, Section 10 allows interstate compacts with congressional consent to solve cross-border problems.",
+      "a": "The Compact Clause enables, rather than forbids, interstate cooperation.",
+      "c": "The Supreme Court settles interstate water disputes equitably rather than allowing total upstream diversion.",
+      "d": "Interstate compacts are state-level agreements approved by Congress, not county sheriffs."
+    }
+  },
+  {
+    "id": "civics-syn-117",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Wartime Civil Liberties",
+    "era": "1919",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, PA"
+    },
+    "prompt": "What constitutional test did Justice Oliver Wendell Holmes announce in Schenck v. United States (1919) during World War I?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress may outlaw all criticism of the President during peacetime"
+      },
+      {
+        "id": "b",
+        "text": "Newspapers must submit every wartime article for prior censorship"
+      },
+      {
+        "id": "c",
+        "text": "Speech creating a 'clear and present danger' may be restricted by Congress"
+      },
+      {
+        "id": "d",
+        "text": "Anti-draft leaflets are protected even if they spark immediate mutiny"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Holmes upheld Charles Schenck's Espionage Act conviction, ruling wartime speech creating a clear and present danger is not absolute.",
+    "source_url": "https://constitutioncenter.org/the-constitution/supreme-court-case-library/schenck-v-united-states",
+    "fun_fact": "Fifty years later, Brandenburg v. Ohio (1969) replaced Holmes's test with a stricter 'imminent lawless action' standard.",
+    "trap_notes": {
+      "default": "Schenck established that wartime emergencies can narrow First Amendment speech protections.",
+      "a": "Schenck focused on wartime draft obstruction, not peacetime criticism of the President.",
+      "b": "Near v. Minnesota (1931) strongly barred prior restraint of the press.",
+      "d": "The Court upheld Schenck's conviction for distributing anti-draft leaflets."
+    }
+  },
+  {
+    "id": "civics-syn-118",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Fiscal Federalism",
+    "era": "1980s–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 33.749,
+      "lng": -84.388,
+      "label": "Atlanta, GA"
+    },
+    "prompt": "Why do state governors generally prefer federal block grants over categorical grants?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Block grants require no reporting or auditing by state agencies"
+      },
+      {
+        "id": "b",
+        "text": "Categorical grants force states to cut all state-level taxes"
+      },
+      {
+        "id": "c",
+        "text": "Block grants are repaid to the federal Treasury with interest"
+      },
+      {
+        "id": "d",
+        "text": "Block grants let states tailor funds to local economic priorities"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Block grants bundle funds for broad goals like community development, giving states flexibility instead of rigid federal mandates.",
+    "source_url": "https://www.congress.gov/crs-product/R40638",
+    "fun_fact": "The 1996 welfare reform replaced a categorical entitlement with the Temporary Assistance for Needy Families (TANF) block grant.",
+    "trap_notes": {
+      "default": "Block grants reduce federal strings, letting states allocate resources where local needs are greatest.",
+      "a": "Block grants still require basic auditing and compliance with broad statutory goals.",
+      "b": "Categorical grants do not force states to cut their own taxes.",
+      "c": "Grants-in-aid are federal transfers, not loans repaid with interest."
+    }
+  },
+  {
+    "id": "civics-syn-119",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Constitutional Heritage",
+    "era": "1689–1791",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, England"
+    },
+    "prompt": "Which protection in the U.S. Eighth Amendment was borrowed almost word-for-word from the English Bill of Rights (1689)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bans on excessive bail, excessive fines, and cruel and unusual punishments"
+      },
+      {
+        "id": "b",
+        "text": "Guarantees of universal public education for all children"
+      },
+      {
+        "id": "c",
+        "text": "Separation of church and state through the Establishment Clause"
+      },
+      {
+        "id": "d",
+        "text": "Creation of an independent federal central bank"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Both the 1689 English Bill of Rights and the 1791 Eighth Amendment prohibit excessive bail, excessive fines, and cruel punishments.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-viii",
+    "fun_fact": "The English Bill of Rights was drafted after the Glorious Revolution of 1688 to curb royal abuses.",
+    "trap_notes": {
+      "default": "The Eighth Amendment's ban on excessive bail and cruel punishments traces directly to 1689 England.",
+      "b": "Public education is not mentioned in either the English Bill of Rights or the Eighth Amendment.",
+      "c": "England kept an established church (Church of England) in 1689.",
+      "d": "Central banking is unrelated to the Eighth Amendment."
+    }
+  },
+  {
+    "id": "civics-syn-120",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Representation & Demographics",
+    "era": "1787–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Senate"
+    },
+    "secondary_geo": {
+      "lat": 41.14,
+      "lng": -104.8202,
+      "label": "Cheyenne, WY"
+    },
+    "prompt": "How does the Great Compromise's equal Senate rule affect rural versus urban representation today?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rural states have no voting representation in the House of Representatives"
+      },
+      {
+        "id": "b",
+        "text": "Less populous rural states hold disproportionately greater per-capita Senate power"
+      },
+      {
+        "id": "c",
+        "text": "More populous urban states receive extra senators after each census"
+      },
+      {
+        "id": "d",
+        "text": "Every U.S. city with over one million residents elects its own senator"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Giving Wyoming (~580,000 people) and California (~39 million) two senators each amplifies rural states' per-capita Senate influence.",
+    "source_url": "https://www.senate.gov/about/origins-foundations/idea-of-the-senate/1787ConnecticutCompromise.htm",
+    "fun_fact": "Article V makes equal state suffrage in the Senate the only constitutional clause that cannot be amended without a state's consent.",
+    "trap_notes": {
+      "default": "Equal Senate representation gives small-population rural states greater per-capita voting weight.",
+      "a": "Every state is guaranteed at least one voting representative in the House.",
+      "c": "Every state gets two senators regardless of population.",
+      "d": "Cities do not elect their own U.S. senators."
+    }
+  },
+  {
+    "id": "civics-syn-121",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Women's Suffrage",
+    "era": "1869–1920",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 41.14,
+      "lng": -104.8202,
+      "label": "Cheyenne, WY"
+    },
+    "prompt": "How did western states like Wyoming and Colorado build momentum toward the 19th Amendment (1920)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Supreme Court banned state-level women's suffrage before 1920"
+      },
+      {
+        "id": "b",
+        "text": "Southern states adopted women's suffrage before any western territory"
+      },
+      {
+        "id": "c",
+        "text": "State-level suffrage wins proved women voters could shape federal politics"
+      },
+      {
+        "id": "d",
+        "text": "Western states seceded from Congress until women's suffrage passed"
+      }
+    ],
+    "answer": "c",
+    "explanation": "By 1918, over a dozen mostly western states had granted women full suffrage, pressuring Congress and the states to pass the 19th Amendment.",
+    "source_url": "https://www.archives.gov/milestone-documents/19th-amendment",
+    "fun_fact": "Montana's Jeannette Rankin became the first woman elected to Congress in 1916—four years before the 19th Amendment.",
+    "trap_notes": {
+      "default": "State-by-state suffrage victories in the West created political leverage for a national amendment.",
+      "a": "The Supreme Court never banned states from granting women the right to vote.",
+      "b": "Western territories and states led the nation in adopting women's suffrage.",
+      "d": "Western states worked within Congress rather than seceding."
+    }
+  },
+  {
+    "id": "civics-syn-122",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Campaign Finance & Free Speech",
+    "era": "2010",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, NY"
+    },
+    "prompt": "What economic and political change followed Citizens United v. FEC (2010)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Corporations were permitted to donate unlimited cash directly to candidates"
+      },
+      {
+        "id": "b",
+        "text": "Congress banned all political advertising within sixty days of elections"
+      },
+      {
+        "id": "c",
+        "text": "The Federal Election Commission was dissolved as unconstitutional"
+      },
+      {
+        "id": "d",
+        "text": "Corporations and unions gained First Amendment rights to spend unlimited independent funds"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Citizens United struck down limits on independent corporate and union political spending, fueling the rise of Super PACs.",
+    "source_url": "https://www.oyez.org/cases/2008/08-205",
+    "fun_fact": "The ruling kept federal bans on direct corporate donations to candidate campaigns intact.",
+    "trap_notes": {
+      "default": "Citizens United lifted bans on independent corporate/union expenditures, not direct candidate donations.",
+      "a": "Direct corporate contributions to federal candidates remain illegal.",
+      "b": "Citizens United actually struck down the Bipartisan Campaign Reform Act's blackout period.",
+      "c": "The FEC remains the federal agency enforcing campaign disclosure and contribution rules."
+    }
+  },
+  {
+    "id": "civics-syn-123",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Classical Republicanism",
+    "era": "509 BCE–1787 CE",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, PA"
+    },
+    "secondary_geo": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "label": "Rome, Italy"
+    },
+    "prompt": "How did the Roman Republic's mixed constitution inspire the framers of the U.S. Constitution?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It balanced executive consuls, an aristocratic Senate, and popular assemblies"
+      },
+      {
+        "id": "b",
+        "text": "It relied on hereditary emperors to appoint all judges for life"
+      },
+      {
+        "id": "c",
+        "text": "It eliminated written laws so leaders could rule by oral decree"
+      },
+      {
+        "id": "d",
+        "text": "It banned citizens from serving in elected assemblies"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The framers admired Rome's balanced republic—mixing executive authority, a deliberative Senate, and popular assemblies—to check tyranny.",
+    "source_url": "https://www.britannica.com/place/Roman-Republic",
+    "fun_fact": "The U.S. Senate and the Latin word 'capitol' both take their names directly from ancient Roman institutions.",
+    "trap_notes": {
+      "default": "Rome's mixed republic modeled checks and balances among executive, deliberative, and popular institutions.",
+      "b": "Hereditary emperors replaced the Roman Republic later; the framers admired the Republic.",
+      "c": "Rome codified the Twelve Tables so laws would be public and written.",
+      "d": "Roman citizens voted in popular assemblies to pass laws and elect magistrates."
+    }
+  },
+  {
+    "id": "civics-syn-124",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Territories & Federalism",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 18.4655,
+      "lng": -66.1057,
+      "label": "San Juan, Puerto Rico"
+    },
+    "secondary_geo": {
+      "lat": 13.4443,
+      "lng": 144.7937,
+      "label": "Hagåtña, Guam"
+    },
+    "prompt": "How does the political status of U.S. territories like Puerto Rico and Guam differ from U.S. states?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Territories are legally exempt from all federal statutes"
+      },
+      {
+        "id": "b",
+        "text": "Residents are U.S. citizens but lack voting senators and Electoral College votes"
+      },
+      {
+        "id": "c",
+        "text": "Residents are barred from serving in the U.S. armed forces"
+      },
+      {
+        "id": "d",
+        "text": "Each territory elects two voting U.S. senators to Congress"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under Article IV's Territory Clause, territories elect non-voting House delegates and do not cast Electoral College votes.",
+    "source_url": "https://www.gao.gov/products/gao-20-611",
+    "fun_fact": "Residents of Puerto Rico, Guam, and the U.S. Virgin Islands can vote in presidential primaries even without general-election electors.",
+    "trap_notes": {
+      "default": "U.S. territories have non-voting House delegates and no U.S. senators or presidential electors.",
+      "a": "Congress holds broad legislative authority over U.S. territories under Article IV.",
+      "c": "Residents of U.S. territories serve in the U.S. military at high rates.",
+      "d": "Only U.S. states elect voting U.S. senators."
+    }
+  },
+  {
+    "id": "civics-syn-125",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Executive War Powers & Civil Liberties",
+    "era": "1942–1944",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "label": "Fresno, CA"
+    },
+    "prompt": "What constitutional tension did Korematsu v. United States (1944) expose during World War II?",
+    "options": [
+      {
+        "id": "a",
+        "text": "State governors refused to enforce the 19th Amendment during wartime"
+      },
+      {
+        "id": "b",
+        "text": "The Supreme Court struck down Executive Order 9066 in 1944"
+      },
+      {
+        "id": "c",
+        "text": "Executive wartime security claims clashed with Fifth Amendment equal protection"
+      },
+      {
+        "id": "d",
+        "text": "Congress attempted to impeach President Roosevelt over tariff policy"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Court upheld Japanese American internment under wartime deference in 1944, a ruling later repudiated in 2018.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks/korematsu-v-united-states-podcast",
+    "fun_fact": "Congress formally apologized and paid reparations to surviving internees through the Civil Liberties Act of 1988.",
+    "trap_notes": {
+      "default": "Korematsu highlighted how wartime executive power can threaten minority civil liberties.",
+      "a": "The case involved federal military exclusion orders, not the 19th Amendment.",
+      "b": "The 1944 Court upheld the exclusion order; it did not strike it down.",
+      "d": "Korematsu concerned Executive Order 9066 and internment, not tariff impeachment."
+    }
+  },
+  {
+    "id": "civics-syn-126",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Administrative State",
+    "era": "1946–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, IL"
+    },
+    "prompt": "How do federal agencies like the EPA and FTC regulate the U.S. economy within constitutional limits?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They pass their own federal tax laws without congressional approval"
+      },
+      {
+        "id": "b",
+        "text": "They operate without judicial review by federal courts"
+      },
+      {
+        "id": "c",
+        "text": "They replace state legislatures on all local zoning matters"
+      },
+      {
+        "id": "d",
+        "text": "They issue binding rules under authority delegated by congressional statutes"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Congress delegates technical rulemaking to expert agencies, whose regulations carry force of law under the Administrative Procedure Act.",
+    "source_url": "https://www.archives.gov/federal-register/tutorial/overview",
+    "fun_fact": "Federal agencies must publish proposed rules in the Federal Register and invite public comments before finalizing them.",
+    "trap_notes": {
+      "default": "Regulatory agencies exercise delegated statutory authority, subject to public notice and court review.",
+      "a": "Only Congress can enact federal taxes.",
+      "b": "Federal courts regularly review agency rules to ensure they stay within statutory bounds.",
+      "c": "Local zoning remains a municipal and state responsibility."
+    }
+  },
+  {
+    "id": "civics-syn-127",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Comparative Executive Removal",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Congress"
+    },
+    "secondary_geo": {
+      "lat": 51.4995,
+      "lng": -0.1248,
+      "label": "Westminster, London"
+    },
+    "prompt": "How does removing a British prime minister via no-confidence differ from U.S. presidential impeachment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No-confidence removes a prime minister over politics; impeachment requires high crimes"
+      },
+      {
+        "id": "b",
+        "text": "Impeachment requires a simple majority in the House to remove a president"
+      },
+      {
+        "id": "c",
+        "text": "British prime ministers serve fixed four-year terms immune from Parliament"
+      },
+      {
+        "id": "d",
+        "text": "U.S. presidents are removed automatically if their party loses the House"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A parliamentary majority can oust a prime minister over politics, whereas U.S. impeachment requires conviction for serious offenses.",
+    "source_url": "https://www.parliament.uk/about/how/role/relations-with-other-institutions/parliament-government/",
+    "fun_fact": "No U.S. president has ever been removed from office by a Senate impeachment conviction.",
+    "trap_notes": {
+      "default": "Parliamentary no-confidence is a political tool; U.S. impeachment is a constitutional trial for misconduct.",
+      "b": "The House impeaches by majority, but removal requires a two-thirds Senate conviction.",
+      "c": "Prime ministers depend on Parliament's confidence and can be replaced mid-term.",
+      "d": "Divided government is common in the U.S.; losing Congress does not remove the President."
+    }
+  },
+  {
+    "id": "civics-syn-128",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Maritime Law & Sovereignty",
+    "era": "1982–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 18.0179,
+      "lng": -76.8099,
+      "label": "Kingston, Jamaica (UNCLOS)"
+    },
+    "secondary_geo": {
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "label": "Manila, Philippines"
+    },
+    "prompt": "What rights does a coastal state hold within its 200-nautical-mile Exclusive Economic Zone under UNCLOS?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ownership of all international waters across the entire ocean"
+      },
+      {
+        "id": "b",
+        "text": "Sovereign rights over fishing and seabed resources, while allowing foreign navigation"
+      },
+      {
+        "id": "c",
+        "text": "Total ban on all foreign commercial ships passing through the zone"
+      },
+      {
+        "id": "d",
+        "text": "Control over all airspace and territory of neighboring island nations"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 1982 Law of the Sea treaty grants coastal states resource rights out to 200 nautical miles while keeping navigation free.",
+    "source_url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/closindx.htm",
+    "fun_fact": "Full territorial sovereignty extends only 12 nautical miles from a state's coastline.",
+    "trap_notes": {
+      "default": "EEZs grant resource rights out to 200 nautical miles without blocking peaceful foreign shipping.",
+      "a": "Waters beyond 200 nautical miles are the high seas, open to all nations.",
+      "c": "Freedom of navigation for foreign ships is protected inside an EEZ.",
+      "d": "An EEZ covers maritime resources, not the land or airspace of other nations."
+    }
+  },
+  {
+    "id": "civics-syn-129",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Voting Equality & Redistricting",
+    "era": "1962",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 36.1627,
+      "lng": -86.7816,
+      "label": "Nashville, TN"
+    },
+    "prompt": "How did Baker v. Carr (1962) and subsequent rulings reshape legislative representation in the states?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They gave rural counties permanent extra seats regardless of population"
+      },
+      {
+        "id": "b",
+        "text": "They abolished state senates across the United States"
+      },
+      {
+        "id": "c",
+        "text": "They allowed federal courts to enforce 'one person, one vote' equal districts"
+      },
+      {
+        "id": "d",
+        "text": "They ruled that state legislative maps are immune from Equal Protection review"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Baker v. Carr made malapportionment justiciable under the 14th Amendment, leading to equal-population districts.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks/baker-v-carr-podcast",
+    "fun_fact": "Before 1962, Tennessee had not redrawn its legislative districts since 1901 despite massive urban growth.",
+    "trap_notes": {
+      "default": "Baker v. Carr opened the door for federal courts to require equal-population legislative districts.",
+      "a": "Reynolds v. Sims (1964) struck down county-based state senate maps that ignored population.",
+      "b": "States kept their bicameral senates, but had to draw them by equal population.",
+      "d": "The Court rejected the claim that malapportionment was a non-justiciable political question."
+    }
+  },
+  {
+    "id": "civics-syn-130",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Property Rights & Eminent Domain",
+    "era": "1791–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 41.3557,
+      "lng": -72.0995,
+      "label": "New London, CT"
+    },
+    "prompt": "What two constitutional conditions must government meet when exercising eminent domain under the Fifth Amendment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The owner must consent in writing and receive a tax exemption"
+      },
+      {
+        "id": "b",
+        "text": "Only state governors may take land, without paying market value"
+      },
+      {
+        "id": "c",
+        "text": "Congress must pass a constitutional amendment for each parcel taken"
+      },
+      {
+        "id": "d",
+        "text": "The taking must serve a public use and provide just compensation"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Fifth Amendment Takings Clause balances infrastructure needs with property rights by requiring public use and fair compensation.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-v",
+    "fun_fact": "In Kelo v. City of New London (2005), the Court ruled economic development can qualify as 'public use,' prompting state limits.",
+    "trap_notes": {
+      "default": "Eminent domain allows government property takings only for public use and with just compensation.",
+      "a": "Eminent domain does not require the property owner's consent.",
+      "b": "Federal, state, and local governments may use eminent domain, always with just compensation.",
+      "c": "No constitutional amendment is needed; courts oversee public use and fair market value."
+    }
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "geo-mc-201",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 27.9881, "lng": 86.925, "label": "Himalaya Mountains, Nepal" },
+    "prompt": "Why do continental-continental convergent boundaries produce towering mountains without active volcanoes?",
+    "options": [
+      { "id": "a", "text": "Oceanic crust melts rapidly and vents steam through coastal fissures" },
+      { "id": "b", "text": "Buoyant continental plates crumple upward instead of sinking into the mantle" },
+      { "id": "c", "text": "Transform faults lock together and push basaltic magma onto flat plains" },
+      { "id": "d", "text": "Divergent rifts pull crust apart and lift plateau blocks above sea level" }
+    ],
+    "answer": "b",
+    "explanation": "Continental crust is too light to subduct deeply, so colliding plates fold and thicken upward into high mountain belts.",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards/plate-tectonics",
+    "trap_notes": {
+      "a": "Oceanic crust subducts and triggers volcanoes, whereas continental collisions lack deep subduction.",
+      "c": "Transform boundaries slide horizontally and do not build collision ranges like the Himalayas.",
+      "d": "Divergent boundaries pull plates apart to form rift valleys rather than colliding ranges.",
+      "default": "Light continental plates resist subduction and crumple upward when they collide."
+    }
+  },
+  {
+    "id": "geo-mc-202",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 19.8968, "lng": -155.5828, "label": "Hawaiian Islands, Pacific Ocean" },
+    "prompt": "What explains why the Hawaiian Islands grow progressively older toward the northwest?",
+    "options": [
+      { "id": "a", "text": "Ocean currents erode eastern islands faster than western islands" },
+      { "id": "b", "text": "Subduction trenches pull older volcanoes toward the equator" },
+      { "id": "c", "text": "The Pacific Plate drifts northwest over a stationary mantle hotspot" },
+      { "id": "d", "text": "Sea levels fell in stages and exposed older coral reefs first" }
+    ],
+    "answer": "c",
+    "explanation": "As the Pacific Plate moves northwest over a fixed magma plume, each new volcano forms southeast of older extinct islands.",
+    "source_url": "https://www.usgs.gov/observatories/hvo/hotspot-volcanism",
+    "trap_notes": {
+      "a": "Wave erosion shapes islands, but plate motion over a hotspot sets their age sequence.",
+      "b": "Hawaii sits far from any subduction trench in the middle of the Pacific Plate.",
+      "d": "Sea-level shifts do not create a linear volcanic chain with active eruptions at one end.",
+      "default": "A fixed mantle hotspot builds a chain of volcanoes as the overlying plate drifts."
+    }
+  },
+  {
+    "id": "geo-mc-203",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 1.2921, "lng": 36.8219, "label": "East African Rift, Kenya" },
+    "prompt": "Which tectonic process is actively splitting eastern Africa away from the rest of the continent?",
+    "options": [
+      { "id": "a", "text": "Isostatic rebound from melted ice sheets" },
+      { "id": "b", "text": "Subduction of the Indian Plate under Somalia" },
+      { "id": "c", "text": "Lateral sliding along a coastal transform fault" },
+      { "id": "d", "text": "Continental rifting along a divergent plate boundary" }
+    ],
+    "answer": "d",
+    "explanation": "Rising mantle heat stretches and thins the African Plate along the East African Rift, creating a new divergent boundary.",
+    "source_url": "https://pubs.usgs.gov/gip/dynamic/East_Africa.html",
+    "trap_notes": {
+      "a": "Isostatic rebound lifts former glaciated land like Scandinavia, not tropical East Africa.",
+      "b": "No oceanic trench is subducting beneath eastern Africa to split the continent.",
+      "c": "Transform faults slide horizontally rather than pulling a continent apart into rift lakes.",
+      "default": "Continental rifting pulls a single landmass apart and can eventually form a new ocean basin."
+    }
+  },
+  {
+    "id": "geo-mc-204",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Ocean Currents",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 65.0, "lng": -10.0, "label": "North Atlantic Ocean" },
+    "prompt": "What primarily drives deep-ocean thermohaline circulation around the globe?",
+    "options": [
+      { "id": "a", "text": "Differences in water density caused by temperature and salinity" },
+      { "id": "b", "text": "Tidal pull from the Moon lifting abyssal water toward coastlines" },
+      { "id": "c", "text": "Underwater earthquakes pushing cold currents across ocean basins" },
+      { "id": "d", "text": "Trade winds blowing directly along the ocean floor at the equator" }
+    ],
+    "answer": "a",
+    "explanation": "Cold, salty water in polar seas becomes dense and sinks, pulling warmer surface currents northward in a global conveyor.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor1.html",
+    "trap_notes": {
+      "b": "Tides move coastal water daily but do not power the slow global deep-ocean conveyor.",
+      "c": "Earthquakes trigger brief tsunamis rather than steady deep-water circulation.",
+      "d": "Surface winds drive upper gyres, while deep circulation depends on water density.",
+      "default": "Thermohaline circulation is powered by density shifts from water temperature and salt content."
+    }
+  },
+  {
+    "id": "geo-mc-205",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Ocean Currents",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -12.0464, "lng": -77.0428, "label": "Humboldt Current, Peru" },
+    "prompt": "How does the cold Humboldt Current affect both marine life and climate along Peru's coast?",
+    "options": [
+      { "id": "a", "text": "It warms coastal air to fuel daily tropical thunderstorms" },
+      { "id": "b", "text": "It brings nutrient-rich upwelling for fish while keeping coastal air dry" },
+      { "id": "c", "text": "It freezes nearshore waters and blocks commercial fishing ports" },
+      { "id": "d", "text": "It pushes warm equatorial water southward to melt Andean glaciers" }
+    ],
+    "answer": "b",
+    "explanation": "Cold upwelling feeds huge anchovy fisheries, while chilled ocean air holds little moisture and reinforces coastal aridity.",
+    "source_url": "https://www.britannica.com/place/Humboldt-Current",
+    "trap_notes": {
+      "a": "Cold currents stabilize coastal air and suppress rain rather than fueling thunderstorms.",
+      "c": "The Humboldt Current is cool, not freezing, and Peru's coast remains ice-free.",
+      "d": "The Humboldt flows northward from polar waters, cooling rather than warming the coast.",
+      "default": "Cold eastern-boundary currents support rich upwelling fisheries and dry coastal climates."
+    }
+  },
+  {
+    "id": "geo-mc-206",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Ocean Currents",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.0, "lng": -45.0, "label": "North Atlantic Gyre" },
+    "prompt": "In which direction do major subtropical ocean gyres circulate in the Northern Hemisphere?",
+    "options": [
+      { "id": "a", "text": "Straight north from the equator to the poles" },
+      { "id": "b", "text": "Counterclockwise around low-pressure troughs" },
+      { "id": "c", "text": "Clockwise due to winds and the Coriolis effect" },
+      { "id": "d", "text": "West to east along every continental coastline" }
+    ],
+    "answer": "c",
+    "explanation": "Prevailing winds and rightward Coriolis deflection bend surface currents into clockwise loops in the Northern Hemisphere.",
+    "source_url": "https://oceanservice.noaa.gov/facts/gyre.html",
+    "trap_notes": {
+      "a": "Continents and Coriolis deflection turn currents into circular loops rather than straight lines.",
+      "b": "Subtropical gyres rotate counterclockwise in the Southern Hemisphere, not the Northern.",
+      "d": "Currents flow west near the equator and east at mid-latitudes, forming closed loops.",
+      "default": "Northern Hemisphere subtropical gyres circulate clockwise; Southern Hemisphere gyres spin counterclockwise."
+    }
+  },
+  {
+    "id": "geo-mc-207",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -2.1894, "lng": 34.6857, "label": "Serengeti, Tanzania" },
+    "prompt": "Which seasonal rainfall pattern defines a tropical savanna climate?",
+    "options": [
+      { "id": "a", "text": "Heavy convectional rain during every month of the year" },
+      { "id": "b", "text": "Dry summers paired with mild, rainy winter months" },
+      { "id": "c", "text": "Light snowfall in winter and brief summer thaw" },
+      { "id": "d", "text": "Distinct wet summers and prolonged dry winters" }
+    ],
+    "answer": "d",
+    "explanation": "As the Intertropical Convergence Zone shifts poleward in summer, savannas receive heavy rain, followed by a dry winter.",
+    "source_url": "https://www.britannica.com/science/savanna",
+    "trap_notes": {
+      "a": "Year-round heavy rainfall characterizes tropical rainforests, not savannas.",
+      "b": "Dry summers and wet winters define a Mediterranean climate.",
+      "c": "Winter snow and brief summer thaws describe subarctic or tundra climates.",
+      "default": "Tropical savannas alternate between a rainy high-sun season and a dry low-sun season."
+    }
+  },
+  {
+    "id": "geo-mc-208",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.0196, "lng": 66.9237, "label": "Kazakh Steppe" },
+    "prompt": "How does a semi-arid steppe climate differ from a true desert climate?",
+    "options": [
+      { "id": "a", "text": "It receives enough seasonal rain to support short grasses and grazing" },
+      { "id": "b", "text": "It stays below freezing year-round with permanent permafrost soil" },
+      { "id": "c", "text": "It supports dense multi-layered canopy forests near the equator" },
+      { "id": "d", "text": "It forms only on windward tropical islands hit by trade winds" }
+    ],
+    "answer": "a",
+    "explanation": "Steppes sit between deserts and humid regions, getting slightly more rain than deserts—enough for drought-tolerant grasses.",
+    "source_url": "https://education.nationalgeographic.org/resource/steppe/",
+    "trap_notes": {
+      "b": "Permanent permafrost characterizes polar tundra, not mid-latitude steppes.",
+      "c": "Multi-layered canopy forests grow in wet tropical rainforests.",
+      "d": "Steppes typically occupy continental interiors or leeward rain-shadow zones.",
+      "default": "Steppe climates are semi-arid transition zones that sustain grasses rather than barren sand or dense forest."
+    }
+  },
+  {
+    "id": "geo-mc-209",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 62.0355, "lng": 129.6755, "label": "Yakutsk, Siberia" },
+    "prompt": "Why do interior cities like Yakutsk experience much wider annual temperature swings than coastal cities?",
+    "options": [
+      { "id": "a", "text": "High ocean tides push warm air inland every winter" },
+      { "id": "b", "text": "Land heats up and cools down far faster than ocean water" },
+      { "id": "c", "text": "Continental interiors receive twice as much solar radiation" },
+      { "id": "d", "text": "Mountain ranges trap summer heat inside polar ice caps" }
+    ],
+    "answer": "b",
+    "explanation": "Because land has a lower heat capacity than water, continental interiors experience hot summers and bitterly cold winters.",
+    "source_url": "https://www.britannica.com/science/continentality",
+    "trap_notes": {
+      "a": "Ocean moderation fades far inland, which is why interior temperatures swing widely.",
+      "c": "Cities at the same latitude receive similar incoming sunlight regardless of distance from the sea.",
+      "d": "Polar ice caps reflect sunlight rather than trapping summer heat in mid-latitudes.",
+      "default": "Continentality causes extreme seasonal temperature ranges far from moderating oceans."
+    }
+  },
+  {
+    "id": "geo-mc-210",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle, Washington" },
+    "prompt": "What gives marine west coast cities like Seattle and Dublin mild winters and cool summers?",
+    "options": [
+      { "id": "a", "text": "Dry polar high-pressure winds descending from ice sheets" },
+      { "id": "b", "text": "High elevation above nearby continental plateaus" },
+      { "id": "c", "text": "Prevailing westerlies blowing onshore from moderating oceans" },
+      { "id": "d", "text": "Seasonal monsoon reversals bringing desert heat in winter" }
+    ],
+    "answer": "c",
+    "explanation": "Prevailing westerly winds carry ocean-moderated air onto western coasts, keeping winter frosts mild and summers cool.",
+    "source_url": "https://www.britannica.com/science/marine-west-coast-climate",
+    "trap_notes": {
+      "a": "Polar high-pressure winds bring bitter cold rather than mild coastal temperatures.",
+      "b": "Seattle and Dublin sit near sea level, not on high plateaus.",
+      "d": "Monsoon reversals govern South and East Asia rather than mid-latitude western coasts.",
+      "default": "Onshore westerlies from nearby oceans buffer marine west coast climates against temperature extremes."
+    }
+  },
+  {
+    "id": "geo-mc-211",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 71.2906, "lng": -156.7886, "label": "Utqiagvik, Alaska" },
+    "prompt": "Why are tall trees absent across the Arctic tundra biome?",
+    "options": [
+      { "id": "a", "text": "Frequent wildfires burn every sapling each spring" },
+      { "id": "b", "text": "Constant hurricane winds snap trunks along coastal plains" },
+      { "id": "c", "text": "Dense grasslands outcompete tree seedlings for summer sunlight" },
+      { "id": "d", "text": "Permafrost blocks deep roots and growing seasons are too short" }
+    ],
+    "answer": "d",
+    "explanation": "Permanently frozen subsoil stops deep root growth, and brief cool summers prevent trees from maturing.",
+    "source_url": "https://education.nationalgeographic.org/resource/tundra-biome/",
+    "trap_notes": {
+      "a": "Frequent wildfires shape grasslands and chaparral, not the cold, wet Arctic tundra.",
+      "b": "Hurricanes form over warm tropical oceans, not the Arctic.",
+      "c": "Tundra vegetation consists of low mosses, lichens, and sedges rather than tall grasses.",
+      "default": "Permafrost and a short, cold growing season limit tundra plants to shallow-rooted mosses and shrubs."
+    }
+  },
+  {
+    "id": "geo-mc-212",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6118, "lng": -83.4895, "label": "Great Smoky Mountains, USA" },
+    "prompt": "Why do temperate deciduous trees shed their broad leaves every autumn?",
+    "options": [
+      { "id": "a", "text": "To conserve water and avoid frost damage during cold winters" },
+      { "id": "b", "text": "To absorb more winter sunlight through bare gray bark" },
+      { "id": "c", "text": "To prevent summer wildfires from climbing into the canopy" },
+      { "id": "d", "text": "To feed migrating herbivores before snow covers the ground" }
+    ],
+    "answer": "a",
+    "explanation": "Frozen winter soil limits water uptake, so shedding broad leaves prevents moisture loss and freezing damage.",
+    "source_url": "https://www.britannica.com/science/deciduous-forest",
+    "trap_notes": {
+      "b": "Bark does not perform major photosynthesis; leaves are dropped to enter winter dormancy.",
+      "c": "Leaf drop is triggered by shorter days and cooling temperatures, not wildfire defense.",
+      "d": "Leaf litter enriches soil microbes, but the adaptation protects the tree from winter drought.",
+      "default": "Deciduous trees drop leaves in autumn to conserve water when winter soil freezes."
+    }
+  },
+  {
+    "id": "geo-mc-213",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 34.4208, "lng": -119.6982, "label": "Santa Barbara Chaparral, California" },
+    "prompt": "Which adaptation helps chaparral shrubs survive in Mediterranean-climate regions?",
+    "options": [
+      { "id": "a", "text": "Broad, thin leaves that drip excess tropical rain" },
+      { "id": "b", "text": "Waxy leaves and resprouting roots adapted to dry summers and fire" },
+      { "id": "c", "text": "Floating air bladders that survive seasonal river floods" },
+      { "id": "d", "text": "Shallow moss mats that grow directly on permafrost" }
+    ],
+    "answer": "b",
+    "explanation": "Chaparral plants use waxy, leathery leaves to curb summer water loss and rely on deep roots or heat-triggered seeds after fires.",
+    "source_url": "https://www.britannica.com/plant/chaparral",
+    "trap_notes": {
+      "a": "Drip-tip leaves belong to wet tropical rainforests, not dry-summer chaparral.",
+      "c": "Floating roots belong to wetland plants, not dry Mediterranean hillsides.",
+      "d": "Moss mats on permafrost belong to Arctic tundra, not warm Mediterranean coasts.",
+      "default": "Chaparral shrubs are built for summer drought and periodic wildfire."
+    }
+  },
+  {
+    "id": "geo-mc-214",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.7456, "lng": -119.5936, "label": "Yosemite Valley, California" },
+    "prompt": "How can geographers tell a glacially carved mountain valley apart from a river-carved valley?",
+    "options": [
+      { "id": "a", "text": "Glacial valleys wind in tight meanders across flat floodplains" },
+      { "id": "b", "text": "Glacial valleys end in fan-shaped deltas made of fine clay" },
+      { "id": "c", "text": "Glacial valleys have steep walls and wide U-shaped floors" },
+      { "id": "d", "text": "Glacial valleys contain only limestone sinkholes and caves" }
+    ],
+    "answer": "c",
+    "explanation": "Heavy moving ice scours both valley walls and floors evenly, turning narrow river V-valleys into broad U-shaped troughs.",
+    "source_url": "https://www.nps.gov/articles/glaciated-valleys.htm",
+    "trap_notes": {
+      "a": "Tight meanders across flat floodplains are shaped by mature rivers, not glaciers.",
+      "b": "River deltas form where streams enter standing water, not inside alpine glacial troughs.",
+      "d": "Sinkholes and caves form by chemical dissolution in karst terrain, not glacial scouring.",
+      "default": "Glaciers carve U-shaped valleys with flat floors and steep walls, while rivers cut V-shaped valleys."
+    }
+  },
+  {
+    "id": "geo-mc-215",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7831, "lng": -73.9712, "label": "Long Island Terminal Moraine, New York" },
+    "prompt": "What landform is a moraine left behind by a retreating glacier?",
+    "options": [
+      { "id": "a", "text": "A deep volcanic crater filled with rainwater" },
+      { "id": "b", "text": "A curved sandbar built by coastal ocean waves" },
+      { "id": "c", "text": "A flat floodplain covered by seasonal river silt" },
+      { "id": "d", "text": "A ridge of unsorted rock and soil dropped as ice melts" }
+    ],
+    "answer": "d",
+    "explanation": "Glaciers bulldoze boulders, gravel, and clay together and leave them in unsorted ridges called moraines when the ice melts.",
+    "source_url": "https://education.nationalgeographic.org/resource/moraine/",
+    "trap_notes": {
+      "a": "Water-filled volcanic craters are calderas or crater lakes, not glacial deposits.",
+      "b": "Wave-built coastal sandbars are spits or barrier beaches.",
+      "c": "Seasonal river silt builds alluvial floodplains, which are sorted by water.",
+      "default": "A moraine is a ridge of unsorted glacial debris deposited at the edge or base of melting ice."
+    }
+  },
+  {
+    "id": "geo-mc-216",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 36.5054, "lng": -117.0794, "label": "Death Valley, California" },
+    "prompt": "Where does an alluvial fan typically form?",
+    "options": [
+      { "id": "a", "text": "Where a steep mountain stream slows abruptly on a flat desert basin" },
+      { "id": "b", "text": "Where two oceanic plates pull apart along a mid-ocean ridge" },
+      { "id": "c", "text": "Where coastal wind piles quartz sand into shifting dunes" },
+      { "id": "d", "text": "Where limestone bedrock dissolves beneath a humid forest" }
+    ],
+    "answer": "a",
+    "explanation": "When a fast canyon stream hits a flat valley floor, it loses speed and drops a fan-shaped apron of gravel and sand.",
+    "source_url": "https://www.nps.gov/articles/alluvial-fans.htm",
+    "trap_notes": {
+      "b": "Mid-ocean ridges are volcanic seafloor features, not stream-deposited land aprons.",
+      "c": "Wind-blown sand forms dunes, whereas alluvial fans are deposited by running water.",
+      "d": "Dissolving limestone creates karst sinkholes and caverns rather than sediment fans.",
+      "default": "Alluvial fans form at canyon mouths where mountain streams drop sediment onto flat plains."
+    }
+  },
+  {
+    "id": "geo-mc-217",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.1869, "lng": -86.1005, "label": "Mammoth Cave, Kentucky" },
+    "prompt": "Which process is an example of chemical weathering rather than physical weathering?",
+    "options": [
+      { "id": "a", "text": "Water freezing inside rock cracks and wedging pieces apart" },
+      { "id": "b", "text": "Weakly acidic rainwater dissolving limestone bedrock underground" },
+      { "id": "c", "text": "Tree roots prying apart granite slabs along a cliff face" },
+      { "id": "d", "text": "Windblown sand grains scraping smooth grooves into sandstone" }
+    ],
+    "answer": "b",
+    "explanation": "Chemical weathering alters rock minerals through reactions like acid dissolution, whereas frost and roots break rock mechanically.",
+    "source_url": "https://www.britannica.com/science/weathering-geology",
+    "trap_notes": {
+      "a": "Frost wedging breaks rock physically without changing its mineral chemistry.",
+      "c": "Root wedging is physical weathering because it pries rock apart mechanically.",
+      "d": "Wind abrasion wears rock down physically without altering its chemical makeup.",
+      "default": "Chemical weathering changes rock composition through reactions like dissolution or oxidation."
+    }
+  },
+  {
+    "id": "geo-mc-218",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.0584, "lng": -70.1786, "label": "Cape Cod Spit, Massachusetts" },
+    "prompt": "How does longshore drift reshape sandy coastlines over time?",
+    "options": [
+      { "id": "a", "text": "It pulls deep-sea magma upward to build basalt sea cliffs" },
+      { "id": "b", "text": "It freezes nearshore currents into permanent coastal ice shelves" },
+      { "id": "c", "text": "Angled waves move sand sideways along the shore to build spits" },
+      { "id": "d", "text": "River floods push inland boulders straight out to the continental shelf" }
+    ],
+    "answer": "c",
+    "explanation": "Waves striking a beach at an angle push sand in a zigzag path along the coast, forming sand spits and barrier islands.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_currents/03coastal2.html",
+    "trap_notes": {
+      "a": "Magma builds volcanic islands, not wave-sorted coastal sand spits.",
+      "b": "Longshore drift operates through liquid wave action on sandy coasts.",
+      "d": "Longshore drift is driven by ocean waves moving sand parallel to the beach.",
+      "default": "Longshore drift transports beach sediment parallel to the shoreline via angled waves."
+    }
+  },
+  {
+    "id": "geo-mc-219",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.4162, "lng": 25.6628, "label": "Subtropical Desert Belt" },
+    "prompt": "Why do many of the world's largest deserts lie near 30 degrees north and south latitude?",
+    "options": [
+      { "id": "a", "text": "Strong polar jet streams freeze all moisture before clouds form" },
+      { "id": "b", "text": "Mountain ranges ring every continent along the 30-degree parallels" },
+      { "id": "c", "text": "Warm ocean currents evaporate nearby rivers before they reach land" },
+      { "id": "d", "text": "Sinking dry air from Hadley cells creates persistent high-pressure belts" }
+    ],
+    "answer": "d",
+    "explanation": "Air that rises and drops rain at the equator descends around 30 degrees latitude, warming and drying as it sinks.",
+    "source_url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+    "trap_notes": {
+      "a": "Polar jet streams operate near 50-60 degrees latitude, not in the subtropics.",
+      "b": "Subtropical deserts appear even on flat plains like the Sahara and Australian Outback.",
+      "c": "Warm ocean currents actually add moisture to the air rather than drying continents out.",
+      "default": "Descending Hadley cell air around 30 degrees latitude suppresses clouds and rainfall."
+    }
+  },
+  {
+    "id": "geo-mc-220",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 0.0, "lng": 20.0, "label": "Equatorial Low-Pressure Belt" },
+    "prompt": "What happens along the Intertropical Convergence Zone where northern and southern trade winds meet?",
+    "options": [
+      { "id": "a", "text": "Warm moist air rises, cools, and produces heavy equatorial rainfall" },
+      { "id": "b", "text": "Cold polar air sinks and creates clear, rainless skies all year" },
+      { "id": "c", "text": "Westerlies accelerate eastward and freeze tropical ocean surfaces" },
+      { "id": "d", "text": "Dry continental air blocks clouds from forming over the equator" }
+    ],
+    "answer": "a",
+    "explanation": "Converging trade winds force warm, humid air upward at the ITCZ, fueling tall storm clouds and heavy tropical rain.",
+    "source_url": "https://www.noaa.gov/jetstream/tropical/inter-tropical-convergence-zone",
+    "trap_notes": {
+      "b": "Sinking dry air occurs in subtropical highs near 30 degrees, not at the ITCZ.",
+      "c": "Westerlies blow in the mid-latitudes and do not freeze equatorial seas.",
+      "d": "The ITCZ is the wettest atmospheric belt on Earth, not a dry zone.",
+      "default": "At the ITCZ, converging trade winds lift warm moist air to generate heavy rainfall."
+    }
+  },
+  {
+    "id": "geo-mc-221",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -2.0, "lng": -110.0, "label": "Eastern Equatorial Pacific" },
+    "prompt": "What oceanic shift triggers an El Nino event across the tropical Pacific?",
+    "options": [
+      { "id": "a", "text": "Trade winds strengthen and pile cold water against South America" },
+      { "id": "b", "text": "Trade winds weaken, letting warm surface water spread eastward" },
+      { "id": "c", "text": "Arctic icebergs drift south and cool the equatorial Pacific" },
+      { "id": "d", "text": "Subduction volcanoes boil deep water along the Indonesian arc" }
+    ],
+    "answer": "b",
+    "explanation": "When Pacific trade winds slacken, warm water from the western Pacific sloshes east toward Peru, disrupting global weather.",
+    "source_url": "https://oceanservice.noaa.gov/facts/ninonina.html",
+    "trap_notes": {
+      "a": "Stronger trade winds and cooler eastern Pacific waters describe La Nina, not El Nino.",
+      "c": "Arctic icebergs do not reach the equatorial Pacific.",
+      "d": "El Nino is a wind-and-ocean circulation cycle, not a volcanic event.",
+      "default": "Weakened trade winds allow warm surface water to shift toward South America during El Nino."
+    }
+  },
+  {
+    "id": "geo-mc-222",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.9716, "lng": -100.8727, "label": "High Plains Aquifer, Kansas" },
+    "prompt": "Why is heavy irrigation from the Ogallala Aquifer considered unsustainable in many areas?",
+    "options": [
+      { "id": "a", "text": "Ocean tides flood the aquifer with saltwater each summer" },
+      { "id": "b", "text": "Glacial meltwater washes the aquifer's gravel out to sea" },
+      { "id": "c", "text": "Pumping removes groundwater far faster than rainfall recharges it" },
+      { "id": "d", "text": "River dams block underground springs from reaching the surface" }
+    ],
+    "answer": "c",
+    "explanation": "Much of the Ogallala holds ancient groundwater in a semi-arid region where natural recharge is much slower than pumping.",
+    "source_url": "https://www.usgs.gov/mission-areas/water-resources/science/high-plains-aquifer-groundwater-levels",
+    "trap_notes": {
+      "a": "The High Plains lie far inland and are not affected by ocean tides.",
+      "b": "No glaciers remain on the High Plains to wash out the aquifer.",
+      "d": "The core issue is groundwater extraction outpacing natural precipitation recharge.",
+      "default": "Aquifer depletion occurs when withdrawal rates exceed natural recharge over time."
+    }
+  },
+  {
+    "id": "geo-mc-223",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "Pre-Industrial Europe" },
+    "prompt": "What keeps total population growth near zero during Stage 1 of the Demographic Transition Model?",
+    "options": [
+      { "id": "a", "text": "Low birth rates paired with very low death rates" },
+      { "id": "b", "text": "Strict government limits on family size in cities" },
+      { "id": "c", "text": "Mass emigration of young workers to industrial colonies" },
+      { "id": "d", "text": "Both birth rates and death rates remain very high" }
+    ],
+    "answer": "d",
+    "explanation": "In Stage 1, frequent disease, famine, and high infant mortality offset high birth rates, keeping population growth flat.",
+    "source_url": "https://www.britannica.com/topic/demographic-transition",
+    "trap_notes": {
+      "a": "Low birth and death rates describe Stage 4, not Stage 1.",
+      "b": "Stage 1 reflects pre-industrial conditions before modern urban population policies.",
+      "c": "Stage 1 predates industrial urbanization and mass labor migration.",
+      "default": "Stage 1 features high birth and death rates that roughly cancel each other out."
+    }
+  },
+  {
+    "id": "geo-mc-224",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Mexico City, Mexico" },
+    "prompt": "Why do birth rates typically fall during Stage 3 of the Demographic Transition Model?",
+    "options": [
+      { "id": "a", "text": "Urbanization, women's education, and lower child mortality reduce family size" },
+      { "id": "b", "text": "Famines and epidemics raise infant mortality back to Stage 1 levels" },
+      { "id": "c", "text": "Rural farms require larger families to plow new frontier land" },
+      { "id": "d", "text": "Life expectancy drops sharply as factories replace clean water systems" }
+    ],
+    "answer": "a",
+    "explanation": "As cities grow and more children survive, parents choose smaller families while women gain wider schooling and jobs.",
+    "source_url": "https://www.prb.org/resources/glossary/",
+    "trap_notes": {
+      "b": "Child mortality continues falling in Stage 3 rather than returning to Stage 1 highs.",
+      "c": "Large farm families characterize Stage 1 and Stage 2, before urban shifts.",
+      "d": "Life expectancy rises in Stage 3 thanks to sanitation and medicine.",
+      "default": "Stage 3 birth rates decline as societies urbanize and women's opportunities expand."
+    }
+  },
+  {
+    "id": "geo-mc-225",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Which demographic challenge faces countries in Stage 5 of the Demographic Transition Model?",
+    "options": [
+      { "id": "a", "text": "Explosive youth growth outpacing primary school construction" },
+      { "id": "b", "text": "An aging population and natural decrease as deaths exceed births" },
+      { "id": "c", "text": "Sudden collapse of sanitation causing high infant mortality" },
+      { "id": "d", "text": "High fertility rates doubling total population every twenty years" }
+    ],
+    "answer": "b",
+    "explanation": "In Stage 5, birth rates fall below death rates, shrinking the workforce while the elderly share grows.",
+    "source_url": "https://www.un.org/en/global-issues/ageing",
+    "trap_notes": {
+      "a": "Rapid youth growth is a Stage 2 feature, not Stage 5.",
+      "c": "Stage 5 countries have advanced healthcare and low infant mortality.",
+      "d": "Doubling every twenty years requires high fertility typical of Stage 2.",
+      "default": "Stage 5 nations experience aging populations and natural population decline."
+    }
+  },
+  {
+    "id": "geo-mc-226",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris, France" },
+    "prompt": "What does a Total Fertility Rate of about 2.1 children per woman represent?",
+    "options": [
+      { "id": "a", "text": "The minimum rate needed to double population in one generation" },
+      { "id": "b", "text": "The average birth rate in pre-industrial agrarian societies" },
+      { "id": "c", "text": "Replacement-level fertility that keeps population stable without migration" },
+      { "id": "d", "text": "The legal limit set by the United Nations for urban households" }
+    ],
+    "answer": "c",
+    "explanation": "At roughly 2.1 births per woman in low-mortality nations, each generation replaces itself without growing or shrinking.",
+    "source_url": "https://www.prb.org/resources/glossary/",
+    "trap_notes": {
+      "a": "Doubling in one generation requires a fertility rate above 4.0, not 2.1.",
+      "b": "Pre-industrial societies typically had fertility rates of 5 to 7 children per woman.",
+      "d": "The UN sets no legal family-size limits; 2.1 is a demographic benchmark.",
+      "default": "A Total Fertility Rate near 2.1 maintains a stable population size over time."
+    }
+  },
+  {
+    "id": "geo-mc-227",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "What does a country's age dependency ratio measure?",
+    "options": [
+      { "id": "a", "text": "The share of urban residents who commute by public transit" },
+      { "id": "b", "text": "The percentage of total land area used for food production" },
+      { "id": "c", "text": "The gap between male and female life expectancy at birth" },
+      { "id": "d", "text": "The ratio of youth and elderly dependents to working-age adults" }
+    ],
+    "answer": "d",
+    "explanation": "The dependency ratio compares people under 15 and 65 or older against the working-age population aged 15 to 64.",
+    "source_url": "https://data.worldbank.org/indicator/SP.POP.DPND",
+    "trap_notes": {
+      "a": "Commuting patterns measure urban transport, not demographic age structure.",
+      "b": "Agricultural land share relates to land use rather than age groups.",
+      "c": "Life-expectancy gaps track gender health differences, not economic support loads.",
+      "default": "The dependency ratio gauges how many young and retired people rely on working-age adults."
+    }
+  },
+  {
+    "id": "geo-mc-228",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Nile Delta, Egypt" },
+    "prompt": "Why does physiological density reveal more about food pressure than arithmetic density?",
+    "options": [
+      { "id": "a", "text": "It divides total population by arable farmland rather than total land" },
+      { "id": "b", "text": "It counts only farmers living in rural villages outside major cities" },
+      { "id": "c", "text": "It measures average household income per square kilometer of desert" },
+      { "id": "d", "text": "It excludes coastal ports and mountainous borders from census counts" }
+    ],
+    "answer": "a",
+    "explanation": "Physiological density compares population against farmable land, showing pressure on food-producing areas in countries like Egypt.",
+    "source_url": "https://www.britannica.com/science/population-density",
+    "trap_notes": {
+      "b": "Agricultural density counts farmers per arable unit; physiological density counts the total population.",
+      "c": "Population density measures people per unit area, not household income.",
+      "d": "Physiological density includes all residents and focuses specifically on arable land.",
+      "default": "Physiological density measures people per unit of arable land, highlighting agricultural strain."
+    }
+  },
+  {
+    "id": "geo-mc-229",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 31.2304, "lng": 121.4737, "label": "Shanghai, China" },
+    "prompt": "Which pattern best illustrates step migration?",
+    "options": [
+      { "id": "a", "text": "A retiree moves directly from Chicago to a coastal town in Florida" },
+      { "id": "b", "text": "A rural family moves to a nearby town and later to a major city" },
+      { "id": "c", "text": "Refugees cross an ocean in a single flight after a sudden storm" },
+      { "id": "d", "text": "Nomadic herders return to the same highland pasture each summer" }
+    ],
+    "answer": "b",
+    "explanation": "Step migration happens in stages as migrants move from smaller settlements to progressively larger towns and cities.",
+    "source_url": "https://www.britannica.com/topic/human-migration",
+    "trap_notes": {
+      "a": "A single direct move between cities is not a multi-stage sequence.",
+      "c": "A single emergency flight is forced migration rather than gradual step migration.",
+      "d": "Seasonal herding is transhumance, a cyclical movement rather than permanent urban relocation.",
+      "default": "Step migration occurs in incremental stages from rural areas toward larger urban centers."
+    }
+  },
+  {
+    "id": "geo-mc-230",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7158, "lng": -73.997, "label": "Lower East Side, New York" },
+    "prompt": "How does chain migration shape ethnic neighborhoods in destination cities?",
+    "options": [
+      { "id": "a", "text": "Governments assign newcomers randomly across rural farm counties" },
+      { "id": "b", "text": "Employers rotate temporary workers to a new city every six months" },
+      { "id": "c", "text": "Newcomers settle near relatives and friends from their home region" },
+      { "id": "d", "text": "Coastal ports require immigrants to stay within one mile of docks" }
+    ],
+    "answer": "c",
+    "explanation": "Family and community ties lower migration risks and costs, drawing later arrivals to the same neighborhoods.",
+    "source_url": "https://www.britannica.com/topic/chain-migration",
+    "trap_notes": {
+      "a": "Random dispersal prevents the clustered ethnic enclaves created by chain migration.",
+      "b": "Rotating temporary workers describes contract labor rather than family-linked settlement.",
+      "d": "Chain migration is driven by social networks, not port residency laws.",
+      "default": "Chain migration follows kinship and community networks, clustering newcomers in shared neighborhoods."
+    }
+  },
+  {
+    "id": "geo-mc-231",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 14.5995, "lng": 120.9842, "label": "Manila, Philippines" },
+    "prompt": "What are remittances in international migration?",
+    "options": [
+      { "id": "a", "text": "Border tariffs charged on imported consumer goods" },
+      { "id": "b", "text": "Visas granted to students studying at foreign universities" },
+      { "id": "c", "text": "Emergency food shipments sent by international relief agencies" },
+      { "id": "d", "text": "Money earned by migrants abroad and sent home to relatives" }
+    ],
+    "answer": "d",
+    "explanation": "Migrant workers send billions of dollars in remittances back to their home countries each year to support family expenses.",
+    "source_url": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+    "trap_notes": {
+      "a": "Tariffs are taxes on traded goods, not personal transfers from migrant workers.",
+      "b": "Student visas permit temporary study rather than referring to financial transfers.",
+      "c": "Relief shipments are humanitarian aid rather than private family earnings.",
+      "default": "Remittances are private earnings sent by migrants to families in their countries of origin."
+    }
+  },
+  {
+    "id": "geo-mc-232",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 33.5138, "lng": 36.2765, "label": "Damascus, Syria" },
+    "prompt": "How does an internally displaced person differ from a refugee?",
+    "options": [
+      { "id": "a", "text": "An internally displaced person flees home without crossing an international border" },
+      { "id": "b", "text": "An internally displaced person moves solely to find higher-paying factory work" },
+      { "id": "c", "text": "A refugee relocates within one province after a seasonal flood" },
+      { "id": "d", "text": "A refugee travels voluntarily to join relatives in another country" }
+    ],
+    "answer": "a",
+    "explanation": "Both flee danger, but refugees cross a national border for protection while internally displaced people stay inside their own country.",
+    "source_url": "https://www.unhcr.org/about-unhcr/who-we-protect/internally-displaced-people",
+    "trap_notes": {
+      "b": "Moving mainly for higher wages describes economic migration, not forced displacement.",
+      "c": "Someone displaced inside one province without crossing a border is an IDP, not a refugee.",
+      "d": "Refugees flee persecution or conflict rather than migrating purely for voluntary family reunion.",
+      "default": "Refugees cross an international border, whereas internally displaced persons remain inside their country."
+    }
+  },
+  {
+    "id": "geo-mc-233",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "How does Homer Hoyt's sector model describe urban land use compared with concentric rings?",
+    "options": [
+      { "id": "a", "text": "Cities expand only upward into skyscrapers around one central plaza" },
+      { "id": "b", "text": "Industries and housing radiate outward in wedges along transit corridors" },
+      { "id": "c", "text": "Farms and factories mix evenly inside every suburban residential block" },
+      { "id": "d", "text": "Older neighborhoods always demolish their central business districts" }
+    ],
+    "answer": "b",
+    "explanation": "Hoyt argued that cities grow in pie-shaped wedges along rail lines, rivers, and highways rather than uniform circular rings.",
+    "source_url": "https://www.britannica.com/topic/sector-model",
+    "trap_notes": {
+      "a": "Cities expand outward horizontally as well as vertically.",
+      "c": "Urban zoning separates heavy industry from most residential neighborhoods.",
+      "d": "The central business district remains a core anchor in Hoyt's sector model.",
+      "default": "The sector model shows urban zones stretching outward as wedges along transport routes."
+    }
+  },
+  {
+    "id": "geo-mc-234",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.1351, "lng": 11.582, "label": "Bavaria, Germany" },
+    "prompt": "In Walter Christaller's central place theory, what does the range of a good or service mean?",
+    "options": [
+      { "id": "a", "text": "The minimum population needed to keep a business profitable" },
+      { "id": "b", "text": "The total tax revenue collected by a regional market town" },
+      { "id": "c", "text": "The maximum distance consumers are willing to travel to buy it" },
+      { "id": "d", "text": "The number of highways connecting a capital city to ports" }
+    ],
+    "answer": "c",
+    "explanation": "Range is the farthest distance shoppers will travel for an item—short for groceries, much farther for specialized hospitals.",
+    "source_url": "https://www.britannica.com/topic/central-place-theory",
+    "trap_notes": {
+      "a": "The minimum population needed to support a service is its threshold, not its range.",
+      "b": "Central place theory models consumer travel and market spacing, not municipal tax totals.",
+      "d": "Highway count measures connectivity rather than a good's market range.",
+      "default": "Range is the maximum travel distance for a good, while threshold is the minimum customer base."
+    }
+  },
+  {
+    "id": "geo-mc-235",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": -23.5505, "lng": -46.6333, "label": "Sao Paulo, Brazil" },
+    "prompt": "Why do informal squatter settlements often grow on the outskirts of rapidly expanding megacities?",
+    "options": [
+      { "id": "a", "text": "City planners ban apartment buildings near central train stations" },
+      { "id": "b", "text": "Wealthy suburbs prefer living without paved streets or sewer lines" },
+      { "id": "c", "text": "Rural farms pay higher wages than downtown manufacturing plants" },
+      { "id": "d", "text": "Rapid rural-to-urban migration outpaces affordable housing supply" }
+    ],
+    "answer": "d",
+    "explanation": "When millions arrive faster than formal housing and utilities are built, low-income newcomers construct self-built settlements.",
+    "source_url": "https://unhabitat.org/topic/housing",
+    "trap_notes": {
+      "a": "Central cities typically feature dense apartments rather than bans on them.",
+      "b": "Squatter settlements lack services due to poverty and rapid growth, not wealthy preference.",
+      "c": "Higher urban job prospects pull rural migrants into cities.",
+      "default": "Informal settlements expand when rapid urban population growth outstrips affordable housing."
+    }
+  },
+  {
+    "id": "geo-mc-236",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.6782, "lng": -73.9442, "label": "Brooklyn, New York" },
+    "prompt": "What is a common social effect of gentrification in older inner-city neighborhoods?",
+    "options": [
+      { "id": "a", "text": "Rising property values and rents displace lower-income longtime residents" },
+      { "id": "b", "text": "Vacant factory lots convert into rent-free public farmland" },
+      { "id": "c", "text": "Suburban highways close and push middle-class buyers back to rural towns" },
+      { "id": "d", "text": "Housing prices collapse as historic buildings are restored" }
+    ],
+    "answer": "a",
+    "explanation": "New investment and wealthier newcomers renovate older neighborhoods, often raising rents beyond what existing residents can pay.",
+    "source_url": "https://education.nationalgeographic.org/resource/gentrification/",
+    "trap_notes": {
+      "b": "Gentrification replaces lower-cost housing and shops with higher-priced real estate, not free farms.",
+      "c": "Gentrification draws higher-income residents back into inner-city districts, not rural towns.",
+      "d": "Renovation and rising demand push housing prices upward rather than downward.",
+      "default": "Gentrification upgrades older neighborhoods while often pricing out lower-income residents."
+    }
+  },
+  {
+    "id": "geo-mc-237",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 54.0924, "lng": 12.0991, "label": "Mecklenburg, Germany" },
+    "prompt": "In Von Thunen's agricultural model, why are grain farming and ranching placed in the outermost rings?",
+    "options": [
+      { "id": "a", "text": "Livestock and wheat spoil faster than fresh milk and berries" },
+      { "id": "b", "text": "They need large tracts of cheaper land and ship cheaply without spoiling" },
+      { "id": "c", "text": "City laws forbid wheat fields within fifty miles of marketplaces" },
+      { "id": "d", "text": "Outer-ring soil is fertile only for cattle and never grows vegetables" }
+    ],
+    "answer": "b",
+    "explanation": "Extensive grain and grazing operations require vast acreage at low land rent, and their products travel well to market.",
+    "source_url": "https://www.britannica.com/biography/Johann-Heinrich-von-Thunen",
+    "trap_notes": {
+      "a": "Fresh milk and berries spoil quickly and sit in the innermost ring, unlike dry grain.",
+      "c": "Von Thunen's model is driven by land rent and transport cost, not municipal bans.",
+      "d": "The model assumes uniform soil quality; distance from market drives ring placement.",
+      "default": "Extensive crops and ranching occupy outer rings where land is cheap and spoilage is low."
+    }
+  },
+  {
+    "id": "geo-mc-238",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 53.5511, "lng": 9.9937, "label": "Northern German Plain" },
+    "prompt": "Why did Von Thunen place forestry for timber and fuelwood in the second ring near the city?",
+    "options": [
+      { "id": "a", "text": "Trees needed daily watering from urban aqueducts" },
+      { "id": "b", "text": "Forests blocked desert sandstorms from reaching town squares" },
+      { "id": "c", "text": "Heavy logs were expensive to haul over long distances on dirt roads" },
+      { "id": "d", "text": "Wood spoiled within twenty-four hours if not burned immediately" }
+    ],
+    "answer": "c",
+    "explanation": "In 1826, hauling bulky firewood by wagon was costly, so timberland stayed close to town to save transport fees.",
+    "source_url": "https://www.britannica.com/biography/Johann-Heinrich-von-Thunen",
+    "trap_notes": {
+      "a": "Forests relied on natural rainfall rather than urban irrigation.",
+      "b": "Northern Germany's climate is humid, not desert.",
+      "d": "Timber is heavy rather than perishable; transport weight drove its location.",
+      "default": "High transport costs for heavy timber kept forestry near the market in Von Thunen's model."
+    }
+  },
+  {
+    "id": "geo-mc-239",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 28.6139, "lng": 77.209, "label": "New Delhi, India" },
+    "prompt": "Which example best illustrates stimulus diffusion?",
+    "options": [
+      { "id": "a", "text": "A viral dance video spreads unchanged across social media apps" },
+      { "id": "b", "text": "Immigrants carry traditional recipes unchanged to a new neighborhood" },
+      { "id": "c", "text": "A fashion trend moves from Paris runways to major global capitals" },
+      { "id": "d", "text": "A global burger chain replaces beef with spiced potato patties in India" }
+    ],
+    "answer": "d",
+    "explanation": "Stimulus diffusion spreads an underlying concept—fast-food service—while modifying its product to fit local cultural norms.",
+    "source_url": "https://www.britannica.com/topic/cultural-diffusion",
+    "trap_notes": {
+      "a": "An unchanged viral video spreading rapidly illustrates contagious diffusion.",
+      "b": "Carrying an existing trait to a new home illustrates relocation diffusion.",
+      "c": "Spreading from top fashion hubs to large cities illustrates hierarchical diffusion.",
+      "default": "Stimulus diffusion adopts a core idea while adapting its specific form to local culture."
+    }
+  },
+  {
+    "id": "geo-mc-240",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 19.4326, "lng": -99.1332, "label": "Central Mexico" },
+    "prompt": "What does cultural syncretism describe?",
+    "options": [
+      { "id": "a", "text": "The blending of two distinct traditions into a new combined practice" },
+      { "id": "b", "text": "The total erasure of a minority language by state schools" },
+      { "id": "c", "text": "The legal protection of isolated tribes from outside contact" },
+      { "id": "d", "text": "The spread of a single standard dialect over national radio" }
+    ],
+    "answer": "a",
+    "explanation": "Syncretism fuses elements from different cultures or faiths into a distinct new tradition, such as Day of the Dead.",
+    "source_url": "https://www.britannica.com/topic/syncretism",
+    "trap_notes": {
+      "b": "Erasing a language describes forced assimilation rather than blending.",
+      "c": "Isolation prevents the cross-cultural mixing that creates syncretism.",
+      "d": "Standardizing one dialect reduces variation instead of merging two traditions.",
+      "default": "Cultural syncretism merges practices from separate traditions into a new hybrid form."
+    }
+  },
+  {
+    "id": "geo-mc-241",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 47.0, "lng": 35.0, "label": "Pontic-Caspian Steppe" },
+    "prompt": "Why do linguists group English, Spanish, Persian, and Hindi into the Indo-European language family?",
+    "options": [
+      { "id": "a", "text": "All four languages use the exact same modern alphabet" },
+      { "id": "b", "text": "They share ancestral roots and grammatical patterns from a common hearth" },
+      { "id": "c", "text": "United Nations treaties standardized their vocabularies in 1945" },
+      { "id": "d", "text": "Speakers of all four languages can understand each other without study" }
+    ],
+    "answer": "b",
+    "explanation": "Comparative linguistics shows shared core words and grammar linking these languages back to a Proto-Indo-European ancestor.",
+    "source_url": "https://www.britannica.com/topic/Indo-European-languages",
+    "trap_notes": {
+      "a": "Persian uses Arabic script and Hindi uses Devanagari, not the Latin alphabet.",
+      "c": "These languages diverged thousands of years before the twentieth century.",
+      "d": "Diverged languages in one family are usually not mutually intelligible.",
+      "default": "Language families reflect shared prehistoric ancestry rather than identical scripts or mutual intelligibility."
+    }
+  },
+  {
+    "id": "geo-mc-242",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.8283, "lng": -98.5795, "label": "United States Dialect Regions" },
+    "prompt": "What does an isogloss line show on a cultural geography map?",
+    "options": [
+      { "id": "a", "text": "Points that share equal elevation above sea level" },
+      { "id": "b", "text": "Shipping lanes that carry the most container tonnage" },
+      { "id": "c", "text": "A geographic boundary separating distinct dialect words or pronunciations" },
+      { "id": "d", "text": "Areas receiving identical average annual rainfall" }
+    ],
+    "answer": "c",
+    "explanation": "An isogloss marks where one regional word or speech feature gives way to another, such as 'soda' versus 'pop.'",
+    "source_url": "https://www.britannica.com/topic/isogloss",
+    "trap_notes": {
+      "a": "Lines of equal elevation are contour lines, not isoglosses.",
+      "b": "Shipping lanes map trade volume rather than speech patterns.",
+      "d": "Lines of equal rainfall are isohyets, not isoglosses.",
+      "default": "An isogloss maps the geographic boundary of a specific linguistic feature."
+    }
+  },
+  {
+    "id": "geo-mc-243",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 31.7683, "lng": 35.2137, "label": "Jerusalem" },
+    "prompt": "How does a universalizing religion differ from an ethnic religion in spatial spread?",
+    "options": [
+      { "id": "a", "text": "Universalizing religions forbid travel outside their original hearth" },
+      { "id": "b", "text": "Ethnic religions actively send missionaries to every continent" },
+      { "id": "c", "text": "Ethnic religions exist only in large coastal port cities" },
+      { "id": "d", "text": "Universalizing religions seek converts globally beyond one cultural group" }
+    ],
+    "answer": "d",
+    "explanation": "Universalizing faiths like Christianity, Islam, and Buddhism appeal across cultures, whereas ethnic faiths stay tied to one people or place.",
+    "source_url": "https://www.britannica.com/topic/universal-religion",
+    "trap_notes": {
+      "a": "Universalizing faiths encourage global outreach rather than staying confined to one hearth.",
+      "b": "Missionary outreach is typical of universalizing religions, not ethnic ones.",
+      "c": "Ethnic religions are often tied to specific rural homelands as well as cities.",
+      "default": "Universalizing religions spread widely through conversion, while ethnic religions remain rooted in a specific group."
+    }
+  },
+  {
+    "id": "geo-mc-244",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 25.3176, "lng": 82.9739, "label": "Ganges Basin, India" },
+    "prompt": "Which two major world religions originated in the South Asian cultural hearth?",
+    "options": [
+      { "id": "a", "text": "Hinduism and Buddhism" },
+      { "id": "b", "text": "Judaism and Christianity" },
+      { "id": "c", "text": "Confucianism and Shinto" },
+      { "id": "d", "text": "Islam and Zoroastrianism" }
+    ],
+    "answer": "a",
+    "explanation": "Both Hinduism and Buddhism emerged in the Indus and Ganges river regions of ancient South Asia.",
+    "source_url": "https://www.britannica.com/topic/Indian-philosophy",
+    "trap_notes": {
+      "b": "Judaism and Christianity originated in the Southwest Asian hearth.",
+      "c": "Confucianism began in China and Shinto developed in Japan, both in East Asia.",
+      "d": "Islam began on the Arabian Peninsula and Zoroastrianism in ancient Persia.",
+      "default": "South Asia is the shared hearth of Hinduism and Buddhism."
+    }
+  },
+  {
+    "id": "geo-mc-245",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.8283, "lng": -98.5795, "label": "Contiguous United States" },
+    "prompt": "Why are conic map projections widely used for mid-latitude regions like the contiguous United States?",
+    "options": [
+      { "id": "a", "text": "They eliminate all distortion across the entire globe at once" },
+      { "id": "b", "text": "They keep shape and area accurate along east-west mid-latitude bands" },
+      { "id": "c", "text": "They show polar ice caps larger than Africa for navigation" },
+      { "id": "d", "text": "They flatten continents into narrow vertical strips along the equator" }
+    ],
+    "answer": "b",
+    "explanation": "Wrapping a cone over mid-latitudes touches one or two standard parallels, keeping distortion low across wide east-west regions.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-some-common-map-projections",
+    "trap_notes": {
+      "a": "Every flat projection of a curved Earth introduces some distortion somewhere.",
+      "c": "Inflating polar regions is a hallmark of cylindrical Mercator maps, not conic maps.",
+      "d": "Equatorial cylindrical maps center on the equator rather than mid-latitude bands.",
+      "default": "Conic projections minimize distortion across mid-latitude regions with broad east-west extent."
+    }
+  },
+  {
+    "id": "geo-mc-246",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 90.0, "lng": 0.0, "label": "North Pole" },
+    "prompt": "What is a key advantage of an azimuthal planar projection centered on the North Pole?",
+    "options": [
+      { "id": "a", "text": "It preserves exact land area for every tropical island" },
+      { "id": "b", "text": "It shows all parallels of latitude as straight horizontal lines" },
+      { "id": "c", "text": "It displays true directions and great-circle air routes from the center" },
+      { "id": "d", "text": "It removes distortion near Antarctica on the opposite side of Earth" }
+    ],
+    "answer": "c",
+    "explanation": "Azimuthal maps project onto a flat plane touching one point, making straight lines from the center true great-circle paths.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-some-common-map-projections",
+    "trap_notes": {
+      "a": "Distortion grows rapidly far from the center point, including in the tropics.",
+      "b": "Polar azimuthal maps show parallels as concentric circles, not horizontal lines.",
+      "d": "The opposite hemisphere suffers the greatest distortion on a polar planar map.",
+      "default": "Azimuthal projections preserve true direction and great-circle routes radiating from their center."
+    }
+  },
+  {
+    "id": "geo-mc-247",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 0.0, "label": "Global Interrupted Projection" },
+    "prompt": "How does the Goode Homolosine projection reduce distortion across Earth's continents?",
+    "options": [
+      { "id": "a", "text": "It enlarges Greenland so compass bearings stay perfectly straight" },
+      { "id": "b", "text": "It shrinks Africa and South America to fit inside one hemisphere" },
+      { "id": "c", "text": "It omits polar regions above sixty degrees latitude" },
+      { "id": "d", "text": "It interrupts the map through the oceans to preserve land area and shape" }
+    ],
+    "answer": "d",
+    "explanation": "By splitting the map along ocean lobes like a peeled orange, the Goode Homolosine keeps continental areas and shapes accurate.",
+    "source_url": "https://en.wikipedia.org/wiki/Goode_homolosine_projection",
+    "trap_notes": {
+      "a": "Enlarging Greenland is a Mercator distortion, which Goode Homolosine avoids.",
+      "b": "Goode Homolosine is an equal-area projection that keeps continent sizes accurate.",
+      "c": "It includes polar regions by curving lobes toward the poles.",
+      "default": "Interrupted projections place cuts in the oceans so landmasses keep accurate sizes and shapes."
+    }
+  },
+  {
+    "id": "geo-mc-248",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Cartographic Analysis" },
+    "prompt": "What do cartographers use Tissot's indicatrix to visualize on a world map?",
+    "options": [
+      { "id": "a", "text": "How much a projection stretches area and alters shape at each spot" },
+      { "id": "b", "text": "Where active tectonic plates collide beneath ocean trenches" },
+      { "id": "c", "text": "How fast ocean currents carry warm water toward the poles" },
+      { "id": "d", "text": "Which cities hold the highest population density per square mile" }
+    ],
+    "answer": "a",
+    "explanation": "Placing identical small circles across a globe shows how a projection stretches them into ovals or changes their size.",
+    "source_url": "https://en.wikipedia.org/wiki/Tissot%27s_indicatrix",
+    "trap_notes": {
+      "b": "Tissot's indicatrix measures map-projection distortion, not plate tectonics.",
+      "c": "Ocean current speeds are mapped with flow vectors, not projection circles.",
+      "d": "Population density is shown with choropleth or dot maps, not Tissot circles.",
+      "default": "Tissot's indicatrix uses circles to reveal local area and shape distortion in map projections."
+    }
+  },
+  {
+    "id": "geo-mc-249",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 34.0522, "lng": -118.2437, "label": "GIS Data Modeling" },
+    "prompt": "How does raster data differ from vector data inside a Geographic Information System?",
+    "options": [
+      { "id": "a", "text": "Raster files store only street names, while vector files hold satellite photos" },
+      { "id": "b", "text": "Raster uses a grid of cells, while vector uses points, lines, and polygons" },
+      { "id": "c", "text": "Raster maps work only offline, while vector maps require paper printing" },
+      { "id": "d", "text": "Raster layers ignore elevation, while vector layers ignore political borders" }
+    ],
+    "answer": "b",
+    "explanation": "Raster data represents continuous surfaces like elevation or imagery in pixels, while vector data models discrete features.",
+    "source_url": "https://www.usgs.gov/faqs/what-difference-between-raster-and-vector-data",
+    "trap_notes": {
+      "a": "That reverses the two: satellite imagery is raster, while street networks are vector.",
+      "c": "Both raster and vector are digital GIS formats used on computers.",
+      "d": "Elevation grids are classic raster layers, and borders are classic vector polygons.",
+      "default": "GIS raster data uses pixel grids for continuous surfaces; vector data uses points, lines, and polygons."
+    }
+  },
+  {
+    "id": "geo-mc-250",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What task does geocoding perform in a Geographic Information System?",
+    "options": [
+      { "id": "a", "text": "Encrypting satellite signals to block unauthorized military tracking" },
+      { "id": "b", "text": "Measuring rock density beneath coastal oil-drilling platforms" },
+      { "id": "c", "text": "Converting street addresses or place names into map coordinates" },
+      { "id": "d", "text": "Replacing curved latitude lines with flat Mercator grid squares" }
+    ],
+    "answer": "c",
+    "explanation": "Geocoding matches text addresses to latitude and longitude coordinates so customer or clinic locations appear on a map.",
+    "source_url": "https://www.census.gov/programs-surveys/geography/about/glossary.html",
+    "trap_notes": {
+      "a": "Geocoding locates addresses on maps rather than encrypting satellite transmissions.",
+      "b": "Rock density testing is geophysical surveying, not GIS address matching.",
+      "d": "Changing map coordinate systems is reprojection, not geocoding.",
+      "default": "Geocoding turns text addresses into geographic coordinates for spatial mapping."
+    }
+  },
+  {
+    "id": "geo-mc-251",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.5152, "lng": -122.6784, "label": "Portland, Oregon" },
+    "prompt": "Why would a city planner create a 500-meter buffer zone in GIS around every public school?",
+    "options": [
+      { "id": "a", "text": "To calculate average ocean depth along nearby shipping channels" },
+      { "id": "b", "text": "To erase all property tax records inside residential neighborhoods" },
+      { "id": "c", "text": "To convert paper topographic maps into satellite photographs" },
+      { "id": "d", "text": "To identify all streets and parcels within walking distance of schools" }
+    ],
+    "answer": "d",
+    "explanation": "A GIS buffer draws a uniform distance zone around features, helping planners check sidewalk safety or zoning near schools.",
+    "source_url": "https://en.wikipedia.org/wiki/Buffer_(GIS)",
+    "trap_notes": {
+      "a": "Buffer zones measure proximity around mapped features, not ocean bathymetry.",
+      "b": "GIS buffers select nearby features for analysis without deleting tax databases.",
+      "c": "Digitizing paper maps is scanning or tracing, not spatial buffering.",
+      "default": "A GIS buffer defines a fixed-distance zone around a point, line, or polygon for proximity analysis."
+    }
+  },
+  {
+    "id": "geo-mc-252",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 44.428, "lng": -110.5885, "label": "Topographic Mapping" },
+    "prompt": "On a topographic map, what do closely spaced contour lines indicate about the terrain?",
+    "options": [
+      { "id": "a", "text": "A steep slope where elevation changes rapidly over a short distance" },
+      { "id": "b", "text": "A wide, flat floodplain where river water barely flows" },
+      { "id": "c", "text": "A dense urban neighborhood with high apartment buildings" },
+      { "id": "d", "text": "A dry desert basin with no underground water reserves" }
+    ],
+    "answer": "a",
+    "explanation": "Each contour line marks a set elevation step, so tightly packed lines show elevation rising or dropping steeply.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-contour-lines",
+    "trap_notes": {
+      "b": "Flat floodplains have widely spaced contour lines, not closely packed ones.",
+      "c": "Contour lines measure natural ground elevation, not building height.",
+      "d": "Contour spacing shows terrain slope, not soil moisture or groundwater.",
+      "default": "Closely spaced contour lines represent steep terrain; wide spacing shows gentle slopes."
+    }
+  },
+  {
+    "id": "geo-mc-253",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 12.5833, "lng": 43.3333, "label": "Bab el-Mandeb Strait" },
+    "prompt": "Why is the Bab el-Mandeb Strait critical to maritime trade between Europe and Asia?",
+    "options": [
+      { "id": "a", "text": "It connects the Black Sea directly to the Mediterranean Sea" },
+      { "id": "b", "text": "It links the Red Sea to the Gulf of Aden along the Suez route" },
+      { "id": "c", "text": "It separates the Pacific Ocean from the Arctic Ocean" },
+      { "id": "d", "text": "It provides the only deepwater entrance into the Baltic Sea" }
+    ],
+    "answer": "b",
+    "explanation": "Ships using the Suez Canal must pass through the narrow Bab el-Mandeb between Yemen and Djibouti to reach the Indian Ocean.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "a": "The Bosporus and Dardanelles link the Black Sea to the Mediterranean.",
+      "c": "The Bering Strait separates the Pacific and Arctic oceans.",
+      "d": "The Danish Straits connect the Baltic Sea to the North Sea.",
+      "default": "The Bab el-Mandeb Strait guards the southern entrance to the Red Sea and Suez shipping lane."
+    }
+  },
+  {
+    "id": "geo-mc-254",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.05, "lng": 1.45, "label": "Strait of Dover" },
+    "prompt": "Which two bodies of water does the Strait of Dover connect?",
+    "options": [
+      { "id": "a", "text": "The Red Sea and the Persian Gulf" },
+      { "id": "b", "text": "The Adriatic Sea and the Aegean Sea" },
+      { "id": "c", "text": "The English Channel and the North Sea" },
+      { "id": "d", "text": "The Sea of Japan and the East China Sea" }
+    ],
+    "answer": "c",
+    "explanation": "Located between England and France, the Strait of Dover funnels busy European shipping between the English Channel and North Sea.",
+    "source_url": "https://www.britannica.com/place/Strait-of-Dover",
+    "trap_notes": {
+      "a": "The Red Sea and Persian Gulf do not connect directly via a single strait.",
+      "b": "The Strait of Otranto links the Adriatic Sea to the Ionian Sea.",
+      "d": "The Korea Strait links the Sea of Japan and the East China Sea.",
+      "default": "The Strait of Dover narrows between Britain and France, linking the English Channel and North Sea."
+    }
+  },
+  {
+    "id": "geo-mc-255",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 55.6761, "lng": 12.5683, "label": "Danish Straits" },
+    "prompt": "Why are the Danish Straits strategically vital to Baltic Sea nations?",
+    "options": [
+      { "id": "a", "text": "They carry oil tankers directly from Kuwait into the Red Sea" },
+      { "id": "b", "text": "They link the Caspian Sea to the Black Sea across steppe plains" },
+      { "id": "c", "text": "They form the shortest tropical shortcut across Central America" },
+      { "id": "d", "text": "They serve as the sole natural sea outlet from the Baltic to the North Sea" }
+    ],
+    "answer": "d",
+    "explanation": "All maritime trade leaving Baltic ports for the Atlantic Ocean must pass through the narrow Danish Straits.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "a": "Gulf oil tankers pass through the Strait of Hormuz, not the Danish Straits.",
+      "b": "The Caspian Sea is landlocked with no natural strait to the Black Sea.",
+      "c": "The Panama Canal provides the shortcut across Central America.",
+      "default": "The Danish Straits control maritime access between the Baltic Sea and the North Sea."
+    }
+  },
+  {
+    "id": "geo-mc-256",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -53.4808, "lng": -70.7855, "label": "Strait of Magellan, Chile" },
+    "prompt": "What historic maritime role did the Strait of Magellan serve before the Panama Canal opened?",
+    "options": [
+      { "id": "a", "text": "A sheltered passage around southern South America between the Atlantic and Pacific" },
+      { "id": "b", "text": "An ice-free northern shortcut across Arctic Canada to East Asia" },
+      { "id": "c", "text": "A freshwater canal connecting the Amazon Basin to the Caribbean Sea" },
+      { "id": "d", "text": "A Mediterranean chokepoint separating Spain from Morocco" }
+    ],
+    "answer": "a",
+    "explanation": "Cutting between mainland South America and Tierra del Fuego, it offered a calmer alternative to stormy Cape Horn.",
+    "source_url": "https://www.britannica.com/place/Strait-of-Magellan",
+    "trap_notes": {
+      "b": "The Arctic shortcut north of Canada is the Northwest Passage, not the Strait of Magellan.",
+      "c": "The Strait of Magellan is a natural saltwater strait at South America's southern tip.",
+      "d": "The Strait of Gibraltar separates Spain from Morocco.",
+      "default": "The Strait of Magellan links the Atlantic and Pacific oceans at the southern tip of South America."
+    }
+  },
+  {
+    "id": "geo-mc-257",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 55.0, "lng": 75.0, "label": "Eurasian Heartland" },
+    "prompt": "How did Nicholas Spykman's Rimland theory revise Halford Mackinder's Heartland theory?",
+    "options": [
+      { "id": "a", "text": "It argued that Antarctica holds the key to global naval dominance" },
+      { "id": "b", "text": "It held that Eurasia's coastal margins matter more than its landlocked core" },
+      { "id": "c", "text": "It claimed air power ended all geographic limits on sea trade" },
+      { "id": "d", "text": "It predicted South America would unite into one global empire" }
+    ],
+    "answer": "b",
+    "explanation": "Spykman argued that controlling Eurasia's populous, resource-rich coastal Rimland—not its interior Heartland—decides global power.",
+    "source_url": "https://www.britannica.com/topic/geopolitics",
+    "trap_notes": {
+      "a": "Neither Mackinder nor Spykman centered global geopolitics on Antarctica.",
+      "c": "Spykman emphasized coastal geography and sea-land access rather than dismissing geography.",
+      "d": "Rimland theory focused on Eurasia's coastal periphery, not South America.",
+      "default": "Spykman's Rimland theory stressed Eurasia's coastal crescent over Mackinder's interior Heartland."
+    }
+  },
+  {
+    "id": "geo-mc-258",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 35.7796, "lng": -78.6382, "label": "Legislative District Mapping" },
+    "prompt": "What does gerrymandering involve in electoral geography?",
+    "options": [
+      { "id": "a", "text": "Counting mail-in ballots after polling stations close on election night" },
+      { "id": "b", "text": "Moving a national capital from a coastal port to an inland city" },
+      { "id": "c", "text": "Redrawing voting district borders to give one political party an edge" },
+      { "id": "d", "text": "Replacing proportional representation with ranked-choice city ballots" }
+    ],
+    "answer": "c",
+    "explanation": "Gerrymandering packs or splits opposing voters across oddly shaped districts to skew legislative election outcomes.",
+    "source_url": "https://www.britannica.com/topic/gerrymandering",
+    "trap_notes": {
+      "a": "Ballot counting rules do not alter the geographic shape of voting districts.",
+      "b": "Moving a capital city is a forward-capital strategy, not gerrymandering.",
+      "d": "Gerrymandering manipulates district boundaries rather than ballot-ranking rules.",
+      "default": "Gerrymandering manipulates electoral district boundaries for partisan advantage."
+    }
+  },
+  {
+    "id": "geo-mc-259",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 54.7104, "lng": 20.4522, "label": "Kaliningrad, Russia" },
+    "prompt": "What makes a territory like Kaliningrad an exclave of Russia?",
+    "options": [
+      { "id": "a", "text": "It is a landlocked island nation surrounded entirely by ocean" },
+      { "id": "b", "text": "It shares a continuous land border with Russia's main capital region" },
+      { "id": "c", "text": "It has no permanent residents and serves only as a research base" },
+      { "id": "d", "text": "It belongs to Russia politically while lying separated by other countries" }
+    ],
+    "answer": "d",
+    "explanation": "An exclave is a piece of a state separated from its main territory by foreign land; Kaliningrad sits between Poland and Lithuania.",
+    "source_url": "https://www.britannica.com/topic/enclave",
+    "trap_notes": {
+      "a": "An island surrounded by ocean is not an exclave unless separated by another state's territory.",
+      "b": "Kaliningrad is separated from mainland Russia by Lithuania and Belarus.",
+      "c": "Kaliningrad is a populated province with a major Baltic port.",
+      "default": "An exclave is part of a state detached from the main territory by foreign land."
+    }
+  },
+  {
+    "id": "geo-mc-260",
+    "type": "mc",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 55.9533, "lng": -3.1883, "label": "Edinburgh, Scotland" },
+    "prompt": "What does devolution mean in political geography?",
+    "options": [
+      { "id": "a", "text": "A central government transferring powers down to regional authorities" },
+      { "id": "b", "text": "Two neighboring countries merging into a single monetary union" },
+      { "id": "c", "text": "A coastal state extending its fishing zone two hundred miles offshore" },
+      { "id": "d", "text": "A military alliance drawing buffer zones along mountain borders" }
+    ],
+    "answer": "a",
+    "explanation": "Devolution shifts lawmaking or administrative authority from a national parliament to regional bodies like Scotland's parliament.",
+    "source_url": "https://www.britannica.com/topic/devolution-government",
+    "trap_notes": {
+      "b": "Merging currencies is supranational integration, the opposite of devolution.",
+      "c": "Offshore fishing zones are Exclusive Economic Zones under maritime law.",
+      "d": "Military buffer zones do not describe domestic power-sharing with regional governments.",
+      "default": "Devolution decentralizes governing power from a national state to subnational regions."
+    }
+  }
+]

@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "econ-ord-101",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1791–1913",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. banking milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Federal Reserve System is created by Congress" },
+      { "id": "b", "text": "First Bank of the United States receives charter" },
+      { "id": "c", "text": "National Banking Act establishes national charters" },
+      { "id": "d", "text": "Second Bank of the United States opens in Philadelphia" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The First Bank opened in 1791, the Second Bank in 1816, the National Banking Act passed in 1863, and the Fed began in 1913.",
+    "fun_fact": "Between 1836 and 1863, the U.S. had no central bank and state banks printed thousands of different banknotes.",
+    "source_url": "https://www.federalreservehistory.org/essays/central-banking-in-the-us",
+    "trap_notes": {
+      "default": "Order: First Bank (1791), Second Bank (1816), National Banking Act (1863), Fed (1913)."
+    }
+  },
+  {
+    "id": "econ-ord-102",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1929–1935",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "New York City, New York" },
+    "prompt": "Order these Great Depression and New Deal events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "FDIC is created to insure bank deposits" },
+      { "id": "b", "text": "Smoot-Hawley Tariff raises import duties" },
+      { "id": "c", "text": "Social Security Act establishes old-age pensions" },
+      { "id": "d", "text": "Wall Street stock market crashes in October" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "The crash hit in 1929, Smoot-Hawley passed in 1930, the FDIC launched in 1933, and Social Security passed in 1935.",
+    "fun_fact": "Over 9,000 U.S. banks failed between 1930 and 1933 before federal deposit insurance began.",
+    "source_url": "https://www.fdic.gov/about/history/",
+    "trap_notes": {
+      "default": "Order: 1929 Crash, 1930 Smoot-Hawley, 1933 FDIC, 1935 Social Security."
+    }
+  },
+  {
+    "id": "econ-ord-103",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1944–1999",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 44.259, "lng": -71.4414, "label": "Bretton Woods, New Hampshire" },
+    "prompt": "Order these global exchange-rate milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Major world currencies shift to floating rates" },
+      { "id": "b", "text": "European Union launches the euro currency" },
+      { "id": "c", "text": "Bretton Woods pegs currencies to the U.S. dollar" },
+      { "id": "d", "text": "President Nixon ends dollar-to-gold convertibility" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Bretton Woods began in 1944, Nixon ended gold convertibility in 1971, floating rates followed in 1973, and the euro launched in 1999.",
+    "fun_fact": "Before 1971, foreign central banks could exchange $35 for one ounce of U.S. gold.",
+    "source_url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+    "trap_notes": {
+      "default": "Order: Bretton Woods (1944), Gold window closes (1971), Floating rates (1973), Euro (1999)."
+    }
+  },
+  {
+    "id": "econ-ord-104",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "era": "1887–1934",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. business regulation laws from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Sherman Antitrust Act outlaws monopolies" },
+      { "id": "b", "text": "Interstate Commerce Act regulates railroads" },
+      { "id": "c", "text": "Securities and Exchange Commission is founded" },
+      { "id": "d", "text": "Clayton Antitrust Act bans price discrimination" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Congress passed the Interstate Commerce Act in 1887, Sherman Act in 1890, Clayton Act in 1914, and created the SEC in 1934.",
+    "fun_fact": "The Clayton Antitrust Act also exempted labor unions from being prosecuted as illegal monopolies.",
+    "source_url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/antitrust-laws",
+    "trap_notes": {
+      "default": "Order: Interstate Commerce (1887), Sherman (1890), Clayton (1914), SEC (1934)."
+    }
+  },
+  {
+    "id": "econ-ord-105",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1776–1936",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Order these landmark economics books from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "John Maynard Keynes publishes The General Theory" },
+      { "id": "b", "text": "Karl Marx publishes the first volume of Das Kapital" },
+      { "id": "c", "text": "Adam Smith publishes The Wealth of Nations" },
+      { "id": "d", "text": "David Ricardo explains comparative advantage" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "Smith published in 1776, Ricardo in 1817, Marx in 1867, and Keynes in 1936.",
+    "fun_fact": "Adam Smith's 'The Wealth of Nations' was published the same year as the U.S. Declaration of Independence.",
+    "source_url": "https://www.britannica.com/money/economics",
+    "trap_notes": {
+      "default": "Order: Smith (1776), Ricardo (1817), Marx (1867), Keynes (1936)."
+    }
+  },
+  {
+    "id": "econ-ord-106",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Labor & Wages",
+    "era": "1886–1947",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. labor history milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Fair Labor Standards Act sets federal minimum wage" },
+      { "id": "b", "text": "Taft-Hartley Act restricts union closed shops" },
+      { "id": "c", "text": "American Federation of Labor is founded" },
+      { "id": "d", "text": "Wagner Act protects collective bargaining rights" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "The AFL formed in 1886, the Wagner Act passed in 1935, the Fair Labor Standards Act in 1938, and Taft-Hartley in 1947.",
+    "fun_fact": "The first federal minimum wage under the 1938 Fair Labor Standards Act was 25 cents per hour.",
+    "source_url": "https://www.dol.gov/agencies/whd/about/history",
+    "trap_notes": {
+      "default": "Order: AFL (1886), Wagner Act (1935), Fair Labor Standards (1938), Taft-Hartley (1947)."
+    }
+  },
+  {
+    "id": "econ-ord-107",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1947–1995",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "Order these international trade milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "NAFTA takes effect across North America" },
+      { "id": "b", "text": "GATT is signed by 23 nations to cut tariffs" },
+      { "id": "c", "text": "World Trade Organization formally begins operations" },
+      { "id": "d", "text": "OPEC is founded by five oil-exporting nations" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "GATT began in 1947, OPEC formed in 1960, NAFTA started in January 1994, and the WTO launched in January 1995.",
+    "fun_fact": "GATT operated for nearly 48 years as a provisional trade agreement before the WTO became a formal body.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm",
+    "trap_notes": {
+      "default": "Order: GATT (1947), OPEC (1960), NAFTA (1994), WTO (1995)."
+    }
+  },
+  {
+    "id": "econ-ord-108",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1828–2020",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. tariff and trade policy events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "USMCA replaces NAFTA among North American nations" },
+      { "id": "b", "text": "Reciprocal Trade Agreements Act lets presidents cut tariffs" },
+      { "id": "c", "text": "Tariff of Abominations sparks Nullification Crisis" },
+      { "id": "d", "text": "Smoot-Hawley Tariff raises duties during Depression" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The Tariff of Abominations passed in 1828, Smoot-Hawley in 1930, Reciprocal Trade Act in 1934, and USMCA in 2020.",
+    "fun_fact": "Southern states opposed the 1828 tariff because it raised prices on imported manufactured goods.",
+    "source_url": "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+    "trap_notes": {
+      "default": "Order: 1828 Tariff, 1930 Smoot-Hawley, 1934 Reciprocal Trade, 2020 USMCA."
+    }
+  },
+  {
+    "id": "econ-ord-109",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "era": "1913–2017",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. federal tax milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Sixteenth Amendment authorizes federal income tax" },
+      { "id": "b", "text": "Tax Cuts and Jobs Act lowers corporate rate to 21%" },
+      { "id": "c", "text": "World War II law starts paycheck tax withholding" },
+      { "id": "d", "text": "Reagan Economic Recovery Tax Act cuts top rate" }
+    ],
+    "answer": ["a", "c", "d", "b"],
+    "explanation": "The 16th Amendment passed in 1913, payroll withholding began in 1943, Reagan's tax cuts passed in 1981, and TCJA passed in 2017.",
+    "fun_fact": "Before 1943, most Americans paid their entire annual income tax bill in a single lump sum each spring.",
+    "source_url": "https://www.irs.gov/newsroom/historical-highlights-of-the-irs",
+    "trap_notes": {
+      "default": "Order: 16th Amendment (1913), Withholding (1943), Reagan Tax Cut (1981), TCJA (2017)."
+    }
+  },
+  {
+    "id": "econ-ord-110",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "era": "1935–2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. social safety-net programs from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Medicare provides health coverage for seniors" },
+      { "id": "b", "text": "Affordable Care Act expands health insurance markets" },
+      { "id": "c", "text": "Social Security establishes federal retirement aid" },
+      { "id": "d", "text": "Food Stamp Act makes nutrition aid permanent" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Social Security began in 1935, the Food Stamp Act passed in 1964, Medicare passed in 1965, and the ACA passed in 2010.",
+    "fun_fact": "Medicare and Medicaid were both signed into law together by President Lyndon B. Johnson in July 1965.",
+    "source_url": "https://www.ssa.gov/history/",
+    "trap_notes": {
+      "default": "Order: Social Security (1935), Food Stamp Act (1964), Medicare (1965), ACA (2010)."
+    }
+  },
+  {
+    "id": "econ-ord-111",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1971–2022",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8927, "lng": -77.0458, "label": "Washington, D.C." },
+    "prompt": "Order these modern U.S. monetary policy actions from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Fed begins rapid rate hikes to tame post-COVID inflation" },
+      { "id": "b", "text": "Paul Volcker's Fed hikes rates near 20% to beat inflation" },
+      { "id": "c", "text": "President Nixon imposes 90-day wage and price freeze" },
+      { "id": "d", "text": "Fed cuts rates to near zero and launches QE" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Nixon froze wages and prices in 1971, Volcker hiked rates in 1979–81, QE began in 2008, and post-COVID rate hikes began in 2022.",
+    "fun_fact": "Quantitative easing (QE) involves buying long-term bonds when short-term interest rates are already near zero.",
+    "source_url": "https://www.federalreservehistory.org/essays/anti-inflation-measures",
+    "trap_notes": {
+      "default": "Order: Nixon freeze (1971), Volcker hikes (1979), Zero-rate QE (2008), Post-COVID hikes (2022)."
+    }
+  },
+  {
+    "id": "econ-ord-112",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1933–2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. banking regulation shifts from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Gramm-Leach-Bliley Act repeals Glass-Steagall wall" },
+      { "id": "b", "text": "Dodd-Frank Act tightens rules on big banks" },
+      { "id": "c", "text": "Savings and loan crisis forces federal bailout" },
+      { "id": "d", "text": "Glass-Steagall separates commercial and Wall Street banks" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "Glass-Steagall passed in 1933, the S&L crisis peaked in the late 1980s, Gramm-Leach-Bliley passed in 1999, and Dodd-Frank in 2010.",
+    "fun_fact": "Over 1,000 savings and loan associations failed during the 1980s S&L crisis.",
+    "source_url": "https://www.federalreservehistory.org/essays/gramm-leach-bliley-act",
+    "trap_notes": {
+      "default": "Order: Glass-Steagall (1933), S&L Crisis (1980s), Repeal (1999), Dodd-Frank (2010)."
+    }
+  },
+  {
+    "id": "econ-ord-113",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Money & Payments",
+    "era": "600 BCE–2009",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.485, "lng": 28.0403, "label": "Sardis, Turkey" },
+    "prompt": "Order these innovations in the history of money from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Bitcoin launches as a decentralized cryptocurrency" },
+      { "id": "b", "text": "Song Dynasty China issues government paper money" },
+      { "id": "c", "text": "Diners Club introduces the first charge card" },
+      { "id": "d", "text": "Kingdom of Lydia mints standardized metal coins" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Lydian coins appeared around 600 BCE, Song paper money around 1024 CE, Diners Club in 1950, and Bitcoin in 2009.",
+    "fun_fact": "Lydian coins were stamped from electrum, a natural alloy of gold and silver.",
+    "source_url": "https://www.britannica.com/money/money",
+    "trap_notes": {
+      "default": "Order: Lydian coins (600 BCE), Song paper money (11th c.), Diners Club (1950), Bitcoin (2009)."
+    }
+  },
+  {
+    "id": "econ-ord-114",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1769–1913",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "prompt": "Order these industrial productivity breakthroughs from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Henry Ford introduces the moving assembly line" },
+      { "id": "b", "text": "Transcontinental Railroad links U.S. coasts" },
+      { "id": "c", "text": "James Watt patents an improved steam engine" },
+      { "id": "d", "text": "Erie Canal connects Great Lakes to New York" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "Watt's patent was in 1769, the Erie Canal opened in 1825, the Transcontinental Railroad finished in 1869, and Ford's line began in 1913.",
+    "fun_fact": "Ford's moving assembly line cut the time to build a Model T chassis from 12 hours to about 90 minutes.",
+    "source_url": "https://www.britannica.com/money/assembly-line",
+    "trap_notes": {
+      "default": "Order: Watt steam engine (1769), Erie Canal (1825), Railroad (1869), Assembly line (1913)."
+    }
+  },
+  {
+    "id": "econ-ord-115",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1792–1933",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. gold and silver currency milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Gold Standard Act makes gold the sole U.S. standard" },
+      { "id": "b", "text": "FDR orders citizens to turn in gold coins" },
+      { "id": "c", "text": "Coinage Act creates the U.S. Mint and dollar" },
+      { "id": "d", "text": "Coinage Act of 1873 drops silver dollar minting" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "The first Coinage Act passed in 1792, silver was dropped in 1873, the Gold Standard Act passed in 1900, and FDR recalled gold in 1933.",
+    "fun_fact": "Populists angrily nicknamed the 1873 law the 'Crime of '73' because dropping silver tightened the money supply.",
+    "source_url": "https://www.federalreservehistory.org/essays/gold-standard",
+    "trap_notes": {
+      "default": "Order: 1792 Coinage Act, 1873 Coinage Act, 1900 Gold Standard Act, 1933 Gold Recall."
+    }
+  },
+  {
+    "id": "econ-ord-116",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1951–2002",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "prompt": "Order these European economic integration milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Maastricht Treaty establishes the European Union" },
+      { "id": "b", "text": "Euro banknotes and coins enter daily circulation" },
+      { "id": "c", "text": "Treaty of Rome creates the European Economic Community" },
+      { "id": "d", "text": "Six nations form the European Coal and Steel Community" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "The Coal and Steel Community began in 1951, the EEC in 1957, the Maastricht Treaty in 1992, and euro cash in 2002.",
+    "fun_fact": "Starting with coal and steel was meant to make war between France and Germany economically impossible.",
+    "source_url": "https://european-union.europa.eu/principles-countries-history/history-eu_en",
+    "trap_notes": {
+      "default": "Order: Coal & Steel (1951), Treaty of Rome (1957), Maastricht (1992), Euro cash (2002)."
+    }
+  },
+  {
+    "id": "econ-ord-117",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1929–2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "New York City, New York" },
+    "prompt": "Order these major U.S. financial market crises from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Black Monday sends the Dow down 22.6% in one day" },
+      { "id": "b", "text": "Lehman Brothers bankruptcy sparks global credit freeze" },
+      { "id": "c", "text": "Dot-com bubble bursts across technology stocks" },
+      { "id": "d", "text": "Black Tuesday triggers the Great Depression" }
+    ],
+    "answer": ["d", "a", "c", "b"],
+    "explanation": "Black Tuesday occurred in 1929, Black Monday in 1987, the dot-com bust in 2000, and Lehman Brothers collapsed in 2008.",
+    "fun_fact": "After Black Monday in 1987, stock exchanges added 'circuit breakers' to pause trading during extreme drops.",
+    "source_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+    "trap_notes": {
+      "default": "Order: 1929 Crash, 1987 Black Monday, 2000 Dot-Com Bust, 2008 Lehman Collapse."
+    }
+  },
+  {
+    "id": "econ-ord-118",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Consumer Protection",
+    "era": "1906–2011",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. consumer protection milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Truth in Lending Act requires clear loan APR disclosure" },
+      { "id": "b", "text": "Consumer Financial Protection Bureau opens its doors" },
+      { "id": "c", "text": "Federal Trade Commission is created to police fraud" },
+      { "id": "d", "text": "Pure Food and Drug Act mandates accurate product labels" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "The Pure Food and Drug Act passed in 1906, the FTC in 1914, Truth in Lending in 1968, and the CFPB opened in 2011.",
+    "fun_fact": "Upton Sinclair's 1906 novel 'The Jungle' helped spur Congress to pass the Pure Food and Drug Act.",
+    "source_url": "https://www.consumerfinance.gov/about-us/the-bureau/",
+    "trap_notes": {
+      "default": "Order: Pure Food & Drug (1906), FTC (1914), Truth in Lending (1968), CFPB (2011)."
+    }
+  },
+  {
+    "id": "econ-ord-119",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Agricultural Economics",
+    "era": "1862–1996",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines, Iowa" },
+    "prompt": "Order these agricultural and farm-policy milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Green Revolution spreads high-yield wheat and rice" },
+      { "id": "b", "text": "Agricultural Adjustment Act pays farmers to cut output" },
+      { "id": "c", "text": "Freedom to Farm Act phases out planting quotas" },
+      { "id": "d", "text": "Homestead Act grants 160-acre western farm plots" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "The Homestead Act passed in 1862, the AAA in 1933, the Green Revolution surged in the 1960s, and Freedom to Farm passed in 1996.",
+    "fun_fact": "Norman Borlaug won the 1970 Nobel Peace Prize for leading Green Revolution crop research.",
+    "source_url": "https://www.archives.gov/milestone-documents/homestead-act",
+    "trap_notes": {
+      "default": "Order: Homestead Act (1862), AAA (1933), Green Revolution (1960s), Freedom to Farm (1996)."
+    }
+  },
+  {
+    "id": "econ-ord-120",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1949–2001",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo, Japan" },
+    "prompt": "Order these East Asian economic growth milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Deng Xiaoping launches China's market opening reforms" },
+      { "id": "b", "text": "China joins the World Trade Organization" },
+      { "id": "c", "text": "Dodge Line stabilizes Japan's postwar inflation" },
+      { "id": "d", "text": "South Korea launches export-led industrial five-year plan" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Japan's Dodge Line was in 1949, South Korea's export push began in 1962, Deng's reforms in 1978, and China joined the WTO in 2001.",
+    "fun_fact": "China's special economic zones like Shenzhen grew from small fishing towns into global tech hubs after 1980.",
+    "source_url": "https://www.wto.org/english/thewto_e/countries_e/china_e.htm",
+    "trap_notes": {
+      "default": "Order: Dodge Line (1949), Korea plan (1962), China reforms (1978), China WTO (2001)."
+    }
+  },
+  {
+    "id": "econ-ord-121",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Energy Markets",
+    "era": "1960–2015",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 33.3152, "lng": 44.3661, "label": "Baghdad, Iraq" },
+    "prompt": "Order these global oil market events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Iranian Revolution triggers a second global oil shock" },
+      { "id": "b", "text": "U.S. shale boom lifts America to top oil producer" },
+      { "id": "c", "text": "Arab OPEC nations impose an oil embargo on the U.S." },
+      { "id": "d", "text": "Five oil-producing countries establish OPEC" }
+    ],
+    "answer": ["d", "c", "a", "b"],
+    "explanation": "OPEC formed in 1960, the Arab oil embargo struck in 1973, the Iranian Revolution hit in 1979, and the U.S. shale boom peaked in the 2010s.",
+    "fun_fact": "The 1973 oil shock led Congress to create the Strategic Petroleum Reserve and national 55 mph speed limits.",
+    "source_url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/",
+    "trap_notes": {
+      "default": "Order: OPEC (1960), Embargo (1973), Iran shock (1979), U.S. shale boom (2010s)."
+    }
+  },
+  {
+    "id": "econ-ord-122",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1792–2000",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "New York City, New York" },
+    "prompt": "Order these U.S. stock market milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "NASDAQ launches as the first electronic stock market" },
+      { "id": "b", "text": "Brokers sign Buttonwood Agreement on Wall Street" },
+      { "id": "c", "text": "U.S. exchanges switch from fractions to decimal pricing" },
+      { "id": "d", "text": "Dow Jones Industrial Average debuts with 12 stocks" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Buttonwood Agreement was signed in 1792, the Dow debuted in 1896, NASDAQ launched in 1971, and decimal pricing arrived in 2000–2001.",
+    "fun_fact": "Before 2000, U.S. stock prices were quoted in eighths or sixteenths of a dollar, a holdover from Spanish pieces of eight.",
+    "source_url": "https://www.loc.gov/rr/business/amex/nyse.html",
+    "trap_notes": {
+      "default": "Order: Buttonwood (1792), Dow Jones (1896), NASDAQ (1971), Decimal pricing (2000)."
+    }
+  },
+  {
+    "id": "econ-ord-123",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "2008–2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Great Recession events and responses from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress passes the $787 billion Recovery Act stimulus" },
+      { "id": "b", "text": "Lehman Brothers files for bankruptcy in September" },
+      { "id": "c", "text": "President Obama signs the Dodd-Frank reform law" },
+      { "id": "d", "text": "Congress approves TARP bank rescue funds in October" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Lehman collapsed in September 2008, TARP passed in October 2008, the Recovery Act in February 2009, and Dodd-Frank in July 2010.",
+    "fun_fact": "Most of the TARP bank rescue funds were eventually repaid to the U.S. Treasury with interest.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+    "trap_notes": {
+      "default": "Order: Lehman (Sept 2008), TARP (Oct 2008), Recovery Act (Feb 2009), Dodd-Frank (July 2010)."
+    }
+  },
+  {
+    "id": "econ-ord-124",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "2020–2023",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these COVID-19 era economic events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "U.S. annual CPI inflation peaks near 9.1% in June" },
+      { "id": "b", "text": "Congress passes the $2.2 trillion CARES Act relief" },
+      { "id": "c", "text": "Federal Reserve pushes policy rate above 5%" },
+      { "id": "d", "text": "Global shipping bottlenecks snarl port deliveries" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The CARES Act passed in March 2020, supply bottlenecks surged in 2021, CPI peaked in June 2022, and the Fed rate topped 5% in 2023.",
+    "fun_fact": "Consumer spending shifted sharply from services to physical goods in 2020–2021, straining container ports.",
+    "source_url": "https://www.bls.gov/cpi/",
+    "trap_notes": {
+      "default": "Order: CARES Act (2020), Port bottlenecks (2021), 9.1% CPI peak (2022), 5%+ Fed rate (2023)."
+    }
+  },
+  {
+    "id": "econ-ord-125",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic Systems",
+    "era": "1921–1991",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow, Russia" },
+    "prompt": "Order these Soviet economic policy shifts from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Gorbachev introduces perestroika economic restructuring" },
+      { "id": "b", "text": "Stalin launches the First Five-Year Plan" },
+      { "id": "c", "text": "Soviet Union dissolves into independent republics" },
+      { "id": "d", "text": "Lenin introduces the New Economic Policy" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Lenin's NEP began in 1921, Stalin's First Five-Year Plan in 1928, Gorbachev's perestroika in 1985, and Soviet dissolution in 1991.",
+    "fun_fact": "Lenin's NEP briefly allowed small private farms and shops before Stalin replaced it with central planning.",
+    "source_url": "https://www.britannica.com/event/New-Economic-Policy-Soviet-history",
+    "trap_notes": {
+      "default": "Order: NEP (1921), Five-Year Plan (1928), Perestroika (1985), Dissolution (1991)."
+    }
+  },
+  {
+    "id": "econ-ord-126",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "era": "1958–1989",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, California" },
+    "prompt": "Order these U.S. consumer finance milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "FICO introduces its standard consumer credit score" },
+      { "id": "b", "text": "Equal Credit Opportunity Act bans lending bias" },
+      { "id": "c", "text": "BankAmericard launches as an early general credit card" },
+      { "id": "d", "text": "Revenue Act creates tax-deferred retirement plans" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "BankAmericard (later Visa) launched in 1958, the Equal Credit Opportunity Act passed in 1974, 401(k) in 1978, and FICO scores in 1989.",
+    "fun_fact": "Before the 1974 Equal Credit Opportunity Act, banks could legally require a husband's signature for a woman's credit card.",
+    "source_url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/",
+    "trap_notes": {
+      "default": "Order: BankAmericard (1958), ECOA (1974), 401(k) (1978), FICO score (1989)."
+    }
+  },
+  {
+    "id": "econ-ord-127",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1914–2014",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8927, "lng": -77.0458, "label": "Washington, D.C." },
+    "prompt": "Order these Federal Reserve milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Treasury-Fed Accord restores Fed rate independence" },
+      { "id": "b", "text": "Janet Yellen becomes first woman Fed Chair" },
+      { "id": "c", "text": "Twelve regional Reserve Banks open for business" },
+      { "id": "d", "text": "Paul Volcker takes office to fight 1970s inflation" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Reserve Banks opened in 1914, the Treasury-Fed Accord was signed in 1951, Volcker became Chair in 1979, and Yellen in 2014.",
+    "fun_fact": "During World War II, the Fed kept government borrowing rates artificially low until the 1951 Accord.",
+    "source_url": "https://www.federalreservehistory.org/essays/treasury-fed-accord",
+    "trap_notes": {
+      "default": "Order: Reserve Banks open (1914), Accord (1951), Volcker (1979), Yellen (2014)."
+    }
+  },
+  {
+    "id": "econ-ord-128",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1982–2022",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 13.7563, "lng": 100.5018, "label": "Bangkok, Thailand" },
+    "prompt": "Order these international debt and currency crises from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Eurozone and IMF approve first bailout for Greece" },
+      { "id": "b", "text": "Asian financial crisis sweeps Thailand and neighbors" },
+      { "id": "c", "text": "Sri Lanka defaults on foreign debt amid fuel shortages" },
+      { "id": "d", "text": "Mexico sparks the Latin American debt crisis" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Mexico's default struck in 1982, the Asian crisis in 1997, Greece's first bailout in 2010, and Sri Lanka's default in 2022.",
+    "fun_fact": "The 1997 Asian financial crisis began when Thailand ran out of foreign reserves to defend its currency peg.",
+    "source_url": "https://www.imf.org/en/About/History",
+    "trap_notes": {
+      "default": "Order: Latin America (1982), Asian crisis (1997), Greece (2010), Sri Lanka (2022)."
+    }
+  },
+  {
+    "id": "econ-ord-129",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1934–2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. housing finance milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Fannie Mae and Freddie Mac enter federal conservatorship" },
+      { "id": "b", "text": "Federal Housing Administration is created to insure loans" },
+      { "id": "c", "text": "Freddie Mac is chartered to expand mortgage liquidity" },
+      { "id": "d", "text": "Fannie Mae is founded to buy FHA-insured mortgages" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The FHA began in 1934, Fannie Mae in 1938, Freddie Mac in 1970, and both entered federal conservatorship in September 2008.",
+    "fun_fact": "Before the 1930s, most U.S. home mortgages lasted only 5 to 10 years and required huge down payments.",
+    "source_url": "https://www.fhfa.gov/about/history",
+    "trap_notes": {
+      "default": "Order: FHA (1934), Fannie Mae (1938), Freddie Mac (1970), Conservatorship (2008)."
+    }
+  },
+  {
+    "id": "econ-ord-130",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Digital Economy",
+    "era": "1994–2007",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle, Washington" },
+    "prompt": "Order these digital commerce milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Apple launches the iPhone, sparking mobile commerce" },
+      { "id": "b", "text": "PayPal is founded as a digital payments platform" },
+      { "id": "c", "text": "First encrypted online retail purchase is completed" },
+      { "id": "d", "text": "Amazon and eBay both launch to public shoppers" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The first encrypted web sale happened in 1994, Amazon and eBay launched in 1995, PayPal in 1998, and the iPhone in 2007.",
+    "fun_fact": "One of the earliest encrypted online retail purchases in 1994 was a Sting CD sold for $12.48 plus shipping.",
+    "source_url": "https://www.britannica.com/money/e-commerce",
+    "trap_notes": {
+      "default": "Order: Encrypted sale (1994), Amazon/eBay (1995), PayPal (1998), iPhone (2007)."
+    }
+  },
+  {
+    "id": "econ-cau-101",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8927, "lng": -77.0458, "label": "Washington, D.C." },
+    "prompt": "Trace how a Federal Reserve interest-rate hike cools high inflation.",
+    "options": [
+      { "id": "a", "text": "Consumer and business spending slows down" },
+      { "id": "b", "text": "Inflation pressures ease across the economy" },
+      { "id": "c", "text": "Federal Reserve raises its policy interest rate" },
+      { "id": "d", "text": "Borrowing costs rise for mortgages and car loans" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Raising the policy rate lifts loan costs, which slows borrowing and spending and eases upward price pressure.",
+    "fun_fact": "Economists note that monetary policy works with 'long and variable lags,' often taking a year to fully show up.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+    "trap_notes": {
+      "default": "Fed rate hike -> costlier loans -> slower spending -> lower inflation."
+    }
+  },
+  {
+    "id": "econ-cau-102",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7081, "lng": -74.0091, "label": "New York City, New York" },
+    "prompt": "Trace how Fed open-market bond purchases stimulate business investment.",
+    "options": [
+      { "id": "a", "text": "Market interest rates fall across the economy" },
+      { "id": "b", "text": "Federal Reserve buys government bonds from banks" },
+      { "id": "c", "text": "Firms borrow more cheaply to build new factories" },
+      { "id": "d", "text": "Commercial bank reserves expand immediately" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Fed bond purchases inject new reserves into banks, lowering interest rates and encouraging businesses to borrow and invest.",
+    "fun_fact": "Buying bonds is the Fed's main tool for expansionary monetary policy.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+    "trap_notes": {
+      "default": "Fed buys bonds -> bank reserves rise -> interest rates fall -> investment grows."
+    }
+  },
+  {
+    "id": "econ-cau-103",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Trace how a binding rent ceiling below equilibrium creates a housing shortage.",
+    "options": [
+      { "id": "a", "text": "More renters seek apartments at the capped price" },
+      { "id": "b", "text": "City sets a legal rent cap below market price" },
+      { "id": "c", "text": "A persistent apartment shortage emerges" },
+      { "id": "d", "text": "Landlords offer fewer rental units for lease" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "A rent cap below equilibrium raises quantity demanded while shrinking quantity supplied, leaving renters without units.",
+    "fun_fact": "Economists find rent ceilings often lead to long waiting lists and reduced building maintenance.",
+    "source_url": "https://www.econlib.org/library/Enc/PriceControls.html",
+    "trap_notes": {
+      "default": "Rent cap -> more renters + fewer units offered -> housing shortage."
+    }
+  },
+  {
+    "id": "econ-cau-104",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines, Iowa" },
+    "prompt": "Trace how a binding agricultural price floor above equilibrium creates a surplus.",
+    "options": [
+      { "id": "a", "text": "An unsold grain surplus piles up in silos" },
+      { "id": "b", "text": "Farmers plant more acres to capture high prices" },
+      { "id": "c", "text": "Buyers cut purchases due to the higher price" },
+      { "id": "d", "text": "Government sets a minimum grain price above equilibrium" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "A price floor above equilibrium encourages farmers to grow more while buyers buy less, leaving an unsold surplus.",
+    "fun_fact": "Governments often end up buying surplus crops to keep the price floor from collapsing.",
+    "source_url": "https://www.britannica.com/money/price-floor",
+    "trap_notes": {
+      "default": "Price floor -> farmers grow more + buyers buy less -> grain surplus."
+    }
+  },
+  {
+    "id": "econ-cau-105",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Trace how a major tariff hike can trigger a trade war.",
+    "options": [
+      { "id": "a", "text": "Global trade volume shrinks for both nations" },
+      { "id": "b", "text": "Country A imposes steep tariffs on foreign goods" },
+      { "id": "c", "text": "Trading partners retaliate with their own tariffs" },
+      { "id": "d", "text": "Imported goods become costlier for Country A buyers" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Tariffs raise import prices and prompt trading partners to retaliate, shrinking exports and imports for everyone.",
+    "fun_fact": "This exact chain played out globally after the 1930 Smoot-Hawley Tariff.",
+    "source_url": "https://www.britannica.com/money/tariff",
+    "trap_notes": {
+      "default": "Tariff -> higher import prices -> partner retaliation -> global trade shrinks."
+    }
+  },
+  {
+    "id": "econ-cau-106",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.6872, "lng": -97.3301, "label": "Wichita, Kansas" },
+    "prompt": "Trace how a severe drought in wheat states raises bakery bread prices.",
+    "options": [
+      { "id": "a", "text": "Wheat supply curve shifts sharply to the left" },
+      { "id": "b", "text": "Severe drought ruins harvests across wheat farms" },
+      { "id": "c", "text": "Bakeries raise retail prices on loaves of bread" },
+      { "id": "d", "text": "Flour mills pay higher prices for scarce wheat" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Drought reduces the wheat harvest, shifting supply left, raising input costs for mills, and lifting retail bread prices.",
+    "fun_fact": "Supply shocks in staple crops often ripple through dozens of packaged food prices.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "default": "Drought -> wheat supply shifts left -> flour costs rise -> bread prices climb."
+    }
+  },
+  {
+    "id": "econ-cau-107",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Trace how an expansionary income tax cut boosts aggregate demand.",
+    "options": [
+      { "id": "a", "text": "Aggregate demand shifts right and output rises" },
+      { "id": "b", "text": "Households keep more disposable income per check" },
+      { "id": "c", "text": "Congress lowers federal personal income tax rates" },
+      { "id": "d", "text": "Families spend more at stores and restaurants" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Cutting income taxes increases disposable income, which lifts household spending and shifts aggregate demand right.",
+    "fun_fact": "Keynesian economists call this ripple effect the spending multiplier.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy",
+    "trap_notes": {
+      "default": "Tax cut -> higher disposable income -> more spending -> higher aggregate demand."
+    }
+  },
+  {
+    "id": "econ-cau-108",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.3382, "lng": -121.8863, "label": "San Jose, California" },
+    "prompt": "Trace how new factory technology shifts a market supply curve right.",
+    "options": [
+      { "id": "a", "text": "Average production cost per unit drops" },
+      { "id": "b", "text": "Market supply shifts right at every price" },
+      { "id": "c", "text": "Factories adopt faster automated assembly robots" },
+      { "id": "d", "text": "Output per worker increases on the factory floor" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Better technology raises worker productivity, lowers per-unit costs, and expands market supply to the right.",
+    "fun_fact": "A rightward supply shift lowers equilibrium price and increases equilibrium quantity.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "default": "New robots -> higher productivity -> lower unit cost -> supply shifts right."
+    }
+  },
+  {
+    "id": "econ-cau-109",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Trace how excessive money printing leads to hyperinflation.",
+    "options": [
+      { "id": "a", "text": "Each banknote loses purchasing power rapidly" },
+      { "id": "b", "text": "Government prints vast amounts of unbacked cash" },
+      { "id": "c", "text": "Too many bills chase a limited supply of goods" },
+      { "id": "d", "text": "Prices double weekly in a severe hyperinflation" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "Printing huge sums of unbacked currency floods the economy with cash, eroding money's value and driving runaway prices.",
+    "fun_fact": "In 1923 Weimar Germany, prices rose so fast that workers were paid twice a day to spend cash before it lost value.",
+    "source_url": "https://www.britannica.com/money/hyperinflation",
+    "trap_notes": {
+      "default": "Excess cash printed -> too much money chases goods -> value falls -> hyperinflation."
+    }
+  },
+  {
+    "id": "econ-cau-110",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Trace how a panicked bank run can cause a bank failure.",
+    "options": [
+      { "id": "a", "text": "Bank runs out of cash reserves on hand" },
+      { "id": "b", "text": "Rumors of losses spook nervous bank depositors" },
+      { "id": "c", "text": "Bank closes its doors and freezes local credit" },
+      { "id": "d", "text": "Crowds rush to withdraw all savings at once" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Because banks lend out most deposits, a sudden rush of withdrawals drains cash reserves and forces the bank to close.",
+    "fun_fact": "FDIC deposit insurance was created in 1933 specifically to stop depositors from panicking during bank rumors.",
+    "source_url": "https://www.fdic.gov/about/history/",
+    "trap_notes": {
+      "default": "Rumors -> mass withdrawals -> reserves drained -> bank closes."
+    }
+  },
+  {
+    "id": "econ-cau-111",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Energy Markets",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna, Austria" },
+    "prompt": "Trace how an OPEC oil production cut raises grocery prices.",
+    "options": [
+      { "id": "a", "text": "Global crude oil supply drops sharply" },
+      { "id": "b", "text": "Trucking and shipping fuel costs jump" },
+      { "id": "c", "text": "OPEC members agree to slash daily oil quotas" },
+      { "id": "d", "text": "Stores pass higher freight costs to food prices" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "OPEC quota cuts tighten global oil supply, lifting diesel and shipping costs that businesses pass on to consumers.",
+    "fun_fact": "Economists call this 'cost-push inflation' because higher input costs push retail prices up.",
+    "source_url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/",
+    "trap_notes": {
+      "default": "OPEC cuts quotas -> oil supply drops -> freight costs jump -> food prices rise."
+    }
+  },
+  {
+    "id": "econ-cau-112",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Trace how comparative advantage creates mutual gains from trade.",
+    "options": [
+      { "id": "a", "text": "Both nations consume more than they could alone" },
+      { "id": "b", "text": "Each nation specializes in its lower-cost good" },
+      { "id": "c", "text": "Combined world production of both goods rises" },
+      { "id": "d", "text": "Countries trade surplus goods across borders" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Specializing by comparative advantage raises total output, allowing nations to trade surpluses and consume beyond their own PPF.",
+    "fun_fact": "Trade lets countries consume combinations of goods that lie outside their domestic Production Possibilities Frontier.",
+    "source_url": "https://www.econlib.org/library/Enc/ComparativeAdvantage.html",
+    "trap_notes": {
+      "default": "Specialize -> total output rises -> trade surpluses -> higher consumption."
+    }
+  },
+  {
+    "id": "econ-cau-113",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Trace how higher U.S. interest rates can make U.S. exports costlier abroad.",
+    "options": [
+      { "id": "a", "text": "U.S. dollar appreciates against foreign currencies" },
+      { "id": "b", "text": "U.S. interest rates rise above foreign rates" },
+      { "id": "c", "text": "Foreign buyers pay more local money for U.S. goods" },
+      { "id": "d", "text": "Global investors buy dollars for higher yields" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Higher U.S. rates attract foreign capital into dollar assets, strengthening the dollar and making U.S. exports pricier abroad.",
+    "fun_fact": "Currency appreciation acts like a natural brake on exports while making imports cheaper.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Exchange-Rates",
+    "trap_notes": {
+      "default": "Higher U.S. rates -> investors buy dollars -> dollar rises -> exports costlier."
+    }
+  },
+  {
+    "id": "econ-cau-114",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit, Michigan" },
+    "prompt": "Trace how a drop in household spending generates cyclical unemployment.",
+    "options": [
+      { "id": "a", "text": "Businesses cut shifts and lay off workers" },
+      { "id": "b", "text": "Retailers cancel new orders with factories" },
+      { "id": "c", "text": "Cyclical unemployment rises across the economy" },
+      { "id": "d", "text": "Households slash spending during a downturn" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "When households spend less, stores cut factory orders, firms lay off workers, and cyclical unemployment climbs.",
+    "fun_fact": "Laid-off workers also spend less, which can deepen a recession unless policy stabilizes demand.",
+    "source_url": "https://www.britannica.com/money/cyclical-unemployment",
+    "trap_notes": {
+      "default": "Spending drops -> orders fall -> layoffs happen -> cyclical unemployment rises."
+    }
+  },
+  {
+    "id": "econ-cau-115",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.749, "lng": -84.388, "label": "Atlanta, Georgia" },
+    "prompt": "Trace how missed credit card payments raise the cost of a future car loan.",
+    "options": [
+      { "id": "a", "text": "Auto lenders view the borrower as higher risk" },
+      { "id": "b", "text": "Borrower misses several credit card due dates" },
+      { "id": "c", "text": "Lenders charge a higher APR on the car loan" },
+      { "id": "d", "text": "Consumer's credit score drops significantly" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Late payments lower a credit score, signaling higher default risk to lenders and resulting in higher loan interest rates.",
+    "fun_fact": "Even a 100-point difference in a credit score can add thousands of dollars in interest over a car or home loan.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/",
+    "trap_notes": {
+      "default": "Missed payments -> lower credit score -> higher risk -> higher loan APR."
+    }
+  },
+  {
+    "id": "econ-cau-116",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Trace how compound interest builds wealth in a long-term savings account.",
+    "options": [
+      { "id": "a", "text": "Earned interest is added to the account balance" },
+      { "id": "b", "text": "Total balance grows exponentially over decades" },
+      { "id": "c", "text": "Saver deposits money in a compound-interest account" },
+      { "id": "d", "text": "Next period's interest is calculated on a larger sum" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Compounding adds earned interest to the principal, so each new period earns interest on a steadily larger balance.",
+    "fun_fact": "Starting to save at age 25 instead of 35 can nearly double a retirement nest egg thanks to extra compounding years.",
+    "source_url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+    "trap_notes": {
+      "default": "Deposit -> interest added to balance -> interest earns interest -> exponential growth."
+    }
+  },
+  {
+    "id": "econ-cau-117",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Trace how an unregulated monopoly harms consumers.",
+    "options": [
+      { "id": "a", "text": "Monopoly restricts total output below competitive levels" },
+      { "id": "b", "text": "Single firm blocks rivals from entering the market" },
+      { "id": "c", "text": "Consumers pay more and buy fewer units overall" },
+      { "id": "d", "text": "Market price rises well above production cost" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Without competition, a monopoly can restrict output to drive up prices, leaving consumers with higher bills and less choice.",
+    "fun_fact": "Antitrust laws like the Sherman Act aim to prevent monopolies from abusing market power.",
+    "source_url": "https://www.britannica.com/money/monopoly-economics",
+    "trap_notes": {
+      "default": "No rivals -> output restricted -> price rises -> consumers pay more and buy less."
+    }
+  },
+  {
+    "id": "econ-cau-118",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Trace how a strict import quota on foreign cars affects domestic buyers.",
+    "options": [
+      { "id": "a", "text": "Total supply of cars in the market shrinks" },
+      { "id": "b", "text": "Domestic consumers pay higher prices for cars" },
+      { "id": "c", "text": "Government caps the number of imported vehicles" },
+      { "id": "d", "text": "Domestic automakers raise prices amid less rivalry" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Capping foreign car imports shrinks total market supply, reducing competition and pushing car prices higher for buyers.",
+    "fun_fact": "In the 1980s, voluntary export restraints on Japanese cars raised prices for U.S. car buyers.",
+    "source_url": "https://www.britannica.com/money/import-quota",
+    "trap_notes": {
+      "default": "Quota caps imports -> market supply shrinks -> prices rise -> consumers pay more."
+    }
+  },
+  {
+    "id": "econ-cau-119",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "prompt": "Trace how factory river pollution creates a negative externality.",
+    "options": [
+      { "id": "a", "text": "Downstream town pays extra to clean drinking water" },
+      { "id": "b", "text": "Paper mill dumps untreated chemical waste into river" },
+      { "id": "c", "text": "External social cost exceeds the mill's private cost" },
+      { "id": "d", "text": "River water quality drops for downstream towns" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "When a mill pollutes a river, downstream residents bear cleanup costs not paid by the mill, creating a negative externality.",
+    "fun_fact": "Governments often use pollution taxes or cap-and-trade permits to make firms pay external costs.",
+    "source_url": "https://www.econlib.org/library/Enc/Externalities.html",
+    "trap_notes": {
+      "default": "Mill pollutes -> river degrades -> town pays cleanup -> social cost exceeds private cost."
+    }
+  },
+  {
+    "id": "econ-cau-120",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "Trace why private firms underproduce public goods like lighthouses.",
+    "options": [
+      { "id": "a", "text": "Private builders cannot charge ships a toll" },
+      { "id": "b", "text": "Government steps in to fund the public good" },
+      { "id": "c", "text": "Any passing ship can see a lighthouse beam" },
+      { "id": "d", "text": "Free-rider problem prevents private profit" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Because no ship can be excluded from seeing a lighthouse, free-riders won't pay, so government taxes fund it instead.",
+    "fun_fact": "Economists define public goods as both non-excludable and non-rivalrous.",
+    "source_url": "https://www.econlib.org/library/Enc/PublicGoods.html",
+    "trap_notes": {
+      "default": "Non-excludable beam -> no tolls -> free-rider problem -> government funds it."
+    }
+  },
+  {
+    "id": "econ-cau-121",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Trace how inflation expectations can fuel a wage-price spiral.",
+    "options": [
+      { "id": "a", "text": "Employers raise product prices to cover payroll" },
+      { "id": "b", "text": "Workers expect prices to keep climbing next year" },
+      { "id": "c", "text": "Higher retail prices confirm inflation expectations" },
+      { "id": "d", "text": "Employees demand larger annual wage raises" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "When workers expect higher inflation, they seek bigger raises, prompting firms to hike prices and keep inflation going.",
+    "fun_fact": "Central banks work hard to anchor inflation expectations near 2% so wage-price spirals never start.",
+    "source_url": "https://www.britannica.com/money/wage-price-spiral",
+    "trap_notes": {
+      "default": "Expect inflation -> demand raises -> firms hike prices -> expectations reinforced."
+    }
+  },
+  {
+    "id": "econ-cau-122",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Trace how heavy government borrowing can 'crowd out' private investment.",
+    "options": [
+      { "id": "a", "text": "Private firms scale back new equipment loans" },
+      { "id": "b", "text": "Treasury sells massive amounts of government bonds" },
+      { "id": "c", "text": "Competition for loanable funds pushes rates up" },
+      { "id": "d", "text": "Government runs a large annual budget deficit" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Large deficits require heavy bond sales, which compete for savings, raise interest rates, and crowd out private business borrowing.",
+    "fun_fact": "Crowding out is strongest when the economy is already near full employment.",
+    "source_url": "https://www.britannica.com/money/crowding-out",
+    "trap_notes": {
+      "default": "Large deficit -> heavy bond sales -> higher interest rates -> less private borrowing."
+    }
+  },
+  {
+    "id": "econ-cau-123",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines, Iowa" },
+    "prompt": "Trace how a record corn harvest lowers retail beef prices.",
+    "options": [
+      { "id": "a", "text": "Market price of corn falls sharply" },
+      { "id": "b", "text": "Ideal weather produces a bumper corn crop" },
+      { "id": "c", "text": "Cattle ranchers pay less for animal feed" },
+      { "id": "d", "text": "Beef supply grows and retail beef gets cheaper" }
+    ],
+    "answer": ["b", "a", "c", "d"],
+    "explanation": "Bumper corn harvests lower corn prices, reducing cattle feed costs and allowing ranchers to supply more beef at lower prices.",
+    "fun_fact": "Input price changes in one agricultural market frequently spill over into related food markets.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "default": "Bumper corn -> corn price falls -> cheaper cattle feed -> lower beef prices."
+    }
+  },
+  {
+    "id": "econ-cau-124",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle, Washington" },
+    "prompt": "Trace how a coffee price spike affects the market for tea, a substitute good.",
+    "options": [
+      { "id": "a", "text": "Shoppers switch from coffee to morning tea" },
+      { "id": "b", "text": "Tea prices rise as tea demand shifts right" },
+      { "id": "c", "text": "Frost damages coffee crops, spiking coffee prices" },
+      { "id": "d", "text": "Quantity of coffee demanded drops sharply" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Higher coffee prices cut the quantity of coffee demanded, pushing buyers toward substitute tea and lifting tea prices.",
+    "fun_fact": "Two goods are substitutes when a price rise in one increases demand for the other.",
+    "source_url": "https://www.britannica.com/money/substitute-good",
+    "trap_notes": {
+      "default": "Coffee price jumps -> less coffee bought -> shoppers switch to tea -> tea prices rise."
+    }
+  },
+  {
+    "id": "econ-cau-125",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Trace how fractional-reserve banking expands the money supply.",
+    "options": [
+      { "id": "a", "text": "Borrowers spend loans that land in other banks" },
+      { "id": "b", "text": "Customer deposits $1,000 into a checking account" },
+      { "id": "c", "text": "Total money supply multiplies across the system" },
+      { "id": "d", "text": "Bank keeps required fraction and lends the rest" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Banks hold a fraction of deposits in reserve and lend the rest; those loans become new deposits that multiply the money supply.",
+    "fun_fact": "If banks keep 10% in reserve, an initial $1,000 deposit can theoretically expand to $10,000 in total deposits.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+    "trap_notes": {
+      "default": "Deposit -> bank lends excess -> loan redeposited -> money supply multiplies."
+    }
+  },
+  {
+    "id": "econ-cau-126",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Labor & Wages",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, California" },
+    "prompt": "Trace how investing in human capital raises workers' real wages.",
+    "options": [
+      { "id": "a", "text": "Workers complete advanced technical training" },
+      { "id": "b", "text": "Employers compete with higher pay for skilled staff" },
+      { "id": "c", "text": "Value of output produced per hour increases" },
+      { "id": "d", "text": "Real wages rise over time for trained workers" }
+    ],
+    "answer": ["a", "c", "b", "d"],
+    "explanation": "Education and training boost worker productivity, making employees more valuable to firms and driving up real wages.",
+    "fun_fact": "Economist Gary Becker won the 1992 Nobel Prize partly for his work on human capital investment.",
+    "source_url": "https://www.econlib.org/library/Enc/HumanCapital.html",
+    "trap_notes": {
+      "default": "Training -> higher productivity -> firms bid for talent -> real wages rise."
+    }
+  },
+  {
+    "id": "econ-cau-127",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "New York City, New York" },
+    "prompt": "Trace the risk of failing to diversify an investment portfolio.",
+    "options": [
+      { "id": "a", "text": "That single company reports an unexpected loss" },
+      { "id": "b", "text": "Investor puts entire life savings into one stock" },
+      { "id": "c", "text": "Investor loses most of their retirement wealth" },
+      { "id": "d", "text": "Company share price plunges 60% overnight" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Concentrating all money in one stock exposes the investor to company-specific shocks that can wipe out savings.",
+    "fun_fact": "Many Enron employees lost both their jobs and retirement savings in 2001 because their 401(k)s held mostly Enron stock.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/asset-allocation-and-diversification",
+    "trap_notes": {
+      "default": "All in one stock -> company loss -> share price plunges -> savings wiped out."
+    }
+  },
+  {
+    "id": "econ-cau-128",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8927, "lng": -77.0458, "label": "Washington, D.C." },
+    "prompt": "Trace how lowering the bank reserve requirement expands lending.",
+    "options": [
+      { "id": "a", "text": "Banks hold less required cash in reserve" },
+      { "id": "b", "text": "More excess funds are available for business loans" },
+      { "id": "c", "text": "Central bank lowers the reserve requirement ratio" },
+      { "id": "d", "text": "Money supply grows and borrowing rates ease" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Cutting the reserve requirement frees up cash inside banks, increasing loanable funds and easing interest rates.",
+    "fun_fact": "The Federal Reserve reduced reserve requirements to zero percent in March 2020 to support pandemic liquidity.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+    "trap_notes": {
+      "default": "Lower reserve ratio -> less required cash -> more loans -> money supply grows."
+    }
+  },
+  {
+    "id": "econ-cau-129",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Trace how a sharp corporate tax hike can slow business capital investment.",
+    "options": [
+      { "id": "a", "text": "Expected after-tax return on new projects falls" },
+      { "id": "b", "text": "Congress raises the corporate income tax rate" },
+      { "id": "c", "text": "Overall business capital investment slows down" },
+      { "id": "d", "text": "Firms cancel or delay building new factories" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Higher corporate tax rates reduce after-tax returns on new projects, leading firms to postpone factory expansion.",
+    "fun_fact": "Economists debate how much of corporate taxes fall on shareholders versus workers and consumers.",
+    "source_url": "https://www.britannica.com/money/corporate-income-tax",
+    "trap_notes": {
+      "default": "Corporate tax hike -> lower after-tax return -> projects delayed -> investment slows."
+    }
+  },
+  {
+    "id": "econ-cau-130",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "Trace how high inflation erodes cash savings kept in a low-interest account.",
+    "options": [
+      { "id": "a", "text": "Consumer prices rise 7% while savings pay 1%" },
+      { "id": "b", "text": "Real purchasing power of the savings drops" },
+      { "id": "c", "text": "Account balance buys fewer groceries each year" },
+      { "id": "d", "text": "Real interest rate on the account turns negative" }
+    ],
+    "answer": ["a", "d", "b", "c"],
+    "explanation": "When inflation exceeds nominal interest, the real interest rate is negative and savings buy fewer goods over time.",
+    "fun_fact": "The Fisher equation approximates the real interest rate as the nominal rate minus the inflation rate.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2018/november/how-inflation-affects-savings",
+    "trap_notes": {
+      "default": "Inflation > interest rate -> negative real return -> buying power drops -> buys less."
+    }
+  }
+]

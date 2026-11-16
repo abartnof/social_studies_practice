@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "world-map-201",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early River Civilizations",
+    "era": "c. 2600–2000 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 30.9625,
+      "lng": 46.1031,
+      "label": "Ur, Mesopotamia"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 332,
+          "y": 138,
+          "label": "Ur"
+        },
+        {
+          "id": "b",
+          "x": 254,
+          "y": 168,
+          "label": "Memphis"
+        },
+        {
+          "id": "c",
+          "x": 274,
+          "y": 74,
+          "label": "Hattusa"
+        },
+        {
+          "id": "d",
+          "x": 286,
+          "y": 134,
+          "label": "Tyre"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Sumerian city of Ur, famous for its stepped ziggurat?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Ur stood near the Euphrates mouth in southern Mesopotamia and featured a towering mudbrick ziggurat.",
+    "source_url": "https://www.britannica.com/place/Ur",
+    "trap_notes": {
+      "b": "Memphis was an Old Kingdom Egyptian capital along the Nile River.",
+      "c": "Hattusa was the Hittite capital in central Anatolia, not southern Mesopotamia.",
+      "d": "Tyre was a Phoenician port city on the eastern Mediterranean coast.",
+      "default": "Ur was a major Sumerian city-state in southern Mesopotamia near the Persian Gulf."
+    }
+  },
+  {
+    "id": "world-map-202",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early Mediterranean Trade",
+    "era": "c. 1200–539 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 33.2705,
+      "lng": 35.2038,
+      "label": "Tyre, Lebanon"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 202,
+          "y": 96,
+          "label": "Athens"
+        },
+        {
+          "id": "b",
+          "x": 286,
+          "y": 134,
+          "label": "Tyre"
+        },
+        {
+          "id": "c",
+          "x": 122,
+          "y": 124,
+          "label": "Carthage"
+        },
+        {
+          "id": "d",
+          "x": 246,
+          "y": 152,
+          "label": "Alexandria"
+        }
+      ]
+    },
+    "prompt": "Select the Phoenician island port famous for cedar timber and purple dye.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Tyre sat on the Levantine coast and exported cedar wood, glass, and prized Tyrian purple dye.",
+    "source_url": "https://www.britannica.com/place/Tyre",
+    "trap_notes": {
+      "a": "Athens was a Greek polis on the Attica peninsula, not a Phoenician homeland city.",
+      "c": "Carthage was a Phoenician colony in North Africa, founded later from Tyre.",
+      "d": "Alexandria was founded in Egypt by Alexander the Great centuries later.",
+      "default": "Tyre was a leading Phoenician maritime city along the eastern Mediterranean coast."
+    }
+  },
+  {
+    "id": "world-map-203",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early River Civilizations",
+    "era": "c. 1550–1070 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "label": "Thebes, Egypt"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 246,
+          "y": 152,
+          "label": "Alexandria"
+        },
+        {
+          "id": "b",
+          "x": 286,
+          "y": 148,
+          "label": "Jerusalem"
+        },
+        {
+          "id": "c",
+          "x": 254,
+          "y": 192,
+          "label": "Thebes"
+        },
+        {
+          "id": "d",
+          "x": 216,
+          "y": 127,
+          "label": "Knossos"
+        }
+      ]
+    },
+    "prompt": "Which pin marks New Kingdom Egypt’s southern temple capital at Thebes?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Thebes lay far up the Nile River in Upper Egypt, near the Karnak temples and Valley of the Kings.",
+    "source_url": "https://www.britannica.com/place/Thebes-ancient-Egypt",
+    "trap_notes": {
+      "a": "Alexandria sits on the Mediterranean coast at the western edge of the Nile Delta.",
+      "b": "Jerusalem lies inland in the Levant, east of the Mediterranean Sea.",
+      "d": "Knossos was the Minoan palace center on the island of Crete.",
+      "default": "Thebes was located in Upper Egypt along the southern stretch of the Nile."
+    }
+  },
+  {
+    "id": "world-map-204",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Bronze Age Aegean",
+    "era": "c. 1600–1100 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 37.7308,
+      "lng": 22.7564,
+      "label": "Mycenae, Greece"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 224,
+          "y": 76,
+          "label": "Troy"
+        },
+        {
+          "id": "b",
+          "x": 216,
+          "y": 127,
+          "label": "Knossos"
+        },
+        {
+          "id": "c",
+          "x": 274,
+          "y": 74,
+          "label": "Hattusa"
+        },
+        {
+          "id": "d",
+          "x": 196,
+          "y": 98,
+          "label": "Mycenae"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the fortified Bronze Age citadel of Mycenae in Greece?",
+    "options": [],
+    "answer": "d",
+    "explanation": "Mycenae sat on the Peloponnesian peninsula in southern Greece and led early Greek palace states.",
+    "source_url": "https://www.britannica.com/place/Mycenae",
+    "trap_notes": {
+      "a": "Troy stood on the northwestern coast of Anatolia near the Dardanelles.",
+      "b": "Knossos was located on the island of Crete south of the Greek mainland.",
+      "c": "Hattusa was the inland Hittite capital in central Anatolia.",
+      "default": "Mycenae was a walled Bronze Age citadel on the Peloponnesian peninsula."
+    }
+  },
+  {
+    "id": "world-map-205",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Classical Greece",
+    "era": "c. 600–371 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 37.0755,
+      "lng": 22.4303,
+      "label": "Sparta, Greece"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 194,
+          "y": 102,
+          "label": "Sparta"
+        },
+        {
+          "id": "b",
+          "x": 226,
+          "y": 90,
+          "label": "Ephesus"
+        },
+        {
+          "id": "c",
+          "x": 146,
+          "y": 128,
+          "label": "Syracuse"
+        },
+        {
+          "id": "d",
+          "x": 238,
+          "y": 62,
+          "label": "Byzantium"
+        }
+      ]
+    },
+    "prompt": "Select the Peloponnesian city-state famed for its land army and helot system.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Sparta lay in the southern Peloponnese, an inland valley insulated from sea raids.",
+    "source_url": "https://www.britannica.com/place/Sparta",
+    "trap_notes": {
+      "b": "Ephesus was an Ionian Greek port on the western coast of Anatolia.",
+      "c": "Syracuse was a Greek colony on the eastern coast of Sicily.",
+      "d": "Byzantium guarded the Bosphorus Strait between Europe and Asia.",
+      "default": "Sparta was an inland military polis in the southern Peloponnese of Greece."
+    }
+  },
+  {
+    "id": "world-map-206",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Hellenistic World",
+    "era": "331–30 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "label": "Alexandria, Egypt"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 288,
+          "y": 114,
+          "label": "Antioch"
+        },
+        {
+          "id": "b",
+          "x": 246,
+          "y": 152,
+          "label": "Alexandria"
+        },
+        {
+          "id": "c",
+          "x": 202,
+          "y": 96,
+          "label": "Athens"
+        },
+        {
+          "id": "d",
+          "x": 204,
+          "y": 154,
+          "label": "Cyrene"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Egyptian port famed for its Great Library and Lighthouse?",
+    "options": [],
+    "answer": "b",
+    "explanation": "Founded by Alexander the Great in 331 BCE, Alexandria sat on Egypt’s Mediterranean coast.",
+    "source_url": "https://www.britannica.com/place/Alexandria-Egypt",
+    "trap_notes": {
+      "a": "Antioch was a Hellenistic capital in northern Syria near the Orontes River.",
+      "c": "Athens was a classical Greek city-state in Attica, not a Nile Delta port.",
+      "d": "Cyrene was a Greek colony farther west along the Libyan coast.",
+      "default": "Alexandria sat on the Mediterranean coast at the edge of Egypt’s Nile Delta."
+    }
+  },
+  {
+    "id": "world-map-207",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Classical Rome",
+    "era": "509 BCE–476 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "label": "Rome, Italy"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 148,
+          "y": 58,
+          "label": "Venice"
+        },
+        {
+          "id": "b",
+          "x": 122,
+          "y": 124,
+          "label": "Carthage"
+        },
+        {
+          "id": "c",
+          "x": 138,
+          "y": 84,
+          "label": "Rome"
+        },
+        {
+          "id": "d",
+          "x": 86,
+          "y": 68,
+          "label": "Marseille"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Italian peninsula capital along the Tiber River?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Rome grew on seven hills beside the Tiber River in central Italy, dominating the Mediterranean.",
+    "source_url": "https://www.britannica.com/place/Rome",
+    "trap_notes": {
+      "a": "Venice sits on a lagoon at the northern end of the Adriatic Sea.",
+      "b": "Carthage lay across the sea in North Africa, near modern Tunis.",
+      "d": "Marseille is a Mediterranean port on the southern coast of France.",
+      "default": "Rome is located in central Italy near the western coast along the Tiber River."
+    }
+  },
+  {
+    "id": "world-map-208",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "World Religions",
+    "era": "c. 1000 BCE–present",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "label": "Jerusalem"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 238,
+          "y": 62,
+          "label": "Constantinople"
+        },
+        {
+          "id": "b",
+          "x": 254,
+          "y": 166,
+          "label": "Cairo"
+        },
+        {
+          "id": "c",
+          "x": 298,
+          "y": 134,
+          "label": "Damascus"
+        },
+        {
+          "id": "d",
+          "x": 286,
+          "y": 148,
+          "label": "Jerusalem"
+        }
+      ]
+    },
+    "prompt": "Select the Levantine city sacred to Judaism, Christianity, and Islam.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Jerusalem sits in the Judean hills of the southern Levant, east of the Mediterranean Sea.",
+    "source_url": "https://www.britannica.com/place/Jerusalem",
+    "trap_notes": {
+      "a": "Constantinople guarded the Bosphorus Strait between the Black Sea and Aegean.",
+      "b": "Cairo lies in Egypt at the apex of the Nile River Delta.",
+      "c": "Damascus lies farther northeast in Syria behind the Anti-Lebanon mountains.",
+      "default": "Jerusalem is located in the southern Levant between the Mediterranean and Dead Sea."
+    }
+  },
+  {
+    "id": "world-map-209",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Medieval Islamic World",
+    "era": "756–1031 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 37.8882,
+      "lng": -4.7794,
+      "label": "Cordoba, Spain"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 34,
+          "y": 94,
+          "label": "Cordoba"
+        },
+        {
+          "id": "b",
+          "x": 144,
+          "y": 128,
+          "label": "Palermo"
+        },
+        {
+          "id": "c",
+          "x": 254,
+          "y": 166,
+          "label": "Cairo"
+        },
+        {
+          "id": "d",
+          "x": 122,
+          "y": 124,
+          "label": "Tunis"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Iberian capital of the Umayyad Caliphate of Al-Andalus?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Cordoba in southern Spain became a major European center of libraries, medicine, and architecture.",
+    "source_url": "https://www.britannica.com/place/Cordoba-Spain",
+    "trap_notes": {
+      "b": "Palermo was a major Arab-Norman center on the island of Sicily.",
+      "c": "Cairo was the Fatimid Caliphate capital along the Nile River in Egypt.",
+      "d": "Tunis sat on the North African coast near ancient Carthage.",
+      "default": "Cordoba is located in southern Iberia along the Guadalquivir River."
+    }
+  },
+  {
+    "id": "world-map-210",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Renaissance Europe",
+    "era": "c. 1350–1550 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 43.7696,
+      "lng": 11.2558,
+      "label": "Florence, Italy"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 118,
+          "y": 66,
+          "label": "Genoa"
+        },
+        {
+          "id": "b",
+          "x": 136,
+          "y": 68,
+          "label": "Florence"
+        },
+        {
+          "id": "c",
+          "x": 146,
+          "y": 92,
+          "label": "Naples"
+        },
+        {
+          "id": "d",
+          "x": 28,
+          "y": 82,
+          "label": "Toledo"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Tuscan banking city where the Italian Renaissance blossomed?",
+    "options": [],
+    "answer": "b",
+    "explanation": "Florence lay inland in northern Italy’s Arno valley, where Medici wealth funded Renaissance art.",
+    "source_url": "https://www.britannica.com/place/Florence",
+    "trap_notes": {
+      "a": "Genoa was a rival maritime port on Italy’s northwestern Ligurian coast.",
+      "c": "Naples was a southern Italian port kingdom, not the Tuscan birthplace of humanism.",
+      "d": "Toledo was a Spanish royal and translation center in central Iberia.",
+      "default": "Florence sits in Tuscany in north-central Italy, between Rome and Venice."
+    }
+  },
+  {
+    "id": "world-map-211",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Ottoman & Mediterranean Rivalries",
+    "era": "1571 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.3917,
+      "lng": 21.8275,
+      "label": "Lepanto, Greece"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 274,
+          "y": 118,
+          "label": "Nicosia"
+        },
+        {
+          "id": "b",
+          "x": 78,
+          "y": 124,
+          "label": "Algiers"
+        },
+        {
+          "id": "c",
+          "x": 190,
+          "y": 94,
+          "label": "Lepanto"
+        },
+        {
+          "id": "d",
+          "x": 148,
+          "y": 58,
+          "label": "Venice"
+        }
+      ]
+    },
+    "prompt": "Select the Gulf of Corinth site where the Holy League defeated the Ottoman fleet in 1571.",
+    "options": [],
+    "answer": "c",
+    "explanation": "The 1571 Battle of Lepanto took place off western Greece, halting Ottoman naval expansion westward.",
+    "source_url": "https://www.britannica.com/event/Battle-of-Lepanto",
+    "trap_notes": {
+      "a": "Nicosia is the inland capital of Cyprus in the eastern Mediterranean.",
+      "b": "Algiers was an Ottoman-allied Barbary port on the North African coast.",
+      "d": "Venice sent galleys to the Holy League from the northern Adriatic Sea.",
+      "default": "Lepanto guarded the entrance to the Gulf of Corinth in western Greece."
+    }
+  },
+  {
+    "id": "world-map-212",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "World War II",
+    "era": "1945 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 44.4952,
+      "lng": 34.1663,
+      "label": "Yalta, Crimea"
+    },
+    "mapSpec": {
+      "region": "mediterranean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 238,
+          "y": 62,
+          "label": "Istanbul"
+        },
+        {
+          "id": "b",
+          "x": 308,
+          "y": 56,
+          "label": "Trabzon"
+        },
+        {
+          "id": "c",
+          "x": 202,
+          "y": 96,
+          "label": "Athens"
+        },
+        {
+          "id": "d",
+          "x": 286,
+          "y": 24,
+          "label": "Yalta"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Crimean resort where Allied leaders met in February 1945?",
+    "options": [],
+    "answer": "d",
+    "explanation": "Yalta sits on the Crimean peninsula on the northern Black Sea coast, hosting FDR, Churchill, and Stalin.",
+    "source_url": "https://www.britannica.com/event/Yalta-Conference",
+    "trap_notes": {
+      "a": "Istanbul sits on the Bosphorus Strait connecting the Black Sea to the Mediterranean.",
+      "b": "Trabzon is a Turkish port on the southern shore of the Black Sea.",
+      "c": "Athens lies on the Aegean side of Greece, far south of the Black Sea.",
+      "default": "Yalta is located on the Crimean peninsula jutting into the northern Black Sea."
+    }
+  },
+  {
+    "id": "world-map-213",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early River Civilizations",
+    "era": "c. 2600–1900 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 30.6289,
+      "lng": 72.8639,
+      "label": "Harappa, Pakistan"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 160,
+          "y": 24,
+          "label": "Harappa"
+        },
+        {
+          "id": "b",
+          "x": 228,
+          "y": 62,
+          "label": "Pataliputra"
+        },
+        {
+          "id": "c",
+          "x": 184,
+          "y": 28,
+          "label": "Delhi"
+        },
+        {
+          "id": "d",
+          "x": 166,
+          "y": 98,
+          "label": "Goa"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the upper Indus Valley city that gave the Harappan civilization its name?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Harappa stood in Punjab along a tributary of the Indus River in modern Pakistan.",
+    "source_url": "https://www.britannica.com/place/Harappa",
+    "trap_notes": {
+      "b": "Pataliputra lay far east along the Ganges River in Bihar.",
+      "c": "Delhi sits southeast of Punjab on the Yamuna River.",
+      "d": "Goa is a coastal port on India’s western Malabar-Konkan shore.",
+      "default": "Harappa was located in the upper Indus River basin in Punjab."
+    }
+  },
+  {
+    "id": "world-map-214",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Classical South Asia",
+    "era": "c. 850–1279 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 10.787,
+      "lng": 79.1378,
+      "label": "Thanjavur, India"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 152,
+          "y": 44,
+          "label": "Mohenjo-daro"
+        },
+        {
+          "id": "b",
+          "x": 192,
+          "y": 114,
+          "label": "Thanjavur"
+        },
+        {
+          "id": "c",
+          "x": 184,
+          "y": 28,
+          "label": "Delhi"
+        },
+        {
+          "id": "d",
+          "x": 228,
+          "y": 62,
+          "label": "Dhaka"
+        }
+      ]
+    },
+    "prompt": "Select the southern Indian temple capital of the maritime Chola Dynasty.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Thanjavur lay in the Kaveri River delta of Tamil Nadu, anchoring Chola trade across the Bay of Bengal.",
+    "source_url": "https://www.britannica.com/place/Thanjavur",
+    "trap_notes": {
+      "a": "Mohenjo-daro was a Bronze Age Indus city in Sindh, centuries before the Cholas.",
+      "c": "Delhi was the northern Indian capital of later sultanates and the Mughals.",
+      "d": "Dhaka lies in the Ganges-Brahmaputra delta of Bengal.",
+      "default": "Thanjavur was located in southeastern India near the Coromandel Coast."
+    }
+  },
+  {
+    "id": "world-map-215",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Rise of Islam",
+    "era": "c. 570–632 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 21.4225,
+      "lng": 39.8262,
+      "label": "Mecca, Arabia"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 84,
+          "y": 24,
+          "label": "Baghdad"
+        },
+        {
+          "id": "b",
+          "x": 108,
+          "y": 56,
+          "label": "Muscat"
+        },
+        {
+          "id": "c",
+          "x": 42,
+          "y": 48,
+          "label": "Mecca"
+        },
+        {
+          "id": "d",
+          "x": 64,
+          "y": 84,
+          "label": "Aden"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Red Sea caravan city that is Islam’s holiest pilgrimage site?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Mecca sits in the Hijaz mountains of western Arabia near the Red Sea.",
+    "source_url": "https://www.britannica.com/place/Mecca",
+    "trap_notes": {
+      "a": "Baghdad lies northeast in Mesopotamia along the Tigris River.",
+      "b": "Muscat sits on the southeastern corner of Arabia facing the Gulf of Oman.",
+      "d": "Aden guards the southern tip of Arabia at the Bab el-Mandeb strait.",
+      "default": "Mecca is located in western Arabia near the Red Sea coast."
+    }
+  },
+  {
+    "id": "world-map-216",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Indian Ocean Trade",
+    "era": "c. 1300–1622 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 27.0644,
+      "lng": 56.4533,
+      "label": "Hormuz, Iran"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 64,
+          "y": 84,
+          "label": "Aden"
+        },
+        {
+          "id": "b",
+          "x": 176,
+          "y": 118,
+          "label": "Calicut"
+        },
+        {
+          "id": "c",
+          "x": 286,
+          "y": 128,
+          "label": "Malacca"
+        },
+        {
+          "id": "d",
+          "x": 112,
+          "y": 36,
+          "label": "Hormuz"
+        }
+      ]
+    },
+    "prompt": "Select the strategic island port controlling the narrow entrance to the Persian Gulf.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Hormuz guarded the strait linking the Persian Gulf with the Arabian Sea and Indian Ocean.",
+    "source_url": "https://www.britannica.com/place/Hormuz-historical-city-Iran",
+    "trap_notes": {
+      "a": "Aden controlled the entrance to the Red Sea, not the Persian Gulf.",
+      "b": "Calicut was a spice port on India’s southwestern Malabar Coast.",
+      "c": "Malacca guarded the strait between the Indian Ocean and South China Sea.",
+      "default": "Hormuz sat at the narrow chokepoint connecting the Persian Gulf to the Indian Ocean."
+    }
+  },
+  {
+    "id": "world-map-217",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Indian Ocean Trade",
+    "era": "c. 1000–1500 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 12.7855,
+      "lng": 45.0187,
+      "label": "Aden, Yemen"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 64,
+          "y": 84,
+          "label": "Aden"
+        },
+        {
+          "id": "b",
+          "x": 56,
+          "y": 140,
+          "label": "Mombasa"
+        },
+        {
+          "id": "c",
+          "x": 154,
+          "y": 68,
+          "label": "Surat"
+        },
+        {
+          "id": "d",
+          "x": 194,
+          "y": 138,
+          "label": "Colombo"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Yemeni port linking Red Sea shipping to Indian Ocean monsoons?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Aden sits at the southwestern tip of Arabia, funneling Egyptian and Red Sea trade toward India.",
+    "source_url": "https://www.britannica.com/place/Aden",
+    "trap_notes": {
+      "b": "Mombasa was a Swahili Coast port farther south in East Africa.",
+      "c": "Surat was a major Mughal textile port in Gujarat on India’s west coast.",
+      "d": "Colombo is a port on the island of Sri Lanka south of India.",
+      "default": "Aden sits on Arabia’s southern tip near the mouth of the Red Sea."
+    }
+  },
+  {
+    "id": "world-map-218",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical Africa",
+    "era": "c. 1000–1500 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -4.0435,
+      "lng": 39.6682,
+      "label": "Mombasa, Kenya"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 54,
+          "y": 102,
+          "label": "Axum"
+        },
+        {
+          "id": "b",
+          "x": 56,
+          "y": 140,
+          "label": "Mombasa"
+        },
+        {
+          "id": "c",
+          "x": 64,
+          "y": 178,
+          "label": "Antananarivo"
+        },
+        {
+          "id": "d",
+          "x": 108,
+          "y": 56,
+          "label": "Muscat"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Swahili Coast coral-island port in modern Kenya?",
+    "options": [],
+    "answer": "b",
+    "explanation": "Mombasa thrived on the East African coast, trading ivory and gold for Asian porcelain and cloth.",
+    "source_url": "https://www.britannica.com/place/Mombasa",
+    "trap_notes": {
+      "a": "Axum lay inland in the northern Ethiopian highlands.",
+      "c": "Antananarivo sits in the central highlands of Madagascar.",
+      "d": "Muscat is an Omani port on the Arabian Peninsula.",
+      "default": "Mombasa is an island port along the Swahili Coast of East Africa."
+    }
+  },
+  {
+    "id": "world-map-219",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical Southeast Asia",
+    "era": "c. 650–1200 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -2.9761,
+      "lng": 104.7754,
+      "label": "Palembang, Sumatra"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 260,
+          "y": 72,
+          "label": "Bagan"
+        },
+        {
+          "id": "b",
+          "x": 194,
+          "y": 138,
+          "label": "Kandy"
+        },
+        {
+          "id": "c",
+          "x": 288,
+          "y": 154,
+          "label": "Palembang"
+        },
+        {
+          "id": "d",
+          "x": 36,
+          "y": 192,
+          "label": "Sofala"
+        }
+      ]
+    },
+    "prompt": "Select the Sumatran river port that anchored the Buddhist maritime kingdom of Srivijaya.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Palembang on southeastern Sumatra grew rich taxing ships passing through the Strait of Malacca.",
+    "source_url": "https://www.britannica.com/place/Srivijaya-empire",
+    "trap_notes": {
+      "a": "Bagan was an inland Burmese temple kingdom along the Irrawaddy River.",
+      "b": "Kandy was an upland kingdom in central Sri Lanka.",
+      "d": "Sofala was a gold-exporting port on the Mozambique coast of southern Africa.",
+      "default": "Palembang lay on the island of Sumatra near the southern end of the Strait of Malacca."
+    }
+  },
+  {
+    "id": "world-map-220",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical Southeast Asia",
+    "era": "1293–1527 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -7.55,
+      "lng": 112.38,
+      "label": "Majapahit, Java"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 278,
+          "y": 86,
+          "label": "Ayutthaya"
+        },
+        {
+          "id": "b",
+          "x": 228,
+          "y": 62,
+          "label": "Chittagong"
+        },
+        {
+          "id": "c",
+          "x": 48,
+          "y": 164,
+          "label": "Kilwa"
+        },
+        {
+          "id": "d",
+          "x": 314,
+          "y": 174,
+          "label": "Majapahit"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Hindu-Buddhist maritime empire based on the island of Java?",
+    "options": [],
+    "answer": "d",
+    "explanation": "Majapahit ruled eastern Java and built a spice-trading network across the Indonesian archipelago.",
+    "source_url": "https://www.britannica.com/place/Majapahit-empire",
+    "trap_notes": {
+      "a": "Ayutthaya was a Thai river kingdom on the Southeast Asian mainland.",
+      "b": "Chittagong is a port on the northeastern Bay of Bengal.",
+      "c": "Kilwa was a Swahili Coast trading city off East Africa.",
+      "default": "Majapahit was centered on the island of Java in maritime Southeast Asia."
+    }
+  },
+  {
+    "id": "world-map-221",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Gunpowder Empires",
+    "era": "1526–1658 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 27.1767,
+      "lng": 78.0081,
+      "label": "Agra, India"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 184,
+          "y": 28,
+          "label": "Agra"
+        },
+        {
+          "id": "b",
+          "x": 160,
+          "y": 82,
+          "label": "Bombay"
+        },
+        {
+          "id": "c",
+          "x": 112,
+          "y": 36,
+          "label": "Hormuz"
+        },
+        {
+          "id": "d",
+          "x": 286,
+          "y": 128,
+          "label": "Malacca"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Mughal capital on the Yamuna River where Shah Jahan built the Taj Mahal?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Agra lay in northern India’s Gangetic plain and served as the Mughal court’s imperial heart.",
+    "source_url": "https://www.britannica.com/place/Agra",
+    "trap_notes": {
+      "b": "Bombay was a western coastal port developed under British East India Company rule.",
+      "c": "Hormuz was a Persian Gulf island entrepot, not an inland Indian capital.",
+      "d": "Malacca lay far east on the Malay Peninsula.",
+      "default": "Agra is located in northern India along the Yamuna River southeast of Delhi."
+    }
+  },
+  {
+    "id": "world-map-222",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "European Maritime Empires",
+    "era": "1510–1961 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 15.2993,
+      "lng": 74.124,
+      "label": "Goa, India"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 228,
+          "y": 62,
+          "label": "Calcutta"
+        },
+        {
+          "id": "b",
+          "x": 166,
+          "y": 98,
+          "label": "Goa"
+        },
+        {
+          "id": "c",
+          "x": 56,
+          "y": 140,
+          "label": "Mombasa"
+        },
+        {
+          "id": "d",
+          "x": 288,
+          "y": 154,
+          "label": "Palembang"
+        }
+      ]
+    },
+    "prompt": "Select the western Indian enclave seized by Afonso de Albuquerque in 1510 for Portugal.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Goa sat midway down India’s western coast and became the hub of Portugal’s Estado da India.",
+    "source_url": "https://www.britannica.com/place/Goa",
+    "trap_notes": {
+      "a": "Calcutta was a British trading post on the eastern Bengal delta.",
+      "c": "Mombasa lay across the ocean on the East African Swahili Coast.",
+      "d": "Palembang was on the Indonesian island of Sumatra.",
+      "default": "Goa is a coastal enclave on the western shore of India."
+    }
+  },
+  {
+    "id": "world-map-223",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "British Imperialism",
+    "era": "1690–1911 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "label": "Calcutta, India"
+    },
+    "mapSpec": {
+      "region": "indian_ocean",
+      "pins": [
+        {
+          "id": "a",
+          "x": 154,
+          "y": 68,
+          "label": "Surat"
+        },
+        {
+          "id": "b",
+          "x": 176,
+          "y": 118,
+          "label": "Cochin"
+        },
+        {
+          "id": "c",
+          "x": 228,
+          "y": 62,
+          "label": "Calcutta"
+        },
+        {
+          "id": "d",
+          "x": 194,
+          "y": 138,
+          "label": "Colombo"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Bengal river port that served as British India’s capital until 1911?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Calcutta sat on the Hooghly River in the Ganges Delta, anchoring British rule in eastern India.",
+    "source_url": "https://www.britannica.com/place/Kolkata",
+    "trap_notes": {
+      "a": "Surat lay on the western coast of India in Gujarat.",
+      "b": "Cochin was a spice port on the southwestern Malabar Coast.",
+      "d": "Colombo was the British colonial port on the island of Sri Lanka.",
+      "default": "Calcutta is located in northeastern India in the Ganges River delta."
+    }
+  },
+  {
+    "id": "world-map-224",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early River Civilizations",
+    "era": "c. 1300–1046 BCE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 36.1011,
+      "lng": 114.3497,
+      "label": "Anyang, China"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 142,
+          "y": 86,
+          "label": "Anyang"
+        },
+        {
+          "id": "b",
+          "x": 180,
+          "y": 136,
+          "label": "Hangzhou"
+        },
+        {
+          "id": "c",
+          "x": 146,
+          "y": 186,
+          "label": "Guangzhou"
+        },
+        {
+          "id": "d",
+          "x": 274,
+          "y": 104,
+          "label": "Kyoto"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the late Shang Dynasty capital where thousands of oracle bones were found?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Anyang lay near the Yellow River in northern China and served as the last Shang royal capital.",
+    "source_url": "https://www.britannica.com/place/Anyang-China",
+    "trap_notes": {
+      "b": "Hangzhou lay far south near the Yangtze Delta and grew prominent under the Song.",
+      "c": "Guangzhou is a southern coastal port on the Pearl River Delta.",
+      "d": "Kyoto was Japan’s imperial capital on the island of Honshu.",
+      "default": "Anyang sat in the North China Plain near the lower Yellow River."
+    }
+  },
+  {
+    "id": "world-map-225",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Silk Road Exchange",
+    "era": "c. 100 BCE–1000 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.1421,
+      "lng": 94.6619,
+      "label": "Dunhuang, China"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 184,
+          "y": 132,
+          "label": "Shanghai"
+        },
+        {
+          "id": "b",
+          "x": 66,
+          "y": 78,
+          "label": "Dunhuang"
+        },
+        {
+          "id": "c",
+          "x": 220,
+          "y": 94,
+          "label": "Seoul"
+        },
+        {
+          "id": "d",
+          "x": 296,
+          "y": 84,
+          "label": "Edo"
+        }
+      ]
+    },
+    "prompt": "Select the northwestern Silk Road oasis famous for the Buddhist Mogao Caves.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Dunhuang sat at the western end of China’s Hexi Corridor, where Silk Road caravans entered the desert.",
+    "source_url": "https://www.britannica.com/place/Dunhuang",
+    "trap_notes": {
+      "a": "Shanghai is an eastern port city at the mouth of the Yangtze River.",
+      "c": "Seoul lies on the Korean Peninsula east of the Yellow Sea.",
+      "d": "Edo was the Tokugawa capital on Japan’s Pacific coast.",
+      "default": "Dunhuang was a desert oasis in northwestern China guarding the Silk Road gateway."
+    }
+  },
+  {
+    "id": "world-map-226",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical East Asia",
+    "era": "960–1127 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 34.7972,
+      "lng": 114.3075,
+      "label": "Kaifeng, China"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 36,
+          "y": 148,
+          "label": "Lhasa"
+        },
+        {
+          "id": "b",
+          "x": 146,
+          "y": 186,
+          "label": "Canton"
+        },
+        {
+          "id": "c",
+          "x": 146,
+          "y": 94,
+          "label": "Kaifeng"
+        },
+        {
+          "id": "d",
+          "x": 250,
+          "y": 124,
+          "label": "Nagasaki"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Northern Song capital on the Yellow River famed for its night markets?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Kaifeng sat on the North China Plain near the Yellow River and Grand Canal before falling in 1127.",
+    "source_url": "https://www.britannica.com/place/Kaifeng",
+    "trap_notes": {
+      "a": "Lhasa sits high on the Tibetan Plateau in southwestern China.",
+      "b": "Canton is a southern maritime port on the Pearl River Delta.",
+      "d": "Nagasaki is a port on Japan’s southern island of Kyushu.",
+      "default": "Kaifeng stood along the Yellow River in east-central China."
+    }
+  },
+  {
+    "id": "world-map-227",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical East Asia",
+    "era": "1127–1279 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 30.2741,
+      "lng": 120.1551,
+      "label": "Hangzhou, China"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 166,
+          "y": 68,
+          "label": "Beijing"
+        },
+        {
+          "id": "b",
+          "x": 66,
+          "y": 78,
+          "label": "Dunhuang"
+        },
+        {
+          "id": "c",
+          "x": 216,
+          "y": 84,
+          "label": "Pyongyang"
+        },
+        {
+          "id": "d",
+          "x": 180,
+          "y": 136,
+          "label": "Hangzhou"
+        }
+      ]
+    },
+    "prompt": "Select the Southern Song capital near the Yangtze Delta praised by Marco Polo.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Hangzhou lay south of the Yangtze River at the southern end of the Grand Canal.",
+    "source_url": "https://www.britannica.com/place/Hangzhou",
+    "trap_notes": {
+      "a": "Beijing lies far north near the Great Wall and served as the Yuan and Ming capital.",
+      "b": "Dunhuang is an arid oasis in northwestern China.",
+      "c": "Pyongyang lies on the northern Korean Peninsula.",
+      "default": "Hangzhou sits on China’s eastern coast just south of the Yangtze River mouth."
+    }
+  },
+  {
+    "id": "world-map-228",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Ming & Qing China",
+    "era": "1421–1912 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "label": "Beijing, China"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 166,
+          "y": 68,
+          "label": "Beijing"
+        },
+        {
+          "id": "b",
+          "x": 90,
+          "y": 128,
+          "label": "Chengdu"
+        },
+        {
+          "id": "c",
+          "x": 174,
+          "y": 164,
+          "label": "Quanzhou"
+        },
+        {
+          "id": "d",
+          "x": 274,
+          "y": 104,
+          "label": "Kyoto"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Ming and Qing imperial capital home to the Forbidden City?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Beijing sits on the northern edge of the North China Plain, close to the northern frontier.",
+    "source_url": "https://www.britannica.com/place/Beijing",
+    "trap_notes": {
+      "b": "Chengdu lies inland in the fertile Sichuan Basin of southwestern China.",
+      "c": "Quanzhou is a coastal port in Fujian facing Taiwan.",
+      "d": "Kyoto was Japan’s imperial capital, not China’s.",
+      "default": "Beijing is located in northern China near the Bohai Sea."
+    }
+  },
+  {
+    "id": "world-map-229",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical Trade",
+    "era": "c. 1000–1400 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 24.8741,
+      "lng": 118.6757,
+      "label": "Quanzhou, China"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 116,
+          "y": 96,
+          "label": "Xi’an"
+        },
+        {
+          "id": "b",
+          "x": 174,
+          "y": 164,
+          "label": "Quanzhou"
+        },
+        {
+          "id": "c",
+          "x": 220,
+          "y": 94,
+          "label": "Seoul"
+        },
+        {
+          "id": "d",
+          "x": 302,
+          "y": 34,
+          "label": "Sapporo"
+        }
+      ]
+    },
+    "prompt": "Select the Fujian port where Arab, Persian, and Chinese merchants traded silk and porcelain.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Quanzhou sat on China’s southeastern coast opposite Taiwan and was a leading Song-Yuan port.",
+    "source_url": "https://www.britannica.com/place/Quanzhou",
+    "trap_notes": {
+      "a": "Xi’an is an inland city in the Wei River valley, the start of the overland Silk Road.",
+      "c": "Seoul is an inland capital on the Korean Peninsula.",
+      "d": "Sapporo is located on Japan’s northernmost island of Hokkaido.",
+      "default": "Quanzhou sits on China’s southeastern Fujian coast across from Taiwan."
+    }
+  },
+  {
+    "id": "world-map-230",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early Modern Japan",
+    "era": "1603–1868 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "label": "Edo, Japan"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 274,
+          "y": 104,
+          "label": "Kyoto"
+        },
+        {
+          "id": "b",
+          "x": 250,
+          "y": 124,
+          "label": "Nagasaki"
+        },
+        {
+          "id": "c",
+          "x": 296,
+          "y": 84,
+          "label": "Edo"
+        },
+        {
+          "id": "d",
+          "x": 172,
+          "y": 126,
+          "label": "Nanjing"
+        }
+      ]
+    },
+    "prompt": "Which pin marks Edo, the eastern Honshu castle city of the Tokugawa shogunate?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Edo sat on Tokyo Bay in eastern Honshu, where daimyo lords were required to spend alternate years.",
+    "source_url": "https://www.britannica.com/place/Tokyo",
+    "trap_notes": {
+      "a": "Kyoto lay farther west in central Honshu and remained the emperor’s ceremonial seat.",
+      "b": "Nagasaki was a port on the southern island of Kyushu.",
+      "d": "Nanjing lies on the lower Yangtze River in China.",
+      "default": "Edo was located on the eastern Pacific coast of Japan’s main island of Honshu."
+    }
+  },
+  {
+    "id": "world-map-231",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical Korea",
+    "era": "57 BCE–935 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.8562,
+      "lng": 129.2247,
+      "label": "Gyeongju, Korea"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 216,
+          "y": 84,
+          "label": "Pyongyang"
+        },
+        {
+          "id": "b",
+          "x": 166,
+          "y": 68,
+          "label": "Beijing"
+        },
+        {
+          "id": "c",
+          "x": 296,
+          "y": 84,
+          "label": "Tokyo"
+        },
+        {
+          "id": "d",
+          "x": 226,
+          "y": 106,
+          "label": "Gyeongju"
+        }
+      ]
+    },
+    "prompt": "Select the southeastern Korean city that served as the capital of the Silla Kingdom.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Gyeongju lay in southeastern Korea, where Silla kings built Buddhist temples and stone observatories.",
+    "source_url": "https://www.britannica.com/place/Gyeongju",
+    "trap_notes": {
+      "a": "Pyongyang lay in northwestern Korea and was associated with Goguryeo.",
+      "b": "Beijing is located in northern China, not on the Korean Peninsula.",
+      "c": "Tokyo is located on Japan’s eastern coast across the Sea of Japan.",
+      "default": "Gyeongju is located near the southeastern tip of the Korean Peninsula."
+    }
+  },
+  {
+    "id": "world-map-232",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "World War II",
+    "era": "1945 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 34.3853,
+      "lng": 132.4553,
+      "label": "Hiroshima, Japan"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 262,
+          "y": 110,
+          "label": "Hiroshima"
+        },
+        {
+          "id": "b",
+          "x": 302,
+          "y": 34,
+          "label": "Hokkaido"
+        },
+        {
+          "id": "c",
+          "x": 195,
+          "y": 172,
+          "label": "Taipei"
+        },
+        {
+          "id": "d",
+          "x": 184,
+          "y": 132,
+          "label": "Shanghai"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the western Honshu port struck by the first atomic bomb in August 1945?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Hiroshima sits on the Seto Inland Sea coast of southwestern Honshu in Japan.",
+    "source_url": "https://www.britannica.com/place/Hiroshima-Japan",
+    "trap_notes": {
+      "b": "Hokkaido is Japan’s sparsely populated northernmost island.",
+      "c": "Taipei is the capital on the island of Taiwan.",
+      "d": "Shanghai is a major port city on China’s central coast.",
+      "default": "Hiroshima lies on the southwestern coast of Japan’s main island of Honshu."
+    }
+  },
+  {
+    "id": "world-map-233",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Imperialism in Asia",
+    "era": "1842–1997 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "label": "Hong Kong"
+    },
+    "mapSpec": {
+      "region": "east_asia",
+      "pins": [
+        {
+          "id": "a",
+          "x": 184,
+          "y": 132,
+          "label": "Shanghai"
+        },
+        {
+          "id": "b",
+          "x": 152,
+          "y": 190,
+          "label": "Hong Kong"
+        },
+        {
+          "id": "c",
+          "x": 220,
+          "y": 94,
+          "label": "Incheon"
+        },
+        {
+          "id": "d",
+          "x": 250,
+          "y": 124,
+          "label": "Nagasaki"
+        }
+      ]
+    },
+    "prompt": "Select the Pearl River Delta island ceded to Britain in the 1842 Treaty of Nanjing.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Hong Kong sits on China’s southern coast at the mouth of the Pearl River Delta.",
+    "source_url": "https://www.britannica.com/place/Hong-Kong",
+    "trap_notes": {
+      "a": "Shanghai is located much farther north at the mouth of the Yangtze River.",
+      "c": "Incheon is a port city on the western coast of Korea.",
+      "d": "Nagasaki is a port on Japan’s southern island of Kyushu.",
+      "default": "Hong Kong lies on China’s southern coast near the Pearl River Delta."
+    }
+  },
+  {
+    "id": "world-map-234",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Pre-Columbian Americas",
+    "era": "c. 250–900 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 17.222,
+      "lng": -89.6237,
+      "label": "Tikal, Guatemala"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 76,
+          "y": 104,
+          "label": "Tikal"
+        },
+        {
+          "id": "b",
+          "x": 88,
+          "y": 148,
+          "label": "Cusco"
+        },
+        {
+          "id": "c",
+          "x": 166,
+          "y": 112,
+          "label": "Timbuktu"
+        },
+        {
+          "id": "d",
+          "x": 282,
+          "y": 110,
+          "label": "Angkor"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Classic Maya rainforest city-state of Tikal in Mesoamerica?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Tikal stood in the lowlands of northern Guatemala in Mesoamerica, famed for limestone temple pyramids.",
+    "source_url": "https://www.britannica.com/place/Tikal",
+    "trap_notes": {
+      "b": "Cusco was the highland Inca capital in the Peruvian Andes.",
+      "c": "Timbuktu was a trans-Saharan trading city in West Africa.",
+      "d": "Angkor was the Khmer temple capital in mainland Southeast Asia.",
+      "default": "Tikal was a major Maya city in the rainforest lowlands of Mesoamerica."
+    }
+  },
+  {
+    "id": "world-map-235",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Post-Classical Africa",
+    "era": "c. 1200–1897 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 6.335,
+      "lng": 5.6037,
+      "label": "Benin City, Nigeria"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 204,
+          "y": 94,
+          "label": "Cairo"
+        },
+        {
+          "id": "b",
+          "x": 182,
+          "y": 118,
+          "label": "Benin City"
+        },
+        {
+          "id": "c",
+          "x": 212,
+          "y": 162,
+          "label": "Great Zimbabwe"
+        },
+        {
+          "id": "d",
+          "x": 222,
+          "y": 140,
+          "label": "Kilwa"
+        }
+      ]
+    },
+    "prompt": "Select the West African forest kingdom capital famed for its cast-brass plaques.",
+    "options": [],
+    "answer": "b",
+    "explanation": "Benin City lay near the Niger Delta in West Africa and produced renowned royal brass sculptures.",
+    "source_url": "https://www.britannica.com/place/Benin-historical-kingdom-West-Africa",
+    "trap_notes": {
+      "a": "Cairo lay in northeastern Africa along the Nile Delta.",
+      "c": "Great Zimbabwe stood inland in southern Africa.",
+      "d": "Kilwa was an island trading port off the East African Swahili Coast.",
+      "default": "The Kingdom of Benin was located in the West African forest belt near the Niger Delta."
+    }
+  },
+  {
+    "id": "world-map-236",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Early Modern Empires",
+    "era": "c. 1480–1700 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "label": "Moscow, Russia"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 184,
+          "y": 74,
+          "label": "Rome"
+        },
+        {
+          "id": "b",
+          "x": 204,
+          "y": 78,
+          "label": "Istanbul"
+        },
+        {
+          "id": "c",
+          "x": 212,
+          "y": 48,
+          "label": "Moscow"
+        },
+        {
+          "id": "d",
+          "x": 298,
+          "y": 72,
+          "label": "Beijing"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the fortified Kremlin capital from which Russian tsars expanded across Siberia?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Moscow sat in the forested river basin of eastern Europe, anchoring the growing Russian Empire.",
+    "source_url": "https://www.britannica.com/place/Moscow",
+    "trap_notes": {
+      "a": "Rome is located on the Italian peninsula in southern Europe.",
+      "b": "Istanbul guarded the Bosphorus Strait as the Ottoman capital.",
+      "d": "Beijing lay far east in northern China.",
+      "default": "Moscow lies on the plains of eastern Europe west of the Ural Mountains."
+    }
+  },
+  {
+    "id": "world-map-237",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Protestant Reformation",
+    "era": "1517 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.8661,
+      "lng": 12.6497,
+      "label": "Wittenberg, Germany"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 166,
+          "y": 74,
+          "label": "Madrid"
+        },
+        {
+          "id": "b",
+          "x": 196,
+          "y": 80,
+          "label": "Athens"
+        },
+        {
+          "id": "c",
+          "x": 222,
+          "y": 92,
+          "label": "Baghdad"
+        },
+        {
+          "id": "d",
+          "x": 186,
+          "y": 60,
+          "label": "Wittenberg"
+        }
+      ]
+    },
+    "prompt": "Select the German university town where Martin Luther challenged church indulgences in 1517.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Wittenberg sat on the Elbe River in Saxony, central Europe, sparking the Protestant Reformation.",
+    "source_url": "https://www.britannica.com/place/Wittenberg",
+    "trap_notes": {
+      "a": "Madrid is located in central Spain on the Iberian Peninsula.",
+      "b": "Athens lies in southeastern Europe on the Greek peninsula.",
+      "c": "Baghdad lies in Mesopotamia along the Tigris River.",
+      "default": "Wittenberg is located in central Europe in the German region of Saxony."
+    }
+  },
+  {
+    "id": "world-map-238",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Age of Exploration",
+    "era": "1415–1550 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "label": "Lisbon, Portugal"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 164,
+          "y": 74,
+          "label": "Lisbon"
+        },
+        {
+          "id": "b",
+          "x": 184,
+          "y": 74,
+          "label": "Venice"
+        },
+        {
+          "id": "c",
+          "x": 256,
+          "y": 110,
+          "label": "Calicut"
+        },
+        {
+          "id": "d",
+          "x": 122,
+          "y": 148,
+          "label": "Salvador"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Atlantic port from which Portuguese fleets sailed around Africa to Asia?",
+    "options": [],
+    "answer": "a",
+    "explanation": "Lisbon sits on Iberia’s western Atlantic coast at the mouth of the Tagus River.",
+    "source_url": "https://www.britannica.com/place/Lisbon",
+    "trap_notes": {
+      "b": "Venice lay on the Adriatic Sea inside the Mediterranean.",
+      "c": "Calicut was the Indian pepper port reached by Vasco da Gama, not his home port.",
+      "d": "Salvador was a Portuguese colonial port across the Atlantic in Brazil.",
+      "default": "Lisbon sits on the western Atlantic edge of the Iberian Peninsula."
+    }
+  },
+  {
+    "id": "world-map-239",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Atlantic Revolutions",
+    "era": "1791–1804 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 18.5944,
+      "lng": -72.3074,
+      "label": "Saint-Domingue"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 176,
+          "y": 64,
+          "label": "Paris"
+        },
+        {
+          "id": "b",
+          "x": 94,
+          "y": 102,
+          "label": "Saint-Domingue"
+        },
+        {
+          "id": "c",
+          "x": 98,
+          "y": 74,
+          "label": "Philadelphia"
+        },
+        {
+          "id": "d",
+          "x": 104,
+          "y": 178,
+          "label": "Buenos Aires"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Caribbean sugar colony where Toussaint Louverture led a revolution?",
+    "options": [],
+    "answer": "b",
+    "explanation": "Saint-Domingue occupied the western third of Hispaniola in the Caribbean and became Haiti in 1804.",
+    "source_url": "https://www.britannica.com/place/Saint-Domingue",
+    "trap_notes": {
+      "a": "Paris was the capital of France across the Atlantic in Europe.",
+      "c": "Philadelphia lay on the North American Atlantic coast.",
+      "d": "Buenos Aires lies far south along the Rio de la Plata in South America.",
+      "default": "Saint-Domingue was a French colony on the Caribbean island of Hispaniola."
+    }
+  },
+  {
+    "id": "world-map-240",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Industrial Revolution",
+    "era": "c. 1780–1850 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 53.4808,
+      "lng": -2.2426,
+      "label": "Manchester, England"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 188,
+          "y": 60,
+          "label": "Vienna"
+        },
+        {
+          "id": "b",
+          "x": 298,
+          "y": 72,
+          "label": "Beijing"
+        },
+        {
+          "id": "c",
+          "x": 158,
+          "y": 54,
+          "label": "Manchester"
+        },
+        {
+          "id": "d",
+          "x": 325,
+          "y": 66,
+          "label": "Osaka"
+        }
+      ]
+    },
+    "prompt": "Select the British industrial city that became the world’s leading cotton-textile center.",
+    "options": [],
+    "answer": "c",
+    "explanation": "Manchester lay in northwestern England near coal fields and the port of Liverpool.",
+    "source_url": "https://www.britannica.com/place/Manchester-England",
+    "trap_notes": {
+      "a": "Vienna was the imperial Habsburg capital in central Europe.",
+      "b": "Beijing was the Qing Dynasty capital in northern China.",
+      "d": "Osaka was a commercial hub in Japan, which industrialized later in the Meiji era.",
+      "default": "Manchester is located in northwestern Great Britain."
+    }
+  },
+  {
+    "id": "world-map-241",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Latin American Independence",
+    "era": "1810–1821 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 10.4806,
+      "lng": -66.9036,
+      "label": "Caracas, Venezuela"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 74,
+          "y": 102,
+          "label": "Mexico City"
+        },
+        {
+          "id": "b",
+          "x": 122,
+          "y": 148,
+          "label": "Rio de Janeiro"
+        },
+        {
+          "id": "c",
+          "x": 164,
+          "y": 74,
+          "label": "Madrid"
+        },
+        {
+          "id": "d",
+          "x": 96,
+          "y": 122,
+          "label": "Caracas"
+        }
+      ]
+    },
+    "prompt": "Which pin marks Simon Bolivar’s birthplace and a key base of South American independence?",
+    "options": [],
+    "answer": "d",
+    "explanation": "Caracas sits near the Caribbean coast of northern South America in Venezuela.",
+    "source_url": "https://www.britannica.com/place/Caracas",
+    "trap_notes": {
+      "a": "Mexico City lies far northwest in central Mexico.",
+      "b": "Rio de Janeiro lies on the southeastern Atlantic coast of Brazil.",
+      "c": "Madrid was the Spanish imperial capital in Europe.",
+      "default": "Caracas is located on the northern Caribbean coast of South America."
+    }
+  },
+  {
+    "id": "world-map-242",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Imperialism in Africa",
+    "era": "1652–1910 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "label": "Cape Town, South Africa"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 198,
+          "y": 180,
+          "label": "Cape Town"
+        },
+        {
+          "id": "b",
+          "x": 204,
+          "y": 94,
+          "label": "Cairo"
+        },
+        {
+          "id": "c",
+          "x": 166,
+          "y": 112,
+          "label": "Dakar"
+        },
+        {
+          "id": "d",
+          "x": 288,
+          "y": 174,
+          "label": "Perth"
+        }
+      ]
+    },
+    "prompt": "Select the southern African port prized by Dutch and British fleets rounding the continent.",
+    "options": [],
+    "answer": "a",
+    "explanation": "Cape Town sits near Africa’s southwestern tip, guarding the sea lane between the Atlantic and Indian oceans.",
+    "source_url": "https://www.britannica.com/place/Cape-Town",
+    "trap_notes": {
+      "b": "Cairo sits at the northern end of Africa near the Mediterranean Sea.",
+      "c": "Dakar lies on the westernmost Atlantic coast of West Africa.",
+      "d": "Perth sits on the western coast of Australia across the Indian Ocean.",
+      "default": "Cape Town is located near the southern tip of Africa."
+    }
+  },
+  {
+    "id": "world-map-243",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Russian Revolution",
+    "era": "1917 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 59.9311,
+      "lng": 30.3609,
+      "label": "Petrograd, Russia"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 176,
+          "y": 64,
+          "label": "Paris"
+        },
+        {
+          "id": "b",
+          "x": 204,
+          "y": 42,
+          "label": "Petrograd"
+        },
+        {
+          "id": "c",
+          "x": 234,
+          "y": 90,
+          "label": "Tehran"
+        },
+        {
+          "id": "d",
+          "x": 298,
+          "y": 72,
+          "label": "Beijing"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Baltic port capital where the 1917 Russian Revolutions broke out?",
+    "options": [],
+    "answer": "b",
+    "explanation": "Petrograd sat on the Gulf of Finland in northwestern Russia and served as the imperial capital in 1917.",
+    "source_url": "https://www.britannica.com/place/Saint-Petersburg-Russia",
+    "trap_notes": {
+      "a": "Paris was the capital of France in western Europe.",
+      "c": "Tehran lies much farther south in Iran.",
+      "d": "Beijing lies across Eurasia in northern China.",
+      "default": "Petrograd lay on the Baltic coast of northwestern Russia."
+    }
+  },
+  {
+    "id": "world-map-244",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "World War II",
+    "era": "1942–1943 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 48.708,
+      "lng": 44.5133,
+      "label": "Stalingrad, USSR"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 188,
+          "y": 60,
+          "label": "Berlin"
+        },
+        {
+          "id": "b",
+          "x": 204,
+          "y": 94,
+          "label": "El Alamein"
+        },
+        {
+          "id": "c",
+          "x": 222,
+          "y": 58,
+          "label": "Stalingrad"
+        },
+        {
+          "id": "d",
+          "x": 325,
+          "y": 66,
+          "label": "Tokyo"
+        }
+      ]
+    },
+    "prompt": "Which pin marks the Volga River industrial city that halted the German advance in 1943?",
+    "options": [],
+    "answer": "c",
+    "explanation": "Stalingrad stood on the lower Volga River in southwestern Russia, north of the Caucasus oil fields.",
+    "source_url": "https://www.britannica.com/event/Battle-of-Stalingrad",
+    "trap_notes": {
+      "a": "Berlin lay much farther west in central Europe.",
+      "b": "El Alamein was a desert battle site in northern Egypt.",
+      "d": "Tokyo lay across the globe on Japan’s Pacific coast.",
+      "default": "Stalingrad stood along the Volga River in southern European Russia."
+    }
+  },
+  {
+    "id": "world-map-245",
+    "type": "map",
+    "domain": "World",
+    "subdomain": "Cold War & Decolonization",
+    "era": "1955 CE",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -6.9175,
+      "lng": 107.6191,
+      "label": "Bandung, Indonesia"
+    },
+    "mapSpec": {
+      "region": "world",
+      "pins": [
+        {
+          "id": "a",
+          "x": 254,
+          "y": 92,
+          "label": "New Delhi"
+        },
+        {
+          "id": "b",
+          "x": 204,
+          "y": 94,
+          "label": "Cairo"
+        },
+        {
+          "id": "c",
+          "x": 166,
+          "y": 112,
+          "label": "Accra"
+        },
+        {
+          "id": "d",
+          "x": 304,
+          "y": 136,
+          "label": "Bandung"
+        }
+      ]
+    },
+    "prompt": "Select the Indonesian city that hosted 29 Asian and African nations at the 1955 conference.",
+    "options": [],
+    "answer": "d",
+    "explanation": "Bandung lies on the island of Java in Indonesia, where nonaligned leaders met in 1955.",
+    "source_url": "https://www.britannica.com/event/Bandung-Conference",
+    "trap_notes": {
+      "a": "New Delhi is the inland capital of India.",
+      "b": "Cairo sits on the Nile Delta in northeastern Africa.",
+      "c": "Accra lies on the Gulf of Guinea coast in West Africa.",
+      "default": "Bandung is located on the Indonesian island of Java in maritime Southeast Asia."
+    }
+  },
+  {
+    "id": "world-mc-261",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "River Valley Civilizations",
+    "era": "c. 1750 BCE",
+    "skill_tag": "primary_source",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 32.5364,
+      "lng": 44.4208,
+      "label": "Babylon, Mesopotamia"
+    },
+    "prompt": "What key feature characterized punishments in the Code of Hammurabi?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Penalties varied depending on the social rank of the victim and offender"
+      },
+      {
+        "id": "b",
+        "text": "All residents received identical fines regardless of wealth or status"
+      },
+      {
+        "id": "c",
+        "text": "Elected citizen juries voted secretly on every criminal sentence"
+      },
+      {
+        "id": "d",
+        "text": "Royal scribes pardoned offenders who memorized religious hymns"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Hammurabi’s Code applied harsher retaliation for harms against nobles than against commoners or enslaved people.",
+    "source_url": "https://www.britannica.com/topic/Code-of-Hammurabi",
+    "trap_notes": {
+      "b": "The code explicitly differentiated penalties among nobles, commoners, and enslaved people.",
+      "c": "Secret citizen juries were an Athenian democratic practice, not Babylonian.",
+      "d": "Babylonian law relied on royal judges and witnesses rather than hymn recitation.",
+      "default": "Hammurabi’s Code reflected strict Babylonian social hierarchy in its punishments."
+    }
+  },
+  {
+    "id": "world-mc-262",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Early Mediterranean Trade",
+    "era": "c. 1050–500 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 34.1236,
+      "lng": 35.6519,
+      "label": "Byblos, Phoenicia"
+    },
+    "prompt": "Why did the Phoenician alphabet spread widely around the Mediterranean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its small set of sound symbols made merchant bookkeeping easy to learn"
+      },
+      {
+        "id": "b",
+        "text": "Imperial armies forced conquered villages to burn all older scripts"
+      },
+      {
+        "id": "c",
+        "text": "Stone-carved pictograms required decades of royal temple schooling"
+      },
+      {
+        "id": "d",
+        "text": "Movable metal printing presses mass-produced cheap trade manuals"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Using 22 consonant letters, the Phoenician script was far simpler than cuneiform or hieroglyphs.",
+    "source_url": "https://www.britannica.com/topic/Phoenician-alphabet",
+    "trap_notes": {
+      "b": "Phoenicians were sea traders who spread writing peacefully, not through mass conquest.",
+      "c": "Complex pictograms describe early scripts like hieroglyphs, which the alphabet simplified.",
+      "d": "Movable metal type developed in East Asia and Europe more than two millennia later.",
+      "default": "A compact phonetic alphabet helped Phoenician traders record deals and spread literacy."
+    }
+  },
+  {
+    "id": "world-mc-263",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Classical China",
+    "era": "1046–256 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 34.2658,
+      "lng": 108.9541,
+      "label": "Xi’an, China"
+    },
+    "prompt": "How did the Zhou Dynasty use the Mandate of Heaven to explain dynastic change?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By claiming only hereditary merchants could hold imperial office"
+      },
+      {
+        "id": "b",
+        "text": "By arguing Heaven withdrew support from unjust rulers, legitimizing new dynasties"
+      },
+      {
+        "id": "c",
+        "text": "By requiring every emperor to win a nationwide popular election"
+      },
+      {
+        "id": "d",
+        "text": "By declaring that royal bloodlines stayed in power regardless of misrule"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Mandate of Heaven held that virtuous rule earned cosmic approval, while corruption justified overthrow.",
+    "source_url": "https://www.britannica.com/topic/Mandate-of-Heaven",
+    "trap_notes": {
+      "a": "Traditional Chinese political theory ranked merchants below scholar-officials and farmers.",
+      "c": "Dynastic China did not hold nationwide popular elections for the throne.",
+      "d": "Unlike European divine right, the Mandate of Heaven allowed rebellion against corrupt kings.",
+      "default": "The Mandate of Heaven tied a dynasty’s right to rule to moral and effective governance."
+    }
+  },
+  {
+    "id": "world-mc-264",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Hellenistic World",
+    "era": "323–30 BCE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "label": "Alexandria, Egypt"
+    },
+    "prompt": "What best defines Hellenistic culture following Alexander the Great’s conquests?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Strict isolation of Greek city-states from Near Eastern trade"
+      },
+      {
+        "id": "b",
+        "text": "Replacement of all Asian languages with Latin across Egypt and Persia"
+      },
+      {
+        "id": "c",
+        "text": "Blending of Greek traditions with Persian, Egyptian, and Indian influences"
+      },
+      {
+        "id": "d",
+        "text": "Return to small Bronze Age farming villages without urban centers"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Alexander’s empire linked Greece to Egypt and Central Asia, fusing art, science, and religion.",
+    "source_url": "https://www.britannica.com/event/Hellenistic-Age",
+    "trap_notes": {
+      "a": "Hellenistic kingdoms expanded long-distance trade rather than isolating Greek cities.",
+      "b": "Greek, not Latin, served as the shared administrative and scholarly language.",
+      "d": "Great cosmopolitan cities like Alexandria and Antioch flourished during the Hellenistic era.",
+      "default": "Hellenistic culture merged Greek heritage with Near Eastern, Egyptian, and Asian traditions."
+    }
+  },
+  {
+    "id": "world-mc-265",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Byzantine Empire",
+    "era": "527–565 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "label": "Istanbul, Turkey"
+    },
+    "prompt": "Why was Emperor Justinian’s legal compilation, the Corpus Juris Civilis, influential?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It abolished all taxes on Mediterranean shipping guilds"
+      },
+      {
+        "id": "b",
+        "text": "It replaced written statutes with oral Germanic tribal customs"
+      },
+      {
+        "id": "c",
+        "text": "It created a parliamentary legislature to overrule Byzantine emperors"
+      },
+      {
+        "id": "d",
+        "text": "It preserved Roman legal principles that later shaped European civil law"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Justinian’s legal scholars organized centuries of Roman law into a clear code studied across later Europe.",
+    "source_url": "https://www.britannica.com/topic/Code-of-Justinian",
+    "trap_notes": {
+      "a": "Justinian relied heavily on trade and land taxes to fund building and military campaigns.",
+      "b": "The code systematized written Roman law rather than adopting oral tribal custom.",
+      "c": "Justinian ruled as an autocratic Christian emperor without a limiting parliament.",
+      "default": "Justinian’s Code preserved Roman jurisprudence for medieval and modern European law."
+    }
+  },
+  {
+    "id": "world-mc-266",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Medieval Europe",
+    "era": "c. 800–1300 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "prompt": "How did the medieval European manor system function economically?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Self-sufficient rural estates relied on serfs farming land in exchange for protection"
+      },
+      {
+        "id": "b",
+        "text": "Steam-powered textile mills employed wage laborers in coastal cities"
+      },
+      {
+        "id": "c",
+        "text": "Central banks issued paper currency backed by overseas silver mines"
+      },
+      {
+        "id": "d",
+        "text": "Nomadic herders rotated flocks across state-owned steppe pastures"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Manors produced most of their own food, tools, and clothing through peasant and serf labor.",
+    "source_url": "https://www.britannica.com/topic/manorialism",
+    "trap_notes": {
+      "b": "Steam-powered factories belong to the Industrial Revolution centuries later.",
+      "c": "Early medieval Europe had limited coinage and lacked overseas silver-backed banks.",
+      "d": "Nomadic pastoralism characterized Eurasian steppe societies, not European manors.",
+      "default": "Manorialism organized medieval European agriculture around largely self-sufficient estates."
+    }
+  },
+  {
+    "id": "world-mc-267",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Crusades & Trade",
+    "era": "1095–1291 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "label": "Jerusalem"
+    },
+    "prompt": "What was a major long-term economic effect of the Crusades on Western Europe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Complete collapse of Italian port cities like Venice and Genoa"
+      },
+      {
+        "id": "b",
+        "text": "Expanded Mediterranean trade and rising demand for Asian spices and textiles"
+      },
+      {
+        "id": "c",
+        "text": "Immediate end to feudalism across every European kingdom"
+      },
+      {
+        "id": "d",
+        "text": "Permanent closure of overland caravan routes to Central Asia"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Crusader traffic boosted Italian shipping and exposed Europeans to eastern spices, silk, and sugar.",
+    "source_url": "https://www.britannica.com/event/Crusades",
+    "trap_notes": {
+      "a": "Venice and Genoa grew wealthier by ferrying crusaders and trading eastern goods.",
+      "c": "Feudal obligations declined gradually over centuries, not immediately after the Crusades.",
+      "d": "Trade across the Mediterranean and Eurasia actually expanded after the Crusades.",
+      "default": "The Crusades stimulated European maritime trade and appetite for Asian luxury goods."
+    }
+  },
+  {
+    "id": "world-mc-268",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Post-Classical Africa",
+    "era": "1324–1325 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 16.7666,
+      "lng": -3.0026,
+      "label": "Timbuktu, Mali"
+    },
+    "prompt": "How did Mansa Musa’s 1324 pilgrimage to Mecca affect Mali’s global reputation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It ended trans-Saharan caravan trade with North African merchants"
+      },
+      {
+        "id": "b",
+        "text": "It led Mali to abandon Islam and adopt Portuguese Catholicism"
+      },
+      {
+        "id": "c",
+        "text": "It showcased Mali’s vast gold wealth and drew scholars to Timbuktu"
+      },
+      {
+        "id": "d",
+        "text": "It forced Mali’s emperors to relocate their capital to Cairo"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Mansa Musa’s lavish gold gifts in Cairo put Mali on European maps and attracted Islamic scholars.",
+    "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+    "trap_notes": {
+      "a": "Trans-Saharan trade flourished even more after Mansa Musa’s diplomatic journey.",
+      "b": "Mansa Musa was a devout Muslim ruler who built mosques and Islamic schools.",
+      "d": "Mansa Musa returned to West Africa and strengthened Niani and Timbuktu.",
+      "default": "Mansa Musa’s hajj publicized Mali’s gold wealth and boosted West African scholarship."
+    }
+  },
+  {
+    "id": "world-mc-269",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Pre-Columbian Americas",
+    "era": "c. 1325–1521 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "label": "Mexico City, Mexico"
+    },
+    "prompt": "How did Aztec chinampas support a dense population around Tenochtitlan?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Draft horses pulled iron plows across dry northern grasslands"
+      },
+      {
+        "id": "b",
+        "text": "Windmills pumped groundwater into desert citrus orchards"
+      },
+      {
+        "id": "c",
+        "text": "Stone terraces captured snowmelt along steep Andean mountain slopes"
+      },
+      {
+        "id": "d",
+        "text": "Fertile raised garden beds in shallow lakes yielded multiple harvests each year"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Aztec farmers anchored mud and reed plots in Lake Texcoco, harvesting maize, beans, and squash year-round.",
+    "source_url": "https://www.britannica.com/topic/chinampa",
+    "trap_notes": {
+      "a": "Horses and iron plows were absent in the Americas before Spanish arrival.",
+      "b": "Windmills were not used in Aztec agriculture.",
+      "c": "High-altitude stone terraces were a signature farming method of the Inca in the Andes.",
+      "default": "Chinampas were fertile artificial islands built in the shallow waters of Lake Texcoco."
+    }
+  },
+  {
+    "id": "world-mc-270",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Renaissance & Reformation",
+    "era": "c. 1450–1550 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 49.9929,
+      "lng": 8.2473,
+      "label": "Mainz, Germany"
+    },
+    "prompt": "How did Johannes Gutenberg’s movable-type printing press transform Europe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It lowered book costs and sped the spread of vernacular and Reformation ideas"
+      },
+      {
+        "id": "b",
+        "text": "It restricted reading exclusively to Latin-speaking monastery scribes"
+      },
+      {
+        "id": "c",
+        "text": "It eliminated all religious debate by standardizing a single royal newspaper"
+      },
+      {
+        "id": "d",
+        "text": "It replaced European paper mills with imported Egyptian papyrus scrolls"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Faster, cheaper printing expanded literacy and allowed Luther’s pamphlets to reach wide audiences.",
+    "source_url": "https://www.britannica.com/biography/Johannes-Gutenberg",
+    "trap_notes": {
+      "b": "Printing undermined monastic monopolies by producing books in local vernacular languages.",
+      "c": "Printing fueled intense religious and political debate across Europe.",
+      "d": "European printers used rag paper, which was far more durable than papyrus.",
+      "default": "Gutenberg’s press made books affordable and accelerated the spread of new ideas."
+    }
+  },
+  {
+    "id": "world-mc-271",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Age of Exploration",
+    "era": "1494 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.5015,
+      "lng": -5.0005,
+      "label": "Tordesillas, Spain"
+    },
+    "prompt": "What did the 1494 Treaty of Tordesillas establish between Spain and Portugal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A joint navy to patrol the Baltic Sea against English privateers"
+      },
+      {
+        "id": "b",
+        "text": "A north-south line dividing newly claimed non-European lands between them"
+      },
+      {
+        "id": "c",
+        "text": "A free-trade union uniting French, Dutch, and Spanish Atlantic ports"
+      },
+      {
+        "id": "d",
+        "text": "An agreement ending all European colonization in South America"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The treaty drew an Atlantic meridian giving Spain lands to the west and Portugal Brazil and African routes to the east.",
+    "source_url": "https://www.britannica.com/event/Treaty-of-Tordesillas",
+    "trap_notes": {
+      "a": "The treaty focused on overseas colonial claims, not Baltic naval patrols.",
+      "c": "France and the Netherlands were excluded and rejected the Iberian division.",
+      "d": "The treaty partitioned colonial spheres rather than ending colonization.",
+      "default": "The Treaty of Tordesillas divided overseas exploration claims between Spain and Portugal."
+    }
+  },
+  {
+    "id": "world-mc-272",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Atlantic Revolutions",
+    "era": "1791–1804 CE",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 18.5944,
+      "lng": -72.3074,
+      "label": "Port-au-Prince, Haiti"
+    },
+    "prompt": "Why was the Haitian Revolution a unique turning point in world history?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It restored absolute monarchy across every Caribbean island"
+      },
+      {
+        "id": "b",
+        "text": "It was led by Spanish viceroys seeking higher sugar tariffs"
+      },
+      {
+        "id": "c",
+        "text": "It was the only enslaved-led revolt to create an independent republic"
+      },
+      {
+        "id": "d",
+        "text": "It peacefully transferred power from Britain without armed conflict"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Enslaved people in Saint-Domingue defeated French forces, abolished slavery, and founded Haiti in 1804.",
+    "source_url": "https://www.britannica.com/topic/Haitian-Revolution",
+    "trap_notes": {
+      "a": "Haiti became an independent republic and banned slavery.",
+      "b": "The revolution was fought in a French colony by enslaved and free people of color.",
+      "d": "The Haitian Revolution involved over a decade of fierce warfare.",
+      "default": "Haiti emerged from the only successful enslaved-led revolution in modern history."
+    }
+  },
+  {
+    "id": "world-mc-273",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Imperialism in Asia",
+    "era": "1839–1842 CE",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 32.0603,
+      "lng": 118.7969,
+      "label": "Nanjing, China"
+    },
+    "prompt": "What major concession did the 1842 Treaty of Nanjing force Qing China to grant Britain?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A ban on all British merchant ships entering East Asian waters"
+      },
+      {
+        "id": "b",
+        "text": "Annual silver tribute paid by London to the Qing court"
+      },
+      {
+        "id": "c",
+        "text": "Immediate Chinese annexation of British trading posts in India"
+      },
+      {
+        "id": "d",
+        "text": "Opening of five treaty ports and British control of Hong Kong Island"
+      }
+    ],
+    "answer": "d",
+    "explanation": "After losing the First Opium War, Qing China ceded Hong Kong, paid an indemnity, and opened five ports.",
+    "source_url": "https://www.britannica.com/event/Treaty-of-Nanjing",
+    "trap_notes": {
+      "a": "The treaty expanded British commercial access rather than banning British ships.",
+      "b": "Qing China, not Britain, was forced to pay a large silver indemnity.",
+      "c": "Britain held the military advantage and gained Chinese territory, not the reverse.",
+      "default": "The Treaty of Nanjing opened Chinese treaty ports and ceded Hong Kong to Britain."
+    }
+  },
+  {
+    "id": "world-mc-274",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "World War I & Aftermath",
+    "era": "1919 CE",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 48.8049,
+      "lng": 2.1204,
+      "label": "Versailles, France"
+    },
+    "prompt": "How did the 1919 Treaty of Versailles contribute to political instability in Germany?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its war-guilt clause, reparations, and territorial losses fueled bitter resentment"
+      },
+      {
+        "id": "b",
+        "text": "It granted Germany new African colonies and canceled all wartime debts"
+      },
+      {
+        "id": "c",
+        "text": "It unified Germany with Austria and expanded the Prussian army"
+      },
+      {
+        "id": "d",
+        "text": "It invited Germany to lead the new League of Nations immediately"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Harsh reparations, military limits, and sole blame for the war weakened the young Weimar Republic.",
+    "source_url": "https://www.britannica.com/event/Treaty-of-Versailles-1919",
+    "trap_notes": {
+      "b": "Germany lost all of its overseas colonies and owed heavy reparations.",
+      "c": "The treaty strictly forbade German-Austrian union and shrank Germany’s military.",
+      "d": "Germany was initially excluded from the League of Nations until 1926.",
+      "default": "The Treaty of Versailles imposed war guilt, reparations, and losses that destabilized Weimar Germany."
+    }
+  },
+  {
+    "id": "world-mc-275",
+    "type": "mc",
+    "domain": "World",
+    "subdomain": "Decolonization",
+    "era": "1947 CE",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "label": "New Delhi, India"
+    },
+    "prompt": "What was an immediate human consequence of the 1947 Partition of British India?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Peaceful merger of all princely states into a single monarchy"
+      },
+      {
+        "id": "b",
+        "text": "Mass migration of millions and widespread communal violence across new borders"
+      },
+      {
+        "id": "c",
+        "text": "Immediate return of British colonial governors for another fifty years"
+      },
+      {
+        "id": "d",
+        "text": "Formation of a single unified nation stretching from Burma to Iran"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Dividing British India into India and Pakistan displaced roughly 14 million people and sparked deadly riots.",
+    "source_url": "https://www.britannica.com/event/Partition-of-India",
+    "trap_notes": {
+      "a": "British India was split into two independent states, not united under a monarchy.",
+      "c": "British rule ended in August 1947 with independence for India and Pakistan.",
+      "d": "Partition divided the subcontinent rather than uniting it into one state.",
+      "default": "The 1947 Partition triggered one of the largest forced migrations and communal crises in history."
+    }
+  }
+]

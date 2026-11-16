@@ -1,0 +1,2747 @@
+[
+  {
+    "id": "civics-ord-201",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Foundations of Democracy",
+    "era": "1215–1791",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.5007,
+      "lng": -0.1246,
+      "label": "London, England"
+    },
+    "prompt": "Order these rights charters from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "English Bill of Rights limits royal power"
+      },
+      {
+        "id": "b",
+        "text": "Magna Carta restricts King John's authority"
+      },
+      {
+        "id": "c",
+        "text": "U.S. Bill of Rights is ratified by states"
+      },
+      {
+        "id": "d",
+        "text": "Petition of Right challenges royal taxation"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Magna Carta (1215) came first, followed by the Petition of Right (1628), English Bill of Rights (1689), and U.S. Bill of Rights (1791).",
+    "source_url": "https://www.archives.gov/founding-docs/bill-of-rights",
+    "trap_notes": {
+      "default": "Chronology: Magna Carta (1215), Petition of Right (1628), English Bill of Rights (1689), U.S. Bill of Rights (1791)."
+    }
+  },
+  {
+    "id": "civics-ord-202",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Colonial & Founding Documents",
+    "era": "1620–1787",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Order these American founding documents from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Declaration of Independence asserts sovereignty"
+      },
+      {
+        "id": "b",
+        "text": "U.S. Constitution is signed in Philadelphia"
+      },
+      {
+        "id": "c",
+        "text": "Mayflower Compact establishes self-rule"
+      },
+      {
+        "id": "d",
+        "text": "Fundamental Orders of Connecticut are adopted"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The Mayflower Compact (1620) preceded the Fundamental Orders (1639), Declaration of Independence (1776), and Constitution (1787).",
+    "source_url": "https://www.archives.gov/founding-docs",
+    "trap_notes": {
+      "default": "Timeline: Mayflower Compact (1620), Fundamental Orders (1639), Declaration (1776), Constitution (1787)."
+    }
+  },
+  {
+    "id": "civics-ord-203",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Founding Assemblies",
+    "era": "1765–1787",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Order these early American conventions from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Second Continental Congress meets in Philadelphia"
+      },
+      {
+        "id": "b",
+        "text": "Constitutional Convention drafts a new charter"
+      },
+      {
+        "id": "c",
+        "text": "Stamp Act Congress protests British taxes"
+      },
+      {
+        "id": "d",
+        "text": "First Continental Congress calls for a boycott"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Stamp Act Congress (1765) came first, then First (1774) and Second (1775) Continental Congresses, and the Constitutional Convention (1787).",
+    "source_url": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/about-this-collection/",
+    "trap_notes": {
+      "default": "Order: Stamp Act Congress (1765), First Continental (1774), Second Continental (1775), Constitutional Convention (1787)."
+    }
+  },
+  {
+    "id": "civics-ord-204",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Articles to Constitution",
+    "era": "1777–1789",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York City, New York"
+    },
+    "prompt": "Order these events in the shift from the Articles to the Constitution:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Shays' Rebellion exposes federal weakness"
+      },
+      {
+        "id": "b",
+        "text": "Articles of Confederation are drafted by Congress"
+      },
+      {
+        "id": "c",
+        "text": "New federal Constitution takes legal effect"
+      },
+      {
+        "id": "d",
+        "text": "All thirteen states ratify the Articles"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Congress drafted the Articles (1777), states ratified them (1781), Shays' Rebellion erupted (1786), and the Constitution took effect (1789).",
+    "source_url": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "trap_notes": {
+      "default": "Sequence: Drafted (1777), ratified (1781), Shays' Rebellion (1786), Constitution takes effect (1789)."
+    }
+  },
+  {
+    "id": "civics-ord-205",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Constitutional Convention & Ratification",
+    "era": "1787–1788",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 43.2081,
+      "lng": -71.5376,
+      "label": "Concord, New Hampshire"
+    },
+    "prompt": "Order these Constitutional drafting and ratification milestones:",
+    "options": [
+      {
+        "id": "a",
+        "text": "New Hampshire becomes ninth state to ratify"
+      },
+      {
+        "id": "b",
+        "text": "Great Compromise creates bicameral Congress"
+      },
+      {
+        "id": "c",
+        "text": "Virginia Plan proposes population-based seats"
+      },
+      {
+        "id": "d",
+        "text": "Federalist Papers defend ratification in New York"
+      }
+    ],
+    "answer": [
+      "c",
+      "b",
+      "d",
+      "a"
+    ],
+    "explanation": "The Virginia Plan (May 1787) led to the Great Compromise (July 1787), The Federalist (1787–88), and ratification in June 1788.",
+    "source_url": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-federalist-papers",
+    "trap_notes": {
+      "default": "Order: Virginia Plan (May 1787), Great Compromise (July 1787), Federalist Papers (fall 1787), 9th state ratifies (June 1788)."
+    }
+  },
+  {
+    "id": "civics-ord-206",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Early Constitutional Era",
+    "era": "1789–1804",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these early federal constitutional developments:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Twelfth Amendment reforms Electoral College votes"
+      },
+      {
+        "id": "b",
+        "text": "Judiciary Act establishes federal court tiers"
+      },
+      {
+        "id": "c",
+        "text": "Eleventh Amendment limits suits against states"
+      },
+      {
+        "id": "d",
+        "text": "First ten amendments are ratified as Bill of Rights"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "explanation": "The Judiciary Act (1789) preceded the Bill of Rights (1791), the 11th Amendment (1795), and the 12th Amendment (1804).",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Timeline: Judiciary Act (1789), Bill of Rights (1791), 11th Amendment (1795), 12th Amendment (1804)."
+    }
+  },
+  {
+    "id": "civics-ord-207",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Marshall Court",
+    "era": "1803–1833",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these Marshall Court rulings from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gibbons v. Ogden expands commerce power"
+      },
+      {
+        "id": "b",
+        "text": "Barron v. Baltimore limits Bill of Rights to U.S."
+      },
+      {
+        "id": "c",
+        "text": "Marbury v. Madison establishes judicial review"
+      },
+      {
+        "id": "d",
+        "text": "McCulloch v. Maryland upholds implied powers"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Marbury (1803) came first, followed by McCulloch (1819), Gibbons (1824), and Barron v. Baltimore (1833).",
+    "source_url": "https://www.oyez.org/cases/1789-1850/5us137",
+    "trap_notes": {
+      "default": "Marshall Court sequence: Marbury (1803), McCulloch (1819), Gibbons (1824), Barron (1833)."
+    }
+  },
+  {
+    "id": "civics-ord-208",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Federalism & Nullification",
+    "era": "1798–1833",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 32.7765,
+      "lng": -79.9311,
+      "label": "Charleston, South Carolina"
+    },
+    "prompt": "Order these early disputes over federal and state authority:",
+    "options": [
+      {
+        "id": "a",
+        "text": "South Carolina declares federal tariffs void"
+      },
+      {
+        "id": "b",
+        "text": "Congress passes the Force Bill for tariff collection"
+      },
+      {
+        "id": "c",
+        "text": "Alien and Sedition Acts restrict speech and aliens"
+      },
+      {
+        "id": "d",
+        "text": "Virginia and Kentucky Resolutions assert compact theory"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The Alien and Sedition Acts (1798) sparked the VA/KY Resolutions (1798–99), later echoed by South Carolina (1832) and the Force Bill (1833).",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/formation-of-political-parties.html",
+    "trap_notes": {
+      "default": "Order: Alien & Sedition Acts (1798), VA/KY Resolutions (1798–99), SC nullification (1832), Force Bill (1833)."
+    }
+  },
+  {
+    "id": "civics-ord-209",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Sectionalism & Citizenship",
+    "era": "1820–1857",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.627,
+      "lng": -90.1994,
+      "label": "St. Louis, Missouri"
+    },
+    "prompt": "Order these pre-Civil War laws and rulings on slavery:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dred Scott ruling denies Black citizenship"
+      },
+      {
+        "id": "b",
+        "text": "Kansas-Nebraska Act applies popular sovereignty"
+      },
+      {
+        "id": "c",
+        "text": "Missouri Compromise sets a 36°30' slavery line"
+      },
+      {
+        "id": "d",
+        "text": "Compromise of 1850 admits California as free"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "b",
+      "a"
+    ],
+    "explanation": "The Missouri Compromise (1820) preceded the Compromise of 1850, Kansas-Nebraska Act (1854), and Dred Scott (1857).",
+    "source_url": "https://www.archives.gov/milestone-documents/dred-scott-v-sandford",
+    "trap_notes": {
+      "default": "Timeline: Missouri Compromise (1820), Compromise of 1850, Kansas-Nebraska Act (1854), Dred Scott (1857)."
+    }
+  },
+  {
+    "id": "civics-ord-210",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Reconstruction Amendments",
+    "era": "1863–1870",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these emancipation and Reconstruction milestones:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fourteenth Amendment guarantees equal protection"
+      },
+      {
+        "id": "b",
+        "text": "Fifteenth Amendment bars race-based voting bans"
+      },
+      {
+        "id": "c",
+        "text": "Emancipation Proclamation frees Confederate slaves"
+      },
+      {
+        "id": "d",
+        "text": "Thirteenth Amendment abolishes slavery nationwide"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Lincoln issued the Emancipation Proclamation (1863), followed by the 13th (1865), 14th (1868), and 15th (1870) Amendments.",
+    "source_url": "https://www.archives.gov/milestone-documents/14th-amendment",
+    "trap_notes": {
+      "default": "Order: Proclamation (1863), 13th (1865), 14th (1868), 15th (1870)."
+    }
+  },
+  {
+    "id": "civics-ord-211",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Reconstruction Civil Rights",
+    "era": "1866–1883",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order these Reconstruction civil rights laws and court rulings:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Civil Rights Act of 1875 bars public segregation"
+      },
+      {
+        "id": "b",
+        "text": "Civil Rights Cases strike down public-access bans"
+      },
+      {
+        "id": "c",
+        "text": "Civil Rights Act of 1866 defines birthright rights"
+      },
+      {
+        "id": "d",
+        "text": "Enforcement Act targets Klan voter intimidation"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Congress passed the 1866 Act, the 1870 Enforcement Act, and the 1875 Act before the Court struck down parts of the 1875 Act in 1883.",
+    "source_url": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-civil-rights-cases-1883",
+    "trap_notes": {
+      "default": "Sequence: 1866 Act, 1870 Enforcement Act, 1875 Act, 1883 Civil Rights Cases."
+    }
+  },
+  {
+    "id": "civics-ord-212",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Federal Bureaucracy & Regulation",
+    "era": "1883–1913",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8921,
+      "lng": -77.045,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these landmark federal regulatory laws from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sherman Antitrust Act targets monopolies"
+      },
+      {
+        "id": "b",
+        "text": "Federal Reserve Act creates central bank"
+      },
+      {
+        "id": "c",
+        "text": "Pendleton Act establishes civil service merit"
+      },
+      {
+        "id": "d",
+        "text": "Interstate Commerce Act regulates railroads"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The Pendleton Act (1883) came first, then the Interstate Commerce Act (1887), Sherman Antitrust Act (1890), and Federal Reserve Act (1913).",
+    "source_url": "https://www.archives.gov/milestone-documents/pendleton-act",
+    "trap_notes": {
+      "default": "Timeline: Pendleton (1883), Interstate Commerce (1887), Sherman Antitrust (1890), Federal Reserve (1913)."
+    }
+  },
+  {
+    "id": "civics-ord-213",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Equal Protection & Civil Rights",
+    "era": "1896–1967",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.0473,
+      "lng": -95.6752,
+      "label": "Topeka, Kansas"
+    },
+    "prompt": "Order these milestones in the struggle against racial segregation:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Brown v. Board of Education ends school segregation"
+      },
+      {
+        "id": "b",
+        "text": "NAACP is founded to challenge racial injustice"
+      },
+      {
+        "id": "c",
+        "text": "Loving v. Virginia voids interracial marriage bans"
+      },
+      {
+        "id": "d",
+        "text": "Plessy v. Ferguson upholds separate but equal"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "Plessy (1896) preceded the NAACP's founding (1909), Brown v. Board (1954), and Loving v. Virginia (1967).",
+    "source_url": "https://www.oyez.org/cases/1940-1955/347us483",
+    "trap_notes": {
+      "default": "Order: Plessy (1896), NAACP founded (1909), Brown (1954), Loving (1967)."
+    }
+  },
+  {
+    "id": "civics-ord-214",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Progressive & Prohibition Amendments",
+    "era": "1913–1933",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order these constitutional amendments from earliest to latest ratification:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Eighteenth Amendment bans alcohol sales"
+      },
+      {
+        "id": "b",
+        "text": "Twenty-First Amendment repeals Prohibition"
+      },
+      {
+        "id": "c",
+        "text": "Sixteenth Amendment authorizes income tax"
+      },
+      {
+        "id": "d",
+        "text": "Seventeenth Amendment mandates direct Senate votes"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The 16th Amendment (Feb 1913) preceded the 17th (Apr 1913), the 18th (1919), and the 21st Amendment (1933).",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Order: 16th (Feb 1913), 17th (Apr 1913), 18th (1919), 21st (1933)."
+    }
+  },
+  {
+    "id": "civics-ord-215",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "First Amendment Free Speech",
+    "era": "1919–1969",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these landmark Supreme Court free-speech and press rulings:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gitlow v. New York incorporates free speech"
+      },
+      {
+        "id": "b",
+        "text": "Brandenburg v. Ohio sets imminent-lawlessness test"
+      },
+      {
+        "id": "c",
+        "text": "Near v. Minnesota bars most prior restraint"
+      },
+      {
+        "id": "d",
+        "text": "Schenck v. United States sets clear-danger test"
+      }
+    ],
+    "answer": [
+      "d",
+      "a",
+      "c",
+      "b"
+    ],
+    "explanation": "Schenck (1919) came first, followed by Gitlow (1925), Near v. Minnesota (1931), and Brandenburg v. Ohio (1969).",
+    "source_url": "https://www.oyez.org/cases/1968/492",
+    "trap_notes": {
+      "default": "Free speech sequence: Schenck (1919), Gitlow (1925), Near (1931), Brandenburg (1969)."
+    }
+  },
+  {
+    "id": "civics-ord-216",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Expansion of Suffrage",
+    "era": "1920–1971",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these twentieth-century expansions of U.S. voting and citizenship:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Twenty-Fourth Amendment bans federal poll taxes"
+      },
+      {
+        "id": "b",
+        "text": "Indian Citizenship Act grants Native citizenship"
+      },
+      {
+        "id": "c",
+        "text": "Twenty-Sixth Amendment lowers voting age to 18"
+      },
+      {
+        "id": "d",
+        "text": "Nineteenth Amendment secures women's suffrage"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "The 19th Amendment (1920) preceded the Indian Citizenship Act (1924), 24th Amendment (1964), and 26th Amendment (1971).",
+    "source_url": "https://www.archives.gov/milestone-documents/26th-amendment",
+    "trap_notes": {
+      "default": "Timeline: 19th Amendment (1920), Indian Citizenship Act (1924), 24th Amendment (1964), 26th Amendment (1971)."
+    }
+  },
+  {
+    "id": "civics-ord-217",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Bureaucratic Accountability",
+    "era": "1939–1978",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these laws governing federal employees and agency transparency:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Freedom of Information Act opens agency records"
+      },
+      {
+        "id": "b",
+        "text": "Hatch Act restricts federal employee campaigning"
+      },
+      {
+        "id": "c",
+        "text": "Ethics in Government Act requires disclosures"
+      },
+      {
+        "id": "d",
+        "text": "Administrative Procedure Act standardizes rules"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "The Hatch Act (1939) preceded the Administrative Procedure Act (1946), FOIA (1966), and Ethics in Government Act (1978).",
+    "source_url": "https://www.archives.gov/foia",
+    "trap_notes": {
+      "default": "Order: Hatch Act (1939), APA (1946), FOIA (1966), Ethics in Government Act (1978)."
+    }
+  },
+  {
+    "id": "civics-ord-218",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Executive Power & the Courts",
+    "era": "1944–1997",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these Supreme Court cases on presidential power from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "United States v. Nixon rejects absolute privilege"
+      },
+      {
+        "id": "b",
+        "text": "Clinton v. Jones allows civil suit in office"
+      },
+      {
+        "id": "c",
+        "text": "Korematsu v. United States upholds internment"
+      },
+      {
+        "id": "d",
+        "text": "Youngstown Sheet bars steel mill seizure"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Korematsu (1944) came first, followed by Youngstown (1952), United States v. Nixon (1974), and Clinton v. Jones (1997).",
+    "source_url": "https://www.oyez.org/cases/1973/73-1766",
+    "trap_notes": {
+      "default": "Timeline: Korematsu (1944), Youngstown (1952), U.S. v. Nixon (1974), Clinton v. Jones (1997)."
+    }
+  },
+  {
+    "id": "civics-ord-219",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Presidency Amendments",
+    "era": "1933–1967",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "prompt": "Order these amendments shaping presidential terms and elections:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Twenty-Third Amendment grants D.C. electors"
+      },
+      {
+        "id": "b",
+        "text": "Twenty-Second Amendment sets two-term limit"
+      },
+      {
+        "id": "c",
+        "text": "Twenty-Fifth Amendment sets disability succession"
+      },
+      {
+        "id": "d",
+        "text": "Twentieth Amendment moves Inauguration Day"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "The 20th Amendment (1933) came first, followed by the 22nd (1951), 23rd (1961), and 25th (1967) Amendments.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Ratification order: 20th (1933), 22nd (1951), 23rd (1961), 25th (1967)."
+    }
+  },
+  {
+    "id": "civics-ord-220",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Rights of the Accused",
+    "era": "1961–1966",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 33.4484,
+      "lng": -112.074,
+      "label": "Phoenix, Arizona"
+    },
+    "prompt": "Order these Warren Court criminal-procedure rulings earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gideon v. Wainwright guarantees felony counsel"
+      },
+      {
+        "id": "b",
+        "text": "Miranda v. Arizona requires custody warnings"
+      },
+      {
+        "id": "c",
+        "text": "Mapp v. Ohio applies exclusionary rule to states"
+      },
+      {
+        "id": "d",
+        "text": "Escobedo v. Illinois affirms counsel at questioning"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Mapp (1961) came first, then Gideon (1963), Escobedo (1964), and Miranda v. Arizona (1966).",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-miranda-v-arizona",
+    "trap_notes": {
+      "default": "Warren Court order: Mapp (1961), Gideon (1963), Escobedo (1964), Miranda (1966)."
+    }
+  },
+  {
+    "id": "civics-ord-221",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Voting Rights & Redistricting",
+    "era": "1962–2013",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 36.1627,
+      "lng": -86.7816,
+      "label": "Nashville, Tennessee"
+    },
+    "prompt": "Order these Supreme Court rulings on apportionment and voting rights:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Shaw v. Reno restricts race-based district lines"
+      },
+      {
+        "id": "b",
+        "text": "Shelby County v. Holder voids preclearance formula"
+      },
+      {
+        "id": "c",
+        "text": "Baker v. Carr allows redistricting lawsuits"
+      },
+      {
+        "id": "d",
+        "text": "Reynolds v. Sims sets one-person, one-vote rule"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Baker v. Carr (1962) opened the door for Reynolds v. Sims (1964), followed later by Shaw v. Reno (1993) and Shelby County (2013).",
+    "source_url": "https://www.oyez.org/cases/1960/6",
+    "trap_notes": {
+      "default": "Timeline: Baker v. Carr (1962), Reynolds v. Sims (1964), Shaw v. Reno (1993), Shelby County (2013)."
+    }
+  },
+  {
+    "id": "civics-ord-222",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Freedom of Religion",
+    "era": "1962–1972",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.7615,
+      "lng": -73.5251,
+      "label": "New Hyde Park, New York"
+    },
+    "prompt": "Order these Supreme Court rulings on religion and schools:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lemon v. Kurtzman creates three-part church test"
+      },
+      {
+        "id": "b",
+        "text": "Engel v. Vitale bans state-written school prayer"
+      },
+      {
+        "id": "c",
+        "text": "Wisconsin v. Yoder protects Amish school choice"
+      },
+      {
+        "id": "d",
+        "text": "Abington v. Schempp ends required Bible reading"
+      }
+    ],
+    "answer": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "explanation": "Engel (1962) was followed by Abington (1963), Lemon v. Kurtzman (1971), and Wisconsin v. Yoder (1972).",
+    "source_url": "https://www.oyez.org/cases/1961/468",
+    "trap_notes": {
+      "default": "Order: Engel (1962), Abington (1963), Lemon (1971), Yoder (1972)."
+    }
+  },
+  {
+    "id": "civics-ord-223",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Modern Civil Rights Legislation",
+    "era": "1964–1990",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order these landmark federal civil rights statutes earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fair Housing Act bans housing discrimination"
+      },
+      {
+        "id": "b",
+        "text": "Americans with Disabilities Act mandates access"
+      },
+      {
+        "id": "c",
+        "text": "Civil Rights Act bars public and job bias"
+      },
+      {
+        "id": "d",
+        "text": "Voting Rights Act ends literacy tests"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The Civil Rights Act (1964) preceded the Voting Rights Act (1965), Fair Housing Act (1968), and ADA (1990).",
+    "source_url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "trap_notes": {
+      "default": "Timeline: Civil Rights Act (1964), Voting Rights Act (1965), Fair Housing Act (1968), ADA (1990)."
+    }
+  },
+  {
+    "id": "civics-ord-224",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Student Constitutional Rights",
+    "era": "1969–1988",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.5868,
+      "lng": -93.625,
+      "label": "Des Moines, Iowa"
+    },
+    "prompt": "Order these Supreme Court cases on student rights from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bethel v. Fraser limits lewd school speech"
+      },
+      {
+        "id": "b",
+        "text": "Hazelwood v. Kuhlmeier allows paper censorship"
+      },
+      {
+        "id": "c",
+        "text": "Tinker v. Des Moines protects black armbands"
+      },
+      {
+        "id": "d",
+        "text": "New Jersey v. T.L.O. sets reasonable-search rule"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Tinker (1969) came first, followed by New Jersey v. T.L.O. (1985), Bethel v. Fraser (1986), and Hazelwood (1988).",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-tinker-v-des-moines",
+    "trap_notes": {
+      "default": "Student cases: Tinker (1969), T.L.O. (1985), Bethel (1986), Hazelwood (1988)."
+    }
+  },
+  {
+    "id": "civics-ord-225",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Privacy & Due Process",
+    "era": "1965–2003",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.3083,
+      "lng": -72.9279,
+      "label": "New Haven, Connecticut"
+    },
+    "prompt": "Order these Supreme Court rulings on privacy rights earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Roe v. Wade recognizes abortion privacy rights"
+      },
+      {
+        "id": "b",
+        "text": "Katz v. United States protects phone-booth privacy"
+      },
+      {
+        "id": "c",
+        "text": "Lawrence v. Texas voids sodomy criminal laws"
+      },
+      {
+        "id": "d",
+        "text": "Griswold v. Connecticut affirms marital privacy"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "Griswold (1965) preceded Katz (1967), Roe v. Wade (1973), and Lawrence v. Texas (2003).",
+    "source_url": "https://www.oyez.org/cases/1964/496",
+    "trap_notes": {
+      "default": "Privacy timeline: Griswold (1965), Katz (1967), Roe (1973), Lawrence (2003)."
+    }
+  },
+  {
+    "id": "civics-ord-226",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Campaign Finance",
+    "era": "1976–2014",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these milestones in U.S. campaign finance law earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Citizens United allows corporate independent ads"
+      },
+      {
+        "id": "b",
+        "text": "Bipartisan Campaign Reform Act bans soft money"
+      },
+      {
+        "id": "c",
+        "text": "McCutcheon v. FEC strikes aggregate donor caps"
+      },
+      {
+        "id": "d",
+        "text": "Buckley v. Valeo equates spending with speech"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "Buckley (1976) came first, followed by BCRA (2002), Citizens United (2010), and McCutcheon (2014).",
+    "source_url": "https://www.fec.gov/updates/citizens-united-v-fec/",
+    "trap_notes": {
+      "default": "Order: Buckley (1976), BCRA (2002), Citizens United (2010), McCutcheon (2014)."
+    }
+  },
+  {
+    "id": "civics-ord-227",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1973–1998",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order these modern checks-and-balances milestones earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Line Item Veto Act grants partial veto power"
+      },
+      {
+        "id": "b",
+        "text": "Budget and Impoundment Control Act creates CBO"
+      },
+      {
+        "id": "c",
+        "text": "Clinton v. City of New York voids line-item veto"
+      },
+      {
+        "id": "d",
+        "text": "War Powers Resolution limits troop deployments"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "The War Powers Resolution (1973) preceded the Budget Act (1974), Line Item Veto Act (1996), and Clinton v. New York (1998).",
+    "source_url": "https://www.oyez.org/cases/1997/97-1374",
+    "trap_notes": {
+      "default": "Timeline: War Powers (1973), Budget Act (1974), Line Item Veto Act (1996), Clinton v. NYC (1998)."
+    }
+  },
+  {
+    "id": "civics-ord-228",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Affirmative Action & Equal Protection",
+    "era": "1978–2023",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these Supreme Court rulings on college admissions earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grutter v. Bollinger upholds holistic review"
+      },
+      {
+        "id": "b",
+        "text": "Students for Fair Admissions ends race-based aid"
+      },
+      {
+        "id": "c",
+        "text": "Regents of UC v. Bakke bars rigid racial quotas"
+      },
+      {
+        "id": "d",
+        "text": "Fisher v. University of Texas affirms narrow use"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Bakke (1978) came first, followed by Grutter (2003), Fisher (2016), and Students for Fair Admissions (2023).",
+    "source_url": "https://www.oyez.org/cases/2022/20-1199",
+    "trap_notes": {
+      "default": "Order: Bakke (1978), Grutter (2003), Fisher (2016), Students for Fair Admissions (2023)."
+    }
+  },
+  {
+    "id": "civics-ord-229",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Twenty-First Century Rulings",
+    "era": "2008–2022",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these twenty-first-century Supreme Court rulings earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Obergefell v. Hodges legalizes same-sex marriage"
+      },
+      {
+        "id": "b",
+        "text": "Dobbs v. Jackson overturns federal abortion right"
+      },
+      {
+        "id": "c",
+        "text": "D.C. v. Heller affirms individual gun ownership"
+      },
+      {
+        "id": "d",
+        "text": "McDonald v. Chicago incorporates Second Amendment"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Heller (2008) preceded McDonald (2010), Obergefell (2015), and Dobbs v. Jackson Women's Health (2022).",
+    "source_url": "https://www.oyez.org/cases/2021/19-1392",
+    "trap_notes": {
+      "default": "Timeline: Heller (2008), McDonald (2010), Obergefell (2015), Dobbs (2022)."
+    }
+  },
+  {
+    "id": "civics-ord-230",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1920–1949",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.7489,
+      "lng": -73.968,
+      "label": "United Nations, New York"
+    },
+    "prompt": "Order these milestones in international cooperation earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "United Nations Charter is signed in San Francisco"
+      },
+      {
+        "id": "b",
+        "text": "North Atlantic Treaty creates NATO alliance"
+      },
+      {
+        "id": "c",
+        "text": "League of Nations holds its first assembly"
+      },
+      {
+        "id": "d",
+        "text": "Atlantic Charter outlines postwar Allied goals"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The League of Nations (1920) came first, then the Atlantic Charter (1941), UN Charter (1945), and NATO (1949).",
+    "source_url": "https://www.un.org/en/about-us/history-of-the-un",
+    "trap_notes": {
+      "default": "Order: League of Nations (1920), Atlantic Charter (1941), UN Charter (1945), NATO (1949)."
+    }
+  },
+  {
+    "id": "civics-ord-231",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "International Human Rights",
+    "era": "1948–1998",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "prompt": "Order these global human rights agreements from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Helsinki Accords link security to human rights"
+      },
+      {
+        "id": "b",
+        "text": "Rome Statute establishes International Criminal Court"
+      },
+      {
+        "id": "c",
+        "text": "Universal Declaration of Human Rights is adopted"
+      },
+      {
+        "id": "d",
+        "text": "Four Geneva Conventions protect war victims"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The Universal Declaration (1948) came first, followed by the 1949 Geneva Conventions, Helsinki Accords (1975), and Rome Statute (1998).",
+    "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "trap_notes": {
+      "default": "Timeline: UDHR (1948), Geneva Conventions (1949), Helsinki Accords (1975), Rome Statute (1998)."
+    }
+  },
+  {
+    "id": "civics-ord-232",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Women's Rights & Civic Action",
+    "era": "1848–1972",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 42.9106,
+      "lng": -76.7966,
+      "label": "Seneca Falls, New York"
+    },
+    "prompt": "Order these milestones in women's civic equality earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Equal Rights Amendment is first introduced"
+      },
+      {
+        "id": "b",
+        "text": "Title IX bans sex bias in funded education"
+      },
+      {
+        "id": "c",
+        "text": "Seneca Falls Convention issues Declaration of Sentiments"
+      },
+      {
+        "id": "d",
+        "text": "National Woman Suffrage Association is founded"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "Seneca Falls (1848) came first, then the NWSA (1869), the first ERA proposal (1923), and Title IX (1972).",
+    "source_url": "https://www.nps.gov/wori/learn/historyculture/seneca-falls-convention.htm",
+    "trap_notes": {
+      "default": "Order: Seneca Falls (1848), NWSA (1869), ERA introduced (1923), Title IX (1972)."
+    }
+  },
+  {
+    "id": "civics-ord-233",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Political Parties",
+    "era": "1792–1912",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "prompt": "Order these American political parties by founding from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Republican Party forms to oppose slavery expansion"
+      },
+      {
+        "id": "b",
+        "text": "Progressive Bull Moose Party nominates Roosevelt"
+      },
+      {
+        "id": "c",
+        "text": "Federalist Party backs strong national government"
+      },
+      {
+        "id": "d",
+        "text": "Whig Party unites opponents of Andrew Jackson"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The Federalists formed in the 1790s, Whigs in 1833, Republicans in 1854, and the Progressive Bull Moose Party in 1912.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/formation-of-political-parties.html",
+    "trap_notes": {
+      "default": "Party timeline: Federalist (1790s), Whig (1833), Republican (1854), Bull Moose (1912)."
+    }
+  },
+  {
+    "id": "civics-ord-234",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Presidential Succession",
+    "era": "1792–1967",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these U.S. presidential succession milestones earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1947 Act places House Speaker after Vice President"
+      },
+      {
+        "id": "b",
+        "text": "1886 Act places Cabinet secretaries in line"
+      },
+      {
+        "id": "c",
+        "text": "25th Amendment lets President fill VP vacancy"
+      },
+      {
+        "id": "d",
+        "text": "1792 Act puts Senate President Pro Tempore first"
+      }
+    ],
+    "answer": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "explanation": "Congress passed succession acts in 1792, 1886, and 1947 before the 25th Amendment (1967) created a VP-replacement process.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxv",
+    "trap_notes": {
+      "default": "Order: 1792 Act, 1886 Act, 1947 Act, 25th Amendment (1967)."
+    }
+  },
+  {
+    "id": "civics-ord-235",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Impeachment History",
+    "era": "1868–2021",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order these presidential impeachment trials from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Senate acquits Bill Clinton on perjury charges"
+      },
+      {
+        "id": "b",
+        "text": "First impeachment trial of Donald Trump concludes"
+      },
+      {
+        "id": "c",
+        "text": "Andrew Johnson survives Senate removal by one vote"
+      },
+      {
+        "id": "d",
+        "text": "Second impeachment trial of Donald Trump concludes"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Johnson was tried in 1868, Clinton in 1999, and Donald Trump in early 2020 and early 2021.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "trap_notes": {
+      "default": "Order: Johnson (1868), Clinton (1998–99), Trump first (2019–20), Trump second (2021)."
+    }
+  },
+  {
+    "id": "civics-ord-236",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Territorial Governance",
+    "era": "1787–1898",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 21.3069,
+      "lng": -157.8583,
+      "label": "Honolulu, Hawaii"
+    },
+    "prompt": "Order these milestones in U.S. territorial expansion earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Louisiana Purchase doubles U.S. territory"
+      },
+      {
+        "id": "b",
+        "text": "United States annexes the Republic of Hawaii"
+      },
+      {
+        "id": "c",
+        "text": "Northwest Ordinance sets statehood rules"
+      },
+      {
+        "id": "d",
+        "text": "United States buys Alaska from Russia"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "The Northwest Ordinance (1787) preceded the Louisiana Purchase (1803), Alaska Purchase (1867), and Hawaii annexation (1898).",
+    "source_url": "https://www.archives.gov/milestone-documents/northwest-ordinance",
+    "trap_notes": {
+      "default": "Timeline: Northwest Ordinance (1787), Louisiana Purchase (1803), Alaska (1867), Hawaii (1898)."
+    }
+  },
+  {
+    "id": "civics-ord-237",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Domestic Public Policy",
+    "era": "1935–2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order these landmark federal domestic policy laws earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Medicare and Medicaid programs are created"
+      },
+      {
+        "id": "b",
+        "text": "Affordable Care Act expands health insurance"
+      },
+      {
+        "id": "c",
+        "text": "Social Security Act establishes old-age pensions"
+      },
+      {
+        "id": "d",
+        "text": "Clean Air Act of 1970 sets federal standards"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Social Security (1935) came first, then Medicare and Medicaid (1965), the Clean Air Act (1970), and the Affordable Care Act (2010).",
+    "source_url": "https://www.archives.gov/milestone-documents/social-security-act",
+    "trap_notes": {
+      "default": "Order: Social Security (1935), Medicare/Medicaid (1965), Clean Air Act (1970), ACA (2010)."
+    }
+  },
+  {
+    "id": "civics-ord-238",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Federal Labor Policy",
+    "era": "1935–1993",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these federal workplace and labor laws from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fair Labor Standards Act sets minimum wage"
+      },
+      {
+        "id": "b",
+        "text": "Family and Medical Leave Act grants unpaid leave"
+      },
+      {
+        "id": "c",
+        "text": "National Labor Relations Act protects unions"
+      },
+      {
+        "id": "d",
+        "text": "Taft-Hartley Act restricts certain union strikes"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "The Wagner/NLRA Act (1935) preceded the FLSA (1938), Taft-Hartley Act (1947), and Family and Medical Leave Act (1993).",
+    "source_url": "https://www.nlrb.gov/about-nlrb/who-we-are/our-history/1935-passage-of-the-wagner-act",
+    "trap_notes": {
+      "default": "Labor law order: NLRA (1935), FLSA (1938), Taft-Hartley (1947), FMLA (1993)."
+    }
+  },
+  {
+    "id": "civics-ord-239",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Press & Symbolic Speech",
+    "era": "1964–1997",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these First Amendment press and expression rulings earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pentagon Papers ruling rejects prior restraint"
+      },
+      {
+        "id": "b",
+        "text": "Reno v. ACLU protects online free expression"
+      },
+      {
+        "id": "c",
+        "text": "New York Times v. Sullivan sets actual-malice rule"
+      },
+      {
+        "id": "d",
+        "text": "Texas v. Johnson protects flag burning as speech"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Sullivan (1964) came first, followed by Pentagon Papers (1971), Texas v. Johnson (1989), and Reno v. ACLU (1997).",
+    "source_url": "https://www.oyez.org/cases/1963/39",
+    "trap_notes": {
+      "default": "Timeline: Sullivan (1964), Pentagon Papers (1971), Texas v. Johnson (1989), Reno v. ACLU (1997)."
+    }
+  },
+  {
+    "id": "civics-ord-240",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Habeas Corpus & Wartime Law",
+    "era": "1866–2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these Supreme Court rulings on wartime detention earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rasul v. Bush grants federal court jurisdiction"
+      },
+      {
+        "id": "b",
+        "text": "Boumediene v. Bush affirms detainee habeas rights"
+      },
+      {
+        "id": "c",
+        "text": "Ex parte Milligan bars military trials for civilians"
+      },
+      {
+        "id": "d",
+        "text": "Hamdan v. Rumsfeld rejects military commissions"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Ex parte Milligan (1866) came long before Rasul (2004), Hamdan (2006), and Boumediene v. Bush (2008).",
+    "source_url": "https://www.oyez.org/cases/2007/06-1195",
+    "trap_notes": {
+      "default": "Order: Ex parte Milligan (1866), Rasul (2004), Hamdan (2006), Boumediene (2008)."
+    }
+  },
+  {
+    "id": "civics-ord-241",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Tribal Sovereignty",
+    "era": "1832–1975",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 35.4676,
+      "lng": -97.5164,
+      "label": "Oklahoma City, Oklahoma"
+    },
+    "prompt": "Order these milestones in federal-tribal legal relations earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dawes Act divides tribal lands into allotments"
+      },
+      {
+        "id": "b",
+        "text": "Indian Self-Determination Act expands tribal control"
+      },
+      {
+        "id": "c",
+        "text": "Worcester v. Georgia affirms Cherokee sovereignty"
+      },
+      {
+        "id": "d",
+        "text": "Indian Reorganization Act restores tribal self-rule"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "Worcester v. Georgia (1832) preceded the Dawes Act (1887), Indian Reorganization Act (1934), and Self-Determination Act (1975).",
+    "source_url": "https://www.archives.gov/milestone-documents/dawes-act",
+    "trap_notes": {
+      "default": "Timeline: Worcester (1832), Dawes Act (1887), Reorganization Act (1934), Self-Determination Act (1975)."
+    }
+  },
+  {
+    "id": "civics-ord-242",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Election Administration",
+    "era": "1887–2022",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "prompt": "Order these federal election administration laws from earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Federal Election Campaign Act requires disclosures"
+      },
+      {
+        "id": "b",
+        "text": "Electoral Count Reform Act clarifies VP role"
+      },
+      {
+        "id": "c",
+        "text": "Electoral Count Act sets state certification rules"
+      },
+      {
+        "id": "d",
+        "text": "Help America Vote Act funds ballot upgrades"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "The Electoral Count Act (1887) preceded FECA (1971), the Help America Vote Act (2002), and the Electoral Count Reform Act (2022).",
+    "source_url": "https://www.congress.gov/",
+    "trap_notes": {
+      "default": "Order: Electoral Count Act (1887), FECA (1971), HAVA (2002), Electoral Count Reform Act (2022)."
+    }
+  },
+  {
+    "id": "civics-ord-243",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Constitutional Amendments",
+    "era": "1795–1992",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these structural constitutional amendments by ratification date:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Twelfth Amendment separates VP and President ballots"
+      },
+      {
+        "id": "b",
+        "text": "Twenty-Seventh Amendment delays congressional raises"
+      },
+      {
+        "id": "c",
+        "text": "Eleventh Amendment protects state sovereign immunity"
+      },
+      {
+        "id": "d",
+        "text": "Seventeenth Amendment mandates popular Senate votes"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "The 11th (1795), 12th (1804), 17th (1913), and 27th (1992) Amendments were ratified in numerical order.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Amendments are numbered in ratification order: 11th (1795), 12th (1804), 17th (1913), 27th (1992)."
+    }
+  },
+  {
+    "id": "civics-ord-244",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Media & Communications Policy",
+    "era": "1934–2017",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Order these U.S. media and communications milestones earliest to latest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fairness Doctrine is repealed by the FCC"
+      },
+      {
+        "id": "b",
+        "text": "Telecommunications Act deregulates media ownership"
+      },
+      {
+        "id": "c",
+        "text": "Communications Act creates the FCC"
+      },
+      {
+        "id": "d",
+        "text": "Equal Time Rule is amended for news broadcasts"
+      }
+    ],
+    "answer": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "explanation": "The 1934 Communications Act created the FCC, Equal Time updated in 1959, Fairness Doctrine ended in 1987, and Telecom Act passed in 1996.",
+    "source_url": "https://www.fcc.gov/about-fcc/what-we-do",
+    "trap_notes": {
+      "default": "Order: Communications Act (1934), Equal Time update (1959), Fairness Doctrine repeal (1987), Telecom Act (1996)."
+    }
+  },
+  {
+    "id": "civics-ord-245",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Eighth Amendment & Juvenile Justice",
+    "era": "1967–2005",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Order these Supreme Court rulings on juvenile and capital justice:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Furman v. Georgia halts arbitrary death penalties"
+      },
+      {
+        "id": "b",
+        "text": "Roper v. Simmons bars juvenile death sentences"
+      },
+      {
+        "id": "c",
+        "text": "In re Gault grants juveniles due-process rights"
+      },
+      {
+        "id": "d",
+        "text": "Gregg v. Georgia upholds guided capital trials"
+      }
+    ],
+    "answer": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "explanation": "In re Gault (1967) came first, followed by Furman (1972), Gregg v. Georgia (1976), and Roper v. Simmons (2005).",
+    "source_url": "https://www.oyez.org/cases/2004/03-633",
+    "trap_notes": {
+      "default": "Timeline: In re Gault (1967), Furman (1972), Gregg (1976), Roper v. Simmons (2005)."
+    }
+  },
+  {
+    "id": "civics-cmp-201",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Legislative Branch",
+    "era": "Constitutional Structure",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "House of Representatives",
+      "rightLabel": "U.S. Senate",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Originates all federal revenue bills",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Members serve two-year terms",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Ratifies treaties by two-thirds vote",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Confirms Supreme Court nominees",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each constitutional power or rule into the House or Senate.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The House has two-year terms and starts revenue bills; the Senate confirms judges and ratifies treaties.",
+    "source_url": "https://www.congress.gov/about",
+    "trap_notes": {
+      "default": "Match revenue bills and 2-year terms to the House, and treaties and confirmations to the Senate."
+    }
+  },
+  {
+    "id": "civics-cmp-202",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "Constitutional Structure",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Enumerated Federal Powers",
+      "rightLabel": "Reserved State Powers",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Coining money and regulating currency",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Declaring war and maintaining armed forces",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Issuing driver's and marriage licenses",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Setting local public school curricula",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each authority into Enumerated Federal Powers or Reserved State Powers.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Article I grants Congress war and currency powers; the 10th Amendment reserves licensing and education to states.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-x",
+    "trap_notes": {
+      "default": "Currency and war are federal powers; licensing and public schools are reserved to states."
+    }
+  },
+  {
+    "id": "civics-cmp-203",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Ratification Debate",
+    "era": "1787–1788",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "compareSpec": {
+      "leftLabel": "Federalists",
+      "rightLabel": "Anti-Federalists",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Backed a strong central government",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Authored The Federalist Papers essays",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Demanded a Bill of Rights before signing",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Feared a distant president like a king",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each position into Federalists or Anti-Federalists.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Federalists defended the new Constitution in The Federalist; Anti-Federalists feared central tyranny and demanded a Bill of Rights.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/convention-and-ratification.html",
+    "trap_notes": {
+      "default": "Federalists wrote The Federalist for strong national power; Anti-Federalists demanded a Bill of Rights."
+    }
+  },
+  {
+    "id": "civics-cmp-204",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Rights & Protections",
+    "era": "Constitutional Law",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Civil Liberties",
+      "rightLabel": "Civil Rights",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Protection from warrantless searches",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Freedom to publish political criticism",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Equal access to public accommodations",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Ban on racial bias in voter registration",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each constitutional guarantee into Civil Liberties or Civil Rights.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Civil liberties shield individuals from government overreach; civil rights ensure equal treatment without discrimination.",
+    "source_url": "https://www.archives.gov/founding-docs/bill-of-rights",
+    "trap_notes": {
+      "default": "Liberties limit government intrusion (speech, privacy); rights guarantee equal treatment (voting, access)."
+    }
+  },
+  {
+    "id": "civics-cmp-205",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Comparative Systems",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.4995,
+      "lng": -0.1248,
+      "label": "Westminster, London"
+    },
+    "compareSpec": {
+      "leftLabel": "Presidential System",
+      "rightLabel": "Parliamentary System",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Executive elected apart from legislature",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Chief executive serves a fixed term",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Prime minister sits inside the legislature",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "No-confidence vote can oust the cabinet",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each feature into Presidential System or Parliamentary System.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Presidential systems separate executive and legislative elections; parliamentary systems fuse them via a prime minister.",
+    "source_url": "https://www.britannica.com/topic/parliamentary-system",
+    "trap_notes": {
+      "default": "Presidential systems have separate elections and fixed terms; parliamentary systems use a legislature-chosen PM."
+    }
+  },
+  {
+    "id": "civics-cmp-206",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Comparative Systems",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "compareSpec": {
+      "leftLabel": "Unitary Government",
+      "rightLabel": "Federal Government",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Central authority holds all sovereignty",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Local units exist only by central charter",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Constitution divides power across levels",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Subnational states hold protected powers",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each structural trait into Unitary Government or Federal Government.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Unitary states concentrate sovereignty at the center; federal systems constitutionally share power with states.",
+    "source_url": "https://www.britannica.com/topic/federalism",
+    "trap_notes": {
+      "default": "Unitary governments centralize sovereignty; federal governments constitutionally divide power with states."
+    }
+  },
+  {
+    "id": "civics-cmp-207",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch",
+    "era": "Constitutional Structure",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Original Jurisdiction",
+      "rightLabel": "Appellate Jurisdiction",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Hears witness testimony and evidence first",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Handles disputes between two U.S. states",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Reviews lower-court records for legal error",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Decides cases brought on writ of certiorari",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each court function into Original Jurisdiction or Appellate Jurisdiction.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Original jurisdiction tries cases first (like state-versus-state suits); appellate jurisdiction reviews lower rulings.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+    "trap_notes": {
+      "default": "Original jurisdiction hears trials first; appellate jurisdiction reviews prior decisions."
+    }
+  },
+  {
+    "id": "civics-cmp-208",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Elections & Voting",
+    "era": "Modern Elections",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 41.5868,
+      "lng": -93.625,
+      "label": "Des Moines, Iowa"
+    },
+    "compareSpec": {
+      "leftLabel": "Primary Election",
+      "rightLabel": "General Election",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Selects a party's official nominee",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "May be closed to registered party members",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Decides who takes public office",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Pits rival-party nominees head-to-head",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each electoral feature into Primary Election or General Election.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Primaries choose each party's nominee; general elections decide which party's candidate wins office.",
+    "source_url": "https://www.usa.gov/primaries-caucuses",
+    "trap_notes": {
+      "default": "Primaries pick party nominees; general elections fill the public office."
+    }
+  },
+  {
+    "id": "civics-cmp-209",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Criminal Justice",
+    "era": "Constitutional Law",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Grand Jury",
+      "rightLabel": "Petit Trial Jury",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Finds probable cause to bring charges",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Issues a formal felony indictment",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Weighs evidence at trial for guilt",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Delivers a verdict of guilty or not guilty",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each jury duty into Grand Jury or Petit Trial Jury.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A grand jury decides whether to indict based on probable cause; a petit jury decides guilt or innocence at trial.",
+    "source_url": "https://www.uscourts.gov/services-forms/jury-service/types-juries",
+    "trap_notes": {
+      "default": "Grand juries issue indictments; petit juries reach trial verdicts."
+    }
+  },
+  {
+    "id": "civics-cmp-210",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Legal Systems",
+    "era": "Constitutional Law",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Criminal Law",
+      "rightLabel": "Civil Law",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Prosecutor brings charges for the state",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Requires proof beyond a reasonable doubt",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Resolves private contract or tort disputes",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Uses preponderance-of-evidence standard",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each legal feature into Criminal Law or Civil Law.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Criminal law prosecutes offenses against the state under a high burden of proof; civil law settles private disputes.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/types-cases",
+    "trap_notes": {
+      "default": "Criminal cases involve prosecutors and reasonable doubt; civil cases involve private disputes and lower burdens."
+    }
+  },
+  {
+    "id": "civics-cmp-211",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Direct Democracy",
+    "era": "State & Local Government",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "label": "Sacramento, California"
+    },
+    "compareSpec": {
+      "leftLabel": "Ballot Initiative",
+      "rightLabel": "Referendum",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Citizens draft a proposed law directly",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Qualifies for ballot via voter signatures",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Legislature sends a measure to voters",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Voters approve or reject an existing bill",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each direct-democracy tool into Ballot Initiative or Referendum.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "An initiative lets citizens propose laws by petition; a referendum lets voters approve or reject a legislative measure.",
+    "source_url": "https://www.britannica.com/topic/initiative-government",
+    "trap_notes": {
+      "default": "Initiatives start with citizen petitions; referendums submit legislative measures to voters."
+    }
+  },
+  {
+    "id": "civics-cmp-212",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Federal Budget",
+    "era": "Modern Governance",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Mandatory Spending",
+      "rightLabel": "Discretionary Spending",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Paid automatically by entitlement law",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Includes Social Security and Medicare",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Approved annually by appropriations bills",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Funds defense and national parks yearly",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each budget item into Mandatory Spending or Discretionary Spending.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Mandatory spending flows automatically under entitlement statutes; discretionary spending requires annual appropriations.",
+    "source_url": "https://www.cbo.gov/topics/budget",
+    "trap_notes": {
+      "default": "Mandatory covers entitlements like Social Security; discretionary is set yearly in appropriations bills."
+    }
+  },
+  {
+    "id": "civics-cmp-213",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Linkage Institutions",
+    "era": "Modern Politics",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Political Parties",
+      "rightLabel": "Interest Groups",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Nominate candidates to run on ballots",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Organize legislative majorities in Congress",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Focus narrowly on specific policy goals",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Lobby officials without running candidates",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each political role into Political Parties or Interest Groups.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Political parties nominate candidates and govern; interest groups lobby officials around narrower policy aims.",
+    "source_url": "https://www.britannica.com/topic/interest-group",
+    "trap_notes": {
+      "default": "Parties nominate candidates to win office; interest groups lobby officeholders on specific issues."
+    }
+  },
+  {
+    "id": "civics-cmp-214",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Executive vs. Legislative Law",
+    "era": "Constitutional Structure",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Executive Order",
+      "rightLabel": "Federal Statute",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Issued solely by the President",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Directs federal agencies how to operate",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Must pass both chambers of Congress",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Requires another statute to repeal it",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each legal instrument into Executive Order or Federal Statute.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Executive orders are presidential directives to agencies; statutes are enacted by Congress and signed or passed over a veto.",
+    "source_url": "https://www.archives.gov/federal-register/executive-orders",
+    "trap_notes": {
+      "default": "Executive orders come from the President alone; statutes must pass both chambers of Congress."
+    }
+  },
+  {
+    "id": "civics-cmp-215",
+    "type": "compare",
+    "domain": "Civics",
+    "subdomain": "Constitutional Interpretation",
+    "era": "1790s–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "compareSpec": {
+      "leftLabel": "Strict Construction",
+      "rightLabel": "Loose Construction",
+      "items": [
+        {
+          "id": "i1",
+          "text": "Limits Congress to explicitly listed powers",
+          "bucket": "left"
+        },
+        {
+          "id": "i2",
+          "text": "Opposed chartering the First National Bank",
+          "bucket": "left"
+        },
+        {
+          "id": "i3",
+          "text": "Reads Necessary and Proper Clause broadly",
+          "bucket": "right"
+        },
+        {
+          "id": "i4",
+          "text": "Backed implied powers for a national bank",
+          "bucket": "right"
+        }
+      ]
+    },
+    "prompt": "Sort each interpretive view into Strict Construction or Loose Construction.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Strict constructionists limit federal power to explicit text; loose constructionists favor broad implied powers.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/754",
+    "trap_notes": {
+      "default": "Strict construction sticks to explicit text; loose construction uses the Necessary and Proper Clause broadly."
+    }
+  }
+]

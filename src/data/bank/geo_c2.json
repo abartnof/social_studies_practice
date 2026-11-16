@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "geo-ded-201",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 26.5667, "lng": 56.25, "label": "Strait of Hormuz" },
+    "prompt": "Identify this maritime chokepoint from the three clues.",
+    "clues": [
+      "This narrow waterway lies in Southwest Asia between the Arabian Peninsula and Iran.",
+      "Roughly one-fifth of the world's seaborne petroleum passes through its shipping lanes.",
+      "It provides the only ocean outlet connecting the Persian Gulf to the Gulf of Oman."
+    ],
+    "options": [
+      { "id": "a", "text": "The Strait of Hormuz" },
+      { "id": "b", "text": "The Strait of Malacca" },
+      { "id": "c", "text": "The Strait of Dover" },
+      { "id": "d", "text": "The Danish Straits" }
+    ],
+    "answer": "a",
+    "explanation": "The Strait of Hormuz links the Persian Gulf to the Gulf of Oman and carries a huge share of global oil exports.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "b": "The Strait of Malacca lies in Southeast Asia between Malaysia and Indonesia.",
+      "c": "The Strait of Dover connects the English Channel and the North Sea.",
+      "d": "The Danish Straits connect the Baltic Sea to the North Sea.",
+      "default": "The Strait of Hormuz is the sole sea outlet from the oil-rich Persian Gulf."
+    }
+  },
+  {
+    "id": "geo-ded-202",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 2.5, "lng": 101.2, "label": "Strait of Malacca" },
+    "prompt": "Identify this Asian shipping corridor from the three clues.",
+    "clues": [
+      "This long, narrow strait runs through Southeast Asia near the equator.",
+      "It separates the Malay Peninsula from the Indonesian island of Sumatra.",
+      "It forms the shortest sea link between the Indian Ocean and the South China Sea."
+    ],
+    "options": [
+      { "id": "a", "text": "The Korea Strait" },
+      { "id": "b", "text": "The Strait of Malacca" },
+      { "id": "c", "text": "The Taiwan Strait" },
+      { "id": "d", "text": "The Bab el-Mandeb Strait" }
+    ],
+    "answer": "b",
+    "explanation": "The Strait of Malacca funnels ships between Sumatra and the Malay Peninsula, linking the Indian Ocean to East Asia.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "a": "The Korea Strait links the East China Sea and the Sea of Japan.",
+      "c": "The Taiwan Strait separates Taiwan from mainland China.",
+      "d": "The Bab el-Mandeb links the Red Sea to the Gulf of Aden.",
+      "default": "The Strait of Malacca is Southeast Asia's main shipping lane between the Indian and Pacific basins."
+    }
+  },
+  {
+    "id": "geo-ded-203",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Suez Canal, Egypt" },
+    "prompt": "Identify this human-made waterway from the three clues.",
+    "clues": [
+      "This sea-level shipping route cuts across a desert isthmus in northeastern Africa.",
+      "Opened in 1869, it saved European ships from sailing all the way around southern Africa.",
+      "Operated by Egypt, it links the Mediterranean Sea directly to the Red Sea."
+    ],
+    "options": [
+      { "id": "a", "text": "The Kiel Canal" },
+      { "id": "b", "text": "The Panama Canal" },
+      { "id": "c", "text": "The Suez Canal" },
+      { "id": "d", "text": "The Erie Canal" }
+    ],
+    "answer": "c",
+    "explanation": "Egypt's Suez Canal cuts across the Isthmus of Suez, joining the Mediterranean and Red seas without locks.",
+    "source_url": "https://www.britannica.com/topic/Suez-Canal",
+    "trap_notes": {
+      "a": "The Kiel Canal crosses northern Germany between the North and Baltic seas.",
+      "b": "The Panama Canal crosses Central America using freshwater locks.",
+      "d": "The Erie Canal links the Hudson River to Lake Erie in New York.",
+      "default": "The Suez Canal connects the Mediterranean and Red seas across Egypt."
+    }
+  },
+  {
+    "id": "geo-ded-204",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 9.08, "lng": -79.68, "label": "Panama Canal, Panama" },
+    "prompt": "Identify this interoceanic waterway from the three clues.",
+    "clues": [
+      "This 82-kilometer waterway cuts across a narrow tropical isthmus in the Americas.",
+      "Ships are lifted 26 meters above sea level through freshwater locks fed by Gatun Lake.",
+      "Completed in 1914, it joins the Atlantic Ocean and the Pacific Ocean."
+    ],
+    "options": [
+      { "id": "a", "text": "The Strait of Magellan" },
+      { "id": "b", "text": "The Suez Canal" },
+      { "id": "c", "text": "The St. Lawrence Seaway" },
+      { "id": "d", "text": "The Panama Canal" }
+    ],
+    "answer": "d",
+    "explanation": "The Panama Canal uses freshwater locks and Gatun Lake to carry vessels between the Atlantic and Pacific oceans.",
+    "source_url": "https://www.britannica.com/topic/Panama-Canal",
+    "trap_notes": {
+      "a": "The Strait of Magellan is a natural sea-level strait at South America's southern tip.",
+      "b": "The Suez Canal is a lock-free sea-level canal in Egypt.",
+      "c": "The St. Lawrence Seaway links the Great Lakes to the Atlantic Ocean.",
+      "default": "The Panama Canal crosses Central America using freshwater locks."
+    }
+  },
+  {
+    "id": "geo-ded-205",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -13.1631, "lng": -72.545, "label": "Andes Mountains" },
+    "prompt": "Identify this mountain system from the three clues.",
+    "clues": [
+      "This continental mountain belt stretches along the western edge of South America.",
+      "It formed where the oceanic Nazca Plate subducts beneath the South American Plate.",
+      "It is Earth's longest continental mountain range and hosts the Atacama rain shadow."
+    ],
+    "options": [
+      { "id": "a", "text": "The Andes Mountains" },
+      { "id": "b", "text": "The Rocky Mountains" },
+      { "id": "c", "text": "The Alps" },
+      { "id": "d", "text": "The Caucasus Mountains" }
+    ],
+    "answer": "a",
+    "explanation": "Subduction of the Nazca Plate beneath South America uplifted the Andes, the longest continental mountain chain on Earth.",
+    "source_url": "https://www.britannica.com/place/Andes-Mountains",
+    "trap_notes": {
+      "b": "The Rocky Mountains run through western North America, not South America.",
+      "c": "The Alps formed in southern Europe from the African-Eurasian collision.",
+      "d": "The Caucasus Mountains lie between the Black and Caspian seas.",
+      "default": "The Andes run along South America's Pacific edge above the subducting Nazca Plate."
+    }
+  },
+  {
+    "id": "geo-ded-206",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 64.9631, "lng": -19.0208, "label": "Mid-Atlantic Ridge" },
+    "prompt": "Identify this underwater tectonic feature from the three clues.",
+    "clues": [
+      "This volcanic mountain chain runs mostly beneath the ocean from the Arctic to the south.",
+      "It marks a divergent boundary where the Americas pull away from Europe and Africa.",
+      "It rises above sea level in Iceland, creating active volcanoes and geothermal springs."
+    ],
+    "options": [
+      { "id": "a", "text": "The Mariana Trench" },
+      { "id": "b", "text": "The Mid-Atlantic Ridge" },
+      { "id": "c", "text": "The Aleutian Arc" },
+      { "id": "d", "text": "The Sunda Trench" }
+    ],
+    "answer": "b",
+    "explanation": "The Mid-Atlantic Ridge is a divergent seafloor spreading zone that surfaces on land in Iceland.",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards/plate-tectonics",
+    "trap_notes": {
+      "a": "The Mariana Trench is a deep subduction zone in the western Pacific.",
+      "c": "The Aleutian Arc is a convergent volcanic island chain off Alaska.",
+      "d": "The Sunda Trench is a subduction zone south of Indonesia.",
+      "default": "The Mid-Atlantic Ridge is the divergent plate boundary running down the Atlantic Ocean."
+    }
+  },
+  {
+    "id": "geo-ded-207",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 35.1167, "lng": -119.65, "label": "San Andreas Fault" },
+    "prompt": "Identify this plate boundary feature from the three clues.",
+    "clues": [
+      "This continental transform fault runs roughly 1,200 kilometers through western North America.",
+      "It forms the sliding boundary between the Pacific Plate and the North American Plate.",
+      "Stress along this California fault caused the 1906 San Francisco earthquake."
+    ],
+    "options": [
+      { "id": "a", "text": "The Cascadia Subduction Zone" },
+      { "id": "b", "text": "The New Madrid Seismic Zone" },
+      { "id": "c", "text": "The San Andreas Fault" },
+      { "id": "d", "text": "The Rio Grande Rift" }
+    ],
+    "answer": "c",
+    "explanation": "The San Andreas Fault is a transform boundary across California where two plates grind past each other horizontally.",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards/san-andreas-fault-system",
+    "trap_notes": {
+      "a": "Cascadia is a convergent subduction zone off Oregon, Washington, and British Columbia.",
+      "b": "The New Madrid zone is an intraplate fault system in the central Mississippi Valley.",
+      "d": "The Rio Grande Rift is a divergent zone in New Mexico and Colorado.",
+      "default": "The San Andreas Fault is California's famous transform boundary."
+    }
+  },
+  {
+    "id": "geo-ded-208",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Ocean Currents",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -12.0464, "lng": -77.0428, "label": "Humboldt Current" },
+    "prompt": "Identify this ocean current from the three clues.",
+    "clues": [
+      "This cold surface current flows northward along the western coast of South America.",
+      "Its nutrient-rich upwelling supports one of the world's largest anchovy fisheries.",
+      "Warming of this Peruvian coastal current during El Nino disrupts local marine food webs."
+    ],
+    "options": [
+      { "id": "a", "text": "The Gulf Stream" },
+      { "id": "b", "text": "The Kuroshio Current" },
+      { "id": "c", "text": "The Agulhas Current" },
+      { "id": "d", "text": "The Humboldt Current" }
+    ],
+    "answer": "d",
+    "explanation": "Also called the Peru Current, the cold Humboldt Current fuels upwelling fisheries and reinforces the dry Atacama coast.",
+    "source_url": "https://www.britannica.com/place/Humboldt-Current",
+    "trap_notes": {
+      "a": "The Gulf Stream is a warm Atlantic current flowing northeast from Florida.",
+      "b": "The Kuroshio Current is a warm western Pacific current off Japan.",
+      "c": "The Agulhas Current is a warm Indian Ocean current off southeastern Africa.",
+      "default": "The Humboldt Current is the cold eastern-boundary current along Chile and Peru."
+    }
+  },
+  {
+    "id": "geo-ded-209",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 60.0, "lng": 90.0, "label": "Boreal Forest" },
+    "prompt": "Identify this terrestrial biome from the three clues.",
+    "clues": [
+      "This is Earth's largest land biome, forming a broad subarctic belt across the north.",
+      "Long, snowy winters favor needle-leaf conifers such as spruce, fir, and pine.",
+      "Stretching across Canada, Scandinavia, and Siberia, it is also known as the taiga."
+    ],
+    "options": [
+      { "id": "a", "text": "The Boreal Forest" },
+      { "id": "b", "text": "The Temperate Grassland" },
+      { "id": "c", "text": "The Arctic Tundra" },
+      { "id": "d", "text": "The Tropical Savanna" }
+    ],
+    "answer": "a",
+    "explanation": "The boreal forest, or taiga, rings the subarctic Northern Hemisphere with cold-adapted evergreen conifers.",
+    "source_url": "https://education.nationalgeographic.org/resource/taiga/",
+    "trap_notes": {
+      "b": "Temperate grasslands lie in mid-latitude interiors and lack dense conifer forests.",
+      "c": "The Arctic tundra lies north of the treeline and lacks tall conifers.",
+      "d": "Tropical savannas occupy warm low-latitude regions with wet and dry seasons.",
+      "default": "The boreal forest (taiga) is the vast subarctic conifer belt."
+    }
+  },
+  {
+    "id": "geo-ded-210",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -2.3333, "lng": 34.8333, "label": "Serengeti Plains, Tanzania" },
+    "prompt": "Identify this grassland region from the three clues.",
+    "clues": [
+      "This tropical savanna ecosystem spans northern Tanzania and southwestern Kenya.",
+      "Alternating wet and dry seasons drive vast annual migrations of wildebeest and zebras.",
+      "Scattered acacia trees dot its rolling plains east of Lake Victoria."
+    ],
+    "options": [
+      { "id": "a", "text": "The Eurasian Steppe" },
+      { "id": "b", "text": "The Serengeti" },
+      { "id": "c", "text": "The Pampas" },
+      { "id": "d", "text": "The Great Plains" }
+    ],
+    "answer": "b",
+    "explanation": "East Africa's Serengeti is famous for its tropical savanna plains, acacia trees, and massive seasonal herbivore migrations.",
+    "source_url": "https://www.britannica.com/place/Serengeti-Plain",
+    "trap_notes": {
+      "a": "The Eurasian Steppe is a temperate grassland across Eastern Europe and Central Asia.",
+      "c": "The Pampas are temperate grasslands in Argentina and Uruguay.",
+      "d": "The Great Plains are temperate grasslands in central North America.",
+      "default": "The Serengeti is East Africa's iconic tropical savanna ecosystem."
+    }
+  },
+  {
+    "id": "geo-ded-211",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.5, "lng": 103.5, "label": "Gobi Desert" },
+    "prompt": "Identify this arid region from the three clues.",
+    "clues": [
+      "This cold mid-latitude desert lies far from any ocean in interior East Asia.",
+      "The Himalaya Mountains block moist Indian Ocean monsoons from reaching its basins.",
+      "It stretches across southern Mongolia and northern China."
+    ],
+    "options": [
+      { "id": "a", "text": "The Namib Desert" },
+      { "id": "b", "text": "The Sonoran Desert" },
+      { "id": "c", "text": "The Gobi Desert" },
+      { "id": "d", "text": "The Rub' al Khali" }
+    ],
+    "answer": "c",
+    "explanation": "The Gobi is a rain-shadow and continental-interior desert spanning northern China and southern Mongolia.",
+    "source_url": "https://www.britannica.com/place/Gobi",
+    "trap_notes": {
+      "a": "The Namib is a coastal fog desert along southwestern Africa.",
+      "b": "The Sonoran Desert lies in southwestern North America.",
+      "d": "The Rub' al Khali covers the southern Arabian Peninsula.",
+      "default": "The Gobi Desert sits in the rain shadow north of the Tibetan Plateau and Himalayas."
+    }
+  },
+  {
+    "id": "geo-ded-212",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -24.75, "lng": 15.25, "label": "Namib Desert, Namibia" },
+    "prompt": "Identify this coastal desert from the three clues.",
+    "clues": [
+      "This narrow desert stretches along the Atlantic coast of southwestern Africa.",
+      "The cold Benguela Current chills offshore air, creating dense coastal fog but little rain.",
+      "Towering red sand dunes meet the sea along the Skeleton Coast of Namibia."
+    ],
+    "options": [
+      { "id": "a", "text": "The Mojave Desert" },
+      { "id": "b", "text": "The Taklamakan Desert" },
+      { "id": "c", "text": "The Thar Desert" },
+      { "id": "d", "text": "The Namib Desert" }
+    ],
+    "answer": "d",
+    "explanation": "Chilled by the cold Benguela Current, the Namib is an ancient coastal fog desert along Namibia's Atlantic shore.",
+    "source_url": "https://www.britannica.com/place/Namib",
+    "trap_notes": {
+      "a": "The Mojave Desert is an inland rain-shadow desert in the southwestern United States.",
+      "b": "The Taklamakan Desert lies deep inside western China's Tarim Basin.",
+      "c": "The Thar Desert lies between northwestern India and eastern Pakistan.",
+      "default": "The Namib Desert hugs southwestern Africa's coast beside the cold Benguela Current."
+    }
+  },
+  {
+    "id": "geo-ded-213",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": -0.5, "lng": 21.0, "label": "Congo River Basin" },
+    "prompt": "Identify this river system from the three clues.",
+    "clues": [
+      "This equatorial river drains the world's second-largest tropical rainforest.",
+      "It is the only major river to cross the equator twice along its giant curve.",
+      "Flowing westward through central Africa, it empties into the South Atlantic Ocean."
+    ],
+    "options": [
+      { "id": "a", "text": "The Congo River" },
+      { "id": "b", "text": "The Niger River" },
+      { "id": "c", "text": "The Zambezi River" },
+      { "id": "d", "text": "The Orinoco River" }
+    ],
+    "answer": "a",
+    "explanation": "The Congo River arcs across the equator in central Africa, sustaining a vast rainforest before reaching the Atlantic.",
+    "source_url": "https://www.britannica.com/place/Congo-River",
+    "trap_notes": {
+      "b": "The Niger River flows through West Africa north of the equator.",
+      "c": "The Zambezi River flows eastward into the Indian Ocean in southern Africa.",
+      "d": "The Orinoco River flows through Venezuela and Colombia in South America.",
+      "default": "The Congo River drains central Africa's equatorial rainforest into the Atlantic."
+    }
+  },
+  {
+    "id": "geo-ded-214",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 30.823, "lng": 111.003, "label": "Yangtze River, China" },
+    "prompt": "Identify this Asian river from the three clues.",
+    "clues": [
+      "This is the longest river in Asia and the third-longest river on Earth.",
+      "Rising on the Tibetan Plateau, it powers the massive Three Gorges Dam.",
+      "It flows eastward past Wuhan and Nanjing before reaching Shanghai on the East China Sea."
+    ],
+    "options": [
+      { "id": "a", "text": "The Indus River" },
+      { "id": "b", "text": "The Yangtze River" },
+      { "id": "c", "text": "The Irrawaddy River" },
+      { "id": "d", "text": "The Amur River" }
+    ],
+    "answer": "b",
+    "explanation": "The Yangtze (Chang Jiang) crosses central China to Shanghai, serving as a vital shipping artery and hydroelectric corridor.",
+    "source_url": "https://www.britannica.com/place/Yangtze-River",
+    "trap_notes": {
+      "a": "The Indus River flows southwest through Pakistan into the Arabian Sea.",
+      "c": "The Irrawaddy River flows south through Myanmar into the Andaman Sea.",
+      "d": "The Amur River forms part of the border between northeastern China and Russia.",
+      "default": "The Yangtze is Asia's longest river and empties near Shanghai."
+    }
+  },
+  {
+    "id": "geo-ded-215",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 36.0, "lng": 114.0, "label": "Yellow River, China" },
+    "prompt": "Identify this river system from the three clues.",
+    "clues": [
+      "This northern river was a primary cradle of early Chinese agriculture and dynasties.",
+      "It carves through the Loess Plateau, picking up thick yellow silt that raises its riverbed.",
+      "Known as Huang He, it empties into the Bohai Sea south of Beijing."
+    ],
+    "options": [
+      { "id": "a", "text": "The Pearl River" },
+      { "id": "b", "text": "The Brahmaputra River" },
+      { "id": "c", "text": "The Yellow River" },
+      { "id": "d", "text": "The Tigris River" }
+    ],
+    "answer": "c",
+    "explanation": "Named for the golden loess silt it carries across northern China, the Yellow River is China's second-longest river.",
+    "source_url": "https://www.britannica.com/place/Yellow-River",
+    "trap_notes": {
+      "a": "The Pearl River drains southern China into the South China Sea near Hong Kong.",
+      "b": "The Brahmaputra flows through Tibet, northeastern India, and Bangladesh.",
+      "d": "The Tigris River flows through Turkey and Iraq in Southwest Asia.",
+      "default": "The Yellow River (Huang He) carries fertile loess silt across northern China."
+    }
+  },
+  {
+    "id": "geo-ded-216",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 22.3, "lng": 89.8, "label": "Ganges-Brahmaputra Delta" },
+    "prompt": "Identify this coastal landform from the three clues.",
+    "clues": [
+      "This fertile alluvial fan is the largest river delta in the world.",
+      "It is fed by Himalayan snowmelt and heavy summer monsoon rains across South Asia.",
+      "Covering most of Bangladesh and eastern India, it empties into the Bay of Bengal."
+    ],
+    "options": [
+      { "id": "a", "text": "The Nile Delta" },
+      { "id": "b", "text": "The Mississippi Delta" },
+      { "id": "c", "text": "The Rhine-Meuse Delta" },
+      { "id": "d", "text": "The Ganges-Brahmaputra Delta" }
+    ],
+    "answer": "d",
+    "explanation": "Two mighty Himalayan rivers deposit massive silt loads in Bangladesh and West Bengal to form the world's largest delta.",
+    "source_url": "https://www.britannica.com/place/Ganges-Delta",
+    "trap_notes": {
+      "a": "The Nile Delta empties into the Mediterranean Sea in northern Egypt.",
+      "b": "The Mississippi Delta empties into the Gulf of Mexico in Louisiana.",
+      "c": "The Rhine-Meuse Delta lies along the North Sea coast of the Netherlands.",
+      "default": "The Ganges-Brahmaputra Delta spans Bangladesh and eastern India on the Bay of Bengal."
+    }
+  },
+  {
+    "id": "geo-ded-217",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 45.8, "lng": -84.7, "label": "Great Lakes, North America" },
+    "prompt": "Identify this freshwater system from the three clues.",
+    "clues": [
+      "Massive continental ice sheets scoured these five basins during the last Ice Age.",
+      "Together they hold roughly one-fifth of all liquid surface fresh water on Earth.",
+      "Connected by locks and canals, they form a shared border between the United States and Canada."
+    ],
+    "options": [
+      { "id": "a", "text": "The Great Lakes" },
+      { "id": "b", "text": "The African Great Lakes" },
+      { "id": "c", "text": "Lake Baikal" },
+      { "id": "d", "text": "The Caspian Sea" }
+    ],
+    "answer": "a",
+    "explanation": "Glaciers carved the five Great Lakes—Superior, Michigan, Huron, Erie, and Ontario—along the U.S.-Canadian border.",
+    "source_url": "https://www.epa.gov/greatlakes/facts-and-figures-about-great-lakes",
+    "trap_notes": {
+      "b": "The African Great Lakes occupy tectonic rift valleys rather than glacial basins.",
+      "c": "Lake Baikal is a single deep tectonic rift lake in Siberia.",
+      "d": "The Caspian Sea is a salty landlocked basin between Europe and Asia.",
+      "default": "North America's Great Lakes are five glacially carved freshwater basins."
+    }
+  },
+  {
+    "id": "geo-ded-218",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 45.0, "lng": 59.5, "label": "Aral Sea, Central Asia" },
+    "prompt": "Identify this shrinking water body from the three clues.",
+    "clues": [
+      "Once the world's fourth-largest lake, this inland sea lies between Kazakhstan and Uzbekistan.",
+      "Soviet irrigation canals diverted the Amu Darya and Syr Darya rivers to grow cotton.",
+      "By the 2000s, it had lost most of its volume, leaving fishing boats stranded on salt flats."
+    ],
+    "options": [
+      { "id": "a", "text": "Lake Chad" },
+      { "id": "b", "text": "The Aral Sea" },
+      { "id": "c", "text": "Lake Titicaca" },
+      { "id": "d", "text": "The Salton Sea" }
+    ],
+    "answer": "b",
+    "explanation": "Heavy river diversion for Central Asian cotton irrigation caused the Aral Sea to shrink dramatically after 1960.",
+    "source_url": "https://www.britannica.com/place/Aral-Sea",
+    "trap_notes": {
+      "a": "Lake Chad shrank in West-Central Africa, not between Kazakhstan and Uzbekistan.",
+      "c": "Lake Titicaca is a high-altitude lake in the Andes between Peru and Bolivia.",
+      "d": "The Salton Sea is a desert basin lake in southern California.",
+      "default": "The Aral Sea shrank after its feeder rivers were diverted for cotton irrigation."
+    }
+  },
+  {
+    "id": "geo-ded-219",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 72.0, "lng": -40.0, "label": "Mercator High-Latitude Distortion" },
+    "prompt": "Identify this map projection from the three clues.",
+    "clues": [
+      "Created in 1569, this cylindrical projection preserves local angles and compass bearings.",
+      "Sailors prized it because every straight line on the map marks a constant compass course.",
+      "Its major flaw is extreme polar inflation, making Greenland look as large as Africa."
+    ],
+    "options": [
+      { "id": "a", "text": "The Robinson Projection" },
+      { "id": "b", "text": "The Gall-Peters Projection" },
+      { "id": "c", "text": "The Mercator Projection" },
+      { "id": "d", "text": "The Albers Conic Projection" }
+    ],
+    "answer": "c",
+    "explanation": "The conformal Mercator projection aids compass navigation at the cost of vastly exaggerating high-latitude land sizes.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-some-common-map-projections",
+    "trap_notes": {
+      "a": "The Robinson projection compromises shape and area for a balanced visual look.",
+      "b": "The Gall-Peters projection preserves area rather than compass angles.",
+      "d": "The Albers Conic projection is used for mid-latitude regions, not global compass navigation.",
+      "default": "The Mercator projection keeps compass angles true while inflating polar landmasses."
+    }
+  },
+  {
+    "id": "geo-ded-220",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 20.0, "label": "Equal-Area World Mapping" },
+    "prompt": "Identify this map projection from the three clues.",
+    "clues": [
+      "This cylindrical projection was popularized in the 1970s to counter Mercator area bias.",
+      "It preserves the true relative surface area of every continent and country.",
+      "To keep areas accurate, it stretches tropical regions vertically and squashes polar lands."
+    ],
+    "options": [
+      { "id": "a", "text": "The Azimuthal Equidistant Projection" },
+      { "id": "b", "text": "The Mercator Projection" },
+      { "id": "c", "text": "The Winkel Tripel Projection" },
+      { "id": "d", "text": "The Gall-Peters Projection" }
+    ],
+    "answer": "d",
+    "explanation": "The Gall-Peters projection is an equal-area cylindrical map that restores Africa's true size while stretching shapes.",
+    "source_url": "https://en.wikipedia.org/wiki/Gall%E2%80%93Peters_projection",
+    "trap_notes": {
+      "a": "Azimuthal equidistant maps preserve distance from a single center point, not equal area everywhere.",
+      "b": "Mercator preserves angles and wildly inflates high latitudes.",
+      "c": "Winkel Tripel is a compromise projection, not strictly equal-area.",
+      "default": "The Gall-Peters projection preserves true land area by distorting continental shapes."
+    }
+  },
+  {
+    "id": "geo-ded-221",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 43.0731, "lng": -89.4012, "label": "University of Wisconsin, Madison" },
+    "prompt": "Identify this world map projection from the three clues.",
+    "clues": [
+      "Designed in 1963, this pseudocylindrical projection uses curved meridians and flat poles.",
+      "It does not preserve either exact area or exact shape, instead balancing all distortions.",
+      "School atlases and National Geographic long favored it for clean, readable world maps."
+    ],
+    "options": [
+      { "id": "a", "text": "The Robinson Projection" },
+      { "id": "b", "text": "The Mercator Projection" },
+      { "id": "c", "text": "The Polar Stereographic Projection" },
+      { "id": "d", "text": "The Goode Homolosine Projection" }
+    ],
+    "answer": "a",
+    "explanation": "Arthur Robinson's compromise projection minimizes jarring distortion across the globe, making it ideal for reference atlases.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-some-common-map-projections",
+    "trap_notes": {
+      "b": "Mercator uses straight vertical meridians and severely inflates polar regions.",
+      "c": "Polar stereographic maps focus on a single hemisphere from a pole.",
+      "d": "Goode Homolosine splits the map through oceans with deep interruptions.",
+      "default": "The Robinson projection is a compromise world map designed for balanced visual reference."
+    }
+  },
+  {
+    "id": "geo-ded-222",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 34.0556, "lng": -117.1825, "label": "Spatial Data Analysis" },
+    "prompt": "Identify this geographic technology from the three clues.",
+    "clues": [
+      "This computer-based system captures, stores, and analyzes location-referenced data.",
+      "It stacks separate thematic layers—such as roads, elevation, and flood zones—on one map.",
+      "Planners use its spatial overlays to site hospitals, track wildfires, and manage utilities."
+    ],
+    "options": [
+      { "id": "a", "text": "Barometric altimetry" },
+      { "id": "b", "text": "A Geographic Information System" },
+      { "id": "c", "text": "A magnetic compass rose" },
+      { "id": "d", "text": "Tidal harmonic tables" }
+    ],
+    "answer": "b",
+    "explanation": "A Geographic Information System (GIS) combines layered spatial data to analyze patterns and solve real-world planning problems.",
+    "source_url": "https://education.nationalgeographic.org/resource/geographic-information-system-gis/",
+    "trap_notes": {
+      "a": "Barometric altimetry measures air pressure to estimate altitude, not layered spatial data.",
+      "c": "A compass rose simply indicates cardinal directions on a map.",
+      "d": "Tidal tables predict ocean water levels rather than stacking multi-layer spatial maps.",
+      "default": "GIS integrates layered digital maps and attribute tables for spatial analysis."
+    }
+  },
+  {
+    "id": "geo-ded-223",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 54.0, "lng": 12.0, "label": "Central Market Ring Model" },
+    "prompt": "Identify this spatial economic model from the three clues.",
+    "clues": [
+      "Published in 1826, this model assumes a single isolated market city on a flat, uniform plain.",
+      "It arranges land use in concentric rings based on transport costs and land rent.",
+      "Perishable dairy sits closest to town, while grain and livestock occupy the outer rings."
+    ],
+    "options": [
+      { "id": "a", "text": "The Demographic Transition Model" },
+      { "id": "b", "text": "Central Place Theory" },
+      { "id": "c", "text": "Von Thunen's Agricultural Model" },
+      { "id": "d", "text": "The Heartland Theory" }
+    ],
+    "answer": "c",
+    "explanation": "Johann Heinrich von Thunen modeled how transport costs and perishability organize agricultural rings around an urban market.",
+    "source_url": "https://www.britannica.com/biography/Johann-Heinrich-von-Thunen",
+    "trap_notes": {
+      "a": "The Demographic Transition Model tracks birth and death rates over time, not farm rings.",
+      "b": "Central Place Theory models the spacing of towns and retail services, not farm zones.",
+      "d": "Heartland Theory is a geopolitical framework about Eurasian land power.",
+      "default": "Von Thunen's model explains rural land-use rings around a central market city."
+    }
+  },
+  {
+    "id": "geo-ded-224",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "Industrializing Population Shifts" },
+    "prompt": "Identify this population framework from the three clues.",
+    "clues": [
+      "This framework tracks how countries shift from high to low birth and death rates.",
+      "In its second stage, falling death rates trigger rapid natural population growth.",
+      "Developed from European history, it divides population change into four or five stages."
+    ],
+    "options": [
+      { "id": "a", "text": "Gravity Model of Migration" },
+      { "id": "b", "text": "Hoyt Sector Model" },
+      { "id": "c", "text": "Rostow's Stages of Growth" },
+      { "id": "d", "text": "The Demographic Transition Model" }
+    ],
+    "answer": "d",
+    "explanation": "The Demographic Transition Model links economic development and healthcare advances to predictable shifts in birth and death rates.",
+    "source_url": "https://www.britannica.com/topic/demographic-transition",
+    "trap_notes": {
+      "a": "The Gravity Model estimates migration or trade volume based on city size and distance.",
+      "b": "Hoyt's Sector Model maps internal urban land-use wedges.",
+      "c": "Rostow's model tracks economic industrialization rather than birth and death rate stages.",
+      "default": "The Demographic Transition Model charts birth-rate and death-rate stages over development."
+    }
+  },
+  {
+    "id": "geo-ded-225",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.1351, "lng": 11.582, "label": "Southern Germany Settlement Grid" },
+    "prompt": "Identify this urban geography theory from the three clues.",
+    "clues": [
+      "Proposed by Walter Christaller in 1933, it explains the size and spacing of settlements.",
+      "It models market areas as interlocking hexagons to prevent gaps or overlap.",
+      "It pairs threshold and range to show why cities host specialized hospitals while villages do not."
+    ],
+    "options": [
+      { "id": "a", "text": "Central Place Theory" },
+      { "id": "b", "text": "Concentric Zone Model" },
+      { "id": "c", "text": "Multiple Nuclei Model" },
+      { "id": "d", "text": "Rimland Theory" }
+    ],
+    "answer": "a",
+    "explanation": "Christaller's Central Place Theory uses hexagons, threshold, and range to explain settlement hierarchies across a region.",
+    "source_url": "https://www.britannica.com/topic/central-place-theory",
+    "trap_notes": {
+      "b": "The Concentric Zone Model maps neighborhoods inside a single city, not regional town spacing.",
+      "c": "The Multiple Nuclei Model maps specialized districts inside one metropolitan area.",
+      "d": "Rimland Theory focuses on Eurasian coastal geopolitics, not retail market areas.",
+      "default": "Central Place Theory explains the hexagonal spacing and service hierarchy of towns and cities."
+    }
+  },
+  {
+    "id": "geo-ded-226",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 30.901, "lng": 75.8573, "label": "Punjab, India" },
+    "prompt": "Identify this agricultural transformation from the three clues.",
+    "clues": [
+      "Beginning in the 1940s-1960s, it introduced high-yielding dwarf wheat and rice varieties.",
+      "Paired with synthetic fertilizers and irrigation, it sharply raised grain harvests in Asia.",
+      "Norman Borlaug won a Nobel Peace Prize for leading this effort to avert widespread famine."
+    ],
+    "options": [
+      { "id": "a", "text": "The Columbian Exchange" },
+      { "id": "b", "text": "The Green Revolution" },
+      { "id": "c", "text": "The Enclosure Movement" },
+      { "id": "d", "text": "Slash-and-burn shifting cultivation" }
+    ],
+    "answer": "b",
+    "explanation": "The Green Revolution boosted staple crop yields across Mexico, India, and Southeast Asia through selective breeding and inputs.",
+    "source_url": "https://www.britannica.com/event/green-revolution",
+    "trap_notes": {
+      "a": "The Columbian Exchange transferred crops between the Americas and Afro-Eurasia after 1492.",
+      "c": "The Enclosure Movement consolidated British farmland in the 1700s-1800s.",
+      "d": "Shifting cultivation is a traditional low-input forest rotation system.",
+      "default": "The Green Revolution introduced high-yield seeds, irrigation, and fertilizers to boost harvests."
+    }
+  },
+  {
+    "id": "geo-ded-227",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 12.5833, "lng": 43.3333, "label": "Bab el-Mandeb Strait" },
+    "prompt": "Identify this maritime strait from the three clues.",
+    "clues": [
+      "This narrow sea passage separates the Horn of Africa from the southwestern Arabian Peninsula.",
+      "Bordered by Yemen on one side and Djibouti and Eritrea on the other, it is 30 km wide.",
+      "It connects the southern Red Sea to the Gulf of Aden along the Suez shipping corridor."
+    ],
+    "options": [
+      { "id": "a", "text": "The Strait of Hormuz" },
+      { "id": "b", "text": "The Strait of Gibraltar" },
+      { "id": "c", "text": "The Bab el-Mandeb Strait" },
+      { "id": "d", "text": "The Strait of Messina" }
+    ],
+    "answer": "c",
+    "explanation": "The Bab el-Mandeb guards the southern gate of the Red Sea between Yemen and Djibouti.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "a": "The Strait of Hormuz connects the Persian Gulf and the Gulf of Oman.",
+      "b": "The Strait of Gibraltar separates Spain and Morocco at the Atlantic entrance.",
+      "d": "The Strait of Messina separates mainland Italy from Sicily.",
+      "default": "The Bab el-Mandeb links the Red Sea and the Gulf of Aden."
+    }
+  },
+  {
+    "id": "geo-ded-228",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Ocean Currents",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 32.0, "lng": 135.0, "label": "Kuroshio Current, Western Pacific" },
+    "prompt": "Identify this ocean current from the three clues.",
+    "clues": [
+      "This fast, warm western-boundary current flows northward in the Pacific Ocean.",
+      "Acting like the Pacific counterpart to the Gulf Stream, it moderates coastal winters.",
+      "Passing east of Taiwan and southern Japan, it feeds into the North Pacific Drift."
+    ],
+    "options": [
+      { "id": "a", "text": "The California Current" },
+      { "id": "b", "text": "The Canary Current" },
+      { "id": "c", "text": "The Oyashio Current" },
+      { "id": "d", "text": "The Kuroshio Current" }
+    ],
+    "answer": "d",
+    "explanation": "The warm Kuroshio Current flows northward past Taiwan and Japan, carrying tropical heat into the North Pacific.",
+    "source_url": "https://www.britannica.com/place/Kuroshio",
+    "trap_notes": {
+      "a": "The California Current is a cold southward current along western North America.",
+      "b": "The Canary Current is a cold southward current off northwestern Africa.",
+      "c": "The Oyashio Current is a cold subarctic current flowing south toward northern Japan.",
+      "default": "The Kuroshio is the warm western-boundary current off Japan."
+    }
+  },
+  {
+    "id": "geo-ded-229",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 50.9375, "lng": 6.9603, "label": "Rhine River, Europe" },
+    "prompt": "Identify this European river from the three clues.",
+    "clues": [
+      "Rising in the Swiss Alps, this river flows northward through western Europe.",
+      "It forms borders and passes major industrial hubs including Basel, Cologne, and Duisburg.",
+      "Emptying through Rotterdam into the North Sea, it is Europe's busiest freight waterway."
+    ],
+    "options": [
+      { "id": "a", "text": "The Rhine River" },
+      { "id": "b", "text": "The Volga River" },
+      { "id": "c", "text": "The Seine River" },
+      { "id": "d", "text": "The Po River" }
+    ],
+    "answer": "a",
+    "explanation": "The Rhine links Alpine Switzerland and industrial Germany to Rotterdam's giant North Sea port.",
+    "source_url": "https://www.britannica.com/place/Rhine-River",
+    "trap_notes": {
+      "b": "The Volga River flows southward across Russia into the landlocked Caspian Sea.",
+      "c": "The Seine River flows through Paris into the English Channel.",
+      "d": "The Po River flows eastward across northern Italy into the Adriatic Sea.",
+      "default": "The Rhine flows north from the Alps to Rotterdam on the North Sea."
+    }
+  },
+  {
+    "id": "geo-ded-230",
+    "type": "deduction",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "spatial_reasoning",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 60.0, "lng": 60.0, "label": "Ural Mountains, Russia" },
+    "prompt": "Identify this mountain range from the three clues.",
+    "clues": [
+      "This ancient, eroded north-south range stretches roughly 2,500 kilometers across Eurasia.",
+      "Rich in iron, copper, and coal, it anchored major heavy-industry centers.",
+      "Geographers traditionally use its crest as the physiographic boundary between Europe and Asia."
+    ],
+    "options": [
+      { "id": "a", "text": "The Carpathian Mountains" },
+      { "id": "b", "text": "The Ural Mountains" },
+      { "id": "c", "text": "The Pyrenees" },
+      { "id": "d", "text": "The Altai Mountains" }
+    ],
+    "answer": "b",
+    "explanation": "Running north-south through Russia, the Ural Mountains mark the conventional dividing line between Europe and Asia.",
+    "source_url": "https://www.britannica.com/place/Ural-Mountains",
+    "trap_notes": {
+      "a": "The Carpathians curve across Central and Eastern Europe, well west of the Asian border.",
+      "c": "The Pyrenees form the natural border between France and Spain.",
+      "d": "The Altai Mountains lie far to the east where Russia, Kazakhstan, China, and Mongolia meet.",
+      "default": "The Ural Mountains run north-south between European Russia and Siberia."
+    }
+  },
+  {
+    "id": "geo-dat-201",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 0.3476, "lng": 32.5825, "label": "Demographic Transition Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Vital Rates per 1,000 People",
+      "headers": ["Country", "Birth Rate", "Death Rate"],
+      "rows": [
+        ["Country A", "38", "9"],
+        ["Country B", "11", "12"],
+        ["Country C", "14", "9"]
+      ]
+    },
+    "prompt": "Which country in the table best represents Stage 2 of the Demographic Transition Model?",
+    "options": [
+      { "id": "a", "text": "Country A, because high births and low deaths yield rapid growth" },
+      { "id": "b", "text": "Country B, because deaths exceed births in an aging society" },
+      { "id": "c", "text": "Country C, because low birth and death rates keep growth slow" },
+      { "id": "d", "text": "Country B and Country C equally, because both have low birth rates" }
+    ],
+    "answer": "a",
+    "explanation": "Country A has a 29-per-1,000 natural increase from high births and falling deaths, classic Stage 2 expansion.",
+    "source_url": "https://www.britannica.com/topic/demographic-transition",
+    "trap_notes": {
+      "b": "Deaths exceeding births (12 vs. 11) places Country B in Stage 5.",
+      "c": "Low, nearly balanced birth and death rates place Country C in Stage 4.",
+      "d": "Low birth rates characterize Stages 4 and 5, not Stage 2.",
+      "default": "Stage 2 combines high birth rates with low death rates, producing rapid population growth."
+    }
+  },
+  {
+    "id": "geo-dat-202",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.0444, "lng": 31.2357, "label": "Arable Land Pressure" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Population and Land Area",
+      "headers": ["Country", "Population", "Arable Land (sq km)"],
+      "rows": [
+        ["Region X", "20,000,000", "200,000"],
+        ["Region Y", "20,000,000", "20,000"],
+        ["Region Z", "10,000,000", "100,000"]
+      ]
+    },
+    "prompt": "Which region faces the highest physiological population density?",
+    "options": [
+      { "id": "a", "text": "Region X, with 100 people per square kilometer of farmland" },
+      { "id": "b", "text": "Region Y, with 1,000 people per square kilometer of farmland" },
+      { "id": "c", "text": "Region Z, with 100 people per square kilometer of farmland" },
+      { "id": "d", "text": "Region X and Region Y equally, since both have 20 million people" }
+    ],
+    "answer": "b",
+    "explanation": "Physiological density divides population by arable land: 20,000,000 / 20,000 = 1,000 people per sq km in Region Y.",
+    "source_url": "https://www.britannica.com/science/population-density",
+    "trap_notes": {
+      "a": "Region X has ten times as much farmland as Region Y for the same population.",
+      "c": "Region Z has 100 people per sq km of farmland, one-tenth of Region Y's density.",
+      "d": "Equal total populations create different food pressures when arable land differs.",
+      "default": "Divide total population by arable land area to find physiological density."
+    }
+  },
+  {
+    "id": "geo-dat-203",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Demographic Transition",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Age Structure Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Share of Population by Age",
+      "headers": ["Country", "Under 15 (%)", "65 and Older (%)"],
+      "rows": [
+        ["Nation 1", "44", "3"],
+        ["Nation 2", "18", "16"],
+        ["Nation 3", "12", "29"]
+      ]
+    },
+    "prompt": "Based on the table, which policy challenge is most urgent for Nation 3?",
+    "options": [
+      { "id": "a", "text": "Building enough elementary schools for a booming youth cohort" },
+      { "id": "b", "text": "Creating entry-level jobs for a massive wave of teenagers" },
+      { "id": "c", "text": "Funding pensions and healthcare for a large elderly population" },
+      { "id": "d", "text": "Slowing rapid natural population growth from high birth rates" }
+    ],
+    "answer": "c",
+    "explanation": "In Nation 3, 29% of residents are 65 or older while only 12% are under 15, straining eldercare and pension systems.",
+    "source_url": "https://www.un.org/en/global-issues/ageing",
+    "trap_notes": {
+      "a": "Elementary school expansion is urgent for Nation 1 (44% under 15), not Nation 3.",
+      "b": "A large youth wave characterizes Nation 1 rather than Nation 3.",
+      "d": "Only 12% under 15 indicates very low birth rates, not rapid growth.",
+      "default": "A high 65+ share paired with a small youth share signals eldercare and workforce-aging pressures."
+    }
+  },
+  {
+    "id": "geo-dat-204",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 13.7563, "lng": 100.5018, "label": "Urban Hierarchy" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Largest Cities in Three Nations",
+      "headers": ["Country", "1st City Pop.", "2nd City Pop."],
+      "rows": [
+        ["Alpha", "10.0 million", "1.2 million"],
+        ["Beta", "4.5 million", "3.8 million"],
+        ["Gamma", "6.0 million", "4.2 million"]
+      ]
+    },
+    "prompt": "Which country in the table displays the clearest example of a primate city?",
+    "options": [
+      { "id": "a", "text": "Beta, because its top two cities are nearly equal in size" },
+      { "id": "b", "text": "Gamma, because its second city holds over four million people" },
+      { "id": "c", "text": "Beta and Gamma equally, because neither reaches ten million" },
+      { "id": "d", "text": "Alpha, because its largest city is more than eight times the second" }
+    ],
+    "answer": "d",
+    "explanation": "A primate city is more than twice the size of the next-largest city and dominates national life, as in Alpha (10M vs. 1.2M).",
+    "source_url": "https://www.britannica.com/topic/primate-city",
+    "trap_notes": {
+      "a": "Nearly equal top cities show a balanced urban hierarchy, not a primate city.",
+      "b": "Gamma's largest city is less than 1.5 times its second city.",
+      "c": "Primate city status depends on relative dominance over the second city, not a 10M cutoff.",
+      "default": "A primate city vastly outscales the second-largest city in the country."
+    }
+  },
+  {
+    "id": "geo-dat-205",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.0, "lng": 80.0, "label": "Continentality Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "50°N Latitude Climate Stations",
+      "headers": ["Station", "Jan Mean (°C)", "July Mean (°C)"],
+      "rows": [
+        ["City P", "4", "17"],
+        ["City Q", "-19", "21"],
+        ["City R", "2", "19"]
+      ]
+    },
+    "prompt": "Which station is most likely located deep inside a continental interior?",
+    "options": [
+      { "id": "a", "text": "City Q, because it shows a 40°C swing between winter and summer" },
+      { "id": "b", "text": "City P, because its winter mean stays above freezing" },
+      { "id": "c", "text": "City R, because its July temperature is cooler than City Q" },
+      { "id": "d", "text": "City P and City R equally, because both sit at 50°N latitude" }
+    ],
+    "answer": "a",
+    "explanation": "Far from moderating oceans, continental interiors experience severe seasonal temperature swings—40°C in City Q.",
+    "source_url": "https://www.britannica.com/science/continentality",
+    "trap_notes": {
+      "b": "Mild, above-freezing winters at 50°N indicate a coastal marine climate, not an interior.",
+      "c": "City R's 17°C seasonal range is moderated by nearby water compared with City Q.",
+      "d": "Cities at the same latitude have very different ranges depending on ocean proximity.",
+      "default": "Wide annual temperature ranges signal continentality far from ocean moderation."
+    }
+  },
+  {
+    "id": "geo-dat-206",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": -3.4653, "lng": -62.2159, "label": "Biome Precipitation & Soil" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Selected Terrestrial Biomes",
+      "headers": ["Biome", "Annual Rain (cm)", "Topsoil Nutrients"],
+      "rows": [
+        ["Biome 1", "260", "Low (heavily leached)"],
+        ["Biome 2", "65", "High (deep humus)"],
+        ["Biome 3", "18", "Low (mineral sand)"]
+      ]
+    },
+    "prompt": "Which row in the table represents a tropical rainforest biome?",
+    "options": [
+      { "id": "a", "text": "Biome 2, because deep humus supports tall rain-fed grass" },
+      { "id": "b", "text": "Biome 1, because heavy rainfall leaches nutrients from the topsoil" },
+      { "id": "c", "text": "Biome 3, because sandy soil drains water away quickly" },
+      { "id": "d", "text": "Biome 2 and Biome 3, because neither suffers heavy leaching" }
+    ],
+    "answer": "b",
+    "explanation": "Tropical rainforests receive over 200 cm of rain yearly, which washes soluble nutrients out of the soil while plants store them.",
+    "source_url": "https://education.nationalgeographic.org/resource/rain-forest/",
+    "trap_notes": {
+      "a": "Moderate rain and deep humus describe temperate grasslands, not rainforests.",
+      "c": "18 cm of annual rain and mineral sand describe a desert biome.",
+      "d": "Tropical rainforests are defined by high rainfall and nutrient-poor leached soils.",
+      "default": "Heavy year-round rain in tropical rainforests leaches minerals from the topsoil."
+    }
+  },
+  {
+    "id": "geo-dat-207",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Climate & Biomes",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.4, "lng": -121.4, "label": "Cascade Range Rain Shadow" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Mountain Transect Precipitation",
+      "headers": ["Site", "Slope Position", "Annual Rain (cm)"],
+      "rows": [
+        ["Site A", "West base", "145"],
+        ["Site B", "West upper slope", "230"],
+        ["Site C", "East base", "24"]
+      ]
+    },
+    "prompt": "Assuming prevailing winds blow from west to east, what explains the sharp drop at Site C?",
+    "options": [
+      { "id": "a", "text": "Moist air rises and drops rain on the west slope, leaving dry descending air on the east" },
+      { "id": "b", "text": "East-slope forests absorb all rainfall before it can reach weather gauges" },
+      { "id": "c", "text": "Warm ocean currents cool down as they cross the mountain peak" },
+      { "id": "d", "text": "High elevation at Site C freezes rain clouds before they enter the valley" }
+    ],
+    "answer": "a",
+    "explanation": "Orographic uplift cools moist air on the windward west slope, creating a dry rain shadow as air descends the leeward east slope.",
+    "source_url": "https://education.nationalgeographic.org/resource/rain-shadow/",
+    "trap_notes": {
+      "b": "Sparse vegetation on the east base is a result of low rainfall, not its cause.",
+      "c": "Ocean currents do not cross mountain ranges; atmospheric air masses do.",
+      "d": "Site C is at the eastern base, where sinking air warms and dries.",
+      "default": "Orographic uplift drops moisture on the windward side and creates a rain shadow on the leeward side."
+    }
+  },
+  {
+    "id": "geo-dat-208",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Ocean Currents",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 60.3913, "lng": 5.3221, "label": "North Atlantic vs Labrador" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Coastal Ports at ~58°N",
+      "headers": ["Port", "Adjacent Current", "Jan Mean (°C)"],
+      "rows": [
+        ["Port M", "Warm poleward", "2"],
+        ["Port N", "Cold equatorward", "-16"],
+        ["Port O", "Weak coastal", "-7"]
+      ]
+    },
+    "prompt": "What conclusion is best supported by the coastal port data at 58°N?",
+    "options": [
+      { "id": "a", "text": "Latitude alone determines winter temperatures at every coastal port" },
+      { "id": "b", "text": "Cold equatorward currents keep winter ports warmer than warm currents" },
+      { "id": "c", "text": "Warm poleward ocean currents substantially raise winter coastal temperatures" },
+      { "id": "d", "text": "Ports near weak currents always stay ice-free throughout January" }
+    ],
+    "answer": "c",
+    "explanation": "At the same 58°N latitude, Port M on a warm current averages 2°C in January—18°C warmer than Port N on a cold current.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents1.html",
+    "trap_notes": {
+      "a": "All three ports share ~58°N latitude yet differ by up to 18°C.",
+      "b": "Port N on the cold current is much colder (-16°C) than Port M (2°C).",
+      "d": "Port O averages -7°C in January, well below freezing.",
+      "default": "Warm poleward currents like the North Atlantic Drift moderate high-latitude coastal winters."
+    }
+  },
+  {
+    "id": "geo-dat-209",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Plate Tectonics",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.0, "lng": 140.0, "label": "Plate Boundary Classification" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Tectonic Zone Observations",
+      "headers": ["Zone", "Plate Motion", "Volcanic Activity"],
+      "rows": [
+        ["Zone 1", "Pulling apart", "Basalt seafloor eruptions"],
+        ["Zone 2", "Ocean sinking under land", "Explosive coastal arc"],
+        ["Zone 3", "Sliding sideways", "Virtually none"]
+      ]
+    },
+    "prompt": "Which real-world location matches Zone 2 in the table?",
+    "options": [
+      { "id": "a", "text": "The Mid-Atlantic Ridge in Iceland" },
+      { "id": "b", "text": "The San Andreas Fault in California" },
+      { "id": "c", "text": "The East African Rift in Kenya" },
+      { "id": "d", "text": "The Andes volcanic belt in Chile" }
+    ],
+    "answer": "d",
+    "explanation": "Zone 2 describes ocean-continent subduction and explosive arc volcanoes, matching the Nazca Plate sinking under Chile.",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards/plate-tectonics",
+    "trap_notes": {
+      "a": "The Mid-Atlantic Ridge is a divergent Zone 1 boundary.",
+      "b": "The San Andreas Fault is a transform Zone 3 boundary with little volcanism.",
+      "c": "The East African Rift is a divergent Zone 1 boundary.",
+      "default": "Ocean-continent subduction produces explosive coastal volcanic arcs like the Andes."
+    }
+  },
+  {
+    "id": "geo-dat-210",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 29.0, "lng": -89.2, "label": "River Delta Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "River Mouth Sediment Balance",
+      "headers": ["River", "Silt Supply", "Coastal Wave Energy"],
+      "rows": [
+        ["River J", "Very high", "Low"],
+        ["River K", "Low", "Very high"],
+        ["River L", "Moderate", "Moderate"]
+      ]
+    },
+    "prompt": "Which river is most likely to build a broad, branching bird's-foot delta into the sea?",
+    "options": [
+      { "id": "a", "text": "River J, because abundant silt builds land faster than weak waves erode it" },
+      { "id": "b", "text": "River K, because strong waves pile sand inward toward the river channel" },
+      { "id": "c", "text": "River K, because low silt keeps the river mouth deep and wide" },
+      { "id": "d", "text": "River L, because moderate waves freeze sediment into coastal cliffs" }
+    ],
+    "answer": "a",
+    "explanation": "Deltas grow outward when river sediment supply outpaces coastal wave and tidal erosion, as in River J.",
+    "source_url": "https://education.nationalgeographic.org/resource/delta/",
+    "trap_notes": {
+      "b": "Strong wave energy with low silt erodes sediment into an estuary rather than a delta.",
+      "c": "A deep, wide mouth with low silt describes an estuary, not a branching delta.",
+      "d": "Waves rework sediment along beaches rather than freezing it into cliffs.",
+      "default": "Large deltas form where heavy river sediment outpaces coastal wave erosion."
+    }
+  },
+  {
+    "id": "geo-dat-211",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 46.5, "lng": 7.9, "label": "Alpine Erosion Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Mountain Valley Features",
+      "headers": ["Valley", "Cross-Section", "Debris Sorting"],
+      "rows": [
+        ["Valley 1", "Narrow V-shape", "Sorted by grain size"],
+        ["Valley 2", "Broad U-shape", "Unsorted boulders to clay"],
+        ["Valley 3", "Steep slot canyon", "Rounded river cobbles"]
+      ]
+    },
+    "prompt": "Which valley in the table was shaped primarily by alpine glaciers?",
+    "options": [
+      { "id": "a", "text": "Valley 1, because flowing water sorts gravel and sand" },
+      { "id": "b", "text": "Valley 2, because moving ice carves U-troughs and drops unsorted till" },
+      { "id": "c", "text": "Valley 3, because rounded cobbles form under thick ice sheets" },
+      { "id": "d", "text": "Valley 1 and Valley 3, because steep walls only form under ice" }
+    ],
+    "answer": "b",
+    "explanation": "Glaciers widen valleys into U-shapes and deposit unsorted rock debris (till) ranging from clay to huge boulders.",
+    "source_url": "https://www.nps.gov/articles/glaciated-valleys.htm",
+    "trap_notes": {
+      "a": "V-shaped valleys and size-sorted sediment are hallmarks of river erosion.",
+      "c": "Slot canyons and rounded cobbles are carved by fast-flowing rivers.",
+      "d": "Narrow V-valleys and slot canyons are cut by running water, not ice.",
+      "default": "Glaciers carve broad U-shaped valleys and leave behind unsorted till."
+    }
+  },
+  {
+    "id": "geo-dat-212",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Watersheds & Rivers",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 37.9716, "lng": -100.8727, "label": "Aquifer Water Budget" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Groundwater Budget",
+      "headers": ["Basin", "Pumping (km3/yr)", "Recharge (km3/yr)"],
+      "rows": [
+        ["Basin A", "18.0", "2.5"],
+        ["Basin B", "4.0", "4.5"],
+        ["Basin C", "6.0", "6.0"]
+      ]
+    },
+    "prompt": "What long-term outcome is most likely in Basin A if current rates continue?",
+    "options": [
+      { "id": "a", "text": "The water table will rise and create new surface wetlands" },
+      { "id": "b", "text": "Pumping and rainfall will stay in permanent balance" },
+      { "id": "c", "text": "The water table will drop, forcing deeper wells and land subsidence" },
+      { "id": "d", "text": "River flooding will increase because the aquifer is overfilled" }
+    ],
+    "answer": "c",
+    "explanation": "Basin A pumps 18.0 km3/yr while recharging only 2.5 km3/yr, steadily lowering the water table and compacting soil.",
+    "source_url": "https://www.usgs.gov/mission-areas/water-resources/science/high-plains-aquifer-groundwater-levels",
+    "trap_notes": {
+      "a": "A 15.5 km3 annual deficit drains groundwater rather than creating wetlands.",
+      "b": "Basin C is in balance (6.0 vs. 6.0), not Basin A.",
+      "d": "Over-pumping depletes the aquifer rather than overfilling it.",
+      "default": "When pumping exceeds recharge, water tables fall and land can subside."
+    }
+  },
+  {
+    "id": "geo-dat-213",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 54.0924, "lng": 12.0991, "label": "Von Thunen Land Rent" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Farm Distance and Land Rent",
+      "headers": ["Ring", "Distance (km)", "Land Rent ($/acre)"],
+      "rows": [
+        ["Inner", "5", "400"],
+        ["Middle", "25", "160"],
+        ["Outer", "70", "35"]
+      ]
+    },
+    "prompt": "According to Von Thunen's model, which farm activity fits the Inner ring best?",
+    "options": [
+      { "id": "a", "text": "Extensive cattle grazing requiring large pastures" },
+      { "id": "b", "text": "Wheat farming that ships dry grain once a year" },
+      { "id": "c", "text": "Sheep ranching for wool exports" },
+      { "id": "d", "text": "Intensive dairy and fresh vegetable production" }
+    ],
+    "answer": "d",
+    "explanation": "High inner-ring rent ($400/acre) is offset by saving transport costs on heavy, perishable milk and fresh vegetables.",
+    "source_url": "https://www.britannica.com/biography/Johann-Heinrich-von-Thunen",
+    "trap_notes": {
+      "a": "Extensive cattle grazing needs cheap outer-ring land ($35/acre).",
+      "b": "Dry wheat stores well and occupies outer rings with lower rent.",
+      "c": "Wool ranching is extensive and fits the outer ring.",
+      "default": "Perishable, high-value goods like dairy and produce pay high inner-ring land rent to stay close to market."
+    }
+  },
+  {
+    "id": "geo-dat-214",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Agricultural Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.0, "lng": 113.0, "label": "Agricultural Intensity" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Farming Systems per Hectare",
+      "headers": ["System", "Labor Input", "Yield per Hectare"],
+      "rows": [
+        ["Type X", "Very high", "Very high"],
+        ["Type Y", "Low (mechanized)", "High"],
+        ["Type Z", "Very low", "Low"]
+      ]
+    },
+    "prompt": "Which real-world agricultural practice best matches Type X in the table?",
+    "options": [
+      { "id": "a", "text": "Wet-rice cultivation on terraced hillsides in East Asia" },
+      { "id": "b", "text": "Nomadic camel herding across arid Saharan dunes" },
+      { "id": "c", "text": "Large-scale wheat harvesting with GPS combines in Kansas" },
+      { "id": "d", "text": "Free-range beef ranching across Australian outback stations" }
+    ],
+    "answer": "a",
+    "explanation": "Wet-rice agriculture is intensive farming: it uses heavy manual labor on small plots to produce very high yields per hectare.",
+    "source_url": "https://www.britannica.com/topic/intensive-agriculture",
+    "trap_notes": {
+      "b": "Nomadic herding is extensive pastoralism with low yield per hectare (Type Z).",
+      "c": "Mechanized Kansas wheat uses low labor input per hectare (Type Y).",
+      "d": "Outback ranching is extensive land use with low labor and low yield per hectare (Type Z).",
+      "default": "Intensive subsistence farming like wet-rice cultivation pairs high labor with high per-hectare yields."
+    }
+  },
+  {
+    "id": "geo-dat-215",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 25.2048, "lng": 55.2708, "label": "Migration Flows" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Economic & Migration Indicators",
+      "headers": ["Country", "Unemployment (%)", "Net Migration / 1,000"],
+      "rows": [
+        ["State 1", "18.5", "-7.2"],
+        ["State 2", "3.4", "+8.9"],
+        ["State 3", "6.1", "+0.4"]
+      ]
+    },
+    "prompt": "What migration pattern does the table illustrate between State 1 and State 2?",
+    "options": [
+      { "id": "a", "text": "High unemployment acts as a pull factor drawing workers into State 1" },
+      { "id": "b", "text": "High unemployment acts as a push factor in State 1, while low unemployment pulls migrants to State 2" },
+      { "id": "c", "text": "State 2 is losing population rapidly because jobs are scarce" },
+      { "id": "d", "text": "State 3 has the highest net immigration rate in the table" }
+    ],
+    "answer": "b",
+    "explanation": "State 1 has 18.5% unemployment and net out-migration (-7.2), while State 2 has 3.4% unemployment and net in-migration (+8.9).",
+    "source_url": "https://www.britannica.com/topic/human-migration",
+    "trap_notes": {
+      "a": "Job scarcity pushes people out of State 1 rather than pulling them in.",
+      "c": "State 2 has a positive net migration rate (+8.9), meaning it is gaining migrants.",
+      "d": "State 2 (+8.9) far exceeds State 3 (+0.4) in net migration.",
+      "default": "High unemployment acts as a push factor; strong job markets act as pull factors."
+    }
+  },
+  {
+    "id": "geo-dat-216",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 13.6929, "lng": -89.2182, "label": "Remittance Dependence" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Migrant Remittances Received",
+      "headers": ["Country", "Inflow ($B)", "Share of GDP (%)"],
+      "rows": [
+        ["Nation A", "120", "3.2"],
+        ["Nation B", "8", "24.0"],
+        ["Nation C", "45", "1.1"]
+      ]
+    },
+    "prompt": "Which country's overall economy is most vulnerable to a sudden drop in migrant remittances?",
+    "options": [
+      { "id": "a", "text": "Nation A, because it receives the highest dollar total" },
+      { "id": "b", "text": "Nation C, because its inflows are larger than Nation B's" },
+      { "id": "c", "text": "Nation B, because remittances account for nearly a quarter of its GDP" },
+      { "id": "d", "text": "Nation A and Nation C equally, because both exceed $40 billion" }
+    ],
+    "answer": "c",
+    "explanation": "Although Nation B receives $8B in dollars, that represents 24% of its entire GDP—far more critical than 3.2% or 1.1%.",
+    "source_url": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues/brief/migration-remittances-data",
+    "trap_notes": {
+      "a": "In Nation A's huge economy, $120B is only 3.2% of GDP.",
+      "b": "Nation C's $45B is just 1.1% of its total economic output.",
+      "d": "Dollar totals alone hide how much a smaller economy relies on remittances.",
+      "default": "Remittance dependence is measured as a percentage of GDP, not raw dollar volume alone."
+    }
+  },
+  {
+    "id": "geo-dat-217",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 6.5244, "lng": 3.3792, "label": "Rapid Megacity Growth" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Urban Growth and Housing",
+      "headers": ["City", "Annual Growth (%)", "Informal Housing (%)"],
+      "rows": [
+        ["Metro 1", "4.8", "52"],
+        ["Metro 2", "0.5", "3"],
+        ["Metro 3", "1.1", "8"]
+      ]
+    },
+    "prompt": "What urban planning link is most strongly suggested by the table?",
+    "options": [
+      { "id": "a", "text": "Slower urban growth causes higher rates of informal squatter settlements" },
+      { "id": "b", "text": "Rapid population growth can outpace formal housing, expanding informal settlements" },
+      { "id": "c", "text": "Cities growing under 1% per year have the worst housing shortages" },
+      { "id": "d", "text": "Informal housing disappears whenever cities exceed 4% annual growth" }
+    ],
+    "answer": "b",
+    "explanation": "Metro 1's rapid 4.8% annual growth coincides with 52% informal housing, showing construction lagging behind arrivals.",
+    "source_url": "https://unhabitat.org/topic/housing",
+    "trap_notes": {
+      "a": "Metro 2 has the slowest growth (0.5%) and the lowest informal housing (3%).",
+      "c": "Metro 2 and Metro 3 have low informal housing shares compared with Metro 1.",
+      "d": "The data shows the opposite: 4.8% growth pairs with 52% informal housing.",
+      "default": "Rapid urban growth often outstrips formal housing and utility infrastructure."
+    }
+  },
+  {
+    "id": "geo-dat-218",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Migration & Urbanization",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 48.1351, "lng": 11.582, "label": "Central Place Hierarchy" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Central Place Service Metrics",
+      "headers": ["Service", "Threshold (Pop.)", "Range (km)"],
+      "rows": [
+        ["Bakery", "1,500", "3"],
+        ["High School", "15,000", "18"],
+        ["Heart Hospital", "250,000", "120"]
+      ]
+    },
+    "prompt": "Why are bakeries found in small towns while heart hospitals cluster in major cities?",
+    "options": [
+      { "id": "a", "text": "Bakeries need a larger customer threshold than heart hospitals" },
+      { "id": "b", "text": "People will travel 120 km daily for bread but only 3 km for surgery" },
+      { "id": "c", "text": "Heart hospitals need a large threshold population and draw patients from a wide range" },
+      { "id": "d", "text": "High schools have a wider market range than specialized hospitals" }
+    ],
+    "answer": "c",
+    "explanation": "Specialized services require 250,000 people to stay viable (threshold), and patients travel up to 120 km (range) to reach them.",
+    "source_url": "https://www.britannica.com/topic/central-place-theory",
+    "trap_notes": {
+      "a": "The table shows bakeries need only 1,500 people, far fewer than 250,000.",
+      "b": "The table reverses that: bakery range is 3 km, while heart hospital range is 120 km.",
+      "d": "High school range (18 km) is much smaller than heart hospital range (120 km).",
+      "default": "High-order services have large thresholds and ranges, so they locate in larger cities."
+    }
+  },
+  {
+    "id": "geo-dat-219",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.0, "lng": 105.0, "label": "World Language Families" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Major Language Families",
+      "headers": ["Family", "Sample Language", "Primary Region"],
+      "rows": [
+        ["Indo-European", "Spanish", "Europe & Americas"],
+        ["Sino-Tibetan", "Mandarin", "East Asia"],
+        ["Afro-Asiatic", "Arabic", "SW Asia & N. Africa"]
+      ]
+    },
+    "prompt": "Why does Spanish appear across the Americas despite originating in Europe?",
+    "options": [
+      { "id": "a", "text": "Relocation diffusion through Spanish colonization spread the language overseas" },
+      { "id": "b", "text": "Spanish evolved independently from Mandarin along Pacific trade routes" },
+      { "id": "c", "text": "United Nations treaties assigned Spanish to South America in 1950" },
+      { "id": "d", "text": "Isogloss boundaries shifted naturally across the Atlantic Ocean" }
+    ],
+    "answer": "a",
+    "explanation": "Spanish settlers, administrators, and missionaries carried the language to the Americas via relocation diffusion after 1492.",
+    "source_url": "https://www.britannica.com/topic/Indo-European-languages",
+    "trap_notes": {
+      "b": "Spanish is Indo-European, unrelated to Sino-Tibetan Mandarin.",
+      "c": "Spanish took root in the Americas during 16th-century colonization, not 1950.",
+      "d": "Isoglosses map dialect lines on land; overseas spread came from colonial migration.",
+      "default": "Colonization and migration spread Indo-European languages far beyond Europe via relocation diffusion."
+    }
+  },
+  {
+    "id": "geo-dat-220",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 24.7136, "lng": 46.6753, "label": "World Religion Hearths" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Selected World Religions",
+      "headers": ["Religion", "Category", "Hearth Region"],
+      "rows": [
+        ["Buddhism", "Universalizing", "South Asia"],
+        ["Islam", "Universalizing", "Southwest Asia"],
+        ["Judaism", "Ethnic", "Southwest Asia"]
+      ]
+    },
+    "prompt": "Based on the table, how do Buddhism and Islam differ geographically from Judaism?",
+    "options": [
+      { "id": "a", "text": "Buddhism and Islam stayed confined to their original river valleys" },
+      { "id": "b", "text": "Buddhism and Islam spread widely across cultures as universalizing faiths" },
+      { "id": "c", "text": "Judaism originated in East Asia rather than Southwest Asia" },
+      { "id": "d", "text": "Ethnic religions actively convert larger populations than universalizing faiths" }
+    ],
+    "answer": "b",
+    "explanation": "Universalizing faiths seek converts across ethnic lines, spreading Buddhism across Asia and Islam across Afro-Eurasia.",
+    "source_url": "https://www.britannica.com/topic/universal-religion",
+    "trap_notes": {
+      "a": "Both Buddhism and Islam diffused far beyond their original hearths.",
+      "c": "The table lists Southwest Asia as Judaism's hearth.",
+      "d": "Universalizing religions typically have much larger global followings than ethnic religions.",
+      "default": "Universalizing religions diffuse broadly beyond one people or homeland."
+    }
+  },
+  {
+    "id": "geo-dat-221",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 0.0, "lng": 0.0, "label": "Projection Tradeoffs" },
+    "stimulus": {
+      "kind": "table",
+      "title": "World Map Projection Traits",
+      "headers": ["Projection", "Preserves", "Major Distortion"],
+      "rows": [
+        ["Mercator", "Local angles", "Polar area"],
+        ["Gall-Peters", "Land area", "Continent shape"],
+        ["Robinson", "Balanced view", "Mild across both"]
+      ]
+    },
+    "prompt": "Which projection should a teacher choose to compare the true land size of Africa and Greenland?",
+    "options": [
+      { "id": "a", "text": "Mercator, because it keeps Greenland and Africa equal in shape" },
+      { "id": "b", "text": "Gall-Peters, because it preserves true relative land area" },
+      { "id": "c", "text": "Mercator, because it removes all polar area distortion" },
+      { "id": "d", "text": "Robinson, because it eliminates shape distortion everywhere" }
+    ],
+    "answer": "b",
+    "explanation": "Gall-Peters is an equal-area projection, showing Africa accurately at roughly 14 times the area of Greenland.",
+    "source_url": "https://www.usgs.gov/faqs/what-are-some-common-map-projections",
+    "trap_notes": {
+      "a": "Mercator severely inflates Greenland's area relative to Africa.",
+      "c": "The table notes Mercator's major distortion is polar area.",
+      "d": "Robinson compromises both area and shape rather than eliminating distortion.",
+      "default": "Use an equal-area projection like Gall-Peters when comparing true landmass sizes."
+    }
+  },
+  {
+    "id": "geo-dat-222",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Map Scale Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Map Scale and Coverage",
+      "headers": ["Map", "Scale Ratio", "Typical Coverage"],
+      "rows": [
+        ["Map 1", "1:10,000", "Single neighborhood"],
+        ["Map 2", "1:250,000", "Metropolitan region"],
+        ["Map 3", "1:20,000,000", "Entire continent"]
+      ]
+    },
+    "prompt": "Which map in the table is a large-scale map showing the greatest street-level detail?",
+    "options": [
+      { "id": "a", "text": "Map 3, because 20,000,000 is the largest denominator" },
+      { "id": "b", "text": "Map 2, because it covers an entire metropolitan region" },
+      { "id": "c", "text": "Map 1, because 1/10,000 is the largest fraction and shows a small area in detail" },
+      { "id": "d", "text": "Map 2 and Map 3, because both show larger land areas" }
+    ],
+    "answer": "c",
+    "explanation": "Large-scale refers to the ratio 1/10,000 being larger than 1/20,000,000, showing a smaller area with high detail.",
+    "source_url": "https://www.usgs.gov/faqs/what-does-map-scale-mean",
+    "trap_notes": {
+      "a": "A larger denominator makes a smaller fraction, which is a small-scale map.",
+      "b": "Map 2 is medium-scale with less street detail than Map 1.",
+      "d": "Showing a larger land area in less detail is the definition of a small-scale map.",
+      "default": "Large-scale maps have smaller denominators (e.g., 1:10,000) and show small areas in high detail."
+    }
+  },
+  {
+    "id": "geo-dat-223",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Map Projections & GIS",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 34.0522, "lng": -118.2437, "label": "GIS Layer Types" },
+    "stimulus": {
+      "kind": "table",
+      "title": "GIS Project Data Layers",
+      "headers": ["Layer", "Data Format", "Mapped Feature"],
+      "rows": [
+        ["Layer A", "Vector points", "Fire hydrants"],
+        ["Layer B", "Vector lines", "Water mains"],
+        ["Layer C", "Raster grid", "Ground elevation"]
+      ]
+    },
+    "prompt": "Why is Layer C stored as a raster grid instead of vector points or lines?",
+    "options": [
+      { "id": "a", "text": "Elevation varies continuously across every square meter of terrain" },
+      { "id": "b", "text": "Fire hydrants cannot be mapped using latitude and longitude" },
+      { "id": "c", "text": "Vector files are unable to store any numeric height values" },
+      { "id": "d", "text": "Raster grids automatically convert elevation into street addresses" }
+    ],
+    "answer": "a",
+    "explanation": "Continuous surfaces like elevation, temperature, and satellite imagery are best modeled as pixel cells in a raster grid.",
+    "source_url": "https://www.usgs.gov/faqs/what-difference-between-raster-and-vector-data",
+    "trap_notes": {
+      "b": "Fire hydrants are discrete point locations, ideal for vector coordinates.",
+      "c": "Vector attributes can store numbers, but continuous surfaces fit raster cells better.",
+      "d": "Converting street addresses is geocoding, not raster elevation modeling.",
+      "default": "Raster grids model continuous surfaces like elevation; vector models discrete points and lines."
+    }
+  },
+  {
+    "id": "geo-dat-224",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 26.5667, "lng": 56.25, "label": "Global Oil Chokepoints" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Maritime Oil Transit (Million bbl/day)",
+      "headers": ["Chokepoint", "2023 Flow", "Primary Region"],
+      "rows": [
+        ["Hormuz", "20.5", "Persian Gulf"],
+        ["Malacca", "23.7", "Southeast Asia"],
+        ["Suez", "8.8", "Egypt / Red Sea"]
+      ]
+    },
+    "prompt": "What does the table show about global maritime oil chokepoints?",
+    "options": [
+      { "id": "a", "text": "Suez carries more oil per day than Hormuz and Malacca combined" },
+      { "id": "b", "text": "Malacca and Hormuz each carry over 20 million barrels daily" },
+      { "id": "c", "text": "Persian Gulf oil bypasses Hormuz to enter Southeast Asia" },
+      { "id": "d", "text": "Egypt controls the busiest oil chokepoint on Earth" }
+    ],
+    "answer": "b",
+    "explanation": "Both the Strait of Malacca (23.7M bbl/day) and the Strait of Hormuz (20.5M bbl/day) carry massive daily crude flows.",
+    "source_url": "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints",
+    "trap_notes": {
+      "a": "Suez (8.8M) carries less than half of Hormuz (20.5M) or Malacca (23.7M).",
+      "c": "Persian Gulf oil exits through Hormuz before heading to Asia via Malacca.",
+      "d": "Malacca and Hormuz both carry far more oil daily than Egypt's Suez Canal.",
+      "default": "Hormuz and Malacca are the two highest-volume maritime oil chokepoints globally."
+    }
+  },
+  {
+    "id": "geo-dat-225",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.5852, "lng": 32.2654, "label": "Canal Distance Savings" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Sea Route Distances (km)",
+      "headers": ["Route", "Via Cape", "Via Canal"],
+      "rows": [
+        ["London to Mumbai", "19,800", "11,600"],
+        ["New York to San Francisco", "24,000", "9,700"],
+        ["Rotterdam to Singapore", "21,700", "15,300"]
+      ]
+    },
+    "prompt": "Which shipping route sees the largest percentage reduction in distance by using a canal?",
+    "options": [
+      { "id": "a", "text": "London to Mumbai via the Suez Canal" },
+      { "id": "b", "text": "Rotterdam to Singapore via the Suez Canal" },
+      { "id": "c", "text": "New York to San Francisco via the Panama Canal" },
+      { "id": "d", "text": "London to Mumbai and Rotterdam to Singapore equally" }
+    ],
+    "answer": "c",
+    "explanation": "Using the Panama Canal cuts New York-San Francisco from 24,000 km to 9,700 km—a ~60% distance reduction.",
+    "source_url": "https://www.britannica.com/topic/Panama-Canal",
+    "trap_notes": {
+      "a": "London to Mumbai drops by ~41%, smaller than the ~60% Panama Canal savings.",
+      "b": "Rotterdam to Singapore drops by ~29%, the smallest percentage cut in the table.",
+      "d": "London-Mumbai saves 41%, while Rotterdam-Singapore saves 29%.",
+      "default": "The Panama Canal eliminates the long detour around Cape Horn, cutting U.S. coast-to-coast sea distance by ~60%."
+    }
+  },
+  {
+    "id": "geo-dat-226",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "Economic Sector Employment" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Workforce by Economic Sector (%)",
+      "headers": ["Country", "Primary (Farm/Mining)", "Tertiary (Services)"],
+      "rows": [
+        ["Country L", "68", "20"],
+        ["Country M", "18", "52"],
+        ["Country N", "2", "81"]
+      ]
+    },
+    "prompt": "Which country in the table has the most post-industrial, service-based economy?",
+    "options": [
+      { "id": "a", "text": "Country L, because two-thirds of workers extract raw resources" },
+      { "id": "b", "text": "Country M, because over half work in services and 18% farm" },
+      { "id": "c", "text": "Country L and Country M, because both employ large farm workforces" },
+      { "id": "d", "text": "Country N, because 81% work in services and only 2% in primary extraction" }
+    ],
+    "answer": "d",
+    "explanation": "Post-industrial economies feature tiny primary sectors (2%) and dominant tertiary service sectors (81%), as in Country N.",
+    "source_url": "https://www.britannica.com/money/economic-development",
+    "trap_notes": {
+      "a": "68% primary-sector employment indicates an agrarian, low-income economy.",
+      "b": "Country M is industrializing/newly industrialized, with a much larger farm share than Country N.",
+      "c": "Large primary workforces indicate earlier stages of economic development.",
+      "default": "Post-industrial countries concentrate most jobs in tertiary services while mechanizing primary production."
+    }
+  },
+  {
+    "id": "geo-dat-227",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 64.9631, "lng": -19.0208, "label": "Energy Resource Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Selected Energy Sources",
+      "headers": ["Source", "Replenishment", "Operating CO2"],
+      "rows": [
+        ["Geothermal", "Continuous Earth heat", "Very low"],
+        ["Natural Gas", "Millions of years", "Moderate"],
+        ["Coal", "Millions of years", "Very high"]
+      ]
+    },
+    "prompt": "Which pair of traits makes geothermal energy a renewable, low-carbon resource?",
+    "options": [
+      { "id": "a", "text": "Continuous replenishment from Earth's heat and very low operating CO2" },
+      { "id": "b", "text": "Formation over millions of years and moderate carbon emissions" },
+      { "id": "c", "text": "High energy density paired with very high carbon dioxide output" },
+      { "id": "d", "text": "Limited underground pockets that cannot recharge after use" }
+    ],
+    "answer": "a",
+    "explanation": "Geothermal power taps continuous subsurface heat and emits minimal greenhouse gases compared with fossil fuels.",
+    "source_url": "https://www.eia.gov/energyexplained/geothermal/",
+    "trap_notes": {
+      "b": "Formation over millions of years describes nonrenewable natural gas, not geothermal.",
+      "c": "Very high CO2 output describes coal, not geothermal energy.",
+      "d": "Fossil fuels are finite reserves; geothermal heat is continuously replenished.",
+      "default": "Renewable energy sources replenish naturally on human timescales with low operating emissions."
+    }
+  },
+  {
+    "id": "geo-dat-228",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Atmospheric Circulation",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -2.0, "lng": -110.0, "label": "ENSO Phase Comparison" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Equatorial Pacific ENSO Phases",
+      "headers": ["Phase", "Trade Winds", "East Pacific SST"],
+      "rows": [
+        ["Phase X", "Weaker than normal", "Warmer than normal"],
+        ["Phase Y", "Stronger than normal", "Cooler than normal"],
+        ["Neutral", "Average", "Average"]
+      ]
+    },
+    "prompt": "Which row represents El Nino, and what happens to Peruvian coastal fisheries during it?",
+    "options": [
+      { "id": "a", "text": "Phase Y; stronger upwelling boosts anchovy catches" },
+      { "id": "b", "text": "Phase X; warmer surface water suppresses cold nutrient upwelling" },
+      { "id": "c", "text": "Phase X; colder water freezes coastal shipping lanes" },
+      { "id": "d", "text": "Phase Y; weaker winds push warm water toward South America" }
+    ],
+    "answer": "b",
+    "explanation": "Phase X is El Nino: weakened trade winds let warm water pool off Peru, blocking cold nutrient upwelling and shrinking fish catches.",
+    "source_url": "https://oceanservice.noaa.gov/facts/ninonina.html",
+    "trap_notes": {
+      "a": "Phase Y is La Nina, which strengthens cold upwelling.",
+      "c": "Phase X warms eastern Pacific surface temperatures rather than freezing them.",
+      "d": "Phase Y has stronger winds and cooler water, not weaker winds.",
+      "default": "El Nino weakens Pacific trade winds, warming eastern waters and suppressing upwelling."
+    }
+  },
+  {
+    "id": "geo-dat-229",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Landforms & Erosion",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.0584, "lng": -70.1786, "label": "Coastal Landform Processes" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Coastal Processes and Landforms",
+      "headers": ["Process", "Dominant Action", "Resulting Feature"],
+      "rows": [
+        ["Process 1", "Longshore sand transport", "Coastal spit"],
+        ["Process 2", "Wave undercutting", "Sea cliff & arch"],
+        ["Process 3", "River silt buildup", "Estuarine marsh"]
+      ]
+    },
+    "prompt": "Why do coastal engineers build stone groins perpendicular to beaches affected by Process 1?",
+    "options": [
+      { "id": "a", "text": "To trap sand moving sideways along the shore and slow beach erosion" },
+      { "id": "b", "text": "To dissolve limestone bedrock into underground karst caverns" },
+      { "id": "c", "text": "To block deep-ocean thermohaline currents from reaching the equator" },
+      { "id": "d", "text": "To carve U-shaped glacial troughs along sandy barrier islands" }
+    ],
+    "answer": "a",
+    "explanation": "Groins interrupt longshore drift, trapping moving sand on the updrift side to widen and protect beaches.",
+    "source_url": "https://oceanservice.noaa.gov/education/tutorial_currents/03coastal2.html",
+    "trap_notes": {
+      "b": "Karst dissolution occurs inland in limestone, not through beach groins.",
+      "c": "Deep-ocean thermohaline currents flow far offshore in ocean basins.",
+      "d": "Glacial troughs are carved by ice sheets, not coastal wave structures.",
+      "default": "Groins intercept longshore drift to retain sand along eroding beaches."
+    }
+  },
+  {
+    "id": "geo-dat-230",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Geopolitics & Chokepoints",
+    "skill_tag": "data_literacy",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 55.9533, "lng": -3.1883, "label": "Devolution in Europe" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Devolved Regional Parliaments",
+      "headers": ["Region", "Central State", "Devolved Powers"],
+      "rows": [
+        ["Scotland", "United Kingdom", "Health, schools, local tax"],
+        ["Catalonia", "Spain", "Policing, culture, schools"],
+        ["Flanders", "Belgium", "Language, transit, trade"]
+      ]
+    },
+    "prompt": "What political pattern does the table illustrate across all three European states?",
+    "options": [
+      { "id": "a", "text": "Central governments abolished regional assemblies to create unitary rule" },
+      { "id": "b", "text": "Regional authorities gained local powers while remaining part of a larger state" },
+      { "id": "c", "text": "All three regions declared complete independence and left their central states" },
+      { "id": "d", "text": "Local assemblies control national defense and foreign treaties" }
+    ],
+    "answer": "b",
+    "explanation": "Devolution grants regional parliaments control over domestic policies like schooling and policing within the existing nation-state.",
+    "source_url": "https://www.britannica.com/topic/devolution-government",
+    "trap_notes": {
+      "a": "Devolution creates or empowers regional assemblies rather than abolishing them.",
+      "c": "Scotland, Catalonia, and Flanders remain regions within the UK, Spain, and Belgium.",
+      "d": "Central states typically retain defense and foreign policy under devolution.",
+      "default": "Devolution transfers specific domestic powers to regional governments without full secession."
+    }
+  }
+]

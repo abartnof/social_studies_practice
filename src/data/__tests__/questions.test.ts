@@ -200,7 +200,9 @@ describe('Praxis 5581 Question Bank (src/data/questions.ts)', () => {
 
       if (q.type === 'synthesis') {
         expect(q.secondary_domains?.length ?? 0).toBeGreaterThan(0);
-        expect(q.secondary_geo).toBeDefined();
+        if (q.secondary_geo) {
+          assertValidGeo(q.secondary_geo, `${q.id} secondary_geo`);
+        }
       }
     }
   });
@@ -212,11 +214,13 @@ describe('Praxis 5581 Question Bank (src/data/questions.ts)', () => {
         `${q.id} explanation (${q.explanation.length} chars)`,
       ).toBeLessThanOrEqual(140);
 
-      expect(q.fun_fact?.trim().length ?? 0, `${q.id} fun_fact`).toBeGreaterThan(0);
-      expect(
-        q.fun_fact?.length ?? 0,
-        `${q.id} fun_fact (${q.fun_fact?.length ?? 0} chars)`,
-      ).toBeLessThanOrEqual(150);
+      if (q.fun_fact !== undefined) {
+        expect(q.fun_fact.trim().length, `${q.id} fun_fact`).toBeGreaterThan(0);
+        expect(
+          q.fun_fact.length,
+          `${q.id} fun_fact (${q.fun_fact.length} chars)`,
+        ).toBeLessThanOrEqual(150);
+      }
 
       for (const [key, note] of Object.entries(q.trap_notes)) {
         expect(

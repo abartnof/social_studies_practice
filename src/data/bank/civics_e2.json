@@ -1,0 +1,2953 @@
+[
+  {
+    "id": "civics-syn-201",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Territorial Governance",
+    "era": "1787",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.4153,
+      "lng": -81.4548,
+      "label": "Marietta, Ohio"
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "How did the Northwest Ordinance of 1787 shape both U.S. westward expansion and constitutional federalism?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It admitted new western states on equal footing with existing states"
+      },
+      {
+        "id": "b",
+        "text": "It kept western territories as permanent colonies of eastern states"
+      },
+      {
+        "id": "c",
+        "text": "It let the president appoint lifetime governors for every new state"
+      },
+      {
+        "id": "d",
+        "text": "It required new states to adopt unicameral legislatures forever"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Passed under the Articles of Confederation, the Northwest Ordinance created a path to equal statehood while banning slavery there.",
+    "fun_fact": "The ordinance also guaranteed trial by jury, religious freedom, and public support for schools.",
+    "source_url": "https://www.archives.gov/milestone-documents/northwest-ordinance",
+    "trap_notes": {
+      "b": "The ordinance rejected permanent colonial status in favor of equal statehood.",
+      "c": "Once admitted, states elected their own governors and legislatures.",
+      "d": "States drafted their own republican constitutions rather than keeping one set form.",
+      "default": "The Northwest Ordinance established equal statehood for territories reaching 60,000 residents."
+    }
+  },
+  {
+    "id": "civics-syn-202",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "First Amendment & Federalism",
+    "era": "1798",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "secondary_geo": {
+      "lat": 38.2009,
+      "lng": -84.8733,
+      "label": "Frankfort, Kentucky"
+    },
+    "prompt": "What constitutional clash emerged when Jefferson and Madison answered the 1798 Alien and Sedition Acts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress abolished the Supreme Court to protect wartime secrecy"
+      },
+      {
+        "id": "b",
+        "text": "States asserted a right to judge and nullify unconstitutional federal laws"
+      },
+      {
+        "id": "c",
+        "text": "The president vetoed the First Amendment to silence rival newspapers"
+      },
+      {
+        "id": "d",
+        "text": "Federal judges barred all immigrants from voting in state elections"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Virginia and Kentucky Resolutions argued states could interpose or nullify federal laws, sparking early federalism debates.",
+    "fun_fact": "The Sedition Act expired in 1801, and Jefferson pardoned those convicted under it.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/reaction-to-the-sedition-act.html",
+    "trap_notes": {
+      "a": "Congress never abolished the Supreme Court, though Federalists passed the Judiciary Act of 1801.",
+      "c": "The First Amendment was already ratified in 1791 and cannot be vetoed.",
+      "d": "The Alien Acts lengthened residency for citizenship; they did not come from judicial rulings.",
+      "default": "The 1798 resolutions pitted state nullification claims against federal sedition prosecutions."
+    }
+  },
+  {
+    "id": "civics-syn-203",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US",
+      "Econ"
+    ],
+    "subdomain": "Commerce Clause",
+    "era": "1824",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "How did Gibbons v. Ogden (1824) reshape both federal authority and the early U.S. transportation market?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It allowed states to tax out-of-state steamboats on coastal rivers"
+      },
+      {
+        "id": "b",
+        "text": "It limited federal trade power strictly to overseas shipping"
+      },
+      {
+        "id": "c",
+        "text": "It struck down a state steamboat monopoly under the Commerce Clause"
+      },
+      {
+        "id": "d",
+        "text": "It transferred all canal construction from states to federal courts"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Chief Justice Marshall ruled that federal power over interstate commerce includes navigation and overrides state monopolies.",
+    "fun_fact": "The ruling opened New York-New Jersey waterways to competing ferry operators.",
+    "source_url": "https://www.archives.gov/milestone-documents/gibbons-v-ogden",
+    "trap_notes": {
+      "a": "The Court struck down New York's restrictive licensing, not validated state barriers.",
+      "b": "Marshall defined commerce broadly to include interstate navigation and trade.",
+      "d": "Courts adjudicate disputes; they do not build or manage canals.",
+      "default": "Gibbons v. Ogden expanded federal Commerce Clause authority over interstate navigation."
+    }
+  },
+  {
+    "id": "civics-syn-204",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "War Powers & Amendments",
+    "era": "1863–1865",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 37.5407,
+      "lng": -77.436,
+      "label": "Richmond, Virginia"
+    },
+    "prompt": "Why did Lincoln and Congress pursue the Thirteenth Amendment after the 1863 Emancipation Proclamation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Proclamation was a temporary war measure limited to rebel areas"
+      },
+      {
+        "id": "b",
+        "text": "The Proclamation only applied to enslaved people in northern states"
+      },
+      {
+        "id": "c",
+        "text": "The Supreme Court had declared the Proclamation invalid in 1864"
+      },
+      {
+        "id": "d",
+        "text": "Congress wanted to return freedpeople to state-regulated servitude"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Issued under commander-in-chief war powers, the Proclamation left slavery intact in loyal border states until the 13th Amendment.",
+    "fun_fact": "The Thirteenth Amendment was ratified in December 1865, eight months after Lincoln's death.",
+    "source_url": "https://www.archives.gov/milestone-documents/13th-amendment",
+    "trap_notes": {
+      "b": "The Proclamation exempted loyal Union border states and Union-occupied areas.",
+      "c": "The Supreme Court never struck down the Emancipation Proclamation.",
+      "d": "The 13th Amendment permanently abolished slavery nationwide, except as punishment for crime.",
+      "default": "A constitutional amendment was needed to end slavery permanently across the entire nation."
+    }
+  },
+  {
+    "id": "civics-syn-205",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Reconstruction & Citizenship",
+    "era": "1868",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 32.7765,
+      "lng": -79.9311,
+      "label": "Charleston, South Carolina"
+    },
+    "prompt": "How did the Fourteenth Amendment's Citizenship Clause overturn the Supreme Court's 1857 Dred Scott ruling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It let each state legislature decide who qualified as a U.S. citizen"
+      },
+      {
+        "id": "b",
+        "text": "It restricted citizenship strictly to property-owning taxpayers"
+      },
+      {
+        "id": "c",
+        "text": "It required Congress to approve every naturalization individually"
+      },
+      {
+        "id": "d",
+        "text": "It granted citizenship to all persons born or naturalized in the U.S."
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Fourteenth Amendment established birthright citizenship and equal protection, nullifying Dred Scott's exclusion of Black Americans.",
+    "fun_fact": "In United States v. Wong Kim Ark (1898), the Court affirmed birthright citizenship regardless of parents' nationality.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xiv",
+    "trap_notes": {
+      "a": "The 14th Amendment created a uniform national standard of citizenship, not state-by-state rules.",
+      "b": "Property qualifications were never part of the 14th Amendment's Citizenship Clause.",
+      "c": "Congress passes general naturalization laws, not individual approvals for every citizen.",
+      "default": "The 14th Amendment guaranteed birthright citizenship to everyone born in the United States."
+    }
+  },
+  {
+    "id": "civics-syn-206",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Federal Bureaucracy",
+    "era": "1883",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "What administrative shift did the 1883 Pendleton Civil Service Reform Act initiate during the Gilded Age?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It replaced party patronage jobs with competitive merit-based exams"
+      },
+      {
+        "id": "b",
+        "text": "It required federal agency heads to stand for popular election"
+      },
+      {
+        "id": "c",
+        "text": "It abolished all federal regulatory boards created after 1865"
+      },
+      {
+        "id": "d",
+        "text": "It gave state governors power to appoint federal postal clerks"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Following President Garfield's assassination by a disappointed job-seeker, the Pendleton Act built a professional civil service.",
+    "fun_fact": "Initially covering 10 percent of federal jobs, merit rules eventually grew to cover most civilian workers.",
+    "source_url": "https://www.archives.gov/milestone-documents/pendleton-act",
+    "trap_notes": {
+      "b": "Federal bureaucrats remain appointed, not elected by popular vote.",
+      "c": "The federal bureaucracy expanded, rather than shrank, after 1883.",
+      "d": "Federal civil service hiring remained under national, not state, authority.",
+      "default": "The Pendleton Act replaced the spoils system with merit-based civil service hiring."
+    }
+  },
+  {
+    "id": "civics-syn-207",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Progressive Reforms",
+    "era": "1913",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 43.0731,
+      "lng": -89.4012,
+      "label": "Madison, Wisconsin"
+    },
+    "prompt": "How did the Seventeenth Amendment (1913) reflect Progressive Era goals for the U.S. Senate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It allocated Senate seats proportionally by state population"
+      },
+      {
+        "id": "b",
+        "text": "It shifted Senate selection from state legislatures to direct voters"
+      },
+      {
+        "id": "c",
+        "text": "It limited U.S. senators to a single six-year term in office"
+      },
+      {
+        "id": "d",
+        "text": "It ended the vice president's role as presiding Senate officer"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Progressives pushed the 17th Amendment to curb legislative deadlocks and corruption by letting voters elect senators directly.",
+    "fun_fact": "Oregon pioneered a popular advisory vote for senators in 1904 before the constitutional amendment passed.",
+    "source_url": "https://www.archives.gov/milestone-documents/17th-amendment",
+    "trap_notes": {
+      "a": "Each state still receives exactly two senators under Article V.",
+      "c": "The 17th Amendment did not impose term limits on senators.",
+      "d": "The vice president remains President of the Senate under Article I.",
+      "default": "The 17th Amendment established direct popular election of U.S. senators."
+    }
+  },
+  {
+    "id": "civics-syn-208",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Voting Rights",
+    "era": "1920",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 36.1627,
+      "lng": -86.7816,
+      "label": "Nashville, Tennessee"
+    },
+    "secondary_geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How did World War I mobilization help secure ratification of the Nineteenth Amendment in 1920?",
+    "options": [
+      {
+        "id": "a",
+        "text": "European allies required U.S. women's suffrage in the peace treaty"
+      },
+      {
+        "id": "b",
+        "text": "Women's wartime labor and civic service weakened anti-suffrage arguments"
+      },
+      {
+        "id": "c",
+        "text": "Congress drafted women into combat units and granted them votes"
+      },
+      {
+        "id": "d",
+        "text": "The Supreme Court ruled male-only voting violated the War Powers Act"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Women's vital wartime roles in factories, nursing, and bond drives helped persuade lawmakers to pass the 19th Amendment.",
+    "fun_fact": "Tennessee became the decisive 36th state to ratify the 19th Amendment by a single legislative vote.",
+    "source_url": "https://www.archives.gov/milestone-documents/19th-amendment",
+    "trap_notes": {
+      "a": "The Treaty of Versailles did not dictate U.S. domestic voting laws.",
+      "c": "Women served as nurses and clerks, not in combat drafts.",
+      "d": "Women's suffrage came via constitutional amendment, not a War Powers ruling.",
+      "default": "Women's wartime contributions strengthened momentum for the 19th Amendment."
+    }
+  },
+  {
+    "id": "civics-syn-209",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US",
+      "Econ"
+    ],
+    "subdomain": "New Deal Constitutionalism",
+    "era": "1937",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 47.0379,
+      "lng": -122.9007,
+      "label": "Olympia, Washington"
+    },
+    "prompt": "What constitutional shift occurred in 1937 when the Supreme Court upheld New Deal labor and minimum-wage laws?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Court ended judicial review over all congressional statutes"
+      },
+      {
+        "id": "b",
+        "text": "The Court banned states from passing workplace safety regulations"
+      },
+      {
+        "id": "c",
+        "text": "The Court broadened economic and Commerce Clause regulatory deference"
+      },
+      {
+        "id": "d",
+        "text": "The Court expanded its membership from nine to fifteen justices"
+      }
+    ],
+    "answer": "c",
+    "explanation": "In West Coast Hotel v. Parrish and NLRB v. Jones & Laughlin Steel, the Court upheld broad federal and state economic regulation.",
+    "fun_fact": "This 1937 shift helped defeat President Roosevelt's controversial court-packing bill in Congress.",
+    "source_url": "https://www.oyez.org/cases/1900-1940/300us379",
+    "trap_notes": {
+      "a": "Judicial review remained intact; the Court simply applied more deferential scrutiny.",
+      "b": "The Court upheld Washington State's minimum-wage law in West Coast Hotel.",
+      "d": "Congress rejected Roosevelt's proposal to expand the Court beyond nine justices.",
+      "default": "After 1937, the Supreme Court consistently upheld broad federal economic regulation."
+    }
+  },
+  {
+    "id": "civics-syn-210",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Wartime Civil Liberties",
+    "era": "1944",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "label": "San Francisco, California"
+    },
+    "secondary_geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What tension between national security and civil liberties did Korematsu v. United States (1944) expose?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Court upheld wartime Japanese American internment under military necessity"
+      },
+      {
+        "id": "b",
+        "text": "The Court struck down Executive Order 9066 as a Fourth Amendment violation"
+      },
+      {
+        "id": "c",
+        "text": "Congress impeached the president for suspending habeas corpus in California"
+      },
+      {
+        "id": "d",
+        "text": "State governors refused to enforce federal wartime rationing rules"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In a 6–3 decision, the Court deferred to military judgment and upheld internment, a ruling later widely repudiated.",
+    "fun_fact": "In 1988, Congress apologized and paid reparations to Japanese American survivors through the Civil Liberties Act.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-korematsu-v-united-states",
+    "trap_notes": {
+      "b": "The Court upheld Korematsu's conviction in 1944 rather than striking down Order 9066.",
+      "c": "No impeachment occurred over Executive Order 9066.",
+      "d": "Rationing compliance was not the issue in Korematsu.",
+      "default": "Korematsu v. United States upheld wartime internment by deferring to executive military claims."
+    }
+  },
+  {
+    "id": "civics-syn-211",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US",
+      "Econ"
+    ],
+    "subdomain": "Separation of Powers",
+    "era": "1952",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.0998,
+      "lng": -80.6495,
+      "label": "Youngstown, Ohio"
+    },
+    "secondary_geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Why did the Supreme Court block President Truman from seizing U.S. steel mills during the Korean War in 1952?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The president lacked statutory authority from Congress for domestic seizure"
+      },
+      {
+        "id": "b",
+        "text": "The Tenth Amendment gave steelworkers a right to strike against war orders"
+      },
+      {
+        "id": "c",
+        "text": "Only state governors can operate factories during an undeclared war"
+      },
+      {
+        "id": "d",
+        "text": "The Korean War had already ended before the steel strike began"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In Youngstown Sheet & Tube v. Sawyer, the Court ruled the president cannot seize domestic property without Congress's approval.",
+    "fun_fact": "Justice Robert Jackson's concurrence created a famous three-tier test for presidential power.",
+    "source_url": "https://www.oyez.org/cases/1940-1955/343us579",
+    "trap_notes": {
+      "b": "The decision rested on separation of powers, not a Tenth Amendment strike right.",
+      "c": "Governors do not hold exclusive authority over national industrial seizures.",
+      "d": "The Korean War was ongoing in 1952 when Truman issued his executive order.",
+      "default": "Youngstown held that the president cannot seize domestic industry without congressional authorization."
+    }
+  },
+  {
+    "id": "civics-syn-212",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Rule of Law",
+    "era": "1974",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "What constitutional principle did United States v. Nixon (1974) affirm during the Watergate scandal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Executive privilege is absolute whenever national politics are involved"
+      },
+      {
+        "id": "b",
+        "text": "The president cannot withhold subpoenaed criminal evidence unconditionally"
+      },
+      {
+        "id": "c",
+        "text": "Federal courts lack authority to hear cases involving a sitting president"
+      },
+      {
+        "id": "d",
+        "text": "Only the House Speaker may inspect White House audio recordings"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In an 8–0 ruling, the Supreme Court held that executive privilege is not absolute and must yield to criminal trial subpoenas.",
+    "fun_fact": "President Nixon released the Watergate tapes and resigned sixteen days after the ruling.",
+    "source_url": "https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-united-states-v-nixon",
+    "trap_notes": {
+      "a": "The Court recognized executive privilege exists but rejected absolute immunity from criminal subpoenas.",
+      "c": "The Court asserted judicial authority to decide the scope of executive privilege.",
+      "d": "The subpoena came from a federal special prosecutor for a criminal trial, not the House Speaker.",
+      "default": "United States v. Nixon affirmed that no president is above the rule of law."
+    }
+  },
+  {
+    "id": "civics-syn-213",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Monetary Governance",
+    "era": "1913–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8921,
+      "lng": -77.0459,
+      "label": "Federal Reserve, Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 40.7082,
+      "lng": -74.0089,
+      "label": "Federal Reserve Bank of New York"
+    },
+    "prompt": "Why did Congress structure the Federal Reserve as an independent agency accountable to Congress rather than the Treasury?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To let private banks set federal income tax rates without votes"
+      },
+      {
+        "id": "b",
+        "text": "To insulate monetary policy from short-term election pressures"
+      },
+      {
+        "id": "c",
+        "text": "To prevent states from chartering any local commercial banks"
+      },
+      {
+        "id": "d",
+        "text": "To eliminate congressional oversight of the U.S. money supply"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Long 14-year governor terms and independent funding shield interest-rate decisions from partisan election cycles.",
+    "fun_fact": "The Federal Reserve Chair still testifies twice yearly before Congress under the Humphrey-Hawkins Act.",
+    "source_url": "https://www.federalreserve.gov/faqs/about_12799.htm",
+    "trap_notes": {
+      "a": "Income tax rates are set by Congress and the president, never by the Federal Reserve.",
+      "c": "The U.S. maintains a dual banking system with both state- and federally chartered banks.",
+      "d": "The Fed was created by Congress and remains subject to statutory oversight.",
+      "default": "Central bank independence helps keep monetary policy focused on long-term price stability."
+    }
+  },
+  {
+    "id": "civics-syn-214",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ",
+      "US"
+    ],
+    "subdomain": "Regulatory State",
+    "era": "1887–1890",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "prompt": "What shared constitutional basis supported both the 1887 Interstate Commerce Act and the 1890 Sherman Antitrust Act?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Treaty Power allowing presidents to set domestic rail fares"
+      },
+      {
+        "id": "b",
+        "text": "The Tenth Amendment reserving monopoly policing to city councils"
+      },
+      {
+        "id": "c",
+        "text": "Congress's power to regulate commerce among the several states"
+      },
+      {
+        "id": "d",
+        "text": "The Sixteenth Amendment's grant of federal corporate income taxes"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Congress used its Article I Commerce Clause power to curb railroad rate abuses and monopolistic trusts.",
+    "fun_fact": "The Interstate Commerce Commission (1887) was the first independent federal regulatory agency.",
+    "source_url": "https://www.archives.gov/milestone-documents/interstate-commerce-act",
+    "trap_notes": {
+      "a": "Treaty power governs foreign agreements, not domestic railroad rates.",
+      "b": "These were federal laws enacted by Congress, not city ordinances.",
+      "d": "The 16th Amendment was ratified in 1913, over two decades later.",
+      "default": "Both Gilded Age laws rested on Congress's Interstate Commerce Clause authority."
+    }
+  },
+  {
+    "id": "civics-syn-215",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ",
+      "US"
+    ],
+    "subdomain": "Fiscal Constitutionalism",
+    "era": "1913",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "How did ratifying the Sixteenth Amendment in 1913 transform U.S. federal revenue policy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It replaced state sales taxes with a single national property tax"
+      },
+      {
+        "id": "b",
+        "text": "It barred Congress from collecting tariffs on imported goods"
+      },
+      {
+        "id": "c",
+        "text": "It required a balanced federal budget at the end of every fiscal year"
+      },
+      {
+        "id": "d",
+        "text": "It authorized a federal income tax without apportioning by population"
+      }
+    ],
+    "answer": "d",
+    "explanation": "After Pollock (1895) blocked an unapportioned income tax, the 16th Amendment enabled modern progressive federal income taxation.",
+    "fun_fact": "Before 1913, tariffs and excise taxes provided nearly all federal government revenue.",
+    "source_url": "https://www.archives.gov/milestone-documents/16th-amendment",
+    "trap_notes": {
+      "a": "States retained their own tax systems; there is no national property tax.",
+      "b": "Congress kept the power to levy tariffs alongside the new income tax.",
+      "c": "The U.S. Constitution contains no balanced-budget requirement.",
+      "default": "The 16th Amendment empowered Congress to levy a federal income tax."
+    }
+  },
+  {
+    "id": "civics-syn-216",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ",
+      "US"
+    ],
+    "subdomain": "Fiscal Federalism",
+    "era": "1935–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "label": "Baltimore, Maryland"
+    },
+    "prompt": "How does the Social Security Act of 1935 illustrate cooperative federalism in the U.S. economy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It paired a national old-age pension with state-run unemployment programs"
+      },
+      {
+        "id": "b",
+        "text": "It forced private banks to pay monthly stipends directly to retirees"
+      },
+      {
+        "id": "c",
+        "text": "It ended all federal grants-in-aid to state welfare departments"
+      },
+      {
+        "id": "d",
+        "text": "It transferred authority over military pensions to county governments"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Social Security combined federal old-age insurance with federal-state partnerships for unemployment and public assistance.",
+    "fun_fact": "In Steward Machine Co. v. Davis (1937), the Supreme Court upheld the Act's federal-state tax-credit design.",
+    "source_url": "https://www.archives.gov/milestone-documents/social-security-act",
+    "trap_notes": {
+      "b": "Social Security is funded by federal payroll taxes, not private bank payouts.",
+      "c": "The Act greatly expanded federal grants-in-aid to states.",
+      "d": "Military pensions remained a federal responsibility.",
+      "default": "The Social Security Act blended national insurance with state-administered safety-net programs."
+    }
+  },
+  {
+    "id": "civics-syn-217",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Commerce Clause",
+    "era": "1942",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.8117,
+      "lng": -84.0277,
+      "label": "Dayton, Ohio"
+    },
+    "secondary_geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "prompt": "In Wickard v. Filburn (1942), why could Congress regulate wheat grown solely for a farmer's own use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aggregate home-grown wheat substantially affects interstate market prices"
+      },
+      {
+        "id": "b",
+        "text": "The Fifth Amendment lets Congress seize any surplus farm grain"
+      },
+      {
+        "id": "c",
+        "text": "Ohio had transferred all agricultural powers to the USDA in 1938"
+      },
+      {
+        "id": "d",
+        "text": "All wheat planted in the Midwest is automatically sold overseas"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Court held that even local, non-commercial activity can be regulated if its combined national effect shapes interstate commerce.",
+    "fun_fact": "Roscoe Filburn argued he fed his extra wheat to livestock on his own Ohio farm.",
+    "source_url": "https://www.oyez.org/cases/1940-1955/317us111",
+    "trap_notes": {
+      "b": "The case involved acreage quotas under the Commerce Clause, not Fifth Amendment seizures.",
+      "c": "Ohio did not surrender its state police powers to the USDA.",
+      "d": "Filburn's wheat was consumed on his own farm, not exported.",
+      "default": "Wickard v. Filburn established the aggregation principle under the Commerce Clause."
+    }
+  },
+  {
+    "id": "civics-syn-218",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Property Rights & Eminent Domain",
+    "era": "2005",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 41.3557,
+      "lng": -72.0995,
+      "label": "New London, Connecticut"
+    },
+    "secondary_geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What Fifth Amendment debate did Kelo v. City of New London (2005) spark over local economic development?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether cities may seize private homes for a public redevelopment plan"
+      },
+      {
+        "id": "b",
+        "text": "Whether states may print local currency during a municipal recession"
+      },
+      {
+        "id": "c",
+        "text": "Whether Congress may ban local property taxes on small businesses"
+      },
+      {
+        "id": "d",
+        "text": "Whether courts must freeze rents nationwide during urban renewal"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Court ruled 5–4 that transferring condemned homes to private developers for job growth met the Fifth Amendment's 'public use' rule.",
+    "fun_fact": "After Kelo, over forty states passed stricter state laws limiting eminent domain for private development.",
+    "source_url": "https://www.oyez.org/cases/2004/04-108",
+    "trap_notes": {
+      "b": "Article I, Section 10 forbids states from coining money.",
+      "c": "Property taxes are a core state and local revenue source.",
+      "d": "Kelo concerned eminent domain takings, not rent-control freezes.",
+      "default": "Kelo v. City of New London tested the limits of eminent domain for economic redevelopment."
+    }
+  },
+  {
+    "id": "civics-syn-219",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Fiscal Federalism",
+    "era": "1995–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "label": "Indianapolis, Indiana"
+    },
+    "prompt": "Why do state and local officials frequently criticize 'unfunded mandates' enacted by Congress?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They force states to spend local tax dollars on federal rules without aid"
+      },
+      {
+        "id": "b",
+        "text": "They require states to lend surplus funds to foreign governments"
+      },
+      {
+        "id": "c",
+        "text": "They prohibit state legislatures from passing annual school budgets"
+      },
+      {
+        "id": "d",
+        "text": "They transfer all state sales tax revenue directly to the Treasury"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Unfunded mandates impose federal regulatory duties on states or cities without providing federal funds to cover compliance costs.",
+    "fun_fact": "Congress passed the Unfunded Mandates Reform Act in 1995 to require cost estimates on new mandates.",
+    "source_url": "https://www.congress.gov/bill/104th-congress/senate-bill/1",
+    "trap_notes": {
+      "b": "States do not conduct foreign lending under federal mandates.",
+      "c": "States continue to set their own education budgets, though mandates strain them.",
+      "d": "State sales taxes remain state and local revenue.",
+      "default": "Unfunded mandates require state compliance with federal standards without matching funding."
+    }
+  },
+  {
+    "id": "civics-syn-220",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Campaign Finance",
+    "era": "2010",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "What did Citizens United v. FEC (2010) rule about corporate and union spending in federal elections?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Independent political spending by corporations is protected speech"
+      },
+      {
+        "id": "b",
+        "text": "Corporations may donate unlimited cash straight to candidates"
+      },
+      {
+        "id": "c",
+        "text": "Federal taxpayers must match every corporate campaign ad dollar"
+      },
+      {
+        "id": "d",
+        "text": "Labor unions are barred from endorsing candidates before primaries"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Court struck down bans on independent corporate and union electioneering expenditures, fueling the rise of Super PACs.",
+    "fun_fact": "Direct corporate and union contributions to federal candidates remain prohibited by federal law.",
+    "source_url": "https://www.oyez.org/cases/2008/08-205",
+    "trap_notes": {
+      "b": "Citizens United allowed independent spending, not direct corporate donations to candidates.",
+      "c": "There is no mandatory taxpayer matching of corporate political ads.",
+      "d": "The ruling protected both corporate and union independent political speech.",
+      "default": "Citizens United treated independent corporate and union political spending as First Amendment speech."
+    }
+  },
+  {
+    "id": "civics-syn-221",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Interstate Trade",
+    "era": "1787–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, Massachusetts"
+    },
+    "prompt": "How does the Dormant Commerce Clause protect a unified national market within U.S. federalism?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It prevents states from enacting protectionist tariffs against other states"
+      },
+      {
+        "id": "b",
+        "text": "It empowers state governors to negotiate bilateral trade pacts abroad"
+      },
+      {
+        "id": "c",
+        "text": "It requires all states to charge identical retail sales tax rates"
+      },
+      {
+        "id": "d",
+        "text": "It bans federal agencies from regulating interstate trucking routes"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Even when Congress is silent, the Dormant Commerce Clause bars states from discriminating against out-of-state goods.",
+    "fun_fact": "Eliminating state trade wars was a major reason delegates replaced the Articles of Confederation.",
+    "source_url": "https://www.law.cornell.edu/wex/commerce_clause",
+    "trap_notes": {
+      "b": "States are barred from making foreign treaties or trade compacts without Congress's consent.",
+      "c": "States set their own sales tax rates as long as they do not discriminate against interstate trade.",
+      "d": "Congress and federal agencies actively regulate interstate transportation.",
+      "default": "The Dormant Commerce Clause stops states from erecting economic barriers against sister states."
+    }
+  },
+  {
+    "id": "civics-syn-222",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ"
+    ],
+    "subdomain": "Budget & Separation of Powers",
+    "era": "1974",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 38.8869,
+      "lng": -77.0145,
+      "label": "Congressional Budget Office, D.C."
+    },
+    "prompt": "How did the 1974 Congressional Budget and Impoundment Control Act strengthen Congress's power of the purse?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It created the CBO and barred presidents from canceling appropriated funds"
+      },
+      {
+        "id": "b",
+        "text": "It transferred authority to print currency from the Treasury to the House"
+      },
+      {
+        "id": "c",
+        "text": "It gave the president a line-item veto over annual defense spending"
+      },
+      {
+        "id": "d",
+        "text": "It ended Senate participation in passing federal tax legislation"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 1974 Act created the nonpartisan Congressional Budget Office and curbed presidential refusal to spend approved funds.",
+    "fun_fact": "The Supreme Court affirmed in Train v. City of New York (1975) that presidents must spend funds as Congress directed.",
+    "source_url": "https://www.cbo.gov/about/history",
+    "trap_notes": {
+      "b": "Currency issuance remained with the Treasury and Federal Reserve.",
+      "c": "The 1974 Act restricted executive budget power rather than granting a line-item veto.",
+      "d": "The Senate still votes on and amends all revenue and spending bills.",
+      "default": "The 1974 Budget Act created the CBO and limited presidential impoundment of funds."
+    }
+  },
+  {
+    "id": "civics-syn-223",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Econ",
+      "World"
+    ],
+    "subdomain": "Global Trade Governance",
+    "era": "1995–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 46.2244,
+      "lng": 6.1489,
+      "label": "WTO Headquarters, Geneva"
+    },
+    "secondary_geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What sovereignty trade-off do member nations accept when joining the World Trade Organization?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They adopt a single shared currency managed by Geneva bureaucrats"
+      },
+      {
+        "id": "b",
+        "text": "They submit trade disputes to binding panels that can authorize tariffs"
+      },
+      {
+        "id": "c",
+        "text": "They abolish all national environmental and labor safety standards"
+      },
+      {
+        "id": "d",
+        "text": "They let the WTO collect all domestic corporate income taxes"
+      }
+    ],
+    "answer": "b",
+    "explanation": "WTO members agree to abide by multilateral trade rules and dispute rulings or face retaliatory tariffs.",
+    "fun_fact": "The WTO replaced the 1947 GATT framework in 1995 to cover goods, services, and intellectual property.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/disp1_e.htm",
+    "trap_notes": {
+      "a": "WTO members keep their own national currencies.",
+      "c": "Nations retain domestic regulatory laws, though they must apply them non-discriminatorily.",
+      "d": "The WTO has no power to levy domestic income taxes.",
+      "default": "WTO membership subjects national trade policies to international dispute settlement."
+    }
+  },
+  {
+    "id": "civics-syn-224",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Reapportionment & Districts",
+    "era": "1964",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 33.749,
+      "lng": -84.388,
+      "label": "Atlanta, Georgia"
+    },
+    "prompt": "How did Wesberry v. Sanders and Reynolds v. Sims (1964) reshape the geography of U.S. legislative districts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They required districts to have roughly equal populations ('one person, one vote')"
+      },
+      {
+        "id": "b",
+        "text": "They mandated that every county receive one seat in each state senate"
+      },
+      {
+        "id": "c",
+        "text": "They banned states from redrawing district maps after a census"
+      },
+      {
+        "id": "d",
+        "text": "They required congressional districts to match state river basins"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Court struck down malapportioned maps that gave sparsely populated rural counties far more voting weight than cities.",
+    "fun_fact": "Before 1964, some state senate districts differed in population by more than 100 to 1.",
+    "source_url": "https://www.oyez.org/cases/1963/23",
+    "trap_notes": {
+      "b": "Reynolds v. Sims explicitly rejected county-based state senate seats in favor of equal population.",
+      "c": "States must redraw districts after each ten-year census to maintain equal populations.",
+      "d": "Districts follow population counts, not physical watersheds.",
+      "default": "The 1964 reapportionment rulings enforced equal-population legislative districts."
+    }
+  },
+  {
+    "id": "civics-syn-225",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Census & Representation",
+    "era": "1790–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8469,
+      "lng": -76.9293,
+      "label": "U.S. Census Bureau, Suitland, Maryland"
+    },
+    "secondary_geo": {
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "label": "Austin, Texas"
+    },
+    "prompt": "How do geographic population shifts measured by the decennial U.S. Census alter national political power?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They change how many U.S. senators each growing state receives"
+      },
+      {
+        "id": "b",
+        "text": "They reapportion the 435 House seats and Electoral College votes"
+      },
+      {
+        "id": "c",
+        "text": "They redraw state borders to keep every state's population equal"
+      },
+      {
+        "id": "d",
+        "text": "They determine how many Supreme Court justices come from each region"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Every ten years, Census counts redistribute the 435 House seats among states, shifting Electoral College totals too.",
+    "fun_fact": "Faster growth in Sunbelt states like Texas and Florida has shifted House seats south and west.",
+    "source_url": "https://www.census.gov/topics/public-sector/congressional-apportionment.html",
+    "trap_notes": {
+      "a": "Every state keeps exactly two U.S. senators regardless of population.",
+      "c": "State borders are fixed and never redrawn for population balance.",
+      "d": "Supreme Court appointments have no constitutional geographic quota.",
+      "default": "The decennial Census reapportions U.S. House seats and Electoral College votes among states."
+    }
+  },
+  {
+    "id": "civics-syn-226",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Electoral Geography",
+    "era": "1787–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.14,
+      "lng": -104.8202,
+      "label": "Cheyenne, Wyoming"
+    },
+    "secondary_geo": {
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "label": "Los Angeles, California"
+    },
+    "prompt": "Why do voters in less-populous states hold greater per-capita weight in the U.S. Electoral College?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every state starts with two Senate-based electoral votes regardless of size"
+      },
+      {
+        "id": "b",
+        "text": "Rural counties count twice in federal presidential ballot tallies"
+      },
+      {
+        "id": "c",
+        "text": "Small states receive bonus electoral votes for large land area"
+      },
+      {
+        "id": "d",
+        "text": "Populous states are capped at twenty electoral votes by the Constitution"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Because every state gets at least 1 House seat plus 2 Senate seats, Wyoming has far more electoral votes per resident than California.",
+    "fun_fact": "No state can have fewer than three electoral votes, the minimum set by Article II.",
+    "source_url": "https://www.archives.gov/electoral-college/allocation",
+    "trap_notes": {
+      "b": "Individual ballots within a state are counted equally, not weighted by county.",
+      "c": "Land area plays no role in Electoral College allocation.",
+      "d": "There is no cap per state; California has 54 electoral votes.",
+      "default": "The two Senate-based electoral votes per state boost small states' per-capita weight."
+    }
+  },
+  {
+    "id": "civics-syn-227",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Redistricting & Civil Rights",
+    "era": "1993",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 35.7796,
+      "lng": -78.6382,
+      "label": "Raleigh, North Carolina"
+    },
+    "secondary_geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What geographic and constitutional issue did the Supreme Court address in Shaw v. Reno (1993)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bizarrely shaped districts drawn predominantly by race face strict scrutiny"
+      },
+      {
+        "id": "b",
+        "text": "States may divide a single city across four different states' delegations"
+      },
+      {
+        "id": "c",
+        "text": "Congressional districts must be drawn as exact geometric squares"
+      },
+      {
+        "id": "d",
+        "text": "Voters in U.S. territories gain voting House seats when maps are redrawn"
+      }
+    ],
+    "answer": "a",
+    "explanation": "North Carolina's narrow, snake-like 12th District triggered Equal Protection review because race appeared the dominant factor.",
+    "fun_fact": "Traditional redistricting principles include compactness, contiguity, and keeping communities intact.",
+    "source_url": "https://www.oyez.org/cases/1992/92-357",
+    "trap_notes": {
+      "b": "Congressional districts never cross state lines.",
+      "c": "Districts need not be squares, though irregular shapes can signal gerrymandering.",
+      "d": "Territories elect non-voting delegates regardless of state redistricting.",
+      "default": "Shaw v. Reno held that bizarrely shaped districts drawn mainly by race trigger strict scrutiny."
+    }
+  },
+  {
+    "id": "civics-syn-228",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Interstate Compacts",
+    "era": "1922–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 36.0161,
+      "lng": -114.7377,
+      "label": "Hoover Dam, Nevada–Arizona"
+    },
+    "secondary_geo": {
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "label": "Denver, Colorado"
+    },
+    "prompt": "Under Article I, Section 10, how do western states legally share Colorado River water across state borders?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Through interstate compacts approved by Congress, like the 1922 Compact"
+      },
+      {
+        "id": "b",
+        "text": "By signing bilateral foreign treaties with the United Nations"
+      },
+      {
+        "id": "c",
+        "text": "Through annual popular referendums held only in downstream cities"
+      },
+      {
+        "id": "d",
+        "text": "By letting each upstream state divert the entire river without consent"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Compact Clause lets states form binding agreements on shared resources like rivers once Congress gives consent.",
+    "fun_fact": "Seven states—Colorado, New Mexico, Utah, Wyoming, Arizona, California, and Nevada—signed the 1922 compact.",
+    "source_url": "https://www.usbr.gov/lc/region/pao/lawofrvr.html",
+    "trap_notes": {
+      "b": "States cannot sign foreign treaties; interstate compacts are domestic agreements.",
+      "c": "Water allocations are governed by compacts and Supreme Court decrees, not city referendums.",
+      "d": "Upstream states cannot unilaterally cut off downstream states' equitable share.",
+      "default": "Interstate compacts with congressional consent govern shared cross-border resources."
+    }
+  },
+  {
+    "id": "civics-syn-229",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo",
+      "World"
+    ],
+    "subdomain": "International Maritime Law",
+    "era": "1982–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 53.5511,
+      "lng": 9.9937,
+      "label": "ITLOS, Hamburg, Germany"
+    },
+    "secondary_geo": {
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "label": "Manila, Philippines"
+    },
+    "prompt": "Under the UN Convention on the Law of the Sea, what rights does a coastal state hold in its 200-nautical-mile Exclusive Economic Zone?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Full authority to ban all foreign commercial ships from passing through"
+      },
+      {
+        "id": "b",
+        "text": "Sovereign rights over fishing, seabed minerals, and energy resources"
+      },
+      {
+        "id": "c",
+        "text": "Total ownership of the airspace for military exclusion zones"
+      },
+      {
+        "id": "d",
+        "text": "Jurisdiction to tax every foreign cargo container crossing the ocean"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In an EEZ, coastal states control marine and seabed resources while preserving freedom of navigation for foreign vessels.",
+    "fun_fact": "Full territorial sovereignty applies only within 12 nautical miles of a nation's baseline coast.",
+    "source_url": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
+    "trap_notes": {
+      "a": "Foreign ships retain freedom of navigation through Exclusive Economic Zones.",
+      "c": "Sovereign airspace extends only over land and the 12-mile territorial sea.",
+      "d": "Coastal states cannot tax passing foreign cargo in an EEZ.",
+      "default": "An EEZ grants resource rights up to 200 nautical miles while keeping seas open to transit."
+    }
+  },
+  {
+    "id": "civics-syn-230",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Federalism & Land Use",
+    "era": "1787–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.1638,
+      "lng": -119.7674,
+      "label": "Carson City, Nevada"
+    },
+    "secondary_geo": {
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "label": "Department of the Interior, D.C."
+    },
+    "prompt": "Why do western states like Nevada and Utah contain far more federal public land than eastern states?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Western territories ceded vast ungranted lands to the U.S. upon statehood"
+      },
+      {
+        "id": "b",
+        "text": "The Tenth Amendment forbids eastern states from having national parks"
+      },
+      {
+        "id": "c",
+        "text": "Congress purchased all western farms during the 1930s Dust Bowl"
+      },
+      {
+        "id": "d",
+        "text": "Western state constitutions banned private homeownership before 1900"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under Article IV's Property Clause, the federal government retained large tracts of public domain in western states.",
+    "fun_fact": "Roughly 80 percent of Nevada's land area is managed by federal agencies like the BLM and Forest Service.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-iv/clauses/41",
+    "trap_notes": {
+      "b": "Eastern states host many national parks, such as Acadia and Great Smoky Mountains.",
+      "c": "Federal land holdings in the West date back to 19th-century territorial acquisitions.",
+      "d": "Private homesteading and ownership existed alongside federal public lands.",
+      "default": "Federal public lands in the West stem from territorial acquisitions retained under the Property Clause."
+    }
+  },
+  {
+    "id": "civics-syn-231",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo",
+      "US"
+    ],
+    "subdomain": "Tribal Sovereignty",
+    "era": "1832–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 34.4839,
+      "lng": -84.9461,
+      "label": "New Echota, Georgia"
+    },
+    "secondary_geo": {
+      "lat": 35.9102,
+      "lng": -94.9699,
+      "label": "Tahlequah, Oklahoma"
+    },
+    "prompt": "What jurisdictional principle did Chief Justice Marshall establish in Worcester v. Georgia (1832)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Federally recognized tribes are distinct nations exempt from state laws"
+      },
+      {
+        "id": "b",
+        "text": "State governors may dissolve tribal courts inside their state borders"
+      },
+      {
+        "id": "c",
+        "text": "Tribal governments are municipal subdivisions created by county boards"
+      },
+      {
+        "id": "d",
+        "text": "Native American nations must pay state property taxes on reservation land"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Marshall ruled that Georgia laws had no force inside the Cherokee Nation, affirming tribal sovereignty and federal-tribal relations.",
+    "fun_fact": "Today, 574 federally recognized tribes exercise inherent self-government across the United States.",
+    "source_url": "https://www.oyez.org/cases/1789-1850/31us515",
+    "trap_notes": {
+      "b": "States generally lack authority to dissolve tribal institutions.",
+      "c": "Tribal sovereignty predates the U.S. Constitution and does not come from counties.",
+      "d": "Reservation trust land is generally exempt from state property taxation.",
+      "default": "Worcester v. Georgia affirmed that tribes are distinct political communities free from state control."
+    }
+  },
+  {
+    "id": "civics-syn-232",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Electoral Geography",
+    "era": "1812–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, Massachusetts"
+    },
+    "secondary_geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "In geographic redistricting, how do 'packing' and 'cracking' work together in partisan gerrymandering?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Packing concentrates rivals in few districts; cracking splits them across many"
+      },
+      {
+        "id": "b",
+        "text": "Packing adds extra polling places; cracking shortens early voting hours"
+      },
+      {
+        "id": "c",
+        "text": "Packing eliminates rural districts; cracking merges neighboring states"
+      },
+      {
+        "id": "d",
+        "text": "Packing requires paper ballots; cracking mandates electronic voting"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Mapmakers 'pack' opposing voters into a few overwhelming districts and 'crack' remaining voters so they fall short elsewhere.",
+    "fun_fact": "The term 'gerrymander' originated in 1812 after a salamander-shaped Massachusetts senate district.",
+    "source_url": "https://www.brennancenter.org/our-work/research-reports/gerrymandering-explained",
+    "trap_notes": {
+      "b": "Packing and cracking refer to district lines, not polling hours or locations.",
+      "c": "Redistricting never merges states or erases population-based districts.",
+      "d": "Ballot format has nothing to do with packing or cracking.",
+      "default": "Packing concentrates rival voters into few seats while cracking disperses them across others."
+    }
+  },
+  {
+    "id": "civics-syn-233",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo",
+      "World"
+    ],
+    "subdomain": "Supranational Borders",
+    "era": "1995–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 49.473,
+      "lng": 6.365,
+      "label": "Schengen, Luxembourg"
+    },
+    "secondary_geo": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "label": "Brussels, Belgium"
+    },
+    "prompt": "How does Europe's Schengen Area alter traditional national border sovereignty among participating states?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It removes routine internal passport checks while sharing external borders"
+      },
+      {
+        "id": "b",
+        "text": "It merges all member countries into one single unitary nation-state"
+      },
+      {
+        "id": "c",
+        "text": "It abolishes national police forces and replaces them with UN troops"
+      },
+      {
+        "id": "d",
+        "text": "It requires every European resident to hold a Belgian passport"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Schengen nations allow passport-free internal travel while coordinating visa and security rules at external borders.",
+    "fun_fact": "Named after a Luxembourg border village, Schengen includes 29 European countries.",
+    "source_url": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/schengen-area_en",
+    "trap_notes": {
+      "b": "Schengen members remain sovereign states with distinct governments.",
+      "c": "National police forces continue operating within their own borders.",
+      "d": "Citizens keep their own national passports.",
+      "default": "The Schengen Area eliminates routine internal border checks across participating European states."
+    }
+  },
+  {
+    "id": "civics-syn-234",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "Geo",
+      "World"
+    ],
+    "subdomain": "Federal Capitals",
+    "era": "1790–1960",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -35.2809,
+      "lng": 149.13,
+      "label": "Canberra, Australia"
+    },
+    "secondary_geo": {
+      "lat": -15.7975,
+      "lng": -47.8919,
+      "label": "Brasilia, Brazil"
+    },
+    "prompt": "Why did federations like the United States, Australia, and Brazil build planned capital districts away from existing major cities?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To prevent any single state or commercial hub from dominating the federation"
+      },
+      {
+        "id": "b",
+        "text": "To satisfy United Nations rules prohibiting capitals near ocean ports"
+      },
+      {
+        "id": "c",
+        "text": "To ensure federal lawmakers could not be reached by public voters"
+      },
+      {
+        "id": "d",
+        "text": "To place national parliaments outside the country's legal borders"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Neutral federal districts balance regional rivalries—such as North vs. South or Sydney vs. Melbourne—within a federal system.",
+    "fun_fact": "Ottawa, Canberra, Brasilia, and Washington, D.C. were all selected as geographic compromises.",
+    "source_url": "https://www.britannica.com/topic/federal-district",
+    "trap_notes": {
+      "b": "The UN has no rule restricting where countries place their capitals.",
+      "c": "Planned capitals were built to be accessible national symbols, not isolated from citizens.",
+      "d": "Federal districts remain sovereign national territory.",
+      "default": "Planned federal capitals avoid favoring one rival state or dominant metropolis."
+    }
+  },
+  {
+    "id": "civics-syn-235",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Enlightenment Philosophy",
+    "era": "1689–1776",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "secondary_geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Which idea from John Locke's Two Treatises of Government directly shaped the U.S. Declaration of Independence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Monarchs rule by divine right and cannot be replaced by citizens"
+      },
+      {
+        "id": "b",
+        "text": "Governments derive power from consent to protect natural rights"
+      },
+      {
+        "id": "c",
+        "text": "All private property should be owned collectively by parliament"
+      },
+      {
+        "id": "d",
+        "text": "Only hereditary nobles possess the right to petition lawmakers"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Locke argued that people form governments to protect life, liberty, and property, and may alter rulers who break that trust.",
+    "fun_fact": "Thomas Jefferson echoed Locke's triad as 'Life, Liberty and the pursuit of Happiness.'",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/declaration-of-independence.html",
+    "trap_notes": {
+      "a": "Locke wrote specifically to refute divine-right absolutism.",
+      "c": "Locke defended individual property rights as a core natural right.",
+      "d": "Locke grounded natural rights in all human beings, not hereditary nobles.",
+      "default": "Locke's social contract theory held that legitimate government rests on consent and natural rights."
+    }
+  },
+  {
+    "id": "civics-syn-236",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Enlightenment Philosophy",
+    "era": "1748–1787",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 44.8378,
+      "lng": -0.5792,
+      "label": "Bordeaux, France"
+    },
+    "secondary_geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "How did Baron de Montesquieu's The Spirit of the Laws (1748) influence the structure of the U.S. Constitution?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It advocated uniting lawmaking and judging in one supreme council"
+      },
+      {
+        "id": "b",
+        "text": "It urged colonies to adopt direct Athenian voting on every bill"
+      },
+      {
+        "id": "c",
+        "text": "It argued liberty requires dividing legislative, executive, and judicial power"
+      },
+      {
+        "id": "d",
+        "text": "It proposed abolishing written constitutions in favor of royal decrees"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Montesquieu warned that concentrating power in one person or body destroys liberty, inspiring Articles I, II, and III.",
+    "fun_fact": "James Madison cited 'the celebrated Montesquieu' directly in Federalist No. 47.",
+    "source_url": "https://guides.loc.gov/federalist-papers/text-41-50",
+    "trap_notes": {
+      "a": "Montesquieu argued the exact opposite: fusing powers leads to tyranny.",
+      "b": "Montesquieu favored balanced representative institutions over pure direct democracy.",
+      "d": "Royal decrees represent concentrated executive power, which Montesquieu opposed.",
+      "default": "Montesquieu's separation of powers became a cornerstone of the U.S. Constitution."
+    }
+  },
+  {
+    "id": "civics-syn-237",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Rule of Law",
+    "era": "1215–1791",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.4414,
+      "lng": -0.5625,
+      "label": "Runnymede, England"
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "Which principle from England's 1215 Magna Carta carried forward into the U.S. Fifth Amendment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Universal adult suffrage regardless of property or gender"
+      },
+      {
+        "id": "b",
+        "text": "Abolition of hereditary monarchy in favor of a senate"
+      },
+      {
+        "id": "c",
+        "text": "Separation of church and state in public education"
+      },
+      {
+        "id": "d",
+        "text": "No free person may be deprived of liberty without due process of law"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Magna Carta's Clause 39 bound King John to 'the law of the land,' laying the foundation for constitutional due process.",
+    "fun_fact": "An original 1215 Magna Carta copy is displayed at the National Archives' sister exhibition in England.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/magna-carta",
+    "trap_notes": {
+      "a": "Magna Carta protected barons and 'free men,' not universal suffrage.",
+      "b": "Magna Carta limited the king's power; it did not abolish the monarchy.",
+      "c": "Magna Carta actually affirmed the freedoms of the English Church.",
+      "default": "Magna Carta established that the ruler is bound by law and due process."
+    }
+  },
+  {
+    "id": "civics-syn-238",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Human Rights",
+    "era": "1948",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 48.8627,
+      "lng": 2.2876,
+      "label": "Palais de Chaillot, Paris"
+    },
+    "secondary_geo": {
+      "lat": 40.7489,
+      "lng": -73.968,
+      "label": "New York, New York"
+    },
+    "prompt": "How did the 1948 Universal Declaration of Human Rights differ from national bills of rights like the U.S. Bill of Rights?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It set global aspirational norms for civil, political, and social rights"
+      },
+      {
+        "id": "b",
+        "text": "It created a world police force to arrest local city officials"
+      },
+      {
+        "id": "c",
+        "text": "It replaced every member nation's domestic constitution automatically"
+      },
+      {
+        "id": "d",
+        "text": "It applied only to citizens of the five UN Security Council members"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Chaired by Eleanor Roosevelt, the UN committee drafted a non-binding declaration of universal civil, economic, and social rights.",
+    "fun_fact": "The UDHR has been translated into more than 500 languages, making it the world's most translated document.",
+    "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "trap_notes": {
+      "b": "The UDHR has no international police force to enforce its articles.",
+      "c": "It is a non-binding declaration that inspired, rather than replaced, national constitutions.",
+      "d": "Its rights apply to 'all human beings' everywhere.",
+      "default": "The 1948 UDHR articulated universal human rights standards across nations."
+    }
+  },
+  {
+    "id": "civics-syn-239",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "International Criminal Law",
+    "era": "1945–1946",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 49.4521,
+      "lng": 11.0767,
+      "label": "Nuremberg, Germany"
+    },
+    "secondary_geo": {
+      "lat": 52.0705,
+      "lng": 4.3007,
+      "label": "The Hague, Netherlands"
+    },
+    "prompt": "What precedent did the 1945–1946 Nuremberg Trials establish for modern international law?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Individual leaders can be tried for war crimes despite 'following orders'"
+      },
+      {
+        "id": "b",
+        "text": "Sovereign heads of state enjoy permanent immunity for wartime atrocities"
+      },
+      {
+        "id": "c",
+        "text": "Only victorious nations' domestic courts may define genocide"
+      },
+      {
+        "id": "d",
+        "text": "International tribunals can fine governments but never imprison persons"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Nuremberg Charter rejected the defense of superior orders and held individuals accountable for crimes against humanity.",
+    "fun_fact": "Nuremberg's principles directly paved the way for the 1948 Genocide Convention and the International Criminal Court.",
+    "source_url": "https://www.britannica.com/event/Nurnberg-trials",
+    "trap_notes": {
+      "b": "Nuremberg explicitly rejected sovereign immunity for aggressive war and atrocities.",
+      "c": "The UN Genocide Convention (1948) established an international legal definition.",
+      "d": "The Nuremberg tribunal sentenced individual defendants to prison and execution.",
+      "default": "Nuremberg established individual criminal responsibility under international law."
+    }
+  },
+  {
+    "id": "civics-syn-240",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Electoral Systems",
+    "era": "1951–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "label": "Berlin, Germany"
+    },
+    "secondary_geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "prompt": "According to Duverger's Law, why do proportional representation systems produce multiparty coalitions more often than U.S. elections?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Seats match party vote shares, so smaller parties can win representation"
+      },
+      {
+        "id": "b",
+        "text": "Proportional systems ban any single party from winning over 20 percent"
+      },
+      {
+        "id": "c",
+        "text": "Winner-take-all districts reward third parties with bonus cabinet seats"
+      },
+      {
+        "id": "d",
+        "text": "Proportional systems require voters to rank only two major parties"
+      }
+    ],
+    "answer": "a",
+    "explanation": "When seats are awarded by vote share, minor parties survive instead of being squeezed out as in winner-take-all districts.",
+    "fun_fact": "Germany's mixed-member proportional system uses a 5 percent national threshold to limit extreme fragmentation.",
+    "source_url": "https://www.britannica.com/topic/proportional-representation",
+    "trap_notes": {
+      "b": "Proportional systems place no upper cap on a popular party's vote share.",
+      "c": "Single-member plurality ('winner-take-all') districts penalize third parties.",
+      "d": "Proportional ballots typically offer many competing party lists.",
+      "default": "Proportional representation lets smaller parties win seats in line with their vote share."
+    }
+  },
+  {
+    "id": "civics-syn-241",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Comparative Systems",
+    "era": "19th Century–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 51.4995,
+      "lng": -0.1248,
+      "label": "Westminster, London"
+    },
+    "secondary_geo": {
+      "lat": 45.4215,
+      "lng": -75.6972,
+      "label": "Ottawa, Canada"
+    },
+    "prompt": "How does a parliamentary vote of no confidence resolve legislative-executive deadlock differently from a U.S. impeachment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It removes a government for lost political support without alleging a crime"
+      },
+      {
+        "id": "b",
+        "text": "It requires a criminal indictment by a supreme court before any vote"
+      },
+      {
+        "id": "c",
+        "text": "It keeps the prime minister in office while dissolving only the courts"
+      },
+      {
+        "id": "d",
+        "text": "It transfers legislative authority permanently to the hereditary monarch"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In parliamentary systems, the cabinet depends on legislative confidence; losing a confidence vote forces resignation or new elections.",
+    "fun_fact": "U.S. impeachment requires 'Treason, Bribery, or other high Crimes and Misdemeanors,' not mere policy disagreement.",
+    "source_url": "https://www.britannica.com/topic/vote-of-confidence",
+    "trap_notes": {
+      "b": "A no-confidence vote is a political test in parliament, not a criminal trial.",
+      "c": "Courts remain independent; a lost vote ousts the cabinet or triggers parliamentary elections.",
+      "d": "In constitutional monarchies, the monarch acts on ministerial advice and does not take over lawmaking.",
+      "default": "A vote of no confidence removes a parliamentary government on political, not criminal, grounds."
+    }
+  },
+  {
+    "id": "civics-syn-242",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Postcolonial Constitutions",
+    "era": "1947–1950",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "label": "New Delhi, India"
+    },
+    "secondary_geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "How did India's 1950 Constitution blend British parliamentary traditions with U.S. constitutional features?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It paired a Westminster cabinet system with a written charter and judicial review"
+      },
+      {
+        "id": "b",
+        "text": "It kept the British monarch as India's permanent head of state"
+      },
+      {
+        "id": "c",
+        "text": "It replaced India's parliament with an appointed council of governors"
+      },
+      {
+        "id": "d",
+        "text": "It banned political parties from competing in state-level elections"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India adopted a prime minister and cabinet from Britain alongside an entrenched bill of Fundamental Rights and an independent Supreme Court.",
+    "fun_fact": "India's Constitution is the longest written national constitution in the world.",
+    "source_url": "https://www.britannica.com/topic/Constitution-of-India",
+    "trap_notes": {
+      "b": "India became a republic in 1950 with an indirectly elected president as head of state.",
+      "c": "India established a directly elected lower house (Lok Sabha) with universal suffrage.",
+      "d": "India has a vibrant multiparty system at both national and state levels.",
+      "default": "India's Constitution combined parliamentary cabinet government with written rights and judicial review."
+    }
+  },
+  {
+    "id": "civics-syn-243",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Conflict Resolution & Power-Sharing",
+    "era": "1998",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 54.5973,
+      "lng": -5.9301,
+      "label": "Belfast, Northern Ireland"
+    },
+    "secondary_geo": {
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "label": "Dublin, Ireland"
+    },
+    "prompt": "How did the 1998 Good Friday Agreement use power-sharing to end decades of conflict in Northern Ireland?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It required unionist and nationalist parties to govern together in the executive"
+      },
+      {
+        "id": "b",
+        "text": "It banned all political parties from campaigning on constitutional issues"
+      },
+      {
+        "id": "c",
+        "text": "It partitioned Belfast into two separate UN-administered city-states"
+      },
+      {
+        "id": "d",
+        "text": "It eliminated local assemblies in favor of direct rule from London"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The agreement created a consociational assembly where both unionist and nationalist blocs share executive leadership and mutual vetoes.",
+    "fun_fact": "Voters in both Northern Ireland and the Republic of Ireland approved the accord by referendum in May 1998.",
+    "source_url": "https://www.britannica.com/event/Good-Friday-Agreement",
+    "trap_notes": {
+      "b": "Parties remained free to advocate peacefully for union or Irish unity.",
+      "c": "Belfast remained a single city governed under Northern Ireland's devolved assembly.",
+      "d": "The accord ended direct rule by restoring a devolved Northern Ireland Assembly.",
+      "default": "The Good Friday Agreement established mandatory cross-community power-sharing."
+    }
+  },
+  {
+    "id": "civics-syn-244",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "State Sovereignty",
+    "era": "1648–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 51.9607,
+      "lng": 7.6261,
+      "label": "Münster, Germany"
+    },
+    "secondary_geo": {
+      "lat": 52.2799,
+      "lng": 8.0472,
+      "label": "Osnabrück, Germany"
+    },
+    "prompt": "What core principle of modern international relations emerged from the 1648 Peace of Westphalia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each sovereign state holds exclusive authority within its own borders"
+      },
+      {
+        "id": "b",
+        "text": "A European parliament may veto tax laws passed by member kingdoms"
+      },
+      {
+        "id": "c",
+        "text": "Religious minorities must migrate to a single neutral island state"
+      },
+      {
+        "id": "d",
+        "text": "All European armies were merged under one permanent papal command"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Ending the Thirty Years' War, Westphalia recognized territorial sovereignty and non-interference in domestic affairs.",
+    "fun_fact": "Even today, the UN Charter's Article 2 echoes Westphalian sovereign equality of states.",
+    "source_url": "https://www.britannica.com/event/Peace-of-Westphalia",
+    "trap_notes": {
+      "b": "No European parliament existed in 1648.",
+      "c": "The treaties granted limited religious toleration within states rather than mass exile.",
+      "d": "Westphalia actually weakened supranational imperial and papal claims over states.",
+      "default": "The Peace of Westphalia anchored the modern system of sovereign territorial states."
+    }
+  },
+  {
+    "id": "civics-syn-245",
+    "type": "synthesis",
+    "domain": "Civics",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Constitutional Transitions",
+    "era": "1994–1996",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "label": "Cape Town, South Africa"
+    },
+    "secondary_geo": {
+      "lat": -25.7479,
+      "lng": 28.2293,
+      "label": "Pretoria, South Africa"
+    },
+    "prompt": "How did South Africa's 1996 Constitution and Truth and Reconciliation Commission aid its transition from apartheid?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They combined an enforceable Bill of Rights with public testimony for healing"
+      },
+      {
+        "id": "b",
+        "text": "They barred the new Constitutional Court from reviewing parliamentary laws"
+      },
+      {
+        "id": "c",
+        "text": "They restricted voting to citizens who had held office before 1990"
+      },
+      {
+        "id": "d",
+        "text": "They abolished all nine provincial governments to centralize power"
+      }
+    ],
+    "answer": "a",
+    "explanation": "South Africa replaced parliamentary supremacy with constitutional supremacy while the TRC documented past abuses to foster reconciliation.",
+    "fun_fact": "South Africa's 1996 Bill of Rights protects civil liberties alongside rights to housing, healthcare, and education.",
+    "source_url": "https://www.britannica.com/topic/Truth-and-Reconciliation-Commission-South-Africa",
+    "trap_notes": {
+      "b": "The Constitutional Court was specifically empowered to strike down unconstitutional laws.",
+      "c": "The 1994 election introduced universal adult suffrage for all South Africans.",
+      "d": "The 1996 Constitution created nine provinces with shared powers.",
+      "default": "South Africa paired a rights-protecting constitution with the Truth and Reconciliation Commission."
+    }
+  },
+  {
+    "id": "civics-mc-276",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Political Culture",
+    "era": "20th Century–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which agent of political socialization typically exerts the earliest and strongest influence on a person's core party identity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The family, through everyday discussions and shared values at home"
+      },
+      {
+        "id": "b",
+        "text": "Federal regulatory agencies, through annual tax-filing forms"
+      },
+      {
+        "id": "c",
+        "text": "Appellate courts, through published constitutional opinions"
+      },
+      {
+        "id": "d",
+        "text": "Foreign embassies, through international cultural exchanges"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Political science research consistently shows that parents and family life shape early political attitudes and party leanings.",
+    "fun_fact": "Schools, peer groups, religious communities, and media also shape civic attitudes over a lifetime.",
+    "source_url": "https://www.britannica.com/topic/political-socialization",
+    "trap_notes": {
+      "b": "Tax forms do not socialize children into partisan or civic identities.",
+      "c": "Most citizens rarely read appellate court opinions during childhood.",
+      "d": "Foreign embassies have minimal direct contact with young domestic citizens.",
+      "default": "The family is the primary early agent of political socialization."
+    }
+  },
+  {
+    "id": "civics-mc-277",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Interest Groups",
+    "era": "20th Century–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "prompt": "In U.S. policymaking, which three actors form an 'iron triangle'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The president, the Supreme Court, and state governors"
+      },
+      {
+        "id": "b",
+        "text": "Congressional committees, executive agencies, and interest groups"
+      },
+      {
+        "id": "c",
+        "text": "Political parties, television networks, and polling firms"
+      },
+      {
+        "id": "d",
+        "text": "City mayors, county sheriffs, and local school boards"
+      }
+    ],
+    "answer": "b",
+    "explanation": "An iron triangle is a stable, mutually supportive alliance among a legislative committee, a bureaucratic agency, and an interest group.",
+    "fun_fact": "Broader, looser coalitions of experts and activists are often called 'issue networks.'",
+    "source_url": "https://www.britannica.com/topic/iron-triangle",
+    "trap_notes": {
+      "a": "The Supreme Court and governors are outside federal sub-government iron triangles.",
+      "c": "Media and pollsters influence public opinion rather than forming a regulatory triangle.",
+      "d": "Local officials operate at the municipal level, not inside federal agency triangles.",
+      "default": "An iron triangle links congressional committees, bureaucratic agencies, and interest groups."
+    }
+  },
+  {
+    "id": "civics-mc-278",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Interest Groups",
+    "era": "1965–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How do large interest groups overcome the 'free-rider problem' when recruiting dues-paying members?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By asking federal judges to fine non-members for ignoring petitions"
+      },
+      {
+        "id": "b",
+        "text": "By restricting public policy benefits strictly to paid donors"
+      },
+      {
+        "id": "c",
+        "text": "By offering selective benefits like discounts or magazines to members"
+      },
+      {
+        "id": "d",
+        "text": "By barring non-members from voting in state and local elections"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Because everyone enjoys public goods like clean air, groups offer exclusive perks—selective benefits—to motivate membership.",
+    "fun_fact": "Economist Mancur Olson analyzed this collective-action dilemma in The Logic of Collective Action (1965).",
+    "source_url": "https://www.britannica.com/topic/interest-group",
+    "trap_notes": {
+      "a": "Interest groups are private associations with no power to fine non-members.",
+      "b": "Collective goods like cleaner air or lower taxes cannot be withheld from non-members.",
+      "d": "Private groups cannot restrict citizens' constitutional voting rights.",
+      "default": "Selective material benefits encourage people to join rather than free-ride."
+    }
+  },
+  {
+    "id": "civics-mc-279",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Media & Public Opinion",
+    "era": "1972–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "What is the 'agenda-setting' effect of news media in democratic politics?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Media coverage shapes which issues the public sees as most important"
+      },
+      {
+        "id": "b",
+        "text": "News anchors cast tie-breaking votes in congressional committees"
+      },
+      {
+        "id": "c",
+        "text": "Reporters draft the official party platforms at national conventions"
+      },
+      {
+        "id": "d",
+        "text": "Television networks decide which citizens qualify for jury duty"
+      }
+    ],
+    "answer": "a",
+    "explanation": "By choosing which stories to highlight, news outlets influence what issues voters and lawmakers prioritize.",
+    "fun_fact": "Scholars Maxwell McCombs and Donald Shaw coined agenda-setting theory during the 1968 U.S. election.",
+    "source_url": "https://www.britannica.com/topic/agenda-setting",
+    "trap_notes": {
+      "b": "Journalists have no legislative voting power.",
+      "c": "Party delegates and committees write party platforms, not reporters.",
+      "d": "Court clerks select jury pools from voter and driver records.",
+      "default": "Agenda-setting means media coverage influences what issues the public thinks about."
+    }
+  },
+  {
+    "id": "civics-mc-280",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Public Opinion",
+    "era": "1936–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.3573,
+      "lng": -74.6672,
+      "label": "Princeton, New Jersey"
+    },
+    "prompt": "Why does a scientific public-opinion poll rely on random sampling of about 1,000 respondents?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Random selection ensures every adult has an equal chance to be included"
+      },
+      {
+        "id": "b",
+        "text": "Federal law prohibits pollsters from surveying more than 1,000 people"
+      },
+      {
+        "id": "c",
+        "text": "A 1,000-person sample eliminates all sampling error completely"
+      },
+      {
+        "id": "d",
+        "text": "Random sampling guarantees every respondent shares the same party"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Random probability sampling lets a modest sample represent a large nation within a known margin of error.",
+    "fun_fact": "George Gallup famously beat the huge but biased 1936 Literary Digest straw poll using scientific sampling.",
+    "source_url": "https://www.pewresearch.org/methods/u-s-survey-research/our-survey-methodology-in-detail/",
+    "trap_notes": {
+      "b": "There is no legal cap on survey sample size; 1,000 balances cost and precision.",
+      "c": "Every sample retains a margin of error (often around plus or minus 3 percentage points).",
+      "d": "A good random sample reflects diverse partisan views rather than one party.",
+      "default": "Random sampling gives every population member an equal chance of selection."
+    }
+  },
+  {
+    "id": "civics-mc-281",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Civic Participation",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which pair accurately distinguishes a legal civic duty from a voluntary civic responsibility in the United States?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Voting is legally required; obeying traffic laws is voluntary"
+      },
+      {
+        "id": "b",
+        "text": "Serving on a jury is legally required; voting in elections is voluntary"
+      },
+      {
+        "id": "c",
+        "text": "Attending town halls is legally required; paying taxes is voluntary"
+      },
+      {
+        "id": "d",
+        "text": "Running for office is legally required; jury duty is voluntary"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Civic duties like jury service, obeying laws, and paying taxes are required by law; voting and volunteering are civic responsibilities.",
+    "fun_fact": "Unlike the United States, countries such as Australia and Belgium enforce compulsory voting.",
+    "source_url": "https://www.uscis.gov/citizenship/learn-about-citizenship/should-i-consider-us-citizenship",
+    "trap_notes": {
+      "a": "Obeying laws is mandatory, whereas voting is voluntary in the U.S.",
+      "c": "Paying taxes is a legal duty; attending town halls is voluntary.",
+      "d": "Jury duty is legally required when summoned; running for office is voluntary.",
+      "default": "Jury service is a mandatory civic duty, while voting is a voluntary responsibility."
+    }
+  },
+  {
+    "id": "civics-mc-282",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Citizenship",
+    "era": "1952–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which requirement is generally part of the U.S. naturalization process for adult permanent residents?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Owning real estate in the state where the applicant resides"
+      },
+      {
+        "id": "b",
+        "text": "Securing a personal sponsorship vote from two U.S. senators"
+      },
+      {
+        "id": "c",
+        "text": "Demonstrating basic English and U.S. civics knowledge plus residency"
+      },
+      {
+        "id": "d",
+        "text": "Serving at least four years in the armed forces before applying"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Naturalization applicants typically show lawful permanent residence, good moral character, English proficiency, and civics knowledge.",
+    "fun_fact": "The process concludes with taking the Oath of Allegiance at a naturalization ceremony.",
+    "source_url": "https://www.uscis.gov/citizenship/learn-about-citizenship/citizenship-and-naturalization",
+    "trap_notes": {
+      "a": "Property ownership has no place in U.S. naturalization requirements.",
+      "b": "USCIS administers naturalization under federal law without Senate sponsorship.",
+      "d": "Military service can speed up naturalization, but it is not required.",
+      "default": "Naturalization requires lawful residency, good character, and passing English and civics tests."
+    }
+  },
+  {
+    "id": "civics-mc-283",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How does cooperative ('marble cake') federalism differ from dual ('layer cake') federalism?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Federal and state governments share overlapping policy and funding roles"
+      },
+      {
+        "id": "b",
+        "text": "State governments are abolished so Congress can run local schools"
+      },
+      {
+        "id": "c",
+        "text": "Federal and state powers remain strictly separated into airtight spheres"
+      },
+      {
+        "id": "d",
+        "text": "Only municipal mayors are permitted to collect income and sales taxes"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In cooperative federalism, national, state, and local governments collaborate on highways, healthcare, and education through grants.",
+    "fun_fact": "Political scientist Morton Grodzins coined the 'marble cake' metaphor in the 1960s.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/754",
+    "trap_notes": {
+      "b": "Cooperative federalism preserves state governments as active partners.",
+      "c": "Strict separation describes dual ('layer cake') federalism, not cooperative federalism.",
+      "d": "Taxing power is shared across federal, state, and local governments.",
+      "default": "Cooperative federalism features shared, overlapping responsibilities across government levels."
+    }
+  },
+  {
+    "id": "civics-mc-284",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "State & Local Government",
+    "era": "1868–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 41.5868,
+      "lng": -93.625,
+      "label": "Des Moines, Iowa"
+    },
+    "prompt": "Under Dillon's Rule, what legal relationship exists between a state government and its cities or counties?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cities hold independent sovereignty equal to that of the state"
+      },
+      {
+        "id": "b",
+        "text": "Local governments exercise only powers expressly granted by the state"
+      },
+      {
+        "id": "c",
+        "text": "Counties may veto state tax laws that affect local businesses"
+      },
+      {
+        "id": "d",
+        "text": "Municipal charters are protected by the U.S. Tenth Amendment"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Named after Iowa Judge John Dillon, Dillon's Rule treats local governments as creatures of the state with narrow delegated powers.",
+    "fun_fact": "Many states soften Dillon's Rule by granting larger cities 'home rule' charters.",
+    "source_url": "https://www.nlc.org/resource/cities-101-delegation-of-power/",
+    "trap_notes": {
+      "a": "Unlike states in the federal system, cities lack inherent constitutional sovereignty.",
+      "c": "Counties cannot veto state statutes.",
+      "d": "The Tenth Amendment reserves powers to the states, not specifically to municipalities.",
+      "default": "Dillon's Rule holds that local governments have only the powers granted by the state."
+    }
+  },
+  {
+    "id": "civics-mc-285",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Local Government",
+    "era": "1908–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.1496,
+      "lng": -79.0717,
+      "label": "Staunton, Virginia"
+    },
+    "prompt": "How does the council-manager form of city government operate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An elected mayor appoints all city council members and judges"
+      },
+      {
+        "id": "b",
+        "text": "A state governor directly runs the city's police and fire agencies"
+      },
+      {
+        "id": "c",
+        "text": "An elected council hires a professional city manager to run operations"
+      },
+      {
+        "id": "d",
+        "text": "Citizens vote in weekly town meetings to approve every city invoice"
+      }
+    ],
+    "answer": "c",
+    "explanation": "In a council-manager system, the elected council sets policy and hires a nonpartisan manager to oversee daily administration.",
+    "fun_fact": "Staunton, Virginia, appointed the nation's first city manager in 1908 during the Progressive Era.",
+    "source_url": "https://icma.org/page/council-manager-form-government",
+    "trap_notes": {
+      "a": "Voters elect the city council; the mayor does not appoint council members.",
+      "b": "Municipal administration remains local rather than run by the governor.",
+      "d": "Day-to-day administration is delegated to the hired manager, not weekly votes.",
+      "default": "Council-manager cities pair an elected policy council with an appointed professional manager."
+    }
+  },
+  {
+    "id": "civics-mc-286",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Legal System",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How does the standard of proof in a U.S. criminal trial differ from most civil lawsuits?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Criminal trials require preponderance of evidence; civil suits require certainty"
+      },
+      {
+        "id": "b",
+        "text": "Both criminal and civil trials require unanimous proof beyond a doubt"
+      },
+      {
+        "id": "c",
+        "text": "Civil trials require no evidence if a plaintiff hires a licensed attorney"
+      },
+      {
+        "id": "d",
+        "text": "Criminal trials require proof beyond a reasonable doubt; civil uses preponderance"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Because liberty is at stake, criminal prosecutors must prove guilt beyond a reasonable doubt, while civil cases usually use preponderance.",
+    "fun_fact": "Preponderance of the evidence simply means a claim is more likely true than not (over 50 percent).",
+    "source_url": "https://www.law.cornell.edu/wex/burden_of_proof",
+    "trap_notes": {
+      "a": "This reverses the standards: criminal cases demand the highest burden of proof.",
+      "b": "Most civil lawsuits use the lower preponderance-of-the-evidence standard.",
+      "c": "Civil plaintiffs must still present evidence meeting the legal burden of proof.",
+      "default": "Criminal trials require proof beyond a reasonable doubt, higher than civil preponderance."
+    }
+  },
+  {
+    "id": "civics-mc-287",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Criminal Justice",
+    "era": "20th Century–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What happens when a criminal defendant accepts a plea bargain in a U.S. court?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant pleads guilty to a lesser charge or sentence to avoid trial"
+      },
+      {
+        "id": "b",
+        "text": "The jury sets the defendant's sentence before hearing any witness testimony"
+      },
+      {
+        "id": "c",
+        "text": "The prosecutor drops all charges in exchange for a civil fine paid to police"
+      },
+      {
+        "id": "d",
+        "text": "The judge transfers the case straight to the U.S. Supreme Court"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In a plea bargain, the defendant waives a jury trial and pleads guilty in exchange for reduced charges or a lighter sentence.",
+    "fun_fact": "More than 90 percent of federal and state criminal convictions result from guilty pleas rather than trials.",
+    "source_url": "https://www.law.cornell.edu/wex/plea_bargain",
+    "trap_notes": {
+      "b": "A plea bargain avoids a jury trial altogether.",
+      "c": "Plea bargains result in a criminal conviction on the agreed charge, not dropped charges.",
+      "d": "Trial courts approve plea agreements; cases do not jump to the Supreme Court.",
+      "default": "Plea bargaining trades a guilty plea for reduced charges or a lighter recommended sentence."
+    }
+  },
+  {
+    "id": "civics-mc-288",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Judicial Branch",
+    "era": "1789–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "Under Article III, in which type of dispute does the U.S. Supreme Court hold original jurisdiction?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Appeals from state traffic courts challenging local parking fines"
+      },
+      {
+        "id": "b",
+        "text": "Lawsuits between two or more U.S. states or involving foreign ambassadors"
+      },
+      {
+        "id": "c",
+        "text": "Federal felony prosecutions initiated by a U.S. Attorney's office"
+      },
+      {
+        "id": "d",
+        "text": "Divorce and probate disputes involving residents of the District of Columbia"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article III, Section 2 gives the Supreme Court original jurisdiction in cases affecting ambassadors and disputes between states.",
+    "fun_fact": "Most Supreme Court cases arrive via appellate jurisdiction rather than original jurisdiction.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-iii/clauses/38",
+    "trap_notes": {
+      "a": "Local traffic disputes are heard first in state or municipal courts.",
+      "c": "Federal felony trials begin in U.S. District Courts, not the Supreme Court.",
+      "d": "Family and probate cases are handled by local trial courts.",
+      "default": "The Supreme Court's original jurisdiction covers state-versus-state and ambassador cases."
+    }
+  },
+  {
+    "id": "civics-mc-289",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Civil Liberties",
+    "era": "1925–Present",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "What has the Supreme Court accomplished through the doctrine of 'selective incorporation'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It allowed states to opt out of federal taxes by passing local bills"
+      },
+      {
+        "id": "b",
+        "text": "It merged all federal circuit courts into one national appellate panel"
+      },
+      {
+        "id": "c",
+        "text": "It applied most Bill of Rights protections to state governments case by case"
+      },
+      {
+        "id": "d",
+        "text": "It granted automatic U.S. citizenship to residents of new territories"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Using the 14th Amendment's Due Process Clause, the Court gradually made key Bill of Rights guarantees binding on the states.",
+    "fun_fact": "Gitlow v. New York (1925) began modern selective incorporation with free speech and press.",
+    "source_url": "https://www.law.cornell.edu/wex/incorporation_doctrine",
+    "trap_notes": {
+      "a": "Selective incorporation concerns civil liberties, not tax opt-outs.",
+      "b": "Federal courts remain organized into regional circuits and district courts.",
+      "d": "Territorial citizenship is governed by federal statutes and the Insular Cases.",
+      "default": "Selective incorporation applies fundamental Bill of Rights protections to state governments."
+    }
+  },
+  {
+    "id": "civics-mc-290",
+    "type": "mc",
+    "domain": "Civics",
+    "subdomain": "Campaign Finance",
+    "era": "1976",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8906,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court, Washington, D.C."
+    },
+    "prompt": "In Buckley v. Valeo (1976), what distinction did the Supreme Court draw in federal campaign finance law?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congress may cap direct donations to candidates, not candidates' own spending"
+      },
+      {
+        "id": "b",
+        "text": "Congress may ban all television campaign ads sixty days before an election"
+      },
+      {
+        "id": "c",
+        "text": "Candidates must fund their entire campaigns solely from small cash gifts"
+      },
+      {
+        "id": "d",
+        "text": "Political parties may not endorse candidates running for the U.S. Senate"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Court upheld contribution limits to prevent corruption, but struck down spending caps as unconstitutional limits on speech.",
+    "fun_fact": "Buckley v. Valeo established the framework for modern federal campaign finance jurisprudence.",
+    "source_url": "https://www.oyez.org/cases/1975/75-436",
+    "trap_notes": {
+      "b": "Blanket bans on campaign ads violate First Amendment political speech protections.",
+      "c": "Candidates may spend unlimited amounts of their own personal funds.",
+      "d": "Political parties enjoy broad First Amendment rights to endorse candidates.",
+      "default": "Buckley v. Valeo allowed contribution limits while protecting campaign spending as speech."
+    }
+  }
+]

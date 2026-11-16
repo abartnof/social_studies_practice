@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import type { Domain, Question } from '../types/quiz';
 
 /**
@@ -12,7 +13,7 @@ import type { Domain, Question } from '../types/quiz';
  * - 5  'data' (1/domain, 3x3 table stimulus)
  * - 5  'synthesis' (1/domain, Final Wager Question)
  */
-export const QUESTIONS: Question[] = [
+const BASE_QUESTIONS: Question[] = [
   // =========================================================================
   // US HISTORY (10)
   // =========================================================================
@@ -1772,6 +1773,18 @@ export const QUESTIONS: Question[] = [
     },
   },
 ];
+
+const bankModules = import.meta.glob('./bank/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, Question[]>;
+
+const BANK_QUESTIONS: Question[] = Object.keys(bankModules)
+  .sort()
+  .flatMap((path) => bankModules[path]);
+
+/** Full Praxis 5581 question bank (50 base + 3,000 generated bank items). */
+export const QUESTIONS: Question[] = [...BASE_QUESTIONS, ...BANK_QUESTIONS];
 
 /** Returns all questions whose primary domain matches `domain`. */
 export function getQuestionsByDomain(domain: Domain): Question[] {

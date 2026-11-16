@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "civics-ord-101",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1776–1791",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "Order these founding American constitutional milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Constitutional Convention meets in Philadelphia" },
+      { "id": "b", "text": "Declaration of Independence adopted" },
+      { "id": "c", "text": "Bill of Rights ratified by the states" },
+      { "id": "d", "text": "Articles of Confederation take effect" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Independence came in 1776, the Articles took effect in 1781, the Convention met in 1787, and the Bill of Rights passed in 1791.",
+    "source_url": "https://www.archives.gov/founding-docs",
+    "trap_notes": {
+      "default": "Sequence: Declaration (1776), Articles (1781), Convention (1787), Bill of Rights (1791)."
+    }
+  },
+  {
+    "id": "civics-ord-102",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1865–1920",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these constitutional amendments from earliest ratification to latest.",
+    "options": [
+      { "id": "a", "text": "Nineteenth Amendment guarantees women's suffrage" },
+      { "id": "b", "text": "Thirteenth Amendment abolishes slavery" },
+      { "id": "c", "text": "Fifteenth Amendment bars racial voting bans" },
+      { "id": "d", "text": "Fourteenth Amendment defines birthright citizenship" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The Reconstruction Amendments were ratified in 1865, 1868, and 1870, followed by the 19th Amendment in 1920.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Order: 13th (1865), 14th (1868), 15th (1870), and 19th (1920)."
+    }
+  },
+  {
+    "id": "civics-ord-103",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1913–1971",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these twentieth-century voting and election amendments from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Twenty-sixth Amendment lowers voting age to 18" },
+      { "id": "b", "text": "Seventeenth Amendment establishes direct Senate elections" },
+      { "id": "c", "text": "Twenty-fourth Amendment bans federal poll taxes" },
+      { "id": "d", "text": "Twenty-third Amendment grants D.C. electoral votes" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The 17th passed in 1913, the 23rd in 1961, the 24th in 1964, and the 26th in 1971.",
+    "source_url": "https://www.archives.gov/federal-register/constitution",
+    "trap_notes": {
+      "default": "Order: 17th (1913), 23rd (1961), 24th (1964), and 26th (1971)."
+    }
+  },
+  {
+    "id": "civics-ord-104",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1803–1954",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these landmark Supreme Court decisions from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Plessy v. Ferguson upholds 'separate but equal'" },
+      { "id": "b", "text": "Marbury v. Madison establishes judicial review" },
+      { "id": "c", "text": "Brown v. Board overturns school segregation" },
+      { "id": "d", "text": "McCulloch v. Maryland upholds a national bank" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Marbury was decided in 1803, McCulloch in 1819, Plessy in 1896, and Brown in 1954.",
+    "source_url": "https://www.oyez.org/cases",
+    "trap_notes": {
+      "default": "Order: Marbury (1803), McCulloch (1819), Plessy (1896), Brown (1954)."
+    }
+  },
+  {
+    "id": "civics-ord-105",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1961–1974",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Warren and Burger Court rulings from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "United States v. Nixon orders release of tapes" },
+      { "id": "b", "text": "Mapp v. Ohio applies the exclusionary rule" },
+      { "id": "c", "text": "Miranda v. Arizona requires suspect warnings" },
+      { "id": "d", "text": "Gideon v. Wainwright guarantees trial counsel" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Mapp came in 1961, Gideon in 1963, Miranda in 1966, and United States v. Nixon in 1974.",
+    "source_url": "https://www.oyez.org/cases",
+    "trap_notes": {
+      "default": "Order: Mapp (1961), Gideon (1963), Miranda (1966), U.S. v. Nixon (1974)."
+    }
+  },
+  {
+    "id": "civics-ord-106",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1919–1989",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these First Amendment Supreme Court cases from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Texas v. Johnson protects flag burning" },
+      { "id": "b", "text": "Schenck v. United States sets 'clear and present danger'" },
+      { "id": "c", "text": "Tinker v. Des Moines protects student armbands" },
+      { "id": "d", "text": "Engel v. Vitale bans state-written school prayer" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Schenck was decided in 1919, Engel in 1962, Tinker in 1969, and Texas v. Johnson in 1989.",
+    "source_url": "https://www.oyez.org/cases",
+    "trap_notes": {
+      "default": "Order: Schenck (1919), Engel (1962), Tinker (1969), Texas v. Johnson (1989)."
+    }
+  },
+  {
+    "id": "civics-ord-107",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1789–1951",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these changes to the U.S. presidency from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Twenty-second Amendment sets a two-term limit" },
+      { "id": "b", "text": "Twelfth Amendment separates president and VP ballots" },
+      { "id": "c", "text": "Twentieth Amendment moves Inauguration Day to Jan. 20" },
+      { "id": "d", "text": "George Washington steps down after two terms" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Washington retired in 1797, the 12th passed in 1804, the 20th in 1933, and the 22nd in 1951.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments",
+    "trap_notes": {
+      "default": "Order: Washington (1797), 12th (1804), 20th (1933), 22nd (1951)."
+    }
+  },
+  {
+    "id": "civics-ord-108",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1919–1933",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Progressive-era and Prohibition milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Twenty-first Amendment repeals national Prohibition" },
+      { "id": "b", "text": "Sixteenth Amendment authorizes federal income tax" },
+      { "id": "c", "text": "Eighteenth Amendment establishes national Prohibition" },
+      { "id": "d", "text": "Nineteenth Amendment secures women's voting rights" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "The 16th passed in 1913, the 18th in 1919, the 19th in 1920, and the 21st in 1933.",
+    "source_url": "https://www.archives.gov/milestone-documents/list",
+    "trap_notes": {
+      "default": "Order: 16th (1913), 18th (1919), 19th (1920), 21st (1933)."
+    }
+  },
+  {
+    "id": "civics-ord-109",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1954–1968",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Civil Rights Era legal milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Voting Rights Act bans literacy tests" },
+      { "id": "b", "text": "Brown v. Board of Education ruling" },
+      { "id": "c", "text": "Fair Housing Act bars housing discrimination" },
+      { "id": "d", "text": "Civil Rights Act bans public segregation" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Brown came in 1954, the Civil Rights Act in 1964, the Voting Rights Act in 1965, and the Fair Housing Act in 1968.",
+    "source_url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+    "trap_notes": {
+      "default": "Order: Brown (1954), Civil Rights Act (1964), Voting Rights Act (1965), Fair Housing (1968)."
+    }
+  },
+  {
+    "id": "civics-ord-110",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1215–1789",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Order these foundational documents of constitutional government from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "English Bill of Rights limits royal power" },
+      { "id": "b", "text": "Magna Carta signed at Runnymede" },
+      { "id": "c", "text": "U.S. Constitution takes effect" },
+      { "id": "d", "text": "Mayflower Compact signed by Pilgrims" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Magna Carta was signed in 1215, Mayflower Compact in 1620, English Bill of Rights in 1689, and U.S. Constitution in 1789.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/magna-carta",
+    "trap_notes": {
+      "default": "Order: Magna Carta (1215), Mayflower Compact (1620), English Bill of Rights (1689), U.S. Constitution (1789)."
+    }
+  },
+  {
+    "id": "civics-ord-111",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1789–1996",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these shifts in U.S. federalism from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "New Deal expands cooperative federal grants" },
+      { "id": "b", "text": "Dual federalism keeps state and federal spheres apart" },
+      { "id": "c", "text": "Welfare reform shifts aid to state block grants" },
+      { "id": "d", "text": "Great Society launches new categorical grants" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Dual federalism dominated the 1800s, New Deal came in the 1930s, Great Society in the 1960s, and 1996 welfare reform used block grants.",
+    "source_url": "https://www.britannica.com/topic/federalism",
+    "trap_notes": {
+      "default": "Order: Dual federalism (1800s), New Deal (1930s), Great Society (1960s), 1996 welfare reform."
+    }
+  },
+  {
+    "id": "civics-ord-112",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1828–1971",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these expansions of the U.S. electorate from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Indian Citizenship Act grants Native Americans citizenship" },
+      { "id": "b", "text": "Most states drop property rules for white men" },
+      { "id": "c", "text": "Twenty-sixth Amendment lowers voting age to 18" },
+      { "id": "d", "text": "Fifteenth Amendment bars racial voting bans" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Property rules fell in the 1820s, the 15th passed in 1870, the Indian Citizenship Act in 1924, and the 26th in 1971.",
+    "source_url": "https://www.loc.gov/classroom-materials/elections/right-to-vote/",
+    "trap_notes": {
+      "default": "Order: Jacksonian era (1820s), 15th Amendment (1870), Indian Citizenship Act (1924), 26th (1971)."
+    }
+  },
+  {
+    "id": "civics-ord-113",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1796–1980",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. party-system realignments from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "New Deal coalition anchors Democratic majorities" },
+      { "id": "b", "text": "Federalists and Democratic-Republicans form first parties" },
+      { "id": "c", "text": "Republican Party forms in opposition to slavery's spread" },
+      { "id": "d", "text": "Reagan coalition shifts conservative voters to Republicans" }
+    ],
+    "answer": ["b", "c", "a", "d"],
+    "explanation": "The First Party System formed in the 1790s, Republicans in 1854, New Deal coalition in 1932, and Reagan coalition in 1980.",
+    "source_url": "https://www.britannica.com/topic/political-party/The-United-States",
+    "trap_notes": {
+      "default": "Order: 1790s first parties, 1854 Republicans, 1932 New Deal, 1980 Reagan coalition."
+    }
+  },
+  {
+    "id": "civics-ord-114",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1971–2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these federal campaign finance milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Citizens United removes corporate independent spending bans" },
+      { "id": "b", "text": "Federal Election Campaign Act creates disclosure rules" },
+      { "id": "c", "text": "Bipartisan Campaign Reform Act bans soft money" },
+      { "id": "d", "text": "Buckley v. Valeo equates campaign spending with speech" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "FECA passed in 1971, Buckley was decided in 1976, McCain-Feingold (BCRA) passed in 2002, and Citizens United came in 2010.",
+    "source_url": "https://www.fec.gov/about/mission-and-history/",
+    "trap_notes": {
+      "default": "Order: FECA (1971), Buckley (1976), BCRA (2002), Citizens United (2010)."
+    }
+  },
+  {
+    "id": "civics-ord-115",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1789–1974",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these congressional oversight and budget laws from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "War Powers Resolution limits undeclared deployments" },
+      { "id": "b", "text": "Judiciary Act of 1789 creates federal court system" },
+      { "id": "c", "text": "Congressional Budget Act creates the CBO" },
+      { "id": "d", "text": "Pendleton Act establishes civil service merit exams" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Judiciary Act passed in 1789, Pendleton Act in 1883, War Powers Resolution in 1973, and Budget Act in 1974.",
+    "source_url": "https://www.congress.gov/",
+    "trap_notes": {
+      "default": "Order: Judiciary Act (1789), Pendleton Act (1883), War Powers (1973), Budget Act (1974)."
+    }
+  },
+  {
+    "id": "civics-ord-116",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1919–1995",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "Order these international organizations by their founding date from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "World Trade Organization replaces GATT" },
+      { "id": "b", "text": "League of Nations formed after World War I" },
+      { "id": "c", "text": "NATO formed for North Atlantic defense" },
+      { "id": "d", "text": "United Nations Charter takes effect" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The League formed in 1920, the UN in 1945, NATO in 1949, and the WTO in 1995.",
+    "source_url": "https://www.un.org/en/about-us/history-of-the-un",
+    "trap_notes": {
+      "default": "Order: League of Nations (1920), UN (1945), NATO (1949), WTO (1995)."
+    }
+  },
+  {
+    "id": "civics-ord-117",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1951–2002",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels, Belgium" },
+    "prompt": "Order these steps in European integration from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Euro banknotes and coins enter circulation" },
+      { "id": "b", "text": "European Coal and Steel Community founded" },
+      { "id": "c", "text": "Maastricht Treaty creates the European Union" },
+      { "id": "d", "text": "Treaty of Rome launches the Common Market" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The ECSC formed in 1951, Treaty of Rome in 1957, Maastricht Treaty in 1992 (in force 1993), and euro cash in 2002.",
+    "source_url": "https://european-union.europa.eu/principles-countries-history/history-eu_en",
+    "trap_notes": {
+      "default": "Order: ECSC (1951), Treaty of Rome (1957), Maastricht (1992), euro cash (2002)."
+    }
+  },
+  {
+    "id": "civics-ord-118",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1824–1942",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Supreme Court Commerce Clause rulings from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Wickard v. Filburn regulates home-grown wheat" },
+      { "id": "b", "text": "Gibbons v. Ogden strikes down steamboat monopoly" },
+      { "id": "c", "text": "United States v. Lopez limits federal gun-free zone law" },
+      { "id": "d", "text": "Heart of Atlanta Motel upholds Civil Rights Act" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Gibbons was decided in 1824, Wickard in 1942, Heart of Atlanta in 1964, and Lopez in 1995.",
+    "source_url": "https://www.oyez.org/cases",
+    "trap_notes": {
+      "default": "Order: Gibbons (1824), Wickard (1942), Heart of Atlanta (1964), Lopez (1995)."
+    }
+  },
+  {
+    "id": "civics-ord-119",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1962–2015",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these Fourteenth Amendment Equal Protection rulings from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Obergefell v. Hodges protects same-sex marriage" },
+      { "id": "b", "text": "Baker v. Carr allows redistricting challenges" },
+      { "id": "c", "text": "Loving v. Virginia strikes down interracial marriage bans" },
+      { "id": "d", "text": "United States v. Virginia opens VMI to women" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Baker came in 1962, Loving in 1967, U.S. v. Virginia in 1996, and Obergefell in 2015.",
+    "source_url": "https://www.oyez.org/cases",
+    "trap_notes": {
+      "default": "Order: Baker (1962), Loving (1967), U.S. v. Virginia (1996), Obergefell (2015)."
+    }
+  },
+  {
+    "id": "civics-ord-120",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1925–2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these selective incorporation milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "McDonald v. Chicago incorporates Second Amendment" },
+      { "id": "b", "text": "Gitlow v. New York incorporates free speech" },
+      { "id": "c", "text": "Gideon v. Wainwright incorporates right to counsel" },
+      { "id": "d", "text": "Cantwell v. Connecticut incorporates free exercise" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Gitlow came in 1925, Cantwell in 1940, Gideon in 1963, and McDonald in 2010.",
+    "source_url": "https://www.oyez.org/cases",
+    "trap_notes": {
+      "default": "Order: Gitlow (1925), Cantwell (1940), Gideon (1963), McDonald (2010)."
+    }
+  },
+  {
+    "id": "civics-ord-121",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1868–2021",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. presidential impeachment and resignation events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "House impeaches Bill Clinton over perjury charges" },
+      { "id": "b", "text": "House impeaches Andrew Johnson over Tenure of Office Act" },
+      { "id": "c", "text": "Donald Trump faces first House impeachment trial" },
+      { "id": "d", "text": "Richard Nixon resigns ahead of impeachment vote" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Johnson was impeached in 1868, Nixon resigned in 1974, Clinton was impeached in 1998, and Trump's first trial was in 2020.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "trap_notes": {
+      "default": "Order: Johnson (1868), Nixon (1974), Clinton (1998), Trump (2019-2020)."
+    }
+  },
+  {
+    "id": "civics-ord-122",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1945–1994",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order these twentieth-century democratic transitions from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "South Africa holds first post-apartheid all-race election" },
+      { "id": "b", "text": "West Germany adopts its democratic Basic Law" },
+      { "id": "c", "text": "Poland holds semi-free elections ending Communist rule" },
+      { "id": "d", "text": "Spain adopts a democratic constitution after Franco" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "West Germany's Basic Law passed in 1949, Spain's constitution in 1978, Poland's elections in 1989, and South Africa's in 1994.",
+    "source_url": "https://www.britannica.com/topic/democracy",
+    "trap_notes": {
+      "default": "Order: Germany (1949), Spain (1978), Poland (1989), South Africa (1994)."
+    }
+  },
+  {
+    "id": "civics-ord-123",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–1788",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "Order these steps in the adoption of the U.S. Constitution from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "New Hampshire becomes ninth state to ratify" },
+      { "id": "b", "text": "Delegates sign the Constitution in Philadelphia" },
+      { "id": "c", "text": "First Congress convenes in New York City" },
+      { "id": "d", "text": "Delaware becomes first state to ratify" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Delegates signed in Sept. 1787, Delaware ratified in Dec. 1787, New Hampshire in June 1788, and the First Congress met in March 1789.",
+    "source_url": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "trap_notes": {
+      "default": "Order: Signed (Sept. 1787), Delaware (Dec. 1787), New Hampshire (June 1788), First Congress (1789)."
+    }
+  },
+  {
+    "id": "civics-ord-124",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1833–1925",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these milestones in the reach of the Bill of Rights from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Gitlow v. New York begins selective incorporation" },
+      { "id": "b", "text": "Barron v. Baltimore limits Bill of Rights to federal government" },
+      { "id": "c", "text": "First Ten Amendments ratified as the Bill of Rights" },
+      { "id": "d", "text": "Fourteenth Amendment adds Due Process Clause for states" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The Bill of Rights passed in 1791, Barron ruled in 1833, the 14th passed in 1868, and Gitlow began incorporation in 1925.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xiv",
+    "trap_notes": {
+      "default": "Order: Bill of Rights (1791), Barron (1833), 14th Amendment (1868), Gitlow (1925)."
+    }
+  },
+  {
+    "id": "civics-ord-125",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1944–1995",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 44.2584, "lng": -71.4417, "label": "Bretton Woods, New Hampshire" },
+    "prompt": "Order these global economic and legal milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "NAFTA creates North American free-trade zone" },
+      { "id": "b", "text": "Bretton Woods creates the IMF and World Bank" },
+      { "id": "c", "text": "Universal Declaration of Human Rights adopted" },
+      { "id": "d", "text": "OPEC formed by major oil-exporting nations" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Bretton Woods met in 1944, UDHR passed in 1948, OPEC formed in 1960, and NAFTA took effect in 1994.",
+    "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "trap_notes": {
+      "default": "Order: Bretton Woods (1944), UDHR (1948), OPEC (1960), NAFTA (1994)."
+    }
+  },
+  {
+    "id": "civics-ord-126",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1933–1971",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order these landmark executive-power events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Court blocks prior restraint on Pentagon Papers" },
+      { "id": "b", "text": "Court rejects FDR's 'court-packing' expansion plan" },
+      { "id": "c", "text": "Congress passes the Freedom of Information Act" },
+      { "id": "d", "text": "Court bars Truman from seizing U.S. steel mills" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "FDR's plan failed in 1937, Youngstown ruled in 1952, FOIA passed in 1966, and Pentagon Papers ruled in 1971.",
+    "source_url": "https://www.oyez.org/cases",
+    "trap_notes": {
+      "default": "Order: Court-packing (1937), Youngstown (1952), FOIA (1966), Pentagon Papers (1971)."
+    }
+  },
+  {
+    "id": "civics-ord-127",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1789–2024",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the standard stages of a U.S. presidential election cycle from first to last.",
+    "options": [
+      { "id": "a", "text": "Electors cast official ballots in state capitals" },
+      { "id": "b", "text": "State primaries and caucuses award delegates" },
+      { "id": "c", "text": "General election voters cast ballots in November" },
+      { "id": "d", "text": "National party conventions nominate candidates" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Primaries/caucuses run in spring, conventions in summer, general election in November, and Electoral College votes in December.",
+    "source_url": "https://www.usa.gov/presidential-election-process",
+    "trap_notes": {
+      "default": "Order: Primaries, party conventions, November election, December Electoral College vote."
+    }
+  },
+  {
+    "id": "civics-ord-128",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "Modern",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the typical steps of a federal criminal case from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Jury hears evidence and delivers a verdict" },
+      { "id": "b", "text": "Police arrest suspect upon probable cause" },
+      { "id": "c", "text": "Judge imposes sentence after conviction" },
+      { "id": "d", "text": "Grand jury indicts and defendant is arraigned" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Arrest comes first, followed by indictment and arraignment, then trial and verdict, and finally sentencing.",
+    "source_url": "https://www.justice.gov/usao/justice-101/steps-federal-criminal-process",
+    "trap_notes": {
+      "default": "Order: Arrest, indictment/arraignment, trial verdict, sentencing."
+    }
+  },
+  {
+    "id": "civics-ord-129",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "Modern",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the steps for a federal appellate case reaching the Supreme Court from first to last.",
+    "options": [
+      { "id": "a", "text": "Justices hear oral arguments and hold conference" },
+      { "id": "b", "text": "Federal district court issues initial trial judgment" },
+      { "id": "c", "text": "Supreme Court grants a writ of certiorari" },
+      { "id": "d", "text": "U.S. Court of Appeals reviews the trial record" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Cases start in district court, go to a Court of Appeals, receive certiorari from the Supreme Court, and then reach oral argument.",
+    "source_url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+    "trap_notes": {
+      "default": "Order: District court, Court of Appeals, writ of certiorari, oral arguments."
+    }
+  },
+  {
+    "id": "civics-ord-130",
+    "type": "ordering",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "1689–1997",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Order these British constitutional reforms from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Parliament Act limits House of Lords veto power" },
+      { "id": "b", "text": "Great Reform Act expands middle-class voting" },
+      { "id": "c", "text": "Devolution creates Scottish and Welsh parliaments" },
+      { "id": "d", "text": "Representation of the People Act extends women's vote" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The Great Reform Act passed in 1832, the Parliament Act in 1911, women's partial suffrage in 1918, and devolution in 1997-1998.",
+    "source_url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/",
+    "trap_notes": {
+      "default": "Order: Great Reform Act (1832), Parliament Act (1911), 1918 suffrage, 1997 devolution."
+    }
+  },
+  {
+    "id": "civics-cau-101",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps of how a standard bill becomes a federal law.",
+    "options": [
+      { "id": "a", "text": "President signs the identical bill into law" },
+      { "id": "b", "text": "Standing committee marks up and reports the bill" },
+      { "id": "c", "text": "Member of Congress introduces the bill" },
+      { "id": "d", "text": "House and Senate both pass the exact same text" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "A bill is introduced, reviewed in committee, passed in identical form by both chambers, and signed by the president.",
+    "source_url": "https://www.congress.gov/help/learn-about-the-legislative-process",
+    "trap_notes": {
+      "default": "Sequence: Introduction, committee markup, passage by both houses, presidential signature."
+    }
+  },
+  {
+    "id": "civics-cau-102",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain of a presidential veto and congressional override.",
+    "options": [
+      { "id": "a", "text": "Two-thirds of both chambers vote to override" },
+      { "id": "b", "text": "President returns the bill with veto objections" },
+      { "id": "c", "text": "Bill becomes law without presidential signature" },
+      { "id": "d", "text": "Congress passes a bill and sends it to the White House" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "After Congress sends a bill, the president vetoes it, and a two-thirds vote in both chambers enacts it into law.",
+    "source_url": "https://www.senate.gov/reference/glossary_term/veto.htm",
+    "trap_notes": {
+      "default": "Sequence: Bill sent, veto returned, two-thirds override in both houses, law enacted."
+    }
+  },
+  {
+    "id": "civics-cau-103",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps of amending the U.S. Constitution under Article V.",
+    "options": [
+      { "id": "a", "text": "Three-fourths of state legislatures ratify the text" },
+      { "id": "b", "text": "Two-thirds of House and Senate approve the proposal" },
+      { "id": "c", "text": "Amendment takes effect as part of the Constitution" },
+      { "id": "d", "text": "Archivist transmits the proposed amendment to states" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Congress proposes by a two-thirds vote, the Archivist sends it to states, and three-fourths ratification makes it law.",
+    "source_url": "https://www.archives.gov/federal-register/constitution",
+    "trap_notes": {
+      "default": "Sequence: Two-thirds congressional vote, sent to states, three-fourths ratification, takes effect."
+    }
+  },
+  {
+    "id": "civics-cau-104",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps of federal impeachment and removal from office.",
+    "options": [
+      { "id": "a", "text": "Two-thirds of the Senate votes to convict" },
+      { "id": "b", "text": "House votes by simple majority to impeach" },
+      { "id": "c", "text": "Official is removed from federal office" },
+      { "id": "d", "text": "Senate conducts a trial with House managers" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The House impeaches by majority vote, the Senate holds a trial, and a two-thirds conviction removes the official.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "trap_notes": {
+      "default": "Sequence: House impeachment, Senate trial, two-thirds conviction, removal."
+    }
+  },
+  {
+    "id": "civics-cau-105",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1781–1789",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "Order the causal chain linking Shays' Rebellion to the U.S. Constitution.",
+    "options": [
+      { "id": "a", "text": "Delegates meet in Philadelphia to draft a new charter" },
+      { "id": "b", "text": "Indebted farmers revolt in western Massachusetts" },
+      { "id": "c", "text": "Weak Confederation Congress cannot fund a response" },
+      { "id": "d", "text": "State leaders demand a stronger national government" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Shays' Rebellion exposed Congress's inability to raise funds or troops, prompting calls for the 1787 Convention.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/convention-and-ratification.html",
+    "trap_notes": {
+      "default": "Sequence: Farmers revolt, Congress lacks power, leaders urge reform, Convention meets."
+    }
+  },
+  {
+    "id": "civics-cau-106",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787–1791",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain that produced the U.S. Bill of Rights in 1791.",
+    "options": [
+      { "id": "a", "text": "Federalists promise amendments to win key state votes" },
+      { "id": "b", "text": "Anti-Federalists warn the Constitution omits rights" },
+      { "id": "c", "text": "First Congress proposes and states ratify ten amendments" },
+      { "id": "d", "text": "Massachusetts and Virginia ratify with recommended changes" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Anti-Federalist objections led Federalists to promise amendments, securing state ratifications and the 1791 Bill of Rights.",
+    "source_url": "https://www.archives.gov/founding-docs/bill-of-rights",
+    "trap_notes": {
+      "default": "Sequence: Anti-Federalist critique, Federalist pledge, state ratifications, 10 amendments passed."
+    }
+  },
+  {
+    "id": "civics-cau-107",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1803",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain in Marbury v. Madison (1803) that established judicial review.",
+    "options": [
+      { "id": "a", "text": "Marshall rules Section 13 of the Judiciary Act unconstitutional" },
+      { "id": "b", "text": "Madison withholds Marbury's signed judicial commission" },
+      { "id": "c", "text": "Judicial review becomes a binding constitutional precedent" },
+      { "id": "d", "text": "Marbury asks the Supreme Court directly for a writ" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "When Madison withheld his commission, Marbury petitioned the Court, which struck down part of the Judiciary Act.",
+    "source_url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+    "trap_notes": {
+      "default": "Sequence: Commission withheld, Marbury sues, Section 13 struck down, judicial review set."
+    }
+  },
+  {
+    "id": "civics-cau-108",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps for confirming a U.S. Supreme Court justice.",
+    "options": [
+      { "id": "a", "text": "Full Senate votes by simple majority to confirm" },
+      { "id": "b", "text": "President nominates a candidate to fill a vacancy" },
+      { "id": "c", "text": "Justice takes the judicial oath and joins the Court" },
+      { "id": "d", "text": "Senate Judiciary Committee holds confirmation hearings" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The president nominates, the Judiciary Committee holds hearings, the full Senate confirms by majority, and the justice takes the oath.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/nominations.htm",
+    "trap_notes": {
+      "default": "Sequence: Presidential nomination, committee hearings, Senate majority vote, oath of office."
+    }
+  },
+  {
+    "id": "civics-cau-109",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps of how a U.S. treaty takes legal effect.",
+    "options": [
+      { "id": "a", "text": "Senate votes by two-thirds majority to consent" },
+      { "id": "b", "text": "President and diplomats negotiate the treaty text" },
+      { "id": "c", "text": "Treaty becomes binding supreme law under Article VI" },
+      { "id": "d", "text": "President submits the signed treaty to the Senate" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The executive negotiates and submits the treaty, two-thirds of the Senate consents, and ratification makes it binding law.",
+    "source_url": "https://www.senate.gov/about/powers-procedures/treaties.htm",
+    "trap_notes": {
+      "default": "Sequence: Negotiation, submission to Senate, two-thirds Senate consent, supreme law."
+    }
+  },
+  {
+    "id": "civics-cau-110",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps when no presidential candidate wins 270 electoral votes.",
+    "options": [
+      { "id": "a", "text": "House elects the president with one vote per state" },
+      { "id": "b", "text": "Twelfth Amendment contingent election rule takes effect" },
+      { "id": "c", "text": "Electoral College vote fails to reach a majority" },
+      { "id": "d", "text": "Senate separately elects the vice president by majority" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "If no candidate reaches 270, the 12th Amendment triggers a House vote (one per state) for president and a Senate vote for VP.",
+    "source_url": "https://www.archives.gov/electoral-college/faq#no270",
+    "trap_notes": {
+      "default": "Sequence: No 270 majority, 12th Amendment triggers, House picks president, Senate picks VP."
+    }
+  },
+  {
+    "id": "civics-cau-111",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1790–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain from the decennial U.S. Census to congressional redistricting.",
+    "options": [
+      { "id": "a", "text": "States redraw congressional district boundary maps" },
+      { "id": "b", "text": "Census Bureau counts total U.S. population every ten years" },
+      { "id": "c", "text": "Courts review challenged maps for equal population" },
+      { "id": "d", "text": "435 House seats are reapportioned among the states" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The census count drives reapportionment of the 435 House seats, which triggers state redistricting subject to judicial review.",
+    "source_url": "https://www.census.gov/topics/public-sector/congressional-apportionment.html",
+    "trap_notes": {
+      "default": "Sequence: Census count, House seat reapportionment, state redistricting, court review."
+    }
+  },
+  {
+    "id": "civics-cau-112",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1868–1960s",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain of how selective incorporation limits state governments.",
+    "options": [
+      { "id": "a", "text": "State laws violating those rights are struck down" },
+      { "id": "b", "text": "Fourteenth Amendment bars states from denying due process" },
+      { "id": "c", "text": "Supreme Court rules a specific right is fundamental" },
+      { "id": "d", "text": "Individual challenges a state law in federal court" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The 14th Amendment Due Process Clause lets litigants challenge state laws, leading the Court to apply fundamental rights to states.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xiv",
+    "trap_notes": {
+      "default": "Sequence: 14th Amendment ratified, state law challenged, right deemed fundamental, state law voided."
+    }
+  },
+  {
+    "id": "civics-cau-113",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London, United Kingdom" },
+    "prompt": "Order the causal chain of a vote of no confidence in a parliamentary system.",
+    "options": [
+      { "id": "a", "text": "Coalition splits or loses its majority in parliament" },
+      { "id": "b", "text": "New general election or new cabinet coalition follows" },
+      { "id": "c", "text": "Parliament passes a formal motion of no confidence" },
+      { "id": "d", "text": "Prime minister and cabinet must step down" }
+    ],
+    "answer": ["a", "c", "d", "b"],
+    "explanation": "Losing a parliamentary majority leads to a no-confidence vote, forcing the cabinet out and triggering a new government or election.",
+    "source_url": "https://www.britannica.com/topic/vote-of-confidence",
+    "trap_notes": {
+      "default": "Sequence: Majority lost, no-confidence vote passes, prime minister resigns, new election or cabinet."
+    }
+  },
+  {
+    "id": "civics-cau-114",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1946–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps of federal agency rulemaking under the Administrative Procedure Act.",
+    "options": [
+      { "id": "a", "text": "Agency publishes proposed rule for public comment" },
+      { "id": "b", "text": "Congress passes a statute authorizing agency oversight" },
+      { "id": "c", "text": "Final rule is published in the Federal Register" },
+      { "id": "d", "text": "Agency reviews public feedback and revises draft" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Congress delegates authority by statute, the agency proposes a rule, gathers public comments, and publishes the final regulation.",
+    "source_url": "https://www.federalregister.gov/uploads/2011/01/the_rulemaking_process.pdf",
+    "trap_notes": {
+      "default": "Sequence: Statute authorizes, proposed rule published, comments reviewed, final rule issued."
+    }
+  },
+  {
+    "id": "civics-cau-115",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1954–1965",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.0473, "lng": -95.6752, "label": "Topeka, Kansas" },
+    "prompt": "Order the causal chain from Brown v. Board of Education to federal civil rights enforcement.",
+    "options": [
+      { "id": "a", "text": "Southern states resist desegregation in public schools" },
+      { "id": "b", "text": "Brown rules school segregation violates Equal Protection" },
+      { "id": "c", "text": "Congress passes the 1964 Civil Rights Act to enforce equality" },
+      { "id": "d", "text": "Federal troops and courts intervene in Little Rock" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Brown triggered state resistance, leading to federal intervention in Little Rock and later the Civil Rights Act of 1964.",
+    "source_url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+    "trap_notes": {
+      "default": "Sequence: Brown ruling, state resistance, Little Rock enforcement, 1964 Civil Rights Act."
+    }
+  },
+  {
+    "id": "civics-cau-116",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1870–1965",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 32.4074, "lng": -87.0211, "label": "Selma, Alabama" },
+    "prompt": "Order the causal chain that led to the Voting Rights Act of 1965.",
+    "options": [
+      { "id": "a", "text": "Federal registrars enroll Black voters across the South" },
+      { "id": "b", "text": "Literacy tests and intimidation block Black registration" },
+      { "id": "c", "text": "Congress passes the Voting Rights Act of 1965" },
+      { "id": "d", "text": "Selma marches highlight violent voter suppression" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Disenfranchisement sparked the Selma protests, prompting Congress to pass the 1965 Voting Rights Act and send federal registrars.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "default": "Sequence: Voter suppression, Selma marches, Voting Rights Act, federal voter enrollment."
+    }
+  },
+  {
+    "id": "civics-cau-117",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1787",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "Order the causal chain that produced the Great Compromise in 1787.",
+    "options": [
+      { "id": "a", "text": "Small states counter with the equal-vote New Jersey Plan" },
+      { "id": "b", "text": "Convention deadlocks over legislative representation" },
+      { "id": "c", "text": "Large states propose the population-based Virginia Plan" },
+      { "id": "d", "text": "Roger Sherman brokers a two-house compromise" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "The Virginia Plan prompted the New Jersey Plan, creating a deadlock that Roger Sherman's bicameral compromise resolved.",
+    "source_url": "https://www.senate.gov/about/origins-foundations/idea-of-the-senate/1787ConnecticutCompromise.htm",
+    "trap_notes": {
+      "default": "Sequence: Virginia Plan, New Jersey Plan, Convention deadlock, Great Compromise."
+    }
+  },
+  {
+    "id": "civics-cau-118",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1972–1974",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain of the Watergate constitutional crisis.",
+    "options": [
+      { "id": "a", "text": "Supreme Court orders Nixon to turn over Oval Office tapes" },
+      { "id": "b", "text": "Senate hearings reveal secret White House taping system" },
+      { "id": "c", "text": "Nixon resigns before a House impeachment vote" },
+      { "id": "d", "text": "Special prosecutor subpoenas tapes and Nixon claims privilege" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Senate hearings revealed the tapes, the special prosecutor subpoenaed them, the Court ordered release, and Nixon resigned.",
+    "source_url": "https://www.oyez.org/cases/1974/73-1766",
+    "trap_notes": {
+      "default": "Sequence: Tapes revealed, subpoenaed, Court orders release, Nixon resigns."
+    }
+  },
+  {
+    "id": "civics-cau-119",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Federalism",
+    "era": "1984–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain showing how Congress uses conditional highway grants.",
+    "options": [
+      { "id": "a", "text": "All fifty states raise their minimum drinking age to 21" },
+      { "id": "b", "text": "Congress ties part of federal highway funds to age 21" },
+      { "id": "c", "text": "Supreme Court upholds the funding condition in Dole" },
+      { "id": "d", "text": "States face losing 5 percent of federal road money" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Congress attached a drinking-age condition to highway aid, threatening a 5% cut; the Court upheld it, and all states complied.",
+    "source_url": "https://www.oyez.org/cases/1986/86-260",
+    "trap_notes": {
+      "default": "Sequence: Condition enacted, funding cut threatened, Court upholds rule, states raise age to 21."
+    }
+  },
+  {
+    "id": "civics-cau-120",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "Modern",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain of Duverger's Law in U.S. congressional elections.",
+    "options": [
+      { "id": "a", "text": "Voters avoid 'wasting' votes on minor-party candidates" },
+      { "id": "b", "text": "Districts elect one winner by single-member plurality" },
+      { "id": "c", "text": "A stable two-party system dominates national politics" },
+      { "id": "d", "text": "Minor parties struggle to win seats and lose donors" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Single-member plurality rules discourage backing minor parties, starving them of seats and sustaining two major parties.",
+    "source_url": "https://www.britannica.com/topic/Duvergers-law",
+    "trap_notes": {
+      "default": "Sequence: Single-member plurality, strategic voting, minor parties falter, two-party system."
+    }
+  },
+  {
+    "id": "civics-cau-121",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1974–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain of a federal government shutdown.",
+    "options": [
+      { "id": "a", "text": "Nonessential federal agencies furlough workers" },
+      { "id": "b", "text": "Fiscal year ends without signed spending bills" },
+      { "id": "c", "text": "Antideficiency Act bars spending without appropriations" },
+      { "id": "d", "text": "Congress and the president deadlock on budget bills" }
+    ],
+    "answer": ["d", "b", "c", "a"],
+    "explanation": "Budget deadlock leaves appropriations unsigned at the fiscal deadline, triggering the Antideficiency Act and worker furloughs.",
+    "source_url": "https://www.gao.gov/legal/appropriations-law/resources",
+    "trap_notes": {
+      "default": "Sequence: Budget deadlock, deadline passes, Antideficiency Act applies, furloughs begin."
+    }
+  },
+  {
+    "id": "civics-cau-122",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Landmark SCOTUS Cases",
+    "era": "1963–1966",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.4484, "lng": -112.074, "label": "Phoenix, Arizona" },
+    "prompt": "Order the causal chain in Miranda v. Arizona (1966).",
+    "options": [
+      { "id": "a", "text": "Court requires police warnings before interrogation" },
+      { "id": "b", "text": "Police question Ernesto Miranda without advising him" },
+      { "id": "c", "text": "Miranda signs a confession used to convict him" },
+      { "id": "d", "text": "Supreme Court rules custodial pressure risks self-incrimination" }
+    ],
+    "answer": ["b", "c", "d", "a"],
+    "explanation": "Unwarned questioning produced a confession; the Court found custodial pressure threatened Fifth Amendment rights and mandated warnings.",
+    "source_url": "https://www.oyez.org/cases/1965/759",
+    "trap_notes": {
+      "default": "Sequence: Unwarned questioning, confession, 5th Amendment ruling, Miranda warnings."
+    }
+  },
+  {
+    "id": "civics-cau-123",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1945–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7489, "lng": -73.968, "label": "New York, New York" },
+    "prompt": "Order the causal steps for a UN Security Council peacekeeping mission.",
+    "options": [
+      { "id": "a", "text": "Member states contribute troops wearing blue helmets" },
+      { "id": "b", "text": "Armed conflict threatens international peace" },
+      { "id": "c", "text": "Security Council votes for a peacekeeping mandate" },
+      { "id": "d", "text": "Five permanent members refrain from casting a veto" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "A crisis prompts Council action; if none of the five permanent members veto, the resolution passes and member states deploy troops.",
+    "source_url": "https://peacekeeping.un.org/en/how-we-are-funded",
+    "trap_notes": {
+      "default": "Sequence: Conflict arises, no P5 veto, Security Council passes mandate, troops deployed."
+    }
+  },
+  {
+    "id": "civics-cau-124",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1787–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps when a House bill faces a discharge petition.",
+    "options": [
+      { "id": "a", "text": "218 House members sign the discharge petition" },
+      { "id": "b", "text": "Bill moves directly to the House floor for a vote" },
+      { "id": "c", "text": "Committee chair refuses to schedule a bill for markup" },
+      { "id": "d", "text": "Supporters file a discharge motion after thirty days" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "When a committee bottlenecks a bill, supporters file a discharge petition; 218 signatures force the bill onto the House floor.",
+    "source_url": "https://www.house.gov/the-house-explained/the-legislative-process",
+    "trap_notes": {
+      "default": "Sequence: Committee stalls bill, motion filed, 218 signatures gathered, floor vote."
+    }
+  },
+  {
+    "id": "civics-cau-125",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Bill of Rights & 14th Amendment",
+    "era": "1964–1971",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain that produced the Twenty-sixth Amendment in 1971.",
+    "options": [
+      { "id": "a", "text": "States ratify the 26th Amendment in record time" },
+      { "id": "b", "text": "Eighteen-year-olds are drafted to fight in Vietnam" },
+      { "id": "c", "text": "Oregon v. Mitchell limits federal law to federal races" },
+      { "id": "d", "text": "Activists rally behind 'Old enough to fight, old enough to vote'" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Drafting 18-year-olds sparked protests; after Oregon v. Mitchell limited Congress's statute, states quickly ratified the 26th Amendment.",
+    "source_url": "https://www.archives.gov/milestone-documents/26th-amendment",
+    "trap_notes": {
+      "default": "Sequence: Vietnam draft, youth protests, Oregon v. Mitchell, 26th Amendment ratified."
+    }
+  },
+  {
+    "id": "civics-cau-126",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "U.S. Constitution",
+    "era": "1800–1804",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain that led to the Twelfth Amendment in 1804.",
+    "options": [
+      { "id": "a", "text": "House breaks the tie after 36 ballots for Jefferson" },
+      { "id": "b", "text": "Jefferson and Burr tie in the 1800 Electoral College" },
+      { "id": "c", "text": "States ratify separate ballots for president and VP" },
+      { "id": "d", "text": "Electors cast two undifferentiated presidential votes" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Undifferentiated electoral votes caused the 1800 Jefferson-Burr tie, a 36-ballot House contest, and then the 12th Amendment.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xii",
+    "trap_notes": {
+      "default": "Sequence: Undifferentiated votes, 1800 tie, House breaks tie, 12th Amendment ratified."
+    }
+  },
+  {
+    "id": "civics-cau-127",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Elections & Parties",
+    "era": "1880s–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain showing how partisan gerrymandering reduces competition.",
+    "options": [
+      { "id": "a", "text": "General elections become safe seats for the favored party" },
+      { "id": "b", "text": "Mapmakers pack rival voters into a few districts" },
+      { "id": "c", "text": "Primary elections become the decisive contest for winners" },
+      { "id": "d", "text": "Surrounding districts retain reliable majorities for mapmakers" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Packing rival voters concentrates them so nearby districts lean safely one way, making party primaries the real decisive race.",
+    "source_url": "https://www.britannica.com/topic/gerrymandering",
+    "trap_notes": {
+      "default": "Sequence: Voters packed, safe majorities created, general races uncompetitive, primaries decide."
+    }
+  },
+  {
+    "id": "civics-cau-128",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Comparative Government",
+    "era": "Modern",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin, Germany" },
+    "prompt": "Order the causal chain of how proportional representation shapes coalition governments.",
+    "options": [
+      { "id": "a", "text": "Several small and mid-sized parties win legislative seats" },
+      { "id": "b", "text": "Party leaders negotiate a multi-party governing coalition" },
+      { "id": "c", "text": "Seats are awarded in proportion to party vote shares" },
+      { "id": "d", "text": "No single party wins an outright majority of seats" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Proportional rules let smaller parties win seats, often preventing a single-party majority and requiring coalition bargaining.",
+    "source_url": "https://www.britannica.com/topic/proportional-representation",
+    "trap_notes": {
+      "default": "Sequence: Proportional seats, multiple parties win, no single majority, coalition formed."
+    }
+  },
+  {
+    "id": "civics-cau-129",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "Separation of Powers",
+    "era": "1947–1951",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Order the causal chain that produced the Twenty-second Amendment in 1951.",
+    "options": [
+      { "id": "a", "text": "Congress proposes a two-term limit for U.S. presidents" },
+      { "id": "b", "text": "Franklin D. Roosevelt wins four presidential elections" },
+      { "id": "c", "text": "Two-term limit becomes constitutional law in 1951" },
+      { "id": "d", "text": "Lawmakers worry long tenure weakens executive turnover" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "FDR's four-term presidency prompted concerns over executive power, leading Congress to propose and states to ratify the 22nd Amendment.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xxii",
+    "trap_notes": {
+      "default": "Sequence: FDR wins four terms, turnover concerns rise, Congress proposes limit, 22nd ratified."
+    }
+  },
+  {
+    "id": "civics-cau-130",
+    "type": "causal",
+    "domain": "Civics",
+    "subdomain": "International Organizations",
+    "era": "1995–Present",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva, Switzerland" },
+    "prompt": "Order the causal steps of a World Trade Organization trade dispute.",
+    "options": [
+      { "id": "a", "text": "WTO panel rules whether the tariff breaks trade rules" },
+      { "id": "b", "text": "One member nation imposes a disputed import tariff" },
+      { "id": "c", "text": "Authorized retaliatory tariffs may follow noncompliance" },
+      { "id": "d", "text": "Affected exporting country files a formal WTO complaint" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "A disputed tariff triggers a formal WTO complaint, a panel ruling, and potential authorized retaliation if the loser does not comply.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/disp1_e.htm",
+    "trap_notes": {
+      "default": "Sequence: Tariff imposed, complaint filed, WTO panel rules, retaliation authorized if ignored."
+    }
+  }
+]

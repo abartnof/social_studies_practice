@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "econ-ord-201",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1776-1848",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "prompt": "Order these foundational economic texts from earliest to most recent publication.",
+    "options": [
+      { "id": "a", "text": "David Ricardo publishes Principles of Political Economy" },
+      { "id": "b", "text": "Adam Smith publishes The Wealth of Nations" },
+      { "id": "c", "text": "Karl Marx and Friedrich Engels issue Communist Manifesto" },
+      { "id": "d", "text": "Thomas Malthus publishes Essay on Population" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Smith wrote in 1776, Malthus in 1798, Ricardo in 1817, and Marx and Engels in 1848.",
+    "source_url": "https://www.britannica.com/money/economics",
+    "trap_notes": {
+      "default": "Adam Smith launched classical economics in 1776, decades before Marx wrote in 1848."
+    }
+  },
+  {
+    "id": "econ-ord-202",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1791-1863",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia" },
+    "prompt": "Order these early U.S. banking and currency milestones chronologically.",
+    "options": [
+      { "id": "a", "text": "Congress passes the National Banking Act" },
+      { "id": "b", "text": "Congress charters the Second Bank of the United States" },
+      { "id": "c", "text": "Congress charters the First Bank of the United States" },
+      { "id": "d", "text": "Congress passes the Coinage Act creating the U.S. Mint" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The First Bank opened in 1791, the Mint Act passed in 1792, the Second Bank in 1816, and the National Banking Act in 1863.",
+    "source_url": "https://www.federalreservehistory.org/essays/first-bank-of-the-us",
+    "trap_notes": {
+      "default": "Hamilton's First Bank came in 1791, while the Civil War National Banking Act passed in 1863."
+    }
+  },
+  {
+    "id": "econ-ord-203",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1764-1856",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.4862, "lng": -1.8904, "label": "Birmingham" },
+    "prompt": "Order these Industrial Revolution inventions from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Eli Whitney patents the cotton gin in the United States" },
+      { "id": "b", "text": "Henry Bessemer patents a mass steelmaking process" },
+      { "id": "c", "text": "James Hargreaves invents the spinning jenny" },
+      { "id": "d", "text": "James Watt patents an improved steam engine" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "The spinning jenny arrived in 1764, Watt's steam engine in 1769, the cotton gin in 1793, and Bessemer steel in 1856.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "default": "Textile and steam breakthroughs came in the 1760s, while mass steelmaking arrived in the 1850s."
+    }
+  },
+  {
+    "id": "econ-ord-204",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Labor & Markets",
+    "era": "1890-1947",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. antitrust and labor laws from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Taft-Hartley Act restricts union closed-shop rules" },
+      { "id": "b", "text": "Sherman Antitrust Act bans business monopolies" },
+      { "id": "c", "text": "Wagner Act protects collective bargaining rights" },
+      { "id": "d", "text": "Clayton Antitrust Act exempts peaceful labor unions" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Sherman passed in 1890, Clayton in 1914, the Wagner Act in 1935, and Taft-Hartley in 1947.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "trap_notes": {
+      "default": "Antitrust laws came first in 1890 and 1914, followed by New Deal and postwar labor acts."
+    }
+  },
+  {
+    "id": "econ-ord-205",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1913-1999",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Federal Reserve" },
+    "prompt": "Order these U.S. financial regulatory laws from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Glass-Steagall Act separates commercial and investment banks" },
+      { "id": "b", "text": "Gramm-Leach-Bliley Act repeals Glass-Steagall barriers" },
+      { "id": "c", "text": "Federal Reserve Act creates the U.S. central bank" },
+      { "id": "d", "text": "Securities Exchange Act creates the SEC" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "The Fed was created in 1913, Glass-Steagall passed in 1933, the SEC formed in 1934, and repeal came in 1999.",
+    "source_url": "https://www.federalreservehistory.org/essays/glass-steagall-act",
+    "trap_notes": {
+      "default": "The Fed began in 1913, Depression bank and market reforms in 1933-1934, and repeal in 1999."
+    }
+  },
+  {
+    "id": "econ-ord-206",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1929-1935",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "Wall Street" },
+    "prompt": "Order these Great Depression events from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress passes the Social Security Act" },
+      { "id": "b", "text": "President Roosevelt signs the Emergency Banking Act" },
+      { "id": "c", "text": "Stock market crashes on Black Tuesday" },
+      { "id": "d", "text": "Congress enacts the Smoot-Hawley Tariff" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The crash hit in 1929, Smoot-Hawley passed in 1930, Emergency Banking in 1933, and Social Security in 1935.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/",
+    "trap_notes": {
+      "default": "The 1929 crash and 1930 tariff preceded Roosevelt's 1933 banking rescue and 1935 Social Security."
+    }
+  },
+  {
+    "id": "econ-ord-207",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1944-1995",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 44.2581, "lng": -71.4414, "label": "Bretton Woods" },
+    "prompt": "Order these post-World War II international economic milestones.",
+    "options": [
+      { "id": "a", "text": "World Trade Organization begins operations" },
+      { "id": "b", "text": "Bretton Woods Conference creates IMF and World Bank" },
+      { "id": "c", "text": "Treaty of Rome creates European Economic Community" },
+      { "id": "d", "text": "United States launches the Marshall Plan for Europe" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "Bretton Woods met in 1944, the Marshall Plan started in 1948, the EEC formed in 1957, and the WTO opened in 1995.",
+    "source_url": "https://www.imf.org/en/About/Factsheets/Sheets/2022/IMF-World-Bank-New",
+    "trap_notes": {
+      "default": "Bretton Woods (1944) and the Marshall Plan (1948) came long before the WTO (1995)."
+    }
+  },
+  {
+    "id": "econ-ord-208",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1870-1971",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "White House" },
+    "prompt": "Order these milestones in the history of the gold standard.",
+    "options": [
+      { "id": "a", "text": "Nixon ends direct dollar-to-gold convertibility" },
+      { "id": "b", "text": "Bretton Woods pegs world currencies to the U.S. dollar" },
+      { "id": "c", "text": "Major economies adopt the classical gold standard" },
+      { "id": "d", "text": "United States suspends domestic gold convertibility" }
+    ],
+    "answer": ["c", "d", "b", "a"],
+    "explanation": "The classical gold standard peaked in the 1870s, U.S. domestic use ended in 1933, Bretton Woods began in 1944, and Nixon ended it in 1971.",
+    "source_url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+    "trap_notes": {
+      "default": "Domestic gold convertibility ended under FDR in 1933; international gold convertibility ended in 1971."
+    }
+  },
+  {
+    "id": "econ-ord-209",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1907-2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order these major U.S. economic crises from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Subprime mortgage crisis triggers Great Recession" },
+      { "id": "b", "text": "Great Depression causes widespread bank failures" },
+      { "id": "c", "text": "Panic of 1907 sparks calls for a U.S. central bank" },
+      { "id": "d", "text": "Stagflation combines high inflation and unemployment" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "The Panic hit in 1907, the Great Depression in 1929, stagflation in the 1970s, and the subprime crisis in 2008.",
+    "source_url": "https://www.federalreservehistory.org/essays/panic-of-1907",
+    "trap_notes": {
+      "default": "The 1907 Panic led to the Fed, followed by the 1930s Depression, 1970s stagflation, and 2008 crisis."
+    }
+  },
+  {
+    "id": "econ-ord-210",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "600 BCE-2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.4898, "lng": 28.0406, "label": "Sardis" },
+    "prompt": "Order these innovations in money and payment systems chronologically.",
+    "options": [
+      { "id": "a", "text": "Song Dynasty China issues government paper money" },
+      { "id": "b", "text": "Diners Club introduces the first charge card" },
+      { "id": "c", "text": "Kingdom of Lydia mints standardized metal coins" },
+      { "id": "d", "text": "Bitcoin whitepaper proposes decentralized currency" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Lydia minted coins around 600 BCE, Song China printed paper money around 1000 CE, Diners Club launched in 1950, and Bitcoin in 2008.",
+    "source_url": "https://www.britannica.com/money/money",
+    "trap_notes": {
+      "default": "Metal coins came in antiquity, paper money in medieval China, charge cards in 1950, and crypto in 2008."
+    }
+  },
+  {
+    "id": "econ-ord-211",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "era": "1913-2017",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "prompt": "Order these U.S. federal tax milestones from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Tax Cuts and Jobs Act lowers corporate tax rates" },
+      { "id": "b", "text": "Sixteenth Amendment authorizes federal income tax" },
+      { "id": "c", "text": "Economic Recovery Tax Act cuts top marginal rates" },
+      { "id": "d", "text": "Revenue Act of 1935 raises taxes on high incomes" }
+    ],
+    "answer": ["b", "d", "c", "a"],
+    "explanation": "The 16th Amendment passed in 1913, the Wealth Tax in 1935, Reagan's tax cut in 1981, and the TCJA in 2017.",
+    "source_url": "https://www.archives.gov/milestone-documents/16th-amendment",
+    "trap_notes": {
+      "default": "Income tax began in 1913, rose during the New Deal in 1935, and was cut in 1981 and 2017."
+    }
+  },
+  {
+    "id": "econ-ord-212",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1947-2020",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva" },
+    "prompt": "Order these global and North American trade agreements chronologically.",
+    "options": [
+      { "id": "a", "text": "China officially joins the World Trade Organization" },
+      { "id": "b", "text": "NAFTA takes effect across North America" },
+      { "id": "c", "text": "Twenty-three nations sign the GATT trade pact" },
+      { "id": "d", "text": "USMCA replaces NAFTA among three nations" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "GATT was signed in 1947, NAFTA began in 1994, China joined the WTO in 2001, and USMCA took effect in 2020.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm",
+    "trap_notes": {
+      "default": "GATT (1947) came first, NAFTA (1994) next, China's WTO entry (2001), and USMCA (2020)."
+    }
+  },
+  {
+    "id": "econ-ord-213",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1950-2002",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 50.8503, "lng": 4.3517, "label": "Brussels" },
+    "prompt": "Order these steps in European economic integration from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Maastricht Treaty establishes the European Union" },
+      { "id": "b", "text": "Schuman Declaration proposes pooling coal and steel" },
+      { "id": "c", "text": "Euro banknotes and coins enter public circulation" },
+      { "id": "d", "text": "Treaty of Rome creates a European common market" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Schuman Declaration came in 1950, the Treaty of Rome in 1957, Maastricht in 1992, and euro cash in 2002.",
+    "source_url": "https://european-union.europa.eu/principles-countries-history/history-eu_en",
+    "trap_notes": {
+      "default": "Coal and steel pooling (1950) and the common market (1957) came long before the EU (1992) and euro cash (2002)."
+    }
+  },
+  {
+    "id": "econ-ord-214",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "era": "1936-2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.7886, "lng": -87.5987, "label": "Chicago" },
+    "prompt": "Order these twentieth-century economic ideas from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Arthur Laffer sketches the tax-rate Laffer Curve" },
+      { "id": "b", "text": "John Maynard Keynes publishes The General Theory" },
+      { "id": "c", "text": "Richard Thaler and Cass Sunstein publish Nudge" },
+      { "id": "d", "text": "Milton Friedman publishes Capitalism and Freedom" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Keynes published in 1936, Friedman in 1962, Laffer drew his curve in 1974, and Nudge appeared in 2008.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Keynesian",
+    "trap_notes": {
+      "default": "Keynesian theory rose in 1936, monetarism in 1962, supply-side economics in 1974, and behavioral nudges in 2008."
+    }
+  },
+  {
+    "id": "econ-ord-215",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1825-1956",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.6526, "lng": -73.7562, "label": "Albany" },
+    "prompt": "Order these U.S. transportation milestones that integrated markets.",
+    "options": [
+      { "id": "a", "text": "First Transcontinental Railroad links East and West" },
+      { "id": "b", "text": "Federal-Aid Highway Act funds interstate highways" },
+      { "id": "c", "text": "Erie Canal connects Great Lakes to New York Harbor" },
+      { "id": "d", "text": "U.S.-built Panama Canal opens to world shipping" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "The Erie Canal opened in 1825, the Transcontinental Railroad in 1869, the Panama Canal in 1914, and Interstates in 1956.",
+    "source_url": "https://www.archives.gov/milestone-documents/pacific-railway-act",
+    "trap_notes": {
+      "default": "Canals came first in 1825, railroads in 1869, the Panama Canal in 1914, and interstates in 1956."
+    }
+  },
+  {
+    "id": "econ-ord-216",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1960-2014",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.2082, "lng": 16.3738, "label": "Vienna" },
+    "prompt": "Order these global oil market milestones from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Iranian Revolution triggers a second global oil shock" },
+      { "id": "b", "text": "OPEC is founded in Baghdad by five oil exporters" },
+      { "id": "c", "text": "U.S. shale boom makes America top oil producer" },
+      { "id": "d", "text": "OPEC oil embargo quadruples world crude prices" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "OPEC formed in 1960, the first oil embargo hit in 1973, the Iranian shock in 1979, and the U.S. shale boom in the 2010s.",
+    "source_url": "https://www.opec.org/opec_web/en/about_us/24.htm",
+    "trap_notes": {
+      "default": "OPEC's 1960 founding came before the 1973 and 1979 oil shocks and the 2010s shale boom."
+    }
+  },
+  {
+    "id": "econ-ord-217",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1785-1996",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha" },
+    "prompt": "Order these U.S. land and agricultural laws from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Homestead Act grants western land to settlers" },
+      { "id": "b", "text": "Freedom to Farm Act phases out crop subsidies" },
+      { "id": "c", "text": "Land Ordinance of 1785 surveys western territories" },
+      { "id": "d", "text": "Agricultural Adjustment Act pays farmers to cut crops" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "The Land Ordinance passed in 1785, Homestead Act in 1862, AAA in 1933, and Freedom to Farm in 1996.",
+    "source_url": "https://www.archives.gov/milestone-documents/homestead-act",
+    "trap_notes": {
+      "default": "Land surveying (1785) and homesteading (1862) came before New Deal crop limits (1933) and 1996 reforms."
+    }
+  },
+  {
+    "id": "econ-ord-218",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Development Economics",
+    "era": "1868-1997",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo" },
+    "prompt": "Order these milestones in East Asian economic development.",
+    "options": [
+      { "id": "a", "text": "Deng Xiaoping launches China's market reforms" },
+      { "id": "b", "text": "Meiji Restoration begins Japan's rapid industrialization" },
+      { "id": "c", "text": "Asian Financial Crisis hits regional currencies" },
+      { "id": "d", "text": "Japan enters its postwar high-growth economic miracle" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Meiji reforms began in 1868, Japan's postwar miracle in the 1950s, China's opening in 1978, and the Asian Crisis in 1997.",
+    "source_url": "https://www.worldbank.org/en/country/china/overview",
+    "trap_notes": {
+      "default": "Japan modernized in 1868 and boomed in the 1950s before China's 1978 reforms and the 1997 crisis."
+    }
+  },
+  {
+    "id": "econ-ord-219",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "era": "1906-2011",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. consumer protection milestones chronologically.",
+    "options": [
+      { "id": "a", "text": "Truth in Lending Act requires clear loan disclosures" },
+      { "id": "b", "text": "Pure Food and Drug Act bans misbranded products" },
+      { "id": "c", "text": "Consumer Financial Protection Bureau opens its doors" },
+      { "id": "d", "text": "Federal Trade Commission forms to stop unfair trade" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Pure Food and Drug passed in 1906, the FTC in 1914, Truth in Lending in 1968, and the CFPB opened in 2011.",
+    "source_url": "https://www.ftc.gov/about-ftc/history",
+    "trap_notes": {
+      "default": "Progressive Era laws (1906, 1914) came decades before Truth in Lending (1968) and the CFPB (2011)."
+    }
+  },
+  {
+    "id": "econ-ord-220",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1921-1992",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 55.7558, "lng": 37.6173, "label": "Moscow" },
+    "prompt": "Order these Soviet and Russian economic policy shifts chronologically.",
+    "options": [
+      { "id": "a", "text": "Gorbachev introduces Perestroika economic reforms" },
+      { "id": "b", "text": "Stalin launches the First Five-Year Plan" },
+      { "id": "c", "text": "Russia begins shock therapy price liberalization" },
+      { "id": "d", "text": "Lenin adopts the mixed New Economic Policy" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Lenin's NEP began in 1921, Stalin's Five-Year Plan in 1928, Perestroika in 1985, and Russian shock therapy in 1992.",
+    "source_url": "https://www.britannica.com/event/New-Economic-Policy-Soviet-history",
+    "trap_notes": {
+      "default": "NEP (1921) preceded Stalin's planning (1928), while Perestroika (1985) came before 1992 market shock therapy."
+    }
+  },
+  {
+    "id": "econ-ord-221",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Labor & Markets",
+    "era": "1877-1981",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.0125, "lng": -83.6875, "label": "Flint" },
+    "prompt": "Order these major U.S. labor strikes from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "United Auto Workers stage the Flint sit-down strike" },
+      { "id": "b", "text": "Railroad workers launch the Great Railroad Strike" },
+      { "id": "c", "text": "President Reagan fires striking PATCO air controllers" },
+      { "id": "d", "text": "Steelworkers clash with Pinkertons at Homestead" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Great Railroad Strike occurred in 1877, Homestead in 1892, Flint sit-down in 1936, and PATCO in 1981.",
+    "source_url": "https://www.loc.gov/item/today-in-history/july-06/",
+    "trap_notes": {
+      "default": "Gilded Age strikes (1877, 1892) came before the New Deal Flint strike (1936) and Reagan-era PATCO (1981)."
+    }
+  },
+  {
+    "id": "econ-ord-222",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1819-1893",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order these nineteenth-century U.S. financial panics chronologically.",
+    "options": [
+      { "id": "a", "text": "Panic of 1873 begins after railroad bond defaults" },
+      { "id": "b", "text": "Panic of 1819 marks first major U.S. peacetime bust" },
+      { "id": "c", "text": "Panic of 1893 triggers severe depression and Coxey's Army" },
+      { "id": "d", "text": "Panic of 1837 follows Jackson's Specie Circular" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Panics occurred in order: 1819 (post-War of 1812), 1837 (Jackson era), 1873 (Gilded Age), and 1893.",
+    "source_url": "https://www.federalreservehistory.org/essays/banking-panics-of-the-gilded-age",
+    "trap_notes": {
+      "default": "The 1819 and 1837 panics happened before the Civil War; 1873 and 1893 occurred during the Gilded Age."
+    }
+  },
+  {
+    "id": "econ-ord-223",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1828-1934",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "prompt": "Order these U.S. tariff laws from earliest to most recent.",
+    "options": [
+      { "id": "a", "text": "Underwood Tariff sharply lowers average U.S. duties" },
+      { "id": "b", "text": "Tariff of Abominations sparks Nullification Crisis" },
+      { "id": "c", "text": "Reciprocal Trade Agreements Act allows tariff cuts" },
+      { "id": "d", "text": "McKinley Tariff raises import duties to nearly half" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Tariff of Abominations passed in 1828, McKinley in 1890, Underwood in 1913, and Reciprocal Trade in 1934.",
+    "source_url": "https://history.state.gov/milestones/1921-1936/protectionism",
+    "trap_notes": {
+      "default": "The 1828 and 1890 tariffs raised rates; Underwood (1913) and Reciprocal Trade (1934) lowered them."
+    }
+  },
+  {
+    "id": "econ-ord-224",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "2008-2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.758, "lng": -73.9855, "label": "Midtown Manhattan" },
+    "prompt": "Order these events of the 2008 global financial crisis.",
+    "options": [
+      { "id": "a", "text": "Congress passes the TARP bank rescue package" },
+      { "id": "b", "text": "Bear Stearns is sold in an emergency Fed-backed deal" },
+      { "id": "c", "text": "Dodd-Frank Act overhauls U.S. financial regulation" },
+      { "id": "d", "text": "Lehman Brothers files the largest U.S. bankruptcy" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Bear Stearns fell in March 2008, Lehman in September 2008, TARP passed in October 2008, and Dodd-Frank in 2010.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+    "trap_notes": {
+      "default": "Bear Stearns fell in spring 2008, Lehman and TARP in fall 2008, and Dodd-Frank in 2010."
+    }
+  },
+  {
+    "id": "econ-ord-225",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "era": "1935-2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. social safety net programs by creation date.",
+    "options": [
+      { "id": "a", "text": "Medicare and Medicaid are signed into federal law" },
+      { "id": "b", "text": "Social Security establishes federal old-age pensions" },
+      { "id": "c", "text": "Affordable Care Act expands health insurance access" },
+      { "id": "d", "text": "GI Bill funds college and home loans for veterans" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Social Security began in 1935, the GI Bill in 1944, Medicare and Medicaid in 1965, and the ACA in 2010.",
+    "source_url": "https://www.archives.gov/milestone-documents/social-security-act",
+    "trap_notes": {
+      "default": "Social Security (1935) and the GI Bill (1944) came before Great Society healthcare (1965) and the ACA (2010)."
+    }
+  },
+  {
+    "id": "econ-ord-226",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1668-1998",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 50.1109, "lng": 8.6821, "label": "Frankfurt" },
+    "prompt": "Order these major world central banks by founding date.",
+    "options": [
+      { "id": "a", "text": "Bank of England is chartered to fund government debt" },
+      { "id": "b", "text": "European Central Bank is established for the eurozone" },
+      { "id": "c", "text": "Sweden establishes the Sveriges Riksbank" },
+      { "id": "d", "text": "Napoleon Bonaparte founds the Bank of France" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Sweden's Riksbank opened in 1668, the Bank of England in 1694, the Bank of France in 1800, and the ECB in 1998.",
+    "source_url": "https://www.riksbank.se/en-gb/about-the-riksbank/history/",
+    "trap_notes": {
+      "default": "Sweden's Riksbank (1668) is the oldest central bank, followed by England (1694), France (1800), and the ECB (1998)."
+    }
+  },
+  {
+    "id": "econ-ord-227",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1923-2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin" },
+    "prompt": "Order these historic currency and debt crises chronologically.",
+    "options": [
+      { "id": "a", "text": "Mexican peso devaluation sparks the Tequila Crisis" },
+      { "id": "b", "text": "Weimar Germany suffers extreme paper-mark inflation" },
+      { "id": "c", "text": "Zimbabwe hyperinflation forces abandonment of its dollar" },
+      { "id": "d", "text": "Mexico's default starts the Latin American debt crisis" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Weimar hyperinflation peaked in 1923, the Latin American debt crisis began in 1982, the Tequila Crisis in 1994, and Zimbabwe's peak in 2008.",
+    "source_url": "https://www.federalreservehistory.org/essays/latin-american-debt-crisis",
+    "trap_notes": {
+      "default": "Weimar came in 1923, the Latin American debt crisis in 1982, Mexico's peso crisis in 1994, and Zimbabwe in 2008."
+    }
+  },
+  {
+    "id": "econ-ord-228",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Labor & Markets",
+    "era": "1938-1993",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "prompt": "Order these U.S. workplace standard laws from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Occupational Safety and Health Act creates OSHA" },
+      { "id": "b", "text": "Fair Labor Standards Act sets federal minimum wage" },
+      { "id": "c", "text": "Family and Medical Leave Act guarantees unpaid leave" },
+      { "id": "d", "text": "Equal Pay Act bans sex-based wage discrimination" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "FLSA passed in 1938, Equal Pay in 1963, OSHA in 1970, and FMLA in 1993.",
+    "source_url": "https://www.dol.gov/agencies/whd/flsa",
+    "trap_notes": {
+      "default": "Minimum wage began in 1938, Equal Pay in 1963, OSHA in 1970, and family leave in 1993."
+    }
+  },
+  {
+    "id": "econ-ord-229",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1844-2007",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.3861, "lng": -122.0839, "label": "Silicon Valley" },
+    "prompt": "Order these communications breakthroughs that transformed commerce.",
+    "options": [
+      { "id": "a", "text": "World Wide Web opens to the general public" },
+      { "id": "b", "text": "First commercial U.S. telegraph line sends messages" },
+      { "id": "c", "text": "Apple iPhone launches the mobile app economy" },
+      { "id": "d", "text": "First transatlantic telephone cable enters service" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The telegraph debuted in 1844, the transatlantic phone cable in 1956, the public Web in 1991, and the iPhone in 2007.",
+    "source_url": "https://www.loc.gov/collections/samuel-morse-papers/articles-and-essays/invention-of-the-telegraph/",
+    "trap_notes": {
+      "default": "Telegraphy came in 1844, transatlantic voice cables in 1956, the Web in 1991, and smartphones in 2007."
+    }
+  },
+  {
+    "id": "econ-ord-230",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "era": "1979-2020",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Federal Reserve" },
+    "prompt": "Order these Federal Reserve policy eras by their starting year.",
+    "options": [
+      { "id": "a", "text": "Ben Bernanke launches Quantitative Easing bond buys" },
+      { "id": "b", "text": "Paul Volcker raises rates sharply to crush inflation" },
+      { "id": "c", "text": "Jerome Powell cuts rates to zero during the pandemic" },
+      { "id": "d", "text": "Alan Greenspan begins his long tenure as Fed Chair" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Volcker's tightening began in 1979, Greenspan took office in 1987, Bernanke's QE started in 2008, and Powell's pandemic cuts in 2020.",
+    "source_url": "https://www.federalreservehistory.org/people",
+    "trap_notes": {
+      "default": "The Fed Chairs served in order: Volcker (1979), Greenspan (1987), Bernanke (2006), and Powell (2018)."
+    }
+  },
+  {
+    "id": "econ-ord-231",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1498-1846",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 52.3676, "lng": 4.9041, "label": "Amsterdam" },
+    "prompt": "Order these milestones in early modern trade and mercantilism.",
+    "options": [
+      { "id": "a", "text": "England passes Navigation Acts restricting colonial trade" },
+      { "id": "b", "text": "Vasco da Gama opens a sea spice route to India" },
+      { "id": "c", "text": "Britain repeals the Corn Laws to embrace free trade" },
+      { "id": "d", "text": "Dutch East India Company issues the first public shares" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Da Gama reached India in 1498, the VOC formed in 1602, the Navigation Acts began in 1651, and Corn Laws ended in 1846.",
+    "source_url": "https://www.britannica.com/money/Dutch-East-India-Company",
+    "trap_notes": {
+      "default": "Sea routes (1498) and joint-stock companies (1602) preceded Navigation Acts (1651) and free trade (1846)."
+    }
+  },
+  {
+    "id": "econ-ord-232",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1882-1984",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit" },
+    "prompt": "Order these U.S. corporate and industrial milestones chronologically.",
+    "options": [
+      { "id": "a", "text": "Henry Ford introduces the moving assembly line" },
+      { "id": "b", "text": "John D. Rockefeller organizes the Standard Oil Trust" },
+      { "id": "c", "text": "Federal court breaks up the AT&T Bell monopoly" },
+      { "id": "d", "text": "J.P. Morgan forms billion-dollar U.S. Steel" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Standard Oil Trust formed in 1882, U.S. Steel in 1901, Ford's moving line in 1913, and the AT&T breakup in 1984.",
+    "source_url": "https://www.britannica.com/money/Standard-Oil",
+    "trap_notes": {
+      "default": "Standard Oil (1882) and U.S. Steel (1901) came before Ford's assembly line (1913) and AT&T's breakup (1984)."
+    }
+  },
+  {
+    "id": "econ-ord-233",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1934-2008",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. housing finance milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Congress charters Freddie Mac to expand mortgage liquidity" },
+      { "id": "b", "text": "Federal Housing Administration begins insuring mortgages" },
+      { "id": "c", "text": "Federal government places Fannie and Freddie in conservatorship" },
+      { "id": "d", "text": "Fannie Mae is created to buy FHA-insured loans" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The FHA formed in 1934, Fannie Mae in 1938, Freddie Mac in 1970, and federal conservatorship began in 2008.",
+    "source_url": "https://www.fhfa.gov/about/history",
+    "trap_notes": {
+      "default": "The FHA (1934) and Fannie Mae (1938) were New Deal programs; Freddie Mac came in 1970 and bailout in 2008."
+    }
+  },
+  {
+    "id": "econ-ord-234",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Development Economics",
+    "era": "1965-2015",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7489, "lng": -73.968, "label": "United Nations" },
+    "prompt": "Order these global economic development frameworks chronologically.",
+    "options": [
+      { "id": "a", "text": "UN adopts eight Millennium Development Goals" },
+      { "id": "b", "text": "United Nations establishes the Development Programme" },
+      { "id": "c", "text": "UN adopts seventeen Sustainable Development Goals" },
+      { "id": "d", "text": "John Williamson coins the term Washington Consensus" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "UNDP launched in 1965, the Washington Consensus was coined in 1989, the MDGs in 2000, and the SDGs in 2015.",
+    "source_url": "https://sdgs.un.org/goals",
+    "trap_notes": {
+      "default": "UNDP (1965) and the Washington Consensus (1989) preceded the 2000 MDGs and 2015 SDGs."
+    }
+  },
+  {
+    "id": "econ-ord-235",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "era": "1978-1996",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "prompt": "Order these U.S. industry deregulation laws from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Staggers Rail Act deregulates freight railroad pricing" },
+      { "id": "b", "text": "Airline Deregulation Act phases out fare controls" },
+      { "id": "c", "text": "Telecommunications Act opens local phone competition" },
+      { "id": "d", "text": "Interstate Commerce Commission is formally abolished" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Airlines were deregulated in 1978, railroads in 1980, the ICC was abolished in 1995, and Telecom passed in 1996.",
+    "source_url": "https://www.britannica.com/money/deregulation",
+    "trap_notes": {
+      "default": "Carter-era airline (1978) and rail (1980) deregulation came before the 1995 ICC abolition and 1996 Telecom Act."
+    }
+  },
+  {
+    "id": "econ-ord-236",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "era": "1790-1991",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "Order these milestones in U.S. economic measurement chronologically.",
+    "options": [
+      { "id": "a", "text": "Simon Kuznets develops U.S. national income accounts" },
+      { "id": "b", "text": "United States conducts its first decennial census" },
+      { "id": "c", "text": "Commerce Department shifts from GNP to GDP" },
+      { "id": "d", "text": "Bureau of Labor Statistics begins publishing the CPI" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The first census was in 1790, the CPI began in 1919, Kuznets built national accounts in 1934, and GDP replaced GNP in 1991.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "trap_notes": {
+      "default": "The census (1790) and CPI (1919) came before Depression-era national accounts (1934) and the 1991 GDP shift."
+    }
+  },
+  {
+    "id": "econ-ord-237",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "era": "2009-2022",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "prompt": "Order these twenty-first-century U.S. federal economic acts chronologically.",
+    "options": [
+      { "id": "a", "text": "CARES Act provides pandemic relief loans and checks" },
+      { "id": "b", "text": "American Recovery and Reinvestment Act funds stimulus" },
+      { "id": "c", "text": "Inflation Reduction Act funds clean energy credits" },
+      { "id": "d", "text": "American Rescue Plan expands child tax credits" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "ARRA passed in 2009, the CARES Act in 2020, the American Rescue Plan in 2021, and the Inflation Reduction Act in 2022.",
+    "source_url": "https://www.congress.gov/",
+    "trap_notes": {
+      "default": "ARRA was the 2009 recession stimulus; CARES (2020), Rescue Plan (2021), and IRA (2022) came later."
+    }
+  },
+  {
+    "id": "econ-ord-238",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1765-1803",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9526, "lng": -75.1652, "label": "Philadelphia" },
+    "prompt": "Order these early American economic milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Alexander Hamilton issues Report on Manufactures" },
+      { "id": "b", "text": "British Parliament passes the colonial Stamp Act" },
+      { "id": "c", "text": "United States doubles its territory via Louisiana Purchase" },
+      { "id": "d", "text": "Continental Congress prints paper Continental dollars" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "The Stamp Act passed in 1765, Continentals were printed in 1775, Hamilton's report appeared in 1791, and Louisiana in 1803.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "trap_notes": {
+      "default": "The 1765 Stamp Act and 1775 Continentals preceded Hamilton's 1791 report and the 1803 Louisiana Purchase."
+    }
+  },
+  {
+    "id": "econ-ord-239",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "era": "1960-2019",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": -6.2088, "lng": 106.8456, "label": "Jakarta" },
+    "prompt": "Order these regional economic blocs by their founding year.",
+    "options": [
+      { "id": "a", "text": "South American nations establish the Mercosur bloc" },
+      { "id": "b", "text": "Oil exporters form the OPEC cartel" },
+      { "id": "c", "text": "African Continental Free Trade Area enters into force" },
+      { "id": "d", "text": "Southeast Asian states establish ASEAN" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "OPEC formed in 1960, ASEAN in 1967, Mercosur in 1991, and AfCFTA entered into force in 2019.",
+    "source_url": "https://au.int/en/cfta",
+    "trap_notes": {
+      "default": "OPEC (1960) and ASEAN (1967) formed in the Cold War; Mercosur (1991) and AfCFTA (2019) came later."
+    }
+  },
+  {
+    "id": "econ-ord-240",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "era": "1970-2015",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.8566, "lng": 2.3522, "label": "Paris" },
+    "prompt": "Order these environmental economics agreements and laws chronologically.",
+    "options": [
+      { "id": "a", "text": "Montreal Protocol phases out ozone-depleting CFCs" },
+      { "id": "b", "text": "U.S. Clean Air Act sets national emissions standards" },
+      { "id": "c", "text": "Paris Agreement sets global climate warming targets" },
+      { "id": "d", "text": "Kyoto Protocol sets binding industrial emission caps" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The Clean Air Act passed in 1970, Montreal in 1987, Kyoto in 1997, and the Paris Agreement in 2015.",
+    "source_url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+    "trap_notes": {
+      "default": "The Clean Air Act (1970) and Montreal Protocol (1987) preceded Kyoto (1997) and Paris (2015)."
+    }
+  },
+  {
+    "id": "econ-ord-241",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1933-2010",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 47.5596, "lng": 7.5886, "label": "Basel" },
+    "prompt": "Order these banking stability and capital rules chronologically.",
+    "options": [
+      { "id": "a", "text": "Basel I Accord sets international bank capital minimums" },
+      { "id": "b", "text": "FDIC begins insuring U.S. commercial bank deposits" },
+      { "id": "c", "text": "Basel III tightens bank liquidity after the 2008 crash" },
+      { "id": "d", "text": "FIRREA resolves the U.S. savings and loan crisis" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The FDIC began in 1933, Basel I in 1988, FIRREA in 1989, and Basel III in 2010.",
+    "source_url": "https://www.bis.org/bcbs/history.htm",
+    "trap_notes": {
+      "default": "FDIC deposit insurance (1933) came long before Basel I (1988), FIRREA (1989), and Basel III (2010)."
+    }
+  },
+  {
+    "id": "econ-ord-242",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1792-2006",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "New York Stock Exchange" },
+    "prompt": "Order these U.S. stock market milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Charles Dow launches the Dow Jones Industrial Average" },
+      { "id": "b", "text": "Brokers sign the Buttonwood Agreement in New York" },
+      { "id": "c", "text": "NYSE merges with Archipelago to add electronic trading" },
+      { "id": "d", "text": "NASDAQ launches as the first electronic stock market" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Buttonwood was signed in 1792, the Dow began in 1896, NASDAQ launched in 1971, and NYSE went electronic in 2006.",
+    "source_url": "https://www.loc.gov/item/today-in-history/may-17/",
+    "trap_notes": {
+      "default": "Buttonwood (1792) founded the NYSE, the Dow arrived in 1896, NASDAQ in 1971, and NYSE's electronic shift in 2006."
+    }
+  },
+  {
+    "id": "econ-ord-243",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "era": "1917-1950",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "Order these U.S. wartime economic mobilization measures chronologically.",
+    "options": [
+      { "id": "a", "text": "Lend-Lease Act supplies Allied nations before Pearl Harbor" },
+      { "id": "b", "text": "War Industries Board coordinates World War I production" },
+      { "id": "c", "text": "Defense Production Act passes during the Korean War" },
+      { "id": "d", "text": "War Production Board oversees World War II factories" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The War Industries Board formed in 1917, Lend-Lease in March 1941, the War Production Board in 1942, and the DPA in 1950.",
+    "source_url": "https://www.archives.gov/milestone-documents/lend-lease-act",
+    "trap_notes": {
+      "default": "WWI came in 1917, Lend-Lease before U.S. entry in 1941, the WPB in 1942, and the Korean War DPA in 1950."
+    }
+  },
+  {
+    "id": "econ-ord-244",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "era": "1710-1995",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "prompt": "Order these intellectual property law milestones chronologically.",
+    "options": [
+      { "id": "a", "text": "First U.S. Patent Act protects new inventions" },
+      { "id": "b", "text": "Britain's Statute of Anne creates modern copyright" },
+      { "id": "c", "text": "WTO TRIPS agreement sets global IP standards" },
+      { "id": "d", "text": "Paris Convention protects patents across borders" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "The Statute of Anne passed in 1710, the first U.S. Patent Act in 1790, the Paris Convention in 1883, and TRIPS in 1995.",
+    "source_url": "https://www.wipo.int/treaties/en/ip/paris/",
+    "trap_notes": {
+      "default": "British copyright (1710) and U.S. patents (1790) came before the 1883 Paris treaty and 1995 WTO TRIPS."
+    }
+  },
+  {
+    "id": "econ-ord-245",
+    "type": "ordering",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "era": "1998-2023",
+    "ordering_mode": "chronological",
+    "skill_tag": "chronology",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.3382, "lng": -121.8863, "label": "San Jose" },
+    "prompt": "Order these modern digital payment milestones from earliest to latest.",
+    "options": [
+      { "id": "a", "text": "Safaricom launches M-Pesa mobile money in Kenya" },
+      { "id": "b", "text": "PayPal launches online person-to-person payments" },
+      { "id": "c", "text": "Federal Reserve launches the FedNow instant system" },
+      { "id": "d", "text": "China begins public trials of its digital yuan e-CNY" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "PayPal launched in 1998, M-Pesa in 2007, China's e-CNY pilots in 2020, and FedNow in 2023.",
+    "source_url": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+    "trap_notes": {
+      "default": "PayPal (1998) and M-Pesa (2007) came well before central bank digital pilots (2020) and FedNow (2023)."
+    }
+  },
+  {
+    "id": "econ-cmp-201",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago" },
+    "compareSpec": {
+      "leftLabel": "Short-Run Production",
+      "rightLabel": "Long-Run Production",
+      "items": [
+        { "id": "a", "text": "At least one input is fixed", "bucket": "left" },
+        { "id": "b", "text": "All inputs can be adjusted", "bucket": "right" },
+        { "id": "c", "text": "Diminishing returns apply here", "bucket": "left" },
+        { "id": "d", "text": "Firm can build a new factory", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each production feature into the short run or the long run.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "In the short run, at least one input like factory size is fixed; in the long run, every input is variable.",
+    "source_url": "https://www.britannica.com/money/production-function",
+    "trap_notes": {
+      "default": "Short-run decisions work around fixed capital; long-run planning allows changing factory scale."
+    }
+  },
+  {
+    "id": "econ-cmp-202",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston" },
+    "compareSpec": {
+      "leftLabel": "Explicit Cost",
+      "rightLabel": "Implicit Cost",
+      "items": [
+        { "id": "a", "text": "Monthly rent paid to landlord", "bucket": "left" },
+        { "id": "b", "text": "Foregone salary of owner", "bucket": "right" },
+        { "id": "c", "text": "Hourly wages paid to workers", "bucket": "left" },
+        { "id": "d", "text": "Lost interest on invested cash", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each business cost as an explicit cost or an implicit cost.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Explicit costs require direct cash outlays, whereas implicit costs measure the opportunity cost of owned resources.",
+    "source_url": "https://www.britannica.com/money/opportunity-cost",
+    "trap_notes": {
+      "default": "Explicit costs appear as cash bills; implicit costs represent foregone income from your next-best option."
+    }
+  },
+  {
+    "id": "econ-cmp-203",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "Wall Street" },
+    "compareSpec": {
+      "leftLabel": "Debt Financing",
+      "rightLabel": "Equity Financing",
+      "items": [
+        { "id": "a", "text": "Issuing corporate bonds", "bucket": "left" },
+        { "id": "b", "text": "Selling shares of stock", "bucket": "right" },
+        { "id": "c", "text": "Taking a commercial bank loan", "bucket": "left" },
+        { "id": "d", "text": "Giving investors ownership stake", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each way a business raises money as debt or equity financing.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Debt financing borrows funds that must be repaid with interest, while equity financing sells ownership shares.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks-and-bonds",
+    "trap_notes": {
+      "default": "Loans and bonds create debt obligations; issuing stock sells partial ownership in the firm."
+    }
+  },
+  {
+    "id": "econ-cmp-204",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Direct Tax",
+      "rightLabel": "Indirect Tax",
+      "items": [
+        { "id": "a", "text": "Personal income tax", "bucket": "left" },
+        { "id": "b", "text": "Retail sales tax", "bucket": "right" },
+        { "id": "c", "text": "Corporate profit tax", "bucket": "left" },
+        { "id": "d", "text": "Gasoline excise tax", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each government levy as a direct tax or an indirect tax.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Direct taxes are paid straight by the person or firm taxed; indirect taxes are collected through goods and services.",
+    "source_url": "https://www.britannica.com/money/taxation",
+    "trap_notes": {
+      "default": "Income and profit taxes hit earners directly; sales and excise taxes are added to prices of goods."
+    }
+  },
+  {
+    "id": "econ-cmp-205",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 52.2053, "lng": 0.1218, "label": "Cambridge" },
+    "compareSpec": {
+      "leftLabel": "Positive Economics",
+      "rightLabel": "Normative Economics",
+      "items": [
+        { "id": "a", "text": "Tests claims using data", "bucket": "left" },
+        { "id": "b", "text": "Reflects value judgments", "bucket": "right" },
+        { "id": "c", "text": "Describes what is happening", "bucket": "left" },
+        { "id": "d", "text": "Argues what policy ought to do", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each economic statement trait as positive or normative economics.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Positive economics makes testable factual claims, while normative economics expresses value-based opinions.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Economics",
+    "trap_notes": {
+      "default": "Positive statements can be tested with evidence; normative statements depend on values and 'should' claims."
+    }
+  },
+  {
+    "id": "econ-cmp-206",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "compareSpec": {
+      "leftLabel": "Classical Economics",
+      "rightLabel": "Keynesian Economics",
+      "items": [
+        { "id": "a", "text": "Markets self-correct quickly", "bucket": "left" },
+        { "id": "b", "text": "Sticky wages slow recovery", "bucket": "right" },
+        { "id": "c", "text": "Favors minimal state action", "bucket": "left" },
+        { "id": "d", "text": "Backs deficit spending in slumps", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each view under classical economics or Keynesian economics.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Classical economists trust flexible prices to restore full employment; Keynesians urge fiscal action during slumps.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Keynesian",
+    "trap_notes": {
+      "default": "Classical theory expects quick self-correction; Keynesian theory stresses sticky wages and demand stimulus."
+    }
+  },
+  {
+    "id": "econ-cmp-207",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Monetary Policy",
+      "rightLabel": "Fiscal Policy",
+      "items": [
+        { "id": "a", "text": "Set by the central bank", "bucket": "left" },
+        { "id": "b", "text": "Set by Congress and President", "bucket": "right" },
+        { "id": "c", "text": "Adjusts money supply and rates", "bucket": "left" },
+        { "id": "d", "text": "Adjusts taxes and spending", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each macroeconomic policy feature as monetary or fiscal policy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Central banks run monetary policy via interest rates and money supply; elected branches run fiscal policy via budgets.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy.htm",
+    "trap_notes": {
+      "default": "Monetary policy belongs to the Fed (rates); fiscal policy belongs to Congress and the President (taxes and spending)."
+    }
+  },
+  {
+    "id": "econ-cmp-208",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.7434, "lng": -118.2726, "label": "Port of Los Angeles" },
+    "compareSpec": {
+      "leftLabel": "Trade Deficit",
+      "rightLabel": "Trade Surplus",
+      "items": [
+        { "id": "a", "text": "Imports exceed exports", "bucket": "left" },
+        { "id": "b", "text": "Exports exceed imports", "bucket": "right" },
+        { "id": "c", "text": "Negative net exports", "bucket": "left" },
+        { "id": "d", "text": "Positive net exports", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trade balance description under trade deficit or trade surplus.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A trade deficit occurs when imports exceed exports (negative net exports); a surplus means exports exceed imports.",
+    "source_url": "https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services",
+    "trap_notes": {
+      "default": "Net exports equal exports minus imports: negative is a deficit, positive is a surplus."
+    }
+  },
+  {
+    "id": "econ-cmp-209",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "compareSpec": {
+      "leftLabel": "Currency Appreciation",
+      "rightLabel": "Currency Depreciation",
+      "items": [
+        { "id": "a", "text": "Buys more foreign currency", "bucket": "left" },
+        { "id": "b", "text": "Buys less foreign currency", "bucket": "right" },
+        { "id": "c", "text": "Makes imports cheaper locally", "bucket": "left" },
+        { "id": "d", "text": "Makes exports cheaper abroad", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each exchange-rate effect under appreciation or depreciation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A stronger currency makes foreign imports cheaper; a weaker currency makes domestic exports cheaper abroad.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Exchange-Rates",
+    "trap_notes": {
+      "default": "Appreciation strengthens buying power for imports; depreciation lowers export prices for foreign buyers."
+    }
+  },
+  {
+    "id": "econ-cmp-210",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Marginal Benefit",
+      "rightLabel": "Marginal Cost",
+      "items": [
+        { "id": "a", "text": "Extra gain from one more unit", "bucket": "left" },
+        { "id": "b", "text": "Extra expense of one more unit", "bucket": "right" },
+        { "id": "c", "text": "Additional satisfaction gained", "bucket": "left" },
+        { "id": "d", "text": "Added resources used per unit", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each decision-making concept under marginal benefit or marginal cost.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Marginal benefit is the extra value from one more unit; marginal cost is the extra expense of producing or buying it.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-2-factors-of-production",
+    "trap_notes": {
+      "default": "Rational choices compare the extra gain (marginal benefit) against the extra expense (marginal cost)."
+    }
+  },
+  {
+    "id": "econ-cmp-211",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle" },
+    "compareSpec": {
+      "leftLabel": "Economies of Scale",
+      "rightLabel": "Diseconomies of Scale",
+      "items": [
+        { "id": "a", "text": "Average cost falls as firm grows", "bucket": "left" },
+        { "id": "b", "text": "Average cost rises as firm grows", "bucket": "right" },
+        { "id": "c", "text": "Bulk buying lowers unit prices", "bucket": "left" },
+        { "id": "d", "text": "Red tape slows giant firms", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each long-run firm trait under economies or diseconomies of scale.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Economies of scale lower average unit cost as output rises; diseconomies of scale raise unit cost from coordination bloat.",
+    "source_url": "https://www.britannica.com/money/economies-of-scale",
+    "trap_notes": {
+      "default": "Economies of scale reduce per-unit cost with size; diseconomies of scale increase it due to bureaucracy."
+    }
+  },
+  {
+    "id": "econ-cmp-212",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Nominal Interest Rate",
+      "rightLabel": "Real Interest Rate",
+      "items": [
+        { "id": "a", "text": "Stated rate on a loan contract", "bucket": "left" },
+        { "id": "b", "text": "Rate adjusted for inflation", "bucket": "right" },
+        { "id": "c", "text": "Ignores changes in price level", "bucket": "left" },
+        { "id": "d", "text": "Measures true purchasing gain", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each interest-rate feature as nominal or real.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Nominal interest is the stated contract rate; real interest subtracts inflation to show true purchasing-power return.",
+    "source_url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/",
+    "trap_notes": {
+      "default": "The Fisher equation links them: real interest rate equals nominal interest rate minus inflation."
+    }
+  },
+  {
+    "id": "econ-cmp-213",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.7392, "lng": -104.9903, "label": "Denver" },
+    "compareSpec": {
+      "leftLabel": "Sole Proprietorship",
+      "rightLabel": "Corporation",
+      "items": [
+        { "id": "a", "text": "Owned by a single individual", "bucket": "left" },
+        { "id": "b", "text": "Separate legal entity from owners", "bucket": "right" },
+        { "id": "c", "text": "Owner faces unlimited liability", "bucket": "left" },
+        { "id": "d", "text": "Shareholders have limited liability", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each business trait under sole proprietorship or corporation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A sole proprietorship has one owner with unlimited liability; a corporation is a separate legal entity with limited liability.",
+    "source_url": "https://www.sba.gov/business-guide/launch-your-business/choose-business-structure",
+    "trap_notes": {
+      "default": "Sole proprietors risk personal assets for business debts; corporate shareholders risk only what they invested."
+    }
+  },
+  {
+    "id": "econ-cmp-214",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 46.2044, "lng": 6.1432, "label": "Geneva" },
+    "compareSpec": {
+      "leftLabel": "Import Tariff",
+      "rightLabel": "Import Quota",
+      "items": [
+        { "id": "a", "text": "Tax levied on foreign goods", "bucket": "left" },
+        { "id": "b", "text": "Hard limit on import quantity", "bucket": "right" },
+        { "id": "c", "text": "Raises tax revenue for state", "bucket": "left" },
+        { "id": "d", "text": "Caps physical volume entering", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each trade barrier trait under import tariff or import quota.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A tariff taxes imported goods and raises government revenue; a quota caps the physical quantity allowed in.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/agrm2_e.htm",
+    "trap_notes": {
+      "default": "Tariffs work through prices and collect tax revenue; quotas restrict physical volume directly."
+    }
+  },
+  {
+    "id": "econ-cmp-215",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Natural Monopoly",
+      "rightLabel": "Cartel",
+      "items": [
+        { "id": "a", "text": "One firm serves cheapest at scale", "bucket": "left" },
+        { "id": "b", "text": "Rival firms collude on prices", "bucket": "right" },
+        { "id": "c", "text": "City water pipes are an example", "bucket": "left" },
+        { "id": "d", "text": "OPEC oil quotas are an example", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each market-power trait under natural monopoly or cartel.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A natural monopoly arises when one firm has the lowest cost (like water pipes); a cartel is rival firms colluding.",
+    "source_url": "https://www.britannica.com/money/monopoly-economics",
+    "trap_notes": {
+      "default": "Natural monopolies are single firms with huge fixed-cost scale; cartels are separate firms agreeing to restrict output."
+    }
+  }
+]

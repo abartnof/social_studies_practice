@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "econ-cau-201",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Federal Reserve" },
+    "prompt": "Order the causal chain when the Federal Reserve buys government bonds.",
+    "options": [
+      { "id": "a", "text": "Market interest rates fall across the economy" },
+      { "id": "b", "text": "Federal Reserve buys Treasury bonds on the open market" },
+      { "id": "c", "text": "Business investment and aggregate demand rise" },
+      { "id": "d", "text": "Commercial bank reserves and money supply expand" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Fed bond purchases add reserves to banks, which lowers interest rates and boosts investment and output.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+    "trap_notes": {
+      "default": "Open-market purchases expand bank reserves first, pushing rates down and then lifting investment."
+    }
+  },
+  {
+    "id": "econ-cau-202",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Federal Reserve" },
+    "prompt": "Order the causal chain of contractionary open-market bond sales.",
+    "options": [
+      { "id": "a", "text": "Commercial bank reserves shrink" },
+      { "id": "b", "text": "Borrowing and inflation pressures cool down" },
+      { "id": "c", "text": "Central bank sells government bonds to banks" },
+      { "id": "d", "text": "Short-term and lending interest rates rise" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Selling bonds drains reserves from banks, raising interest rates and slowing borrowing and inflation.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+    "trap_notes": {
+      "default": "Bond sales pull cash out of banks, which raises rates before slowing spending and inflation."
+    }
+  },
+  {
+    "id": "econ-cau-203",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "prompt": "Order the causal chain after Congress cuts personal income tax rates.",
+    "options": [
+      { "id": "a", "text": "Aggregate demand shifts right and real GDP rises" },
+      { "id": "b", "text": "Households have higher disposable income" },
+      { "id": "c", "text": "Congress enacts broad personal income tax cuts" },
+      { "id": "d", "text": "Consumer spending on goods and services grows" }
+    ],
+    "answer": ["c", "b", "d", "a"],
+    "explanation": "Lower income taxes leave households with more take-home pay, increasing consumption and shifting aggregate demand right.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Fiscal-Policy",
+    "trap_notes": {
+      "default": "Tax cuts raise disposable income first, which fuels consumer spending and then aggregate demand."
+    }
+  },
+  {
+    "id": "econ-cau-204",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "prompt": "Order the causal steps of the crowding-out effect from deficit spending.",
+    "options": [
+      { "id": "a", "text": "Real interest rates climb in credit markets" },
+      { "id": "b", "text": "Private business investment spending declines" },
+      { "id": "c", "text": "Government borrows heavily to cover a budget deficit" },
+      { "id": "d", "text": "Total demand for loanable funds increases" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Heavy government borrowing raises demand for loanable funds, driving up real interest rates and crowding out private investment.",
+    "source_url": "https://www.stlouisfed.org/publications/page1-economics/2018/05/01/the-crowding-out-effect",
+    "trap_notes": {
+      "default": "Deficit borrowing raises loanable-funds demand and interest rates before reducing private investment."
+    }
+  },
+  {
+    "id": "econ-cau-205",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 29.7604, "lng": -95.3698, "label": "Houston" },
+    "prompt": "Order the causal chain of cost-push inflation from an energy shock.",
+    "options": [
+      { "id": "a", "text": "Short-run aggregate supply shifts to the left" },
+      { "id": "b", "text": "Global crude oil prices spike sharply" },
+      { "id": "c", "text": "Economy experiences higher prices and lower output" },
+      { "id": "d", "text": "Shipping and manufacturing costs rise for firms" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Higher oil prices raise production costs, shifting short-run aggregate supply left and causing stagflation.",
+    "source_url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/",
+    "trap_notes": {
+      "default": "Input-cost spikes shift aggregate supply left, raising the price level while reducing output."
+    }
+  },
+  {
+    "id": "econ-cau-206",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order the causal chain of demand-pull inflation in a booming economy.",
+    "options": [
+      { "id": "a", "text": "Total spending outpaces factory production capacity" },
+      { "id": "b", "text": "Overall consumer price level climbs across markets" },
+      { "id": "c", "text": "Economy approaches full employment and output" },
+      { "id": "d", "text": "Firms raise prices to ration scarce goods" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "At full employment, excess spending strains capacity, prompting firms to raise prices and lifting the overall price level.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation",
+    "trap_notes": {
+      "default": "Demand-pull inflation starts with spending exceeding full-employment capacity, driving prices up."
+    }
+  },
+  {
+    "id": "econ-cau-207",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order the causal chain of a binding rent ceiling on city apartments.",
+    "options": [
+      { "id": "a", "text": "Chronic housing shortage develops in the city" },
+      { "id": "b", "text": "City sets maximum rent below market equilibrium" },
+      { "id": "c", "text": "Waitlists and non-price rationing emerge" },
+      { "id": "d", "text": "Quantity demanded exceeds quantity supplied" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "A rent cap below equilibrium makes quantity demanded exceed supply, creating a shortage and non-price rationing.",
+    "source_url": "https://www.britannica.com/money/price-control",
+    "trap_notes": {
+      "default": "Below-equilibrium caps create excess demand, which causes a persistent shortage and waitlists."
+    }
+  },
+  {
+    "id": "econ-cau-208",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines" },
+    "prompt": "Order the causal chain of a binding agricultural price floor.",
+    "options": [
+      { "id": "a", "text": "Quantity supplied exceeds quantity demanded" },
+      { "id": "b", "text": "Government buys and stores excess farm crops" },
+      { "id": "c", "text": "Government sets minimum crop price above equilibrium" },
+      { "id": "d", "text": "Persistent grain surplus builds in markets" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "A price floor above equilibrium encourages excess supply, creating a surplus that the state often buys.",
+    "source_url": "https://www.britannica.com/money/price-control",
+    "trap_notes": {
+      "default": "Above-equilibrium floors make quantity supplied exceed demand, generating a market surplus."
+    }
+  },
+  {
+    "id": "econ-cau-209",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.5407, "lng": -77.436, "label": "Richmond" },
+    "prompt": "Order the causal chain when an excise tax hits an inelastic good.",
+    "options": [
+      { "id": "a", "text": "Retail price rises by nearly the full tax amount" },
+      { "id": "b", "text": "Government levies a per-pack tax on cigarettes" },
+      { "id": "c", "text": "Buyers bear most of the economic tax burden" },
+      { "id": "d", "text": "Supply curve shifts upward by the tax size" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Taxing an inelastic good shifts supply up, pushing retail prices sharply higher so buyers bear most of the tax.",
+    "source_url": "https://www.britannica.com/money/tax-incidence",
+    "trap_notes": {
+      "default": "When demand is inelastic, sellers pass most of a supply-shifting tax onto consumers through higher prices."
+    }
+  },
+  {
+    "id": "econ-cau-210",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh" },
+    "prompt": "Order the causal chain after a nation imposes a tariff on imported steel.",
+    "options": [
+      { "id": "a", "text": "Imported steel prices jump for domestic buyers" },
+      { "id": "b", "text": "Domestic steel mills expand output and sales" },
+      { "id": "c", "text": "Government places a 25 percent tariff on steel imports" },
+      { "id": "d", "text": "Consumers face higher prices for metal products" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "A tariff raises the price of imported steel, letting domestic mills sell more while raising downstream consumer prices.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/agrm2_e.htm",
+    "trap_notes": {
+      "default": "Tariffs raise import prices first, shielding domestic producers but raising costs for buyers."
+    }
+  },
+  {
+    "id": "econ-cau-211",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo" },
+    "prompt": "Order the causal chain when a nation's currency depreciates.",
+    "options": [
+      { "id": "a", "text": "Foreign buyers purchase more of the nation's goods" },
+      { "id": "b", "text": "Domestic currency falls in value on forex markets" },
+      { "id": "c", "text": "Nation's net exports and aggregate demand increase" },
+      { "id": "d", "text": "Domestic exports become cheaper for foreign buyers" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "A weaker currency makes exports cheaper abroad, boosting foreign orders and increasing net exports.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Exchange-Rates",
+    "trap_notes": {
+      "default": "Currency depreciation lowers export prices in foreign terms, lifting export volume and net exports."
+    }
+  },
+  {
+    "id": "econ-cau-212",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "prompt": "Order the causal chain from a domestic interest-rate hike to exchange rates.",
+    "options": [
+      { "id": "a", "text": "Foreign investors seek higher bond yields locally" },
+      { "id": "b", "text": "Demand for the domestic currency rises in forex markets" },
+      { "id": "c", "text": "Domestic currency appreciates against foreign rivals" },
+      { "id": "d", "text": "Central bank raises domestic benchmark interest rates" }
+    ],
+    "answer": ["d", "a", "b", "c"],
+    "explanation": "Higher domestic rates attract foreign capital inflows, raising demand for the currency and causing it to appreciate.",
+    "source_url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/",
+    "trap_notes": {
+      "default": "Higher interest rates draw foreign capital, increasing currency demand and appreciating the exchange rate."
+    }
+  },
+  {
+    "id": "econ-cau-213",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order how fractional-reserve banking expands the money supply.",
+    "options": [
+      { "id": "a", "text": "Bank lends excess reserves to new borrowers" },
+      { "id": "b", "text": "Customer deposits cash into a checking account" },
+      { "id": "c", "text": "Total money supply grows by a deposit multiplier" },
+      { "id": "d", "text": "Bank sets aside a fraction as required reserves" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "A deposit lets a bank hold required reserves and lend the rest, creating new deposits that multiply the money supply.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-9-money",
+    "trap_notes": {
+      "default": "Banks receive deposits, hold required reserves, lend excess reserves, and repeat the cycle."
+    }
+  },
+  {
+    "id": "econ-cau-214",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago" },
+    "prompt": "Order the causal chain of a classic commercial bank run.",
+    "options": [
+      { "id": "a", "text": "Bank exhausts its liquid cash reserves" },
+      { "id": "b", "text": "Depositors fear the bank may become insolvent" },
+      { "id": "c", "text": "Bank fails without central bank emergency loans" },
+      { "id": "d", "text": "Customers rush to withdraw all their deposits at once" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Fear of insolvency sparks simultaneous withdrawals, draining liquid reserves and forcing bank failure without a lender.",
+    "source_url": "https://www.fdic.gov/about/history/",
+    "trap_notes": {
+      "default": "Loss of confidence triggers mass withdrawals, which drain cash reserves and cause insolvency."
+    }
+  },
+  {
+    "id": "econ-cau-215",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 52.52, "lng": 13.405, "label": "Berlin" },
+    "prompt": "Order the causal chain that produces a hyperinflation spiral.",
+    "options": [
+      { "id": "a", "text": "People spend cash immediately before it loses value" },
+      { "id": "b", "text": "Rapidly rising money velocity drives prices skyward" },
+      { "id": "c", "text": "Government prints vast money to pay budget deficits" },
+      { "id": "d", "text": "Currency loses purchasing power rapidly" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "Printing money for deficits erodes its value, causing people to spend cash faster and accelerating price increases.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation",
+    "trap_notes": {
+      "default": "Monetizing deficits erodes currency value first, which speeds up spending and sends prices soaring."
+    }
+  },
+  {
+    "id": "econ-cau-216",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit" },
+    "prompt": "Order the causal chain of a wage-price inflation spiral.",
+    "options": [
+      { "id": "a", "text": "Workers demand higher nominal wages to catch up" },
+      { "id": "b", "text": "Firms raise product prices to cover higher payrolls" },
+      { "id": "c", "text": "Rising living costs erode workers' real wages" },
+      { "id": "d", "text": "Economy experiences accelerating price inflation" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Eroded real wages prompt workers to seek raises, pushing firms to hike prices and fueling further inflation.",
+    "source_url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/",
+    "trap_notes": {
+      "default": "Falling real wages spark wage demands, which raise business costs and lead to higher prices."
+    }
+  },
+  {
+    "id": "econ-cau-217",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Development Economics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.5665, "lng": 126.978, "label": "Seoul" },
+    "prompt": "Order how human capital investment drives long-run economic growth.",
+    "options": [
+      { "id": "a", "text": "Workforce acquires stronger technical and job skills" },
+      { "id": "b", "text": "Nation expands funding for schools and job training" },
+      { "id": "c", "text": "Long-run real GDP per capita rises steadily" },
+      { "id": "d", "text": "Output per worker hour increases across industries" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Education funding builds worker skills, raising labor productivity and lifting long-run real GDP per capita.",
+    "source_url": "https://www.worldbank.org/en/publication/human-capital",
+    "trap_notes": {
+      "default": "Schooling builds skills, skills raise productivity per worker, and productivity drives per-capita GDP."
+    }
+  },
+  {
+    "id": "econ-cau-218",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.3861, "lng": -122.0839, "label": "Silicon Valley" },
+    "prompt": "Order the causal chain of Joseph Schumpeter's creative destruction.",
+    "options": [
+      { "id": "a", "text": "Legacy firms using older methods lose market share" },
+      { "id": "b", "text": "Entrepreneurs introduce a lower-cost technology" },
+      { "id": "c", "text": "Labor and capital shift into newer growing sectors" },
+      { "id": "d", "text": "Outdated businesses downsize or exit the market" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "New innovations undercut legacy firms, forcing outdated businesses to exit and freeing resources for newer sectors.",
+    "source_url": "https://www.britannica.com/money/creative-destruction",
+    "trap_notes": {
+      "default": "Innovation comes first, outcompeting legacy firms and reallocating resources to new industries."
+    }
+  },
+  {
+    "id": "econ-cau-219",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.4993, "lng": -81.6944, "label": "Cleveland" },
+    "prompt": "Order how a Pigouvian tax corrects a negative pollution externality.",
+    "options": [
+      { "id": "a", "text": "Social cost of production exceeds private firm cost" },
+      { "id": "b", "text": "Government imposes a tax per ton of emissions" },
+      { "id": "c", "text": "Factory pollutes a nearby river during production" },
+      { "id": "d", "text": "Firm reduces output toward the socially efficient level" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Unpriced pollution makes social cost exceed private cost; a per-unit emissions tax aligns output with social efficiency.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities",
+    "trap_notes": {
+      "default": "The externality creates a gap between private and social cost, which the tax closes to reduce output."
+    }
+  },
+  {
+    "id": "econ-cau-220",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.6159, "lng": -70.662, "label": "Gloucester" },
+    "prompt": "Order the causal chain of the tragedy of the commons in a fishery.",
+    "options": [
+      { "id": "a", "text": "Breeding fish population depletes faster than recovery" },
+      { "id": "b", "text": "Each boat races to catch as many fish as possible" },
+      { "id": "c", "text": "Total future harvest collapses for the whole fleet" },
+      { "id": "d", "text": "Ocean fishery has open access without catch limits" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Open access gives each boat an incentive to overfish, depleting the stock and collapsing future harvests.",
+    "source_url": "https://www.britannica.com/science/tragedy-of-the-commons",
+    "trap_notes": {
+      "default": "Open access drives individual overharvesting, which depletes the shared resource and ruins future yields."
+    }
+  },
+  {
+    "id": "econ-cau-221",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston" },
+    "prompt": "Order why the free-rider problem leads private markets to underprovide streetlights.",
+    "options": [
+      { "id": "a", "text": "Private firms cannot earn profit from streetlights" },
+      { "id": "b", "text": "Non-paying passersby cannot be excluded from light" },
+      { "id": "c", "text": "Private market underprovides neighborhood streetlights" },
+      { "id": "d", "text": "Streetlights are non-excludable public goods" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Because streetlights are non-excludable, free riders enjoy them without paying, leaving firms unprofitable and underproviding them.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Public-Goods",
+    "trap_notes": {
+      "default": "Non-excludability lets non-payers benefit, removing private profit and causing underprovision."
+    }
+  },
+  {
+    "id": "econ-cau-222",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.8715, "lng": -122.273, "label": "Berkeley" },
+    "prompt": "Order the causal chain of adverse selection in the used-car market.",
+    "options": [
+      { "id": "a", "text": "Owners of reliable cars withdraw from the market" },
+      { "id": "b", "text": "Buyers cannot tell good used cars from defective ones" },
+      { "id": "c", "text": "Mostly defective lemons remain available for sale" },
+      { "id": "d", "text": "Buyers offer only an average price for all used cars" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Hidden quality forces buyers to offer average prices, driving out good sellers and leaving mostly lemons.",
+    "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2001/summary/",
+    "trap_notes": {
+      "default": "Asymmetric information lowers buyer offers, which pushes good cars out and leaves defective ones."
+    }
+  },
+  {
+    "id": "econ-cau-223",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.7658, "lng": -72.6734, "label": "Hartford" },
+    "prompt": "Order the causal chain of moral hazard in auto insurance.",
+    "options": [
+      { "id": "a", "text": "Driver takes fewer precautions against theft or dents" },
+      { "id": "b", "text": "Financial risk of vehicle loss shifts to the insurer" },
+      { "id": "c", "text": "Driver purchases a zero-deductible full-coverage policy" },
+      { "id": "d", "text": "Insurer faces higher accident and claim payouts" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Full coverage shifts loss risk to the insurer, reducing driver caution and raising total insurance claims.",
+    "source_url": "https://www.britannica.com/money/moral-hazard",
+    "trap_notes": {
+      "default": "Moral hazard happens after a contract is signed: shifted risk reduces caution and raises claims."
+    }
+  },
+  {
+    "id": "econ-cau-224",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "prompt": "Order how comparative advantage generates mutual gains from trade.",
+    "options": [
+      { "id": "a", "text": "Combined world production of both goods expands" },
+      { "id": "b", "text": "Countries trade surplus goods at mutually beneficial terms" },
+      { "id": "c", "text": "Each nation specializes in its lowest opportunity-cost good" },
+      { "id": "d", "text": "Both nations consume beyond their domestic frontiers" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Specializing by lowest opportunity cost expands total output, allowing trade to lift both nations beyond domestic limits.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Trade",
+    "trap_notes": {
+      "default": "Specialization comes first, expanding total output so trade lets both partners consume more."
+    }
+  },
+  {
+    "id": "econ-cau-225",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle" },
+    "prompt": "Order the causal chain when the price of a substitute good doubles.",
+    "options": [
+      { "id": "a", "text": "Tea looks relatively cheaper than morning coffee" },
+      { "id": "b", "text": "Demand curve for tea shifts to the right" },
+      { "id": "c", "text": "Poor harvest causes retail coffee prices to double" },
+      { "id": "d", "text": "Consumers switch from buying coffee to buying tea" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Higher coffee prices make tea relatively cheaper, prompting consumers to switch and shifting tea demand right.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "default": "A higher price for a substitute makes the alternative look cheaper, shifting its demand curve right."
+    }
+  },
+  {
+    "id": "econ-cau-226",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.4419, "lng": -122.143, "label": "Palo Alto" },
+    "prompt": "Order the causal chain when the price of a complementary good falls.",
+    "options": [
+      { "id": "a", "text": "Demand curve for replacement ink cartridges shifts right" },
+      { "id": "b", "text": "More households purchase home inkjet printers" },
+      { "id": "c", "text": "Equilibrium price and sales of ink cartridges rise" },
+      { "id": "d", "text": "Retail price of home printers drops sharply" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "Cheaper printers boost printer purchases, which shifts demand for complementary ink cartridges right and raises ink sales.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "default": "When a complement gets cheaper, people buy more of it and increase demand for its paired good."
+    }
+  },
+  {
+    "id": "econ-cau-227",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago" },
+    "prompt": "Order the long-run adjustment in a perfectly competitive market.",
+    "options": [
+      { "id": "a", "text": "New rival firms enter the profitable industry" },
+      { "id": "b", "text": "Market price falls until economic profit reaches zero" },
+      { "id": "c", "text": "Existing firms earn positive economic profits" },
+      { "id": "d", "text": "Industry supply curve shifts to the right" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Positive profits attract new entrants, shifting market supply right and driving price down to zero economic profit.",
+    "source_url": "https://www.britannica.com/money/perfect-competition",
+    "trap_notes": {
+      "default": "Economic profits attract entry, which increases supply and drives long-run price back to break-even."
+    }
+  },
+  {
+    "id": "econ-cau-228",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order how an unregulated monopoly creates deadweight loss.",
+    "options": [
+      { "id": "a", "text": "Monopoly price rises above marginal production cost" },
+      { "id": "b", "text": "Single firm restricts output to maximize profit" },
+      { "id": "c", "text": "Total economic surplus shrinks below competitive level" },
+      { "id": "d", "text": "Mutually beneficial trades between buyers and firm vanish" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Restricting output lifts price above marginal cost, eliminating mutually beneficial trades and shrinking total surplus.",
+    "source_url": "https://www.britannica.com/money/monopoly-economics",
+    "trap_notes": {
+      "default": "Monopolies restrict output first, pushing price above marginal cost and causing lost trades."
+    }
+  },
+  {
+    "id": "econ-cau-229",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit" },
+    "prompt": "Order the causal chain of diminishing marginal returns in a factory.",
+    "options": [
+      { "id": "a", "text": "Each additional worker adds less extra output" },
+      { "id": "b", "text": "Factory hires more workers with fixed machinery" },
+      { "id": "c", "text": "Marginal cost of producing each extra unit rises" },
+      { "id": "d", "text": "Workers crowd around limited machines and space" }
+    ],
+    "answer": ["b", "d", "a", "c"],
+    "explanation": "Adding labor to fixed machines causes crowding, reducing each new worker's extra output and raising marginal cost.",
+    "source_url": "https://www.britannica.com/money/diminishing-returns",
+    "trap_notes": {
+      "default": "Fixed capital gets crowded as labor rises, lowering marginal product and pushing marginal cost up."
+    }
+  },
+  {
+    "id": "econ-cau-230",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Labor & Markets",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "Washington, D.C." },
+    "prompt": "Order the standard competitive-market chain of a binding minimum wage.",
+    "options": [
+      { "id": "a", "text": "Quantity of labor supplied exceeds labor demanded" },
+      { "id": "b", "text": "Employers hire fewer entry-level workers" },
+      { "id": "c", "text": "Government sets minimum wage above market equilibrium" },
+      { "id": "d", "text": "Surplus of unemployed job seekers develops" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "A wage floor above equilibrium creates excess labor supply as firms hire fewer workers, producing a labor surplus.",
+    "source_url": "https://www.bls.gov/",
+    "trap_notes": {
+      "default": "In a competitive model, a wage floor above equilibrium reduces hiring and leaves excess labor supply."
+    }
+  },
+  {
+    "id": "econ-cau-231",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Labor & Markets",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 30.2672, "lng": -97.7431, "label": "Austin" },
+    "prompt": "Order the causal chain of derived demand in the labor market.",
+    "options": [
+      { "id": "a", "text": "Automakers expand battery factory production" },
+      { "id": "b", "text": "Wages for battery engineers rise in the labor market" },
+      { "id": "c", "text": "Consumers buy far more electric vehicles" },
+      { "id": "d", "text": "Firms increase demand to hire battery engineers" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Higher consumer demand for EVs pushes automakers to expand production, raising demand and wages for battery engineers.",
+    "source_url": "https://www.britannica.com/money/wage-and-salary",
+    "trap_notes": {
+      "default": "Labor demand is derived from product demand: consumers buy goods first, then firms hire workers."
+    }
+  },
+  {
+    "id": "econ-cau-232",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "Washington, D.C." },
+    "prompt": "Order how automatic stabilizers cushion an economic downturn.",
+    "options": [
+      { "id": "a", "text": "Household incomes fall and layoffs increase" },
+      { "id": "b", "text": "Decline in aggregate consumer spending is softened" },
+      { "id": "c", "text": "Tax bills drop while unemployment benefits rise" },
+      { "id": "d", "text": "Economy enters a sharp cyclical recession" }
+    ],
+    "answer": ["d", "a", "c", "b"],
+    "explanation": "During a recession, falling incomes automatically lower tax payments and trigger unemployment aid, cushioning spending.",
+    "source_url": "https://www.stlouisfed.org/publications/page1-economics/2020/03/02/how-do-automatic-stabilizers-work",
+    "trap_notes": {
+      "default": "Recession lowers incomes first, automatically cutting taxes and raising benefits without new laws."
+    }
+  },
+  {
+    "id": "econ-cau-233",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "prompt": "Order the causal chain of Irving Fisher's deflationary debt spiral.",
+    "options": [
+      { "id": "a", "text": "Real burden of fixed dollar debts rises sharply" },
+      { "id": "b", "text": "Aggregate demand and output fall even further" },
+      { "id": "c", "text": "Overall consumer and producer prices fall steadily" },
+      { "id": "d", "text": "Debtors slash spending to repay heavier loans" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Falling prices raise the real burden of fixed debts, forcing borrowers to cut spending and deepening the downturn.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-depression",
+    "trap_notes": {
+      "default": "Deflation makes fixed debts heavier in real terms, forcing spending cuts that shrink demand further."
+    }
+  },
+  {
+    "id": "econ-cau-234",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo" },
+    "prompt": "Order the causal chain of a Keynesian liquidity trap.",
+    "options": [
+      { "id": "a", "text": "Households and banks hoard cash instead of lending" },
+      { "id": "b", "text": "Short-term nominal interest rates hit near zero" },
+      { "id": "c", "text": "Fiscal spending becomes needed to lift demand" },
+      { "id": "d", "text": "Extra money injections fail to lower rates further" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Near zero rates, people hoard cash so extra money fails to stimulate lending, leaving fiscal policy as the main tool.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Keynesian",
+    "trap_notes": {
+      "default": "At the zero lower bound, cash hoarding blunts conventional rate cuts, elevating fiscal policy."
+    }
+  },
+  {
+    "id": "econ-cau-235",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Federal Reserve" },
+    "prompt": "Order how Quantitative Easing works when policy rates hit zero.",
+    "options": [
+      { "id": "a", "text": "Long-term bond prices rise and yields fall" },
+      { "id": "b", "text": "Mortgage and corporate borrowing costs ease" },
+      { "id": "c", "text": "Short-term policy rate reaches the zero lower bound" },
+      { "id": "d", "text": "Central bank buys long-term Treasuries and MBS" }
+    ],
+    "answer": ["c", "d", "a", "b"],
+    "explanation": "With short-term rates at zero, central banks buy long-term assets to lower long-term yields and ease mortgage rates.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
+    "trap_notes": {
+      "default": "QE begins at the zero bound by purchasing long-term bonds, which lowers long-term yields and borrowing costs."
+    }
+  },
+  {
+    "id": "econ-cau-236",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "prompt": "Order the causal chain of the 1930 Smoot-Hawley tariff spiral.",
+    "options": [
+      { "id": "a", "text": "Foreign trading partners pass retaliatory tariffs" },
+      { "id": "b", "text": "U.S. Congress raises tariffs on twenty thousand goods" },
+      { "id": "c", "text": "Global downturn and U.S. farm crisis deepen" },
+      { "id": "d", "text": "World trade volumes collapse by roughly two-thirds" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "Smoot-Hawley provoked foreign retaliation, collapsing world trade volumes and worsening the Great Depression.",
+    "source_url": "https://history.state.gov/milestones/1921-1936/protectionism",
+    "trap_notes": {
+      "default": "U.S. tariff hikes triggered foreign retaliation, which shrank global trade and deepened the slump."
+    }
+  },
+  {
+    "id": "econ-cau-237",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "prompt": "Order how the 1930s gold standard worsened the Great Depression.",
+    "options": [
+      { "id": "a", "text": "Domestic money supply and credit contract sharply" },
+      { "id": "b", "text": "Central bank hikes interest rates to defend gold peg" },
+      { "id": "c", "text": "Deflation and unemployment worsen across the economy" },
+      { "id": "d", "text": "Country experiences gold outflows during a crisis" }
+    ],
+    "answer": ["d", "b", "a", "c"],
+    "explanation": "To stop gold outflows, central banks raised rates, contracting the money supply and worsening deflation.",
+    "source_url": "https://www.federalreservehistory.org/essays/great-depression",
+    "trap_notes": {
+      "default": "Gold outflows forced central banks to hike rates during a slump, shrinking credit and deepening deflation."
+    }
+  },
+  {
+    "id": "econ-cau-238",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Economic History",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 24.7136, "lng": 46.6753, "label": "Riyadh" },
+    "prompt": "Order the causal chain of the 1973 OPEC oil embargo.",
+    "options": [
+      { "id": "a", "text": "Global crude oil supply drops sharply" },
+      { "id": "b", "text": "OPEC members cut output and embargo Western allies" },
+      { "id": "c", "text": "Industrial economies suffer stagflation" },
+      { "id": "d", "text": "Fuel, heating, and freight costs surge worldwide" }
+    ],
+    "answer": ["b", "a", "d", "c"],
+    "explanation": "OPEC's embargo slashed oil supply, driving up energy and freight costs and triggering 1970s stagflation.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/oil-embargo",
+    "trap_notes": {
+      "default": "The embargo cut supply first, spiking fuel costs before producing stagflation in industrial nations."
+    }
+  },
+  {
+    "id": "econ-cau-239",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "Wall Street" },
+    "prompt": "Order the causal chain of the 2008 U.S. subprime mortgage crisis.",
+    "options": [
+      { "id": "a", "text": "U.S. home prices stall and begin falling nationwide" },
+      { "id": "b", "text": "Mortgage-backed securities plunge in value at banks" },
+      { "id": "c", "text": "Lenders issue high-risk subprime home mortgages" },
+      { "id": "d", "text": "High-risk borrowers default on monthly payments" }
+    ],
+    "answer": ["c", "a", "d", "b"],
+    "explanation": "Loose subprime lending collided with falling home prices, sparking defaults that crushed mortgage-backed securities.",
+    "source_url": "https://www.federalreservehistory.org/essays/subprime-mortgage-crisis",
+    "trap_notes": {
+      "default": "Subprime loans were issued first; falling home prices triggered defaults, which hit bank securities."
+    }
+  },
+  {
+    "id": "econ-cau-240",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.7434, "lng": -118.2726, "label": "Los Angeles" },
+    "prompt": "Order how a global supply-chain bottleneck drives retail inflation.",
+    "options": [
+      { "id": "a", "text": "Factories lack key chips and parts to finish goods" },
+      { "id": "b", "text": "Store inventories shrink while demand stays strong" },
+      { "id": "c", "text": "Port closures and container delays stall shipping" },
+      { "id": "d", "text": "Retail prices climb rapidly across consumer goods" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Port delays starve factories of parts, shrinking store inventories and driving up retail prices.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation",
+    "trap_notes": {
+      "default": "Shipping delays cut factory parts first, which shrinks finished inventory and pushes retail prices up."
+    }
+  },
+  {
+    "id": "econ-cau-241",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.6762, "lng": 139.6503, "label": "Tokyo" },
+    "prompt": "Order how population aging creates fiscal pressure on public budgets.",
+    "options": [
+      { "id": "a", "text": "Ratio of active workers to retirees shrinks" },
+      { "id": "b", "text": "Public pension and elder healthcare outlays grow" },
+      { "id": "c", "text": "Birth rates decline while life expectancy rises" },
+      { "id": "d", "text": "Government budget deficits face upward pressure" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Lower birth rates and longer lives shrink the worker-to-retiree ratio, raising pension costs and straining budgets.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/2020/03/aging-and-fiscal-policy",
+    "trap_notes": {
+      "default": "Demographic shifts alter the worker-retiree ratio first, increasing pension and health spending."
+    }
+  },
+  {
+    "id": "econ-cau-242",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Development Economics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 23.8103, "lng": 90.4125, "label": "Dhaka" },
+    "prompt": "Order how microfinance loans support rural entrepreneurship.",
+    "options": [
+      { "id": "a", "text": "Tailor buys a sewing machine to expand output" },
+      { "id": "b", "text": "Microfinance lender offers a small uncollateralized loan" },
+      { "id": "c", "text": "Low-income villager lacks collateral for a bank loan" },
+      { "id": "d", "text": "Household income and loan repayment capacity grow" }
+    ],
+    "answer": ["c", "b", "a", "d"],
+    "explanation": "Without traditional collateral, small microfinance loans let villagers buy tools and raise household income.",
+    "source_url": "https://www.nobelprize.org/prizes/peace/2006/yunus/facts/",
+    "trap_notes": {
+      "default": "Microfinance addresses missing collateral by funding small tools that raise borrower earnings."
+    }
+  },
+  {
+    "id": "econ-cau-243",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Development Economics",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -12.0464, "lng": -77.0428, "label": "Lima" },
+    "prompt": "Order how secure property rights boost agricultural productivity.",
+    "options": [
+      { "id": "a", "text": "Farmers trust they will keep future crop returns" },
+      { "id": "b", "text": "Owners invest in irrigation and soil improvements" },
+      { "id": "c", "text": "Government enforces clear legal land titles" },
+      { "id": "d", "text": "Farm yields and rural incomes rise over time" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Clear land titles assure farmers they will keep future gains, spurring long-term investment and higher yields.",
+    "source_url": "https://www.worldbank.org/en/topic/land",
+    "trap_notes": {
+      "default": "Secure titles build confidence in future returns, which motivates capital investment and raises yields."
+    }
+  },
+  {
+    "id": "econ-cau-244",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 13.7563, "lng": 100.5018, "label": "Bangkok" },
+    "prompt": "Order the causal chain of a fixed exchange-rate peg collapse.",
+    "options": [
+      { "id": "a", "text": "Central bank sells foreign reserves to defend peg" },
+      { "id": "b", "text": "Speculators bet against the currency as reserves fall" },
+      { "id": "c", "text": "Currency peg becomes overvalued against the dollar" },
+      { "id": "d", "text": "Government abandons peg and lets currency float" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "Defending an overvalued peg drains foreign reserves, inviting speculative attacks that force a float.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Exchange-Rates",
+    "trap_notes": {
+      "default": "An overvalued peg drains reserves first; once reserves run low, speculation forces a float."
+    }
+  },
+  {
+    "id": "econ-cau-245",
+    "type": "causal",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "ordering_mode": "causal",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.5816, "lng": -121.4944, "label": "Sacramento" },
+    "prompt": "Order how a carbon cap-and-trade program cuts emissions.",
+    "options": [
+      { "id": "a", "text": "Firms receive or buy tradable emission permits" },
+      { "id": "b", "text": "Low-cost cleaners cut emissions and sell spare permits" },
+      { "id": "c", "text": "Regulator sets an overall legal cap on total carbon" },
+      { "id": "d", "text": "Total industry emissions fall at lowest social cost" }
+    ],
+    "answer": ["c", "a", "b", "d"],
+    "explanation": "A regulator caps total emissions and issues tradable permits, letting low-cost firms cut more and sell spare permits.",
+    "source_url": "https://www.epa.gov/emissions-trading-resources/what-emissions-trading",
+    "trap_notes": {
+      "default": "Cap-and-trade sets the total cap first, allocates permits, and uses trading to cut at lowest cost."
+    }
+  },
+  {
+    "id": "econ-cmp-216",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Labor & Markets",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "In the Labor Force",
+      "rightLabel": "Not in Labor Force",
+      "items": [
+        { "id": "a", "text": "Full-time factory machinist", "bucket": "left" },
+        { "id": "b", "text": "Retired person living on pension", "bucket": "right" },
+        { "id": "c", "text": "Jobless worker actively applying", "bucket": "left" },
+        { "id": "d", "text": "Full-time student not seeking work", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each adult into the U.S. labor force or outside the labor force.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "The labor force counts employed people and unemployed people actively seeking work; retirees and non-seeking students are outside it.",
+    "source_url": "https://www.bls.gov/cps/definitions.htm",
+    "trap_notes": {
+      "default": "Active job seekers are counted in the labor force; retirees and students not looking for work are not."
+    }
+  },
+  {
+    "id": "econ-cmp-217",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Accounting Profit",
+      "rightLabel": "Economic Profit",
+      "items": [
+        { "id": "a", "text": "Subtracts explicit costs only", "bucket": "left" },
+        { "id": "b", "text": "Subtracts explicit and implicit costs", "bucket": "right" },
+        { "id": "c", "text": "Reported on standard tax forms", "bucket": "left" },
+        { "id": "d", "text": "Zero at long-run competition", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each profit feature under accounting profit or economic profit.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Accounting profit subtracts only explicit cash costs; economic profit also subtracts implicit opportunity costs.",
+    "source_url": "https://www.britannica.com/money/profit",
+    "trap_notes": {
+      "default": "Economic profit includes opportunity costs, so it is smaller than accounting profit."
+    }
+  },
+  {
+    "id": "econ-cmp-218",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3314, "lng": -83.0458, "label": "Detroit" },
+    "compareSpec": {
+      "leftLabel": "Final Good",
+      "rightLabel": "Intermediate Good",
+      "items": [
+        { "id": "a", "text": "New sedan sold to a family", "bucket": "left" },
+        { "id": "b", "text": "Sheet steel sold to an automaker", "bucket": "right" },
+        { "id": "c", "text": "Loaf of bread bought at market", "bucket": "left" },
+        { "id": "d", "text": "Flour bought by a commercial bakery", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each item as a final good or an intermediate good for GDP.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Final goods are sold to end users and counted in GDP; intermediate goods are used up making other goods.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "trap_notes": {
+      "default": "GDP excludes intermediate inputs like bakery flour or automaker steel to avoid double counting."
+    }
+  },
+  {
+    "id": "econ-cmp-219",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "Wall Street" },
+    "compareSpec": {
+      "leftLabel": "Money Market",
+      "rightLabel": "Capital Market",
+      "items": [
+        { "id": "a", "text": "Short-term debt under one year", "bucket": "left" },
+        { "id": "b", "text": "Long-term debt and stocks", "bucket": "right" },
+        { "id": "c", "text": "Three-month Treasury bills", "bucket": "left" },
+        { "id": "d", "text": "Thirty-year corporate bonds", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each financial instrument or trait into money or capital markets.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Money markets trade short-term debt maturing within a year; capital markets trade stocks and long-term bonds.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Financial-Markets",
+    "trap_notes": {
+      "default": "Money markets handle short-term liquidity under one year; capital markets handle long-term investment."
+    }
+  },
+  {
+    "id": "econ-cmp-220",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago" },
+    "compareSpec": {
+      "leftLabel": "Horizontal Merger",
+      "rightLabel": "Vertical Merger",
+      "items": [
+        { "id": "a", "text": "Two rival airlines combine", "bucket": "left" },
+        { "id": "b", "text": "Automaker buys a tire supplier", "bucket": "right" },
+        { "id": "c", "text": "Joins direct market competitors", "bucket": "left" },
+        { "id": "d", "text": "Joins supply-chain stages", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each business combination as a horizontal or vertical merger.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Horizontal mergers combine direct competitors; vertical mergers combine firms at different supply-chain stages.",
+    "source_url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/mergers",
+    "trap_notes": {
+      "default": "Horizontal means same stage (competitors); vertical means buyer and supplier along the production chain."
+    }
+  },
+  {
+    "id": "econ-cmp-221",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 38.8921, "lng": -77.0445, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Stagflation",
+      "rightLabel": "Deflation",
+      "items": [
+        { "id": "a", "text": "Rising prices plus stagnant growth", "bucket": "left" },
+        { "id": "b", "text": "Sustained drop in overall prices", "bucket": "right" },
+        { "id": "c", "text": "1970s oil-shock phenomenon", "bucket": "left" },
+        { "id": "d", "text": "1930s Great Depression price trend", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each macroeconomic condition under stagflation or deflation.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Stagflation pairs high inflation with slow growth and joblessness; deflation is a sustained fall in the overall price level.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation",
+    "trap_notes": {
+      "default": "Stagflation means prices rise during a slump; deflation means overall prices fall."
+    }
+  },
+  {
+    "id": "econ-cmp-222",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 47.6062, "lng": -122.3321, "label": "Seattle" },
+    "compareSpec": {
+      "leftLabel": "Demand Curve Shift",
+      "rightLabel": "Movement Along Curve",
+      "items": [
+        { "id": "a", "text": "Caused by consumer income rise", "bucket": "left" },
+        { "id": "b", "text": "Caused by a change in own price", "bucket": "right" },
+        { "id": "c", "text": "Caused by a change in buyer tastes", "bucket": "left" },
+        { "id": "d", "text": "Changes quantity demanded only", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each change as a demand curve shift or a movement along the curve.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A change in the good's own price moves along the demand curve; income or tastes shift the entire curve.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "default": "Own-price changes move along a fixed curve; non-price determinants like income shift the curve."
+    }
+  },
+  {
+    "id": "econ-cmp-223",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.5868, "lng": -93.625, "label": "Des Moines" },
+    "compareSpec": {
+      "leftLabel": "Supply Curve Shift",
+      "rightLabel": "Movement Along Curve",
+      "items": [
+        { "id": "a", "text": "Caused by new factory technology", "bucket": "left" },
+        { "id": "b", "text": "Caused by product sale price rise", "bucket": "right" },
+        { "id": "c", "text": "Caused by higher raw material cost", "bucket": "left" },
+        { "id": "d", "text": "Changes quantity supplied only", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each change as a supply curve shift or a movement along the curve.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A change in the good's own price moves along the supply curve; technology or input costs shift the whole curve.",
+    "source_url": "https://www.britannica.com/money/supply-and-demand",
+    "trap_notes": {
+      "default": "Own-price changes alter quantity supplied along the curve; input costs and tech shift the supply curve."
+    }
+  },
+  {
+    "id": "econ-cmp-224",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City" },
+    "compareSpec": {
+      "leftLabel": "Pure Monopoly",
+      "rightLabel": "Oligopoly",
+      "items": [
+        { "id": "a", "text": "Single seller controls the market", "bucket": "left" },
+        { "id": "b", "text": "Few large firms dominate market", "bucket": "right" },
+        { "id": "c", "text": "No strategic rivals to react to", "bucket": "left" },
+        { "id": "d", "text": "Firms watch rivals' pricing closely", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each market-structure trait under pure monopoly or oligopoly.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A pure monopoly has one seller with no rivals; an oligopoly has a few large firms with strategic interdependence.",
+    "source_url": "https://www.britannica.com/money/oligopoly",
+    "trap_notes": {
+      "default": "Monopolies have a single firm; oligopolies have a few dominant rivals that react to one another."
+    }
+  },
+  {
+    "id": "econ-cmp-225",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago" },
+    "compareSpec": {
+      "leftLabel": "Consumer Surplus",
+      "rightLabel": "Producer Surplus",
+      "items": [
+        { "id": "a", "text": "Willingness to pay minus price", "bucket": "left" },
+        { "id": "b", "text": "Price received minus marginal cost", "bucket": "right" },
+        { "id": "c", "text": "Area below demand, above price", "bucket": "left" },
+        { "id": "d", "text": "Area above supply, below price", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each welfare measure under consumer surplus or producer surplus.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Consumer surplus is buyers' net gain below demand and above price; producer surplus is sellers' net gain above supply.",
+    "source_url": "https://www.britannica.com/money/consumer-surplus",
+    "trap_notes": {
+      "default": "Buyers gain when price is below their maximum willingness to pay; sellers gain above marginal cost."
+    }
+  },
+  {
+    "id": "econ-cmp-226",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.8899, "lng": -77.0091, "label": "U.S. Capitol" },
+    "compareSpec": {
+      "leftLabel": "Balanced Budget",
+      "rightLabel": "Budget Deficit",
+      "items": [
+        { "id": "a", "text": "Tax revenues equal outlays", "bucket": "left" },
+        { "id": "b", "text": "Outlays exceed tax revenues", "bucket": "right" },
+        { "id": "c", "text": "Adds zero to national debt", "bucket": "left" },
+        { "id": "d", "text": "Requires issuing new bonds", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each government budget trait under balanced budget or budget deficit.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A balanced budget matches spending to revenue without new borrowing; a deficit spends more than taxes bring in.",
+    "source_url": "https://fiscaldata.treasury.gov/",
+    "trap_notes": {
+      "default": "Deficits occur when annual spending exceeds revenue, requiring Treasury borrowing that adds to debt."
+    }
+  },
+  {
+    "id": "econ-cmp-227",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.7069, "lng": -74.0113, "label": "Wall Street" },
+    "compareSpec": {
+      "leftLabel": "Bull Market",
+      "rightLabel": "Bear Market",
+      "items": [
+        { "id": "a", "text": "Sustained rise in stock prices", "bucket": "left" },
+        { "id": "b", "text": "Drop of 20 percent or more", "bucket": "right" },
+        { "id": "c", "text": "Driven by investor optimism", "bucket": "left" },
+        { "id": "d", "text": "Driven by investor pessimism", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each stock market trend under bull market or bear market.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A bull market marks sustained rising prices and optimism; a bear market marks a 20% or deeper decline.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/bull-market",
+    "trap_notes": {
+      "default": "Bulls charge upward (rising markets); bears swipe downward (20%+ market drops)."
+    }
+  },
+  {
+    "id": "econ-cmp-228",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Economic Thought",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 51.5074, "lng": -0.1278, "label": "London" },
+    "compareSpec": {
+      "leftLabel": "Traditional Economy",
+      "rightLabel": "Mixed Economy",
+      "items": [
+        { "id": "a", "text": "Guided by custom and heritage", "bucket": "left" },
+        { "id": "b", "text": "Blends markets with regulation", "bucket": "right" },
+        { "id": "c", "text": "Relies on subsistence or barter", "bucket": "left" },
+        { "id": "d", "text": "Private firms plus public safety net", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each economic system trait under traditional or mixed economy.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Traditional economies follow custom and subsistence; mixed economies combine private markets with government oversight.",
+    "source_url": "https://www.britannica.com/money/mixed-economy",
+    "trap_notes": {
+      "default": "Custom and barter define traditional economies; private enterprise plus public rules define mixed economies."
+    }
+  },
+  {
+    "id": "econ-cmp-229",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston" },
+    "compareSpec": {
+      "leftLabel": "Rivalrous Good",
+      "rightLabel": "Non-Rivalrous Good",
+      "items": [
+        { "id": "a", "text": "Slice of pizza eaten by one buyer", "bucket": "left" },
+        { "id": "b", "text": "Over-the-air radio broadcast", "bucket": "right" },
+        { "id": "c", "text": "One person's use leaves less", "bucket": "left" },
+        { "id": "d", "text": "Extra user costs zero to serve", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each good or trait as rivalrous or non-rivalrous in consumption.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "A rivalrous good is depleted when used by one person; a non-rivalrous good can be shared by many at once.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Public-Goods",
+    "trap_notes": {
+      "default": "Rivalry asks whether one person's consumption reduces the amount left for others."
+    }
+  },
+  {
+    "id": "econ-cmp-230",
+    "type": "compare",
+    "domain": "Econ",
+    "subdomain": "Public Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.8977, "lng": -77.0365, "label": "Washington, D.C." },
+    "compareSpec": {
+      "leftLabel": "Excludable Good",
+      "rightLabel": "Non-Excludable Good",
+      "items": [
+        { "id": "a", "text": "Movie ticket with theater gate", "bucket": "left" },
+        { "id": "b", "text": "National missile defense shield", "bucket": "right" },
+        { "id": "c", "text": "Sellers can block non-payers", "bucket": "left" },
+        { "id": "d", "text": "Everyone benefits without paying", "bucket": "right" }
+      ]
+    },
+    "prompt": "Sort each good or trait as excludable or non-excludable.",
+    "options": [],
+    "answer": "all_matched",
+    "explanation": "Excludable goods let sellers block non-payers; non-excludable goods benefit everyone regardless of payment.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Public-Goods",
+    "trap_notes": {
+      "default": "Excludability asks whether providers can feasibly prevent people who do not pay from using the good."
+    }
+  }
+]

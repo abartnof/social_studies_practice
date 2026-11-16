@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "geo-dat-101",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 1.3, "lng": 32.3, "label": "Demographic Transition" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Vital Rates per 1,000 People",
+      "headers": ["Country", "Birth Rate", "Death Rate"],
+      "rows": [
+        ["Country A", "38", "36"],
+        ["Country B", "36", "10"],
+        ["Country C", "11", "10"]
+      ]
+    },
+    "prompt": "Based on the table, which country is in Stage 2 of the Demographic Transition Model with rapid growth?",
+    "options": [
+      { "id": "a", "text": "Country A, because birth and death rates are both high" },
+      { "id": "b", "text": "Country B, because death rates fell while birth rates stayed high" },
+      { "id": "c", "text": "Country C, because birth and death rates are both low" },
+      { "id": "d", "text": "Country A, because its death rate exceeds its birth rate" }
+    ],
+    "answer": "b",
+    "explanation": "In Stage 2, better sanitation and medicine lower death rates sharply while birth rates stay high, creating rapid natural population growth.",
+    "source_url": "https://www.prb.org/resources/demographic-transition/",
+    "trap_notes": {
+      "default": "Natural increase equals birth rate minus death rate; Stage 2 has the widest gap.",
+      "a": "High birth and high death rates produce slow growth in Stage 1.",
+      "c": "Low birth and low death rates produce slow or zero growth in Stage 4.",
+      "d": "Country A's birth rate of 38 still exceeds its death rate of 36."
+    }
+  },
+  {
+    "id": "geo-dat-102",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.0, "lng": 105.0, "label": "Global Urbanization" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Share of Population in Urban Areas",
+      "headers": ["Region", "1970", "2020"],
+      "rows": [
+        ["Region X", "68%", "82%"],
+        ["Region Y", "22%", "61%"],
+        ["Region Z", "57%", "79%"]
+      ]
+    },
+    "prompt": "Which conclusion is best supported by the urbanization data in the table?",
+    "options": [
+      { "id": "a", "text": "Region Y experienced the largest percentage-point shift to cities" },
+      { "id": "b", "text": "Region X lost urban residents between 1970 and 2020" },
+      { "id": "c", "text": "Region Z had the lowest urban share in both 1970 and 2020" },
+      { "id": "d", "text": "Region Y became more urbanized than Region X by 2020" }
+    ],
+    "answer": "a",
+    "explanation": "Region Y rose by 39 percentage points (22% to 61%), far outpacing Region X (+14 points) and Region Z (+22 points).",
+    "source_url": "https://population.un.org/wup/",
+    "trap_notes": {
+      "default": "Compare the 1970-to-2020 percentage-point gain for each region.",
+      "b": "Region X's urban share increased from 68% to 82%.",
+      "c": "Region Y had the lowest urban share in both years.",
+      "d": "Region X remained higher at 82% compared with Region Y's 61%."
+    }
+  },
+  {
+    "id": "geo-dat-103",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.9, "lng": 23.7, "label": "Climate Stations" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Seasonal Climate Averages",
+      "headers": ["City", "Jan Rain", "July Rain"],
+      "rows": [
+        ["City 1", "180 mm", "210 mm"],
+        ["City 2", "75 mm", "6 mm"],
+        ["City 3", "8 mm", "12 mm"]
+      ]
+    },
+    "prompt": "Which city best matches a Mediterranean climate with wet winters and dry summers?",
+    "options": [
+      { "id": "a", "text": "City 1, because rainfall stays heavy in both seasons" },
+      { "id": "b", "text": "City 2, because winter rain is high and summer is very dry" },
+      { "id": "c", "text": "City 3, because rainfall stays scarce throughout the year" },
+      { "id": "d", "text": "City 1, because July receives slightly more rain than January" }
+    ],
+    "answer": "b",
+    "explanation": "Mediterranean climates feature mild, rainy winters and warm, dry summers, matching City 2's 75 mm in January and 6 mm in July.",
+    "source_url": "https://www.britannica.com/science/Mediterranean-climate",
+    "trap_notes": {
+      "default": "Look for a sharp contrast between a wet winter and a dry summer.",
+      "a": "Year-round heavy rain indicates a humid tropical or marine climate.",
+      "c": "Very low rainfall in both seasons indicates an arid desert climate.",
+      "d": "Heavy year-round rain does not match a dry-summer Mediterranean pattern."
+    }
+  },
+  {
+    "id": "geo-dat-104",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 30.0, "lng": 31.2, "label": "Arable Land Pressure" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Population and Land Area",
+      "headers": ["State", "People", "Arable km2"],
+      "rows": [
+        ["State A", "40M", "400,000"],
+        ["State B", "100M", "40,000"],
+        ["State C", "20M", "100,000"]
+      ]
+    },
+    "prompt": "Which state faces the highest physiological density and greatest pressure on farmland?",
+    "options": [
+      { "id": "a", "text": "State A, at 100 people per square kilometer of farmland" },
+      { "id": "b", "text": "State B, at 2,500 people per square kilometer of farmland" },
+      { "id": "c", "text": "State C, at 200 people per square kilometer of farmland" },
+      { "id": "d", "text": "State A, because it has the largest total arable area" }
+    ],
+    "answer": "b",
+    "explanation": "Dividing 100 million people by 40,000 square kilometers of arable land gives 2,500 people per arable square kilometer in State B.",
+    "source_url": "https://www.census.gov/topics/population.html",
+    "trap_notes": {
+      "default": "Physiological density divides total population by arable land area.",
+      "a": "100 people per arable km2 is much lower than State B's ratio.",
+      "c": "200 people per arable km2 is less than one-tenth of State B's ratio.",
+      "d": "Having more farmland lowers pressure per square kilometer."
+    }
+  },
+  {
+    "id": "geo-dat-105",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 25.0, "lng": 78.0, "label": "Water Allocation" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Freshwater Withdrawals by Sector",
+      "headers": ["Country", "Farming", "Industry"],
+      "rows": [
+        ["Nation 1", "88%", "4%"],
+        ["Nation 2", "18%", "62%"],
+        ["Nation 3", "45%", "35%"]
+      ]
+    },
+    "prompt": "Which economic profile best fits Nation 1 based on its freshwater withdrawal shares?",
+    "options": [
+      { "id": "a", "text": "An agrarian economy relying heavily on irrigated crops" },
+      { "id": "b", "text": "A post-industrial economy led by heavy manufacturing" },
+      { "id": "c", "text": "An urban service economy with minimal farming" },
+      { "id": "d", "text": "A mining economy using water mainly for smelting" }
+    ],
+    "answer": "a",
+    "explanation": "Nation 1 directs 88% of its freshwater to farming and only 4% to industry, typical of heavily irrigated agricultural economies.",
+    "source_url": "https://www.fao.org/aquastat/en/",
+    "trap_notes": {
+      "default": "Match the 88% agricultural water share to the dominant economic activity.",
+      "b": "Heavy manufacturing would produce a high industrial share like Nation 2.",
+      "c": "Minimal farming would not consume 88% of national freshwater.",
+      "d": "Smelting and mining fall under industrial withdrawals, which are only 4%."
+    }
+  },
+  {
+    "id": "geo-dat-106",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 35.7, "lng": 139.7, "label": "Age Structure" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Age and Fertility Indicators",
+      "headers": ["Country", "Median Age", "Fertility Rate"],
+      "rows": [
+        ["Alpha", "48 yrs", "1.3"],
+        ["Beta", "29 yrs", "2.1"],
+        ["Gamma", "18 yrs", "4.8"]
+      ]
+    },
+    "prompt": "Which policy challenge is most likely to confront Country Alpha in the coming decades?",
+    "options": [
+      { "id": "a", "text": "Building enough elementary schools for a youth boom" },
+      { "id": "b", "text": "Supporting a growing retiree share with fewer workers" },
+      { "id": "c", "text": "Managing rapid rural-to-urban overcrowding by youths" },
+      { "id": "d", "text": "Slowing runaway population growth above replacement" }
+    ],
+    "answer": "b",
+    "explanation": "With a median age of 48 and fertility of 1.3 (well below the 2.1 replacement rate), Alpha faces an aging population and shrinking workforce.",
+    "source_url": "https://www.prb.org/resources/population-handbook/",
+    "trap_notes": {
+      "default": "A high median age and below-replacement fertility point to rapid population aging.",
+      "a": "Youth booms occur in countries like Gamma with high fertility.",
+      "c": "Gamma has the young population profile, not Alpha.",
+      "d": "A fertility rate of 1.3 leads to population decline, not runaway growth."
+    }
+  },
+  {
+    "id": "geo-dat-107",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -5.0, "lng": -60.0, "label": "Forest Cover Change" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Forest Change (1,000 ha)",
+      "headers": ["Basin", "Cleared", "Planted"],
+      "rows": [
+        ["Basin A", "950", "150"],
+        ["Basin B", "220", "310"],
+        ["Basin C", "400", "400"]
+      ]
+    },
+    "prompt": "Which statement accurately summarizes net forest change across the three basins?",
+    "options": [
+      { "id": "a", "text": "Basin A has a net gain of 800,000 hectares per year" },
+      { "id": "b", "text": "Basin B is the only basin with net forest expansion" },
+      { "id": "c", "text": "Basin C is losing forest faster than Basin A" },
+      { "id": "d", "text": "All three basins show net forest loss each year" }
+    ],
+    "answer": "b",
+    "explanation": "In Basin B, 310,000 hectares planted exceed 220,000 cleared (+90,000 net gain), while Basin A loses 800,000 and Basin C breaks even.",
+    "source_url": "https://www.fao.org/forest-resources-assessment/en/",
+    "trap_notes": {
+      "default": "Subtract cleared area from planted area to find net forest change.",
+      "a": "Basin A clears 950 and plants 150, resulting in a net loss of 800.",
+      "c": "Basin C's planting equals its clearing for zero net loss.",
+      "d": "Basin B gains 90,000 hectares per year."
+    }
+  },
+  {
+    "id": "geo-dat-108",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.4, "lng": -120.3, "label": "Mountain Transect" },
+    "stimulus": {
+      "kind": "table",
+      "title": "West-to-East Mountain Transect",
+      "headers": ["Station", "Elevation", "Annual Rain"],
+      "rows": [
+        ["West Base", "200 m", "1,850 mm"],
+        ["Summit", "2,400 m", "2,600 mm"],
+        ["East Base", "300 m", "280 mm"]
+      ]
+    },
+    "prompt": "What physical process best explains why the East Base receives only 280 mm of rain?",
+    "options": [
+      { "id": "a", "text": "Warm ocean currents cool the eastern valley" },
+      { "id": "b", "text": "Descending air warms and dries in a rain shadow" },
+      { "id": "c", "text": "Higher elevation at the East Base blocks clouds" },
+      { "id": "d", "text": "Prevailing winds blow moisture from east to west" }
+    ],
+    "answer": "b",
+    "explanation": "Moisture falls on the windward West Base and Summit, leaving dry air to descend and warm on the leeward East Base.",
+    "source_url": "https://www.britannica.com/science/rain-shadow",
+    "trap_notes": {
+      "default": "Compare wet western stations with the dry eastern station at similar low elevation.",
+      "a": "Inland valleys behind mountains are shaped by air descent, not ocean currents.",
+      "c": "The East Base is only 300 m high, far lower than the 2,400 m Summit.",
+      "d": "If moisture came from the east, the East Base would be wet, not dry."
+    }
+  },
+  {
+    "id": "geo-dat-109",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 60.4, "lng": 8.4, "label": "Electricity Mix" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Share of Electricity Generation",
+      "headers": ["Country", "Fossil Fuels", "Hydro"],
+      "rows": [
+        ["Country 1", "12%", "85%"],
+        ["Country 2", "78%", "10%"],
+        ["Country 3", "52%", "22%"]
+      ]
+    },
+    "prompt": "Which geographic feature most likely enables Country 1's electricity profile?",
+    "options": [
+      { "id": "a", "text": "Flat coastal plains with deep coal seams" },
+      { "id": "b", "text": "Steep mountains with abundant fast-flowing rivers" },
+      { "id": "c", "text": "Arid desert basins with minimal river runoff" },
+      { "id": "d", "text": "Offshore oil fields on a wide continental shelf" }
+    ],
+    "answer": "b",
+    "explanation": "Generating 85% of electricity from hydro requires steep topographic relief and reliable precipitation to power dams and turbines.",
+    "source_url": "https://www.iea.org/energy-system/renewables/hydroelectricity",
+    "trap_notes": {
+      "default": "Match the 85% hydropower share to the physical terrain needed for dams.",
+      "a": "Coal seams would drive high fossil-fuel generation.",
+      "c": "Arid deserts lack the river volume needed for 85% hydroelectricity.",
+      "d": "Offshore oil would raise fossil-fuel shares rather than hydro."
+    }
+  },
+  {
+    "id": "geo-dat-110",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 51.9, "lng": 4.5, "label": "Port Connectivity" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Coastal Port Infrastructure",
+      "headers": ["Port", "Rail Links", "TEU Volume"],
+      "rows": [
+        ["Port A", "2 lines", "1.4M"],
+        ["Port B", "11 lines", "14.5M"],
+        ["Port C", "4 lines", "3.2M"]
+      ]
+    },
+    "prompt": "Which statement best explains Port B's trade dominance shown in the table?",
+    "options": [
+      { "id": "a", "text": "Port B has the strongest situation connecting sea and inland rail" },
+      { "id": "b", "text": "Port B relies exclusively on local coastal fishing fleets" },
+      { "id": "c", "text": "Port B handles fewer containers because of rail congestion" },
+      { "id": "d", "text": "Port A moves more cargo per rail line than Port B" }
+    ],
+    "answer": "a",
+    "explanation": "Port B's 11 inland rail lines give it superior situation—connecting maritime shipping to a vast continental hinterland.",
+    "source_url": "https://www.britannica.com/technology/port-harbor",
+    "trap_notes": {
+      "default": "Look at how inland rail connectivity relates to container volume.",
+      "b": "TEU container volume measures global shipping, not local fishing.",
+      "c": "Port B handles 14.5M TEUs, far more than Ports A and C.",
+      "d": "Port A moves 0.7M per line, whereas Port B moves over 1.3M per line."
+    }
+  },
+  {
+    "id": "geo-dat-111",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 12.0, "lng": 15.0, "label": "Social Indicators" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Health and Education Indicators",
+      "headers": ["Region", "Infant Mort.", "Female Lit."],
+      "rows": [
+        ["Region 1", "58 per 1k", "46%"],
+        ["Region 2", "18 per 1k", "84%"],
+        ["Region 3", "4 per 1k", "99%"]
+      ]
+    },
+    "prompt": "What relationship between female literacy and infant mortality is shown in the table?",
+    "options": [
+      { "id": "a", "text": "Higher female literacy is associated with lower infant mortality" },
+      { "id": "b", "text": "Higher female literacy causes higher infant mortality rates" },
+      { "id": "c", "text": "Infant mortality stays constant regardless of literacy levels" },
+      { "id": "d", "text": "Region 1 has the lowest infant mortality and highest literacy" }
+    ],
+    "answer": "a",
+    "explanation": "As female literacy rises from 46% to 99% across the regions, infant mortality drops sharply from 58 to 4 per 1,000 births.",
+    "source_url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+    "trap_notes": {
+      "default": "Track both columns from Region 1 to Region 3 to spot the inverse pattern.",
+      "b": "Infant mortality falls as literacy rises.",
+      "c": "Infant mortality drops from 58 to 4 across the three regions.",
+      "d": "Region 1 has the highest infant mortality and lowest literacy."
+    }
+  },
+  {
+    "id": "geo-dat-112",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 43.7, "lng": -79.4, "label": "Population Components" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Growth per 1,000 People",
+      "headers": ["Country", "Natural Inc.", "Net Migr."],
+      "rows": [
+        ["Northland", "0.5", "+9.5"],
+        ["Midland", "12.0", "-2.0"],
+        ["Southland", "-3.0", "-1.0"]
+      ]
+    },
+    "prompt": "Which country's population growth depends almost entirely on immigration?",
+    "options": [
+      { "id": "a", "text": "Northland, because net migration supplies 95% of its growth" },
+      { "id": "b", "text": "Midland, because natural increase is lower than net migration" },
+      { "id": "c", "text": "Southland, because negative natural increase offsets emigration" },
+      { "id": "d", "text": "Midland, because it has a positive net migration balance" }
+    ],
+    "answer": "a",
+    "explanation": "Northland's total growth is +10.0 per 1,000 (+0.5 natural increase plus +9.5 net migration), so immigration drives 95% of growth.",
+    "source_url": "https://www.un.org/development/desa/pd/",
+    "trap_notes": {
+      "default": "Compare natural increase and net migration for each country.",
+      "b": "Midland's natural increase (+12.0) is positive while net migration (-2.0) is negative.",
+      "c": "Southland is losing population in both categories (-4.0 total).",
+      "d": "Midland has negative net migration (-2.0)."
+    }
+  },
+  {
+    "id": "geo-dat-113",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 47.6, "lng": -122.3, "label": "Continentality" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Mean Temperatures at 47°N Latitude",
+      "headers": ["City", "Jan Mean", "July Mean"],
+      "rows": [
+        ["City X", "5°C", "19°C"],
+        ["City Y", "-16°C", "23°C"],
+        ["City Z", "-8°C", "21°C"]
+      ]
+    },
+    "prompt": "Which city is most likely located on a windward ocean coast rather than deep inland?",
+    "options": [
+      { "id": "a", "text": "City X, because it has the smallest annual temperature range" },
+      { "id": "b", "text": "City Y, because it has the coldest winter and warmest summer" },
+      { "id": "c", "text": "City Z, because its winter temperature is below freezing" },
+      { "id": "d", "text": "City Y, because ocean water cools rapidly in winter" }
+    ],
+    "answer": "a",
+    "explanation": "Oceans heat and cool slowly, moderating coastal temperatures; City X's 14°C range shows marine influence versus City Y's 39°C swing.",
+    "source_url": "https://www.britannica.com/science/maritime-climate",
+    "trap_notes": {
+      "default": "Calculate July minus January temperature; oceans keep the annual range small.",
+      "b": "A huge 39°C swing indicates an inland continental location.",
+      "c": "Subfreezing winters reflect inland continentality, not coastal moderation.",
+      "d": "Water has high heat capacity and cools much more slowly than land."
+    }
+  },
+  {
+    "id": "geo-dat-114",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 31.5, "lng": 34.8, "label": "Irrigation Efficiency" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Water Use and Crop Output",
+      "headers": ["District", "Water/ha", "Yield/ha"],
+      "rows": [
+        ["Drip Zone", "4,000 m3", "9.2 tons"],
+        ["Sprinkler", "6,500 m3", "8.4 tons"],
+        ["Flood Field", "11,000 m3", "7.1 tons"]
+      ]
+    },
+    "prompt": "What conclusion about agricultural water use is supported by the table?",
+    "options": [
+      { "id": "a", "text": "Drip irrigation achieves the highest yield with the least water" },
+      { "id": "b", "text": "Flood irrigation produces the highest crop yield per hectare" },
+      { "id": "c", "text": "Applying more water per hectare steadily raises crop yield" },
+      { "id": "d", "text": "Sprinkler systems use more water than flood fields" }
+    ],
+    "answer": "a",
+    "explanation": "The Drip Zone produces 9.2 tons per hectare using 4,000 m3 of water, outperforming both sprinkler and flood methods.",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/irrigation-water-use",
+    "trap_notes": {
+      "default": "Compare water applied against tons harvested per hectare.",
+      "b": "Flood Field has the lowest yield at 7.1 tons per hectare.",
+      "c": "Flood Field uses the most water yet produces the lowest yield.",
+      "d": "Sprinklers use 6,500 m3 compared with 11,000 m3 for flood fields."
+    }
+  },
+  {
+    "id": "geo-dat-115",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 6.5, "lng": 3.4, "label": "Megacity Growth" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Metro Population (Millions)",
+      "headers": ["City", "1980", "2020"],
+      "rows": [
+        ["City A", "2.6M", "14.4M"],
+        ["City B", "15.6M", "18.8M"],
+        ["City C", "28.5M", "37.4M"]
+      ]
+    },
+    "prompt": "Which statement best describes the urban growth pattern shown in the table?",
+    "options": [
+      { "id": "a", "text": "City A grew more than fivefold, outpacing larger mature cities" },
+      { "id": "b", "text": "City C had the fastest percentage growth between 1980 and 2020" },
+      { "id": "c", "text": "City B shrank in total population over the forty-year span" },
+      { "id": "d", "text": "City A surpassed City B in total population by 2020" }
+    ],
+    "answer": "a",
+    "explanation": "City A multiplied by about 5.5x (2.6M to 14.4M), far faster in percentage terms than City B (+21%) or City C (+31%).",
+    "source_url": "https://population.un.org/wup/",
+    "trap_notes": {
+      "default": "Compare the 2020/1980 growth multiple for each city.",
+      "b": "City C added the most people (8.9M) in absolute terms, not percentage growth.",
+      "c": "City B grew from 15.6M to 18.8M.",
+      "d": "In 2020, City B (18.8M) remained larger than City A (14.4M)."
+    }
+  },
+  {
+    "id": "geo-dat-116",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 27.7, "lng": 85.3, "label": "Soil Erosion" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Watershed Runoff Measurements",
+      "headers": ["Plot", "Slope", "Tree Cover"],
+      "rows": [
+        ["Plot 1", "22°", "10%"],
+        ["Plot 2", "22°", "85%"],
+        ["Plot 3", "3°", "15%"]
+      ]
+    },
+    "prompt": "Which plot faces the greatest risk of severe topsoil erosion during heavy monsoon rain?",
+    "options": [
+      { "id": "a", "text": "Plot 1, because steep slope combines with sparse tree cover" },
+      { "id": "b", "text": "Plot 2, because dense tree roots loosen hillside soil" },
+      { "id": "c", "text": "Plot 3, because flat terrain speeds up surface water flow" },
+      { "id": "d", "text": "Plot 2, because 85% canopy cover increases raindrop impact" }
+    ],
+    "answer": "a",
+    "explanation": "Steep 22° slopes accelerate runoff, and only 10% tree cover leaves Plot 1's soil exposed without roots or canopy protection.",
+    "source_url": "https://www.fao.org/soils-portal/soil-degradation-restoration/en/",
+    "trap_notes": {
+      "default": "Erosion peaks where steep slopes meet bare, unprotected ground.",
+      "b": "Tree roots anchor soil and reduce erosion on steep slopes.",
+      "c": "Gentle 3° slopes slow runoff compared with 22° hillsides.",
+      "d": "Forest canopies intercept rainfall and cushion raindrop impact."
+    }
+  },
+  {
+    "id": "geo-dat-117",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 13.7, "lng": -89.2, "label": "Remittances" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Diaspora Remittances and GDP",
+      "headers": ["Country", "Remit. ($B)", "Share of GDP"],
+      "rows": [
+        ["State X", "$7.8 B", "24%"],
+        ["State Y", "$62.0 B", "4%"],
+        ["State Z", "$1.5 B", "2%"]
+      ]
+    },
+    "prompt": "Which country's domestic economy is most vulnerable to a sudden drop in overseas worker remittances?",
+    "options": [
+      { "id": "a", "text": "State X, because remittances equal nearly a quarter of its GDP" },
+      { "id": "b", "text": "State Y, because it receives the largest dollar total" },
+      { "id": "c", "text": "State Z, because its remittance total is the smallest" },
+      { "id": "d", "text": "State Y, because remittances make up 4% of its economy" }
+    ],
+    "answer": "a",
+    "explanation": "Although State Y receives more total dollars, remittances account for 24% of State X's entire GDP, making State X far more dependent.",
+    "source_url": "https://www.worldbank.org/en/topic/migrationremittancesdiasporaissues",
+    "trap_notes": {
+      "default": "Look at remittances as a percentage of GDP to measure economic dependence.",
+      "b": "A large dollar figure is a small shock if it is only 4% of a huge economy.",
+      "c": "Only 2% of State Z's GDP comes from remittances.",
+      "d": "4% of GDP is much smaller than State X's 24%."
+    }
+  },
+  {
+    "id": "geo-dat-118",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 55.7, "lng": 12.6, "label": "Energy Transition" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Wind and Solar Share of Power",
+      "headers": ["Nation", "2010", "2022"],
+      "rows": [
+        ["Nation A", "22%", "61%"],
+        ["Nation B", "4%", "16%"],
+        ["Nation C", "11%", "24%"]
+      ]
+    },
+    "prompt": "Which nation achieved both the highest renewable share in 2022 and the largest percentage-point gain?",
+    "options": [
+      { "id": "a", "text": "Nation A, gaining 39 percentage points to reach 61%" },
+      { "id": "b", "text": "Nation B, quadrupling its share to reach 16%" },
+      { "id": "c", "text": "Nation C, more than doubling its share to 24%" },
+      { "id": "d", "text": "Nation B, gaining 12 percentage points since 2010" }
+    ],
+    "answer": "a",
+    "explanation": "Nation A added 39 percentage points (22% to 61%), exceeding Nation B (+12 points) and Nation C (+13 points).",
+    "source_url": "https://www.iea.org/reports/renewables-2023",
+    "trap_notes": {
+      "default": "Compare both the 2022 level and the 2010-to-2022 percentage-point gain.",
+      "b": "Nation B grew fast proportionally but gained only 12 percentage points.",
+      "c": "Nation C gained 13 percentage points and reached 24%.",
+      "d": "12 percentage points is less than Nation A's 39-point gain."
+    }
+  },
+  {
+    "id": "geo-dat-119",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 40.8, "lng": -111.9, "label": "Air Quality" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Winter Valley Air Quality",
+      "headers": ["City", "Terrain", "PM2.5 ug/m3"],
+      "rows": [
+        ["Valley A", "Closed Basin", "78"],
+        ["Plain B", "Open Plain", "18"],
+        ["Coast C", "Open Coast", "14"]
+      ]
+    },
+    "prompt": "Why does Valley A record far worse winter particulate pollution than Plain B or Coast C?",
+    "options": [
+      { "id": "a", "text": "Surrounding mountains trap cold air under temperature inversions" },
+      { "id": "b", "text": "Open coastlines prevent winds from dispersing smoke" },
+      { "id": "c", "text": "Flat plains concentrate exhaust near ground level" },
+      { "id": "d", "text": "Higher winter winds in closed basins increase smog" }
+    ],
+    "answer": "a",
+    "explanation": "In winter, warm air aloft acts as a lid over cold air pooled inside closed mountain basins, trapping pollutants near the ground.",
+    "source_url": "https://www.epa.gov/pm-pollution",
+    "trap_notes": {
+      "default": "Connect the 'Closed Basin' terrain to stagnant air and temperature inversions.",
+      "b": "Coastal winds help disperse air pollution, keeping Coast C at 14.",
+      "c": "Open plains allow winds to blow particulates away.",
+      "d": "Strong winds disperse smog; stagnant basin air traps it."
+    }
+  },
+  {
+    "id": "geo-dat-120",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Population & Migration",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.9, "lng": 12.5, "label": "Dependency Ratios" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Population by Age Group",
+      "headers": ["Country", "Under 15", "65 and Over"],
+      "rows": [
+        ["Country 1", "12%", "24%"],
+        ["Country 2", "19%", "16%"],
+        ["Country 3", "41%", "3%"]
+      ]
+    },
+    "prompt": "Which country has the highest share of working-age adults between 15 and 64 years old?",
+    "options": [
+      { "id": "a", "text": "Country 1, with 64% in the working-age group" },
+      { "id": "b", "text": "Country 2, with 65% in the working-age group" },
+      { "id": "c", "text": "Country 3, with 56% in the working-age group" },
+      { "id": "d", "text": "Country 3, because only 3% are over age 65" }
+    ],
+    "answer": "b",
+    "explanation": "Subtracting dependents from 100% leaves 65% working-age in Country 2 (100 - 35), slightly above Country 1 (64%) and Country 3 (56%).",
+    "source_url": "https://data.worldbank.org/indicator/SP.POP.DPND",
+    "trap_notes": {
+      "default": "Add the Under 15 and 65+ shares, then subtract from 100%.",
+      "a": "100% minus (12% + 24%) equals 64%, just below Country 2.",
+      "c": "56% is lower than both Country 1 (64%) and Country 2 (65%).",
+      "d": "Country 3's 41% youth share lowers its working-age share to 56%."
+    }
+  },
+  {
+    "id": "geo-dat-121",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 19.1, "lng": 72.9, "label": "Monsoon Seasonality" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Seasonal Precipitation (mm)",
+      "headers": ["City", "Dec-Feb", "Jun-Aug"],
+      "rows": [
+        ["City M", "12 mm", "1,620 mm"],
+        ["City N", "240 mm", "260 mm"],
+        ["City P", "310 mm", "45 mm"]
+      ]
+    },
+    "prompt": "Which city exhibits a classic South Asian summer monsoon rainfall regime?",
+    "options": [
+      { "id": "a", "text": "City M, because summer winds bring extreme seasonal rain" },
+      { "id": "b", "text": "City N, because rain falls evenly across both seasons" },
+      { "id": "c", "text": "City P, because winter rainfall exceeds summer rainfall" },
+      { "id": "d", "text": "City N, because June to August is slightly wetter" }
+    ],
+    "answer": "a",
+    "explanation": "Summer monsoon winds draw moist Indian Ocean air onto the heated continent, producing City M's 1,620 mm summer surge after a dry winter.",
+    "source_url": "https://www.britannica.com/science/Indian-monsoon",
+    "trap_notes": {
+      "default": "Look for a dry winter paired with a massive summer rainfall surge.",
+      "b": "Even year-round rain does not reflect seasonal monsoon wind reversal.",
+      "c": "Wet winters and dry summers match a Mediterranean climate, not a summer monsoon.",
+      "d": "City N shows almost no seasonal contrast."
+    }
+  },
+  {
+    "id": "geo-dat-122",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 21.0, "lng": 105.8, "label": "Structural Shift" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Workforce and Income Trends",
+      "headers": ["Country", "Farm Labor", "GDP/Capita"],
+      "rows": [
+        ["State 1", "64%", "$1,400"],
+        ["State 2", "26%", "$9,800"],
+        ["State 3", "2%", "$54,000"]
+      ]
+    },
+    "prompt": "What economic pattern is illustrated by the three countries in the table?",
+    "options": [
+      { "id": "a", "text": "Higher GDP per capita corresponds with a smaller farm labor share" },
+      { "id": "b", "text": "Countries with high farm employment generate the highest incomes" },
+      { "id": "c", "text": "Moving workers into farming raises national GDP per capita" },
+      { "id": "d", "text": "State 2 has a larger agricultural workforce than State 1" }
+    ],
+    "answer": "a",
+    "explanation": "As economies industrialize and expand services, farm labor shares fall from 64% to 2% while GDP per capita rises from $1,400 to $54,000.",
+    "source_url": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS",
+    "trap_notes": {
+      "default": "Compare the direction of Farm Labor against GDP per capita.",
+      "b": "State 1 has the highest farm share (64%) and lowest GDP per capita.",
+      "c": "Higher incomes align with shifting labor out of farming into industry and services.",
+      "d": "State 2 (26%) is much lower than State 1 (64%)."
+    }
+  },
+  {
+    "id": "geo-dat-123",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 23.8, "lng": 90.4, "label": "Coastal Vulnerability" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Population Below 5 m Elevation",
+      "headers": ["Country", "Pop. Share", "Total People"],
+      "rows": [
+        ["Delta Nation", "38%", "64M"],
+        ["Atoll Nation", "82%", "0.4M"],
+        ["Inland State", "0%", "0M"]
+      ]
+    },
+    "prompt": "Which comparison best captures the distinct sea-level risks facing Delta Nation and Atoll Nation?",
+    "options": [
+      { "id": "a", "text": "Atoll Nation has higher percentage risk, while Delta Nation has far more people" },
+      { "id": "b", "text": "Delta Nation has a higher share of residents below 5 meters than Atoll Nation" },
+      { "id": "c", "text": "Atoll Nation faces larger total displacement measured in millions of people" },
+      { "id": "d", "text": "Inland State faces severe coastal storm-surge flooding across its plains" }
+    ],
+    "answer": "a",
+    "explanation": "Atoll Nation has 82% of its citizens on low-lying ground, whereas Delta Nation's 38% represents 64 million people—a massive absolute total.",
+    "source_url": "https://www.ipcc.ch/srocc/",
+    "trap_notes": {
+      "default": "Distinguish percentage share (82% vs 38%) from absolute headcount (64M vs 0.4M).",
+      "b": "38% is lower than Atoll Nation's 82%.",
+      "c": "0.4M people is far fewer than Delta Nation's 64M.",
+      "d": "Inland State has 0% of its population below 5 meters."
+    }
+  },
+  {
+    "id": "geo-dat-124",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.7, "lng": -84.4, "label": "Commute Modes" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Metro Commute Mode Share",
+      "headers": ["Metro", "Private Car", "Transit/Walk"],
+      "rows": [
+        ["Metro 1", "86%", "9%"],
+        ["Metro 2", "32%", "64%"],
+        ["Metro 3", "58%", "35%"]
+      ]
+    },
+    "prompt": "Which urban form most likely characterizes Metro 1 based on its commute data?",
+    "options": [
+      { "id": "a", "text": "Low-density suburban sprawl built around highways" },
+      { "id": "b", "text": "Compact pedestrian core served by dense subway lines" },
+      { "id": "c", "text": "Walled medieval center banning private automobiles" },
+      { "id": "d", "text": "Island city connected only by passenger ferries" }
+    ],
+    "answer": "a",
+    "explanation": "An 86% private-car share and 9% transit/walk share are hallmarks of sprawling, low-density metros designed around highway commuting.",
+    "source_url": "https://www.census.gov/topics/employment/commuting.html",
+    "trap_notes": {
+      "default": "Match 86% car dependence to low-density, highway-oriented urban form.",
+      "b": "Dense subway cores look like Metro 2 (64% transit/walk).",
+      "c": "Banning cars would produce a very low private-car share.",
+      "d": "Ferry-only islands would show high transit shares, not 86% cars."
+    }
+  },
+  {
+    "id": "geo-dat-125",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Physical Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 64.8, "lng": -147.7, "label": "Permafrost Thaw" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Subarctic Ground Temperatures",
+      "headers": ["Site", "1980 Mean", "2020 Mean"],
+      "rows": [
+        ["Site A", "-1.2°C", "+0.6°C"],
+        ["Site B", "-6.5°C", "-4.8°C"],
+        ["Site C", "+2.1°C", "+3.4°C"]
+      ]
+    },
+    "prompt": "Which site crossed the freezing threshold between 1980 and 2020, risking active permafrost thaw?",
+    "options": [
+      { "id": "a", "text": "Site A, rising from below freezing to above zero" },
+      { "id": "b", "text": "Site B, warming while remaining well below freezing" },
+      { "id": "c", "text": "Site C, remaining above freezing in both years" },
+      { "id": "d", "text": "Site B, because its temperature rose by 1.7 degrees" }
+    ],
+    "answer": "a",
+    "explanation": "Site A shifted from -1.2°C to +0.6°C, crossing the 0°C melting point where frozen ground ice begins to thaw.",
+    "source_url": "https://climate.nasa.gov/vital-signs/arctic-sea-ice/",
+    "trap_notes": {
+      "default": "Look for the site that moved from negative (frozen) to positive (above 0°C).",
+      "b": "At -4.8°C, Site B's ground remains frozen.",
+      "c": "Site C was already above 0°C in 1980.",
+      "d": "Even after warming 1.7°C, Site B is still -4.8°C."
+    }
+  },
+  {
+    "id": "geo-dat-126",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Cultural Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -6.0, "lng": 144.0, "label": "Linguistic Diversity" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Terrain and Indigenous Languages",
+      "headers": ["Region", "Terrain", "Languages"],
+      "rows": [
+        ["Highland X", "Steep Valleys", "420"],
+        ["Steppe Y", "Flat Plains", "14"],
+        ["Desert Z", "Open Dunes", "9"]
+      ]
+    },
+    "prompt": "What geographic principle best explains why Highland X preserves 420 distinct languages?",
+    "options": [
+      { "id": "a", "text": "Rugged mountain barriers isolate communities and slow linguistic blending" },
+      { "id": "b", "text": "Flat plains prevent neighboring groups from trading or talking" },
+      { "id": "c", "text": "Steep valleys encourage rapid adoption of a single imperial tongue" },
+      { "id": "d", "text": "Open deserts support denser cities than fertile highland valleys" }
+    ],
+    "answer": "a",
+    "explanation": "Steep mountain ridges act as physical barriers to travel and communication, allowing isolated valleys to retain distinct languages.",
+    "source_url": "https://www.britannica.com/place/Papua-New-Guinea",
+    "trap_notes": {
+      "default": "Physical barriers reduce contact and preserve local cultural differences.",
+      "b": "Flat plains make travel and linguistic mixing easier, leaving fewer languages.",
+      "c": "Isolation slows standardization rather than speeding it up.",
+      "d": "Deserts are sparsely populated and have few languages in the table."
+    }
+  },
+  {
+    "id": "geo-dat-127",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 37.5, "lng": -101.0, "label": "Aquifer Balance" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Annual Aquifer Budget (km3)",
+      "headers": ["Basin", "Pumped", "Recharged"],
+      "rows": [
+        ["Basin 1", "18", "3"],
+        ["Basin 2", "6", "7"],
+        ["Basin 3", "9", "9"]
+      ]
+    },
+    "prompt": "Which basin is experiencing severe groundwater overdraft that will deplete its aquifer?",
+    "options": [
+      { "id": "a", "text": "Basin 1, because pumping exceeds recharge by 15 km3 each year" },
+      { "id": "b", "text": "Basin 2, because recharge exceeds pumping by 1 km3 each year" },
+      { "id": "c", "text": "Basin 3, because pumping equals natural annual recharge" },
+      { "id": "d", "text": "Basin 2, because it pumps less water than Basin 3" }
+    ],
+    "answer": "a",
+    "explanation": "Basin 1 withdraws six times more groundwater (18 km3) than rainfall replenishes (3 km3), steadily lowering the water table.",
+    "source_url": "https://www.usgs.gov/mission-areas/water-resources/science/groundwater-decline-and-depletion",
+    "trap_notes": {
+      "default": "Overdraft occurs when water pumped out exceeds natural recharge.",
+      "b": "Basin 2 has a small surplus of +1 km3 per year.",
+      "c": "Basin 3 is in balance with zero net depletion.",
+      "d": "Lower pumping in Basin 2 is more sustainable, not an overdraft."
+    }
+  },
+  {
+    "id": "geo-dat-128",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Economic Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 24.7, "lng": 46.7, "label": "Export Structure" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Merchandise Export Shares",
+      "headers": ["State", "Top Commodity", "Manufactures"],
+      "rows": [
+        ["State A", "84% Crude Oil", "9%"],
+        ["State B", "12% Copper", "76%"],
+        ["State C", "31% Cocoa", "52%"]
+      ]
+    },
+    "prompt": "Which state faces the highest economic risk from a global drop in raw-material prices?",
+    "options": [
+      { "id": "a", "text": "State A, because 84% of exports come from one raw commodity" },
+      { "id": "b", "text": "State B, because three-quarters of exports are manufactures" },
+      { "id": "c", "text": "State C, because over half of exports are manufactured goods" },
+      { "id": "d", "text": "State B, because copper makes up 12% of its exports" }
+    ],
+    "answer": "a",
+    "explanation": "Relying on a single primary commodity for 84% of export earnings leaves State A highly exposed to global price swings.",
+    "source_url": "https://unctad.org/topic/commodities",
+    "trap_notes": {
+      "default": "High dependence on a single primary commodity creates severe price vulnerability.",
+      "b": "Diverse manufactured exports buffer State B against commodity swings.",
+      "c": "State C's 52% manufactures make it less exposed than State A.",
+      "d": "12% is a modest share compared with State A's 84%."
+    }
+  },
+  {
+    "id": "geo-dat-129",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Urban Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 33.4, "lng": -112.1, "label": "Urban Heat Island" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Summer Nighttime Temperatures",
+      "headers": ["Metro", "Downtown", "Rural Edge"],
+      "rows": [
+        ["Metro X", "31°C", "24°C"],
+        ["Metro Y", "25°C", "23°C"],
+        ["Metro Z", "22°C", "21°C"]
+      ]
+    },
+    "prompt": "Which metro exhibits the strongest urban heat island effect at night?",
+    "options": [
+      { "id": "a", "text": "Metro X, with a 7°C gap between downtown and rural areas" },
+      { "id": "b", "text": "Metro Y, with a 2°C gap between downtown and rural areas" },
+      { "id": "c", "text": "Metro Z, with a 1°C gap between downtown and rural areas" },
+      { "id": "d", "text": "Metro Z, because its rural edge is cooler than Metro X" }
+    ],
+    "answer": "a",
+    "explanation": "Concrete and asphalt absorb daytime heat and release it slowly at night, creating a 7°C downtown-to-rural gap in Metro X.",
+    "source_url": "https://www.epa.gov/heatislands",
+    "trap_notes": {
+      "default": "Subtract the Rural Edge temperature from the Downtown temperature.",
+      "b": "A 2°C difference is much smaller than Metro X's 7°C difference.",
+      "c": "A 1°C difference shows the weakest heat island effect.",
+      "d": "Urban heat islands measure the downtown-versus-rural temperature gap."
+    }
+  },
+  {
+    "id": "geo-dat-130",
+    "type": "data",
+    "domain": "Geo",
+    "subdomain": "Environmental Geography",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": -16.5, "lng": 146.0, "label": "Coral Reef Stress" },
+    "stimulus": {
+      "kind": "table",
+      "title": "Reef Surface Temperature Anomaly",
+      "headers": ["Reef", "Temp Anomaly", "Bleached Coral"],
+      "rows": [
+        ["Reef 1", "+0.2°C", "4%"],
+        ["Reef 2", "+1.1°C", "32%"],
+        ["Reef 3", "+2.3°C", "74%"]
+      ]
+    },
+    "prompt": "What relationship between ocean warming and coral health is shown in the table?",
+    "options": [
+      { "id": "a", "text": "Higher positive temperature anomalies match higher coral bleaching" },
+      { "id": "b", "text": "Coral bleaching drops sharply as sea surface temperatures rise" },
+      { "id": "c", "text": "Sea surface anomalies have no measurable link to bleaching" },
+      { "id": "d", "text": "Reef 1 suffered the most bleaching despite cooler water" }
+    ],
+    "answer": "a",
+    "explanation": "As the positive temperature anomaly rises from +0.2°C to +2.3°C, coral bleaching jumps from 4% to 74%.",
+    "source_url": "https://oceanservice.noaa.gov/facts/coral_bleach.html",
+    "trap_notes": {
+      "default": "Compare the temperature anomaly column with the bleached coral percentage.",
+      "b": "Bleaching rises sharply with higher temperatures, from 4% to 74%.",
+      "c": "The table shows a clear positive association between warming and bleaching.",
+      "d": "Reef 1 had the lowest bleaching rate at 4%."
+    }
+  },
+  {
+    "id": "geo-syn-101",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Physical & Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 26.8, "lng": 31.0, "label": "Nile Valley" },
+    "prompt": "How did the Nile River's predictable annual flooding shape early Egyptian civilization?",
+    "options": [
+      { "id": "a", "text": "It deposited fertile silt and encouraged coordinated irrigation governance" },
+      { "id": "b", "text": "It forced Egyptians to abandon farming for nomadic herding" },
+      { "id": "c", "text": "It prevented riverboat travel between Upper and Lower Egypt" },
+      { "id": "d", "text": "It flooded unpredictably in winter, destroying all grain storage" }
+    ],
+    "answer": "a",
+    "explanation": "Predictable summer floods replenished valley soils and required collective canal management, helping unify Egypt under centralized rule.",
+    "source_url": "https://www.britannica.com/place/ancient-Egypt",
+    "trap_notes": {
+      "default": "Link reliable river silt and irrigation needs to political centralization.",
+      "b": "Nile silt supported dense, sedentary grain agriculture.",
+      "c": "The Nile served as Egypt's primary north-south transport highway.",
+      "d": "Unlike Mesopotamia's erratic rivers, the Nile flooded on a predictable cycle."
+    }
+  },
+  {
+    "id": "geo-syn-102",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.5, "lng": -77.4, "label": "Atlantic Fall Line" },
+    "prompt": "Why did early U.S. cities such as Richmond, Trenton, and Philadelphia develop along the Atlantic Fall Line?",
+    "options": [
+      { "id": "a", "text": "Waterfalls halted riverboats and supplied waterpower for mills" },
+      { "id": "b", "text": "Deep-sea oil rigs operated directly beside coastal beaches" },
+      { "id": "c", "text": "Glacial ice sheets blocked ocean shipping until the 1850s" },
+      { "id": "d", "text": "Steep mountain passes prevented any road construction inland" }
+    ],
+    "answer": "a",
+    "explanation": "Where Piedmont bedrock drops to the Coastal Plain, rapids marked the head of river navigation and powered early textile and grain mills.",
+    "source_url": "https://www.britannica.com/place/Fall-Line",
+    "trap_notes": {
+      "default": "Think about what waterfalls do to both riverboats and early waterwheels.",
+      "b": "Offshore oil was not a factor in colonial-era city siting.",
+      "c": "The mid-Atlantic Fall Line lies south of Pleistocene ice sheets.",
+      "d": "The Fall Line sits east of the Appalachian ridges, not in high mountain passes."
+    }
+  },
+  {
+    "id": "geo-syn-103",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Economic Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.9, "lng": -87.6, "label": "Break-of-Bulk Points" },
+    "prompt": "Why do factories and warehouses frequently cluster at break-of-bulk points such as seaports and rail hubs?",
+    "options": [
+      { "id": "a", "text": "Transferring cargo between transport modes creates opportunities to process goods" },
+      { "id": "b", "text": "Governments ban industrial plants from locating near inland highways" },
+      { "id": "c", "text": "Land at busy ports is much cheaper than farmland in rural counties" },
+      { "id": "d", "text": "Workers refuse to live near rivers or coastal shipping terminals" }
+    ],
+    "answer": "a",
+    "explanation": "Because bulk cargo is already unloaded when switching from ships to trains or trucks, processing goods there saves extra handling costs.",
+    "source_url": "https://www.britannica.com/money/location-theory",
+    "trap_notes": {
+      "default": "Connect mode-to-mode cargo transfers with lower transport and handling costs.",
+      "b": "Industrial zoning exists, but transport savings drive break-of-bulk clustering.",
+      "c": "Port land is typically expensive, not cheaper than rural farmland.",
+      "d": "Port cities historically attracted large industrial labor forces."
+    }
+  },
+  {
+    "id": "geo-syn-104",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Political Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9, "lng": -77.0, "label": "Electoral Geography" },
+    "prompt": "How does partisan gerrymandering use spatial boundaries to influence legislative elections?",
+    "options": [
+      { "id": "a", "text": "By packing or cracking voter groups across oddly shaped districts" },
+      { "id": "b", "text": "By replacing the Electoral College with a national popular vote" },
+      { "id": "c", "text": "By moving state capitals to the geographic center of each state" },
+      { "id": "d", "text": "By requiring all congressional districts to follow river borders" }
+    ],
+    "answer": "a",
+    "explanation": "Gerrymandering redraws district lines to concentrate rival voters in a few districts (packing) or dilute them across many (cracking).",
+    "source_url": "https://www.britannica.com/topic/gerrymandering",
+    "trap_notes": {
+      "default": "Focus on how district boundaries group or split voters on a map.",
+      "b": "Gerrymandering affects legislative districts, not the Electoral College formula.",
+      "c": "Capital relocation does not alter legislative district maps.",
+      "d": "Districts rarely follow natural river boundaries; gerrymandering ignores compact shapes."
+    }
+  },
+  {
+    "id": "geo-syn-105",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 47.9, "lng": 106.9, "label": "Eurasian Steppe" },
+    "prompt": "How did the open grassland environment of the Eurasian Steppe shape the rise of the Mongol Empire?",
+    "options": [
+      { "id": "a", "text": "Vast pastures supported horse cavalry and rapid long-distance mobility" },
+      { "id": "b", "text": "Dense tropical jungles shielded Mongol armies from rival states" },
+      { "id": "c", "text": "Deep ocean harbors enabled Mongol fleets to dominate the Atlantic" },
+      { "id": "d", "text": "Year-round monsoon floods made overland cavalry travel impossible" }
+    ],
+    "answer": "a",
+    "explanation": "Semi-arid steppe grasslands nourished huge horse herds, giving nomadic pastoralists unmatched speed, endurance, and cavalry logistics.",
+    "source_url": "https://www.britannica.com/place/Steppe-region-Eurasia",
+    "trap_notes": {
+      "default": "Match the steppe grassland biome to pastoralism and horse mobility.",
+      "b": "The Eurasian Steppe is a temperate grassland, not a tropical jungle.",
+      "c": "Mongolia is landlocked in interior Eurasia.",
+      "d": "Dry steppe terrain favored rapid overland riding."
+    }
+  },
+  {
+    "id": "geo-syn-106",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Environmental & US History",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 36.7, "lng": -101.5, "label": "Dust Bowl" },
+    "prompt": "How did human land use and climate interact to trigger the 1930s Dust Bowl on the Great Plains?",
+    "options": [
+      { "id": "a", "text": "Deep plowing stripped native sod just before a severe multi-year drought" },
+      { "id": "b", "text": "Coastal hurricanes flooded wheat fields across western Kansas" },
+      { "id": "c", "text": "Industrial logging cleared tropical rainforests along the Mississippi" },
+      { "id": "d", "text": "Subway construction beneath rural towns collapsed the topsoil" }
+    ],
+    "answer": "a",
+    "explanation": "Plowing up deep-rooted prairie grasses left dry soil exposed; when drought struck in the 1930s, winds swept the topsoil into dust storms.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl/",
+    "trap_notes": {
+      "default": "Combine the removal of native prairie grass roots with multi-year drought.",
+      "b": "The Great Plains lie far inland and suffered drought, not hurricanes.",
+      "c": "The Great Plains are temperate grasslands, not tropical rainforests.",
+      "d": "Agricultural plowing, not subway tunnels, exposed the plains topsoil."
+    }
+  },
+  {
+    "id": "geo-syn-107",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Economic Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 1.3, "lng": 103.8, "label": "Containerization" },
+    "prompt": "How did standardized shipping containers reshape the geography of global manufacturing?",
+    "options": [
+      { "id": "a", "text": "Lower freight costs let firms split production across distant countries" },
+      { "id": "b", "text": "Higher port fees forced all factories to move inland near coal mines" },
+      { "id": "c", "text": "Larger boxes eliminated the need for coastal seaports in world trade" },
+      { "id": "d", "text": "Uniform containers ended ocean shipping between Asia and Europe" }
+    ],
+    "answer": "a",
+    "explanation": "Intermodal containers slashed loading times and freight costs, enabling global supply chains to locate assembly far from final markets.",
+    "source_url": "https://www.britannica.com/technology/containerization",
+    "trap_notes": {
+      "default": "Think about how cheaper, faster intermodal shipping affects factory location.",
+      "b": "Containerization dramatically lowered port-handling costs.",
+      "c": "Containerization made mega-seaports even more central to global trade.",
+      "d": "Standardized containers vastly expanded Asia-Europe maritime trade."
+    }
+  },
+  {
+    "id": "geo-syn-108",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Political Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 14.5, "lng": 114.0, "label": "Law of the Sea" },
+    "prompt": "Under the UN Convention on the Law of the Sea, what rights does a 200-nautical-mile Exclusive Economic Zone grant?",
+    "options": [
+      { "id": "a", "text": "Sole rights to fish, drill, and mine marine resources in that zone" },
+      { "id": "b", "text": "Authority to ban all foreign merchant ships from passing through" },
+      { "id": "c", "text": "Ownership of all air traffic over neighboring landlocked countries" },
+      { "id": "d", "text": "Full control over international rivers inside upstream nations" }
+    ],
+    "answer": "a",
+    "explanation": "An Exclusive Economic Zone gives coastal states marine resource rights up to 200 nautical miles offshore while keeping navigation open.",
+    "source_url": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
+    "trap_notes": {
+      "default": "Distinguish resource rights in an EEZ from full territorial closure.",
+      "b": "Foreign ships retain freedom of navigation through an EEZ.",
+      "c": "EEZs apply to offshore ocean waters, not neighboring countries' airspace.",
+      "d": "Law of the Sea governs maritime zones, not inland river watersheds."
+    }
+  },
+  {
+    "id": "geo-syn-109",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 11.2, "lng": 75.8, "label": "Indian Ocean Trade" },
+    "prompt": "How did seasonal monsoon winds shape premodern trade across the Indian Ocean?",
+    "options": [
+      { "id": "a", "text": "Reversing winds let dhows sail east in summer and west in winter" },
+      { "id": "b", "text": "Constant polar icebergs blocked ships from reaching East Africa" },
+      { "id": "c", "text": "Dead calm winds forced merchants to carry spices only by camel" },
+      { "id": "d", "text": "One-way currents carried ships south but prevented any return trip" }
+    ],
+    "answer": "a",
+    "explanation": "Merchants timed voyages to seasonal monsoon reversals—sailing toward India in summer and back to Arabia or East Africa in winter.",
+    "source_url": "https://www.britannica.com/science/monsoon",
+    "trap_notes": {
+      "default": "Remember that monsoon winds reverse direction between summer and winter.",
+      "b": "The Indian Ocean lies in tropical and subtropical waters free of polar ice.",
+      "c": "Strong, predictable winds powered thriving maritime dhow trade.",
+      "d": "Because monsoon winds reverse seasonally, sailors made reliable round trips."
+    }
+  },
+  {
+    "id": "geo-syn-110",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Economic & US History",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 43.1, "lng": -75.2, "label": "Erie Canal" },
+    "prompt": "Why did completing the Erie Canal in 1825 help New York City surpass rival Atlantic ports?",
+    "options": [
+      { "id": "a", "text": "It linked the Hudson River to the Great Lakes through a low mountain gap" },
+      { "id": "b", "text": "It connected New York directly to California gold mines by water" },
+      { "id": "c", "text": "It drained the Great Lakes to create new cotton plantations" },
+      { "id": "d", "text": "It was the first highway built exclusively for steam automobiles" }
+    ],
+    "answer": "a",
+    "explanation": "Cutting across New York's Mohawk Valley gap, the Erie Canal slashed Midwest freight costs and funneled trade through New York City.",
+    "source_url": "https://www.britannica.com/topic/Erie-Canal",
+    "trap_notes": {
+      "default": "Connect the Hudson-to-Great-Lakes water route with Midwest trade.",
+      "b": "The Erie Canal reached Lake Erie in western New York, not California.",
+      "c": "The canal used Great Lakes water for shipping, not drainage.",
+      "d": "The Erie Canal was a horse-drawn barge waterway built in 1825."
+    }
+  },
+  {
+    "id": "geo-syn-111",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Economic Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 37.4, "lng": -122.1, "label": "Agglomeration" },
+    "prompt": "Why do competing technology or finance firms often cluster in the same metropolitan area?",
+    "options": [
+      { "id": "a", "text": "Proximity creates shared talent pools, specialized suppliers, and knowledge spillovers" },
+      { "id": "b", "text": "Firms are legally required to share one office building per industry" },
+      { "id": "c", "text": "Clustering guarantees the lowest office rents and wages in the country" },
+      { "id": "d", "text": "Digital networks cannot transmit data across state or national borders" }
+    ],
+    "answer": "a",
+    "explanation": "Agglomeration economies lower costs and speed innovation when firms cluster near skilled workers, venture capital, and specialized vendors.",
+    "source_url": "https://www.britannica.com/money/agglomeration-economy",
+    "trap_notes": {
+      "default": "Look for the shared benefits of talent, suppliers, and face-to-face innovation.",
+      "b": "Clustering arises from economic advantages, not legal mandates.",
+      "c": "High demand in clusters like Silicon Valley usually drives rents and wages up.",
+      "d": "Data moves globally, yet firms still value local talent and networks."
+    }
+  },
+  {
+    "id": "geo-syn-112",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Environmental & Civics",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 36.0, "lng": -114.7, "label": "Colorado River Compact" },
+    "prompt": "Why did seven U.S. states negotiate the Colorado River Compact in 1922?",
+    "options": [
+      { "id": "a", "text": "Watershed boundaries cross state lines, requiring shared interstate water allocation" },
+      { "id": "b", "text": "Each state wanted to dam the Pacific Ocean for hydroelectric power" },
+      { "id": "c", "text": "The Constitution forbids states from signing water agreements with neighbors" },
+      { "id": "d", "text": "Excessive rainfall in the Southwest flooded coastal cities year-round" }
+    ],
+    "answer": "a",
+    "explanation": "Because rivers cross political borders, upstream and downstream states needed a federal-backed compact to divide scarce arid-region water.",
+    "source_url": "https://www.usbr.gov/lc/region/pao/pdfiles/crcompct.pdf",
+    "trap_notes": {
+      "default": "Contrast natural watershed boundaries with artificial state borders.",
+      "b": "The compact divides freshwater river flow, not ocean water.",
+      "c": "Congress approved the interstate compact under the Compact Clause.",
+      "d": "The Colorado River Basin is mostly arid and semi-arid, not flood-prone year-round."
+    }
+  },
+  {
+    "id": "geo-syn-113",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 19.4, "lng": -99.1, "label": "Columbian Exchange" },
+    "prompt": "How did the Columbian Exchange alter both Old World and New World ecosystems after 1492?",
+    "options": [
+      { "id": "a", "text": "Transoceanic voyages swapped crops, livestock, and diseases across separated hemispheres" },
+      { "id": "b", "text": "Continental drift pushed Europe and South America together into one landmass" },
+      { "id": "c", "text": "European explorers banned all American crops from entering Eurasia" },
+      { "id": "d", "text": "Indigenous populations grew rapidly due to immunity to Eurasian pathogens" }
+    ],
+    "answer": "a",
+    "explanation": "Oceanic contact linked isolated ecosystems, bringing potatoes and maize to Eurasia while introducing horses and smallpox to the Americas.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "default": "Focus on the biological exchange of crops, animals, and microbes across the Atlantic.",
+      "b": "Plate tectonics operates over millions of years, not centuries.",
+      "c": "American crops like potatoes, maize, and tomatoes spread rapidly across Eurasia.",
+      "d": "Lack of immunity to Old World diseases caused devastating Indigenous population losses."
+    }
+  },
+  {
+    "id": "geo-syn-114",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Population & US History",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 33.4, "lng": -112.1, "label": "Sun Belt Shift" },
+    "prompt": "Which pair of innovations most accelerated post-1950 U.S. population growth in the Sun Belt?",
+    "options": [
+      { "id": "a", "text": "Widespread air conditioning and the Interstate Highway System" },
+      { "id": "b", "text": "Steam-powered riverboats and frontier sod houses" },
+      { "id": "c", "text": "Deep-shaft anthracite coal mining and canal locks" },
+      { "id": "d", "text": "Horse-drawn streetcars and nineteenth-century telegraph lines" }
+    ],
+    "answer": "a",
+    "explanation": "Affordable air conditioning made hot summers livable indoors, while interstate highways linked fast-growing Sun Belt metropolitan areas.",
+    "source_url": "https://www.britannica.com/place/Sun-Belt",
+    "trap_notes": {
+      "default": "Look for post-WWII technologies that overcame southern heat and distance.",
+      "b": "Riverboats and sod houses belong to the 1800s frontier.",
+      "c": "Anthracite coal and canals drove 19th-century northeastern industry.",
+      "d": "Streetcars and telegraphs predate the post-1950 Sun Belt boom."
+    }
+  },
+  {
+    "id": "geo-syn-115",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Economic Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 10.5, "lng": -66.9, "label": "Resource Curse" },
+    "prompt": "Why do some resource-rich countries experience slower long-term growth—a pattern called the resource curse?",
+    "options": [
+      { "id": "a", "text": "Booming mineral exports raise currency values and crowd out other industries" },
+      { "id": "b", "text": "Having oil or copper deposits prevents a country from importing machinery" },
+      { "id": "c", "text": "Mineral wealth automatically eliminates all government corruption" },
+      { "id": "d", "text": "Resource-rich countries are barred from joining global trade agreements" }
+    ],
+    "answer": "a",
+    "explanation": "Heavy reliance on oil or mineral exports can inflate currency exchange rates, making domestic manufacturing and farming less competitive.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/2003/03/sala",
+    "trap_notes": {
+      "default": "Connect single-commodity export booms to currency appreciation and weak diversification.",
+      "b": "Export revenues make importing machinery easier, not impossible.",
+      "c": "Concentrated resource rents often worsen governance and corruption risks.",
+      "d": "Many resource exporters participate actively in global trade groups."
+    }
+  },
+  {
+    "id": "geo-syn-116",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Political Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 55.9, "lng": -3.2, "label": "Devolution" },
+    "prompt": "Why do central governments sometimes grant regional legislatures greater autonomy through devolution?",
+    "options": [
+      { "id": "a", "text": "To ease cultural or geographic tensions without breaking up the state" },
+      { "id": "b", "text": "To abolish all local city councils and centralize policing" },
+      { "id": "c", "text": "To transfer national borders to neighboring countries" },
+      { "id": "d", "text": "To replace elected regional assemblies with military governors" }
+    ],
+    "answer": "a",
+    "explanation": "Devolution shifts powers to regional parliaments, such as in Scotland or Catalonia, to accommodate distinct identities within one state.",
+    "source_url": "https://www.britannica.com/topic/devolution-government",
+    "trap_notes": {
+      "default": "Devolution moves power downward from the center to regional bodies.",
+      "b": "Centralizing policing is the opposite of devolution.",
+      "c": "Devolution reorganizes internal authority without ceding territory abroad.",
+      "d": "Devolution expands elected regional self-rule rather than military rule."
+    }
+  },
+  {
+    "id": "geo-syn-117",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 16.8, "lng": -3.0, "label": "Trans-Saharan Trade" },
+    "prompt": "Which geographic adaptation enabled West African kingdoms like Mali to sustain trans-Saharan gold-salt trade?",
+    "options": [
+      { "id": "a", "text": "Domesticated camel caravans navigating between desert oases" },
+      { "id": "b", "text": "Deep-water barges sailing down a river across the central Sahara" },
+      { "id": "c", "text": "Alpine sleds pulled across snow-covered mountain glaciers" },
+      { "id": "d", "text": "Steam locomotives crossing paved desert highways in the 1300s" }
+    ],
+    "answer": "a",
+    "explanation": "Camels could travel days without water and carry heavy loads across sand, linking Saharan salt mines to West African goldfields via oases.",
+    "source_url": "https://www.britannica.com/topic/trans-Saharan-trade",
+    "trap_notes": {
+      "default": "Match the arid Sahara crossing to oasis networks and pack animals.",
+      "b": "No perennial river crosses the central Sahara from north to south.",
+      "c": "The Sahara is a hot desert, not an alpine glacier.",
+      "d": "Steam locomotives were invented centuries later in the 1800s."
+    }
+  },
+  {
+    "id": "geo-syn-118",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Environmental & US History",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 35.9, "lng": -83.9, "label": "Tennessee Valley" },
+    "prompt": "How did the New Deal's Tennessee Valley Authority address both physical geography and rural poverty?",
+    "options": [
+      { "id": "a", "text": "By building dams for flood control, navigation, and rural hydroelectricity" },
+      { "id": "b", "text": "By relocating all Tennessee residents to coastal cities in California" },
+      { "id": "c", "text": "By banning commercial farming across the entire Appalachian region" },
+      { "id": "d", "text": "By replacing every river dam with imported petroleum generators" }
+    ],
+    "answer": "a",
+    "explanation": "The TVA managed an entire river basin with multipurpose dams that curbed floods, reforested eroded slopes, and supplied cheap power.",
+    "source_url": "https://www.archives.gov/milestone-documents/tennessee-valley-authority-act",
+    "trap_notes": {
+      "default": "Connect watershed dam engineering to flood control and rural electrification.",
+      "b": "The TVA invested in regional development so residents could prosper locally.",
+      "c": "The TVA promoted soil conservation and fertilizer use to aid farmers.",
+      "d": "Hydropower from dams was central to the TVA's mission."
+    }
+  },
+  {
+    "id": "geo-syn-119",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Economic Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 31.7, "lng": -106.4, "label": "Border Assembly" },
+    "prompt": "Why did maquiladora assembly plants cluster in northern Mexican border cities?",
+    "options": [
+      { "id": "a", "text": "They combine lower-cost labor with short truck hauls to U.S. consumer markets" },
+      { "id": "b", "text": "Northern Mexico holds the world's largest tropical rainforests" },
+      { "id": "c", "text": "U.S. tariffs were higher on border plants than on Asian imports" },
+      { "id": "d", "text": "Border cities are farther from U.S. highways than central Mexico" }
+    ],
+    "answer": "a",
+    "explanation": "Locating just south of the U.S. border paired competitive Mexican assembly wages with rapid overland shipping into U.S. markets.",
+    "source_url": "https://www.britannica.com/money/maquiladora",
+    "trap_notes": {
+      "default": "Combine labor-cost differences with proximity to the U.S. market.",
+      "b": "Northern Mexico is predominantly arid desert and steppe.",
+      "c": "Duty-free rules and NAFTA/USMCA lowered tariffs for border assembly.",
+      "d": "Border cities sit directly adjacent to U.S. highway and rail crossings."
+    }
+  },
+  {
+    "id": "geo-syn-120",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Urban & Political Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 13.7, "lng": 100.5, "label": "Primate Cities" },
+    "prompt": "Why do primate cities—cities more than twice as large as the next city—often emerge in centralized states?",
+    "options": [
+      { "id": "a", "text": "National ministries, universities, and investment concentrate in the capital" },
+      { "id": "b", "text": "Federal constitutions require every citizen to live within one city" },
+      { "id": "c", "text": "Primate cities form only in sparsely populated mountain countries" },
+      { "id": "d", "text": "Strict zoning bans secondary towns from building paved roads" }
+    ],
+    "answer": "a",
+    "explanation": "When political power, banking, and universities cluster in one capital, migrants and businesses disproportionately gravitate there.",
+    "source_url": "https://www.britannica.com/topic/primate-city",
+    "trap_notes": {
+      "default": "Link centralized political and economic institutions to urban concentration.",
+      "b": "No constitution forces everyone to live in one city.",
+      "c": "Primate cities appear in diverse regions, including Paris, Bangkok, and Buenos Aires.",
+      "d": "Market and institutional pull, not road bans, drives primate-city growth."
+    }
+  },
+  {
+    "id": "geo-syn-121",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 48.0, "lng": 10.0, "label": "Little Ice Age" },
+    "prompt": "How did the cooler climate of the Little Ice Age (roughly 1300–1850) affect European societies?",
+    "options": [
+      { "id": "a", "text": "Shorter growing seasons triggered crop failures, famines, and social unrest" },
+      { "id": "b", "text": "Melting polar caps flooded all inland Alpine valleys under seawater" },
+      { "id": "c", "text": "Tropical palm trees replaced wheat across northern Scandinavia" },
+      { "id": "d", "text": "Year-round heatwaves doubled grape harvests in medieval Scotland" }
+    ],
+    "answer": "a",
+    "explanation": "Colder springs and wet summers reduced grain yields across Europe, contributing to periodic famines, higher food prices, and rural unrest.",
+    "source_url": "https://www.britannica.com/science/Little-Ice-Age",
+    "trap_notes": {
+      "default": "Connect colder regional temperatures to shorter growing seasons and grain harvests.",
+      "b": "Cooler climates expand glaciers rather than flooding high mountains with seawater.",
+      "c": "Cooling pushed warm-climate crops southward, not northward.",
+      "d": "Scotland grew cooler, ending marginal medieval vineyards rather than expanding them."
+    }
+  },
+  {
+    "id": "geo-syn-122",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Cartography & US History",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.2, "lng": -112.0, "label": "Standard Time Zones" },
+    "prompt": "How did the expansion of North American railroads lead directly to standardized time zones in 1883?",
+    "options": [
+      { "id": "a", "text": "Local solar noon varied by town, making cross-country train schedules unsafe" },
+      { "id": "b", "text": "Trains ran only at midnight to avoid daytime heat across the plains" },
+      { "id": "c", "text": "Steam engines could not cross state lines without resetting boilers" },
+      { "id": "d", "text": "Telegraph wires worked only in eastern coastal cities" }
+    ],
+    "answer": "a",
+    "explanation": "Hundreds of conflicting local solar times risked head-on rail collisions, prompting railroads to adopt four uniform continental time zones.",
+    "source_url": "https://www.loc.gov/item/today-in-history/november-18/",
+    "trap_notes": {
+      "default": "Connect longitude-based local sun time with the need for safe rail timetables.",
+      "b": "Trains ran around the clock, requiring coordinated schedules.",
+      "c": "Time zones addressed clock synchronization, not boiler mechanics.",
+      "d": "Transcontinental telegraph lines actually helped transmit standard time signals."
+    }
+  },
+  {
+    "id": "geo-syn-123",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Environmental Economics",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 44.0, "lng": -52.0, "label": "High-Seas Fisheries" },
+    "prompt": "Why do open-ocean fisheries outside national borders often suffer from the tragedy of the commons?",
+    "options": [
+      { "id": "a", "text": "Shared access gives each fleet an incentive to catch fish before rivals do" },
+      { "id": "b", "text": "Private owners charge high fees that keep all fishing boats in port" },
+      { "id": "c", "text": "Fish reproduce faster when open oceans are fenced into private lots" },
+      { "id": "d", "text": "Deep-sea currents prevent fish populations from swimming across borders" }
+    ],
+    "answer": "a",
+    "explanation": "Without enforceable quotas or ownership on the high seas, individual boats gain all immediate catch profits while sharing depletion costs.",
+    "source_url": "https://www.britannica.com/science/tragedy-of-the-commons",
+    "trap_notes": {
+      "default": "Think about incentives when a resource is open-access and rivals compete for it.",
+      "b": "The problem on the high seas is open access, not private exclusion.",
+      "c": "Open oceans cannot be physically fenced; international treaties set quotas instead.",
+      "d": "Migratory fish cross boundaries freely, complicating national management."
+    }
+  },
+  {
+    "id": "geo-syn-124",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Population & Civics",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 30.3, "lng": -97.7, "label": "Census Apportionment" },
+    "prompt": "How does internal U.S. migration to fast-growing states affect the U.S. House of Representatives?",
+    "options": [
+      { "id": "a", "text": "Decennial census counts reapportion House seats toward growing states" },
+      { "id": "b", "text": "Growing states receive extra U.S. Senate seats every ten years" },
+      { "id": "c", "text": "Migration automatically freezes congressional maps for fifty years" },
+      { "id": "d", "text": "States losing residents are barred from voting in presidential elections" }
+    ],
+    "answer": "a",
+    "explanation": "Every ten years, the U.S. Census reallocates the 435 House seats among states by population, shifting Electoral College votes too.",
+    "source_url": "https://www.census.gov/topics/public-sector/congressional-apportionment.html",
+    "trap_notes": {
+      "default": "Distinguish population-based House apportionment from equal Senate representation.",
+      "b": "Every state always has exactly two U.S. Senators regardless of population.",
+      "c": "Maps are redrawn every ten years after each decennial census.",
+      "d": "States losing seats still retain at least one Representative and two Senators."
+    }
+  },
+  {
+    "id": "geo-syn-125",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Historical Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 39.7, "lng": 66.9, "label": "Silk Road Oases" },
+    "prompt": "Why did Silk Road cities such as Samarkand and Kashgar flourish along the edges of Central Asian deserts?",
+    "options": [
+      { "id": "a", "text": "Mountain snowmelt fed oasis farms and caravan stops between desert crossings" },
+      { "id": "b", "text": "Deep ocean harbors linked Central Asia directly to Atlantic galleons" },
+      { "id": "c", "text": "Tropical monsoon rains flooded desert dunes for rice paddies" },
+      { "id": "d", "text": "Active volcanoes supplied cheap geothermal power for factories" }
+    ],
+    "answer": "a",
+    "explanation": "Snowmelt from the Pamir and Tian Shan mountains watered oasis towns where merchants rested, traded silk, and swapped ideas.",
+    "source_url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+    "trap_notes": {
+      "default": "Connect mountain runoff oases to overland caravan routes across dry basins.",
+      "b": "Central Asia is landlocked far from the Atlantic Ocean.",
+      "c": "Central Asia lies in a dry continental interior, not a tropical monsoon belt.",
+      "d": "Medieval Silk Road trade relied on agriculture and caravans, not factories."
+    }
+  },
+  {
+    "id": "geo-syn-126",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Population & US History",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 41.8, "lng": -87.6, "label": "Great Migration" },
+    "prompt": "Which combination of push and pull factors drove the Great Migration of African Americans from 1916 to 1970?",
+    "options": [
+      { "id": "a", "text": "Jim Crow disenfranchisement in the South and industrial jobs in northern cities" },
+      { "id": "b", "text": "Free homestead land in New England and gold discoveries in Ohio" },
+      { "id": "c", "text": "Tropical hurricanes in Chicago and cotton booms in Boston" },
+      { "id": "d", "text": "Federal laws banning factory work across all southern states" }
+    ],
+    "answer": "a",
+    "explanation": "Racial violence, Jim Crow laws, and sharecropping pushed millions northward and westward toward wartime factory jobs and urban communities.",
+    "source_url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+    "trap_notes": {
+      "default": "Pair southern segregation and rural hardship (push) with northern industrial demand (pull).",
+      "b": "Homesteading targeted the Great Plains, not industrial northern cities.",
+      "c": "Chicago lies on Lake Michigan, far from tropical hurricanes and cotton farming.",
+      "d": "No federal law banned manufacturing in the South."
+    }
+  },
+  {
+    "id": "geo-syn-127",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Econ"],
+    "subdomain": "Environmental Economics",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 10.3, "lng": -84.8, "label": "Ecotourism" },
+    "prompt": "How can well-managed ecotourism create an economic incentive to preserve tropical rainforests?",
+    "options": [
+      { "id": "a", "text": "It generates steady local income from standing forests rather than logging" },
+      { "id": "b", "text": "It clears canopy trees to build multi-lane highways through parks" },
+      { "id": "c", "text": "It replaces native wildlife with high-yield cattle pastures" },
+      { "id": "d", "text": "It bans local communities from working as guides or lodge owners" }
+    ],
+    "answer": "a",
+    "explanation": "When local residents earn guide, lodging, and park fees from intact ecosystems, standing forests become more valuable alive than cleared.",
+    "source_url": "https://www.britannica.com/topic/ecotourism",
+    "trap_notes": {
+      "default": "Look for how ecotourism aligns local income with keeping ecosystems intact.",
+      "b": "Clearing forests for highways undermines ecological conservation.",
+      "c": "Replacing forest with pasture is deforestation, not ecotourism.",
+      "d": "Successful ecotourism depends on local community participation and benefit."
+    }
+  },
+  {
+    "id": "geo-syn-128",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["Civics"],
+    "subdomain": "Political Geography",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 50.8, "lng": 4.4, "label": "Supranationalism" },
+    "prompt": "How does a supranational union like the European Union change the function of international borders?",
+    "options": [
+      { "id": "a", "text": "It reduces border checks and tariffs so goods and workers move more freely" },
+      { "id": "b", "text": "It builds taller border walls and bans cross-border rail lines" },
+      { "id": "c", "text": "It dissolves all member nations into a single absolute monarchy" },
+      { "id": "d", "text": "It prohibits member countries from trading with neighboring states" }
+    ],
+    "answer": "a",
+    "explanation": "Supranational cooperation pools limited sovereignty to create a single market, easing passport controls and tariffs among member states.",
+    "source_url": "https://european-union.europa.eu/principles-countries-history/principles-and-values_en",
+    "trap_notes": {
+      "default": "Supranationalism lowers economic and travel barriers between member countries.",
+      "b": "The EU's Schengen Area removes routine internal border checks.",
+      "c": "EU member states remain sovereign democratic republics or constitutional monarchies.",
+      "d": "Creating a customs union boosts trade among member countries."
+    }
+  },
+  {
+    "id": "geo-syn-129",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["World"],
+    "subdomain": "Economic & World History",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 53.5, "lng": -2.2, "label": "British Coalfields" },
+    "prompt": "Why did early Industrial Revolution factories cluster in Britain's Midlands and northern valleys?",
+    "options": [
+      { "id": "a", "text": "Shallow coal seams and fast streams sat close to navigable canals and ports" },
+      { "id": "b", "text": "Large solar farms powered steam looms across southern England" },
+      { "id": "c", "text": "Subtropical climates allowed British farmers to grow raw cotton locally" },
+      { "id": "d", "text": "Deep alpine glaciers blocked steamships from docking at Liverpool" }
+    ],
+    "answer": "a",
+    "explanation": "Accessible coal fueled steam engines while nearby rivers, canals, and ports like Liverpool moved raw cotton in and finished cloth out.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "default": "Connect local coal and waterpower with low-cost canal and port transport.",
+      "b": "Solar power was not used in 18th-century textile mills.",
+      "c": "Britain imported raw cotton because its cool, damp climate cannot grow cotton.",
+      "d": "Liverpool is a major ice-free port on the Irish Sea."
+    }
+  },
+  {
+    "id": "geo-syn-130",
+    "type": "synthesis",
+    "domain": "Geo",
+    "secondary_domains": ["US"],
+    "subdomain": "Political & US History",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 9.0, "lng": -79.5, "label": "Panama Strategy" },
+    "prompt": "How did opening the Panama Canal in 1914 transform U.S. commercial and naval geography?",
+    "options": [
+      { "id": "a", "text": "It eliminated the long voyage around Cape Horn between Atlantic and Pacific coasts" },
+      { "id": "b", "text": "It created a direct freshwater river route from Chicago to Tokyo" },
+      { "id": "c", "text": "It ended all rail freight across the continental United States" },
+      { "id": "d", "text": "It connected the Great Lakes directly to the Mediterranean Sea" }
+    ],
+    "answer": "a",
+    "explanation": "Cutting across Panama saved thousands of nautical miles, letting U.S. merchant ships and naval fleets shift rapidly between oceans.",
+    "source_url": "https://history.state.gov/milestones/1899-1913/panama-canal",
+    "trap_notes": {
+      "default": "Think about the sea route between New York and San Francisco before 1914.",
+      "b": "The Panama Canal is in Central America, not a river from Chicago.",
+      "c": "U.S. transcontinental railroads remained vital for inland freight.",
+      "d": "The canal links the Atlantic and Pacific Oceans, not the Mediterranean."
+    }
+  }
+]

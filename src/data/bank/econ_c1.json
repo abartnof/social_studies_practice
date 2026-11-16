@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "econ-mc-201",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "label": "Vienna, Austria"
+    },
+    "prompt": "What does the law of diminishing marginal utility explain about consumer choices?",
+    "options": [
+      { "id": "a", "text": "Each extra unit of a good adds less satisfaction" },
+      { "id": "b", "text": "Total spending on a good falls as income rises" },
+      { "id": "c", "text": "Higher prices make buyers purchase larger amounts" },
+      { "id": "d", "text": "Firms lower wages when worker output increases" }
+    ],
+    "answer": "a",
+    "explanation": "Diminishing marginal utility means the first unit brings high satisfaction, while each additional unit adds less.",
+    "source_url": "https://www.britannica.com/money/marginal-utility",
+    "trap_notes": {
+      "b": "Normal goods see higher spending when income rises.",
+      "c": "The law of demand says higher prices reduce quantity demanded.",
+      "d": "Marginal utility describes consumer satisfaction, not worker wages.",
+      "default": "Each additional unit consumed yields smaller extra satisfaction."
+    }
+  },
+  {
+    "id": "econ-mc-202",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 43.0731,
+      "lng": -89.4012,
+      "label": "Madison, Wisconsin"
+    },
+    "prompt": "If the price of butter rises sharply, what happens to the demand for margarine, a close substitute?",
+    "options": [
+      { "id": "a", "text": "The demand for margarine shifts to the left" },
+      { "id": "b", "text": "The demand for margarine shifts to the right" },
+      { "id": "c", "text": "The supply of margarine falls to zero" },
+      { "id": "d", "text": "The price of butter drops back immediately" }
+    ],
+    "answer": "b",
+    "explanation": "When butter gets more expensive, shoppers switch to margarine, shifting margarine's demand curve right.",
+    "source_url": "https://www.econlib.org/library/Enc/Demand.html",
+    "trap_notes": {
+      "a": "A leftward shift happens when a substitute's price falls, not rises.",
+      "c": "Higher demand encourages producers to supply more, not zero.",
+      "d": "Prices adjust over time, and this asks about margarine demand.",
+      "default": "Higher prices for a substitute good increase demand for its alternative."
+    }
+  },
+  {
+    "id": "econ-mc-203",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.3382,
+      "lng": -121.8863,
+      "label": "San Jose, California"
+    },
+    "prompt": "Home printers and ink cartridges are complements. If printer prices drop, how does ink demand change?",
+    "options": [
+      { "id": "a", "text": "Ink demand decreases as buyers skip printers" },
+      { "id": "b", "text": "Ink supply disappears from retail stores" },
+      { "id": "c", "text": "Ink demand increases as more people buy printers" },
+      { "id": "d", "text": "Ink prices must fall below production costs" }
+    ],
+    "answer": "c",
+    "explanation": "Cheaper printers lead more households to buy them, which raises demand for the ink cartridges used with them.",
+    "source_url": "https://www.britannica.com/money/complementary-goods",
+    "trap_notes": {
+      "a": "Lower printer prices attract more buyers, increasing ink demand.",
+      "b": "Stronger demand encourages retailers to stock more ink.",
+      "d": "Higher ink demand typically puts upward pressure on ink prices.",
+      "default": "Complementary goods are used together, so cheaper printers boost ink demand."
+    }
+  },
+  {
+    "id": "econ-mc-204",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "prompt": "A concertgoer is willing to pay $90 for a ticket but buys it for $60. What does the $30 gap represent?",
+    "options": [
+      { "id": "a", "text": "Producer surplus earned by the venue" },
+      { "id": "b", "text": "Deadweight loss from ticket pricing" },
+      { "id": "c", "text": "Fixed cost of staging the concert" },
+      { "id": "d", "text": "Consumer surplus gained by the buyer" }
+    ],
+    "answer": "d",
+    "explanation": "Consumer surplus is the extra value a buyer gets when the price paid is below their maximum willingness to pay.",
+    "source_url": "https://www.britannica.com/money/consumer-surplus",
+    "trap_notes": {
+      "a": "Producer surplus is the gap between sale price and seller cost.",
+      "b": "Deadweight loss comes from missed trades, not completed ones.",
+      "c": "Fixed costs are expenses the venue pays regardless of ticket sales.",
+      "default": "Consumer surplus equals willingness to pay minus the actual price."
+    }
+  },
+  {
+    "id": "econ-mc-205",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 45.5152,
+      "lng": -122.6784,
+      "label": "Portland, Oregon"
+    },
+    "prompt": "A baker is willing to sell a loaf of bread for $3, but the market price is $5. What is the $2 difference?",
+    "options": [
+      { "id": "a", "text": "Producer surplus earned by the baker" },
+      { "id": "b", "text": "Consumer surplus saved by the buyer" },
+      { "id": "c", "text": "Excise tax collected by the city" },
+      { "id": "d", "text": "Sunk cost lost in the kitchen" }
+    ],
+    "answer": "a",
+    "explanation": "Producer surplus is the market price received minus the lowest price the seller would accept.",
+    "source_url": "https://www.econlib.org/library/Enc/Supply.html",
+    "trap_notes": {
+      "b": "Consumer surplus measures the buyer's gain, not the seller's.",
+      "c": "An excise tax is paid to government, not kept by the baker.",
+      "d": "Sunk costs are past expenses that cannot be recovered.",
+      "default": "Producer surplus equals market price minus minimum acceptable price."
+    }
+  },
+  {
+    "id": "econ-mc-206",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What does deadweight loss measure when a government imposes a steep excise tax on a good?",
+    "options": [
+      { "id": "a", "text": "Total tax revenue collected by the treasury" },
+      { "id": "b", "text": "Lost surplus from trades that no longer happen" },
+      { "id": "c", "text": "Extra profit earned by domestic producers" },
+      { "id": "d", "text": "Wages paid to federal tax collectors" }
+    ],
+    "answer": "b",
+    "explanation": "Taxes raise prices and shrink output, creating deadweight loss from mutually beneficial trades that never occur.",
+    "source_url": "https://www.britannica.com/money/deadweight-loss",
+    "trap_notes": {
+      "a": "Tax revenue is transferred to government; deadweight loss is pure waste.",
+      "c": "Taxes usually reduce producer surplus rather than boost profits.",
+      "d": "Administrative costs are separate from deadweight loss.",
+      "default": "Deadweight loss is the lost value from prevented trades."
+    }
+  },
+  {
+    "id": "econ-mc-207",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "label": "Cleveland, Ohio"
+    },
+    "prompt": "A paper mill dumps waste into a river, harming downstream fisheries. What does this illustrate?",
+    "options": [
+      { "id": "a", "text": "A positive externality in manufacturing" },
+      { "id": "b", "text": "A natural monopoly in paper sales" },
+      { "id": "c", "text": "A negative externality imposed on others" },
+      { "id": "d", "text": "A public good funded by taxpayers" }
+    ],
+    "answer": "c",
+    "explanation": "Pollution imposes unpaid costs on third parties outside the paper transaction, making it a negative externality.",
+    "source_url": "https://www.econlib.org/library/Enc/Externalities.html",
+    "trap_notes": {
+      "a": "Positive externalities create spillover benefits, not harm.",
+      "b": "A natural monopoly occurs when one firm supplies a market cheapest.",
+      "d": "Public goods are non-excludable and non-rivalrous, unlike river pollution.",
+      "default": "Spillover harm to uninvolved bystanders is a negative externality."
+    }
+  },
+  {
+    "id": "econ-mc-208",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 33.749,
+      "lng": -84.388,
+      "label": "Atlanta, Georgia"
+    },
+    "prompt": "Why do economists classify childhood vaccinations as creating a positive externality?",
+    "options": [
+      { "id": "a", "text": "Vaccines cost more than hospital stays" },
+      { "id": "b", "text": "Only vaccinated buyers gain any protection" },
+      { "id": "c", "text": "Drug firms earn guaranteed monopoly profits" },
+      { "id": "d", "text": "Vaccinated people reduce disease spread to others" }
+    ],
+    "answer": "d",
+    "explanation": "Vaccinations protect the recipient and also lower the risk of infection for neighbors, creating a spillover benefit.",
+    "source_url": "https://www.econlib.org/library/Enc/Externalities.html",
+    "trap_notes": {
+      "a": "Preventive vaccines are typically cheaper than treating severe illness.",
+      "b": "If only the buyer benefited, there would be no externality.",
+      "c": "Firm profits do not define an external spillover benefit.",
+      "default": "Positive externalities occur when private choices benefit bystanders."
+    }
+  },
+  {
+    "id": "econ-mc-209",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, Massachusetts"
+    },
+    "prompt": "Why are private companies reluctant to provide pure public goods like national defense?",
+    "options": [
+      { "id": "a", "text": "Non-payers cannot be excluded from the benefit" },
+      { "id": "b", "text": "Citizens have zero demand for national safety" },
+      { "id": "c", "text": "Defense equipment depreciates within one day" },
+      { "id": "d", "text": "Courts ban private firms from hiring workers" }
+    ],
+    "answer": "a",
+    "explanation": "Because public goods are non-excludable, free riders can enjoy them without paying, so private firms lack profit.",
+    "source_url": "https://www.britannica.com/money/public-good-economics",
+    "trap_notes": {
+      "b": "Citizens strongly value defense, but want others to pay for it.",
+      "c": "Equipment lifespan is not why markets underprovide public goods.",
+      "d": "Private defense contractors exist, but government must fund the service.",
+      "default": "Non-excludability creates the free-rider problem for public goods."
+    }
+  },
+  {
+    "id": "econ-mc-210",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "label": "Seattle, Washington"
+    },
+    "prompt": "Why does the 'tragedy of the commons' often lead to overfishing in open-ocean waters?",
+    "options": [
+      { "id": "a", "text": "Fish prices are fixed by coastal mayors" },
+      { "id": "b", "text": "Each boat gains the catch while all share depletion" },
+      { "id": "c", "text": "Ocean fish reproduce faster when netted heavily" },
+      { "id": "d", "text": "Private owners guard every square mile of sea" }
+    ],
+    "answer": "b",
+    "explanation": "In a shared resource without ownership, each fisher captures the full profit of another fish while the stock loss is shared.",
+    "source_url": "https://www.econlib.org/library/Enc/TragedyoftheCommons.html",
+    "trap_notes": {
+      "a": "Open-ocean fish prices fluctuate with global supply and demand.",
+      "c": "Heavy overfishing shrinks breeding populations rather than growing them.",
+      "d": "Lack of private property rights is the root cause of the tragedy.",
+      "default": "Common resources are overused when private gains exceed shared costs."
+    }
+  },
+  {
+    "id": "econ-mc-211",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "prompt": "Why is a city's piped water system considered a natural monopoly?",
+    "options": [
+      { "id": "a", "text": "Consumers prefer buying water from one brand" },
+      { "id": "b", "text": "Bottled water is illegal inside city limits" },
+      { "id": "c", "text": "One pipe network serves all homes at lowest cost" },
+      { "id": "d", "text": "Water utilities earn higher profits than tech firms" }
+    ],
+    "answer": "c",
+    "explanation": "Building duplicate water mains is wasteful; high fixed infrastructure costs mean one provider achieves lowest average cost.",
+    "source_url": "https://www.britannica.com/money/natural-monopoly",
+    "trap_notes": {
+      "a": "Natural monopoly stems from cost structure, not brand loyalty.",
+      "b": "Bottled water is legal, though tap water infrastructure is a monopoly.",
+      "d": "Regulated utilities usually earn modest, capped returns.",
+      "default": "Huge fixed costs and economies of scale create a natural monopoly."
+    }
+  },
+  {
+    "id": "econ-mc-212",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York, New York"
+    },
+    "prompt": "Which feature best describes a monopolistically competitive market like city restaurants?",
+    "options": [
+      { "id": "a", "text": "One firm controls every dining room" },
+      { "id": "b", "text": "All sellers offer identical unbranded food" },
+      { "id": "c", "text": "High legal barriers block new cafes" },
+      { "id": "d", "text": "Many firms sell differentiated products freely" }
+    ],
+    "answer": "d",
+    "explanation": "Monopolistic competition features many sellers, low barriers to entry, and distinct menus or brands.",
+    "source_url": "https://www.britannica.com/money/monopolistic-competition",
+    "trap_notes": {
+      "a": "A single seller defines a pure monopoly, not monopolistic competition.",
+      "b": "Identical products belong to perfect competition.",
+      "c": "High entry barriers characterize monopoly and oligopoly.",
+      "default": "Product differentiation and easy entry define monopolistic competition."
+    }
+  },
+  {
+    "id": "econ-mc-213",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "label": "Miami, Florida"
+    },
+    "prompt": "Why is the supply of oceanfront land in Miami highly price inelastic?",
+    "options": [
+      { "id": "a", "text": "Higher prices cannot create much more coastline" },
+      { "id": "b", "text": "Buyers refuse to pay for coastal apartments" },
+      { "id": "c", "text": "Developers can build new beaches overnight" },
+      { "id": "d", "text": "City taxes eliminate all real estate sales" }
+    ],
+    "answer": "a",
+    "explanation": "Coastline is fixed by geography, so even a huge price jump barely increases the quantity of oceanfront land.",
+    "source_url": "https://www.econlib.org/library/Enc/Elasticity.html",
+    "trap_notes": {
+      "b": "Strong buyer demand explains high prices, not inelastic supply.",
+      "c": "If land were easy to create, supply would be elastic.",
+      "d": "Real estate taxes affect prices, not the physical limit of coastline.",
+      "default": "Inelastic supply means quantity barely responds to price changes."
+    }
+  },
+  {
+    "id": "econ-mc-214",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "label": "Austin, Texas"
+    },
+    "prompt": "Elena quits a $60,000 salary job to run her own bakery. In economics, what is that forgone salary?",
+    "options": [
+      { "id": "a", "text": "An explicit cash bill paid to suppliers" },
+      { "id": "b", "text": "An implicit opportunity cost of the bakery" },
+      { "id": "c", "text": "A government subsidy for small firms" },
+      { "id": "d", "text": "A guaranteed profit in the first year" }
+    ],
+    "answer": "b",
+    "explanation": "Forgone wages are an implicit cost because no check is written, yet giving up that income is a real opportunity cost.",
+    "source_url": "https://www.econlib.org/library/Enc/OpportunityCost.html",
+    "trap_notes": {
+      "a": "Explicit costs involve direct cash outlays like flour and rent.",
+      "c": "Subsidies are government payments, not forgone personal wages.",
+      "d": "Forgone income is a cost, not a guarantee of profit.",
+      "default": "Implicit costs capture the value of self-owned resources or forgone pay."
+    }
+  },
+  {
+    "id": "econ-mc-215",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "label": "Los Angeles, California"
+    },
+    "prompt": "You bought a nonrefundable $15 movie ticket, then realize the film is terrible. What should a rational person ignore?",
+    "options": [
+      { "id": "a", "text": "The enjoyment of doing something better" },
+      { "id": "b", "text": "The remaining two hours of free time" },
+      { "id": "c", "text": "The $15 already spent as a sunk cost" },
+      { "id": "d", "text": "The cost of transportation back home" }
+    ],
+    "answer": "c",
+    "explanation": "The $15 is a sunk cost that cannot be recovered whether you stay or leave, so it should not guide your next choice.",
+    "source_url": "https://www.britannica.com/money/sunk-cost",
+    "trap_notes": {
+      "a": "Future enjoyment is a marginal benefit you should weigh.",
+      "b": "Your remaining time has real opportunity cost.",
+      "d": "Future travel costs are marginal costs, not sunk costs.",
+      "default": "Rational choices weigh future marginal costs and benefits, not sunk costs."
+    }
+  },
+  {
+    "id": "econ-mc-216",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Market Failures",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 37.8715,
+      "lng": -122.273,
+      "label": "Berkeley, California"
+    },
+    "prompt": "Used-car sellers often know about hidden engine flaws that buyers cannot spot. What market problem is this?",
+    "options": [
+      { "id": "a", "text": "Perfect competition among car dealers" },
+      { "id": "b", "text": "Excess supply from a binding price floor" },
+      { "id": "c", "text": "Economies of scale in auto assembly" },
+      { "id": "d", "text": "Asymmetric information in the market" }
+    ],
+    "answer": "d",
+    "explanation": "When one party in a trade holds key facts the other lacks, asymmetric information can drive good cars out of the market.",
+    "source_url": "https://www.econlib.org/library/Enc/Information.html",
+    "trap_notes": {
+      "a": "Perfect competition assumes all buyers and sellers share full information.",
+      "b": "Price floors are government rules, not hidden product defects.",
+      "c": "Economies of scale describe falling unit costs at higher output.",
+      "default": "Asymmetric information arises when sellers know more than buyers."
+    }
+  },
+  {
+    "id": "econ-mc-217",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "label": "Detroit, Michigan"
+    },
+    "prompt": "A small diner keeps adding cooks to the same tiny kitchen until they bump into each other. What law is at work?",
+    "options": [
+      { "id": "a", "text": "Law of diminishing marginal returns" },
+      { "id": "b", "text": "Law of comparative advantage" },
+      { "id": "c", "text": "Law of increasing opportunity cost" },
+      { "id": "d", "text": "Law of one price in trade" }
+    ],
+    "answer": "a",
+    "explanation": "Adding more variable labor to a fixed capital input like one kitchen eventually yields smaller additions to total output.",
+    "source_url": "https://www.britannica.com/money/diminishing-returns",
+    "trap_notes": {
+      "b": "Comparative advantage explains specialization between trading partners.",
+      "c": "Increasing opportunity cost describes shifting resources on a PPF.",
+      "d": "The law of one price says identical goods sell for one price.",
+      "default": "Diminishing marginal returns occur when variable inputs crowd a fixed input."
+    }
+  },
+  {
+    "id": "econ-mc-218",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Microeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 36.1627,
+      "lng": -86.7816,
+      "label": "Nashville, Tennessee"
+    },
+    "prompt": "When a battery factory doubles in size and its average cost per battery drops, what has it achieved?",
+    "options": [
+      { "id": "a", "text": "Diseconomies of scale in production" },
+      { "id": "b", "text": "Economies of scale in production" },
+      { "id": "c", "text": "A binding price ceiling on batteries" },
+      { "id": "d", "text": "Structural unemployment in the plant" }
+    ],
+    "answer": "b",
+    "explanation": "Economies of scale occur when expanding long-run output allows specialization and bulk buying, lowering unit costs.",
+    "source_url": "https://www.britannica.com/money/economies-of-scale",
+    "trap_notes": {
+      "a": "Diseconomies of scale happen when average costs rise at larger output.",
+      "c": "Price ceilings are legal caps, not falling production costs.",
+      "d": "Structural unemployment comes from skill mismatches, not factory scale.",
+      "default": "Falling long-run average costs as output grows define economies of scale."
+    }
+  },
+  {
+    "id": "econ-mc-219",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "label": "Denver, Colorado"
+    },
+    "prompt": "In the circular flow model, what role do households play in the factor market?",
+    "options": [
+      { "id": "a", "text": "They collect corporate income taxes" },
+      { "id": "b", "text": "They print paper currency for banks" },
+      { "id": "c", "text": "They sell labor and land to businesses" },
+      { "id": "d", "text": "They manufacture finished consumer goods" }
+    ],
+    "answer": "c",
+    "explanation": "In factor markets, households supply labor, land, and capital to firms in exchange for wages, rent, and profit.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-6-circular-flow",
+    "trap_notes": {
+      "a": "Governments collect taxes, not households.",
+      "b": "Central banks manage the money supply, not households.",
+      "d": "Businesses produce goods and sell them in the product market.",
+      "default": "Households supply productive resources in the factor market."
+    }
+  },
+  {
+    "id": "econ-mc-220",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 44.9778,
+      "lng": -93.265,
+      "label": "Minneapolis, Minnesota"
+    },
+    "prompt": "A bakery buys a brand-new commercial oven. Under which GDP expenditure category is this counted?",
+    "options": [
+      { "id": "a", "text": "Consumer spending on services" },
+      { "id": "b", "text": "Government transfer payments" },
+      { "id": "c", "text": "Net exports of manufactured goods" },
+      { "id": "d", "text": "Business investment in capital" }
+    ],
+    "answer": "d",
+    "explanation": "Business purchases of new machinery, buildings, and equipment count as Investment (I) in Gross Domestic Product.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "trap_notes": {
+      "a": "Consumption covers household spending, not business capital purchases.",
+      "b": "Transfer payments like Social Security are excluded from GDP.",
+      "c": "Net exports equal exports minus imports, not domestic oven purchases.",
+      "default": "New business equipment and structures count as Investment in GDP."
+    }
+  },
+  {
+    "id": "econ-mc-221",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.0814,
+      "lng": -81.519,
+      "label": "Akron, Ohio"
+    },
+    "prompt": "Why does U.S. GDP exclude tires sold directly to an automaker for installation on new cars?",
+    "options": [
+      { "id": "a", "text": "Their value is already in the new car price" },
+      { "id": "b", "text": "Rubber tires are imported without tariffs" },
+      { "id": "c", "text": "Automakers pay no sales tax on parts" },
+      { "id": "d", "text": "Tires wear out within a single year" }
+    ],
+    "answer": "a",
+    "explanation": "Tires sold to an automaker are intermediate goods; counting them separately would double-count their value in the final car.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "trap_notes": {
+      "b": "Intermediate goods are excluded regardless of tariffs.",
+      "c": "GDP measures final production value, not sales tax status.",
+      "d": "Replacement tires sold to drivers do count as final goods.",
+      "default": "GDP counts only final goods to avoid double counting intermediate parts."
+    }
+  },
+  {
+    "id": "econ-mc-222",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How does the Bureau of Labor Statistics classify a discouraged worker who stops looking for a job?",
+    "options": [
+      { "id": "a", "text": "Counted as frictionally unemployed" },
+      { "id": "b", "text": "Not counted in the labor force" },
+      { "id": "c", "text": "Counted as part-time employed" },
+      { "id": "d", "text": "Added to the national debt total" }
+    ],
+    "answer": "b",
+    "explanation": "To be counted as unemployed, a person must actively seek work; discouraged workers leave the official labor force.",
+    "source_url": "https://www.bls.gov/cps/cps_htgm.htm",
+    "trap_notes": {
+      "a": "Frictional unemployment includes active job seekers between jobs.",
+      "c": "Part-time workers currently hold a paid job.",
+      "d": "Labor force status is separate from federal debt accounting.",
+      "default": "People who stop actively seeking work are outside the labor force."
+    }
+  },
+  {
+    "id": "econ-mc-223",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, Massachusetts"
+    },
+    "prompt": "Which types of unemployment remain even when the economy operates at its natural rate of unemployment?",
+    "options": [
+      { "id": "a", "text": "Cyclical and hyperinflationary" },
+      { "id": "b", "text": "Recessionary and deflationary" },
+      { "id": "c", "text": "Frictional and structural" },
+      { "id": "d", "text": "Seasonal and involuntary only" }
+    ],
+    "answer": "c",
+    "explanation": "Full employment still includes normal job-search time (frictional) and skill mismatches (structural), with zero cyclical joblessness.",
+    "source_url": "https://www.stlouisfed.org/en/open-vault/2020/january/what-is-natural-rate-unemployment",
+    "trap_notes": {
+      "a": "Cyclical unemployment rises during recessions and disappears at full employment.",
+      "b": "Recessionary joblessness is cyclical, not part of the natural rate.",
+      "d": "Structural unemployment is a key component alongside frictional.",
+      "default": "The natural rate equals frictional plus structural unemployment."
+    }
+  },
+  {
+    "id": "econ-mc-224",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 39.1911,
+      "lng": -106.8175,
+      "label": "Aspen, Colorado"
+    },
+    "prompt": "Ski instructors in Colorado are laid off every April when the snow melts. What type of unemployment is this?",
+    "options": [
+      { "id": "a", "text": "Cyclical unemployment" },
+      { "id": "b", "text": "Structural unemployment" },
+      { "id": "c", "text": "Frictional unemployment" },
+      { "id": "d", "text": "Seasonal unemployment" }
+    ],
+    "answer": "d",
+    "explanation": "Predictable, calendar-driven job losses tied to weather or holidays are classified as seasonal unemployment.",
+    "source_url": "https://www.bls.gov/cps/lfcharacteristics.htm",
+    "trap_notes": {
+      "a": "Cyclical unemployment is caused by economy-wide recessions.",
+      "b": "Structural unemployment comes from permanent shifts in technology or skills.",
+      "c": "Frictional unemployment occurs when workers voluntarily switch jobs.",
+      "default": "Weather-related annual job changes are seasonal unemployment."
+    }
+  },
+  {
+    "id": "econ-mc-225",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "label": "Houston, Texas"
+    },
+    "prompt": "A global oil supply shock doubles shipping and factory energy costs, pushing up retail prices. What kind of inflation is this?",
+    "options": [
+      { "id": "a", "text": "Cost-push inflation" },
+      { "id": "b", "text": "Demand-pull inflation" },
+      { "id": "c", "text": "Asset-bubble deflation" },
+      { "id": "d", "text": "Monetary contraction" }
+    ],
+    "answer": "a",
+    "explanation": "When higher input or energy costs force firms to raise prices and cut output, economists call it cost-push inflation.",
+    "source_url": "https://www.britannica.com/money/inflation",
+    "trap_notes": {
+      "b": "Demand-pull inflation occurs when total spending outpaces supply.",
+      "c": "Deflation means falling overall prices, not rising retail prices.",
+      "d": "Monetary contraction shrinks the money supply to slow inflation.",
+      "default": "Rising production costs that shift supply left cause cost-push inflation."
+    }
+  },
+  {
+    "id": "econ-mc-226",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "label": "Tokyo, Japan"
+    },
+    "prompt": "Why do central banks worry about sustained economy-wide deflation?",
+    "options": [
+      { "id": "a", "text": "It forces banks to print extra cash" },
+      { "id": "b", "text": "Buyers delay spending and real debts grow" },
+      { "id": "c", "text": "Exports suddenly double in price abroad" },
+      { "id": "d", "text": "Workers receive automatic annual raises" }
+    ],
+    "answer": "b",
+    "explanation": "Expecting lower prices later, shoppers wait to buy, while falling incomes make fixed-dollar debts harder to repay.",
+    "source_url": "https://www.federalreserveeducation.org/about-the-fed/structure-and-functions/monetary-policy",
+    "trap_notes": {
+      "a": "Deflation reflects too little spending relative to money demand.",
+      "c": "Lower domestic prices usually make exports cheaper, not costlier.",
+      "d": "Deflation often pressures firms to freeze or cut nominal wages.",
+      "default": "Deflation encourages delayed purchases and increases real debt burdens."
+    }
+  },
+  {
+    "id": "econ-mc-227",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "What short-run relationship does the Phillips Curve illustrate?",
+    "options": [
+      { "id": "a", "text": "Higher tax rates steadily raise tax revenue" },
+      { "id": "b", "text": "Higher tariffs eliminate trade deficits" },
+      { "id": "c", "text": "Lower unemployment pairs with higher inflation" },
+      { "id": "d", "text": "Larger populations cause lower wages" }
+    ],
+    "answer": "c",
+    "explanation": "In the short run, tight labor markets push wages and prices up, creating an inverse trade-off between unemployment and inflation.",
+    "source_url": "https://www.econlib.org/library/Enc/PhillipsCurve.html",
+    "trap_notes": {
+      "a": "That tax revenue relationship is shown by the Laffer Curve.",
+      "b": "Tariffs do not guarantee balanced trade and are not on the Phillips Curve.",
+      "d": "The Phillips Curve tracks inflation and unemployment, not population size.",
+      "default": "The short-run Phillips Curve shows an inverse link between joblessness and inflation."
+    }
+  },
+  {
+    "id": "econ-mc-228",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What are the two goals of the Federal Reserve's statutory dual mandate?",
+    "options": [
+      { "id": "a", "text": "Balanced budgets and zero tariffs" },
+      { "id": "b", "text": "Fixed exchange rates and higher taxes" },
+      { "id": "c", "text": "Rising home prices and trade surpluses" },
+      { "id": "d", "text": "Maximum employment and stable prices" }
+    ],
+    "answer": "d",
+    "explanation": "Congress directs the Federal Reserve to promote maximum sustainable employment alongside low, stable inflation.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+    "trap_notes": {
+      "a": "Federal budgets and tariffs are set by Congress and the President.",
+      "b": "The U.S. uses a floating dollar and Congress sets tax rates.",
+      "c": "Asset prices and trade balances are not the Fed's statutory mandate.",
+      "default": "The Fed's dual mandate targets maximum employment and price stability."
+    }
+  },
+  {
+    "id": "econ-mc-229",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Banking & Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 40.7081,
+      "lng": -74.0086,
+      "label": "New York, New York"
+    },
+    "prompt": "How do commercial banks expand the money supply in a fractional-reserve banking system?",
+    "options": [
+      { "id": "a", "text": "By lending out their excess reserves" },
+      { "id": "b", "text": "By printing new twenty-dollar bills" },
+      { "id": "c", "text": "By locking all deposits in vaults" },
+      { "id": "d", "text": "By collecting federal income taxes" }
+    ],
+    "answer": "a",
+    "explanation": "Banks keep a fraction of deposits as reserves and lend the rest; those loans become new checking deposits elsewhere.",
+    "source_url": "https://www.stlouisfed.org/in-plain-english/how-the-fed-implements-monetary-policy",
+    "trap_notes": {
+      "b": "Only the central bank and Treasury issue physical currency.",
+      "c": "Holding 100% reserves prevents banks from creating new deposit money.",
+      "d": "The IRS collects taxes, not commercial banks.",
+      "default": "Lending excess reserves creates new checkable deposits across the banking system."
+    }
+  },
+  {
+    "id": "econ-mc-230",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Monetary Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8927,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "prompt": "In Federal Reserve monetary policy, what is the discount rate?",
+    "options": [
+      { "id": "a", "text": "The tax rate paid by retail stores" },
+      { "id": "b", "text": "The rate the Fed charges banks for loans" },
+      { "id": "c", "text": "The annual fee on consumer credit cards" },
+      { "id": "d", "text": "The tariff applied to imported steel" }
+    ],
+    "answer": "b",
+    "explanation": "The discount rate is the interest rate the Federal Reserve charges commercial banks for short-term borrowing at its discount window.",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+    "trap_notes": {
+      "a": "Retail sales taxes are set by state and local governments.",
+      "c": "Credit card rates and fees are set by private card issuers.",
+      "d": "Tariffs are trade taxes set by Congress and the executive branch.",
+      "default": "The discount rate is the Fed's lending rate to commercial banks."
+    }
+  },
+  {
+    "id": "econ-mc-231",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What does the 'crowding-out effect' describe when the federal government borrows heavily?",
+    "options": [
+      { "id": "a", "text": "Public parks closing due to budget cuts" },
+      { "id": "b", "text": "Foreign tourists leaving U.S. airports" },
+      { "id": "c", "text": "Higher interest rates reducing private investment" },
+      { "id": "d", "text": "Workers quitting jobs for early retirement" }
+    ],
+    "answer": "c",
+    "explanation": "Heavy government borrowing increases demand for loanable funds, pushing up interest rates and squeezing out private business investment.",
+    "source_url": "https://www.britannica.com/money/crowding-out",
+    "trap_notes": {
+      "a": "Crowding out refers to capital markets, not park closures.",
+      "b": "Tourism flows are unrelated to the loanable funds market.",
+      "d": "Retirement choices are labor supply decisions, not crowding out.",
+      "default": "Deficit borrowing can raise interest rates and curb private investment."
+    }
+  },
+  {
+    "id": "econ-mc-232",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Fiscal Policy",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What is the primary goal of supply-side fiscal policies such as cutting marginal tax rates and deregulation?",
+    "options": [
+      { "id": "a", "text": "Raising tariffs on foreign electronics" },
+      { "id": "b", "text": "Shrinking the nation's labor force" },
+      { "id": "c", "text": "Banning commercial bank lending" },
+      { "id": "d", "text": "Expanding long-run productive capacity" }
+    ],
+    "answer": "d",
+    "explanation": "Supply-side policies aim to strengthen incentives to work, save, and invest, shifting long-run aggregate supply outward.",
+    "source_url": "https://www.britannica.com/money/supply-side-economics",
+    "trap_notes": {
+      "a": "Tariffs restrict trade rather than boost domestic supply incentives.",
+      "b": "Supply-side policies aim to encourage greater labor participation.",
+      "c": "Supply-side policy relies on private investment and credit.",
+      "default": "Supply-side policy seeks to grow long-run output and productivity."
+    }
+  },
+  {
+    "id": "econ-mc-233",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "label": "Berlin, Germany"
+    },
+    "prompt": "What historically triggers extreme hyperinflation, such as in Weimar Germany in 1923?",
+    "options": [
+      { "id": "a", "text": "Rapidly printing money to pay deficits" },
+      { "id": "b", "text": "Balancing the national budget each year" },
+      { "id": "c", "text": "Raising interest rates above inflation" },
+      { "id": "d", "text": "Increasing worker productivity too fast" }
+    ],
+    "answer": "a",
+    "explanation": "When governments print massive amounts of new currency to cover deficits, money loses value rapidly and prices soar.",
+    "source_url": "https://www.britannica.com/money/hyperinflation",
+    "trap_notes": {
+      "b": "Balanced budgets reduce the need to monetize deficits.",
+      "c": "High interest rates slow borrowing and fight inflation.",
+      "d": "Higher productivity expands supply and puts downward pressure on prices.",
+      "default": "Excessive money printing to finance deficits causes hyperinflation."
+    }
+  },
+  {
+    "id": "econ-mc-234",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.994,
+      "lng": -78.8986,
+      "label": "Durham, North Carolina"
+    },
+    "prompt": "How does investing in education and job training affect a country's Production Possibilities Frontier?",
+    "options": [
+      { "id": "a", "text": "It shifts the frontier inward toward zero" },
+      { "id": "b", "text": "It shifts the frontier outward over time" },
+      { "id": "c", "text": "It fixes prices at one permanent level" },
+      { "id": "d", "text": "It eliminates scarcity across all goods" }
+    ],
+    "answer": "b",
+    "explanation": "Education builds human capital, making workers more productive and expanding the economy's maximum output capacity.",
+    "source_url": "https://www.econlib.org/library/Enc/HumanCapital.html",
+    "trap_notes": {
+      "a": "An inward shift happens from disasters or capital loss, not training.",
+      "c": "The PPF shows output capacity, not fixed market prices.",
+      "d": "Growth reduces poverty, but resources remain scarce relative to wants.",
+      "default": "Human capital growth shifts the PPF outward."
+    }
+  },
+  {
+    "id": "econ-mc-235",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "label": "Indianapolis, Indiana"
+    },
+    "prompt": "If a worker's nominal wage rises by 3% while consumer prices rise by 5%, what happens to their real wage?",
+    "options": [
+      { "id": "a", "text": "Real purchasing power rises by 8%" },
+      { "id": "b", "text": "Real purchasing power stays unchanged" },
+      { "id": "c", "text": "Real purchasing power falls by about 2%" },
+      { "id": "d", "text": "Real purchasing power doubles in a year" }
+    ],
+    "answer": "c",
+    "explanation": "Real wage growth equals nominal wage growth minus inflation (3% - 5% = -2%), so the paycheck buys less.",
+    "source_url": "https://www.bls.gov/cpi/factsheets/common-misconceptions-about-cpi.htm",
+    "trap_notes": {
+      "a": "Inflation erodes nominal raises rather than adding to them.",
+      "b": "Purchasing power stays flat only when wage growth equals inflation.",
+      "d": "A 3% raise cannot double purchasing power during 5% inflation.",
+      "default": "Real wage change equals nominal raise minus the inflation rate."
+    }
+  },
+  {
+    "id": "econ-mc-236",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Macroeconomics",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.7901,
+      "lng": -87.5997,
+      "label": "Chicago, Illinois"
+    },
+    "prompt": "In the quantity equation MV = PY, what does the variable V represent?",
+    "options": [
+      { "id": "a", "text": "The total value of national imports" },
+      { "id": "b", "text": "The vault cash held by credit unions" },
+      { "id": "c", "text": "The volatility of corporate stock prices" },
+      { "id": "d", "text": "The velocity at which money changes hands" }
+    ],
+    "answer": "d",
+    "explanation": "Velocity (V) measures how many times an average dollar is spent on final goods and services in a given year.",
+    "source_url": "https://www.stlouisfed.org/on-the-economy/2014/september/what-does-money-velocity-tell-us-about-low-inflation-in-the-us",
+    "trap_notes": {
+      "a": "Imports are part of net exports, not V in MV = PY.",
+      "b": "Bank reserves are part of the monetary base, not velocity.",
+      "c": "Stock volatility is a financial risk measure, not money velocity.",
+      "default": "In MV = PY, V stands for the velocity of money circulation."
+    }
+  },
+  {
+    "id": "econ-mc-237",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "How does specialization based on comparative advantage benefit two trading nations?",
+    "options": [
+      { "id": "a", "text": "Both can consume beyond their domestic PPFs" },
+      { "id": "b", "text": "Both eliminate all domestic taxes forever" },
+      { "id": "c", "text": "Neither country needs to employ workers" },
+      { "id": "d", "text": "One nation takes all output from the other" }
+    ],
+    "answer": "a",
+    "explanation": "When each country specializes in its lowest-opportunity-cost good and trades, total output rises and both consume more.",
+    "source_url": "https://www.econlib.org/library/Enc/ComparativeAdvantage.html",
+    "trap_notes": {
+      "b": "Trade expands consumption possibilities, not tax elimination.",
+      "c": "Specialization shifts workers toward export industries rather than ending work.",
+      "d": "Voluntary trade creates mutual gains for both partners.",
+      "default": "Comparative advantage lets trading partners consume outside their PPFs."
+    }
+  },
+  {
+    "id": "econ-mc-238",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "label": "Lisbon, Portugal"
+    },
+    "prompt": "In international trade, what does the phrase 'terms of trade' refer to?",
+    "options": [
+      { "id": "a", "text": "The number of ports a country operates" },
+      { "id": "b", "text": "The ratio of export prices to import prices" },
+      { "id": "c", "text": "The length of a commercial shipping contract" },
+      { "id": "d", "text": "The language used on customs forms" }
+    ],
+    "answer": "b",
+    "explanation": "Terms of trade compare a country's export prices to its import prices, showing how many imports one export unit buys.",
+    "source_url": "https://www.britannica.com/money/terms-of-trade",
+    "trap_notes": {
+      "a": "Port count measures infrastructure, not price ratios.",
+      "c": "Contract duration is a legal term, not terms of trade.",
+      "d": "Customs paperwork rules do not define terms of trade.",
+      "default": "Terms of trade equal export prices divided by import prices."
+    }
+  },
+  {
+    "id": "econ-mc-239",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "prompt": "How does a government export subsidy on domestic wheat affect global grain markets?",
+    "options": [
+      { "id": "a", "text": "It bans farmers from selling wheat abroad" },
+      { "id": "b", "text": "It doubles the price paid by foreign buyers" },
+      { "id": "c", "text": "It lowers export prices and boosts shipments" },
+      { "id": "d", "text": "It ends all domestic wheat farming quickly" }
+    ],
+    "answer": "c",
+    "explanation": "Export subsidies pay domestic growers to ship abroad, lowering world prices and expanding their export volume.",
+    "source_url": "https://www.wto.org/english/tratop_e/agric_e/ag_intro04_export_e.htm",
+    "trap_notes": {
+      "a": "Export subsidies encourage exports rather than ban them.",
+      "b": "Subsidies make exports cheaper abroad, not more expensive.",
+      "d": "Subsidies support domestic growers, keeping more farms in business.",
+      "default": "Export subsidies lower foreign selling prices and increase export volume."
+    }
+  },
+  {
+    "id": "econ-mc-240",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "prompt": "In World Trade Organization rules, what is 'dumping'?",
+    "options": [
+      { "id": "a", "text": "Raising tariffs on all imported luxury cars" },
+      { "id": "b", "text": "Shipping raw timber on container vessels" },
+      { "id": "c", "text": "Canceling a bilateral currency swap line" },
+      { "id": "d", "text": "Selling exports below home price or cost" }
+    ],
+    "answer": "d",
+    "explanation": "Dumping occurs when a firm exports a product at a price lower than its domestic market price or production cost.",
+    "source_url": "https://www.wto.org/english/tratop_e/adp_e/adp_info_e.htm",
+    "trap_notes": {
+      "a": "Raising tariffs is a trade barrier, not dumping.",
+      "b": "Normal ocean shipping of commodities is standard trade.",
+      "c": "Currency swap lines are central bank agreements, not dumping.",
+      "default": "Dumping means exporting goods below home-market value or cost."
+    }
+  },
+  {
+    "id": "econ-mc-241",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 37.5665,
+      "lng": 126.978,
+      "label": "Seoul, South Korea"
+    },
+    "prompt": "What is the core claim of the 'infant industry' argument for temporary tariffs?",
+    "options": [
+      { "id": "a", "text": "New domestic industries need shelter to scale up" },
+      { "id": "b", "text": "Old monopolies deserve permanent tax breaks" },
+      { "id": "c", "text": "Foreign consumers should pay domestic wages" },
+      { "id": "d", "text": "Countries should ban all imported raw inputs" }
+    ],
+    "answer": "a",
+    "explanation": "Supporters argue temporary protection shields young domestic industries from foreign rivals until they achieve economies of scale.",
+    "source_url": "https://www.britannica.com/money/infant-industry-argument",
+    "trap_notes": {
+      "b": "The argument targets new industries, not established monopolies.",
+      "c": "Tariffs are paid by domestic importers and consumers, not foreign buyers.",
+      "d": "Banning raw inputs would raise costs for new domestic factories.",
+      "default": "The infant industry argument calls for temporary protection while firms mature."
+    }
+  },
+  {
+    "id": "econ-mc-242",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "label": "Mexico City, Mexico"
+    },
+    "prompt": "If the Mexican peso depreciates against the U.S. dollar, how does that affect Mexican exports to the United States?",
+    "options": [
+      { "id": "a", "text": "Mexican goods become costlier for U.S. buyers" },
+      { "id": "b", "text": "Mexican goods become cheaper for U.S. buyers" },
+      { "id": "c", "text": "U.S. tourists find hotels twice as expensive" },
+      { "id": "d", "text": "Mexican factories stop accepting dollar sales" }
+    ],
+    "answer": "b",
+    "explanation": "A weaker peso means each U.S. dollar buys more pesos, making Mexican-made goods cheaper for American importers.",
+    "source_url": "https://www.imf.org/en/About/Factsheets/Sheets/2023/exchange-rates",
+    "trap_notes": {
+      "a": "Exports get costlier when a currency appreciates, not depreciates.",
+      "c": "A weaker peso makes Mexican hotels cheaper for dollar-holding tourists.",
+      "d": "Exporters typically welcome strong foreign demand when their currency dips.",
+      "default": "Currency depreciation makes a country's exports cheaper abroad."
+    }
+  },
+  {
+    "id": "econ-mc-243",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8995,
+      "lng": -77.0443,
+      "label": "Washington, D.C."
+    },
+    "prompt": "Which transactions are recorded in a nation's current account on the balance of payments?",
+    "options": [
+      { "id": "a", "text": "Domestic home sales between neighbors" },
+      { "id": "b", "text": "State lottery ticket sales and prizes" },
+      { "id": "c", "text": "Trade in goods, services, and income flows" },
+      { "id": "d", "text": "Local property tax collections by counties" }
+    ],
+    "answer": "c",
+    "explanation": "The current account tracks exports and imports of goods and services, net investment income, and international transfers.",
+    "source_url": "https://www.imf.org/external/pubs/ft/fandd/basics/42-balance-of-payments.htm",
+    "trap_notes": {
+      "a": "Purely domestic transactions do not enter the balance of payments.",
+      "b": "State lotteries are domestic transfers, not international flows.",
+      "d": "County property taxes are local government revenue.",
+      "default": "The current account records cross-border goods, services, and income."
+    }
+  },
+  {
+    "id": "econ-mc-244",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.9606,
+      "lng": -83.9207,
+      "label": "Knoxville, Tennessee"
+    },
+    "prompt": "A Japanese automaker builds and operates a new assembly plant in Tennessee. What is this called?",
+    "options": [
+      { "id": "a", "text": "An import quota on Japanese sedans" },
+      { "id": "b", "text": "A protective tariff on auto parts" },
+      { "id": "c", "text": "A current account trade embargo" },
+      { "id": "d", "text": "Foreign direct investment in the U.S." }
+    ],
+    "answer": "d",
+    "explanation": "Building or acquiring a lasting stake in a physical business abroad is foreign direct investment (FDI).",
+    "source_url": "https://www.britannica.com/money/foreign-direct-investment",
+    "trap_notes": {
+      "a": "Import quotas cap the number of foreign goods entering a country.",
+      "b": "Tariffs are taxes on imported goods, not factory construction.",
+      "c": "An embargo bans trade rather than building factories.",
+      "default": "Foreign direct investment builds or buys real productive assets abroad."
+    }
+  },
+  {
+    "id": "econ-mc-245",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "label": "Brussels, Belgium"
+    },
+    "prompt": "How does a customs union differ from a simple free trade area?",
+    "options": [
+      { "id": "a", "text": "Members share a common external tariff" },
+      { "id": "b", "text": "Members ban all trade with non-members" },
+      { "id": "c", "text": "Members must adopt one shared language" },
+      { "id": "d", "text": "Members keep high tariffs on each other" }
+    ],
+    "answer": "a",
+    "explanation": "Both remove internal tariffs among members, but a customs union also sets a uniform external tariff on outsiders.",
+    "source_url": "https://www.britannica.com/money/customs-union",
+    "trap_notes": {
+      "b": "Customs unions still trade with outsiders under a shared tariff rate.",
+      "c": "Economic blocs do not require a single national language.",
+      "d": "Both free trade areas and customs unions eliminate internal tariffs.",
+      "default": "A customs union adds a common external tariff to free internal trade."
+    }
+  },
+  {
+    "id": "econ-mc-246",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "label": "Manila, Philippines"
+    },
+    "prompt": "What are 'remittances' in international economics?",
+    "options": [
+      { "id": "a", "text": "Tariffs refunded to large shipping lines" },
+      { "id": "b", "text": "Money sent home by workers living abroad" },
+      { "id": "c", "text": "Emergency loans from the World Bank" },
+      { "id": "d", "text": "Gold bars stored by central banks" }
+    ],
+    "answer": "b",
+    "explanation": "Remittances are cross-border money transfers sent by migrant workers back to their families in their home countries.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Remittances",
+    "trap_notes": {
+      "a": "Tariff refunds are customs drawbacks, not remittances.",
+      "c": "Development loans are official lending, not household transfers.",
+      "d": "Gold reserves are official central bank assets.",
+      "default": "Remittances are earnings sent home by workers employed abroad."
+    }
+  },
+  {
+    "id": "econ-mc-247",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "label": "Tokyo, Japan"
+    },
+    "prompt": "Which policy is an example of a non-tariff barrier to international trade?",
+    "options": [
+      { "id": "a", "text": "A 15% customs duty on imported shoes" },
+      { "id": "b", "text": "A flat $500 tax on each foreign car" },
+      { "id": "c", "text": "Complex safety rules targeting foreign goods" },
+      { "id": "d", "text": "A bilateral treaty cutting all border taxes" }
+    ],
+    "answer": "c",
+    "explanation": "Non-tariff barriers restrict imports through licensing, quotas, or strict product standards rather than direct import taxes.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/agrm9_e.htm",
+    "trap_notes": {
+      "a": "A percentage customs duty is an ad valorem tariff.",
+      "b": "A flat dollar tax per unit is a specific tariff.",
+      "d": "Cutting border taxes promotes free trade rather than blocking it.",
+      "default": "Quotas, red tape, and biased rules act as non-tariff trade barriers."
+    }
+  },
+  {
+    "id": "econ-mc-248",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "International Trade",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "label": "Hong Kong"
+    },
+    "prompt": "What must a central bank do to keep its currency pegged at a fixed exchange rate?",
+    "options": [
+      { "id": "a", "text": "Allow exchange rates to float freely daily" },
+      { "id": "b", "text": "Ban all citizens from holding bank accounts" },
+      { "id": "c", "text": "Stop all international trade in raw goods" },
+      { "id": "d", "text": "Buy or sell foreign reserves to hold the peg" }
+    ],
+    "answer": "d",
+    "explanation": "To defend a fixed exchange rate, a central bank intervenes in currency markets using its foreign exchange reserves.",
+    "source_url": "https://www.imf.org/en/About/Factsheets/Sheets/2023/exchange-rates",
+    "trap_notes": {
+      "a": "Floating lets supply and demand move the rate without a peg.",
+      "b": "Pegged currencies still rely on normal domestic banking.",
+      "c": "Fixed rates are often adopted specifically to make trade more predictable.",
+      "default": "Central banks use foreign reserves to defend a fixed exchange rate."
+    }
+  },
+  {
+    "id": "econ-mc-249",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What is the main tax advantage of a Roth IRA compared with a Traditional IRA?",
+    "options": [
+      { "id": "a", "text": "Qualified retirement withdrawals are tax-free" },
+      { "id": "b", "text": "Contributions are deducted from taxable pay" },
+      { "id": "c", "text": "Balances double automatically every two years" },
+      { "id": "d", "text": "Employers must match every dollar deposited" }
+    ],
+    "answer": "a",
+    "explanation": "Roth IRA contributions use after-tax dollars, so investment growth and qualified withdrawals in retirement are tax-free.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/investing-your-retirement",
+    "trap_notes": {
+      "b": "Traditional IRAs offer upfront tax deductions; Roth IRAs are funded after tax.",
+      "c": "Returns depend on market investments, not automatic doubling.",
+      "d": "Employer matching applies to workplace 401(k) plans, not individual IRAs.",
+      "default": "Roth IRAs trade upfront taxes for tax-free retirement withdrawals."
+    }
+  },
+  {
+    "id": "econ-mc-250",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 35.2271,
+      "lng": -80.8431,
+      "label": "Charlotte, North Carolina"
+    },
+    "prompt": "Why do financial planners advise keeping an emergency fund in a liquid savings account?",
+    "options": [
+      { "id": "a", "text": "Savings accounts beat stocks over thirty years" },
+      { "id": "b", "text": "It covers sudden bills without high-rate debt" },
+      { "id": "c", "text": "Banks waive all taxes on savings deposits" },
+      { "id": "d", "text": "Cash in savings locks out inflation risk" }
+    ],
+    "answer": "b",
+    "explanation": "An accessible cash cushion lets households handle job loss or car repairs without relying on costly credit card debt.",
+    "source_url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+    "trap_notes": {
+      "a": "Stocks usually outperform cash long term, though they are volatile.",
+      "c": "Interest earned on regular savings accounts is generally taxable.",
+      "d": "Cash savings can lose purchasing power if inflation exceeds interest.",
+      "default": "Liquid emergency funds prevent costly borrowing during unexpected shocks."
+    }
+  },
+  {
+    "id": "econ-mc-251",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York, New York"
+    },
+    "prompt": "Compared with U.S. Treasury bills, how do corporate stocks typically behave over time?",
+    "options": [
+      { "id": "a", "text": "Lower long-term return and zero price swings" },
+      { "id": "b", "text": "Guaranteed fixed payments backed by Congress" },
+      { "id": "c", "text": "Higher expected return with greater volatility" },
+      { "id": "d", "text": "Identical daily prices to checking accounts" }
+    ],
+    "answer": "c",
+    "explanation": "Stocks carry higher short-term price risk than Treasury bills, so investors demand higher expected long-term returns.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "trap_notes": {
+      "a": "Treasury bills have lower return and minimal swings, not stocks.",
+      "b": "U.S. Treasury securities, not corporate stocks, carry federal backing.",
+      "d": "Stock prices fluctuate every trading day.",
+      "default": "Higher potential investment returns generally come with higher risk."
+    }
+  },
+  {
+    "id": "econ-mc-252",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.0684,
+      "lng": -75.4757,
+      "label": "Malvern, Pennsylvania"
+    },
+    "prompt": "Why do many individual investors choose broad stock index funds over actively managed funds?",
+    "options": [
+      { "id": "a", "text": "Index funds guarantee zero losses in recessions" },
+      { "id": "b", "text": "Index funds avoid all federal capital gains" },
+      { "id": "c", "text": "Index funds hold only a single company share" },
+      { "id": "d", "text": "Index funds offer low fees and wide diversification" }
+    ],
+    "answer": "d",
+    "explanation": "Index funds track an entire market benchmark automatically, keeping management fees low while spreading risk across hundreds of firms.",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-1",
+    "trap_notes": {
+      "a": "Index funds still fall when the broader stock market declines.",
+      "b": "Profits sold in taxable accounts remain subject to capital gains taxes.",
+      "c": "Index funds hold baskets of dozens or hundreds of securities.",
+      "default": "Low expense ratios and broad diversification make index funds popular."
+    }
+  },
+  {
+    "id": "econ-mc-253",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 33.749,
+      "lng": -84.388,
+      "label": "Atlanta, Georgia"
+    },
+    "prompt": "How does maxing out a credit card close to its limit affect a borrower's credit score?",
+    "options": [
+      { "id": "a", "text": "It lowers the score via high utilization" },
+      { "id": "b", "text": "It boosts the score by showing high spending" },
+      { "id": "c", "text": "It erases past late payments from reports" },
+      { "id": "d", "text": "It doubles the borrower's checking balance" }
+    ],
+    "answer": "a",
+    "explanation": "High credit utilization signals financial strain to lenders and reduces a borrower's credit score.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-utilization-rate-en-2114/",
+    "trap_notes": {
+      "b": "Using a large share of available credit hurts, rather than helps, scores.",
+      "c": "Late payments remain on credit reports for years regardless of balances.",
+      "d": "Credit card balances are debt, not cash in a checking account.",
+      "default": "Keeping credit utilization low helps protect your credit score."
+    }
+  },
+  {
+    "id": "econ-mc-254",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.7658,
+      "lng": -72.6734,
+      "label": "Hartford, Connecticut"
+    },
+    "prompt": "In an auto or health insurance policy, what is a 'deductible'?",
+    "options": [
+      { "id": "a", "text": "The monthly bill paid to keep coverage active" },
+      { "id": "b", "text": "The amount paid out of pocket before coverage" },
+      { "id": "c", "text": "The maximum payout an insurer ever sends" },
+      { "id": "d", "text": "The cash refund paid when no claim occurs" }
+    ],
+    "answer": "b",
+    "explanation": "A deductible is the fixed dollar amount a policyholder must pay toward a covered claim before the insurer begins paying.",
+    "source_url": "https://www.britannica.com/money/deductible",
+    "trap_notes": {
+      "a": "The regular monthly or annual payment is the insurance premium.",
+      "c": "The top payout limit is the policy's coverage limit or cap.",
+      "d": "Insurers generally do not refund premiums when no claims are filed.",
+      "default": "The deductible is your initial out-of-pocket share on a covered claim."
+    }
+  },
+  {
+    "id": "econ-mc-255",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "label": "Austin, Texas"
+    },
+    "prompt": "Why is a flat state sales tax on groceries considered regressive?",
+    "options": [
+      { "id": "a", "text": "Only wealthy shoppers pay tax at checkout" },
+      { "id": "b", "text": "The tax rate rises with a buyer's salary" },
+      { "id": "c", "text": "Low-income families spend more income on food" },
+      { "id": "d", "text": "Grocery stores keep the tax as pure profit" }
+    ],
+    "answer": "c",
+    "explanation": "Lower-income households spend a larger share of their earnings on basics, so a flat sales tax takes a bigger percentage of their income.",
+    "source_url": "https://www.britannica.com/money/regressive-tax",
+    "trap_notes": {
+      "a": "Sales taxes apply equally at checkout regardless of shopper income.",
+      "b": "A tax rate that rises with income is progressive, not regressive.",
+      "d": "Stores remit collected sales taxes to the state government.",
+      "default": "Regressive taxes take a larger share of income from lower earners."
+    }
+  },
+  {
+    "id": "econ-mc-256",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.2565,
+      "lng": -95.9345,
+      "label": "Omaha, Nebraska"
+    },
+    "prompt": "Using the Rule of 72, about how long does it take an investment earning 6% annually to double?",
+    "options": [
+      { "id": "a", "text": "About 6 years" },
+      { "id": "b", "text": "About 8 years" },
+      { "id": "c", "text": "About 18 years" },
+      { "id": "d", "text": "About 12 years" }
+    ],
+    "answer": "d",
+    "explanation": "Dividing 72 by the annual percentage return (72 / 6 = 12) estimates that the money doubles in roughly 12 years.",
+    "source_url": "https://www.investopedia.com/terms/r/ruleof72.asp",
+    "trap_notes": {
+      "a": "6 years requires an annual return near 12%.",
+      "b": "8 years requires an annual return near 9%.",
+      "c": "18 years corresponds to a 4% annual return.",
+      "default": "Divide 72 by the annual return rate to estimate doubling time."
+    }
+  },
+  {
+    "id": "econ-mc-257",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "label": "Columbus, Ohio"
+    },
+    "prompt": "What legal responsibility do you take on if you co-sign a friend's car loan?",
+    "options": [
+      { "id": "a", "text": "You must repay the loan if they default" },
+      { "id": "b", "text": "You act solely as a character reference" },
+      { "id": "c", "text": "You automatically receive half the car" },
+      { "id": "d", "text": "You are shielded from credit score effects" }
+    ],
+    "answer": "a",
+    "explanation": "A co-signer is legally obligated to pay the full remaining debt if the primary borrower misses payments or defaults.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-cosigner-en-2111/",
+    "trap_notes": {
+      "b": "Co-signing is a binding financial guarantee, not a mere reference.",
+      "c": "Co-signers carry debt liability without necessarily holding vehicle title.",
+      "d": "Missed payments by the borrower also damage the co-signer's credit.",
+      "default": "Co-signers are fully liable for the loan if the borrower stops paying."
+    }
+  },
+  {
+    "id": "econ-mc-258",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 33.4484,
+      "lng": -112.074,
+      "label": "Phoenix, Arizona"
+    },
+    "prompt": "Why do consumer advocates warn borrowers against short-term payday loans?",
+    "options": [
+      { "id": "a", "text": "They take six months to approve online" },
+      { "id": "b", "text": "High fees create triple-digit annual rates" },
+      { "id": "c", "text": "They require putting a house as collateral" },
+      { "id": "d", "text": "Banks ban payday borrowers from checking" }
+    ],
+    "answer": "b",
+    "explanation": "Two-week payday loan fees often translate into annual percentage rates of 300% or more, trapping borrowers in repeat renewals.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payday-loan-en-1567/",
+    "trap_notes": {
+      "a": "Payday loans are approved quickly, which is part of their appeal.",
+      "c": "Payday loans are typically unsecured against future paychecks, not homes.",
+      "d": "Payday loans actually require an active bank account or paycheck.",
+      "default": "Steep short-term fees produce extreme APRs and debt cycles."
+    }
+  },
+  {
+    "id": "econ-mc-259",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "label": "Detroit, Michigan"
+    },
+    "prompt": "What is a key financial trade-off of leasing a car instead of buying it with a loan?",
+    "options": [
+      { "id": "a", "text": "Leasing requires a much higher down payment" },
+      { "id": "b", "text": "Leasing bans drivers from highway travel" },
+      { "id": "c", "text": "You build no ownership equity in the vehicle" },
+      { "id": "d", "text": "You skip paying for fuel or auto insurance" }
+    ],
+    "answer": "c",
+    "explanation": "Leasing often offers lower monthly payments, but you return the car at term's end with no equity to sell or trade.",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/should-i-buy-or-lease-a-car-en-743/",
+    "trap_notes": {
+      "a": "Leases often require smaller upfront payments than purchases.",
+      "b": "Leases limit annual mileage, not which roads you may drive.",
+      "d": "Lessees still pay for fuel, insurance, and routine upkeep.",
+      "default": "Leasing lowers monthly payments at the cost of zero ownership equity."
+    }
+  },
+  {
+    "id": "econ-mc-260",
+    "type": "mc",
+    "domain": "Econ",
+    "subdomain": "Personal Finance",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 27.9506,
+      "lng": -82.4572,
+      "label": "Tampa, Florida"
+    },
+    "prompt": "Who is most hurt financially by unexpected high inflation?",
+    "options": [
+      { "id": "a", "text": "Homeowners with fixed-rate mortgages" },
+      { "id": "b", "text": "Governments repaying fixed-dollar debt" },
+      { "id": "c", "text": "Owners of inflation-protected bonds" },
+      { "id": "d", "text": "Retirees living on fixed-dollar pensions" }
+    ],
+    "answer": "d",
+    "explanation": "Unexpected inflation shrinks the purchasing power of fixed-dollar incomes, while borrowers repay loans with cheaper dollars.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2022/august/winners-and-losers-of-inflation",
+    "trap_notes": {
+      "a": "Fixed-rate borrowers benefit because their monthly payment shrinks in real terms.",
+      "b": "Borrowers with fixed-rate debt repay with less valuable dollars.",
+      "c": "Inflation-protected bonds adjust upward with the Consumer Price Index.",
+      "default": "Fixed-income savers and lenders lose purchasing power from surprise inflation."
+    }
+  }
+]

@@ -1,0 +1,3582 @@
+[
+  {
+    "id": "econ-dat-101",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Comparative Advantage",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Output per 10-Hour Day",
+      "headers": [
+        "Country",
+        "Wheat (tons)",
+        "Cloth (bolts)"
+      ],
+      "rows": [
+        [
+          "Country A",
+          "20",
+          "10"
+        ],
+        [
+          "Country B",
+          "12",
+          "12"
+        ],
+        [
+          "Trade Basis",
+          "Opportunity Cost",
+          "Lower Cost Wins"
+        ]
+      ]
+    },
+    "prompt": "Based on the table, what is Country A's opportunity cost of producing 1 bolt of cloth?",
+    "options": [
+      {
+        "id": "a",
+        "text": "0.5 tons of wheat"
+      },
+      {
+        "id": "b",
+        "text": "2.0 tons of wheat"
+      },
+      {
+        "id": "c",
+        "text": "1.0 ton of wheat"
+      },
+      {
+        "id": "d",
+        "text": "10.0 tons of wheat"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Country A gives up 20 wheat to make 10 cloth, so 1 bolt of cloth costs 20 / 10 = 2 tons of wheat.",
+    "fun_fact": "Country B's cost for 1 cloth is 1 wheat, giving Country B a comparative advantage in cloth.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/basic-economic-concepts-gen-micro/comparative-advantage-and-the-gains-from-trade",
+    "trap_notes": {
+      "a": "0.5 bolts of cloth is the opportunity cost of 1 ton of wheat, not 1 bolt of cloth.",
+      "c": "1.0 ton of wheat is Country B's opportunity cost for 1 bolt of cloth.",
+      "d": "10 is Country A's total cloth output, not its per-unit opportunity cost.",
+      "default": "Divide the forgone wheat (20) by the gained cloth (10) to get 2 tons per bolt."
+    }
+  },
+  {
+    "id": "econ-dat-102",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Supply & Demand",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Weekly Coffee Market Schedule",
+      "headers": [
+        "Price / lb",
+        "Qty Demanded",
+        "Qty Supplied"
+      ],
+      "rows": [
+        [
+          "$6",
+          "500 lbs",
+          "200 lbs"
+        ],
+        [
+          "$8",
+          "400 lbs",
+          "400 lbs"
+        ],
+        [
+          "$10",
+          "300 lbs",
+          "600 lbs"
+        ]
+      ]
+    },
+    "prompt": "What happens in this coffee market if the government enforces a price ceiling of $6 per pound?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A surplus of 300 pounds"
+      },
+      {
+        "id": "b",
+        "text": "A shortage of 300 pounds"
+      },
+      {
+        "id": "c",
+        "text": "Market equilibrium at 400 pounds"
+      },
+      {
+        "id": "d",
+        "text": "A surplus of 200 pounds"
+      }
+    ],
+    "answer": "b",
+    "explanation": "At $6, buyers want 500 pounds while sellers offer 200 pounds, creating a 300-pound shortage.",
+    "fun_fact": "A price ceiling only binds when it is set below the market equilibrium price.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium/market-equilibrium-tutorial",
+    "trap_notes": {
+      "a": "A 300-pound surplus occurs at $10 per pound, not at $6 per pound.",
+      "c": "Equilibrium occurs at $8 per pound, where 400 pounds clear the market.",
+      "d": "200 pounds is the quantity supplied at $6, not the size of the shortage.",
+      "default": "At $6, quantity demanded (500) exceeds quantity supplied (200) by 300 pounds."
+    }
+  },
+  {
+    "id": "econ-dat-103",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Inflation & CPI",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Consumer Price Index (CPI)",
+      "headers": [
+        "Year",
+        "Market Basket Cost",
+        "CPI Index"
+      ],
+      "rows": [
+        [
+          "Year 1",
+          "$200",
+          "100"
+        ],
+        [
+          "Year 2",
+          "$210",
+          "105"
+        ],
+        [
+          "Year 3",
+          "$231",
+          "115.5"
+        ]
+      ]
+    },
+    "prompt": "What was the annual inflation rate between Year 2 and Year 3?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5.0 percent"
+      },
+      {
+        "id": "b",
+        "text": "10.0 percent"
+      },
+      {
+        "id": "c",
+        "text": "10.5 percent"
+      },
+      {
+        "id": "d",
+        "text": "15.5 percent"
+      }
+    ],
+    "answer": "b",
+    "explanation": "CPI rose from 105 to 115.5, a gain of 10.5 points; 10.5 / 105 = 0.10, or 10.0 percent.",
+    "fun_fact": "The U.S. Bureau of Labor Statistics tracks roughly 80,000 prices each month for the CPI.",
+    "source_url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+    "trap_notes": {
+      "a": "5.0 percent was the inflation rate between Year 1 and Year 2.",
+      "c": "10.5 is the raw CPI point change, not the percentage change from 105.",
+      "d": "15.5 percent is the cumulative inflation from Year 1 to Year 3.",
+      "default": "Divide the CPI change (10.5) by the starting Year 2 CPI (105) to get 10.0%."
+    }
+  },
+  {
+    "id": "econ-dat-104",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Macroeconomic Measurement",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Simple Economy Output",
+      "headers": [
+        "Year",
+        "Apples (Price x Qty)",
+        "Nominal GDP"
+      ],
+      "rows": [
+        [
+          "Year 1 (Base)",
+          "$1 x 100",
+          "$100"
+        ],
+        [
+          "Year 2",
+          "$2 x 100",
+          "$200"
+        ],
+        [
+          "Year 3",
+          "$2 x 120",
+          "$240"
+        ]
+      ]
+    },
+    "prompt": "Using Year 1 as the base year, what is Real GDP in Year 3?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$100"
+      },
+      {
+        "id": "b",
+        "text": "$120"
+      },
+      {
+        "id": "c",
+        "text": "$200"
+      },
+      {
+        "id": "d",
+        "text": "$240"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Real GDP multiplies Year 3 quantity (120) by the Year 1 base price ($1), yielding $120.",
+    "fun_fact": "Real GDP strips out price increases so economists can measure actual production growth.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-about-gdp",
+    "trap_notes": {
+      "a": "$100 is Real GDP in Year 1 and Year 2, before quantity rose to 120.",
+      "c": "$200 is Nominal GDP in Year 2, not Real GDP in Year 3.",
+      "d": "$240 is Nominal GDP in Year 3 using Year 3 prices.",
+      "default": "Multiply Year 3 output (120) by Year 1 base price ($1) to get $120."
+    }
+  },
+  {
+    "id": "econ-dat-105",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Labor Markets",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Town Labor Survey (Millions)",
+      "headers": [
+        "Category",
+        "Count",
+        "Labor Status"
+      ],
+      "rows": [
+        [
+          "Employed",
+          "90",
+          "In Labor Force"
+        ],
+        [
+          "Unemployed",
+          "10",
+          "In Labor Force"
+        ],
+        [
+          "Retired / Students",
+          "50",
+          "Not in Force"
+        ]
+      ]
+    },
+    "prompt": "Based on the survey table, what is this town's official unemployment rate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6.7 percent"
+      },
+      {
+        "id": "b",
+        "text": "10.0 percent"
+      },
+      {
+        "id": "c",
+        "text": "11.1 percent"
+      },
+      {
+        "id": "d",
+        "text": "15.0 percent"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The labor force is 90 + 10 = 100 million, so 10 / 100 equals an unemployment rate of 10.0 percent.",
+    "fun_fact": "Discouraged workers who stop looking for jobs are counted as 'not in the labor force.'",
+    "source_url": "https://www.bls.gov/cps/cps_htgm.htm",
+    "trap_notes": {
+      "a": "6.7% divides 10 by the entire adult population (150) instead of the labor force (100).",
+      "c": "11.1% divides unemployed (10) by employed (90) rather than the total labor force.",
+      "d": "15.0% does not match any valid labor-force ratio from the table.",
+      "default": "Unemployment rate = Unemployed (10) / Labor Force (90 + 10) = 10.0%."
+    }
+  },
+  {
+    "id": "econ-dat-106",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Banking & Money Multiplier",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York City"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Fractional Reserve Banking",
+      "headers": [
+        "Reserve Ratio",
+        "New Deposit",
+        "Multiplier"
+      ],
+      "rows": [
+        [
+          "10%",
+          "$1,000",
+          "10"
+        ],
+        [
+          "20%",
+          "$1,000",
+          "5"
+        ],
+        [
+          "25%",
+          "$1,000",
+          "4"
+        ]
+      ]
+    },
+    "prompt": "If the reserve requirement is 20%, what is the maximum total money supply created from a new $1,000 deposit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$2,000"
+      },
+      {
+        "id": "b",
+        "text": "$4,000"
+      },
+      {
+        "id": "c",
+        "text": "$5,000"
+      },
+      {
+        "id": "d",
+        "text": "$10,000"
+      }
+    ],
+    "answer": "c",
+    "explanation": "At a 20% reserve ratio, the money multiplier is 5, so $1,000 x 5 = $5,000 maximum money supply.",
+    "fun_fact": "In 2020, the Federal Reserve reduced reserve requirement ratios to 0% and now uses interest on reserves.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-9-money-and-banking",
+    "trap_notes": {
+      "a": "$2,000 only counts two rounds of lending, not the full multiplier effect.",
+      "b": "$4,000 is the maximum total with a 25% reserve ratio, not 20%.",
+      "d": "$10,000 is the maximum total with a 10% reserve ratio, not 20%.",
+      "default": "Multiply the $1,000 deposit by the 20% multiplier (5) to get $5,000."
+    }
+  },
+  {
+    "id": "econ-dat-107",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Profit Maximization",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "label": "Detroit, Michigan"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Widget Firm Marginal Schedule",
+      "headers": [
+        "Output (Units)",
+        "Marginal Revenue",
+        "Marginal Cost"
+      ],
+      "rows": [
+        [
+          "3",
+          "$25",
+          "$15"
+        ],
+        [
+          "4",
+          "$25",
+          "$25"
+        ],
+        [
+          "5",
+          "$25",
+          "$35"
+        ]
+      ]
+    },
+    "prompt": "To maximize profit, how many widgets should this price-taking firm produce?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 units"
+      },
+      {
+        "id": "b",
+        "text": "4 units"
+      },
+      {
+        "id": "c",
+        "text": "5 units"
+      },
+      {
+        "id": "d",
+        "text": "0 units"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Profit is maximized where marginal revenue equals marginal cost ($25 = $25), which occurs at 4 units.",
+    "fun_fact": "Producing the 5th unit would cut profit by $10 because marginal cost ($35) exceeds revenue ($25).",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/perfect-competition-topic/perfect-competition/a/marginal-revenue-and-marginal-cost",
+    "trap_notes": {
+      "a": "At 3 units, MR ($25) still exceeds MC ($15), so making a 4th unit adds profit.",
+      "c": "At 5 units, MC ($35) exceeds MR ($25), reducing total profit by $10.",
+      "d": "Shutting down forfeits profitable units where MR exceeds or equals MC.",
+      "default": "A firm maximizes profit where MR = MC, which is at 4 units."
+    }
+  },
+  {
+    "id": "econ-dat-108",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Exchange Rates",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "label": "Tokyo, Japan"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "USD to Japanese Yen Rate",
+      "headers": [
+        "Month",
+        "Exchange Rate",
+        "Camera Price (Yen)"
+      ],
+      "rows": [
+        [
+          "January",
+          "$1 = 100 Yen",
+          "50,000 Yen"
+        ],
+        [
+          "June",
+          "$1 = 125 Yen",
+          "50,000 Yen"
+        ],
+        [
+          "Change",
+          "Dollar Appreciated",
+          "Yen Depreciated"
+        ]
+      ]
+    },
+    "prompt": "How did the U.S. dollar price of this 50,000-yen Japanese camera change from January to June?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It rose from $400 to $500"
+      },
+      {
+        "id": "b",
+        "text": "It fell from $500 to $400"
+      },
+      {
+        "id": "c",
+        "text": "It rose from $500 to $625"
+      },
+      {
+        "id": "d",
+        "text": "It stayed unchanged at $500"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In January, 50,000 / 100 = $500; in June, 50,000 / 125 = $400, making Japanese imports cheaper.",
+    "fun_fact": "When the U.S. dollar appreciates, foreign goods become cheaper for Americans, but U.S. exports get pricier abroad.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Exchange-Rates",
+    "trap_notes": {
+      "a": "That reverses the dates; $500 was the January price and $400 was the June price.",
+      "c": "A stronger dollar lowers the dollar cost of yen-priced goods, rather than raising it.",
+      "d": "The yen price stayed 50,000, but the dollar price fell because each dollar bought more yen.",
+      "default": "Divide 50,000 yen by 100 ($500) in January and by 125 ($400) in June."
+    }
+  },
+  {
+    "id": "econ-dat-109",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Real Interest Rates",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8921,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Bank Loan & Inflation Data",
+      "headers": [
+        "Year",
+        "Nominal Interest Rate",
+        "Inflation Rate"
+      ],
+      "rows": [
+        [
+          "Year 1",
+          "6%",
+          "2%"
+        ],
+        [
+          "Year 2",
+          "6%",
+          "5%"
+        ],
+        [
+          "Year 3",
+          "4%",
+          "6%"
+        ]
+      ]
+    },
+    "prompt": "Using the Fisher equation, what was the approximate real interest rate in Year 3?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Positive 4 percent"
+      },
+      {
+        "id": "b",
+        "text": "Positive 2 percent"
+      },
+      {
+        "id": "c",
+        "text": "Negative 2 percent"
+      },
+      {
+        "id": "d",
+        "text": "Positive 10 percent"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Real interest rate equals nominal rate minus inflation: 4% - 6% = -2%.",
+    "fun_fact": "When inflation exceeds the nominal interest rate, borrowers repay loans with dollars worth less.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2023/february/what-are-real-interest-rates",
+    "trap_notes": {
+      "a": "4% is the nominal rate in Year 3 before subtracting 6% inflation.",
+      "b": "Positive 2% was the real rate in Year 2? No, Year 2 was 1%, and Year 3 is negative.",
+      "d": "10% adds nominal rate and inflation instead of subtracting inflation.",
+      "default": "Subtract inflation (6%) from the nominal rate (4%) to get -2%."
+    }
+  },
+  {
+    "id": "econ-dat-110",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Price Elasticity",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York City"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Movie Ticket Pricing Test",
+      "headers": [
+        "Ticket Price",
+        "Tickets Sold",
+        "Total Revenue"
+      ],
+      "rows": [
+        [
+          "$10",
+          "200",
+          "$2,000"
+        ],
+        [
+          "$12",
+          "150",
+          "$1,800"
+        ],
+        [
+          "Change",
+          "+20% Price",
+          "-25% Quantity"
+        ]
+      ]
+    },
+    "prompt": "Why did total revenue fall from $2,000 to $1,800 when the theater raised ticket prices?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Demand is elastic over this range"
+      },
+      {
+        "id": "b",
+        "text": "Demand is inelastic over this range"
+      },
+      {
+        "id": "c",
+        "text": "Tickets are an inferior good"
+      },
+      {
+        "id": "d",
+        "text": "Fixed costs rose with ticket prices"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Quantity fell 25% after a 20% price hike (elasticity = -1.25), so elastic demand lowered total revenue.",
+    "fun_fact": "When demand is elastic, price and total revenue move in opposite directions.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/elasticity-tutorial/price-elasticity-tutorial/a/elasticity-and-total-revenue",
+    "trap_notes": {
+      "b": "If demand were inelastic, a price increase would raise total revenue.",
+      "c": "Inferior vs. normal goods describes responses to income changes, not ticket prices.",
+      "d": "Total revenue equals price times quantity and does not include production costs.",
+      "default": "A larger % drop in quantity (-25%) than % rise in price (+20%) means elastic demand."
+    }
+  },
+  {
+    "id": "econ-dat-111",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Production Possibilities",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "label": "Detroit, Michigan"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Factory Production Possibilities",
+      "headers": [
+        "Option",
+        "Cars Produced",
+        "Trucks Produced"
+      ],
+      "rows": [
+        [
+          "Point A",
+          "100",
+          "0"
+        ],
+        [
+          "Point B",
+          "80",
+          "30"
+        ],
+        [
+          "Point C",
+          "50",
+          "60"
+        ]
+      ]
+    },
+    "prompt": "Moving from Point A to Point B on this frontier, what is the opportunity cost of 30 trucks?",
+    "options": [
+      {
+        "id": "a",
+        "text": "80 cars"
+      },
+      {
+        "id": "b",
+        "text": "20 cars"
+      },
+      {
+        "id": "c",
+        "text": "50 cars"
+      },
+      {
+        "id": "d",
+        "text": "30 cars"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Moving from Point A (100 cars) to Point B (80 cars) sacrifices 20 cars to gain 30 trucks.",
+    "fun_fact": "Points inside the frontier represent unemployed resources, while points outside are unattainable.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/basic-economic-concepts-gen-micro/production-possibilities",
+    "trap_notes": {
+      "a": "80 is the total number of cars still produced at Point B, not the amount given up.",
+      "c": "50 cars is the total sacrifice when moving all the way from Point A to Point C.",
+      "d": "30 is the number of trucks gained at Point B, not the cars sacrificed.",
+      "default": "Subtract Point B cars (80) from Point A cars (100) to find the 20-car cost."
+    }
+  },
+  {
+    "id": "econ-dat-112",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Balance of Trade",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Country X GDP Components ($B)",
+      "headers": [
+        "Component",
+        "Amount ($B)",
+        "Formula Role"
+      ],
+      "rows": [
+        [
+          "Consumption + Investment",
+          "$700",
+          "C + I"
+        ],
+        [
+          "Government Spending",
+          "$200",
+          "G"
+        ],
+        [
+          "Exports / Imports",
+          "$120 / $170",
+          "X - M"
+        ]
+      ]
+    },
+    "prompt": "Using the expenditure approach (C + I + G + X - M), what is Country X's total GDP?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$850 billion"
+      },
+      {
+        "id": "b",
+        "text": "$900 billion"
+      },
+      {
+        "id": "c",
+        "text": "$950 billion"
+      },
+      {
+        "id": "d",
+        "text": "$1,020 billion"
+      }
+    ],
+    "answer": "a",
+    "explanation": "C + I + G equals $900B, and net exports (X - M = $120B - $170B) equal -$50B, leaving $850 billion.",
+    "fun_fact": "A trade deficit occurs whenever imports (M) exceed exports (X), making net exports negative.",
+    "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-about-gdp",
+    "trap_notes": {
+      "b": "$900 billion omits net exports (X - M = -$50 billion).",
+      "c": "$950 billion adds the $50 billion trade deficit instead of subtracting it.",
+      "d": "$1,020 billion adds exports without subtracting $170 billion in imports.",
+      "default": "Add $700B + $200B + ($120B - $170B) = $850 billion."
+    }
+  },
+  {
+    "id": "econ-dat-113",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Taxation",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "U.S. Treasury"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Sales Tax Burden by Household",
+      "headers": [
+        "Household",
+        "Annual Income",
+        "Sales Tax Paid"
+      ],
+      "rows": [
+        [
+          "Family A",
+          "$30,000",
+          "$1,500"
+        ],
+        [
+          "Family B",
+          "$100,000",
+          "$3,000"
+        ],
+        [
+          "Tax Type",
+          "Flat 10% on Goods",
+          "Check % of Income"
+        ]
+      ]
+    },
+    "prompt": "What percentage of income does Family A pay in sales tax, and what kind of tax is this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 percent; regressive tax"
+      },
+      {
+        "id": "b",
+        "text": "5 percent; progressive tax"
+      },
+      {
+        "id": "c",
+        "text": "3 percent; regressive tax"
+      },
+      {
+        "id": "d",
+        "text": "10 percent; proportional tax"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Family A pays $1,500 / $30,000 = 5% of income, while Family B pays 3%, making the tax regressive.",
+    "fun_fact": "Lower-income families spend a larger share of their income on taxable goods rather than saving.",
+    "source_url": "https://apps.irs.gov/app/understandingTaxes/teacher/whys_thm03_les02.jsp",
+    "trap_notes": {
+      "b": "Because 5% exceeds Family B's 3% share, the burden falls as income rises (regressive).",
+      "c": "3 percent is Family B's share ($3,000 / $100,000), not Family A's share.",
+      "d": "10% is the rate on purchases, not the share of total income paid.",
+      "default": "Family A pays $1,500 / $30,000 = 5%, higher than Family B's 3%, so it is regressive."
+    }
+  },
+  {
+    "id": "econ-dat-114",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Economic Growth",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "label": "Singapore"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Rule of 70 Doubling Time",
+      "headers": [
+        "Country",
+        "Annual Real GDP Growth",
+        "Years to Double"
+      ],
+      "rows": [
+        [
+          "Nation X",
+          "2%",
+          "35 years"
+        ],
+        [
+          "Nation Y",
+          "5%",
+          "14 years"
+        ],
+        [
+          "Nation Z",
+          "7%",
+          "?"
+        ]
+      ]
+    },
+    "prompt": "Using the Rule of 70, about how many years will it take Nation Z's real GDP to double at 7% growth?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 years"
+      },
+      {
+        "id": "b",
+        "text": "10 years"
+      },
+      {
+        "id": "c",
+        "text": "14 years"
+      },
+      {
+        "id": "d",
+        "text": "20 years"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under the Rule of 70, dividing 70 by the 7% annual growth rate equals 10 years.",
+    "fun_fact": "Small differences in annual growth rates compound into huge gaps in living standards over a generation.",
+    "source_url": "https://www.stlouisfed.org/open-vault/2018/september/how-rule-of-70-works",
+    "trap_notes": {
+      "a": "7 is the growth rate percentage, not the doubling time in years.",
+      "c": "14 years is Nation Y's doubling time at 5% growth (70 / 5 = 14).",
+      "d": "20 years corresponds to a 3.5% annual growth rate, not 7%.",
+      "default": "Divide 70 by the growth rate (7) to get 10 years."
+    }
+  },
+  {
+    "id": "econ-dat-115",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Minimum Wage & Price Floors",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "label": "Seattle, Washington"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Fast-Food Labor Market",
+      "headers": [
+        "Hourly Wage",
+        "Workers Willing",
+        "Jobs Offered"
+      ],
+      "rows": [
+        [
+          "$12 (Eq.)",
+          "5,000",
+          "5,000"
+        ],
+        [
+          "$15",
+          "6,000",
+          "4,500"
+        ],
+        [
+          "$18",
+          "7,000",
+          "4,000"
+        ]
+      ]
+    },
+    "prompt": "In this simplified competitive model, what is the labor surplus if a $15 minimum wage is enacted?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 workers"
+      },
+      {
+        "id": "b",
+        "text": "1,500 workers"
+      },
+      {
+        "id": "c",
+        "text": "2,000 workers"
+      },
+      {
+        "id": "d",
+        "text": "3,000 workers"
+      }
+    ],
+    "answer": "b",
+    "explanation": "At $15 per hour, 6,000 people want jobs while firms offer 4,500, leaving a 1,500-worker surplus.",
+    "fun_fact": "In real-world markets where employers hold monopsony power, modest wage floors can sometimes raise employment.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/consumer-producer-surplus/deadweight-loss-tutorial/a/price-ceilings-and-price-floors-cnx",
+    "trap_notes": {
+      "a": "1,000 is the increase in workers willing to work from $12 to $15, not the surplus.",
+      "c": "2,000 workers is not the gap between 6,000 supplied and 4,500 demanded.",
+      "d": "3,000 workers is the labor surplus at $18 per hour, not $15.",
+      "default": "Subtract jobs offered (4,500) from workers willing (6,000) to get 1,500."
+    }
+  },
+  {
+    "id": "econ-dat-116",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Import Tariffs",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Steel Import Tariff Effect",
+      "headers": [
+        "Policy",
+        "Steel Price / Ton",
+        "Imported Tons"
+      ],
+      "rows": [
+        [
+          "Free Trade",
+          "$500",
+          "400,000"
+        ],
+        [
+          "$100 Tariff",
+          "$600",
+          "250,000"
+        ],
+        [
+          "Domestic",
+          "Rises to $600",
+          "Output Expands"
+        ]
+      ]
+    },
+    "prompt": "How much tariff revenue does the government collect under the $100-per-ton tariff?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$15 million"
+      },
+      {
+        "id": "b",
+        "text": "$25 million"
+      },
+      {
+        "id": "c",
+        "text": "$40 million"
+      },
+      {
+        "id": "d",
+        "text": "$150 million"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under the tariff, 250,000 tons are still imported at $100 per ton, generating $25 million in revenue.",
+    "fun_fact": "Government tariff revenue is collected only on imported units, not on higher-priced domestic steel.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics/ap-open-economy-international-trade-and-finance",
+    "trap_notes": {
+      "a": "$15 million multiplies $100 by the 150,000-ton drop in imports instead of remaining imports.",
+      "c": "$40 million uses pre-tariff imports (400,000) instead of post-tariff imports (250,000).",
+      "d": "$150 million is not a product of the $100 tariff and 250,000 imported tons.",
+      "default": "Multiply the $100 tariff by the 250,000 imported tons to get $25 million."
+    }
+  },
+  {
+    "id": "econ-dat-117",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Income Distribution",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Gini Coefficient Comparison",
+      "headers": [
+        "Country",
+        "Year 2000 Gini",
+        "Year 2020 Gini"
+      ],
+      "rows": [
+        [
+          "Country A",
+          "0.28",
+          "0.27"
+        ],
+        [
+          "Country B",
+          "0.38",
+          "0.45"
+        ],
+        [
+          "Scale",
+          "0 = Full Equality",
+          "1 = Max Inequality"
+        ]
+      ]
+    },
+    "prompt": "What does the change in Country B's Gini coefficient from 0.38 to 0.45 indicate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Income inequality increased"
+      },
+      {
+        "id": "b",
+        "text": "Income inequality decreased"
+      },
+      {
+        "id": "c",
+        "text": "Average GDP per capita fell"
+      },
+      {
+        "id": "d",
+        "text": "Unemployment fell to zero"
+      }
+    ],
+    "answer": "a",
+    "explanation": "On the Gini scale from 0 to 1, a rising score from 0.38 to 0.45 signals greater income inequality.",
+    "fun_fact": "Corrado Gini introduced the Gini coefficient in 1912 to measure wealth and income dispersion.",
+    "source_url": "https://www.census.gov/topics/income-poverty/income-inequality/about/metrics/gini-index.html",
+    "trap_notes": {
+      "b": "A falling Gini score (as in Country A) indicates lower inequality, not a rising score.",
+      "c": "The Gini index measures income distribution, not average GDP per person.",
+      "d": "The Gini coefficient does not measure the unemployment rate.",
+      "default": "Closer to 1 means higher inequality, so 0.38 to 0.45 shows rising inequality."
+    }
+  },
+  {
+    "id": "econ-dat-118",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Opportunity Cost",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "label": "Boston, Massachusetts"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "One-Year College vs. Work Choice",
+      "headers": [
+        "Item",
+        "Attend College",
+        "Work Full-Time"
+      ],
+      "rows": [
+        [
+          "Tuition & Books",
+          "$18,000 cost",
+          "$0 cost"
+        ],
+        [
+          "Room & Board",
+          "$10,000 cost",
+          "$10,000 cost"
+        ],
+        [
+          "Annual Salary",
+          "$0 earned",
+          "$32,000 earned"
+        ]
+      ]
+    },
+    "prompt": "What is the total economic opportunity cost of attending college for one year instead of working?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$18,000"
+      },
+      {
+        "id": "b",
+        "text": "$32,000"
+      },
+      {
+        "id": "c",
+        "text": "$50,000"
+      },
+      {
+        "id": "d",
+        "text": "$60,000"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Total economic cost adds explicit tuition ($18,000) plus forgone salary ($32,000) = $50,000; housing is paid either way.",
+    "fun_fact": "Economists exclude room and board if a person would pay the same living cost while working.",
+    "source_url": "https://www.stlouisfed.org/education/economic-lowdown-podcast-series/episode-1-opportunity-cost",
+    "trap_notes": {
+      "a": "$18,000 counts only explicit tuition and books, ignoring forgone wages.",
+      "b": "$32,000 counts only forgone wages, ignoring tuition and books.",
+      "d": "$60,000 wrongly includes $10,000 in room and board that must be paid in both choices.",
+      "default": "Add explicit tuition ($18,000) and forgone salary ($32,000) to get $50,000."
+    }
+  },
+  {
+    "id": "econ-dat-119",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Quantity Theory of Money",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8921,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Equation of Exchange (M x V = P x Y)",
+      "headers": [
+        "Variable",
+        "Year 1",
+        "Year 2"
+      ],
+      "rows": [
+        [
+          "Money Supply (M)",
+          "$100B",
+          "$120B"
+        ],
+        [
+          "Velocity (V)",
+          "4",
+          "4"
+        ],
+        [
+          "Real Output (Y)",
+          "200 units",
+          "200 units"
+        ]
+      ]
+    },
+    "prompt": "If velocity (V) and real output (Y) stay constant, what happens to the price level (P) in Year 2?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It rises from $2.00 to $2.40"
+      },
+      {
+        "id": "b",
+        "text": "It falls from $2.40 to $2.00"
+      },
+      {
+        "id": "c",
+        "text": "It rises from $2.00 to $4.00"
+      },
+      {
+        "id": "d",
+        "text": "It stays constant at $2.00"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In Year 1, P = (100 x 4) / 200 = $2.00; in Year 2, P = (120 x 4) / 200 = $2.40, a 20% price rise.",
+    "fun_fact": "Milton Friedman famously summarized this link as 'inflation is always and everywhere a monetary phenomenon.'",
+    "source_url": "https://www.stlouisfed.org/open-vault/2019/october/what-is-velocity-of-money",
+    "trap_notes": {
+      "b": "Increasing the money supply with fixed output raises prices rather than lowering them.",
+      "c": "A 20% rise in M causes a 20% rise in P ($2.00 to $2.40), not a 100% doubling.",
+      "d": "Prices cannot stay at $2.00 if M x V rises while Y stays at 200.",
+      "default": "Solve P = (M x V) / Y: Year 1 is 400 / 200 = $2.00; Year 2 is 480 / 200 = $2.40."
+    }
+  },
+  {
+    "id": "econ-dat-120",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Fiscal Multiplier",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Spending Multiplier = 1 / (1 - MPC)",
+      "headers": [
+        "MPC",
+        "New Gov. Spending",
+        "Multiplier"
+      ],
+      "rows": [
+        [
+          "0.50",
+          "$100B",
+          "2.0"
+        ],
+        [
+          "0.75",
+          "$100B",
+          "4.0"
+        ],
+        [
+          "0.80",
+          "$100B",
+          "5.0"
+        ]
+      ]
+    },
+    "prompt": "When households have an MPC of 0.75, how much total GDP boost comes from $100B in new government spending?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$75 billion"
+      },
+      {
+        "id": "b",
+        "text": "$200 billion"
+      },
+      {
+        "id": "c",
+        "text": "$400 billion"
+      },
+      {
+        "id": "d",
+        "text": "$500 billion"
+      }
+    ],
+    "answer": "c",
+    "explanation": "At MPC = 0.75, the spending multiplier is 4.0, so $100B x 4.0 = $400 billion total GDP impact.",
+    "fun_fact": "John Maynard Keynes popularized the spending multiplier during the Great Depression.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics/national-income-and-price-determinations/expenditure-and-tax-multipliers-ap",
+    "trap_notes": {
+      "a": "$75 billion is only the second-round consumer spending, not the cumulative total.",
+      "b": "$200 billion corresponds to an MPC of 0.50 (multiplier 2.0), not 0.75.",
+      "d": "$500 billion corresponds to an MPC of 0.80 (multiplier 5.0), not 0.75.",
+      "default": "Multiply $100B in new spending by the 4.0 multiplier to get $400 billion."
+    }
+  },
+  {
+    "id": "econ-dat-121",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Market Concentration",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Federal Trade Commission"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Industry Market Shares",
+      "headers": [
+        "Industry",
+        "Top 4 Firms Share",
+        "Entry Barriers"
+      ],
+      "rows": [
+        [
+          "Industry A",
+          "92%",
+          "Very High"
+        ],
+        [
+          "Industry B",
+          "18%",
+          "Very Low"
+        ],
+        [
+          "Industry C",
+          "100% (1 firm)",
+          "Legal Patent"
+        ]
+      ]
+    },
+    "prompt": "Which market structure best describes Industry A based on its 4-firm concentration ratio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concentrated oligopoly"
+      },
+      {
+        "id": "b",
+        "text": "Perfect competition"
+      },
+      {
+        "id": "c",
+        "text": "Pure legal monopoly"
+      },
+      {
+        "id": "d",
+        "text": "Monopolistic rivalry"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A four-firm concentration ratio of 92% with high barriers indicates a few dominant rivals, an oligopoly.",
+    "fun_fact": "U.S. antitrust regulators use concentration ratios and the Herfindahl-Hirschman Index to review mergers.",
+    "source_url": "https://www.justice.gov/atr/herfindahl-hirschman-index",
+    "trap_notes": {
+      "b": "Perfect competition has tiny market shares per firm and zero entry barriers.",
+      "c": "Industry C (100% controlled by 1 firm) is a pure monopoly, not Industry A.",
+      "d": "Monopolistic competition features many small firms with low entry barriers, like Industry B.",
+      "default": "High barriers and 92% share held by four firms define an oligopoly."
+    }
+  },
+  {
+    "id": "econ-dat-122",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Marginal Tax Rates",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "U.S. Treasury"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Progressive Income Tax Brackets",
+      "headers": [
+        "Income Bracket",
+        "Tax Rate",
+        "Max Bracket Tax"
+      ],
+      "rows": [
+        [
+          "$0 to $20,000",
+          "10%",
+          "$2,000"
+        ],
+        [
+          "$20,001 to $50,000",
+          "20%",
+          "$6,000"
+        ],
+        [
+          "Over $50,000",
+          "30%",
+          "30% on excess"
+        ]
+      ]
+    },
+    "prompt": "How much total income tax does a worker earning $60,000 owe under this progressive schedule?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$11,000"
+      },
+      {
+        "id": "b",
+        "text": "$12,000"
+      },
+      {
+        "id": "c",
+        "text": "$18,000"
+      },
+      {
+        "id": "d",
+        "text": "$8,000"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Tax is $2,000 on the first $20k, $6,000 on the next $30k, and $3,000 (30%) on the last $10k = $11,000.",
+    "fun_fact": "In a progressive bracket system, earning $1 into a higher bracket only taxes that extra dollar higher.",
+    "source_url": "https://apps.irs.gov/app/understandingTaxes/teacher/whys_thm03_les03.jsp",
+    "trap_notes": {
+      "b": "$12,000 applies a flat 20% rate to all $60,000 instead of using marginal brackets.",
+      "c": "$18,000 mistakenly applies the top 30% marginal rate to the entire $60,000 income.",
+      "d": "$8,000 is the tax on $50,000 and omits the 30% tax on the final $10,000.",
+      "default": "Add $2,000 + $6,000 + (0.30 x $10,000) = $11,000."
+    }
+  },
+  {
+    "id": "econ-dat-123",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Diminishing Marginal Returns",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Bakery Daily Output",
+      "headers": [
+        "Workers",
+        "Total Loaves",
+        "Marginal Product"
+      ],
+      "rows": [
+        [
+          "1",
+          "20",
+          "20"
+        ],
+        [
+          "2",
+          "50",
+          "30"
+        ],
+        [
+          "3",
+          "70",
+          "20"
+        ]
+      ]
+    },
+    "prompt": "With which worker does diminishing marginal product begin in this bakery?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The 1st worker"
+      },
+      {
+        "id": "b",
+        "text": "The 2nd worker"
+      },
+      {
+        "id": "c",
+        "text": "The 3rd worker"
+      },
+      {
+        "id": "d",
+        "text": "Not shown in the table"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Marginal product rises from 20 to 30 with the 2nd worker, then falls to 20 with the 3rd worker.",
+    "fun_fact": "Diminishing marginal returns happen in the short run when extra workers crowd fixed ovens or tools.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/firm-economic-profit/production-decisions/a/the-law-of-diminishing-marginal-returns",
+    "trap_notes": {
+      "a": "The 1st worker sets the initial marginal product of 20 loaves.",
+      "b": "The 2nd worker exhibits increasing marginal returns, adding 30 extra loaves.",
+      "d": "The drop from 30 to 20 extra loaves is directly shown at the 3rd worker.",
+      "default": "Diminishing returns begin when marginal product drops: 30 down to 20 at worker 3."
+    }
+  },
+  {
+    "id": "econ-dat-124",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Externalities & Pigouvian Tax",
+    "skill_tag": "data_literacy",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 40.4406,
+      "lng": -79.9959,
+      "label": "Pittsburgh, Pennsylvania"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Chemical Plant Cost per Ton",
+      "headers": [
+        "Output Ton",
+        "Private Cost",
+        "Social Cost"
+      ],
+      "rows": [
+        [
+          "1st Ton",
+          "$40",
+          "$55"
+        ],
+        [
+          "2nd Ton",
+          "$50",
+          "$65"
+        ],
+        [
+          "3rd Ton",
+          "$60",
+          "$75"
+        ]
+      ]
+    },
+    "prompt": "What per-ton pollution tax internalizes the negative externality shown in the table?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$10 per ton"
+      },
+      {
+        "id": "b",
+        "text": "$15 per ton"
+      },
+      {
+        "id": "c",
+        "text": "$40 per ton"
+      },
+      {
+        "id": "d",
+        "text": "$55 per ton"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Social cost exceeds private cost by $15 on every ton ($55 - $40 = $15), so a $15 tax internalizes the harm.",
+    "fun_fact": "Taxes set equal to external damage are called Pigouvian taxes after economist Arthur Pigou.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities",
+    "trap_notes": {
+      "a": "$10 is the step increase in private cost per ton, not the external pollution cost.",
+      "c": "$40 is the private cost of producing the 1st ton.",
+      "d": "$55 is the full social cost of the 1st ton, not the external damage alone.",
+      "default": "Subtract private cost from social cost ($55 - $40 = $15) to find the external cost."
+    }
+  },
+  {
+    "id": "econ-dat-125",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Personal Finance & Compounding",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York City"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "$1,000 Savings at 10% Annual Interest",
+      "headers": [
+        "End of Year",
+        "Simple Interest",
+        "Compound Interest"
+      ],
+      "rows": [
+        [
+          "Year 1",
+          "$1,100",
+          "$1,100"
+        ],
+        [
+          "Year 2",
+          "$1,200",
+          "$1,210"
+        ],
+        [
+          "Year 3",
+          "$1,300",
+          "$1,331"
+        ]
+      ]
+    },
+    "prompt": "Why does compound interest exceed simple interest by $31 at the end of Year 3?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Interest earns interest on prior interest"
+      },
+      {
+        "id": "b",
+        "text": "The principal deposit doubled each year"
+      },
+      {
+        "id": "c",
+        "text": "The interest rate rose above 10 percent"
+      },
+      {
+        "id": "d",
+        "text": "Inflation added $31 to the account"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Compound interest applies the 10% rate to the growing balance, earning interest on prior interest.",
+    "fun_fact": "Over 30 years at 10%, $1,000 grows to $4,000 with simple interest versus $17,449 compounded.",
+    "source_url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+    "trap_notes": {
+      "b": "The initial $1,000 deposit was made once; no extra principal was added.",
+      "c": "The annual interest rate remained 10% throughout all three years.",
+      "d": "Inflation reduces purchasing power rather than adding nominal interest dollars.",
+      "default": "Compounding pays 10% on both the $1,000 principal and the accumulated interest."
+    }
+  },
+  {
+    "id": "econ-dat-126",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "GDP Per Capita",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "National Output vs. Population",
+      "headers": [
+        "Country",
+        "Total GDP",
+        "Population"
+      ],
+      "rows": [
+        [
+          "Country M",
+          "$500 billion",
+          "10 million"
+        ],
+        [
+          "Country N",
+          "$900 billion",
+          "90 million"
+        ],
+        [
+          "Metric",
+          "Output Size",
+          "Headcount"
+        ]
+      ]
+    },
+    "prompt": "Which country has the higher GDP per capita, and by how much?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Country N, by $40,000"
+      },
+      {
+        "id": "b",
+        "text": "Country M, by $40,000"
+      },
+      {
+        "id": "c",
+        "text": "Country M, by $50,000"
+      },
+      {
+        "id": "d",
+        "text": "Country N, by $10,000"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Country M's GDP per capita is $500B / 10M = $50,000, while Country N's is $900B / 90M = $10,000.",
+    "fun_fact": "GDP per capita is a better gauge of average living standards than total GDP alone.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/gross-domestic-product-GDP",
+    "trap_notes": {
+      "a": "Country N has a larger total GDP ($900B), not a higher GDP per person.",
+      "c": "$50,000 is Country M's full GDP per capita, not the $40,000 difference over Country N.",
+      "d": "$10,000 is Country N's GDP per capita, which is lower than Country M's.",
+      "default": "Country M is $50,000 per person vs. $10,000 in Country N, a $40,000 lead."
+    }
+  },
+  {
+    "id": "econ-dat-127",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Consumer Surplus",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "label": "Seattle, Washington"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Concert Ticket Willingness to Pay",
+      "headers": [
+        "Buyer",
+        "Max Willing to Pay",
+        "Market Price"
+      ],
+      "rows": [
+        [
+          "Alex",
+          "$90",
+          "$50"
+        ],
+        [
+          "Brianna",
+          "$65",
+          "$50"
+        ],
+        [
+          "Carlos",
+          "$45",
+          "$50"
+        ]
+      ]
+    },
+    "prompt": "If tickets sell at $50, what is the combined consumer surplus of the buyers who purchase a ticket?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$50"
+      },
+      {
+        "id": "b",
+        "text": "$55"
+      },
+      {
+        "id": "c",
+        "text": "$60"
+      },
+      {
+        "id": "d",
+        "text": "$100"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Alex gains $40 ($90 - $50) and Brianna gains $15 ($65 - $50), while Carlos does not buy, totaling $55.",
+    "fun_fact": "Consumer surplus measures the net benefit buyers receive above the price they actually pay.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/consumer-producer-surplus/consumer-producer-surplus-tut",
+    "trap_notes": {
+      "a": "$50 subtracts Carlos's -$5 gap, even though Carlos chooses not to buy at $50.",
+      "c": "$60 miscalculates Brianna's $15 surplus as $20.",
+      "d": "$100 is the total revenue collected from two tickets, not consumer surplus.",
+      "default": "Add Alex's surplus ($40) and Brianna's surplus ($15) to get $55."
+    }
+  },
+  {
+    "id": "econ-dat-128",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Supply Shocks",
+    "skill_tag": "data_literacy",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "label": "Houston, Texas"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Global Wheat Market Scenarios",
+      "headers": [
+        "Scenario",
+        "Equilibrium Price",
+        "Equilibrium Qty"
+      ],
+      "rows": [
+        [
+          "Baseline",
+          "$6 / bushel",
+          "100M tons"
+        ],
+        [
+          "Scenario 1",
+          "$8 / bushel",
+          "85M tons"
+        ],
+        [
+          "Scenario 2",
+          "$8 / bushel",
+          "120M tons"
+        ]
+      ]
+    },
+    "prompt": "Which scenario represents a severe drought that cuts global wheat supply?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Scenario 1, raising price and cutting quantity"
+      },
+      {
+        "id": "b",
+        "text": "Scenario 2, raising both price and quantity"
+      },
+      {
+        "id": "c",
+        "text": "Baseline, keeping price and quantity fixed"
+      },
+      {
+        "id": "d",
+        "text": "Both scenarios show a supply decrease"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A leftward supply shift raises equilibrium price ($6 to $8) and lowers equilibrium quantity (100M to 85M).",
+    "fun_fact": "Scenario 2 (higher price and higher quantity) reflects a rightward shift in demand instead.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium/market-equilibrium-tutorial",
+    "trap_notes": {
+      "b": "Higher price with higher quantity indicates an increase in demand, not a drought.",
+      "c": "Baseline reflects normal weather before any supply shock occurs.",
+      "d": "Scenario 2 increases quantity to 120M tons, which cannot result from a crop failure.",
+      "default": "A supply drop pushes prices up and equilibrium quantity down (Scenario 1)."
+    }
+  },
+  {
+    "id": "econ-dat-129",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Public Debt & Deficits",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Federal Budget Summary ($B)",
+      "headers": [
+        "Year",
+        "Tax Revenue",
+        "Gov. Outlays"
+      ],
+      "rows": [
+        [
+          "Year 1",
+          "$400B",
+          "$450B"
+        ],
+        [
+          "Year 2",
+          "$420B",
+          "$460B"
+        ],
+        [
+          "Year 3",
+          "$480B",
+          "$460B"
+        ]
+      ]
+    },
+    "prompt": "What was the cumulative change in the national debt across all three years?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Increased by $70 billion"
+      },
+      {
+        "id": "b",
+        "text": "Increased by $90 billion"
+      },
+      {
+        "id": "c",
+        "text": "Decreased by $20 billion"
+      },
+      {
+        "id": "d",
+        "text": "Increased by $110 billion"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Deficits of $50B (Year 1) and $40B (Year 2) minus a $20B surplus (Year 3) add $70 billion to debt.",
+    "fun_fact": "A budget deficit is a one-year shortfall, whereas national debt is the accumulated total of past deficits.",
+    "source_url": "https://fiscaldata.treasury.gov/americas-finance-guide/national-deficit/",
+    "trap_notes": {
+      "b": "$90 billion sums Year 1 and Year 2 deficits while ignoring Year 3's $20B surplus.",
+      "c": "$20 billion is only Year 3's surplus, not the three-year cumulative change.",
+      "d": "$110 billion adds Year 3's $20B surplus as if it were another deficit.",
+      "default": "Combine -$50B, -$40B, and +$20B to get a net $70 billion debt increase."
+    }
+  },
+  {
+    "id": "econ-dat-130",
+    "type": "data",
+    "domain": "Econ",
+    "subdomain": "Cost Curves",
+    "skill_tag": "data_literacy",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "label": "Chicago, Illinois"
+    },
+    "stimulus": {
+      "kind": "table",
+      "title": "Short-Run Production Costs",
+      "headers": [
+        "Output",
+        "Fixed Cost",
+        "Variable Cost"
+      ],
+      "rows": [
+        [
+          "0 units",
+          "$100",
+          "$0"
+        ],
+        [
+          "5 units",
+          "$100",
+          "$150"
+        ],
+        [
+          "10 units",
+          "$100",
+          "$260"
+        ]
+      ]
+    },
+    "prompt": "What is the firm's average total cost (ATC) per unit when producing 10 units?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$10 per unit"
+      },
+      {
+        "id": "b",
+        "text": "$26 per unit"
+      },
+      {
+        "id": "c",
+        "text": "$36 per unit"
+      },
+      {
+        "id": "d",
+        "text": "$50 per unit"
+      }
+    ],
+    "answer": "c",
+    "explanation": "At 10 units, total cost is $100 fixed + $260 variable = $360; dividing by 10 units gives $36 per unit.",
+    "fun_fact": "Average fixed cost falls steadily as output rises because overhead is spread across more units.",
+    "source_url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/firm-economic-profit/average-costs-margin-rev/a/fixed-variable-and-marginal-cost",
+    "trap_notes": {
+      "a": "$10 is only the average fixed cost ($100 / 10), leaving out variable costs.",
+      "b": "$26 is only the average variable cost ($260 / 10), leaving out fixed costs.",
+      "d": "$50 is the average total cost at 5 units ($250 / 5), not at 10 units.",
+      "default": "Add fixed ($100) and variable ($260) costs, then divide $360 by 10 units = $36."
+    }
+  },
+  {
+    "id": "econ-syn-101",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Early Republic Finance",
+    "era": "1790–1791",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "secondary_geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York City"
+    },
+    "prompt": "Why did Alexander Hamilton urge the federal government to assume state Revolutionary War debts in 1790?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To build national credit and tie wealthy creditors to the new government"
+      },
+      {
+        "id": "b",
+        "text": "To eliminate all federal tariffs and rely solely on paper currency"
+      },
+      {
+        "id": "c",
+        "text": "To force southern states to abolish plantation agriculture"
+      },
+      {
+        "id": "d",
+        "text": "To transfer all banking authority from Congress to state legislatures"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Hamilton's debt assumption established strong U.S. creditworthiness and gave bondholders a stake in federal stability.",
+    "fun_fact": "Hamilton struck the Compromise of 1790 with Jefferson and Madison, trading debt assumption for the Potomac capital.",
+    "source_url": "https://www.federalreservehistory.org/essays/first-bank-of-the-us",
+    "trap_notes": {
+      "b": "Hamilton actually relied on tariffs and excise taxes to fund interest payments on the debt.",
+      "c": "Hamilton's financial plan focused on credit and manufacturing, not abolishing plantations.",
+      "d": "Assumption centralized credit at the federal level rather than handing power to states.",
+      "default": "Debt assumption built national credit and aligned creditors with federal survival."
+    }
+  },
+  {
+    "id": "econ-syn-102",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US",
+      "Civics"
+    ],
+    "subdomain": "Central Banking History",
+    "era": "1907–1913",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8921,
+      "lng": -77.0459,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York City"
+    },
+    "prompt": "What crisis directly convinced Congress to pass the Federal Reserve Act of 1913?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The 1973 OPEC oil embargo, which caused severe gasoline shortages"
+      },
+      {
+        "id": "b",
+        "text": "The Panic of 1907, which required J.P. Morgan to organize private bank bailouts"
+      },
+      {
+        "id": "c",
+        "text": "The 1944 Bretton Woods talks, which ended the gold standard"
+      },
+      {
+        "id": "d",
+        "text": "The 1994 NAFTA treaty, which lowered North American tariffs"
+      }
+    ],
+    "answer": "b",
+    "explanation": "After the Panic of 1907 showed reliance on private rescuers like J.P. Morgan, Congress created a public lender of last resort.",
+    "fun_fact": "The Federal Reserve System opened 12 regional reserve banks in November 1914.",
+    "source_url": "https://www.federalreservehistory.org/essays/panic-of-1907",
+    "trap_notes": {
+      "c": "Bretton Woods occurred in 1944, and it actually pegged currencies to gold-backed dollars.",
+      "d": "NAFTA was a 1994 trade agreement, unrelated to the 1913 creation of the Fed.",
+      "default": "The Panic of 1907 exposed the lack of an elastic currency and lender of last resort.",
+      "a": "The 1973 OPEC embargo happened sixty years after the 1913 Federal Reserve Act."
+    }
+  },
+  {
+    "id": "econ-syn-103",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US",
+      "World"
+    ],
+    "subdomain": "Trade Policy History",
+    "era": "1930–1934",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "secondary_geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "How did the 1930 Smoot-Hawley Tariff affect the Great Depression?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It ended the Depression within a year by boosting factory exports"
+      },
+      {
+        "id": "b",
+        "text": "It eliminated U.S. farm surpluses by doubling European imports"
+      },
+      {
+        "id": "c",
+        "text": "It sparked foreign retaliatory tariffs and shrank world trade"
+      },
+      {
+        "id": "d",
+        "text": "It created the World Trade Organization to cut customs duties"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Smoot-Hawley raised U.S. duties to historic highs, prompting trading partners to retaliate and collapsing trade.",
+    "fun_fact": "Over 1,000 economists signed a petition urging President Hoover to veto Smoot-Hawley.",
+    "source_url": "https://www.britannica.com/topic/Smoot-Hawley-Tariff-Act",
+    "trap_notes": {
+      "b": "Retaliatory tariffs hurt U.S. farm exports instead of reducing surpluses.",
+      "d": "The WTO was founded in 1995, sixty-five years after Smoot-Hawley.",
+      "default": "Smoot-Hawley triggered global retaliation that deepened the Great Depression.",
+      "a": "U.S. exports fell sharply after 1930 as trade partners closed their markets."
+    }
+  },
+  {
+    "id": "econ-syn-104",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Civics",
+      "US"
+    ],
+    "subdomain": "Constitutional Law & Markets",
+    "era": "1824",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York Harbor"
+    },
+    "secondary_geo": {
+      "lat": 38.8904,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "prompt": "How did the Supreme Court ruling in Gibbons v. Ogden (1824) support a national U.S. market?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It ruled that state tariffs on out-of-state goods were protected by the Tenth Amendment"
+      },
+      {
+        "id": "b",
+        "text": "It allowed each state to print its own paper currency for interstate trade"
+      },
+      {
+        "id": "c",
+        "text": "It banned the federal government from chartering national highways or canals"
+      },
+      {
+        "id": "d",
+        "text": "It struck down a state steamboat monopoly under Congress's Commerce Clause power"
+      }
+    ],
+    "answer": "d",
+    "explanation": "By reading the Commerce Clause broadly, Gibbons v. Ogden prevented states from erecting interstate trade monopolies.",
+    "fun_fact": "Chief Justice John Marshall ruled that 'commerce' includes navigation and interstate transportation.",
+    "source_url": "https://www.archives.gov/milestone-documents/gibbons-v-ogden",
+    "trap_notes": {
+      "b": "The Constitution explicitly bars states from coining money or issuing bills of credit.",
+      "c": "Gibbons v. Ogden expanded federal commercial authority rather than restricting infrastructure.",
+      "default": "Gibbons v. Ogden affirmed broad federal Commerce Clause power over interstate trade.",
+      "a": "The ruling struck down state-level barriers to interstate commerce."
+    }
+  },
+  {
+    "id": "econ-syn-105",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Early Modern Trade",
+    "era": "1550–1650",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": -19.5836,
+      "lng": -65.7531,
+      "label": "Potosí, Bolivia"
+    },
+    "secondary_geo": {
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "label": "Beijing, China"
+    },
+    "prompt": "How did Spanish silver mining at Potosí reshape 16th-century global trade?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It financed European purchases of Ming Chinese silk and porcelain while fueling inflation"
+      },
+      {
+        "id": "b",
+        "text": "It ended all maritime trade across the Pacific Ocean via Manila"
+      },
+      {
+        "id": "c",
+        "text": "It caused Ming China to abandon silver taxes and adopt paper-only money"
+      },
+      {
+        "id": "d",
+        "text": "It prevented the Dutch and English from forming joint-stock companies"
+      }
+    ],
+    "answer": "a",
+    "explanation": "American silver flowed across the Atlantic and Pacific to Ming China, driving the European Price Revolution.",
+    "fun_fact": "Ming China's 'Single Whip' tax reform required taxes to be paid in silver, creating huge demand.",
+    "source_url": "https://www.britannica.com/place/Potosi-Bolivia",
+    "trap_notes": {
+      "b": "Potosí silver actually launched the Manila Galleon trade across the Pacific.",
+      "c": "Ming China moved toward silver-denominated taxes, not away from silver.",
+      "d": "Global trade expansion encouraged the Dutch and English East India Companies.",
+      "default": "Potosí silver linked the Americas, Europe, and Ming China in a single monetary network."
+    }
+  },
+  {
+    "id": "econ-syn-106",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Industrialization",
+    "era": "1760–1830",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 53.4808,
+      "lng": -2.2426,
+      "label": "Manchester, United Kingdom"
+    },
+    "secondary_geo": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "label": "London, United Kingdom"
+    },
+    "prompt": "Why did Britain's high wages and cheap coal encourage the Industrial Revolution?",
+    "options": [
+      {
+        "id": "a",
+        "text": "High wages forced British factories to rely solely on hand-loom weavers"
+      },
+      {
+        "id": "b",
+        "text": "Firms profited by inventing coal-powered machines to save expensive labor"
+      },
+      {
+        "id": "c",
+        "text": "Cheap coal made steam engines unprofitable compared to waterwheels"
+      },
+      {
+        "id": "d",
+        "text": "Britain banned patent protections so inventors could not profit"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Expensive labor combined with abundant coal gave British firms strong incentives to mechanize production.",
+    "fun_fact": "Coal-fired steam engines freed factories from needing fast-flowing rivers for water power.",
+    "source_url": "https://www.britannica.com/event/Industrial-Revolution",
+    "trap_notes": {
+      "c": "Cheap coal made coal-burning steam engines economically attractive.",
+      "d": "Britain's patent system protected inventors' profits and spurred innovation.",
+      "default": "High wages + cheap coal made capital-intensive mechanization profitable in Britain.",
+      "a": "High wages pushed firms away from hand labor toward labor-saving machinery."
+    }
+  },
+  {
+    "id": "econ-syn-107",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US",
+      "World"
+    ],
+    "subdomain": "International Monetary History",
+    "era": "1971",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "White House, Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 44.2581,
+      "lng": -71.4408,
+      "label": "Bretton Woods"
+    },
+    "prompt": "What major shift followed President Richard Nixon's 1971 decision to close the U.S. gold window?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The International Monetary Fund was dissolved and replaced by tariffs"
+      },
+      {
+        "id": "b",
+        "text": "All major nations returned to minting gold coins for daily retail use"
+      },
+      {
+        "id": "c",
+        "text": "The Bretton Woods fixed-rate system collapsed into floating fiat currencies"
+      },
+      {
+        "id": "d",
+        "text": "The U.S. dollar was permanently pegged to the Japanese yen"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Ending dollar-to-gold convertibility ended the Bretton Woods peg and ushered in modern floating fiat currencies.",
+    "fun_fact": "By 1973, major industrial nations had abandoned fixed exchange rates for floating currencies.",
+    "source_url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+    "trap_notes": {
+      "b": "The 1971 move severed the final link between major currencies and gold.",
+      "d": "The dollar and yen float against each other in foreign exchange markets.",
+      "default": "Closing the gold window in 1971 ended Bretton Woods and launched floating fiat rates.",
+      "a": "The IMF adapted to floating exchange rates and continues to operate today."
+    }
+  },
+  {
+    "id": "econ-syn-108",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "Monetary Policy History",
+    "era": "1979–1982",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.8921,
+      "lng": -77.0459,
+      "label": "Federal Reserve Board"
+    },
+    "secondary_geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York City"
+    },
+    "prompt": "How did Federal Reserve Chair Paul Volcker break double-digit U.S. stagflation in 1979–1982?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By lowering the federal funds rate near zero to boost consumer loans"
+      },
+      {
+        "id": "b",
+        "text": "By cutting federal income taxes while pegging the dollar to silver"
+      },
+      {
+        "id": "c",
+        "text": "By imposing permanent federal wage and price freezes on all stores"
+      },
+      {
+        "id": "d",
+        "text": "By sharply tightening money growth and raising interest rates despite recession"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Volcker's tight monetary policy pushed interest rates near 20%, triggering a recession that broke inflation.",
+    "fun_fact": "U.S. inflation fell from over 13% in 1980 to roughly 3% by 1983.",
+    "source_url": "https://www.federalreservehistory.org/essays/anti-inflation-measures",
+    "trap_notes": {
+      "b": "Fiscal tax cuts and silver pegs were not the Fed's disinflation tool.",
+      "c": "Wage and price controls were tried by Nixon in 1971, not by Volcker.",
+      "default": "Volcker used sharp monetary tightening and high interest rates to defeat inflation.",
+      "a": "Near-zero rates are expansionary and would have worsened 1979 inflation."
+    }
+  },
+  {
+    "id": "econ-syn-109",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Resource Economics",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 4.8156,
+      "lng": 7.0498,
+      "label": "Niger Delta"
+    },
+    "secondary_geo": {
+      "lat": 10.4806,
+      "lng": -66.9036,
+      "label": "Caracas, Venezuela"
+    },
+    "prompt": "What economic problem is known as the 'resource curse' or 'Dutch disease' in oil-exporting states?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Booming oil exports lift the currency and crowd out farming and manufacturing"
+      },
+      {
+        "id": "b",
+        "text": "Discovering oil forces a country to import all of its electricity"
+      },
+      {
+        "id": "c",
+        "text": "Oil revenues automatically create diversified high-tech export industries"
+      },
+      {
+        "id": "d",
+        "text": "Mineral wealth prevents a country from joining international trade"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Heavy commodity exports drive up the exchange rate, making other domestic industries uncompetitive.",
+    "fun_fact": "The term 'Dutch disease' came from the 1960s decline of Dutch manufacturing after North Sea gas finds.",
+    "source_url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Dutch-Disease",
+    "trap_notes": {
+      "b": "Oil-rich states usually export energy rather than lacking domestic fuel.",
+      "c": "Resource booms often crowd out manufacturing rather than diversifying it.",
+      "d": "Petro-states are heavily integrated into global commodity trade.",
+      "default": "Commodity booms appreciate the currency and weaken non-resource exports."
+    }
+  },
+  {
+    "id": "econ-syn-110",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Civics"
+    ],
+    "subdomain": "Antitrust & Regulation",
+    "era": "1890–1914",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "secondary_geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York City"
+    },
+    "prompt": "Why did Congress pass the Sherman Antitrust Act (1890) and Clayton Act (1914)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To nationalize all U.S. railroads and steel mills"
+      },
+      {
+        "id": "b",
+        "text": "To curb monopoly trusts and protect market competition"
+      },
+      {
+        "id": "c",
+        "text": "To outlaw labor unions from collective bargaining"
+      },
+      {
+        "id": "d",
+        "text": "To set fixed retail prices for agricultural crops"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Antitrust laws banned price-fixing cartels and anti-competitive mergers to preserve rivalry in markets.",
+    "fun_fact": "The 1914 Clayton Act explicitly exempted labor unions from being treated as illegal monopolies.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "trap_notes": {
+      "c": "The Clayton Act actually protected labor unions from antitrust prosecution.",
+      "d": "Antitrust law prohibits price fixing rather than setting fixed retail prices.",
+      "default": "Sherman and Clayton Acts targeted monopolies and cartels to keep markets competitive.",
+      "a": "U.S. antitrust policy broke up or regulated monopolies rather than nationalizing industries."
+    }
+  },
+  {
+    "id": "econ-syn-111",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US",
+      "Geo"
+    ],
+    "subdomain": "Transportation & Markets",
+    "era": "1825–1850",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 43.0481,
+      "lng": -76.1474,
+      "label": "Erie Canal, New York"
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York Harbor"
+    },
+    "prompt": "How did opening the Erie Canal in 1825 transform the U.S. economy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It raised grain prices in New York City while isolating Great Lakes farms"
+      },
+      {
+        "id": "b",
+        "text": "It ended Atlantic Ocean shipping by routing all trade to the Mississippi"
+      },
+      {
+        "id": "c",
+        "text": "It slashed freight costs between the Midwest and New York, linking regional markets"
+      },
+      {
+        "id": "d",
+        "text": "It shifted U.S. trade away from New York toward New Orleans"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Erie Canal cut Buffalo-to-New York freight costs by roughly 90%, making New York the top commercial port.",
+    "fun_fact": "Freight that once cost $100 a ton by wagon dropped to under $10 a ton by canal barge.",
+    "source_url": "https://www.britannica.com/topic/Erie-Canal",
+    "trap_notes": {
+      "b": "The canal boosted Atlantic trade through New York Harbor rather than ending it.",
+      "d": "The canal redirected Midwest trade eastward to New York instead of south to New Orleans.",
+      "default": "Cheaper water transport connected Great Lakes agriculture to Atlantic markets via New York.",
+      "a": "Lower transport costs integrated Great Lakes farms into eastern markets and lowered food costs."
+    }
+  },
+  {
+    "id": "econ-syn-112",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World",
+      "US"
+    ],
+    "subdomain": "Postwar Reconstruction",
+    "era": "1948–1951",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "label": "Paris, France"
+    },
+    "secondary_geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "What dual economic and geopolitical purpose did the U.S. Marshall Plan (1948) serve?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Replacing European currencies with the British pound sterling"
+      },
+      {
+        "id": "b",
+        "text": "Collecting war reparations from Western Europe to pay off U.S. debts"
+      },
+      {
+        "id": "c",
+        "text": "Creating a Soviet-led trade bloc across Eastern and Western Europe"
+      },
+      {
+        "id": "d",
+        "text": "Rebuilding Western European industry to restore trade partners and contain communism"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The $13 billion Marshall Plan funded European factories and infrastructure, reviving trade and political stability.",
+    "fun_fact": "The Marshall Plan required recipient countries to coordinate economic recovery, paving the way for the EU.",
+    "source_url": "https://www.archives.gov/milestone-documents/marshall-plan",
+    "trap_notes": {
+      "b": "The Marshall Plan provided grants and aid rather than demanding reparations.",
+      "c": "The Soviet Union rejected the Marshall Plan and formed Comecon in Eastern Europe.",
+      "default": "Marshall Plan aid rebuilt Western European economies as trading partners and Cold War allies.",
+      "a": "European countries kept their national currencies under the dollar-anchored Bretton Woods system."
+    }
+  },
+  {
+    "id": "econ-syn-113",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Energy Shocks",
+    "era": "1973–1974",
+    "skill_tag": "synthesis",
+    "trap_type": "reverse_causation",
+    "geo": {
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "label": "Riyadh, Saudi Arabia"
+    },
+    "secondary_geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How did the 1973 OAPEC oil embargo affect industrial economies like the United States?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quadrupling oil prices triggered stagflation—rising prices alongside falling output"
+      },
+      {
+        "id": "b",
+        "text": "Falling fuel prices sparked a rapid manufacturing boom and deflation"
+      },
+      {
+        "id": "c",
+        "text": "Higher oil prices lowered production costs across transport and farming"
+      },
+      {
+        "id": "d",
+        "text": "The embargo permanently ended automobile use in North America"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 1973 supply shock raised energy costs economy-wide, causing simultaneous inflation and recession (stagflation).",
+    "fun_fact": "The crisis led the U.S. to create the Strategic Petroleum Reserve and fuel-economy standards.",
+    "source_url": "https://history.state.gov/milestones/1969-1976/oil-embargo",
+    "trap_notes": {
+      "b": "Crude oil prices roughly quadrupled, causing inflation rather than deflation.",
+      "c": "Higher energy costs raised shipping and production expenses across all sectors.",
+      "d": "Consumers shifted toward smaller, fuel-efficient cars rather than abandoning driving.",
+      "default": "A sharp oil supply shock drives up costs while slowing output, producing stagflation."
+    }
+  },
+  {
+    "id": "econ-syn-114",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Civics"
+    ],
+    "subdomain": "Constitutional Taxation",
+    "era": "1913",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "secondary_geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "U.S. Treasury"
+    },
+    "prompt": "How did the 16th Amendment (1913) change the federal government's revenue system?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It banned Congress from collecting tariffs on imported goods"
+      },
+      {
+        "id": "b",
+        "text": "It authorized a federal income tax without apportioning it by state population"
+      },
+      {
+        "id": "c",
+        "text": "It required a national sales tax on all retail groceries"
+      },
+      {
+        "id": "d",
+        "text": "It transferred all corporate tax revenue to municipal governments"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 16th Amendment overturned an 1895 Supreme Court ruling and enabled the modern federal income tax.",
+    "fun_fact": "Before 1913, tariffs and alcohol/tobacco excise taxes supplied most federal revenue.",
+    "source_url": "https://www.archives.gov/milestone-documents/16th-amendment",
+    "trap_notes": {
+      "c": "The U.S. federal government does not levy a national retail sales tax.",
+      "d": "The 16th Amendment expanded federal taxing power, not local municipal taxes.",
+      "default": "The 16th Amendment allowed Congress to tax incomes directly without state apportionment.",
+      "a": "Tariffs remained legal, though income taxes soon became the main federal revenue source."
+    }
+  },
+  {
+    "id": "econ-syn-115",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "European Integration",
+    "era": "1992–2002",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 50.1109,
+      "lng": 8.6821,
+      "label": "Frankfurt, Germany"
+    },
+    "secondary_geo": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "label": "Brussels, Belgium"
+    },
+    "prompt": "What macroeconomic trade-off did Eurozone nations accept when adopting the shared euro currency?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They abolished all national fiscal budgets and merged into one treasury"
+      },
+      {
+        "id": "b",
+        "text": "They kept national central banks free to print their own francs and lire"
+      },
+      {
+        "id": "c",
+        "text": "They eliminated currency conversion costs but gave up independent national monetary policy"
+      },
+      {
+        "id": "d",
+        "text": "They raised internal tariffs between EU members to protect local banks"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Using one currency removed exchange-rate friction, but members surrendered individual control over interest rates.",
+    "fun_fact": "Euro banknotes and coins entered circulation in 12 countries on January 1, 2002.",
+    "source_url": "https://www.ecb.europa.eu/euro/intro/html/index.en.html",
+    "trap_notes": {
+      "b": "Eurozone members replaced national currencies like the franc and lira with the euro.",
+      "d": "The European Single Market removed internal tariffs rather than raising them.",
+      "default": "A single currency lowers trade friction at the cost of independent national interest rates.",
+      "a": "Eurozone countries still run separate national budgets and tax systems."
+    }
+  },
+  {
+    "id": "econ-syn-116",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Global Logistics",
+    "era": "1956–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 51.9244,
+      "lng": 4.4777,
+      "label": "Rotterdam, Netherlands"
+    },
+    "secondary_geo": {
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "label": "Singapore"
+    },
+    "prompt": "How did Malcolm McLean's standardized shipping container (1956) reshape global economic geography?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It raised ocean shipping times by requiring hand-unloading at every port"
+      },
+      {
+        "id": "b",
+        "text": "It forced all manufacturing to stay within 50 miles of domestic consumers"
+      },
+      {
+        "id": "c",
+        "text": "It ended intermodal rail and truck freight in favor of canals"
+      },
+      {
+        "id": "d",
+        "text": "It slashed port loading costs, enabling globalized supply chains across distant factories"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Standardized containers allowed cranes to move cargo seamlessly between ships, trains, and trucks, slashing trade costs.",
+    "fun_fact": "Containerization cut the cost of loading cargo from nearly $6 per ton to pennies per ton.",
+    "source_url": "https://www.britannica.com/technology/containerization",
+    "trap_notes": {
+      "b": "Cheaper ocean freight allowed factories to locate far from end consumers.",
+      "c": "Containers actually united ships, railroads, and trucks into one intermodal system.",
+      "default": "Standardized containers cut freight costs and enabled dispersed global supply chains.",
+      "a": "Containers replaced slow manual dockwork with rapid crane transfers."
+    }
+  },
+  {
+    "id": "econ-syn-117",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US"
+    ],
+    "subdomain": "New Deal Banking Reform",
+    "era": "1933",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 40.7069,
+      "lng": -74.0113,
+      "label": "New York City"
+    },
+    "prompt": "How did the 1933 Glass-Steagall Act's creation of the FDIC stop Great Depression bank runs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It insured household deposits, removing depositors' panic to withdraw cash first"
+      },
+      {
+        "id": "b",
+        "text": "It outlawed checking accounts and required all wages to be paid in gold"
+      },
+      {
+        "id": "c",
+        "text": "It merged all private commercial banks into the U.S. Treasury"
+      },
+      {
+        "id": "d",
+        "text": "It raised interest rates to 20% to attract foreign depositors"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Federal deposit insurance reassured savers their money was safe even if a bank failed, halting bank runs.",
+    "fun_fact": "In 1934, bank failures dropped from over 4,000 in 1933 to just 9 insured banks.",
+    "source_url": "https://www.federalreservehistory.org/essays/glass-steagall-act",
+    "trap_notes": {
+      "b": "FDIC insurance protected checking and savings deposits rather than outlawing them.",
+      "c": "U.S. commercial banks remained privately owned under federal deposit insurance.",
+      "d": "Raising rates to 20% would have worsened the 1933 deflationary collapse.",
+      "default": "Deposit insurance eliminated the incentive for depositors to rush and empty banks."
+    }
+  },
+  {
+    "id": "econ-syn-118",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Economic Development",
+    "era": "1960–1995",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 37.5665,
+      "lng": 126.978,
+      "label": "Seoul, South Korea"
+    },
+    "secondary_geo": {
+      "lat": 25.033,
+      "lng": 121.5654,
+      "label": "Taipei, Taiwan"
+    },
+    "prompt": "What shared strategy powered the rapid growth of the 'Four Asian Tigers' (South Korea, Taiwan, Singapore, Hong Kong)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Complete isolation from world markets and reliance on subsistence farming"
+      },
+      {
+        "id": "b",
+        "text": "High savings, education investment, and export-oriented manufacturing"
+      },
+      {
+        "id": "c",
+        "text": "Replacing private businesses with Soviet-style collective farms"
+      },
+      {
+        "id": "d",
+        "text": "Exporting crude oil and natural gas from large desert reserves"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Asian Tigers invested heavily in human capital and competed in global manufacturing export markets.",
+    "fun_fact": "South Korea's GDP per capita rose from under $160 in 1960 to over $33,000 today.",
+    "source_url": "https://www.britannica.com/money/East-Asian-economic-miracle",
+    "trap_notes": {
+      "c": "They relied on market-oriented private export firms rather than collective farms.",
+      "d": "All four economies lacked major oil reserves and relied on human capital instead.",
+      "default": "Education, high savings, and export-led industrialization drove the Asian Tigers.",
+      "a": "The Asian Tigers grew by integrating into global export markets, not isolating."
+    }
+  },
+  {
+    "id": "econ-syn-119",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Civics"
+    ],
+    "subdomain": "Property Rights & Eminent Domain",
+    "era": "1791–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8904,
+      "lng": -77.0044,
+      "label": "U.S. Supreme Court"
+    },
+    "secondary_geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "prompt": "How does the Fifth Amendment's Takings Clause balance public infrastructure needs with private property rights?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It bans the federal government from building any interstate highways"
+      },
+      {
+        "id": "b",
+        "text": "It allows states to seize private factories without paying owners"
+      },
+      {
+        "id": "c",
+        "text": "It lets government take private land for public use only with just compensation"
+      },
+      {
+        "id": "d",
+        "text": "It requires unanimous voter approval before any land can be zoned"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Takings Clause permits eminent domain for public use while requiring fair market payment to owners.",
+    "fun_fact": "Clear property rights and fair compensation encourage long-term private investment.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-v",
+    "trap_notes": {
+      "b": "Uncompensated seizures violate the Fifth Amendment's 'just compensation' requirement.",
+      "d": "Zoning and eminent domain are governed by statutes and courts, not unanimous votes.",
+      "default": "Fifth Amendment eminent domain requires both public use and just compensation.",
+      "a": "Eminent domain enables highways and railways by preventing single-owner holdouts."
+    }
+  },
+  {
+    "id": "econ-syn-120",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Transition Economies",
+    "era": "1989–1995",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "label": "Moscow, Russia"
+    },
+    "secondary_geo": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "label": "Warsaw, Poland"
+    },
+    "prompt": "Why did Eastern European economies face sharp output drops during early 1990s 'shock therapy' reforms?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hyperdeflation forced wages to double faster than factory productivity"
+      },
+      {
+        "id": "b",
+        "text": "Central planners banned all private shops and restored Five-Year Plans"
+      },
+      {
+        "id": "c",
+        "text": "Western Europe placed a complete trade embargo on Polish and Czech goods"
+      },
+      {
+        "id": "d",
+        "text": "Lifting price controls and privatizing state firms disrupted old supply chains before new markets formed"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Rapidly freeing prices and closing uncompetitive state plants caused transitional unemployment and inflation.",
+    "fun_fact": "Poland's 1990 Balcerowicz Plan stabilized hyperinflation and returned the economy to growth by 1992.",
+    "source_url": "https://www.imf.org/external/pubs/ft/fandd/2000/09/havrylys.htm",
+    "trap_notes": {
+      "b": "Early 1990s reforms dismantled Five-Year Plans and legalized private firms.",
+      "c": "The European Union expanded trade ties with Eastern Europe after 1989.",
+      "default": "Dismantling state planning caused short-term disruption before market institutions took root.",
+      "a": "Early transition countries experienced high inflation, not hyperdeflation."
+    }
+  },
+  {
+    "id": "econ-syn-121",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Commercial Capitalism",
+    "era": "1602–1700",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "label": "Amsterdam, Netherlands"
+    },
+    "secondary_geo": {
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "label": "Jakarta, Indonesia"
+    },
+    "prompt": "How did the Dutch East India Company (VOC) innovate business finance in 1602?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It pooled permanent capital from public shareholders traded on the Amsterdam exchange"
+      },
+      {
+        "id": "b",
+        "text": "It banned private investors and funded all voyages solely from land taxes"
+      },
+      {
+        "id": "c",
+        "text": "It eliminated maritime insurance and paid sailors only in spices"
+      },
+      {
+        "id": "d",
+        "text": "It operated as a non-profit charity under the League of Nations"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The VOC was the first firm to issue permanent tradable shares, spreading risk across thousands of investors.",
+    "fun_fact": "The Amsterdam Stock Exchange was founded in 1602 specifically to trade VOC shares.",
+    "source_url": "https://www.britannica.com/topic/Dutch-East-India-Company",
+    "trap_notes": {
+      "b": "Unlike state monopolies funded by taxes, the VOC raised capital from private investors.",
+      "c": "Amsterdam merchants pioneered maritime insurance alongside stock trading.",
+      "d": "The VOC was a profit-seeking charter company founded centuries before the League of Nations.",
+      "default": "The 1602 VOC pioneered permanent joint-stock shares traded on a public exchange."
+    }
+  },
+  {
+    "id": "econ-syn-122",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Civics",
+      "US"
+    ],
+    "subdomain": "Intellectual Property",
+    "era": "1787–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 39.9489,
+      "lng": -75.15,
+      "label": "Philadelphia, Pennsylvania"
+    },
+    "secondary_geo": {
+      "lat": 38.8048,
+      "lng": -77.0469,
+      "label": "Alexandria, Virginia"
+    },
+    "prompt": "What economic trade-off is built into the U.S. Constitution's Patent and Copyright Clause?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Granting perpetual monopolies that block competitors from copying older ideas"
+      },
+      {
+        "id": "b",
+        "text": "Granting temporary monopoly rights to spur innovation before works enter the public domain"
+      },
+      {
+        "id": "c",
+        "text": "Banning inventors from selling licenses to private manufacturers"
+      },
+      {
+        "id": "d",
+        "text": "Requiring the federal government to own all patents and software code"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Limited-time patents reward R&D costs with temporary exclusivity, then open ideas to competitive use.",
+    "fun_fact": "Article I, Section 8 empowers Congress to grant exclusive rights 'for limited Times.'",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/755",
+    "trap_notes": {
+      "c": "Patent holders routinely license or sell their intellectual property to firms.",
+      "d": "Patents are owned by private inventors, universities, or firms, not the state.",
+      "default": "Limited-time exclusivity balances innovation incentives with future public competition.",
+      "a": "The Constitution explicitly requires patents and copyrights to last 'for limited Times.'"
+    }
+  },
+  {
+    "id": "econ-syn-123",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Agglomeration Economies",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 37.3875,
+      "lng": -122.0575,
+      "label": "Silicon Valley"
+    },
+    "secondary_geo": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "label": "New York City"
+    },
+    "prompt": "Why do competing tech or finance firms cluster in high-cost cities like Silicon Valley or New York?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Office rent and wages are lower in major coastal cities than in small towns"
+      },
+      {
+        "id": "b",
+        "text": "Federal law prohibits tech firms from opening offices in rural states"
+      },
+      {
+        "id": "c",
+        "text": "Agglomeration benefits from shared talent pools, suppliers, and knowledge spillovers"
+      },
+      {
+        "id": "d",
+        "text": "Clustering guarantees every firm a local legal monopoly"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Productivity gains from specialized labor, venture networks, and idea sharing outweigh high urban rents.",
+    "fun_fact": "Economist Alfred Marshall first analyzed industrial clustering in 1890.",
+    "source_url": "https://www.britannica.com/money/agglomeration-economy",
+    "trap_notes": {
+      "b": "No federal law restricts where private tech or finance firms may locate.",
+      "d": "Clustering actually intensifies local competition rather than granting monopolies.",
+      "default": "Agglomeration economies (talent, suppliers, spillovers) justify high city costs.",
+      "a": "Urban hubs have much higher rents and wages, which firms pay because productivity is higher."
+    }
+  },
+  {
+    "id": "econ-syn-124",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US",
+      "Geo"
+    ],
+    "subdomain": "Land Policy & Agriculture",
+    "era": "1862–1900",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 40.2683,
+      "lng": -96.747,
+      "label": "Beatrice, Nebraska"
+    },
+    "secondary_geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "prompt": "How did the 1862 Homestead Act and Morrill Land-Grant Act spur U.S. agricultural productivity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By banning railroads from crossing federally owned territories"
+      },
+      {
+        "id": "b",
+        "text": "By taxing western grain exports to subsidize British textile mills"
+      },
+      {
+        "id": "c",
+        "text": "By requiring all Great Plains settlers to pay cash auctions at $100 per acre"
+      },
+      {
+        "id": "d",
+        "text": "By transferring public land to family farmers and funding agricultural research colleges"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Free 160-acre homesteads expanded farm output while land-grant colleges spread scientific farming methods.",
+    "fun_fact": "Roughly 270 million acres—about 10% of U.S. land—were settled under the Homestead Act.",
+    "source_url": "https://www.archives.gov/milestone-documents/homestead-act",
+    "trap_notes": {
+      "b": "U.S. farm output surged to feed domestic cities and export grain abroad.",
+      "c": "Homesteaders paid only a small filing fee and lived on the land for five years.",
+      "default": "Homestead land transfers plus land-grant agricultural colleges boosted farm output.",
+      "a": "The 1862 Pacific Railway Act simultaneously granted land to build transcontinental rails."
+    }
+  },
+  {
+    "id": "econ-syn-125",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Civics"
+    ],
+    "subdomain": "Central Bank Independence",
+    "era": "1951–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8921,
+      "lng": -77.0459,
+      "label": "Federal Reserve Board"
+    },
+    "secondary_geo": {
+      "lat": 38.8899,
+      "lng": -77.0091,
+      "label": "U.S. Capitol"
+    },
+    "prompt": "Why is the Federal Reserve structured with 14-year governor terms and independent monetary authority?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To insulate interest-rate decisions from short-term election-cycle inflation pressures"
+      },
+      {
+        "id": "b",
+        "text": "To prevent Congress from ever passing federal tax or spending bills"
+      },
+      {
+        "id": "c",
+        "text": "To let private Wall Street banks veto Supreme Court rulings"
+      },
+      {
+        "id": "d",
+        "text": "To ensure the President can directly set mortgage rates before elections"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Central bank independence helps keep inflation low by preventing politicians from printing money before elections.",
+    "fun_fact": "The 1951 Treasury-Fed Accord ended wartime interest-rate caps and established modern Fed independence.",
+    "source_url": "https://www.federalreservehistory.org/essays/treasury-fed-accord",
+    "trap_notes": {
+      "b": "Congress retains full constitutional control over fiscal policy (taxes and spending).",
+      "c": "The Fed has no authority over Supreme Court decisions.",
+      "d": "Long governor terms specifically shield rate policy from presidential election pressure.",
+      "default": "Independence shields monetary policy from short-term political inflation."
+    }
+  },
+  {
+    "id": "econ-syn-126",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Geo"
+    ],
+    "subdomain": "Strategic Supply Chains",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 40.654,
+      "lng": 109.84,
+      "label": "Baotou, Inner Mongolia"
+    },
+    "secondary_geo": {
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "label": "Tokyo, Japan"
+    },
+    "prompt": "Why does geographic concentration of rare-earth refining create supply-chain risk for clean-tech industries?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rare earths are only used in medieval silver coinage"
+      },
+      {
+        "id": "b",
+        "text": "Export limits or disruptions in one hub can bottleneck global magnet and battery makers"
+      },
+      {
+        "id": "c",
+        "text": "High concentration guarantees lower prices during geopolitical crises"
+      },
+      {
+        "id": "d",
+        "text": "Rare-earth minerals cannot be transported by ocean container ships"
+      }
+    ],
+    "answer": "b",
+    "explanation": "When one country dominates mineral processing, trade disputes or plant shutdowns ripple across global factories.",
+    "fun_fact": "Rare-earth elements are actually fairly common in Earth's crust, but separating and refining them is complex.",
+    "source_url": "https://www.usgs.gov/centers/national-minerals-information-center/rare-earths-statistics-and-information",
+    "trap_notes": {
+      "c": "Geopolitical shocks in concentrated supply chains typically spike prices, not lower them.",
+      "d": "Refined rare-earth oxides and magnets are routinely shipped by sea and air.",
+      "default": "Concentrated refining creates a single-point bottleneck for downstream manufacturers.",
+      "a": "Rare earths are essential for modern wind turbines, EV motors, and electronics."
+    }
+  },
+  {
+    "id": "econ-syn-127",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US",
+      "Geo"
+    ],
+    "subdomain": "Border Manufacturing",
+    "era": "1965–Present",
+    "skill_tag": "synthesis",
+    "trap_type": "policy_lever_swap",
+    "geo": {
+      "lat": 31.6904,
+      "lng": -106.4245,
+      "label": "Ciudad Juárez, Mexico"
+    },
+    "secondary_geo": {
+      "lat": 31.7619,
+      "lng": -106.485,
+      "label": "El Paso, Texas"
+    },
+    "prompt": "How do 'maquiladora' assembly plants along the U.S.–Mexico border illustrate comparative advantage?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mexican plants exclusively mine coal for European steel mills"
+      },
+      {
+        "id": "b",
+        "text": "High border tariffs block any components from crossing between Texas and Mexico"
+      },
+      {
+        "id": "c",
+        "text": "Firms pair U.S. capital-intensive design with lower-cost Mexican assembly near U.S. buyers"
+      },
+      {
+        "id": "d",
+        "text": "U.S. firms relocate factories there to avoid all highway access to North America"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cross-border production splits tasks by factor cost while keeping assembly close to U.S. logistics networks.",
+    "fun_fact": "Parts in a single North American vehicle often cross the U.S., Mexican, or Canadian border multiple times.",
+    "source_url": "https://www.dallasfed.org/research/swe/2011/swe1104b",
+    "trap_notes": {
+      "b": "Maquiladoras rely on duty-free cross-border movement of components under USMCA.",
+      "d": "Proximity to U.S. highways and rail is a primary reason firms locate on the border.",
+      "default": "Border plants combine U.S. design/logistics with cost-competitive Mexican assembly.",
+      "a": "Maquiladoras focus on electronics, auto parts, and medical devices, not coal mining."
+    }
+  },
+  {
+    "id": "econ-syn-128",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "World"
+    ],
+    "subdomain": "Columbian Exchange Economics",
+    "era": "1500–1750",
+    "skill_tag": "synthesis",
+    "trap_type": "scale_confusion",
+    "geo": {
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "label": "Dublin, Ireland"
+    },
+    "secondary_geo": {
+      "lat": -13.5319,
+      "lng": -71.9675,
+      "label": "Cusco, Peru"
+    },
+    "prompt": "How did New World crops like the potato and maize reshape Afro-Eurasian economies after 1500?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They prevented European states from taxing agricultural land"
+      },
+      {
+        "id": "b",
+        "text": "They caused European grain farms to abandon all crop cultivation"
+      },
+      {
+        "id": "c",
+        "text": "They reduced global population by replacing wheat with lower-yield crops"
+      },
+      {
+        "id": "d",
+        "text": "Higher calories per acre supported rapid population growth and urbanization"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Potatoes and maize yielded far more calories per acre than Old World grains, fueling demographic growth.",
+    "fun_fact": "Economists Nathan Nunn and Nancy Qian found potatoes accounted for roughly a quarter of Old World population growth after 1700.",
+    "source_url": "https://www.britannica.com/event/Columbian-exchange",
+    "trap_notes": {
+      "b": "Old World grains remained vital alongside new American crops.",
+      "c": "Potatoes and maize yielded more calories per acre, boosting population rather than shrinking it.",
+      "default": "Calorie-dense New World crops expanded food supply and population across Afro-Eurasia.",
+      "a": "Rising agricultural output expanded state tax bases across Europe and Asia."
+    }
+  },
+  {
+    "id": "econ-syn-129",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "Civics"
+    ],
+    "subdomain": "Fiscal Federalism",
+    "era": "Modern",
+    "skill_tag": "synthesis",
+    "trap_type": "jurisdiction_swap",
+    "geo": {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "label": "Washington, D.C."
+    },
+    "secondary_geo": {
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "label": "Austin, Texas"
+    },
+    "prompt": "Why do most U.S. state governments face stricter borrowing limits during recessions than the federal government?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nearly all states have balanced-budget rules and cannot issue sovereign currency"
+      },
+      {
+        "id": "b",
+        "text": "The U.S. Constitution forbids states from collecting property or sales taxes"
+      },
+      {
+        "id": "c",
+        "text": "States print their own fiat dollars and cause hyperinflation when they borrow"
+      },
+      {
+        "id": "d",
+        "text": "Federal law requires states to run budget surpluses during every recession"
+      }
+    ],
+    "answer": "a",
+    "explanation": "State constitutions generally require balanced operating budgets, leaving countercyclical deficit spending to Washington.",
+    "fun_fact": "Vermont is the only U.S. state without a formal statutory or constitutional balanced-budget requirement.",
+    "source_url": "https://www.urban.org/policy-centers/cross-center-initiatives/state-and-local-finance-initiative/state-and-local-backgrounders/state-and-local-expenditures",
+    "trap_notes": {
+      "b": "States rely heavily on sales, income, and property taxes.",
+      "c": "States cannot print currency; only the federal government issues U.S. dollars.",
+      "d": "States follow their own constitutional balanced-budget rules, not a federal surplus mandate.",
+      "default": "State balanced-budget rules and lack of currency control limit state deficit spending."
+    }
+  },
+  {
+    "id": "econ-syn-130",
+    "type": "synthesis",
+    "domain": "Econ",
+    "secondary_domains": [
+      "US",
+      "World"
+    ],
+    "subdomain": "Postwar Trade Institutions",
+    "era": "1947–1995",
+    "skill_tag": "synthesis",
+    "trap_type": "era_bleed",
+    "geo": {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "label": "Geneva, Switzerland"
+    },
+    "secondary_geo": {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "label": "Washington, D.C."
+    },
+    "prompt": "How did the 1947 GATT and its 1995 successor, the WTO, aim to prevent a repeat of 1930s trade wars?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By forcing every member country to adopt a single global currency"
+      },
+      {
+        "id": "b",
+        "text": "By binding tariff cuts and applying non-discriminatory Most-Favored-Nation rules"
+      },
+      {
+        "id": "c",
+        "text": "By banning all agricultural exports between developed nations"
+      },
+      {
+        "id": "d",
+        "text": "By requiring unanimous UN Security Council votes for private imports"
+      }
+    ],
+    "answer": "b",
+    "explanation": "GATT and the WTO lowered average tariffs through multilateral rounds and set rules to resolve trade disputes.",
+    "fun_fact": "Average industrial tariffs among major economies fell from roughly 40% in 1947 to under 5% by the 1990s.",
+    "source_url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm",
+    "trap_notes": {
+      "c": "The WTO works to reduce barriers on goods and agriculture rather than banning farm trade.",
+      "d": "Private trade does not require UN Security Council approval.",
+      "default": "GATT/WTO lowered tariffs multilaterally and enforced Most-Favored-Nation nondiscrimination.",
+      "a": "GATT and the WTO govern trade rules; countries still maintain their own currencies."
+    }
+  }
+]

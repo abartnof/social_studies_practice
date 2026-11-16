@@ -1,0 +1,1662 @@
+[
+  {
+    "id": "us-mc-101",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1450–1776",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.0481, "lng": -76.1474, "label": "Onondaga, New York" },
+    "prompt": "How did the Haudenosaunee Confederacy influence colonial political thought?",
+    "options": [
+      { "id": "a", "text": "Its council model showed how separate nations could share power" },
+      { "id": "b", "text": "Its written tax code was copied directly into the Stamp Act" },
+      { "id": "c", "text": "Its royal monarchy inspired colonists to crown a local king" },
+      { "id": "d", "text": "Its maritime fleet protected New England harbors from France" }
+    ],
+    "answer": "a",
+    "explanation": "The Haudenosaunee Confederacy united five, later six, nations under a shared council and inspired colonial unity plans.",
+    "source_url": "https://www.archives.gov/founding-docs",
+    "trap_notes": {
+      "b": "The 1765 Stamp Act was a British tax passed by Parliament, not based on Indigenous law.",
+      "c": "The Haudenosaunee used representative councils and clan mothers, not a monarchy.",
+      "d": "The Haudenosaunee were an inland confederacy in New York, not an Atlantic naval power.",
+      "default": "The Haudenosaunee Confederacy modeled federal unity across distinct nations."
+    }
+  },
+  {
+    "id": "us-mc-102",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1619",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.209, "lng": -76.774, "label": "Jamestown, Virginia" },
+    "prompt": "Why was Virginia's 1619 House of Burgesses historically important?",
+    "options": [
+      { "id": "a", "text": "It banned enslaved labor throughout all southern colonies" },
+      { "id": "b", "text": "It served as the first elected lawmaking body in English America" },
+      { "id": "c", "text": "It declared Virginia's full independence from the British Crown" },
+      { "id": "d", "text": "It guaranteed religious freedom to all Catholics and Quakers" }
+    ],
+    "answer": "b",
+    "explanation": "Created in 1619, the Virginia House of Burgesses was the first elected representative assembly in English North America.",
+    "source_url": "https://www.nps.gov/jame/learn/historyculture/the-first-representative-assembly-in-america.htm",
+    "trap_notes": {
+      "a": "Enslaved Africans were actually brought to Virginia in 1619, the same year.",
+      "c": "Virginia remained a British colony until the American Revolution in 1776.",
+      "d": "Maryland's 1649 Toleration Act, not Virginia's 1619 assembly, protected Christians.",
+      "default": "The 1619 House of Burgesses began representative self-government in English America."
+    }
+  },
+  {
+    "id": "us-mc-103",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1676",
+    "skill_tag": "causation",
+    "trap_type": "reverse_causation",
+    "geo": { "lat": 37.5407, "lng": -77.436, "label": "Richmond, Virginia" },
+    "prompt": "What major labor shift followed Bacon's Rebellion in 1676 Virginia?",
+    "options": [
+      { "id": "a", "text": "Planters turned toward enslaved African labor over white servants" },
+      { "id": "b", "text": "Tobacco farms closed and shifted to New England shipbuilding" },
+      { "id": "c", "text": "Virginia outlawed all land ownership by former servants" },
+      { "id": "d", "text": "Britain ended the Atlantic slave trade to Chesapeake ports" }
+    ],
+    "answer": "a",
+    "explanation": "Fearing armed former indentured servants, Virginia planters relied more heavily on enslaved Africans after 1676.",
+    "source_url": "https://www.nps.gov/jame/learn/historyculture/bacons-rebellion.htm",
+    "trap_notes": {
+      "b": "Tobacco remained Virginia's dominant cash crop long after 1676.",
+      "c": "Virginia did not ban land ownership by freed servants; it tightened slave codes.",
+      "d": "Britain expanded the Atlantic slave trade to Virginia in the late 1600s.",
+      "default": "Bacon's Rebellion pushed planters from indentured servants toward enslaved labor."
+    }
+  },
+  {
+    "id": "us-mc-104",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1730–1750",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.3188, "lng": -72.6412, "label": "Northampton, Massachusetts" },
+    "prompt": "How did the First Great Awakening affect colonial American society?",
+    "options": [
+      { "id": "a", "text": "It united all colonies under a single state-funded Anglican church" },
+      { "id": "b", "text": "It discouraged emotional preaching in favor of silent worship" },
+      { "id": "c", "text": "It weakened traditional church authority and spurred new sects" },
+      { "id": "d", "text": "It ended religious revivals across the Southern backcountry" }
+    ],
+    "answer": "c",
+    "explanation": "The 1730s-1740s revivals emphasized personal faith, split older churches, and encouraged questioning of authority.",
+    "source_url": "https://www.loc.gov/exhibits/religion/rel02.html",
+    "trap_notes": {
+      "a": "The revivals actually fractured churches into New Lights and Old Lights.",
+      "b": "Preachers like George Whitefield used dramatic, emotional outdoor sermons.",
+      "d": "The Great Awakening spread revivals into the Southern colonies as well.",
+      "default": "The First Great Awakening promoted personal faith and challenged established clergy."
+    }
+  },
+  {
+    "id": "us-mc-105",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1651–1750",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 42.3601, "lng": -71.0589, "label": "Boston, Massachusetts" },
+    "prompt": "What was the main purpose of Britain's 1651-1696 Navigation Acts?",
+    "options": [
+      { "id": "a", "text": "To let colonial merchants trade freely with Dutch and French ports" },
+      { "id": "b", "text": "To keep colonial trade profits inside the British Empire" },
+      { "id": "c", "text": "To build canals linking the Hudson River to the Great Lakes" },
+      { "id": "d", "text": "To fund colonial public schools through a tea import tariff" }
+    ],
+    "answer": "b",
+    "explanation": "Under mercantilism, the Navigation Acts required key colonial goods to travel on British ships through British ports.",
+    "source_url": "https://www.britannica.com/event/Navigation-Acts",
+    "trap_notes": {
+      "a": "The Navigation Acts restricted foreign trade rather than allowing free trade.",
+      "c": "The Erie Canal was built by New York State in the 1820s, not by Britain.",
+      "d": "The Navigation Acts regulated shipping routes, not colonial public school funding.",
+      "default": "Navigation Acts enforced mercantilism by keeping colonial trade in British hands."
+    }
+  },
+  {
+    "id": "us-mc-106",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1763",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "prompt": "Why did the British Proclamation of 1763 anger many American colonists?",
+    "options": [
+      { "id": "a", "text": "It required every colonial newspaper to pay a silver stamp fee" },
+      { "id": "b", "text": "It closed Boston Harbor until damaged tea was repaid in full" },
+      { "id": "c", "text": "It forced colonists to house British soldiers in private homes" },
+      { "id": "d", "text": "It banned colonial settlement west of the Appalachian Mountains" }
+    ],
+    "answer": "d",
+    "explanation": "After the French and Indian War, Britain barred settlement west of the Appalachians to avoid costly wars with Native nations.",
+    "source_url": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1763-to-1765/",
+    "trap_notes": {
+      "a": "Paper and newspaper taxes came later in the 1765 Stamp Act.",
+      "b": "Closing Boston Harbor was part of the 1774 Coercive Acts.",
+      "c": "Housing soldiers was required by the Quartering Acts of 1765 and 1774.",
+      "default": "The Proclamation of 1763 drew a western boundary along the Appalachians."
+    }
+  },
+  {
+    "id": "us-mc-107",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1765",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 40.7128, "lng": -74.006, "label": "New York City, New York" },
+    "prompt": "Why did colonists oppose the 1765 Stamp Act on constitutional grounds?",
+    "options": [
+      { "id": "a", "text": "They had no elected representatives in the British Parliament" },
+      { "id": "b", "text": "Only the U.S. Supreme Court could approve colonial revenue bills" },
+      { "id": "c", "text": "The king had already abolished all colonial town meetings" },
+      { "id": "d", "text": "Paper taxes violated the Bill of Rights added in 1791" }
+    ],
+    "answer": "a",
+    "explanation": "Colonists argued that only their own elected colonial assemblies, not a distant Parliament, could tax them directly.",
+    "source_url": "https://www.loc.gov/item/today-in-history/march-22/",
+    "trap_notes": {
+      "b": "The U.S. Supreme Court did not exist until the 1789 Judiciary Act.",
+      "c": "Town meetings were restricted later in 1774 under the Massachusetts Government Act.",
+      "d": "The U.S. Bill of Rights was ratified in 1791, decades after 1765.",
+      "default": "No taxation without representation meant Parliament could not tax unrepresented colonies."
+    }
+  },
+  {
+    "id": "us-mc-108",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1777",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 43.0004, "lng": -73.6382, "label": "Saratoga, New York" },
+    "prompt": "Why was the 1777 American victory at Saratoga a turning point?",
+    "options": [
+      { "id": "a", "text": "It forced General Cornwallis to surrender his southern army" },
+      { "id": "b", "text": "It convinced France to sign a formal military alliance with America" },
+      { "id": "c", "text": "It ended British naval blockades of New York City immediately" },
+      { "id": "d", "text": "It led Spain to purchase Florida from the Continental Congress" }
+    ],
+    "answer": "b",
+    "explanation": "Capturing Burgoyne's army at Saratoga proved Americans could win, prompting France to join the war in 1778.",
+    "source_url": "https://www.nps.gov/sara/learn/historyculture/index.htm",
+    "trap_notes": {
+      "a": "Cornwallis surrendered at Yorktown in 1781, four years after Saratoga.",
+      "c": "Britain held New York City until the end of the war in 1783.",
+      "d": "Spain gained Florida from Britain in the 1783 Treaty of Paris, not from Congress.",
+      "default": "Saratoga (1777) brought France into the Revolutionary War as a U.S. ally."
+    }
+  },
+  {
+    "id": "us-mc-109",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1787",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 39.4143, "lng": -81.4548, "label": "Marietta, Ohio" },
+    "prompt": "What key rule did the Northwest Ordinance of 1787 establish?",
+    "options": [
+      { "id": "a", "text": "It gave each new western state four seats in the U.S. Senate" },
+      { "id": "b", "text": "It required territories to remain colonies of Virginia forever" },
+      { "id": "c", "text": "It set a path to statehood and banned slavery in the territory" },
+      { "id": "d", "text": "It granted free 160-acre farms to every adult railroad worker" }
+    ],
+    "answer": "c",
+    "explanation": "The Northwest Ordinance set a process for territories to become equal states while prohibiting slavery north of the Ohio River.",
+    "source_url": "https://www.archives.gov/milestone-documents/northwest-ordinance",
+    "trap_notes": {
+      "a": "Under the Constitution, every state receives two seats in the Senate.",
+      "b": "States ceded western claims so new territories could become equal states.",
+      "d": "The 160-acre farm grant was the 1862 Homestead Act, not the 1787 law.",
+      "default": "The Northwest Ordinance (1787) created a path to equal statehood and barred slavery there."
+    }
+  },
+  {
+    "id": "us-mc-110",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1787",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "What did the Three-Fifths Compromise decide at the 1787 Convention?",
+    "options": [
+      { "id": "a", "text": "How many states were needed to ratify the new Constitution" },
+      { "id": "b", "text": "How many votes were required in the Senate to pass tax bills" },
+      { "id": "c", "text": "How federal courts would divide land west of the Mississippi" },
+      { "id": "d", "text": "How enslaved people would be counted for House seats and taxes" }
+    ],
+    "answer": "d",
+    "explanation": "Northern and Southern delegates agreed to count three-fifths of the enslaved population for House representation and direct taxes.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i",
+    "trap_notes": {
+      "a": "Article VII required nine of thirteen states to ratify the Constitution.",
+      "b": "Tax bills pass by a simple majority and must originate in the House.",
+      "c": "Land west of the Mississippi belonged to Spain in 1787, not the U.S.",
+      "default": "The Three-Fifths Compromise counted three-fifths of enslaved people for House seats and taxes."
+    }
+  },
+  {
+    "id": "us-mc-111",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1787–1789",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.5407, "lng": -77.436, "label": "Richmond, Virginia" },
+    "prompt": "Why did Anti-Federalists initially oppose ratifying the U.S. Constitution?",
+    "options": [
+      { "id": "a", "text": "It lacked a Bill of Rights and gave the federal government too much power" },
+      { "id": "b", "text": "It abolished all state governors and replaced them with federal judges" },
+      { "id": "c", "text": "It kept the weak Articles of Confederation Congress in place" },
+      { "id": "d", "text": "It banned the federal government from collecting any import tariffs" }
+    ],
+    "answer": "a",
+    "explanation": "Anti-Federalists feared a strong central government would threaten state power and individual liberties without a Bill of Rights.",
+    "source_url": "https://constitutioncenter.org/the-constitution/white-papers/the-ratification-debate",
+    "trap_notes": {
+      "b": "States kept their own governors, legislatures, and courts under the Constitution.",
+      "c": "The Constitution replaced the Articles of Confederation rather than keeping them.",
+      "d": "The Constitution explicitly gave Congress the power to levy tariffs and taxes.",
+      "default": "Anti-Federalists wanted stronger state power and a written Bill of Rights."
+    }
+  },
+  {
+    "id": "us-mc-112",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1790–1791",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, Pennsylvania" },
+    "prompt": "Why did Alexander Hamilton support creating the First Bank of the United States?",
+    "options": [
+      { "id": "a", "text": "To print gold coins for every state militia in the West" },
+      { "id": "b", "text": "To stabilize national credit and handle federal tax deposits" },
+      { "id": "c", "text": "To forgive all private farm mortgages in Virginia and Georgia" },
+      { "id": "d", "text": "To replace Congress as the branch that approves federal budgets" }
+    ],
+    "answer": "b",
+    "explanation": "Hamilton argued a national bank would hold federal funds, issue reliable paper notes, and strengthen U.S. credit.",
+    "source_url": "https://www.federalreservehistory.org/essays/first-bank-of-the-us",
+    "trap_notes": {
+      "a": "The U.S. Mint coined money; the national bank managed credit and banknotes.",
+      "c": "Hamilton's plan assumed state war debts, not private farm mortgages.",
+      "d": "Congress kept full constitutional power over federal taxing and spending.",
+      "default": "Hamilton's First Bank stabilized U.S. credit, currency, and federal tax deposits."
+    }
+  },
+  {
+    "id": "us-mc-113",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1798",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.0406, "lng": -84.5037, "label": "Lexington, Kentucky" },
+    "prompt": "How did the Virginia and Kentucky Resolutions respond to the 1798 Alien and Sedition Acts?",
+    "options": [
+      { "id": "a", "text": "They asked the British Navy to protect Republican newspaper editors" },
+      { "id": "b", "text": "They proposed adding an amendment to create a single national party" },
+      { "id": "c", "text": "They argued states could declare unconstitutional federal laws void" },
+      { "id": "d", "text": "They urged Congress to lengthen the waiting period for citizenship" }
+    ],
+    "answer": "c",
+    "explanation": "Written by Jefferson and Madison, the resolutions claimed states could judge and nullify federal laws that broke the Constitution.",
+    "source_url": "https://www.loc.gov/item/today-in-history/november-16/",
+    "trap_notes": {
+      "a": "Jefferson and Madison were pro-French Republicans, not allies of Britain.",
+      "b": "They defended opposition speech rather than seeking a one-party system.",
+      "d": "Lengthening citizenship waits was part of the Alien Acts they opposed.",
+      "default": "The 1798 resolutions introduced nullification to protest the Sedition Act."
+    }
+  },
+  {
+    "id": "us-mc-114",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1803",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What lasting principle did the Supreme Court establish in Marbury v. Madison?",
+    "options": [
+      { "id": "a", "text": "Congress may regulate interstate shipping on steamboats" },
+      { "id": "b", "text": "State governments cannot tax federal institutions like banks" },
+      { "id": "c", "text": "The president may veto bills passed by two-thirds of Congress" },
+      { "id": "d", "text": "Federal courts can strike down laws that violate the Constitution" }
+    ],
+    "answer": "d",
+    "explanation": "Chief Justice John Marshall's 1803 ruling established judicial review, letting courts void unconstitutional federal laws.",
+    "source_url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+    "trap_notes": {
+      "a": "Interstate steamboat regulation was decided in Gibbons v. Ogden in 1824.",
+      "b": "State taxation of a federal bank was barred in McCulloch v. Maryland in 1819.",
+      "c": "A two-thirds vote in Congress actually overrides a presidential veto.",
+      "default": "Marbury v. Madison (1803) established judicial review for the Supreme Court."
+    }
+  },
+  {
+    "id": "us-mc-115",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1823",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What warning did President James Monroe issue in the 1823 Monroe Doctrine?",
+    "options": [
+      { "id": "a", "text": "European powers should not create new colonies in the Americas" },
+      { "id": "b", "text": "Asian empires must open their ports to American steamships" },
+      { "id": "c", "text": "Britain must surrender Canada to the United States by 1830" },
+      { "id": "d", "text": "Latin American republics must adopt the U.S. Constitution" }
+    ],
+    "answer": "a",
+    "explanation": "The Monroe Doctrine declared the Western Hemisphere closed to new European colonization while promising U.S. neutrality in Europe.",
+    "source_url": "https://www.archives.gov/milestone-documents/monroe-doctrine",
+    "trap_notes": {
+      "b": "Opening Japanese ports occurred later under Commodore Perry in 1853-1854.",
+      "c": "The U.S. and Britain had settled border and naval disputes peacefully after 1815.",
+      "d": "Monroe recognized new Latin American nations without forcing the U.S. Constitution on them.",
+      "default": "The 1823 Monroe Doctrine warned Europe against new colonies in the Americas."
+    }
+  },
+  {
+    "id": "us-mc-116",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1825",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 42.6526, "lng": -73.7562, "label": "Albany, New York" },
+    "prompt": "How did completing the Erie Canal in 1825 transform the U.S. economy?",
+    "options": [
+      { "id": "a", "text": "It connected New Orleans directly to San Francisco Bay" },
+      { "id": "b", "text": "It linked Great Lakes farms to New York City and cut shipping costs" },
+      { "id": "c", "text": "It replaced all ocean steamships with horse-drawn canal barges" },
+      { "id": "d", "text": "It shifted the nation's main cotton port from New Orleans to Boston" }
+    ],
+    "answer": "b",
+    "explanation": "The Erie Canal joined Lake Erie to the Hudson River, slashing freight costs and making New York City the top U.S. port.",
+    "source_url": "https://www.loc.gov/item/today-in-history/october-26/",
+    "trap_notes": {
+      "a": "The Erie Canal ran across upstate New York, not to Louisiana or California.",
+      "c": "Canals carried inland freight and complemented, rather than replaced, ocean ships.",
+      "d": "New Orleans remained the major southern cotton port on the Mississippi River.",
+      "default": "The Erie Canal connected the Great Lakes to New York City and boosted Midwest trade."
+    }
+  },
+  {
+    "id": "us-mc-117",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1830–1839",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 35.9154, "lng": -94.97, "label": "Tahlequah, Oklahoma" },
+    "prompt": "What was the direct result of the 1830 Indian Removal Act?",
+    "options": [
+      { "id": "a", "text": "Native nations gained voting seats in the U.S. House of Representatives" },
+      { "id": "b", "text": "All western territories were closed to white settlers for fifty years" },
+      { "id": "c", "text": "Tens of thousands of Native people were forced west on the Trail of Tears" },
+      { "id": "d", "text": "The Supreme Court abolished federal treaties with Indigenous nations" }
+    ],
+    "answer": "c",
+    "explanation": "The law authorized forced removal of Southeastern nations, including the Cherokee, to Indian Territory in present-day Oklahoma.",
+    "source_url": "https://www.nps.gov/trte/learn/historyculture/index.htm",
+    "trap_notes": {
+      "a": "Native nations were treated as separate entities and were not given House seats.",
+      "b": "Removal opened millions of acres in the Southeast to white planters and settlers.",
+      "d": "In Worcester v. Georgia (1832), the Court actually upheld Cherokee treaty rights.",
+      "default": "The 1830 Indian Removal Act led to forced relocations along the Trail of Tears."
+    }
+  },
+  {
+    "id": "us-mc-118",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1820",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.5767, "lng": -92.1735, "label": "Jefferson City, Missouri" },
+    "prompt": "How did the Missouri Compromise of 1820 address slavery in western territories?",
+    "options": [
+      { "id": "a", "text": "It let settlers in every territory vote on slavery by ballot" },
+      { "id": "b", "text": "It banned slavery in all lands gained from Mexico in 1848" },
+      { "id": "c", "text": "It freed all enslaved people north of the Ohio River at once" },
+      { "id": "d", "text": "It admitted Maine as free, Missouri as slave, and set a 36°30' line" }
+    ],
+    "answer": "d",
+    "explanation": "The 1820 compromise kept Senate balance by pairing Maine and Missouri and barring slavery north of 36°30' in Louisiana Purchase lands.",
+    "source_url": "https://www.archives.gov/milestone-documents/missouri-compromise",
+    "trap_notes": {
+      "a": "Popular sovereignty voting was introduced later in 1850 and 1854.",
+      "b": "The 1846 Wilmot Proviso proposed banning slavery in Mexican War lands, not 1820.",
+      "c": "The Northwest Ordinance of 1787 had already barred slavery north of the Ohio River.",
+      "default": "Missouri Compromise (1820) = Maine free, Missouri slave, and the 36°30' boundary."
+    }
+  },
+  {
+    "id": "us-mc-119",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1848",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.9106, "lng": -76.7966, "label": "Seneca Falls, New York" },
+    "prompt": "What did the 1848 Seneca Falls Declaration of Sentiments call for?",
+    "options": [
+      { "id": "a", "text": "Equal rights for women, including the right to vote" },
+      { "id": "b", "text": "Immediate annexation of Texas and the Oregon Country" },
+      { "id": "c", "text": "A constitutional ban on the sale of alcohol nationwide" },
+      { "id": "d", "text": "An eight-hour workday for all New England textile workers" }
+    ],
+    "answer": "a",
+    "explanation": "Modeled on the Declaration of Independence, the 1848 Seneca Falls document demanded legal equality and women's suffrage.",
+    "source_url": "https://www.nps.gov/wori/learn/historyculture/declaration-of-sentiments.htm",
+    "trap_notes": {
+      "b": "Texas and Oregon annexation were 1844-1846 expansion debates, not Seneca Falls.",
+      "c": "National prohibition was the goal of the 18th Amendment in 1919.",
+      "d": "The eight-hour workday was a central demand of late-1800s labor unions.",
+      "default": "The 1848 Seneca Falls Convention launched the organized U.S. women's rights movement."
+    }
+  },
+  {
+    "id": "us-mc-120",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1854",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 39.0473, "lng": -95.6752, "label": "Topeka, Kansas" },
+    "prompt": "Why did the 1854 Kansas-Nebraska Act spark violent conflict in Kansas?",
+    "options": [
+      { "id": "a", "text": "It banned all abolitionist newspapers from entering Kansas Territory" },
+      { "id": "b", "text": "It repealed the 36°30' ban and let settlers vote on slavery" },
+      { "id": "c", "text": "It gave the Supreme Court power to appoint Kansas's governor" },
+      { "id": "d", "text": "It forced Kansas farmers to grow cotton instead of wheat" }
+    ],
+    "answer": "b",
+    "explanation": "Using popular sovereignty, the law reopened northern territories to slavery, drawing rival settlers into 'Bleeding Kansas.'",
+    "source_url": "https://www.archives.gov/milestone-documents/kansas-nebraska-act",
+    "trap_notes": {
+      "a": "Violence broke out over voting fraud and rival governments, not a press ban.",
+      "c": "Territorial governors were appointed by the president, not the Supreme Court.",
+      "d": "Kansas had no crop mandate; the conflict was over expanding slavery.",
+      "default": "Kansas-Nebraska (1854) repealed the 1820 line and used popular sovereignty."
+    }
+  },
+  {
+    "id": "us-mc-121",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1857",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 38.627, "lng": -90.1994, "label": "St. Louis, Missouri" },
+    "prompt": "What did the Supreme Court rule in the 1857 Dred Scott v. Sandford case?",
+    "options": [
+      { "id": "a", "text": "Enslaved people became free as soon as they entered a free state" },
+      { "id": "b", "text": "States had to provide public schools for all freed children" },
+      { "id": "c", "text": "Black people were not U.S. citizens and Congress could not ban slavery" },
+      { "id": "d", "text": "Only the president could regulate the interstate slave trade" }
+    ],
+    "answer": "c",
+    "explanation": "Chief Justice Taney ruled that African Americans lacked citizenship and declared the Missouri Compromise unconstitutional.",
+    "source_url": "https://www.archives.gov/milestone-documents/dred-scott-v-sandford",
+    "trap_notes": {
+      "a": "The Court rejected Scott's claim that living in free territory made him free.",
+      "b": "Public education rules were state matters and arose mainly after the Civil War.",
+      "d": "The ruling denied congressional power over territorial slavery, not presidential trade power.",
+      "default": "Dred Scott (1857) denied Black citizenship and struck down bans on territorial slavery."
+    }
+  },
+  {
+    "id": "us-mc-122",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1863",
+    "skill_tag": "conceptual",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Which enslaved people did Lincoln's 1863 Emancipation Proclamation declare free?",
+    "options": [
+      { "id": "a", "text": "All enslaved people living in loyal Union border states" },
+      { "id": "b", "text": "Only enslaved workers employed inside federal army camps" },
+      { "id": "c", "text": "Every enslaved person across the entire North American continent" },
+      { "id": "d", "text": "Those held in Confederate areas still in rebellion against the Union" }
+    ],
+    "answer": "d",
+    "explanation": "Issued as a war measure, it freed enslaved people in Confederate areas, leaving border states untouched until 1865.",
+    "source_url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation",
+    "trap_notes": {
+      "a": "Loyal border states like Kentucky and Maryland were exempted from the order.",
+      "b": "It applied to whole rebellious states, not only federal army camps.",
+      "c": "Slavery in all U.S. states ended only with the 13th Amendment in 1865.",
+      "default": "The 1863 Emancipation Proclamation targeted Confederate states in active rebellion."
+    }
+  },
+  {
+    "id": "us-mc-123",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865–1870",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What right did the 15th Amendment protect when ratified in 1870?",
+    "options": [
+      { "id": "a", "text": "Voting rights cannot be denied based on race or former servitude" },
+      { "id": "b", "text": "Every freed family must receive forty acres of federal farmland" },
+      { "id": "c", "text": "Women across all states gained equal access to federal ballots" },
+      { "id": "d", "text": "States could no longer charge any local property taxes" }
+    ],
+    "answer": "a",
+    "explanation": "The 15th Amendment barred denying the vote based on race, color, or previous condition of servitude, though literacy tests later arose.",
+    "source_url": "https://constitutioncenter.org/the-constitution/amendments/amendment-xv",
+    "trap_notes": {
+      "b": "The 40-acres order was a wartime military directive, not the 15th Amendment.",
+      "c": "Women's voting rights were protected nationwide by the 19th Amendment in 1920.",
+      "d": "The 15th Amendment dealt with voting discrimination, not local property taxes.",
+      "default": "13th = end slavery, 14th = citizenship & equal protection, 15th = voting rights by race."
+    }
+  },
+  {
+    "id": "us-mc-124",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1862–1890",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.2565, "lng": -95.9345, "label": "Omaha, Nebraska" },
+    "prompt": "How did the 1862 Homestead Act and railroads affect Plains Indigenous nations?",
+    "options": [
+      { "id": "a", "text": "They preserved large buffalo herds across federal grazing reserves" },
+      { "id": "b", "text": "They accelerated settler arrival, bison loss, and reservation confinement" },
+      { "id": "c", "text": "They gave Plains tribes permanent control over transcontinental rails" },
+      { "id": "d", "text": "They stopped all gold mining in the Black Hills until the 1930s" }
+    ],
+    "answer": "b",
+    "explanation": "Free land grants and rail lines brought millions of settlers west, decimating bison herds and pushing Plains nations onto reservations.",
+    "source_url": "https://www.archives.gov/milestone-documents/homestead-act",
+    "trap_notes": {
+      "a": "Railroads and commercial hunting nearly wiped out Plains bison herds by the 1880s.",
+      "c": "Federal land grants went to railroad companies, not Plains Indigenous nations.",
+      "d": "The 1874 Black Hills gold rush violated treaties and sparked the Great Sioux War.",
+      "default": "Homesteaders and railroads shrank bison herds and forced Plains nations onto reservations."
+    }
+  },
+  {
+    "id": "us-mc-125",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1882",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.7749, "lng": -122.4194, "label": "San Francisco, California" },
+    "prompt": "Why was the 1882 Chinese Exclusion Act a major shift in U.S. immigration law?",
+    "options": [
+      { "id": "a", "text": "It created the first federal visa program for European factory workers" },
+      { "id": "b", "text": "It granted automatic citizenship to all railroad builders in California" },
+      { "id": "c", "text": "It was the first federal law to ban a specific nationality from immigrating" },
+      { "id": "d", "text": "It opened Ellis Island to inspect steamship passengers from Asia" }
+    ],
+    "answer": "c",
+    "explanation": "Passed amid anti-Chinese labor hostility, the 1882 law barred Chinese laborers for ten years and denied them naturalization.",
+    "source_url": "https://www.archives.gov/milestone-documents/chinese-exclusion-act",
+    "trap_notes": {
+      "a": "European quotas arrived later in the 1921 and 1924 immigration acts.",
+      "b": "The act actually barred Chinese immigrants from becoming naturalized U.S. citizens.",
+      "d": "Ellis Island in New York processed European arrivals; Angel Island opened in 1910.",
+      "default": "The 1882 Chinese Exclusion Act was the first major U.S. law barring one nationality."
+    }
+  },
+  {
+    "id": "us-mc-126",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1890",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What problem was the 1890 Sherman Antitrust Act designed to curb?",
+    "options": [
+      { "id": "a", "text": "Unsafe meatpacking conditions inside Chicago stockyards" },
+      { "id": "b", "text": "Child labor inside southern cotton textile mills" },
+      { "id": "c", "text": "High import tariffs on European farm machinery" },
+      { "id": "d", "text": "Business monopolies that restricted trade and competition" }
+    ],
+    "answer": "d",
+    "explanation": "The Sherman Antitrust Act outlawed trusts and combinations in restraint of trade, though early courts often used it against unions.",
+    "source_url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+    "trap_notes": {
+      "a": "Food safety laws came in 1906 with the Meat Inspection and Pure Food and Drug Acts.",
+      "b": "Federal child labor rules came later in the Keating-Owen Act and 1938 FLSA.",
+      "c": "Tariff rates were set by separate revenue bills like the 1890 McKinley Tariff.",
+      "default": "The 1890 Sherman Antitrust Act targeted monopolies that stifled competition."
+    }
+  },
+  {
+    "id": "us-mc-127",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1906",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "How did Upton Sinclair's 1906 novel The Jungle influence federal policy?",
+    "options": [
+      { "id": "a", "text": "It spurred passage of the Meat Inspection and Pure Food and Drug Acts" },
+      { "id": "b", "text": "It led Congress to break up Standard Oil into smaller firms" },
+      { "id": "c", "text": "It convinced states to adopt secret ballots in city elections" },
+      { "id": "d", "text": "It created the Federal Reserve System to regulate city banks" }
+    ],
+    "answer": "a",
+    "explanation": "Sinclair's graphic account of Chicago meatpacking shocked readers and pushed Congress to pass federal food and drug safety laws in 1906.",
+    "source_url": "https://www.archives.gov/legislative/features/meat-inspection",
+    "trap_notes": {
+      "b": "Ida Tarbell's reporting targeted Standard Oil, which was broken up in 1911.",
+      "c": "Secret ballots were adopted by states during the 1880s and 1890s.",
+      "d": "The Federal Reserve System was created in 1913 to stabilize banking.",
+      "default": "The Jungle (1906) exposed unsafe meatpacking and led to federal food safety laws."
+    }
+  },
+  {
+    "id": "us-mc-128",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1913–1920",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did the 17th Amendment change how U.S. senators are chosen?",
+    "options": [
+      { "id": "a", "text": "State governors began appointing senators for life terms" },
+      { "id": "b", "text": "Voters in each state began electing senators directly" },
+      { "id": "c", "text": "The House of Representatives began selecting two senators per state" },
+      { "id": "d", "text": "Federal judges began approving Senate candidates before elections" }
+    ],
+    "answer": "b",
+    "explanation": "Ratified in 1913, the 17th Amendment shifted Senate elections from state legislatures to direct popular vote.",
+    "source_url": "https://www.archives.gov/milestone-documents/17th-amendment",
+    "trap_notes": {
+      "a": "Governors only make temporary appointments when a Senate seat becomes vacant.",
+      "c": "The House never elected senators; state legislatures did before 1913.",
+      "d": "Federal judges have no role in approving candidates for the U.S. Senate.",
+      "default": "The 17th Amendment (1913) established direct popular election of U.S. senators."
+    }
+  },
+  {
+    "id": "us-mc-129",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1917",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "Why did the 1917 Zimmermann Telegram push the United States toward World War I?",
+    "options": [
+      { "id": "a", "text": "It revealed Germany's plan to invade Florida from Cuba" },
+      { "id": "b", "text": "It ordered German submarines to sink passenger ships in New York Harbor" },
+      { "id": "c", "text": "It proposed a German-Mexican alliance to recover lost U.S. territory" },
+      { "id": "d", "text": "It announced that Russia had signed a military treaty with Japan" }
+    ],
+    "answer": "c",
+    "explanation": "British intelligence intercepted a German note offering Mexico U.S. southwestern land if Mexico joined Germany against the United States.",
+    "source_url": "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+    "trap_notes": {
+      "a": "The telegram involved Mexico, not an invasion of Florida from Cuba.",
+      "b": "Germany resumed unrestricted submarine warfare in the Atlantic, not New York Harbor.",
+      "d": "Russia was an Allied power until its 1917 revolution and exit from the war.",
+      "default": "The 1917 Zimmermann Telegram offered Mexico U.S. land to ally with Germany."
+    }
+  },
+  {
+    "id": "us-mc-130",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1916–1970",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 41.8781, "lng": -87.6298, "label": "Chicago, Illinois" },
+    "prompt": "What drove the Great Migration of African Americans starting around World War I?",
+    "options": [
+      { "id": "a", "text": "Free 160-acre federal homesteads offered in northern industrial cities" },
+      { "id": "b", "text": "Supreme Court orders integrating all northern factories in 1915" },
+      { "id": "c", "text": "Collapse of northern steel mills that shifted jobs to southern farms" },
+      { "id": "d", "text": "Southern Jim Crow violence alongside wartime industrial jobs in the North" }
+    ],
+    "answer": "d",
+    "explanation": "Millions of Black Southerners moved north and west to escape racial terror and sharecropping while filling wartime factory jobs.",
+    "source_url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+    "trap_notes": {
+      "a": "Homesteads were rural western farms in the 1860s, not northern city lots.",
+      "b": "There was no 1915 Supreme Court order integrating northern factories.",
+      "c": "Wartime demand expanded northern factories, pulling workers from the South.",
+      "default": "Jim Crow oppression + northern factory jobs fueled the Great Migration."
+    }
+  },
+  {
+    "id": "us-mc-131",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1920–1930",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.8116, "lng": -73.9465, "label": "Harlem, New York" },
+    "prompt": "What best characterizes the Harlem Renaissance of the 1920s?",
+    "options": [
+      { "id": "a", "text": "A flowering of Black literature, jazz, and art celebrating Black identity" },
+      { "id": "b", "text": "A federal jobs program hiring architects to rebuild New York subways" },
+      { "id": "c", "text": "A Supreme Court campaign that ended segregated schools in New York" },
+      { "id": "d", "text": "A rural farm cooperative movement centered in upstate New York" }
+    ],
+    "answer": "a",
+    "explanation": "Writers like Langston Hughes and Zora Neale Hurston joined jazz musicians in Harlem to reshape American culture in the 1920s.",
+    "source_url": "https://www.loc.gov/classroom-materials/harlem-renaissance/",
+    "trap_notes": {
+      "b": "Federal public works jobs programs began in the 1930s under the New Deal.",
+      "c": "The NAACP's school desegregation campaign peaked in the 1950s with Brown.",
+      "d": "The Harlem Renaissance was an urban cultural movement in New York City.",
+      "default": "The 1920s Harlem Renaissance celebrated Black art, music, and literature."
+    }
+  },
+  {
+    "id": "us-mc-132",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1930–1939",
+    "skill_tag": "causation",
+    "trap_type": "scale_confusion",
+    "geo": { "lat": 35.4676, "lng": -97.5164, "label": "Oklahoma City, Oklahoma" },
+    "prompt": "What combined to trigger the 1930s Dust Bowl on the Great Plains?",
+    "options": [
+      { "id": "a", "text": "Heavy coastal hurricanes and flooded Mississippi River levees" },
+      { "id": "b", "text": "Severe drought combined with deep plowing of native prairie grasses" },
+      { "id": "c", "text": "Federal dams that drained all aquifers across eastern Texas" },
+      { "id": "d", "text": "Volcanic ash clouds drifting east from the Pacific Northwest" }
+    ],
+    "answer": "b",
+    "explanation": "Plowing up deep-rooted prairie grass left topsoil exposed; when multi-year drought hit, winds blew away massive dust storms.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl/",
+    "trap_notes": {
+      "a": "The Dust Bowl was caused by extreme dryness on the inland Plains, not hurricanes.",
+      "c": "New Deal dams were built for irrigation and power, not to drain aquifers.",
+      "d": "The storms carried Great Plains topsoil, not volcanic ash.",
+      "default": "Drought + over-plowed prairie sod = the 1930s Dust Bowl."
+    }
+  },
+  {
+    "id": "us-mc-133",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1933–1942",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did New Deal agencies like the CCC and WPA fight Great Depression joblessness?",
+    "options": [
+      { "id": "a", "text": "They lent federal money directly to Wall Street investment banks" },
+      { "id": "b", "text": "They eliminated all state income taxes on large manufacturers" },
+      { "id": "c", "text": "They put millions of unemployed people to work on public projects" },
+      { "id": "d", "text": "They raised tariffs to block all European farm imports" }
+    ],
+    "answer": "c",
+    "explanation": "The CCC hired young men for conservation work, while the WPA built roads, schools, and public art for millions of unemployed workers.",
+    "source_url": "https://www.archives.gov/seattle/exhibit/picturing-the-century/great-depression.html",
+    "trap_notes": {
+      "a": "Lending to banks and railroads was the 1932 Reconstruction Finance Corporation.",
+      "b": "The New Deal funded work relief rather than cutting corporate state taxes.",
+      "d": "Raising tariffs was the 1930 Smoot-Hawley Tariff under President Hoover.",
+      "default": "CCC and WPA provided direct federal jobs building parks, roads, and schools."
+    }
+  },
+  {
+    "id": "us-mc-134",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1941",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "How did the 1941 Lend-Lease Act change U.S. policy before Pearl Harbor?",
+    "options": [
+      { "id": "a", "text": "It sent U.S. combat divisions directly into occupied France" },
+      { "id": "b", "text": "It banned American merchant ships from crossing the Atlantic" },
+      { "id": "c", "text": "It required Britain to cede Canada in exchange for rifles" },
+      { "id": "d", "text": "It let the president supply weapons to Allies fighting the Axis" }
+    ],
+    "answer": "d",
+    "explanation": "Passed in March 1941, Lend-Lease ended strict neutrality by letting FDR lend or lease war supplies to Britain and later the USSR.",
+    "source_url": "https://www.archives.gov/milestone-documents/lend-lease-act",
+    "trap_notes": {
+      "a": "U.S. troops did not enter combat until after the December 1941 Pearl Harbor attack.",
+      "b": "Earlier 1930s Neutrality Acts restricted shipping; Lend-Lease expanded Allied aid.",
+      "c": "Britain leased Caribbean and Atlantic bases, not Canada, in the 1940 destroyer deal.",
+      "default": "Lend-Lease (1941) made the U.S. the 'arsenal of democracy' supplying the Allies."
+    }
+  },
+  {
+    "id": "us-mc-135",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1944",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 37.7249, "lng": -122.1561, "label": "San Leandro, California" },
+    "prompt": "What did the Supreme Court decide in Korematsu v. United States in 1944?",
+    "options": [
+      { "id": "a", "text": "Wartime exclusion of Japanese Americans was upheld on military grounds" },
+      { "id": "b", "text": "Executive Order 9066 violated the Fifth Amendment and was struck down" },
+      { "id": "c", "text": "Interned citizens were owed immediate cash payment for lost homes" },
+      { "id": "d", "text": "Only state governors could order wartime curfews on the West Coast" }
+    ],
+    "answer": "a",
+    "explanation": "In 1944, the Court upheld Fred Korematsu's conviction under Executive Order 9066, citing wartime military necessity.",
+    "source_url": "https://www.archives.gov/education/lessons/japanese-relocation",
+    "trap_notes": {
+      "b": "The Court upheld the exclusion order in 1944; Congress apologized decades later in 1988.",
+      "c": "Redress payments of $20,000 came in the Civil Liberties Act of 1988.",
+      "d": "The exclusion was carried out by federal military order under FDR.",
+      "default": "Korematsu (1944) upheld the wartime internment of Japanese Americans."
+    }
+  },
+  {
+    "id": "us-mc-136",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1948–1951",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What was the main Cold War goal of the 1948 Marshall Plan?",
+    "options": [
+      { "id": "a", "text": "To build a joint U.S.-Soviet space station above Europe" },
+      { "id": "b", "text": "To rebuild Western Europe's economies and curb communist appeal" },
+      { "id": "c", "text": "To divide Berlin into four military occupation zones" },
+      { "id": "d", "text": "To send U.S. troops to defend South Korea at the 38th parallel" }
+    ],
+    "answer": "b",
+    "explanation": "The Marshall Plan provided over $13 billion in aid to revive Western European economies so communist parties would lose support.",
+    "source_url": "https://www.archives.gov/milestone-documents/marshall-plan",
+    "trap_notes": {
+      "a": "Space cooperation occurred decades later, not in 1948.",
+      "c": "Berlin's four occupation zones were set at the 1945 Potsdam and Yalta conferences.",
+      "d": "U.S. troops entered the Korean War in 1950 under a UN resolution.",
+      "default": "The 1948 Marshall Plan used economic aid to rebuild Western Europe and contain communism."
+    }
+  },
+  {
+    "id": "us-mc-137",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1944–1956",
+    "skill_tag": "causation",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 40.7685, "lng": -73.5251, "label": "Levittown, New York" },
+    "prompt": "How did the 1944 GI Bill reshape American society after World War II?",
+    "options": [
+      { "id": "a", "text": "It required all returning veterans to serve in Europe for five years" },
+      { "id": "b", "text": "It created the national minimum wage for factory workers" },
+      { "id": "c", "text": "It funded college tuition and low-cost home loans for veterans" },
+      { "id": "d", "text": "It banned suburban housing developments near interstate highways" }
+    ],
+    "answer": "c",
+    "explanation": "The GI Bill helped millions of veterans attend college and buy suburban homes, fueling postwar middle-class growth.",
+    "source_url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+    "trap_notes": {
+      "a": "The GI Bill helped veterans transition back to civilian life, not stay in military service.",
+      "b": "The federal minimum wage was created earlier in the 1938 Fair Labor Standards Act.",
+      "d": "GI Bill mortgages actually fueled rapid suburban homebuilding like Levittown.",
+      "default": "The 1944 GI Bill paid for veterans' college education and low-interest home loans."
+    }
+  },
+  {
+    "id": "us-mc-138",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1955–1956",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 32.3792, "lng": -86.3077, "label": "Montgomery, Alabama" },
+    "prompt": "How did the 1955-1956 Montgomery Bus Boycott end bus segregation in the city?",
+    "options": [
+      { "id": "a", "text": "City voters passed a local referendum welcoming integrated buses" },
+      { "id": "b", "text": "Federal troops drove city buses for a full calendar year" },
+      { "id": "c", "text": "Congress passed the Voting Rights Act to govern city transit" },
+      { "id": "d", "text": "A yearlong Black boycott and a Supreme Court ruling ended it" }
+    ],
+    "answer": "d",
+    "explanation": "After Rosa Parks's arrest, Black residents boycotted buses for 381 days while Browder v. Gayle won a 1956 Supreme Court ruling.",
+    "source_url": "https://www.loc.gov/exhibits/civil-rights-act/segregation-era.html",
+    "trap_notes": {
+      "a": "City leaders resisted integration until the federal courts ordered it.",
+      "b": "Federal troops were sent to Little Rock Central High in 1957, not to drive Montgomery buses.",
+      "c": "The Voting Rights Act passed in 1965, nearly ten years after the boycott.",
+      "default": "The 1955-56 Montgomery Bus Boycott combined economic pressure with Browder v. Gayle."
+    }
+  },
+  {
+    "id": "us-mc-139",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Civil Rights Movement",
+    "era": "1965",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 32.4074, "lng": -87.0211, "label": "Selma, Alabama" },
+    "prompt": "What barriers did the Voting Rights Act of 1965 directly outlaw?",
+    "options": [
+      { "id": "a", "text": "Literacy tests and practices used to block Black voters" },
+      { "id": "b", "text": "State laws setting the minimum voting age at eighteen" },
+      { "id": "c", "text": "Primary elections held by political parties in northern states" },
+      { "id": "d", "text": "Paper ballots in counties with fewer than ten thousand residents" }
+    ],
+    "answer": "a",
+    "explanation": "Passed after the Selma marches, the 1965 law banned literacy tests and sent federal examiners to register disenfranchised voters.",
+    "source_url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+    "trap_notes": {
+      "b": "The 26th Amendment lowered the national voting age to eighteen in 1971.",
+      "c": "Political party primaries were not outlawed by the 1965 Voting Rights Act.",
+      "d": "The law targeted racial discrimination, not paper ballots in small counties.",
+      "default": "The 1965 Voting Rights Act banned literacy tests and added federal oversight."
+    }
+  },
+  {
+    "id": "us-mc-140",
+    "type": "mc",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1972",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "prompt": "What did Title IX of the Education Amendments of 1972 prohibit?",
+    "options": [
+      { "id": "a", "text": "Charging tuition at public high schools across the United States" },
+      { "id": "b", "text": "Sex discrimination in education programs receiving federal funds" },
+      { "id": "c", "text": "Mandatory standardized testing in elementary math classrooms" },
+      { "id": "d", "text": "Private colleges from offering athletic scholarships to students" }
+    ],
+    "answer": "b",
+    "explanation": "Title IX barred sex-based discrimination in federally funded schools, dramatically expanding women's access to academics and athletics.",
+    "source_url": "https://www.justice.gov/crt/title-ix-education-amendments-1972",
+    "trap_notes": {
+      "a": "Title IX addresses sex equality, not public school tuition fees.",
+      "c": "Federal standardized testing rules came later under laws like No Child Left Behind.",
+      "d": "Title IX expanded athletic scholarships for women rather than banning them.",
+      "default": "Title IX (1972) banned sex discrimination in federally funded schools and sports."
+    }
+  },
+  {
+    "id": "us-ded-101",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1607–1624",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 37.209, "lng": -76.774, "label": "Jamestown, Virginia" },
+    "clues": [
+      "Joint-stock investors founded this settlement in 1607 along a marshy river.",
+      "Its early years included a brutal 'Starving Time' and conflicts with Powhatan.",
+      "John Rolfe's sweet tobacco crop finally made this Virginia town profitable."
+    ],
+    "prompt": "Which colonial settlement do these clues identify?",
+    "options": [
+      { "id": "a", "text": "Jamestown Colony" },
+      { "id": "b", "text": "Plymouth Colony" },
+      { "id": "c", "text": "Roanoke Colony" },
+      { "id": "d", "text": "Boston Settlement" }
+    ],
+    "answer": "a",
+    "explanation": "Founded in 1607 by the Virginia Company, Jamestown became the first permanent English settlement in North America.",
+    "source_url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm",
+    "trap_notes": {
+      "b": "Plymouth was settled by Pilgrims in Massachusetts in 1620, not 1607 Virginia.",
+      "c": "Roanoke was the 1580s 'Lost Colony' in North Carolina, not a permanent town.",
+      "d": "Boston was founded by Puritans in Massachusetts in 1630.",
+      "default": "1607 + Powhatan + John Rolfe's tobacco = Jamestown, Virginia."
+    }
+  },
+  {
+    "id": "us-ded-102",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Indigenous & Colonial",
+    "era": "1620",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.9584, "lng": -70.6673, "label": "Plymouth, Massachusetts" },
+    "clues": [
+      "Forty-one men signed this short agreement aboard a ship in November 1620.",
+      "Blown north of Virginia, the passengers needed a rulebook for self-government.",
+      "Pilgrim settlers pledged to form a 'civil body politic' and obey just laws."
+    ],
+    "prompt": "Which founding colonial document is described?",
+    "options": [
+      { "id": "a", "text": "Maryland Toleration Act" },
+      { "id": "b", "text": "The Mayflower Compact" },
+      { "id": "c", "text": "Connecticut Orders" },
+      { "id": "d", "text": "Albany Plan of Union" }
+    ],
+    "answer": "b",
+    "explanation": "Signed in 1620 aboard the Mayflower, the compact established majority-rule self-government for Plymouth Colony.",
+    "source_url": "https://www.loc.gov/exhibits/religion/rel01.html",
+    "trap_notes": {
+      "a": "Maryland's Toleration Act was passed by its assembly in 1649.",
+      "c": "The Fundamental Orders were adopted in Connecticut in 1639.",
+      "d": "Benjamin Franklin proposed the Albany Plan of Union in 1754.",
+      "default": "1620 + shipboard pact + Pilgrims = Mayflower Compact."
+    }
+  },
+  {
+    "id": "us-ded-103",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1776",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, Pennsylvania" },
+    "clues": [
+      "Published in January 1776, this 47-page pamphlet sold over 100,000 copies.",
+      "Written in plain language, it mocked hereditary kings and praised republics.",
+      "Thomas Paine argued it was absurd for an island to rule a whole continent."
+    ],
+    "prompt": "Which Revolutionary publication is described?",
+    "options": [
+      { "id": "a", "text": "A Farmer's Letters" },
+      { "id": "b", "text": "Federalist Papers" },
+      { "id": "c", "text": "Paine's Common Sense" },
+      { "id": "d", "text": "The American Crisis" }
+    ],
+    "answer": "c",
+    "explanation": "Thomas Paine's January 1776 pamphlet Common Sense rallied ordinary colonists to support full independence from Britain.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/revolution-of-the-mind.html",
+    "trap_notes": {
+      "a": "John Dickinson wrote Letters from a Farmer in Pennsylvania in 1767-1768.",
+      "b": "The Federalist Papers were written in 1787-1788 to support the Constitution.",
+      "d": "Paine wrote The American Crisis later in December 1776 to boost army morale.",
+      "default": "January 1776 + Thomas Paine + island ruling a continent = Common Sense."
+    }
+  },
+  {
+    "id": "us-ded-104",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Revolution & Constitution",
+    "era": "1781–1789",
+    "skill_tag": "conceptual",
+    "trap_type": "jurisdiction_swap",
+    "geo": { "lat": 39.9489, "lng": -75.15, "label": "Philadelphia, Pennsylvania" },
+    "clues": [
+      "Ratified in 1781, this framework created a one-house Congress with no president.",
+      "The national government could declare war and make treaties, but not tax.",
+      "Each state kept one vote, and changing the rules required all thirteen states."
+    ],
+    "prompt": "Which governing framework do these clues describe?",
+    "options": [
+      { "id": "a", "text": "The U.S. Constitution" },
+      { "id": "b", "text": "The Olive Branch Petition" },
+      { "id": "c", "text": "The Declaration of Independence" },
+      { "id": "d", "text": "The Articles of Confederation" }
+    ],
+    "answer": "d",
+    "explanation": "The Articles of Confederation served as the first U.S. government (1781-1789), with no executive and no power to tax.",
+    "source_url": "https://www.archives.gov/milestone-documents/articles-of-confederation",
+    "trap_notes": {
+      "a": "The 1787 Constitution created a president, courts, and congressional taxing power.",
+      "b": "The 1775 Olive Branch Petition was a last plea for peace sent to King George III.",
+      "c": "The 1776 Declaration announced independence rather than setting up a government.",
+      "default": "1781 + one-house Congress + no power to tax = Articles of Confederation."
+    }
+  },
+  {
+    "id": "us-ded-105",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1794",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 40.4406, "lng": -79.9959, "label": "Pittsburgh, Pennsylvania" },
+    "clues": [
+      "Western grain farmers protested a 1791 federal excise tax on distilled spirits.",
+      "Tax collectors were tarred and feathered in Pennsylvania during the summer of 1794.",
+      "President Washington led nearly 13,000 militiamen to show the new law held."
+    ],
+    "prompt": "Which early test of federal power is described?",
+    "options": [
+      { "id": "a", "text": "Whiskey Rebellion" },
+      { "id": "b", "text": "Shays' Rebellion" },
+      { "id": "c", "text": "Nullification Crisis" },
+      { "id": "d", "text": "Hartford Convention" }
+    ],
+    "answer": "a",
+    "explanation": "In 1794, Washington's swift militia response to the Whiskey Rebellion proved the new federal government could enforce its laws.",
+    "source_url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/whiskey-rebellion",
+    "trap_notes": {
+      "b": "Shays' Rebellion happened in 1786 Massachusetts under the Articles of Confederation.",
+      "c": "The Nullification Crisis occurred in 1832-1833 over South Carolina tariffs.",
+      "d": "The Hartford Convention was an 1814-1815 Federalist meeting during the War of 1812.",
+      "default": "1794 + Pennsylvania spirit tax + Washington's militia = Whiskey Rebellion."
+    }
+  },
+  {
+    "id": "us-ded-106",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1803",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, Louisiana" },
+    "clues": [
+      "This 1803 agreement doubled the geographic size of the United States for $15 million.",
+      "President Jefferson worried the Constitution did not clearly allow buying land.",
+      "Napoleon sold the territory stretching from New Orleans to the Rocky Mountains."
+    ],
+    "prompt": "Which landmark land deal is identified?",
+    "options": [
+      { "id": "a", "text": "Gadsden Purchase" },
+      { "id": "b", "text": "Louisiana Purchase" },
+      { "id": "c", "text": "Adams-Onís Treaty" },
+      { "id": "d", "text": "Oregon Treaty" }
+    ],
+    "answer": "b",
+    "explanation": "Bought from France in 1803, the Louisiana Purchase added 828,000 square miles and secured the port of New Orleans.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "trap_notes": {
+      "a": "The 1853 Gadsden Purchase bought a small strip of Arizona and New Mexico from Mexico.",
+      "c": "The 1819 Adams-Onís Treaty acquired Florida from Spain.",
+      "d": "The 1846 Oregon Treaty settled the Pacific Northwest border with Britain.",
+      "default": "1803 + $15 million + Napoleon + New Orleans = Louisiana Purchase."
+    }
+  },
+  {
+    "id": "us-ded-107",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Early Republic",
+    "era": "1820–1845",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 42.6334, "lng": -71.3162, "label": "Lowell, Massachusetts" },
+    "clues": [
+      "Planned textile towns along the Merrimack River hired young New England farm women.",
+      "Workers lived in supervised boardinghouses and followed strict factory bells.",
+      "In the 1830s, these 'mill girls' staged early strikes to protest wage cuts."
+    ],
+    "prompt": "Which early industrial system is described?",
+    "options": [
+      { "id": "a", "text": "Pullman Company Town" },
+      { "id": "b", "text": "Triangle Shirtwaist Factory" },
+      { "id": "c", "text": "Lowell Mill System" },
+      { "id": "d", "text": "Sharecropping System" }
+    ],
+    "answer": "c",
+    "explanation": "Starting in the 1820s, the Lowell System combined water-powered textile mills with boardinghouses for young rural women.",
+    "source_url": "https://www.nps.gov/lowe/learn/historyculture/the-mill-girls-of-lowell.htm",
+    "trap_notes": {
+      "a": "The Pullman railroad car town outside Chicago opened in the 1880s.",
+      "b": "The Triangle Shirtwaist Factory fire occurred in New York City in 1911.",
+      "d": "Sharecropping was a post-Civil War agricultural labor system in the South.",
+      "default": "Merrimack River + boardinghouses + young farm women = Lowell Mill System."
+    }
+  },
+  {
+    "id": "us-ded-108",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Westward Expansion",
+    "era": "1848",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 19.483, "lng": -99.118, "label": "Mexico City, Mexico" },
+    "clues": [
+      "Signed in February 1848, this agreement ended a two-year war in North America.",
+      "The United States paid $15 million and assumed certain claims by its citizens.",
+      "Mexico ceded California, Nevada, Utah, and most of Arizona and New Mexico."
+    ],
+    "prompt": "Which treaty do these clues identify?",
+    "options": [
+      { "id": "a", "text": "Treaty of Paris" },
+      { "id": "b", "text": "Treaty of Ghent" },
+      { "id": "c", "text": "Ashburton Treaty" },
+      { "id": "d", "text": "Guadalupe Hidalgo" }
+    ],
+    "answer": "d",
+    "explanation": "The 1848 Treaty of Guadalupe Hidalgo ended the Mexican-American War and transferred the Mexican Cession to the United States.",
+    "source_url": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+    "trap_notes": {
+      "a": "Treaties of Paris ended the Revolutionary War in 1783 and the Spanish-American War in 1898.",
+      "b": "The Treaty of Ghent ended the War of 1812 with Britain in 1814.",
+      "c": "The 1842 Webster-Ashburton Treaty settled the Maine-Canada border.",
+      "default": "1848 + Mexican-American War + California & Southwest = Guadalupe Hidalgo."
+    }
+  },
+  {
+    "id": "us-ded-109",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1850",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "clues": [
+      "Henry Clay and Stephen Douglas helped steer this five-part package through Congress.",
+      "It admitted California as a free state and ended the slave trade in Washington, D.C.",
+      "In return, Southern states won a much stricter federal Fugitive Slave Act."
+    ],
+    "prompt": "Which sectional agreement is described?",
+    "options": [
+      { "id": "a", "text": "Compromise of 1850" },
+      { "id": "b", "text": "Missouri Compromise" },
+      { "id": "c", "text": "Compromise of 1877" },
+      { "id": "d", "text": "Crittenden Compromise" }
+    ],
+    "answer": "a",
+    "explanation": "The Compromise of 1850 admitted California as a free state and paired it with a stricter Fugitive Slave Act.",
+    "source_url": "https://www.archives.gov/milestone-documents/compromise-of-1850",
+    "trap_notes": {
+      "b": "The Missouri Compromise passed in 1820, thirty years before California statehood.",
+      "c": "The Compromise of 1877 resolved the 1876 election and ended Reconstruction.",
+      "d": "The Crittenden Compromise was a failed 1860-1861 proposal to avert secession.",
+      "default": "California free + D.C. slave trade ban + Fugitive Slave Act = Compromise of 1850."
+    }
+  },
+  {
+    "id": "us-ded-110",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Slavery & Civil War",
+    "era": "1863",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 39.8309, "lng": -77.2311, "label": "Gettysburg, Pennsylvania" },
+    "clues": [
+      "Fought over three hot days in July 1863, this battle produced over 50,000 casualties.",
+      "General Robert E. Lee's second invasion of the North stalled on Cemetery Ridge.",
+      "Four months later, President Lincoln dedicated a national cemetery at this site."
+    ],
+    "prompt": "Which Civil War battle do these clues identify?",
+    "options": [
+      { "id": "a", "text": "Battle of Antietam" },
+      { "id": "b", "text": "Battle of Gettysburg" },
+      { "id": "c", "text": "Battle of Vicksburg" },
+      { "id": "d", "text": "Battle of Bull Run" }
+    ],
+    "answer": "b",
+    "explanation": "Gettysburg (July 1-3, 1863) halted Lee's northern advance and inspired Lincoln's famous November 1863 address.",
+    "source_url": "https://www.nps.gov/gett/learn/historyculture/index.htm",
+    "trap_notes": {
+      "a": "Antietam was fought in Maryland in September 1862, before the Emancipation Proclamation.",
+      "c": "Vicksburg was Grant's 1863 siege on the Mississippi River, not Lee's invasion.",
+      "d": "Bull Run was fought in northern Virginia in 1861 and 1862.",
+      "default": "July 1863 + Pennsylvania + Lee turned back + Lincoln's address = Gettysburg."
+    }
+  },
+  {
+    "id": "us-ded-111",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Reconstruction",
+    "era": "1865",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "clues": [
+      "Congress passed this measure in January 1865, and states ratified it that December.",
+      "It closed the legal gap left by the wartime Emancipation Proclamation.",
+      "Its text abolished slavery and involuntary servitude across the entire United States."
+    ],
+    "prompt": "Which constitutional amendment is described?",
+    "options": [
+      { "id": "a", "text": "12th Amendment" },
+      { "id": "b", "text": "14th Amendment" },
+      { "id": "c", "text": "13th Amendment" },
+      { "id": "d", "text": "15th Amendment" }
+    ],
+    "answer": "c",
+    "explanation": "Ratified in December 1865, the 13th Amendment permanently abolished slavery throughout the entire United States.",
+    "source_url": "https://www.archives.gov/milestone-documents/13th-amendment",
+    "trap_notes": {
+      "a": "The 12th Amendment (1804) changed how the Electoral College votes for president.",
+      "b": "The 14th Amendment (1868) defined birthright citizenship and equal protection.",
+      "d": "The 15th Amendment (1870) barred racial discrimination in voting.",
+      "default": "1865 + abolished slavery everywhere in the U.S. = 13th Amendment."
+    }
+  },
+  {
+    "id": "us-ded-112",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Gilded Age & Populism",
+    "era": "1896",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 29.9511, "lng": -90.0715, "label": "New Orleans, Louisiana" },
+    "clues": [
+      "This 1896 case began when a Louisiana man challenged segregated railroad cars.",
+      "Only Justice John Marshall Harlan dissented, warning the Constitution is color-blind.",
+      "The majority upheld Jim Crow laws under the 'separate but equal' doctrine."
+    ],
+    "prompt": "Which Supreme Court ruling is identified?",
+    "options": [
+      { "id": "a", "text": "Dred Scott v. Sandford" },
+      { "id": "b", "text": "Brown v. Board of Education" },
+      { "id": "c", "text": "Loving v. Virginia" },
+      { "id": "d", "text": "Plessy v. Ferguson" }
+    ],
+    "answer": "d",
+    "explanation": "In Plessy v. Ferguson (1896), the Supreme Court upheld racial segregation under 'separate but equal' for nearly sixty years.",
+    "source_url": "https://www.archives.gov/milestone-documents/plessy-v-ferguson",
+    "trap_notes": {
+      "a": "Dred Scott (1857) denied Black citizenship before the Civil War.",
+      "b": "Brown v. Board (1954) overturned 'separate but equal' in public schools.",
+      "c": "Loving v. Virginia (1967) struck down bans on interracial marriage.",
+      "default": "1896 + Louisiana railcars + 'separate but equal' = Plessy v. Ferguson."
+    }
+  },
+  {
+    "id": "us-ded-113",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Progressive Era",
+    "era": "1889–1910",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 41.8719, "lng": -87.647, "label": "Chicago, Illinois" },
+    "clues": [
+      "Opened in 1889 in a working-class immigrant neighborhood of Chicago.",
+      "It offered daycare, English classes, job training, and public baths to neighbors.",
+      "Co-founder Jane Addams later won the Nobel Peace Prize for her reform work."
+    ],
+    "prompt": "Which Progressive Era institution is described?",
+    "options": [
+      { "id": "a", "text": "Chicago Hull House" },
+      { "id": "b", "text": "Tuskegee Institute" },
+      { "id": "c", "text": "Ellis Island Station" },
+      { "id": "d", "text": "Tammany Hall Club" }
+    ],
+    "answer": "a",
+    "explanation": "Jane Addams and Ellen Gates Starr founded Hull House in 1889 as a pioneering settlement house serving Chicago immigrants.",
+    "source_url": "https://www.nps.gov/places/hull-house.htm",
+    "trap_notes": {
+      "b": "Tuskegee Institute was founded by Booker T. Washington in Alabama in 1881.",
+      "c": "Ellis Island was a federal immigration inspection station in New York Harbor.",
+      "d": "Tammany Hall was New York City's Democratic political machine.",
+      "default": "1889 + Chicago immigrants + Jane Addams = Hull House."
+    }
+  },
+  {
+    "id": "us-ded-114",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1918",
+    "skill_tag": "primary_source",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "clues": [
+      "Delivered to Congress in January 1918, this plan outlined goals for postwar peace.",
+      "It called for open diplomacy, freedom of the seas, and reduced armaments.",
+      "Its final item proposed a League of Nations to settle disputes peacefully."
+    ],
+    "prompt": "Which peace blueprint do these clues identify?",
+    "options": [
+      { "id": "a", "text": "Atlantic Charter" },
+      { "id": "b", "text": "Fourteen Points" },
+      { "id": "c", "text": "Kellogg-Briand Pact" },
+      { "id": "d", "text": "Marshall Plan" }
+    ],
+    "answer": "b",
+    "explanation": "President Woodrow Wilson's 1918 Fourteen Points promoted self-determination, free trade, and the League of Nations.",
+    "source_url": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
+    "trap_notes": {
+      "a": "The Atlantic Charter was issued by FDR and Winston Churchill in 1941.",
+      "c": "The 1928 Kellogg-Briand Pact was a later treaty attempting to outlaw war.",
+      "d": "The 1948 Marshall Plan funded Western Europe's economic recovery after WWII.",
+      "default": "January 1918 + Woodrow Wilson + League of Nations = Fourteen Points."
+    }
+  },
+  {
+    "id": "us-ded-115",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "World War I & 1920s",
+    "era": "1925",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 35.4939, "lng": -85.0124, "label": "Dayton, Tennessee" },
+    "clues": [
+      "This 1925 courtroom clash drew reporters from across the country to Dayton, Tennessee.",
+      "Clarence Darrow and William Jennings Bryan argued over science and faith.",
+      "High school teacher John Scopes was fined $100 for teaching human evolution."
+    ],
+    "prompt": "Which 1920s cultural conflict is described?",
+    "options": [
+      { "id": "a", "text": "Sacco-Vanzetti Trial" },
+      { "id": "b", "text": "Teapot Dome Trial" },
+      { "id": "c", "text": "Dayton Scopes Trial" },
+      { "id": "d", "text": "Engel v. Vitale Case" }
+    ],
+    "answer": "c",
+    "explanation": "The 1925 Scopes 'Monkey' Trial highlighted 1920s tensions between religious fundamentalism and modern science.",
+    "source_url": "https://www.loc.gov/item/today-in-history/july-21/",
+    "trap_notes": {
+      "a": "Sacco and Vanzetti were Italian anarchists tried for murder in 1920s Massachusetts.",
+      "b": "Teapot Dome was a 1920s federal oil-leasing bribery scandal.",
+      "d": "Engel v. Vitale was a 1962 Supreme Court ruling on school-sponsored prayer.",
+      "default": "1925 + Tennessee + evolution + Darrow vs. Bryan = Scopes Trial."
+    }
+  },
+  {
+    "id": "us-ded-116",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Great Depression & New Deal",
+    "era": "1935",
+    "skill_tag": "conceptual",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "clues": [
+      "Passed in August 1935, this Second New Deal law built a permanent safety net.",
+      "It created federal unemployment insurance and aid for dependent children.",
+      "Payroll taxes from workers and employers funded monthly old-age pensions."
+    ],
+    "prompt": "Which landmark New Deal law is identified?",
+    "options": [
+      { "id": "a", "text": "National Wagner Act" },
+      { "id": "b", "text": "Glass-Steagall Act" },
+      { "id": "c", "text": "Farm Adjustment Act" },
+      { "id": "d", "text": "Social Security Act" }
+    ],
+    "answer": "d",
+    "explanation": "The 1935 Social Security Act established old-age pensions, unemployment insurance, and assistance for vulnerable Americans.",
+    "source_url": "https://www.archives.gov/milestone-documents/social-security-act",
+    "trap_notes": {
+      "a": "The 1935 Wagner Act protected labor unions and collective bargaining.",
+      "b": "The 1933 Glass-Steagall Act separated commercial and investment banking and created the FDIC.",
+      "c": "The 1933 Agricultural Adjustment Act paid farmers to cut crop surpluses.",
+      "default": "1935 + payroll taxes + old-age pensions = Social Security Act."
+    }
+  },
+  {
+    "id": "us-ded-117",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "World War II",
+    "era": "1941",
+    "skill_tag": "causation",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 21.3649, "lng": -157.95, "label": "Oahu, Hawaii" },
+    "clues": [
+      "On Sunday morning, December 7, 1941, waves of planes struck a U.S. naval base.",
+      "Over 2,400 Americans died, and battleships like the USS Arizona were sunk.",
+      "The next day, President Roosevelt asked Congress to declare war on Japan."
+    ],
+    "prompt": "Which World War II turning point is described?",
+    "options": [
+      { "id": "a", "text": "Pearl Harbor Raid" },
+      { "id": "b", "text": "Battle of Midway" },
+      { "id": "c", "text": "D-Day Invasion" },
+      { "id": "d", "text": "Battle of the Bulge" }
+    ],
+    "answer": "a",
+    "explanation": "Japan's surprise December 7, 1941 attack on Pearl Harbor ended U.S. isolationism and brought America into World War II.",
+    "source_url": "https://www.nps.gov/perl/learn/historyculture/index.htm",
+    "trap_notes": {
+      "b": "The Battle of Midway in June 1942 was a major U.S. naval victory in the Pacific.",
+      "c": "D-Day was the June 1944 Allied landing in Normandy, France.",
+      "d": "The Battle of the Bulge was Germany's December 1944 counteroffensive in Europe.",
+      "default": "December 7, 1941 + Oahu naval base + USS Arizona = Pearl Harbor."
+    }
+  },
+  {
+    "id": "us-ded-118",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1947",
+    "skill_tag": "primary_source",
+    "trap_type": "policy_lever_swap",
+    "geo": { "lat": 37.9838, "lng": 23.7275, "label": "Athens, Greece" },
+    "clues": [
+      "Announced in March 1947 after Britain could no longer fund Greek royalist forces.",
+      "It requested $400 million in military and economic aid for Greece and Turkey.",
+      "The president pledged to support 'free peoples' resisting armed subjugation."
+    ],
+    "prompt": "Which Cold War policy statement is described?",
+    "options": [
+      { "id": "a", "text": "Monroe Doctrine" },
+      { "id": "b", "text": "Truman Doctrine" },
+      { "id": "c", "text": "Eisenhower Doctrine" },
+      { "id": "d", "text": "Nixon Doctrine" }
+    ],
+    "answer": "b",
+    "explanation": "The 1947 Truman Doctrine launched the U.S. policy of containment by aiding Greece and Turkey against communist pressure.",
+    "source_url": "https://www.archives.gov/milestone-documents/truman-doctrine",
+    "trap_notes": {
+      "a": "The 1823 Monroe Doctrine warned Europe against new colonies in the Americas.",
+      "c": "The 1957 Eisenhower Doctrine offered U.S. aid to Middle Eastern nations.",
+      "d": "The 1969 Nixon Doctrine expected Asian allies to shoulder more of their own defense.",
+      "default": "March 1947 + Greece and Turkey + containment = Truman Doctrine."
+    }
+  },
+  {
+    "id": "us-ded-119",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Cold War",
+    "era": "1962",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 23.1136, "lng": -82.3666, "label": "Havana, Cuba" },
+    "clues": [
+      "In October 1962, U-2 spy planes photographed Soviet nuclear launch sites in Cuba.",
+      "President Kennedy ordered a naval quarantine and demanded the weapons be removed.",
+      "After thirteen tense days, Premier Khrushchev agreed to dismantle the missiles."
+    ],
+    "prompt": "Which Cold War confrontation do these clues identify?",
+    "options": [
+      { "id": "a", "text": "Berlin Wall Airlift" },
+      { "id": "b", "text": "Bay of Pigs Landing" },
+      { "id": "c", "text": "Cuban Missile Crisis" },
+      { "id": "d", "text": "Suez Canal Crisis" }
+    ],
+    "answer": "c",
+    "explanation": "The October 1962 Cuban Missile Crisis brought the U.S. and USSR to the brink of nuclear war before a diplomatic deal ended it.",
+    "source_url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis",
+    "trap_notes": {
+      "a": "The Berlin Airlift supplied West Berlin during the 1948-1949 Soviet blockade.",
+      "b": "The Bay of Pigs was a failed April 1961 invasion of Cuba by U.S.-backed exiles.",
+      "d": "The 1956 Suez Crisis involved Egypt, Britain, France, and Israel over the Suez Canal.",
+      "default": "October 1962 + U-2 photos + naval quarantine = Cuban Missile Crisis."
+    }
+  },
+  {
+    "id": "us-ded-120",
+    "type": "deduction",
+    "domain": "US",
+    "subdomain": "Modern Era",
+    "era": "1972–1974",
+    "skill_tag": "conceptual",
+    "trap_type": "era_bleed",
+    "geo": { "lat": 38.9072, "lng": -77.0369, "label": "Washington, D.C." },
+    "clues": [
+      "It began with a June 1972 break-in at Democratic Party offices in Washington, D.C.",
+      "Secret White House tape recordings revealed a cover-up of obstruction of justice.",
+      "Facing likely impeachment, President Richard Nixon resigned in August 1974."
+    ],
+    "prompt": "Which modern political scandal is described?",
+    "options": [
+      { "id": "a", "text": "Teapot Dome Scandal" },
+      { "id": "b", "text": "Iran-Contra Affair" },
+      { "id": "c", "text": "Pentagon Papers" },
+      { "id": "d", "text": "Watergate Scandal" }
+    ],
+    "answer": "d",
+    "explanation": "The Watergate cover-up led the Supreme Court to order Nixon to hand over tapes in U.S. v. Nixon and forced his 1974 resignation.",
+    "source_url": "https://www.archives.gov/research/investigations/watergate",
+    "trap_notes": {
+      "a": "Teapot Dome was a 1920s oil-leasing bribery scandal under President Harding.",
+      "b": "Iran-Contra was a 1980s arms-for-hostages scandal under President Reagan.",
+      "c": "The Pentagon Papers were leaked 1971 Vietnam War history documents.",
+      "default": "1972 break-in + White House tapes + Nixon's 1974 resignation = Watergate."
+    }
+  }
+]
