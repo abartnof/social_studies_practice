@@ -1,0 +1,383 @@
+:root {
+  /* Dyslexia-friendly primary typography for all reading copy */
+  --font-sans: 'Atkinson Hyperlegible', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Lexend', 'Atkinson Hyperlegible', sans-serif;
+  --font-serif: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Pure White on Pure Black Monochrome Base */
+  --surface-paper: #000000;
+  --surface-card: #000000;
+  --surface-inset: #000000;
+  --surface-chip: #000000;
+  --surface-chip-hover: #000000;
+
+  --ink-primary: #FFFFFF;
+  --ink-secondary: #FFFFFF;
+  --ink-muted: #FFFFFF;
+
+  /* Monochrome Primary Action & Subtle Borders */
+  --btn-primary-bg: #FFFFFF;
+  --btn-primary-ink: #000000;
+  --border-subtle: rgba(255, 255, 255, 0.22);
+  --border-strong: rgba(255, 255, 255, 0.30);
+  --border-active: #FFFFFF;
+
+  /* Strict Semantic Colors ONLY: Green = Good, Red = Bad */
+  --accent-emerald: #39FF88;
+  --accent-emerald-soft: rgba(57, 255, 136, 0.12);
+  --accent-emerald-border: rgba(57, 255, 136, 0.65);
+
+  --accent-crimson: #FF4D6D;
+  --accent-crimson-soft: rgba(255, 77, 109, 0.12);
+  --accent-crimson-border: rgba(255, 77, 109, 0.65);
+
+  --radius-card: 6px;
+  --radius-chip: 4px;
+  --radius-pill: 4px;
+
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.55);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--surface-paper);
+  color: var(--ink-primary);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.015em;
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  overscroll-behavior-y: contain;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* iPhone-first mobile shell (Relaxed Text Spacing permanent default) */
+.atlas-shell {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 430px;
+  min-height: 100dvh;
+  overflow-y: visible;
+  margin: 0 auto;
+  padding:
+    max(12px, env(safe-area-inset-top))
+    16px
+    max(24px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  line-height: 1.62;
+  letter-spacing: 0.025em;
+  word-spacing: 0.06em;
+}
+
+.atlas-shell p,
+.atlas-shell li,
+.atlas-shell button {
+  line-height: 1.62;
+}
+
+.post-answer-bar {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.post-answer-half {
+  flex: 1;
+  min-height: 48px;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #000000;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    border-color 150ms ease,
+    background-color 120ms ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.post-answer-half:hover {
+  border-color: #FFFFFF;
+}
+
+.post-answer-half:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Open whitespace layout block (no outer borders/boxes) */
+.md3-card {
+  position: relative;
+  background: transparent;
+  border: none;
+  padding: 8px 0;
+}
+
+/* Clean Rectangular Interactive Keys (never clip text) */
+.tactile-btn {
+  min-height: 48px;
+  height: auto;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  font-family: inherit;
+  font-size: 0.96rem;
+  font-weight: 700;
+  letter-spacing: inherit;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-align: center;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 16px;
+  transition:
+    transform 120ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 150ms ease,
+    border-color 150ms ease,
+    opacity 150ms ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.tactile-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.tactile-btn:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+}
+
+.tactile-btn:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--ink-primary);
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-ink);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #FFFFFF;
+}
+
+.btn-tonal {
+  background: #000000;
+  color: #FFFFFF;
+  border-color: var(--border-strong);
+}
+
+.btn-tonal:hover:not(:disabled) {
+  background: #000000;
+  border-color: #FFFFFF;
+}
+
+.btn-outline {
+  background: #000000;
+  color: #FFFFFF;
+  border-color: var(--border-strong);
+}
+
+/* Ultra-clean option buttons */
+.option-pill {
+  width: 100%;
+  min-height: 46px;
+  height: auto;
+  padding: 10px 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border-strong);
+  background: #000000;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 0.94rem;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: inherit;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  cursor: pointer;
+  transition:
+    transform 120ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 150ms ease,
+    border-color 150ms ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.option-pill:hover:not(:disabled) {
+  background: #000000;
+  border-color: #FFFFFF;
+}
+
+.option-pill:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.option-pill:disabled {
+  cursor: default;
+}
+
+.option-pill.selected-neutral {
+  border-color: #FFFFFF;
+  background: #000000;
+}
+
+.option-pill.is-correct {
+  border-color: var(--accent-emerald);
+  background: var(--accent-emerald-soft);
+  color: #FFFFFF;
+}
+
+.option-pill.is-wrong {
+  border-color: var(--accent-crimson);
+  background: var(--accent-crimson-soft);
+  color: #FFFFFF;
+}
+
+/* Ultra-clean ordering chips */
+.order-chip {
+  width: 100%;
+  min-height: 44px;
+  height: auto;
+  padding: 9px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--border-strong);
+  background: #000000;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.42;
+  cursor: pointer;
+  touch-action: none;
+  will-change: transform;
+  transition:
+    transform 280ms cubic-bezier(0.2, 0, 0, 1),
+    border-color 150ms ease,
+    background-color 150ms ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.order-chip.is-locked {
+  cursor: default;
+  touch-action: manipulation;
+}
+
+.order-chip:active:not(.is-locked):not(.is-dragging) {
+  transform: scale(0.98);
+}
+
+.order-chip.is-picked {
+  border-color: var(--border-active);
+  background: var(--surface-chip-hover);
+  transform: translateY(-2px);
+}
+
+.order-chip.is-dragging {
+  position: relative;
+  border-color: #FFFFFF;
+  background: var(--surface-card);
+  box-shadow: var(--shadow-elevated);
+  z-index: 20;
+  cursor: grabbing;
+  transition: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+@keyframes sheetSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sheet-enter {
+  animation: sheetSlideUp 200ms cubic-bezier(0.2, 0.9, 0.3, 1) forwards;
+}
+
+@keyframes heartPop {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart-pop {
+  animation: heartPop 280ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 180ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
